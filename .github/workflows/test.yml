@@ -21,6 +21,5 @@ jobs:
           rm .cache -rf
           mkdir ./.cache
 
-          ava reset-cache
-
+          ./node_modules/.bin/ava reset-cache
           ./node_modules/.bin/ava --serial
