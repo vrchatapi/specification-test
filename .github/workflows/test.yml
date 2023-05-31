@@ -23,3 +23,8 @@ jobs:
 
           ./node_modules/.bin/ava reset-cache
           ./node_modules/.bin/ava --serial
+        env:
+          VRCHAT_EMAIL: ${{ secrets.VRCHAT_EMAIL }}
+          VRCHAT_USERNAME: ${{ secrets.VRCHAT_USERNAME }}
+          VRCHAT_PASSWORD: ${{ secrets.VRCHAT_PASSWORD }}
+          VRCHAT_TOTP_SECRET: ${{ secrets.VRCHAT_TOTP_SECRET }}
