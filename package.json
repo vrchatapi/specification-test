@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./test.sh",
-    "run-test": "ava reset-cache && rm .cache -rf && ava --serial"
+    "run": "ava --serial"
   },
   "keywords": [],
   "author": "",
