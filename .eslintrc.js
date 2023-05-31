@@ -10,6 +10,7 @@ module.exports = {
 		"plugin:ava/recommended"
 	],
 	rules: {
+		"@typescript-eslint/no-explicit-any": "off",
 		"ava/no-todo-test": "off",
 		"ava/use-test": "off"
 	}

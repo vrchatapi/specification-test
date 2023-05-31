@@ -4,20 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./test.sh"
+    "test": "./test.sh",
+    "run-test": "ava reset-cache && rm .cache -rf && ava --serial"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "ava": {
-    "timeout": "5m",
-    "extensions": [
-      "ts"
-    ],
-    "require": [
-      "ts-node/register"
-    ]
-  },
   "dependencies": {
     "@apidevtools/json-schema-ref-parser": "^10.1.0",
     "@exodus/schemasafe": "^1.0.1",
