@@ -79,13 +79,13 @@
   "state": "offline",
   "tags": [],
   "developerType": "none",
-  "last_login": "2023-06-02T02:17:56.817Z",
+  "last_login": "2023-06-02T02:32:39.472Z",
   "last_platform": "standalonewindows",
   "allowAvatarCopying": true,
   "status": "active",
   "date_joined": "2023-04-11",
   "isFriend": false,
   "friendKey": "434f410a4ad8d57975d638fd6bef40fe056de7b9f8c23321e51e935710936289",
-  "last_activity": "2023-06-02T02:17:56.817Z"
+  "last_activity": "2023-06-02T02:32:39.472Z"
 }
 ```
