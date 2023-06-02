@@ -2,8 +2,8 @@
 
 import totpGenerator from "totp-generator";
 
-import { test, testOperation, unstableValues } from "./_utilities";
-import { state } from "./_cache";
+import { test, testOperation } from "./_utilities";
+import { sensitiveValues, state, unstableValues } from "./_cache";
 import { vrchatEmail, vrchatPassword, vrchatTotpSecret, vrchatUsername } from "./_consts";
 
 test.serial("while missing credentials", testOperation, "getCurrentUser", {
@@ -61,6 +61,13 @@ test.serial(
 	(t) => {
 		const { body } = t.context;
 		state.set("current-user", body);
+
+		sensitiveValues.add(body.obfuscatedEmail);
+		sensitiveValues.add(body.obfuscatedPendingEmail);
+
+		unstableValues.add(body.last_login);
+		unstableValues.add(body.last_activity);
+		unstableValues.add(body.updated_at);
 
 		t.is(body.username, vrchatUsername);
 	}

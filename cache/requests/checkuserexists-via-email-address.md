@@ -1,7 +1,7 @@
 # checkUserExists via email address
 
 ## Request
-`get https://api.vrchat.cloud/api/1/auth/exists?email=<redacted>%40ariesclark.com`
+`get https://api.vrchat.cloud/api/1/auth/exists?email=<redacted>`
 
 | Header | Value |
 | ------ | ----- |

@@ -13,15 +13,17 @@ import ms from "ms";
 import "dotenv/config";
 import { Cookie, CookieJar } from "tough-cookie";
 
-import { cache, state, tryJsonParse, tryStringify } from "./_cache";
-import { vrchatEmail, vrchatPassword, vrchatTotpSecret, vrchatUsername } from "./_consts";
+import {
+	cache,
+	sensitiveValues,
+	state,
+	tryJsonParse,
+	tryStringify,
+	unstableValues
+} from "./_cache";
+import { methods, requestRateLimit, version } from "./_consts";
 
 util.inspect.defaultOptions.depth = 4; // Increase AVA's printing depth
-
-export const methods = ["delete", "get", "head", "patch", "post", "put", "trace"] as const;
-
-const githubSha = process.env.GITHUB_SHA ?? null;
-const version = githubSha ? githubSha.slice(0, 8) : "local";
 
 export type Specification = OpenAPIV3.Document;
 
@@ -124,22 +126,32 @@ function parseSchema(schema: OpenAPIV3.SchemaObject, value: string) {
 	})(value);
 }
 
+let lastRequestAt: number | null = null;
+
 export async function fetch(
 	t: ExecutionContext<TestContext>,
 	url: URL,
 	options: RequestInit = {}
 ): Promise<Response | null> {
+	const sinceLastRequest = lastRequestAt ? performance.now() - lastRequestAt : 0;
+
+	if (sinceLastRequest < requestRateLimit) {
+		const delay = requestRateLimit - sinceLastRequest;
+		t.log(`Waiting ${ms(Math.round(delay), { long: true })} before making request...`);
+
+		// Voluntarily wait a bit before making the request.
+		await new Promise((resolve) => setTimeout(resolve, delay));
+	}
+
 	let response: Response | null = null;
 	let attempt: Awaited<ReturnType<typeof t.try>> | null = null;
 
 	for (let i = 0; i < 10; i++) {
-		// Exponential backoff, starting at 200ms.
-		const backoff = 200 * Math.pow(2, i);
-
 		attempt = await t.try(`Request attempt #${i + 1}`, async (t) => {
 			response = await t.context.fetchWithCookie(url, options);
+			lastRequestAt = performance.now();
 
-			// We're getting rate limited, so we need to wait a bit.
+			// We're getting forcefully rate limited, so we need to wait a bit.
 			t.not(response.status, 429);
 		});
 
@@ -160,6 +172,9 @@ export async function fetch(
 		}
 
 		attempt.discard();
+
+		// Exponential back off, starting at 1 second.
+		const backoff = requestRateLimit * Math.pow(2, i);
 
 		t.log(`Request attempt #${i + 1} rate limited, waiting ${ms(backoff, { long: true })}...`);
 		await new Promise((resolve) => setTimeout(resolve, backoff));
@@ -186,15 +201,6 @@ function failLog(t: ExecutionContext<TestContext>, ...values: Array<any>) {
 	t.fail(values.map(tryStringify).join(" "));
 }
 
-export const secretValues = new Set<string>([
-	vrchatEmail,
-	vrchatUsername,
-	vrchatPassword,
-	vrchatTotpSecret
-]);
-
-export const unstableValues = new Set<string>([version]);
-
 const redactedResponseHeaders = ["etag", "set-cookie"];
 const unstableResponseHeaders = [
 	"date",
@@ -218,7 +224,7 @@ test.before(async (t) => {
 	state.set("operations", operations);
 
 	t.log(
-		`Running tests against commit: ${version}, using specification version: ${specification.info.version}.`
+		`Running tests against: ${version}, using specification version: ${specification.info.version}.`
 	);
 
 	const cookieJar = new withCookie.toughCookie.CookieJar();
@@ -227,7 +233,7 @@ test.before(async (t) => {
 	const cookies = Object.values((state.get("cookies") ?? []) as Record<string, Cookie.Properties>);
 	for (const cookie of cookies) {
 		await cookieJar.setCookie(Cookie.fromJSON(cookie)!, new URL(`https://${cookie.domain!}`).href);
-		secretValues.add(cookie.value!);
+		sensitiveValues.add(cookie.value!);
 	}
 
 	if (cookies.length) t.log(`Cookie jar initialized with ${cookies.length} cookies.`);
@@ -327,7 +333,7 @@ export async function fetchOperation(
 
 	for (const [name, value] of Object.entries(security)) {
 		const security = specification.components?.securitySchemes?.[name];
-		secretValues.add(String(value));
+		sensitiveValues.add(String(value));
 
 		if (!security || !("type" in security))
 			return failLog(t, `Security scheme "${name}" not defined`);
@@ -409,12 +415,12 @@ export const testOperation = test.macro<TestOperationArguments>({
 		const { response, requestOptions, url } = result;
 
 		for (const cookie of await t.context.cookieJar.getCookies(url.href)) {
-			secretValues.add(cookie.value!);
+			sensitiveValues.add(cookie.value!);
 		}
 
 		for (const redactedResponseHeader of redactedResponseHeaders) {
 			const value = response.headers.get(redactedResponseHeader);
-			if (value) secretValues.add(value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+			if (value) sensitiveValues.add(value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
 		}
 
 		t.context.response = response;
@@ -424,7 +430,11 @@ export const testOperation = test.macro<TestOperationArguments>({
 		const body = await response.text();
 
 		t.teardown(async () => {
-			let value = `# ${t.title}
+			cache.set(
+				"requests",
+				`${t.title.toLowerCase().replace(/ /g, "-")}.md`,
+				unstableValues.sanitize(
+					sensitiveValues.sanitize(`# ${t.title}
 
 ## Request
 \`${requestOptions.method} ${url.href}\`
@@ -453,16 +463,9 @@ ${[...response.headers.entries()]
 \`\`\`json
 ${options.unstable ? "<unstable>" : JSON.stringify(tryJsonParse(body), null, 2)}
 \`\`\`
-`;
-			secretValues.forEach((secretValue) => {
-				value = value.replaceAll(secretValue, "<redacted>");
-			});
-
-			unstableValues.forEach((unstableValue) => {
-				value = value.replaceAll(unstableValue, "<unstable>");
-			});
-
-			cache.set("requests", `${t.title.toLowerCase().replace(/ /g, "-")}.md`, value);
+`)
+				)
+			);
 		});
 
 		if ("content" in operationResponse && operationResponse.content) {
