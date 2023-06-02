@@ -2,22 +2,9 @@
 
 import totpGenerator from "totp-generator";
 
-import { test, testOperation } from "./_utilities";
+import { test, testOperation, unstableValues } from "./_utilities";
 import { state } from "./_cache";
-
-test.serial.before(async (t) => {
-	t.context.environment = {
-		email: process.env.VRCHAT_EMAIL!,
-		username: process.env.VRCHAT_USERNAME!,
-		password: process.env.VRCHAT_PASSWORD!,
-		totpSecret: process.env.VRCHAT_TOTP_SECRET!
-	};
-
-	t.assert(t.context.environment.email, "Missing VRCHAT_EMAIL environment variable");
-	t.assert(t.context.environment.username, "Missing VRCHAT_USERNAME environment variable");
-	t.assert(t.context.environment.password, "Missing VRCHAT_PASSWORD environment variable");
-	t.assert(t.context.environment.totpSecret, "Missing VRCHAT_TOTP_SECRET environment variable");
-});
+import { vrchatEmail, vrchatPassword, vrchatTotpSecret, vrchatUsername } from "./_consts";
 
 test.serial("while missing credentials", testOperation, "getCurrentUser", {
 	statusCode: 401
@@ -31,21 +18,26 @@ test.serial.failing(
 	"with username and password (expect fail)",
 	testOperation,
 	"getCurrentUser",
-	({ context: { environment } }) => ({
+	() => ({
 		verbose: false,
 		statusCode: 200,
 		security: {
-			authHeader: btoa(`${environment.username}:${environment.password}`)
+			authHeader: btoa(`${vrchatUsername}:${vrchatPassword}`)
 		}
 	})
 );
 
-test.serial(testOperation, "verify2FA", ({ context: { environment } }) => ({
-	statusCode: 200,
-	requestBody: {
-		code: totpGenerator(environment.totpSecret)
-	}
-}));
+test.serial(testOperation, "verify2FA", () => {
+	const code = totpGenerator(vrchatTotpSecret);
+	unstableValues.add(code);
+
+	return {
+		statusCode: 200,
+		requestBody: {
+			code
+		}
+	};
+});
 
 test.serial(
 	testOperation,
@@ -70,7 +62,7 @@ test.serial(
 		const { body } = t.context;
 		state.set("current-user", body);
 
-		t.is(body.username, t.context.environment.username);
+		t.is(body.username, vrchatUsername);
 	}
 );
 
@@ -82,12 +74,12 @@ test.serial(
 	"via email address",
 	testOperation,
 	"checkUserExists",
-	({ context: { environment } }) => ({
+	{
 		statusCode: 200,
 		parameters: {
-			email: environment.email
+			email: vrchatEmail
 		}
-	}),
+	},
 	(t) => {
 		const { body } = t.context;
 		t.is(body.userExists, true);
@@ -101,7 +93,7 @@ test.serial(
 	() => ({
 		statusCode: 200,
 		parameters: {
-			email: state.get("current-user").displayName
+			displayName: state.get("current-user").displayName
 		}
 	}),
 	(t) => {

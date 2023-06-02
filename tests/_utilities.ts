@@ -14,10 +14,14 @@ import "dotenv/config";
 import { Cookie, CookieJar } from "tough-cookie";
 
 import { cache, state, tryJsonParse, tryStringify } from "./_cache";
+import { vrchatEmail, vrchatPassword, vrchatTotpSecret, vrchatUsername } from "./_consts";
 
 util.inspect.defaultOptions.depth = 4; // Increase AVA's printing depth
 
 export const methods = ["delete", "get", "head", "patch", "post", "put", "trace"] as const;
+
+const githubSha = process.env.GITHUB_SHA ?? null;
+const version = githubSha ? githubSha.slice(0, 8) : "local";
 
 export type Specification = OpenAPIV3.Document;
 
@@ -173,12 +177,6 @@ export interface TestContext {
 	response?: Response;
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	body?: any;
-	environment: {
-		email: string;
-		username: string;
-		password: string;
-		totpSecret: string;
-	};
 }
 
 export const test = testFn as TestFn<TestContext>;
@@ -188,18 +186,52 @@ function failLog(t: ExecutionContext<TestContext>, ...values: Array<any>) {
 	t.fail(values.map(tryStringify).join(" "));
 }
 
+export const secretValues = new Set<string>([
+	vrchatEmail,
+	vrchatUsername,
+	vrchatPassword,
+	vrchatTotpSecret
+]);
+
+export const unstableValues = new Set<string>([version]);
+
+const redactedResponseHeaders = ["etag", "set-cookie"];
+const unstableResponseHeaders = [
+	"date",
+	"cf-ray",
+	"cf-cache-status",
+	"age",
+	"x-powered-by",
+	"x-jobs",
+	"last-modified",
+	"via",
+	"x-amz-cf-id",
+	"x-amz-cf-pop",
+	"x-amz-server-side-encryption",
+	"x-cache"
+];
+
 test.before(async (t) => {
+	const specification = await getSpecification();
+
+	const operations = await getOperations(specification);
+	state.set("operations", operations);
+
+	t.log(
+		`Running tests against commit: ${version}, using specification version: ${specification.info.version}.`
+	);
+
 	const cookieJar = new withCookie.toughCookie.CookieJar();
 	const fetchWithCookie = withCookie(globalThis.fetch, cookieJar);
 
 	const cookies = Object.values((state.get("cookies") ?? []) as Record<string, Cookie.Properties>);
 	for (const cookie of cookies) {
-		// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 		await cookieJar.setCookie(Cookie.fromJSON(cookie)!, new URL(`https://${cookie.domain!}`).href);
+		secretValues.add(cookie.value!);
 	}
 
 	if (cookies.length) t.log(`Cookie jar initialized with ${cookies.length} cookies.`);
-	Object.assign(t.context, { fetchWithCookie, cookieJar });
+	Object.assign(t.context, { fetchWithCookie, cookieJar, specification, operations });
 });
 
 // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -218,6 +250,7 @@ interface FetchOperationOptions {
 }
 
 type TestOperationOptions = {
+	unstable?: boolean;
 	statusCode: number;
 } & FetchOperationOptions;
 
@@ -231,22 +264,13 @@ export const failUnauthenticated = (t: ExecutionContext<TestContext>) => {
 	const cookies = t.context.cookieJar.serializeSync().cookies;
 	if (!state.get("current-user") || cookies.length === 0) t.fail("Missing authenticated user");
 };
-
-test.before(async (t) => {
-	const specification = await getSpecification();
-
-	const operations = await getOperations(specification);
-	state.set("operations", operations);
-
-	Object.assign(t.context, { specification, operations });
-});
-
 const resolveOptions = (
 	t: ExecutionContext<TestContext>,
 	options: TestOperationOptions | ((t: ExecutionContext<TestContext>) => TestOperationOptions)
 ) => {
 	return Object.assign(
 		{
+			unstable: false,
 			parameters: {},
 			security: {},
 			requestOptions: {}
@@ -267,8 +291,9 @@ export async function fetchOperation(
 
 	const url = new URL(baseUrl + operation.path);
 	requestOptions.headers ??= {};
-	requestOptions.headers!["user-agent"] ??=
-		"specification-test/@commit https://github.com/vrchatapi/specification-test/issues/new";
+	requestOptions.headers![
+		"user-agent"
+	] ??= `specification-test/@${version} https://github.com/vrchatapi/specification-test/issues/new`;
 
 	const parameterKeys = Object.keys(parameters);
 	if (!operation.parameters && parameterKeys.length > 0)
@@ -302,6 +327,7 @@ export async function fetchOperation(
 
 	for (const [name, value] of Object.entries(security)) {
 		const security = specification.components?.securitySchemes?.[name];
+		secretValues.add(String(value));
 
 		if (!security || !("type" in security))
 			return failLog(t, `Security scheme "${name}" not defined`);
@@ -382,28 +408,62 @@ export const testOperation = test.macro<TestOperationArguments>({
 
 		const { response, requestOptions, url } = result;
 
+		for (const cookie of await t.context.cookieJar.getCookies(url.href)) {
+			secretValues.add(cookie.value!);
+		}
+
+		for (const redactedResponseHeader of redactedResponseHeaders) {
+			const value = response.headers.get(redactedResponseHeader);
+			if (value) secretValues.add(value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+		}
+
 		t.context.response = response;
 		t.is(response.status, options.statusCode, "Unexpected status code");
 
 		const contentType = response.headers.get("content-type") ?? "application/json";
 		const body = await response.text();
 
-		cache.set(
-			"requests",
-			`${t.title.toLowerCase().replace(/ /g, "-")}.http`,
-			`${requestOptions.method} ${url.href}
+		t.teardown(async () => {
+			let value = `# ${t.title}
 
+## Request
+\`${requestOptions.method} ${url.href}\`
+
+| Header | Value |
+| ------ | ----- |
 ${Object.entries(requestOptions.headers ?? {})
-	.map(([name, value]) => `${name}: ${value}`)
+	.filter(([, value]) => !!value)
+	.map(([name, value]) => `| ${name} | \`${value}\` |`)
 	.join("\n")}
-${requestOptions.body ? `\n${requestOptions.body}\n` : ""}
----			
-${response.status} ${response.statusText}
-${[...response.headers.entries()].map(([name, value]) => `${name}: ${value}`).join("\n")}
+${requestOptions.body ? `\n\`\`\`json\n${requestOptions.body}\n\`\`\`\n` : ""}
 
-${JSON.stringify(tryJsonParse(body), null, 2)}
-`
-		);
+## Response
+\`${response.status} ${response.statusText}\`
+
+| Header | Value |
+| ------ | ----- |
+${[...response.headers.entries()]
+	.filter(([name]) => !unstableResponseHeaders.includes(name))
+	.map(
+		([name, value]) =>
+			`| ${name} | \`${redactedResponseHeaders.includes(name) ? "<redacted>" : value}\` |`
+	)
+	.join("\n")}
+
+\`\`\`json
+${options.unstable ? "<unstable>" : JSON.stringify(tryJsonParse(body), null, 2)}
+\`\`\`
+`;
+			secretValues.forEach((secretValue) => {
+				value = value.replaceAll(secretValue, "<redacted>");
+			});
+
+			unstableValues.forEach((unstableValue) => {
+				value = value.replaceAll(unstableValue, "<unstable>");
+			});
+
+			cache.set("requests", `${t.title.toLowerCase().replace(/ /g, "-")}.md`, value);
+		});
 
 		if ("content" in operationResponse && operationResponse.content) {
 			const mediaType = Object.entries(operationResponse.content).find(([type]) =>

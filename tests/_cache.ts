@@ -10,7 +10,7 @@ export function tryJsonParse(value: unknown): unknown {
 
 export function tryStringify(value: unknown): string {
 	try {
-		return JSON.stringify(value);
+		return JSON.stringify(value, null, 2);
 	} catch {
 		return String(value);
 	}
@@ -20,12 +20,12 @@ export function tryStringify(value: unknown): string {
 // by writing to the filesystem.
 export const cache = {
 	set: (type: string, key: string, value: string) => {
-		fs.mkdirSync(`./.cache/${type}`, { recursive: true });
-		fs.writeFileSync(`./.cache/${type}/${key}`, value);
+		fs.mkdirSync(`./cache/${type}`, { recursive: true });
+		fs.writeFileSync(`./cache/${type}/${key}`, value);
 	},
 	get: (type: string, key: string) => {
 		try {
-			return fs.readFileSync(`./.cache/${type}/${key}`, "utf8");
+			return fs.readFileSync(`./cache/${type}/${key}`, "utf8");
 		} catch {
 			return null;
 		}
