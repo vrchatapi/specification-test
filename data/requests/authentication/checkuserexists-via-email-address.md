@@ -17,7 +17,7 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-length | `19` |
+| content-length | `20` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
@@ -27,6 +27,6 @@
 
 ```json
 {
-  "userExists": true
+  "userExists": false
 }
 ```

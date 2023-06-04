@@ -1,7 +1,12 @@
 # getFriendStatus prior to friend request
 
+## Fail logs
+```
+Response schema mismatch: #/isFriend failed required, #/outgoingRequest failed required, #/incomingRequest failed required.
+```
+
 ## Request
-`get https://api.vrchat.cloud/api/1/user/usr_9e10ea3e-8115-4b51-9076-b1792215d57e/friendStatus`
+`get https://api.vrchat.cloud/api/1/user//friendStatus`
 
 | Header | Value |
 | ------ | ----- |
@@ -10,7 +15,7 @@
 
 
 ## Response
-`200 OK`
+`404 Not Found`
 
 | Header | Value |
 | ------ | ----- |
@@ -22,13 +27,12 @@
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
-| vary | `Authorization, Accept-Encoding` |
+| vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```json
 {
-  "isFriend": false,
-  "outgoingRequest": false,
-  "incomingRequest": false
+  "error": "The endpoint you're looking for is not implemented by our system.",
+  "status_code": 404
 }
 ```
