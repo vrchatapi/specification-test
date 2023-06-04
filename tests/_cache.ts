@@ -1,3 +1,4 @@
+import path from "path";
 import fs from "fs";
 
 import { version, vrchatEmail, vrchatPassword, vrchatTotpSecret } from "./_consts";
@@ -22,7 +23,7 @@ export function tryStringify(value: unknown): string {
 // by writing to the filesystem.
 export const cache = {
 	set: (type: string, key: string, value: string) => {
-		fs.mkdirSync(`./cache/${type}`, { recursive: true });
+		fs.mkdirSync(path.dirname(`./cache/${type}/${key}`), { recursive: true });
 		fs.writeFileSync(`./cache/${type}/${key}`, value);
 	},
 	get: (type: string, key: string) => {

@@ -2,6 +2,7 @@
 /* eslint-disable require-atomic-updates */
 import util from "util";
 import fs from "fs/promises";
+import path from "path";
 
 import withCookie from "fetch-cookie";
 import yaml from "yaml";
@@ -455,7 +456,9 @@ export const testOperation = test.macro<TestOperationArguments>({
 
 			cache.set(
 				"requests",
-				`${t.title.toLowerCase().replace(/ /g, "-")}.md`,
+				`${path.basename(test.meta.file, path.extname(test.meta.file))}/${t.title
+					.toLowerCase()
+					.replace(/ /g, "-")}.md`,
 				unstableValues.sanitize(
 					sensitiveValues.sanitize(`# ${t.title}
 ${
