@@ -1,4 +1,6 @@
-import { test, testOperation } from "./_utilities";
+import { failUnauthenticated, test, testOperation } from "./_utilities";
+
+test.before(failUnauthenticated);
 
 test(testOperation, "getNotifications", {
 	statusCode: 200

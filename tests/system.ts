@@ -1,4 +1,3 @@
-import { tryStringify } from "./_cache";
 import { test, testOperation } from "./_utilities";
 
 test(testOperation, "getConfig", {
