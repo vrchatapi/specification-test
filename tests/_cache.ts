@@ -23,12 +23,12 @@ export function tryStringify(value: unknown): string {
 // by writing to the filesystem.
 export const cache = {
 	set: (type: string, key: string, value: string) => {
-		fs.mkdirSync(path.dirname(`./cache/${type}/${key}`), { recursive: true });
-		fs.writeFileSync(`./cache/${type}/${key}`, value);
+		fs.mkdirSync(path.dirname(`./data/${type}/${key}`), { recursive: true });
+		fs.writeFileSync(`./data/${type}/${key}`, value);
 	},
 	get: (type: string, key: string) => {
 		try {
-			return fs.readFileSync(`./cache/${type}/${key}`, "utf8");
+			return fs.readFileSync(`./data/${type}/${key}`, "utf8");
 		} catch {
 			return null;
 		}

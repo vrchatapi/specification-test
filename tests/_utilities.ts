@@ -5,6 +5,7 @@ import fs from "fs/promises";
 import path from "path";
 
 import withCookie from "fetch-cookie";
+import { headerCase } from "change-case";
 import yaml from "yaml";
 import { OpenAPIV3 } from "openapi-types";
 import { $RefParser } from "@apidevtools/json-schema-ref-parser";
@@ -188,6 +189,7 @@ export async function fetch(
 }
 
 export interface TestContext {
+	testGroup: string;
 	specification: Specification;
 	operations: Operations;
 	fetchWithCookie: typeof globalThis.fetch;
@@ -225,9 +227,14 @@ const unstableResponseHeaders = [
 	"x-cache"
 ];
 
-test.before(async (t) => {
-	const specification = await getSpecification();
+function normalizeTestTitle(title: string) {
+	return title.toLowerCase().replace(/ /g, "-");
+}
 
+test.before(async (t) => {
+	const testGroup = path.basename(test.meta.file, path.extname(test.meta.file));
+
+	const specification = await getSpecification();
 	const operations = await getOperations(specification);
 	state.set("operations", operations);
 
@@ -245,7 +252,40 @@ test.before(async (t) => {
 	}
 
 	if (cookies.length) t.log(`Cookie jar initialized with ${cookies.length} cookies.`);
-	Object.assign(t.context, { fetchWithCookie, cookieJar, specification, operations });
+	Object.assign(t.context, { fetchWithCookie, cookieJar, specification, operations, testGroup });
+});
+
+test.after.always(async (t) => {
+	const groupOperations = Object.entries(t.context.operations).filter(([, operation]) =>
+		operation.tags?.includes(t.context.testGroup)
+	);
+
+	const completeTests =
+		state.get<Record<string, Array<string>>>(`tests-${t.context.testGroup}`) ?? [];
+
+	cache.set(
+		"requests",
+		`${t.context.testGroup}/readme.md`,
+		`# ${headerCase(t.context.testGroup)}
+
+${groupOperations
+	.map(([operationId, operation]) => {
+		const [, completedGroupTests] = Object.entries(completeTests).find(
+			([completedOperationId]) => completedOperationId === operationId
+		) ?? [null, []];
+
+		return `## ${operation.summary}
+${operation.description ?? ""}
+${
+	completedGroupTests.length
+		? completedGroupTests.map((test) => `* [${test}](./${normalizeTestTitle(test)}.md)`).join("\n")
+		: `> Missing coverage.`
+}
+`;
+	})
+	.join("\n")}
+	`
+	);
 });
 
 // eslint-disable-next-line @typescript-eslint/no-empty-function
@@ -454,11 +494,16 @@ export const testOperation = test.macro<TestOperationArguments>({
 				}
 			}
 
+			const completeTests =
+				state.get<Record<string, Array<string>>>(`tests-${t.context.testGroup}`) ?? [];
+			state.set(`tests-${t.context.testGroup}`, {
+				...completeTests,
+				[operationId]: [...new Set([...(completeTests[operationId] ?? []), t.title])]
+			});
+
 			cache.set(
 				"requests",
-				`${path.basename(test.meta.file, path.extname(test.meta.file))}/${t.title
-					.toLowerCase()
-					.replace(/ /g, "-")}.md`,
+				`${t.context.testGroup}/${normalizeTestTitle(t.title)}.md`,
 				unstableValues.sanitize(
 					sensitiveValues.sanitize(`# ${t.title}
 ${
