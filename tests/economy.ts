@@ -1,9 +1,34 @@
-import { failUnauthenticated, test } from "./_utilities";
+import { failUnauthenticated, test, testOperation } from "./_utilities";
 
 test.before(failUnauthenticated);
 
-test.todo("List Steam Transactions");
+test(
+	testOperation,
+	"getSteamTransactions",
+	{
+		statusCode: 200
+	},
+	(t) => {
+		const { context } = t;
+		t.is(context.body.length, 0, "Should have zero transactions");
+	}
+);
+
+test(
+	testOperation,
+	"getCurrentSubscriptions",
+	{
+		statusCode: 200
+	},
+	(t) => {
+		const { context } = t;
+		t.is(context.body.length, 0, "Should have zero subscriptions");
+	}
+);
+
+test(testOperation, "getSubscriptions", {
+	statusCode: 200
+});
+
 test.todo("Get Steam Transaction");
-test.todo("Get Current Subscriptions");
-test.todo("List Subscriptions");
 test.todo("Get License Group");

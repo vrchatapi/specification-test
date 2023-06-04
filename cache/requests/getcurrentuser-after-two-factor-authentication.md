@@ -77,11 +77,13 @@
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
   "updated_at": "<unstable>",
   "state": "offline",
-  "tags": [],
+  "tags": [
+    "system_no_captcha"
+  ],
   "developerType": "none",
   "last_login": "<unstable>",
   "last_platform": "standalonewindows",
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "status": "active",
   "date_joined": "2023-04-11",
   "isFriend": false,
@@ -90,15 +92,19 @@
   "onlineFriends": [],
   "activeFriends": [],
   "presence": {
-    "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
-    "platform": "",
-    "status": "offline",
+    "travelingToWorld": "offline",
+    "avatarThumbnail": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
     "world": "offline",
     "instance": "offline",
     "instanceType": "",
-    "travelingToWorld": "offline",
+    "groups": [],
+    "profilePicOverride": "",
+    "status": "active",
     "travelingToInstance": "offline",
-    "groups": []
+    "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+    "isRejoining": "0",
+    "platform": "web",
+    "displayName": "8cf3def6b8cea"
   },
   "offlineFriends": []
 }
