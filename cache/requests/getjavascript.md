@@ -14,7 +14,7 @@
 | Header | Value |
 | ------ | ----- |
 | connection | `keep-alive` |
-| content-encoding | `br` |
+| content-encoding | `<unstable>` |
 | content-type | `application/javascript` |
 | etag | `<redacted>` |
 | server | `AmazonS3` |
