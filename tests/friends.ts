@@ -88,7 +88,7 @@ test(
 		const { context } = t;
 
 		t.is(context.body.isFriend, false, "Should not be friends");
-		t.is(context.body.outgoingRequest, true, "Should not have an outgoing request");
+		t.is(context.body.outgoingRequest, false, "Should not have an outgoing request");
 	}
 );
 
