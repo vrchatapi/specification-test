@@ -12,7 +12,8 @@ jobs:
         with:
           node-version: "18"
       - run: npm install
-      - run: |
+      - name: Test
+        run: |
           curl https://raw.githubusercontent.com/vrchatapi/specification/gh-pages/openapi.yaml -o openapi.yaml
 
           rm cache/state -rf
@@ -24,7 +25,11 @@ jobs:
           VRCHAT_USERNAME: ${{ secrets.VRCHAT_USERNAME }}
           VRCHAT_PASSWORD: ${{ secrets.VRCHAT_PASSWORD }}
           VRCHAT_TOTP_SECRET: ${{ secrets.VRCHAT_TOTP_SECRET }}
-      - run: |
+          VRCHAT_FRIEND_ID: ${{ secrets.VRCHAT_FRIEND_ID }}
+      - name: Push changes
+        continue-on-error: true
+        if: always()
+        run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
