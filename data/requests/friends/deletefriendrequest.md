@@ -1,7 +1,7 @@
 # deleteFriendRequest
 
 ## Request
-`delete https://api.vrchat.cloud/api/1/user//friendRequest`
+`delete https://api.vrchat.cloud/api/1/user/usr_9e10ea3e-8115-4b51-9076-b1792215d57e/friendRequest`
 
 | Header | Value |
 | ------ | ----- |
@@ -10,7 +10,7 @@
 
 
 ## Response
-`404 Not Found`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
@@ -22,12 +22,14 @@
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
-| vary | `Origin, Accept-Encoding` |
+| vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```json
 {
-  "error": "The endpoint you're looking for is not implemented by our system.",
-  "status_code": 404
+  "success": {
+    "message": "Friendship request deleted",
+    "status_code": 200
+  }
 }
 ```

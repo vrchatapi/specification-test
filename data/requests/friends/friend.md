@@ -1,12 +1,7 @@
 # friend
 
-## Fail logs
-```
-Response schema mismatch: #/id failed required, #/senderUserId failed required, #/type failed required, #/message failed required, #/details failed required, #/created_at failed required.
-```
-
 ## Request
-`post https://api.vrchat.cloud/api/1/user//friendRequest`
+`post https://api.vrchat.cloud/api/1/user/usr_9e10ea3e-8115-4b51-9076-b1792215d57e/friendRequest`
 
 | Header | Value |
 | ------ | ----- |
@@ -15,7 +10,7 @@ Response schema mismatch: #/id failed required, #/senderUserId failed required, 
 
 
 ## Response
-`404 Not Found`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
@@ -27,12 +22,18 @@ Response schema mismatch: #/id failed required, #/senderUserId failed required, 
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
-| vary | `Origin, Accept-Encoding` |
+| vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```json
 {
-  "error": "The endpoint you're looking for is not implemented by our system.",
-  "status_code": 404
+  "id": "<unstable: string>",
+  "senderUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  "senderUsername": "8cf3def6b8cea",
+  "type": "friendRequest",
+  "message": "",
+  "details": "{}",
+  "seen": false,
+  "created_at": "<unstable: string>"
 }
 ```
