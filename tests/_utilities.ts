@@ -10,7 +10,6 @@ import { $RefParser } from "@apidevtools/json-schema-ref-parser";
 import testFn, { ExecutionContext, ImplementationFn, TestFn } from "ava";
 import { Schema, parser } from "@exodus/schemasafe";
 import ms from "ms";
-import "dotenv/config";
 import { Cookie, CookieJar } from "tough-cookie";
 
 import {
@@ -21,7 +20,7 @@ import {
 	tryStringify,
 	unstableValues
 } from "./_cache";
-import { methods, requestRateLimit, version } from "./_consts";
+import { debug, methods, requestRateLimit, version } from "./_consts";
 
 util.inspect.defaultOptions.depth = 4; // Increase AVA's printing depth
 
@@ -142,6 +141,8 @@ export async function fetch(
 		// Voluntarily wait a bit before making the request.
 		await new Promise((resolve) => setTimeout(resolve, delay));
 	}
+
+	if (debug) t.log(options.method, url.href);
 
 	let response: Response | null = null;
 	let attempt: Awaited<ReturnType<typeof t.try>> | null = null;

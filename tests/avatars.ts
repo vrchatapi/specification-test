@@ -82,9 +82,6 @@ test("with zero parameters", testOperation, "getFavoritedAvatars", {
 	statusCode: 200
 });
 
-test.skip(testOperation, "createAvatar", {
-	statusCode: 200
-});
-
+test.todo("Create Avatar");
 test.todo("Update Avatar");
 test.todo("Delete Avatar");
