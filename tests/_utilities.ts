@@ -194,11 +194,15 @@ export interface TestContext {
 	response?: Response;
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	body?: any;
+	failLogs?: Array<Array<any>>;
 }
 
 export const test = testFn as TestFn<TestContext>;
 
 function failLog(t: ExecutionContext<TestContext>, ...values: Array<any>) {
+	t.context.failLogs ??= [];
+	t.context.failLogs.push(values);
+
 	t.log(...values);
 	t.fail(values.map(tryStringify).join(" "));
 }
@@ -454,7 +458,20 @@ export const testOperation = test.macro<TestOperationArguments>({
 				`${t.title.toLowerCase().replace(/ /g, "-")}.md`,
 				unstableValues.sanitize(
 					sensitiveValues.sanitize(`# ${t.title}
-
+${
+	t.context.failLogs
+		? `
+## Fail logs
+${t.context.failLogs
+	.map(
+		(v) => `\`\`\`
+${v}
+\`\`\``
+	)
+	.join("\n")}
+`
+		: ""
+}
 ## Request
 \`${requestOptions.method} ${url.href}\`
 
@@ -507,7 +524,8 @@ ${
 				t.context.body = value;
 
 				if (error) {
-					t.log(
+					failLog(
+						t,
 						`Response schema mismatch: ${
 							errors.length
 								? errors
@@ -519,7 +537,6 @@ ${
 								: error
 						}.`
 					);
-					t.fail(`Response body doesn't conform to ${mediaType.schema.title ?? "unnamed schema"}`);
 				}
 			} else {
 				t.context.body = tryJsonParse(body);

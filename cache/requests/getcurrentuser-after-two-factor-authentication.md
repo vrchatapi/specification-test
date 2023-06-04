@@ -91,18 +91,15 @@
   "onlineFriends": [],
   "activeFriends": [],
   "presence": {
-    "travelingToWorld": "offline",
-    "avatarThumbnail": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+    "platform": "",
+    "status": "offline",
     "world": "offline",
     "instance": "offline",
     "instanceType": "",
-    "groups": [],
-    "profilePicOverride": "",
-    "status": "active",
+    "travelingToWorld": "offline",
     "travelingToInstance": "offline",
-    "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
-    "platform": "web",
-    "displayName": "8cf3def6b8cea"
+    "groups": []
   },
   "offlineFriends": []
 }

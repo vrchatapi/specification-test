@@ -1,12 +1,7 @@
-# checkUserExists via user id
-
-## Fail logs
-```
-Response schema mismatch: #/userExists failed required.
-```
+# getWorldMetadata by id
 
 ## Request
-`get https://api.vrchat.cloud/api/1/auth/exists?userId=usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701`
+`get https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/metadata`
 
 | Header | Value |
 | ------ | ----- |
@@ -15,26 +10,24 @@ Response schema mismatch: #/userExists failed required.
 
 
 ## Response
-`400 Bad Request`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-length | `86` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```json
 {
-  "error": {
-    "message": "\"username, email, or displayName required\"",
-    "status_code": 400
-  }
+  "id": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
+  "metadata": {}
 }
 ```

@@ -1,5 +1,10 @@
 # getSteamTransactions
 
+## Fail logs
+```
+Response schema mismatch: #/0/agreement failed type, #/1/agreement failed type, #/2/agreement failed type.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/Steam/transactions`
 

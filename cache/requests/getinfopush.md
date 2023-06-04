@@ -1,5 +1,10 @@
 # getInfoPush
 
+## Fail logs
+```
+Response schema mismatch: #/34/data/article/content failed type, #/35/data/article/content failed type, #/36/data/article/content failed type, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/48/data/article/content failed type.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/infoPush?include=user-all`
 

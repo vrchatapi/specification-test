@@ -1,5 +1,10 @@
 # getCSS
 
+## Fail logs
+```
+Response schema mismatch: Unexpected token : in JSON at position 0.
+```
+
 ## Request
 `get https://vrchat.com/api/1/css/app.css`
 
