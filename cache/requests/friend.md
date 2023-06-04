@@ -17,7 +17,6 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-encoding | `gzip` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
@@ -28,13 +27,13 @@
 
 ```json
 {
-  "id": "<unstable>",
+  "id": "<unstable: string>",
   "senderUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "senderUsername": "8cf3def6b8cea",
   "type": "friendRequest",
   "message": "",
   "details": "{}",
   "seen": false,
-  "created_at": "<unstable>"
+  "created_at": "<unstable: string>"
 }
 ```

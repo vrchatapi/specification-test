@@ -17,7 +17,6 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-encoding | `gzip` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
@@ -75,17 +74,19 @@
   "homeLocation": "",
   "twoFactorAuthEnabled": true,
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
-  "updated_at": "<unstable>",
+  "updated_at": "<unstable: string>",
   "state": "offline",
-  "tags": [],
+  "tags": [
+    "system_no_captcha"
+  ],
   "developerType": "none",
-  "last_login": "<unstable>",
+  "last_login": "<unstable: string>",
   "last_platform": "standalonewindows",
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "status": "active",
   "date_joined": "2023-04-11",
   "isFriend": false,
   "friendKey": "434f410a4ad8d57975d638fd6bef40fe056de7b9f8c23321e51e935710936289",
-  "last_activity": "<unstable>"
+  "last_activity": "<unstable: string>"
 }
 ```

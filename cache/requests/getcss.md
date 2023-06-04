@@ -14,7 +14,6 @@
 | Header | Value |
 | ------ | ----- |
 | connection | `keep-alive` |
-| content-encoding | `<unstable>` |
 | content-type | `text/css` |
 | etag | `<redacted>` |
 | server | `AmazonS3` |

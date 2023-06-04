@@ -1,7 +1,7 @@
-# getFriendStatus after friend request
+# getFavoritedWorlds
 
 ## Request
-`get https://api.vrchat.cloud/api/1/user/usr_9e10ea3e-8115-4b51-9076-b1792215d57e/friendStatus`
+`get https://api.vrchat.cloud/api/1/worlds/favorites`
 
 | Header | Value |
 | ------ | ----- |
@@ -17,18 +17,14 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
+| content-length | `2` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```json
-{
-  "isFriend": false,
-  "outgoingRequest": true,
-  "incomingRequest": false
-}
+[]
 ```

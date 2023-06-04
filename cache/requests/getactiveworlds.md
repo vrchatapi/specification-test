@@ -1,7 +1,7 @@
-# getFriendStatus after friend request
+# getActiveWorlds
 
 ## Request
-`get https://api.vrchat.cloud/api/1/user/usr_9e10ea3e-8115-4b51-9076-b1792215d57e/friendStatus`
+`get https://api.vrchat.cloud/api/1/worlds/active`
 
 | Header | Value |
 | ------ | ----- |
@@ -26,9 +26,5 @@
 | x-frame-options | `deny` |
 
 ```json
-{
-  "isFriend": false,
-  "outgoingRequest": true,
-  "incomingRequest": false
-}
+<unstable>
 ```

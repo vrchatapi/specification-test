@@ -11,6 +11,7 @@ import testFn, { ExecutionContext, ImplementationFn, TestFn } from "ava";
 import { Schema, parser } from "@exodus/schemasafe";
 import ms from "ms";
 import { Cookie, CookieJar } from "tough-cookie";
+import objectPath from "object-path";
 
 import {
 	cache,
@@ -211,6 +212,7 @@ const unstableResponseHeaders = [
 	"x-powered-by",
 	"x-jobs",
 	"last-modified",
+	"content-encoding",
 	"via",
 	"x-amz-cf-id",
 	"x-amz-cf-pop",
@@ -257,7 +259,8 @@ interface FetchOperationOptions {
 }
 
 type TestOperationOptions = {
-	unstable?: boolean;
+	unstable?: boolean | Array<string>;
+	sensitive?: boolean;
 	statusCode: number;
 } & FetchOperationOptions;
 
@@ -431,6 +434,21 @@ export const testOperation = test.macro<TestOperationArguments>({
 		const body = await response.text();
 
 		t.teardown(async () => {
+			const maybeJsonBody = tryJsonParse(body);
+			if (typeof maybeJsonBody === "object" && maybeJsonBody) {
+				if (Array.isArray(options.unstable)) {
+					options.unstable.map((unstableKey) => {
+						const value = objectPath.get(maybeJsonBody, unstableKey);
+						if (value)
+							objectPath.set(
+								maybeJsonBody,
+								unstableKey,
+								`<unstable: ${Array.isArray(value) ? "array" : typeof value}>`
+							);
+					});
+				}
+			}
+
 			cache.set(
 				"requests",
 				`${t.title.toLowerCase().replace(/ /g, "-")}.md`,
@@ -462,7 +480,13 @@ ${[...response.headers.entries()]
 	.join("\n")}
 
 \`\`\`json
-${options.unstable ? "<unstable>" : JSON.stringify(tryJsonParse(body), null, 2)}
+${
+	options.unstable === true
+		? "<unstable>"
+		: options.sensitive === true
+		? "<redacted>"
+		: JSON.stringify(maybeJsonBody, null, 2)
+}
 \`\`\`
 `)
 				)

@@ -1,4 +1,3 @@
-import { unstableValues } from "./_cache";
 import { vrchatFriendId } from "./_consts";
 import { failUnauthenticated, test, testOperation } from "./_utilities";
 
@@ -34,22 +33,13 @@ test(
 	}
 );
 
-test(
-	testOperation,
-	"friend",
-	{
-		statusCode: 200,
-		parameters: {
-			userId: vrchatFriendId
-		}
+test(testOperation, "friend", {
+	statusCode: 200,
+	parameters: {
+		userId: vrchatFriendId
 	},
-	(t) => {
-		const { context } = t;
-
-		unstableValues.add(context.body.id);
-		unstableValues.add(context.body.created_at);
-	}
-);
+	unstable: ["id", "created_at"]
+});
 
 test(
 	"after friend request",
