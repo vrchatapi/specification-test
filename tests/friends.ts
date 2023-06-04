@@ -45,6 +45,8 @@ test(
 	},
 	(t) => {
 		const { context } = t;
+
+		unstableValues.add(context.body.id);
 		unstableValues.add(context.body.created_at);
 	}
 );

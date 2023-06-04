@@ -28,7 +28,7 @@
 
 ```json
 {
-  "id": "frq_214ea2f3-b353-418b-8204-11afdbee309a",
+  "id": "<unstable>",
   "senderUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "senderUsername": "8cf3def6b8cea",
   "type": "friendRequest",
