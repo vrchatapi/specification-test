@@ -10,7 +10,7 @@ import yaml from "yaml";
 import { OpenAPIV3 } from "openapi-types";
 import { $RefParser } from "@apidevtools/json-schema-ref-parser";
 import testFn, { ExecutionContext, ImplementationFn, TestFn } from "ava";
-import { Schema, parser } from "@exodus/schemasafe";
+import { Schema, parser, ParseResult } from "@exodus/schemasafe";
 import ms from "ms";
 import { Cookie, CookieJar } from "tough-cookie";
 import objectPath from "object-path";
@@ -121,11 +121,16 @@ function normalizeSchema(schema: OpenAPIV3.SchemaObject): Schema {
 function parseSchema(schema: OpenAPIV3.SchemaObject, value: string) {
 	const newSchema = normalizeSchema(schema);
 
-	return parser(newSchema, {
-		mode: "lax",
-		includeErrors: true,
-		allErrors: true
-	})(value);
+	try {
+		return parser(newSchema, {
+			mode: "lax",
+			includeErrors: true,
+			allErrors: true
+		})(value);
+	} catch (reason) {
+		const error = reason instanceof Error ? reason.message : String(reason);
+		return { valid: false, error, errors: [] } satisfies ParseResult;
+	}
 }
 
 let lastRequestAt: number | null = null;
