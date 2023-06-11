@@ -6,8 +6,6 @@ Checks if a user by a given `username`, `displayName` or `email` exist. This is 
 It is **REQUIRED** to include **AT LEAST** `username`, `displayName` **or** `email` query parameter. Although they can be combined - in addition with `excludeUserId` (generally to exclude yourself) - to further fine-tune the search.
 * [checkUserExists with zero parameters](./checkuserexists-with-zero-parameters.md)
 * [checkUserExists via email address](./checkuserexists-via-email-address.md)
-* [checkUserExists via display name](./checkuserexists-via-display-name.md)
-* [checkUserExists via user id](./checkuserexists-via-user-id.md)
 
 ## Login and/or Get Current User Info
 This endpoint does the following two operations:
