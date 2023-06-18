@@ -1,10 +1,5 @@
 # getCurrentUser after two-factor authentication
 
-## Fail logs
-```
-Response schema mismatch: #/presence/instanceType failed enum.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/auth/user`
 
@@ -43,7 +38,7 @@ Response schema mismatch: #/presence/instanceType failed enum.
   "pastDisplayNames": [],
   "hasEmail": true,
   "hasPendingEmail": false,
-  "obfuscatedEmail": "v******@ariesclark.com",
+  "obfuscatedEmail": "<redacted>",
   "obfuscatedPendingEmail": "",
   "emailVerified": true,
   "hasBirthday": true,
@@ -67,7 +62,7 @@ Response schema mismatch: #/presence/instanceType failed enum.
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_d7b814f6-a8a0-44f8-9c2f-492947e0ecae/4/file",
-  "fallbackAvatar": "avtr_e82f0b7a-f965-494a-94b9-026c5efb91c7",
+  "fallbackAvatar": "avtr_3ba94527-4844-4b4f-a072-2fb7b961a452",
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "acceptedTOSVersion": 8,
