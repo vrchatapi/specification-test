@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response media type "text/html; charset=utf-8" not expected.
+Response schema mismatch: #/canPubilsh failed required, #/canPublish failed additionalProperties.
 ```
 
 ## Request
@@ -22,10 +22,11 @@ Response media type "text/html; charset=utf-8" not expected.
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-type | `text/html; charset=utf-8` |
+| content-length | `20` |
+| content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
