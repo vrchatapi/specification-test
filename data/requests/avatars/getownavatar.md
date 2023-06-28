@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response media type "text/html; charset=utf-8" not expected.
+Response media type "text/plain; charset=utf-8" not expected.
 ```
 
 ## Request
@@ -22,7 +22,8 @@ Response media type "text/html; charset=utf-8" not expected.
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-type | `text/html; charset=utf-8` |
+| content-type | `text/plain; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
