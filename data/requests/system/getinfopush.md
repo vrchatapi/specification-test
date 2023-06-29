@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/34/data/article/content failed type, #/35/data/article/content failed type, #/36/data/article/content failed type, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/48/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onPressed/command failed enum, #/36/data/article/content failed type, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/50/data/article/content failed type, #/54/data/article/content failed type, #/55/data/article/content failed type.
 ```
 
 ## Request
@@ -551,10 +551,54 @@ Response schema mismatch: #/34/data/article/content failed type, #/35/data/artic
     "updatedAt": "2023-05-04T00:16:25+00:00"
   },
   {
+    "id": "qm-community-desktop",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 930,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/1da1e49e888bcc5ed2503d97442d32d2208aaf5802df08f0e71c664c8ebbbfad.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "help-article-vrchat-community"
+        ]
+      }
+    },
+    "hash": "a091dd55e49336b23d2a3d9ec3607d0f",
+    "createdAt": "2023-06-12T22:38:29+00:00",
+    "updatedAt": "2023-06-28T21:30:13+00:00"
+  },
+  {
+    "id": "qm-crowdin-desktop",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 940,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/088d2ef27d350e1c0ca26f629b4fdbd68d69b80b186e5523792fe2999cdf6119.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "help-article-vrchat-crowdin"
+        ]
+      }
+    },
+    "hash": "9e2d4d6fab1a1fd33a3d21607a294ae2",
+    "createdAt": "2023-06-12T22:38:29+00:00",
+    "updatedAt": "2023-06-28T19:15:52+00:00"
+  },
+  {
     "id": "qm-banner-vcc-2",
     "isEnabled": true,
     "releaseStatus": "public",
-    "priority": 910,
+    "priority": 950,
     "tags": [
       "quick-menu-banner",
       "user-all"
@@ -568,15 +612,15 @@ Response schema mismatch: #/34/data/article/content failed type, #/35/data/artic
         ]
       }
     },
-    "hash": "8403d62c44d675f24d8ba888f162c4f3",
+    "hash": "d7b34005b9c2a8c4415904d76a039333",
     "createdAt": "2023-03-09T18:56:29+00:00",
-    "updatedAt": "2023-03-09T18:56:29+00:00"
+    "updatedAt": "2023-06-28T19:15:53+00:00"
   },
   {
     "id": "qm-banner-groups",
     "isEnabled": true,
     "releaseStatus": "public",
-    "priority": 920,
+    "priority": 960,
     "tags": [
       "quick-menu-banner",
       "user-all"
@@ -590,9 +634,9 @@ Response schema mismatch: #/34/data/article/content failed type, #/35/data/artic
         ]
       }
     },
-    "hash": "fa14a7d06063cfac3f5165828b3d9de4",
+    "hash": "9df5162bf52fefcce4b1e5499487d039",
     "createdAt": "2022-11-23T23:43:14+00:00",
-    "updatedAt": "2023-03-09T18:56:27+00:00"
+    "updatedAt": "2023-06-28T19:15:52+00:00"
   },
   {
     "id": "launch-avatar-guide",
@@ -2056,6 +2100,205 @@ Response schema mismatch: #/34/data/article/content failed type, #/35/data/artic
     "updatedAt": "2022-11-04T04:44:12+00:00"
   },
   {
+    "id": "help-article-vrchat-community",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1003,
+    "tags": [
+      "user-all",
+      "help-article",
+      "help-topic-essentials",
+      "help-topic-explore-wing",
+      "help-notifications"
+    ],
+    "data": {
+      "name": "The VRChat Community",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/f3592e61f7caf348f524c02199800818a14473e5d4d8961c72ab4d4406720744.png",
+      "description": "The VRChat Community",
+      "article": {
+        "jumpLinks": [
+          "discord",
+          "twitter"
+        ],
+        "content": [
+          {
+            "text": "<size=140%><b>Welcome to VRChat!</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Looking to explore the VRChat community and find a digital home of your own?<br><br>For starters, try checking out our <link=discord><color=#7777fc><u>Discord</u></color></link>! You’ll also be able to find information there about all the latest VRChat updates.<br><br>Likewise, if you want to stay up-to-date on what’s going on in VRChat, you should follow our <link=twitter><color=#7777fc><u>Twitter</u></color></link> account.<br><br>Additionally, you can join the <link=facebook><color=#7777fc><u>VRChat Facebook Group</u></color></link> to interact with others from the community.<br><br>Another way to get help and interact with the community is via our <link=ask-forums><color=#7777fc><u>VRChat Ask Forums</u></color></link>! You can find official messaging there along with information on world and avatar creation.<br><br>While using VRChat if you would like to share any feedback please head over to our <link=feedback><color=#7777fc><u>VRChat Feedback Boards</u></color></link> page to do so.<br><br>We use Crowdin to allow <b>you</b> to provide localization suggestions. Learn more at our <link=crowdin-doc><color=#7777fc><u>Crowdin Documentation</u></color></link> page."
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "discord",
+            "name": "Discord",
+            "command": "OpenURL",
+            "parameters": [
+              "https://discord.gg/vrchat"
+            ]
+          },
+          {
+            "id": "twitter",
+            "name": "Twitter",
+            "command": "OpenURL",
+            "parameters": [
+              "https://twitter.com/vrchat"
+            ]
+          },
+          {
+            "id": "facebook",
+            "name": "Facebook",
+            "command": "OpenURL",
+            "parameters": [
+              "https://www.facebook.com/groups/vrchat"
+            ]
+          },
+          {
+            "id": "ask-forums",
+            "name": "VRChat Ask Forums",
+            "command": "OpenURL",
+            "parameters": [
+              "https://ask.vrchat.com/"
+            ]
+          },
+          {
+            "id": "feedback",
+            "name": "VRChat Feedback Board",
+            "command": "OpenURL",
+            "parameters": [
+              "https://feedback.vrchat.com/feature-requests"
+            ]
+          },
+          {
+            "id": "crowdin-doc",
+            "name": "Crowdin Docs",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/docs/suggesting-localization-changes"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "name": "Discord",
+            "command": "OpenURL",
+            "parameters": [
+              "https://discord.gg/vrchat"
+            ]
+          },
+          {
+            "name": "Twitter",
+            "command": "OpenURL",
+            "parameters": [
+              "https://twitter.com/vrchat"
+            ]
+          },
+          {
+            "name": "Facebook",
+            "command": "OpenURL",
+            "parameters": [
+              "https://www.facebook.com/groups/vrchat"
+            ]
+          },
+          {
+            "name": "VRChat Ask Forums",
+            "command": "OpenURL",
+            "parameters": [
+              "https://ask.vrchat.com/"
+            ]
+          },
+          {
+            "name": "VRChat Feedback Board",
+            "command": "OpenURL",
+            "parameters": [
+              "https://feedback.vrchat.com/feature-requests"
+            ]
+          },
+          {
+            "name": "Crowdin Docs",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/docs/suggesting-localization-changes"
+            ]
+          }
+        ]
+      }
+    },
+    "hash": "023ba10aa8ab67f1e9b836002505cd2e",
+    "createdAt": "2023-06-28T19:14:32+00:00",
+    "updatedAt": "2023-06-28T19:14:32+00:00"
+  },
+  {
+    "id": "help-article-vrchat-crowdin",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1003,
+    "tags": [
+      "user-all",
+      "help-article",
+      "help-topic-essentials",
+      "help-notifications"
+    ],
+    "data": {
+      "name": "Crowdin",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/d0d9d3da237a1903f8a0ac7ea7fe066b810ae525a1f695b7833174b945ed615f.png",
+      "description": "Crowdin",
+      "article": {
+        "content": [
+          {
+            "text": "<size=140%><b>Help us localize VRChat!</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "VRChat has translations for some languages but has yet to be completely localized! That means we need some help with grammar, terminology, and using the right phrases that sound natural for the given language.<br><br><b>You can contribute!</b> We use Crowdin to allow <b>you</b> to provide localization suggestions. Use the links below to learn how to help out.<br><br><link=crowdin-doc><color=#7777fc><u>Crowdin Documentation</u></color></link><br><link=crowdin-signup><color=#7777fc><u>Crowdin Signup</u></color></link>"
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "crowdin-doc",
+            "name": "Crowdin Doc",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/docs/suggesting-localization-changes"
+            ]
+          },
+          {
+            "id": "crowdin-signup",
+            "name": "Crowdin Signup",
+            "command": "OpenURL",
+            "parameters": [
+              "https://crowdin.com/project/vrchat-application"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "name": "Crowdin Documentation",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/docs/suggesting-localization-changes"
+            ]
+          },
+          {
+            "name": "Crowdin Signup",
+            "command": "OpenURL",
+            "parameters": [
+              "https://crowdin.com/project/vrchat-application"
+            ]
+          }
+        ]
+      }
+    },
+    "hash": "e2111a9d9c6194720194119ea4a4bfa8",
+    "createdAt": "2023-06-12T22:36:51+00:00",
+    "updatedAt": "2023-06-28T19:14:13+00:00"
+  },
+  {
     "id": "avatar-achievement",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -2720,28 +2963,6 @@ Response schema mismatch: #/34/data/article/content failed type, #/35/data/artic
     "hash": "fe33deeb9dccc3f13827041bf87ac5a6",
     "createdAt": "2022-04-08T17:56:26+00:00",
     "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "launch-discord",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1020,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/8ffb45e3ae366bf86a67899d53660fc9d6541dd4a407a2ff6ba8b07a74fa86db.png",
-      "onPressed": {
-        "command": "OpenURL",
-        "parameters": [
-          "https://discord.com/invite/vrchat"
-        ]
-      }
-    },
-    "hash": "e7b04c9401a09f38e1a22b904deb7092",
-    "createdAt": "2021-06-08T20:24:53+00:00",
-    "updatedAt": "2022-09-08T21:59:17+00:00"
   },
   {
     "id": "search-restaurant",

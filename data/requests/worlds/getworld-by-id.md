@@ -69,8 +69,7 @@ Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
     "admin_approved",
     "author_tag_lounge",
     "feature_avatar_scaling",
-    "admin_spotlight_mobile",
-    "system_updated_recently"
+    "admin_spotlight_mobile"
   ]
 }
 ```
