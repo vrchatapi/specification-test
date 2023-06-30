@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onPressed/command failed enum, #/36/data/article/content failed type, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/50/data/article/content failed type, #/54/data/article/content failed type, #/55/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onPressed/command failed enum, #/36/data/article/content failed type, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/50/data/article/content failed type, #/54/data/article/content failed type, #/55/data/article/content failed type, #/56/data/article/content failed type.
 ```
 
 ## Request
@@ -2098,6 +2098,74 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "hash": "3165ad70a501b38bd74841bd8a486127",
     "createdAt": "2022-04-04T21:21:09+00:00",
     "updatedAt": "2022-11-04T04:44:12+00:00"
+  },
+  {
+    "id": "help-article-custom-emoji",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1003,
+    "tags": [
+      "user-all",
+      "help-article",
+      "help-topic-vrcplus",
+      "help-notifications"
+    ],
+    "data": {
+      "name": "Custom Emoji",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/b4e55695212325828c0166533f5f3497f99287a093b41b308c44530614fc4d9a.png",
+      "description": "Custom Emoji",
+      "article": {
+        "sectionLinks": [
+          "link-create-app",
+          "link-create-web",
+          "link-vrchat-plus"
+        ],
+        "content": [
+          {
+            "id": "link-create-app",
+            "title": "Create in App",
+            "text": "<size=140%><b>Create in App!</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/e6cab37917b0eacb7d3e07f4b1dc3361c79f16eaa02128f4a6d8f0cf25e27cc1.png"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "id": "link-create-web",
+            "title": "Create on the Web",
+            "text": "<size=140%><b>Create on the Web!</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/b89808619f3e1d4cbb5d2495a7568840d996601e5c917f81e9cc5e40399bcca3.png"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "id": "link-vrchat-plus",
+            "title": "Get VRChat Plus",
+            "text": "<size=140%><b>Get VRChat Plus!:</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/6157a3a503ff0130e045f5ffb0bea528838e66d0bdf1e0698a9ba0abd2360c43.png"
+          }
+        ]
+      }
+    },
+    "hash": "0c58be1b05a29689a4d941d1394d0625",
+    "createdAt": "2023-06-29T22:22:18+00:00",
+    "updatedAt": "2023-06-29T22:55:38+00:00"
   },
   {
     "id": "help-article-vrchat-community",
