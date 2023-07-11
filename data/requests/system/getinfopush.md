@@ -2340,7 +2340,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
             "name": "Crowdin Signup",
             "command": "OpenURL",
             "parameters": [
-              "https://crowdin.com/project/vrchat-application"
+              "https://crowdin.com/project/vrchat-application/invite?h=bb57b789a39c353c3c401047afa228c41657827"
             ]
           }
         ],
@@ -2356,15 +2356,15 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
             "name": "Crowdin Signup",
             "command": "OpenURL",
             "parameters": [
-              "https://crowdin.com/project/vrchat-application"
+              "https://crowdin.com/project/vrchat-application/invite?h=bb57b789a39c353c3c401047afa228c41657827"
             ]
           }
         ]
       }
     },
-    "hash": "e2111a9d9c6194720194119ea4a4bfa8",
+    "hash": "5b1285f27d6f81555718a7dfaae25a71",
     "createdAt": "2023-06-12T22:36:51+00:00",
-    "updatedAt": "2023-06-28T19:14:13+00:00"
+    "updatedAt": "2023-07-10T20:36:20+00:00"
   },
   {
     "id": "avatar-achievement",
