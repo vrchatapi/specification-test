@@ -64,12 +64,12 @@ Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
     "author_tag_bar",
     "author_tag_quest",
     "author_tag_hangout",
-    "system_approved",
     "author_tag_chill",
-    "admin_approved",
     "author_tag_lounge",
-    "feature_avatar_scaling",
-    "admin_spotlight_mobile"
+    "system_approved",
+    "admin_approved",
+    "admin_spotlight_mobile",
+    "system_updated_recently"
   ]
 }
 ```

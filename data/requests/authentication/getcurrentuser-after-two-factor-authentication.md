@@ -62,7 +62,7 @@
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_334251bd-aa14-44f0-bf53-4a2be0555aa6/1/file",
-  "fallbackAvatar": "avtr_4d7441fb-e7a5-4c27-880c-f20531fccb63",
+  "fallbackAvatar": "avtr_a3ac8bfc-11fa-416e-8a14-51b04a2f5696",
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "acceptedTOSVersion": 8,
@@ -91,19 +91,15 @@
   "onlineFriends": [],
   "activeFriends": [],
   "presence": {
-    "profilePicOverride": "",
-    "debugflag": "1",
-    "instance": "offline",
-    "world": "offline",
-    "platform": "web",
-    "displayName": "8cf3def6b8cea",
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
-    "travelingToWorld": "offline",
+    "platform": "",
+    "status": "offline",
+    "world": "offline",
+    "instance": "offline",
     "instanceType": "",
-    "status": "active",
-    "avatarThumbnail": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-    "groups": [],
-    "travelingToInstance": "offline"
+    "travelingToWorld": "offline",
+    "travelingToInstance": "offline",
+    "groups": []
   },
   "offlineFriends": []
 }
