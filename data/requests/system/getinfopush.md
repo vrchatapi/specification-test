@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onPressed/command failed enum, #/36/data/article/content failed type, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/50/data/article/content failed type, #/54/data/article/content failed type, #/55/data/article/content failed type, #/56/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onPressed/command failed enum, #/36/data/article/content failed type, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/52/data/article/content failed type, #/56/data/article/content failed type, #/57/data/article/content failed type, #/58/data/article/content failed type.
 ```
 
 ## Request
@@ -1836,6 +1836,50 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "hash": "46b9579244bdc516ebd2c8c6ffb05ed9",
     "createdAt": "2022-11-16T01:04:45+00:00",
     "updatedAt": "2022-12-01T02:53:59+00:00"
+  },
+  {
+    "id": "world-vket-summer-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": "Vket2023 Summer",
+      "tooltipDescription": "Virtual Market Summer 2023",
+      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/bdc33c6b913f300441a2ffd083983a9b2883c63d0b105607759c27b0f8c5cf7e.png",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/5ca1729f96f8ad7796853f4128b2adbd186325e12cb4768fb4513dd66eac39b9.png",
+      "contentList": {
+        "name": "Vket2023 Summer",
+        "sortHeading": "order",
+        "sortOwnership": "any",
+        "sortOrder": "ascending",
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_vket_summer_2023",
+        "bannersTag": "world-category-banner-event-vket-summer-2023"
+      }
+    },
+    "hash": "16163cfaf487bb9fb11a6a34979c33fa",
+    "createdAt": "2023-07-10T20:36:06+00:00",
+    "updatedAt": "2023-07-15T00:58:04+00:00"
+  },
+  {
+    "id": "world-banner---event-vket-summer-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category-banner-event-vket-summer-2023",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/0b7561a47e78053611a4eb37783dfe90c3253b3b7deeba58057a34a91841d049.png"
+    },
+    "hash": "e1697ad2591112c1651933a8988728b7",
+    "createdAt": "2023-07-10T20:36:05+00:00",
+    "updatedAt": "2023-07-15T00:58:04+00:00"
   },
   {
     "id": "world-banner---udon-getstarted",
