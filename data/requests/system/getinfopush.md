@@ -2699,29 +2699,31 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "updatedAt": "2023-04-25T18:52:15+00:00"
   },
   {
-    "id": "avatar-worlds-hot",
+    "id": "world-avatar-worlds-trending",
     "isEnabled": true,
     "releaseStatus": "public",
-    "priority": 1010,
+    "priority": 1011,
     "tags": [
-      "avatar-category",
+      "world-category",
       "user-all"
     ],
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/93da757a22b64b5f5cf57320097e4cf60d300b94328559d5b88ad427f01d3444.png",
+      "name": "Avatar Worlds - Trending",
+      "tooltipDescription": "Browse hot avatar worlds",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
-        "name": "Avatar Worlds (What's Hot)",
-        "type": "world",
+        "name": "Avatar Worlds - Trending",
         "sortHeading": "heat",
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
-        "tag": "author_tag_avatar"
+        "avatarSpecific": true,
+        "bannersTag": "world-category-banner-avatar"
       }
     },
-    "hash": "3839b14432016f9a2dc9f843f8658407",
-    "createdAt": "2020-06-05T08:23:29+00:00",
-    "updatedAt": "2022-09-17T06:11:01+00:00"
+    "hash": "72150454148866d9705664810488a5bc",
+    "createdAt": "2023-08-10T20:44:02+00:00",
+    "updatedAt": "2023-08-10T20:44:02+00:00"
   },
   {
     "id": "search-museums",
@@ -2792,31 +2794,6 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "hash": "93b09fffa8bd721308d8d0875f013e59",
     "createdAt": "2022-04-08T17:43:40+00:00",
     "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "avatar-worlds-random",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1012,
-    "tags": [
-      "avatar-category",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/c69d81319a3b31166d925021be84813e99cf9de4dd2006c8493782400e0eac1f.png",
-      "contentList": {
-        "name": "Avatar Worlds (Random)",
-        "type": "world",
-        "sortHeading": "shuffle",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        "tag": "author_tag_avatar"
-      }
-    },
-    "hash": "e2171e504895c19a860a9911e9b2f464",
-    "createdAt": "2020-06-05T08:23:29+00:00",
-    "updatedAt": "2022-09-17T06:11:01+00:00"
   },
   {
     "id": "search-hide-seek",
@@ -2980,7 +2957,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
-    "id": "world-spotlight-pc",
+    "id": "world-spotlight-crossplatform",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1020,
@@ -2988,26 +2965,25 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
       "world-category",
       "user-all"
     ],
-    "requireClientTags": [
-      "platform-pc"
-    ],
     "data": {
-      "name": "Spotlight - PC",
-      "tooltipDescription": "Browse top PC worlds from the community!",
+      "name": "Spotlight - Cross Platform",
+      "shortName": "Spotlight X Plat",
+      "tooltipDescription": "Browse top cross-platform worlds from the community!",
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
-        "name": "Spotlight PC",
+        "name": "Spotlight Cross Platform",
+        "shortName": "Spotlight X Plat",
         "sortHeading": "random",
         "sortOwnership": "any",
         "sortOrder": "descending",
-        "platform": "ThisPlatformOnly",
-        "tag": "admin_spotlight_pc",
-        "bannersTag": "world-category-banner-spotlight"
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_spotlight_xplat",
+        "bannersTag": "world-category-banner-spotlight-xplat"
       }
     },
-    "hash": "2fca351a01f05d92053ac5ed3c9ad492",
+    "hash": "bbe05f97a0a4ee9a529f589a994500f3",
     "createdAt": "2022-06-24T23:34:50+00:00",
-    "updatedAt": "2023-01-28T02:43:41+00:00"
+    "updatedAt": "2023-08-10T20:44:03+00:00"
   },
   {
     "id": "search-driving",
@@ -3240,7 +3216,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
-    "id": "world-spotlight-crossplatform",
+    "id": "world-spotlight-pc",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1030,
@@ -3248,25 +3224,26 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
       "world-category",
       "user-all"
     ],
+    "requireClientTags": [
+      "platform-pc"
+    ],
     "data": {
-      "name": "Spotlight - Cross Platform",
-      "shortName": "Spotlight X Plat",
-      "tooltipDescription": "Browse top cross-platform worlds from the community!",
+      "name": "Spotlight - PC",
+      "tooltipDescription": "Browse top PC worlds from the community!",
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
-        "name": "Spotlight Cross Platform",
-        "shortName": "Spotlight X Plat",
+        "name": "Spotlight PC",
         "sortHeading": "random",
         "sortOwnership": "any",
         "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        "tag": "admin_spotlight_xplat",
-        "bannersTag": "world-category-banner-spotlight-xplat"
+        "platform": "ThisPlatformOnly",
+        "tag": "admin_spotlight_pc",
+        "bannersTag": "world-category-banner-spotlight"
       }
     },
-    "hash": "ce6553e5bc10ae2ee3ad58c6d3237585",
+    "hash": "ea6a05bd70e7b63e1b807c24f62d4503",
     "createdAt": "2022-06-24T23:34:50+00:00",
-    "updatedAt": "2023-01-28T02:43:42+00:00"
+    "updatedAt": "2023-08-10T20:44:03+00:00"
   },
   {
     "id": "search-cool-shaders",
@@ -3799,7 +3776,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
-    "id": "world-community-labs",
+    "id": "world-avatar-worlds-new",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1050,
@@ -3808,21 +3785,22 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
       "user-all"
     ],
     "data": {
-      "name": "Community Labs",
-      "tooltipDescription": "Browse worlds newly created by the community",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/7846fda184f0ee4686558903b87823890351cac53a501b95f848b46b227294b1.png",
+      "name": "Avatar Worlds - New",
+      "tooltipDescription": "Browse new avatar worlds",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
-        "name": "Community Labs",
-        "sortHeading": "labs",
+        "name": "Avatar Worlds - New",
+        "sortHeading": "publication",
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
-        "bannersTag": "world-category-banner-labs"
+        "avatarSpecific": true,
+        "bannersTag": "world-category-banner-avatar"
       }
     },
-    "hash": "c89f28c7f1f2b9e1014dd6f97666ed8e",
-    "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2022-09-22T17:28:09+00:00"
+    "hash": "e84a6c5c45338afd655906c15f2b4acf",
+    "createdAt": "2023-08-10T19:34:15+00:00",
+    "updatedAt": "2023-08-10T20:44:02+00:00"
   },
   {
     "id": "search-beach",
@@ -4053,32 +4031,6 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "hash": "43ac11deddf694806c9e7ee0305147a2",
     "createdAt": "2022-04-08T18:19:13+00:00",
     "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "world-random",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1060,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": "Random",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/0b0ca87fa01cdfce085a9f1080336e2d819717dd98bf10405a3a76a346b79629.png",
-      "tooltipDescription": "Browse random worlds",
-      "contentList": {
-        "name": "Random",
-        "sortHeading": "shuffle",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        "bannersTag": "world-category-banner-random"
-      }
-    },
-    "hash": "02fee032a4e35fd416534ca154a3f4a0",
-    "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2022-09-22T17:28:09+00:00"
   },
   {
     "id": "search-korean",
@@ -4590,34 +4542,6 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
-    "id": "world-active-xplat",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1080,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": "Active Cross Platform",
-      "shortName": "Active X Plat",
-      "tooltipDescription": "Browse active cross-platform worlds",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/7ad585963ae3f58a9e5eaa4b42f9336aa4bf6b690ef95a122a2cfbe83c5cbc50.png",
-      "contentList": {
-        "name": "Active Cross Platform",
-        "shortName": "Active X Plat",
-        "sortHeading": "active",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "AllPlatforms",
-        "bannersTag": "world-category-active-cross-platform"
-      }
-    },
-    "hash": "8272f7ea72769b343e08dd39da519a5d",
-    "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2022-10-06T22:02:09+00:00"
-  },
-  {
     "id": "search-rural",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -4848,7 +4772,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
-    "id": "world-active-my-platform",
+    "id": "world-active-supported-platform",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1090,
@@ -4857,7 +4781,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
       "user-all"
     ],
     "data": {
-      "name": "Active My Platform",
+      "name": "Active",
       "tooltipDescription": "Browse worlds active on your platform",
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/afb65f355f995d5fe5a0406a8d86780f260f7fafa1da8242cced1e712311b42b.png",
       "contentList": {
@@ -4865,13 +4789,13 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
         "sortHeading": "active",
         "sortOwnership": "any",
         "sortOrder": "descending",
-        "platform": "ThisPlatformOnly",
+        "platform": "ThisPlatformSupported",
         "bannersTag": "world-category-active-my-platform"
       }
     },
-    "hash": "5717bf06b00ae6dddeb85ae8d5b93f3e",
-    "createdAt": "2020-06-05T08:23:30+00:00",
-    "updatedAt": "2022-09-22T17:28:08+00:00"
+    "hash": "d333b8918c80c42919c512494cac024b",
+    "createdAt": "2023-08-10T20:44:01+00:00",
+    "updatedAt": "2023-08-10T20:44:01+00:00"
   },
   {
     "id": "search-spaceship",
@@ -5104,7 +5028,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
-    "id": "world-avatar-worlds",
+    "id": "world-community-labs",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1100,
@@ -5113,22 +5037,21 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
       "user-all"
     ],
     "data": {
-      "name": "Avatar Worlds",
-      "tooltipDescription": "Browse avatar worlds",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
+      "name": "Community Labs",
+      "tooltipDescription": "Browse worlds newly created by the community",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/7846fda184f0ee4686558903b87823890351cac53a501b95f848b46b227294b1.png",
       "contentList": {
-        "name": "Avatar Worlds",
-        "sortHeading": "heat",
+        "name": "Community Labs",
+        "sortHeading": "labs",
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
-        "tag": "author_tag_avatar",
-        "bannersTag": "world-category-banner-avatar"
+        "bannersTag": "world-category-banner-labs"
       }
     },
-    "hash": "cd4528bc8b56fb41641e984ce1cdb327",
+    "hash": "c90fc12da3b0bd6ad010b7dfabaf8b8c",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2022-09-22T17:28:08+00:00"
+    "updatedAt": "2023-08-10T20:44:02+00:00"
   },
   {
     "id": "search-battle",
@@ -5384,7 +5307,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
-    "id": "world-games",
+    "id": "world-random",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1110,
@@ -5393,25 +5316,24 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
       "user-all"
     ],
     "data": {
-      "name": "Games",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/f13fed02d81a04a7dc8d1d9c2960d43ed955ac1d84a87fe9348087cb2a9c4343.png",
-      "tooltipDescription": "Browse game worlds",
+      "name": "Random",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/0b0ca87fa01cdfce085a9f1080336e2d819717dd98bf10405a3a76a346b79629.png",
+      "tooltipDescription": "Browse random worlds",
       "contentList": {
-        "name": "Games",
-        "sortHeading": "heat",
+        "name": "Random",
+        "sortHeading": "shuffle",
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
-        "tag": "author_tag_game",
-        "bannersTag": "world-category-banner-games"
+        "bannersTag": "world-category-banner-random"
       }
     },
-    "hash": "358eb85ad17ed58bebd3825cd4f4078a",
+    "hash": "a0163c030b84f6b6bb30c343efb179fc",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2022-09-22T17:28:09+00:00"
+    "updatedAt": "2023-08-10T20:44:02+00:00"
   },
   {
-    "id": "world-classics",
+    "id": "world-avatar-worlds-random",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1120,
@@ -5420,22 +5342,22 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
       "user-all"
     ],
     "data": {
-      "name": "Classics",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/461636bf6ae950948a538acee78eddbd1747454954af3dbbd155765260ea6061.png",
-      "description": "This is a great collection of worlds to explore if you're new to VRChat! These worlds have been hits with the VRChat Community for many years and feature a mix of chill hangouts, social games, escape rooms, and popular avatar hubs.",
-      "tooltipDescription": "Browse classic worlds",
+      "name": "Avatar Worlds - Random",
+      "tooltipDescription": "Browse random  avatar worlds",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
-        "name": "Classics",
-        "sortHeading": "trending",
+        "name": "Avatar Worlds - Random",
+        "sortHeading": "shuffle",
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
-        "bannersTag": "world-category-banner-classics"
+        "avatarSpecific": true,
+        "bannersTag": "world-category-banner-avatar"
       }
     },
-    "hash": "acf45c270160a8eb12d5ae40892194f7",
-    "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2022-09-22T17:28:08+00:00"
+    "hash": "fa18086a9458fea7537bf0cd4aa1db43",
+    "createdAt": "2023-08-10T19:34:16+00:00",
+    "updatedAt": "2023-08-10T20:44:02+00:00"
   }
 ]
 ```
