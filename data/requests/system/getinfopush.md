@@ -2622,12 +2622,13 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
-        "bannersTag": "world-category-banner-trending"
+        "bannersTag": "world-category-banner-trending",
+        "avatarSpecific": false
       }
     },
-    "hash": "ca108a26eb2ccb1fe08c1b5326123d40",
+    "hash": "676c2d89c97b601d3dd38a9d90808b43",
     "createdAt": "2022-03-30T01:07:23+00:00",
-    "updatedAt": "2022-09-22T17:28:10+00:00"
+    "updatedAt": "2023-08-13T00:05:03+00:00"
   },
   {
     "id": "search-language-learning",
@@ -2840,6 +2841,34 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "hash": "e5420db49ef5d42be885effcae0aa8e4",
     "createdAt": "2022-04-08T17:43:40+00:00",
     "updatedAt": "2022-09-17T06:12:08+00:00"
+  },
+  {
+    "id": "world-games",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1015,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": "Games - Active",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/f13fed02d81a04a7dc8d1d9c2960d43ed955ac1d84a87fe9348087cb2a9c4343.png",
+      "tooltipDescription": "Join game worlds",
+      "contentList": {
+        "name": "Games - Active",
+        "sortHeading": "active",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "author_tag_game",
+        "bannersTag": "world-category-banner-games",
+        "avatarSpecific": false
+      }
+    },
+    "hash": "ccfc57d928aeebee25413ce2f2751e8b",
+    "createdAt": "2023-08-12T23:23:57+00:00",
+    "updatedAt": "2023-08-12T23:59:48+00:00"
   },
   {
     "id": "search-mirrors",
@@ -3516,12 +3545,13 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
-        "bannersTag": "world-category-banner-new-worlds"
+        "bannersTag": "world-category-banner-new-worlds",
+        "avatarSpecific": false
       }
     },
-    "hash": "7249fb81006f429dd5dc1179676ad403",
+    "hash": "6f8c7a7a843bacf863d371dca03fb2f1",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2022-09-22T17:28:09+00:00"
+    "updatedAt": "2023-08-12T23:59:48+00:00"
   },
   {
     "id": "search-city",
@@ -4790,12 +4820,13 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
-        "bannersTag": "world-category-active-my-platform"
+        "bannersTag": "world-category-active-my-platform",
+        "avatarSpecific": false
       }
     },
-    "hash": "d333b8918c80c42919c512494cac024b",
+    "hash": "1c04416520e610a21d12909ea2d0d4dd",
     "createdAt": "2023-08-10T20:44:01+00:00",
-    "updatedAt": "2023-08-10T20:44:01+00:00"
+    "updatedAt": "2023-08-12T23:59:47+00:00"
   },
   {
     "id": "search-spaceship",
@@ -5325,12 +5356,13 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
-        "bannersTag": "world-category-banner-random"
+        "bannersTag": "world-category-banner-random",
+        "avatarSpecific": false
       }
     },
-    "hash": "a0163c030b84f6b6bb30c343efb179fc",
+    "hash": "684e643b42f1591ca3192b4a43cdb29d",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-08-10T20:44:02+00:00"
+    "updatedAt": "2023-08-12T23:59:48+00:00"
   },
   {
     "id": "world-avatar-worlds-random",
