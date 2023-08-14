@@ -1,5 +1,10 @@
 # getRecentWorlds
 
+## Fail logs
+```
+Response schema mismatch: # failed type.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/worlds/recent`
 
@@ -10,14 +15,14 @@
 
 
 ## Response
-`200 OK`
+`401 Unauthorized`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-length | `2` |
+| content-length | `65` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |

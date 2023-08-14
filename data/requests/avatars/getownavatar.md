@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response media type "text/plain; charset=utf-8" not expected.
+Response schema mismatch: #/authorId failed required, #/authorName failed required, #/created_at failed required, #/description failed required, #/featured failed required, #/id failed required, #/imageUrl failed required, #/name failed required, #/releaseStatus failed required, #/tags failed required, #/thumbnailImageUrl failed required, #/unityPackages failed required, #/unityPackageUrl failed required, #/unityPackageUrlObject failed required, #/updated_at failed required, #/version failed required.
 ```
 
 ## Request
@@ -15,40 +15,26 @@ Response media type "text/plain; charset=utf-8" not expected.
 
 
 ## Response
-`200 OK`
+`401 Unauthorized`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-type | `text/plain; charset=utf-8` |
+| content-length | `65` |
+| content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```json
 {
-  "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "name": "Robot",
-  "description": "Beep Boop",
-  "authorId": "8JoV9XEdpo",
-  "authorName": "vrchat",
-  "tags": [
-    "admin_featured_legacy"
-  ],
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-  "releaseStatus": "public",
-  "version": "<unstable: number>",
-  "featured": false,
-  "unityPackages": "<unstable: array>",
-  "unityPackageUrl": "",
-  "unityPackageUrlObject": {},
-  "created_at": "2016-11-30T03:47:35.000Z",
-  "updated_at": "<unstable: string>"
+  "error": {
+    "message": "\"Missing Credentials\"",
+    "status_code": 401
+  }
 }
 ```

@@ -1,5 +1,10 @@
 # selectAvatar with id
 
+## Fail logs
+```
+Response schema mismatch: #/id failed required, #/displayName failed required, #/userIcon failed required, #/bio failed required, #/bioLinks failed required, #/profilePicOverride failed required, #/statusDescription failed required, #/pastDisplayNames failed required, #/hasEmail failed required, #/hasPendingEmail failed required, #/obfuscatedEmail failed required, #/obfuscatedPendingEmail failed required, #/emailVerified failed required, #/hasBirthday failed required, #/unsubscribe failed required, #/statusHistory failed required, #/statusFirstTime failed required, #/friends failed required, #/friendGroupNames failed required, #/currentAvatarImageUrl failed required, #/currentAvatarThumbnailImageUrl failed required, #/currentAvatar failed required, #/currentAvatarAssetUrl failed required, #/acceptedTOSVersion failed required, #/steamId failed required, #/steamDetails failed required, #/oculusId failed required, #/hasLoggedInFromClient failed required, #/homeLocation failed required, #/twoFactorAuthEnabled failed required, #/state failed required, #/tags failed required, #/developerType failed required, #/last_login failed required, #/last_platform failed required, #/allowAvatarCopying failed required, #/status failed required, #/date_joined failed required, #/isFriend failed required, #/friendKey failed required.
+```
+
 ## Request
 `put https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/select`
 
@@ -10,83 +15,26 @@
 
 
 ## Response
-`200 OK`
+`401 Unauthorized`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
+| content-length | `65` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```json
 {
-  "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
-  "displayName": "8cf3def6b8cea",
-  "userIcon": "",
-  "bio": "",
-  "bioLinks": [],
-  "profilePicOverride": "",
-  "statusDescription": "",
-  "username": "8cf3def6b8cea",
-  "pastDisplayNames": [],
-  "hasEmail": true,
-  "hasPendingEmail": false,
-  "obfuscatedEmail": "<redacted>",
-  "obfuscatedPendingEmail": "",
-  "emailVerified": true,
-  "hasBirthday": true,
-  "unsubscribe": true,
-  "statusHistory": [
-    "Looking to make new friends",
-    "Ask me about ․․․",
-    "Let's partyǃ",
-    "I'm AFK right now",
-    "I'm streaming on Twitch",
-    "My mic is muted",
-    "I'm here but busy",
-    "I speak ［English］",
-    "I create ․․․",
-    "My discord is ․․․‚"
-  ],
-  "statusFirstTime": true,
-  "friends": [],
-  "friendGroupNames": [],
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/file",
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/256",
-  "currentAvatar": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
-  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_cea4ec5e-af23-4c1e-982b-b93f3c6cfc2b/8/file",
-  "fallbackAvatar": "avtr_2973f03d-50c8-403f-9fac-ffaa60744bc2",
-  "accountDeletionDate": null,
-  "accountDeletionLog": null,
-  "acceptedTOSVersion": 8,
-  "acceptedPrivacyVersion": 0,
-  "steamId": "",
-  "steamDetails": {},
-  "oculusId": "",
-  "hasLoggedInFromClient": false,
-  "homeLocation": "",
-  "twoFactorAuthEnabled": true,
-  "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
-  "updated_at": "<unstable: string>",
-  "state": "offline",
-  "tags": [
-    "system_no_captcha"
-  ],
-  "developerType": "none",
-  "last_login": "<unstable: string>",
-  "last_platform": "standalonewindows",
-  "allowAvatarCopying": false,
-  "status": "active",
-  "date_joined": "2023-04-11",
-  "isFriend": false,
-  "friendKey": "b04df0c8743c7667e17bfccef6e9a17096b68ae9377964c6b19518391742bbd5",
-  "last_activity": "<unstable: string>"
+  "error": {
+    "message": "\"Missing Credentials\"",
+    "status_code": 401
+  }
 }
 ```

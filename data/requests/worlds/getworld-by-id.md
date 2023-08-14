@@ -1,10 +1,5 @@
 # getWorld by id
 
-## Fail logs
-```
-Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
 
@@ -54,9 +49,9 @@ Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
   "publicationDate": "2021-04-18T23:17:33.390Z",
   "labsPublicationDate": "2019-06-13T22:59:46.028Z",
   "instances": "<unstable: array>",
-  "publicOccupants": "<unstable: number>",
-  "privateOccupants": "<unstable: number>",
-  "occupants": "<unstable: number>",
+  "publicOccupants": 0,
+  "privateOccupants": 0,
+  "occupants": 0,
   "unityPackages": "<unstable: array>",
   "created_at": "2019-05-01T01:19:43.477Z",
   "updated_at": "<unstable: string>",
@@ -68,7 +63,8 @@ Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
     "author_tag_lounge",
     "system_approved",
     "admin_approved",
-    "admin_spotlight_mobile"
+    "admin_spotlight_mobile",
+    "system_updated_recently"
   ]
 }
 ```
