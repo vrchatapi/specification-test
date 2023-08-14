@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/canPubilsh failed required, #/error failed additionalProperties.
+Response schema mismatch: #/canPubilsh failed required, #/canPublish failed additionalProperties.
 ```
 
 ## Request
@@ -15,14 +15,14 @@ Response schema mismatch: #/canPubilsh failed required, #/error failed additiona
 
 
 ## Response
-`401 Unauthorized`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-length | `65` |
+| content-length | `20` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
@@ -32,9 +32,6 @@ Response schema mismatch: #/canPubilsh failed required, #/error failed additiona
 
 ```json
 {
-  "error": {
-    "message": "\"Missing Credentials\"",
-    "status_code": 401
-  }
+  "canPublish": false
 }
 ```

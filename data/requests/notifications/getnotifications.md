@@ -1,10 +1,5 @@
 # getNotifications
 
-## Fail logs
-```
-Response schema mismatch: # failed type.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/auth/user/notifications`
 
@@ -15,14 +10,14 @@ Response schema mismatch: # failed type.
 
 
 ## Response
-`401 Unauthorized`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-length | `65` |
+| content-length | `2` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
@@ -31,10 +26,5 @@ Response schema mismatch: # failed type.
 | x-frame-options | `deny` |
 
 ```json
-{
-  "error": {
-    "message": "\"Missing Credentials\"",
-    "status_code": 401
-  }
-}
+[]
 ```

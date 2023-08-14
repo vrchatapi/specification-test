@@ -10,26 +10,26 @@
 
 
 ## Response
-`401 Unauthorized`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-length | `65` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```json
 {
   "error": {
-    "message": "\"Missing Credentials\"",
-    "status_code": 401
+    "message": "This avatar isn't tagged as a quest fallback avatar․",
+    "status_code": 403
   }
 }
 ```
