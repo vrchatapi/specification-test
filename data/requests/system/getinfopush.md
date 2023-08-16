@@ -2852,12 +2852,12 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
       "user-all"
     ],
     "data": {
-      "name": "Games - Active",
+      "name": "Games - Hot",
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/f13fed02d81a04a7dc8d1d9c2960d43ed955ac1d84a87fe9348087cb2a9c4343.png",
       "tooltipDescription": "Join game worlds",
       "contentList": {
-        "name": "Games - Active",
-        "sortHeading": "active",
+        "name": "Games - Hot",
+        "sortHeading": "heat",
         "sortOwnership": "any",
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
@@ -2866,9 +2866,9 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
         "avatarSpecific": false
       }
     },
-    "hash": "ccfc57d928aeebee25413ce2f2751e8b",
+    "hash": "6bfbde0c0e8e8d49c8771f0cd6de29d0",
     "createdAt": "2023-08-12T23:23:57+00:00",
-    "updatedAt": "2023-08-12T23:59:48+00:00"
+    "updatedAt": "2023-08-15T05:37:00+00:00"
   },
   {
     "id": "search-mirrors",
