@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onPressed/command failed enum, #/36/data/article/content failed type, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/50/data/article/content failed type, #/54/data/article/content failed type, #/55/data/article/content failed type, #/56/data/article/content failed type.
+Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/44/data/article/content failed type, #/52/data/article/content failed type, #/56/data/article/content failed type, #/57/data/article/content failed type, #/58/data/article/content failed type.
 ```
 
 ## Request
@@ -549,6 +549,28 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "hash": "016faf145759dd98e9a818c9c271f74d",
     "createdAt": "2023-03-30T00:47:59+00:00",
     "updatedAt": "2023-05-04T00:16:25+00:00"
+  },
+  {
+    "id": "qm-banner-android-launch",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 910,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/c912b7d30aeafa2ff14dc7e77cfe5055864be211f68aa5b95f7366d5d0600f83.png",
+      "onPressed": {
+        "command": "OpenURL",
+        "parameters": [
+          "https://hello.vrchat.com/blog/mobile-alpha-now-live"
+        ]
+      }
+    },
+    "hash": "b726370c1bf2583dce34d8ef7d73ca56",
+    "createdAt": "2023-08-17T23:48:02+00:00",
+    "updatedAt": "2023-08-17T23:48:02+00:00"
   },
   {
     "id": "qm-community-desktop",
@@ -1836,6 +1858,36 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/14/data/onP
     "hash": "46b9579244bdc516ebd2c8c6ffb05ed9",
     "createdAt": "2022-11-16T01:04:45+00:00",
     "updatedAt": "2022-12-01T02:53:59+00:00"
+  },
+  {
+    "id": "world-spotlight-mobile-test",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1001,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "requireClientTags": [
+      "platform-mobile-desktop"
+    ],
+    "data": {
+      "name": "Spotlight - Mobile",
+      "tooltipDescription": "Browse top worlds from the community!",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
+      "contentList": {
+        "name": "Spotlight Mobile",
+        "sortHeading": "shuffle",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_spotlight_mobile",
+        "bannersTag": "world-category-banner-spotlight"
+      }
+    },
+    "hash": "d6b69795bd1b65c6d204186392884e29",
+    "createdAt": "2023-06-27T00:40:10+00:00",
+    "updatedAt": "2023-08-17T22:37:35+00:00"
   },
   {
     "id": "world-banner---udon-getstarted",
