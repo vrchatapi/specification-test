@@ -1,5 +1,10 @@
 # getConfig
 
+## Fail logs
+```
+Response schema mismatch: #/player-url-resolver-hash failed required.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/config`
 
