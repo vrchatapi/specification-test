@@ -4854,33 +4854,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
-    "id": "world-active-supported-platform",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1090,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": "Active",
-      "tooltipDescription": "Browse worlds active on your platform",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/afb65f355f995d5fe5a0406a8d86780f260f7fafa1da8242cced1e712311b42b.png",
-      "contentList": {
-        "name": "Active My Platform",
-        "sortHeading": "active",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        "bannersTag": "world-category-active-my-platform",
-        "avatarSpecific": false
-      }
-    },
-    "hash": "1c04416520e610a21d12909ea2d0d4dd",
-    "createdAt": "2023-08-10T20:44:01+00:00",
-    "updatedAt": "2023-08-12T23:59:47+00:00"
-  },
-  {
     "id": "search-spaceship",
     "isEnabled": true,
     "releaseStatus": "public",
