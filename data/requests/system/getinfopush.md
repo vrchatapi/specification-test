@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/37/data/article/content failed type, #/38/data/article/content failed type, #/39/data/article/content failed type, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/44/data/article/content failed type, #/52/data/article/content failed type, #/56/data/article/content failed type, #/57/data/article/content failed type, #/58/data/article/content failed type.
+Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/44/data/article/content failed type, #/45/data/article/content failed type, #/46/data/article/content failed type, #/47/data/article/content failed type, #/56/data/article/content failed type, #/60/data/article/content failed type, #/61/data/article/content failed type, #/62/data/article/content failed type.
 ```
 
 ## Request
@@ -571,6 +571,81 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "b726370c1bf2583dce34d8ef7d73ca56",
     "createdAt": "2023-08-17T23:48:02+00:00",
     "updatedAt": "2023-08-17T23:48:02+00:00"
+  },
+  {
+    "id": "qm-banner---gift-stacking-quest",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 915,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "requireClientTags": [
+      "platform-oculus-quest"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "help-article-gift-vrcp-quest"
+        ]
+      }
+    },
+    "hash": "77cfb1b2685f93542d22b6c17b043a93",
+    "createdAt": "2023-08-25T21:14:55+00:00",
+    "updatedAt": "2023-08-25T22:12:24+00:00"
+  },
+  {
+    "id": "qm-banner---gift-stacking-pcvr",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 915,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "requireClientTags": [
+      "platform-pc-vr"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "help-article-gift-vrcp-pcvr"
+        ]
+      }
+    },
+    "hash": "7db4291790933baf55c0531b415dc883",
+    "createdAt": "2023-08-25T21:11:07+00:00",
+    "updatedAt": "2023-08-25T22:12:23+00:00"
+  },
+  {
+    "id": "qm-banner---gift-stacking-desktop",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 915,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "requireClientTags": [
+      "platform-pc-desktop"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "help-article-gift-vrcp-desktop"
+        ]
+      }
+    },
+    "hash": "8acb2bfc90c457fb20bb1ae19e203aa2",
+    "createdAt": "2023-08-25T21:11:07+00:00",
+    "updatedAt": "2023-08-25T22:12:23+00:00"
   },
   {
     "id": "qm-community-desktop",
@@ -1860,6 +1935,22 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-12-01T02:53:59+00:00"
   },
   {
+    "id": "world-banner---event-slyfest-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category-banner-event-slyfest-2023",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/0f1b86d74fc60b5ef5110e6d2d617a028337a373ac3dd710121189611e679727.png"
+    },
+    "hash": "fb8cfda2c6ff34023746aa933e5d777d",
+    "createdAt": "2023-08-25T15:05:37+00:00",
+    "updatedAt": "2023-08-25T15:05:37+00:00"
+  },
+  {
     "id": "world-spotlight-mobile-test",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -2514,6 +2605,35 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "430bf8946f83358c94a1a7e3c7a50922",
     "createdAt": "2020-09-12T05:20:18+00:00",
     "updatedAt": "2022-09-17T06:12:08+00:00"
+  },
+  {
+    "id": "world-slyfest-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1005,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": "",
+      "shortName": "Sly Fest 2023",
+      "tooltipDescription": "Sly Fest 2023 - Join Group SLYFES.6308 to join the main instances!",
+      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/d700032a28a7e3dc64bf2c9ecd945ca6d2d39d1b076e14bf0f5f9f98e3b31601.png",
+      "iconImageUrl": "",
+      "contentList": {
+        "name": "Slyfest 2023",
+        "sortHeading": "order",
+        "sortOwnership": "any",
+        "sortOrder": "ascending",
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_slyfest_2023",
+        "bannersTag": "world-category-banner-event-slyfest-2023"
+      }
+    },
+    "hash": "cefa4b03d26d1ac42a763abc8e0ebd76",
+    "createdAt": "2023-08-25T15:05:37+00:00",
+    "updatedAt": "2023-08-25T17:55:15+00:00"
   },
   {
     "id": "search-vrchat",

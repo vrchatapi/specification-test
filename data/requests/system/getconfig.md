@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/player-url-resolver-hash failed required.
+Response schema mismatch: #/devAppVersionStandalone failed required, #/devDownloadLinkWindows failed required, #/devServerVersionStandalone failed required, #/gearDemoRoomId failed required, #/messageOfTheDay failed required, #/moderationQueryPeriod failed required, #/plugin failed required, #/releaseAppVersionStandalone failed required, #/releaseSdkUrl failed required, #/releaseSdkVersion failed required, #/releaseServerVersionStandalone failed required, #/userUpdatePeriod failed required, #/userVerificationDelay failed required, #/userVerificationRetry failed required, #/userVerificationTimeout failed required, #/worldUpdatePeriod failed required, #/player-url-resolver-hash failed required.
 ```
 
 ## Request
