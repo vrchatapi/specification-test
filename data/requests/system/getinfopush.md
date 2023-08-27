@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/44/data/article/content failed type, #/45/data/article/content failed type, #/46/data/article/content failed type, #/47/data/article/content failed type, #/56/data/article/content failed type, #/60/data/article/content failed type, #/61/data/article/content failed type, #/62/data/article/content failed type.
+Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/44/data/article/content failed type, #/45/data/article/content failed type, #/46/data/article/content failed type, #/47/data/article/content failed type, #/58/data/article/content failed type, #/62/data/article/content failed type, #/63/data/article/content failed type, #/64/data/article/content failed type.
 ```
 
 ## Request
@@ -1949,6 +1949,50 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "fb8cfda2c6ff34023746aa933e5d777d",
     "createdAt": "2023-08-25T15:05:37+00:00",
     "updatedAt": "2023-08-25T15:05:37+00:00"
+  },
+  {
+    "id": "world-musicvket-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": "Music Vket 5",
+      "tooltipDescription": "Explore Music Vket 5!",
+      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/a4c141d39b9117ca160e7ea5a502d53cd04322f30b24ee580caf947199cfee16.png",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/0afd353b82a0e354be5bb4f31bdb42200e4305b7e69648b951e9042528ebc5ee.png",
+      "contentList": {
+        "name": "Music Vket 5",
+        "sortHeading": "order",
+        "sortOwnership": "any",
+        "sortOrder": "ascending",
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_musicvket_2023",
+        "bannersTag": "world-category-banner-event-musicvket-2023"
+      }
+    },
+    "hash": "631c09fb53927eeb4eaf34b0aac30ef2",
+    "createdAt": "2023-08-26T00:58:28+00:00",
+    "updatedAt": "2023-08-26T01:16:20+00:00"
+  },
+  {
+    "id": "world-banner---event-musicvket-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category-banner-event-musicvket-2023",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/325306d953a4c97e7e7739a0f5339aca0bf2e705558bfbfc00c736beaeb0af80.png"
+    },
+    "hash": "12ee89398f1a16ce5bd22462c7249708",
+    "createdAt": "2023-08-26T00:58:28+00:00",
+    "updatedAt": "2023-08-26T00:58:28+00:00"
   },
   {
     "id": "world-spotlight-mobile-test",
