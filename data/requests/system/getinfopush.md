@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/44/data/article/content failed type, #/45/data/article/content failed type, #/46/data/article/content failed type, #/47/data/article/content failed type, #/58/data/article/content failed type, #/62/data/article/content failed type, #/63/data/article/content failed type, #/64/data/article/content failed type.
+Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/44/data/article/content failed type, #/45/data/article/content failed type, #/46/data/article/content failed type, #/47/data/article/content failed type, #/57/data/article/content failed type, #/61/data/article/content failed type, #/62/data/article/content failed type, #/63/data/article/content failed type.
 ```
 
 ## Request
@@ -1935,22 +1935,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-12-01T02:53:59+00:00"
   },
   {
-    "id": "world-banner---event-slyfest-2023",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "world-category-banner-event-slyfest-2023",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/0f1b86d74fc60b5ef5110e6d2d617a028337a373ac3dd710121189611e679727.png"
-    },
-    "hash": "fb8cfda2c6ff34023746aa933e5d777d",
-    "createdAt": "2023-08-25T15:05:37+00:00",
-    "updatedAt": "2023-08-25T15:05:37+00:00"
-  },
-  {
     "id": "world-musicvket-2023",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -2649,35 +2633,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "430bf8946f83358c94a1a7e3c7a50922",
     "createdAt": "2020-09-12T05:20:18+00:00",
     "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "world-slyfest-2023",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1005,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": "",
-      "shortName": "Sly Fest 2023",
-      "tooltipDescription": "Sly Fest 2023 - Join Group SLYFES.6308 to join the main instances!",
-      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/d700032a28a7e3dc64bf2c9ecd945ca6d2d39d1b076e14bf0f5f9f98e3b31601.png",
-      "iconImageUrl": "",
-      "contentList": {
-        "name": "Slyfest 2023",
-        "sortHeading": "order",
-        "sortOwnership": "any",
-        "sortOrder": "ascending",
-        "platform": "ThisPlatformSupported",
-        "tag": "admin_slyfest_2023",
-        "bannersTag": "world-category-banner-event-slyfest-2023"
-      }
-    },
-    "hash": "cefa4b03d26d1ac42a763abc8e0ebd76",
-    "createdAt": "2023-08-25T15:05:37+00:00",
-    "updatedAt": "2023-08-25T17:55:15+00:00"
   },
   {
     "id": "search-vrchat",
