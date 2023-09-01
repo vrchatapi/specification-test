@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/40/data/article/content failed type, #/41/data/article/content failed type, #/42/data/article/content failed type, #/43/data/article/content failed type, #/44/data/article/content failed type, #/45/data/article/content failed type, #/46/data/article/content failed type, #/47/data/article/content failed type, #/57/data/article/content failed type, #/61/data/article/content failed type, #/62/data/article/content failed type, #/63/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/330/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/352/data/article/content failed type, #/357/data/article/content failed type, #/358/data/article/content failed type.
 ```
 
 ## Request
@@ -551,6 +551,28 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-05-04T00:16:25+00:00"
   },
   {
+    "id": "qm-banner-release-202332",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 900,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/27ddbad682670f4e16ab7df56961f413182316473c61d131741f9ff6c7d628aa.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "update-article-202332"
+        ]
+      }
+    },
+    "hash": "ddb497842342a1ce01151117e5d8a241",
+    "createdAt": "2023-08-31T20:44:46+00:00",
+    "updatedAt": "2023-08-31T21:43:33+00:00"
+  },
+  {
     "id": "qm-banner-android-launch",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -712,28 +734,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "d7b34005b9c2a8c4415904d76a039333",
     "createdAt": "2023-03-09T18:56:29+00:00",
     "updatedAt": "2023-06-28T19:15:53+00:00"
-  },
-  {
-    "id": "qm-banner-groups",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 960,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/bfbd6fdbc44669e6cc54b5d396866457be11b4ec2f8419d99dd1ec128b20689b.png",
-      "onPressed": {
-        "command": "OpenURL",
-        "parameters": [
-          "https://hello.vrchat.com/blog/vrchat-groups"
-        ]
-      }
-    },
-    "hash": "9df5162bf52fefcce4b1e5499487d039",
-    "createdAt": "2022-11-23T23:43:14+00:00",
-    "updatedAt": "2023-06-28T19:15:52+00:00"
   },
   {
     "id": "launch-avatar-guide",
@@ -1042,23 +1042,6398 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-12-15T00:29:04+00:00"
   },
   {
-    "id": "LAUNCH---safety",
+    "id": "search-zoo",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "quick-menu-banner",
+      "search",
       "user-all"
     ],
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/7ae34bb796e57b874979476641129116d431bde2709eb43a954ad076837df31a.png",
-      "onPressed": {
-        "command": "OpenSafetyMenu"
+      "name": "zoo",
+      "search": {
+        "searchQuery": "zoo",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
       }
     },
-    "hash": "1723015530c9d0bc86cedde9ebd10206",
-    "createdAt": "2021-06-08T20:24:53+00:00",
-    "updatedAt": "2022-09-08T21:59:19+00:00"
+    "hash": "a4a7aec48e80b9674a484cd4adc2ea43",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-zombie",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "zombie",
+      "search": {
+        "searchQuery": "zombie",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1079e1b92ab19df592be96bd78ad350d",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-workout",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "workout",
+      "search": {
+        "searchQuery": "workout",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ac492f679f10524de41fcb9a66374824",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-winter",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "winter",
+      "search": {
+        "searchQuery": "winter",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "960dfea8b9a20ecb900d4037b55a6799",
+    "createdAt": "2022-04-08T17:56:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-western",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "western",
+      "search": {
+        "searchQuery": "western",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "02ab80f17138c9bd3f1670339d05bb4c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-weird",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "weird",
+      "search": {
+        "searchQuery": "weird",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "66a5a2beb97bb3f14870244d34faa6dc",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-wedding",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "wedding",
+      "search": {
+        "searchQuery": "wedding",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "479935785db79e3c7bfe8fca81c0205f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-waves",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "waves",
+      "search": {
+        "searchQuery": "waves",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "59bf10906215e9f2978382be9581eb2a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-water",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "water",
+      "search": {
+        "searchQuery": "water",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "b62b6aad45366277d23cc5dda762af1b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-water park",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "water park",
+      "search": {
+        "searchQuery": "water park",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "b25e468a4ee52cf1c1229905a577af24",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-war",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "war",
+      "search": {
+        "searchQuery": "war",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "17147672570c7c464cae6c047ee902fe",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-vtuber",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "vtuber",
+      "search": {
+        "searchQuery": "vtuber",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "61e536119e3b3a1527f93edd0c802dc6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-visualizer",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "visualizer",
+      "search": {
+        "searchQuery": "visualizer",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ccc4b7a211fa99d53b8fccc6f2c55ea5",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-vaporwave",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "vaporwave",
+      "search": {
+        "searchQuery": "vaporwave",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "7e94f5607d4d9b5fb3f7321d28761652",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-underwater",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "underwater",
+      "search": {
+        "searchQuery": "underwater",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "854a8e49b89ff1e44dd10f7a1b746af1",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-underground",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "underground",
+      "search": {
+        "searchQuery": "underground",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "84f84162435831a04012c4f49559574c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-tunnel",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "tunnel",
+      "search": {
+        "searchQuery": "tunnel",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "50fc380fab829c52ed9069cb6cba2154",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-truth or dare",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "truth or dare",
+      "search": {
+        "searchQuery": "truth or dare",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "0d9bbc3d219cb6cec94642a06ad52b14",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-trivia",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "trivia",
+      "search": {
+        "searchQuery": "trivia",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c389ef37cee961d5e0b11d26d66f45ed",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-trippy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "trippy",
+      "search": {
+        "searchQuery": "trippy",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "50207861a079f5eb7b1cd0516b16c91e",
+    "createdAt": "2022-04-08T17:56:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-treehouse",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "treehouse",
+      "search": {
+        "searchQuery": "treehouse",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "86a98dbbc2acf66114388bf9f609e444",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-train",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "train",
+      "search": {
+        "searchQuery": "train",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "992f05b72a1b2f265fd81ba762229812",
+    "createdAt": "2022-04-08T18:07:24+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-toys",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "toys",
+      "search": {
+        "searchQuery": "toys",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ed10ba6607d89acc8265ff5dea5433fc",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-town",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "town",
+      "search": {
+        "searchQuery": "town",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a8564b8bfeda9707d246f692414f9660",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-tower",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "tower",
+      "search": {
+        "searchQuery": "tower",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "248b94bbf29beba73f24cf5515d2c8c9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-tower defense",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "tower defense",
+      "search": {
+        "searchQuery": "tower defense",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "bbbebd886e2818c0d4c250edd995594b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-tornado",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "tornado",
+      "search": {
+        "searchQuery": "tornado",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "920aa9f7535cadd7c791fcd17b18e9c6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-theater",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "theater",
+      "search": {
+        "searchQuery": "theater",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "482c02fc243ae68f0d42d60a7368d80b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-temple",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "temple",
+      "search": {
+        "searchQuery": "temple",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "58f52e346ff66916c9362d32856a62ee",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-tavern",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "tavern",
+      "search": {
+        "searchQuery": "tavern",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "37a6a3feb1bb7b64ec046b4d57809bee",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-talk",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "talk",
+      "search": {
+        "searchQuery": "talk",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "61c06fd00ac650916df8698438a6fdd7",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-tag",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "tag",
+      "search": {
+        "searchQuery": "tag",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c5aedecd6816977e9cbec618091f277b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-swim",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "swim",
+      "search": {
+        "searchQuery": "swim",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "75cc8fb22ba2b605dfca22bede2cd564",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-surreal",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "surreal",
+      "search": {
+        "searchQuery": "surreal",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "224d7aa70e284d99937e954d157ac509",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-surf",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "surf",
+      "search": {
+        "searchQuery": "surf",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3008c5f99ffe309cefea9f266bce8b49",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-superhero",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "superhero",
+      "search": {
+        "searchQuery": "superhero",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "751d13d46b1e25ba51ed505a99c6b6ed",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-sunset",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "sunset",
+      "search": {
+        "searchQuery": "sunset",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "13640ba225e34e34a99ede404a5a6f6e",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-sunny",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "sunny",
+      "search": {
+        "searchQuery": "sunny",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "0851b07c2015f7318cba52583ea60fa9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-summer",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "summer",
+      "search": {
+        "searchQuery": "summer",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "fc6484fbb41fc1c2b229f72d99211bab",
+    "createdAt": "2022-04-08T17:56:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-studio",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "studio",
+      "search": {
+        "searchQuery": "studio",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c4ed3c33f5f76df0cb26148957ef2d59",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-strategy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "strategy",
+      "search": {
+        "searchQuery": "strategy",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "33b246632a9c85caf1798ca7399ec918",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-story",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "story",
+      "search": {
+        "searchQuery": "story",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "61e85f43bfaec12eb2027b6ad1bec432",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-store",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "store",
+      "search": {
+        "searchQuery": "store",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "65c7799b63009cb00fb42a7f200af8a3",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-starry",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "starry",
+      "search": {
+        "searchQuery": "starry",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "68b91d33335f2266eeb37ce8d5e88978",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-stage",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "stage",
+      "search": {
+        "searchQuery": "stage",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "715f315ea5a6def737f39f48ddf22d56",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-spring",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "spring",
+      "search": {
+        "searchQuery": "spring",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "7f03f1d755dd5a23701e04e530e96c0b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-sports",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "sports",
+      "search": {
+        "searchQuery": "sports",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9a90cc470b1c9b2e8d95c9db7a3fe68b",
+    "createdAt": "2022-04-08T18:07:24+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-spaceship",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "spaceship",
+      "search": {
+        "searchQuery": "spaceship",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "7b6ff311bb6563160c2974505dbc8d0b",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-space",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "space",
+      "search": {
+        "searchQuery": "space",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "26c28ec3ec390c6497c875fe412d4638",
+    "createdAt": "2022-04-08T17:43:40+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-spa-world",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "spa",
+      "search": {
+        "searchQuery": "spa",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "f0824566413c5e6df4d753cdef48d81f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-soft",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "soft",
+      "search": {
+        "searchQuery": "soft",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1482a81eccd2a514d40095bf98e916ed",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-soccer",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "soccer",
+      "search": {
+        "searchQuery": "soccer",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "4b4f0ac23afc1710bf3101843cdefd33",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-snow",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "snow",
+      "search": {
+        "searchQuery": "snow",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "5a7c04da0a52567c0d3027b16473da91",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-smoke",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "smoke",
+      "search": {
+        "searchQuery": "smoke",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ed91aab4b345d344fbe7cc478fc3f8d9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-sleep",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "sleep",
+      "search": {
+        "searchQuery": "sleep",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a90d80eebea74962e9e091937dfd7f93",
+    "createdAt": "2020-09-12T05:20:18+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-simulator",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "simulator",
+      "search": {
+        "searchQuery": "simulator",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3367d02e28a5292d5276d5e1d45c1cff",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-shrine",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "shrine",
+      "search": {
+        "searchQuery": "shrine",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1ffdf8a97794a527ef01f991f52dab9e",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-shooting",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "shooting",
+      "search": {
+        "searchQuery": "shooting",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c18a7959b4b41a111276e1d2bc033678",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-ship",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "ship",
+      "search": {
+        "searchQuery": "ship",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ae4b3bf5c6041dce9bcc755b12418111",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-school",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "school",
+      "search": {
+        "searchQuery": "school",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "770cee314628abea6ab3d8aade85ac46",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-sandbox",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "sandbox",
+      "search": {
+        "searchQuery": "sandbox",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3f0b4a4c7a09d3719e36b615e4b16320",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-sakura",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "sakura",
+      "search": {
+        "searchQuery": "sakura",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "cf3645ab7ed1ac8cbbf5e88364e6b1c0",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-sad",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "sad",
+      "search": {
+        "searchQuery": "sad",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "cb7631d502107e3f482f109a5bb707e6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-rooftop",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "rooftop",
+      "search": {
+        "searchQuery": "rooftop",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "57e653ac9a69822cc80796e62335cf74",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-romantic",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "romantic",
+      "search": {
+        "searchQuery": "romantic",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a251df0029de0c2ad40c77602d68b1d2",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-rollercoaster",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "rollercoaster",
+      "search": {
+        "searchQuery": "rollercoaster",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "7c277e3501d81a9c9066a167d265cc4e",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-roleplay",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "roleplay",
+      "search": {
+        "searchQuery": "roleplay",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "6169ffd95204e62655603a8ddec46687",
+    "createdAt": "2022-04-08T17:43:40+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-robot",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "robot",
+      "search": {
+        "searchQuery": "robot",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "89fba348272afcdad89410989a341ea9",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-river",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "river",
+      "search": {
+        "searchQuery": "river",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "df14c82ddaf744dc6a4d7a3a1afa75a4",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-ride",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "ride",
+      "search": {
+        "searchQuery": "ride",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "7b15ac39cdf20d6d42cbc8ec3c1611fe",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-rhythm",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "rhythm",
+      "search": {
+        "searchQuery": "rhythm",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c3c3602038489dae723d5906801d677c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-retro",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "retro",
+      "search": {
+        "searchQuery": "retro",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ba7173d513736f4338e239b67a0c7fbc",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-restaurant",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "restaurant",
+      "search": {
+        "searchQuery": "restaurant",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c56fa546206b46ca2c7804da40d2b865",
+    "createdAt": "2022-04-08T17:56:26+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-relax",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "relax",
+      "search": {
+        "searchQuery": "relax",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "5964ac6c0007f3e0f8fa3b51b6109ff6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-realistic",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "realistic",
+      "search": {
+        "searchQuery": "realistic",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "372b9a60208a3515029d04b758993eca",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-rave",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "rave",
+      "search": {
+        "searchQuery": "rave",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "eb9df1a1bb8753a5c4533395e251b577",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-rainy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "rainy",
+      "search": {
+        "searchQuery": "rainy",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "72b146e2e16d5fa77afc188fc0b4d803",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-rainbow",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "rainbow",
+      "search": {
+        "searchQuery": "rainbow",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a4b513e79b30af4a217708762bffaa74",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-race",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "race",
+      "search": {
+        "searchQuery": "race",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3cc38d6b8837c22d30e76c50a4df81d2",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-quiz",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "quiz",
+      "search": {
+        "searchQuery": "quiz",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "d8fe6cd14fc49da707962cd34bac09be",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-pvp",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "pvp",
+      "search": {
+        "searchQuery": "pvp",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3b5e1cfefc68d4de9df9be355a137d7c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-puzzle",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "puzzle",
+      "search": {
+        "searchQuery": "puzzle",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "16da1afa29cd89162d9740958e854acf",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-prison",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "prison",
+      "search": {
+        "searchQuery": "prison",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3bad3a1c87596a6bcf3dce05862c8758",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-police",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "police",
+      "search": {
+        "searchQuery": "police",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "6a8fef767b8f495f86807d413a4979d4",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-podcast",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "podcast",
+      "search": {
+        "searchQuery": "podcast",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "2e7bb8749a6362e580945ca03e66ccd1",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-playground",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "playground",
+      "search": {
+        "searchQuery": "playground",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ad4a0d8e44032ac102bb2c541760558a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-planet",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "planet",
+      "search": {
+        "searchQuery": "planet",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "24a91ca15bd4b346a0aa7b4db43a8c86",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-pizza",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "pizza",
+      "search": {
+        "searchQuery": "pizza",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9691cebccca35b23dc7b21293ff2cdce",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-pirate",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "pirate",
+      "search": {
+        "searchQuery": "pirate",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "df7cb680913298015fe7db0b98b5dc54",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-piano",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "piano",
+      "search": {
+        "searchQuery": "piano",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3c3344577c5bda663677d29e22d5f0aa",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-photography",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "photography",
+      "search": {
+        "searchQuery": "photography",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1de2892def7f8fc5abbc2ffc20303c1b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-photogrammetry",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "photogrammetry",
+      "search": {
+        "searchQuery": "photogrammetry",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e955f5675322cbfd959b51a84ce4ab55",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-pet",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "pet",
+      "search": {
+        "searchQuery": "pet",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "090cc2b49cf84aec382841e01f907210",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-party",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "party",
+      "search": {
+        "searchQuery": "party",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "702f0bca2218a21c31a685ef73fc270d",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-particle",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "particle",
+      "search": {
+        "searchQuery": "particle",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "110b9eef36ce1530d024330d24073a5c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-parkour",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "parkour",
+      "search": {
+        "searchQuery": "parkour",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "5e3a33ea0cdd7c61e9779fae0e3365cd",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-park",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "park",
+      "search": {
+        "searchQuery": "park",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "f6ccf689762a16aa713c803fc398afb2",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-paint",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "paint",
+      "search": {
+        "searchQuery": "paint",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "b7e18d37c51aaf13e1c12dca0072adf9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-onsen",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "onsen",
+      "search": {
+        "searchQuery": "onsen",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "fab1a56bd80b7b99beb3a937052e3354",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-office",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "office",
+      "search": {
+        "searchQuery": "office",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "19db74d554ec6e77d48117f040358644",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-ocean",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "ocean",
+      "search": {
+        "searchQuery": "ocean",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ab682cccaab288565f269d83241bdec3",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-night",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "night",
+      "search": {
+        "searchQuery": "night",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "159b38da180444533eb73bd5071ffe86",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-neon",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "neon",
+      "search": {
+        "searchQuery": "neon",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "8ab349e91be59b7dae7789d82d71c790",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-nature",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "nature",
+      "search": {
+        "searchQuery": "nature",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e869a22186ea3e21a83b31d88044fd1a",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-music",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "music",
+      "search": {
+        "searchQuery": "music",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e4d932cff945032784bb90c5831e2644",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-mushroom",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "mushroom",
+      "search": {
+        "searchQuery": "mushroom",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ad3ded8f9e1f5f5717558d861ae120be",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-museum",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "museum",
+      "search": {
+        "searchQuery": "museum",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3a6f26d8bb77ffab66c4ca39d3fd877e",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-murder mystery",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "murder mystery",
+      "search": {
+        "searchQuery": "murder mystery",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "96d7ca68840ca8226aad2d718f69885b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-movie",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "movie",
+      "search": {
+        "searchQuery": "movie",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "dd68590d6651abcf593645fcf83effcf",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-mountain",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "mountain",
+      "search": {
+        "searchQuery": "mountain",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "10f4d9c63d30f92bd4f10d3d4592d3a8",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-motorcycle",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "motorcycle",
+      "search": {
+        "searchQuery": "motorcycle",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ad8a801e17a8ac88a803fc8e9fa405e6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-morning",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "morning",
+      "search": {
+        "searchQuery": "morning",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "4c551bbcb3b1c8a77a18866a867e6a4a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-moon",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "moon",
+      "search": {
+        "searchQuery": "moon",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "286e20e3e94208b59156baee78dd8836",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-monster",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "monster",
+      "search": {
+        "searchQuery": "monster",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "d4d33e6c7e7f52aa89b2372b8e883263",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-military",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "military",
+      "search": {
+        "searchQuery": "military",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "0bdc021f0bd722820427b07666c3b923",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-meme",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "meme",
+      "search": {
+        "searchQuery": "meme",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "01d6b7ca33ccd8347882166d3328324b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-meeting",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "meeting",
+      "search": {
+        "searchQuery": "meeting",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c84f16f07835aac433436c8109b92ada",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-meditation",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "meditation",
+      "search": {
+        "searchQuery": "meditation",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "5539e649a181a659a733c11e70ef3950",
+    "createdAt": "2022-04-08T18:19:13+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-medieval",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "medieval",
+      "search": {
+        "searchQuery": "medieval",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "bf0c78c7714950f358d6eb14aaf002dc",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-mech",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "mech",
+      "search": {
+        "searchQuery": "mech",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c72eb8364dfeb172a6a671fbae4a0ebd",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-maze",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "maze",
+      "search": {
+        "searchQuery": "maze",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3dd878b97b69e55989f40200c6a5b6f4",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-mansion",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "mansion",
+      "search": {
+        "searchQuery": "mansion",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "97045b8fddd0d679c43da6625b5723cb",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-mall",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "mall",
+      "search": {
+        "searchQuery": "mall",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "4f35eef955465e4e8f8c5ef5ccfce123",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-magic",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "magic",
+      "search": {
+        "searchQuery": "magic",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "10aa7564d6eb76a1adf19ae3e33183da",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-mafia",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "mafia",
+      "search": {
+        "searchQuery": "mafia",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "4b848d88480533ec67e84a67685c3104",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-love",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "love",
+      "search": {
+        "searchQuery": "love",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e4fdb5e0286d513d22c0ee16ea0dced8",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-lonely",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "lonely",
+      "search": {
+        "searchQuery": "lonely",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "bb4e192b99a2f309ea41a504bedcacad",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-liminal",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "liminal",
+      "search": {
+        "searchQuery": "liminal",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "cf1f925d3792535f3d6fa097c412399a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-library",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "library",
+      "search": {
+        "searchQuery": "library",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "0cfb68cc660be6dd9baa3a1208914a90",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-LGBTQ",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "LGBTQ",
+      "search": {
+        "searchQuery": "LGBTQ",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "25d4f7f1caf374718ffc0e9cf4f8e821",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-language",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "language",
+      "search": {
+        "searchQuery": "language",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "6dea7e0af4b54e8f182a4b618aebd871",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-landscape",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "landscape",
+      "search": {
+        "searchQuery": "landscape",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ca4a231c943620fffb6cec66db545051",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-lab",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "lab",
+      "search": {
+        "searchQuery": "lab",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "08beb6033b173e9ab2d9e3188f9cbfbe",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-karaoke",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "karaoke",
+      "search": {
+        "searchQuery": "karaoke",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "88f45bc3c45ddd95cd41dc5aa727ad1d",
+    "createdAt": "2022-04-08T17:43:40+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-jungle",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "jungle",
+      "search": {
+        "searchQuery": "jungle",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "81cc09d6abd6ab83a26e8db5ad8f11d3",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-jet",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "jet",
+      "search": {
+        "searchQuery": "jet",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "b159fabff318a3ea64afecc2830b7db9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-island",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "island",
+      "search": {
+        "searchQuery": "island",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "195c4c546df8c946414f7ee280202e5f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-hub",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "hub",
+      "search": {
+        "searchQuery": "hub",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "957c468a761779a301ddde5d7a58a95d",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-house",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "house",
+      "search": {
+        "searchQuery": "house",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9ee1591260d53140788a2e8966d87637",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-hotel",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "hotel",
+      "search": {
+        "searchQuery": "hotel",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "232754872bd2fe25946a97150e526c0c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-hospital",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "hospital",
+      "search": {
+        "searchQuery": "hospital",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1e0e58c1b62df3521ea1ec89d1bb2470",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-horse",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "horse",
+      "search": {
+        "searchQuery": "horse",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "81c8fa038141f43126fc729cfa3c371a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-horror",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "horror",
+      "search": {
+        "searchQuery": "horror",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "570d9bd3a28a1ac0b0293827464f921f",
+    "createdAt": "2022-04-08T17:43:40+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-home",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "home",
+      "search": {
+        "searchQuery": "home",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "8eadc2ff19d0a8b53f03cf8784b1d1bb",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-holiday",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "holiday",
+      "search": {
+        "searchQuery": "holiday",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "d0091baf22708e2b71425ca9c6a82ed9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-hide and seek",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "hide and seek",
+      "search": {
+        "searchQuery": "hide and seek",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "2548e3618151ac40455223e569749e23",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-helicopter",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "helicopter",
+      "search": {
+        "searchQuery": "helicopter",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "0435a6e08461fad196908b141649c76a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-hangout",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "hangout",
+      "search": {
+        "searchQuery": "hangout",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "7c449bc30914187407864fdebbe546a2",
+    "createdAt": "2020-09-12T05:20:17+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-halloween",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "halloween",
+      "search": {
+        "searchQuery": "halloween",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "641a0e1b85e073e813da4f3c4da38996",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-gym",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "gym",
+      "search": {
+        "searchQuery": "gym",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "7553a42dbe9f4ce77f260eb5361664d6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-grass",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "grass",
+      "search": {
+        "searchQuery": "grass",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c768b5949975b6a84382d44789542be1",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-grapple",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "grapple",
+      "search": {
+        "searchQuery": "grapple",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "36845a643d010b1d87ebee0c4af222f8",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-graffiti",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "graffiti",
+      "search": {
+        "searchQuery": "graffiti",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "00636ef76d0931566d0c84c95633e9f8",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-golf",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "golf",
+      "search": {
+        "searchQuery": "golf",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c0f6d8e2a796b999efebb7466119180f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-giant",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "giant",
+      "search": {
+        "searchQuery": "giant",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "7941758091e874bc0b24263b1f1a20bf",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-garden",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "garden",
+      "search": {
+        "searchQuery": "garden",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "96bd13946487ca75989441d5231de483",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-garage",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "garage",
+      "search": {
+        "searchQuery": "garage",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1e46df117d7f8902473a0403959a7c37",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-gallery",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "gallery",
+      "search": {
+        "searchQuery": "gallery",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1df279184017c08e5b5e2d54d44d751a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-furry",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "furry",
+      "search": {
+        "searchQuery": "furry",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "8ec14e0fe2a7c6a02ab52276f44badad",
+    "createdAt": "2022-04-08T17:43:40+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-fort",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "fort",
+      "search": {
+        "searchQuery": "fort",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "cbfe5991b649d45ed07b11f7c833e094",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-forest",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "forest",
+      "search": {
+        "searchQuery": "forest",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "f7af4f8339fe5361899c2a6effb2cb8e",
+    "createdAt": "2022-04-08T17:56:26+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-food",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "food",
+      "search": {
+        "searchQuery": "food",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "53f0b53186ab0451b6fb0714710f6e84",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-fog",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "fog",
+      "search": {
+        "searchQuery": "fog",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "81dd8af8f1d9648780b60697455cb48a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-flower",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "flower",
+      "search": {
+        "searchQuery": "flower",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ea2e6ef46e42e2424cb7a3ebc225a75f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-flight sim",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "flight sim",
+      "search": {
+        "searchQuery": "flight sim",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a898fbd068754bab885a0b55b5478e56",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-fishing",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "fishing",
+      "search": {
+        "searchQuery": "fishing",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e01a42378330b22018ef122d839ab24c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-fish",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "fish",
+      "search": {
+        "searchQuery": "fish",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "37fc236c17d0a8559d0982afefe8b334",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-fireworks",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "fireworks",
+      "search": {
+        "searchQuery": "fireworks",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e3746aafce88da1eb7809a6aea81ba5a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-festival",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "festival",
+      "search": {
+        "searchQuery": "festival",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "d696adff472a4d544079f57d7010b0c9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-fast food",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "fast food",
+      "search": {
+        "searchQuery": "fast food",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "bd32e0a7738d6611112fd737ccc50ce1",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-farm",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "farm",
+      "search": {
+        "searchQuery": "farm",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a1650d8d881b51133ac3f32aa4cc9b18",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-fantasy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "fantasy",
+      "search": {
+        "searchQuery": "fantasy",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "2c5b1437d46ae63e2d4bdef3bfb29fb7",
+    "createdAt": "2022-04-08T17:56:26+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-explore",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "explore",
+      "search": {
+        "searchQuery": "explore",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "89bec0a6491a1d2759b7ef13dd228e1b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-escape room",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "escape room",
+      "search": {
+        "searchQuery": "escape room",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "26f22d6f1e70f2b26276e78f40ccb4b9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-elevator",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "elevator",
+      "search": {
+        "searchQuery": "elevator",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "797e59edc8c552237a796b02a1777e83",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-dungeon",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "dungeon",
+      "search": {
+        "searchQuery": "dungeon",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "325475baa5abadad4fd4cef81d70fa13",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-drone",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "drone",
+      "search": {
+        "searchQuery": "drone",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "51b91aae4cb24b4a783ff497b092bafd",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-drive",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "drive",
+      "search": {
+        "searchQuery": "drive",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "24f6bb9c1e93bef06ee78c58f00ede3b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-drink",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "drink",
+      "search": {
+        "searchQuery": "drink",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "88cc94c708143917821826e71e7109d5",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-draw",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "draw",
+      "search": {
+        "searchQuery": "draw",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9c7d6f74d7edd31519da6bd00d9e45ad",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-dog",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "dog",
+      "search": {
+        "searchQuery": "dog",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ea369b5c2f74de2487c779a652f4ebc5",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-dj",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "dj",
+      "search": {
+        "searchQuery": "dj",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "7b73b0360bd2a7e5158b1d2187f6be96",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-dinosaur",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "dinosaur",
+      "search": {
+        "searchQuery": "dinosaur",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "eefc8ce65b5542a31d6c588b38916d38",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-diner",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "diner",
+      "search": {
+        "searchQuery": "diner",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "8f84574f50a023cfc74179228037078a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-desert",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "desert",
+      "search": {
+        "searchQuery": "desert",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "fc4f05f5d5d67ad5ef0d5807c424c07f",
+    "createdAt": "2022-04-08T18:07:24+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-dating",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "dating",
+      "search": {
+        "searchQuery": "dating",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e905024101f53f303590e68eaa74cd93",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-dark",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "dark",
+      "search": {
+        "searchQuery": "dark",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "eadefd2b247856a6bbe34965d7ebf45a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-dance",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "dance",
+      "search": {
+        "searchQuery": "dance",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1fce54961b6a78a55097f221fae5709c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cyber",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cyber",
+      "search": {
+        "searchQuery": "cyber",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9c0fb7c938d322a5ae191357ac63244f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cute",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cute",
+      "search": {
+        "searchQuery": "cute",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a2e3d9b65799b38496b6df2551faee5e",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cuddle",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cuddle",
+      "search": {
+        "searchQuery": "cuddle",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "8a5ebabe8ee729ad093536bfd8cc2064",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-creepy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "creepy",
+      "search": {
+        "searchQuery": "creepy",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9f2c9fd99a1d7736af7e5b44550644fc",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cozy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cozy",
+      "search": {
+        "searchQuery": "cozy",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "fba04fd4701155035a4ee4f7c27a3e26",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-court",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "court",
+      "search": {
+        "searchQuery": "court",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "38b5326cad8b5c5c989954243298b8fd",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cook",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cook",
+      "search": {
+        "searchQuery": "cook",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "00a0194408d8cc8969d07f4b274ff215",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-community",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "community",
+      "search": {
+        "searchQuery": "community",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "b903ec0b6d1e24342935cbef6dde4f81",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-comfy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "comfy",
+      "search": {
+        "searchQuery": "comfy",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "514256ce3233269d7979ee9273dde473",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-comedy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "comedy",
+      "search": {
+        "searchQuery": "comedy",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ed1807b0388dffe8f163dcb0e77e366a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-coffee",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "coffee",
+      "search": {
+        "searchQuery": "coffee",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9da7c23758f910cc860901da8c8db36b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-club",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "club",
+      "search": {
+        "searchQuery": "club",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "4aeca574937342fcda8d27deff7cc52f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-climbing",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "climbing",
+      "search": {
+        "searchQuery": "climbing",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "fc124536abf8e58df6cc80be4c242527",
+    "createdAt": "2022-04-08T17:56:26+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-chill",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "chill",
+      "search": {
+        "searchQuery": "chill",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "6fd6be5388780cab029b746337b5dd93",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-chess",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "chess",
+      "search": {
+        "searchQuery": "chess",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e334a850ca35b8c4feacd81c0f11145f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cave",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cave",
+      "search": {
+        "searchQuery": "cave",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "6498bd5a3e2d178e337fd5fb2ac4df1a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cathedral",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cathedral",
+      "search": {
+        "searchQuery": "cathedral",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a4f190773707d9093f211a926a46234d",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cat",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cat",
+      "search": {
+        "searchQuery": "cat",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "ca47c78e22f2db592b2b3eef2401734c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-castle",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "castle",
+      "search": {
+        "searchQuery": "castle",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "f3153ebb80bd6f6de6ab93075928d342",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-casino",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "casino",
+      "search": {
+        "searchQuery": "casino",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "81a5fa4dee59a178a1554f339da71157",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cartoon",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cartoon",
+      "search": {
+        "searchQuery": "cartoon",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9122d0d96d495c397e30daa81725e845",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-carnival",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "carnival",
+      "search": {
+        "searchQuery": "carnival",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "f6ea55f0afa7d7f7a3197b1c3a7b4baa",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-car",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "car",
+      "search": {
+        "searchQuery": "car",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "bbc0b35f7e927c16538385611fcac7a3",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-camping",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "camping",
+      "search": {
+        "searchQuery": "camping",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "73b72362298434999e2a6c8aa7f1b69a",
+    "createdAt": "2022-04-08T17:43:40+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-campfire",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "campfire",
+      "search": {
+        "searchQuery": "campfire",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "208563111b55f6b9c2c4e86df37bbac7",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-calm",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "calm",
+      "search": {
+        "searchQuery": "calm",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "55953183946beab6161016d95ae5c217",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cafe",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cafe",
+      "search": {
+        "searchQuery": "cafe",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "86b0858285f51be4f3fdea258387ac8d",
+    "createdAt": "2022-04-08T18:07:24+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-cabin",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "cabin",
+      "search": {
+        "searchQuery": "cabin",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "d12cc1f459544079e5bfe7659175ba91",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-bus",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "bus",
+      "search": {
+        "searchQuery": "bus",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a4c02cfae7e191083143ab030c4797cc",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-boxing",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "boxing",
+      "search": {
+        "searchQuery": "boxing",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "cc95f4432438e419aff868f5dd094fee",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-box",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "box",
+      "search": {
+        "searchQuery": "box",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "dca07a6d60d1327486b9de3a199c6680",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-bowling",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "bowling",
+      "search": {
+        "searchQuery": "bowling",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3db5e83605373359fbd9689d2755b7b1",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-boat",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "boat",
+      "search": {
+        "searchQuery": "boat",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e18110edb8c4aae7b730223c2dbc8249",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-board game",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "board game",
+      "search": {
+        "searchQuery": "board game",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e9bce385ea6202155d342b637471f285",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-birthday",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "birthday",
+      "search": {
+        "searchQuery": "birthday",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "d10d6078431d2bc5978208f1e1fdd8c9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-bike",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "bike",
+      "search": {
+        "searchQuery": "bike",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a609562fb98b779b7cc786373caacf48",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-bedroom",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "bedroom",
+      "search": {
+        "searchQuery": "bedroom",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "2f6e311b2006f4fc2ac3d812ac21b793",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-beautiful",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "beautiful",
+      "search": {
+        "searchQuery": "beautiful",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "0f42f144e85e96c193999fe263227650",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-beach",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "beach",
+      "search": {
+        "searchQuery": "beach",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "6e1355072ade70cd657a1f76eaccf6c4",
+    "createdAt": "2022-04-08T18:07:24+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-bbq",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "bbq",
+      "search": {
+        "searchQuery": "bbq",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9b5d42ffce4f6cad627118afb8b1fc00",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-battle",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "battle",
+      "search": {
+        "searchQuery": "battle",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "f29ca78175135253d20ab29af7250aaf",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-basement",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "basement",
+      "search": {
+        "searchQuery": "basement",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "2fc42d807e178d821e010739481ea94f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-bar",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "bar",
+      "search": {
+        "searchQuery": "bar",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "fab121bcc1b29d49e6352f5e298fa474",
+    "createdAt": "2022-04-08T17:56:26+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-ballroom",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "ballroom",
+      "search": {
+        "searchQuery": "ballroom",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "82f9ba1f3549be7862d1ece57657a1d2",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-autumn",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "autumn",
+      "search": {
+        "searchQuery": "autumn",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "186d045ff601b7ced309f9967b626a7a",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-audio",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "audio",
+      "search": {
+        "searchQuery": "audio",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "820aade487b84fc5cdff36c300e2a158",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-attic",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "attic",
+      "search": {
+        "searchQuery": "attic",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9c992d5cb13807c029f319c7b7cf311d",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-asylum",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "asylum",
+      "search": {
+        "searchQuery": "asylum",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "09cc680cf4f76c90ce8aebc383258c13",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-asmr",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "asmr",
+      "search": {
+        "searchQuery": "asmr",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1a8cc95c25ce480a2a1dde9283f7ada7",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-art",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "art",
+      "search": {
+        "searchQuery": "art",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "03612cf38c849884ba52266198f3b7f8",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-arena",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "arena",
+      "search": {
+        "searchQuery": "arena",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "81fd2ef8c9e2afeb7593d5b0fb2356c5",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-architecture",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "architecture",
+      "search": {
+        "searchQuery": "architecture",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "56ca156666d9bd73241d60aab49c0be6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-arcade",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "arcade",
+      "search": {
+        "searchQuery": "arcade",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "70a8ed2a3f71a138c0f1ccada44b9fbc",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-aquarium",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "aquarium",
+      "search": {
+        "searchQuery": "aquarium",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "33fbc847bb928acca51ef417437b0abd",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-apartment",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "apartment",
+      "search": {
+        "searchQuery": "apartment",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "5a11f4294ecbc43fe143056e9f87802e",
+    "createdAt": "2022-04-08T18:19:13+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-animation",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "animation",
+      "search": {
+        "searchQuery": "animation",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a8f3f350e07e1695d2e814094c4742ae",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-alien",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "alien",
+      "search": {
+        "searchQuery": "alien",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "0d8c94571f3a1b21f80e3b49f7d7e631",
+    "createdAt": "2022-04-08T18:47:48+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-airship",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "airship",
+      "search": {
+        "searchQuery": "airship",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "bb8453ff552dd4290fe86f814f9e8553",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-airport",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "airport",
+      "search": {
+        "searchQuery": "airport",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "88e9585404df1c7f50349c132206f6fc",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-adventure",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "adventure",
+      "search": {
+        "searchQuery": "adventure",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "40c3e80ba4df33889a35a195e385faa7",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-action",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "action",
+      "search": {
+        "searchQuery": "action",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "2bf252e471a0383034d1bab3493ee700",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-abandoned",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "search",
+      "user-all"
+    ],
+    "data": {
+      "name": "abandoned",
+      "search": {
+        "searchQuery": "abandoned",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "60c32d3cff2a900c9a6a68c53a4436ec",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-promoted-vket",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "Vket2023S",
+      "search": {
+        "searchQuery": "vket2023s",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "5692d27dcada87ce933315b6cf94b299",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T22:28:19+00:00"
+  },
+  {
+    "id": "search-promoted-slyfest",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "Sly Fest",
+      "search": {
+        "searchQuery": "sly fest slyfest",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "2ae3f16c4a6c1589c779c7c379d73a6f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T22:13:14+00:00"
+  },
+  {
+    "id": "search-promoted-musicvket",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "MusicVket",
+      "search": {
+        "searchQuery": "musicvket5 jvckenwood",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "0ea2f2b1fc1a9c5adea912d985cd7cb5",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T22:40:24+00:00"
+  },
+  {
+    "id": "search-promoted-horror",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "horror",
+      "search": {
+        "searchQuery": "horror",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e84b6dbbd29cff0186d377c1d33dcc4f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-promoted-draw",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "draw",
+      "search": {
+        "searchQuery": "draw",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "94c5bcaf687484d967526932bfc88a1e",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-vie",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-vie",
+      "user-all"
+    ],
+    "data": {
+      "name": "Tiếng Việt",
+      "search": {
+        "searchQuery": "Vietnamese Tiếng Việt Vietnam VN",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "f80cbbd93df4d0ad71aef9c51e9219f6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-ukr",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-ukr",
+      "user-all"
+    ],
+    "data": {
+      "name": "Yкраї́нська",
+      "search": {
+        "searchQuery": "ukr Ukranian Yкраї́нська Ukraine",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "be165431081a7e790bd1b105cc684a6d",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-tur",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-tur",
+      "user-all"
+    ],
+    "data": {
+      "name": "Türkçe",
+      "search": {
+        "searchQuery": "Turkish Türkçe Türkiye TR",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c950882f5edd89d5caf690dd3fc72cb0",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-tha",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-tha",
+      "user-all"
+    ],
+    "data": {
+      "name": "ภาษาไทย",
+      "search": {
+        "searchQuery": "Thai, ภาษาไทย, Thailand, TH, sala",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "06195b8b1de7a273d831bb315ef95d93",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-swe",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-swe",
+      "user-all"
+    ],
+    "data": {
+      "name": "Svenska",
+      "search": {
+        "searchQuery": "Swedish Svenska Sweden",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "1f3d2b76a82a80382d7030e3f05d7518",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-spa",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-spa",
+      "user-all"
+    ],
+    "data": {
+      "name": "Español",
+      "search": {
+        "searchQuery": "Spanish Español latino latam",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "e86da6ab5afc3e1a6036a2fe555279c6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-rus",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-rus",
+      "user-all"
+    ],
+    "data": {
+      "name": "Русский",
+      "search": {
+        "searchQuery": "rus Russian Русский Russia RU Россия",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "5503b482e4c2c16c0f2c7bc51bf32acc",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-ron",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-ron",
+      "user-all"
+    ],
+    "data": {
+      "name": "Română",
+      "search": {
+        "searchQuery": "Romanian Română Romania",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "2c0358a7fc9cdc00581f11972f7d2b9b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-por",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-por",
+      "user-all"
+    ],
+    "data": {
+      "name": "Português",
+      "search": {
+        "searchQuery": "Portuguese Português Portugal Brasil Brazil BR",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "9d6fc4bc38e338442ac0d4947f3df220",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-pol",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-pol",
+      "user-all"
+    ],
+    "data": {
+      "name": "Polski",
+      "search": {
+        "searchQuery": "Polish Polski Poland Polska",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "d56197b86c280b06516431d9735e818f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-nor",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-nor",
+      "user-all"
+    ],
+    "data": {
+      "name": "Norsk",
+      "search": {
+        "searchQuery": "Norwegian Norsk Norway",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "6f62b636a2f1e8178f6043a06779adaf",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-kor",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-kor",
+      "user-all"
+    ],
+    "data": {
+      "name": "한국어",
+      "search": {
+        "searchQuery": "kor Korean 한국어 Korea 한국 KR",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "c5bdbb58d07740a69af48159442a337b",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-jpn",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-jpn",
+      "user-all"
+    ],
+    "data": {
+      "name": "日本語",
+      "search": {
+        "searchQuery": " jpn Japanese 日本語 Japan 日本 JP",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "07046ad5a7177d14ba6287c390660e8f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-ita",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-ita",
+      "user-all"
+    ],
+    "data": {
+      "name": "Italiano",
+      "search": {
+        "searchQuery": "Italian Italiano Italiani Italia Italy",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "a3ae5baad2a9bdd0959929722b6ceea5",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-hun",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-hun",
+      "user-all"
+    ],
+    "data": {
+      "name": "Magyar",
+      "search": {
+        "searchQuery": "Hungarian Magyar Hungary Magyarország",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "f05f6b7552a903d18fdbd6ad38c5a2a6",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-deu",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-deu",
+      "user-all"
+    ],
+    "data": {
+      "name": "Deutsch",
+      "search": {
+        "searchQuery": "deu German Deutsch Germany DE ",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "5fc51a3ce701240863e0963d8e3df9c9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-fra",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-fra",
+      "user-all"
+    ],
+    "data": {
+      "name": "Français",
+      "search": {
+        "searchQuery": "French Français France FR",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "456e0ed12b9cbcb85790bf2ab0c07263",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-fin",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-fin",
+      "user-all"
+    ],
+    "data": {
+      "name": "Suomi",
+      "search": {
+        "searchQuery": "Finnish, Suomi, Finland",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "91c178f7812546f1a17f34424510ab8d",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-nld",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-nld",
+      "user-all"
+    ],
+    "data": {
+      "name": "Nederlands",
+      "search": {
+        "searchQuery": "Dutch Nederlands Netherlands NL",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "49911ea1a0bb74aa25fdf25beef537db",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-dan",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-dan",
+      "user-all"
+    ],
+    "data": {
+      "name": "Dansk",
+      "search": {
+        "searchQuery": "Danish Dansk Denmark Danmark",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "546a03053b1cc2cdde5b399dd320c8c9",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-ces",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-ces",
+      "user-all"
+    ],
+    "data": {
+      "name": "Čeština",
+      "search": {
+        "searchQuery": "Czech Čeština CZ Slovakia Slovak SK",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "745a99131cc033b0f52521b0ed501b0c",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-zho",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-zho",
+      "user-all"
+    ],
+    "data": {
+      "name": "中文",
+      "search": {
+        "searchQuery": "zho Chinese 中文 China CN Taiwan TW Hong Kong HK zhongwen",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "4031220208eb91c22b01611cd0947d0f",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
+  },
+  {
+    "id": "search-ara",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-ara",
+      "user-all"
+    ],
+    "data": {
+      "name": "العربية",
+      "search": {
+        "searchQuery": "Arabic العربية arab عرب Saudi Arabia UAE KSA",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "de3766458964e9597d14e9bcfb3529de",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-08-31T21:08:27+00:00"
   },
   {
     "id": "help-article-what-vrcp-quest",
@@ -1410,350 +7785,58 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-09-08T22:22:35+00:00"
   },
   {
-    "id": "release-main-menu-launch",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "user-all",
-      "help-article",
-      "help-topic-news",
-      "help-notifications"
-    ],
-    "data": {
-      "name": "Main Menu 2.0",
-      "imageUrl": "https://assets.vrchat.com/ips/assets/805ffb56a12ed6729fc5195ff2faba5e24df2b3ee4f05140fdb72690f765c5fc.png",
-      "description": "MM 2.0 is Live!",
-      "isNew": true,
-      "article": {
-        "sectionLinks": [
-          "link-feature-highlights",
-          "link-patch-notes"
-        ],
-        "content": [
-          {
-            "text": "It’s shiny, it’s new, and you’re using it right now! Welcome to UI 2.0 – the Main Menu update!<br><br>We first started our project to redo the entire VRChat UI last year, when we released the Quick Menu update, which we referred to as the “1.5” update.<br><br>With the Main Menu update, we’ve finished the job, reskinning the Main Menu, adding a ton of new functionality, and hopefully drastically improving the lives of every VRChat user.<br><br>The new Main Menu introduces a ton of new features – so many that we won’t be able to go through all of them! However, if you’d like a complete list of changes, you can scroll down to the bottom of this post (or click the button on the left sidebar!) to see the complete patch notes."
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "id": "link-feature-highlights",
-            "title": "Feature Highlights",
-            "text": "<size=140%><b>Feature Highlights</b></size>"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "<b>A Completely New Look</b> – The Main Menu has been reskinned to match VRChat’s visual style. We’ve spent a lot of time ensuring that it just doesn’t look better, but that it works better, too. Menus should be easier to navigate, and it overall should be more intuitive and user-friendly to figure out what it is you’re trying to do.<br><br><b>Redesigned HUD</b> – The VRChat HUD has been completely redesigned! You’ll first notice an all-new microphone icon that is clearer and more intuitive. You’ll also notice that you will now receive notifications when users join or enter your instance. Many of these features can be customized to your liking under Settings!<br><br><b>Main Menu Launchpad</b> – When you now open your Main Menu, you will be redirected to the Launch Pad. The Launch Pad contains a lot of useful information that you might want to know quickly, such as how many friends you have online, who you hung out with in VRChat recently (even if they aren’t your friend!), and which if your favorite worlds have recently updated.<br><br><b>Recently Worn Avatars</b> – Have you ever worn an avatar, forgotten to favorite it, and then lost it forever? No more! Your last few worn avatars will now be shown under the Avatars Tab. Go check it out!<br><br><b>Improved Search</b> – The new Search Tab lets you find VRChat worlds easier than ever before. In addition to improving our search results page dramatically, we’ve also added in a randomized category feature. Whenever you open the Search Tab, all of the categories you see will be randomized!<br><br><b>Help & Info</b> – We’ve added a brand new Help & Info section to the Main Menu that’s been populated with a bunch of how-to articles for both new and old players alike. Additionally, this is where patch notes (like these!) will be posted in the future, so that everyone – not just the folks that lurk our Discord! – can see what’s changing and being added to VRChat.<br><br>…and so, so much more!"
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "id": "link-patch-notes",
-            "title": "Full Patch Notes",
-            "text": "<size=140%><b>Full Patch Notes</b></size>"
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "text": "<voffset=0.7em><b><size=120%>Client - Features</size></b></voffset><br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented Main Menu 2.0!</b></indent><br><line-height=0.76em></line-height><br>  - The new Main Menu utilizes tabs to allow users to quickly find exactly what they're looking for with either old sections of the Main Menu that you're familiar with as well as several brand new sections to aid your VRChat experience<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented the Launch Pad Menu</b>! We've added a new Launch Pad section to the Main Menu that includes a bunch of useful information at a quick glance - including how many friends you've got online, pending invites, friend requests, what worlds you've been to recently, if any of your favorite worlds have received an updated and who you've recently hung out with.</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented Wings into the Main Menu!</b> The always-useful Wings from the Quick Menu have been added to the Main Menu, allowing you to have always-visible information on the sides</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added the Worlds wing!</b> </indent><br><line-height=0.76em></line-height><br>  - This wing gives you quick access to your worlds, like Recent Worlds, Uploaded Worlds, and your playlists! <br>  - You can sort them in many ways, like Active, Friends, Last Updated, and more!<br>  - This wing is enabled by default for new users<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added the Explore wing!</b></indent><br><line-height=0.76em></line-height><br>  - This wing gives you quick access to many different guides on how to get started with VRChat!<br>  - This wing is enabled by default for new users<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented a new HUD</b>! We've re-designed the VRChat HUD to allow users to easily stay notified, customize opacity for the HUD or individual elements, and more.</indent><br><line-height=0.76em></line-height><br>  - By default, the HUD will use the 'Verbose' setting to show notification pop-ups (which can be individually configured) such as Join / Leave Notifications, Portal Notifications, etc.<br>  - The HUD can also be set to 'Minimal' to only show icons or can be completely turned off<br>  - Added an optional toggle for HUD motion smoothing<br>  - Added opacity sliders to allow you to adjust the opacity for the entire HUD or the mic icon<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>All-new Worlds Menu</b>! The Worlds Menu has been completely redesigned to help users find exactly what they're looking for as well as improve overall world discoverability</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added \"VRCat's Variety Box\"</b>, which is a new page that you get when you open the Worlds tab!</indent><br><line-height=0.76em></line-height><br>    - The variety box contains one random world from a set of categories<br>    - Clicking Shuffle in the top right will get you new worlds<br>    - You can hover over any world to favorite it or join a public instance of that world<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Updated Avatars Menu</b>!  The Avatars Menu has also been updated and made easier to navigate. </indent><br><line-height=0.76em></line-height><br>  - We've implemented a \"Recently Used\" list of avatars so you can quickly find previous avatars you used<br>  - We've re-built the Avatar Details option to include a lot more information such as what platform the avatar is uploaded for, what features it has (eyelook, visemes, SDK version), who the author is and more<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Updated Social Menu</b>! The Social Menu has been improved significantly to help you navigate long lists of friends quickly and cycle through your various friend groups with much more ease</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Updated and refined Search functionality</b>! We've made various changes to the Search function - users will be initially provided with randomized queries to help them find various world types and reloading the page will automatically refresh these queries.</indent><br><line-height=0.76em></line-height><br>  - Improved Search results as a whole to allow users to see much more results and refine their search using more filter options than before<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented the Help & Info Menu</b>! The Help & Info Menu has been added to VRChat to allow new users to quickly catch up to speed on how to use VRChat or serve as a useful reminder to experienced users about how certain features work</indent><br><line-height=0.76em></line-height><br>  - This menu will include future release notes so you can easily read up on the latest changes instead of having to go to our Discord or the website<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented a new Settings Menu</b>! The new Settings Menu has been designed to house various settings scattered around VRChat in a single page with multiple tabs that lead into various different categories to help you easily configure your VRChat experience</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added background images to the UI!</b> You can choose one of the backgrounds to add some cool flair to your UI</indent><br><line-height=0.76em></line-height><br>  - This affects the Main Menu and the Quick Menu<br>  - There are 3 different options, and 37 additional for VRChat Plus subscribers<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented Avatar Haptics!</b> This feature allows users to get haptic feedback in your controllers when you touch other avatars - no avatar setup is required for this!</indent><br><line-height=0.76em></line-height><br>  - This system uses the Avatar Dynamics interaction permission system, so <i>both users MUST opt in before haptics will work for either of you</i><br>  - Turn this system on and adjust them in the Quick Menu's Gear tab<br>  - Avatar Haptics is not supported on standalone Quest because it causes significant performance issues related to the render pipeline and how the Quest GPU operates, we are re-assessing how we might best enable this feature on Quest standalone<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added Portal Placement!</b></indent><br><line-height=0.76em></line-height><br>  - In the Quick Menu's \"gear\" tab, find an option to enable Portal Placement<br>  - With this enabled, when you go to drop a portal, you'll be able to do so with by pointing your controller!<br>  - Move your controller around and point where you want to place the portal! If its an invalid position, the marker will turn red and a tooltip will appear on your screen telling you why you can't place the portal there<br>  - You can MOVE while looking for a place to put your portal!<br>  - Once you find a good spot, pull your trigger and the portal will spawn<br>  - It also works on Desktop!!<br>  - its REALLY GOOD please go try it! We like it so much we made it the new default.<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented Visual Adjustment options</b>, such as color blindness filters (Protanopia, Deuteranopia, and Tritanopia), world / UI filters (grayscale or retro), screen brightness and bloom intensity adjustments</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented \"Flying Mode\" for the camera while in VR!</indent><br><line-height=0.76em></line-height><br>  - Engage and disengage this feature by opening the camera and selecting the \"Flying\" toggle<br>  - When engaged, you can release the camera to drop the controls. The camera will stay put<br>  - Your thumbsticks can be used to move the camera lens within a 15 meter radius around where you're standing<br>  - Hold down the trigger while moving the right stick to tilt the lens<br>  - To take a photo, use your laser pointer to click the \"Take Photo\" button on the camera<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added avatar texture VRAM usage estimation to the Avatar Stats system</indent><br><line-height=0.76em></line-height><br>  - This feature estimates the amount of VRAM in use by a given avatar and displays it. It isn't 100% accurate, but its close!<br>  - You might see this value differ from some community-created tools like <color=#1D7CEAFF><link=vrc-avatar-tools>Thry's VRCAvatarTools</link></color>. That's because we only list texture VRAM!<br>  - _This stat does not currently affect Performance Rank_, but <b>it will eventually.</b> From our observations, keeping the VRChat value under ~50MB seems like a \"Good\" place to aim for<br>  - Will be implemented into the SDK at a later time<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented an optional FBT Calibration visualization that users can toggle on to help calibrate Full-Body Tracking</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added different tracker models for Full Body Tracking</indent><br><line-height=0.76em></line-height><br>  - You can toggle between 4 different values in the Quick Menu's Gear tab<br>  - \"Sphere\" - Default, same as Live. Uses the good 'ol Unity Sphere<br>  - \"System\" - Uses SteamVR's \"Render-Model\" for your device. This _usually_ looks like the physical tracker!<br>  - \"Box\" - A rounded cube with colored sides to indicate XYZ axis information<br>  - \"Axis\" - An indicator with long \"spikes\" tipped with colors to indicate XYZ axis information<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented a head-tracked option for the Personal mirror</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented the ability for users to double-click the Audio settings to toggle Earmuffs on/off</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added a \"Lock\" button in the bottom right of the Main Menu that turns on and off menu grabbing and moving</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented Avatars 3.0 synced bool parameter <space=0.3em><mark=#0000003C>Earmuffs</font></mark><space=0.3em> that is True when the user has the Earmuffs feature on, and False when it is off</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added an \"unmute\" sound when you unmute your microphone</indent><br><line-height=0.76em></line-height><br>  - Remember that you can adjust the volume of the mute/unmute sound in the HUD settings<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented a new <color=#1D7CEAFF><link=launch-option>Launch Option</link></color> to set CPU thread affinity for the VRChat process by using the <space=0.3em><mark=#0000003C>--affinity=FFFF</mark><space=0.3em> argument</indent><br><line-height=0.76em></line-height><br>  - The <space=0.3em><mark=#0000003C>FFFF</mark><space=0.3em> is a bitmask indicating which threads should be utilized for VRChat. <space=0.3em><mark=#0000003C>FFFF</mark><space=0.3em> selects the first 16 threads, <space=0.3em><mark=#0000003C>FF</mark><space=0.3em> selects the first 8, and so on<br>  - This feature is primarily intended for usage with certain AMD CPUs who benefit from limiting processes to a single CCX<br>  - This is an _advanced feature_. Unless you know what you're doing and know you need this, you probably shouldn't use it!<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added a new \"Measure Height\" button</b> to the User Real Height setting that will use your headset's current distance from the playspace floor to measure your height</indent><br><line-height=0.76em></line-height><br>    - When you use this, it is very important to stand up straight as well as to have an accurate room setup floor height when using this feature! It's available in the QM Gear tab as well as the Main Menu's new section<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>A new section has been added to the Main Menu Settings tab called \"Tracking and IK\". It includes:</indent><br><line-height=0.76em></line-height><br>    - User Real Height adjustment, including the new \"measure\" button<br>    - <b>Metric Units Adjustment</b> - the User Real Height arrow buttons will increment in centimeters instead of inches.<br>    - <b>Legacy Calibration</b> - swaps to the older method of locking your avatar in place during calibration<br>    - <b>Disable Shoulder Tracking</b> - prevents arm (elbow) trackers from affecting the shoulders<br>    - <b>Freeze Tracking on Disconnect</b> - when a tracker disconnects it continues to lock the tracked body to its final location relative to the player, rather than transitioning that part to untracked behavior. We've made new efforts to ensure that even if you activate this option after the tracker has disconnected it will still remember and use the proper final location of the tracker<br>    - <b>IK Debug Logging</b> - adds extra log output related to IK features.<br>    - Note: the command line arguments associated with the above features are being removed! To use the features going forward you must activate them in the menu<br><br><voffset=0.3em><b><size=120%>Changes and Improvements</size></b></voffset><br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added more double-click functions to the Quick Menu tabs!</b></indent><br><line-height=0.76em></line-height><br>    - If you didn't know, double-clicking the tabs has different functionality, letting you quickly access the most common functions of Quick Menu tabs. For example, <b>double-clicking the Camera tab summons the Camera</b> and <b>double-clicking the audio tab toggles Earmuffs on and off.</b> These have been in for a while!<br>    - We added some more:<br>      - <b>Double-click Launchpad QM (Quick Menu) tab -> Opens MM (Main Menu) Launchpad tab</b><br>      - <b>Double-click Notifications QM tab -> Opens MM Notifications tab</b><br>      - <b>Double-click Here QM tab  -> Opens MM Instance Details page</b> <br>      - <b>Double-click Settings QM tab  -> Opens MM Settings tab</b>"
-          },
-          {
-            "text": "<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Various improvements to the face mirror to improve resolution and clamping</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Made some improvements to the placement of the Personal Mirror above or below the user</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Greatly improved performance when avatars are hidden by removing unnecessary IK tweening</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Nameplates and the Chatbox now appear the \"right way\" in mirrors-- i.e., they're no longer mirrored</indent><br><line-height=0.76em></line-height><br><voffset=0.3em><b><size=120%>Fixes</size></b></voffset><br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed some issues with the Personal Mirror not playing well with some legacy avatars</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed the Quick Menu Master audio slider not going to 125%</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed issues with travel that rarely caused users to be sent back to their home world</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Various fixes and improvements to the keyboard</indent><br><line-height=0.76em></line-height><br>  - You can now copy text that has been set by Udon<br>  - The keyboard no longer shows up behind you<br>  - The keyboard now respects the options set by the InputField you're typing into, such as multi-line, data validation, and read-only<br>  - The keyboard no longer breaks if the InputField's  placeholder text is missing<br>  - The Shift key only now only applies to one character unless you double-click it<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed some issues where users with non-standard or directly supported tracker configurations may experience some crashing issues</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixes and adjustments to text rendering throughout VRChat, such as blurry text on Action Menu when using small avatars</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed QM incorrectly opening when logging out in VR</indent><br><line-height=0.76em></line-height><br><voffset=0.7em><b><size=120%>SDK - Features</size></b></voffset><br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added 3 shader globals that can be accessed by any avatar or world shader:</indent><br><line-height=0.76em></line-height><br>    - <space=0.3em><mark=#0000003C>float _VRChatCameraMode</mark><space=0.3em>:<br>        - <space=0.3em><mark=#0000003C>0</font></mark><space=0.3em> - Rendering normally<br>        - <space=0.3em><mark=#0000003C>1</mark><space=0.3em> - Rendering in VR handheld camera<br>        - <space=0.3em><mark=#0000003C>2</mark><space=0.3em> - Rendering in Desktop handheld camera<br>        - <space=0.3em><mark=#0000003C>3</mark><space=0.3em> - Rendering for a screenshot<br>    - <space=0.3em><mark=#0000003C>float _VRChatMirrorMode</mark><space=0.3em>:<br>        - <space=0.3em><mark=#0000003C>0</mark><space=0.3em> - Rendering normally, not in a mirror<br>        - <space=0.3em><mark=#0000003C>1</mark><space=0.3em> - Rendering in a mirror viewed in VR<br>        - <space=0.3em><mark=#0000003C>2</mark><space=0.3em> - Rendering in a mirror viewed in desktop mode<br>    - <space=0.3em><mark=#0000003C>float3 _VRChatMirrorCameraPos</mark><space=0.3em> - World space position of mirror camera (eye independent, \"centered\" in VR)<br>"
-          }
-        ],
-        "embeddedLinkData": [
-          {
-            "id": "patch-notes",
-            "name": "Main Menu - Patch Notes",
-            "command": "OpenURL",
-            "parameters": [
-              "https://docs.vrchat.com/docs/latest-release"
-            ]
-          },
-          {
-            "id": "vrc-avatar-tools",
-            "name": "VRCAvatarTools",
-            "command": "OpenURL",
-            "parameters": [
-              "https://github.com/Thryrallo/VRCAvatarTools"
-            ]
-          },
-          {
-            "id": "launch-option",
-            "name": "Launch Options",
-            "command": "OpenURL",
-            "parameters": [
-              "https://docs.vrchat.com/v2022.3.1/docs/launch-options"
-            ]
-          }
-        ],
-        "moreInfoLinks": [
-          {
-            "name": "Main Menu - Patch Notes",
-            "command": "OpenURL",
-            "parameters": [
-              "https://docs.vrchat.com/docs/latest-release"
-            ]
-          },
-          {
-            "name": "VRCAvatarTools",
-            "command": "OpenURL",
-            "parameters": [
-              "https://github.com/Thryrallo/VRCAvatarTools"
-            ]
-          },
-          {
-            "name": "Launch Options",
-            "command": "OpenURL",
-            "parameters": [
-              "https://docs.vrchat.com/v2022.3.1/docs/launch-options"
-            ]
-          }
-        ]
-      }
-    },
-    "hash": "d50f617c171891a42009d9b974536df9",
-    "createdAt": "2022-10-12T22:26:05+00:00",
-    "updatedAt": "2022-10-13T00:26:57+00:00"
-  },
-  {
-    "id": "release-avatar-dynamics",
+    "id": "update-article-202332",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
       "help-article",
       "user-all",
+      "update-article",
       "help-topic-news",
       "help-notifications"
     ],
     "data": {
-      "name": "Avatar Dynamics",
-      "imageUrl": "https://assets.vrchat.com/ips/assets/db47779b927fb761d62698a189ed44ebde80fe723efc97866fc3ec303fd541ca.png",
-      "description": "Avatar Dynamics is now live!",
-      "isNew": false,
+      "name": "VRChat Update - 2023.3.2",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/5c0c2abe8a0d278e339106b0734569d9ae00c25f44205c47f66fa40bd149a15b.png",
+      "description": "Learn about the latest updates to VRChat!",
       "article": {
-        "sectionLinks": [
-          "link-physbones",
-          "link-triggers",
-          "link-permissions",
-          "link-debug",
-          "link-dynamic-bone"
-        ],
         "content": [
           {
-            "imageUrl": "https://assets.vrchat.com/ips/assets/45c96d5a2cb5c4ac87512a480f2774733707659a1f95fca26b1d36eb43034d2d.png"
+            "text": "<size=140%><b>VRChat 2023.3.2 has been released to all platforms!</b></size><br><br><i>Release - 31 August 2023 - Build 1344</i>"
           },
           {
-            "text": "<br><br>"
+            "text": "New features:<br><br>- <b>VRChat Plus UI Customization!</b> Customize your UI colors in your VRC+ menu.<br>- <b>Improved Full Body Tracking and IK!</b> Lots of tweaks and fixes to how your avatar moves.<br>- <b>German and Japanese localization</b> and lots of other localization improvements!<br>- Lots of other bug fixes!"
           },
           {
-            "text": "It’s here – <link=avatar-dynamics-blog><color=#7777fc><u>Avatar Dynamics</u></color></link> is now live! This is one of our largest, and most hotly anticipated patches yet. There are a lot of changes (probably more than you were even expecting!) so let’s go through everything that this patch has to offer.<br><br>Avatar Dynamics contains a number of systems, each of which will provide both creators and non-creators with a ton of new features to play with.<br><br>Some of the biggest ones are:"
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "id": "link-physbones",
-            "title": "Introducing PhysBones",
-            "imageUrl": "https://assets.vrchat.com/ips/assets/0b9d787ca7b58b7ed76ef5742620e6333ec8f44446d6c5dbf054c1bab7ae51a2.png"
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "text": "<size=140%><b>PhysBones</b></size><br><br>A free, direct and significantly more performant (we’re talking roughly a 12–20x improvement) replacement for DynamicBones in VRChat. Additionally, PhysBones allows touching, grabbing, and posing bones on your own avatar or on other people’s avatars!<br><br>PhysBones… on Quest: Yep! PhysBones aren’t just for PC – Quest users can now see them, too!"
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "id": "link-triggers",
-            "title": "Avatar Triggers",
-            "text": "<size=140%><b>Avatar Triggers</b></size>"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "Triggers allow avatars to interact with themselves… or any other avatar! Grab your ears, give your friend a high-five, a pat on the head… or a slap in the face. Triggers work by detecting colliders on avatars. By default, all avatars will have standard colliders defined, such as the head or hands, but you’ll be able to set your own for specific interactions, if you’d like."
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "id": "link-permissions",
-            "title": "Controlling Permissions",
-            "text": "<size=140%><b>Permissions System</b></size>"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "You get to completely control how others interact with your avatar. If you wish to entirely opt out of the system, you can. If you want to make it so only friends can interact with your PhysBones, you can. Alternatively, if you want everyone to be able to play with your hair, or shake your hand, you have the power to do that, too.<br><br>We know that not everyone wants their avatar to be interactive, and ultimately, we want everyone to be as comfortable as possible."
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "id": "link-debug",
-            "title": "Debug View"
-          },
-          {
-            "text": "<size=140%><b>Debug View</b></size>"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "To make it simple to see what’s going on with your setup and uncover any problems, you can turn on a Debug View in your Action Menu that lets you see an overlay of PhysBones, Triggers, and Colliders. This view works in the editor as well as in VRChat!"
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "id": "link-dynamic-bone",
-            "title": "Automatic Dynamic Bone Conversion"
-          },
-          {
-            "text": "<size=140%><b>Automatic Dynamic Bone Conversion</b></size>"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "We want to make the transition to PhysBones as easy as possible for creators. Anyone familiar with Dynamic Bones should be able to easily switch over, as we’ve tried to make the systems as intuitive as possible.<br><br>Likewise, while support for Dynamic Bones will be going away in the future, for now you’ll be able to upload avatars using either system to VRChat.<br><br>Users will be able to choose in their VRChat Settings if they wish to still load Dynamic Bones, or if they want them to be automatically converted to PhysBones. By default, this will be enabled – meaning that all bones will be loaded as PhysBones, regardless of what they were uploaded as."
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "imageUrl": "https://assets.vrchat.com/ips/assets/be003884ea0e3c7e2f36e22c6c980267e71a1751470a86559ccf340f14e625f3.png",
-            "onPressed": {
-              "command": "CannedWorldSearch",
-              "parameters": [
-                "avatar dynamics"
-              ]
-            }
-          },
-          {
-            "text": "<br><br>"
-          },
-          {
-            "text": "We know users have been <i>extremely</i> thrilled to get started with Avatar Dynamics. We have an internal, “When are Avatar Dynamics coming out?” counter and just trust us: <i>the number is very scary and haunts our dreams</i>. But no more! As of today, you’ll be able to see exactly what we’ve been working on – and we encourage you to give it a shot!<br><br>Between OSC, IK 2.0, and Avatar Dynamics, we’re well on our way to achieving some of our major goals for this year – but we’re not done yet. We've got much more in store and can't wait to share more as soon as we're ready.<br><br>In the meantime, we want to see what YOU are working on. Share what project you are working on with Avatar Dynamics and @VRChat on Twitter using the #AvatarDynamics hashtag!"
+            "text": "Check out the full patchnotes <link=full-patchnotes><color=#7777fc><u>[here]</u></color></link>."
           }
         ],
         "embeddedLinkData": [
           {
-            "id": "avatar-dynamics-blog",
-            "name": "Avatar Dynamics Blog",
+            "id": "full-patchnotes",
+            "name": "Full Patchnotes",
             "command": "OpenURL",
             "parameters": [
-              "https://hello.vrchat.com/blog/avatar-dynamics-open-beta"
-            ]
-          },
-          {
-            "id": "avatar-dynamics-worlds",
-            "name": "Avatar Dynamics Worlds",
-            "command": "CannedWorldSearch",
-            "parameters": [
-              "avatar dynamics"
+              "https://docs.vrchat.com/docs/vrchat-202332"
             ]
           }
         ],
         "moreInfoLinks": [
           {
-            "name": "Avatar Dynamics Blog",
+            "id": "full-patchnotes",
+            "name": "Full Patchnotes",
             "command": "OpenURL",
             "parameters": [
-              "https://hello.vrchat.com/blog/avatar-dynamics-open-beta"
-            ]
-          },
-          {
-            "name": "Avatar Dynamics Worlds",
-            "command": "CannedWorldSearch",
-            "parameters": [
-              "avatar dynamics"
+              "https://docs.vrchat.com/docs/vrchat-202332"
             ]
           }
         ]
       }
     },
-    "hash": "b4630a1bb99f62324941fb6f5b88225c",
-    "createdAt": "2022-02-16T22:37:24+00:00",
-    "updatedAt": "2022-09-08T22:22:17+00:00"
-  },
-  {
-    "id": "help-article-hiring",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "help-article",
-      "user-all",
-      "help-topic-news",
-      "help-notifications"
-    ],
-    "data": {
-      "name": "We're Hiring",
-      "imageUrl": "https://assets.vrchat.com/ips/assets/389813953bddd49251379878eaadde474afe579908ff26fb189b55adf065edb1.png",
-      "description": "Discover open job positions at VRChat.",
-      "article": {
-        "content": [
-          {
-            "text": "<size=140%><b>We’re always looking for good people to join our team at VRChat!</b></size><br><br>We are one of the leading Virtual World platforms, hosting one of the largest active online communities of users and creators. Our community has created millions of pieces of content and spends many hours in-world in a given session.<br><br>You’re here right now – so you’ve probably seen some of it!<br><br>Countless friendships, groups and events have formed, and continue to grow daily.<br><br><b>VRChat is built by people like you</b> – folks that are passionate about the community and want to see it grow. Our goal is to spend the coming years building VRChat into one of the most successful community-driven social VR platforms in existence.<br><br>To do that, we need you!<br>"
-          },
-          {
-            "text": "<size=140%><b>We’re looking for…</b></size><br><br><indent=5%>• People with passion for VR, Social and Virtual Worlds.<br><br>• Great communicators! This is key in any team, but we all work remotely. We’ve found that being an effective communicator is even more important when everyone’s remote.<br><br>• People that not only meet the job requirements, but people that have shown an ability to excel in a role or demonstrate passion and accomplishment with their own projects-- especially ones that are social, remote and collaborative.<br><br>• Folks who collaborate well. Everyone on the team is a contributor and we work together daily to pitch ideas and solve problems.<br><br>• Self-starters. We don’t have a large hierarchy of management. We structure our roadmap and project teams with the expectation of those individuals and teams to work toward their goals every day without too much oversight.<br><br>• Multi–talented applicants. VRChat is evolving and growing in an arena that is often defined by changes in hardware and software platforms or other industry trends. At times, we have to change directions quickly. This requires a degree of flexibility and everyone on the team pitches in to help with whatever they can when needed.<br>"
-          },
-          {
-            "text": "While our hiring needs are always changing, right now we’re rapidly expanding and looking for new talent across a variety of positions, which is why you’re seeing this post!<br><br>To see a list of open positions, click <link=open-positions><color=#7777fc><u>[here]</u></color></link>.<br><br>For more information about hiring, VRChat as a company, and our incredible team benefits, click <link=careers><color=#7777fc><u>[here]</u></color></link>."
-          }
-        ],
-        "embeddedLinkData": [
-          {
-            "id": "open-positions",
-            "name": "Open Positions",
-            "command": "OpenURL",
-            "parameters": [
-              "https://jobs.lever.co/vrchat"
-            ]
-          },
-          {
-            "id": "careers",
-            "name": "VRChat Careers",
-            "command": "OpenURL",
-            "parameters": [
-              "https://hello.vrchat.com/careers"
-            ]
-          }
-        ],
-        "moreInfoLinks": [
-          {
-            "name": "Open Positions",
-            "command": "OpenURL",
-            "parameters": [
-              "https://jobs.lever.co/vrchat"
-            ]
-          },
-          {
-            "name": "VRChat Careers",
-            "command": "OpenURL",
-            "parameters": [
-              "https://hello.vrchat.com/careers"
-            ]
-          }
-        ]
-      }
-    },
-    "hash": "25886df123940595ae8ccb0704578b42",
-    "createdAt": "2022-04-06T00:11:34+00:00",
-    "updatedAt": "2022-09-08T22:22:17+00:00"
+    "hash": "67138bc1a89696167216b01551cceb6e",
+    "createdAt": "2023-08-31T20:23:13+00:00",
+    "updatedAt": "2023-08-31T21:43:12+00:00"
   },
   {
     "id": "help-article-making-groups",
@@ -2031,29 +8114,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-09-08T22:22:48+00:00"
   },
   {
-    "id": "search-anime",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1001,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Anime",
-      "search": {
-        "searchQuery": "anime",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1fb3184dc186bb0ce297d5e942221ddb",
-    "createdAt": "2020-09-11T20:32:27+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
     "id": "help-topic-news",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -2102,29 +8162,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "17c9d7f37cc9d689038e7aaed88db6c3",
     "createdAt": "2020-06-05T08:23:29+00:00",
     "updatedAt": "2022-09-17T06:11:00+00:00"
-  },
-  {
-    "id": "search-hangout",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1002,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Hangout",
-      "search": {
-        "searchQuery": "hangout",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "a2edbb7f8d9dffe5be61f0b76a711eaa",
-    "createdAt": "2020-09-12T05:20:17+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
     "id": "help-topic-essentials",
@@ -2219,29 +8256,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "7dcb2de0effedc3ed4e3c5fd063e6af5",
     "createdAt": "2020-06-05T08:23:28+00:00",
     "updatedAt": "2023-04-25T21:15:04+00:00"
-  },
-  {
-    "id": "search-music-visualizer",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1003,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Music Visualizer",
-      "search": {
-        "searchQuery": "music visualizer",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "094e888b05442b5397e920ea7fed873d",
-    "createdAt": "2020-09-12T05:20:17+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
     "id": "help-topic-safety",
@@ -2563,30 +8577,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-09-17T06:11:00+00:00"
   },
   {
-    "id": "search-shooter",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1004,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Shooter",
-      "imageUrl": "https://assets.vrchat.com/ips/assets/de1e566fd020f0cacd6f012e829ef914e5d9c8e49404b68193a4092569b62f9b.png",
-      "search": {
-        "searchQuery": "shooter",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "2543dc8937ee8a0b39c64f1bcb5c169a",
-    "createdAt": "2020-09-12T05:20:18+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
     "id": "help-topic-groups",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -2612,52 +8602,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-12-01T02:54:36+00:00"
   },
   {
-    "id": "search-sleep",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1005,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Sleep",
-      "search": {
-        "searchQuery": "sleep",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "430bf8946f83358c94a1a7e3c7a50922",
-    "createdAt": "2020-09-12T05:20:18+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-vrchat",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1006,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Worlds by VRChat",
-      "search": {
-        "searchQuery": "vrchat",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "author",
-        "sortBy": "exact"
-      }
-    },
-    "hash": "1767393aa3e53837a177d298a31a1027",
-    "createdAt": "2022-01-28T06:09:08+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
     "id": "help-topic-worlds",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -2680,75 +8624,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "5f698c5e5bcb251a7e0e99c391d2edc8",
     "createdAt": "2022-03-11T00:25:55+00:00",
     "updatedAt": "2022-09-08T22:22:44+00:00"
-  },
-  {
-    "id": "search-horror",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1007,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Horror",
-      "search": {
-        "searchQuery": "horror",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "8780067e37c2f130a224d035f018d708",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-roleplay",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1008,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Roleplay",
-      "search": {
-        "searchQuery": "roleplay",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "4fbc147fd6667b6e7991387ebce23709",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-karaoke",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1009,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Karaoke",
-      "search": {
-        "searchQuery": "karaoke",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "35b9e3c3dd08ecea03a2de96b729d821",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
     "id": "help-topic-support",
@@ -2800,29 +8675,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "676c2d89c97b601d3dd38a9d90808b43",
     "createdAt": "2022-03-30T01:07:23+00:00",
     "updatedAt": "2023-08-13T00:05:03+00:00"
-  },
-  {
-    "id": "search-language-learning",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1010,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Language Learning",
-      "search": {
-        "searchQuery": "language-learning",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "467915cb2f8a27501186f88f19667cef",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
     "id": "launch-werehiring",
@@ -2898,29 +8750,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-08-10T20:44:02+00:00"
   },
   {
-    "id": "search-museums",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1011,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Museums",
-      "search": {
-        "searchQuery": "museums",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1c5484b98476d27130b4774d18955b7b",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
     "id": "help-topic-settings",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -2943,75 +8772,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "7c6f8f0a76536b2e7ee003fba6e62ba6",
     "createdAt": "2022-04-07T23:44:31+00:00",
     "updatedAt": "2022-09-08T22:22:43+00:00"
-  },
-  {
-    "id": "search-space",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1012,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Space",
-      "search": {
-        "searchQuery": "space",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "93b09fffa8bd721308d8d0875f013e59",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-hide-seek",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1013,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Hide and Seek",
-      "search": {
-        "searchQuery": "hide and seek",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "0f0c1b9c4430111ad7eb50ab07f64459",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-furry",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1014,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Furry",
-      "search": {
-        "searchQuery": "furry",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "e5420db49ef5d42be885effcae0aa8e4",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
     "id": "world-games",
@@ -3042,121 +8802,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-08-15T05:37:00+00:00"
   },
   {
-    "id": "search-mirrors",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1015,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Mirrors",
-      "search": {
-        "searchQuery": "mirrors",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "a9fe87aa4b7de9860ef995f62baee359",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-camping",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1016,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Camping",
-      "search": {
-        "searchQuery": "camping",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "bab19b02bbac20c2c66ed45fa2fa8765",
-    "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-bar",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1017,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Bar",
-      "search": {
-        "searchQuery": "bar",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "2c24620d3d056d55b7f48c5028e5b284",
-    "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-climbing",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1018,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Climbing",
-      "search": {
-        "searchQuery": "climbing",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "e164ad2ac8cca9ad282bc48c043e50ce",
-    "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-trippy",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1019,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Trippy",
-      "search": {
-        "searchQuery": "trippy",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "20ad2d607a214dde43933a0d43321ad4",
-    "createdAt": "2022-04-08T17:56:27+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
     "id": "world-spotlight-crossplatform",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -3184,236 +8829,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "bbe05f97a0a4ee9a529f589a994500f3",
     "createdAt": "2022-06-24T23:34:50+00:00",
     "updatedAt": "2023-08-10T20:44:03+00:00"
-  },
-  {
-    "id": "search-driving",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1020,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Driving",
-      "search": {
-        "searchQuery": "driving",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "fe33deeb9dccc3f13827041bf87ac5a6",
-    "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-restaurant",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1021,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Restaurant",
-      "search": {
-        "searchQuery": "restaurant",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "a76d7646b7976d86380cbb4ddf8cf1db",
-    "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-relaxing",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1022,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Relaxing",
-      "search": {
-        "searchQuery": "relaxing",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "f88b3a281ccb8deef8010a8baf400cda",
-    "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-fantasy",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1023,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Fantasy",
-      "search": {
-        "searchQuery": "fantasy",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "b1479913ff9853f8424c73cadfcba59a",
-    "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-cyberpunk",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1024,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Cyberpunk",
-      "search": {
-        "searchQuery": "cyberpunk",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "2f5e833ae6d7723d4b6aa308f8502e39",
-    "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-forest",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1025,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Forest",
-      "search": {
-        "searchQuery": "forest",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "8f1663ae851ebd565d6c625635df5933",
-    "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-winter",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1026,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Winter",
-      "search": {
-        "searchQuery": "winter",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "3020d95c1cc5cac8141a0500513c666d",
-    "createdAt": "2022-04-08T17:56:27+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-summer",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1027,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Summer",
-      "search": {
-        "searchQuery": "summer",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "2f5e189cd3752d2b2e46077de7a25b9d",
-    "createdAt": "2022-04-08T17:56:27+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-social",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1028,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Social",
-      "search": {
-        "searchQuery": "social",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "59a693fbfa59ed43c2dc5262128d1017",
-    "createdAt": "2022-04-08T17:56:27+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-arcade-games",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1029,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Arcade Games",
-      "search": {
-        "searchQuery": "arcade games",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "f3658795e18bd70879f3ccf259355c3c",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
     "id": "world-spotlight-pc",
@@ -3446,29 +8861,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-08-10T20:44:03+00:00"
   },
   {
-    "id": "search-cool-shaders",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1030,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Cool Shaders",
-      "search": {
-        "searchQuery": "cool shaders",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "f17746ff1970c0dabdee7963dca9ae87",
-    "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
     "id": "launch-feedback",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -3489,213 +8881,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "40bb78d38b74c200c113db3a13b65663",
     "createdAt": "2021-11-08T22:45:26+00:00",
     "updatedAt": "2022-09-08T21:59:18+00:00"
-  },
-  {
-    "id": "search-board-games",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1031,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Board Games",
-      "search": {
-        "searchQuery": "board games",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "ff807408c7cf7eb2e6eb50e2cc815f7e",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-flight-sim",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1032,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Flight Sim",
-      "search": {
-        "searchQuery": "flight sim",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "61232409074f8b8bc6a8b155f986ccae",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-sports",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1033,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Sports",
-      "search": {
-        "searchQuery": "sports",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "717fe8a8cb323d0224b4defea812a35b",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-clubs",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1034,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Clubs",
-      "search": {
-        "searchQuery": "clubs",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "25320178e500370ac9b94cbc2d9750b2",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-music-creation",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1035,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Music Creation",
-      "search": {
-        "searchQuery": "music creation",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "b78cb3b7c6e0cc07be9d5cb171f3e94b",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-pure-vibes",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1036,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Pure Vibes",
-      "search": {
-        "searchQuery": "pure vibes",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "97247f48d4d5cd9719c859796a8fd188",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-cheerful",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1037,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Cheerful",
-      "search": {
-        "searchQuery": "cheerful",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "86ff894edfa27a189e008728be0e3c54",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-train",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1038,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Train",
-      "search": {
-        "searchQuery": "train",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "27f411c5d1dee80e6d27a36c2c59b7fd",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-world-jam",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1039,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "World Jam",
-      "search": {
-        "searchQuery": "world jam",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "6ae17acd1953f0117aca040c9f179f87",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
     "id": "world-new",
@@ -3725,29 +8910,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-08-12T23:59:48+00:00"
   },
   {
-    "id": "search-city",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1040,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "City",
-      "search": {
-        "searchQuery": "city",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "4f273dd57c40ba4f7152a77c4a0f9ab0",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
     "id": "LAUNCH---SDK",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -3768,213 +8930,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "694658dd6240d61f469ce6defe398290",
     "createdAt": "2021-06-08T20:24:53+00:00",
     "updatedAt": "2022-09-08T21:59:19+00:00"
-  },
-  {
-    "id": "search-post-apocalyptic",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1041,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Post Apocalyptic",
-      "search": {
-        "searchQuery": "post apocalyptic",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1ecc8029a5d5ba165716fcb58612d324",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-psychedelic",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1042,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Psychedelic",
-      "search": {
-        "searchQuery": "psychedelic",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "4663d5dec89c8310004d4c0a4ff162e4",
-    "createdAt": "2022-04-13T20:34:59+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-beautiful-landscapes",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1043,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Beautiful Landscapes",
-      "search": {
-        "searchQuery": "beautiful landscapes",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "b3117b408ae7e9de4105187071f67eaa",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-cafe",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1044,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Cafe",
-      "search": {
-        "searchQuery": "cafe",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "fb61254e01318d2da1977802b699ba9b",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-nostalgia",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1045,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Nostalgia",
-      "search": {
-        "searchQuery": "nostalgia",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "62174b0e9f11530000ffb53fd23a0e69",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-chaotic-worlds",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1046,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Chaotic Worlds",
-      "search": {
-        "searchQuery": "chaotic-worlds",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "9ff07f738717087392e7fdaeb646713a",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-adventures",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1047,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Adventures",
-      "search": {
-        "searchQuery": "adventures",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "03d229ce68b59402e08a56fce3275de8",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-avatar-hunt",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1048,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Avatar Hunt",
-      "search": {
-        "searchQuery": "avatar hunt",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "4b683aab9992c2acc995dfabd9ad5426",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-desert",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1049,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Desert",
-      "search": {
-        "searchQuery": "desert",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "8f6e4bb21895728d2d271fe04b5649d3",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
     "id": "world-avatar-worlds-new",
@@ -4004,487 +8959,171 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-08-10T20:44:02+00:00"
   },
   {
-    "id": "search-beach",
+    "id": "release-avatar-dynamics",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1050,
     "tags": [
-      "search",
-      "user-all"
+      "help-article",
+      "user-all",
+      "help-topic-news",
+      "help-notifications"
     ],
     "data": {
-      "name": "Beach",
-      "search": {
-        "searchQuery": "beach",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
+      "name": "Avatar Dynamics",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/db47779b927fb761d62698a189ed44ebde80fe723efc97866fc3ec303fd541ca.png",
+      "description": "Avatar Dynamics is now live!",
+      "isNew": false,
+      "article": {
+        "sectionLinks": [
+          "link-physbones",
+          "link-triggers",
+          "link-permissions",
+          "link-debug",
+          "link-dynamic-bone"
+        ],
+        "content": [
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/45c96d5a2cb5c4ac87512a480f2774733707659a1f95fca26b1d36eb43034d2d.png"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "text": "It’s here – <link=avatar-dynamics-blog><color=#7777fc><u>Avatar Dynamics</u></color></link> is now live! This is one of our largest, and most hotly anticipated patches yet. There are a lot of changes (probably more than you were even expecting!) so let’s go through everything that this patch has to offer.<br><br>Avatar Dynamics contains a number of systems, each of which will provide both creators and non-creators with a ton of new features to play with.<br><br>Some of the biggest ones are:"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-physbones",
+            "title": "Introducing PhysBones",
+            "imageUrl": "https://assets.vrchat.com/ips/assets/0b9d787ca7b58b7ed76ef5742620e6333ec8f44446d6c5dbf054c1bab7ae51a2.png"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "text": "<size=140%><b>PhysBones</b></size><br><br>A free, direct and significantly more performant (we’re talking roughly a 12–20x improvement) replacement for DynamicBones in VRChat. Additionally, PhysBones allows touching, grabbing, and posing bones on your own avatar or on other people’s avatars!<br><br>PhysBones… on Quest: Yep! PhysBones aren’t just for PC – Quest users can now see them, too!"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-triggers",
+            "title": "Avatar Triggers",
+            "text": "<size=140%><b>Avatar Triggers</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Triggers allow avatars to interact with themselves… or any other avatar! Grab your ears, give your friend a high-five, a pat on the head… or a slap in the face. Triggers work by detecting colliders on avatars. By default, all avatars will have standard colliders defined, such as the head or hands, but you’ll be able to set your own for specific interactions, if you’d like."
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-permissions",
+            "title": "Controlling Permissions",
+            "text": "<size=140%><b>Permissions System</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "You get to completely control how others interact with your avatar. If you wish to entirely opt out of the system, you can. If you want to make it so only friends can interact with your PhysBones, you can. Alternatively, if you want everyone to be able to play with your hair, or shake your hand, you have the power to do that, too.<br><br>We know that not everyone wants their avatar to be interactive, and ultimately, we want everyone to be as comfortable as possible."
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-debug",
+            "title": "Debug View"
+          },
+          {
+            "text": "<size=140%><b>Debug View</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "To make it simple to see what’s going on with your setup and uncover any problems, you can turn on a Debug View in your Action Menu that lets you see an overlay of PhysBones, Triggers, and Colliders. This view works in the editor as well as in VRChat!"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-dynamic-bone",
+            "title": "Automatic Dynamic Bone Conversion"
+          },
+          {
+            "text": "<size=140%><b>Automatic Dynamic Bone Conversion</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "We want to make the transition to PhysBones as easy as possible for creators. Anyone familiar with Dynamic Bones should be able to easily switch over, as we’ve tried to make the systems as intuitive as possible.<br><br>Likewise, while support for Dynamic Bones will be going away in the future, for now you’ll be able to upload avatars using either system to VRChat.<br><br>Users will be able to choose in their VRChat Settings if they wish to still load Dynamic Bones, or if they want them to be automatically converted to PhysBones. By default, this will be enabled – meaning that all bones will be loaded as PhysBones, regardless of what they were uploaded as."
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/be003884ea0e3c7e2f36e22c6c980267e71a1751470a86559ccf340f14e625f3.png",
+            "onPressed": {
+              "command": "CannedWorldSearch",
+              "parameters": [
+                "avatar dynamics"
+              ]
+            }
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "text": "We know users have been <i>extremely</i> thrilled to get started with Avatar Dynamics. We have an internal, “When are Avatar Dynamics coming out?” counter and just trust us: <i>the number is very scary and haunts our dreams</i>. But no more! As of today, you’ll be able to see exactly what we’ve been working on – and we encourage you to give it a shot!<br><br>Between OSC, IK 2.0, and Avatar Dynamics, we’re well on our way to achieving some of our major goals for this year – but we’re not done yet. We've got much more in store and can't wait to share more as soon as we're ready.<br><br>In the meantime, we want to see what YOU are working on. Share what project you are working on with Avatar Dynamics and @VRChat on Twitter using the #AvatarDynamics hashtag!"
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "avatar-dynamics-blog",
+            "name": "Avatar Dynamics Blog",
+            "command": "OpenURL",
+            "parameters": [
+              "https://hello.vrchat.com/blog/avatar-dynamics-open-beta"
+            ]
+          },
+          {
+            "id": "avatar-dynamics-worlds",
+            "name": "Avatar Dynamics Worlds",
+            "command": "CannedWorldSearch",
+            "parameters": [
+              "avatar dynamics"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "name": "Avatar Dynamics Blog",
+            "command": "OpenURL",
+            "parameters": [
+              "https://hello.vrchat.com/blog/avatar-dynamics-open-beta"
+            ]
+          },
+          {
+            "name": "Avatar Dynamics Worlds",
+            "command": "CannedWorldSearch",
+            "parameters": [
+              "avatar dynamics"
+            ]
+          }
+        ]
       }
     },
-    "hash": "2c63ef310b648321729c6532d9fc38bc",
-    "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-neon-dream",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1051,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Neon Dream",
-      "search": {
-        "searchQuery": "neon dream",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "aec64c1eab83a3c10f7d66e69cb31d05",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-meditation",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1052,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Meditation",
-      "search": {
-        "searchQuery": "meditation",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "d0c46498326918b1f33ce0a1fc3d5c1d",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-particle-lightshow",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1053,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Particle Lightshow",
-      "search": {
-        "searchQuery": "particle lightshow",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1bb1a711b098695151ee8712df586760",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-japanese",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1054,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Japanese",
-      "search": {
-        "searchQuery": "japanese",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "ab29815b10fe1ae548f4228af8764855",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-russian",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1055,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Russian",
-      "search": {
-        "searchQuery": "russian",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "b14832c452dab752f2dd90c688818089",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-german",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1056,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "German",
-      "search": {
-        "searchQuery": "german",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "9f2d1eb9f3ebc485387bd48582296c70",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-french",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1057,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "French",
-      "search": {
-        "searchQuery": "french",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "38d5c2d92c3b4a10f5c396b5b6d0bd42",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-dutch",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1058,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Dutch",
-      "search": {
-        "searchQuery": "dutch",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "5e9bc94edd6d7613cb6221e7fef8dfcb",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-portuguese",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1059,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Portuguese",
-      "search": {
-        "searchQuery": "portuguese",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "43ac11deddf694806c9e7ee0305147a2",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-korean",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1060,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Korean",
-      "search": {
-        "searchQuery": "korean",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "49652e9022fe839bf8f55c2942625916",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-italian",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1061,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Italian",
-      "search": {
-        "searchQuery": "italian",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "f377b67755e228688d52596564c7ff1c",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-arabic",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1062,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Arabic",
-      "search": {
-        "searchQuery": "arabic",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "5ca1f4f78975da1eafaf1eca4c83d4e6",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-chinese",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1063,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Chinese",
-      "search": {
-        "searchQuery": "chinese",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "a153920b31ac206cd462d49ec755654d",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-chatting",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1064,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Chatting",
-      "search": {
-        "searchQuery": "chatting",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "e499fd16c0663eb646034799f3e5f19d",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-experimental",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1065,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Experimental",
-      "search": {
-        "searchQuery": "experimental",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "623749aeb6de8e1d6d86154d8c6522de",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-movies",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1066,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Movies",
-      "search": {
-        "searchQuery": "movies",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "7f916dcbb9dd9a04446f3bf9a9f77e2d",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-performance",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1067,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Performance",
-      "search": {
-        "searchQuery": "performance",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "424b5c559c30861f07a3283bfe6a7c40",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-drinking",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1068,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Drinking",
-      "search": {
-        "searchQuery": "drinking",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "8a7b3fa6480671d6491868dadbb33d27",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-high-fps",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1069,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "High FPS",
-      "search": {
-        "searchQuery": "high fps",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "669e4f90da8814d3b879d095ca25a77c",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-apartment",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1069,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Apartment",
-      "search": {
-        "searchQuery": "apartment",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "ef7c66119f306be844eda369894fac14",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
+    "hash": "b768420725c4de03ee84515c007b0d02",
+    "createdAt": "2022-02-16T22:37:24+00:00",
+    "updatedAt": "2023-08-31T20:31:04+00:00"
   },
   {
     "id": "world-updated-recently",
@@ -4513,696 +9152,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-09-22T17:28:10+00:00"
   },
   {
-    "id": "search-comfy-home",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1070,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Comfy Home",
-      "search": {
-        "searchQuery": "comfy home",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "0ad72c7044a2a0583ccc2631f38e6a17",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-photorealistic",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1071,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Photorealistic",
-      "search": {
-        "searchQuery": "photorealistic",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "52377900c0392473927e7212c0f104cc",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-art-gallery",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1072,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Art Gallery",
-      "search": {
-        "searchQuery": "art gallery",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "d55c48a9ffbd8441bf6986780bfc81a2",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-photo-studio",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1073,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Photo Studio",
-      "search": {
-        "searchQuery": "photo studio",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "c57e11de4730e34270e9452eb7ff3db2",
-    "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-dance-studio",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1074,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Dance Studio",
-      "search": {
-        "searchQuery": "dance studio",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "dd061cb607924e8611fc8de176bfafd8",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-dancing",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1075,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Dancing",
-      "search": {
-        "searchQuery": "dancing",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "a7b654bd4f146dbed92ec35540e143c4",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-theme-park",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1076,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Theme Park",
-      "search": {
-        "searchQuery": "theme park",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "90afcaac1f46483861bad164534522b2",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-podcast",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1077,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Podcast",
-      "search": {
-        "searchQuery": "podcast",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "be7438fbc093ed27e19b055ec77091d5",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-skybox",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1078,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Skybox",
-      "search": {
-        "searchQuery": "skybox",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "abb0097c0cd485f2e75e584029de10e2",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-urban",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1079,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Urban",
-      "search": {
-        "searchQuery": "urban",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "6b13183a07b5c0c9c9905ab545b4d4b0",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-rural",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1080,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Rural",
-      "search": {
-        "searchQuery": "rural",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "5adfd14f154f64feb9c8f08d527b2e25",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-historic",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1081,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Historic",
-      "search": {
-        "searchQuery": "historic",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "2ebeea8ffeedbe44fa76cb84caf87746",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-ancient-ruin",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1082,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Ancient Ruin",
-      "search": {
-        "searchQuery": "ancient ruin",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "54a5c8192bd8a12c8a99d15de2e74622",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-coop-game",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1083,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Co-op Game",
-      "search": {
-        "searchQuery": "co-op game",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "bc0e3cb89431220387cc159d06cd7094",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-rain",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1084,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Rain",
-      "search": {
-        "searchQuery": "rain",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "6cf68db834b14ad8270d33a7d533ebb0",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-ambient",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1085,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Ambient",
-      "search": {
-        "searchQuery": "ambient",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "fc572fec2b43d3bb4423371634dedeae",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-storm",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1086,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Storm",
-      "search": {
-        "searchQuery": "storm",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "d5c79cc7dce35db18a91573270d602ce",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-exercise",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1087,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Exercise",
-      "search": {
-        "searchQuery": "exercise",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "c551cc780c6fbff37db37c5edd97aa09",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-video-player",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1088,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Video Player",
-      "search": {
-        "searchQuery": "video player",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "a60d9870ae074cca820dc744d17d594c",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-farm",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1089,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Farm",
-      "search": {
-        "searchQuery": "farm",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "bcdf39a1198880078955b4fac16ad16e",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-spaceship",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1090,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Spaceship",
-      "search": {
-        "searchQuery": "spaceship",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "6e333a3bfe34b56de3752adcc2f05694",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-alien",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1091,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Alien",
-      "search": {
-        "searchQuery": "alien",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1826f7b1658801283cbf0742f4fc9580",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-robot",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1092,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Robot",
-      "search": {
-        "searchQuery": "robot",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "e4d83f31358c32d45a8b201e30f4a265",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-love",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1093,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Love",
-      "search": {
-        "searchQuery": "love",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "14edab181bc8cd58974a1890eec3ea8c",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-romance",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1094,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Romance",
-      "search": {
-        "searchQuery": "romance",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "6af2faedff07a37d697d33015dacd69e",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-drawing",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1095,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Drawing",
-      "search": {
-        "searchQuery": "drawing",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "0df9a535a208e1bb7c191a3de3b59154",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-dating",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1096,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Dating",
-      "search": {
-        "searchQuery": "dating",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "bdf9c76de208f1008acd006017c7f39e",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-meeting",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1097,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Meeting",
-      "search": {
-        "searchQuery": "meeting",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "b784cdb4fb00fd95d782cf6104afa9ac",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-roller-coaster",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1098,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Roller Coaster",
-      "search": {
-        "searchQuery": "roller coaster",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "07958646642ffe494343d644c5193228",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-racing",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1099,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Racing",
-      "search": {
-        "searchQuery": "racing",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "e7217d1d61828bc390f3cf597e0563b1",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
     "id": "world-community-labs",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -5227,259 +9176,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "c90fc12da3b0bd6ad010b7dfabaf8b8c",
     "createdAt": "2020-06-05T08:23:31+00:00",
     "updatedAt": "2023-08-10T20:44:02+00:00"
-  },
-  {
-    "id": "search-battle",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1100,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Battle",
-      "search": {
-        "searchQuery": "battle",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1b2bd0ed9d0f033a140a483ca09a6bf8",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-combat",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1101,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Combat",
-      "search": {
-        "searchQuery": "combat",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "46ff33e9b91a6a178cd0f8a9b29e316d",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-underwater",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1102,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Underwater",
-      "search": {
-        "searchQuery": "underwater",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "7ad3b027ef441ed87403e59a83187f24",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-ocean",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1103,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Ocean",
-      "search": {
-        "searchQuery": "ocean",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "a4d10f69166b88edad428cb9299868d6",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-mars",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1104,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Mars",
-      "search": {
-        "searchQuery": "mars",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "bb0efbff2aa0c100c8b60f3abe05df22",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-nature",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1105,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Nature",
-      "search": {
-        "searchQuery": "nature",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "801af75004300b23d37e550553913000",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-cats",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1106,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Cats",
-      "search": {
-        "searchQuery": "cats",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "43d4f86be295794324b7549a8fba967f",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-dogs",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1107,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Dogs",
-      "search": {
-        "searchQuery": "dogs",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "3481b8c565dfd2ab59050d692127e0d1",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-rpg",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1108,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "RPG",
-      "search": {
-        "searchQuery": "rpg",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "dbfc45e11c38ead750490a0792b94a75",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-moon",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1108,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Moon",
-      "search": {
-        "searchQuery": "moon",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "f602c1c8c5e7daf672aacc8666001941",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
-  },
-  {
-    "id": "search-retro",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1109,
-    "tags": [
-      "search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Retro",
-      "search": {
-        "searchQuery": "retro",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "ab3608611976fe9727b98c396600fbf3",
-    "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2022-09-17T06:12:08+00:00"
   },
   {
     "id": "world-random",
@@ -5534,6 +9230,185 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "fa18086a9458fea7537bf0cd4aa1db43",
     "createdAt": "2023-08-10T19:34:16+00:00",
     "updatedAt": "2023-08-10T20:44:02+00:00"
+  },
+  {
+    "id": "release-main-menu-launch",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1200,
+    "tags": [
+      "user-all",
+      "help-article",
+      "help-topic-news",
+      "help-notifications"
+    ],
+    "data": {
+      "name": "Main Menu 2.0",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/805ffb56a12ed6729fc5195ff2faba5e24df2b3ee4f05140fdb72690f765c5fc.png",
+      "description": "MM 2.0 is Live!",
+      "isNew": true,
+      "article": {
+        "sectionLinks": [
+          "link-feature-highlights",
+          "link-patch-notes"
+        ],
+        "content": [
+          {
+            "text": "It’s shiny, it’s new, and you’re using it right now! Welcome to UI 2.0 – the Main Menu update!<br><br>We first started our project to redo the entire VRChat UI last year, when we released the Quick Menu update, which we referred to as the “1.5” update.<br><br>With the Main Menu update, we’ve finished the job, reskinning the Main Menu, adding a ton of new functionality, and hopefully drastically improving the lives of every VRChat user.<br><br>The new Main Menu introduces a ton of new features – so many that we won’t be able to go through all of them! However, if you’d like a complete list of changes, you can scroll down to the bottom of this post (or click the button on the left sidebar!) to see the complete patch notes."
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-feature-highlights",
+            "title": "Feature Highlights",
+            "text": "<size=140%><b>Feature Highlights</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "<b>A Completely New Look</b> – The Main Menu has been reskinned to match VRChat’s visual style. We’ve spent a lot of time ensuring that it just doesn’t look better, but that it works better, too. Menus should be easier to navigate, and it overall should be more intuitive and user-friendly to figure out what it is you’re trying to do.<br><br><b>Redesigned HUD</b> – The VRChat HUD has been completely redesigned! You’ll first notice an all-new microphone icon that is clearer and more intuitive. You’ll also notice that you will now receive notifications when users join or enter your instance. Many of these features can be customized to your liking under Settings!<br><br><b>Main Menu Launchpad</b> – When you now open your Main Menu, you will be redirected to the Launch Pad. The Launch Pad contains a lot of useful information that you might want to know quickly, such as how many friends you have online, who you hung out with in VRChat recently (even if they aren’t your friend!), and which if your favorite worlds have recently updated.<br><br><b>Recently Worn Avatars</b> – Have you ever worn an avatar, forgotten to favorite it, and then lost it forever? No more! Your last few worn avatars will now be shown under the Avatars Tab. Go check it out!<br><br><b>Improved Search</b> – The new Search Tab lets you find VRChat worlds easier than ever before. In addition to improving our search results page dramatically, we’ve also added in a randomized category feature. Whenever you open the Search Tab, all of the categories you see will be randomized!<br><br><b>Help & Info</b> – We’ve added a brand new Help & Info section to the Main Menu that’s been populated with a bunch of how-to articles for both new and old players alike. Additionally, this is where patch notes (like these!) will be posted in the future, so that everyone – not just the folks that lurk our Discord! – can see what’s changing and being added to VRChat.<br><br>…and so, so much more!"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-patch-notes",
+            "title": "Full Patch Notes",
+            "text": "<size=140%><b>Full Patch Notes</b></size>"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "text": "<voffset=0.7em><b><size=120%>Client - Features</size></b></voffset><br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented Main Menu 2.0!</b></indent><br><line-height=0.76em></line-height><br>  - The new Main Menu utilizes tabs to allow users to quickly find exactly what they're looking for with either old sections of the Main Menu that you're familiar with as well as several brand new sections to aid your VRChat experience<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented the Launch Pad Menu</b>! We've added a new Launch Pad section to the Main Menu that includes a bunch of useful information at a quick glance - including how many friends you've got online, pending invites, friend requests, what worlds you've been to recently, if any of your favorite worlds have received an updated and who you've recently hung out with.</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented Wings into the Main Menu!</b> The always-useful Wings from the Quick Menu have been added to the Main Menu, allowing you to have always-visible information on the sides</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added the Worlds wing!</b> </indent><br><line-height=0.76em></line-height><br>  - This wing gives you quick access to your worlds, like Recent Worlds, Uploaded Worlds, and your playlists! <br>  - You can sort them in many ways, like Active, Friends, Last Updated, and more!<br>  - This wing is enabled by default for new users<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added the Explore wing!</b></indent><br><line-height=0.76em></line-height><br>  - This wing gives you quick access to many different guides on how to get started with VRChat!<br>  - This wing is enabled by default for new users<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented a new HUD</b>! We've re-designed the VRChat HUD to allow users to easily stay notified, customize opacity for the HUD or individual elements, and more.</indent><br><line-height=0.76em></line-height><br>  - By default, the HUD will use the 'Verbose' setting to show notification pop-ups (which can be individually configured) such as Join / Leave Notifications, Portal Notifications, etc.<br>  - The HUD can also be set to 'Minimal' to only show icons or can be completely turned off<br>  - Added an optional toggle for HUD motion smoothing<br>  - Added opacity sliders to allow you to adjust the opacity for the entire HUD or the mic icon<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>All-new Worlds Menu</b>! The Worlds Menu has been completely redesigned to help users find exactly what they're looking for as well as improve overall world discoverability</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added \"VRCat's Variety Box\"</b>, which is a new page that you get when you open the Worlds tab!</indent><br><line-height=0.76em></line-height><br>    - The variety box contains one random world from a set of categories<br>    - Clicking Shuffle in the top right will get you new worlds<br>    - You can hover over any world to favorite it or join a public instance of that world<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Updated Avatars Menu</b>!  The Avatars Menu has also been updated and made easier to navigate. </indent><br><line-height=0.76em></line-height><br>  - We've implemented a \"Recently Used\" list of avatars so you can quickly find previous avatars you used<br>  - We've re-built the Avatar Details option to include a lot more information such as what platform the avatar is uploaded for, what features it has (eyelook, visemes, SDK version), who the author is and more<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Updated Social Menu</b>! The Social Menu has been improved significantly to help you navigate long lists of friends quickly and cycle through your various friend groups with much more ease</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Updated and refined Search functionality</b>! We've made various changes to the Search function - users will be initially provided with randomized queries to help them find various world types and reloading the page will automatically refresh these queries.</indent><br><line-height=0.76em></line-height><br>  - Improved Search results as a whole to allow users to see much more results and refine their search using more filter options than before<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented the Help & Info Menu</b>! The Help & Info Menu has been added to VRChat to allow new users to quickly catch up to speed on how to use VRChat or serve as a useful reminder to experienced users about how certain features work</indent><br><line-height=0.76em></line-height><br>  - This menu will include future release notes so you can easily read up on the latest changes instead of having to go to our Discord or the website<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented a new Settings Menu</b>! The new Settings Menu has been designed to house various settings scattered around VRChat in a single page with multiple tabs that lead into various different categories to help you easily configure your VRChat experience</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added background images to the UI!</b> You can choose one of the backgrounds to add some cool flair to your UI</indent><br><line-height=0.76em></line-height><br>  - This affects the Main Menu and the Quick Menu<br>  - There are 3 different options, and 37 additional for VRChat Plus subscribers<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented Avatar Haptics!</b> This feature allows users to get haptic feedback in your controllers when you touch other avatars - no avatar setup is required for this!</indent><br><line-height=0.76em></line-height><br>  - This system uses the Avatar Dynamics interaction permission system, so <i>both users MUST opt in before haptics will work for either of you</i><br>  - Turn this system on and adjust them in the Quick Menu's Gear tab<br>  - Avatar Haptics is not supported on standalone Quest because it causes significant performance issues related to the render pipeline and how the Quest GPU operates, we are re-assessing how we might best enable this feature on Quest standalone<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added Portal Placement!</b></indent><br><line-height=0.76em></line-height><br>  - In the Quick Menu's \"gear\" tab, find an option to enable Portal Placement<br>  - With this enabled, when you go to drop a portal, you'll be able to do so with by pointing your controller!<br>  - Move your controller around and point where you want to place the portal! If its an invalid position, the marker will turn red and a tooltip will appear on your screen telling you why you can't place the portal there<br>  - You can MOVE while looking for a place to put your portal!<br>  - Once you find a good spot, pull your trigger and the portal will spawn<br>  - It also works on Desktop!!<br>  - its REALLY GOOD please go try it! We like it so much we made it the new default.<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Implemented Visual Adjustment options</b>, such as color blindness filters (Protanopia, Deuteranopia, and Tritanopia), world / UI filters (grayscale or retro), screen brightness and bloom intensity adjustments</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented \"Flying Mode\" for the camera while in VR!</indent><br><line-height=0.76em></line-height><br>  - Engage and disengage this feature by opening the camera and selecting the \"Flying\" toggle<br>  - When engaged, you can release the camera to drop the controls. The camera will stay put<br>  - Your thumbsticks can be used to move the camera lens within a 15 meter radius around where you're standing<br>  - Hold down the trigger while moving the right stick to tilt the lens<br>  - To take a photo, use your laser pointer to click the \"Take Photo\" button on the camera<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added avatar texture VRAM usage estimation to the Avatar Stats system</indent><br><line-height=0.76em></line-height><br>  - This feature estimates the amount of VRAM in use by a given avatar and displays it. It isn't 100% accurate, but its close!<br>  - You might see this value differ from some community-created tools like <color=#1D7CEAFF><link=vrc-avatar-tools>Thry's VRCAvatarTools</link></color>. That's because we only list texture VRAM!<br>  - _This stat does not currently affect Performance Rank_, but <b>it will eventually.</b> From our observations, keeping the VRChat value under ~50MB seems like a \"Good\" place to aim for<br>  - Will be implemented into the SDK at a later time<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented an optional FBT Calibration visualization that users can toggle on to help calibrate Full-Body Tracking</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added different tracker models for Full Body Tracking</indent><br><line-height=0.76em></line-height><br>  - You can toggle between 4 different values in the Quick Menu's Gear tab<br>  - \"Sphere\" - Default, same as Live. Uses the good 'ol Unity Sphere<br>  - \"System\" - Uses SteamVR's \"Render-Model\" for your device. This _usually_ looks like the physical tracker!<br>  - \"Box\" - A rounded cube with colored sides to indicate XYZ axis information<br>  - \"Axis\" - An indicator with long \"spikes\" tipped with colors to indicate XYZ axis information<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented a head-tracked option for the Personal mirror</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented the ability for users to double-click the Audio settings to toggle Earmuffs on/off</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added a \"Lock\" button in the bottom right of the Main Menu that turns on and off menu grabbing and moving</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented Avatars 3.0 synced bool parameter <space=0.3em><mark=#0000003C>Earmuffs</font></mark><space=0.3em> that is True when the user has the Earmuffs feature on, and False when it is off</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added an \"unmute\" sound when you unmute your microphone</indent><br><line-height=0.76em></line-height><br>  - Remember that you can adjust the volume of the mute/unmute sound in the HUD settings<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Implemented a new <color=#1D7CEAFF><link=launch-option>Launch Option</link></color> to set CPU thread affinity for the VRChat process by using the <space=0.3em><mark=#0000003C>--affinity=FFFF</mark><space=0.3em> argument</indent><br><line-height=0.76em></line-height><br>  - The <space=0.3em><mark=#0000003C>FFFF</mark><space=0.3em> is a bitmask indicating which threads should be utilized for VRChat. <space=0.3em><mark=#0000003C>FFFF</mark><space=0.3em> selects the first 16 threads, <space=0.3em><mark=#0000003C>FF</mark><space=0.3em> selects the first 8, and so on<br>  - This feature is primarily intended for usage with certain AMD CPUs who benefit from limiting processes to a single CCX<br>  - This is an _advanced feature_. Unless you know what you're doing and know you need this, you probably shouldn't use it!<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added a new \"Measure Height\" button</b> to the User Real Height setting that will use your headset's current distance from the playspace floor to measure your height</indent><br><line-height=0.76em></line-height><br>    - When you use this, it is very important to stand up straight as well as to have an accurate room setup floor height when using this feature! It's available in the QM Gear tab as well as the Main Menu's new section<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>A new section has been added to the Main Menu Settings tab called \"Tracking and IK\". It includes:</indent><br><line-height=0.76em></line-height><br>    - User Real Height adjustment, including the new \"measure\" button<br>    - <b>Metric Units Adjustment</b> - the User Real Height arrow buttons will increment in centimeters instead of inches.<br>    - <b>Legacy Calibration</b> - swaps to the older method of locking your avatar in place during calibration<br>    - <b>Disable Shoulder Tracking</b> - prevents arm (elbow) trackers from affecting the shoulders<br>    - <b>Freeze Tracking on Disconnect</b> - when a tracker disconnects it continues to lock the tracked body to its final location relative to the player, rather than transitioning that part to untracked behavior. We've made new efforts to ensure that even if you activate this option after the tracker has disconnected it will still remember and use the proper final location of the tracker<br>    - <b>IK Debug Logging</b> - adds extra log output related to IK features.<br>    - Note: the command line arguments associated with the above features are being removed! To use the features going forward you must activate them in the menu<br><br><voffset=0.3em><b><size=120%>Changes and Improvements</size></b></voffset><br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20><b>Added more double-click functions to the Quick Menu tabs!</b></indent><br><line-height=0.76em></line-height><br>    - If you didn't know, double-clicking the tabs has different functionality, letting you quickly access the most common functions of Quick Menu tabs. For example, <b>double-clicking the Camera tab summons the Camera</b> and <b>double-clicking the audio tab toggles Earmuffs on and off.</b> These have been in for a while!<br>    - We added some more:<br>      - <b>Double-click Launchpad QM (Quick Menu) tab -> Opens MM (Main Menu) Launchpad tab</b><br>      - <b>Double-click Notifications QM tab -> Opens MM Notifications tab</b><br>      - <b>Double-click Here QM tab  -> Opens MM Instance Details page</b> <br>      - <b>Double-click Settings QM tab  -> Opens MM Settings tab</b>"
+          },
+          {
+            "text": "<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Various improvements to the face mirror to improve resolution and clamping</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Made some improvements to the placement of the Personal Mirror above or below the user</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Greatly improved performance when avatars are hidden by removing unnecessary IK tweening</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Nameplates and the Chatbox now appear the \"right way\" in mirrors-- i.e., they're no longer mirrored</indent><br><line-height=0.76em></line-height><br><voffset=0.3em><b><size=120%>Fixes</size></b></voffset><br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed some issues with the Personal Mirror not playing well with some legacy avatars</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed the Quick Menu Master audio slider not going to 125%</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed issues with travel that rarely caused users to be sent back to their home world</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Various fixes and improvements to the keyboard</indent><br><line-height=0.76em></line-height><br>  - You can now copy text that has been set by Udon<br>  - The keyboard no longer shows up behind you<br>  - The keyboard now respects the options set by the InputField you're typing into, such as multi-line, data validation, and read-only<br>  - The keyboard no longer breaks if the InputField's  placeholder text is missing<br>  - The Shift key only now only applies to one character unless you double-click it<br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed some issues where users with non-standard or directly supported tracker configurations may experience some crashing issues</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixes and adjustments to text rendering throughout VRChat, such as blurry text on Action Menu when using small avatars</indent><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Fixed QM incorrectly opening when logging out in VR</indent><br><line-height=0.76em></line-height><br><voffset=0.7em><b><size=120%>SDK - Features</size></b></voffset><br><line-height=0.76em></line-height><br><line-height=0%><width=100><align=left>•</width></align><br></line-height><indent=20>Added 3 shader globals that can be accessed by any avatar or world shader:</indent><br><line-height=0.76em></line-height><br>    - <space=0.3em><mark=#0000003C>float _VRChatCameraMode</mark><space=0.3em>:<br>        - <space=0.3em><mark=#0000003C>0</font></mark><space=0.3em> - Rendering normally<br>        - <space=0.3em><mark=#0000003C>1</mark><space=0.3em> - Rendering in VR handheld camera<br>        - <space=0.3em><mark=#0000003C>2</mark><space=0.3em> - Rendering in Desktop handheld camera<br>        - <space=0.3em><mark=#0000003C>3</mark><space=0.3em> - Rendering for a screenshot<br>    - <space=0.3em><mark=#0000003C>float _VRChatMirrorMode</mark><space=0.3em>:<br>        - <space=0.3em><mark=#0000003C>0</mark><space=0.3em> - Rendering normally, not in a mirror<br>        - <space=0.3em><mark=#0000003C>1</mark><space=0.3em> - Rendering in a mirror viewed in VR<br>        - <space=0.3em><mark=#0000003C>2</mark><space=0.3em> - Rendering in a mirror viewed in desktop mode<br>    - <space=0.3em><mark=#0000003C>float3 _VRChatMirrorCameraPos</mark><space=0.3em> - World space position of mirror camera (eye independent, \"centered\" in VR)<br>"
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "patch-notes",
+            "name": "Main Menu - Patch Notes",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/docs/latest-release"
+            ]
+          },
+          {
+            "id": "vrc-avatar-tools",
+            "name": "VRCAvatarTools",
+            "command": "OpenURL",
+            "parameters": [
+              "https://github.com/Thryrallo/VRCAvatarTools"
+            ]
+          },
+          {
+            "id": "launch-option",
+            "name": "Launch Options",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/v2022.3.1/docs/launch-options"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "name": "Main Menu - Patch Notes",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/docs/latest-release"
+            ]
+          },
+          {
+            "name": "VRCAvatarTools",
+            "command": "OpenURL",
+            "parameters": [
+              "https://github.com/Thryrallo/VRCAvatarTools"
+            ]
+          },
+          {
+            "name": "Launch Options",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/v2022.3.1/docs/launch-options"
+            ]
+          }
+        ]
+      }
+    },
+    "hash": "4db8c3b3d65ef52003f13f6d7e248f06",
+    "createdAt": "2022-10-12T22:26:05+00:00",
+    "updatedAt": "2023-08-31T20:31:04+00:00"
+  },
+  {
+    "id": "help-article-hiring",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2000,
+    "tags": [
+      "help-article",
+      "user-all",
+      "help-topic-news",
+      "help-notifications"
+    ],
+    "data": {
+      "name": "We're Hiring",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/389813953bddd49251379878eaadde474afe579908ff26fb189b55adf065edb1.png",
+      "description": "Discover open job positions at VRChat.",
+      "article": {
+        "content": [
+          {
+            "text": "<size=140%><b>We’re always looking for good people to join our team at VRChat!</b></size><br><br>We are one of the leading Virtual World platforms, hosting one of the largest active online communities of users and creators. Our community has created millions of pieces of content and spends many hours in-world in a given session.<br><br>You’re here right now – so you’ve probably seen some of it!<br><br>Countless friendships, groups and events have formed, and continue to grow daily.<br><br><b>VRChat is built by people like you</b> – folks that are passionate about the community and want to see it grow. Our goal is to spend the coming years building VRChat into one of the most successful community-driven social VR platforms in existence.<br><br>To do that, we need you!<br>"
+          },
+          {
+            "text": "<size=140%><b>We’re looking for…</b></size><br><br><indent=5%>• People with passion for VR, Social and Virtual Worlds.<br><br>• Great communicators! This is key in any team, but we all work remotely. We’ve found that being an effective communicator is even more important when everyone’s remote.<br><br>• People that not only meet the job requirements, but people that have shown an ability to excel in a role or demonstrate passion and accomplishment with their own projects-- especially ones that are social, remote and collaborative.<br><br>• Folks who collaborate well. Everyone on the team is a contributor and we work together daily to pitch ideas and solve problems.<br><br>• Self-starters. We don’t have a large hierarchy of management. We structure our roadmap and project teams with the expectation of those individuals and teams to work toward their goals every day without too much oversight.<br><br>• Multi–talented applicants. VRChat is evolving and growing in an arena that is often defined by changes in hardware and software platforms or other industry trends. At times, we have to change directions quickly. This requires a degree of flexibility and everyone on the team pitches in to help with whatever they can when needed.<br>"
+          },
+          {
+            "text": "While our hiring needs are always changing, right now we’re rapidly expanding and looking for new talent across a variety of positions, which is why you’re seeing this post!<br><br>To see a list of open positions, click <link=open-positions><color=#7777fc><u>[here]</u></color></link>.<br><br>For more information about hiring, VRChat as a company, and our incredible team benefits, click <link=careers><color=#7777fc><u>[here]</u></color></link>."
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "open-positions",
+            "name": "Open Positions",
+            "command": "OpenURL",
+            "parameters": [
+              "https://jobs.lever.co/vrchat"
+            ]
+          },
+          {
+            "id": "careers",
+            "name": "VRChat Careers",
+            "command": "OpenURL",
+            "parameters": [
+              "https://hello.vrchat.com/careers"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "name": "Open Positions",
+            "command": "OpenURL",
+            "parameters": [
+              "https://jobs.lever.co/vrchat"
+            ]
+          },
+          {
+            "name": "VRChat Careers",
+            "command": "OpenURL",
+            "parameters": [
+              "https://hello.vrchat.com/careers"
+            ]
+          }
+        ]
+      }
+    },
+    "hash": "b92ada8f66b68b8bd36eb64728d6e8af",
+    "createdAt": "2022-04-06T00:11:34+00:00",
+    "updatedAt": "2023-08-31T20:31:03+00:00"
   }
 ]
 ```
