@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/330/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/352/data/article/content failed type, #/357/data/article/content failed type, #/358/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/329/data/article/content failed type, #/332/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/351/data/article/content failed type, #/356/data/article/content failed type, #/357/data/article/content failed type.
 ```
 
 ## Request
@@ -836,6 +836,22 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "9a689d2aec8c0a16ad0cdb0b39dac4ff",
     "createdAt": "2022-06-24T23:48:27+00:00",
     "updatedAt": "2022-09-08T22:22:47+00:00"
+  },
+  {
+    "id": "world-banner---spotlight-mobile",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category-banner-spotlight-mobile",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/f85117b091c48703ee08c631ad11988628ae0f864f807d94ee31f6535278bf11.png"
+    },
+    "hash": "e959eda5aae9f9e2084bc90a9877c6db",
+    "createdAt": "2023-09-05T16:21:42+00:00",
+    "updatedAt": "2023-09-05T16:21:42+00:00"
   },
   {
     "id": "world-banner---recent",
@@ -8018,50 +8034,6 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2022-12-01T02:53:59+00:00"
   },
   {
-    "id": "world-musicvket-2023",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": "Music Vket 5",
-      "tooltipDescription": "Explore Music Vket 5!",
-      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/a4c141d39b9117ca160e7ea5a502d53cd04322f30b24ee580caf947199cfee16.png",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/0afd353b82a0e354be5bb4f31bdb42200e4305b7e69648b951e9042528ebc5ee.png",
-      "contentList": {
-        "name": "Music Vket 5",
-        "sortHeading": "order",
-        "sortOwnership": "any",
-        "sortOrder": "ascending",
-        "platform": "ThisPlatformSupported",
-        "tag": "admin_musicvket_2023",
-        "bannersTag": "world-category-banner-event-musicvket-2023"
-      }
-    },
-    "hash": "631c09fb53927eeb4eaf34b0aac30ef2",
-    "createdAt": "2023-08-26T00:58:28+00:00",
-    "updatedAt": "2023-08-26T01:16:20+00:00"
-  },
-  {
-    "id": "world-banner---event-musicvket-2023",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "world-category-banner-event-musicvket-2023",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/325306d953a4c97e7e7739a0f5339aca0bf2e705558bfbfc00c736beaeb0af80.png"
-    },
-    "hash": "12ee89398f1a16ce5bd22462c7249708",
-    "createdAt": "2023-08-26T00:58:28+00:00",
-    "updatedAt": "2023-08-26T00:58:28+00:00"
-  },
-  {
     "id": "world-spotlight-mobile-test",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -8084,12 +8056,12 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
         "tag": "admin_spotlight_mobile",
-        "bannersTag": "world-category-banner-spotlight"
+        "bannersTag": "world-category-banner-spotlight-mobile"
       }
     },
-    "hash": "d6b69795bd1b65c6d204186392884e29",
+    "hash": "0ef70412299538a603451c4cfc973280",
     "createdAt": "2023-06-27T00:40:10+00:00",
-    "updatedAt": "2023-08-17T22:37:35+00:00"
+    "updatedAt": "2023-09-05T16:21:44+00:00"
   },
   {
     "id": "world-banner---udon-getstarted",
@@ -8747,7 +8719,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     },
     "hash": "72150454148866d9705664810488a5bc",
     "createdAt": "2023-08-10T20:44:02+00:00",
-    "updatedAt": "2023-08-10T20:44:02+00:00"
+    "updatedAt": "2023-09-05T16:53:04+00:00"
   },
   {
     "id": "help-topic-settings",
@@ -8956,7 +8928,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     },
     "hash": "e84a6c5c45338afd655906c15f2b4acf",
     "createdAt": "2023-08-10T19:34:15+00:00",
-    "updatedAt": "2023-08-10T20:44:02+00:00"
+    "updatedAt": "2023-09-05T16:53:04+00:00"
   },
   {
     "id": "release-avatar-dynamics",
@@ -9229,7 +9201,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     },
     "hash": "fa18086a9458fea7537bf0cd4aa1db43",
     "createdAt": "2023-08-10T19:34:16+00:00",
-    "updatedAt": "2023-08-10T20:44:02+00:00"
+    "updatedAt": "2023-09-05T16:53:04+00:00"
   },
   {
     "id": "release-main-menu-launch",
