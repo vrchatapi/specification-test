@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/329/data/article/content failed type, #/332/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/351/data/article/content failed type, #/356/data/article/content failed type, #/357/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/331/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/336/data/article/content failed type, #/353/data/article/content failed type, #/358/data/article/content failed type, #/359/data/article/content failed type.
 ```
 
 ## Request
@@ -975,11 +975,43 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
       "user-all"
     ],
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/db98b4981830a2410a99e95f1b0bff1f5f4568b29c7d376120858e9be2eee7ed.png"
+      "imageUrl": "https://assets.vrchat.com/ips/assets/587fee795a7c504ee5216f78b1e26de8586b5273853f2462927c155111235f85.png"
     },
-    "hash": "b719f9a4e1011f25c5b450c7cddbe55f",
+    "hash": "ab6d3b0d2b54bb684dd50ff2810b645a",
     "createdAt": "2022-04-01T21:55:29+00:00",
-    "updatedAt": "2022-09-08T22:22:46+00:00"
+    "updatedAt": "2023-09-06T21:22:58+00:00"
+  },
+  {
+    "id": "world-banner---avatar-worlds-random",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category-banner-avatar-random",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/3c1d0b09e78d4f242d41737acec53a9fc2d7498cbd9b37f1abf827212d6a2168.png"
+    },
+    "hash": "c032159df3f43ca6df6babd4390e1f11",
+    "createdAt": "2023-09-06T21:22:58+00:00",
+    "updatedAt": "2023-09-06T21:22:58+00:00"
+  },
+  {
+    "id": "world-banner---avatar-worlds-new",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category-banner-avatar-new",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/164c0c2d0e62525ce5ef367b8ee57c1b5a7d19654db334479fca07d62442d377.png"
+    },
+    "hash": "637a9828f179cf23ba6bb1ab79ad1cf2",
+    "createdAt": "2023-09-06T21:22:58+00:00",
+    "updatedAt": "2023-09-06T21:22:58+00:00"
   },
   {
     "id": "world-banner---active-my-platform",
@@ -8923,12 +8955,12 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
         "avatarSpecific": true,
-        "bannersTag": "world-category-banner-avatar"
+        "bannersTag": "world-category-banner-avatar-new"
       }
     },
-    "hash": "e84a6c5c45338afd655906c15f2b4acf",
+    "hash": "17550ce45f8ba0e744178366f7162ea5",
     "createdAt": "2023-08-10T19:34:15+00:00",
-    "updatedAt": "2023-09-05T16:53:04+00:00"
+    "updatedAt": "2023-09-06T21:22:59+00:00"
   },
   {
     "id": "release-avatar-dynamics",
@@ -9196,12 +9228,12 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
         "sortOrder": "descending",
         "platform": "ThisPlatformSupported",
         "avatarSpecific": true,
-        "bannersTag": "world-category-banner-avatar"
+        "bannersTag": "world-category-banner-avatar-random"
       }
     },
-    "hash": "fa18086a9458fea7537bf0cd4aa1db43",
+    "hash": "7a834a4cbc211e0015ee373a8100aba4",
     "createdAt": "2023-08-10T19:34:16+00:00",
-    "updatedAt": "2023-09-05T16:53:04+00:00"
+    "updatedAt": "2023-09-06T21:22:59+00:00"
   },
   {
     "id": "release-main-menu-launch",
