@@ -42,6 +42,7 @@
     {
       "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
       "created_at": "2022-01-27T01:34:07.257Z",
+      "impostorUrl": null,
       "unityVersion": "2019.4.30f1",
       "assetVersion": 1,
       "platform": "standalonewindows"
@@ -49,6 +50,7 @@
     {
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
       "created_at": "2022-02-03T06:57:10.346Z",
+      "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
       "unityVersion": "2019.4.30f1"
@@ -56,6 +58,7 @@
     {
       "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
       "created_at": "2022-07-07T11:36:36.197Z",
+      "impostorUrl": null,
       "assetVersion": 1,
       "platform": "standalonewindows",
       "unityVersion": "2019.4.31f1"
@@ -63,6 +66,7 @@
     {
       "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
       "created_at": "2022-07-07T11:51:24.091Z",
+      "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
       "unityVersion": "2019.4.31f1"
