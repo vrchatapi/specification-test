@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
+Response schema mismatch: #/capacity failed maximum, #/unityPackages/0/assetUrl failed minLength.
 ```
 
 ## Request
@@ -39,7 +39,8 @@ Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
   "authorName": "spookyghostboo",
   "releaseStatus": "public",
   "featured": false,
-  "capacity": 24,
+  "capacity": 48,
+  "recommendedCapacity": 24,
   "imageUrl": "<unstable: string>",
   "thumbnailImageUrl": "<unstable: string>",
   "namespace": "",

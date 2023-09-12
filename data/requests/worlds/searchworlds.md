@@ -1,5 +1,10 @@
 # searchWorlds
 
+## Fail logs
+```
+Response schema mismatch: #/0/capacity failed maximum, #/1/capacity failed maximum, #/2/capacity failed maximum, #/4/capacity failed maximum, #/5/capacity failed maximum, #/7/capacity failed maximum, #/8/capacity failed maximum.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/worlds`
 
