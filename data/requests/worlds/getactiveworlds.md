@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/0/favorites failed required, #/0/created_at failed required, #/0/updated_at failed required, #/1/favorites failed required, #/1/created_at failed required, #/1/updated_at failed required, #/2/favorites failed required, #/2/created_at failed required, #/2/updated_at failed required, #/3/favorites failed required, #/3/created_at failed required, #/3/updated_at failed required, #/4/favorites failed required, #/4/created_at failed required, #/4/updated_at failed required, #/5/favorites failed required, #/5/created_at failed required, #/5/updated_at failed required, #/5/capacity failed maximum, #/6/capacity failed maximum, #/7/favorites failed required, #/7/created_at failed required, #/7/updated_at failed required, #/8/capacity failed maximum, #/9/capacity failed maximum.
+Response schema mismatch: #/0/favorites failed required, #/0/created_at failed required, #/0/updated_at failed required, #/1/favorites failed required, #/1/created_at failed required, #/1/updated_at failed required, #/2/favorites failed required, #/2/created_at failed required, #/2/updated_at failed required, #/3/favorites failed required, #/3/created_at failed required, #/3/updated_at failed required, #/4/favorites failed required, #/4/created_at failed required, #/4/updated_at failed required, #/5/favorites failed required, #/5/created_at failed required, #/5/updated_at failed required, #/5/capacity failed maximum, #/6/capacity failed maximum, #/7/favorites failed required, #/7/created_at failed required, #/7/updated_at failed required, #/8/capacity failed maximum, #/9/favorites failed required, #/9/created_at failed required, #/9/updated_at failed required.
 ```
 
 ## Request

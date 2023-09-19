@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/capacity failed maximum, #/unityPackages/0/assetUrl failed minLength.
+Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
 ```
 
 ## Request
