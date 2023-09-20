@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/331/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/336/data/article/content failed type, #/353/data/article/content failed type, #/358/data/article/content failed type, #/359/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/331/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/336/data/article/content failed type, #/352/data/article/content failed type, #/357/data/article/content failed type, #/358/data/article/content failed type.
 ```
 
 ## Request
@@ -8554,31 +8554,6 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "5b1285f27d6f81555718a7dfaae25a71",
     "createdAt": "2023-06-12T22:36:51+00:00",
     "updatedAt": "2023-07-10T20:36:20+00:00"
-  },
-  {
-    "id": "avatar-achievement",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1003,
-    "tags": [
-      "avatar-category",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/1c08e2644fb6592a9f6fded8e6c5622c23a7b6e64798ae0355ab1a7b05a825f5.png",
-      "contentList": {
-        "type": "avatar",
-        "name": "Achievement",
-        "sortHeading": "none",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "any",
-        "tag": "author_tag_achievement"
-      }
-    },
-    "hash": "2a8e4ae3322cfaaf24b7a32d8cbb3390",
-    "createdAt": "2020-06-05T08:23:28+00:00",
-    "updatedAt": "2022-09-17T06:11:00+00:00"
   },
   {
     "id": "help-topic-groups",
