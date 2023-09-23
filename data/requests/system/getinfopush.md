@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/331/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/336/data/article/content failed type, #/352/data/article/content failed type, #/357/data/article/content failed type, #/358/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/326/data/article/content failed type, #/327/data/article/content failed type, #/328/data/article/content failed type, #/334/data/article/content failed type, #/337/data/article/content failed type, #/338/data/article/content failed type, #/339/data/article/content failed type, #/355/data/article/content failed type, #/360/data/article/content failed type, #/361/data/article/content failed type.
 ```
 
 ## Request
@@ -7770,6 +7770,444 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "9fb90988b7a0d432eb36d0027b8bed3d",
     "createdAt": "2022-10-05T23:19:38+00:00",
     "updatedAt": "2023-03-22T19:55:17+00:00"
+  },
+  {
+    "id": "help-article-gift-vrcp-quest",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "user-all",
+      "help-article",
+      "help-topic-vrcplus",
+      "help-notifications"
+    ],
+    "requireClientTags": [
+      "platform-oculus-quest"
+    ],
+    "data": {
+      "name": "How to Gift Someone VRC+",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/6b10e0493d6d4148b171fc5ed93f02d11c314b1be3aa3449f110787a4fe56d23.png",
+      "description": "Give someone the gift of VRC Plus!",
+      "article": {
+        "sectionLinks": [
+          "link-gifting-vrchat",
+          "link-gifting-instance"
+        ],
+        "content": [
+          {
+            "text": "Looking for the perfect gift for your friend that plays VRChat? Gift them VRChat Plus!<br><br>VRChat Plus provides supporters with a handful of unique bonuses, which you can read about <color=#7777fc><link=vrchat-plus>[here]</link></color>.<br><br>Note: as of August 2023, if you gift a VRChat Plus subscription to another user that already has an active subscription, your gift will extend their subscription length! This means that even if your friend has an active subscription, you can still give them VRChat Plus as a gift!"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-gifting-vrchat",
+            "title": "Gifting a User VRChat+ in Your Instance",
+            "text": "<size=140%><b>Gifting a User VRChat Plus in Your Instance</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "If you are in the same instance as another user without VRChat Plus, you can easily give them a subscription!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/38ca00ac9b304cc50040b163ed085c417d3373804f6bfda6bcbad3f89a3c8dbe.png"
+          },
+          {
+            "text": "First, open up your <color=#ffff01>Quick Menu</color>. You can open up your <color=#ffff01>Quick Menu</color> by pressing <color=#ff4aff>[B (right hand, top button) or Y (left hand, top button)]</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/861165b696e36bd323c65b1a52e73ed2dd228c59bb06c59d2ccfb5b6dbca97bf.png"
+          },
+          {
+            "text": "Then, move your cursor over the user you would like to gift VRChat Plus and select them."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/f65aa2204a7128da46b602eb0fa11cfbfdc78b8c2e307952c53674d5e0e0108b.png"
+          },
+          {
+            "text": "You will see a yellow icon that says <color=#ffff01>Gift VRChat+</color>. Click it!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/e410f00e27891fa03b03494539514a2434ceb896200dffce2c8deeed610216b5.png"
+          },
+          {
+            "text": "You will have the choice to give the selected user either <color=#ffff01>1 Month of VRChat Plus for $9.99</color>, or <color=#ffff01>1 Year for $99.99</color>. As a note, users on Quest will not be able to gift other users yearly subscriptions via the Quest Store.<br><br>Once you have selected your choice, click the confirmation button at the bottom and you will be directed to your platform’s shop to complete the transaction."
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-gifting-instance",
+            "title": "Gifting a User VRChat+ Who Isn’t In Instance",
+            "text": "<size=140%><b>Gifting a User VRChat Plus Who Isn’t In Your Instance</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Not in the same instance as the person you want to gift VRChat Plus? No problem!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/38ca00ac9b304cc50040b163ed085c417d3373804f6bfda6bcbad3f89a3c8dbe.png"
+          },
+          {
+            "text": "First, open up your <color=#ffff01>Quick Menu</color>. You can open up your <color=#ffff01>Quick Menu</color> by pressing <color=#ff4aff>[B (right hand, top button) or Y (left hand, top button)]</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/08c0116235361f9e65573e761e3157a427cd69a887d59db14a83fae1ba608e1d.png"
+          },
+          {
+            "text": "With your <color=#ffff01>Quick Menu</color> open, click on the <color=#ffff01>Social</color> button. This will open the <color=#ffff01>Social Tab</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/aba4b9967c99b9706f8eb2c41187e7a79fa66bacfd951ba7ff3c1ea554ec609b.png"
+          },
+          {
+            "text": "The <color=#ffff01>Social Tab</color> lets you see all of your friends currently online in VRChat. If the user you wish to gift VRChat Plus is already your friend, you can click on their name here and skip to the next section.<br><br>If not, you will have to search for them.<br><br>Click the <color=#ffff01>User Search</color> button, which can be located on the left pane of the <color=#ffff01>Social Tab</color>.<br><br>If the left pane is minimized, you will simply see a magnifying glass. Click it, and the <color=#ffff01>User Search</color> window will appear."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/ee23f85fbf1be3d4028ba4aaff548f55c19da56cc7cc519921761507ccffc487.png"
+          },
+          {
+            "text": "Type in the user’s name, and hit <color=#ffff01>Done</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/d4ef93618cf846794256c5a1529ecb6ea2609d8c234bdd7a68894950ae3466a5.png"
+          },
+          {
+            "text": "You will see a list of VRChat users according to your query. Click on the one you are trying to purchase a <color=#ffff01>VRChat Plus</color> subscription for."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/17571be34f1f07020a0eeb4226f8466fb6fe9185b7b3ece79941ee7f96cd34d1.png"
+          },
+          {
+            "text": "You will see a yellow icon that says <color=#ffff01>Gift VRChat+</color>. Click it!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/6ff362c67a419cada51252d8e77984b6c592701647124d2cf198ea3c00eb03d4.png"
+          },
+          {
+            "text": "You will have the choice to give the selected user either <color=#ffff01>1 Month of VRChat Plus for $9.99</color>, or <color=#ffff01>1 Year for $99.99</color>. As a note, users on Quest will not be able to gift other users yearly subscriptions via the Quest Store.<br><br>Once you have selected your choice, click the confirmation button at the bottom and you will be directed to your platform’s shop to complete the transaction."
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "vrchat-plus",
+            "name": "VRChat Plus",
+            "command": "OpenHelpArticle",
+            "parameters": [
+              "help-article-what-vrcp-quest"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "command": "OpenHelpArticle",
+            "parameters": [
+              "help-article-what-vrcp-quest"
+            ]
+          }
+        ]
+      }
+    },
+    "hash": "8ad5b6dc0d2ec1415e74eb4cf5e7f587",
+    "createdAt": "2022-10-07T18:19:31+00:00",
+    "updatedAt": "2023-09-22T18:01:57+00:00"
+  },
+  {
+    "id": "help-article-gift-vrcp-pcvr",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "user-all",
+      "help-article",
+      "help-topic-vrcplus",
+      "help-notifications"
+    ],
+    "requireClientTags": [
+      "platform-pc-vr"
+    ],
+    "data": {
+      "name": "How to Gift Someone VRC+",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/6b10e0493d6d4148b171fc5ed93f02d11c314b1be3aa3449f110787a4fe56d23.png",
+      "description": "Give someone the gift of VRC Plus!",
+      "article": {
+        "sectionLinks": [
+          "link-gifting-vrchat",
+          "link-gifting-instance"
+        ],
+        "content": [
+          {
+            "text": "Looking for the perfect gift for your friend that plays VRChat? Gift them VRChat Plus!<br><br>VRChat Plus provides supporters with a handful of unique bonuses, which you can read about <color=#7777fc><link=vrchat-plus>[here]</link></color>.<br><br>Note: as of August 2023, if you gift a VRChat Plus subscription to another user that already has an active subscription, your gift will extend their subscription length! This means that even if your friend has an active subscription, you can still give them VRChat Plus as a gift!"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-gifting-vrchat",
+            "title": "Gifting a User VRChat+ in Your Instance",
+            "text": "<size=140%><b>Gifting a User VRChat Plus in Your Instance</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "If you are in the same instance as another user without VRChat Plus, you can easily give them a subscription!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/38ca00ac9b304cc50040b163ed085c417d3373804f6bfda6bcbad3f89a3c8dbe.png"
+          },
+          {
+            "text": "First, open up your <color=#ffff01>Quick Menu</color>. You can open up your <color=#ffff01>Quick Menu</color> by pressing <color=#ff4aff>[B (top button)]</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/861165b696e36bd323c65b1a52e73ed2dd228c59bb06c59d2ccfb5b6dbca97bf.png"
+          },
+          {
+            "text": "Then, move your cursor over the user you would like to gift VRChat Plus and select them."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/f65aa2204a7128da46b602eb0fa11cfbfdc78b8c2e307952c53674d5e0e0108b.png"
+          },
+          {
+            "text": "You will see a yellow icon that says <color=#ffff01>Gift VRChat+</color>. Click it!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/e410f00e27891fa03b03494539514a2434ceb896200dffce2c8deeed610216b5.png"
+          },
+          {
+            "text": "You will have the choice to give the selected user either <color=#ffff01>1 Month of VRChat Plus for $9.99</color>, or <color=#ffff01>1 Year for $99.99</color>. As a note, users on Quest will not be able to gift other users yearly subscriptions via the Quest Store.<br><br>Once you have selected your choice, click the confirmation button at the bottom and you will be directed to your platform’s shop to complete the transaction."
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-gifting-instance",
+            "title": "Gifting a User VRChat+ Who Isn’t In Instance",
+            "text": "<size=140%><b>Gifting a User VRChat Plus Who Isn’t In Your Instance</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Not in the same instance as the person you want to gift VRChat Plus? No problem!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/38ca00ac9b304cc50040b163ed085c417d3373804f6bfda6bcbad3f89a3c8dbe.png"
+          },
+          {
+            "text": "First, open up your <color=#ffff01>Quick Menu</color>. You can open up your <color=#ffff01>Quick Menu</color> by pressing <color=#ff4aff>[B (top button)]</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/08c0116235361f9e65573e761e3157a427cd69a887d59db14a83fae1ba608e1d.png"
+          },
+          {
+            "text": "With your <color=#ffff01>Quick Menu</color> open, click on the <color=#ffff01>Social</color> button. This will open the <color=#ffff01>Social Tab</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/aba4b9967c99b9706f8eb2c41187e7a79fa66bacfd951ba7ff3c1ea554ec609b.png"
+          },
+          {
+            "text": "The <color=#ffff01>Social Tab</color> lets you see all of your friends currently online in VRChat. If the user you wish to gift VRChat Plus is already your friend, you can click on their name here and skip to the next section.<br><br>If not, you will have to search for them.<br><br>Click the <color=#ffff01>User Search</color> button, which can be located on the left pane of the <color=#ffff01>Social Tab</color>.<br><br>If the left pane is minimized, you will simply see a magnifying glass. Click it, and the <color=#ffff01>User Search</color> window will appear."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/ee23f85fbf1be3d4028ba4aaff548f55c19da56cc7cc519921761507ccffc487.png"
+          },
+          {
+            "text": "Type in the user’s name, and hit <color=#ffff01>Done</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/d4ef93618cf846794256c5a1529ecb6ea2609d8c234bdd7a68894950ae3466a5.png"
+          },
+          {
+            "text": "You will see a list of VRChat users according to your query. Click on the one you are trying to purchase a <color=#ffff01>VRChat Plus</color> subscription for."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/17571be34f1f07020a0eeb4226f8466fb6fe9185b7b3ece79941ee7f96cd34d1.png"
+          },
+          {
+            "text": "You will see a yellow icon that says <color=#ffff01>Gift VRChat+</color>. Click it!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/6ff362c67a419cada51252d8e77984b6c592701647124d2cf198ea3c00eb03d4.png"
+          },
+          {
+            "text": "You will have the choice to give the selected user either <color=#ffff01>1 Month of VRChat Plus for $9.99</color>, or <color=#ffff01>1 Year for $99.99</color>. As a note, users on Quest will not be able to gift other users yearly subscriptions via the Quest Store.<br><br>Once you have selected your choice, click the confirmation button at the bottom and you will be directed to your platform’s shop to complete the transaction."
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "vrchat-plus",
+            "name": "VRChat Plus",
+            "command": "OpenHelpArticle",
+            "parameters": [
+              "help-article-what-vrcp-pcvr"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "command": "OpenHelpArticle",
+            "parameters": [
+              "help-article-what-vrcp-pcvr"
+            ]
+          }
+        ]
+      }
+    },
+    "hash": "11687f14cb4f673376ff846e605349ab",
+    "createdAt": "2022-10-07T18:19:29+00:00",
+    "updatedAt": "2023-09-22T18:01:54+00:00"
+  },
+  {
+    "id": "help-article-gift-vrcp-desktop",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "user-all",
+      "help-article",
+      "help-topic-vrcplus",
+      "help-notifications"
+    ],
+    "requireClientTags": [
+      "platform-pc-desktop"
+    ],
+    "data": {
+      "name": "How to Gift Someone VRC+",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/6b10e0493d6d4148b171fc5ed93f02d11c314b1be3aa3449f110787a4fe56d23.png",
+      "description": "Give someone the gift of VRC Plus!",
+      "article": {
+        "sectionLinks": [
+          "link-gifting-vrchat",
+          "link-gifting-instance"
+        ],
+        "content": [
+          {
+            "text": "Looking for the perfect gift for your friend that plays VRChat? Gift them VRChat Plus!<br><br>VRChat Plus provides supporters with a handful of unique bonuses, which you can read about <color=#7777fc><link=vrchat-plus>[here]</link></color>.<br><br>Note: as of August 2023, if you gift a VRChat Plus subscription to another user that already has an active subscription, your gift will extend their subscription length! This means that even if your friend has an active subscription, you can still give them VRChat Plus as a gift!"
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-gifting-vrchat",
+            "title": "Gifting a User VRChat+ in Your Instance",
+            "text": "<size=140%><b>Gifting a User VRChat Plus in Your Instance</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "If you are in the same instance as another user without VRChat Plus, you can easily give them a subscription!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/38ca00ac9b304cc50040b163ed085c417d3373804f6bfda6bcbad3f89a3c8dbe.png"
+          },
+          {
+            "text": "First, open up your <color=#ffff01>Quick Menu</color>. You can open up your <color=#ffff01>Quick Menu</color> by pressing <color=#ff4aff>[Escape]</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/861165b696e36bd323c65b1a52e73ed2dd228c59bb06c59d2ccfb5b6dbca97bf.png"
+          },
+          {
+            "text": "Then, move your cursor over the user you would like to gift VRChat Plus and select them."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/f65aa2204a7128da46b602eb0fa11cfbfdc78b8c2e307952c53674d5e0e0108b.png"
+          },
+          {
+            "text": "You will see a yellow icon that says <color=#ffff01>Gift VRChat+</color>. Click it!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/e410f00e27891fa03b03494539514a2434ceb896200dffce2c8deeed610216b5.png"
+          },
+          {
+            "text": "You will have the choice to give the selected user either <color=#ffff01>1 Month of VRChat Plus for $9.99</color>, or <color=#ffff01>1 Year for $99.99</color>. As a note, users on Quest will not be able to gift other users yearly subscriptions via the Quest Store.<br><br>Once you have selected your choice, click the confirmation button at the bottom and you will be directed to your platform’s shop to complete the transaction."
+          },
+          {
+            "text": "<br><br>"
+          },
+          {
+            "id": "link-gifting-instance",
+            "title": "Gifting a User VRChat+ Who Isn’t In Instance",
+            "text": "<size=140%><b>Gifting a User VRChat Plus Who Isn’t In Your Instance</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Not in the same instance as the person you want to gift VRChat Plus? No problem!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/38ca00ac9b304cc50040b163ed085c417d3373804f6bfda6bcbad3f89a3c8dbe.png"
+          },
+          {
+            "text": "First, open up your <color=#ffff01>Quick Menu</color>. You can open up your <color=#ffff01>Quick Menu</color> by pressing <color=#ff4aff>[Escape]</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/08c0116235361f9e65573e761e3157a427cd69a887d59db14a83fae1ba608e1d.png"
+          },
+          {
+            "text": "With your <color=#ffff01>Quick Menu</color> open, click on the <color=#ffff01>Social</color> button. This will open the <color=#ffff01>Social Tab</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/aba4b9967c99b9706f8eb2c41187e7a79fa66bacfd951ba7ff3c1ea554ec609b.png"
+          },
+          {
+            "text": "The <color=#ffff01>Social Tab</color> lets you see all of your friends currently online in VRChat. If the user you wish to gift VRChat Plus is already your friend, you can click on their name here and skip to the next section.<br><br>If not, you will have to search for them.<br><br>Click the <color=#ffff01>User Search</color> button, which can be located on the left pane of the <color=#ffff01>Social Tab</color>.<br><br>If the left pane is minimized, you will simply see a magnifying glass. Click it, and the <color=#ffff01>User Search</color> window will appear."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/ee23f85fbf1be3d4028ba4aaff548f55c19da56cc7cc519921761507ccffc487.png"
+          },
+          {
+            "text": "Type in the user’s name, and hit <color=#ffff01>Done</color>."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/d4ef93618cf846794256c5a1529ecb6ea2609d8c234bdd7a68894950ae3466a5.png"
+          },
+          {
+            "text": "You will see a list of VRChat users according to your query. Click on the one you are trying to purchase a <color=#ffff01>VRChat Plus</color> subscription for."
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/17571be34f1f07020a0eeb4226f8466fb6fe9185b7b3ece79941ee7f96cd34d1.png"
+          },
+          {
+            "text": "You will see a yellow icon that says <color=#ffff01>Gift VRChat+</color>. Click it!"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/6ff362c67a419cada51252d8e77984b6c592701647124d2cf198ea3c00eb03d4.png"
+          },
+          {
+            "text": "You will have the choice to give the selected user either <color=#ffff01>1 Month of VRChat Plus for $9.99</color>, or <color=#ffff01>1 Year for $99.99</color>. As a note, users on Quest will not be able to gift other users yearly subscriptions via the Quest Store.<br><br>Once you have selected your choice, click the confirmation button at the bottom and you will be directed to your platform’s shop to complete the transaction."
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "vrchat-plus",
+            "name": "VRChat Plus",
+            "command": "OpenHelpArticle",
+            "parameters": [
+              "help-article-what-vrcp-desktop"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "command": "OpenHelpArticle",
+            "parameters": [
+              "help-article-what-vrcp-desktop"
+            ]
+          }
+        ]
+      }
+    },
+    "hash": "739e00111f21323efc99e8a9cd628836",
+    "createdAt": "2022-10-07T18:19:28+00:00",
+    "updatedAt": "2023-09-22T18:01:50+00:00"
   },
   {
     "id": "help-article-contact-support",
