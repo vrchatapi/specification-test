@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/326/data/article/content failed type, #/327/data/article/content failed type, #/328/data/article/content failed type, #/334/data/article/content failed type, #/337/data/article/content failed type, #/338/data/article/content failed type, #/339/data/article/content failed type, #/355/data/article/content failed type, #/360/data/article/content failed type, #/361/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/315/data/article/content failed type, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/330/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/351/data/article/content failed type, #/361/data/article/content failed type, #/362/data/article/content failed type.
 ```
 
 ## Request
@@ -551,7 +551,7 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-05-04T00:16:25+00:00"
   },
   {
-    "id": "qm-banner-release-202332",
+    "id": "qm-banner-release-202333",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 900,
@@ -560,17 +560,17 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
       "user-all"
     ],
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/27ddbad682670f4e16ab7df56961f413182316473c61d131741f9ff6c7d628aa.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/8e39f50a3b2ca7d27ada1a4c3d11aaf9c0d636172a8a5712da7d5e394251a1bf.png",
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
-          "update-article-202332"
+          "update-article-202333"
         ]
       }
     },
-    "hash": "ddb497842342a1ce01151117e5d8a241",
-    "createdAt": "2023-08-31T20:44:46+00:00",
-    "updatedAt": "2023-08-31T21:43:33+00:00"
+    "hash": "5f0eea7066742590ca95fcc677ec0ae9",
+    "createdAt": "2023-10-04T21:40:45+00:00",
+    "updatedAt": "2023-10-04T21:40:45+00:00"
   },
   {
     "id": "qm-banner-android-launch",
@@ -6840,121 +6840,6 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-08-31T21:08:27+00:00"
   },
   {
-    "id": "search-promoted-vket",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "promoted-search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Vket2023S",
-      "search": {
-        "searchQuery": "vket2023s",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "5692d27dcada87ce933315b6cf94b299",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T22:28:19+00:00"
-  },
-  {
-    "id": "search-promoted-slyfest",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "promoted-search",
-      "user-all"
-    ],
-    "data": {
-      "name": "Sly Fest",
-      "search": {
-        "searchQuery": "sly fest slyfest",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "2ae3f16c4a6c1589c779c7c379d73a6f",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T22:13:14+00:00"
-  },
-  {
-    "id": "search-promoted-musicvket",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "promoted-search",
-      "user-all"
-    ],
-    "data": {
-      "name": "MusicVket",
-      "search": {
-        "searchQuery": "musicvket5 jvckenwood",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "0ea2f2b1fc1a9c5adea912d985cd7cb5",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T22:40:24+00:00"
-  },
-  {
-    "id": "search-promoted-horror",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "promoted-search",
-      "user-all"
-    ],
-    "data": {
-      "name": "horror",
-      "search": {
-        "searchQuery": "horror",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "e84b6dbbd29cff0186d377c1d33dcc4f",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
-  },
-  {
-    "id": "search-promoted-draw",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "promoted-search",
-      "user-all"
-    ],
-    "data": {
-      "name": "draw",
-      "search": {
-        "searchQuery": "draw",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "94c5bcaf687484d967526932bfc88a1e",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
-  },
-  {
     "id": "search-vie",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -8269,6 +8154,60 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "392786ffa6d3d81df22f9505e7b349a6",
     "createdAt": "2022-04-07T23:44:28+00:00",
     "updatedAt": "2022-09-08T22:22:35+00:00"
+  },
+  {
+    "id": "update-article-202333",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "help-article",
+      "user-all",
+      "update-article",
+      "help-topic-news",
+      "help-notifications"
+    ],
+    "data": {
+      "name": "VRChat Update - 2023.3.3",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/c2262cb6eeb85ae5c0a628531171fcdbf7276cc93fb4af7885bdcab8a4e69f64.png",
+      "description": "Learn about the latest updates to VRChat!",
+      "article": {
+        "content": [
+          {
+            "text": "<size=140%><b>VRChat 2023.3.3 has been released to all platforms!</b></size><br><br><i>Release - 4 October 2023 - Build 1352</i>"
+          },
+          {
+            "text": "New features:<br><br>- <b>World Preloading!</b> Preload worlds in the menu before joining.<br>- <b>Content Gating Labels!</b> Add content warnings to your content for filtering later on.<br>- <b>Lots more,</b> like automatic language detection, Group Timelines, performance improvements, and more!<br>- Lots of other bug fixes!"
+          },
+          {
+            "text": "Check out the full patchnotes <link=full-patchnotes><color=#7777fc><u>[here]</u></color></link>."
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "full-patchnotes",
+            "name": "Full Patchnotes",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/docs/vrchat-202333"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "id": "full-patchnotes",
+            "name": "Full Patchnotes",
+            "command": "OpenURL",
+            "parameters": [
+              "https://docs.vrchat.com/docs/vrchat-202333"
+            ]
+          }
+        ]
+      }
+    },
+    "hash": "35f0dd6de3e91af49a169b6c230fe55a",
+    "createdAt": "2023-10-04T21:39:35+00:00",
+    "updatedAt": "2023-10-04T21:39:35+00:00"
   },
   {
     "id": "update-article-202332",
@@ -9593,6 +9532,121 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "c90fc12da3b0bd6ad010b7dfabaf8b8c",
     "createdAt": "2020-06-05T08:23:31+00:00",
     "updatedAt": "2023-08-10T20:44:02+00:00"
+  },
+  {
+    "id": "search-promoted-spooky",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1100,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "spooky",
+      "search": {
+        "searchQuery": "spooky",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "b4d04904fa0d04b7ef5d5f20e9b60b9e",
+    "createdAt": "2023-10-04T22:36:07+00:00",
+    "updatedAt": "2023-10-04T22:36:07+00:00"
+  },
+  {
+    "id": "search-promoted-Spookality",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1100,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "Spookality",
+      "search": {
+        "searchQuery": "Spookality",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "390279dd0f4c92ca7a5086a9d9b77023",
+    "createdAt": "2023-10-04T22:36:07+00:00",
+    "updatedAt": "2023-10-04T22:36:07+00:00"
+  },
+  {
+    "id": "search-promoted-liminal",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1100,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "liminal",
+      "search": {
+        "searchQuery": "liminal",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "popularity"
+      }
+    },
+    "hash": "93279078b33600583c226c316ef4ab1c",
+    "createdAt": "2023-10-04T22:36:07+00:00",
+    "updatedAt": "2023-10-04T22:36:07+00:00"
+  },
+  {
+    "id": "search-promoted-horror",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1100,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "horror",
+      "search": {
+        "searchQuery": "horror",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "d3f133542abb09f6f1df82619c12cec1",
+    "createdAt": "2023-08-31T21:08:27+00:00",
+    "updatedAt": "2023-10-04T22:36:07+00:00"
+  },
+  {
+    "id": "search-promoted-Halloween",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1100,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "data": {
+      "name": "Halloween",
+      "search": {
+        "searchQuery": "Halloween",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "3e1d8c78944e04077e4b1724818b668f",
+    "createdAt": "2023-10-04T22:36:07+00:00",
+    "updatedAt": "2023-10-04T22:36:07+00:00"
   },
   {
     "id": "world-random",
