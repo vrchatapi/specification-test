@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/315/data/article/content failed type, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/330/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/351/data/article/content failed type, #/361/data/article/content failed type, #/362/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/292/startDate failed format, #/292/endDate failed format, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/331/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/336/data/article/content failed type, #/352/data/article/content failed type, #/361/data/article/content failed type, #/362/data/article/content failed type.
 ```
 
 ## Request
@@ -6840,6 +6840,31 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-08-31T21:08:27+00:00"
   },
   {
+    "id": "search-promoted-gshock",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "promoted-search",
+      "user-all"
+    ],
+    "startDate": "2023-10-06T01:00:00",
+    "endDate": "2023-10-15T23:00:00",
+    "data": {
+      "name": "Casio G-Shock",
+      "search": {
+        "searchQuery": "CASIO COMPUTER",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "author",
+        "sortBy": "exact"
+      }
+    },
+    "hash": "8f73585dc413551ee88fed5ed36efbe2",
+    "createdAt": "2023-10-03T04:52:31+00:00",
+    "updatedAt": "2023-10-06T05:32:16+00:00"
+  },
+  {
     "id": "search-vie",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -9532,29 +9557,6 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "c90fc12da3b0bd6ad010b7dfabaf8b8c",
     "createdAt": "2020-06-05T08:23:31+00:00",
     "updatedAt": "2023-08-10T20:44:02+00:00"
-  },
-  {
-    "id": "search-promoted-spooky",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1100,
-    "tags": [
-      "promoted-search",
-      "user-all"
-    ],
-    "data": {
-      "name": "spooky",
-      "search": {
-        "searchQuery": "spooky",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "b4d04904fa0d04b7ef5d5f20e9b60b9e",
-    "createdAt": "2023-10-04T22:36:07+00:00",
-    "updatedAt": "2023-10-04T22:36:07+00:00"
   },
   {
     "id": "search-promoted-Spookality",
