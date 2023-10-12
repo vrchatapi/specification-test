@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/292/startDate failed format, #/292/endDate failed format, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/331/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/336/data/article/content failed type, #/352/data/article/content failed type, #/361/data/article/content failed type, #/362/data/article/content failed type.
+Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/291/startDate failed format, #/291/endDate failed format, #/315/data/article/content failed type, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/330/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/351/data/article/content failed type, #/360/data/article/content failed type, #/361/data/article/content failed type.
 ```
 
 ## Request
@@ -549,28 +549,6 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "016faf145759dd98e9a818c9c271f74d",
     "createdAt": "2023-03-30T00:47:59+00:00",
     "updatedAt": "2023-05-04T00:16:25+00:00"
-  },
-  {
-    "id": "qm-banner-release-202333",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 900,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/8e39f50a3b2ca7d27ada1a4c3d11aaf9c0d636172a8a5712da7d5e394251a1bf.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "update-article-202333"
-        ]
-      }
-    },
-    "hash": "5f0eea7066742590ca95fcc677ec0ae9",
-    "createdAt": "2023-10-04T21:40:45+00:00",
-    "updatedAt": "2023-10-04T21:40:45+00:00"
   },
   {
     "id": "qm-banner-android-launch",
