@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/291/startDate failed format, #/291/endDate failed format, #/315/data/article/content failed type, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/330/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/351/data/article/content failed type, #/360/data/article/content failed type, #/361/data/article/content failed type.
+Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/314/data/article/content failed type, #/315/data/article/content failed type, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/329/data/article/content failed type, #/332/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/350/data/article/content failed type, #/359/data/article/content failed type, #/360/data/article/content failed type.
 ```
 
 ## Request
@@ -6816,31 +6816,6 @@ Response schema mismatch: #/14/data/onPressed/command failed enum, #/15/data/onP
     "hash": "60c32d3cff2a900c9a6a68c53a4436ec",
     "createdAt": "2023-08-31T21:08:27+00:00",
     "updatedAt": "2023-08-31T21:08:27+00:00"
-  },
-  {
-    "id": "search-promoted-gshock",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "promoted-search",
-      "user-all"
-    ],
-    "startDate": "2023-10-06T01:00:00",
-    "endDate": "2023-10-15T23:00:00",
-    "data": {
-      "name": "Casio G-Shock",
-      "search": {
-        "searchQuery": "CASIO COMPUTER",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "author",
-        "sortBy": "exact"
-      }
-    },
-    "hash": "8f73585dc413551ee88fed5ed36efbe2",
-    "createdAt": "2023-10-03T04:52:31+00:00",
-    "updatedAt": "2023-10-06T05:32:16+00:00"
   },
   {
     "id": "search-vie",
