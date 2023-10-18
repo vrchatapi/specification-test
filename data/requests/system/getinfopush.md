@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/315/data/article/content failed type, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/330/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/351/data/article/content failed type, #/360/data/article/content failed type, #/361/data/article/content failed type.
+Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/315/data/article/content failed type, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/330/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/351/data/article/content failed type, #/353/data/article/content failed type, #/361/data/article/content failed type, #/362/data/article/content failed type.
 ```
 
 ## Request
@@ -9506,6 +9506,244 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "8e4baf9311fe6d6bf1f67156bf3a8b28",
     "createdAt": "2020-06-05T08:23:32+00:00",
     "updatedAt": "2022-09-22T17:28:10+00:00"
+  },
+  {
+    "id": "help-article-content-warnings",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1070,
+    "tags": [
+      "user-all",
+      "help-article",
+      "help-topic-safety",
+      "help-notifications"
+    ],
+    "data": {
+      "name": "Content Warnings",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/55d14de3d111627a9379994dcfe66dc820278e9a19d89e00cdf7ba1bcdf7299f.png",
+      "description": "Learn about content warnings.",
+      "article": {
+        "sectionLinks": [
+          "link-adding-content-warnings",
+          "link-viewing-content-warnings"
+        ],
+        "content": [
+          {
+            "text": "When you upload an avatar or world to VRChat, you’ll be asked if what you’re uploading fits into or contains any of the following categories: <b>sexually suggestive, adult language and themes, graphic violence, excessive gore, or extreme horror</b>."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "If so, your content must be labeled appropriately, and other players can see these tags."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "id": "link-adding-content-warnings",
+            "title": "Adding Content Warnings"
+          },
+          {
+            "text": "<size=140%><b>Adding Content Warnings</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "You can add warnings to your content when uploading or on the <link=vrchat-home><color=#7777fc><u>VRChat Home</u></color></link>."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "While uploading, you will be asked to tag your content with the appropriate warnings. You can read more about how to add tags when uploading in our <link=avatars-doc><color=#7777fc><u>avatars</u></color></link> or <link=worlds-doc><color=#7777fc><u>worlds</u></color></link> documentation."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "For content you have already uploaded, first go to <link=vrchat-home><color=#7777fc><u>VRChat Home</u></color></link>."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Then, click on <color=#ffff01>My Worlds</color> or <color=#ffff01>Avatars</color>, depending on which content you have uploaded."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Next, click on the avatar or world you would like to add content warnings to. Under Content Warnings, you can add or remove any of the five tags."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/da76739dd3c5b4dd87749ce4acd6771ba9e60b186c033f17f0e027ca4838797d.png"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Details on each warning can be found in our <link=creator-guildlines><color=#7777fc><u>Creator Guidelines</u></color></link>."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Adding content warnings does not permit you to upload content that otherwise violates these guidelines or <link=terms-service><color=#7777fc><u>Terms of Service</u></color></link>."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "id": "link-viewing-content-warnings",
+            "title": "Viewing Content Warnings"
+          },
+          {
+            "text": "<size=140%><b>Viewing Content Warnings</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "First, open your Quick Menu. You can open your <color=#ffff01>Quick Menu</color> by pressing <color=#ff4aff>[Escape]</color>."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "For worlds, click on the <color=#ffff01>Worlds</color> Icon under Quick Links."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/2617576c0b03690ceb29f7e74d5b50bc705fa145d9ba75dadfb32b1dcd2105eb.png"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Click on a world and scroll down to the Content Tags section. Any warnings it has will show here."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/79517c2996b9f00db92842acb5baad58b6e2894f30f62567664d011e761bf385.png"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "For avatars, click on the <color=#ffff01>Avatars</color> under Quick Links."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/6a08ee20dbb2806787eaa1020de5eb0e9bdaf0740bb1c2a7dd3a87b02aa30190.png"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Click on an avatar and then click on <color=#ffff01>View Avatar Details</color>. Scroll down to the Content Tags section. Any warnings it has will show here."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/6de4c27878da5dabc70485a0064a245534f2ad1d76cecc310c4473ac5cdfc68c.png"
+          }
+        ],
+        "embeddedLinkData": [
+          {
+            "id": "vrchat-home",
+            "name": "VRChat Home",
+            "command": "OpenURL",
+            "parameters": [
+              "https://vrchat.com/home"
+            ]
+          },
+          {
+            "id": "avatars-doc",
+            "name": "Avatars Documentation",
+            "command": "OpenURL",
+            "parameters": [
+              "https://creators.vrchat.com/avatars/creating-your-first-avatar"
+            ]
+          },
+          {
+            "id": "worlds-doc",
+            "name": "Worlds Documentation",
+            "command": "OpenURL",
+            "parameters": [
+              "https://creators.vrchat.com/worlds/creating-your-first-world"
+            ]
+          },
+          {
+            "id": "creator-guildlines",
+            "name": "Creator Guidelines",
+            "command": "OpenURL",
+            "parameters": [
+              "https://hello.vrchat.com/creator-guidelines"
+            ]
+          },
+          {
+            "id": "terms-service",
+            "name": "Terms of Service",
+            "command": "OpenURL",
+            "parameters": [
+              "https://hello.vrchat.com/legal"
+            ]
+          }
+        ],
+        "moreInfoLinks": [
+          {
+            "name": "VRChat Home",
+            "command": "OpenURL",
+            "parameters": [
+              "https://vrchat.com/home"
+            ]
+          },
+          {
+            "name": "Avatars Documentation",
+            "command": "OpenURL",
+            "parameters": [
+              "https://creators.vrchat.com/avatars/creating-your-first-avatar"
+            ]
+          },
+          {
+            "name": "Worlds Documentation",
+            "command": "OpenURL",
+            "parameters": [
+              "https://creators.vrchat.com/worlds/creating-your-first-world"
+            ]
+          },
+          {
+            "name": "Creator Guidelines",
+            "command": "OpenURL",
+            "parameters": [
+              "https://hello.vrchat.com/creator-guidelines"
+            ]
+          },
+          {
+            "name": "Terms of Service",
+            "command": "OpenURL",
+            "parameters": [
+              "https://hello.vrchat.com/legal"
+            ]
+          }
+        ]
+      }
+    },
+    "hash": "303c7d7673803ff2b53f25396be3175a",
+    "createdAt": "2023-10-12T23:41:21+00:00",
+    "updatedAt": "2023-10-17T20:53:52+00:00"
   },
   {
     "id": "world-community-labs",
