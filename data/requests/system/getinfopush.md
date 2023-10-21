@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/16/data/onPressed/command failed enum, #/17/data/onPressed/command failed enum, #/18/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/315/data/article/content failed type, #/316/data/article/content failed type, #/317/data/article/content failed type, #/318/data/article/content failed type, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/330/data/article/content failed type, #/333/data/article/content failed type, #/334/data/article/content failed type, #/335/data/article/content failed type, #/351/data/article/content failed type, #/353/data/article/content failed type, #/361/data/article/content failed type, #/362/data/article/content failed type.
+Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/20/data/onPressed/command failed enum, #/21/data/onPressed/command failed enum, #/22/data/onPressed/command failed enum, #/23/data/onPressed/command failed enum, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/326/data/article/content failed type, #/327/data/article/content failed type, #/328/data/article/content failed type, #/336/data/article/content failed type, #/339/data/article/content failed type, #/340/data/article/content failed type, #/341/data/article/content failed type, #/357/data/article/content failed type, #/359/data/article/content failed type, #/367/data/article/content failed type, #/368/data/article/content failed type.
 ```
 
 ## Request
@@ -551,6 +551,130 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "updatedAt": "2023-05-04T00:16:25+00:00"
   },
   {
+    "id": "help-article-vrchat-spookality-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 800,
+    "tags": [
+      "user-all",
+      "help-article",
+      "help-notifications",
+      "help-topic-news"
+    ],
+    "data": {
+      "name": "Spookality 2023",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/0544b82156f60f7e5939b660bca23b08d1f68d62972759b6f9b0889fc73cb747.png",
+      "description": "Visit Spooky",
+      "article": {
+        "sectionLinks": [
+          "link-spookality-worlds",
+          "link-spookality-avatars"
+        ],
+        "content": [
+          {
+            "text": "<size=140%><b>Happy Spookality 2023!</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Congratulations to all the creators who participated in the Jam. Our team of undead judges has selected their favorite submissions to be highlighted in VRChat. <br><br>Here's how you can find all the frightening Avatars and Worlds:"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "id": "link-spookality-worlds",
+            "title": "Spookality Worlds"
+          },
+          {
+            "text": "<size=140%><b>Spookality Worlds:</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Explore these by opening the Worlds page in your menu!"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/7f1e9e95034317dfb2cd205e5b7f30effd245e6cfeb26fc1e23915fd1ec6affa.png"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "We've added two new rows to dial in your desired level of spookiness:<br><br>Scary Worlds (BEWARE! Monsters and jumpscares! Muhahahah) and Halloween Hangouts (Spookality-themed, but more chill if you just want to vibe with your paranormal friends)."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "id": "link-spookality-avatars",
+            "title": "Spookality Avatars"
+          },
+          {
+            "text": "<size=140%><b>Spookality Avatars:</b></size>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Visit the VRChat Home and enter the haunted Theatre! Inside, you'll find all the fantastic Spookality avatars. We even added a photo booth and a mirror! (Yes, it works for vampire avatars, too.)"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/8c2969a3ec14b2ebf9492a119f8f2a3117dd70baa3e130c926c307384f7d9000.png"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "imageUrl": "https://assets.vrchat.com/ips/assets/9475938e4e36d838601f5199325fd5bc623ceff1e47d3b5431184f64c774a46b.png"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Share your favorite pictures and videos with the #spookality2023 tag. Happy Halloween from the VRChat team!</link>"
+          }
+        ]
+      }
+    },
+    "hash": "3824ee3e297434751fb3aed679f11e2b",
+    "createdAt": "2023-10-20T17:34:37+00:00",
+    "updatedAt": "2023-10-20T20:57:36+00:00"
+  },
+  {
+    "id": "qm-spookality-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 890,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/dcb0aa737898ef7802df1308975bb7b708b6d60366239d5ca96cb5225ea1ffa8.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "help-article-vrchat-spookality-2023"
+        ]
+      }
+    },
+    "hash": "e4a4ae26d3f237589b2f82590c1cbb12",
+    "createdAt": "2023-10-20T17:23:26+00:00",
+    "updatedAt": "2023-10-20T20:58:03+00:00"
+  },
+  {
     "id": "qm-banner-release-202333",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -571,6 +695,61 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "5f0eea7066742590ca95fcc677ec0ae9",
     "createdAt": "2023-10-16T20:55:23+00:00",
     "updatedAt": "2023-10-16T20:55:23+00:00"
+  },
+  {
+    "id": "world-spookality-2023-scary",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 900,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "tooltipDescription": "Visit scary worlds made by the community for the Spookality 2023 Jam. You've been warned.",
+      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/f3655cc3303ef7b1591f14328920e385a3cc12354df5bc9ce4dde0e7862569f6.png",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/c1f79d9141adc25924b3c4bdead68542652cf8496e0de14acf33bdc7cc86246c.png",
+      "contentList": {
+        "name": "Spookality - Scary Worlds",
+        "sortHeading": "order",
+        "sortOwnership": "any",
+        "sortOrder": "ascending",
+        "platform": "ThisPlatformSupported",
+        "tag": "spookality_2023_scary",
+        "bannersTag": "world-category-banner-event-spookality-2023-scary"
+      }
+    },
+    "hash": "29aaa18a7ad12e34054af6321a344129",
+    "createdAt": "2023-10-20T17:11:24+00:00",
+    "updatedAt": "2023-10-20T21:48:46+00:00"
+  },
+  {
+    "id": "world-spookality-2023-hangouts",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 900,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": "Spookality - Chill Worlds",
+      "tooltipDescription": "Visit fun Hangout and other Non-Scary worlds made by the community for the Spookality 2023 Jam.",
+      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/6109c7b93b6ad8c09bdd07abc683e036e6107981eb80527cf4d9b7d1d67bc0cf.png",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/c1f79d9141adc25924b3c4bdead68542652cf8496e0de14acf33bdc7cc86246c.png",
+      "contentList": {
+        "name": "Spookality - Chill Worlds",
+        "sortHeading": "order",
+        "sortOwnership": "any",
+        "sortOrder": "ascending",
+        "platform": "ThisPlatformSupported",
+        "tag": "spookality_2023_hangouts",
+        "bannersTag": "world-category-banner-event-spookality-2023-hangouts"
+      }
+    },
+    "hash": "ac5d32105132828b9e692f9c56498028",
+    "createdAt": "2023-10-20T17:11:24+00:00",
+    "updatedAt": "2023-10-20T21:36:50+00:00"
   },
   {
     "id": "qm-banner-android-launch",
@@ -8441,6 +8620,38 @@ Response schema mismatch: #/13/data/onPressed/command failed enum, #/15/data/onP
     "hash": "46b9579244bdc516ebd2c8c6ffb05ed9",
     "createdAt": "2022-11-16T01:04:45+00:00",
     "updatedAt": "2022-12-01T02:53:59+00:00"
+  },
+  {
+    "id": "world-banner---event-spookality-2023-scary",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category-banner-event-spookality-2023-scary",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/e93cff172cdab37b9588b3f85defc196c8e03106578aa8942db4aeb50b53a2cf.png"
+    },
+    "hash": "aaccd126bb07f4ba9155744b95f31350",
+    "createdAt": "2023-10-20T17:11:24+00:00",
+    "updatedAt": "2023-10-20T20:34:05+00:00"
+  },
+  {
+    "id": "world-banner---event-spookality-2023-hangouts",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category-banner-event-spookality-2023-hangouts",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/505a3b7d276ffae236ee960a3ba295498b8f55c18b263c73c670c3ca6bfddf02.png"
+    },
+    "hash": "830aaca8cc4c0ccc18883e7b087e6374",
+    "createdAt": "2023-10-20T17:11:23+00:00",
+    "updatedAt": "2023-10-20T20:34:04+00:00"
   },
   {
     "id": "world-spotlight-mobile-test",
