@@ -715,13 +715,13 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "sortOwnership": "any",
         "sortOrder": "ascending",
         "platform": "ThisPlatformSupported",
-        "tag": "spookality_2023_scary",
+        "tag": "admin_spookality_2023_scary",
         "bannersTag": "world-category-banner-event-spookality-2023-scary"
       }
     },
-    "hash": "29aaa18a7ad12e34054af6321a344129",
+    "hash": "70f2817ccd39092b7d039b333a192637",
     "createdAt": "2023-10-20T17:11:24+00:00",
-    "updatedAt": "2023-10-20T21:48:46+00:00"
+    "updatedAt": "2023-10-21T20:20:30+00:00"
   },
   {
     "id": "world-spookality-2023-hangouts",
@@ -733,23 +733,22 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "user-all"
     ],
     "data": {
-      "name": "Spookality - Chill Worlds",
       "tooltipDescription": "Visit fun Hangout and other Non-Scary worlds made by the community for the Spookality 2023 Jam.",
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/6109c7b93b6ad8c09bdd07abc683e036e6107981eb80527cf4d9b7d1d67bc0cf.png",
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/c1f79d9141adc25924b3c4bdead68542652cf8496e0de14acf33bdc7cc86246c.png",
       "contentList": {
-        "name": "Spookality - Chill Worlds",
+        "name": "Spookality - Hangout Worlds",
         "sortHeading": "order",
         "sortOwnership": "any",
         "sortOrder": "ascending",
         "platform": "ThisPlatformSupported",
-        "tag": "spookality_2023_hangouts",
+        "tag": "admin_spookality_2023_hangouts",
         "bannersTag": "world-category-banner-event-spookality-2023-hangouts"
       }
     },
-    "hash": "ac5d32105132828b9e692f9c56498028",
+    "hash": "92d2f8dcf51547e2ba2c022bfb24fe0e",
     "createdAt": "2023-10-20T17:11:24+00:00",
-    "updatedAt": "2023-10-20T21:36:50+00:00"
+    "updatedAt": "2023-10-21T20:20:30+00:00"
   },
   {
     "id": "qm-banner-android-launch",
