@@ -706,8 +706,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "user-all"
     ],
     "data": {
+      "name": "SPOOKALITY      Scary Worlds",
       "tooltipDescription": "Visit scary worlds made by the community for the Spookality 2023 Jam. You've been warned.",
-      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/f3655cc3303ef7b1591f14328920e385a3cc12354df5bc9ce4dde0e7862569f6.png",
+      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/387b6e34ffe5a96cc25420d849c60ec51f955af046776ea87d1426a286226ff6.png",
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/c1f79d9141adc25924b3c4bdead68542652cf8496e0de14acf33bdc7cc86246c.png",
       "contentList": {
         "name": "Spookality - Scary Worlds",
@@ -719,9 +720,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-event-spookality-2023-scary"
       }
     },
-    "hash": "70f2817ccd39092b7d039b333a192637",
+    "hash": "c1e87bc47027c1ce742d8062ffe71adb",
     "createdAt": "2023-10-20T17:11:24+00:00",
-    "updatedAt": "2023-10-21T20:20:30+00:00"
+    "updatedAt": "2023-10-23T19:37:50+00:00"
   },
   {
     "id": "world-spookality-2023-hangouts",
@@ -733,8 +734,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "user-all"
     ],
     "data": {
+      "name": "SPOOKALITY      Hangout Worlds",
       "tooltipDescription": "Visit fun Hangout and other Non-Scary worlds made by the community for the Spookality 2023 Jam.",
-      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/6109c7b93b6ad8c09bdd07abc683e036e6107981eb80527cf4d9b7d1d67bc0cf.png",
+      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/4bc4289b4e239a627d6ddb643b83b3a8d72dde8accb8bb1705a60fb32d9cef0a.png",
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/c1f79d9141adc25924b3c4bdead68542652cf8496e0de14acf33bdc7cc86246c.png",
       "contentList": {
         "name": "Spookality - Hangout Worlds",
@@ -746,9 +748,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-event-spookality-2023-hangouts"
       }
     },
-    "hash": "92d2f8dcf51547e2ba2c022bfb24fe0e",
+    "hash": "cacdb27ae35059eaddd0d9714fe30785",
     "createdAt": "2023-10-20T17:11:24+00:00",
-    "updatedAt": "2023-10-21T20:20:30+00:00"
+    "updatedAt": "2023-10-23T19:37:50+00:00"
   },
   {
     "id": "qm-banner-android-launch",
@@ -7542,7 +7544,7 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "sortBy": "relevance"
       }
     },
-    "hash": "de3<unstable>964e9597d14e9bcfb3529de",
+    "hash": "de3766458964e9597d14e9bcfb3529de",
     "createdAt": "2023-08-31T21:08:27+00:00",
     "updatedAt": "2023-08-31T21:08:27+00:00"
   },
@@ -8646,11 +8648,11 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "user-all"
     ],
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/505a3b7d276ffae236ee960a3ba295498b8f55c18b263c73c670c3ca6bfddf02.png"
+      "imageUrl": "https://assets.vrchat.com/ips/assets/124fc4622035925e641b39adb8baabf5fe4066734a03861cf8745c5a5839b773.png"
     },
-    "hash": "830aaca8cc4c0ccc18883e7b087e6374",
+    "hash": "6ab345c51d82c883bac039c9d36a734c",
     "createdAt": "2023-10-20T17:11:23+00:00",
-    "updatedAt": "2023-10-20T20:34:04+00:00"
+    "updatedAt": "2023-10-23T19:37:50+00:00"
   },
   {
     "id": "world-spotlight-mobile-test",
