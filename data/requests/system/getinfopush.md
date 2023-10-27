@@ -600,7 +600,7 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
             "text": "<br>"
           },
           {
-            "imageUrl": "https://assets.vrchat.com/ips/assets/7f1e9e95034317dfb2cd205e5b7f30effd245e6cfeb26fc1e23915fd1ec6affa.png"
+            "imageUrl": "https://assets.vrchat.com/ips/assets/2f7bff7d13d71f924b801f3baaf47f7306f2f8f1c131a864dacafbd8e1d29bef.png"
           },
           {
             "text": "<br>"
@@ -648,9 +648,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "3824ee3e297434751fb3aed679f11e2b",
+    "hash": "11d00952d43bebdd43dd906c2e84a1d4",
     "createdAt": "2023-10-20T17:34:37+00:00",
-    "updatedAt": "2023-10-20T20:57:36+00:00"
+    "updatedAt": "2023-10-26T21:17:54+00:00"
   },
   {
     "id": "qm-spookality-2023",
