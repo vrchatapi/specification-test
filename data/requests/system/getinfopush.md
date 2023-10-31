@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPressed/command failed enum, #/15/data/onPressed/command failed enum, #/19/data/onPressed/command failed enum, #/20/data/onPressed/command failed enum, #/21/data/onPressed/command failed enum, #/22/data/onPressed/command failed enum, #/23/data/onPressed/command failed enum, #/319/data/article/content failed type, #/320/data/article/content failed type, #/321/data/article/content failed type, #/322/data/article/content failed type, #/323/data/article/content failed type, #/324/data/article/content failed type, #/325/data/article/content failed type, #/326/data/article/content failed type, #/327/data/article/content failed type, #/328/data/article/content failed type, #/336/data/article/content failed type, #/339/data/article/content failed type, #/340/data/article/content failed type, #/341/data/article/content failed type, #/357/data/article/content failed type, #/359/data/article/content failed type, #/367/data/article/content failed type, #/368/data/article/content failed type.
+Response schema mismatch: #/0/data/description failed type, #/0/data/name failed type, #/0/data/article/content failed type, #/1/data/onPressed/command failed enum, #/2/data/onPressed/command failed enum, #/6/data/onPressed/command failed enum, #/7/data/onPressed/command failed enum, #/8/data/onPressed/command failed enum, #/9/data/onPressed/command failed enum, #/10/data/onPressed/command failed enum, #/31/data/description failed type, #/32/data/description failed type, #/306/data/article/content failed type, #/307/data/article/content failed type, #/308/data/description failed type, #/308/data/name failed type, #/308/data/article/content failed type, #/309/data/description failed type, #/309/data/name failed type, #/309/data/article/content failed type, #/310/data/description failed type, #/310/data/name failed type, #/310/data/article/content failed type, #/311/data/description failed type, #/311/data/name failed type, #/311/data/article/content failed type, #/312/data/description failed type, #/312/data/name failed type, #/312/data/article/content failed type, #/313/data/description failed type, #/313/data/name failed type, #/313/data/article/content failed type, #/314/data/description failed type, #/314/data/name failed type, #/314/data/article/content failed type, #/315/data/description failed type, #/315/data/name failed type, #/315/data/article/content failed type, #/318/data/contentList/name failed type, #/318/data/name failed type, #/320/data/description failed type, #/320/data/name failed type, #/322/data/description failed type, #/322/data/name failed type, #/323/data/description failed type, #/323/data/name failed type, #/323/data/article/content failed type, #/325/data/description failed type, #/325/data/name failed type, #/326/data/description failed type, #/326/data/name failed type, #/326/data/article/content failed type, #/327/data/description failed type, #/327/data/name failed type, #/327/data/article/content failed type, #/328/data/description failed type, #/328/data/name failed type, #/328/data/article/content failed type, #/329/data/description failed type, #/329/data/name failed type, #/330/data/description failed type, #/330/data/name failed type, #/331/data/description failed type, #/331/data/name failed type, #/332/data/contentList/name failed type, #/332/data/name failed type, #/334/data/description failed type, #/334/data/name failed type, #/335/data/contentList/name failed type, #/335/data/name failed type, #/336/data/description failed type, #/336/data/name failed type, #/337/data/contentList/name failed type, #/337/data/name failed type, #/338/data/contentList/name failed type, #/338/data/name failed type, #/339/data/contentList/name failed type, #/339/data/name failed type, #/341/data/contentList/name failed type, #/341/data/name failed type, #/343/data/contentList/name failed type, #/343/data/name failed type, #/344/data/description failed type, #/344/data/name failed type, #/344/data/article/content failed type, #/345/data/contentList/name failed type, #/345/data/name failed type, #/346/data/description failed type, #/346/data/name failed type, #/346/data/article/content failed type, #/347/data/contentList/name failed type, #/347/data/name failed type, #/352/data/contentList/name failed type, #/352/data/name failed type, #/353/data/contentList/name failed type, #/353/data/name failed type, #/354/data/description failed type, #/354/data/name failed type, #/354/data/article/content failed type, #/355/data/description failed type, #/355/data/name failed type, #/355/data/article/content failed type.
 ```
 
 ## Request
@@ -33,528 +33,11 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
 ```json
 [
   {
-    "id": "world-interest-party-time",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 0,
-    "tags": [
-      "world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Party Time",
-        "tooltip": "You'll be sent to a world that's good for partying!",
-        "worldIDs": [
-          "wrld_901fd228-e62c-43f8-8631-8dd830bb7f0c",
-          "wrld_0c3caeaa-7224-4800-aa64-bc473ccb18a2",
-          "wrld_404ac063-83ec-43da-85db-e060a40f7f13",
-          "wrld_9da1349e-470b-47fd-a9b5-bd57d49255e2",
-          "wrld_017a77c0-ac9e-4cb5-a668-ba9ba753466a",
-          "wrld_a931dea6-cccd-420d-b274-4c319811d705",
-          "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
-          "wrld_2902b80d-f4ba-48b8-b325-27227bff7500",
-          "wrld_89217640-a36d-4e76-abd1-c42a0ed785eb",
-          "wrld_c08b6a9f-91eb-499f-9891-4c359a372fde",
-          "wrld_84c9fa78-391b-4f8c-a80b-31d3264867ea"
-        ]
-      }
-    },
-    "hash": "7001e440a117d844cb1ed6e2bcbfbf6b",
-    "createdAt": "2023-04-06T20:29:51+00:00",
-    "updatedAt": "2023-04-22T01:03:06+00:00"
-  },
-  {
-    "id": "quick-select-world-interest",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 0,
-    "tags": [
-      "quick-select-world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Quick Select",
-        "tooltip": "",
-        "worldIDs": [
-          "wrld_901fd228-e62c-43f8-8631-8dd830bb7f0c",
-          "wrld_1b482eca-bede-4de8-88a8-bbb6ca7e24cd",
-          "wrld_858dfdfc-1b48-4e1e-8a43-f0edc611e5fe",
-          "wrld_ff8b4a6e-4268-4783-bc16-3103067a4be6",
-          "wrld_66f15b6d-6cc7-4579-9d5e-eb69047e685f",
-          "wrld_34693736-118a-4a1f-9b4d-95b866ed83a7",
-          "wrld_1735c569-e0d4-4e37-9767-24fe7215bd46",
-          "wrld_0c3caeaa-7224-4800-aa64-bc473ccb18a2",
-          "wrld_1752e426-4b07-45b7-99c2-452c02f5dcbd",
-          "wrld_0ec97c4f-1e84-4a3a-9e3a-fa3075b6c56d",
-          "wrld_46e27ae3-e61d-42e8-b1fe-2a26577eafef",
-          "wrld_b78d83b7-2c51-4a02-b7e5-3889ae4085ad",
-          "wrld_e933926e-debb-4710-9e70-be164359fce4",
-          "wrld_1a642b8e-f2d4-468a-bf29-0cbedc04b876",
-          "wrld_404ac063-83ec-43da-85db-e060a40f7f13",
-          "wrld_2ee4b12c-e3d8-4ff0-aacc-eb0cdef4df73",
-          "wrld_df01edfe-da30-4e6a-a1fb-a0cc534abf06",
-          "wrld_3b0014d7-b82f-4249-bfc4-64f65815c4f3",
-          "wrld_f281f6a5-3c1b-4a4f-b199-a55cd36017c0",
-          "wrld_3dd9347c-bf35-4f2d-9f85-4c337c3a1e14",
-          "wrld_98400948-004d-44b8-9dea-293a3badf70f",
-          "wrld_9da1349e-470b-47fd-a9b5-bd57d49255e2",
-          "wrld_8c422b2d-a819-45a9-b21b-61fbf2dd2e96",
-          "wrld_32402c8f-f897-4ed6-8266-cd22fdce3313",
-          "wrld_98422193-2ddd-4af4-bd97-ab5609a46785",
-          "wrld_2e6867b9-0c78-43ec-8bd5-77aacd751ecd",
-          "wrld_b7acb016-d29f-498b-9d40-0b9a6c38a820",
-          "wrld_fda18709-0f92-4e6c-b995-11e22a159e5a",
-          "wrld_017a77c0-ac9e-4cb5-a668-ba9ba753466a",
-          "wrld_a6903d1c-7969-4833-8c3c-7cb0744302ec",
-          "wrld_b2c574c6-9a6e-4bcc-b74e-1284070c324f",
-          "wrld_baec7040-f9ac-4d66-9e58-3bc9d1f0256a",
-          "wrld_1453ae28-b9c5-489b-a124-337d09be1705",
-          "wrld_8624eb40-2f9b-4415-a70d-3d2e9567b623",
-          "wrld_62accd68-2e80-4c1d-8313-06c832086ef8",
-          "wrld_a931dea6-cccd-420d-b274-4c319811d705",
-          "wrld_e80d7c90-14bf-423a-9cff-7ec257ff1dc2",
-          "wrld_14750dd6-26a1-4edb-ae67-cac5bcd9ed6a",
-          "wrld_080a6971-54d6-49f2-b09e-a000893c8444",
-          "wrld_52d5dd9e-3b33-4cf2-a41b-cfd1a71640c8",
-          "wrld_dfbecb47-7f43-4dbd-8192-3bb007748c46",
-          "wrld_41994ad5-878c-4073-bf29-854df06e14cf",
-          "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
-          "wrld_faaa0b96-2934-4bd2-bb60-8508edc96b4b",
-          "wrld_9876e234-6dcf-444e-b9e9-d505b6d27189",
-          "wrld_d010695a-3e7c-43a1-ac38-d80f3ffeab17",
-          "wrld_236bb7cd-dca2-44a2-9542-3b965e15d37d",
-          "wrld_2a2cd8a5-1f90-4279-9555-71ac473e3e5f",
-          "wrld_082b683b-1d93-4f2e-a482-0889bb7ec79a",
-          "wrld_2902b80d-f4ba-48b8-b325-27227bff7500",
-          "wrld_a451a949-7d98-4e6a-a467-085f07979eec",
-          "wrld_df2776a3-8c84-45e3-bbf1-30ac8422911b",
-          "wrld_cae35e0f-1544-4209-82b9-85f349010c74",
-          "wrld_02450116-8967-4d0a-87a0-86765515fcce",
-          "wrld_cc437da0-e410-4547-9936-62859dee66bd",
-          "wrld_2a1d857f-3bbb-4642-b8cb-fd13d696cc18",
-          "wrld_89217640-a36d-4e76-abd1-c42a0ed785eb",
-          "wrld_5506c96f-99b2-462a-98b9-ab7586d7f9fa",
-          "wrld_16248871-a374-4819-a284-555ddfc33380",
-          "wrld_c6b6c1fa-ed05-46eb-a148-38655c64b8e4",
-          "wrld_5f358876-6be8-48e2-9a58-1d9ae3aea1b2",
-          "wrld_5e3bce49-d399-4541-868b-7cf40c294705",
-          "wrld_c08b6a9f-91eb-499f-9891-4c359a372fde",
-          "wrld_ee4dd872-ca55-44e1-900f-a2b7b875aeb0",
-          "wrld_107869ee-ee7e-4332-aed2-9d0fd5bc5f31",
-          "wrld_f60cbe28-18d6-42cd-a53c-56d53936f437",
-          "wrld_44c322af-9ea9-4879-a32a-a28c42ce26e4",
-          "wrld_b93a7dff-cc5a-480c-a679-5ad0f0db1c02",
-          "wrld_84c9fa78-391b-4f8c-a80b-31d3264867ea",
-          "wrld_1fe147e9-c3e4-4606-b8f4-fa0a07298fb6",
-          "wrld_e0434a34-2f64-4e89-99da-8e3b4a86ffe4",
-          "wrld_d3e5abc3-2464-4e2f-b3df-d8f1758bf74e",
-          "wrld_bcfd94c8-3d69-4d9b-b610-282c6d8a5b3d",
-          "wrld_6e65c9b1-3f5f-4e8f-80db-d360f996a144",
-          "wrld_c183ed0c-87d3-4124-97ba-4898df5d3daf",
-          "wrld_1f93cb3e-63bd-41a1-a290-f8092e02ce06",
-          "wrld_3dcabc45-b66b-4d38-abaa-d2922ca4d678",
-          "wrld_d76a09c0-8637-4fa2-9b68-6c2aa7a1c821",
-          "wrld_4a48a5c1-fae9-416c-98ad-ec410687224d",
-          "wrld_e20cefd7-e181-4519-9878-5dbcfbea1bf5",
-          "wrld_7d2af18c-e4a1-4084-9cd2-b27432b45980",
-          "wrld_a8912308-d979-407e-b744-4a6a760ff86e",
-          "wrld_c349f354-a368-4282-969a-4b179038217b",
-          "wrld_aaa5df94-3b62-4463-814f-f269ea8ac7b1",
-          "wrld_8624eb40-2f9b-4415-a70d-3d2e9567b623",
-          "wrld_cacfe6b1-b2c1-40d0-8566-8edd4d96e9fd",
-          "wrld_9a51b365-d6cc-42e6-901a-54ceb46b94ef",
-          "wrld_37326793-88aa-4587-b58b-07073df8839a",
-          "wrld_ecc3e12e-9e41-4cc1-8fb8-d5873b06d265",
-          "wrld_066616c9-1eb6-4931-9cf5-14ca5eba4be7",
-          "wrld_70353369-ba69-46ab-a20b-f6112c82adba",
-          "wrld_d0a68029-96da-4e9f-aa0a-e4f8c6f5d6d9",
-          "wrld_07681f2b-14ba-4c75-8848-b0578f624808",
-          "wrld_78e661b9-05ec-4d43-9dcf-b06efc1237ec",
-          "wrld_c670c420-f57c-4fbb-b73d-33b6c0d0f9f9",
-          "wrld_7350dbf7-f3e8-4482-9e41-e38ace9e3a8d",
-          "wrld_0679be89-ab9d-46c3-b5f5-b7ed05a78022",
-          "wrld_7281543e-6888-4676-896a-fdd090552fc4",
-          "wrld_512a9733-a537-4e40-bab9-3294b13d1905",
-          "wrld_a3e0ec54-2fc2-49ba-8e32-d0ca9d6bbaa2",
-          "wrld_fc7d0eb9-ec47-41db-b429-6af912e78fe1",
-          "wrld_e46a4a29-b066-4df0-a33c-b0a96722acdf",
-          "wrld_dcf23267-4176-407b-a365-df8f52cbb8f4",
-          "wrld_b0ab0a61-4c04-4bcf-b0dd-1294e9391c5a"
-        ]
-      }
-    },
-    "hash": "9aaf068efc7906b16b49b64fd8c86499",
-    "createdAt": "2023-03-30T00:47:59+00:00",
-    "updatedAt": "2023-04-22T01:03:06+00:00"
-  },
-  {
-    "id": "avatar-world-interest-toon",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 0,
-    "tags": [
-      "avatar-world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Toon",
-        "tooltip": "You'll be sent to a world with toon avatars",
-        "worldIDs": [
-          "wrld_3616e1d5-cc5e-4dd4-9bf2-7a8b7f621e4b",
-          "wrld_39d5d7b5-2c3f-4916-97ae-11013554b879",
-          "wrld_c686db74-1b6c-430a-ac57-7fa344993435",
-          "wrld_9f916a71-4b8d-48eb-8d7a-932036df78b9",
-          "wrld_2282ebd9-cc9b-4aff-9bb1-8afb874d79b0",
-          "wrld_5bd54be1-20ae-40c0-8a7e-eb0b5ab31296",
-          "wrld_cffb76ed-d431-4bf0-a550-383af6d4d93a",
-          "wrld_eba73351-841d-4673-b3b8-07952d608d5e",
-          "wrld_d46772ca-a662-4364-a3bd-b0956039f024",
-          "wrld_578346fb-e4cf-49af-90dd-4f1472e69c56",
-          "wrld_6db30614-0dc5-48a0-b2d3-e31735688cf3",
-          "wrld_4bc2fcb1-4d60-45cf-868c-ea5c2dd863b8"
-        ]
-      }
-    },
-    "hash": "e4755a7b05cf9a17b967f9add02b488a",
-    "createdAt": "2023-04-06T21:17:32+00:00",
-    "updatedAt": "2023-05-04T00:16:25+00:00"
-  },
-  {
-    "id": "world-interest-quiet-chill",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1,
-    "tags": [
-      "world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Quiet Chill",
-        "tooltip": "You'll be sent to a cozy, quiet place.",
-        "worldIDs": [
-          "wrld_1b482eca-bede-4de8-88a8-bbb6ca7e24cd",
-          "wrld_1752e426-4b07-45b7-99c2-452c02f5dcbd",
-          "wrld_2ee4b12c-e3d8-4ff0-aacc-eb0cdef4df73",
-          "wrld_8c422b2d-a819-45a9-b21b-61fbf2dd2e96",
-          "wrld_a6903d1c-7969-4833-8c3c-7cb0744302ec",
-          "wrld_e80d7c90-14bf-423a-9cff-7ec257ff1dc2",
-          "wrld_faaa0b96-2934-4bd2-bb60-8508edc96b4b",
-          "wrld_a451a949-7d98-4e6a-a467-085f07979eec",
-          "wrld_5506c96f-99b2-462a-98b9-ab7586d7f9fa",
-          "wrld_ee4dd872-ca55-44e1-900f-a2b7b875aeb0",
-          "wrld_1fe147e9-c3e4-4606-b8f4-fa0a07298fb6"
-        ]
-      }
-    },
-    "hash": "f0ecf6dba89265e1a6c1b18f183257eb",
-    "createdAt": "2023-04-06T20:29:51+00:00",
-    "updatedAt": "2023-04-22T01:03:06+00:00"
-  },
-  {
-    "id": "avatar-world-interest-animal",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1,
-    "tags": [
-      "avatar-world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Animal & Furry",
-        "tooltip": "You'll be sent to a world with furry avatars",
-        "worldIDs": [
-          "wrld_29c8fcc3-77ec-409d-9c06-01ee1ce6ca58",
-          "wrld_d6214089-ec72-41e3-9db8-d16bf4d151c4",
-          "wrld_5f3c9e80-c2c9-4e5a-b460-91c1bd1f1836",
-          "wrld_6db30614-0dc5-48a0-b2d3-e31735688cf3",
-          "wrld_2c76b985-b879-47b7-92e2-90f46a90c0f7",
-          "wrld_8e06c2d9-7591-4620-ba82-033fcbbe110d",
-          "wrld_54b8fa52-3c03-4604-8253-d9fb94c65543"
-        ]
-      }
-    },
-    "hash": "fb53505fceab7b992c27ef50d47b9c8f",
-    "createdAt": "2023-03-30T00:47:59+00:00",
-    "updatedAt": "2023-05-04T00:16:25+00:00"
-  },
-  {
-    "id": "world-interest-group-games",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 2,
-    "tags": [
-      "world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Group Games",
-        "tooltip": "You'll be sent to a game world!",
-        "worldIDs": [
-          "wrld_858dfdfc-1b48-4e1e-8a43-f0edc611e5fe",
-          "wrld_0ec97c4f-1e84-4a3a-9e3a-fa3075b6c56d",
-          "wrld_df01edfe-da30-4e6a-a1fb-a0cc534abf06",
-          "wrld_32402c8f-f897-4ed6-8266-cd22fdce3313",
-          "wrld_b2c574c6-9a6e-4bcc-b74e-1284070c324f",
-          "wrld_14750dd6-26a1-4edb-ae67-cac5bcd9ed6a",
-          "wrld_9876e234-6dcf-444e-b9e9-d505b6d27189",
-          "wrld_df2776a3-8c84-45e3-bbf1-30ac8422911b",
-          "wrld_16248871-a374-4819-a284-555ddfc33380",
-          "wrld_107869ee-ee7e-4332-aed2-9d0fd5bc5f31",
-          "wrld_e0434a34-2f64-4e89-99da-8e3b4a86ffe4",
-          "wrld_c183ed0c-87d3-4124-97ba-4898df5d3daf",
-          "wrld_4a48a5c1-fae9-416c-98ad-ec410687224d",
-          "wrld_c349f354-a368-4282-969a-4b179038217b",
-          "wrld_9a51b365-d6cc-42e6-901a-54ceb46b94ef",
-          "wrld_70353369-ba69-46ab-a20b-f6112c82adba",
-          "wrld_99bdc4c6-b80c-49f3-aae0-5d67017d8340",
-          "wrld_7350dbf7-f3e8-4482-9e41-e38ace9e3a8d"
-        ]
-      }
-    },
-    "hash": "d133a5fceaa6831a88676a519408534b",
-    "createdAt": "2023-04-06T20:29:51+00:00",
-    "updatedAt": "2023-04-22T01:03:06+00:00"
-  },
-  {
-    "id": "avatar-world-interest-human",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 2,
-    "tags": [
-      "avatar-world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Human & Anime",
-        "tooltip": "You'll be sent to a world with anime avatars",
-        "worldIDs": [
-          "wrld_12ca024e-3ae8-4966-bf2f-c0621f622568",
-          "wrld_177ff2cd-3e75-47ea-90a7-dc2ff4c42f6f",
-          "wrld_84f27a7c-9642-4525-9684-42b793c59434",
-          "wrld_ae6218bb-41e3-4ea9-b14d-41267ec03284",
-          "wrld_4dadd71d-ae2b-4d6a-9f02-647d0cf59bf7",
-          "wrld_a8cbf00c-f2d9-43a6-b257-675be512a02d",
-          "wrld_63b2e82b-d1f1-4298-816b-968d4421b64c",
-          "wrld_5cf235f6-1342-4fce-b838-23850648e275",
-          "wrld_a86a30e8-9335-4110-83c0-ad8f3c1582a3"
-        ]
-      }
-    },
-    "hash": "54108a40b9da325a4c9e794be72ac37e",
-    "createdAt": "2023-03-30T00:47:59+00:00",
-    "updatedAt": "2023-05-04T00:16:25+00:00"
-  },
-  {
-    "id": "world-interest-action",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 3,
-    "tags": [
-      "world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Action",
-        "tooltip": "You'll be sent to an action game world!",
-        "worldIDs": [
-          "wrld_ff8b4a6e-4268-4783-bc16-3103067a4be6",
-          "wrld_46e27ae3-e61d-42e8-b1fe-2a26577eafef",
-          "wrld_3b0014d7-b82f-4249-bfc4-64f65815c4f3",
-          "wrld_98422193-2ddd-4af4-bd97-ab5609a46785",
-          "wrld_baec7040-f9ac-4d66-9e58-3bc9d1f0256a",
-          "wrld_080a6971-54d6-49f2-b09e-a000893c8444",
-          "wrld_d010695a-3e7c-43a1-ac38-d80f3ffeab17",
-          "wrld_cae35e0f-1544-4209-82b9-85f349010c74",
-          "wrld_c6b6c1fa-ed05-46eb-a148-38655c64b8e4",
-          "wrld_f60cbe28-18d6-42cd-a53c-56d53936f437",
-          "wrld_d3e5abc3-2464-4e2f-b3df-d8f1758bf74e",
-          "wrld_1f93cb3e-63bd-41a1-a290-f8092e02ce06",
-          "wrld_e20cefd7-e181-4519-9878-5dbcfbea1bf5",
-          "wrld_aaa5df94-3b62-4463-814f-f269ea8ac7b1",
-          "wrld_37326793-88aa-4587-b58b-07073df8839a",
-          "wrld_d0a68029-96da-4e9f-aa0a-e4f8c6f5d6d9",
-          "wrld_78e661b9-05ec-4d43-9dcf-b06efc1237ec",
-          "wrld_0679be89-ab9d-46c3-b5f5-b7ed05a78022",
-          "wrld_512a9733-a537-4e40-bab9-3294b13d1905",
-          "wrld_fc7d0eb9-ec47-41db-b429-6af912e78fe1"
-        ]
-      }
-    },
-    "hash": "83a20d588659fbc8271fcb6275f12bee",
-    "createdAt": "2023-04-06T20:29:51+00:00",
-    "updatedAt": "2023-04-22T01:03:06+00:00"
-  },
-  {
-    "id": "avatar-world-interest-robot",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 3,
-    "tags": [
-      "avatar-world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Robot",
-        "tooltip": "You'll be sent to a world with robot avatars",
-        "worldIDs": [
-          "wrld_cffb76ed-d431-4bf0-a550-383af6d4d93a",
-          "wrld_d46772ca-a662-4364-a3bd-b0956039f024",
-          "wrld_c686db74-1b6c-430a-ac57-7fa344993435",
-          "wrld_d6214089-ec72-41e3-9db8-d16bf4d151c4"
-        ]
-      }
-    },
-    "hash": "59910d2ef8fa6b072479d13b7a8ef87f",
-    "createdAt": "2023-04-06T21:17:32+00:00",
-    "updatedAt": "2023-05-04T00:16:25+00:00"
-  },
-  {
-    "id": "world-interest-music-and-dance",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 4,
-    "tags": [
-      "world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Music & Dance",
-        "tooltip": "You'll be sent somewhere that's good for music and dancing!",
-        "worldIDs": [
-          "wrld_66f15b6d-6cc7-4579-9d5e-eb69047e685f",
-          "wrld_b78d83b7-2c51-4a02-b7e5-3889ae4085ad",
-          "wrld_f281f6a5-3c1b-4a4f-b199-a55cd36017c0",
-          "wrld_2e6867b9-0c78-43ec-8bd5-77aacd751ecd",
-          "wrld_1453ae28-b9c5-489b-a124-337d09be1705",
-          "wrld_52d5dd9e-3b33-4cf2-a41b-cfd1a71640c8",
-          "wrld_236bb7cd-dca2-44a2-9542-3b965e15d37d",
-          "wrld_02450116-8967-4d0a-87a0-86765515fcce",
-          "wrld_5f358876-6be8-48e2-9a58-1d9ae3aea1b2",
-          "wrld_44c322af-9ea9-4879-a32a-a28c42ce26e4",
-          "wrld_bcfd94c8-3d69-4d9b-b610-282c6d8a5b3d",
-          "wrld_3dcabc45-b66b-4d38-abaa-d2922ca4d678",
-          "wrld_7d2af18c-e4a1-4084-9cd2-b27432b45980",
-          "wrld_8624eb40-2f9b-4415-a70d-3d2e9567b623",
-          "wrld_ecc3e12e-9e41-4cc1-8fb8-d5873b06d265"
-        ]
-      }
-    },
-    "hash": "2414d9efa3c9d5ca5e83e79520dbdd92",
-    "createdAt": "2023-04-06T20:29:51+00:00",
-    "updatedAt": "2023-04-22T01:03:06+00:00"
-  },
-  {
-    "id": "avatar-world-interest-meme",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 4,
-    "tags": [
-      "avatar-world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Meme",
-        "tooltip": "You'll be sent to a world with meme avatars",
-        "worldIDs": [
-          "wrld_39d5d7b5-2c3f-4916-97ae-11013554b879",
-          "wrld_c686db74-1b6c-430a-ac57-7fa344993435",
-          "wrld_2282ebd9-cc9b-4aff-9bb1-8afb874d79b0",
-          "wrld_5bd54be1-20ae-40c0-8a7e-eb0b5ab31296",
-          "wrld_eba73351-841d-4673-b3b8-07952d608d5e",
-          "wrld_578346fb-e4cf-49af-90dd-4f1472e69c56",
-          "wrld_1d270307-7252-4117-9d97-50ff58ce7cb8",
-          "wrld_4bc2fcb1-4d60-45cf-868c-ea5c2dd863b8"
-        ]
-      }
-    },
-    "hash": "dc606eeb3f55d66da874872f017bb095",
-    "createdAt": "2023-03-30T00:47:59+00:00",
-    "updatedAt": "2023-05-04T00:16:25+00:00"
-  },
-  {
-    "id": "world-interest-explore-and-play",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 5,
-    "tags": [
-      "world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Explore & Play",
-        "tooltip": "You'll be sent to an expansive place meant to be explored!",
-        "worldIDs": [
-          "wrld_34693736-118a-4a1f-9b4d-95b866ed83a7",
-          "wrld_e933926e-debb-4710-9e70-be164359fce4",
-          "wrld_3dd9347c-bf35-4f2d-9f85-4c337c3a1e14",
-          "wrld_b7acb016-d29f-498b-9d40-0b9a6c38a820",
-          "wrld_8624eb40-2f9b-4415-a70d-3d2e9567b623",
-          "wrld_dfbecb47-7f43-4dbd-8192-3bb007748c46",
-          "wrld_2a2cd8a5-1f90-4279-9555-71ac473e3e5f",
-          "wrld_cc437da0-e410-4547-9936-62859dee66bd",
-          "wrld_5e3bce49-d399-4541-868b-7cf40c294705",
-          "wrld_b93a7dff-cc5a-480c-a679-5ad0f0db1c02",
-          "wrld_6e65c9b1-3f5f-4e8f-80db-d360f996a144",
-          "wrld_d76a09c0-8637-4fa2-9b68-6c2aa7a1c821",
-          "wrld_a8912308-d979-407e-b744-4a6a760ff86e",
-          "wrld_cacfe6b1-b2c1-40d0-8566-8edd4d96e9fd",
-          "wrld_066616c9-1eb6-4931-9cf5-14ca5eba4be7",
-          "wrld_07681f2b-14ba-4c75-8848-b0578f624808",
-          "wrld_c670c420-f57c-4fbb-b73d-33b6c0d0f9f9",
-          "wrld_7281543e-6888-4676-896a-fdd090552fc4",
-          "wrld_a3e0ec54-2fc2-49ba-8e32-d0ca9d6bbaa2",
-          "wrld_e46a4a29-b066-4df0-a33c-b0a96722acdf",
-          "wrld_dcf23267-4176-407b-a365-df8f52cbb8f4",
-          "wrld_b0ab0a61-4c04-4bcf-b0dd-1294e9391c5a"
-        ]
-      }
-    },
-    "hash": "6ad8975e73333b228b6277966444f153",
-    "createdAt": "2023-04-06T20:29:51+00:00",
-    "updatedAt": "2023-04-22T01:03:06+00:00"
-  },
-  {
-    "id": "avatar-world-interest-monster",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 5,
-    "tags": [
-      "avatar-world-interest-group",
-      "user-all"
-    ],
-    "data": {
-      "worldInterestGroup": {
-        "name": "Monsters & Slimes",
-        "tooltip": "You'll be sent to a world with Monsters, Slimes, and Alien avatars",
-        "worldIDs": [
-          "wrld_3616e1d5-cc5e-4dd4-9bf2-7a8b7f621e4b",
-          "wrld_57e47cd8-5b06-4384-a6ff-f9f8ed251d5c",
-          "wrld_c686db74-1b6c-430a-ac57-7fa344993435",
-          "wrld_2282ebd9-cc9b-4aff-9bb1-8afb874d79b0"
-        ]
-      }
-    },
-    "hash": "016faf145759dd98e9a818c9c271f74d",
-    "createdAt": "2023-03-30T00:47:59+00:00",
-    "updatedAt": "2023-05-04T00:16:25+00:00"
-  },
-  {
     "id": "help-article-vrchat-spookality-2023",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 800,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -562,9 +45,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-topic-news"
     ],
     "data": {
-      "name": "Spookality 2023",
+      "name": {
+        "key": "help-article-vrchat-spookality-2023.name.Spookality-2023",
+        "fallback": "Spookality 2023"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/0544b82156f60f7e5939b660bca23b08d1f68d62972759b6f9b0889fc73cb747.png",
-      "description": "Visit Spooky",
+      "description": {
+        "key": "Tooltips/Visit-Spooky",
+        "fallback": "Visit Spooky"
+      },
       "article": {
         "sectionLinks": [
           "link-spookality-worlds",
@@ -648,9 +137,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "11d00952d43bebdd43dd906c2e84a1d4",
+    "hash": "0eb7f1b82bfdf6087f11ff69f50760a2",
     "createdAt": "2023-10-20T17:34:37+00:00",
-    "updatedAt": "2023-10-26T21:17:54+00:00"
+    "updatedAt": "2023-10-30T23:54:35+00:00"
   },
   {
     "id": "qm-spookality-2023",
@@ -1230,6 +719,7 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "vrc-subscription-page",
       "yearly-subscription",
@@ -1240,18 +730,25 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     ],
     "data": {
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/4edb5ea6d547986af07a7855972106959b13c271e09965ffbc1de0d4f84eb4f6.png",
-      "tooltipDescription": "Purchase a yearly VRC+ subscription now and get 3 additional months free!",
-      "description": "Special Holiday Bonus: Get Free Time!"
+      "tooltipDescription": {
+        "key": "Tooltips/Purchase-a-yearly-VRC+-subscription-now-and-get-3-additional-months-free!",
+        "fallback": "Purchase a yearly VRC+ subscription now and get 3 additional months free!"
+      },
+      "description": {
+        "key": "yearly-steam-subscription-offer.description.Special-Holiday-Bonus:-Get-Free-Time!",
+        "fallback": "Special Holiday Bonus: Get Free Time!"
+      }
     },
-    "hash": "fae152a0942dc7ae6bff362f16eebcc2",
+    "hash": "5c0e519f70d88a70749c34c8b958e9e0",
     "createdAt": "2022-11-14T20:01:56+00:00",
-    "updatedAt": "2022-12-15T00:29:04+00:00"
+    "updatedAt": "2023-10-30T23:56:01+00:00"
   },
   {
     "id": "monthly-steam-subscription-offer",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "vrc-subscription-page",
       "monthly-subscription",
@@ -1262,12 +759,18 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     ],
     "data": {
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/6ebcbf030bd90d26a89fbc74b70160c7662df05f5a3378a00bfbdf3062aa6340.png",
-      "tooltipDescription": "Purchase a monthly VRC+ subscription now and get 1 additional month free!",
-      "description": "Special Holiday Bonus: Get Free Time!"
+      "tooltipDescription": {
+        "key": "Tooltips/Purchase-a-monthly-VRC+-subscription-now-and-get-1-additional-month-free!",
+        "fallback": "Purchase a monthly VRC+ subscription now and get 1 additional month free!"
+      },
+      "description": {
+        "key": "monthly-steam-subscription-offer.description.Special-Holiday-Bonus:-Get-Free-Time!",
+        "fallback": "Special Holiday Bonus: Get Free Time!"
+      }
     },
-    "hash": "edaa925c0a7bc2d73e774143467112b9",
+    "hash": "4ff9c438419d0f840dbdfb03cd301122",
     "createdAt": "2022-11-14T20:01:56+00:00",
-    "updatedAt": "2022-12-15T00:29:04+00:00"
+    "updatedAt": "2023-10-30T23:56:01+00:00"
   },
   {
     "id": "search-zoo",
@@ -7745,6 +7248,7 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -7755,9 +7259,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "platform-pc-desktop"
     ],
     "data": {
-      "name": "What is VRChat Plus?",
+      "name": {
+        "key": "help-article-what-vrcp.name.What-is-VRChat-Plus?",
+        "fallback": "What is VRChat Plus?"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/0817e6d481206f80c7257b0afcce74cc4a10e70e6cd23f3638115cd7f8da5689.png",
-      "description": "Learn about what you get for subscribing to VRChat Plus.",
+      "description": {
+        "key": "Tooltips/Learn-about-what-you-get-for-subscribing-to-VRChat-Plus.",
+        "fallback": "Learn about what you get for subscribing to VRChat Plus."
+      },
       "article": {
         "content": [
           {
@@ -7832,15 +7342,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "9fb90988b7a0d432eb36d0027b8bed3d",
+    "hash": "cabddd75ea2a955d972a4d5dc49b31bd",
     "createdAt": "2022-10-05T23:19:38+00:00",
-    "updatedAt": "2023-03-22T19:55:17+00:00"
+    "updatedAt": "2023-10-30T23:55:35+00:00"
   },
   {
     "id": "help-article-gift-vrcp-quest",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -7851,9 +7362,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "platform-oculus-quest"
     ],
     "data": {
-      "name": "How to Gift Someone VRC+",
+      "name": {
+        "key": "help-article-gift-vrcp.name.How-to-Gift-Someone-VRC+",
+        "fallback": "How to Gift Someone VRC+"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/6b10e0493d6d4148b171fc5ed93f02d11c314b1be3aa3449f110787a4fe56d23.png",
-      "description": "Give someone the gift of VRC Plus!",
+      "description": {
+        "key": "Tooltips/Give-someone-the-gift-of-VRC-Plus!",
+        "fallback": "Give someone the gift of VRC Plus!"
+      },
       "article": {
         "sectionLinks": [
           "link-gifting-vrchat",
@@ -7978,15 +7495,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "8ad5b6dc0d2ec1415e74eb4cf5e7f587",
+    "hash": "cc557081cac1cd2f397ed098ddf832e4",
     "createdAt": "2022-10-07T18:19:31+00:00",
-    "updatedAt": "2023-09-22T18:01:57+00:00"
+    "updatedAt": "2023-10-30T23:55:35+00:00"
   },
   {
     "id": "help-article-gift-vrcp-pcvr",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -7997,9 +7515,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "platform-pc-vr"
     ],
     "data": {
-      "name": "How to Gift Someone VRC+",
+      "name": {
+        "key": "help-article-gift-vrcp.name.How-to-Gift-Someone-VRC+",
+        "fallback": "How to Gift Someone VRC+"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/6b10e0493d6d4148b171fc5ed93f02d11c314b1be3aa3449f110787a4fe56d23.png",
-      "description": "Give someone the gift of VRC Plus!",
+      "description": {
+        "key": "Tooltips/Give-someone-the-gift-of-VRC-Plus!",
+        "fallback": "Give someone the gift of VRC Plus!"
+      },
       "article": {
         "sectionLinks": [
           "link-gifting-vrchat",
@@ -8124,15 +7648,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "11687f14cb4f673376ff846e605349ab",
+    "hash": "e3820be1c1915f58980b77ae05b2a89a",
     "createdAt": "2022-10-07T18:19:29+00:00",
-    "updatedAt": "2023-09-22T18:01:54+00:00"
+    "updatedAt": "2023-10-30T23:55:32+00:00"
   },
   {
     "id": "help-article-gift-vrcp-desktop",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -8143,9 +7668,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "platform-pc-desktop"
     ],
     "data": {
-      "name": "How to Gift Someone VRC+",
+      "name": {
+        "key": "help-article-gift-vrcp.name.How-to-Gift-Someone-VRC+",
+        "fallback": "How to Gift Someone VRC+"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/6b10e0493d6d4148b171fc5ed93f02d11c314b1be3aa3449f110787a4fe56d23.png",
-      "description": "Give someone the gift of VRC Plus!",
+      "description": {
+        "key": "Tooltips/Give-someone-the-gift-of-VRC-Plus!",
+        "fallback": "Give someone the gift of VRC Plus!"
+      },
       "article": {
         "sectionLinks": [
           "link-gifting-vrchat",
@@ -8270,15 +7801,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "739e00111f21323efc99e8a9cd628836",
+    "hash": "f6e54912bb9fecdd38297c3a7e3b1f57",
     "createdAt": "2022-10-07T18:19:28+00:00",
-    "updatedAt": "2023-09-22T18:01:50+00:00"
+    "updatedAt": "2023-10-30T23:55:30+00:00"
   },
   {
     "id": "help-article-contact-support",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "help-article",
       "user-all",
@@ -8286,9 +7818,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "Contact Support",
+      "name": {
+        "key": "help-article-contact-support.name.Contact-Support",
+        "fallback": "Contact Support"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/27c342696745579915f90655975eab3ec3fdae8a5d16647d12b10f543a794a81.png",
-      "description": "Information on how to contact VRChat support.",
+      "description": {
+        "key": "Tooltips/Information-on-how-to-contact-VRChat-support.",
+        "fallback": "Information on how to contact VRChat support."
+      },
       "article": {
         "content": [
           {
@@ -8331,15 +7869,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "392786ffa6d3d81df22f9505e7b349a6",
+    "hash": "c093060497caa386542c3bf8a145b28a",
     "createdAt": "2022-04-07T23:44:28+00:00",
-    "updatedAt": "2022-09-08T22:22:35+00:00"
+    "updatedAt": "2023-10-30T23:55:26+00:00"
   },
   {
     "id": "update-article-202333",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "help-article",
       "user-all",
@@ -8348,9 +7887,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "VRChat Update - 2023.3.3",
+      "name": {
+        "key": "update-article-202333.name.VRChat-Update-2023.3.3",
+        "fallback": "VRChat Update - 2023.3.3"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/c2262cb6eeb85ae5c0a628531171fcdbf7276cc93fb4af7885bdcab8a4e69f64.png",
-      "description": "Learn about the latest updates to VRChat!",
+      "description": {
+        "key": "Tooltips/Learn-about-the-latest-updates-to-VRChat!",
+        "fallback": "Learn about the latest updates to VRChat!"
+      },
       "article": {
         "content": [
           {
@@ -8385,15 +7930,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "35f0dd6de3e91af49a169b6c230fe55a",
+    "hash": "93992682eb5029ab064b14ae9b670a15",
     "createdAt": "2023-10-04T21:39:35+00:00",
-    "updatedAt": "2023-10-04T21:39:35+00:00"
+    "updatedAt": "2023-10-30T23:54:48+00:00"
   },
   {
     "id": "update-article-202332",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "help-article",
       "user-all",
@@ -8402,9 +7948,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "VRChat Update - 2023.3.2",
+      "name": {
+        "key": "update-article-202332.name.VRChat-Update-2023.3.2",
+        "fallback": "VRChat Update - 2023.3.2"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/5c0c2abe8a0d278e339106b0734569d9ae00c25f44205c47f66fa40bd149a15b.png",
-      "description": "Learn about the latest updates to VRChat!",
+      "description": {
+        "key": "Tooltips/Learn-about-the-latest-updates-to-VRChat!",
+        "fallback": "Learn about the latest updates to VRChat!"
+      },
       "article": {
         "content": [
           {
@@ -8439,15 +7991,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "67138bc1a89696167216b01551cceb6e",
+    "hash": "66c38d1e075f21ae32ccc75e89759653",
     "createdAt": "2023-08-31T20:23:13+00:00",
-    "updatedAt": "2023-08-31T21:43:12+00:00"
+    "updatedAt": "2023-10-30T23:54:47+00:00"
   },
   {
     "id": "help-article-making-groups",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "help-article",
       "user-all",
@@ -8455,9 +8008,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "Making Groups",
+      "name": {
+        "key": "help-article-making-groups.name.Making-Groups",
+        "fallback": "Making Groups"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/4c4e9e736d00a21298eafc613c05b06eade085fc295391133ef89827243ebb31.png",
-      "description": "Making Groups!",
+      "description": {
+        "key": "Tooltips/Making-Groups!",
+        "fallback": "Making Groups!"
+      },
       "article": {
         "content": [
           {
@@ -8618,9 +8177,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "46b9579244bdc516ebd2c8c6ffb05ed9",
+    "hash": "39f0dfc4e6c400c8cf734c5eaa2030d6",
     "createdAt": "2022-11-16T01:04:45+00:00",
-    "updatedAt": "2022-12-01T02:53:59+00:00"
+    "updatedAt": "2023-10-30T23:54:46+00:00"
   },
   {
     "id": "world-banner---event-spookality-2023-scary",
@@ -8659,6 +8218,7 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1001,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
@@ -8667,11 +8227,20 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "platform-mobile-desktop"
     ],
     "data": {
-      "name": "Spotlight - Mobile",
-      "tooltipDescription": "Browse top worlds from the community!",
+      "name": {
+        "key": "world-spotlight-mobile-test.name.Spotlight-Mobile",
+        "fallback": "Spotlight - Mobile"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-top-worlds-from-the-community!",
+        "fallback": "Browse top worlds from the community!"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
-        "name": "Spotlight Mobile",
+        "name": {
+          "key": "world-spotlight-mobile-test.name.Spotlight-Mobile",
+          "fallback": "Spotlight Mobile"
+        },
         "sortHeading": "shuffle",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -8680,9 +8249,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-spotlight-mobile"
       }
     },
-    "hash": "0ef70412299538a603451c4cfc973280",
+    "hash": "49d58bbbc4dd76b65b4199261c71e09a",
     "createdAt": "2023-06-27T00:40:10+00:00",
-    "updatedAt": "2023-09-05T16:21:44+00:00"
+    "updatedAt": "2023-10-31T00:04:58+00:00"
   },
   {
     "id": "world-banner---udon-getstarted",
@@ -8711,15 +8280,25 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1001,
+    "isLocalizable": true,
     "tags": [
       "help-topic",
       "help-topic-essentials",
       "user-all"
     ],
     "data": {
-      "name": "News",
-      "description": "VRChat News",
-      "tooltipDescription": "Updates from the VRChat Team!",
+      "name": {
+        "key": "help-topic-news.name.News",
+        "fallback": "News"
+      },
+      "description": {
+        "key": "Tooltips/VRChat-News",
+        "fallback": "VRChat News"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Updates-from-the-VRChat-Team!",
+        "fallback": "Updates from the VRChat Team!"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/53271ee0aeb78e81644606859c6c488b6edd413ce81a27ae14a5687ef1fc9bee.png",
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/07368d729a2364534e3cca9f798fc1dbd7ba682fdfd84ba17899a875077c2dfe.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/e2bd2b300202430d602e499ff5e7da04f97c7e8a5b737e1ddb137a71b12d8cfe.png",
@@ -8728,9 +8307,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "include": ""
       }
     },
-    "hash": "e308fdfca8f2d34e33d65e21353eb15e",
+    "hash": "08f5347c04b6492c1d726d10a6977cbd",
     "createdAt": "2022-04-01T21:32:09+00:00",
-    "updatedAt": "2022-09-08T22:22:43+00:00"
+    "updatedAt": "2023-10-30T23:55:54+00:00"
   },
   {
     "id": "avatar-public",
@@ -8761,15 +8340,25 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1002,
+    "isLocalizable": true,
     "tags": [
       "help-topic",
       "user-all",
       "help-topic-explore-wing"
     ],
     "data": {
-      "name": "Essentials",
-      "description": "VRChat Features",
-      "tooltipDescription": "New to VRChat? Start here for info on VRChat features!",
+      "name": {
+        "key": "help-topic-essentials.name.Essentials",
+        "fallback": "Essentials"
+      },
+      "description": {
+        "key": "Tooltips/VRChat-Features",
+        "fallback": "VRChat Features"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/New-to-VRChat?-Start-here-for-info-on-VRChat-features!",
+        "fallback": "New to VRChat? Start here for info on VRChat features!"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/69408993d8c3f1c64b987a27bd320b59a1deeb07e0fbee9affca977723f691d0.png",
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/d551286885968aff4908cc466d1ead82873df90f231bb953497b967c64b9190a.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/5b2ca11a23e1a9f64a66ef9ed2a56334ee910c5f52f290b06ebae0432a19a2ef.png",
@@ -8779,15 +8368,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "include": ""
       }
     },
-    "hash": "ecee56f5ba3fdbbd0bbc1ecb718cabb0",
+    "hash": "125196c4616ec30c081ba11a38f736f2",
     "createdAt": "2022-04-08T12:49:59+00:00",
-    "updatedAt": "2022-09-08T22:22:44+00:00"
+    "updatedAt": "2023-10-30T23:55:56+00:00"
   },
   {
     "id": "help-article-explore-worlds",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1002,
+    "isLocalizable": true,
     "tags": [
       "help-article",
       "user-all",
@@ -8795,9 +8385,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-topic-general"
     ],
     "data": {
-      "name": "Explore New Worlds!",
+      "name": {
+        "key": "help-article-explore-worlds.name.Explore-New-Worlds!",
+        "fallback": "Explore New Worlds!"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/e9981f18065936624266c1bcd5f01656c18c8252d3aefbbd86f2e0e5bb4d2ea9.png",
-      "description": "Explore New Worlds!",
+      "description": {
+        "key": "Tooltips/Explore-New-Worlds!",
+        "fallback": "Explore New Worlds!"
+      },
       "article": {
         "content": [
           {
@@ -8821,9 +8417,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "26b0195ee82491a57da06d45c187e1bb",
+    "hash": "9167e0e81ac8de7ba8e16af6d17af6d2",
     "createdAt": "2020-10-07T07:56:47+00:00",
-    "updatedAt": "2022-09-08T22:22:37+00:00"
+    "updatedAt": "2023-10-30T23:55:40+00:00"
   },
   {
     "id": "avatar-legacy",
@@ -8855,6 +8451,7 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1003,
+    "isLocalizable": true,
     "tags": [
       "help-topic",
       "help-topic-essentials",
@@ -8862,9 +8459,18 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-topic-explore-wing"
     ],
     "data": {
-      "name": "Safety",
-      "description": "VRChat Safety System",
-      "tooltipDescription": "Learn about VRChat's Safety System.",
+      "name": {
+        "key": "help-topic-safety.name.Safety",
+        "fallback": "Safety"
+      },
+      "description": {
+        "key": "Tooltips/VRChat-Safety-System",
+        "fallback": "VRChat Safety System"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Learn-about-VRChat's-Safety-System.",
+        "fallback": "Learn about VRChat's Safety System."
+      },
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/c165e3e819c42ace7a955206fa35c7af96de2ec2215ac3638aeb0b3c08238011.png",
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/fb74bd503a79b7cc63c635d6d11f6594ad01225d17c1d4c6bac3e7049add674a.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/d2fb62edac57a6e4a4a44fe04cf54a199a33778932bbc0a7e0d6a0eafa6150df.png",
@@ -8873,15 +8479,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "include": ""
       }
     },
-    "hash": "3165ad70a501b38bd74841bd8a486127",
+    "hash": "034dbe9a1f31ef64304d2b15f5e888c8",
     "createdAt": "2022-04-04T21:21:09+00:00",
-    "updatedAt": "2022-11-04T04:44:12+00:00"
+    "updatedAt": "2023-10-30T23:55:54+00:00"
   },
   {
     "id": "help-article-custom-emoji",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1003,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -8889,9 +8496,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "Custom Emoji",
+      "name": {
+        "key": "help-article-custom-emoji.name.Custom-Emoji",
+        "fallback": "Custom Emoji"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/b4e55695212325828c0166533f5f3497f99287a093b41b308c44530614fc4d9a.png",
-      "description": "Custom Emoji",
+      "description": {
+        "key": "Tooltips/Custom-Emoji",
+        "fallback": "Custom Emoji"
+      },
       "article": {
         "sectionLinks": [
           "link-create-app",
@@ -8941,15 +8554,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "0c58be1b05a29689a4d941d1394d0625",
+    "hash": "b9332bae33c57cec226afd7b8ed8f6c1",
     "createdAt": "2023-06-29T22:22:18+00:00",
-    "updatedAt": "2023-06-29T22:55:38+00:00"
+    "updatedAt": "2023-10-30T23:55:28+00:00"
   },
   {
     "id": "help-article-vrchat-community",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1003,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -8958,9 +8572,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "The VRChat Community",
+      "name": {
+        "key": "help-article-vrchat-community.name.The-VRChat-Community",
+        "fallback": "The VRChat Community"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/f3592e61f7caf348f524c02199800818a14473e5d4d8961c72ab4d4406720744.png",
-      "description": "The VRChat Community",
+      "description": {
+        "key": "Tooltips/The-VRChat-Community",
+        "fallback": "The VRChat Community"
+      },
       "article": {
         "jumpLinks": [
           "discord",
@@ -9073,15 +8693,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "023ba10aa8ab67f1e9b836002505cd2e",
+    "hash": "ec31e03cca2689b05ab4802be9351adf",
     "createdAt": "2023-06-28T19:14:32+00:00",
-    "updatedAt": "2023-06-28T19:14:32+00:00"
+    "updatedAt": "2023-10-30T23:54:35+00:00"
   },
   {
     "id": "help-article-vrchat-crowdin",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1003,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -9089,9 +8710,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "Crowdin",
+      "name": {
+        "key": "help-article-vrchat-crowdin.name.Crowdin",
+        "fallback": "Crowdin"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/d0d9d3da237a1903f8a0ac7ea7fe066b810ae525a1f695b7833174b945ed615f.png",
-      "description": "Crowdin",
+      "description": {
+        "key": "Tooltips/Crowdin",
+        "fallback": "Crowdin"
+      },
       "article": {
         "content": [
           {
@@ -9140,24 +8767,34 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "5b1285f27d6f81555718a7dfaae25a71",
+    "hash": "fd9e9a30c5775c86b7a15febdfc8f290",
     "createdAt": "2023-06-12T22:36:51+00:00",
-    "updatedAt": "2023-07-10T20:36:20+00:00"
+    "updatedAt": "2023-10-30T23:54:16+00:00"
   },
   {
     "id": "help-topic-groups",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1004,
+    "isLocalizable": true,
     "tags": [
       "help-topic",
       "help-topic-essentials",
       "user-all"
     ],
     "data": {
-      "name": "Groups",
-      "description": "VRChat Groups",
-      "tooltipDescription": "Discover VRChat Groups!",
+      "name": {
+        "key": "help-topic-groups.name.Groups",
+        "fallback": "Groups"
+      },
+      "description": {
+        "key": "Tooltips/VRChat-Groups",
+        "fallback": "VRChat Groups"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Discover-VRChat-Groups!",
+        "fallback": "Discover VRChat Groups!"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/1e5ff00b91329c824984c5b9cf806e040647d665078cfdb49cbc5a9bc6a1425e.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/da7150b96b7e12b338e4a669d6edc4e4a9301449b172027251d8cec11d07eafa.png",
       "ipsQuery": {
@@ -9165,23 +8802,33 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "include": ""
       }
     },
-    "hash": "777b2099807b94a74d4d5002084a3096",
+    "hash": "ad10606c59aedfe0233f914d06151d06",
     "createdAt": "2022-11-16T00:38:22+00:00",
-    "updatedAt": "2022-12-01T02:54:36+00:00"
+    "updatedAt": "2023-10-30T23:55:53+00:00"
   },
   {
     "id": "help-topic-worlds",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1006,
+    "isLocalizable": true,
     "tags": [
       "help-topic",
       "user-all"
     ],
     "data": {
-      "name": "Worlds",
-      "description": "VRChat Worlds",
-      "tooltipDescription": "Discover new VRChat Worlds!",
+      "name": {
+        "key": "help-topic-worlds.name.Worlds",
+        "fallback": "Worlds"
+      },
+      "description": {
+        "key": "Tooltips/VRChat-Worlds",
+        "fallback": "VRChat Worlds"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Discover-new-VRChat-Worlds!",
+        "fallback": "Discover new VRChat Worlds!"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/0dc2d4aafa414fa0cf8eafd51c1fcf5ada9c7c5cfb646f634ee2b0c4ab89302f.png",
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/a4c0162219282d08c967add1ddb7cc9ada84274262dc39899cb9a26d5f9790f5.png",
       "ipsQuery": {
@@ -9189,23 +8836,33 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "include": ""
       }
     },
-    "hash": "5f698c5e5bcb251a7e0e99c391d2edc8",
+    "hash": "ec6017c03a1ce29a39c2935c08c8da7f",
     "createdAt": "2022-03-11T00:25:55+00:00",
-    "updatedAt": "2022-09-08T22:22:44+00:00"
+    "updatedAt": "2023-10-30T23:55:56+00:00"
   },
   {
     "id": "help-topic-support",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1009,
+    "isLocalizable": true,
     "tags": [
       "help-topic",
       "user-all"
     ],
     "data": {
-      "name": "Support",
-      "description": "VRChat Support",
-      "tooltipDescription": "General info about VRChat features.",
+      "name": {
+        "key": "help-topic-support.name.Support",
+        "fallback": "Support"
+      },
+      "description": {
+        "key": "Tooltips/VRChat-Support",
+        "fallback": "VRChat Support"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/General-info-about-VRChat-features.",
+        "fallback": "General info about VRChat features."
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/f00f52a0f2fb1905ac2a498ab9eaedd484665151ba756183ab4676012f2895d7.png",
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/ff8966f5d5d252c9c8e1192d8d6883a5679ca19bac060f69fa74e2a7a68ff5e0.png",
       "ipsQuery": {
@@ -9213,25 +8870,35 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "include": ""
       }
     },
-    "hash": "c11fb5120076b516e58d067c5a36da44",
+    "hash": "f5e103d07a3723a441c9830da834b6b1",
     "createdAt": "2022-03-11T00:25:55+00:00",
-    "updatedAt": "2022-09-08T22:22:43+00:00"
+    "updatedAt": "2023-10-30T23:55:55+00:00"
   },
   {
     "id": "world-trending",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1010,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "Trending",
-      "tooltipDescription": "Browse trending worlds",
+      "name": {
+        "key": "world-trending.name.Trending",
+        "fallback": "Trending"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-trending-worlds",
+        "fallback": "Browse trending worlds"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/5568aa5059b72048ec0560b0eb68822c5ea338e5235637c36a3273f1081176ef.png",
       "contentList": {
-        "name": "Hot",
+        "name": {
+          "key": "world-trending.name.Hot",
+          "fallback": "Hot"
+        },
         "sortHeading": "heat",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -9240,9 +8907,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "avatarSpecific": false
       }
     },
-    "hash": "676c2d89c97b601d3dd38a9d90808b43",
+    "hash": "289a591760ff22d1d925438de7cd3ddc",
     "createdAt": "2022-03-30T01:07:23+00:00",
-    "updatedAt": "2023-08-13T00:05:03+00:00"
+    "updatedAt": "2023-10-31T00:04:58+00:00"
   },
   {
     "id": "launch-werehiring",
@@ -9271,14 +8938,24 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1010,
+    "isLocalizable": true,
     "tags": [
       "help-topic",
       "user-all"
     ],
     "data": {
-      "name": "VRC+",
-      "description": "VRC+",
-      "tooltipDescription": "Subscribe to VRChat+ today and enjoy all of these exclusive features!",
+      "name": {
+        "key": "help-topic-vrcplus.name.VRC+",
+        "fallback": "VRC+"
+      },
+      "description": {
+        "key": "help-topic-vrcplus.description.VRC+",
+        "fallback": "VRC+"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Subscribe-to-VRChat+-today-and-enjoy-all-of-these-exclusive-features!",
+        "fallback": "Subscribe to VRChat+ today and enjoy all of these exclusive features!"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/bcfabc013e81d970fd4f6ab4773bbc181e896371923504dd3d7b244c26eaf9d6.png",
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/7d6d6f993d10df181f842a5de8c1918075790621c3b91181efcc45b82f839bd6.png",
       "ipsQuery": {
@@ -9286,25 +8963,35 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "include": ""
       }
     },
-    "hash": "28bb515d3d3a7b4dd3139857dd8354f7",
+    "hash": "1aec500180c2362f4473490ad771c2e5",
     "createdAt": "2022-10-06T19:54:48+00:00",
-    "updatedAt": "2023-04-25T18:52:15+00:00"
+    "updatedAt": "2023-10-30T23:55:56+00:00"
   },
   {
     "id": "world-avatar-worlds-trending",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1011,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "Avatar Worlds - Trending",
-      "tooltipDescription": "Browse hot avatar worlds",
+      "name": {
+        "key": "world-avatar-worlds-trending.name.Avatar-Worlds-Trending",
+        "fallback": "Avatar Worlds - Trending"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-hot-avatar-worlds",
+        "fallback": "Browse hot avatar worlds"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
-        "name": "Avatar Worlds - Trending",
+        "name": {
+          "key": "world-avatar-worlds-trending.name.Avatar-Worlds-Trending",
+          "fallback": "Avatar Worlds - Trending"
+        },
         "sortHeading": "heat",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -9313,23 +9000,33 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-avatar"
       }
     },
-    "hash": "72150454148866d9705664810488a5bc",
+    "hash": "6c9b44483a4e6173bce276c584f9f824",
     "createdAt": "2023-08-10T20:44:02+00:00",
-    "updatedAt": "2023-09-05T16:53:04+00:00"
+    "updatedAt": "2023-10-31T00:04:56+00:00"
   },
   {
     "id": "help-topic-settings",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1011,
+    "isLocalizable": true,
     "tags": [
       "help-topic",
       "user-all"
     ],
     "data": {
-      "name": "Settings",
-      "description": "VRChat Settings",
-      "tooltipDescription": "Information on VRChat settings.",
+      "name": {
+        "key": "help-topic-settings.name.Settings",
+        "fallback": "Settings"
+      },
+      "description": {
+        "key": "Tooltips/VRChat-Settings",
+        "fallback": "VRChat Settings"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Information-on-VRChat-settings.",
+        "fallback": "Information on VRChat settings."
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/195be68b573ae24e1ec0ac7c9f51e4535e4f18a1f9b274ea957dec222eb929dc.png",
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/b45eac50742f7a8c72cd5dc86b88fcbb5a28313f4ccf417e1a508cdc0282b388.png",
       "ipsQuery": {
@@ -9337,25 +9034,35 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "include": ""
       }
     },
-    "hash": "7c6f8f0a76536b2e7ee003fba6e62ba6",
+    "hash": "931dd7895d4483e92ba23adfbd9936fb",
     "createdAt": "2022-04-07T23:44:31+00:00",
-    "updatedAt": "2022-09-08T22:22:43+00:00"
+    "updatedAt": "2023-10-30T23:55:55+00:00"
   },
   {
     "id": "world-games",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1015,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "Games - Hot",
+      "name": {
+        "key": "world-games.name.Games-Hot",
+        "fallback": "Games - Hot"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/f13fed02d81a04a7dc8d1d9c2960d43ed955ac1d84a87fe9348087cb2a9c4343.png",
-      "tooltipDescription": "Join game worlds",
+      "tooltipDescription": {
+        "key": "Tooltips/Join-game-worlds",
+        "fallback": "Join game worlds"
+      },
       "contentList": {
-        "name": "Games - Hot",
+        "name": {
+          "key": "world-games.name.Games-Hot",
+          "fallback": "Games - Hot"
+        },
         "sortHeading": "heat",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -9365,27 +9072,43 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "avatarSpecific": false
       }
     },
-    "hash": "6bfbde0c0e8e8d49c8771f0cd6de29d0",
+    "hash": "6cf878dd74acc24c3d778f28fa25db2e",
     "createdAt": "2023-08-12T23:23:57+00:00",
-    "updatedAt": "2023-08-15T05:37:00+00:00"
+    "updatedAt": "2023-10-31T00:04:57+00:00"
   },
   {
     "id": "world-spotlight-crossplatform",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1020,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "Spotlight - Cross Platform",
-      "shortName": "Spotlight X Plat",
-      "tooltipDescription": "Browse top cross-platform worlds from the community!",
+      "name": {
+        "key": "world-spotlight-crossplatform.name.Spotlight-Cross-Platform",
+        "fallback": "Spotlight - Cross Platform"
+      },
+      "shortName": {
+        "key": "world-spotlight-crossplatform.short-name.Spotlight-X-Plat",
+        "fallback": "Spotlight X Plat"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-top-cross-platform-worlds-from-the-community!",
+        "fallback": "Browse top cross-platform worlds from the community!"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
-        "name": "Spotlight Cross Platform",
-        "shortName": "Spotlight X Plat",
+        "name": {
+          "key": "world-spotlight-crossplatform.name.Spotlight-Cross-Platform",
+          "fallback": "Spotlight Cross Platform"
+        },
+        "shortName": {
+          "key": "world-spotlight-crossplatform.short-name.Spotlight-X-Plat",
+          "fallback": "Spotlight X Plat"
+        },
         "sortHeading": "random",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -9394,15 +9117,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-spotlight-xplat"
       }
     },
-    "hash": "bbe05f97a0a4ee9a529f589a994500f3",
+    "hash": "3ef8fe6a404a98cd7ec5ad13e3a432c6",
     "createdAt": "2022-06-24T23:34:50+00:00",
-    "updatedAt": "2023-08-10T20:44:03+00:00"
+    "updatedAt": "2023-10-31T00:04:58+00:00"
   },
   {
     "id": "world-spotlight-pc",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1030,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
@@ -9411,11 +9135,20 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "platform-pc"
     ],
     "data": {
-      "name": "Spotlight - PC",
-      "tooltipDescription": "Browse top PC worlds from the community!",
+      "name": {
+        "key": "world-spotlight-pc.name.Spotlight-PC",
+        "fallback": "Spotlight - PC"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-top-PC-worlds-from-the-community!",
+        "fallback": "Browse top PC worlds from the community!"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
-        "name": "Spotlight PC",
+        "name": {
+          "key": "world-spotlight-pc.name.Spotlight-PC",
+          "fallback": "Spotlight PC"
+        },
         "sortHeading": "random",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -9424,9 +9157,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-spotlight"
       }
     },
-    "hash": "ea6a05bd70e7b63e1b807c24f62d4503",
+    "hash": "3e0891c8fab3a2c222a116e4bfb95597",
     "createdAt": "2022-06-24T23:34:50+00:00",
-    "updatedAt": "2023-08-10T20:44:03+00:00"
+    "updatedAt": "2023-10-31T00:04:58+00:00"
   },
   {
     "id": "launch-feedback",
@@ -9455,16 +9188,26 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1040,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "New",
+      "name": {
+        "key": "world-new.name.New",
+        "fallback": "New"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/e5a352ccf894dd8a30001611e525caeaf3ec7710444610703549fb306f542400.png",
-      "tooltipDescription": "Browse new worlds",
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-new-worlds",
+        "fallback": "Browse new worlds"
+      },
       "contentList": {
-        "name": "New",
+        "name": {
+          "key": "world-new.name.New",
+          "fallback": "New"
+        },
         "sortHeading": "publication",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -9473,9 +9216,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "avatarSpecific": false
       }
     },
-    "hash": "6f8c7a7a843bacf863d371dca03fb2f1",
+    "hash": "150db5853fbf943e090a4ce3ed70b57b",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-08-12T23:59:48+00:00"
+    "updatedAt": "2023-10-31T00:04:57+00:00"
   },
   {
     "id": "LAUNCH---SDK",
@@ -9504,16 +9247,26 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1050,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "Avatar Worlds - New",
-      "tooltipDescription": "Browse new avatar worlds",
+      "name": {
+        "key": "world-avatar-worlds-new.name.Avatar-Worlds-New",
+        "fallback": "Avatar Worlds - New"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-new-avatar-worlds",
+        "fallback": "Browse new avatar worlds"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
-        "name": "Avatar Worlds - New",
+        "name": {
+          "key": "world-avatar-worlds-new.name.Avatar-Worlds-New",
+          "fallback": "Avatar Worlds - New"
+        },
         "sortHeading": "publication",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -9522,15 +9275,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-avatar-new"
       }
     },
-    "hash": "17550ce45f8ba0e744178366f7162ea5",
+    "hash": "fb444249cb9061c8d3a103b52cd7b93e",
     "createdAt": "2023-08-10T19:34:15+00:00",
-    "updatedAt": "2023-09-06T21:22:59+00:00"
+    "updatedAt": "2023-10-31T00:04:57+00:00"
   },
   {
     "id": "release-avatar-dynamics",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1050,
+    "isLocalizable": true,
     "tags": [
       "help-article",
       "user-all",
@@ -9538,9 +9292,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "Avatar Dynamics",
+      "name": {
+        "key": "release-avatar-dynamics.name.Avatar-Dynamics",
+        "fallback": "Avatar Dynamics"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/db47779b927fb761d62698a189ed44ebde80fe723efc97866fc3ec303fd541ca.png",
-      "description": "Avatar Dynamics is now live!",
+      "description": {
+        "key": "Tooltips/Avatar-Dynamics-is-now-live!",
+        "fallback": "Avatar Dynamics is now live!"
+      },
       "isNew": false,
       "article": {
         "sectionLinks": [
@@ -9689,25 +9449,35 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "b768420725c4de03ee84515c007b0d02",
+    "hash": "e0e784056145d3ad8fc836c2fd278c69",
     "createdAt": "2022-02-16T22:37:24+00:00",
-    "updatedAt": "2023-08-31T20:31:04+00:00"
+    "updatedAt": "2023-10-30T23:54:47+00:00"
   },
   {
     "id": "world-updated-recently",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1070,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "Updated Recently",
-      "tooltipDescription": "Browse recently updated worlds",
+      "name": {
+        "key": "world-updated-recently.name.Updated-Recently",
+        "fallback": "Updated Recently"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-recently-updated-worlds",
+        "fallback": "Browse recently updated worlds"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/06737a66fb6de284125da130c1866ec729d7bbd9b8cdfdafee2b23840b153c67.png",
       "contentList": {
-        "name": "Updated Recently",
+        "name": {
+          "key": "world-updated-recently.name.Updated-Recently",
+          "fallback": "Updated Recently"
+        },
         "sortHeading": "updated",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -9715,15 +9485,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-updated-recently"
       }
     },
-    "hash": "8e4baf9311fe6d6bf1f67156bf3a8b28",
+    "hash": "5ea90aff08ed1c6f704f1fb622249621",
     "createdAt": "2020-06-05T08:23:32+00:00",
-    "updatedAt": "2022-09-22T17:28:10+00:00"
+    "updatedAt": "2023-10-31T00:04:59+00:00"
   },
   {
     "id": "help-article-content-warnings",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1070,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -9731,9 +9502,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "Content Warnings",
+      "name": {
+        "key": "help-article-content-warnings.name.Content-Warnings",
+        "fallback": "Content Warnings"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/55d14de3d111627a9379994dcfe66dc820278e9a19d89e00cdf7ba1bcdf7299f.png",
-      "description": "Learn about content warnings.",
+      "description": {
+        "key": "Tooltips/Learn-about-content-warnings.",
+        "fallback": "Learn about content warnings."
+      },
       "article": {
         "sectionLinks": [
           "link-adding-content-warnings",
@@ -9953,25 +9730,35 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "303c7d7673803ff2b53f25396be3175a",
+    "hash": "103467105f9270f5591e6b634e205c2d",
     "createdAt": "2023-10-12T23:41:21+00:00",
-    "updatedAt": "2023-10-17T20:53:52+00:00"
+    "updatedAt": "2023-10-30T23:54:57+00:00"
   },
   {
     "id": "world-community-labs",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1100,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "Community Labs",
-      "tooltipDescription": "Browse worlds newly created by the community",
+      "name": {
+        "key": "world-community-labs.name.Community-Labs",
+        "fallback": "Community Labs"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-worlds-newly-created-by-the-community",
+        "fallback": "Browse worlds newly created by the community"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/7846fda184f0ee4686558903b87823890351cac53a501b95f848b46b227294b1.png",
       "contentList": {
-        "name": "Community Labs",
+        "name": {
+          "key": "world-community-labs.name.Community-Labs",
+          "fallback": "Community Labs"
+        },
         "sortHeading": "labs",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -9979,9 +9766,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-labs"
       }
     },
-    "hash": "c90fc12da3b0bd6ad010b7dfabaf8b8c",
+    "hash": "35d5ad7508ca00c0b76f9935d0c0606b",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-08-10T20:44:02+00:00"
+    "updatedAt": "2023-10-31T00:04:57+00:00"
   },
   {
     "id": "search-promoted-Spookality",
@@ -10080,16 +9867,26 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1110,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "Random",
+      "name": {
+        "key": "world-random.name.Random",
+        "fallback": "Random"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/0b0ca87fa01cdfce085a9f1080336e2d819717dd98bf10405a3a76a346b79629.png",
-      "tooltipDescription": "Browse random worlds",
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-random-worlds",
+        "fallback": "Browse random worlds"
+      },
       "contentList": {
-        "name": "Random",
+        "name": {
+          "key": "world-random.name.Random",
+          "fallback": "Random"
+        },
         "sortHeading": "shuffle",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -10098,25 +9895,35 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "avatarSpecific": false
       }
     },
-    "hash": "684e643b42f1591ca3192b4a43cdb29d",
+    "hash": "c275453716f26df89d35785d422cba4e",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-08-12T23:59:48+00:00"
+    "updatedAt": "2023-10-31T00:04:58+00:00"
   },
   {
     "id": "world-avatar-worlds-random",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1120,
+    "isLocalizable": true,
     "tags": [
       "world-category",
       "user-all"
     ],
     "data": {
-      "name": "Avatar Worlds - Random",
-      "tooltipDescription": "Browse random  avatar worlds",
+      "name": {
+        "key": "world-avatar-worlds-random.name.Avatar-Worlds-Random",
+        "fallback": "Avatar Worlds - Random"
+      },
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-random-avatar-worlds",
+        "fallback": "Browse random avatar worlds"
+      },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
-        "name": "Avatar Worlds - Random",
+        "name": {
+          "key": "world-avatar-worlds-random.name.Avatar-Worlds-Random",
+          "fallback": "Avatar Worlds - Random"
+        },
         "sortHeading": "shuffle",
         "sortOwnership": "any",
         "sortOrder": "descending",
@@ -10125,15 +9932,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         "bannersTag": "world-category-banner-avatar-random"
       }
     },
-    "hash": "7a834a4cbc211e0015ee373a8100aba4",
+    "hash": "900a4ea1b2562982fe57806cce1673fb",
     "createdAt": "2023-08-10T19:34:16+00:00",
-    "updatedAt": "2023-09-06T21:22:59+00:00"
+    "updatedAt": "2023-10-31T00:04:57+00:00"
   },
   {
     "id": "release-main-menu-launch",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1200,
+    "isLocalizable": true,
     "tags": [
       "user-all",
       "help-article",
@@ -10141,9 +9949,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "Main Menu 2.0",
+      "name": {
+        "key": "release-main-menu-launch.name.Main-Menu-2.0",
+        "fallback": "Main Menu 2.0"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/805ffb56a12ed6729fc5195ff2faba5e24df2b3ee4f05140fdb72690f765c5fc.png",
-      "description": "MM 2.0 is Live!",
+      "description": {
+        "key": "Tooltips/MM-2.0-is-Live!",
+        "fallback": "MM 2.0 is Live!"
+      },
       "isNew": true,
       "article": {
         "sectionLinks": [
@@ -10237,15 +10051,16 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "4db8c3b3d65ef52003f13f6d7e248f06",
+    "hash": "5e6da923f0b7824f14094cb1756a712e",
     "createdAt": "2022-10-12T22:26:05+00:00",
-    "updatedAt": "2023-08-31T20:31:04+00:00"
+    "updatedAt": "2023-10-30T23:54:47+00:00"
   },
   {
     "id": "help-article-hiring",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 2000,
+    "isLocalizable": true,
     "tags": [
       "help-article",
       "user-all",
@@ -10253,9 +10068,15 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
       "help-notifications"
     ],
     "data": {
-      "name": "We're Hiring",
+      "name": {
+        "key": "help-article-hiring.name.We're-Hiring",
+        "fallback": "We're Hiring"
+      },
       "imageUrl": "https://assets.vrchat.com/ips/assets/389813953bddd49251379878eaadde474afe579908ff26fb189b55adf065edb1.png",
-      "description": "Discover open job positions at VRChat.",
+      "description": {
+        "key": "Tooltips/Discover-open-job-positions-at-VRChat.",
+        "fallback": "Discover open job positions at VRChat."
+      },
       "article": {
         "content": [
           {
@@ -10304,9 +10125,9 @@ Response schema mismatch: #/13/data/article/content failed type, #/14/data/onPre
         ]
       }
     },
-    "hash": "b92ada8f66b68b8bd36eb64728d6e8af",
+    "hash": "c3402cf41a1d96d4b3e21a46507cfb1d",
     "createdAt": "2022-04-06T00:11:34+00:00",
-    "updatedAt": "2023-08-31T20:31:03+00:00"
+    "updatedAt": "2023-10-30T23:54:46+00:00"
   }
 ]
 ```
