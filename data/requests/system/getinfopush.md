@@ -49,7 +49,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-vrchat-spookality-2023.name.Spookality-2023",
         "fallback": "Spookality 2023"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/0544b82156f60f7e5939b660bca23b08d1f68d62972759b6f9b0889fc73cb747.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/2c789fe4e3d29ba3c44270e140f652f1cabe58c77f7fed842e91762a2e6c6a52.png",
       "description": {
         "key": "Tooltips/Visit-Spooky",
         "fallback": "Visit Spooky"
@@ -137,9 +137,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "0eb7f1b82bfdf6087f11ff69f50760a2",
+    "hash": "87a9d80db994152b2dfd97271ebfefb1",
     "createdAt": "2023-10-20T17:34:37+00:00",
-    "updatedAt": "2023-10-30T23:54:35+00:00"
+    "updatedAt": "2023-10-31T20:05:22+00:00"
   },
   {
     "id": "qm-spookality-2023",
@@ -7067,7 +7067,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": "What is VRChat Plus?",
-      "imageUrl": "https://assets.vrchat.com/ips/assets/0817e6d481206f80c7257b0afcce74cc4a10e70e6cd23f3638115cd7f8da5689.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/54571a9a3517ddb05cf710c1f670dcd0d50af69078b01948de5c07ebf61a6164.png",
       "description": "Learn about what you get for subscribing to VRChat Plus.",
       "article": {
         "content": [
@@ -7143,9 +7143,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "bf8f555c714f7dd351758b8bc29d0911",
+    "hash": "e42dcd6a3cfcb87b9faa0a285ea92208",
     "createdAt": "2022-10-05T23:19:39+00:00",
-    "updatedAt": "2023-03-22T19:55:19+00:00"
+    "updatedAt": "2023-10-31T20:06:25+00:00"
   },
   {
     "id": "help-article-what-vrcp-pcvr",
@@ -7163,7 +7163,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": "What is VRChat Plus?",
-      "imageUrl": "https://assets.vrchat.com/ips/assets/0817e6d481206f80c7257b0afcce74cc4a10e70e6cd23f3638115cd7f8da5689.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/54571a9a3517ddb05cf710c1f670dcd0d50af69078b01948de5c07ebf61a6164.png",
       "description": "Learn about what you get for subscribing to VRChat Plus.",
       "article": {
         "content": [
@@ -7239,9 +7239,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "25df88a457d44539fb4d29cf09262358",
+    "hash": "fe571600b49295a035d8d15d6d4dee55",
     "createdAt": "2022-10-05T23:19:39+00:00",
-    "updatedAt": "2023-03-22T19:55:18+00:00"
+    "updatedAt": "2023-10-31T20:06:24+00:00"
   },
   {
     "id": "help-article-what-vrcp-desktop",
@@ -7263,7 +7263,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-what-vrcp.name.What-is-VRChat-Plus?",
         "fallback": "What is VRChat Plus?"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/0817e6d481206f80c7257b0afcce74cc4a10e70e6cd23f3638115cd7f8da5689.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/54571a9a3517ddb05cf710c1f670dcd0d50af69078b01948de5c07ebf61a6164.png",
       "description": {
         "key": "Tooltips/Learn-about-what-you-get-for-subscribing-to-VRChat-Plus.",
         "fallback": "Learn about what you get for subscribing to VRChat Plus."
@@ -7342,9 +7342,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "cabddd75ea2a955d972a4d5dc49b31bd",
+    "hash": "358d20a9dba8113ed87527f5b95414e1",
     "createdAt": "2022-10-05T23:19:38+00:00",
-    "updatedAt": "2023-10-30T23:55:35+00:00"
+    "updatedAt": "2023-10-31T20:06:24+00:00"
   },
   {
     "id": "help-article-gift-vrcp-quest",
@@ -7366,7 +7366,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-gift-vrcp.name.How-to-Gift-Someone-VRC+",
         "fallback": "How to Gift Someone VRC+"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/6b10e0493d6d4148b171fc5ed93f02d11c314b1be3aa3449f110787a4fe56d23.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/503fefb12e43879fb97a319ba7373ca18750f3852bf9b5b823a81b0366c0c078.png",
       "description": {
         "key": "Tooltips/Give-someone-the-gift-of-VRC-Plus!",
         "fallback": "Give someone the gift of VRC Plus!"
@@ -7495,9 +7495,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "cc557081cac1cd2f397ed098ddf832e4",
+    "hash": "8c0a518880b90e72c7a18a5cd9fa9a92",
     "createdAt": "2022-10-07T18:19:31+00:00",
-    "updatedAt": "2023-10-30T23:55:35+00:00"
+    "updatedAt": "2023-10-31T20:06:23+00:00"
   },
   {
     "id": "help-article-gift-vrcp-pcvr",
@@ -7519,7 +7519,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-gift-vrcp.name.How-to-Gift-Someone-VRC+",
         "fallback": "How to Gift Someone VRC+"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/6b10e0493d6d4148b171fc5ed93f02d11c314b1be3aa3449f110787a4fe56d23.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/503fefb12e43879fb97a319ba7373ca18750f3852bf9b5b823a81b0366c0c078.png",
       "description": {
         "key": "Tooltips/Give-someone-the-gift-of-VRC-Plus!",
         "fallback": "Give someone the gift of VRC Plus!"
@@ -7648,9 +7648,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "e3820be1c1915f58980b77ae05b2a89a",
+    "hash": "5b5ec832738416d09bce2812de6cc45a",
     "createdAt": "2022-10-07T18:19:29+00:00",
-    "updatedAt": "2023-10-30T23:55:32+00:00"
+    "updatedAt": "2023-10-31T20:06:21+00:00"
   },
   {
     "id": "help-article-gift-vrcp-desktop",
@@ -7672,7 +7672,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-gift-vrcp.name.How-to-Gift-Someone-VRC+",
         "fallback": "How to Gift Someone VRC+"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/6b10e0493d6d4148b171fc5ed93f02d11c314b1be3aa3449f110787a4fe56d23.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/503fefb12e43879fb97a319ba7373ca18750f3852bf9b5b823a81b0366c0c078.png",
       "description": {
         "key": "Tooltips/Give-someone-the-gift-of-VRC-Plus!",
         "fallback": "Give someone the gift of VRC Plus!"
@@ -7801,9 +7801,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "f6e54912bb9fecdd38297c3a7e3b1f57",
+    "hash": "de069afd0b2841223396ab10350ef068",
     "createdAt": "2022-10-07T18:19:28+00:00",
-    "updatedAt": "2023-10-30T23:55:30+00:00"
+    "updatedAt": "2023-10-31T20:06:18+00:00"
   },
   {
     "id": "help-article-contact-support",
@@ -7822,7 +7822,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-contact-support.name.Contact-Support",
         "fallback": "Contact Support"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/27c342696745579915f90655975eab3ec3fdae8a5d16647d12b10f543a794a81.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/f745ddc93c72c90d55aceaa08dbb147ab169b13b664225091a283bbcbc032032.png",
       "description": {
         "key": "Tooltips/Information-on-how-to-contact-VRChat-support.",
         "fallback": "Information on how to contact VRChat support."
@@ -7869,9 +7869,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "c093060497caa386542c3bf8a145b28a",
+    "hash": "4011e54aabfc077f7a77376541b364e8",
     "createdAt": "2022-04-07T23:44:28+00:00",
-    "updatedAt": "2023-10-30T23:55:26+00:00"
+    "updatedAt": "2023-10-31T20:06:15+00:00"
   },
   {
     "id": "update-article-202333",
@@ -7891,7 +7891,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "update-article-202333.name.VRChat-Update-2023.3.3",
         "fallback": "VRChat Update - 2023.3.3"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/c2262cb6eeb85ae5c0a628531171fcdbf7276cc93fb4af7885bdcab8a4e69f64.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/d0dee4255ce95567d139002946b6520e6977709ceef1d8346a94f2f027d70867.png",
       "description": {
         "key": "Tooltips/Learn-about-the-latest-updates-to-VRChat!",
         "fallback": "Learn about the latest updates to VRChat!"
@@ -7930,9 +7930,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "93992682eb5029ab064b14ae9b670a15",
+    "hash": "fe1a797467d47c88dadecc1d916f271b",
     "createdAt": "2023-10-04T21:39:35+00:00",
-    "updatedAt": "2023-10-30T23:54:48+00:00"
+    "updatedAt": "2023-10-31T20:05:34+00:00"
   },
   {
     "id": "update-article-202332",
@@ -7952,7 +7952,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "update-article-202332.name.VRChat-Update-2023.3.2",
         "fallback": "VRChat Update - 2023.3.2"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/5c0c2abe8a0d278e339106b0734569d9ae00c25f44205c47f66fa40bd149a15b.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/9532a7e15557c6c82af80f2476bf6d96a092722efe6e5dcd61d30347b1388573.png",
       "description": {
         "key": "Tooltips/Learn-about-the-latest-updates-to-VRChat!",
         "fallback": "Learn about the latest updates to VRChat!"
@@ -7991,9 +7991,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "66c38d1e075f21ae32ccc75e89759653",
+    "hash": "952079dce6b833d91dd4fa38a1cd0a75",
     "createdAt": "2023-08-31T20:23:13+00:00",
-    "updatedAt": "2023-10-30T23:54:47+00:00"
+    "updatedAt": "2023-10-31T20:05:34+00:00"
   },
   {
     "id": "help-article-making-groups",
@@ -8012,7 +8012,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-making-groups.name.Making-Groups",
         "fallback": "Making Groups"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/4c4e9e736d00a21298eafc613c05b06eade085fc295391133ef89827243ebb31.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/e38c0e82ac225a8d7d5fa2db775a02eb475537d30b7ae6cd6c612cb3fb78a325.png",
       "description": {
         "key": "Tooltips/Making-Groups!",
         "fallback": "Making Groups!"
@@ -8177,9 +8177,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "39f0dfc4e6c400c8cf734c5eaa2030d6",
+    "hash": "44564131f12169de7bb39e82f4bf00e4",
     "createdAt": "2022-11-16T01:04:45+00:00",
-    "updatedAt": "2023-10-30T23:54:46+00:00"
+    "updatedAt": "2023-10-31T20:05:32+00:00"
   },
   {
     "id": "world-banner---event-spookality-2023-scary",
@@ -8301,15 +8301,15 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/53271ee0aeb78e81644606859c6c488b6edd413ce81a27ae14a5687ef1fc9bee.png",
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/07368d729a2364534e3cca9f798fc1dbd7ba682fdfd84ba17899a875077c2dfe.png",
-      "imageUrl": "https://assets.vrchat.com/ips/assets/e2bd2b300202430d602e499ff5e7da04f97c7e8a5b737e1ddb137a71b12d8cfe.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/0c9a6404d7d35e9a3a171b06e4e9d869ad8084a8fcb9a6575e003601318cf707.png",
       "ipsQuery": {
         "require": "help-topic-news",
         "include": ""
       }
     },
-    "hash": "08f5347c04b6492c1d726d10a6977cbd",
+    "hash": "662e3f4a9a8c0e33a56fcb65e5d7a285",
     "createdAt": "2022-04-01T21:32:09+00:00",
-    "updatedAt": "2023-10-30T23:55:54+00:00"
+    "updatedAt": "2023-10-31T20:06:43+00:00"
   },
   {
     "id": "avatar-public",
@@ -8473,15 +8473,15 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       },
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/c165e3e819c42ace7a955206fa35c7af96de2ec2215ac3638aeb0b3c08238011.png",
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/fb74bd503a79b7cc63c635d6d11f6594ad01225d17c1d4c6bac3e7049add674a.png",
-      "imageUrl": "https://assets.vrchat.com/ips/assets/d2fb62edac57a6e4a4a44fe04cf54a199a33778932bbc0a7e0d6a0eafa6150df.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/5d0a67c5d4ad0401b47650e8925409875307197869f85db979f5a5baa749461f.png",
       "ipsQuery": {
         "require": "help-topic-safety",
         "include": ""
       }
     },
-    "hash": "034dbe9a1f31ef64304d2b15f5e888c8",
+    "hash": "d150b930a927d92ab42bab2ef0bbed02",
     "createdAt": "2022-04-04T21:21:09+00:00",
-    "updatedAt": "2023-10-30T23:55:54+00:00"
+    "updatedAt": "2023-10-31T20:06:43+00:00"
   },
   {
     "id": "help-article-custom-emoji",
@@ -8576,7 +8576,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-vrchat-community.name.The-VRChat-Community",
         "fallback": "The VRChat Community"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/f3592e61f7caf348f524c02199800818a14473e5d4d8961c72ab4d4406720744.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/d42de585fb6f64ed92e5183e3e7143d56b74e809a28acddc2c22755cc07beb75.png",
       "description": {
         "key": "Tooltips/The-VRChat-Community",
         "fallback": "The VRChat Community"
@@ -8693,9 +8693,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "ec31e03cca2689b05ab4802be9351adf",
+    "hash": "9d34020ca90c6e555cc23157f76373ab",
     "createdAt": "2023-06-28T19:14:32+00:00",
-    "updatedAt": "2023-10-30T23:54:35+00:00"
+    "updatedAt": "2023-10-31T20:05:22+00:00"
   },
   {
     "id": "help-article-vrchat-crowdin",
@@ -8714,7 +8714,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-vrchat-crowdin.name.Crowdin",
         "fallback": "Crowdin"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/d0d9d3da237a1903f8a0ac7ea7fe066b810ae525a1f695b7833174b945ed615f.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ef26fff8e019bbb731eff3c09e03bd45b464beba55e856cfdeb2c6d166c51f87.png",
       "description": {
         "key": "Tooltips/Crowdin",
         "fallback": "Crowdin"
@@ -8767,9 +8767,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "fd9e9a30c5775c86b7a15febdfc8f290",
+    "hash": "24bdfa29b9a271e6cd225c3d403ceb66",
     "createdAt": "2023-06-12T22:36:51+00:00",
-    "updatedAt": "2023-10-30T23:54:16+00:00"
+    "updatedAt": "2023-10-31T20:05:02+00:00"
   },
   {
     "id": "help-topic-groups",
@@ -8796,15 +8796,15 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "fallback": "Discover VRChat Groups!"
       },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/1e5ff00b91329c824984c5b9cf806e040647d665078cfdb49cbc5a9bc6a1425e.png",
-      "imageUrl": "https://assets.vrchat.com/ips/assets/da7150b96b7e12b338e4a669d6edc4e4a9301449b172027251d8cec11d07eafa.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/451fdab71624a2c335982c6de66148bfc6b2ab75fa4657ed09ce49749391cfea.png",
       "ipsQuery": {
         "require": "help-topic-groups",
         "include": ""
       }
     },
-    "hash": "ad10606c59aedfe0233f914d06151d06",
+    "hash": "adeff561fbc38d27b5848a07d07dd636",
     "createdAt": "2022-11-16T00:38:22+00:00",
-    "updatedAt": "2023-10-30T23:55:53+00:00"
+    "updatedAt": "2023-10-31T20:06:42+00:00"
   },
   {
     "id": "help-topic-worlds",
@@ -9506,7 +9506,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-content-warnings.name.Content-Warnings",
         "fallback": "Content Warnings"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/55d14de3d111627a9379994dcfe66dc820278e9a19d89e00cdf7ba1bcdf7299f.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/a25f1a99ca3ebb938ceae0a4217c1d8f82ef651ccdb1c739545e1bbaadea101b.png",
       "description": {
         "key": "Tooltips/Learn-about-content-warnings.",
         "fallback": "Learn about content warnings."
@@ -9730,9 +9730,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "103467105f9270f5591e6b634e205c2d",
+    "hash": "54122d81846a7eeb16536907b0f82654",
     "createdAt": "2023-10-12T23:41:21+00:00",
-    "updatedAt": "2023-10-30T23:54:57+00:00"
+    "updatedAt": "2023-10-31T20:05:43+00:00"
   },
   {
     "id": "world-community-labs",
@@ -9953,7 +9953,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "release-main-menu-launch.name.Main-Menu-2.0",
         "fallback": "Main Menu 2.0"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/805ffb56a12ed6729fc5195ff2faba5e24df2b3ee4f05140fdb72690f765c5fc.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/e058b250a0898a8292a2a09371ed327feff5fc41c201028194ffddb1182287cc.png",
       "description": {
         "key": "Tooltips/MM-2.0-is-Live!",
         "fallback": "MM 2.0 is Live!"
@@ -10051,9 +10051,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "5e6da923f0b7824f14094cb1756a712e",
+    "hash": "8ae4682d7ffdd07411463ef955559f7c",
     "createdAt": "2022-10-12T22:26:05+00:00",
-    "updatedAt": "2023-10-30T23:54:47+00:00"
+    "updatedAt": "2023-10-31T20:05:34+00:00"
   },
   {
     "id": "help-article-hiring",
@@ -10072,7 +10072,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "key": "help-article-hiring.name.We're-Hiring",
         "fallback": "We're Hiring"
       },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/389813953bddd49251379878eaadde474afe579908ff26fb189b55adf065edb1.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/1b9f0f53cfb2a9cd857c6dbe6653e1ad2b2246e308bf3424ce57b54138190e88.png",
       "description": {
         "key": "Tooltips/Discover-open-job-positions-at-VRChat.",
         "fallback": "Discover open job positions at VRChat."
@@ -10125,9 +10125,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "c3402cf41a1d96d4b3e21a46507cfb1d",
+    "hash": "b11b7cedc9175b105db1c9950044c93b",
     "createdAt": "2022-04-06T00:11:34+00:00",
-    "updatedAt": "2023-10-30T23:54:46+00:00"
+    "updatedAt": "2023-10-31T20:05:33+00:00"
   }
 ]
 ```
