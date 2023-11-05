@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/0/capacity failed maximum, #/4/capacity failed maximum, #/5/capacity failed maximum, #/6/capacity failed maximum, #/9/capacity failed maximum.
+Response schema mismatch: #/0/capacity failed maximum, #/4/capacity failed maximum, #/5/capacity failed maximum, #/6/capacity failed maximum, #/7/capacity failed maximum.
 ```
 
 ## Request
