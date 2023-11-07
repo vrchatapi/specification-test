@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/0/data/description failed type, #/0/data/name failed type, #/0/data/article/content failed type, #/1/data/onPressed/command failed enum, #/2/data/onPressed/command failed enum, #/6/data/onPressed/command failed enum, #/7/data/onPressed/command failed enum, #/8/data/onPressed/command failed enum, #/9/data/onPressed/command failed enum, #/10/data/onPressed/command failed enum, #/31/data/description failed type, #/32/data/description failed type, #/306/data/article/content failed type, #/307/data/article/content failed type, #/308/data/description failed type, #/308/data/name failed type, #/308/data/article/content failed type, #/309/data/description failed type, #/309/data/name failed type, #/309/data/article/content failed type, #/310/data/description failed type, #/310/data/name failed type, #/310/data/article/content failed type, #/311/data/description failed type, #/311/data/name failed type, #/311/data/article/content failed type, #/312/data/description failed type, #/312/data/name failed type, #/312/data/article/content failed type, #/313/data/description failed type, #/313/data/name failed type, #/313/data/article/content failed type, #/314/data/description failed type, #/314/data/name failed type, #/314/data/article/content failed type, #/315/data/description failed type, #/315/data/name failed type, #/315/data/article/content failed type, #/318/data/contentList/name failed type, #/318/data/name failed type, #/320/data/description failed type, #/320/data/name failed type, #/324/data/description failed type, #/324/data/name failed type, #/325/data/description failed type, #/325/data/name failed type, #/325/data/article/content failed type, #/327/data/description failed type, #/327/data/name failed type, #/328/data/description failed type, #/328/data/name failed type, #/328/data/article/content failed type, #/329/data/description failed type, #/329/data/name failed type, #/329/data/article/content failed type, #/330/data/description failed type, #/330/data/name failed type, #/330/data/article/content failed type, #/331/data/description failed type, #/331/data/name failed type, #/332/data/description failed type, #/332/data/name failed type, #/333/data/description failed type, #/333/data/name failed type, #/334/data/contentList/name failed type, #/334/data/name failed type, #/336/data/description failed type, #/336/data/name failed type, #/337/data/contentList/name failed type, #/337/data/name failed type, #/338/data/description failed type, #/338/data/name failed type, #/339/data/contentList/name failed type, #/339/data/name failed type, #/340/data/contentList/name failed type, #/340/data/name failed type, #/341/data/contentList/name failed type, #/341/data/name failed type, #/343/data/contentList/name failed type, #/343/data/name failed type, #/345/data/contentList/name failed type, #/345/data/name failed type, #/346/data/description failed type, #/346/data/name failed type, #/346/data/article/content failed type, #/347/data/contentList/name failed type, #/347/data/name failed type, #/348/data/description failed type, #/348/data/name failed type, #/348/data/article/content failed type, #/349/data/contentList/name failed type, #/349/data/name failed type, #/354/data/contentList/name failed type, #/354/data/name failed type, #/355/data/contentList/name failed type, #/355/data/name failed type, #/356/data/description failed type, #/356/data/name failed type, #/356/data/article/content failed type, #/357/data/description failed type, #/357/data/name failed type, #/357/data/article/content failed type.
+Response schema mismatch: #/0/data/description failed type, #/0/data/name failed type, #/0/data/article/content failed type, #/1/data/onPressed/command failed enum, #/2/data/onPressed/command failed enum, #/6/data/onPressed/command failed enum, #/7/data/onPressed/command failed enum, #/8/data/onPressed/command failed enum, #/9/data/onPressed/command failed enum, #/10/data/onPressed/command failed enum, #/31/data/description failed type, #/32/data/description failed type, #/306/data/article/content failed type, #/307/data/article/content failed type, #/308/data/description failed type, #/308/data/name failed type, #/308/data/article/content failed type, #/309/data/description failed type, #/309/data/name failed type, #/309/data/article/content failed type, #/310/data/description failed type, #/310/data/name failed type, #/310/data/article/content failed type, #/311/data/description failed type, #/311/data/name failed type, #/311/data/article/content failed type, #/312/data/description failed type, #/312/data/name failed type, #/312/data/article/content failed type, #/313/data/description failed type, #/313/data/name failed type, #/313/data/article/content failed type, #/314/data/description failed type, #/314/data/name failed type, #/314/data/article/content failed type, #/315/data/description failed type, #/315/data/name failed type, #/315/data/article/content failed type, #/318/data/contentList/name failed type, #/318/data/name failed type, #/320/data/description failed type, #/320/data/name failed type, #/322/data/description failed type, #/322/data/name failed type, #/323/data/description failed type, #/323/data/name failed type, #/323/data/article/content failed type, #/325/data/description failed type, #/325/data/name failed type, #/326/data/description failed type, #/326/data/name failed type, #/326/data/article/content failed type, #/327/data/description failed type, #/327/data/name failed type, #/327/data/article/content failed type, #/328/data/description failed type, #/328/data/name failed type, #/328/data/article/content failed type, #/329/data/description failed type, #/329/data/name failed type, #/330/data/description failed type, #/330/data/name failed type, #/331/data/description failed type, #/331/data/name failed type, #/332/data/contentList/name failed type, #/332/data/name failed type, #/334/data/description failed type, #/334/data/name failed type, #/335/data/contentList/name failed type, #/335/data/name failed type, #/336/data/description failed type, #/336/data/name failed type, #/337/data/contentList/name failed type, #/337/data/name failed type, #/338/data/contentList/name failed type, #/338/data/name failed type, #/339/data/contentList/name failed type, #/339/data/name failed type, #/341/data/contentList/name failed type, #/341/data/name failed type, #/343/data/contentList/name failed type, #/343/data/name failed type, #/344/data/description failed type, #/344/data/name failed type, #/344/data/article/content failed type, #/345/data/contentList/name failed type, #/345/data/name failed type, #/346/data/description failed type, #/346/data/name failed type, #/346/data/article/content failed type, #/347/data/contentList/name failed type, #/347/data/name failed type, #/352/data/contentList/name failed type, #/352/data/name failed type, #/353/data/contentList/name failed type, #/353/data/name failed type, #/354/data/description failed type, #/354/data/name failed type, #/354/data/article/content failed type, #/355/data/description failed type, #/355/data/name failed type, #/355/data/article/content failed type.
 ```
 
 ## Request
@@ -8310,50 +8310,6 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     "hash": "662e3f4a9a8c0e33a56fcb65e5d7a285",
     "createdAt": "2022-04-01T21:32:09+00:00",
     "updatedAt": "2023-10-31T20:06:43+00:00"
-  },
-  {
-    "id": "world-metafes-2023",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1001,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": "METAFES 2023      virtual expo",
-      "tooltipDescription": "Virtual Expo for VRChat users and creators, showcasing a diverse range of avatars and worlds.",
-      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/10cdf2e61e2e9d07c763a1cca2d442267311ed105fe57f307fec975f4d94ec1c.png",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/6170ecc0945765b8ca82f8d305ca69b84c14f5c2a827ff7e04250c789d875a56.png",
-      "contentList": {
-        "name": "METAFES 2023 - virtual expo",
-        "sortHeading": "order",
-        "sortOwnership": "any",
-        "sortOrder": "ascending",
-        "platform": "ThisPlatformSupported",
-        "tag": "admin_metafes_2023",
-        "bannersTag": "world-category-banner-event-metafes-2023"
-      }
-    },
-    "hash": "de8bc679cf058e640dc2320a37165c00",
-    "createdAt": "2023-10-31T21:21:17+00:00",
-    "updatedAt": "2023-11-02T15:30:05+00:00"
-  },
-  {
-    "id": "world-banner---event-metafes-2023",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1001,
-    "tags": [
-      "world-category-banner-event-metafes-2023",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/5736e9432666f813e0f3e38ef38c9e8cbcc60815478879c0c030ebd4fa965b2f.png"
-    },
-    "hash": "523572d11c5b6cec989f934b5007b3cf",
-    "createdAt": "2023-10-31T21:21:17+00:00",
-    "updatedAt": "2023-11-02T15:30:04+00:00"
   },
   {
     "id": "avatar-public",
