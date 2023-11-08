@@ -38,7 +38,8 @@ Response media type "text/plain; charset=utf-8" not expected.
   "authorId": "8JoV9XEdpo",
   "authorName": "vrchat",
   "tags": [
-    "admin_featured_legacy"
+    "admin_featured_legacy",
+    "admin_content_reviewed"
   ],
   "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
