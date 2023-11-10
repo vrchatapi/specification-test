@@ -46,7 +46,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-vrchat-spookality-2023.name.Spookality-2023",
+        "key": "HelpArticle/VrchatSpookality2023/Name/Spookality-2023",
         "fallback": "Spookality 2023"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/2c789fe4e3d29ba3c44270e140f652f1cabe58c77f7fed842e91762a2e6c6a52.png",
@@ -137,9 +137,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "87a9d80db994152b2dfd97271ebfefb1",
+    "hash": "42697d2a46b0c02f0fd68662b05688d9",
     "createdAt": "2023-10-20T17:34:37+00:00",
-    "updatedAt": "2023-10-31T20:05:22+00:00"
+    "updatedAt": "2023-11-09T17:18:03+00:00"
   },
   {
     "id": "qm-spookality-2023",
@@ -735,13 +735,13 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "fallback": "Purchase a yearly VRC+ subscription now and get 3 additional months free!"
       },
       "description": {
-        "key": "yearly-steam-subscription-offer.description.Special-Holiday-Bonus:-Get-Free-Time!",
+        "key": "VRC+/YearlySteamSubscriptionOffer/Description/Special-Holiday-Bonus:-Get-Free-Time!",
         "fallback": "Special Holiday Bonus: Get Free Time!"
       }
     },
-    "hash": "5c0e519f70d88a70749c34c8b958e9e0",
+    "hash": "d2c0e7109e632c8825c0f03aa042f874",
     "createdAt": "2022-11-14T20:01:56+00:00",
-    "updatedAt": "2023-10-30T23:56:01+00:00"
+    "updatedAt": "2023-11-09T17:20:04+00:00"
   },
   {
     "id": "monthly-steam-subscription-offer",
@@ -764,13 +764,13 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "fallback": "Purchase a monthly VRC+ subscription now and get 1 additional month free!"
       },
       "description": {
-        "key": "monthly-steam-subscription-offer.description.Special-Holiday-Bonus:-Get-Free-Time!",
+        "key": "VRC+/MonthlySteamSubscriptionOffer/Description/Special-Holiday-Bonus:-Get-Free-Time!",
         "fallback": "Special Holiday Bonus: Get Free Time!"
       }
     },
-    "hash": "4ff9c438419d0f840dbdfb03cd301122",
+    "hash": "0d17aa29bbbcff7e49903dc6206dfad9",
     "createdAt": "2022-11-14T20:01:56+00:00",
-    "updatedAt": "2023-10-30T23:56:01+00:00"
+    "updatedAt": "2023-11-09T17:20:03+00:00"
   },
   {
     "id": "search-zoo",
@@ -7260,7 +7260,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-what-vrcp.name.What-is-VRChat-Plus?",
+        "key": "HelpArticle/WhatVrcp/Name/What-is-VRChat-Plus?",
         "fallback": "What is VRChat Plus?"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/54571a9a3517ddb05cf710c1f670dcd0d50af69078b01948de5c07ebf61a6164.png",
@@ -7342,9 +7342,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "358d20a9dba8113ed87527f5b95414e1",
+    "hash": "96cbf9efd46ef2e11b7efa7768fce6db",
     "createdAt": "2022-10-05T23:19:38+00:00",
-    "updatedAt": "2023-10-31T20:06:24+00:00"
+    "updatedAt": "2023-11-09T17:19:28+00:00"
   },
   {
     "id": "help-article-gift-vrcp-quest",
@@ -7363,7 +7363,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-gift-vrcp.name.How-to-Gift-Someone-VRC+",
+        "key": "HelpArticle/GiftVrcp/Name/How-to-Gift-Someone-VRC+",
         "fallback": "How to Gift Someone VRC+"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/503fefb12e43879fb97a319ba7373ca18750f3852bf9b5b823a81b0366c0c078.png",
@@ -7495,9 +7495,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "8c0a518880b90e72c7a18a5cd9fa9a92",
+    "hash": "8d9aaf294886998d12a30d78ebae50ac",
     "createdAt": "2022-10-07T18:19:31+00:00",
-    "updatedAt": "2023-10-31T20:06:23+00:00"
+    "updatedAt": "2023-11-09T17:19:27+00:00"
   },
   {
     "id": "help-article-gift-vrcp-pcvr",
@@ -7516,7 +7516,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-gift-vrcp.name.How-to-Gift-Someone-VRC+",
+        "key": "HelpArticle/GiftVrcp/Name/How-to-Gift-Someone-VRC+",
         "fallback": "How to Gift Someone VRC+"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/503fefb12e43879fb97a319ba7373ca18750f3852bf9b5b823a81b0366c0c078.png",
@@ -7648,9 +7648,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "5b5ec832738416d09bce2812de6cc45a",
+    "hash": "8878491ca0a96cea0b42fa27d0f51c4f",
     "createdAt": "2022-10-07T18:19:29+00:00",
-    "updatedAt": "2023-10-31T20:06:21+00:00"
+    "updatedAt": "2023-11-09T17:19:24+00:00"
   },
   {
     "id": "help-article-gift-vrcp-desktop",
@@ -7669,7 +7669,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-gift-vrcp.name.How-to-Gift-Someone-VRC+",
+        "key": "HelpArticle/GiftVrcp/Name/How-to-Gift-Someone-VRC+",
         "fallback": "How to Gift Someone VRC+"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/503fefb12e43879fb97a319ba7373ca18750f3852bf9b5b823a81b0366c0c078.png",
@@ -7801,9 +7801,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "de069afd0b2841223396ab10350ef068",
+    "hash": "60d936a0028fc65b209315075fe517c4",
     "createdAt": "2022-10-07T18:19:28+00:00",
-    "updatedAt": "2023-10-31T20:06:18+00:00"
+    "updatedAt": "2023-11-09T17:19:21+00:00"
   },
   {
     "id": "help-article-contact-support",
@@ -7819,7 +7819,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-contact-support.name.Contact-Support",
+        "key": "HelpArticle/ContactSupport/Name/Contact-Support",
         "fallback": "Contact Support"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/f745ddc93c72c90d55aceaa08dbb147ab169b13b664225091a283bbcbc032032.png",
@@ -7869,9 +7869,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "4011e54aabfc077f7a77376541b364e8",
+    "hash": "06d17a058d261c7309bf12351788258f",
     "createdAt": "2022-04-07T23:44:28+00:00",
-    "updatedAt": "2023-10-31T20:06:15+00:00"
+    "updatedAt": "2023-11-09T17:19:16+00:00"
   },
   {
     "id": "update-article-202333",
@@ -7888,7 +7888,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "update-article-202333.name.VRChat-Update-2023.3.3",
+        "key": "HelpArticle/UpdateArticle202333/Name/VRChat-Update-2023.3.3",
         "fallback": "VRChat Update - 2023.3.3"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/d0dee4255ce95567d139002946b6520e6977709ceef1d8346a94f2f027d70867.png",
@@ -7930,9 +7930,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "fe1a797467d47c88dadecc1d916f271b",
+    "hash": "7d70a0489d5dbc4f9485c7bb726c4604",
     "createdAt": "2023-10-04T21:39:35+00:00",
-    "updatedAt": "2023-10-31T20:05:34+00:00"
+    "updatedAt": "2023-11-09T17:18:21+00:00"
   },
   {
     "id": "update-article-202332",
@@ -7949,7 +7949,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "update-article-202332.name.VRChat-Update-2023.3.2",
+        "key": "HelpArticle/UpdateArticle202332/Name/VRChat-Update-2023.3.2",
         "fallback": "VRChat Update - 2023.3.2"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/9532a7e15557c6c82af80f2476bf6d96a092722efe6e5dcd61d30347b1388573.png",
@@ -7991,9 +7991,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "952079dce6b833d91dd4fa38a1cd0a75",
+    "hash": "8b759120fd16a465f2eaa15ddb5b0745",
     "createdAt": "2023-08-31T20:23:13+00:00",
-    "updatedAt": "2023-10-31T20:05:34+00:00"
+    "updatedAt": "2023-11-09T17:18:20+00:00"
   },
   {
     "id": "help-article-making-groups",
@@ -8009,7 +8009,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-making-groups.name.Making-Groups",
+        "key": "HelpArticle/MakingGroups/Name/Making-Groups",
         "fallback": "Making Groups"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/e38c0e82ac225a8d7d5fa2db775a02eb475537d30b7ae6cd6c612cb3fb78a325.png",
@@ -8177,9 +8177,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "44564131f12169de7bb39e82f4bf00e4",
+    "hash": "8085df344d6688873137c5a468c4afe3",
     "createdAt": "2022-11-16T01:04:45+00:00",
-    "updatedAt": "2023-10-31T20:05:32+00:00"
+    "updatedAt": "2023-11-09T17:18:18+00:00"
   },
   {
     "id": "world-banner---event-spookality-2023-scary",
@@ -8228,7 +8228,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-spotlight-mobile-test.name.Spotlight-Mobile",
+        "key": "WorldCategory/SpotlightMobileTest/Name/Spotlight-Mobile",
         "fallback": "Spotlight - Mobile"
       },
       "tooltipDescription": {
@@ -8238,7 +8238,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
         "name": {
-          "key": "world-spotlight-mobile-test.name.Spotlight-Mobile",
+          "key": "WorldCategory/SpotlightMobileTest/Name/Spotlight-Mobile",
           "fallback": "Spotlight Mobile"
         },
         "sortHeading": "shuffle",
@@ -8249,9 +8249,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "bannersTag": "world-category-banner-spotlight-mobile"
       }
     },
-    "hash": "49d58bbbc4dd76b65b4199261c71e09a",
+    "hash": "0cbee8ca5a961b46dd114ce89bc53b1f",
     "createdAt": "2023-06-27T00:40:10+00:00",
-    "updatedAt": "2023-10-31T00:04:58+00:00"
+    "updatedAt": "2023-11-09T17:20:11+00:00"
   },
   {
     "id": "world-banner---udon-getstarted",
@@ -8288,7 +8288,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-topic-news.name.News",
+        "key": "HelpTopic/News/Name/News",
         "fallback": "News"
       },
       "description": {
@@ -8307,9 +8307,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "include": ""
       }
     },
-    "hash": "662e3f4a9a8c0e33a56fcb65e5d7a285",
+    "hash": "fe8744d88193b4d441feccde8ac63352",
     "createdAt": "2022-04-01T21:32:09+00:00",
-    "updatedAt": "2023-10-31T20:06:43+00:00"
+    "updatedAt": "2023-11-09T17:19:54+00:00"
   },
   {
     "id": "avatar-public",
@@ -8348,7 +8348,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-topic-essentials.name.Essentials",
+        "key": "HelpTopic/Essentials/Name/Essentials",
         "fallback": "Essentials"
       },
       "description": {
@@ -8368,9 +8368,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "include": ""
       }
     },
-    "hash": "125196c4616ec30c081ba11a38f736f2",
+    "hash": "2f3854bc7a9931d6883e26127df593d3",
     "createdAt": "2022-04-08T12:49:59+00:00",
-    "updatedAt": "2023-10-30T23:55:56+00:00"
+    "updatedAt": "2023-11-09T17:19:57+00:00"
   },
   {
     "id": "help-article-explore-worlds",
@@ -8386,7 +8386,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-explore-worlds.name.Explore-New-Worlds!",
+        "key": "HelpArticle/ExploreWorlds/Name/Explore-New-Worlds!",
         "fallback": "Explore New Worlds!"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/e9981f18065936624266c1bcd5f01656c18c8252d3aefbbd86f2e0e5bb4d2ea9.png",
@@ -8417,9 +8417,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "9167e0e81ac8de7ba8e16af6d17af6d2",
+    "hash": "c581d8bec502a9f4e8f9315ee5dea095",
     "createdAt": "2020-10-07T07:56:47+00:00",
-    "updatedAt": "2023-10-30T23:55:40+00:00"
+    "updatedAt": "2023-11-09T17:19:35+00:00"
   },
   {
     "id": "avatar-legacy",
@@ -8460,7 +8460,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-topic-safety.name.Safety",
+        "key": "HelpTopic/Safety/Name/Safety",
         "fallback": "Safety"
       },
       "description": {
@@ -8479,9 +8479,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "include": ""
       }
     },
-    "hash": "d150b930a927d92ab42bab2ef0bbed02",
+    "hash": "b32753f68a635243c720b9ef57c1dd5f",
     "createdAt": "2022-04-04T21:21:09+00:00",
-    "updatedAt": "2023-10-31T20:06:43+00:00"
+    "updatedAt": "2023-11-09T17:19:55+00:00"
   },
   {
     "id": "help-article-custom-emoji",
@@ -8497,7 +8497,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-custom-emoji.name.Custom-Emoji",
+        "key": "HelpArticle/CustomEmoji/Name/Custom-Emoji",
         "fallback": "Custom Emoji"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/b4e55695212325828c0166533f5f3497f99287a093b41b308c44530614fc4d9a.png",
@@ -8554,9 +8554,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "b9332bae33c57cec226afd7b8ed8f6c1",
+    "hash": "23168bf3bb5b59ec017031352dad8277",
     "createdAt": "2023-06-29T22:22:18+00:00",
-    "updatedAt": "2023-10-30T23:55:28+00:00"
+    "updatedAt": "2023-11-09T17:19:17+00:00"
   },
   {
     "id": "help-article-vrchat-community",
@@ -8573,7 +8573,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-vrchat-community.name.The-VRChat-Community",
+        "key": "HelpArticle/VrchatCommunity/Name/The-VRChat-Community",
         "fallback": "The VRChat Community"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/d42de585fb6f64ed92e5183e3e7143d56b74e809a28acddc2c22755cc07beb75.png",
@@ -8693,9 +8693,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "9d34020ca90c6e555cc23157f76373ab",
+    "hash": "1c1adfe138e8cd2fd4b2bf44205735ba",
     "createdAt": "2023-06-28T19:14:32+00:00",
-    "updatedAt": "2023-10-31T20:05:22+00:00"
+    "updatedAt": "2023-11-09T17:18:03+00:00"
   },
   {
     "id": "help-article-vrchat-crowdin",
@@ -8711,7 +8711,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-vrchat-crowdin.name.Crowdin",
+        "key": "HelpArticle/VrchatCrowdin/Name/Crowdin",
         "fallback": "Crowdin"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/ef26fff8e019bbb731eff3c09e03bd45b464beba55e856cfdeb2c6d166c51f87.png",
@@ -8767,9 +8767,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "24bdfa29b9a271e6cd225c3d403ceb66",
+    "hash": "6867ce66ff26b7f906eb4c25b3386f7d",
     "createdAt": "2023-06-12T22:36:51+00:00",
-    "updatedAt": "2023-10-31T20:05:02+00:00"
+    "updatedAt": "2023-11-09T17:17:36+00:00"
   },
   {
     "id": "help-topic-groups",
@@ -8784,7 +8784,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-topic-groups.name.Groups",
+        "key": "HelpTopic/Groups/Name/Groups",
         "fallback": "Groups"
       },
       "description": {
@@ -8802,9 +8802,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "include": ""
       }
     },
-    "hash": "adeff561fbc38d27b5848a07d07dd636",
+    "hash": "e74dbfacc5566efe799b31923d8feb6e",
     "createdAt": "2022-11-16T00:38:22+00:00",
-    "updatedAt": "2023-10-31T20:06:42+00:00"
+    "updatedAt": "2023-11-09T17:19:52+00:00"
   },
   {
     "id": "help-topic-worlds",
@@ -8818,7 +8818,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-topic-worlds.name.Worlds",
+        "key": "HelpTopic/Worlds/Name/Worlds",
         "fallback": "Worlds"
       },
       "description": {
@@ -8836,9 +8836,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "include": ""
       }
     },
-    "hash": "ec6017c03a1ce29a39c2935c08c8da7f",
+    "hash": "34dd0195b4a644c7768242b977d5c233",
     "createdAt": "2022-03-11T00:25:55+00:00",
-    "updatedAt": "2023-10-30T23:55:56+00:00"
+    "updatedAt": "2023-11-09T17:19:57+00:00"
   },
   {
     "id": "help-topic-support",
@@ -8852,7 +8852,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-topic-support.name.Support",
+        "key": "HelpTopic/Support/Name/Support",
         "fallback": "Support"
       },
       "description": {
@@ -8870,9 +8870,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "include": ""
       }
     },
-    "hash": "f5e103d07a3723a441c9830da834b6b1",
+    "hash": "25d31b078793c9c0214c6bfc8132bf1f",
     "createdAt": "2022-03-11T00:25:55+00:00",
-    "updatedAt": "2023-10-30T23:55:55+00:00"
+    "updatedAt": "2023-11-09T17:19:55+00:00"
   },
   {
     "id": "world-trending",
@@ -8886,7 +8886,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-trending.name.Trending",
+        "key": "WorldCategory/Trending/Name/Trending",
         "fallback": "Trending"
       },
       "tooltipDescription": {
@@ -8896,7 +8896,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/5568aa5059b72048ec0560b0eb68822c5ea338e5235637c36a3273f1081176ef.png",
       "contentList": {
         "name": {
-          "key": "world-trending.name.Hot",
+          "key": "WorldCategory/Trending/Name/Hot",
           "fallback": "Hot"
         },
         "sortHeading": "heat",
@@ -8907,9 +8907,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "avatarSpecific": false
       }
     },
-    "hash": "289a591760ff22d1d925438de7cd3ddc",
+    "hash": "d520e698f9faf154f41d5e63e5a166be",
     "createdAt": "2022-03-30T01:07:23+00:00",
-    "updatedAt": "2023-10-31T00:04:58+00:00"
+    "updatedAt": "2023-11-09T17:20:12+00:00"
   },
   {
     "id": "launch-werehiring",
@@ -8945,11 +8945,11 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-topic-vrcplus.name.VRC+",
+        "key": "HelpTopic/Vrcplus/Name/VRC+",
         "fallback": "VRC+"
       },
       "description": {
-        "key": "help-topic-vrcplus.description.VRC+",
+        "key": "HelpTopic/Vrcplus/Description/VRC+",
         "fallback": "VRC+"
       },
       "tooltipDescription": {
@@ -8963,9 +8963,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "include": ""
       }
     },
-    "hash": "1aec500180c2362f4473490ad771c2e5",
+    "hash": "aaa37e3b2c1f84aca68682d3e0cb4b16",
     "createdAt": "2022-10-06T19:54:48+00:00",
-    "updatedAt": "2023-10-30T23:55:56+00:00"
+    "updatedAt": "2023-11-09T17:19:56+00:00"
   },
   {
     "id": "world-avatar-worlds-trending",
@@ -8979,7 +8979,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-avatar-worlds-trending.name.Avatar-Worlds-Trending",
+        "key": "WorldCategory/AvatarWorldsTrending/Name/Avatar-Worlds-Trending",
         "fallback": "Avatar Worlds - Trending"
       },
       "tooltipDescription": {
@@ -8989,7 +8989,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
         "name": {
-          "key": "world-avatar-worlds-trending.name.Avatar-Worlds-Trending",
+          "key": "WorldCategory/AvatarWorldsTrending/Name/Avatar-Worlds-Trending",
           "fallback": "Avatar Worlds - Trending"
         },
         "sortHeading": "heat",
@@ -9000,9 +9000,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "bannersTag": "world-category-banner-avatar"
       }
     },
-    "hash": "6c9b44483a4e6173bce276c584f9f824",
+    "hash": "06bd21310de2b832264e4bfa72480364",
     "createdAt": "2023-08-10T20:44:02+00:00",
-    "updatedAt": "2023-10-31T00:04:56+00:00"
+    "updatedAt": "2023-11-09T17:20:09+00:00"
   },
   {
     "id": "help-topic-settings",
@@ -9016,7 +9016,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-topic-settings.name.Settings",
+        "key": "HelpTopic/Settings/Name/Settings",
         "fallback": "Settings"
       },
       "description": {
@@ -9034,9 +9034,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "include": ""
       }
     },
-    "hash": "931dd7895d4483e92ba23adfbd9936fb",
+    "hash": "7d2c5b6cb4937f23c321aa131082262e",
     "createdAt": "2022-04-07T23:44:31+00:00",
-    "updatedAt": "2023-10-30T23:55:55+00:00"
+    "updatedAt": "2023-11-09T17:19:56+00:00"
   },
   {
     "id": "world-games",
@@ -9050,7 +9050,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-games.name.Games-Hot",
+        "key": "WorldCategory/Games/Name/Games-Hot",
         "fallback": "Games - Hot"
       },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/f13fed02d81a04a7dc8d1d9c2960d43ed955ac1d84a87fe9348087cb2a9c4343.png",
@@ -9060,7 +9060,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       },
       "contentList": {
         "name": {
-          "key": "world-games.name.Games-Hot",
+          "key": "WorldCategory/Games/Name/Games-Hot",
           "fallback": "Games - Hot"
         },
         "sortHeading": "heat",
@@ -9072,9 +9072,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "avatarSpecific": false
       }
     },
-    "hash": "6cf878dd74acc24c3d778f28fa25db2e",
+    "hash": "fb575ee9ae82b32af684ad9b06136e28",
     "createdAt": "2023-08-12T23:23:57+00:00",
-    "updatedAt": "2023-10-31T00:04:57+00:00"
+    "updatedAt": "2023-11-09T17:20:10+00:00"
   },
   {
     "id": "world-spotlight-crossplatform",
@@ -9088,11 +9088,11 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-spotlight-crossplatform.name.Spotlight-Cross-Platform",
+        "key": "WorldCategory/SpotlightCrossplatform/Name/Spotlight-Cross-Platform",
         "fallback": "Spotlight - Cross Platform"
       },
       "shortName": {
-        "key": "world-spotlight-crossplatform.short-name.Spotlight-X-Plat",
+        "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
         "fallback": "Spotlight X Plat"
       },
       "tooltipDescription": {
@@ -9102,11 +9102,11 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
         "name": {
-          "key": "world-spotlight-crossplatform.name.Spotlight-Cross-Platform",
+          "key": "WorldCategory/SpotlightCrossplatform/Name/Spotlight-Cross-Platform",
           "fallback": "Spotlight Cross Platform"
         },
         "shortName": {
-          "key": "world-spotlight-crossplatform.short-name.Spotlight-X-Plat",
+          "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
           "fallback": "Spotlight X Plat"
         },
         "sortHeading": "random",
@@ -9117,9 +9117,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "bannersTag": "world-category-banner-spotlight-xplat"
       }
     },
-    "hash": "3ef8fe6a404a98cd7ec5ad13e3a432c6",
+    "hash": "352bb1916a5d88816473c9ebe79bd986",
     "createdAt": "2022-06-24T23:34:50+00:00",
-    "updatedAt": "2023-10-31T00:04:58+00:00"
+    "updatedAt": "2023-11-09T17:20:12+00:00"
   },
   {
     "id": "world-spotlight-pc",
@@ -9136,7 +9136,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-spotlight-pc.name.Spotlight-PC",
+        "key": "WorldCategory/SpotlightPc/Name/Spotlight-PC",
         "fallback": "Spotlight - PC"
       },
       "tooltipDescription": {
@@ -9146,7 +9146,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
         "name": {
-          "key": "world-spotlight-pc.name.Spotlight-PC",
+          "key": "WorldCategory/SpotlightPc/Name/Spotlight-PC",
           "fallback": "Spotlight PC"
         },
         "sortHeading": "random",
@@ -9157,9 +9157,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "bannersTag": "world-category-banner-spotlight"
       }
     },
-    "hash": "3e0891c8fab3a2c222a116e4bfb95597",
+    "hash": "97ffaac2a46cbaf003e3cdff14ca6ddc",
     "createdAt": "2022-06-24T23:34:50+00:00",
-    "updatedAt": "2023-10-31T00:04:58+00:00"
+    "updatedAt": "2023-11-09T17:20:11+00:00"
   },
   {
     "id": "launch-feedback",
@@ -9195,7 +9195,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-new.name.New",
+        "key": "WorldCategory/New/Name/New",
         "fallback": "New"
       },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/e5a352ccf894dd8a30001611e525caeaf3ec7710444610703549fb306f542400.png",
@@ -9205,7 +9205,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       },
       "contentList": {
         "name": {
-          "key": "world-new.name.New",
+          "key": "WorldCategory/New/Name/New",
           "fallback": "New"
         },
         "sortHeading": "publication",
@@ -9216,9 +9216,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "avatarSpecific": false
       }
     },
-    "hash": "150db5853fbf943e090a4ce3ed70b57b",
+    "hash": "9f3f187a531f2a0bdef282f5a769ebd5",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-10-31T00:04:57+00:00"
+    "updatedAt": "2023-11-09T17:20:10+00:00"
   },
   {
     "id": "LAUNCH---SDK",
@@ -9254,7 +9254,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-avatar-worlds-new.name.Avatar-Worlds-New",
+        "key": "WorldCategory/AvatarWorldsNew/Name/Avatar-Worlds-New",
         "fallback": "Avatar Worlds - New"
       },
       "tooltipDescription": {
@@ -9264,7 +9264,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
         "name": {
-          "key": "world-avatar-worlds-new.name.Avatar-Worlds-New",
+          "key": "WorldCategory/AvatarWorldsNew/Name/Avatar-Worlds-New",
           "fallback": "Avatar Worlds - New"
         },
         "sortHeading": "publication",
@@ -9275,9 +9275,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "bannersTag": "world-category-banner-avatar-new"
       }
     },
-    "hash": "fb444249cb9061c8d3a103b52cd7b93e",
+    "hash": "581ced21a95143a1049f1c19b8c1c370",
     "createdAt": "2023-08-10T19:34:15+00:00",
-    "updatedAt": "2023-10-31T00:04:57+00:00"
+    "updatedAt": "2023-11-09T17:20:09+00:00"
   },
   {
     "id": "release-avatar-dynamics",
@@ -9293,7 +9293,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "release-avatar-dynamics.name.Avatar-Dynamics",
+        "key": "HelpArticle/ReleaseAvatarDynamics/Name/Avatar-Dynamics",
         "fallback": "Avatar Dynamics"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/db47779b927fb761d62698a189ed44ebde80fe723efc97866fc3ec303fd541ca.png",
@@ -9449,9 +9449,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "e0e784056145d3ad8fc836c2fd278c69",
+    "hash": "f4d4abb7c4071c2936abcb273a0d63a5",
     "createdAt": "2022-02-16T22:37:24+00:00",
-    "updatedAt": "2023-10-30T23:54:47+00:00"
+    "updatedAt": "2023-11-09T17:18:20+00:00"
   },
   {
     "id": "world-updated-recently",
@@ -9465,7 +9465,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-updated-recently.name.Updated-Recently",
+        "key": "WorldCategory/UpdatedRecently/Name/Updated-Recently",
         "fallback": "Updated Recently"
       },
       "tooltipDescription": {
@@ -9475,7 +9475,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/06737a66fb6de284125da130c1866ec729d7bbd9b8cdfdafee2b23840b153c67.png",
       "contentList": {
         "name": {
-          "key": "world-updated-recently.name.Updated-Recently",
+          "key": "WorldCategory/UpdatedRecently/Name/Updated-Recently",
           "fallback": "Updated Recently"
         },
         "sortHeading": "updated",
@@ -9485,9 +9485,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "bannersTag": "world-category-banner-updated-recently"
       }
     },
-    "hash": "5ea90aff08ed1c6f704f1fb622249621",
+    "hash": "3fb4744d90d721ad83b9bbdf45569df2",
     "createdAt": "2020-06-05T08:23:32+00:00",
-    "updatedAt": "2023-10-31T00:04:59+00:00"
+    "updatedAt": "2023-11-09T17:20:12+00:00"
   },
   {
     "id": "help-article-content-warnings",
@@ -9503,7 +9503,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-content-warnings.name.Content-Warnings",
+        "key": "HelpArticle/ContentWarnings/Name/Content-Warnings",
         "fallback": "Content Warnings"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/a25f1a99ca3ebb938ceae0a4217c1d8f82ef651ccdb1c739545e1bbaadea101b.png",
@@ -9730,9 +9730,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "54122d81846a7eeb16536907b0f82654",
+    "hash": "dd6f31d2c8e07d22ce144ef17738e20d",
     "createdAt": "2023-10-12T23:41:21+00:00",
-    "updatedAt": "2023-10-31T20:05:43+00:00"
+    "updatedAt": "2023-11-09T17:18:33+00:00"
   },
   {
     "id": "world-community-labs",
@@ -9746,7 +9746,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-community-labs.name.Community-Labs",
+        "key": "WorldCategory/CommunityLabs/Name/Community-Labs",
         "fallback": "Community Labs"
       },
       "tooltipDescription": {
@@ -9756,7 +9756,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/7846fda184f0ee4686558903b87823890351cac53a501b95f848b46b227294b1.png",
       "contentList": {
         "name": {
-          "key": "world-community-labs.name.Community-Labs",
+          "key": "WorldCategory/CommunityLabs/Name/Community-Labs",
           "fallback": "Community Labs"
         },
         "sortHeading": "labs",
@@ -9766,9 +9766,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "bannersTag": "world-category-banner-labs"
       }
     },
-    "hash": "35d5ad7508ca00c0b76f9935d0c0606b",
+    "hash": "dae8cc41a6b58f99df525b088b59c286",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-10-31T00:04:57+00:00"
+    "updatedAt": "2023-11-09T17:20:10+00:00"
   },
   {
     "id": "search-promoted-Spookality",
@@ -9874,7 +9874,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-random.name.Random",
+        "key": "WorldCategory/Random/Name/Random",
         "fallback": "Random"
       },
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/0b0ca87fa01cdfce085a9f1080336e2d819717dd98bf10405a3a76a346b79629.png",
@@ -9884,7 +9884,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       },
       "contentList": {
         "name": {
-          "key": "world-random.name.Random",
+          "key": "WorldCategory/Random/Name/Random",
           "fallback": "Random"
         },
         "sortHeading": "shuffle",
@@ -9895,9 +9895,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "avatarSpecific": false
       }
     },
-    "hash": "c275453716f26df89d35785d422cba4e",
+    "hash": "243161716c5d65dbd055fef53a27bf73",
     "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-10-31T00:04:58+00:00"
+    "updatedAt": "2023-11-09T17:20:11+00:00"
   },
   {
     "id": "world-avatar-worlds-random",
@@ -9911,7 +9911,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "world-avatar-worlds-random.name.Avatar-Worlds-Random",
+        "key": "WorldCategory/AvatarWorldsRandom/Name/Avatar-Worlds-Random",
         "fallback": "Avatar Worlds - Random"
       },
       "tooltipDescription": {
@@ -9921,7 +9921,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
         "name": {
-          "key": "world-avatar-worlds-random.name.Avatar-Worlds-Random",
+          "key": "WorldCategory/AvatarWorldsRandom/Name/Avatar-Worlds-Random",
           "fallback": "Avatar Worlds - Random"
         },
         "sortHeading": "shuffle",
@@ -9932,9 +9932,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "bannersTag": "world-category-banner-avatar-random"
       }
     },
-    "hash": "900a4ea1b2562982fe57806cce1673fb",
+    "hash": "dc9b5d0f53b3ec6503e0fb73f5d5ab91",
     "createdAt": "2023-08-10T19:34:16+00:00",
-    "updatedAt": "2023-10-31T00:04:57+00:00"
+    "updatedAt": "2023-11-09T17:20:09+00:00"
   },
   {
     "id": "release-main-menu-launch",
@@ -9950,7 +9950,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "release-main-menu-launch.name.Main-Menu-2.0",
+        "key": "HelpArticle/ReleaseMainMenuLaunch/Name/Main-Menu-2.0",
         "fallback": "Main Menu 2.0"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/e058b250a0898a8292a2a09371ed327feff5fc41c201028194ffddb1182287cc.png",
@@ -10051,9 +10051,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "8ae4682d7ffdd07411463ef955559f7c",
+    "hash": "0d4133f557ed8cf1c4bd7e48471f2855",
     "createdAt": "2022-10-12T22:26:05+00:00",
-    "updatedAt": "2023-10-31T20:05:34+00:00"
+    "updatedAt": "2023-11-09T17:18:20+00:00"
   },
   {
     "id": "help-article-hiring",
@@ -10069,7 +10069,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     ],
     "data": {
       "name": {
-        "key": "help-article-hiring.name.We're-Hiring",
+        "key": "HelpArticle/Hiring/Name/We're-Hiring",
         "fallback": "We're Hiring"
       },
       "imageUrl": "https://assets.vrchat.com/ips/assets/1b9f0f53cfb2a9cd857c6dbe6653e1ad2b2246e308bf3424ce57b54138190e88.png",
@@ -10125,9 +10125,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         ]
       }
     },
-    "hash": "b11b7cedc9175b105db1c9950044c93b",
+    "hash": "c330c83c045f368a27691b1b1349bee9",
     "createdAt": "2022-04-06T00:11:34+00:00",
-    "updatedAt": "2023-10-31T20:05:33+00:00"
+    "updatedAt": "2023-11-09T17:18:18+00:00"
   }
 ]
 ```
