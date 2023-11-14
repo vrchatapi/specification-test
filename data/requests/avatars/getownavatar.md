@@ -1,10 +1,5 @@
 # getOwnAvatar
 
-## Fail logs
-```
-Response media type "text/plain; charset=utf-8" not expected.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 
@@ -22,7 +17,7 @@ Response media type "text/plain; charset=utf-8" not expected.
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-type | `text/plain; charset=utf-8` |
+| content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
