@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/0/data/description failed type, #/0/data/name failed type, #/0/data/article/content failed type, #/1/data/onPressed/command failed enum, #/2/data/onPressed/command failed enum, #/6/data/onPressed/command failed enum, #/7/data/onPressed/command failed enum, #/8/data/onPressed/command failed enum, #/9/data/onPressed/command failed enum, #/10/data/onPressed/command failed enum, #/31/data/description failed type, #/32/data/description failed type, #/306/data/article/content failed type, #/307/data/article/content failed type, #/308/data/description failed type, #/308/data/name failed type, #/308/data/article/content failed type, #/309/data/description failed type, #/309/data/name failed type, #/309/data/article/content failed type, #/310/data/description failed type, #/310/data/name failed type, #/310/data/article/content failed type, #/311/data/description failed type, #/311/data/name failed type, #/311/data/article/content failed type, #/312/data/description failed type, #/312/data/name failed type, #/312/data/article/content failed type, #/313/data/description failed type, #/313/data/name failed type, #/313/data/article/content failed type, #/314/data/description failed type, #/314/data/name failed type, #/314/data/article/content failed type, #/315/data/description failed type, #/315/data/name failed type, #/315/data/article/content failed type, #/318/data/contentList/name failed type, #/318/data/name failed type, #/320/data/description failed type, #/320/data/name failed type, #/322/data/description failed type, #/322/data/name failed type, #/323/data/description failed type, #/323/data/name failed type, #/323/data/article/content failed type, #/325/data/description failed type, #/325/data/name failed type, #/326/data/description failed type, #/326/data/name failed type, #/326/data/article/content failed type, #/327/data/description failed type, #/327/data/name failed type, #/327/data/article/content failed type, #/328/data/description failed type, #/328/data/name failed type, #/328/data/article/content failed type, #/329/data/description failed type, #/329/data/name failed type, #/330/data/description failed type, #/330/data/name failed type, #/331/data/description failed type, #/331/data/name failed type, #/332/data/contentList/name failed type, #/332/data/name failed type, #/334/data/description failed type, #/334/data/name failed type, #/335/data/contentList/name failed type, #/335/data/name failed type, #/336/data/description failed type, #/336/data/name failed type, #/337/data/contentList/name failed type, #/337/data/name failed type, #/338/data/contentList/name failed type, #/338/data/name failed type, #/339/data/contentList/name failed type, #/339/data/name failed type, #/341/data/contentList/name failed type, #/341/data/name failed type, #/343/data/contentList/name failed type, #/343/data/name failed type, #/344/data/description failed type, #/344/data/name failed type, #/344/data/article/content failed type, #/345/data/contentList/name failed type, #/345/data/name failed type, #/346/data/description failed type, #/346/data/name failed type, #/346/data/article/content failed type, #/347/data/contentList/name failed type, #/347/data/name failed type, #/352/data/contentList/name failed type, #/352/data/name failed type, #/353/data/contentList/name failed type, #/353/data/name failed type, #/354/data/description failed type, #/354/data/name failed type, #/354/data/article/content failed type, #/355/data/description failed type, #/355/data/name failed type, #/355/data/article/content failed type.
+Response schema mismatch: #/0/data/description failed type, #/0/data/name failed type, #/0/data/article/content failed type, #/1/data/onPressed/command failed enum, #/2/data/onPressed/command failed enum, #/6/data/onPressed/command failed enum, #/7/data/onPressed/command failed enum, #/8/data/onPressed/command failed enum, #/9/data/onPressed/command failed enum, #/10/data/onPressed/command failed enum, #/31/data/description failed type, #/32/data/description failed type, #/33/data/name failed type, #/34/data/name failed type, #/35/data/name failed type, #/36/data/name failed type, #/37/data/name failed type, #/38/data/name failed type, #/39/data/name failed type, #/40/data/name failed type, #/41/data/name failed type, #/42/data/name failed type, #/43/data/name failed type, #/44/data/name failed type, #/45/data/name failed type, #/46/data/name failed type, #/47/data/name failed type, #/48/data/name failed type, #/49/data/name failed type, #/50/data/name failed type, #/51/data/name failed type, #/52/data/name failed type, #/53/data/name failed type, #/54/data/name failed type, #/55/data/name failed type, #/56/data/name failed type, #/57/data/name failed type, #/58/data/name failed type, #/59/data/name failed type, #/60/data/name failed type, #/61/data/name failed type, #/62/data/name failed type, #/63/data/name failed type, #/64/data/name failed type, #/65/data/name failed type, #/66/data/name failed type, #/67/data/name failed type, #/68/data/name failed type, #/69/data/name failed type, #/70/data/name failed type, #/71/data/name failed type, #/72/data/name failed type, #/73/data/name failed type, #/74/data/name failed type, #/75/data/name failed type, #/76/data/name failed type, #/77/data/name failed type, #/78/data/name failed type, #/79/data/name failed type, #/80/data/name failed type, #/81/data/name failed type, #/82/data/name failed type, #/83/data/name failed type, #/84/data/name failed type, #/85/data/name failed type, #/86/data/name failed type, #/87/data/name failed type, #/88/data/name failed type, #/89/data/name failed type, #/90/data/name failed type, #/91/data/name failed type, #/92/data/name failed type, #/93/data/name failed type, #/94/data/name failed type, #/95/data/name failed type, #/96/data/name failed type, #/97/data/name failed type, #/98/data/name failed type, #/99/data/name failed type, #/100/data/name failed type, #/101/data/name failed type, #/102/data/name failed type, #/103/data/name failed type, #/104/data/name failed type, #/105/data/name failed type, #/106/data/name failed type, #/107/data/name failed type, #/108/data/name failed type, #/109/data/name failed type, #/110/data/name failed type, #/111/data/name failed type, #/112/data/name failed type, #/113/data/name failed type, #/114/data/name failed type, #/115/data/name failed type, #/116/data/name failed type, #/117/data/name failed type, #/118/data/name failed type, #/119/data/name failed type, #/120/data/name failed type, #/121/data/name failed type, #/122/data/name failed type, #/123/data/name failed type, #/124/data/name failed type, #/125/data/name failed type, #/126/data/name failed type, #/127/data/name failed type, #/128/data/name failed type, #/129/data/name failed type, #/130/data/name failed type, #/131/data/name failed type, #/132/data/name failed type, #/133/data/name failed type, #/134/data/name failed type, #/135/data/name failed type, #/136/data/name failed type, #/137/data/name failed type, #/138/data/name failed type, #/139/data/name failed type, #/140/data/name failed type, #/141/data/name failed type, #/142/data/name failed type, #/143/data/name failed type, #/144/data/name failed type, #/145/data/name failed type, #/146/data/name failed type, #/147/data/name failed type, #/148/data/name failed type, #/149/data/name failed type, #/150/data/name failed type, #/151/data/name failed type, #/152/data/name failed type, #/153/data/name failed type, #/154/data/name failed type, #/155/data/name failed type, #/156/data/name failed type, #/157/data/name failed type, #/158/data/name failed type, #/159/data/name failed type, #/160/data/name failed type, #/161/data/name failed type, #/162/data/name failed type, #/163/data/name failed type, #/164/data/name failed type, #/165/data/name failed type, #/166/data/name failed type, #/167/data/name failed type, #/168/data/name failed type, #/169/data/name failed type, #/170/data/name failed type, #/171/data/name failed type, #/172/data/name failed type, #/173/data/name failed type, #/174/data/name failed type, #/175/data/name failed type, #/176/data/name failed type, #/177/data/name failed type, #/178/data/name failed type, #/179/data/name failed type, #/180/data/name failed type, #/181/data/name failed type, #/182/data/name failed type, #/183/data/name failed type, #/184/data/name failed type, #/185/data/name failed type, #/186/data/name failed type, #/187/data/name failed type, #/188/data/name failed type, #/189/data/name failed type, #/190/data/name failed type, #/191/data/name failed type, #/192/data/name failed type, #/193/data/name failed type, #/194/data/name failed type, #/195/data/name failed type, #/196/data/name failed type, #/197/data/name failed type, #/198/data/name failed type, #/199/data/name failed type, #/200/data/name failed type, #/201/data/name failed type, #/202/data/name failed type, #/203/data/name failed type, #/204/data/name failed type, #/205/data/name failed type, #/206/data/name failed type, #/207/data/name failed type, #/208/data/name failed type, #/209/data/name failed type, #/210/data/name failed type, #/211/data/name failed type, #/212/data/name failed type, #/213/data/name failed type, #/214/data/name failed type, #/215/data/name failed type, #/216/data/name failed type, #/217/data/name failed type, #/218/data/name failed type, #/219/data/name failed type, #/220/data/name failed type, #/221/data/name failed type, #/222/data/name failed type, #/223/data/name failed type, #/224/data/name failed type, #/225/data/name failed type, #/226/data/name failed type, #/227/data/name failed type, #/228/data/name failed type, #/229/data/name failed type, #/230/data/name failed type, #/231/data/name failed type, #/232/data/name failed type, #/233/data/name failed type, #/234/data/name failed type, #/235/data/name failed type, #/236/data/name failed type, #/237/data/name failed type, #/238/data/name failed type, #/239/data/name failed type, #/240/data/name failed type, #/241/data/name failed type, #/242/data/name failed type, #/243/data/name failed type, #/244/data/name failed type, #/245/data/name failed type, #/246/data/name failed type, #/247/data/name failed type, #/248/data/name failed type, #/249/data/name failed type, #/250/data/name failed type, #/251/data/name failed type, #/252/data/name failed type, #/253/data/name failed type, #/254/data/name failed type, #/255/data/name failed type, #/256/data/name failed type, #/257/data/name failed type, #/258/data/name failed type, #/259/data/name failed type, #/260/data/name failed type, #/261/data/name failed type, #/262/data/name failed type, #/263/data/name failed type, #/264/data/name failed type, #/265/data/name failed type, #/266/data/name failed type, #/267/data/name failed type, #/268/data/name failed type, #/269/data/name failed type, #/270/data/name failed type, #/271/data/name failed type, #/272/data/name failed type, #/273/data/name failed type, #/274/data/name failed type, #/275/data/name failed type, #/276/data/name failed type, #/277/data/name failed type, #/278/data/name failed type, #/279/data/name failed type, #/280/data/name failed type, #/281/data/name failed type, #/282/data/name failed type, #/306/data/article/content failed type, #/307/data/article/content failed type, #/308/data/description failed type, #/308/data/name failed type, #/308/data/article/content failed type, #/309/data/description failed type, #/309/data/name failed type, #/309/data/article/content failed type, #/310/data/description failed type, #/310/data/name failed type, #/310/data/article/content failed type, #/311/data/description failed type, #/311/data/name failed type, #/311/data/article/content failed type, #/312/data/description failed type, #/312/data/name failed type, #/312/data/article/content failed type, #/313/data/description failed type, #/313/data/name failed type, #/313/data/article/content failed type, #/314/data/description failed type, #/314/data/name failed type, #/314/data/article/content failed type, #/315/data/description failed type, #/315/data/name failed type, #/315/data/article/content failed type, #/318/data/contentList/name failed type, #/318/data/name failed type, #/320/data/description failed type, #/320/data/name failed type, #/321/data/contentList/name failed type, #/322/data/description failed type, #/322/data/name failed type, #/323/data/description failed type, #/323/data/name failed type, #/323/data/article/content failed type, #/324/data/contentList/name failed type, #/325/data/description failed type, #/325/data/name failed type, #/326/data/description failed type, #/326/data/name failed type, #/326/data/article/content failed type, #/327/data/description failed type, #/327/data/name failed type, #/327/data/article/content failed type, #/328/data/description failed type, #/328/data/name failed type, #/328/data/article/content failed type, #/329/data/description failed type, #/329/data/name failed type, #/330/data/description failed type, #/330/data/name failed type, #/331/data/description failed type, #/331/data/name failed type, #/332/data/contentList/name failed type, #/332/data/name failed type, #/334/data/description failed type, #/334/data/name failed type, #/335/data/contentList/name failed type, #/335/data/name failed type, #/336/data/description failed type, #/336/data/name failed type, #/337/data/contentList/name failed type, #/337/data/name failed type, #/338/data/contentList/name failed type, #/338/data/name failed type, #/339/data/contentList/name failed type, #/339/data/name failed type, #/341/data/contentList/name failed type, #/341/data/name failed type, #/343/data/contentList/name failed type, #/343/data/name failed type, #/344/data/description failed type, #/344/data/name failed type, #/344/data/article/content failed type, #/345/data/contentList/name failed type, #/345/data/name failed type, #/346/data/description failed type, #/346/data/name failed type, #/346/data/article/content failed type, #/347/data/contentList/name failed type, #/347/data/name failed type, #/352/data/contentList/name failed type, #/352/data/name failed type, #/353/data/contentList/name failed type, #/353/data/name failed type, #/354/data/description failed type, #/354/data/name failed type, #/354/data/article/content failed type, #/355/data/description failed type, #/355/data/name failed type, #/355/data/article/content failed type.
 ```
 
 ## Request
@@ -777,12 +777,16 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "zoo",
+      "name": {
+        "key": "SuggestedSearch/Zoo/Name/zoo",
+        "fallback": "zoo"
+      },
       "search": {
         "searchQuery": "zoo",
         "searchTags": "",
@@ -791,21 +795,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a4a7aec48e80b9674a484cd4adc2ea43",
+    "hash": "7c152065ab43bc4d9ac85f1408994edc",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-zombie",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "zombie",
+      "name": {
+        "key": "SuggestedSearch/Zombie/Name/zombie",
+        "fallback": "zombie"
+      },
       "search": {
         "searchQuery": "zombie",
         "searchTags": "",
@@ -814,21 +822,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "1079e1b92ab19df592be96bd78ad350d",
+    "hash": "d1d90ccfd3b2f44135c76fbf4ac849f2",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-workout",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "workout",
+      "name": {
+        "key": "SuggestedSearch/Workout/Name/workout",
+        "fallback": "workout"
+      },
       "search": {
         "searchQuery": "workout",
         "searchTags": "",
@@ -837,21 +849,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ac492f679f10524de41fcb9a66374824",
+    "hash": "601fd7f75512201c371a981ae3848d12",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-winter",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "winter",
+      "name": {
+        "key": "SuggestedSearch/Winter/Name/winter",
+        "fallback": "winter"
+      },
       "search": {
         "searchQuery": "winter",
         "searchTags": "",
@@ -860,21 +876,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "960dfea8b9a20ecb900d4037b55a6799",
+    "hash": "1d2038e5bc698226e6e563a141da9916",
     "createdAt": "2022-04-08T17:56:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-western",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "western",
+      "name": {
+        "key": "SuggestedSearch/Western/Name/western",
+        "fallback": "western"
+      },
       "search": {
         "searchQuery": "western",
         "searchTags": "",
@@ -883,21 +903,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "02ab80f17138c9bd3f1670339d05bb4c",
+    "hash": "c30b98a74adacd96fb16e5a264d528bb",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-weird",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "weird",
+      "name": {
+        "key": "SuggestedSearch/Weird/Name/weird",
+        "fallback": "weird"
+      },
       "search": {
         "searchQuery": "weird",
         "searchTags": "",
@@ -906,21 +930,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "66a5a2beb97bb3f14870244d34faa6dc",
+    "hash": "c06786485e1a343e87a9bed80d2dec43",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-wedding",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "wedding",
+      "name": {
+        "key": "SuggestedSearch/Wedding/Name/wedding",
+        "fallback": "wedding"
+      },
       "search": {
         "searchQuery": "wedding",
         "searchTags": "",
@@ -929,21 +957,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "479935785db79e3c7bfe8fca81c0205f",
+    "hash": "d4eb0be81c7a0e9a0b35022b55e78402",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-waves",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "waves",
+      "name": {
+        "key": "SuggestedSearch/Waves/Name/waves",
+        "fallback": "waves"
+      },
       "search": {
         "searchQuery": "waves",
         "searchTags": "",
@@ -952,21 +984,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "59bf10906215e9f2978382be9581eb2a",
+    "hash": "91258a04e2621a08ab67d729f651f9f7",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-water",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "water",
+      "name": {
+        "key": "SuggestedSearch/Water/Name/water",
+        "fallback": "water"
+      },
       "search": {
         "searchQuery": "water",
         "searchTags": "",
@@ -975,21 +1011,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "b62b6aad45366277d23cc5dda762af1b",
+    "hash": "3282f71bcfec197a3ba8b2ca4f7f1e66",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-water park",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "water park",
+      "name": {
+        "key": "SuggestedSearch/Water park/Name/water-park",
+        "fallback": "water park"
+      },
       "search": {
         "searchQuery": "water park",
         "searchTags": "",
@@ -998,21 +1038,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "b25e468a4ee52cf1c1229905a577af24",
+    "hash": "bd4ea8c8e8a20b3e13c0df01b8a55deb",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-war",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "war",
+      "name": {
+        "key": "SuggestedSearch/War/Name/war",
+        "fallback": "war"
+      },
       "search": {
         "searchQuery": "war",
         "searchTags": "",
@@ -1021,21 +1065,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "17147672570c7c464cae6c047ee902fe",
+    "hash": "b890c4f0d7248af4c9a49ccfdd2c6f70",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-vtuber",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "vtuber",
+      "name": {
+        "key": "SuggestedSearch/Vtuber/Name/vtuber",
+        "fallback": "vtuber"
+      },
       "search": {
         "searchQuery": "vtuber",
         "searchTags": "",
@@ -1044,21 +1092,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "61e536119e3b3a1527f93edd0c802dc6",
+    "hash": "de32ca43fec8180a1075cf6a30bef74c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-visualizer",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "visualizer",
+      "name": {
+        "key": "SuggestedSearch/Visualizer/Name/visualizer",
+        "fallback": "visualizer"
+      },
       "search": {
         "searchQuery": "visualizer",
         "searchTags": "",
@@ -1067,21 +1119,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ccc4b7a211fa99d53b8fccc6f2c55ea5",
+    "hash": "a892853de231a20c5276a18b47adf18e",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-vaporwave",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "vaporwave",
+      "name": {
+        "key": "SuggestedSearch/Vaporwave/Name/vaporwave",
+        "fallback": "vaporwave"
+      },
       "search": {
         "searchQuery": "vaporwave",
         "searchTags": "",
@@ -1090,21 +1146,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "7e94f5607d4d9b5fb3f7321d28761652",
+    "hash": "1c585cb9441edc9afa0583506e8e154e",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-underwater",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "underwater",
+      "name": {
+        "key": "SuggestedSearch/Underwater/Name/underwater",
+        "fallback": "underwater"
+      },
       "search": {
         "searchQuery": "underwater",
         "searchTags": "",
@@ -1113,21 +1173,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "854a8e49b89ff1e44dd10f7a1b746af1",
+    "hash": "4c0db0d55663f1f92b89d89af6f1e5c5",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-underground",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "underground",
+      "name": {
+        "key": "SuggestedSearch/Underground/Name/underground",
+        "fallback": "underground"
+      },
       "search": {
         "searchQuery": "underground",
         "searchTags": "",
@@ -1136,21 +1200,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "84f84162435831a04012c4f49559574c",
+    "hash": "3e7ad4367c683553f0fac3225022c538",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-tunnel",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "tunnel",
+      "name": {
+        "key": "SuggestedSearch/Tunnel/Name/tunnel",
+        "fallback": "tunnel"
+      },
       "search": {
         "searchQuery": "tunnel",
         "searchTags": "",
@@ -1159,21 +1227,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "50fc380fab829c52ed9069cb6cba2154",
+    "hash": "ef95b83d29435309725d3f50a3db8cef",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-truth or dare",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "truth or dare",
+      "name": {
+        "key": "SuggestedSearch/Truth or dare/Name/truth-or-dare",
+        "fallback": "truth or dare"
+      },
       "search": {
         "searchQuery": "truth or dare",
         "searchTags": "",
@@ -1182,21 +1254,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "0d9bbc3d219cb6cec94642a06ad52b14",
+    "hash": "3a06d67c6f9f70eb30503cd30a75e4fa",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-trivia",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "trivia",
+      "name": {
+        "key": "SuggestedSearch/Trivia/Name/trivia",
+        "fallback": "trivia"
+      },
       "search": {
         "searchQuery": "trivia",
         "searchTags": "",
@@ -1205,21 +1281,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c389ef37cee961d5e0b11d26d66f45ed",
+    "hash": "662c4afac1d0d172cf0a99b067d9866d",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-trippy",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "trippy",
+      "name": {
+        "key": "SuggestedSearch/Trippy/Name/trippy",
+        "fallback": "trippy"
+      },
       "search": {
         "searchQuery": "trippy",
         "searchTags": "",
@@ -1228,21 +1308,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "50207861a079f5eb7b1cd0516b16c91e",
+    "hash": "c1fbf6a9e9aec99a33bc0d2c1174e27a",
     "createdAt": "2022-04-08T17:56:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-treehouse",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "treehouse",
+      "name": {
+        "key": "SuggestedSearch/Treehouse/Name/treehouse",
+        "fallback": "treehouse"
+      },
       "search": {
         "searchQuery": "treehouse",
         "searchTags": "",
@@ -1251,21 +1335,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "86a98dbbc2acf66114388bf9f609e444",
+    "hash": "98004745e4707daa14369b2d28635004",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-train",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "train",
+      "name": {
+        "key": "SuggestedSearch/Train/Name/train",
+        "fallback": "train"
+      },
       "search": {
         "searchQuery": "train",
         "searchTags": "",
@@ -1274,21 +1362,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "992f05b72a1b2f265fd81ba762229812",
+    "hash": "2ea81860ecad597a0d14324ef293116f",
     "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-toys",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "toys",
+      "name": {
+        "key": "SuggestedSearch/Toys/Name/toys",
+        "fallback": "toys"
+      },
       "search": {
         "searchQuery": "toys",
         "searchTags": "",
@@ -1297,21 +1389,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ed10ba6607d89acc8265ff5dea5433fc",
+    "hash": "197fb10308c37f3a0ab9c3d837d77d4a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-town",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "town",
+      "name": {
+        "key": "SuggestedSearch/Town/Name/town",
+        "fallback": "town"
+      },
       "search": {
         "searchQuery": "town",
         "searchTags": "",
@@ -1320,21 +1416,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a8564b8bfeda9707d246f692414f9660",
+    "hash": "5baa00330034c86118633d1c4387de49",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-tower",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "tower",
+      "name": {
+        "key": "SuggestedSearch/Tower/Name/tower",
+        "fallback": "tower"
+      },
       "search": {
         "searchQuery": "tower",
         "searchTags": "",
@@ -1343,21 +1443,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "248b94bbf29beba73f24cf5515d2c8c9",
+    "hash": "71051f70d38c1e10a853b774746ccce6",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-tower defense",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "tower defense",
+      "name": {
+        "key": "SuggestedSearch/Tower defense/Name/tower-defense",
+        "fallback": "tower defense"
+      },
       "search": {
         "searchQuery": "tower defense",
         "searchTags": "",
@@ -1366,21 +1470,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "bbbebd886e2818c0d4c250edd995594b",
+    "hash": "4090310e39dc97290152c276e6715326",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-tornado",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "tornado",
+      "name": {
+        "key": "SuggestedSearch/Tornado/Name/tornado",
+        "fallback": "tornado"
+      },
       "search": {
         "searchQuery": "tornado",
         "searchTags": "",
@@ -1389,21 +1497,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "920aa9f7535cadd7c791fcd17b18e9c6",
+    "hash": "30334818c301723d29523ac53cb512e5",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-theater",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "theater",
+      "name": {
+        "key": "SuggestedSearch/Theater/Name/theater",
+        "fallback": "theater"
+      },
       "search": {
         "searchQuery": "theater",
         "searchTags": "",
@@ -1412,21 +1524,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "482c02fc243ae68f0d42d60a7368d80b",
+    "hash": "a0830fce05dc58ce261ebf25f689042e",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-temple",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "temple",
+      "name": {
+        "key": "SuggestedSearch/Temple/Name/temple",
+        "fallback": "temple"
+      },
       "search": {
         "searchQuery": "temple",
         "searchTags": "",
@@ -1435,21 +1551,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "58f52e346ff66916c9362d32856a62ee",
+    "hash": "36286b92a46f8a686ffc909cfb7664d3",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-tavern",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "tavern",
+      "name": {
+        "key": "SuggestedSearch/Tavern/Name/tavern",
+        "fallback": "tavern"
+      },
       "search": {
         "searchQuery": "tavern",
         "searchTags": "",
@@ -1458,21 +1578,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "37a6a3feb1bb7b64ec046b4d57809bee",
+    "hash": "b9da27d8a9c825e3be8b6e845ce651a5",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-talk",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "talk",
+      "name": {
+        "key": "SuggestedSearch/Talk/Name/talk",
+        "fallback": "talk"
+      },
       "search": {
         "searchQuery": "talk",
         "searchTags": "",
@@ -1481,21 +1605,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "61c06fd00ac650916df8698438a6fdd7",
+    "hash": "db76bbac63c9e602a594b780f77e5d43",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-tag",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "tag",
+      "name": {
+        "key": "SuggestedSearch/Tag/Name/tag",
+        "fallback": "tag"
+      },
       "search": {
         "searchQuery": "tag",
         "searchTags": "",
@@ -1504,21 +1632,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c5aedecd6816977e9cbec618091f277b",
+    "hash": "2da73e09f9388ee8b4855bf139bdec2a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-swim",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "swim",
+      "name": {
+        "key": "SuggestedSearch/Swim/Name/swim",
+        "fallback": "swim"
+      },
       "search": {
         "searchQuery": "swim",
         "searchTags": "",
@@ -1527,21 +1659,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "75cc8fb22ba2b605dfca22bede2cd564",
+    "hash": "9558faf73619b0cfcfc8f80d8a30aabd",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-surreal",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "surreal",
+      "name": {
+        "key": "SuggestedSearch/Surreal/Name/surreal",
+        "fallback": "surreal"
+      },
       "search": {
         "searchQuery": "surreal",
         "searchTags": "",
@@ -1550,21 +1686,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "224d7aa70e284d99937e954d157ac509",
+    "hash": "3dfa8b44bd9e001adbfdb1c799ef7d12",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-surf",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "surf",
+      "name": {
+        "key": "SuggestedSearch/Surf/Name/surf",
+        "fallback": "surf"
+      },
       "search": {
         "searchQuery": "surf",
         "searchTags": "",
@@ -1573,21 +1713,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3008c5f99ffe309cefea9f266bce8b49",
+    "hash": "d34b7e35d4891a647504c631b0417c8d",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-superhero",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "superhero",
+      "name": {
+        "key": "SuggestedSearch/Superhero/Name/superhero",
+        "fallback": "superhero"
+      },
       "search": {
         "searchQuery": "superhero",
         "searchTags": "",
@@ -1596,21 +1740,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "751d13d46b1e25ba51ed505a99c6b6ed",
+    "hash": "0c759e184668358422176194c64d7191",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-sunset",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "sunset",
+      "name": {
+        "key": "SuggestedSearch/Sunset/Name/sunset",
+        "fallback": "sunset"
+      },
       "search": {
         "searchQuery": "sunset",
         "searchTags": "",
@@ -1619,21 +1767,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "13640ba225e34e34a99ede404a5a6f6e",
+    "hash": "1a5bbea62fa0266fa13d360b140eb5de",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-sunny",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "sunny",
+      "name": {
+        "key": "SuggestedSearch/Sunny/Name/sunny",
+        "fallback": "sunny"
+      },
       "search": {
         "searchQuery": "sunny",
         "searchTags": "",
@@ -1642,21 +1794,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "0851b07c2015f7318cba52583ea60fa9",
+    "hash": "019e56533bd75f8fd404d89fd2de36e8",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-summer",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "summer",
+      "name": {
+        "key": "SuggestedSearch/Summer/Name/summer",
+        "fallback": "summer"
+      },
       "search": {
         "searchQuery": "summer",
         "searchTags": "",
@@ -1665,21 +1821,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "fc6484fbb41fc1c2b229f72d99211bab",
+    "hash": "d59b78d698f5917f8ae947bcb04f845f",
     "createdAt": "2022-04-08T17:56:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-studio",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "studio",
+      "name": {
+        "key": "SuggestedSearch/Studio/Name/studio",
+        "fallback": "studio"
+      },
       "search": {
         "searchQuery": "studio",
         "searchTags": "",
@@ -1688,21 +1848,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c4ed3c33f5f76df0cb26148957ef2d59",
+    "hash": "ed1727d3f862889ff9babc45f24acab0",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-strategy",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "strategy",
+      "name": {
+        "key": "SuggestedSearch/Strategy/Name/strategy",
+        "fallback": "strategy"
+      },
       "search": {
         "searchQuery": "strategy",
         "searchTags": "",
@@ -1711,21 +1875,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "33b246632a9c85caf1798ca7399ec918",
+    "hash": "172e1af81b7dac1ab83a33d6ec9a9d14",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-story",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "story",
+      "name": {
+        "key": "SuggestedSearch/Story/Name/story",
+        "fallback": "story"
+      },
       "search": {
         "searchQuery": "story",
         "searchTags": "",
@@ -1734,21 +1902,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "61e85f43bfaec12eb2027b6ad1bec432",
+    "hash": "496d76ec56e3b941653d428d2d736b01",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-store",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "store",
+      "name": {
+        "key": "SuggestedSearch/Store/Name/store",
+        "fallback": "store"
+      },
       "search": {
         "searchQuery": "store",
         "searchTags": "",
@@ -1757,21 +1929,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "65c7799b63009cb00fb42a7f200af8a3",
+    "hash": "b1005556916757a192dc5589296d2934",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-starry",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "starry",
+      "name": {
+        "key": "SuggestedSearch/Starry/Name/starry",
+        "fallback": "starry"
+      },
       "search": {
         "searchQuery": "starry",
         "searchTags": "",
@@ -1780,21 +1956,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "68b91d33335f2266eeb37ce8d5e88978",
+    "hash": "b53938d8df1b0edc667f6b2f744c575c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-stage",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "stage",
+      "name": {
+        "key": "SuggestedSearch/Stage/Name/stage",
+        "fallback": "stage"
+      },
       "search": {
         "searchQuery": "stage",
         "searchTags": "",
@@ -1803,21 +1983,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "715f315ea5a6def737f39f48ddf22d56",
+    "hash": "931fae35c45fc89019dc1eba7c5e3b45",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-spring",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "spring",
+      "name": {
+        "key": "SuggestedSearch/Spring/Name/spring",
+        "fallback": "spring"
+      },
       "search": {
         "searchQuery": "spring",
         "searchTags": "",
@@ -1826,21 +2010,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "7f03f1d755dd5a23701e04e530e96c0b",
+    "hash": "be4061d9ebcf78114974ee762f20b4bc",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-sports",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "sports",
+      "name": {
+        "key": "SuggestedSearch/Sports/Name/sports",
+        "fallback": "sports"
+      },
       "search": {
         "searchQuery": "sports",
         "searchTags": "",
@@ -1849,21 +2037,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9a90cc470b1c9b2e8d95c9db7a3fe68b",
+    "hash": "9aa0ebeefa481cc447051d22c91d7fa3",
     "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-spaceship",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "spaceship",
+      "name": {
+        "key": "SuggestedSearch/Spaceship/Name/spaceship",
+        "fallback": "spaceship"
+      },
       "search": {
         "searchQuery": "spaceship",
         "searchTags": "",
@@ -1872,21 +2064,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "7b6ff311bb6563160c2974505dbc8d0b",
+    "hash": "93dda964d3a9de0a3f27b3d4e9484a8c",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-space",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "space",
+      "name": {
+        "key": "SuggestedSearch/Space/Name/space",
+        "fallback": "space"
+      },
       "search": {
         "searchQuery": "space",
         "searchTags": "",
@@ -1895,21 +2091,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "26c28ec3ec390c6497c875fe412d4638",
+    "hash": "265b836b2537963a14c2a99f2f73e6d3",
     "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-spa-world",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "spa",
+      "name": {
+        "key": "SuggestedSearch/SpaWorld/Name/spa",
+        "fallback": "spa"
+      },
       "search": {
         "searchQuery": "spa",
         "searchTags": "",
@@ -1918,21 +2118,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "f0824566413c5e6df4d753cdef48d81f",
+    "hash": "71f213a4caa9a685d03501a6098be986",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-soft",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "soft",
+      "name": {
+        "key": "SuggestedSearch/Soft/Name/soft",
+        "fallback": "soft"
+      },
       "search": {
         "searchQuery": "soft",
         "searchTags": "",
@@ -1941,21 +2145,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "1482a81eccd2a514d40095bf98e916ed",
+    "hash": "c372f92a64dd3187826efc4e17415bc4",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-soccer",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "soccer",
+      "name": {
+        "key": "SuggestedSearch/Soccer/Name/soccer",
+        "fallback": "soccer"
+      },
       "search": {
         "searchQuery": "soccer",
         "searchTags": "",
@@ -1964,21 +2172,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "4b4f0ac23afc1710bf3101843cdefd33",
+    "hash": "1ef5276e12ba5eee71fced7322505413",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-snow",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "snow",
+      "name": {
+        "key": "SuggestedSearch/Snow/Name/snow",
+        "fallback": "snow"
+      },
       "search": {
         "searchQuery": "snow",
         "searchTags": "",
@@ -1987,21 +2199,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "5a7c04da0a52567c0d3027b16473da91",
+    "hash": "d2ce4159fb648b9007d9d6675bb2257c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-smoke",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "smoke",
+      "name": {
+        "key": "SuggestedSearch/Smoke/Name/smoke",
+        "fallback": "smoke"
+      },
       "search": {
         "searchQuery": "smoke",
         "searchTags": "",
@@ -2010,21 +2226,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ed91aab4b345d344fbe7cc478fc3f8d9",
+    "hash": "28b4b8f1495e82a1e0617d459e495e70",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-sleep",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "sleep",
+      "name": {
+        "key": "SuggestedSearch/Sleep/Name/sleep",
+        "fallback": "sleep"
+      },
       "search": {
         "searchQuery": "sleep",
         "searchTags": "",
@@ -2033,21 +2253,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a90d80eebea74962e9e091937dfd7f93",
+    "hash": "db2540350f3c53f483642aee0ce98a69",
     "createdAt": "2020-09-12T05:20:18+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-simulator",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "simulator",
+      "name": {
+        "key": "SuggestedSearch/Simulator/Name/simulator",
+        "fallback": "simulator"
+      },
       "search": {
         "searchQuery": "simulator",
         "searchTags": "",
@@ -2056,21 +2280,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3367d02e28a5292d5276d5e1d45c1cff",
+    "hash": "8d6bd3f6bb774dbbc75e51ac5ac09502",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-shrine",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "shrine",
+      "name": {
+        "key": "SuggestedSearch/Shrine/Name/shrine",
+        "fallback": "shrine"
+      },
       "search": {
         "searchQuery": "shrine",
         "searchTags": "",
@@ -2079,21 +2307,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "1ffdf8a97794a527ef01f991f52dab9e",
+    "hash": "c1aef6a43e387c05aa861e8e7d9764fa",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-shooting",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "shooting",
+      "name": {
+        "key": "SuggestedSearch/Shooting/Name/shooting",
+        "fallback": "shooting"
+      },
       "search": {
         "searchQuery": "shooting",
         "searchTags": "",
@@ -2102,21 +2334,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c18a7959b4b41a111276e1d2bc033678",
+    "hash": "cd329dc693609c9f63da6c446ead2c12",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-ship",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "ship",
+      "name": {
+        "key": "SuggestedSearch/Ship/Name/ship",
+        "fallback": "ship"
+      },
       "search": {
         "searchQuery": "ship",
         "searchTags": "",
@@ -2125,21 +2361,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ae4b3bf5c6041dce9bcc755b12418111",
+    "hash": "a94a7706177226205f3495857f8482e7",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-school",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "school",
+      "name": {
+        "key": "SuggestedSearch/School/Name/school",
+        "fallback": "school"
+      },
       "search": {
         "searchQuery": "school",
         "searchTags": "",
@@ -2148,21 +2388,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "770cee314628abea6ab3d8aade85ac46",
+    "hash": "dd8de5ddcbbdbe81a7dabed632876a7c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-sandbox",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "sandbox",
+      "name": {
+        "key": "SuggestedSearch/Sandbox/Name/sandbox",
+        "fallback": "sandbox"
+      },
       "search": {
         "searchQuery": "sandbox",
         "searchTags": "",
@@ -2171,21 +2415,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3f0b4a4c7a09d3719e36b615e4b16320",
+    "hash": "f9ec8e59a34346ae9328653b9c94bea8",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-sakura",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "sakura",
+      "name": {
+        "key": "SuggestedSearch/Sakura/Name/sakura",
+        "fallback": "sakura"
+      },
       "search": {
         "searchQuery": "sakura",
         "searchTags": "",
@@ -2194,21 +2442,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "cf3645ab7ed1ac8cbbf5e88364e6b1c0",
+    "hash": "e59daaa8931bfa9ce3304b42f059d160",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-sad",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "sad",
+      "name": {
+        "key": "SuggestedSearch/Sad/Name/sad",
+        "fallback": "sad"
+      },
       "search": {
         "searchQuery": "sad",
         "searchTags": "",
@@ -2217,21 +2469,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "cb7631d502107e3f482f109a5bb707e6",
+    "hash": "0ea9edea09a44fe749be9e98802ae91c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-rooftop",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "rooftop",
+      "name": {
+        "key": "SuggestedSearch/Rooftop/Name/rooftop",
+        "fallback": "rooftop"
+      },
       "search": {
         "searchQuery": "rooftop",
         "searchTags": "",
@@ -2240,21 +2496,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "57e653ac9a69822cc80796e62335cf74",
+    "hash": "7f1b284e78cfcd9a2cc8a8b971a793d1",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-romantic",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "romantic",
+      "name": {
+        "key": "SuggestedSearch/Romantic/Name/romantic",
+        "fallback": "romantic"
+      },
       "search": {
         "searchQuery": "romantic",
         "searchTags": "",
@@ -2263,21 +2523,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a251df0029de0c2ad40c77602d68b1d2",
+    "hash": "ab210905962cdd09b1d00dfc2e896604",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-rollercoaster",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "rollercoaster",
+      "name": {
+        "key": "SuggestedSearch/Rollercoaster/Name/rollercoaster",
+        "fallback": "rollercoaster"
+      },
       "search": {
         "searchQuery": "rollercoaster",
         "searchTags": "",
@@ -2286,21 +2550,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "7c277e3501d81a9c9066a167d265cc4e",
+    "hash": "82eb4601abb81116deb908ebc471f0bf",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-roleplay",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "roleplay",
+      "name": {
+        "key": "SuggestedSearch/Roleplay/Name/roleplay",
+        "fallback": "roleplay"
+      },
       "search": {
         "searchQuery": "roleplay",
         "searchTags": "",
@@ -2309,21 +2577,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "6169ffd95204e62655603a8ddec46687",
+    "hash": "10118e96f2e20d199d97e3edb0303c8b",
     "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-robot",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "robot",
+      "name": {
+        "key": "SuggestedSearch/Robot/Name/robot",
+        "fallback": "robot"
+      },
       "search": {
         "searchQuery": "robot",
         "searchTags": "",
@@ -2332,21 +2604,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "89fba348272afcdad89410989a341ea9",
+    "hash": "51305b9aa84b47795d6dca85618f7c41",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-river",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "river",
+      "name": {
+        "key": "SuggestedSearch/River/Name/river",
+        "fallback": "river"
+      },
       "search": {
         "searchQuery": "river",
         "searchTags": "",
@@ -2355,21 +2631,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "df14c82ddaf744dc6a4d7a3a1afa75a4",
+    "hash": "12e97daa3f14a57f49148b620de0e3cb",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-ride",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "ride",
+      "name": {
+        "key": "SuggestedSearch/Ride/Name/ride",
+        "fallback": "ride"
+      },
       "search": {
         "searchQuery": "ride",
         "searchTags": "",
@@ -2378,21 +2658,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "7b15ac39cdf20d6d42cbc8ec3c1611fe",
+    "hash": "2195b23e008b5f925cff7d6009824489",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-rhythm",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "rhythm",
+      "name": {
+        "key": "SuggestedSearch/Rhythm/Name/rhythm",
+        "fallback": "rhythm"
+      },
       "search": {
         "searchQuery": "rhythm",
         "searchTags": "",
@@ -2401,21 +2685,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c3c3602038489dae723d5906801d677c",
+    "hash": "a06e4e29a4a605070210251b1102fe2c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-retro",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "retro",
+      "name": {
+        "key": "SuggestedSearch/Retro/Name/retro",
+        "fallback": "retro"
+      },
       "search": {
         "searchQuery": "retro",
         "searchTags": "",
@@ -2424,21 +2712,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ba7173d513736f4338e239b67a0c7fbc",
+    "hash": "b5d45321cb227469d3b4631408f12ee4",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-restaurant",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "restaurant",
+      "name": {
+        "key": "SuggestedSearch/Restaurant/Name/restaurant",
+        "fallback": "restaurant"
+      },
       "search": {
         "searchQuery": "restaurant",
         "searchTags": "",
@@ -2447,21 +2739,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c56fa546206b46ca2c7804da40d2b865",
+    "hash": "2d43b771676a3797aeb76297725ed766",
     "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-relax",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "relax",
+      "name": {
+        "key": "SuggestedSearch/Relax/Name/relax",
+        "fallback": "relax"
+      },
       "search": {
         "searchQuery": "relax",
         "searchTags": "",
@@ -2470,21 +2766,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "5964ac6c0007f3e0f8fa3b51b6109ff6",
+    "hash": "effefcba5ce195b3ee4a239b21b24786",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-realistic",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "realistic",
+      "name": {
+        "key": "SuggestedSearch/Realistic/Name/realistic",
+        "fallback": "realistic"
+      },
       "search": {
         "searchQuery": "realistic",
         "searchTags": "",
@@ -2493,21 +2793,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "372b9a60208a3515029d04b758993eca",
+    "hash": "11868ab0a8b12ac2387ab9c0b0197c64",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-rave",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "rave",
+      "name": {
+        "key": "SuggestedSearch/Rave/Name/rave",
+        "fallback": "rave"
+      },
       "search": {
         "searchQuery": "rave",
         "searchTags": "",
@@ -2516,21 +2820,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "eb9df1a1bb8753a5c4533395e251b577",
+    "hash": "41eefed9b6a27b25302f7b49d997e515",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-rainy",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "rainy",
+      "name": {
+        "key": "SuggestedSearch/Rainy/Name/rainy",
+        "fallback": "rainy"
+      },
       "search": {
         "searchQuery": "rainy",
         "searchTags": "",
@@ -2539,21 +2847,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "72b146e2e16d5fa77afc188fc0b4d803",
+    "hash": "f6b54cff5e483b5adb2da69346e62d69",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-rainbow",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "rainbow",
+      "name": {
+        "key": "SuggestedSearch/Rainbow/Name/rainbow",
+        "fallback": "rainbow"
+      },
       "search": {
         "searchQuery": "rainbow",
         "searchTags": "",
@@ -2562,21 +2874,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a4b513e79b30af4a217708762bffaa74",
+    "hash": "dd370ffc3c4c7dc9ff3c304b2796ea16",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-race",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "race",
+      "name": {
+        "key": "SuggestedSearch/Race/Name/race",
+        "fallback": "race"
+      },
       "search": {
         "searchQuery": "race",
         "searchTags": "",
@@ -2585,21 +2901,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3cc38d6b8837c22d30e76c50a4df81d2",
+    "hash": "d016d62677f94d1923d240a51fd9499d",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-quiz",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "quiz",
+      "name": {
+        "key": "SuggestedSearch/Quiz/Name/quiz",
+        "fallback": "quiz"
+      },
       "search": {
         "searchQuery": "quiz",
         "searchTags": "",
@@ -2608,21 +2928,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "d8fe6cd14fc49da707962cd34bac09be",
+    "hash": "fb1759a2beb338817aa928324cd3e10c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-pvp",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "pvp",
+      "name": {
+        "key": "SuggestedSearch/Pvp/Name/pvp",
+        "fallback": "pvp"
+      },
       "search": {
         "searchQuery": "pvp",
         "searchTags": "",
@@ -2631,21 +2955,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3b5e1cfefc68d4de9df9be355a137d7c",
+    "hash": "a962ecdf6ab90a2d8e6b7b82fde6dc23",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-puzzle",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "puzzle",
+      "name": {
+        "key": "SuggestedSearch/Puzzle/Name/puzzle",
+        "fallback": "puzzle"
+      },
       "search": {
         "searchQuery": "puzzle",
         "searchTags": "",
@@ -2654,21 +2982,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "16da1afa29cd89162d9740958e854acf",
+    "hash": "deab7a0e05b56599047012f4df7b1d41",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-prison",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "prison",
+      "name": {
+        "key": "SuggestedSearch/Prison/Name/prison",
+        "fallback": "prison"
+      },
       "search": {
         "searchQuery": "prison",
         "searchTags": "",
@@ -2677,21 +3009,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3bad3a1c87596a6bcf3dce05862c8758",
+    "hash": "39f95e1d388194a980fa5cf3551b2d8e",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-police",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "police",
+      "name": {
+        "key": "SuggestedSearch/Police/Name/police",
+        "fallback": "police"
+      },
       "search": {
         "searchQuery": "police",
         "searchTags": "",
@@ -2700,21 +3036,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "6a8fef767b8f495f86807d413a4979d4",
+    "hash": "78123b92dfae5ea417afcab0bada36b1",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-podcast",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "podcast",
+      "name": {
+        "key": "SuggestedSearch/Podcast/Name/podcast",
+        "fallback": "podcast"
+      },
       "search": {
         "searchQuery": "podcast",
         "searchTags": "",
@@ -2723,21 +3063,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "2e7bb8749a6362e580945ca03e66ccd1",
+    "hash": "21dadde213dbbe32d5b9980e0f73a9b3",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-playground",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "playground",
+      "name": {
+        "key": "SuggestedSearch/Playground/Name/playground",
+        "fallback": "playground"
+      },
       "search": {
         "searchQuery": "playground",
         "searchTags": "",
@@ -2746,21 +3090,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ad4a0d8e44032ac102bb2c541760558a",
+    "hash": "62a890b4f87431f6b1b09670c78945fd",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-planet",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "planet",
+      "name": {
+        "key": "SuggestedSearch/Planet/Name/planet",
+        "fallback": "planet"
+      },
       "search": {
         "searchQuery": "planet",
         "searchTags": "",
@@ -2769,21 +3117,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "24a91ca15bd4b346a0aa7b4db43a8c86",
+    "hash": "547911a8c09d265fe533660c79539df0",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-pizza",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "pizza",
+      "name": {
+        "key": "SuggestedSearch/Pizza/Name/pizza",
+        "fallback": "pizza"
+      },
       "search": {
         "searchQuery": "pizza",
         "searchTags": "",
@@ -2792,21 +3144,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9691cebccca35b23dc7b21293ff2cdce",
+    "hash": "9a6474c68960081c736bb3d14d91ae1d",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-pirate",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "pirate",
+      "name": {
+        "key": "SuggestedSearch/Pirate/Name/pirate",
+        "fallback": "pirate"
+      },
       "search": {
         "searchQuery": "pirate",
         "searchTags": "",
@@ -2815,21 +3171,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "df7cb680913298015fe7db0b98b5dc54",
+    "hash": "121585392c6a5df3e9c9683369941246",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-piano",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "piano",
+      "name": {
+        "key": "SuggestedSearch/Piano/Name/piano",
+        "fallback": "piano"
+      },
       "search": {
         "searchQuery": "piano",
         "searchTags": "",
@@ -2838,21 +3198,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3c3344577c5bda663677d29e22d5f0aa",
+    "hash": "3a794b3a09dc511039c58e59701d9499",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-photography",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "photography",
+      "name": {
+        "key": "SuggestedSearch/Photography/Name/photography",
+        "fallback": "photography"
+      },
       "search": {
         "searchQuery": "photography",
         "searchTags": "",
@@ -2861,21 +3225,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "1de2892def7f8fc5abbc2ffc20303c1b",
+    "hash": "5df276dac91f718005e2bed99e793f61",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-photogrammetry",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "photogrammetry",
+      "name": {
+        "key": "SuggestedSearch/Photogrammetry/Name/photogrammetry",
+        "fallback": "photogrammetry"
+      },
       "search": {
         "searchQuery": "photogrammetry",
         "searchTags": "",
@@ -2884,21 +3252,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e955f5675322cbfd959b51a84ce4ab55",
+    "hash": "0c9c955b48fe5fcfab84efa5295a503e",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-pet",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "pet",
+      "name": {
+        "key": "SuggestedSearch/Pet/Name/pet",
+        "fallback": "pet"
+      },
       "search": {
         "searchQuery": "pet",
         "searchTags": "",
@@ -2907,21 +3279,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "090cc2b49cf84aec382841e01f907210",
+    "hash": "00d8d8b4f884ab1546d807555a74d9f4",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-party",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "party",
+      "name": {
+        "key": "SuggestedSearch/Party/Name/party",
+        "fallback": "party"
+      },
       "search": {
         "searchQuery": "party",
         "searchTags": "",
@@ -2930,21 +3306,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "702f0bca2218a21c31a685ef73fc270d",
+    "hash": "47778851207394a8b0b4c17b08692464",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-particle",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "particle",
+      "name": {
+        "key": "SuggestedSearch/Particle/Name/particle",
+        "fallback": "particle"
+      },
       "search": {
         "searchQuery": "particle",
         "searchTags": "",
@@ -2953,21 +3333,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "110b9eef36ce1530d024330d24073a5c",
+    "hash": "a1b35d67294e8c93cbe2e0c60b5e6e36",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-parkour",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "parkour",
+      "name": {
+        "key": "SuggestedSearch/Parkour/Name/parkour",
+        "fallback": "parkour"
+      },
       "search": {
         "searchQuery": "parkour",
         "searchTags": "",
@@ -2976,21 +3360,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "5e3a33ea0cdd7c61e9779fae0e3365cd",
+    "hash": "8f2ce25404fff7cc21cb0edfecb07fca",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-park",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "park",
+      "name": {
+        "key": "SuggestedSearch/Park/Name/park",
+        "fallback": "park"
+      },
       "search": {
         "searchQuery": "park",
         "searchTags": "",
@@ -2999,21 +3387,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "f6ccf689762a16aa713c803fc398afb2",
+    "hash": "ee7609d660b2da7319671b54dde56c8a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-paint",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "paint",
+      "name": {
+        "key": "SuggestedSearch/Paint/Name/paint",
+        "fallback": "paint"
+      },
       "search": {
         "searchQuery": "paint",
         "searchTags": "",
@@ -3022,21 +3414,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "b7e18d37c51aaf13e1c12dca0072adf9",
+    "hash": "2f9979e5c33b13e3e56552506da8a7c0",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-onsen",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "onsen",
+      "name": {
+        "key": "SuggestedSearch/Onsen/Name/onsen",
+        "fallback": "onsen"
+      },
       "search": {
         "searchQuery": "onsen",
         "searchTags": "",
@@ -3045,21 +3441,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "fab1a56bd80b7b99beb3a937052e3354",
+    "hash": "43fe7b7a99bc96631f62bd2d6423082b",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-office",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "office",
+      "name": {
+        "key": "SuggestedSearch/Office/Name/office",
+        "fallback": "office"
+      },
       "search": {
         "searchQuery": "office",
         "searchTags": "",
@@ -3068,21 +3468,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "19db74d554ec6e77d48117f040358644",
+    "hash": "1f532f797463c831614127130b7c6133",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-ocean",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "ocean",
+      "name": {
+        "key": "SuggestedSearch/Ocean/Name/ocean",
+        "fallback": "ocean"
+      },
       "search": {
         "searchQuery": "ocean",
         "searchTags": "",
@@ -3091,21 +3495,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ab682cccaab288565f269d83241bdec3",
+    "hash": "81054881836cdeb7e07e0009431a4e3f",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-night",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "night",
+      "name": {
+        "key": "SuggestedSearch/Night/Name/night",
+        "fallback": "night"
+      },
       "search": {
         "searchQuery": "night",
         "searchTags": "",
@@ -3114,21 +3522,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "159b38da180444533eb73bd5071ffe86",
+    "hash": "b64946b3315d636313cd968c4d0ce3aa",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-neon",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "neon",
+      "name": {
+        "key": "SuggestedSearch/Neon/Name/neon",
+        "fallback": "neon"
+      },
       "search": {
         "searchQuery": "neon",
         "searchTags": "",
@@ -3137,21 +3549,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "8ab349e91be59b7dae7789d82d71c790",
+    "hash": "23a77c79e41b1f4f3f97f0f2db95fbf9",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-nature",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "nature",
+      "name": {
+        "key": "SuggestedSearch/Nature/Name/nature",
+        "fallback": "nature"
+      },
       "search": {
         "searchQuery": "nature",
         "searchTags": "",
@@ -3160,21 +3576,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e869a22186ea3e21a83b31d88044fd1a",
+    "hash": "c9d3f7b8470c860c5415220c4cbf0495",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-music",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "music",
+      "name": {
+        "key": "SuggestedSearch/Music/Name/music",
+        "fallback": "music"
+      },
       "search": {
         "searchQuery": "music",
         "searchTags": "",
@@ -3183,21 +3603,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e4d932cff945032784bb90c5831e2644",
+    "hash": "20bb5d8f681e6b1de7db3193ba86ec90",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-mushroom",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "mushroom",
+      "name": {
+        "key": "SuggestedSearch/Mushroom/Name/mushroom",
+        "fallback": "mushroom"
+      },
       "search": {
         "searchQuery": "mushroom",
         "searchTags": "",
@@ -3206,21 +3630,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ad3ded8f9e1f5f5717558d861ae120be",
+    "hash": "030e678dcd64b3097fb34e2332972c1e",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-museum",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "museum",
+      "name": {
+        "key": "SuggestedSearch/Museum/Name/museum",
+        "fallback": "museum"
+      },
       "search": {
         "searchQuery": "museum",
         "searchTags": "",
@@ -3229,21 +3657,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3a6f26d8bb77ffab66c4ca39d3fd877e",
+    "hash": "e109b8dfde0ea75e42700ac4f040a5a0",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-murder mystery",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "murder mystery",
+      "name": {
+        "key": "SuggestedSearch/Murder mystery/Name/murder-mystery",
+        "fallback": "murder mystery"
+      },
       "search": {
         "searchQuery": "murder mystery",
         "searchTags": "",
@@ -3252,21 +3684,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "96d7ca68840ca8226aad2d718f69885b",
+    "hash": "84be27639d6b162a9387da2a547b3990",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-movie",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "movie",
+      "name": {
+        "key": "SuggestedSearch/Movie/Name/movie",
+        "fallback": "movie"
+      },
       "search": {
         "searchQuery": "movie",
         "searchTags": "",
@@ -3275,21 +3711,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "dd68590d6651abcf593645fcf83effcf",
+    "hash": "0ffc0b073eca76feb6acce32066316ef",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-mountain",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "mountain",
+      "name": {
+        "key": "SuggestedSearch/Mountain/Name/mountain",
+        "fallback": "mountain"
+      },
       "search": {
         "searchQuery": "mountain",
         "searchTags": "",
@@ -3298,21 +3738,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "10f4d9c63d30f92bd4f10d3d4592d3a8",
+    "hash": "aa71e884fc7b61ef6ca8196730a2a004",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-motorcycle",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "motorcycle",
+      "name": {
+        "key": "SuggestedSearch/Motorcycle/Name/motorcycle",
+        "fallback": "motorcycle"
+      },
       "search": {
         "searchQuery": "motorcycle",
         "searchTags": "",
@@ -3321,21 +3765,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ad8a801e17a8ac88a803fc8e9fa405e6",
+    "hash": "d77a094aa715a34bce360d91a6f575ac",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-morning",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "morning",
+      "name": {
+        "key": "SuggestedSearch/Morning/Name/morning",
+        "fallback": "morning"
+      },
       "search": {
         "searchQuery": "morning",
         "searchTags": "",
@@ -3344,21 +3792,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "4c551bbcb3b1c8a77a18866a867e6a4a",
+    "hash": "fcc919a1ce86de98466297d0eae10cff",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-moon",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "moon",
+      "name": {
+        "key": "SuggestedSearch/Moon/Name/moon",
+        "fallback": "moon"
+      },
       "search": {
         "searchQuery": "moon",
         "searchTags": "",
@@ -3367,21 +3819,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "286e20e3e94208b59156baee78dd8836",
+    "hash": "b75f3d60b4e1c11dbf632878bf0ed7d3",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-monster",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "monster",
+      "name": {
+        "key": "SuggestedSearch/Monster/Name/monster",
+        "fallback": "monster"
+      },
       "search": {
         "searchQuery": "monster",
         "searchTags": "",
@@ -3390,21 +3846,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "d4d33e6c7e7f52aa89b2372b8e883263",
+    "hash": "8c9e4a55a689f76a7ce60364a4531a11",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-military",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "military",
+      "name": {
+        "key": "SuggestedSearch/Military/Name/military",
+        "fallback": "military"
+      },
       "search": {
         "searchQuery": "military",
         "searchTags": "",
@@ -3413,21 +3873,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "0bdc021f0bd722820427b07666c3b923",
+    "hash": "a25ae55a6abada937b59819f140738f8",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-meme",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "meme",
+      "name": {
+        "key": "SuggestedSearch/Meme/Name/meme",
+        "fallback": "meme"
+      },
       "search": {
         "searchQuery": "meme",
         "searchTags": "",
@@ -3436,21 +3900,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "01d6b7ca33ccd8347882166d3328324b",
+    "hash": "727a8cd6429096260f24120fdd051170",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-meeting",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "meeting",
+      "name": {
+        "key": "SuggestedSearch/Meeting/Name/meeting",
+        "fallback": "meeting"
+      },
       "search": {
         "searchQuery": "meeting",
         "searchTags": "",
@@ -3459,21 +3927,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c84f16f07835aac433436c8109b92ada",
+    "hash": "cfd01e260562e1e50f0d91db88615e44",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-meditation",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "meditation",
+      "name": {
+        "key": "SuggestedSearch/Meditation/Name/meditation",
+        "fallback": "meditation"
+      },
       "search": {
         "searchQuery": "meditation",
         "searchTags": "",
@@ -3482,21 +3954,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "5539e649a181a659a733c11e70ef3950",
+    "hash": "82ca17582c77000294b36c9abdb36a90",
     "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-medieval",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "medieval",
+      "name": {
+        "key": "SuggestedSearch/Medieval/Name/medieval",
+        "fallback": "medieval"
+      },
       "search": {
         "searchQuery": "medieval",
         "searchTags": "",
@@ -3505,21 +3981,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "bf0c78c7714950f358d6eb14aaf002dc",
+    "hash": "9a3b68a014e5b5ebde7a33af8582ffc9",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-mech",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "mech",
+      "name": {
+        "key": "SuggestedSearch/Mech/Name/mech",
+        "fallback": "mech"
+      },
       "search": {
         "searchQuery": "mech",
         "searchTags": "",
@@ -3528,21 +4008,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c72eb8364dfeb172a6a671fbae4a0ebd",
+    "hash": "2207670a9ec30d58292b0deaf5f2ad9a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-maze",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "maze",
+      "name": {
+        "key": "SuggestedSearch/Maze/Name/maze",
+        "fallback": "maze"
+      },
       "search": {
         "searchQuery": "maze",
         "searchTags": "",
@@ -3551,21 +4035,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3dd878b97b69e55989f40200c6a5b6f4",
+    "hash": "8c95b72a9de5924f5ef54cacbdd5664c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-mansion",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "mansion",
+      "name": {
+        "key": "SuggestedSearch/Mansion/Name/mansion",
+        "fallback": "mansion"
+      },
       "search": {
         "searchQuery": "mansion",
         "searchTags": "",
@@ -3574,21 +4062,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "97045b8fddd0d679c43da6625b5723cb",
+    "hash": "4fac90eb1fa619c93f45822c6b33210a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-mall",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "mall",
+      "name": {
+        "key": "SuggestedSearch/Mall/Name/mall",
+        "fallback": "mall"
+      },
       "search": {
         "searchQuery": "mall",
         "searchTags": "",
@@ -3597,21 +4089,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "4f35eef955465e4e8f8c5ef5ccfce123",
+    "hash": "85c143cc45398a6d22d99fff00d05750",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-magic",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "magic",
+      "name": {
+        "key": "SuggestedSearch/Magic/Name/magic",
+        "fallback": "magic"
+      },
       "search": {
         "searchQuery": "magic",
         "searchTags": "",
@@ -3620,21 +4116,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "10aa7564d6eb76a1adf19ae3e33183da",
+    "hash": "d46ca6e4fe05dfe03c229b2cbf6bef42",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-mafia",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "mafia",
+      "name": {
+        "key": "SuggestedSearch/Mafia/Name/mafia",
+        "fallback": "mafia"
+      },
       "search": {
         "searchQuery": "mafia",
         "searchTags": "",
@@ -3643,21 +4143,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "4b848d88480533ec67e84a67685c3104",
+    "hash": "d37e112ad14f0e2165d81e32e553e4e2",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-love",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "love",
+      "name": {
+        "key": "SuggestedSearch/Love/Name/love",
+        "fallback": "love"
+      },
       "search": {
         "searchQuery": "love",
         "searchTags": "",
@@ -3666,21 +4170,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e4fdb5e0286d513d22c0ee16ea0dced8",
+    "hash": "436ce182d4c5a1bfe641456f3d992f71",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-lonely",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "lonely",
+      "name": {
+        "key": "SuggestedSearch/Lonely/Name/lonely",
+        "fallback": "lonely"
+      },
       "search": {
         "searchQuery": "lonely",
         "searchTags": "",
@@ -3689,21 +4197,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "bb4e192b99a2f309ea41a504bedcacad",
+    "hash": "310a96067a6c28b1efa4ec14cedbcd69",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-liminal",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "liminal",
+      "name": {
+        "key": "SuggestedSearch/Liminal/Name/liminal",
+        "fallback": "liminal"
+      },
       "search": {
         "searchQuery": "liminal",
         "searchTags": "",
@@ -3712,21 +4224,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "cf1f925d3792535f3d6fa097c412399a",
+    "hash": "5a0bdcd7f9bd060db54d80eacbf4a75f",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-library",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "library",
+      "name": {
+        "key": "SuggestedSearch/Library/Name/library",
+        "fallback": "library"
+      },
       "search": {
         "searchQuery": "library",
         "searchTags": "",
@@ -3735,21 +4251,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "0cfb68cc660be6dd9baa3a1208914a90",
+    "hash": "e58e95faf603cba021931fc35723f5da",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-LGBTQ",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "LGBTQ",
+      "name": {
+        "key": "SuggestedSearch/LGBTQ/Name/LGBTQ",
+        "fallback": "LGBTQ"
+      },
       "search": {
         "searchQuery": "LGBTQ",
         "searchTags": "",
@@ -3758,21 +4278,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "25d4f7f1caf374718ffc0e9cf4f8e821",
+    "hash": "ed47a9da24d4e763049034b326002b45",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-language",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "language",
+      "name": {
+        "key": "SuggestedSearch/Language/Name/language",
+        "fallback": "language"
+      },
       "search": {
         "searchQuery": "language",
         "searchTags": "",
@@ -3781,21 +4305,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "6dea7e0af4b54e8f182a4b618aebd871",
+    "hash": "549c92aca97262e0064e6023cda1aa78",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-landscape",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "landscape",
+      "name": {
+        "key": "SuggestedSearch/Landscape/Name/landscape",
+        "fallback": "landscape"
+      },
       "search": {
         "searchQuery": "landscape",
         "searchTags": "",
@@ -3804,21 +4332,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ca4a231c943620fffb6cec66db545051",
+    "hash": "70361354b34aed9c8bc8bc90f4c883bc",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-lab",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "lab",
+      "name": {
+        "key": "SuggestedSearch/Lab/Name/lab",
+        "fallback": "lab"
+      },
       "search": {
         "searchQuery": "lab",
         "searchTags": "",
@@ -3827,21 +4359,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "08beb6033b173e9ab2d9e3188f9cbfbe",
+    "hash": "c86e4dbef8060804c8d6dce9a661389c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-karaoke",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "karaoke",
+      "name": {
+        "key": "SuggestedSearch/Karaoke/Name/karaoke",
+        "fallback": "karaoke"
+      },
       "search": {
         "searchQuery": "karaoke",
         "searchTags": "",
@@ -3850,21 +4386,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "88f45bc3c45ddd95cd41dc5aa727ad1d",
+    "hash": "6d8eb3efa3fd20a7355ce2ae95d01618",
     "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-jungle",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "jungle",
+      "name": {
+        "key": "SuggestedSearch/Jungle/Name/jungle",
+        "fallback": "jungle"
+      },
       "search": {
         "searchQuery": "jungle",
         "searchTags": "",
@@ -3873,21 +4413,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "81cc09d6abd6ab83a26e8db5ad8f11d3",
+    "hash": "9c04bcefd72d4930a3562cf0fa6b2131",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-jet",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "jet",
+      "name": {
+        "key": "SuggestedSearch/Jet/Name/jet",
+        "fallback": "jet"
+      },
       "search": {
         "searchQuery": "jet",
         "searchTags": "",
@@ -3896,21 +4440,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "b159fabff318a3ea64afecc2830b7db9",
+    "hash": "ff804fd36f43c17dbf217f905bc92e64",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-island",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "island",
+      "name": {
+        "key": "SuggestedSearch/Island/Name/island",
+        "fallback": "island"
+      },
       "search": {
         "searchQuery": "island",
         "searchTags": "",
@@ -3919,21 +4467,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "195c4c546df8c946414f7ee280202e5f",
+    "hash": "86b6ae53c317048a9dbacf512a496354",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-hub",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "hub",
+      "name": {
+        "key": "SuggestedSearch/Hub/Name/hub",
+        "fallback": "hub"
+      },
       "search": {
         "searchQuery": "hub",
         "searchTags": "",
@@ -3942,21 +4494,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "957c468a761779a301ddde5d7a58a95d",
+    "hash": "b4eabcfd166c3fa491d7d5e634e69a17",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-house",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "house",
+      "name": {
+        "key": "SuggestedSearch/House/Name/house",
+        "fallback": "house"
+      },
       "search": {
         "searchQuery": "house",
         "searchTags": "",
@@ -3965,21 +4521,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9ee1591260d53140788a2e8966d87637",
+    "hash": "4c48a57acdafc8a509e45d133f35ea37",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-hotel",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "hotel",
+      "name": {
+        "key": "SuggestedSearch/Hotel/Name/hotel",
+        "fallback": "hotel"
+      },
       "search": {
         "searchQuery": "hotel",
         "searchTags": "",
@@ -3988,21 +4548,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "232754872bd2fe25946a97150e526c0c",
+    "hash": "15630cdd53caec5a04c4ee751be832f1",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-hospital",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "hospital",
+      "name": {
+        "key": "SuggestedSearch/Hospital/Name/hospital",
+        "fallback": "hospital"
+      },
       "search": {
         "searchQuery": "hospital",
         "searchTags": "",
@@ -4011,21 +4575,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "1e0e58c1b62df3521ea1ec89d1bb2470",
+    "hash": "12a20c5cc3c329f517b37e1ec37f5e75",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-horse",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "horse",
+      "name": {
+        "key": "SuggestedSearch/Horse/Name/horse",
+        "fallback": "horse"
+      },
       "search": {
         "searchQuery": "horse",
         "searchTags": "",
@@ -4034,21 +4602,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "81c8fa038141f43126fc729cfa3c371a",
+    "hash": "d6e489b7662c04c1f2d75fc7ad3611af",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-horror",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "horror",
+      "name": {
+        "key": "SuggestedSearch/Horror/Name/horror",
+        "fallback": "horror"
+      },
       "search": {
         "searchQuery": "horror",
         "searchTags": "",
@@ -4057,21 +4629,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "570d9bd3a28a1ac0b0293827464f921f",
+    "hash": "26980fcf30f135dfb2c83df5d2ac100a",
     "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-home",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "home",
+      "name": {
+        "key": "SuggestedSearch/Home/Name/home",
+        "fallback": "home"
+      },
       "search": {
         "searchQuery": "home",
         "searchTags": "",
@@ -4080,21 +4656,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "8eadc2ff19d0a8b53f03cf8784b1d1bb",
+    "hash": "66c8616cf957da06a2f6299710742b1a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-holiday",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "holiday",
+      "name": {
+        "key": "SuggestedSearch/Holiday/Name/holiday",
+        "fallback": "holiday"
+      },
       "search": {
         "searchQuery": "holiday",
         "searchTags": "",
@@ -4103,21 +4683,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "d0091baf22708e2b71425ca9c6a82ed9",
+    "hash": "a18f5c50dc707dc60cfd7bd1515fd8ba",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-hide and seek",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "hide and seek",
+      "name": {
+        "key": "SuggestedSearch/Hide and seek/Name/hide-and-seek",
+        "fallback": "hide and seek"
+      },
       "search": {
         "searchQuery": "hide and seek",
         "searchTags": "",
@@ -4126,21 +4710,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "2548e3618151ac40455223e569749e23",
+    "hash": "426f4237ecb97aeee8a13289634d436a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-helicopter",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "helicopter",
+      "name": {
+        "key": "SuggestedSearch/Helicopter/Name/helicopter",
+        "fallback": "helicopter"
+      },
       "search": {
         "searchQuery": "helicopter",
         "searchTags": "",
@@ -4149,21 +4737,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "0435a6e08461fad196908b141649c76a",
+    "hash": "6067fdf0f29b4de8d21270cac702e1e2",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-hangout",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "hangout",
+      "name": {
+        "key": "SuggestedSearch/Hangout/Name/hangout",
+        "fallback": "hangout"
+      },
       "search": {
         "searchQuery": "hangout",
         "searchTags": "",
@@ -4172,21 +4764,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "7c449bc30914187407864fdebbe546a2",
+    "hash": "b7b655c7f1cc2f8d052415bc84189e8d",
     "createdAt": "2020-09-12T05:20:17+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-halloween",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "halloween",
+      "name": {
+        "key": "SuggestedSearch/Halloween/Name/halloween",
+        "fallback": "halloween"
+      },
       "search": {
         "searchQuery": "halloween",
         "searchTags": "",
@@ -4195,21 +4791,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "641a0e1b85e073e813da4f3c4da38996",
+    "hash": "dd14335ede6aef2cf4826c0c471fe7f0",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-gym",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "gym",
+      "name": {
+        "key": "SuggestedSearch/Gym/Name/gym",
+        "fallback": "gym"
+      },
       "search": {
         "searchQuery": "gym",
         "searchTags": "",
@@ -4218,21 +4818,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "7553a42dbe9f4ce77f260eb5361664d6",
+    "hash": "8f4b406608a2f9bbcc2e7472110df30a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-grass",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "grass",
+      "name": {
+        "key": "SuggestedSearch/Grass/Name/grass",
+        "fallback": "grass"
+      },
       "search": {
         "searchQuery": "grass",
         "searchTags": "",
@@ -4241,21 +4845,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c768b5949975b6a84382d44789542be1",
+    "hash": "e0a9998d157306b7f7dab8768ec5b3fb",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-grapple",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "grapple",
+      "name": {
+        "key": "SuggestedSearch/Grapple/Name/grapple",
+        "fallback": "grapple"
+      },
       "search": {
         "searchQuery": "grapple",
         "searchTags": "",
@@ -4264,21 +4872,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "36845a643d010b1d87ebee0c4af222f8",
+    "hash": "b5bbbae7bc8e658b4c433a4acecb9760",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-graffiti",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "graffiti",
+      "name": {
+        "key": "SuggestedSearch/Graffiti/Name/graffiti",
+        "fallback": "graffiti"
+      },
       "search": {
         "searchQuery": "graffiti",
         "searchTags": "",
@@ -4287,21 +4899,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "00636ef76d0931566d0c84c95633e9f8",
+    "hash": "06a4bf116183018c52f74da1f21bb872",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-golf",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "golf",
+      "name": {
+        "key": "SuggestedSearch/Golf/Name/golf",
+        "fallback": "golf"
+      },
       "search": {
         "searchQuery": "golf",
         "searchTags": "",
@@ -4310,21 +4926,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "c0f6d8e2a796b999efebb7466119180f",
+    "hash": "ba259b8c390a9d6599b010c8356ca226",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-giant",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "giant",
+      "name": {
+        "key": "SuggestedSearch/Giant/Name/giant",
+        "fallback": "giant"
+      },
       "search": {
         "searchQuery": "giant",
         "searchTags": "",
@@ -4333,21 +4953,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "7941758091e874bc0b24263b1f1a20bf",
+    "hash": "9b69279cde7257059dc55d336a85fd69",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-garden",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "garden",
+      "name": {
+        "key": "SuggestedSearch/Garden/Name/garden",
+        "fallback": "garden"
+      },
       "search": {
         "searchQuery": "garden",
         "searchTags": "",
@@ -4356,21 +4980,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "96bd13946487ca75989441d5231de483",
+    "hash": "354e7da429cf08c847bf63072895e2ec",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-garage",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "garage",
+      "name": {
+        "key": "SuggestedSearch/Garage/Name/garage",
+        "fallback": "garage"
+      },
       "search": {
         "searchQuery": "garage",
         "searchTags": "",
@@ -4379,21 +5007,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "1e46df117d7f8902473a0403959a7c37",
+    "hash": "6344d6e2dca09a6d66414c1eda3e3827",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-gallery",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "gallery",
+      "name": {
+        "key": "SuggestedSearch/Gallery/Name/gallery",
+        "fallback": "gallery"
+      },
       "search": {
         "searchQuery": "gallery",
         "searchTags": "",
@@ -4402,21 +5034,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "1df279184017c08e5b5e2d54d44d751a",
+    "hash": "a1a14d8a59e32e2d0ea6849179f62f87",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-furry",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "furry",
+      "name": {
+        "key": "SuggestedSearch/Furry/Name/furry",
+        "fallback": "furry"
+      },
       "search": {
         "searchQuery": "furry",
         "searchTags": "",
@@ -4425,21 +5061,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "8ec14e0fe2a7c6a02ab52276f44badad",
+    "hash": "0871bc6ed1bac80b0415f41107834b66",
     "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-fort",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "fort",
+      "name": {
+        "key": "SuggestedSearch/Fort/Name/fort",
+        "fallback": "fort"
+      },
       "search": {
         "searchQuery": "fort",
         "searchTags": "",
@@ -4448,21 +5088,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "cbfe5991b649d45ed07b11f7c833e094",
+    "hash": "0fe4353d5c2f23a741d71879932106b6",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-forest",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "forest",
+      "name": {
+        "key": "SuggestedSearch/Forest/Name/forest",
+        "fallback": "forest"
+      },
       "search": {
         "searchQuery": "forest",
         "searchTags": "",
@@ -4471,21 +5115,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "f7af4f8339fe5361899c2a6effb2cb8e",
+    "hash": "97abc1253c465bf16f1359b0aeec92a3",
     "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-food",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "food",
+      "name": {
+        "key": "SuggestedSearch/Food/Name/food",
+        "fallback": "food"
+      },
       "search": {
         "searchQuery": "food",
         "searchTags": "",
@@ -4494,21 +5142,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "53f0b53186ab0451b6fb0714710f6e84",
+    "hash": "046b7d89f322a242688f02d2dbbc2e68",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-fog",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "fog",
+      "name": {
+        "key": "SuggestedSearch/Fog/Name/fog",
+        "fallback": "fog"
+      },
       "search": {
         "searchQuery": "fog",
         "searchTags": "",
@@ -4517,21 +5169,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "81dd8af8f1d9648780b60697455cb48a",
+    "hash": "6dd2e44307fcc99e9e5f72c773ad4cd3",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-flower",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "flower",
+      "name": {
+        "key": "SuggestedSearch/Flower/Name/flower",
+        "fallback": "flower"
+      },
       "search": {
         "searchQuery": "flower",
         "searchTags": "",
@@ -4540,21 +5196,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ea2e6ef46e42e2424cb7a3ebc225a75f",
+    "hash": "ccc7a710377f830f88ffa64c0a807bcf",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-flight sim",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "flight sim",
+      "name": {
+        "key": "SuggestedSearch/Flight sim/Name/flight-sim",
+        "fallback": "flight sim"
+      },
       "search": {
         "searchQuery": "flight sim",
         "searchTags": "",
@@ -4563,21 +5223,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a898fbd068754bab885a0b55b5478e56",
+    "hash": "8e8000431dd90fc6d5b932c6d011c173",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-fishing",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "fishing",
+      "name": {
+        "key": "SuggestedSearch/Fishing/Name/fishing",
+        "fallback": "fishing"
+      },
       "search": {
         "searchQuery": "fishing",
         "searchTags": "",
@@ -4586,21 +5250,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e01a42378330b22018ef122d839ab24c",
+    "hash": "401caaefc65daaecbb4576e4ad45a298",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-fish",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "fish",
+      "name": {
+        "key": "SuggestedSearch/Fish/Name/fish",
+        "fallback": "fish"
+      },
       "search": {
         "searchQuery": "fish",
         "searchTags": "",
@@ -4609,21 +5277,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "37fc236c17d0a8559d0982afefe8b334",
+    "hash": "dcc720a50a3911177f875f1667fdf273",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-fireworks",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "fireworks",
+      "name": {
+        "key": "SuggestedSearch/Fireworks/Name/fireworks",
+        "fallback": "fireworks"
+      },
       "search": {
         "searchQuery": "fireworks",
         "searchTags": "",
@@ -4632,21 +5304,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e3746aafce88da1eb7809a6aea81ba5a",
+    "hash": "12d6586d7df3ef20081633883a9efe90",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-festival",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "festival",
+      "name": {
+        "key": "SuggestedSearch/Festival/Name/festival",
+        "fallback": "festival"
+      },
       "search": {
         "searchQuery": "festival",
         "searchTags": "",
@@ -4655,21 +5331,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "d696adff472a4d544079f57d7010b0c9",
+    "hash": "5a73cbc31bcf2e2064aec77b39950c06",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-fast food",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "fast food",
+      "name": {
+        "key": "SuggestedSearch/Fast food/Name/fast-food",
+        "fallback": "fast food"
+      },
       "search": {
         "searchQuery": "fast food",
         "searchTags": "",
@@ -4678,21 +5358,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "bd32e0a7738d6611112fd737ccc50ce1",
+    "hash": "22b4e06ee1092bbe8feecad75c49c187",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-farm",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "farm",
+      "name": {
+        "key": "SuggestedSearch/Farm/Name/farm",
+        "fallback": "farm"
+      },
       "search": {
         "searchQuery": "farm",
         "searchTags": "",
@@ -4701,21 +5385,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a1650d8d881b51133ac3f32aa4cc9b18",
+    "hash": "e4b11bb9355a9e03bf26b6e880e3e326",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-fantasy",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "fantasy",
+      "name": {
+        "key": "SuggestedSearch/Fantasy/Name/fantasy",
+        "fallback": "fantasy"
+      },
       "search": {
         "searchQuery": "fantasy",
         "searchTags": "",
@@ -4724,21 +5412,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "2c5b1437d46ae63e2d4bdef3bfb29fb7",
+    "hash": "c5d5162f19b07daea947e3fd68c7948b",
     "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-explore",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "explore",
+      "name": {
+        "key": "SuggestedSearch/Explore/Name/explore",
+        "fallback": "explore"
+      },
       "search": {
         "searchQuery": "explore",
         "searchTags": "",
@@ -4747,21 +5439,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "89bec0a6491a1d2759b7ef13dd228e1b",
+    "hash": "16ea33a7b4d84ba3a94cb41cc8202a7c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-escape room",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "escape room",
+      "name": {
+        "key": "SuggestedSearch/Escape room/Name/escape-room",
+        "fallback": "escape room"
+      },
       "search": {
         "searchQuery": "escape room",
         "searchTags": "",
@@ -4770,21 +5466,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "26f22d6f1e70f2b26276e78f40ccb4b9",
+    "hash": "4926bd94c2df674fab49ad598ca4a688",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-elevator",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "elevator",
+      "name": {
+        "key": "SuggestedSearch/Elevator/Name/elevator",
+        "fallback": "elevator"
+      },
       "search": {
         "searchQuery": "elevator",
         "searchTags": "",
@@ -4793,21 +5493,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "797e59edc8c552237a796b02a1777e83",
+    "hash": "4761a6bfeb1225628356143a69d9e988",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-dungeon",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "dungeon",
+      "name": {
+        "key": "SuggestedSearch/Dungeon/Name/dungeon",
+        "fallback": "dungeon"
+      },
       "search": {
         "searchQuery": "dungeon",
         "searchTags": "",
@@ -4816,21 +5520,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "325475baa5abadad4fd4cef81d70fa13",
+    "hash": "2f071cc36f9012d6d54ad9a391c89c80",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-drone",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "drone",
+      "name": {
+        "key": "SuggestedSearch/Drone/Name/drone",
+        "fallback": "drone"
+      },
       "search": {
         "searchQuery": "drone",
         "searchTags": "",
@@ -4839,21 +5547,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "51b91aae4cb24b4a783ff497b092bafd",
+    "hash": "57a893494e79e549bff735b88bd14304",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-drive",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "drive",
+      "name": {
+        "key": "SuggestedSearch/Drive/Name/drive",
+        "fallback": "drive"
+      },
       "search": {
         "searchQuery": "drive",
         "searchTags": "",
@@ -4862,21 +5574,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "24f6bb9c1e93bef06ee78c58f00ede3b",
+    "hash": "26709318df12e16507df9a396bd60f31",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-drink",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "drink",
+      "name": {
+        "key": "SuggestedSearch/Drink/Name/drink",
+        "fallback": "drink"
+      },
       "search": {
         "searchQuery": "drink",
         "searchTags": "",
@@ -4885,21 +5601,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "88cc94c708143917821826e71e7109d5",
+    "hash": "a8c84fc59d2ebcc008b07befb0939113",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-draw",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "draw",
+      "name": {
+        "key": "SuggestedSearch/Draw/Name/draw",
+        "fallback": "draw"
+      },
       "search": {
         "searchQuery": "draw",
         "searchTags": "",
@@ -4908,21 +5628,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9c7d6f74d7edd31519da6bd00d9e45ad",
+    "hash": "52a9bafdb7711df4504493649df11954",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-dog",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "dog",
+      "name": {
+        "key": "SuggestedSearch/Dog/Name/dog",
+        "fallback": "dog"
+      },
       "search": {
         "searchQuery": "dog",
         "searchTags": "",
@@ -4931,21 +5655,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ea369b5c2f74de2487c779a652f4ebc5",
+    "hash": "a9da8cdc39928cffb78f15feb4ffbf11",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-dj",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "dj",
+      "name": {
+        "key": "SuggestedSearch/Dj/Name/dj",
+        "fallback": "dj"
+      },
       "search": {
         "searchQuery": "dj",
         "searchTags": "",
@@ -4954,21 +5682,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "7b73b0360bd2a7e5158b1d2187f6be96",
+    "hash": "74724ad0f0ce57b784446e3c6edddce7",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-dinosaur",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "dinosaur",
+      "name": {
+        "key": "SuggestedSearch/Dinosaur/Name/dinosaur",
+        "fallback": "dinosaur"
+      },
       "search": {
         "searchQuery": "dinosaur",
         "searchTags": "",
@@ -4977,21 +5709,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "eefc8ce65b5542a31d6c588b38916d38",
+    "hash": "482d9d6ea3a89e0cd562914128624ea5",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-diner",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "diner",
+      "name": {
+        "key": "SuggestedSearch/Diner/Name/diner",
+        "fallback": "diner"
+      },
       "search": {
         "searchQuery": "diner",
         "searchTags": "",
@@ -5000,21 +5736,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "8f84574f50a023cfc74179228037078a",
+    "hash": "fe91e1a46fdade6fee9e005c3327d651",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-desert",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "desert",
+      "name": {
+        "key": "SuggestedSearch/Desert/Name/desert",
+        "fallback": "desert"
+      },
       "search": {
         "searchQuery": "desert",
         "searchTags": "",
@@ -5023,21 +5763,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "fc4f05f5d5d67ad5ef0d5807c424c07f",
+    "hash": "f850ceafb0fd856e65bd6010d4b6f7f2",
     "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-dating",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "dating",
+      "name": {
+        "key": "SuggestedSearch/Dating/Name/dating",
+        "fallback": "dating"
+      },
       "search": {
         "searchQuery": "dating",
         "searchTags": "",
@@ -5046,21 +5790,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e905024101f53f303590e68eaa74cd93",
+    "hash": "7bb6f475f591df8444baa6b3790f4943",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-dark",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "dark",
+      "name": {
+        "key": "SuggestedSearch/Dark/Name/dark",
+        "fallback": "dark"
+      },
       "search": {
         "searchQuery": "dark",
         "searchTags": "",
@@ -5069,21 +5817,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "eadefd2b247856a6bbe34965d7ebf45a",
+    "hash": "b8fba37d778c2985448d61d356ae1f9d",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-dance",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "dance",
+      "name": {
+        "key": "SuggestedSearch/Dance/Name/dance",
+        "fallback": "dance"
+      },
       "search": {
         "searchQuery": "dance",
         "searchTags": "",
@@ -5092,21 +5844,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "1fce54961b6a78a55097f221fae5709c",
+    "hash": "b44792c684b8ef869541e5976ba41adb",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cyber",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cyber",
+      "name": {
+        "key": "SuggestedSearch/Cyber/Name/cyber",
+        "fallback": "cyber"
+      },
       "search": {
         "searchQuery": "cyber",
         "searchTags": "",
@@ -5115,21 +5871,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9c0fb7c938d322a5ae191357ac63244f",
+    "hash": "836975c6504121446fe7ed4929cda692",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cute",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cute",
+      "name": {
+        "key": "SuggestedSearch/Cute/Name/cute",
+        "fallback": "cute"
+      },
       "search": {
         "searchQuery": "cute",
         "searchTags": "",
@@ -5138,21 +5898,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a2e3d9b65799b38496b6df2551faee5e",
+    "hash": "a03fd534dfe467c5b7b55a10dd07137b",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cuddle",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cuddle",
+      "name": {
+        "key": "SuggestedSearch/Cuddle/Name/cuddle",
+        "fallback": "cuddle"
+      },
       "search": {
         "searchQuery": "cuddle",
         "searchTags": "",
@@ -5161,21 +5925,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "8a5ebabe8ee729ad093536bfd8cc2064",
+    "hash": "bafc963b0b8a0d82055d570d47c3ba17",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-creepy",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "creepy",
+      "name": {
+        "key": "SuggestedSearch/Creepy/Name/creepy",
+        "fallback": "creepy"
+      },
       "search": {
         "searchQuery": "creepy",
         "searchTags": "",
@@ -5184,21 +5952,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9f2c9fd99a1d7736af7e5b44550644fc",
+    "hash": "30dfe7ab02cc5b18658a9e7406c24e86",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cozy",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cozy",
+      "name": {
+        "key": "SuggestedSearch/Cozy/Name/cozy",
+        "fallback": "cozy"
+      },
       "search": {
         "searchQuery": "cozy",
         "searchTags": "",
@@ -5207,21 +5979,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "fba04fd4701155035a4ee4f7c27a3e26",
+    "hash": "9396a1b50d62434e10d76cf061b2ca81",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-court",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "court",
+      "name": {
+        "key": "SuggestedSearch/Court/Name/court",
+        "fallback": "court"
+      },
       "search": {
         "searchQuery": "court",
         "searchTags": "",
@@ -5230,21 +6006,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "38b5326cad8b5c5c989954243298b8fd",
+    "hash": "7290b93fccf5ab3c9ceb7cb03d148543",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cook",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cook",
+      "name": {
+        "key": "SuggestedSearch/Cook/Name/cook",
+        "fallback": "cook"
+      },
       "search": {
         "searchQuery": "cook",
         "searchTags": "",
@@ -5253,21 +6033,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "00a0194408d8cc8969d07f4b274ff215",
+    "hash": "841bb06d0396410954d15173a49d3a36",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-community",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "community",
+      "name": {
+        "key": "SuggestedSearch/Community/Name/community",
+        "fallback": "community"
+      },
       "search": {
         "searchQuery": "community",
         "searchTags": "",
@@ -5276,21 +6060,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "b903ec0b6d1e24342935cbef6dde4f81",
+    "hash": "e23a024eeb2179a1aa4bc8cafd6e882b",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-comfy",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "comfy",
+      "name": {
+        "key": "SuggestedSearch/Comfy/Name/comfy",
+        "fallback": "comfy"
+      },
       "search": {
         "searchQuery": "comfy",
         "searchTags": "",
@@ -5299,21 +6087,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "514256ce3233269d7979ee9273dde473",
+    "hash": "09585dd41ea6fcf2d5f19ff1906f3589",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-comedy",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "comedy",
+      "name": {
+        "key": "SuggestedSearch/Comedy/Name/comedy",
+        "fallback": "comedy"
+      },
       "search": {
         "searchQuery": "comedy",
         "searchTags": "",
@@ -5322,21 +6114,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ed1807b0388dffe8f163dcb0e77e366a",
+    "hash": "43c7671918b4aca90c22cbcf8f6785ed",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-coffee",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "coffee",
+      "name": {
+        "key": "SuggestedSearch/Coffee/Name/coffee",
+        "fallback": "coffee"
+      },
       "search": {
         "searchQuery": "coffee",
         "searchTags": "",
@@ -5345,21 +6141,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9da7c23758f910cc860901da8c8db36b",
+    "hash": "2bd1d09202edf3a5981744ac598bb64f",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-club",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "club",
+      "name": {
+        "key": "SuggestedSearch/Club/Name/club",
+        "fallback": "club"
+      },
       "search": {
         "searchQuery": "club",
         "searchTags": "",
@@ -5368,21 +6168,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "4aeca574937342fcda8d27deff7cc52f",
+    "hash": "3590c97076a88262decba91d26b7c646",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-climbing",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "climbing",
+      "name": {
+        "key": "SuggestedSearch/Climbing/Name/climbing",
+        "fallback": "climbing"
+      },
       "search": {
         "searchQuery": "climbing",
         "searchTags": "",
@@ -5391,21 +6195,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "fc124536abf8e58df6cc80be4c242527",
+    "hash": "98140e24ea1743837f337610b8dbce92",
     "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-chill",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "chill",
+      "name": {
+        "key": "SuggestedSearch/Chill/Name/chill",
+        "fallback": "chill"
+      },
       "search": {
         "searchQuery": "chill",
         "searchTags": "",
@@ -5414,21 +6222,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "6fd6be5388780cab029b746337b5dd93",
+    "hash": "ca6cc30f01a8df445f2792dbec307720",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-chess",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "chess",
+      "name": {
+        "key": "SuggestedSearch/Chess/Name/chess",
+        "fallback": "chess"
+      },
       "search": {
         "searchQuery": "chess",
         "searchTags": "",
@@ -5437,21 +6249,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e334a850ca35b8c4feacd81c0f11145f",
+    "hash": "894429b82af3f1ed960bc94e2205dbc4",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cave",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cave",
+      "name": {
+        "key": "SuggestedSearch/Cave/Name/cave",
+        "fallback": "cave"
+      },
       "search": {
         "searchQuery": "cave",
         "searchTags": "",
@@ -5460,21 +6276,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "6498bd5a3e2d178e337fd5fb2ac4df1a",
+    "hash": "4409f22ba09f1a63caec769fc3836590",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cathedral",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cathedral",
+      "name": {
+        "key": "SuggestedSearch/Cathedral/Name/cathedral",
+        "fallback": "cathedral"
+      },
       "search": {
         "searchQuery": "cathedral",
         "searchTags": "",
@@ -5483,21 +6303,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a4f190773707d9093f211a926a46234d",
+    "hash": "97f62dd0c625f1464ffd390a0e5e398a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cat",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cat",
+      "name": {
+        "key": "SuggestedSearch/Cat/Name/cat",
+        "fallback": "cat"
+      },
       "search": {
         "searchQuery": "cat",
         "searchTags": "",
@@ -5506,21 +6330,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "ca47c78e22f2db592b2b3eef2401734c",
+    "hash": "3b485f576f446289af2fbdb526e46452",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-castle",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "castle",
+      "name": {
+        "key": "SuggestedSearch/Castle/Name/castle",
+        "fallback": "castle"
+      },
       "search": {
         "searchQuery": "castle",
         "searchTags": "",
@@ -5529,21 +6357,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "f3153ebb80bd6f6de6ab93075928d342",
+    "hash": "0a5482e76db6463a81d389ec85fedfde",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-casino",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "casino",
+      "name": {
+        "key": "SuggestedSearch/Casino/Name/casino",
+        "fallback": "casino"
+      },
       "search": {
         "searchQuery": "casino",
         "searchTags": "",
@@ -5552,21 +6384,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "81a5fa4dee59a178a1554f339da71157",
+    "hash": "507629599ea05ba88728a8adb50d2e8f",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cartoon",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cartoon",
+      "name": {
+        "key": "SuggestedSearch/Cartoon/Name/cartoon",
+        "fallback": "cartoon"
+      },
       "search": {
         "searchQuery": "cartoon",
         "searchTags": "",
@@ -5575,21 +6411,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9122d0d96d495c397e30daa81725e845",
+    "hash": "13fea036ba591c88555efbcd00672d34",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-carnival",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "carnival",
+      "name": {
+        "key": "SuggestedSearch/Carnival/Name/carnival",
+        "fallback": "carnival"
+      },
       "search": {
         "searchQuery": "carnival",
         "searchTags": "",
@@ -5598,21 +6438,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "f6ea55f0afa7d7f7a3197b1c3a7b4baa",
+    "hash": "3c1d17fd6a24e8fe573c518e81a39698",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-car",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "car",
+      "name": {
+        "key": "SuggestedSearch/Car/Name/car",
+        "fallback": "car"
+      },
       "search": {
         "searchQuery": "car",
         "searchTags": "",
@@ -5621,21 +6465,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "bbc0b35f7e927c16538385611fcac7a3",
+    "hash": "15b5054b434f1b917ea44e6086bcaa4b",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-camping",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "camping",
+      "name": {
+        "key": "SuggestedSearch/Camping/Name/camping",
+        "fallback": "camping"
+      },
       "search": {
         "searchQuery": "camping",
         "searchTags": "",
@@ -5644,21 +6492,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "73b72362298434999e2a6c8aa7f1b69a",
+    "hash": "af0dae36874c2fa40aec273716b693fb",
     "createdAt": "2022-04-08T17:43:40+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-campfire",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "campfire",
+      "name": {
+        "key": "SuggestedSearch/Campfire/Name/campfire",
+        "fallback": "campfire"
+      },
       "search": {
         "searchQuery": "campfire",
         "searchTags": "",
@@ -5667,21 +6519,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "208563111b55f6b9c2c4e86df37bbac7",
+    "hash": "95cdb0632097c4973f976b757e9ec803",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-calm",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "calm",
+      "name": {
+        "key": "SuggestedSearch/Calm/Name/calm",
+        "fallback": "calm"
+      },
       "search": {
         "searchQuery": "calm",
         "searchTags": "",
@@ -5690,21 +6546,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "55953183946beab6161016d95ae5c217",
+    "hash": "4e6571e8d0bdb4b9b8d4bcc01983859b",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cafe",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cafe",
+      "name": {
+        "key": "SuggestedSearch/Cafe/Name/cafe",
+        "fallback": "cafe"
+      },
       "search": {
         "searchQuery": "cafe",
         "searchTags": "",
@@ -5713,21 +6573,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "86b0858285f51be4f3fdea258387ac8d",
+    "hash": "8dd42df86a179d0e87d9c115df768eba",
     "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-cabin",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "cabin",
+      "name": {
+        "key": "SuggestedSearch/Cabin/Name/cabin",
+        "fallback": "cabin"
+      },
       "search": {
         "searchQuery": "cabin",
         "searchTags": "",
@@ -5736,21 +6600,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "d12cc1f459544079e5bfe7659175ba91",
+    "hash": "fa6ae48ffd46df35bd7ab0aa3ba0bc19",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-bus",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "bus",
+      "name": {
+        "key": "SuggestedSearch/Bus/Name/bus",
+        "fallback": "bus"
+      },
       "search": {
         "searchQuery": "bus",
         "searchTags": "",
@@ -5759,21 +6627,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a4c02cfae7e191083143ab030c4797cc",
+    "hash": "e39b8c4134b949f4bd54f6ef60a2f3ff",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-boxing",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "boxing",
+      "name": {
+        "key": "SuggestedSearch/Boxing/Name/boxing",
+        "fallback": "boxing"
+      },
       "search": {
         "searchQuery": "boxing",
         "searchTags": "",
@@ -5782,21 +6654,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "cc95f4432438e419aff868f5dd094fee",
+    "hash": "0e65e6b573629543435063aac582b8a9",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-box",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "box",
+      "name": {
+        "key": "SuggestedSearch/Box/Name/box",
+        "fallback": "box"
+      },
       "search": {
         "searchQuery": "box",
         "searchTags": "",
@@ -5805,21 +6681,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "dca07a6d60d1327486b9de3a199c6680",
+    "hash": "df3732828cd166dbe7b17c7dbe354f6a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-bowling",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "bowling",
+      "name": {
+        "key": "SuggestedSearch/Bowling/Name/bowling",
+        "fallback": "bowling"
+      },
       "search": {
         "searchQuery": "bowling",
         "searchTags": "",
@@ -5828,21 +6708,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "3db5e83605373359fbd9689d2755b7b1",
+    "hash": "22d92011ccd0195b87506cc1286d2120",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-boat",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "boat",
+      "name": {
+        "key": "SuggestedSearch/Boat/Name/boat",
+        "fallback": "boat"
+      },
       "search": {
         "searchQuery": "boat",
         "searchTags": "",
@@ -5851,21 +6735,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e18110edb8c4aae7b730223c2dbc8249",
+    "hash": "5c8e8f1c77b240dbc65c0dfb46d89878",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-board game",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "board game",
+      "name": {
+        "key": "SuggestedSearch/Board game/Name/board-game",
+        "fallback": "board game"
+      },
       "search": {
         "searchQuery": "board game",
         "searchTags": "",
@@ -5874,21 +6762,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "e9bce385ea6202155d342b637471f285",
+    "hash": "c6ea4266f73635bd61b0fc1e57014d6f",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-birthday",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "birthday",
+      "name": {
+        "key": "SuggestedSearch/Birthday/Name/birthday",
+        "fallback": "birthday"
+      },
       "search": {
         "searchQuery": "birthday",
         "searchTags": "",
@@ -5897,21 +6789,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "d10d6078431d2bc5978208f1e1fdd8c9",
+    "hash": "7a85e5ca1920246ed0577d203f422768",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-bike",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "bike",
+      "name": {
+        "key": "SuggestedSearch/Bike/Name/bike",
+        "fallback": "bike"
+      },
       "search": {
         "searchQuery": "bike",
         "searchTags": "",
@@ -5920,21 +6816,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a609562fb98b779b7cc786373caacf48",
+    "hash": "2d83ffcaa12d946ccaa9b9c12ac05abf",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-bedroom",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "bedroom",
+      "name": {
+        "key": "SuggestedSearch/Bedroom/Name/bedroom",
+        "fallback": "bedroom"
+      },
       "search": {
         "searchQuery": "bedroom",
         "searchTags": "",
@@ -5943,21 +6843,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "2f6e311b2006f4fc2ac3d812ac21b793",
+    "hash": "ea30ad3eff4d3353d815027f502587a7",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-beautiful",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "beautiful",
+      "name": {
+        "key": "SuggestedSearch/Beautiful/Name/beautiful",
+        "fallback": "beautiful"
+      },
       "search": {
         "searchQuery": "beautiful",
         "searchTags": "",
@@ -5966,21 +6870,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "0f42f144e85e96c193999fe263227650",
+    "hash": "abaf2f729e45e4a038b46c7f8b34b430",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-beach",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "beach",
+      "name": {
+        "key": "SuggestedSearch/Beach/Name/beach",
+        "fallback": "beach"
+      },
       "search": {
         "searchQuery": "beach",
         "searchTags": "",
@@ -5989,21 +6897,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "6e1355072ade70cd657a1f76eaccf6c4",
+    "hash": "53ec16cd0b10240eeaf809584ad2cae7",
     "createdAt": "2022-04-08T18:07:24+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-bbq",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "bbq",
+      "name": {
+        "key": "SuggestedSearch/Bbq/Name/bbq",
+        "fallback": "bbq"
+      },
       "search": {
         "searchQuery": "bbq",
         "searchTags": "",
@@ -6012,21 +6924,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9b5d42ffce4f6cad627118afb8b1fc00",
+    "hash": "9569cd509ed3285d82e9f0ab656c2579",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-battle",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "battle",
+      "name": {
+        "key": "SuggestedSearch/Battle/Name/battle",
+        "fallback": "battle"
+      },
       "search": {
         "searchQuery": "battle",
         "searchTags": "",
@@ -6035,21 +6951,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "f29ca78175135253d20ab29af7250aaf",
+    "hash": "a92f83c84d3424e4f7d6a86edcb39161",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-basement",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "basement",
+      "name": {
+        "key": "SuggestedSearch/Basement/Name/basement",
+        "fallback": "basement"
+      },
       "search": {
         "searchQuery": "basement",
         "searchTags": "",
@@ -6058,21 +6978,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "2fc42d807e178d821e010739481ea94f",
+    "hash": "fd7fa1efb372982f17c7ead13f104fb4",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-bar",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "bar",
+      "name": {
+        "key": "SuggestedSearch/Bar/Name/bar",
+        "fallback": "bar"
+      },
       "search": {
         "searchQuery": "bar",
         "searchTags": "",
@@ -6081,21 +7005,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "fab121bcc1b29d49e6352f5e298fa474",
+    "hash": "ce4364d0c4823ff4030f55913f16c795",
     "createdAt": "2022-04-08T17:56:26+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-ballroom",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "ballroom",
+      "name": {
+        "key": "SuggestedSearch/Ballroom/Name/ballroom",
+        "fallback": "ballroom"
+      },
       "search": {
         "searchQuery": "ballroom",
         "searchTags": "",
@@ -6104,21 +7032,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "82f9ba1f3549be7862d1ece57657a1d2",
+    "hash": "62be6d134127512f1f8a15030b40bd87",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-autumn",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "autumn",
+      "name": {
+        "key": "SuggestedSearch/Autumn/Name/autumn",
+        "fallback": "autumn"
+      },
       "search": {
         "searchQuery": "autumn",
         "searchTags": "",
@@ -6127,21 +7059,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "186d045ff601b7ced309f9967b626a7a",
+    "hash": "1fcc0cc6d4d383213fd94a1a81734cb9",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-audio",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "audio",
+      "name": {
+        "key": "SuggestedSearch/Audio/Name/audio",
+        "fallback": "audio"
+      },
       "search": {
         "searchQuery": "audio",
         "searchTags": "",
@@ -6150,21 +7086,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "820aade487b84fc5cdff36c300e2a158",
+    "hash": "5d40e0d35acebd2e3cc9a28ac3f41916",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-attic",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "attic",
+      "name": {
+        "key": "SuggestedSearch/Attic/Name/attic",
+        "fallback": "attic"
+      },
       "search": {
         "searchQuery": "attic",
         "searchTags": "",
@@ -6173,21 +7113,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "9c992d5cb13807c029f319c7b7cf311d",
+    "hash": "f7809d81a9970fc65136da984829fe6a",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-asylum",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "asylum",
+      "name": {
+        "key": "SuggestedSearch/Asylum/Name/asylum",
+        "fallback": "asylum"
+      },
       "search": {
         "searchQuery": "asylum",
         "searchTags": "",
@@ -6196,21 +7140,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "09cc680cf4f76c90ce8aebc383258c13",
+    "hash": "6c28cfb94c5ee11e4375d3dce033c1d4",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-asmr",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "asmr",
+      "name": {
+        "key": "SuggestedSearch/Asmr/Name/asmr",
+        "fallback": "asmr"
+      },
       "search": {
         "searchQuery": "asmr",
         "searchTags": "",
@@ -6219,21 +7167,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "1a8cc95c25ce480a2a1dde9283f7ada7",
+    "hash": "51168ceffe3f7369918348f278a3c1d7",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-art",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "art",
+      "name": {
+        "key": "SuggestedSearch/Art/Name/art",
+        "fallback": "art"
+      },
       "search": {
         "searchQuery": "art",
         "searchTags": "",
@@ -6242,21 +7194,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "03612cf38c849884ba52266198f3b7f8",
+    "hash": "bbf17df93075ea559973a73664eb7b30",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-arena",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "arena",
+      "name": {
+        "key": "SuggestedSearch/Arena/Name/arena",
+        "fallback": "arena"
+      },
       "search": {
         "searchQuery": "arena",
         "searchTags": "",
@@ -6265,21 +7221,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "81fd2ef8c9e2afeb7593d5b0fb2356c5",
+    "hash": "94680c274d59c4b37a7ce055e5a72667",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-architecture",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "architecture",
+      "name": {
+        "key": "SuggestedSearch/Architecture/Name/architecture",
+        "fallback": "architecture"
+      },
       "search": {
         "searchQuery": "architecture",
         "searchTags": "",
@@ -6288,21 +7248,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "56ca156666d9bd73241d60aab49c0be6",
+    "hash": "3026efd787bc9feafebe16dbb9dcf2f9",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-arcade",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "arcade",
+      "name": {
+        "key": "SuggestedSearch/Arcade/Name/arcade",
+        "fallback": "arcade"
+      },
       "search": {
         "searchQuery": "arcade",
         "searchTags": "",
@@ -6311,21 +7275,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "70a8ed2a3f71a138c0f1ccada44b9fbc",
+    "hash": "002f1ca5b6a124ad8653dcd0ae68f9c2",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-aquarium",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "aquarium",
+      "name": {
+        "key": "SuggestedSearch/Aquarium/Name/aquarium",
+        "fallback": "aquarium"
+      },
       "search": {
         "searchQuery": "aquarium",
         "searchTags": "",
@@ -6334,21 +7302,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "33fbc847bb928acca51ef417437b0abd",
+    "hash": "f53583505baa96713ae366019e3b94a8",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-apartment",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "apartment",
+      "name": {
+        "key": "SuggestedSearch/Apartment/Name/apartment",
+        "fallback": "apartment"
+      },
       "search": {
         "searchQuery": "apartment",
         "searchTags": "",
@@ -6357,21 +7329,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "5a11f4294ecbc43fe143056e9f87802e",
+    "hash": "ec3cec8fbfa6f1422aea510cff0b126f",
     "createdAt": "2022-04-08T18:19:13+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-animation",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "animation",
+      "name": {
+        "key": "SuggestedSearch/Animation/Name/animation",
+        "fallback": "animation"
+      },
       "search": {
         "searchQuery": "animation",
         "searchTags": "",
@@ -6380,21 +7356,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "a8f3f350e07e1695d2e814094c4742ae",
+    "hash": "aba733833f4a8a72f74a0e320294a213",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-alien",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "alien",
+      "name": {
+        "key": "SuggestedSearch/Alien/Name/alien",
+        "fallback": "alien"
+      },
       "search": {
         "searchQuery": "alien",
         "searchTags": "",
@@ -6403,21 +7383,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "0d8c94571f3a1b21f80e3b49f7d7e631",
+    "hash": "35b657c89f90783d982fea9248dd5c82",
     "createdAt": "2022-04-08T18:47:48+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-airship",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "airship",
+      "name": {
+        "key": "SuggestedSearch/Airship/Name/airship",
+        "fallback": "airship"
+      },
       "search": {
         "searchQuery": "airship",
         "searchTags": "",
@@ -6426,21 +7410,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "bb8453ff552dd4290fe86f814f9e8553",
+    "hash": "d1d24ea21a24331dc0574b718b32f824",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-airport",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "airport",
+      "name": {
+        "key": "SuggestedSearch/Airport/Name/airport",
+        "fallback": "airport"
+      },
       "search": {
         "searchQuery": "airport",
         "searchTags": "",
@@ -6449,21 +7437,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "88e9585404df1c7f50349c132206f6fc",
+    "hash": "db802522c6e52ffbf275aaae6e3ab134",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-adventure",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "adventure",
+      "name": {
+        "key": "SuggestedSearch/Adventure/Name/adventure",
+        "fallback": "adventure"
+      },
       "search": {
         "searchQuery": "adventure",
         "searchTags": "",
@@ -6472,21 +7464,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "40c3e80ba4df33889a35a195e385faa7",
+    "hash": "4ef044104e0d0b95c4c074c007141161",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-action",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "action",
+      "name": {
+        "key": "SuggestedSearch/Action/Name/action",
+        "fallback": "action"
+      },
       "search": {
         "searchQuery": "action",
         "searchTags": "",
@@ -6495,21 +7491,25 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "2bf252e471a0383034d1bab3493ee700",
+    "hash": "f346bff06a395caa2c2d1f9f1e9ab48c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-abandoned",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
+    "isLocalizable": true,
     "tags": [
       "search",
       "user-all"
     ],
     "data": {
-      "name": "abandoned",
+      "name": {
+        "key": "SuggestedSearch/Abandoned/Name/abandoned",
+        "fallback": "abandoned"
+      },
       "search": {
         "searchQuery": "abandoned",
         "searchTags": "",
@@ -6518,9 +7518,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "sortBy": "relevance"
       }
     },
-    "hash": "60c32d3cff2a900c9a6a68c53a4436ec",
+    "hash": "39d6b1616bdfeabb67791dfd57f85c7c",
     "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
     "id": "search-vie",
@@ -8316,6 +9316,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1001,
+    "isLocalizable": true,
     "tags": [
       "avatar-category",
       "user-all"
@@ -8323,7 +9324,10 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/557b110b75151d4446a90a058d9509616af73b1e6377bc969b083d5f968fc122.png",
       "contentList": {
-        "name": "Public",
+        "name": {
+          "key": "AvatarCategory/Public/Name/Public",
+          "fallback": "Public"
+        },
         "type": "avatar",
         "sortHeading": "order",
         "sortOwnership": "public",
@@ -8331,9 +9335,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "platform": "ThisPlatformSupported"
       }
     },
-    "hash": "17c9d7f37cc9d689038e7aaed88db6c3",
+    "hash": "5a57c6c10c8adda919529b04aa32277a",
     "createdAt": "2020-06-05T08:23:29+00:00",
-    "updatedAt": "2022-09-17T06:11:00+00:00"
+    "updatedAt": "2023-11-14T23:15:49+00:00"
   },
   {
     "id": "help-topic-essentials",
@@ -8426,6 +9430,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1002,
+    "isLocalizable": true,
     "tags": [
       "avatar-category",
       "user-all"
@@ -8433,7 +9438,10 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/87290480ef855277840044dee452336bc461907a220813a34c54b8cbd7f29b54.png",
       "contentList": {
-        "name": "Legacy",
+        "name": {
+          "key": "AvatarCategory/Legacy/Name/Legacy",
+          "fallback": "Legacy"
+        },
         "type": "avatar",
         "sortHeading": "order",
         "sortOwnership": "any",
@@ -8442,9 +9450,9 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
         "tag": "admin_featured_legacy"
       }
     },
-    "hash": "7dcb2de0effedc3ed4e3c5fd063e6af5",
+    "hash": "149d9ec8440970834650709bbe85d878",
     "createdAt": "2020-06-05T08:23:28+00:00",
-    "updatedAt": "2023-04-25T21:15:04+00:00"
+    "updatedAt": "2023-11-14T23:15:49+00:00"
   },
   {
     "id": "help-topic-safety",
