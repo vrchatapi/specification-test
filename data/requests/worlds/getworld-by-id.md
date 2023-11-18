@@ -59,8 +59,6 @@ Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
   "privateOccupants": "<unstable: number>",
   "occupants": "<unstable: number>",
   "unityPackages": "<unstable: array>",
-  "created_at": "2019-05-01T01:19:43.477Z",
-  "updated_at": "<unstable: string>",
   "tags": [
     "author_tag_bar",
     "author_tag_quest",
@@ -70,6 +68,8 @@ Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
     "system_approved",
     "admin_approved",
     "admin_spotlight_mobile"
-  ]
+  ],
+  "created_at": "2019-05-01T01:19:43.477Z",
+  "updated_at": "<unstable: string>"
 }
 ```

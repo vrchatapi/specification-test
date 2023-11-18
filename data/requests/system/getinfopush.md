@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/0/data/description failed type, #/0/data/name failed type, #/0/data/article/content failed type, #/1/data/onPressed/command failed enum, #/2/data/onPressed/command failed enum, #/6/data/onPressed/command failed enum, #/7/data/onPressed/command failed enum, #/8/data/onPressed/command failed enum, #/9/data/onPressed/command failed enum, #/10/data/onPressed/command failed enum, #/31/data/description failed type, #/32/data/description failed type, #/33/data/name failed type, #/34/data/name failed type, #/35/data/name failed type, #/36/data/name failed type, #/37/data/name failed type, #/38/data/name failed type, #/39/data/name failed type, #/40/data/name failed type, #/41/data/name failed type, #/42/data/name failed type, #/43/data/name failed type, #/44/data/name failed type, #/45/data/name failed type, #/46/data/name failed type, #/47/data/name failed type, #/48/data/name failed type, #/49/data/name failed type, #/50/data/name failed type, #/51/data/name failed type, #/52/data/name failed type, #/53/data/name failed type, #/54/data/name failed type, #/55/data/name failed type, #/56/data/name failed type, #/57/data/name failed type, #/58/data/name failed type, #/59/data/name failed type, #/60/data/name failed type, #/61/data/name failed type, #/62/data/name failed type, #/63/data/name failed type, #/64/data/name failed type, #/65/data/name failed type, #/66/data/name failed type, #/67/data/name failed type, #/68/data/name failed type, #/69/data/name failed type, #/70/data/name failed type, #/71/data/name failed type, #/72/data/name failed type, #/73/data/name failed type, #/74/data/name failed type, #/75/data/name failed type, #/76/data/name failed type, #/77/data/name failed type, #/78/data/name failed type, #/79/data/name failed type, #/80/data/name failed type, #/81/data/name failed type, #/82/data/name failed type, #/83/data/name failed type, #/84/data/name failed type, #/85/data/name failed type, #/86/data/name failed type, #/87/data/name failed type, #/88/data/name failed type, #/89/data/name failed type, #/90/data/name failed type, #/91/data/name failed type, #/92/data/name failed type, #/93/data/name failed type, #/94/data/name failed type, #/95/data/name failed type, #/96/data/name failed type, #/97/data/name failed type, #/98/data/name failed type, #/99/data/name failed type, #/100/data/name failed type, #/101/data/name failed type, #/102/data/name failed type, #/103/data/name failed type, #/104/data/name failed type, #/105/data/name failed type, #/106/data/name failed type, #/107/data/name failed type, #/108/data/name failed type, #/109/data/name failed type, #/110/data/name failed type, #/111/data/name failed type, #/112/data/name failed type, #/113/data/name failed type, #/114/data/name failed type, #/115/data/name failed type, #/116/data/name failed type, #/117/data/name failed type, #/118/data/name failed type, #/119/data/name failed type, #/120/data/name failed type, #/121/data/name failed type, #/122/data/name failed type, #/123/data/name failed type, #/124/data/name failed type, #/125/data/name failed type, #/126/data/name failed type, #/127/data/name failed type, #/128/data/name failed type, #/129/data/name failed type, #/130/data/name failed type, #/131/data/name failed type, #/132/data/name failed type, #/133/data/name failed type, #/134/data/name failed type, #/135/data/name failed type, #/136/data/name failed type, #/137/data/name failed type, #/138/data/name failed type, #/139/data/name failed type, #/140/data/name failed type, #/141/data/name failed type, #/142/data/name failed type, #/143/data/name failed type, #/144/data/name failed type, #/145/data/name failed type, #/146/data/name failed type, #/147/data/name failed type, #/148/data/name failed type, #/149/data/name failed type, #/150/data/name failed type, #/151/data/name failed type, #/152/data/name failed type, #/153/data/name failed type, #/154/data/name failed type, #/155/data/name failed type, #/156/data/name failed type, #/157/data/name failed type, #/158/data/name failed type, #/159/data/name failed type, #/160/data/name failed type, #/161/data/name failed type, #/162/data/name failed type, #/163/data/name failed type, #/164/data/name failed type, #/165/data/name failed type, #/166/data/name failed type, #/167/data/name failed type, #/168/data/name failed type, #/169/data/name failed type, #/170/data/name failed type, #/171/data/name failed type, #/172/data/name failed type, #/173/data/name failed type, #/174/data/name failed type, #/175/data/name failed type, #/176/data/name failed type, #/177/data/name failed type, #/178/data/name failed type, #/179/data/name failed type, #/180/data/name failed type, #/181/data/name failed type, #/182/data/name failed type, #/183/data/name failed type, #/184/data/name failed type, #/185/data/name failed type, #/186/data/name failed type, #/187/data/name failed type, #/188/data/name failed type, #/189/data/name failed type, #/190/data/name failed type, #/191/data/name failed type, #/192/data/name failed type, #/193/data/name failed type, #/194/data/name failed type, #/195/data/name failed type, #/196/data/name failed type, #/197/data/name failed type, #/198/data/name failed type, #/199/data/name failed type, #/200/data/name failed type, #/201/data/name failed type, #/202/data/name failed type, #/203/data/name failed type, #/204/data/name failed type, #/205/data/name failed type, #/206/data/name failed type, #/207/data/name failed type, #/208/data/name failed type, #/209/data/name failed type, #/210/data/name failed type, #/211/data/name failed type, #/212/data/name failed type, #/213/data/name failed type, #/214/data/name failed type, #/215/data/name failed type, #/216/data/name failed type, #/217/data/name failed type, #/218/data/name failed type, #/219/data/name failed type, #/220/data/name failed type, #/221/data/name failed type, #/222/data/name failed type, #/223/data/name failed type, #/224/data/name failed type, #/225/data/name failed type, #/226/data/name failed type, #/227/data/name failed type, #/228/data/name failed type, #/229/data/name failed type, #/230/data/name failed type, #/231/data/name failed type, #/232/data/name failed type, #/233/data/name failed type, #/234/data/name failed type, #/235/data/name failed type, #/236/data/name failed type, #/237/data/name failed type, #/238/data/name failed type, #/239/data/name failed type, #/240/data/name failed type, #/241/data/name failed type, #/242/data/name failed type, #/243/data/name failed type, #/244/data/name failed type, #/245/data/name failed type, #/246/data/name failed type, #/247/data/name failed type, #/248/data/name failed type, #/249/data/name failed type, #/250/data/name failed type, #/251/data/name failed type, #/252/data/name failed type, #/253/data/name failed type, #/254/data/name failed type, #/255/data/name failed type, #/256/data/name failed type, #/257/data/name failed type, #/258/data/name failed type, #/259/data/name failed type, #/260/data/name failed type, #/261/data/name failed type, #/262/data/name failed type, #/263/data/name failed type, #/264/data/name failed type, #/265/data/name failed type, #/266/data/name failed type, #/267/data/name failed type, #/268/data/name failed type, #/269/data/name failed type, #/270/data/name failed type, #/271/data/name failed type, #/272/data/name failed type, #/273/data/name failed type, #/274/data/name failed type, #/275/data/name failed type, #/276/data/name failed type, #/277/data/name failed type, #/278/data/name failed type, #/279/data/name failed type, #/280/data/name failed type, #/281/data/name failed type, #/282/data/name failed type, #/306/data/article/content failed type, #/307/data/article/content failed type, #/308/data/description failed type, #/308/data/name failed type, #/308/data/article/content failed type, #/309/data/description failed type, #/309/data/name failed type, #/309/data/article/content failed type, #/310/data/description failed type, #/310/data/name failed type, #/310/data/article/content failed type, #/311/data/description failed type, #/311/data/name failed type, #/311/data/article/content failed type, #/312/data/description failed type, #/312/data/name failed type, #/312/data/article/content failed type, #/313/data/description failed type, #/313/data/name failed type, #/313/data/article/content failed type, #/314/data/description failed type, #/314/data/name failed type, #/314/data/article/content failed type, #/315/data/description failed type, #/315/data/name failed type, #/315/data/article/content failed type, #/318/data/contentList/name failed type, #/318/data/name failed type, #/320/data/description failed type, #/320/data/name failed type, #/321/data/contentList/name failed type, #/322/data/description failed type, #/322/data/name failed type, #/323/data/description failed type, #/323/data/name failed type, #/323/data/article/content failed type, #/324/data/contentList/name failed type, #/325/data/description failed type, #/325/data/name failed type, #/326/data/description failed type, #/326/data/name failed type, #/326/data/article/content failed type, #/327/data/description failed type, #/327/data/name failed type, #/327/data/article/content failed type, #/328/data/description failed type, #/328/data/name failed type, #/328/data/article/content failed type, #/329/data/description failed type, #/329/data/name failed type, #/330/data/description failed type, #/330/data/name failed type, #/331/data/description failed type, #/331/data/name failed type, #/332/data/contentList/name failed type, #/332/data/name failed type, #/334/data/description failed type, #/334/data/name failed type, #/335/data/contentList/name failed type, #/335/data/name failed type, #/336/data/description failed type, #/336/data/name failed type, #/337/data/contentList/name failed type, #/337/data/name failed type, #/338/data/contentList/name failed type, #/338/data/name failed type, #/339/data/contentList/name failed type, #/339/data/name failed type, #/341/data/contentList/name failed type, #/341/data/name failed type, #/343/data/contentList/name failed type, #/343/data/name failed type, #/344/data/description failed type, #/344/data/name failed type, #/344/data/article/content failed type, #/345/data/contentList/name failed type, #/345/data/name failed type, #/346/data/description failed type, #/346/data/name failed type, #/346/data/article/content failed type, #/347/data/contentList/name failed type, #/347/data/name failed type, #/349/data/name failed type, #/350/data/name failed type, #/351/data/name failed type, #/352/data/contentList/name failed type, #/352/data/name failed type, #/353/data/contentList/name failed type, #/353/data/name failed type, #/354/data/description failed type, #/354/data/name failed type, #/354/data/article/content failed type, #/355/data/description failed type, #/355/data/name failed type, #/355/data/article/content failed type.
+Response schema mismatch: #/0/data/onPressed/command failed enum, #/1/data/onPressed/command failed enum, #/4/data/onPressed/command failed enum, #/5/data/onPressed/command failed enum, #/6/data/onPressed/command failed enum, #/7/data/onPressed/command failed enum, #/8/data/onPressed/command failed enum, #/29/data/description failed type, #/30/data/description failed type, #/31/data/name failed type, #/32/data/name failed type, #/33/data/name failed type, #/34/data/name failed type, #/35/data/name failed type, #/36/data/name failed type, #/37/data/name failed type, #/38/data/name failed type, #/39/data/name failed type, #/40/data/name failed type, #/41/data/name failed type, #/42/data/name failed type, #/43/data/name failed type, #/44/data/name failed type, #/45/data/name failed type, #/46/data/name failed type, #/47/data/name failed type, #/48/data/name failed type, #/49/data/name failed type, #/50/data/name failed type, #/51/data/name failed type, #/52/data/name failed type, #/53/data/name failed type, #/54/data/name failed type, #/55/data/name failed type, #/56/data/name failed type, #/57/data/name failed type, #/58/data/name failed type, #/59/data/name failed type, #/60/data/name failed type, #/61/data/name failed type, #/62/data/name failed type, #/63/data/name failed type, #/64/data/name failed type, #/65/data/name failed type, #/66/data/name failed type, #/67/data/name failed type, #/68/data/name failed type, #/69/data/name failed type, #/70/data/name failed type, #/71/data/name failed type, #/72/data/name failed type, #/73/data/name failed type, #/74/data/name failed type, #/75/data/name failed type, #/76/data/name failed type, #/77/data/name failed type, #/78/data/name failed type, #/79/data/name failed type, #/80/data/name failed type, #/81/data/name failed type, #/82/data/name failed type, #/83/data/name failed type, #/84/data/name failed type, #/85/data/name failed type, #/86/data/name failed type, #/87/data/name failed type, #/88/data/name failed type, #/89/data/name failed type, #/90/data/name failed type, #/91/data/name failed type, #/92/data/name failed type, #/93/data/name failed type, #/94/data/name failed type, #/95/data/name failed type, #/96/data/name failed type, #/97/data/name failed type, #/98/data/name failed type, #/99/data/name failed type, #/100/data/name failed type, #/101/data/name failed type, #/102/data/name failed type, #/103/data/name failed type, #/104/data/name failed type, #/105/data/name failed type, #/106/data/name failed type, #/107/data/name failed type, #/108/data/name failed type, #/109/data/name failed type, #/110/data/name failed type, #/111/data/name failed type, #/112/data/name failed type, #/113/data/name failed type, #/114/data/name failed type, #/115/data/name failed type, #/116/data/name failed type, #/117/data/name failed type, #/118/data/name failed type, #/119/data/name failed type, #/120/data/name failed type, #/121/data/name failed type, #/122/data/name failed type, #/123/data/name failed type, #/124/data/name failed type, #/125/data/name failed type, #/126/data/name failed type, #/127/data/name failed type, #/128/data/name failed type, #/129/data/name failed type, #/130/data/name failed type, #/131/data/name failed type, #/132/data/name failed type, #/133/data/name failed type, #/134/data/name failed type, #/135/data/name failed type, #/136/data/name failed type, #/137/data/name failed type, #/138/data/name failed type, #/139/data/name failed type, #/140/data/name failed type, #/141/data/name failed type, #/142/data/name failed type, #/143/data/name failed type, #/144/data/name failed type, #/145/data/name failed type, #/146/data/name failed type, #/147/data/name failed type, #/148/data/name failed type, #/149/data/name failed type, #/150/data/name failed type, #/151/data/name failed type, #/152/data/name failed type, #/153/data/name failed type, #/154/data/name failed type, #/155/data/name failed type, #/156/data/name failed type, #/157/data/name failed type, #/158/data/name failed type, #/159/data/name failed type, #/160/data/name failed type, #/161/data/name failed type, #/162/data/name failed type, #/163/data/name failed type, #/164/data/name failed type, #/165/data/name failed type, #/166/data/name failed type, #/167/data/name failed type, #/168/data/name failed type, #/169/data/name failed type, #/170/data/name failed type, #/171/data/name failed type, #/172/data/name failed type, #/173/data/name failed type, #/174/data/name failed type, #/175/data/name failed type, #/176/data/name failed type, #/177/data/name failed type, #/178/data/name failed type, #/179/data/name failed type, #/180/data/name failed type, #/181/data/name failed type, #/182/data/name failed type, #/183/data/name failed type, #/184/data/name failed type, #/185/data/name failed type, #/186/data/name failed type, #/187/data/name failed type, #/188/data/name failed type, #/189/data/name failed type, #/190/data/name failed type, #/191/data/name failed type, #/192/data/name failed type, #/193/data/name failed type, #/194/data/name failed type, #/195/data/name failed type, #/196/data/name failed type, #/197/data/name failed type, #/198/data/name failed type, #/199/data/name failed type, #/200/data/name failed type, #/201/data/name failed type, #/202/data/name failed type, #/203/data/name failed type, #/204/data/name failed type, #/205/data/name failed type, #/206/data/name failed type, #/207/data/name failed type, #/208/data/name failed type, #/209/data/name failed type, #/210/data/name failed type, #/211/data/name failed type, #/212/data/name failed type, #/213/data/name failed type, #/214/data/name failed type, #/215/data/name failed type, #/216/data/name failed type, #/217/data/name failed type, #/218/data/name failed type, #/219/data/name failed type, #/220/data/name failed type, #/221/data/name failed type, #/222/data/name failed type, #/223/data/name failed type, #/224/data/name failed type, #/225/data/name failed type, #/226/data/name failed type, #/227/data/name failed type, #/228/data/name failed type, #/229/data/name failed type, #/230/data/name failed type, #/231/data/name failed type, #/232/data/name failed type, #/233/data/name failed type, #/234/data/name failed type, #/235/data/name failed type, #/236/data/name failed type, #/237/data/name failed type, #/238/data/name failed type, #/239/data/name failed type, #/240/data/name failed type, #/241/data/name failed type, #/242/data/name failed type, #/243/data/name failed type, #/244/data/name failed type, #/245/data/name failed type, #/246/data/name failed type, #/247/data/name failed type, #/248/data/name failed type, #/249/data/name failed type, #/250/data/name failed type, #/251/data/name failed type, #/252/data/name failed type, #/253/data/name failed type, #/254/data/name failed type, #/255/data/name failed type, #/256/data/name failed type, #/257/data/name failed type, #/258/data/name failed type, #/259/data/name failed type, #/260/data/name failed type, #/261/data/name failed type, #/262/data/name failed type, #/263/data/name failed type, #/264/data/name failed type, #/265/data/name failed type, #/266/data/name failed type, #/267/data/name failed type, #/268/data/name failed type, #/269/data/name failed type, #/270/data/name failed type, #/271/data/name failed type, #/272/data/name failed type, #/273/data/name failed type, #/274/data/name failed type, #/275/data/name failed type, #/276/data/name failed type, #/277/data/name failed type, #/278/data/name failed type, #/279/data/name failed type, #/280/data/name failed type, #/304/data/article/content failed type, #/305/data/article/content failed type, #/306/data/description failed type, #/306/data/name failed type, #/306/data/article/content failed type, #/307/data/description failed type, #/307/data/name failed type, #/307/data/article/content failed type, #/308/data/description failed type, #/308/data/name failed type, #/308/data/article/content failed type, #/309/data/description failed type, #/309/data/name failed type, #/309/data/article/content failed type, #/310/data/description failed type, #/310/data/name failed type, #/310/data/article/content failed type, #/311/data/description failed type, #/311/data/name failed type, #/311/data/article/content failed type, #/312/data/description failed type, #/312/data/name failed type, #/312/data/article/content failed type, #/313/data/description failed type, #/313/data/name failed type, #/313/data/article/content failed type, #/315/data/contentList/name failed type, #/315/data/name failed type, #/317/data/description failed type, #/317/data/name failed type, #/318/data/contentList/name failed type, #/319/data/description failed type, #/319/data/name failed type, #/320/data/description failed type, #/320/data/name failed type, #/320/data/article/content failed type, #/321/data/contentList/name failed type, #/322/data/description failed type, #/322/data/name failed type, #/323/data/description failed type, #/323/data/name failed type, #/323/data/article/content failed type, #/324/data/description failed type, #/324/data/name failed type, #/324/data/article/content failed type, #/325/data/description failed type, #/325/data/name failed type, #/325/data/article/content failed type, #/326/data/description failed type, #/326/data/name failed type, #/327/data/description failed type, #/327/data/name failed type, #/328/data/description failed type, #/328/data/name failed type, #/329/data/contentList/name failed type, #/329/data/name failed type, #/331/data/description failed type, #/331/data/name failed type, #/332/data/contentList/name failed type, #/332/data/name failed type, #/333/data/description failed type, #/333/data/name failed type, #/334/data/contentList/name failed type, #/334/data/name failed type, #/335/data/contentList/name failed type, #/335/data/name failed type, #/336/data/contentList/name failed type, #/336/data/name failed type, #/338/data/contentList/name failed type, #/338/data/name failed type, #/340/data/contentList/name failed type, #/340/data/name failed type, #/341/data/description failed type, #/341/data/name failed type, #/341/data/article/content failed type, #/342/data/contentList/name failed type, #/342/data/name failed type, #/343/data/description failed type, #/343/data/name failed type, #/343/data/article/content failed type, #/344/data/contentList/name failed type, #/344/data/name failed type, #/346/data/name failed type, #/347/data/name failed type, #/348/data/name failed type, #/349/data/contentList/name failed type, #/349/data/name failed type, #/350/data/contentList/name failed type, #/350/data/name failed type, #/351/data/description failed type, #/351/data/name failed type, #/351/data/article/content failed type, #/352/data/description failed type, #/352/data/name failed type, #/352/data/article/content failed type.
 ```
 
 ## Request
@@ -33,116 +33,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
 ```json
 [
   {
-    "id": "help-article-vrchat-spookality-2023",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 800,
-    "isLocalizable": true,
-    "tags": [
-      "user-all",
-      "help-article",
-      "help-notifications",
-      "help-topic-news"
-    ],
-    "data": {
-      "name": {
-        "key": "HelpArticle/VrchatSpookality2023/Name/Spookality-2023",
-        "fallback": "Spookality 2023"
-      },
-      "imageUrl": "https://assets.vrchat.com/ips/assets/2c789fe4e3d29ba3c44270e140f652f1cabe58c77f7fed842e91762a2e6c6a52.png",
-      "description": {
-        "key": "Tooltips/Visit-Spooky",
-        "fallback": "Visit Spooky"
-      },
-      "article": {
-        "sectionLinks": [
-          "link-spookality-worlds",
-          "link-spookality-avatars"
-        ],
-        "content": [
-          {
-            "text": "<size=140%><b>Happy Spookality 2023!</b></size>"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "Congratulations to all the creators who participated in the Jam. Our team of undead judges has selected their favorite submissions to be highlighted in VRChat. <br><br>Here's how you can find all the frightening Avatars and Worlds:"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "id": "link-spookality-worlds",
-            "title": "Spookality Worlds"
-          },
-          {
-            "text": "<size=140%><b>Spookality Worlds:</b></size>"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "Explore these by opening the Worlds page in your menu!"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "imageUrl": "https://assets.vrchat.com/ips/assets/2f7bff7d13d71f924b801f3baaf47f7306f2f8f1c131a864dacafbd8e1d29bef.png"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "We've added two new rows to dial in your desired level of spookiness:<br><br>Scary Worlds (BEWARE! Monsters and jumpscares! Muhahahah) and Halloween Hangouts (Spookality-themed, but more chill if you just want to vibe with your paranormal friends)."
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "id": "link-spookality-avatars",
-            "title": "Spookality Avatars"
-          },
-          {
-            "text": "<size=140%><b>Spookality Avatars:</b></size>"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "Visit the VRChat Home and enter the haunted Theatre! Inside, you'll find all the fantastic Spookality avatars. We even added a photo booth and a mirror! (Yes, it works for vampire avatars, too.)"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "imageUrl": "https://assets.vrchat.com/ips/assets/8c2969a3ec14b2ebf9492a119f8f2a3117dd70baa3e130c926c307384f7d9000.png"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "imageUrl": "https://assets.vrchat.com/ips/assets/9475938e4e36d838601f5199325fd5bc623ceff1e47d3b5431184f64c774a46b.png"
-          },
-          {
-            "text": "<br>"
-          },
-          {
-            "text": "Share your favorite pictures and videos with the #spookality2023 tag. Happy Halloween from the VRChat team!</link>"
-          }
-        ]
-      }
-    },
-    "hash": "42697d2a46b0c02f0fd68662b05688d9",
-    "createdAt": "2023-10-20T17:34:37+00:00",
-    "updatedAt": "2023-11-09T17:18:03+00:00"
-  },
-  {
-    "id": "qm-spookality-2023",
+    "id": "qm-hololivemeet-2023",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 890,
@@ -151,17 +42,14 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "user-all"
     ],
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/dcb0aa737898ef7802df1308975bb7b708b6d60366239d5ca96cb5225ea1ffa8.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/bb2b83b7eed78b3fae89c1f1839c5f19afcfb9979d80ec2bf87be4f664059ede.png",
       "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "help-article-vrchat-spookality-2023"
-        ]
+        "command": "OpenWorldsMenu"
       }
     },
-    "hash": "e4a4ae26d3f237589b2f82590c1cbb12",
-    "createdAt": "2023-10-20T17:23:26+00:00",
-    "updatedAt": "2023-10-20T20:58:03+00:00"
+    "hash": "df950577ff7bdcb508a0a81c9c09dfe5",
+    "createdAt": "2023-11-17T14:58:57+00:00",
+    "updatedAt": "2023-11-17T21:55:51+00:00"
   },
   {
     "id": "qm-banner-release-202333",
@@ -186,7 +74,7 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     "updatedAt": "2023-10-16T20:55:23+00:00"
   },
   {
-    "id": "world-spookality-2023-scary",
+    "id": "world-hololivemeet-2023",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 900,
@@ -195,51 +83,23 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
       "user-all"
     ],
     "data": {
-      "name": "SPOOKALITY      Scary Worlds",
-      "tooltipDescription": "Visit scary worlds made by the community for the Spookality 2023 Jam. You've been warned.",
-      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/387b6e34ffe5a96cc25420d849c60ec51f955af046776ea87d1426a286226ff6.png",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/c1f79d9141adc25924b3c4bdead68542652cf8496e0de14acf33bdc7cc86246c.png",
+      "name": "Hololive Meet",
+      "tooltipDescription": "Happening now! Explore the Hololive Meet beach world!",
+      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/ea8aee40a373bef19c519b891e5aae042e2e45db28d578d3a99cf8a054f7dca4.png",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/fff4dd617b8ac099a4761e687bc72bdeb5955505dee15fc1afed104ca8fcf12c.png",
       "contentList": {
-        "name": "Spookality - Scary Worlds",
+        "name": "Hololive Meet 2023",
         "sortHeading": "order",
         "sortOwnership": "any",
         "sortOrder": "ascending",
         "platform": "ThisPlatformSupported",
-        "tag": "admin_spookality_2023_scary",
-        "bannersTag": "world-category-banner-event-spookality-2023-scary"
+        "tag": "admin_hololivemeet_2023",
+        "bannersTag": "world-category-banner-event-hololivemeet-2023"
       }
     },
-    "hash": "c1e87bc47027c1ce742d8062ffe71adb",
-    "createdAt": "2023-10-20T17:11:24+00:00",
-    "updatedAt": "2023-10-23T19:37:50+00:00"
-  },
-  {
-    "id": "world-spookality-2023-hangouts",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 900,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": "SPOOKALITY      Hangout Worlds",
-      "tooltipDescription": "Visit fun Hangout and other Non-Scary worlds made by the community for the Spookality 2023 Jam.",
-      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/4bc4289b4e239a627d6ddb643b83b3a8d72dde8accb8bb1705a60fb32d9cef0a.png",
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/c1f79d9141adc25924b3c4bdead68542652cf8496e0de14acf33bdc7cc86246c.png",
-      "contentList": {
-        "name": "Spookality - Hangout Worlds",
-        "sortHeading": "order",
-        "sortOwnership": "any",
-        "sortOrder": "ascending",
-        "platform": "ThisPlatformSupported",
-        "tag": "admin_spookality_2023_hangouts",
-        "bannersTag": "world-category-banner-event-spookality-2023-hangouts"
-      }
-    },
-    "hash": "cacdb27ae35059eaddd0d9714fe30785",
-    "createdAt": "2023-10-20T17:11:24+00:00",
-    "updatedAt": "2023-10-23T19:37:50+00:00"
+    "hash": "696d7c8a97d2276c0026db60394425e1",
+    "createdAt": "2023-11-17T14:57:02+00:00",
+    "updatedAt": "2023-11-17T21:22:30+00:00"
   },
   {
     "id": "qm-banner-android-launch",
@@ -9182,36 +9042,20 @@ Response schema mismatch: #/0/data/description failed type, #/0/data/name failed
     "updatedAt": "2023-11-09T17:18:18+00:00"
   },
   {
-    "id": "world-banner---event-spookality-2023-scary",
+    "id": "world-banner---event-hololivemeet-2023",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "world-category-banner-event-spookality-2023-scary",
+      "world-category-banner-event-hololivemeet-2023",
       "user-all"
     ],
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/e93cff172cdab37b9588b3f85defc196c8e03106578aa8942db4aeb50b53a2cf.png"
+      "imageUrl": "https://assets.vrchat.com/ips/assets/14be51c2d5f3fc2c53d9b1b0c08f98c60c7e94e3fa281f72430190cb666ef241.png"
     },
-    "hash": "aaccd126bb07f4ba9155744b95f31350",
-    "createdAt": "2023-10-20T17:11:24+00:00",
-    "updatedAt": "2023-10-20T20:34:05+00:00"
-  },
-  {
-    "id": "world-banner---event-spookality-2023-hangouts",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "world-category-banner-event-spookality-2023-hangouts",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/124fc4622035925e641b39adb8baabf5fe4066734a03861cf8745c5a5839b773.png"
-    },
-    "hash": "6ab345c51d82c883bac039c9d36a734c",
-    "createdAt": "2023-10-20T17:11:23+00:00",
-    "updatedAt": "2023-10-23T19:37:50+00:00"
+    "hash": "9fffb193755084e1c2e203be8225cc67",
+    "createdAt": "2023-11-17T14:57:02+00:00",
+    "updatedAt": "2023-11-17T21:22:29+00:00"
   },
   {
     "id": "world-spotlight-mobile-test",
