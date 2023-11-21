@@ -68,7 +68,7 @@
   ],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_534ffc10-15d0-4fc5-86d5-2dcd55f0ac45/1/file",
-  "fallbackAvatar": "avtr_896b8cc1-e6ec-4172-964b-f29c1c92b309",
+  "fallbackAvatar": "avtr_1f54ee82-44c8-4528-9c2b-c16bd19dea9a",
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "acceptedTOSVersion": 8,
