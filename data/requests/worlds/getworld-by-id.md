@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
+Response schema mismatch: #/instances/0 failed maxItems, #/instances/1 failed maxItems, #/instances/2 failed maxItems, #/instances/3 failed maxItems, #/instances/4 failed maxItems, #/instances/5 failed maxItems, #/instances/6 failed maxItems, #/instances/7 failed maxItems, #/instances/8 failed maxItems, #/instances/9 failed maxItems, #/instances/10 failed maxItems, #/instances/11 failed maxItems, #/instances/12 failed maxItems, #/instances/13 failed maxItems, #/instances/14 failed maxItems, #/instances/15 failed maxItems, #/instances/16 failed maxItems, #/instances/17 failed maxItems, #/unityPackages/0/assetUrl failed minLength.
 ```
 
 ## Request
@@ -47,7 +47,29 @@ Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
   "version": "<unstable: number>",
   "organization": "vrchat",
   "previewYoutubeId": null,
-  "udonProducts": [],
+  "udonProducts": [
+    "prod_2f76612c-7358-4b19-9097-2dd0d4e5dd4c",
+    "prod_ac810a17-6c2c-443b-8a57-c3d69742c7d3",
+    "prod_33d8a850-9e3c-46a3-8e1e-685f21756b74",
+    "prod_0415bbb6-0ed4-4c26-8fba-d8c5ecf1ec82",
+    "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
+    "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
+    "prod_126bbe02-a118-44cb-866f-a9eddd557da6",
+    "prod_b691bae3-0120-4f15-bfed-0fc571292940",
+    "prod_1dbb5caf-8ab4-4c78-afec-95ba50bca814",
+    "prod_e966072f-73fd-4e18-abd0-927af11cf4e3",
+    "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
+    "prod_8a027235-c374-416f-ac4a-a9f6d9c23ee0",
+    "prod_603bd4de-c8aa-4bf3-8a32-fa5d756946d4",
+    "prod_860beff0-1c18-4202-9cad-d5d0ac8ab395",
+    "prod_e10ee05f-2442-4a01-adcf-fd9a7757b8d6",
+    "prod_aac28b54-75d8-4c30-a0a2-da3f5ede0baf",
+    "prod_c8701344-5395-40ad-850d-63983a764cc6",
+    "prod_c0dde8b1-95d8-477d-8e12-1408c43fa9bd",
+    "prod_106b4615-2f3c-428c-9bec-3318d14752fe",
+    "prod_2e552283-5c44-4347-96be-11631de17d0a",
+    "prod_1867fa37-2073-475c-8355-3a72b9eabf08"
+  ],
   "favorites": "<unstable: number>",
   "visits": "<unstable: number>",
   "popularity": "<unstable: number>",
@@ -67,7 +89,8 @@ Response schema mismatch: #/unityPackages/0/assetUrl failed minLength.
     "author_tag_lounge",
     "system_approved",
     "admin_approved",
-    "admin_spotlight_mobile"
+    "admin_spotlight_mobile",
+    "system_updated_recently"
   ],
   "created_at": "2019-05-01T01:19:43.477Z",
   "updated_at": "<unstable: string>"
