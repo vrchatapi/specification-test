@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/1/data/onPressed/command failed enum, #/2/data/onPressed/command failed enum, #/3/data/onPressed/command failed enum, #/4/data/onPressed/command failed enum, #/5/data/onPressed/command failed enum, #/26/data/description failed type, #/27/data/description failed type, #/28/data/name failed type, #/29/data/name failed type, #/30/data/name failed type, #/31/data/name failed type, #/32/data/name failed type, #/33/data/name failed type, #/34/data/name failed type, #/35/data/name failed type, #/36/data/name failed type, #/37/data/name failed type, #/38/data/name failed type, #/39/data/name failed type, #/40/data/name failed type, #/41/data/name failed type, #/42/data/name failed type, #/43/data/name failed type, #/44/data/name failed type, #/45/data/name failed type, #/46/data/name failed type, #/47/data/name failed type, #/48/data/name failed type, #/49/data/name failed type, #/50/data/name failed type, #/51/data/name failed type, #/52/data/name failed type, #/53/data/name failed type, #/54/data/name failed type, #/55/data/name failed type, #/56/data/name failed type, #/57/data/name failed type, #/58/data/name failed type, #/59/data/name failed type, #/60/data/name failed type, #/61/data/name failed type, #/62/data/name failed type, #/63/data/name failed type, #/64/data/name failed type, #/65/data/name failed type, #/66/data/name failed type, #/67/data/name failed type, #/68/data/name failed type, #/69/data/name failed type, #/70/data/name failed type, #/71/data/name failed type, #/72/data/name failed type, #/73/data/name failed type, #/74/data/name failed type, #/75/data/name failed type, #/76/data/name failed type, #/77/data/name failed type, #/78/data/name failed type, #/79/data/name failed type, #/80/data/name failed type, #/81/data/name failed type, #/82/data/name failed type, #/83/data/name failed type, #/84/data/name failed type, #/85/data/name failed type, #/86/data/name failed type, #/87/data/name failed type, #/88/data/name failed type, #/89/data/name failed type, #/90/data/name failed type, #/91/data/name failed type, #/92/data/name failed type, #/93/data/name failed type, #/94/data/name failed type, #/95/data/name failed type, #/96/data/name failed type, #/97/data/name failed type, #/98/data/name failed type, #/99/data/name failed type, #/100/data/name failed type, #/101/data/name failed type, #/102/data/name failed type, #/103/data/name failed type, #/104/data/name failed type, #/105/data/name failed type, #/106/data/name failed type, #/107/data/name failed type, #/108/data/name failed type, #/109/data/name failed type, #/110/data/name failed type, #/111/data/name failed type, #/112/data/name failed type, #/113/data/name failed type, #/114/data/name failed type, #/115/data/name failed type, #/116/data/name failed type, #/117/data/name failed type, #/118/data/name failed type, #/119/data/name failed type, #/120/data/name failed type, #/121/data/name failed type, #/122/data/name failed type, #/123/data/name failed type, #/124/data/name failed type, #/125/data/name failed type, #/126/data/name failed type, #/127/data/name failed type, #/128/data/name failed type, #/129/data/name failed type, #/130/data/name failed type, #/131/data/name failed type, #/132/data/name failed type, #/133/data/name failed type, #/134/data/name failed type, #/135/data/name failed type, #/136/data/name failed type, #/137/data/name failed type, #/138/data/name failed type, #/139/data/name failed type, #/140/data/name failed type, #/141/data/name failed type, #/142/data/name failed type, #/143/data/name failed type, #/144/data/name failed type, #/145/data/name failed type, #/146/data/name failed type, #/147/data/name failed type, #/148/data/name failed type, #/149/data/name failed type, #/150/data/name failed type, #/151/data/name failed type, #/152/data/name failed type, #/153/data/name failed type, #/154/data/name failed type, #/155/data/name failed type, #/156/data/name failed type, #/157/data/name failed type, #/158/data/name failed type, #/159/data/name failed type, #/160/data/name failed type, #/161/data/name failed type, #/162/data/name failed type, #/163/data/name failed type, #/164/data/name failed type, #/165/data/name failed type, #/166/data/name failed type, #/167/data/name failed type, #/168/data/name failed type, #/169/data/name failed type, #/170/data/name failed type, #/171/data/name failed type, #/172/data/name failed type, #/173/data/name failed type, #/174/data/name failed type, #/175/data/name failed type, #/176/data/name failed type, #/177/data/name failed type, #/178/data/name failed type, #/179/data/name failed type, #/180/data/name failed type, #/181/data/name failed type, #/182/data/name failed type, #/183/data/name failed type, #/184/data/name failed type, #/185/data/name failed type, #/186/data/name failed type, #/187/data/name failed type, #/188/data/name failed type, #/189/data/name failed type, #/190/data/name failed type, #/191/data/name failed type, #/192/data/name failed type, #/193/data/name failed type, #/194/data/name failed type, #/195/data/name failed type, #/196/data/name failed type, #/197/data/name failed type, #/198/data/name failed type, #/199/data/name failed type, #/200/data/name failed type, #/201/data/name failed type, #/202/data/name failed type, #/203/data/name failed type, #/204/data/name failed type, #/205/data/name failed type, #/206/data/name failed type, #/207/data/name failed type, #/208/data/name failed type, #/209/data/name failed type, #/210/data/name failed type, #/211/data/name failed type, #/212/data/name failed type, #/213/data/name failed type, #/214/data/name failed type, #/215/data/name failed type, #/216/data/name failed type, #/217/data/name failed type, #/218/data/name failed type, #/219/data/name failed type, #/220/data/name failed type, #/221/data/name failed type, #/222/data/name failed type, #/223/data/name failed type, #/224/data/name failed type, #/225/data/name failed type, #/226/data/name failed type, #/227/data/name failed type, #/228/data/name failed type, #/229/data/name failed type, #/230/data/name failed type, #/231/data/name failed type, #/232/data/name failed type, #/233/data/name failed type, #/234/data/name failed type, #/235/data/name failed type, #/236/data/name failed type, #/237/data/name failed type, #/238/data/name failed type, #/239/data/name failed type, #/240/data/name failed type, #/241/data/name failed type, #/242/data/name failed type, #/243/data/name failed type, #/244/data/name failed type, #/245/data/name failed type, #/246/data/name failed type, #/247/data/name failed type, #/248/data/name failed type, #/249/data/name failed type, #/250/data/name failed type, #/251/data/name failed type, #/252/data/name failed type, #/253/data/name failed type, #/254/data/name failed type, #/255/data/name failed type, #/256/data/name failed type, #/257/data/name failed type, #/258/data/name failed type, #/259/data/name failed type, #/260/data/name failed type, #/261/data/name failed type, #/262/data/name failed type, #/263/data/name failed type, #/264/data/name failed type, #/265/data/name failed type, #/266/data/name failed type, #/267/data/name failed type, #/268/data/name failed type, #/269/data/name failed type, #/270/data/name failed type, #/271/data/name failed type, #/272/data/name failed type, #/273/data/name failed type, #/274/data/name failed type, #/275/data/name failed type, #/276/data/name failed type, #/277/data/name failed type, #/301/data/article/content failed type, #/302/data/article/content failed type, #/303/data/description failed type, #/303/data/name failed type, #/303/data/article/content failed type, #/304/data/description failed type, #/304/data/name failed type, #/304/data/article/content failed type, #/305/data/description failed type, #/305/data/name failed type, #/305/data/article/content failed type, #/306/data/description failed type, #/306/data/name failed type, #/306/data/article/content failed type, #/307/data/description failed type, #/307/data/name failed type, #/307/data/article/content failed type, #/308/data/description failed type, #/308/data/name failed type, #/308/data/article/content failed type, #/309/data/description failed type, #/309/data/name failed type, #/309/data/article/content failed type, #/310/data/description failed type, #/310/data/name failed type, #/310/data/article/content failed type, #/311/data/contentList/name failed type, #/311/data/name failed type, #/313/data/description failed type, #/313/data/name failed type, #/314/data/contentList/name failed type, #/315/data/description failed type, #/315/data/name failed type, #/316/data/description failed type, #/316/data/name failed type, #/316/data/article/content failed type, #/317/data/contentList/name failed type, #/318/data/description failed type, #/318/data/name failed type, #/319/data/description failed type, #/319/data/name failed type, #/319/data/article/content failed type, #/320/data/description failed type, #/320/data/name failed type, #/320/data/article/content failed type, #/321/data/description failed type, #/321/data/name failed type, #/321/data/article/content failed type, #/322/data/description failed type, #/322/data/name failed type, #/323/data/description failed type, #/323/data/name failed type, #/324/data/description failed type, #/324/data/name failed type, #/325/data/contentList/name failed type, #/325/data/name failed type, #/327/data/description failed type, #/327/data/name failed type, #/328/data/contentList/name failed type, #/328/data/name failed type, #/329/data/description failed type, #/329/data/name failed type, #/330/data/contentList/name failed type, #/330/data/name failed type, #/331/data/contentList/name failed type, #/331/data/name failed type, #/332/data/contentList/name failed type, #/332/data/name failed type, #/334/data/contentList/name failed type, #/334/data/name failed type, #/336/data/contentList/name failed type, #/336/data/name failed type, #/337/data/description failed type, #/337/data/name failed type, #/337/data/article/content failed type, #/338/data/contentList/name failed type, #/338/data/name failed type, #/339/data/description failed type, #/339/data/name failed type, #/339/data/article/content failed type, #/340/data/contentList/name failed type, #/340/data/name failed type, #/342/data/name failed type, #/343/data/name failed type, #/344/data/name failed type, #/345/data/contentList/name failed type, #/345/data/name failed type, #/346/data/contentList/name failed type, #/346/data/name failed type, #/347/data/description failed type, #/347/data/name failed type, #/347/data/article/content failed type, #/348/data/description failed type, #/348/data/name failed type, #/348/data/article/content failed type.
+Response schema mismatch: #/3/data/onPressed/command failed enum, #/4/data/onPressed/command failed enum, #/5/data/onPressed/command failed enum, #/6/data/onPressed/command failed enum, #/7/data/onPressed/command failed enum, #/28/data/description failed type, #/29/data/description failed type, #/30/data/name failed type, #/31/data/name failed type, #/32/data/name failed type, #/33/data/name failed type, #/34/data/name failed type, #/35/data/name failed type, #/36/data/name failed type, #/37/data/name failed type, #/38/data/name failed type, #/39/data/name failed type, #/40/data/name failed type, #/41/data/name failed type, #/42/data/name failed type, #/43/data/name failed type, #/44/data/name failed type, #/45/data/name failed type, #/46/data/name failed type, #/47/data/name failed type, #/48/data/name failed type, #/49/data/name failed type, #/50/data/name failed type, #/51/data/name failed type, #/52/data/name failed type, #/53/data/name failed type, #/54/data/name failed type, #/55/data/name failed type, #/56/data/name failed type, #/57/data/name failed type, #/58/data/name failed type, #/59/data/name failed type, #/60/data/name failed type, #/61/data/name failed type, #/62/data/name failed type, #/63/data/name failed type, #/64/data/name failed type, #/65/data/name failed type, #/66/data/name failed type, #/67/data/name failed type, #/68/data/name failed type, #/69/data/name failed type, #/70/data/name failed type, #/71/data/name failed type, #/72/data/name failed type, #/73/data/name failed type, #/74/data/name failed type, #/75/data/name failed type, #/76/data/name failed type, #/77/data/name failed type, #/78/data/name failed type, #/79/data/name failed type, #/80/data/name failed type, #/81/data/name failed type, #/82/data/name failed type, #/83/data/name failed type, #/84/data/name failed type, #/85/data/name failed type, #/86/data/name failed type, #/87/data/name failed type, #/88/data/name failed type, #/89/data/name failed type, #/90/data/name failed type, #/91/data/name failed type, #/92/data/name failed type, #/93/data/name failed type, #/94/data/name failed type, #/95/data/name failed type, #/96/data/name failed type, #/97/data/name failed type, #/98/data/name failed type, #/99/data/name failed type, #/100/data/name failed type, #/101/data/name failed type, #/102/data/name failed type, #/103/data/name failed type, #/104/data/name failed type, #/105/data/name failed type, #/106/data/name failed type, #/107/data/name failed type, #/108/data/name failed type, #/109/data/name failed type, #/110/data/name failed type, #/111/data/name failed type, #/112/data/name failed type, #/113/data/name failed type, #/114/data/name failed type, #/115/data/name failed type, #/116/data/name failed type, #/117/data/name failed type, #/118/data/name failed type, #/119/data/name failed type, #/120/data/name failed type, #/121/data/name failed type, #/122/data/name failed type, #/123/data/name failed type, #/124/data/name failed type, #/125/data/name failed type, #/126/data/name failed type, #/127/data/name failed type, #/128/data/name failed type, #/129/data/name failed type, #/130/data/name failed type, #/131/data/name failed type, #/132/data/name failed type, #/133/data/name failed type, #/134/data/name failed type, #/135/data/name failed type, #/136/data/name failed type, #/137/data/name failed type, #/138/data/name failed type, #/139/data/name failed type, #/140/data/name failed type, #/141/data/name failed type, #/142/data/name failed type, #/143/data/name failed type, #/144/data/name failed type, #/145/data/name failed type, #/146/data/name failed type, #/147/data/name failed type, #/148/data/name failed type, #/149/data/name failed type, #/150/data/name failed type, #/151/data/name failed type, #/152/data/name failed type, #/153/data/name failed type, #/154/data/name failed type, #/155/data/name failed type, #/156/data/name failed type, #/157/data/name failed type, #/158/data/name failed type, #/159/data/name failed type, #/160/data/name failed type, #/161/data/name failed type, #/162/data/name failed type, #/163/data/name failed type, #/164/data/name failed type, #/165/data/name failed type, #/166/data/name failed type, #/167/data/name failed type, #/168/data/name failed type, #/169/data/name failed type, #/170/data/name failed type, #/171/data/name failed type, #/172/data/name failed type, #/173/data/name failed type, #/174/data/name failed type, #/175/data/name failed type, #/176/data/name failed type, #/177/data/name failed type, #/178/data/name failed type, #/179/data/name failed type, #/180/data/name failed type, #/181/data/name failed type, #/182/data/name failed type, #/183/data/name failed type, #/184/data/name failed type, #/185/data/name failed type, #/186/data/name failed type, #/187/data/name failed type, #/188/data/name failed type, #/189/data/name failed type, #/190/data/name failed type, #/191/data/name failed type, #/192/data/name failed type, #/193/data/name failed type, #/194/data/name failed type, #/195/data/name failed type, #/196/data/name failed type, #/197/data/name failed type, #/198/data/name failed type, #/199/data/name failed type, #/200/data/name failed type, #/201/data/name failed type, #/202/data/name failed type, #/203/data/name failed type, #/204/data/name failed type, #/205/data/name failed type, #/206/data/name failed type, #/207/data/name failed type, #/208/data/name failed type, #/209/data/name failed type, #/210/data/name failed type, #/211/data/name failed type, #/212/data/name failed type, #/213/data/name failed type, #/214/data/name failed type, #/215/data/name failed type, #/216/data/name failed type, #/217/data/name failed type, #/218/data/name failed type, #/219/data/name failed type, #/220/data/name failed type, #/221/data/name failed type, #/222/data/name failed type, #/223/data/name failed type, #/224/data/name failed type, #/225/data/name failed type, #/226/data/name failed type, #/227/data/name failed type, #/228/data/name failed type, #/229/data/name failed type, #/230/data/name failed type, #/231/data/name failed type, #/232/data/name failed type, #/233/data/name failed type, #/234/data/name failed type, #/235/data/name failed type, #/236/data/name failed type, #/237/data/name failed type, #/238/data/name failed type, #/239/data/name failed type, #/240/data/name failed type, #/241/data/name failed type, #/242/data/name failed type, #/243/data/name failed type, #/244/data/name failed type, #/245/data/name failed type, #/246/data/name failed type, #/247/data/name failed type, #/248/data/name failed type, #/249/data/name failed type, #/250/data/name failed type, #/251/data/name failed type, #/252/data/name failed type, #/253/data/name failed type, #/254/data/name failed type, #/255/data/name failed type, #/256/data/name failed type, #/257/data/name failed type, #/258/data/name failed type, #/259/data/name failed type, #/260/data/name failed type, #/261/data/name failed type, #/262/data/name failed type, #/263/data/name failed type, #/264/data/name failed type, #/265/data/name failed type, #/266/data/name failed type, #/267/data/name failed type, #/268/data/name failed type, #/269/data/name failed type, #/270/data/name failed type, #/271/data/name failed type, #/272/data/name failed type, #/273/data/name failed type, #/274/data/name failed type, #/275/data/name failed type, #/276/data/name failed type, #/277/data/name failed type, #/278/data/name failed type, #/279/data/name failed type, #/305/data/article/content failed type, #/306/data/article/content failed type, #/307/data/description failed type, #/307/data/name failed type, #/307/data/article/content failed type, #/308/data/description failed type, #/308/data/name failed type, #/308/data/article/content failed type, #/309/data/description failed type, #/309/data/name failed type, #/309/data/article/content failed type, #/310/data/description failed type, #/310/data/name failed type, #/310/data/article/content failed type, #/311/data/description failed type, #/311/data/name failed type, #/311/data/article/content failed type, #/312/data/description failed type, #/312/data/name failed type, #/312/data/article/content failed type, #/313/data/description failed type, #/313/data/name failed type, #/313/data/article/content failed type, #/314/data/description failed type, #/314/data/name failed type, #/314/data/article/content failed type, #/316/data/contentList/name failed type, #/316/data/name failed type, #/318/data/description failed type, #/318/data/name failed type, #/319/data/contentList/name failed type, #/320/data/description failed type, #/320/data/name failed type, #/321/data/description failed type, #/321/data/name failed type, #/321/data/article/content failed type, #/322/data/contentList/name failed type, #/323/data/description failed type, #/323/data/name failed type, #/324/data/description failed type, #/324/data/name failed type, #/324/data/article/content failed type, #/325/data/description failed type, #/325/data/name failed type, #/325/data/article/content failed type, #/326/data/description failed type, #/326/data/name failed type, #/326/data/article/content failed type, #/327/data/description failed type, #/327/data/name failed type, #/328/data/description failed type, #/328/data/name failed type, #/329/data/description failed type, #/329/data/name failed type, #/330/data/contentList/name failed type, #/330/data/name failed type, #/332/data/description failed type, #/332/data/name failed type, #/333/data/contentList/name failed type, #/333/data/name failed type, #/334/data/description failed type, #/334/data/name failed type, #/335/data/contentList/name failed type, #/335/data/name failed type, #/336/data/contentList/name failed type, #/336/data/name failed type, #/338/data/contentList/name failed type, #/338/data/name failed type, #/340/data/contentList/name failed type, #/340/data/name failed type, #/342/data/contentList/name failed type, #/342/data/name failed type, #/343/data/description failed type, #/343/data/name failed type, #/343/data/article/content failed type, #/344/data/contentList/name failed type, #/344/data/name failed type, #/345/data/description failed type, #/345/data/name failed type, #/345/data/article/content failed type, #/346/data/contentList/name failed type, #/346/data/name failed type, #/348/data/name failed type, #/349/data/name failed type, #/350/data/name failed type, #/351/data/article/content failed type, #/352/data/article/content failed type, #/353/data/contentList/name failed type, #/353/data/name failed type, #/354/data/contentList/name failed type, #/354/data/name failed type, #/355/data/description failed type, #/355/data/name failed type, #/355/data/article/content failed type, #/356/data/description failed type, #/356/data/name failed type, #/356/data/article/content failed type.
 ```
 
 ## Request
@@ -32,6 +32,56 @@ Response schema mismatch: #/1/data/onPressed/command failed enum, #/2/data/onPre
 
 ```json
 [
+  {
+    "id": "qm-banner-vrcatvinyl",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 900,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/bef3b2cedde901f20cc2398934cc050734ee2b9a6d37fa546356e225aefd551a.png",
+      "onPressed": {
+        "command": "OpenURL",
+        "parameters": [
+          "https://www.makeship.com/products/vrcat-vinyl"
+        ]
+      }
+    },
+    "hash": "2e4e239159138bba364e281754634453",
+    "createdAt": "2023-11-22T20:58:10+00:00",
+    "updatedAt": "2023-11-22T20:58:10+00:00"
+  },
+  {
+    "id": "world-virtualdiceparty-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 900,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": "Virtual Dice Party",
+      "tooltipDescription": "Virtual Dice Party!",
+      "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/11033527b46ba08bc71088025ce21a038cab1f1d0fa5615ec8daacf4852b910b.png",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/41eb6f6635edc9330c726e1775e84ff1a6ab240571bed2d667f382d228d51460.png",
+      "contentList": {
+        "name": "Virtual Dice Party",
+        "sortHeading": "order",
+        "sortOwnership": "any",
+        "sortOrder": "ascending",
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_vdp_2023",
+        "bannersTag": "world-category-banner-event-virtualdiceparty-2023"
+      }
+    },
+    "hash": "51b3fd1a007e8b7512b8d70bca62da71",
+    "createdAt": "2023-11-22T17:24:50+00:00",
+    "updatedAt": "2023-11-22T17:57:45+00:00"
+  },
   {
     "id": "qm-banner-android-launch",
     "isEnabled": true,
@@ -7843,6 +7893,139 @@ Response schema mismatch: #/1/data/onPressed/command failed enum, #/2/data/onPre
     "updatedAt": "2023-08-31T21:08:27+00:00"
   },
   {
+    "id": "marketplace-spotlight-pc",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "content-compatibility-pc",
+      "marketplace-page",
+      "user-all"
+    ],
+    "data": {
+      "name": "Spotlight",
+      "tooltipDescription": "View Featured VRChat Creator Economy Content",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/90f1b49353850be01c43966dc58c7895aa2da4564f48afc69480f2942f123257.png",
+      "categories": [
+        {
+          "name": "VRChat Creator Economy",
+          "type": "articles",
+          "ids": [
+            "help-article-marketplace-what-can-i-buy",
+            "help-article-marketplace-how-can-i-sell"
+          ],
+          "ipsQuery": {
+            "require": "help-topic-marketplace",
+            "include": ""
+          }
+        },
+        {
+          "name": "Worlds",
+          "type": "worlds",
+          "maxCells": 20,
+          "ids": [
+            "wrld_aaa5df94-3b62-4463-814f-f269ea8ac7b1",
+            "wrld_ee209ad4-fa3c-4daf-bd0d-4fb901a9a3b7",
+            "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
+            "wrld_8abba687-ebfd-4356-846d-d069976df375",
+            "wrld_c16e4dee-d149-4116-adbc-16bc30b664b0",
+            "wrld_16248871-a374-4819-a284-555ddfc33380",
+            "wrld_9da1349e-470b-47fd-a9b5-bd57d49255e2",
+            "wrld_7ef54852-7894-46e4-9935-7dacb78f81c5",
+            "wrld_e6569266-21cd-4275-8aef-47fcb7458931",
+            "wrld_1c2bed4c-168c-4f2c-a359-428987f55b19",
+            "wrld_e5ae6ade-f775-4021-b454-0c3e0d60e81e",
+            "wrld_b155ff30-0bbf-486c-afc5-e7a05145387b",
+            "wrld_ff8b4a6e-4268-4783-bc16-3103067a4be6"
+          ]
+        },
+        {
+          "name": "Groups",
+          "type": "groups",
+          "maxCells": 20,
+          "ids": [
+            "grp_f55a3935-75cd-465b-ae57-29820956666d",
+            "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
+            "grp_c5e8a1bd-b7fb-42b1-b54b-1989616e64e8",
+            "grp_a3549635-030a-4ab3-a9d7-fed774eaa712",
+            "grp_4822be4d-4190-4428-ab52-61c64d6690da",
+            "grp_402966f5-cfb6-4e86-906c-474960e72b70",
+            "grp_3b67b24d-6ae2-484b-a0b6-c26255232370",
+            "grp_3b2f110f-8465-4e77-9655-60e435f7ecb7"
+          ]
+        }
+      ]
+    },
+    "hash": "eea24e2920d579cfc3dc73fac7f3d02c",
+    "createdAt": "2023-11-20T19:48:24+00:00",
+    "updatedAt": "2023-11-22T23:46:34+00:00"
+  },
+  {
+    "id": "marketplace-spotlight-android",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "content-compatibility-android",
+      "marketplace-page",
+      "user-all"
+    ],
+    "data": {
+      "name": "Spotlight",
+      "tooltipDescription": "View Featured VRChat Creator Economy Content",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/90f1b49353850be01c43966dc58c7895aa2da4564f48afc69480f2942f123257.png",
+      "categories": [
+        {
+          "name": "VRChat Creator Economy",
+          "type": "articles",
+          "ids": [
+            "help-article-marketplace-what-can-i-buy",
+            "help-article-marketplace-how-can-i-sell"
+          ],
+          "ipsQuery": {
+            "require": "help-topic-marketplace",
+            "include": ""
+          }
+        },
+        {
+          "name": "Worlds",
+          "type": "worlds",
+          "maxCells": 20,
+          "ids": [
+            "wrld_aaa5df94-3b62-4463-814f-f269ea8ac7b1",
+            "wrld_ee209ad4-fa3c-4daf-bd0d-4fb901a9a3b7",
+            "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
+            "wrld_8abba687-ebfd-4356-846d-d069976df375",
+            "wrld_c16e4dee-d149-4116-adbc-16bc30b664b0",
+            "wrld_16248871-a374-4819-a284-555ddfc33380",
+            "wrld_9da1349e-470b-47fd-a9b5-bd57d49255e2",
+            "wrld_7ef54852-7894-46e4-9935-7dacb78f81c5",
+            "wrld_e6569266-21cd-4275-8aef-47fcb7458931",
+            "wrld_b155ff30-0bbf-486c-afc5-e7a05145387b",
+            "wrld_ff8b4a6e-4268-4783-bc16-3103067a4be6"
+          ]
+        },
+        {
+          "name": "Groups",
+          "type": "groups",
+          "maxCells": 20,
+          "ids": [
+            "grp_f55a3935-75cd-465b-ae57-29820956666d",
+            "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
+            "grp_c5e8a1bd-b7fb-42b1-b54b-1989616e64e8",
+            "grp_a3549635-030a-4ab3-a9d7-fed774eaa712",
+            "grp_4822be4d-4190-4428-ab52-61c64d6690da",
+            "grp_3b67b24d-6ae2-484b-a0b6-c26255232370",
+            "grp_3b2f110f-8465-4e77-9655-60e435f7ecb7"
+          ]
+        }
+      ]
+    },
+    "hash": "a2cc301891fe9f99d0888f07a0f0f781",
+    "createdAt": "2023-11-20T19:48:24+00:00",
+    "updatedAt": "2023-11-22T23:46:34+00:00"
+  },
+  {
     "id": "help-article-what-vrcp-quest",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -8973,6 +9156,22 @@ Response schema mismatch: #/1/data/onPressed/command failed enum, #/2/data/onPre
     "updatedAt": "2023-11-09T17:18:18+00:00"
   },
   {
+    "id": "world-banner---event-virtualdiceparty-2023",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "world-category-banner-event-virtualdiceparty-2023",
+      "user-all"
+    ],
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/6c0531fe6f56f740d1c1d92d6f4088c4b79d5d9cc90bc8496e013408d751f3ed.png"
+    },
+    "hash": "b0ed2f9adc86a2540f79a2032e2e5e0f",
+    "createdAt": "2023-11-22T17:24:49+00:00",
+    "updatedAt": "2023-11-22T17:57:45+00:00"
+  },
+  {
     "id": "world-spotlight-mobile-test",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -9889,6 +10088,31 @@ Response schema mismatch: #/1/data/onPressed/command failed enum, #/2/data/onPre
     "updatedAt": "2023-11-09T17:20:12+00:00"
   },
   {
+    "id": "help-topic-marketplace",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1020,
+    "tags": [
+      "help-topic",
+      "help-topic-essentials",
+      "user-all"
+    ],
+    "data": {
+      "name": "Marketplace",
+      "description": "VRChat Creator Economy",
+      "tooltipDescription": "Get help and information about the VRChat Creator Economy",
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/c2a3a676e58c90b5d7af19ad2f7a6bc3635b125448164ab04a8aba4f59c07f08.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/2269c4a06f15f39cc69c2b43905b68b55086a36b60a2517ffe5a3894635c57af.png",
+      "ipsQuery": {
+        "require": "help-topic-marketplace",
+        "include": ""
+      }
+    },
+    "hash": "09bb1b207fd8251688c5a04b5870fb15",
+    "createdAt": "2023-10-12T16:05:07+00:00",
+    "updatedAt": "2023-11-22T23:46:33+00:00"
+  },
+  {
     "id": "world-spotlight-pc",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -10640,6 +10864,78 @@ Response schema mismatch: #/1/data/onPressed/command failed enum, #/2/data/onPre
     "hash": "81be7fc6567eb205c72f798697abf890",
     "createdAt": "2023-10-04T22:36:07+00:00",
     "updatedAt": "2023-11-15T20:58:28+00:00"
+  },
+  {
+    "id": "help-article-marketplace-what-can-i-buy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1100,
+    "tags": [
+      "help-article",
+      "user-all",
+      "help-topic-marketplace",
+      "help-notifications"
+    ],
+    "data": {
+      "name": "What can I buy?",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/81d8ff69c5e7b12df57a0319fa03d7f5a9fcfef3cefd8560112a378792055653.png",
+      "description": "What can I buy?",
+      "article": {
+        "content": [
+          {
+            "videoUrl": "https://assets.vrchat.com/videos/Marketplace_Intro_720p.mp4"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "If you're using VRChat's Open Beta, you can support creators directly inside VRChat! Watch the video above to learn how."
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Browse the 'Marketplace' tab to find worlds and groups. If you enjoy a world and want to support its creator, you can subscribe by paying VRChat Credits. As a reward, worlds can give you fancy cosmetics, special unlocks, access to groups, and more."
+          }
+        ]
+      }
+    },
+    "hash": "9d3a8f17c11632aa075e20deaea9a4a3",
+    "createdAt": "2023-10-12T16:21:37+00:00",
+    "updatedAt": "2023-11-22T23:46:12+00:00"
+  },
+  {
+    "id": "help-article-marketplace-how-can-i-sell",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1101,
+    "tags": [
+      "help-article",
+      "user-all",
+      "help-topic-marketplace",
+      "help-notifications"
+    ],
+    "data": {
+      "name": "How can I sell?",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/143c02759eb454c790a4cf8dc32de2d39abdad9096650c730909d2f2414ce7b1.png",
+      "description": "How can I sell?",
+      "article": {
+        "content": [
+          {
+            "videoUrl": "https://assets.vrchat.com/videos/Marketplace_How_Do_I_Sell_720p.mp4"
+          },
+          {
+            "text": "<br>"
+          },
+          {
+            "text": "Paid role subscriptions allow users in VRChat's Open Beta to support creators in VRChat. The Creator Economy is currently being tested with a small group of creators. Early next year, VRChat will give more creators the opportunity to participate. We're excited to see you join! For future announcements, please keep an eye on VRChat's blog and official forum."
+          }
+        ]
+      }
+    },
+    "hash": "323fad45cd0e5421bfedd219cf64de4d",
+    "createdAt": "2023-10-12T16:21:37+00:00",
+    "updatedAt": "2023-11-22T23:46:12+00:00"
   },
   {
     "id": "world-random",
