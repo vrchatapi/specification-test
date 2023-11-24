@@ -7926,17 +7926,25 @@ Response schema mismatch: #/3/data/onPressed/command failed enum, #/4/data/onPre
           "ids": [
             "wrld_aaa5df94-3b62-4463-814f-f269ea8ac7b1",
             "wrld_ee209ad4-fa3c-4daf-bd0d-4fb901a9a3b7",
+            "wrld_e3b09d06-70c4-4cf0-abab-91bfbea5fcfd",
             "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
             "wrld_8abba687-ebfd-4356-846d-d069976df375",
             "wrld_c16e4dee-d149-4116-adbc-16bc30b664b0",
             "wrld_16248871-a374-4819-a284-555ddfc33380",
             "wrld_9da1349e-470b-47fd-a9b5-bd57d49255e2",
+            "wrld_b1bd785e-cb4b-48eb-8efc-198d1055263b",
+            "wrld_f557959f-6fde-4164-be36-31f1d40bb9a5",
             "wrld_7ef54852-7894-46e4-9935-7dacb78f81c5",
             "wrld_e6569266-21cd-4275-8aef-47fcb7458931",
             "wrld_1c2bed4c-168c-4f2c-a359-428987f55b19",
             "wrld_e5ae6ade-f775-4021-b454-0c3e0d60e81e",
             "wrld_b155ff30-0bbf-486c-afc5-e7a05145387b",
-            "wrld_ff8b4a6e-4268-4783-bc16-3103067a4be6"
+            "wrld_ff8b4a6e-4268-4783-bc16-3103067a4be6",
+            "wrld_1b3b3259-0a1f-4311-984e-826abab6f481",
+            "wrld_6325c346-2ea9-4bc5-8d65-59cd7e700d06",
+            "wrld_c51677d1-dca4-42a2-a749-03d7b0f1a4e8",
+            "wrld_4c657dee-8604-425b-a21a-e27c05079717",
+            "wrld_03415963-883e-4510-9051-d142aeac65a5"
           ]
         },
         {
@@ -7945,20 +7953,27 @@ Response schema mismatch: #/3/data/onPressed/command failed enum, #/4/data/onPre
           "maxCells": 20,
           "ids": [
             "grp_f55a3935-75cd-465b-ae57-29820956666d",
+            "grp_d594f074-ea42-4f47-bc68-b96f4ad2eda0",
             "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
             "grp_c5e8a1bd-b7fb-42b1-b54b-1989616e64e8",
+            "grp_bf9ef3f5-89f5-424c-b70c-30ca289746ac",
+            "grp_b09525bf-4e83-4f3e-9231-0df3dac38dd6",
             "grp_a3549635-030a-4ab3-a9d7-fed774eaa712",
             "grp_4822be4d-4190-4428-ab52-61c64d6690da",
             "grp_402966f5-cfb6-4e86-906c-474960e72b70",
             "grp_3b67b24d-6ae2-484b-a0b6-c26255232370",
-            "grp_3b2f110f-8465-4e77-9655-60e435f7ecb7"
+            "grp_3b2f110f-8465-4e77-9655-60e435f7ecb7",
+            "grp_3804b7ef-3542-46af-8766-7437d5bb8b89",
+            "grp_c50dca0f-133f-4aaf-86a1-2a8684a0e119",
+            "grp_a19fe931-22fd-4be2-974a-3388960211f7",
+            "grp_3c20da18-48ec-408d-9cbb-dd3fd2770449"
           ]
         }
       ]
     },
-    "hash": "eea24e2920d579cfc3dc73fac7f3d02c",
+    "hash": "b74910cde7bba23f3bb0d4bf32d04132",
     "createdAt": "2023-11-20T19:48:24+00:00",
-    "updatedAt": "2023-11-22T23:46:34+00:00"
+    "updatedAt": "2023-11-23T02:12:35+00:00"
   },
   {
     "id": "marketplace-spotlight-android",
@@ -7994,15 +8009,22 @@ Response schema mismatch: #/3/data/onPressed/command failed enum, #/4/data/onPre
           "ids": [
             "wrld_aaa5df94-3b62-4463-814f-f269ea8ac7b1",
             "wrld_ee209ad4-fa3c-4daf-bd0d-4fb901a9a3b7",
+            "wrld_e3b09d06-70c4-4cf0-abab-91bfbea5fcfd",
             "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
             "wrld_8abba687-ebfd-4356-846d-d069976df375",
             "wrld_c16e4dee-d149-4116-adbc-16bc30b664b0",
             "wrld_16248871-a374-4819-a284-555ddfc33380",
             "wrld_9da1349e-470b-47fd-a9b5-bd57d49255e2",
+            "wrld_b1bd785e-cb4b-48eb-8efc-198d1055263b",
+            "wrld_f557959f-6fde-4164-be36-31f1d40bb9a5",
             "wrld_7ef54852-7894-46e4-9935-7dacb78f81c5",
             "wrld_e6569266-21cd-4275-8aef-47fcb7458931",
             "wrld_b155ff30-0bbf-486c-afc5-e7a05145387b",
-            "wrld_ff8b4a6e-4268-4783-bc16-3103067a4be6"
+            "wrld_ff8b4a6e-4268-4783-bc16-3103067a4be6",
+            "wrld_1b3b3259-0a1f-4311-984e-826abab6f481",
+            "wrld_6325c346-2ea9-4bc5-8d65-59cd7e700d06",
+            "wrld_c51677d1-dca4-42a2-a749-03d7b0f1a4e8",
+            "wrld_4c657dee-8604-425b-a21a-e27c05079717"
           ]
         },
         {
@@ -8011,19 +8033,25 @@ Response schema mismatch: #/3/data/onPressed/command failed enum, #/4/data/onPre
           "maxCells": 20,
           "ids": [
             "grp_f55a3935-75cd-465b-ae57-29820956666d",
+            "grp_d594f074-ea42-4f47-bc68-b96f4ad2eda0",
             "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
             "grp_c5e8a1bd-b7fb-42b1-b54b-1989616e64e8",
+            "grp_bf9ef3f5-89f5-424c-b70c-30ca289746ac",
+            "grp_b09525bf-4e83-4f3e-9231-0df3dac38dd6",
             "grp_a3549635-030a-4ab3-a9d7-fed774eaa712",
             "grp_4822be4d-4190-4428-ab52-61c64d6690da",
             "grp_3b67b24d-6ae2-484b-a0b6-c26255232370",
-            "grp_3b2f110f-8465-4e77-9655-60e435f7ecb7"
+            "grp_3b2f110f-8465-4e77-9655-60e435f7ecb7",
+            "grp_3804b7ef-3542-46af-8766-7437d5bb8b89",
+            "grp_c50dca0f-133f-4aaf-86a1-2a8684a0e119",
+            "grp_a19fe931-22fd-4be2-974a-3388960211f7"
           ]
         }
       ]
     },
-    "hash": "a2cc301891fe9f99d0888f07a0f0f781",
+    "hash": "1c8654f3efc5852b629dc9511e8a231c",
     "createdAt": "2023-11-20T19:48:24+00:00",
-    "updatedAt": "2023-11-22T23:46:34+00:00"
+    "updatedAt": "2023-11-23T01:31:19+00:00"
   },
   {
     "id": "help-article-what-vrcp-quest",
