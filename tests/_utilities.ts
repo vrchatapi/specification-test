@@ -565,22 +565,23 @@ ${
 			);
 		});
 
+		const issues: Array<string> = [];
+
 		if ("content" in operationResponse && operationResponse.content) {
 			const mediaType = Object.entries(operationResponse.content).find(([type]) =>
 				contentType.startsWith(type)
 			)?.[1];
 
-			if (!mediaType) failLog(t, `Response media type "${contentType}" not expected.`);
+			if (!mediaType) issues.push(`Response media type "${contentType}" not expected.`);
 
 			if (mediaType) {
 				if (!mediaType.schema || !("type" in mediaType.schema)) return t.pass();
 
 				const { error, value, errors = [] } = parseSchema(mediaType.schema, body);
-				t.context.body = value;
+				t.context.body = value || tryJsonParse(body);
 
 				if (error) {
-					failLog(
-						t,
+					issues.push(
 						`Response schema mismatch: ${
 							errors.length
 								? errors
@@ -598,7 +599,9 @@ ${
 			}
 		}
 
+		t.log("Executing test function");
 		await fn(t as ExecutionContext<Required<TestContext>>);
+		failLog(t, ...issues);
 	},
 	title: (title, operationId) => `${operationId}${title ? " " + title : ""}`
 });

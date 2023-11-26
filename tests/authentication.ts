@@ -68,6 +68,7 @@ test.serial(
 		sensitiveValues.add(body.obfuscatedPendingEmail);
 
 		t.is(body.username, vrchatUsername);
+		t.log(`Logged in as ${body.displayName} (${body.id})`);
 	}
 );
 
