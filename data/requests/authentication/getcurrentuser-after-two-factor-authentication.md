@@ -1,8 +1,8 @@
 # getCurrentUser after two-factor authentication
 
-## Fail logs
+## Issues
 ```
-Response schema mismatch: #/hideContentFilterSettings failed additionalProperties, #/userLanguage failed additionalProperties, #/currentAvatarTags failed additionalProperties, #/googleId failed additionalProperties, #/picoId failed additionalProperties, #/viveId failed additionalProperties.
+Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Unexpected property at #/userLanguage, Unexpected property at #/currentAvatarTags, Unexpected property at #/googleId, Unexpected property at #/picoId, Unexpected property at #/viveId.
 ```
 
 ## Request
@@ -47,6 +47,15 @@ Response schema mismatch: #/hideContentFilterSettings failed additionalPropertie
   "obfuscatedPendingEmail": "",
   "emailVerified": true,
   "hasBirthday": true,
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/hideContentFilterSettings
+   */
   "hideContentFilterSettings": false,
   "unsubscribe": true,
   "statusHistory": [
@@ -64,9 +73,27 @@ Response schema mismatch: #/hideContentFilterSettings failed additionalPropertie
   "statusFirstTime": true,
   "friends": [],
   "friendGroupNames": [],
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/userLanguage
+   */
   "userLanguage": null,
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/currentAvatarTags
+   */
   "currentAvatarTags": [
     "admin_content_reviewed",
     "admin_featured_legacy"
@@ -79,10 +106,37 @@ Response schema mismatch: #/hideContentFilterSettings failed additionalPropertie
   "acceptedTOSVersion": 8,
   "acceptedPrivacyVersion": 0,
   "steamId": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/googleId
+   */
   "googleId": "",
   "steamDetails": {},
   "oculusId": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/picoId
+   */
   "picoId": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/viveId
+   */
   "viveId": "",
   "hasLoggedInFromClient": false,
   "homeLocation": "",

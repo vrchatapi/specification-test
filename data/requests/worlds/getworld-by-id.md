@@ -1,8 +1,8 @@
 # getWorld by id
 
-## Fail logs
+## Issues
 ```
-Response schema mismatch: #/instances/0 failed maxItems, #/instances/1 failed maxItems, #/instances/2 failed maxItems, #/instances/3 failed maxItems, #/instances/4 failed maxItems, #/instances/5 failed maxItems, #/instances/6 failed maxItems, #/instances/7 failed maxItems, #/instances/8 failed maxItems, #/instances/9 failed maxItems, #/instances/10 failed maxItems, #/instances/11 failed maxItems, #/instances/12 failed maxItems, #/instances/13 failed maxItems, #/instances/14 failed maxItems, #/instances/15 failed maxItems, #/instances/16 failed maxItems, #/instances/17 failed maxItems, #/instances/18 failed maxItems, #/instances/19 failed maxItems, #/unityPackages/0/assetUrl failed minLength, #/udonProducts failed additionalProperties.
+Response schema mismatch: undefined at #/instances/0, undefined at #/instances/1, undefined at #/instances/2, undefined at #/instances/3, undefined at #/instances/4, undefined at #/instances/5, undefined at #/instances/6, undefined at #/instances/7, undefined at #/instances/8, undefined at #/instances/9, undefined at #/instances/10, undefined at #/instances/11, undefined at #/instances/12, undefined at #/instances/13, undefined at #/instances/14, undefined at #/instances/15, undefined at #/instances/16, undefined at #/instances/17, undefined at #/instances/18, undefined at #/instances/19, undefined at #/unityPackages/0/assetUrl, Unexpected property at #/udonProducts.
 ```
 
 ## Request
@@ -47,6 +47,15 @@ Response schema mismatch: #/instances/0 failed maxItems, #/instances/1 failed ma
   "version": "<unstable: number>",
   "organization": "vrchat",
   "previewYoutubeId": null,
+  /**
+   * Unexpected property.
+   *
+   * @schema World
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/udonProducts
+   */
   "udonProducts": [
     "prod_2f76612c-7358-4b19-9097-2dd0d4e5dd4c",
     "prod_ac810a17-6c2c-443b-8a57-c3d69742c7d3",

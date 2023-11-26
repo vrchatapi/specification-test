@@ -1,8 +1,8 @@
 # checkUserExists via user id
 
-## Fail logs
+## Issues
 ```
-Response schema mismatch: #/userExists failed required, #/error failed additionalProperties.
+Response schema mismatch: Missing property at #/userExists, Unexpected property at #/error.
 ```
 
 ## Request
@@ -32,6 +32,15 @@ Response schema mismatch: #/userExists failed required, #/error failed additiona
 
 ```json
 {
+  /**
+   * Unexpected property.
+   *
+   * @schema UserExists
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/error
+   */
   "error": {
     "message": "\"username, email, or displayName required\"",
     "status_code": 400

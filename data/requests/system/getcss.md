@@ -1,6 +1,6 @@
 # getCSS
 
-## Fail logs
+## Issues
 ```
 Response schema mismatch: Unexpected token : in JSON at position 0.
 ```

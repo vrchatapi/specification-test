@@ -1,8 +1,8 @@
 # getWorldPublishStatus by id
 
-## Fail logs
+## Issues
 ```
-Response schema mismatch: #/canPubilsh failed required, #/canPublish failed additionalProperties.
+Response schema mismatch: Missing property at #/canPubilsh, Unexpected property at #/canPublish.
 ```
 
 ## Request
@@ -32,6 +32,15 @@ Response schema mismatch: #/canPubilsh failed required, #/canPublish failed addi
 
 ```json
 {
+  /**
+   * Unexpected property.
+   *
+   * @schema WorldPublishStatus
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/canPublish
+   */
   "canPublish": false
 }
 ```

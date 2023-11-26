@@ -1,8 +1,8 @@
 # getCurrentUser with username and password (expect fail)
 
-## Fail logs
+## Issues
 ```
-Response schema mismatch: #/id failed required, #/displayName failed required, #/userIcon failed required, #/bio failed required, #/bioLinks failed required, #/profilePicOverride failed required, #/statusDescription failed required, #/pastDisplayNames failed required, #/hasEmail failed required, #/hasPendingEmail failed required, #/obfuscatedEmail failed required, #/obfuscatedPendingEmail failed required, #/emailVerified failed required, #/hasBirthday failed required, #/unsubscribe failed required, #/statusHistory failed required, #/statusFirstTime failed required, #/friends failed required, #/friendGroupNames failed required, #/currentAvatarImageUrl failed required, #/currentAvatarThumbnailImageUrl failed required, #/currentAvatar failed required, #/currentAvatarAssetUrl failed required, #/acceptedTOSVersion failed required, #/steamId failed required, #/steamDetails failed required, #/oculusId failed required, #/hasLoggedInFromClient failed required, #/homeLocation failed required, #/twoFactorAuthEnabled failed required, #/state failed required, #/tags failed required, #/developerType failed required, #/last_login failed required, #/last_platform failed required, #/allowAvatarCopying failed required, #/status failed required, #/date_joined failed required, #/isFriend failed required, #/friendKey failed required, #/requiresTwoFactorAuth failed additionalProperties.
+Response schema mismatch: Missing property at #/id, Missing property at #/displayName, Missing property at #/userIcon, Missing property at #/bio, Missing property at #/bioLinks, Missing property at #/profilePicOverride, Missing property at #/statusDescription, Missing property at #/pastDisplayNames, Missing property at #/hasEmail, Missing property at #/hasPendingEmail, Missing property at #/obfuscatedEmail, Missing property at #/obfuscatedPendingEmail, Missing property at #/emailVerified, Missing property at #/hasBirthday, Missing property at #/unsubscribe, Missing property at #/statusHistory, Missing property at #/statusFirstTime, Missing property at #/friends, Missing property at #/friendGroupNames, Missing property at #/currentAvatarImageUrl, Missing property at #/currentAvatarThumbnailImageUrl, Missing property at #/currentAvatar, Missing property at #/currentAvatarAssetUrl, Missing property at #/acceptedTOSVersion, Missing property at #/steamId, Missing property at #/steamDetails, Missing property at #/oculusId, Missing property at #/hasLoggedInFromClient, Missing property at #/homeLocation, Missing property at #/twoFactorAuthEnabled, Missing property at #/state, Missing property at #/tags, Missing property at #/developerType, Missing property at #/last_login, Missing property at #/last_platform, Missing property at #/allowAvatarCopying, Missing property at #/status, Missing property at #/date_joined, Missing property at #/isFriend, Missing property at #/friendKey, Unexpected property at #/requiresTwoFactorAuth.
 ```
 
 ## Request
@@ -32,6 +32,15 @@ Response schema mismatch: #/id failed required, #/displayName failed required, #
 
 ```json
 {
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/requiresTwoFactorAuth
+   */
   "requiresTwoFactorAuth": [
     "totp",
     "otp"

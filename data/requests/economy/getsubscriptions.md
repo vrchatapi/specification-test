@@ -1,8 +1,8 @@
 # getSubscriptions
 
-## Fail logs
+## Issues
 ```
-Response schema mismatch: #/0/oculusSku failed additionalProperties, #/0/googleProductId failed additionalProperties, #/0/googlePlanId failed additionalProperties, #/0/picoSku failed additionalProperties, #/1/oculusSku failed additionalProperties, #/1/googleProductId failed additionalProperties, #/1/googlePlanId failed additionalProperties, #/1/picoSku failed additionalProperties.
+Response schema mismatch: Unexpected property at #/0/oculusSku, Unexpected property at #/0/googleProductId, Unexpected property at #/0/googlePlanId, Unexpected property at #/0/picoSku, Unexpected property at #/1/oculusSku, Unexpected property at #/1/googleProductId, Unexpected property at #/1/googlePlanId, Unexpected property at #/1/picoSku.
 ```
 
 ## Request
@@ -35,9 +35,45 @@ Response schema mismatch: #/0/oculusSku failed additionalProperties, #/0/googleP
   {
     "id": "vrchatplus-monthly",
     "steamItemId": "4000",
+    /**
+     * Unexpected property.
+     *
+     * @schema Subscription
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/0/oculusSku
+     */
     "oculusSku": "vrchat-plus-oculus-monthly",
+    /**
+     * Unexpected property.
+     *
+     * @schema Subscription
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/0/googleProductId
+     */
     "googleProductId": "vrchat.plus.googleplay.monthly",
+    /**
+     * Unexpected property.
+     *
+     * @schema Subscription
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/0/googlePlanId
+     */
     "googlePlanId": "monthly",
+    /**
+     * Unexpected property.
+     *
+     * @schema Subscription
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/0/picoSku
+     */
     "picoSku": "vrchat_plus_pico_monthly",
     "amount": 999,
     "description": "VRChat Plus (Monthly)",
@@ -47,9 +83,45 @@ Response schema mismatch: #/0/oculusSku failed additionalProperties, #/0/googleP
   {
     "id": "vrchatplus-yearly",
     "steamItemId": "5000",
+    /**
+     * Unexpected property.
+     *
+     * @schema Subscription
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/1/oculusSku
+     */
     "oculusSku": "vrchat-plus-oculus-yearly",
+    /**
+     * Unexpected property.
+     *
+     * @schema Subscription
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/1/googleProductId
+     */
     "googleProductId": "vrchat.plus.googleplay.yearly",
+    /**
+     * Unexpected property.
+     *
+     * @schema Subscription
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/1/googlePlanId
+     */
     "googlePlanId": "yearly",
+    /**
+     * Unexpected property.
+     *
+     * @schema Subscription
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/1/picoSku
+     */
     "picoSku": "vrchat_plus_pico_yearly",
     "amount": 9999,
     "description": "VRChat Plus (Yearly)",

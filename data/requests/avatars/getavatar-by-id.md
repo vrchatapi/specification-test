@@ -1,8 +1,8 @@
 # getAvatar by id
 
-## Fail logs
+## Issues
 ```
-Response schema mismatch: #/unityPackages/0/impostorUrl failed additionalProperties, #/unityPackages/1/impostorUrl failed additionalProperties, #/unityPackages/2/impostorUrl failed additionalProperties, #/unityPackages/3/impostorUrl failed additionalProperties.
+Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, Unexpected property at #/unityPackages/1/impostorUrl, Unexpected property at #/unityPackages/2/impostorUrl, Unexpected property at #/unityPackages/3/impostorUrl.
 ```
 
 ## Request
@@ -47,6 +47,15 @@ Response schema mismatch: #/unityPackages/0/impostorUrl failed additionalPropert
     {
       "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
       "created_at": "2022-01-27T01:34:07.257Z",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/0/impostorUrl
+       */
       "impostorUrl": null,
       "unityVersion": "2019.4.30f1",
       "assetVersion": 1,
@@ -55,6 +64,15 @@ Response schema mismatch: #/unityPackages/0/impostorUrl failed additionalPropert
     {
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
       "created_at": "2022-02-03T06:57:10.346Z",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/1/impostorUrl
+       */
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
@@ -63,6 +81,15 @@ Response schema mismatch: #/unityPackages/0/impostorUrl failed additionalPropert
     {
       "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
       "created_at": "2022-07-07T11:36:36.197Z",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/2/impostorUrl
+       */
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "standalonewindows",
@@ -71,6 +98,15 @@ Response schema mismatch: #/unityPackages/0/impostorUrl failed additionalPropert
     {
       "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
       "created_at": "2022-07-07T11:51:24.091Z",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/3/impostorUrl
+       */
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
