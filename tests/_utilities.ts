@@ -600,7 +600,7 @@ ${
 		}
 
 		await fn(t as ExecutionContext<Required<TestContext>>);
-		failLog(t, ...issues);
+		if (issues.length > 0) failLog(t, ...issues);
 	},
 	title: (title, operationId) => `${operationId}${title ? " " + title : ""}`
 });
