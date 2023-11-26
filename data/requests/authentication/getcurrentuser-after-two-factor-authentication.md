@@ -43,7 +43,7 @@ Response schema mismatch: #/hideContentFilterSettings failed additionalPropertie
   "pastDisplayNames": [],
   "hasEmail": true,
   "hasPendingEmail": false,
-  "obfuscatedEmail": "v******@ariesclark.com",
+  "obfuscatedEmail": "<redacted>",
   "obfuscatedPendingEmail": "",
   "emailVerified": true,
   "hasBirthday": true,

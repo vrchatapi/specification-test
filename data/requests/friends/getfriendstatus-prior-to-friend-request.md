@@ -1,5 +1,10 @@
 # getFriendStatus prior to friend request
 
+## Fail logs
+```
+
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/user/usr_9e10ea3e-8115-4b51-9076-b1792215d57e/friendStatus`
 

@@ -1,5 +1,10 @@
 # verify2FA while missing credentials
 
+## Fail logs
+```
+
+```
+
 ## Request
 `post https://api.vrchat.cloud/api/1/auth/twofactorauth/totp/verify`
 

@@ -1,5 +1,10 @@
 # getAvatar by id
 
+## Fail logs
+```
+Response schema mismatch: #/unityPackages/0/impostorUrl failed additionalProperties, #/unityPackages/1/impostorUrl failed additionalProperties, #/unityPackages/2/impostorUrl failed additionalProperties, #/unityPackages/3/impostorUrl failed additionalProperties.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0`
 

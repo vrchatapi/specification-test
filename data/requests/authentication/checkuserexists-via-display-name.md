@@ -1,5 +1,10 @@
 # checkUserExists via display name
 
+## Fail logs
+```
+
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/auth/exists?displayName=8cf3def6b8cea`
 

@@ -1,5 +1,10 @@
 # getOwnAvatar
 
+## Fail logs
+```
+Response schema mismatch: #/unityPackages/0/variant failed additionalProperties, #/unityPackages/1/variant failed additionalProperties, #/unityPackages/2/variant failed additionalProperties, #/unityPackages/3/variant failed additionalProperties.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 

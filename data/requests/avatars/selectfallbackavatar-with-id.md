@@ -1,4 +1,4 @@
-# selectAvatar with id
+# selectFallbackAvatar with id
 
 ## Fail logs
 ```
@@ -6,7 +6,7 @@ Response schema mismatch: #/hideContentFilterSettings failed additionalPropertie
 ```
 
 ## Request
-`put https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/select`
+`put https://api.vrchat.cloud/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
 
 | Header | Value |
 | ------ | ----- |
@@ -65,11 +65,14 @@ Response schema mismatch: #/hideContentFilterSettings failed additionalPropertie
   "friends": [],
   "friendGroupNames": [],
   "userLanguage": null,
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/file",
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/256",
-  "currentAvatarTags": [],
-  "currentAvatar": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
-  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_cea4ec5e-af23-4c1e-982b-b93f3c6cfc2b/8/file",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "currentAvatarTags": [
+    "admin_content_reviewed",
+    "admin_featured_legacy"
+  ],
+  "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
+  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_534ffc10-15d0-4fc5-86d5-2dcd55f0ac45/1/file",
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
   "accountDeletionDate": null,
   "accountDeletionLog": null,

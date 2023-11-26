@@ -1,5 +1,10 @@
 # getSubscriptions
 
+## Fail logs
+```
+Response schema mismatch: #/0/oculusSku failed additionalProperties, #/0/googleProductId failed additionalProperties, #/0/googlePlanId failed additionalProperties, #/0/picoSku failed additionalProperties, #/1/oculusSku failed additionalProperties, #/1/googleProductId failed additionalProperties, #/1/googlePlanId failed additionalProperties, #/1/picoSku failed additionalProperties.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/subscriptions`
 

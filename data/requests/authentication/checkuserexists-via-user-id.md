@@ -2,7 +2,7 @@
 
 ## Fail logs
 ```
-Response schema mismatch: #/userExists failed required.
+Response schema mismatch: #/userExists failed required, #/error failed additionalProperties.
 ```
 
 ## Request
