@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   "error": {
     "message": "This avatar isn't tagged as a quest fallback avatar․",

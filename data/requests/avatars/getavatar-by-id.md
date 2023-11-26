@@ -30,7 +30,7 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, 
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   "id": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
   "name": "Bella Bear Public - by Mai",

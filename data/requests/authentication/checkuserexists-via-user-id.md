@@ -30,7 +30,7 @@ Response schema mismatch: Missing property at #/userExists, Unexpected property 
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   /**
    * Unexpected property.

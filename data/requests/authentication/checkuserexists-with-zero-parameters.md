@@ -25,7 +25,7 @@
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   "error": {
     "message": "\"username, email, or displayName required\"",

@@ -30,6 +30,6 @@ Response schema mismatch: Unexpected property at #/0unityPackages/0/variant, Une
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 <unstable>
 ```

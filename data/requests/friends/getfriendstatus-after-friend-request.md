@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   "isFriend": false,
   "outgoingRequest": true,

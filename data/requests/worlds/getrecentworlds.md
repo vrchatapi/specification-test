@@ -25,6 +25,6 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 <unstable>
 ```

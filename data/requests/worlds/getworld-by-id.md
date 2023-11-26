@@ -30,7 +30,7 @@ Response schema mismatch: undefined at #/instances/0, undefined at #/instances/1
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   "id": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
   "name": "The Black Cat",

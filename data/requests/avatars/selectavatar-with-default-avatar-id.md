@@ -30,7 +30,7 @@ Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Un
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "displayName": "8cf3def6b8cea",

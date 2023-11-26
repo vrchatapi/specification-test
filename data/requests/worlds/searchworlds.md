@@ -30,6 +30,6 @@ Response schema mismatch: undefined at #/0/capacity, Unexpected property at #/0/
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 <unstable>
 ```

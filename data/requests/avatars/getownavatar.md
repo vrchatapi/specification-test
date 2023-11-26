@@ -30,7 +30,7 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "name": "Robot",

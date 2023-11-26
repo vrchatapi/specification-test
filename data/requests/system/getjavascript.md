@@ -25,6 +25,6 @@ Response schema mismatch: Unexpected token / in JSON at position 0.
 | transfer-encoding | `chunked` |
 | vary | `Accept-Encoding` |
 
-```json
+```jsonc
 <unstable>
 ```

@@ -30,7 +30,7 @@ Response schema mismatch: Unexpected property at #/0subscription/oculusSku, Inva
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 [
   {
     "id": "txn_e163ccc8-56eb-4320-8140-7bbcb1815b44",

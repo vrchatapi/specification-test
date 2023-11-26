@@ -30,7 +30,7 @@ Response schema mismatch: Missing property at #/id, Missing property at #/displa
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   /**
    * Unexpected property.

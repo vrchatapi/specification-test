@@ -25,7 +25,7 @@
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   "id": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
   "metadata": {}

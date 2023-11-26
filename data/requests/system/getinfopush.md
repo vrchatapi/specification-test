@@ -30,7 +30,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 [
   {
     "id": "qm-banner-vrcatvinyl",

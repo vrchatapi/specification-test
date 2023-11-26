@@ -30,7 +30,7 @@ Response schema mismatch: Missing property at #/canPubilsh, Unexpected property 
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   /**
    * Unexpected property.

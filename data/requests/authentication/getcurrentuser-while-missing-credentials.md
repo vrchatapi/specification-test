@@ -24,7 +24,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
-```json
+```jsonc
 {
   "error": {
     "message": "\"Missing Credentials\"",
