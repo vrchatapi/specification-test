@@ -1,10 +1,5 @@
 # verifyAuthToken
 
-## Fail logs
-```
-
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/auth`
 

@@ -1,10 +1,5 @@
 # verify2FA
 
-## Fail logs
-```
-
-```
-
 ## Request
 `post https://api.vrchat.cloud/api/1/auth/twofactorauth/totp/verify`
 
