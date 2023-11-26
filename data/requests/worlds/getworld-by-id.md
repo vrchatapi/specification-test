@@ -89,8 +89,7 @@ Response schema mismatch: #/instances/0 failed maxItems, #/instances/1 failed ma
     "author_tag_lounge",
     "system_approved",
     "admin_approved",
-    "admin_spotlight_mobile",
-    "system_updated_recently"
+    "admin_spotlight_mobile"
   ],
   "created_at": "2019-05-01T01:19:43.477Z",
   "updated_at": "<unstable: string>"
