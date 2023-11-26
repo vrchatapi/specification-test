@@ -1,5 +1,10 @@
 # getCurrentUser after two-factor authentication
 
+## Fail logs
+```
+Response schema mismatch: #/hideContentFilterSettings failed additionalProperties, #/userLanguage failed additionalProperties, #/currentAvatarTags failed additionalProperties, #/googleId failed additionalProperties, #/picoId failed additionalProperties, #/viveId failed additionalProperties.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/auth/user`
 
@@ -38,7 +43,7 @@
   "pastDisplayNames": [],
   "hasEmail": true,
   "hasPendingEmail": false,
-  "obfuscatedEmail": "<redacted>",
+  "obfuscatedEmail": "v******@ariesclark.com",
   "obfuscatedPendingEmail": "",
   "emailVerified": true,
   "hasBirthday": true,
@@ -63,12 +68,12 @@
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "currentAvatarTags": [
-    "admin_content_reviewed",
-    "admin_featured_legacy"
+    "admin_featured_legacy",
+    "admin_content_reviewed"
   ],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_534ffc10-15d0-4fc5-86d5-2dcd55f0ac45/1/file",
-  "fallbackAvatar": "avtr_1b6aa5e1-b76a-463c-9e5e-67ff2ad0eda6",
+  "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "acceptedTOSVersion": 8,
