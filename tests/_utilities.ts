@@ -599,7 +599,6 @@ ${
 			}
 		}
 
-		t.log("Executing test function");
 		await fn(t as ExecutionContext<Required<TestContext>>);
 		failLog(t, ...issues);
 	},
