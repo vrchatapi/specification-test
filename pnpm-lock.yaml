@@ -23,6 +23,9 @@ dependencies:
   fetch-cookie:
     specifier: ^2.1.0
     version: 2.1.0
+  jsonpointer:
+    specifier: ^5.0.1
+    version: 5.0.1
   ms:
     specifier: ^2.1.3
     version: 2.1.3
@@ -2260,6 +2263,11 @@ packages:
     dependencies:
       minimist: 1.2.8
     dev: true
+
+  /jsonpointer@5.0.1:
+    resolution: {integrity: sha512-p/nXbhSEcu3pZRdkW1OfJhpsVtW1gd4Wa1fnQc9YLiTfAjn0312eMKimbdIQzuZl9aa9xUGaRlP9T/CJE/ditQ==}
+    engines: {node: '>=0.10.0'}
+    dev: false
 
   /jssha@3.3.0:
     resolution: {integrity: sha512-w9OtT4ALL+fbbwG3gw7erAO0jvS5nfvrukGPMWIAoea359B26ALXGpzy4YJSp9yGnpUvuvOw1nSjSoHDfWSr1w==}

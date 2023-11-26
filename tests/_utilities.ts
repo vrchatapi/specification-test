@@ -10,10 +10,11 @@ import yaml from "yaml";
 import { OpenAPIV3 } from "openapi-types";
 import { $RefParser } from "@apidevtools/json-schema-ref-parser";
 import testFn, { ExecutionContext, ImplementationFn, TestFn } from "ava";
-import { Schema, parser, ParseResult } from "@exodus/schemasafe";
+import { Schema, parser, ParseResult, ValidationError } from "@exodus/schemasafe";
 import ms from "ms";
 import { Cookie, CookieJar } from "tough-cookie";
 import objectPath from "object-path";
+import jsonpointer from "jsonpointer";
 
 import {
 	cache,
@@ -204,6 +205,8 @@ export interface TestContext {
 	response?: Response;
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	body?: any;
+	schema?: OpenAPIV3.SchemaObject;
+	schemaIssues?: Array<ValidationError>;
 	failLogs?: Array<Array<any>>;
 }
 
@@ -339,6 +342,13 @@ const resolveOptions = (
 		},
 		typeof options === "function" ? options(t) : options
 	);
+};
+
+const keywordMessages = {
+	additionalProperties: "Unexpected property",
+	required: "Missing property",
+	type: "Invalid type",
+	enum: "Cannot fit value in explicit enum"
 };
 
 export async function fetchOperation(
@@ -508,6 +518,52 @@ export const testOperation = test.macro<TestOperationArguments>({
 				[operationId]: [...new Set([...(completeTests[operationId] ?? []), t.title])]
 			});
 
+			const responseText =
+				options.unstable === true
+					? "<unstable>"
+					: options.sensitive === true
+					? "<redacted>"
+					: JSON.stringify(maybeJsonBody, null, 2)
+							.split("\n")
+							.map((line) => {
+								const key = line.match(/"([^"]+)":/)?.[1];
+								const issue = t.context.schemaIssues?.find(
+									({ instanceLocation }) => instanceLocation.split("/").pop() === key
+								);
+
+								// Remove issue from schema issues so we don't log it again.
+								if (issue) t.context.schemaIssues?.splice(t.context.schemaIssues.indexOf(issue), 1);
+
+								const whitespace = line.match(/^(\s*)/)?.[1] ?? "";
+								if (!issue || !t.context.schema) return line;
+
+								const keyword = issue.keywordLocation.split("/").pop();
+
+								const keywordMessage =
+									(keyword && keywordMessages[keyword as keyof typeof keywordMessages]) ?? keyword;
+
+								// eslint-disable-next-line import/no-named-as-default-member
+								const keySchema = jsonpointer.get(
+									t.context.schema,
+									issue.keywordLocation.replace("#", "").split("/").slice(0, -1).join("/")
+								);
+
+								return [
+									`${whitespace}/**`,
+									`${whitespace} * ${keywordMessage}.`,
+									`${whitespace} *`,
+									`${whitespace} * @schema ${keySchema?.title ?? "unknown"}`,
+									`${whitespace} * @keyword ${keyword}`,
+									`${whitespace} *`,
+									`${whitespace} * ${issue.keywordLocation}`,
+									`${whitespace} * ${issue.instanceLocation}`,
+									`${whitespace} */`,
+									line
+								];
+							})
+							.flat()
+							.join("\n");
+
 			cache.set(
 				"requests",
 				`${t.context.testGroup}/${normalizeTestTitle(t.title)}.md`,
@@ -516,7 +572,7 @@ export const testOperation = test.macro<TestOperationArguments>({
 ${
 	t.context.failLogs
 		? `
-## Fail logs
+## Issues
 ${t.context.failLogs
 	.map(
 		(v) => `\`\`\`
@@ -552,13 +608,7 @@ ${[...response.headers.entries()]
 	.join("\n")}
 
 \`\`\`json
-${
-	options.unstable === true
-		? "<unstable>"
-		: options.sensitive === true
-		? "<redacted>"
-		: JSON.stringify(maybeJsonBody, null, 2)
-}
+${responseText}
 \`\`\`
 `)
 				)
@@ -576,19 +626,26 @@ ${
 
 			if (mediaType) {
 				if (!mediaType.schema || !("type" in mediaType.schema)) return t.pass();
+				t.context.schema = mediaType.schema;
 
 				const { error, value, errors = [] } = parseSchema(mediaType.schema, body);
 				t.context.body = value || tryJsonParse(body);
 
 				if (error) {
+					t.context.schemaIssues = errors;
+
 					issues.push(
 						`Response schema mismatch: ${
 							errors.length
 								? errors
-										.map(
-											(error) =>
-												`${error.instanceLocation} failed ${error.keywordLocation.split("/").pop()}`
-										)
+										.map((error) => {
+											const keyword = error.keywordLocation.split("/").pop();
+											const message = keyword
+												? keywordMessages[keyword as keyof typeof keywordMessages]
+												: `failed ${keyword}`;
+
+											return `${message} at ${error.instanceLocation}`;
+										})
 										.join(", ")
 								: error
 						}.`
