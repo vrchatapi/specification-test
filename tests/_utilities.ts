@@ -607,7 +607,7 @@ ${[...response.headers.entries()]
 	)
 	.join("\n")}
 
-\`\`\`json
+\`\`\`jsonc
 ${responseText}
 \`\`\`
 `)
