@@ -106,10 +106,13 @@ function normalizeSchema(schema: OpenAPIV3.SchemaObject): Schema {
 				})
 			);
 		}
+		newSchema.additionalProperties = false;
 	} else if (schemaType === "array") {
 		if (schema.items && "type" in schema.items) {
 			newSchema.items = normalizeSchema(schema.items);
 		}
+
+		newSchema.additionalItems = false;
 	} else {
 		// JSON Schema doesn't support the int64 format, so we have to remove it.
 		if (newSchema.format === "int64") delete newSchema.format;
@@ -144,7 +147,6 @@ export async function fetch(
 
 	if (sinceLastRequest < requestRateLimit) {
 		const delay = requestRateLimit - sinceLastRequest;
-		t.log(`Waiting ${ms(Math.round(delay), { long: true })} before making request...`);
 
 		// Voluntarily wait a bit before making the request.
 		await new Promise((resolve) => setTimeout(resolve, delay));

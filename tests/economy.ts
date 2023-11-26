@@ -3,8 +3,7 @@ import { failUnauthenticated, test, testOperation } from "./_utilities";
 test.before(failUnauthenticated);
 
 test.failing(testOperation, "getSteamTransactions", {
-	statusCode: 200,
-	sensitive: true
+	statusCode: 200
 });
 
 test(

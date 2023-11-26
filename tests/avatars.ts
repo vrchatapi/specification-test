@@ -4,12 +4,13 @@ import { failUnauthenticated, test, testOperation } from "./_utilities";
 
 const defaultAvatarId = "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11";
 const publicAvatarId = "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0";
+const fallbackAvatarId = "avtr_07917a03-5e0b-48e9-b041-e94086bc658f";
 
 test.before(failUnauthenticated);
 
 const unstableAvatarKeys = ["version", "unityPackages", "updated_at"];
 
-test.failing(
+test(
 	testOperation,
 	"getOwnAvatar",
 	() => ({
@@ -83,6 +84,14 @@ test("with id (not quest fallback)", testOperation, "selectFallbackAvatar", {
 	parameters: {
 		avatarId: publicAvatarId
 	}
+});
+
+test("with id", testOperation, "selectFallbackAvatar", {
+	statusCode: 200,
+	parameters: {
+		avatarId: fallbackAvatarId
+	},
+	unstable: unstableUserKeys
 });
 
 test("with zero parameters", testOperation, "getFavoritedAvatars", {

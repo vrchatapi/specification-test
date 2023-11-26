@@ -14,5 +14,7 @@ export const version = githubSha ? githubSha.slice(0, 8) : "local";
 
 export const methods = ["delete", "get", "head", "patch", "post", "put", "trace"] as const;
 
-// Send at most 1 request second.
-export const requestRateLimit = 1000;
+/**
+ * Delay between requests in milliseconds.
+ */
+export const requestRateLimit = 200;
