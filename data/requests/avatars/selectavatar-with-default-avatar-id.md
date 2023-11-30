@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Unexpected property at #/userLanguage, Unexpected property at #/currentAvatarTags, Unexpected property at #/googleId, Unexpected property at #/picoId, Unexpected property at #/viveId.
+Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Unexpected property at #/userLanguage, Unexpected property at #/userLanguageCode, Unexpected property at #/currentAvatarTags, Unexpected property at #/googleId, Unexpected property at #/picoId, Unexpected property at #/viveId.
 ```
 
 ## Request
@@ -83,6 +83,16 @@ Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Un
    * #/userLanguage
    */
   "userLanguage": null,
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/userLanguageCode
+   */
+  "userLanguageCode": null,
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   /**
