@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, Unexpected property at #/unityPackages/1/impostorUrl, Unexpected property at #/unityPackages/2/impostorUrl, Unexpected property at #/unityPackages/3/impostorUrl.
+Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, Unexpected property at #/unityPackages/0/scanStatus, Unexpected property at #/unityPackages/1/impostorUrl, Unexpected property at #/unityPackages/1/scanStatus, Unexpected property at #/unityPackages/2/impostorUrl, Unexpected property at #/unityPackages/2/scanStatus, Unexpected property at #/unityPackages/3/impostorUrl, Unexpected property at #/unityPackages/3/scanStatus.
 ```
 
 ## Request
@@ -59,7 +59,17 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, 
       "impostorUrl": null,
       "unityVersion": "2019.4.30f1",
       "assetVersion": 1,
-      "platform": "standalonewindows"
+      "platform": "standalonewindows",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/0/scanStatus
+       */
+      "scanStatus": "unscanned"
     },
     {
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
@@ -76,7 +86,17 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, 
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
-      "unityVersion": "2019.4.30f1"
+      "unityVersion": "2019.4.30f1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/1/scanStatus
+       */
+      "scanStatus": "unscanned"
     },
     {
       "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
@@ -93,7 +113,17 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, 
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "standalonewindows",
-      "unityVersion": "2019.4.31f1"
+      "unityVersion": "2019.4.31f1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/2/scanStatus
+       */
+      "scanStatus": "unscanned"
     },
     {
       "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
@@ -110,7 +140,17 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, 
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
-      "unityVersion": "2019.4.31f1"
+      "unityVersion": "2019.4.31f1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/3/scanStatus
+       */
+      "scanStatus": "unscanned"
     }
   ],
   "unityPackageUrl": "",
