@@ -123,7 +123,7 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, 
        * #/properties/unityPackages/items/additionalProperties
        * #/unityPackages/2/scanStatus
        */
-      "scanStatus": "unscanned"
+      "scanStatus": "passed"
     },
     {
       "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
@@ -150,7 +150,7 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, 
        * #/properties/unityPackages/items/additionalProperties
        * #/unityPackages/3/scanStatus
        */
-      "scanStatus": "unscanned"
+      "scanStatus": "passed"
     }
   ],
   "unityPackageUrl": "",

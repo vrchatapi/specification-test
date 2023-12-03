@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: undefined at #/instances/0, undefined at #/instances/1, undefined at #/instances/2, undefined at #/instances/3, undefined at #/instances/4, undefined at #/instances/5, undefined at #/instances/6, undefined at #/instances/7, undefined at #/instances/8, undefined at #/instances/9, undefined at #/instances/10, undefined at #/instances/11, undefined at #/instances/12, undefined at #/instances/13, undefined at #/instances/14, undefined at #/instances/15, undefined at #/instances/16, undefined at #/instances/17, undefined at #/unityPackages/0/assetUrl, Unexpected property at #/udonProducts.
+Response schema mismatch: undefined at #/instances/0, undefined at #/instances/1, undefined at #/instances/2, undefined at #/instances/3, undefined at #/instances/4, undefined at #/instances/5, undefined at #/instances/6, undefined at #/instances/7, undefined at #/instances/8, undefined at #/instances/9, undefined at #/instances/10, undefined at #/instances/11, undefined at #/instances/12, undefined at #/instances/13, undefined at #/instances/14, undefined at #/instances/15, undefined at #/instances/16, undefined at #/instances/17, undefined at #/instances/18, undefined at #/unityPackages/0/assetUrl, Unexpected property at #/udonProducts.
 ```
 
 ## Request
@@ -100,8 +100,7 @@ Response schema mismatch: undefined at #/instances/0, undefined at #/instances/1
     "author_tag_lounge",
     "system_approved",
     "admin_approved",
-    "admin_spotlight_mobile",
-    "system_updated_recently"
+    "admin_spotlight_mobile"
   ],
   "created_at": "2019-05-01T01:19:43.477Z",
   "updated_at": "<unstable: string>"
