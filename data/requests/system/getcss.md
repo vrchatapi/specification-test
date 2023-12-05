@@ -23,7 +23,7 @@ Response schema mismatch: Unexpected token : in JSON at position 0.
 | etag | `<redacted>` |
 | server | `AmazonS3` |
 | transfer-encoding | `chunked` |
-| vary | `Accept-Encoding` |
+| vary | `Accept-Encoding, Origin` |
 
 ```jsonc
 <unstable>
