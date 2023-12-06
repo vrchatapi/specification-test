@@ -18037,7 +18037,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "updatedAt": "2023-12-02T00:58:09+00:00"
   },
   {
-    "id": "world-spotlight-mobile-test",
+    "id": "world-spotlight-mobile",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1001,
@@ -18069,7 +18069,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     ],
     "data": {
       "name": {
-        "key": "WorldCategory/SpotlightMobileTest/Name/Spotlight-Mobile",
+        "key": "WorldCategory/SpotlightMobile/Name/Spotlight-Mobile",
         "fallback": "Spotlight - Mobile"
       },
       /**
@@ -18097,7 +18097,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
         "name": {
-          "key": "WorldCategory/SpotlightMobileTest/Name/Spotlight-Mobile",
+          "key": "WorldCategory/SpotlightMobile/Name/Spotlight-Mobile",
           "fallback": "Spotlight Mobile"
         },
         "sortHeading": "shuffle",
@@ -18117,9 +18117,9 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
         "bannersTag": "world-category-banner-spotlight-mobile"
       }
     },
-    "hash": "0cbee8ca5a961b46dd114ce89bc53b1f",
-    "createdAt": "2023-06-27T00:40:10+00:00",
-    "updatedAt": "2023-11-09T17:20:11+00:00"
+    "hash": "e60622884e6028b03100f605a61331a7",
+    "createdAt": "2023-12-05T06:11:04+00:00",
+    "updatedAt": "2023-12-05T06:11:04+00:00"
   },
   {
     "id": "world-banner---udon-getstarted",
