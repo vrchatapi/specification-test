@@ -105,8 +105,8 @@ Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Un
    * #/currentAvatarTags
    */
   "currentAvatarTags": [
-    "admin_content_reviewed",
-    "admin_featured_legacy"
+    "admin_featured_legacy",
+    "admin_content_reviewed"
   ],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_534ffc10-15d0-4fc5-86d5-2dcd55f0ac45/1/file",

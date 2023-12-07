@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag, Unexpected property at #/1data/tooltipDescription, Unexpected property at #/1data/thumbnailImageUrl, Unexpected property at #/1data/iconImageUrl, Cannot fit value in explicit enum at #/3/data/onPressed/command, Unexpected property at #/3/requireClientTags, Cannot fit value in explicit enum at #/4/data/onPressed/command, Unexpected property at #/4/requireClientTags, Cannot fit value in explicit enum at #/5/data/onPressed/command, Unexpected property at #/5/requireClientTags, Cannot fit value in explicit enum at #/6/data/onPressed/command, Cannot fit value in explicit enum at #/7/data/onPressed/command, Unexpected property at #/10data/search, Unexpected property at #/11data/search, Unexpected property at #/12data/search, Unexpected property at #/13data/search, Unexpected property at #/14data/search, Unexpected property at #/15data/search, Unexpected property at #/16data/search, Unexpected property at #/17data/search, Unexpected property at #/18data/search, Unexpected property at #/19data/search, Unexpected property at #/20data/search, Unexpected property at #/21data/search, Unexpected property at #/22data/search, Unexpected property at #/23data/search, Unexpected property at #/24data/search, Unexpected property at #/25data/search, Unexpected property at #/26data/search, Unexpected property at #/27data/search, Unexpected property at #/28data/search, Unexpected property at #/29data/search, Unexpected property at #/30data/search, Unexpected property at #/31data/search, Unexpected property at #/32data/search, Invalid type at #/51/data/description, Unexpected property at #/51data/iconImageUrl, Unexpected property at #/51data/tooltipDescription, Unexpected property at #/51/isLocalizable, Unexpected property at #/51/requireClientTags, Invalid type at #/52/data/description, Unexpected property at #/52data/iconImageUrl, Unexpected property at #/52data/tooltipDescription, Unexpected property at #/52/isLocalizable, Unexpected property at #/52/requireClientTags, Invalid type at #/53/data/name, Unexpected property at #/53data/search, Unexpected property at #/53/isLocalizable, Invalid type at #/54/data/name, Unexpected property at #/54data/search, Unexpected property at #/54/isLocalizable, Invalid type at #/55/data/name, Unexpected property at #/55data/search, Unexpected property at #/55/isLocalizable, Invalid type at #/56/data/name, Unexpected property at #/56data/search, Unexpected property at #/56/isLocalizable, Invalid type at #/57/data/name, Unexpected property at #/57data/search, Unexpected property at #/57/isLocalizable, Invalid type at #/58/data/name, Unexpected property at #/58data/search, Unexpected property at #/58/isLocalizable, Invalid type at #/59/data/name, Unexpected property at #/59data/search, Unexpected property at #/59/isLocalizable, Invalid type at #/60/data/name, Unexpected property at #/60data/search, Unexpected property at #/60/isLocalizable, Invalid type at #/61/data/name, Unexpected property at #/61data/search, Unexpected property at #/61/isLocalizable, Invalid type at #/62/data/name, Unexpected property at #/62data/search, Unexpected property at #/62/isLocalizable, Invalid type at #/63/data/name, Unexpected property at #/63data/search, Unexpected property at #/63/isLocalizable, Invalid type at #/64/data/name, Unexpected property at #/64data/search, Unexpected property at #/64/isLocalizable, Invalid type at #/65/data/name, Unexpected property at #/65data/search, Unexpected property at #/65/isLocalizable, Invalid type at #/66/data/name, Unexpected property at #/66data/search, Unexpected property at #/66/isLocalizable, Invalid type at #/67/data/name, Unexpected property at #/67data/search, Unexpected property at #/67/isLocalizable, Invalid type at #/68/data/name, Unexpected property at #/68data/search, Unexpected property at #/68/isLocalizable, Invalid type at #/69/data/name, Unexpected property at #/69data/search, Unexpected property at #/69/isLocalizable, Invalid type at #/70/data/name, Unexpected property at #/70data/search, Unexpected property at #/70/isLocalizable, Invalid type at #/71/data/name, Unexpected property at #/71data/search, Unexpected property at #/71/isLocalizable, Invalid type at #/72/data/name, Unexpected property at #/72data/search, Unexpected property at #/72/isLocalizable, Invalid type at #/73/data/name, Unexpected property at #/73data/search, Unexpected property at #/73/isLocalizable, Invalid type at #/74/data/name, Unexpected property at #/74data/search, Unexpected property at #/74/isLocalizable, Invalid type at #/75/data/name, Unexpected property at #/75data/search, Unexpected property at #/75/isLocalizable, Invalid type at #/76/data/name, Unexpected property at #/76data/search, Unexpected property at #/76/isLocalizable, Invalid type at #/77/data/name, Unexpected property at #/77data/search, Unexpected property at #/77/isLocalizable, Invalid type at #/78/data/name, Unexpected property at #/78data/search, Unexpected property at #/78/isLocalizable, Invalid type at #/79/data/name, Unexpected property at #/79data/search, Unexpected property at #/79/isLocalizable, Invalid type at #/80/data/name, Unexpected property at #/80data/search, Unexpected property at #/80/isLocalizable, Invalid type at #/81/data/name, Unexpected property at #/81data/search, Unexpected property at #/81/isLocalizable, Invalid type at #/82/data/name, Unexpected property at #/82data/search, Unexpected property at #/82/isLocalizable, Invalid type at #/83/data/name, Unexpected property at #/83data/search, Unexpected property at #/83/isLocalizable, Invalid type at #/84/data/name, Unexpected property at #/84data/search, Unexpected property at #/84/isLocalizable, Invalid type at #/85/data/name, Unexpected property at #/85data/search, Unexpected property at #/85/isLocalizable, Invalid type at #/86/data/name, Unexpected property at #/86data/search, Unexpected property at #/86/isLocalizable, Invalid type at #/87/data/name, Unexpected property at #/87data/search, Unexpected property at #/87/isLocalizable, Invalid type at #/88/data/name, Unexpected property at #/88data/search, Unexpected property at #/88/isLocalizable, Invalid type at #/89/data/name, Unexpected property at #/89data/search, Unexpected property at #/89/isLocalizable, Invalid type at #/90/data/name, Unexpected property at #/90data/search, Unexpected property at #/90/isLocalizable, Invalid type at #/91/data/name, Unexpected property at #/91data/search, Unexpected property at #/91/isLocalizable, Invalid type at #/92/data/name, Unexpected property at #/92data/search, Unexpected property at #/92/isLocalizable, Invalid type at #/93/data/name, Unexpected property at #/93data/search, Unexpected property at #/93/isLocalizable, Invalid type at #/94/data/name, Unexpected property at #/94data/search, Unexpected property at #/94/isLocalizable, Invalid type at #/95/data/name, Unexpected property at #/95data/search, Unexpected property at #/95/isLocalizable, Invalid type at #/96/data/name, Unexpected property at #/96data/search, Unexpected property at #/96/isLocalizable, Invalid type at #/97/data/name, Unexpected property at #/97data/search, Unexpected property at #/97/isLocalizable, Invalid type at #/98/data/name, Unexpected property at #/98data/search, Unexpected property at #/98/isLocalizable, Invalid type at #/99/data/name, Unexpected property at #/99data/search, Unexpected property at #/99/isLocalizable, Invalid type at #/100/data/name, Unexpected property at #/100data/search, Unexpected property at #/100/isLocalizable, Invalid type at #/101/data/name, Unexpected property at #/101data/search, Unexpected property at #/101/isLocalizable, Invalid type at #/102/data/name, Unexpected property at #/102data/search, Unexpected property at #/102/isLocalizable, Invalid type at #/103/data/name, Unexpected property at #/103data/search, Unexpected property at #/103/isLocalizable, Invalid type at #/104/data/name, Unexpected property at #/104data/search, Unexpected property at #/104/isLocalizable, Invalid type at #/105/data/name, Unexpected property at #/105data/search, Unexpected property at #/105/isLocalizable, Invalid type at #/106/data/name, Unexpected property at #/106data/search, Unexpected property at #/106/isLocalizable, Invalid type at #/107/data/name, Unexpected property at #/107data/search, Unexpected property at #/107/isLocalizable, Invalid type at #/108/data/name, Unexpected property at #/108data/search, Unexpected property at #/108/isLocalizable, Invalid type at #/109/data/name, Unexpected property at #/109data/search, Unexpected property at #/109/isLocalizable, Invalid type at #/110/data/name, Unexpected property at #/110data/search, Unexpected property at #/110/isLocalizable, Invalid type at #/111/data/name, Unexpected property at #/111data/search, Unexpected property at #/111/isLocalizable, Invalid type at #/112/data/name, Unexpected property at #/112data/search, Unexpected property at #/112/isLocalizable, Invalid type at #/113/data/name, Unexpected property at #/113data/search, Unexpected property at #/113/isLocalizable, Invalid type at #/114/data/name, Unexpected property at #/114data/search, Unexpected property at #/114/isLocalizable, Invalid type at #/115/data/name, Unexpected property at #/115data/search, Unexpected property at #/115/isLocalizable, Invalid type at #/116/data/name, Unexpected property at #/116data/search, Unexpected property at #/116/isLocalizable, Invalid type at #/117/data/name, Unexpected property at #/117data/search, Unexpected property at #/117/isLocalizable, Invalid type at #/118/data/name, Unexpected property at #/118data/search, Unexpected property at #/118/isLocalizable, Invalid type at #/119/data/name, Unexpected property at #/119data/search, Unexpected property at #/119/isLocalizable, Invalid type at #/120/data/name, Unexpected property at #/120data/search, Unexpected property at #/120/isLocalizable, Invalid type at #/121/data/name, Unexpected property at #/121data/search, Unexpected property at #/121/isLocalizable, Invalid type at #/122/data/name, Unexpected property at #/122data/search, Unexpected property at #/122/isLocalizable, Invalid type at #/123/data/name, Unexpected property at #/123data/search, Unexpected property at #/123/isLocalizable, Invalid type at #/124/data/name, Unexpected property at #/124data/search, Unexpected property at #/124/isLocalizable, Invalid type at #/125/data/name, Unexpected property at #/125data/search, Unexpected property at #/125/isLocalizable, Invalid type at #/126/data/name, Unexpected property at #/126data/search, Unexpected property at #/126/isLocalizable, Invalid type at #/127/data/name, Unexpected property at #/127data/search, Unexpected property at #/127/isLocalizable, Invalid type at #/128/data/name, Unexpected property at #/128data/search, Unexpected property at #/128/isLocalizable, Invalid type at #/129/data/name, Unexpected property at #/129data/search, Unexpected property at #/129/isLocalizable, Invalid type at #/130/data/name, Unexpected property at #/130data/search, Unexpected property at #/130/isLocalizable, Invalid type at #/131/data/name, Unexpected property at #/131data/search, Unexpected property at #/131/isLocalizable, Invalid type at #/132/data/name, Unexpected property at #/132data/search, Unexpected property at #/132/isLocalizable, Invalid type at #/133/data/name, Unexpected property at #/133data/search, Unexpected property at #/133/isLocalizable, Invalid type at #/134/data/name, Unexpected property at #/134data/search, Unexpected property at #/134/isLocalizable, Invalid type at #/135/data/name, Unexpected property at #/135data/search, Unexpected property at #/135/isLocalizable, Invalid type at #/136/data/name, Unexpected property at #/136data/search, Unexpected property at #/136/isLocalizable, Invalid type at #/137/data/name, Unexpected property at #/137data/search, Unexpected property at #/137/isLocalizable, Invalid type at #/138/data/name, Unexpected property at #/138data/search, Unexpected property at #/138/isLocalizable, Invalid type at #/139/data/name, Unexpected property at #/139data/search, Unexpected property at #/139/isLocalizable, Invalid type at #/140/data/name, Unexpected property at #/140data/search, Unexpected property at #/140/isLocalizable, Invalid type at #/141/data/name, Unexpected property at #/141data/search, Unexpected property at #/141/isLocalizable, Invalid type at #/142/data/name, Unexpected property at #/142data/search, Unexpected property at #/142/isLocalizable, Invalid type at #/143/data/name, Unexpected property at #/143data/search, Unexpected property at #/143/isLocalizable, Invalid type at #/144/data/name, Unexpected property at #/144data/search, Unexpected property at #/144/isLocalizable, Invalid type at #/145/data/name, Unexpected property at #/145data/search, Unexpected property at #/145/isLocalizable, Invalid type at #/146/data/name, Unexpected property at #/146data/search, Unexpected property at #/146/isLocalizable, Invalid type at #/147/data/name, Unexpected property at #/147data/search, Unexpected property at #/147/isLocalizable, Invalid type at #/148/data/name, Unexpected property at #/148data/search, Unexpected property at #/148/isLocalizable, Invalid type at #/149/data/name, Unexpected property at #/149data/search, Unexpected property at #/149/isLocalizable, Invalid type at #/150/data/name, Unexpected property at #/150data/search, Unexpected property at #/150/isLocalizable, Invalid type at #/151/data/name, Unexpected property at #/151data/search, Unexpected property at #/151/isLocalizable, Invalid type at #/152/data/name, Unexpected property at #/152data/search, Unexpected property at #/152/isLocalizable, Invalid type at #/153/data/name, Unexpected property at #/153data/search, Unexpected property at #/153/isLocalizable, Invalid type at #/154/data/name, Unexpected property at #/154data/search, Unexpected property at #/154/isLocalizable, Invalid type at #/155/data/name, Unexpected property at #/155data/search, Unexpected property at #/155/isLocalizable, Invalid type at #/156/data/name, Unexpected property at #/156data/search, Unexpected property at #/156/isLocalizable, Invalid type at #/157/data/name, Unexpected property at #/157data/search, Unexpected property at #/157/isLocalizable, Invalid type at #/158/data/name, Unexpected property at #/158data/search, Unexpected property at #/158/isLocalizable, Invalid type at #/159/data/name, Unexpected property at #/159data/search, Unexpected property at #/159/isLocalizable, Invalid type at #/160/data/name, Unexpected property at #/160data/search, Unexpected property at #/160/isLocalizable, Invalid type at #/161/data/name, Unexpected property at #/161data/search, Unexpected property at #/161/isLocalizable, Invalid type at #/162/data/name, Unexpected property at #/162data/search, Unexpected property at #/162/isLocalizable, Invalid type at #/163/data/name, Unexpected property at #/163data/search, Unexpected property at #/163/isLocalizable, Invalid type at #/164/data/name, Unexpected property at #/164data/search, Unexpected property at #/164/isLocalizable, Invalid type at #/165/data/name, Unexpected property at #/165data/search, Unexpected property at #/165/isLocalizable, Invalid type at #/166/data/name, Unexpected property at #/166data/search, Unexpected property at #/166/isLocalizable, Invalid type at #/167/data/name, Unexpected property at #/167data/search, Unexpected property at #/167/isLocalizable, Invalid type at #/168/data/name, Unexpected property at #/168data/search, Unexpected property at #/168/isLocalizable, Invalid type at #/169/data/name, Unexpected property at #/169data/search, Unexpected property at #/169/isLocalizable, Invalid type at #/170/data/name, Unexpected property at #/170data/search, Unexpected property at #/170/isLocalizable, Invalid type at #/171/data/name, Unexpected property at #/171data/search, Unexpected property at #/171/isLocalizable, Invalid type at #/172/data/name, Unexpected property at #/172data/search, Unexpected property at #/172/isLocalizable, Invalid type at #/173/data/name, Unexpected property at #/173data/search, Unexpected property at #/173/isLocalizable, Invalid type at #/174/data/name, Unexpected property at #/174data/search, Unexpected property at #/174/isLocalizable, Invalid type at #/175/data/name, Unexpected property at #/175data/search, Unexpected property at #/175/isLocalizable, Invalid type at #/176/data/name, Unexpected property at #/176data/search, Unexpected property at #/176/isLocalizable, Invalid type at #/177/data/name, Unexpected property at #/177data/search, Unexpected property at #/177/isLocalizable, Invalid type at #/178/data/name, Unexpected property at #/178data/search, Unexpected property at #/178/isLocalizable, Invalid type at #/179/data/name, Unexpected property at #/179data/search, Unexpected property at #/179/isLocalizable, Invalid type at #/180/data/name, Unexpected property at #/180data/search, Unexpected property at #/180/isLocalizable, Invalid type at #/181/data/name, Unexpected property at #/181data/search, Unexpected property at #/181/isLocalizable, Invalid type at #/182/data/name, Unexpected property at #/182data/search, Unexpected property at #/182/isLocalizable, Invalid type at #/183/data/name, Unexpected property at #/183data/search, Unexpected property at #/183/isLocalizable, Invalid type at #/184/data/name, Unexpected property at #/184data/search, Unexpected property at #/184/isLocalizable, Invalid type at #/185/data/name, Unexpected property at #/185data/search, Unexpected property at #/185/isLocalizable, Invalid type at #/186/data/name, Unexpected property at #/186data/search, Unexpected property at #/186/isLocalizable, Invalid type at #/187/data/name, Unexpected property at #/187data/search, Unexpected property at #/187/isLocalizable, Invalid type at #/188/data/name, Unexpected property at #/188data/search, Unexpected property at #/188/isLocalizable, Invalid type at #/189/data/name, Unexpected property at #/189data/search, Unexpected property at #/189/isLocalizable, Invalid type at #/190/data/name, Unexpected property at #/190data/search, Unexpected property at #/190/isLocalizable, Invalid type at #/191/data/name, Unexpected property at #/191data/search, Unexpected property at #/191/isLocalizable, Invalid type at #/192/data/name, Unexpected property at #/192data/search, Unexpected property at #/192/isLocalizable, Invalid type at #/193/data/name, Unexpected property at #/193data/search, Unexpected property at #/193/isLocalizable, Invalid type at #/194/data/name, Unexpected property at #/194data/search, Unexpected property at #/194/isLocalizable, Invalid type at #/195/data/name, Unexpected property at #/195data/search, Unexpected property at #/195/isLocalizable, Invalid type at #/196/data/name, Unexpected property at #/196data/search, Unexpected property at #/196/isLocalizable, Invalid type at #/197/data/name, Unexpected property at #/197data/search, Unexpected property at #/197/isLocalizable, Invalid type at #/198/data/name, Unexpected property at #/198data/search, Unexpected property at #/198/isLocalizable, Invalid type at #/199/data/name, Unexpected property at #/199data/search, Unexpected property at #/199/isLocalizable, Invalid type at #/200/data/name, Unexpected property at #/200data/search, Unexpected property at #/200/isLocalizable, Invalid type at #/201/data/name, Unexpected property at #/201data/search, Unexpected property at #/201/isLocalizable, Invalid type at #/202/data/name, Unexpected property at #/202data/search, Unexpected property at #/202/isLocalizable, Invalid type at #/203/data/name, Unexpected property at #/203data/search, Unexpected property at #/203/isLocalizable, Invalid type at #/204/data/name, Unexpected property at #/204data/search, Unexpected property at #/204/isLocalizable, Invalid type at #/205/data/name, Unexpected property at #/205data/search, Unexpected property at #/205/isLocalizable, Invalid type at #/206/data/name, Unexpected property at #/206data/search, Unexpected property at #/206/isLocalizable, Invalid type at #/207/data/name, Unexpected property at #/207data/search, Unexpected property at #/207/isLocalizable, Invalid type at #/208/data/name, Unexpected property at #/208data/search, Unexpected property at #/208/isLocalizable, Invalid type at #/209/data/name, Unexpected property at #/209data/search, Unexpected property at #/209/isLocalizable, Invalid type at #/210/data/name, Unexpected property at #/210data/search, Unexpected property at #/210/isLocalizable, Invalid type at #/211/data/name, Unexpected property at #/211data/search, Unexpected property at #/211/isLocalizable, Invalid type at #/212/data/name, Unexpected property at #/212data/search, Unexpected property at #/212/isLocalizable, Invalid type at #/213/data/name, Unexpected property at #/213data/search, Unexpected property at #/213/isLocalizable, Invalid type at #/214/data/name, Unexpected property at #/214data/search, Unexpected property at #/214/isLocalizable, Invalid type at #/215/data/name, Unexpected property at #/215data/search, Unexpected property at #/215/isLocalizable, Invalid type at #/216/data/name, Unexpected property at #/216data/search, Unexpected property at #/216/isLocalizable, Invalid type at #/217/data/name, Unexpected property at #/217data/search, Unexpected property at #/217/isLocalizable, Invalid type at #/218/data/name, Unexpected property at #/218data/search, Unexpected property at #/218/isLocalizable, Invalid type at #/219/data/name, Unexpected property at #/219data/search, Unexpected property at #/219/isLocalizable, Invalid type at #/220/data/name, Unexpected property at #/220data/search, Unexpected property at #/220/isLocalizable, Invalid type at #/221/data/name, Unexpected property at #/221data/search, Unexpected property at #/221/isLocalizable, Invalid type at #/222/data/name, Unexpected property at #/222data/search, Unexpected property at #/222/isLocalizable, Invalid type at #/223/data/name, Unexpected property at #/223data/search, Unexpected property at #/223/isLocalizable, Invalid type at #/224/data/name, Unexpected property at #/224data/search, Unexpected property at #/224/isLocalizable, Invalid type at #/225/data/name, Unexpected property at #/225data/search, Unexpected property at #/225/isLocalizable, Invalid type at #/226/data/name, Unexpected property at #/226data/search, Unexpected property at #/226/isLocalizable, Invalid type at #/227/data/name, Unexpected property at #/227data/search, Unexpected property at #/227/isLocalizable, Invalid type at #/228/data/name, Unexpected property at #/228data/search, Unexpected property at #/228/isLocalizable, Invalid type at #/229/data/name, Unexpected property at #/229data/search, Unexpected property at #/229/isLocalizable, Invalid type at #/230/data/name, Unexpected property at #/230data/search, Unexpected property at #/230/isLocalizable, Invalid type at #/231/data/name, Unexpected property at #/231data/search, Unexpected property at #/231/isLocalizable, Invalid type at #/232/data/name, Unexpected property at #/232data/search, Unexpected property at #/232/isLocalizable, Invalid type at #/233/data/name, Unexpected property at #/233data/search, Unexpected property at #/233/isLocalizable, Invalid type at #/234/data/name, Unexpected property at #/234data/search, Unexpected property at #/234/isLocalizable, Invalid type at #/235/data/name, Unexpected property at #/235data/search, Unexpected property at #/235/isLocalizable, Invalid type at #/236/data/name, Unexpected property at #/236data/search, Unexpected property at #/236/isLocalizable, Invalid type at #/237/data/name, Unexpected property at #/237data/search, Unexpected property at #/237/isLocalizable, Invalid type at #/238/data/name, Unexpected property at #/238data/search, Unexpected property at #/238/isLocalizable, Invalid type at #/239/data/name, Unexpected property at #/239data/search, Unexpected property at #/239/isLocalizable, Invalid type at #/240/data/name, Unexpected property at #/240data/search, Unexpected property at #/240/isLocalizable, Invalid type at #/241/data/name, Unexpected property at #/241data/search, Unexpected property at #/241/isLocalizable, Invalid type at #/242/data/name, Unexpected property at #/242data/search, Unexpected property at #/242/isLocalizable, Invalid type at #/243/data/name, Unexpected property at #/243data/search, Unexpected property at #/243/isLocalizable, Invalid type at #/244/data/name, Unexpected property at #/244data/search, Unexpected property at #/244/isLocalizable, Invalid type at #/245/data/name, Unexpected property at #/245data/search, Unexpected property at #/245/isLocalizable, Invalid type at #/246/data/name, Unexpected property at #/246data/search, Unexpected property at #/246/isLocalizable, Invalid type at #/247/data/name, Unexpected property at #/247data/search, Unexpected property at #/247/isLocalizable, Invalid type at #/248/data/name, Unexpected property at #/248data/search, Unexpected property at #/248/isLocalizable, Invalid type at #/249/data/name, Unexpected property at #/249data/search, Unexpected property at #/249/isLocalizable, Invalid type at #/250/data/name, Unexpected property at #/250data/search, Unexpected property at #/250/isLocalizable, Invalid type at #/251/data/name, Unexpected property at #/251data/search, Unexpected property at #/251/isLocalizable, Invalid type at #/252/data/name, Unexpected property at #/252data/search, Unexpected property at #/252/isLocalizable, Invalid type at #/253/data/name, Unexpected property at #/253data/search, Unexpected property at #/253/isLocalizable, Invalid type at #/254/data/name, Unexpected property at #/254data/search, Unexpected property at #/254/isLocalizable, Invalid type at #/255/data/name, Unexpected property at #/255data/search, Unexpected property at #/255/isLocalizable, Invalid type at #/256/data/name, Unexpected property at #/256data/search, Unexpected property at #/256/isLocalizable, Invalid type at #/257/data/name, Unexpected property at #/257data/search, Unexpected property at #/257/isLocalizable, Invalid type at #/258/data/name, Unexpected property at #/258data/search, Unexpected property at #/258/isLocalizable, Invalid type at #/259/data/name, Unexpected property at #/259data/search, Unexpected property at #/259/isLocalizable, Invalid type at #/260/data/name, Unexpected property at #/260data/search, Unexpected property at #/260/isLocalizable, Invalid type at #/261/data/name, Unexpected property at #/261data/search, Unexpected property at #/261/isLocalizable, Invalid type at #/262/data/name, Unexpected property at #/262data/search, Unexpected property at #/262/isLocalizable, Invalid type at #/263/data/name, Unexpected property at #/263data/search, Unexpected property at #/263/isLocalizable, Invalid type at #/264/data/name, Unexpected property at #/264data/search, Unexpected property at #/264/isLocalizable, Invalid type at #/265/data/name, Unexpected property at #/265data/search, Unexpected property at #/265/isLocalizable, Invalid type at #/266/data/name, Unexpected property at #/266data/search, Unexpected property at #/266/isLocalizable, Invalid type at #/267/data/name, Unexpected property at #/267data/search, Unexpected property at #/267/isLocalizable, Invalid type at #/268/data/name, Unexpected property at #/268data/search, Unexpected property at #/268/isLocalizable, Invalid type at #/269/data/name, Unexpected property at #/269data/search, Unexpected property at #/269/isLocalizable, Invalid type at #/270/data/name, Unexpected property at #/270data/search, Unexpected property at #/270/isLocalizable, Invalid type at #/271/data/name, Unexpected property at #/271data/search, Unexpected property at #/271/isLocalizable, Invalid type at #/272/data/name, Unexpected property at #/272data/search, Unexpected property at #/272/isLocalizable, Invalid type at #/273/data/name, Unexpected property at #/273data/search, Unexpected property at #/273/isLocalizable, Invalid type at #/274/data/name, Unexpected property at #/274data/search, Unexpected property at #/274/isLocalizable, Invalid type at #/275/data/name, Unexpected property at #/275data/search, Unexpected property at #/275/isLocalizable, Invalid type at #/276/data/name, Unexpected property at #/276data/search, Unexpected property at #/276/isLocalizable, Invalid type at #/277/data/name, Unexpected property at #/277data/search, Unexpected property at #/277/isLocalizable, Invalid type at #/278/data/name, Unexpected property at #/278data/search, Unexpected property at #/278/isLocalizable, Invalid type at #/279/data/name, Unexpected property at #/279data/search, Unexpected property at #/279/isLocalizable, Invalid type at #/280/data/name, Unexpected property at #/280data/search, Unexpected property at #/280/isLocalizable, Invalid type at #/281/data/name, Unexpected property at #/281data/search, Unexpected property at #/281/isLocalizable, Invalid type at #/282/data/name, Unexpected property at #/282data/search, Unexpected property at #/282/isLocalizable, Invalid type at #/283/data/name, Unexpected property at #/283data/search, Unexpected property at #/283/isLocalizable, Invalid type at #/284/data/name, Unexpected property at #/284data/search, Unexpected property at #/284/isLocalizable, Invalid type at #/285/data/name, Unexpected property at #/285data/search, Unexpected property at #/285/isLocalizable, Invalid type at #/286/data/name, Unexpected property at #/286data/search, Unexpected property at #/286/isLocalizable, Invalid type at #/287/data/name, Unexpected property at #/287data/search, Unexpected property at #/287/isLocalizable, Invalid type at #/288/data/name, Unexpected property at #/288data/search, Unexpected property at #/288/isLocalizable, Invalid type at #/289/data/name, Unexpected property at #/289data/search, Unexpected property at #/289/isLocalizable, Invalid type at #/290/data/name, Unexpected property at #/290data/search, Unexpected property at #/290/isLocalizable, Invalid type at #/291/data/name, Unexpected property at #/291data/search, Unexpected property at #/291/isLocalizable, Invalid type at #/292/data/name, Unexpected property at #/292data/search, Unexpected property at #/292/isLocalizable, Invalid type at #/293/data/name, Unexpected property at #/293data/search, Unexpected property at #/293/isLocalizable, Invalid type at #/294/data/name, Unexpected property at #/294data/search, Unexpected property at #/294/isLocalizable, Invalid type at #/295/data/name, Unexpected property at #/295data/search, Unexpected property at #/295/isLocalizable, Invalid type at #/296/data/name, Unexpected property at #/296data/search, Unexpected property at #/296/isLocalizable, Invalid type at #/297/data/name, Unexpected property at #/297data/search, Unexpected property at #/297/isLocalizable, Invalid type at #/298/data/name, Unexpected property at #/298data/search, Unexpected property at #/298/isLocalizable, Invalid type at #/299/data/name, Unexpected property at #/299data/search, Unexpected property at #/299/isLocalizable, Invalid type at #/300/data/name, Unexpected property at #/300data/search, Unexpected property at #/300/isLocalizable, Invalid type at #/301/data/name, Unexpected property at #/301data/search, Unexpected property at #/301/isLocalizable, Invalid type at #/302/data/name, Unexpected property at #/302data/search, Unexpected property at #/302/isLocalizable, Unexpected property at #/303data/search, Unexpected property at #/304data/search, Unexpected property at #/305data/search, Unexpected property at #/306data/search, Unexpected property at #/307data/search, Unexpected property at #/308data/search, Unexpected property at #/309data/search, Unexpected property at #/310data/search, Unexpected property at #/311data/search, Unexpected property at #/312data/search, Unexpected property at #/313data/search, Unexpected property at #/314data/search, Unexpected property at #/315data/search, Unexpected property at #/316data/search, Unexpected property at #/317data/search, Unexpected property at #/318data/search, Unexpected property at #/319data/search, Unexpected property at #/320data/search, Unexpected property at #/321data/search, Unexpected property at #/322data/search, Unexpected property at #/323data/search, Unexpected property at #/324data/search, Unexpected property at #/325data/search, Unexpected property at #/326data/tooltipDescription, Unexpected property at #/326data/iconImageUrl, Unexpected property at #/326data/categories, Unexpected property at #/327data/tooltipDescription, Unexpected property at #/327data/iconImageUrl, Unexpected property at #/327data/categories, Invalid type at #/328/data/article/content, Unexpected property at #/328data/article/embeddedLinkData, Unexpected property at #/328data/article/moreInfoLinks, Unexpected property at #/328/requireClientTags, Invalid type at #/329/data/article/content, Unexpected property at #/329data/article/embeddedLinkData, Unexpected property at #/329data/article/moreInfoLinks, Unexpected property at #/329/requireClientTags, Invalid type at #/330/data/description, Invalid type at #/330/data/name, Invalid type at #/330/data/article/content, Unexpected property at #/330data/article/embeddedLinkData, Unexpected property at #/330data/article/moreInfoLinks, Unexpected property at #/330/isLocalizable, Unexpected property at #/330/requireClientTags, Invalid type at #/331/data/description, Invalid type at #/331/data/name, Invalid type at #/331/data/article/content, Unexpected property at #/331data/article/sectionLinks, Unexpected property at #/331data/article/embeddedLinkData, Unexpected property at #/331data/article/moreInfoLinks, Unexpected property at #/331/isLocalizable, Unexpected property at #/331/requireClientTags, Invalid type at #/332/data/description, Invalid type at #/332/data/name, Invalid type at #/332/data/article/content, Unexpected property at #/332data/article/sectionLinks, Unexpected property at #/332data/article/embeddedLinkData, Unexpected property at #/332data/article/moreInfoLinks, Unexpected property at #/332/isLocalizable, Unexpected property at #/332/requireClientTags, Invalid type at #/333/data/description, Invalid type at #/333/data/name, Invalid type at #/333/data/article/content, Unexpected property at #/333data/article/sectionLinks, Unexpected property at #/333data/article/embeddedLinkData, Unexpected property at #/333data/article/moreInfoLinks, Unexpected property at #/333/isLocalizable, Unexpected property at #/333/requireClientTags, Invalid type at #/334/data/description, Invalid type at #/334/data/name, Invalid type at #/334/data/article/content, Unexpected property at #/334data/article/embeddedLinkData, Unexpected property at #/334data/article/moreInfoLinks, Unexpected property at #/334/isLocalizable, Invalid type at #/335/data/description, Invalid type at #/335/data/name, Invalid type at #/335/data/article/content, Unexpected property at #/335data/article/embeddedLinkData, Unexpected property at #/335data/article/moreInfoLinks, Unexpected property at #/335/isLocalizable, Invalid type at #/336/data/description, Invalid type at #/336/data/name, Invalid type at #/336/data/article/content, Unexpected property at #/336/isLocalizable, Invalid type at #/338/data/contentList/name, Unexpected property at #/338data/contentList/bannersTag, Invalid type at #/338/data/name, Unexpected property at #/338data/tooltipDescription, Unexpected property at #/338data/iconImageUrl, Unexpected property at #/338/isLocalizable, Unexpected property at #/338/requireClientTags, Invalid type at #/340/data/description, Invalid type at #/340/data/name, Unexpected property at #/340data/tooltipDescription, Unexpected property at #/340data/iconImageUrl, Unexpected property at #/340data/thumbnailImageUrl, Unexpected property at #/340data/ipsQuery, Unexpected property at #/340/isLocalizable, Invalid type at #/341/data/contentList/name, Unexpected property at #/341/isLocalizable, Invalid type at #/342/data/description, Invalid type at #/342/data/name, Unexpected property at #/342data/tooltipDescription, Unexpected property at #/342data/iconImageUrl, Unexpected property at #/342data/thumbnailImageUrl, Unexpected property at #/342data/isNew, Unexpected property at #/342data/ipsQuery, Unexpected property at #/342/isLocalizable, Invalid type at #/343/data/description, Invalid type at #/343/data/name, Invalid type at #/343/data/article/content, Unexpected property at #/343/isLocalizable, Invalid type at #/344/data/contentList/name, Unexpected property at #/344/isLocalizable, Invalid type at #/345/data/description, Invalid type at #/345/data/name, Unexpected property at #/345data/tooltipDescription, Unexpected property at #/345data/thumbnailImageUrl, Unexpected property at #/345data/iconImageUrl, Unexpected property at #/345data/ipsQuery, Unexpected property at #/345/isLocalizable, Invalid type at #/346/data/description, Invalid type at #/346/data/name, Invalid type at #/346/data/article/content, Unexpected property at #/346data/article/sectionLinks, Unexpected property at #/346/isLocalizable, Invalid type at #/347/data/description, Invalid type at #/347/data/name, Invalid type at #/347/data/article/content, Unexpected property at #/347data/article/jumpLinks, Unexpected property at #/347data/article/embeddedLinkData, Unexpected property at #/347data/article/moreInfoLinks, Unexpected property at #/347/isLocalizable, Invalid type at #/348/data/description, Invalid type at #/348/data/name, Invalid type at #/348/data/article/content, Unexpected property at #/348data/article/embeddedLinkData, Unexpected property at #/348data/article/moreInfoLinks, Unexpected property at #/348/isLocalizable, Invalid type at #/349/data/description, Invalid type at #/349/data/name, Unexpected property at #/349data/tooltipDescription, Unexpected property at #/349data/iconImageUrl, Unexpected property at #/349data/ipsQuery, Unexpected property at #/349/isLocalizable, Invalid type at #/350/data/description, Invalid type at #/350/data/name, Unexpected property at #/350data/tooltipDescription, Unexpected property at #/350data/iconImageUrl, Unexpected property at #/350data/thumbnailImageUrl, Unexpected property at #/350data/ipsQuery, Unexpected property at #/350/isLocalizable, Invalid type at #/351/data/description, Invalid type at #/351/data/name, Unexpected property at #/351data/tooltipDescription, Unexpected property at #/351data/iconImageUrl, Unexpected property at #/351data/thumbnailImageUrl, Unexpected property at #/351data/ipsQuery, Unexpected property at #/351/isLocalizable, Invalid type at #/352/data/contentList/name, Unexpected property at #/352data/contentList/bannersTag, Unexpected property at #/352data/contentList/avatarSpecific, Invalid type at #/352/data/name, Unexpected property at #/352data/tooltipDescription, Unexpected property at #/352data/iconImageUrl, Unexpected property at #/352/isLocalizable, Invalid type at #/354/data/description, Invalid type at #/354/data/name, Unexpected property at #/354data/tooltipDescription, Unexpected property at #/354data/iconImageUrl, Unexpected property at #/354data/thumbnailImageUrl, Unexpected property at #/354data/ipsQuery, Unexpected property at #/354/isLocalizable, Invalid type at #/355/data/contentList/name, Unexpected property at #/355data/contentList/avatarSpecific, Unexpected property at #/355data/contentList/bannersTag, Invalid type at #/355/data/name, Unexpected property at #/355data/tooltipDescription, Unexpected property at #/355data/iconImageUrl, Unexpected property at #/355/isLocalizable, Invalid type at #/356/data/description, Invalid type at #/356/data/name, Unexpected property at #/356data/tooltipDescription, Unexpected property at #/356data/iconImageUrl, Unexpected property at #/356data/thumbnailImageUrl, Unexpected property at #/356data/ipsQuery, Unexpected property at #/356/isLocalizable, Invalid type at #/357/data/contentList/name, Unexpected property at #/357data/contentList/bannersTag, Unexpected property at #/357data/contentList/avatarSpecific, Invalid type at #/357/data/name, Unexpected property at #/357data/iconImageUrl, Unexpected property at #/357data/tooltipDescription, Unexpected property at #/357/isLocalizable, Invalid type at #/358/data/contentList/name, Unexpected property at #/358data/contentList/shortName, Unexpected property at #/358data/contentList/bannersTag, Invalid type at #/358/data/name, Unexpected property at #/358data/shortName, Unexpected property at #/358data/tooltipDescription, Unexpected property at #/358data/iconImageUrl, Unexpected property at #/358/isLocalizable, Unexpected property at #/359data/tooltipDescription, Unexpected property at #/359data/iconImageUrl, Unexpected property at #/359data/ipsQuery, Invalid type at #/360/data/contentList/name, Unexpected property at #/360data/contentList/bannersTag, Invalid type at #/360/data/name, Unexpected property at #/360data/tooltipDescription, Unexpected property at #/360data/iconImageUrl, Unexpected property at #/360/isLocalizable, Unexpected property at #/360/requireClientTags, Invalid type at #/362/data/contentList/name, Unexpected property at #/362data/contentList/bannersTag, Unexpected property at #/362data/contentList/avatarSpecific, Invalid type at #/362/data/name, Unexpected property at #/362data/iconImageUrl, Unexpected property at #/362data/tooltipDescription, Unexpected property at #/362/isLocalizable, Invalid type at #/364/data/contentList/name, Unexpected property at #/364data/contentList/avatarSpecific, Unexpected property at #/364data/contentList/bannersTag, Invalid type at #/364/data/name, Unexpected property at #/364data/tooltipDescription, Unexpected property at #/364data/iconImageUrl, Unexpected property at #/364/isLocalizable, Invalid type at #/365/data/description, Invalid type at #/365/data/name, Invalid type at #/365/data/article/content, Unexpected property at #/365data/article/sectionLinks, Unexpected property at #/365data/article/embeddedLinkData, Unexpected property at #/365data/article/moreInfoLinks, Unexpected property at #/365data/isNew, Unexpected property at #/365/isLocalizable, Invalid type at #/366/data/contentList/name, Unexpected property at #/366data/contentList/bannersTag, Invalid type at #/366/data/name, Unexpected property at #/366data/tooltipDescription, Unexpected property at #/366data/iconImageUrl, Unexpected property at #/366/isLocalizable, Invalid type at #/367/data/description, Invalid type at #/367/data/name, Invalid type at #/367/data/article/content, Unexpected property at #/367data/article/sectionLinks, Unexpected property at #/367data/article/embeddedLinkData, Unexpected property at #/367data/article/moreInfoLinks, Unexpected property at #/367/isLocalizable, Invalid type at #/368/data/contentList/name, Unexpected property at #/368data/contentList/bannersTag, Invalid type at #/368/data/name, Unexpected property at #/368data/tooltipDescription, Unexpected property at #/368data/iconImageUrl, Unexpected property at #/368/isLocalizable, Unexpected property at #/369data/search, Invalid type at #/370/data/name, Unexpected property at #/370data/search, Unexpected property at #/370/isLocalizable, Invalid type at #/371/data/name, Unexpected property at #/371data/search, Unexpected property at #/371/isLocalizable, Invalid type at #/372/data/name, Unexpected property at #/372data/search, Unexpected property at #/372/isLocalizable, Invalid type at #/373/data/article/content, Invalid type at #/374/data/article/content, Invalid type at #/375/data/contentList/name, Unexpected property at #/375data/contentList/bannersTag, Unexpected property at #/375data/contentList/avatarSpecific, Invalid type at #/375/data/name, Unexpected property at #/375data/iconImageUrl, Unexpected property at #/375data/tooltipDescription, Unexpected property at #/375/isLocalizable, Invalid type at #/376/data/contentList/name, Unexpected property at #/376data/contentList/avatarSpecific, Unexpected property at #/376data/contentList/bannersTag, Invalid type at #/376/data/name, Unexpected property at #/376data/tooltipDescription, Unexpected property at #/376data/iconImageUrl, Unexpected property at #/376/isLocalizable, Invalid type at #/377/data/description, Invalid type at #/377/data/name, Invalid type at #/377/data/article/content, Unexpected property at #/377data/article/sectionLinks, Unexpected property at #/377data/article/embeddedLinkData, Unexpected property at #/377data/article/moreInfoLinks, Unexpected property at #/377data/isNew, Unexpected property at #/377/isLocalizable, Invalid type at #/378/data/description, Invalid type at #/378/data/name, Invalid type at #/378/data/article/content, Unexpected property at #/378data/article/embeddedLinkData, Unexpected property at #/378data/article/moreInfoLinks, Unexpected property at #/378/isLocalizable.
+Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag, Unexpected property at #/1data/tooltipDescription, Unexpected property at #/1data/thumbnailImageUrl, Unexpected property at #/1data/iconImageUrl, Cannot fit value in explicit enum at #/3/data/onPressed/command, Unexpected property at #/3/requireClientTags, Cannot fit value in explicit enum at #/4/data/onPressed/command, Unexpected property at #/4/requireClientTags, Cannot fit value in explicit enum at #/5/data/onPressed/command, Unexpected property at #/5/requireClientTags, Cannot fit value in explicit enum at #/6/data/onPressed/command, Cannot fit value in explicit enum at #/7/data/onPressed/command, Unexpected property at #/10data/search, Unexpected property at #/11data/search, Unexpected property at #/12data/search, Unexpected property at #/13data/search, Unexpected property at #/14data/search, Unexpected property at #/15data/search, Unexpected property at #/16data/search, Unexpected property at #/17data/search, Unexpected property at #/18data/search, Unexpected property at #/19data/search, Unexpected property at #/20data/search, Unexpected property at #/21data/search, Unexpected property at #/22data/search, Unexpected property at #/23data/search, Unexpected property at #/24data/search, Unexpected property at #/25data/search, Unexpected property at #/26data/search, Unexpected property at #/27data/search, Unexpected property at #/28data/search, Unexpected property at #/29data/search, Unexpected property at #/30data/search, Unexpected property at #/31data/search, Unexpected property at #/32data/search, Invalid type at #/51/data/description, Unexpected property at #/51data/iconImageUrl, Unexpected property at #/51data/tooltipDescription, Unexpected property at #/51/isLocalizable, Unexpected property at #/51/requireClientTags, Invalid type at #/52/data/description, Unexpected property at #/52data/iconImageUrl, Unexpected property at #/52data/tooltipDescription, Unexpected property at #/52/isLocalizable, Unexpected property at #/52/requireClientTags, Invalid type at #/53/data/name, Unexpected property at #/53data/search, Unexpected property at #/53/isLocalizable, Invalid type at #/54/data/name, Unexpected property at #/54data/search, Unexpected property at #/54/isLocalizable, Invalid type at #/55/data/name, Unexpected property at #/55data/search, Unexpected property at #/55/isLocalizable, Invalid type at #/56/data/name, Unexpected property at #/56data/search, Unexpected property at #/56/isLocalizable, Invalid type at #/57/data/name, Unexpected property at #/57data/search, Unexpected property at #/57/isLocalizable, Invalid type at #/58/data/name, Unexpected property at #/58data/search, Unexpected property at #/58/isLocalizable, Invalid type at #/59/data/name, Unexpected property at #/59data/search, Unexpected property at #/59/isLocalizable, Invalid type at #/60/data/name, Unexpected property at #/60data/search, Unexpected property at #/60/isLocalizable, Invalid type at #/61/data/name, Unexpected property at #/61data/search, Unexpected property at #/61/isLocalizable, Invalid type at #/62/data/name, Unexpected property at #/62data/search, Unexpected property at #/62/isLocalizable, Invalid type at #/63/data/name, Unexpected property at #/63data/search, Unexpected property at #/63/isLocalizable, Invalid type at #/64/data/name, Unexpected property at #/64data/search, Unexpected property at #/64/isLocalizable, Invalid type at #/65/data/name, Unexpected property at #/65data/search, Unexpected property at #/65/isLocalizable, Invalid type at #/66/data/name, Unexpected property at #/66data/search, Unexpected property at #/66/isLocalizable, Invalid type at #/67/data/name, Unexpected property at #/67data/search, Unexpected property at #/67/isLocalizable, Invalid type at #/68/data/name, Unexpected property at #/68data/search, Unexpected property at #/68/isLocalizable, Invalid type at #/69/data/name, Unexpected property at #/69data/search, Unexpected property at #/69/isLocalizable, Invalid type at #/70/data/name, Unexpected property at #/70data/search, Unexpected property at #/70/isLocalizable, Invalid type at #/71/data/name, Unexpected property at #/71data/search, Unexpected property at #/71/isLocalizable, Invalid type at #/72/data/name, Unexpected property at #/72data/search, Unexpected property at #/72/isLocalizable, Invalid type at #/73/data/name, Unexpected property at #/73data/search, Unexpected property at #/73/isLocalizable, Invalid type at #/74/data/name, Unexpected property at #/74data/search, Unexpected property at #/74/isLocalizable, Invalid type at #/75/data/name, Unexpected property at #/75data/search, Unexpected property at #/75/isLocalizable, Invalid type at #/76/data/name, Unexpected property at #/76data/search, Unexpected property at #/76/isLocalizable, Invalid type at #/77/data/name, Unexpected property at #/77data/search, Unexpected property at #/77/isLocalizable, Invalid type at #/78/data/name, Unexpected property at #/78data/search, Unexpected property at #/78/isLocalizable, Invalid type at #/79/data/name, Unexpected property at #/79data/search, Unexpected property at #/79/isLocalizable, Invalid type at #/80/data/name, Unexpected property at #/80data/search, Unexpected property at #/80/isLocalizable, Invalid type at #/81/data/name, Unexpected property at #/81data/search, Unexpected property at #/81/isLocalizable, Invalid type at #/82/data/name, Unexpected property at #/82data/search, Unexpected property at #/82/isLocalizable, Invalid type at #/83/data/name, Unexpected property at #/83data/search, Unexpected property at #/83/isLocalizable, Invalid type at #/84/data/name, Unexpected property at #/84data/search, Unexpected property at #/84/isLocalizable, Invalid type at #/85/data/name, Unexpected property at #/85data/search, Unexpected property at #/85/isLocalizable, Invalid type at #/86/data/name, Unexpected property at #/86data/search, Unexpected property at #/86/isLocalizable, Invalid type at #/87/data/name, Unexpected property at #/87data/search, Unexpected property at #/87/isLocalizable, Invalid type at #/88/data/name, Unexpected property at #/88data/search, Unexpected property at #/88/isLocalizable, Invalid type at #/89/data/name, Unexpected property at #/89data/search, Unexpected property at #/89/isLocalizable, Invalid type at #/90/data/name, Unexpected property at #/90data/search, Unexpected property at #/90/isLocalizable, Invalid type at #/91/data/name, Unexpected property at #/91data/search, Unexpected property at #/91/isLocalizable, Invalid type at #/92/data/name, Unexpected property at #/92data/search, Unexpected property at #/92/isLocalizable, Invalid type at #/93/data/name, Unexpected property at #/93data/search, Unexpected property at #/93/isLocalizable, Invalid type at #/94/data/name, Unexpected property at #/94data/search, Unexpected property at #/94/isLocalizable, Invalid type at #/95/data/name, Unexpected property at #/95data/search, Unexpected property at #/95/isLocalizable, Invalid type at #/96/data/name, Unexpected property at #/96data/search, Unexpected property at #/96/isLocalizable, Invalid type at #/97/data/name, Unexpected property at #/97data/search, Unexpected property at #/97/isLocalizable, Invalid type at #/98/data/name, Unexpected property at #/98data/search, Unexpected property at #/98/isLocalizable, Invalid type at #/99/data/name, Unexpected property at #/99data/search, Unexpected property at #/99/isLocalizable, Invalid type at #/100/data/name, Unexpected property at #/100data/search, Unexpected property at #/100/isLocalizable, Invalid type at #/101/data/name, Unexpected property at #/101data/search, Unexpected property at #/101/isLocalizable, Invalid type at #/102/data/name, Unexpected property at #/102data/search, Unexpected property at #/102/isLocalizable, Invalid type at #/103/data/name, Unexpected property at #/103data/search, Unexpected property at #/103/isLocalizable, Invalid type at #/104/data/name, Unexpected property at #/104data/search, Unexpected property at #/104/isLocalizable, Invalid type at #/105/data/name, Unexpected property at #/105data/search, Unexpected property at #/105/isLocalizable, Invalid type at #/106/data/name, Unexpected property at #/106data/search, Unexpected property at #/106/isLocalizable, Invalid type at #/107/data/name, Unexpected property at #/107data/search, Unexpected property at #/107/isLocalizable, Invalid type at #/108/data/name, Unexpected property at #/108data/search, Unexpected property at #/108/isLocalizable, Invalid type at #/109/data/name, Unexpected property at #/109data/search, Unexpected property at #/109/isLocalizable, Invalid type at #/110/data/name, Unexpected property at #/110data/search, Unexpected property at #/110/isLocalizable, Invalid type at #/111/data/name, Unexpected property at #/111data/search, Unexpected property at #/111/isLocalizable, Invalid type at #/112/data/name, Unexpected property at #/112data/search, Unexpected property at #/112/isLocalizable, Invalid type at #/113/data/name, Unexpected property at #/113data/search, Unexpected property at #/113/isLocalizable, Invalid type at #/114/data/name, Unexpected property at #/114data/search, Unexpected property at #/114/isLocalizable, Invalid type at #/115/data/name, Unexpected property at #/115data/search, Unexpected property at #/115/isLocalizable, Invalid type at #/116/data/name, Unexpected property at #/116data/search, Unexpected property at #/116/isLocalizable, Invalid type at #/117/data/name, Unexpected property at #/117data/search, Unexpected property at #/117/isLocalizable, Invalid type at #/118/data/name, Unexpected property at #/118data/search, Unexpected property at #/118/isLocalizable, Invalid type at #/119/data/name, Unexpected property at #/119data/search, Unexpected property at #/119/isLocalizable, Invalid type at #/120/data/name, Unexpected property at #/120data/search, Unexpected property at #/120/isLocalizable, Invalid type at #/121/data/name, Unexpected property at #/121data/search, Unexpected property at #/121/isLocalizable, Invalid type at #/122/data/name, Unexpected property at #/122data/search, Unexpected property at #/122/isLocalizable, Invalid type at #/123/data/name, Unexpected property at #/123data/search, Unexpected property at #/123/isLocalizable, Invalid type at #/124/data/name, Unexpected property at #/124data/search, Unexpected property at #/124/isLocalizable, Invalid type at #/125/data/name, Unexpected property at #/125data/search, Unexpected property at #/125/isLocalizable, Invalid type at #/126/data/name, Unexpected property at #/126data/search, Unexpected property at #/126/isLocalizable, Invalid type at #/127/data/name, Unexpected property at #/127data/search, Unexpected property at #/127/isLocalizable, Invalid type at #/128/data/name, Unexpected property at #/128data/search, Unexpected property at #/128/isLocalizable, Invalid type at #/129/data/name, Unexpected property at #/129data/search, Unexpected property at #/129/isLocalizable, Invalid type at #/130/data/name, Unexpected property at #/130data/search, Unexpected property at #/130/isLocalizable, Invalid type at #/131/data/name, Unexpected property at #/131data/search, Unexpected property at #/131/isLocalizable, Invalid type at #/132/data/name, Unexpected property at #/132data/search, Unexpected property at #/132/isLocalizable, Invalid type at #/133/data/name, Unexpected property at #/133data/search, Unexpected property at #/133/isLocalizable, Invalid type at #/134/data/name, Unexpected property at #/134data/search, Unexpected property at #/134/isLocalizable, Invalid type at #/135/data/name, Unexpected property at #/135data/search, Unexpected property at #/135/isLocalizable, Invalid type at #/136/data/name, Unexpected property at #/136data/search, Unexpected property at #/136/isLocalizable, Invalid type at #/137/data/name, Unexpected property at #/137data/search, Unexpected property at #/137/isLocalizable, Invalid type at #/138/data/name, Unexpected property at #/138data/search, Unexpected property at #/138/isLocalizable, Invalid type at #/139/data/name, Unexpected property at #/139data/search, Unexpected property at #/139/isLocalizable, Invalid type at #/140/data/name, Unexpected property at #/140data/search, Unexpected property at #/140/isLocalizable, Invalid type at #/141/data/name, Unexpected property at #/141data/search, Unexpected property at #/141/isLocalizable, Invalid type at #/142/data/name, Unexpected property at #/142data/search, Unexpected property at #/142/isLocalizable, Invalid type at #/143/data/name, Unexpected property at #/143data/search, Unexpected property at #/143/isLocalizable, Invalid type at #/144/data/name, Unexpected property at #/144data/search, Unexpected property at #/144/isLocalizable, Invalid type at #/145/data/name, Unexpected property at #/145data/search, Unexpected property at #/145/isLocalizable, Invalid type at #/146/data/name, Unexpected property at #/146data/search, Unexpected property at #/146/isLocalizable, Invalid type at #/147/data/name, Unexpected property at #/147data/search, Unexpected property at #/147/isLocalizable, Invalid type at #/148/data/name, Unexpected property at #/148data/search, Unexpected property at #/148/isLocalizable, Invalid type at #/149/data/name, Unexpected property at #/149data/search, Unexpected property at #/149/isLocalizable, Invalid type at #/150/data/name, Unexpected property at #/150data/search, Unexpected property at #/150/isLocalizable, Invalid type at #/151/data/name, Unexpected property at #/151data/search, Unexpected property at #/151/isLocalizable, Invalid type at #/152/data/name, Unexpected property at #/152data/search, Unexpected property at #/152/isLocalizable, Invalid type at #/153/data/name, Unexpected property at #/153data/search, Unexpected property at #/153/isLocalizable, Invalid type at #/154/data/name, Unexpected property at #/154data/search, Unexpected property at #/154/isLocalizable, Invalid type at #/155/data/name, Unexpected property at #/155data/search, Unexpected property at #/155/isLocalizable, Invalid type at #/156/data/name, Unexpected property at #/156data/search, Unexpected property at #/156/isLocalizable, Invalid type at #/157/data/name, Unexpected property at #/157data/search, Unexpected property at #/157/isLocalizable, Invalid type at #/158/data/name, Unexpected property at #/158data/search, Unexpected property at #/158/isLocalizable, Invalid type at #/159/data/name, Unexpected property at #/159data/search, Unexpected property at #/159/isLocalizable, Invalid type at #/160/data/name, Unexpected property at #/160data/search, Unexpected property at #/160/isLocalizable, Invalid type at #/161/data/name, Unexpected property at #/161data/search, Unexpected property at #/161/isLocalizable, Invalid type at #/162/data/name, Unexpected property at #/162data/search, Unexpected property at #/162/isLocalizable, Invalid type at #/163/data/name, Unexpected property at #/163data/search, Unexpected property at #/163/isLocalizable, Invalid type at #/164/data/name, Unexpected property at #/164data/search, Unexpected property at #/164/isLocalizable, Invalid type at #/165/data/name, Unexpected property at #/165data/search, Unexpected property at #/165/isLocalizable, Invalid type at #/166/data/name, Unexpected property at #/166data/search, Unexpected property at #/166/isLocalizable, Invalid type at #/167/data/name, Unexpected property at #/167data/search, Unexpected property at #/167/isLocalizable, Invalid type at #/168/data/name, Unexpected property at #/168data/search, Unexpected property at #/168/isLocalizable, Invalid type at #/169/data/name, Unexpected property at #/169data/search, Unexpected property at #/169/isLocalizable, Invalid type at #/170/data/name, Unexpected property at #/170data/search, Unexpected property at #/170/isLocalizable, Invalid type at #/171/data/name, Unexpected property at #/171data/search, Unexpected property at #/171/isLocalizable, Invalid type at #/172/data/name, Unexpected property at #/172data/search, Unexpected property at #/172/isLocalizable, Invalid type at #/173/data/name, Unexpected property at #/173data/search, Unexpected property at #/173/isLocalizable, Invalid type at #/174/data/name, Unexpected property at #/174data/search, Unexpected property at #/174/isLocalizable, Invalid type at #/175/data/name, Unexpected property at #/175data/search, Unexpected property at #/175/isLocalizable, Invalid type at #/176/data/name, Unexpected property at #/176data/search, Unexpected property at #/176/isLocalizable, Invalid type at #/177/data/name, Unexpected property at #/177data/search, Unexpected property at #/177/isLocalizable, Invalid type at #/178/data/name, Unexpected property at #/178data/search, Unexpected property at #/178/isLocalizable, Invalid type at #/179/data/name, Unexpected property at #/179data/search, Unexpected property at #/179/isLocalizable, Invalid type at #/180/data/name, Unexpected property at #/180data/search, Unexpected property at #/180/isLocalizable, Invalid type at #/181/data/name, Unexpected property at #/181data/search, Unexpected property at #/181/isLocalizable, Invalid type at #/182/data/name, Unexpected property at #/182data/search, Unexpected property at #/182/isLocalizable, Invalid type at #/183/data/name, Unexpected property at #/183data/search, Unexpected property at #/183/isLocalizable, Invalid type at #/184/data/name, Unexpected property at #/184data/search, Unexpected property at #/184/isLocalizable, Invalid type at #/185/data/name, Unexpected property at #/185data/search, Unexpected property at #/185/isLocalizable, Invalid type at #/186/data/name, Unexpected property at #/186data/search, Unexpected property at #/186/isLocalizable, Invalid type at #/187/data/name, Unexpected property at #/187data/search, Unexpected property at #/187/isLocalizable, Invalid type at #/188/data/name, Unexpected property at #/188data/search, Unexpected property at #/188/isLocalizable, Invalid type at #/189/data/name, Unexpected property at #/189data/search, Unexpected property at #/189/isLocalizable, Invalid type at #/190/data/name, Unexpected property at #/190data/search, Unexpected property at #/190/isLocalizable, Invalid type at #/191/data/name, Unexpected property at #/191data/search, Unexpected property at #/191/isLocalizable, Invalid type at #/192/data/name, Unexpected property at #/192data/search, Unexpected property at #/192/isLocalizable, Invalid type at #/193/data/name, Unexpected property at #/193data/search, Unexpected property at #/193/isLocalizable, Invalid type at #/194/data/name, Unexpected property at #/194data/search, Unexpected property at #/194/isLocalizable, Invalid type at #/195/data/name, Unexpected property at #/195data/search, Unexpected property at #/195/isLocalizable, Invalid type at #/196/data/name, Unexpected property at #/196data/search, Unexpected property at #/196/isLocalizable, Invalid type at #/197/data/name, Unexpected property at #/197data/search, Unexpected property at #/197/isLocalizable, Invalid type at #/198/data/name, Unexpected property at #/198data/search, Unexpected property at #/198/isLocalizable, Invalid type at #/199/data/name, Unexpected property at #/199data/search, Unexpected property at #/199/isLocalizable, Invalid type at #/200/data/name, Unexpected property at #/200data/search, Unexpected property at #/200/isLocalizable, Invalid type at #/201/data/name, Unexpected property at #/201data/search, Unexpected property at #/201/isLocalizable, Invalid type at #/202/data/name, Unexpected property at #/202data/search, Unexpected property at #/202/isLocalizable, Invalid type at #/203/data/name, Unexpected property at #/203data/search, Unexpected property at #/203/isLocalizable, Invalid type at #/204/data/name, Unexpected property at #/204data/search, Unexpected property at #/204/isLocalizable, Invalid type at #/205/data/name, Unexpected property at #/205data/search, Unexpected property at #/205/isLocalizable, Invalid type at #/206/data/name, Unexpected property at #/206data/search, Unexpected property at #/206/isLocalizable, Invalid type at #/207/data/name, Unexpected property at #/207data/search, Unexpected property at #/207/isLocalizable, Invalid type at #/208/data/name, Unexpected property at #/208data/search, Unexpected property at #/208/isLocalizable, Invalid type at #/209/data/name, Unexpected property at #/209data/search, Unexpected property at #/209/isLocalizable, Invalid type at #/210/data/name, Unexpected property at #/210data/search, Unexpected property at #/210/isLocalizable, Invalid type at #/211/data/name, Unexpected property at #/211data/search, Unexpected property at #/211/isLocalizable, Invalid type at #/212/data/name, Unexpected property at #/212data/search, Unexpected property at #/212/isLocalizable, Invalid type at #/213/data/name, Unexpected property at #/213data/search, Unexpected property at #/213/isLocalizable, Invalid type at #/214/data/name, Unexpected property at #/214data/search, Unexpected property at #/214/isLocalizable, Invalid type at #/215/data/name, Unexpected property at #/215data/search, Unexpected property at #/215/isLocalizable, Invalid type at #/216/data/name, Unexpected property at #/216data/search, Unexpected property at #/216/isLocalizable, Invalid type at #/217/data/name, Unexpected property at #/217data/search, Unexpected property at #/217/isLocalizable, Invalid type at #/218/data/name, Unexpected property at #/218data/search, Unexpected property at #/218/isLocalizable, Invalid type at #/219/data/name, Unexpected property at #/219data/search, Unexpected property at #/219/isLocalizable, Invalid type at #/220/data/name, Unexpected property at #/220data/search, Unexpected property at #/220/isLocalizable, Invalid type at #/221/data/name, Unexpected property at #/221data/search, Unexpected property at #/221/isLocalizable, Invalid type at #/222/data/name, Unexpected property at #/222data/search, Unexpected property at #/222/isLocalizable, Invalid type at #/223/data/name, Unexpected property at #/223data/search, Unexpected property at #/223/isLocalizable, Invalid type at #/224/data/name, Unexpected property at #/224data/search, Unexpected property at #/224/isLocalizable, Invalid type at #/225/data/name, Unexpected property at #/225data/search, Unexpected property at #/225/isLocalizable, Invalid type at #/226/data/name, Unexpected property at #/226data/search, Unexpected property at #/226/isLocalizable, Invalid type at #/227/data/name, Unexpected property at #/227data/search, Unexpected property at #/227/isLocalizable, Invalid type at #/228/data/name, Unexpected property at #/228data/search, Unexpected property at #/228/isLocalizable, Invalid type at #/229/data/name, Unexpected property at #/229data/search, Unexpected property at #/229/isLocalizable, Invalid type at #/230/data/name, Unexpected property at #/230data/search, Unexpected property at #/230/isLocalizable, Invalid type at #/231/data/name, Unexpected property at #/231data/search, Unexpected property at #/231/isLocalizable, Invalid type at #/232/data/name, Unexpected property at #/232data/search, Unexpected property at #/232/isLocalizable, Invalid type at #/233/data/name, Unexpected property at #/233data/search, Unexpected property at #/233/isLocalizable, Invalid type at #/234/data/name, Unexpected property at #/234data/search, Unexpected property at #/234/isLocalizable, Invalid type at #/235/data/name, Unexpected property at #/235data/search, Unexpected property at #/235/isLocalizable, Invalid type at #/236/data/name, Unexpected property at #/236data/search, Unexpected property at #/236/isLocalizable, Invalid type at #/237/data/name, Unexpected property at #/237data/search, Unexpected property at #/237/isLocalizable, Invalid type at #/238/data/name, Unexpected property at #/238data/search, Unexpected property at #/238/isLocalizable, Invalid type at #/239/data/name, Unexpected property at #/239data/search, Unexpected property at #/239/isLocalizable, Invalid type at #/240/data/name, Unexpected property at #/240data/search, Unexpected property at #/240/isLocalizable, Invalid type at #/241/data/name, Unexpected property at #/241data/search, Unexpected property at #/241/isLocalizable, Invalid type at #/242/data/name, Unexpected property at #/242data/search, Unexpected property at #/242/isLocalizable, Invalid type at #/243/data/name, Unexpected property at #/243data/search, Unexpected property at #/243/isLocalizable, Invalid type at #/244/data/name, Unexpected property at #/244data/search, Unexpected property at #/244/isLocalizable, Invalid type at #/245/data/name, Unexpected property at #/245data/search, Unexpected property at #/245/isLocalizable, Invalid type at #/246/data/name, Unexpected property at #/246data/search, Unexpected property at #/246/isLocalizable, Invalid type at #/247/data/name, Unexpected property at #/247data/search, Unexpected property at #/247/isLocalizable, Invalid type at #/248/data/name, Unexpected property at #/248data/search, Unexpected property at #/248/isLocalizable, Invalid type at #/249/data/name, Unexpected property at #/249data/search, Unexpected property at #/249/isLocalizable, Invalid type at #/250/data/name, Unexpected property at #/250data/search, Unexpected property at #/250/isLocalizable, Invalid type at #/251/data/name, Unexpected property at #/251data/search, Unexpected property at #/251/isLocalizable, Invalid type at #/252/data/name, Unexpected property at #/252data/search, Unexpected property at #/252/isLocalizable, Invalid type at #/253/data/name, Unexpected property at #/253data/search, Unexpected property at #/253/isLocalizable, Invalid type at #/254/data/name, Unexpected property at #/254data/search, Unexpected property at #/254/isLocalizable, Invalid type at #/255/data/name, Unexpected property at #/255data/search, Unexpected property at #/255/isLocalizable, Invalid type at #/256/data/name, Unexpected property at #/256data/search, Unexpected property at #/256/isLocalizable, Invalid type at #/257/data/name, Unexpected property at #/257data/search, Unexpected property at #/257/isLocalizable, Invalid type at #/258/data/name, Unexpected property at #/258data/search, Unexpected property at #/258/isLocalizable, Invalid type at #/259/data/name, Unexpected property at #/259data/search, Unexpected property at #/259/isLocalizable, Invalid type at #/260/data/name, Unexpected property at #/260data/search, Unexpected property at #/260/isLocalizable, Invalid type at #/261/data/name, Unexpected property at #/261data/search, Unexpected property at #/261/isLocalizable, Invalid type at #/262/data/name, Unexpected property at #/262data/search, Unexpected property at #/262/isLocalizable, Invalid type at #/263/data/name, Unexpected property at #/263data/search, Unexpected property at #/263/isLocalizable, Invalid type at #/264/data/name, Unexpected property at #/264data/search, Unexpected property at #/264/isLocalizable, Invalid type at #/265/data/name, Unexpected property at #/265data/search, Unexpected property at #/265/isLocalizable, Invalid type at #/266/data/name, Unexpected property at #/266data/search, Unexpected property at #/266/isLocalizable, Invalid type at #/267/data/name, Unexpected property at #/267data/search, Unexpected property at #/267/isLocalizable, Invalid type at #/268/data/name, Unexpected property at #/268data/search, Unexpected property at #/268/isLocalizable, Invalid type at #/269/data/name, Unexpected property at #/269data/search, Unexpected property at #/269/isLocalizable, Invalid type at #/270/data/name, Unexpected property at #/270data/search, Unexpected property at #/270/isLocalizable, Invalid type at #/271/data/name, Unexpected property at #/271data/search, Unexpected property at #/271/isLocalizable, Invalid type at #/272/data/name, Unexpected property at #/272data/search, Unexpected property at #/272/isLocalizable, Invalid type at #/273/data/name, Unexpected property at #/273data/search, Unexpected property at #/273/isLocalizable, Invalid type at #/274/data/name, Unexpected property at #/274data/search, Unexpected property at #/274/isLocalizable, Invalid type at #/275/data/name, Unexpected property at #/275data/search, Unexpected property at #/275/isLocalizable, Invalid type at #/276/data/name, Unexpected property at #/276data/search, Unexpected property at #/276/isLocalizable, Invalid type at #/277/data/name, Unexpected property at #/277data/search, Unexpected property at #/277/isLocalizable, Invalid type at #/278/data/name, Unexpected property at #/278data/search, Unexpected property at #/278/isLocalizable, Invalid type at #/279/data/name, Unexpected property at #/279data/search, Unexpected property at #/279/isLocalizable, Invalid type at #/280/data/name, Unexpected property at #/280data/search, Unexpected property at #/280/isLocalizable, Invalid type at #/281/data/name, Unexpected property at #/281data/search, Unexpected property at #/281/isLocalizable, Invalid type at #/282/data/name, Unexpected property at #/282data/search, Unexpected property at #/282/isLocalizable, Invalid type at #/283/data/name, Unexpected property at #/283data/search, Unexpected property at #/283/isLocalizable, Invalid type at #/284/data/name, Unexpected property at #/284data/search, Unexpected property at #/284/isLocalizable, Invalid type at #/285/data/name, Unexpected property at #/285data/search, Unexpected property at #/285/isLocalizable, Invalid type at #/286/data/name, Unexpected property at #/286data/search, Unexpected property at #/286/isLocalizable, Invalid type at #/287/data/name, Unexpected property at #/287data/search, Unexpected property at #/287/isLocalizable, Invalid type at #/288/data/name, Unexpected property at #/288data/search, Unexpected property at #/288/isLocalizable, Invalid type at #/289/data/name, Unexpected property at #/289data/search, Unexpected property at #/289/isLocalizable, Invalid type at #/290/data/name, Unexpected property at #/290data/search, Unexpected property at #/290/isLocalizable, Invalid type at #/291/data/name, Unexpected property at #/291data/search, Unexpected property at #/291/isLocalizable, Invalid type at #/292/data/name, Unexpected property at #/292data/search, Unexpected property at #/292/isLocalizable, Invalid type at #/293/data/name, Unexpected property at #/293data/search, Unexpected property at #/293/isLocalizable, Invalid type at #/294/data/name, Unexpected property at #/294data/search, Unexpected property at #/294/isLocalizable, Invalid type at #/295/data/name, Unexpected property at #/295data/search, Unexpected property at #/295/isLocalizable, Invalid type at #/296/data/name, Unexpected property at #/296data/search, Unexpected property at #/296/isLocalizable, Invalid type at #/297/data/name, Unexpected property at #/297data/search, Unexpected property at #/297/isLocalizable, Invalid type at #/298/data/name, Unexpected property at #/298data/search, Unexpected property at #/298/isLocalizable, Invalid type at #/299/data/name, Unexpected property at #/299data/search, Unexpected property at #/299/isLocalizable, Invalid type at #/300/data/name, Unexpected property at #/300data/search, Unexpected property at #/300/isLocalizable, Invalid type at #/301/data/name, Unexpected property at #/301data/search, Unexpected property at #/301/isLocalizable, Invalid type at #/302/data/name, Unexpected property at #/302data/search, Unexpected property at #/302/isLocalizable, Unexpected property at #/303data/search, Unexpected property at #/304data/search, Unexpected property at #/305data/search, Unexpected property at #/306data/search, Unexpected property at #/307data/search, Unexpected property at #/308data/search, Unexpected property at #/309data/search, Unexpected property at #/310data/search, Unexpected property at #/311data/search, Unexpected property at #/312data/search, Unexpected property at #/313data/search, Unexpected property at #/314data/search, Unexpected property at #/315data/search, Unexpected property at #/316data/search, Unexpected property at #/317data/search, Unexpected property at #/318data/search, Unexpected property at #/319data/search, Unexpected property at #/320data/search, Unexpected property at #/321data/search, Unexpected property at #/322data/search, Unexpected property at #/323data/search, Unexpected property at #/324data/search, Unexpected property at #/325data/search, Unexpected property at #/326data/tooltipDescription, Unexpected property at #/326data/iconImageUrl, Unexpected property at #/326data/categories, Unexpected property at #/327data/tooltipDescription, Unexpected property at #/327data/iconImageUrl, Unexpected property at #/327data/categories, Invalid type at #/328/data/article/content, Unexpected property at #/328data/article/embeddedLinkData, Unexpected property at #/328data/article/moreInfoLinks, Unexpected property at #/328/requireClientTags, Invalid type at #/329/data/article/content, Unexpected property at #/329data/article/embeddedLinkData, Unexpected property at #/329data/article/moreInfoLinks, Unexpected property at #/329/requireClientTags, Invalid type at #/330/data/description, Invalid type at #/330/data/name, Invalid type at #/330/data/article/content, Unexpected property at #/330data/article/embeddedLinkData, Unexpected property at #/330data/article/moreInfoLinks, Unexpected property at #/330/isLocalizable, Unexpected property at #/330/requireClientTags, Invalid type at #/331/data/description, Invalid type at #/331/data/name, Invalid type at #/331/data/article/content, Unexpected property at #/331data/article/sectionLinks, Unexpected property at #/331data/article/embeddedLinkData, Unexpected property at #/331data/article/moreInfoLinks, Unexpected property at #/331/isLocalizable, Unexpected property at #/331/requireClientTags, Invalid type at #/332/data/description, Invalid type at #/332/data/name, Invalid type at #/332/data/article/content, Unexpected property at #/332data/article/sectionLinks, Unexpected property at #/332data/article/embeddedLinkData, Unexpected property at #/332data/article/moreInfoLinks, Unexpected property at #/332/isLocalizable, Unexpected property at #/332/requireClientTags, Invalid type at #/333/data/description, Invalid type at #/333/data/name, Invalid type at #/333/data/article/content, Unexpected property at #/333data/article/sectionLinks, Unexpected property at #/333data/article/embeddedLinkData, Unexpected property at #/333data/article/moreInfoLinks, Unexpected property at #/333/isLocalizable, Unexpected property at #/333/requireClientTags, Invalid type at #/334/data/description, Invalid type at #/334/data/name, Invalid type at #/334/data/article/content, Unexpected property at #/334data/article/embeddedLinkData, Unexpected property at #/334data/article/moreInfoLinks, Unexpected property at #/334/isLocalizable, Invalid type at #/335/data/description, Invalid type at #/335/data/name, Invalid type at #/335/data/article/content, Unexpected property at #/335data/article/embeddedLinkData, Unexpected property at #/335data/article/moreInfoLinks, Unexpected property at #/335/isLocalizable, Invalid type at #/336/data/description, Invalid type at #/336/data/name, Invalid type at #/336/data/article/content, Unexpected property at #/336/isLocalizable, Invalid type at #/339/data/description, Invalid type at #/339/data/name, Unexpected property at #/339data/tooltipDescription, Unexpected property at #/339data/iconImageUrl, Unexpected property at #/339data/thumbnailImageUrl, Unexpected property at #/339data/ipsQuery, Unexpected property at #/339/isLocalizable, Invalid type at #/340/data/contentList/name, Unexpected property at #/340/isLocalizable, Invalid type at #/341/data/description, Invalid type at #/341/data/name, Unexpected property at #/341data/tooltipDescription, Unexpected property at #/341data/iconImageUrl, Unexpected property at #/341data/thumbnailImageUrl, Unexpected property at #/341data/isNew, Unexpected property at #/341data/ipsQuery, Unexpected property at #/341/isLocalizable, Invalid type at #/342/data/description, Invalid type at #/342/data/name, Invalid type at #/342/data/article/content, Unexpected property at #/342/isLocalizable, Invalid type at #/343/data/contentList/name, Unexpected property at #/343/isLocalizable, Invalid type at #/344/data/description, Invalid type at #/344/data/name, Unexpected property at #/344data/tooltipDescription, Unexpected property at #/344data/thumbnailImageUrl, Unexpected property at #/344data/iconImageUrl, Unexpected property at #/344data/ipsQuery, Unexpected property at #/344/isLocalizable, Invalid type at #/345/data/description, Invalid type at #/345/data/name, Invalid type at #/345/data/article/content, Unexpected property at #/345data/article/sectionLinks, Unexpected property at #/345/isLocalizable, Invalid type at #/346/data/description, Invalid type at #/346/data/name, Invalid type at #/346/data/article/content, Unexpected property at #/346data/article/jumpLinks, Unexpected property at #/346data/article/embeddedLinkData, Unexpected property at #/346data/article/moreInfoLinks, Unexpected property at #/346/isLocalizable, Invalid type at #/347/data/description, Invalid type at #/347/data/name, Invalid type at #/347/data/article/content, Unexpected property at #/347data/article/embeddedLinkData, Unexpected property at #/347data/article/moreInfoLinks, Unexpected property at #/347/isLocalizable, Invalid type at #/348/data/description, Invalid type at #/348/data/name, Unexpected property at #/348data/tooltipDescription, Unexpected property at #/348data/iconImageUrl, Unexpected property at #/348data/ipsQuery, Unexpected property at #/348/isLocalizable, Invalid type at #/349/data/description, Invalid type at #/349/data/name, Unexpected property at #/349data/tooltipDescription, Unexpected property at #/349data/iconImageUrl, Unexpected property at #/349data/thumbnailImageUrl, Unexpected property at #/349data/ipsQuery, Unexpected property at #/349/isLocalizable, Invalid type at #/350/data/description, Invalid type at #/350/data/name, Unexpected property at #/350data/tooltipDescription, Unexpected property at #/350data/iconImageUrl, Unexpected property at #/350data/thumbnailImageUrl, Unexpected property at #/350data/ipsQuery, Unexpected property at #/350/isLocalizable, Invalid type at #/352/data/description, Invalid type at #/352/data/name, Unexpected property at #/352data/tooltipDescription, Unexpected property at #/352data/iconImageUrl, Unexpected property at #/352data/thumbnailImageUrl, Unexpected property at #/352data/ipsQuery, Unexpected property at #/352/isLocalizable, Invalid type at #/353/data/description, Invalid type at #/353/data/name, Unexpected property at #/353data/tooltipDescription, Unexpected property at #/353data/iconImageUrl, Unexpected property at #/353data/thumbnailImageUrl, Unexpected property at #/353data/ipsQuery, Unexpected property at #/353/isLocalizable, Unexpected property at #/354data/tooltipDescription, Unexpected property at #/354data/iconImageUrl, Unexpected property at #/354data/ipsQuery, Invalid type at #/357/data/description, Invalid type at #/357/data/name, Invalid type at #/357/data/article/content, Unexpected property at #/357data/article/sectionLinks, Unexpected property at #/357data/article/embeddedLinkData, Unexpected property at #/357data/article/moreInfoLinks, Unexpected property at #/357data/isNew, Unexpected property at #/357/isLocalizable, Invalid type at #/358/data/description, Invalid type at #/358/data/name, Invalid type at #/358/data/article/content, Unexpected property at #/358data/article/sectionLinks, Unexpected property at #/358data/article/embeddedLinkData, Unexpected property at #/358data/article/moreInfoLinks, Unexpected property at #/358/isLocalizable, Unexpected property at #/359data/search, Invalid type at #/360/data/name, Unexpected property at #/360data/search, Unexpected property at #/360/isLocalizable, Invalid type at #/361/data/name, Unexpected property at #/361data/search, Unexpected property at #/361/isLocalizable, Invalid type at #/362/data/name, Unexpected property at #/362data/search, Unexpected property at #/362/isLocalizable, Invalid type at #/363/data/article/content, Invalid type at #/364/data/article/content, Invalid type at #/365/data/description, Invalid type at #/365/data/name, Invalid type at #/365/data/article/content, Unexpected property at #/365data/article/sectionLinks, Unexpected property at #/365data/article/embeddedLinkData, Unexpected property at #/365data/article/moreInfoLinks, Unexpected property at #/365data/isNew, Unexpected property at #/365/isLocalizable, Invalid type at #/366/data/description, Invalid type at #/366/data/name, Invalid type at #/366/data/article/content, Unexpected property at #/366data/article/embeddedLinkData, Unexpected property at #/366data/article/moreInfoLinks, Unexpected property at #/366/isLocalizable, Invalid type at #/367/data/contentList/name, Unexpected property at #/367data/contentList/bannersTag, Invalid type at #/367/data/name, Unexpected property at #/367data/tooltipDescription, Unexpected property at #/367data/iconImageUrl, Unexpected property at #/367/isLocalizable, Unexpected property at #/367/requireClientTags, Invalid type at #/368/data/contentList/name, Unexpected property at #/368data/contentList/bannersTag, Unexpected property at #/368data/contentList/avatarSpecific, Invalid type at #/368/data/name, Unexpected property at #/368data/tooltipDescription, Unexpected property at #/368data/iconImageUrl, Unexpected property at #/368/isLocalizable, Invalid type at #/369/data/contentList/name, Unexpected property at #/369data/contentList/avatarSpecific, Unexpected property at #/369data/contentList/bannersTag, Invalid type at #/369/data/name, Unexpected property at #/369data/tooltipDescription, Unexpected property at #/369data/iconImageUrl, Unexpected property at #/369/isLocalizable, Invalid type at #/370/data/contentList/name, Unexpected property at #/370data/contentList/bannersTag, Unexpected property at #/370data/contentList/avatarSpecific, Invalid type at #/370/data/name, Unexpected property at #/370data/iconImageUrl, Unexpected property at #/370data/tooltipDescription, Unexpected property at #/370/isLocalizable, Invalid type at #/371/data/contentList/name, Unexpected property at #/371data/contentList/bannersTag, Invalid type at #/371/data/name, Unexpected property at #/371data/iconImageUrl, Unexpected property at #/371data/tooltipDescription, Unexpected property at #/371/isLocalizable, Invalid type at #/372/data/contentList/name, Unexpected property at #/372data/contentList/shortName, Unexpected property at #/372data/contentList/bannersTag, Invalid type at #/372/data/name, Unexpected property at #/372data/shortName, Unexpected property at #/372data/tooltipDescription, Unexpected property at #/372data/iconImageUrl, Unexpected property at #/372/isLocalizable, Invalid type at #/373/data/contentList/name, Unexpected property at #/373data/contentList/bannersTag, Invalid type at #/373/data/name, Unexpected property at #/373data/tooltipDescription, Unexpected property at #/373data/iconImageUrl, Unexpected property at #/373/isLocalizable, Unexpected property at #/373/requireClientTags, Invalid type at #/374/data/contentList/name, Unexpected property at #/374data/contentList/bannersTag, Unexpected property at #/374data/contentList/avatarSpecific, Invalid type at #/374/data/name, Unexpected property at #/374data/tooltipDescription, Unexpected property at #/374data/iconImageUrl, Unexpected property at #/374/isLocalizable, Invalid type at #/375/data/contentList/name, Unexpected property at #/375data/contentList/bannersTag, Unexpected property at #/375data/contentList/avatarSpecific, Invalid type at #/375/data/name, Unexpected property at #/375data/iconImageUrl, Unexpected property at #/375data/tooltipDescription, Unexpected property at #/375/isLocalizable, Invalid type at #/376/data/contentList/name, Unexpected property at #/376data/contentList/bannersTag, Invalid type at #/376/data/name, Unexpected property at #/376data/tooltipDescription, Unexpected property at #/376data/iconImageUrl, Unexpected property at #/376/isLocalizable, Invalid type at #/377/data/contentList/name, Unexpected property at #/377data/contentList/avatarSpecific, Unexpected property at #/377data/contentList/bannersTag, Invalid type at #/377/data/name, Unexpected property at #/377data/tooltipDescription, Unexpected property at #/377data/iconImageUrl, Unexpected property at #/377/isLocalizable, Invalid type at #/378/data/contentList/name, Unexpected property at #/378data/contentList/bannersTag, Invalid type at #/378/data/name, Unexpected property at #/378data/tooltipDescription, Unexpected property at #/378data/iconImageUrl, Unexpected property at #/378/isLocalizable, Invalid type at #/379/data/contentList/name, Unexpected property at #/379data/contentList/bannersTag, Unexpected property at #/379data/contentList/avatarSpecific, Invalid type at #/379/data/name, Unexpected property at #/379data/iconImageUrl, Unexpected property at #/379data/tooltipDescription, Unexpected property at #/379/isLocalizable, Invalid type at #/380/data/contentList/name, Unexpected property at #/380data/contentList/avatarSpecific, Unexpected property at #/380data/contentList/bannersTag, Invalid type at #/380/data/name, Unexpected property at #/380data/tooltipDescription, Unexpected property at #/380data/iconImageUrl, Unexpected property at #/380/isLocalizable.
 ```
 
 ## Request
@@ -14326,8 +14326,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/338/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/339/data/name
        */
       "name": {
         "key": "SuggestedSearch/Autumn/Name/autumn",
@@ -14380,8 +14380,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/338/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/340/data/contentList/name
        */
       "name": {
         "key": "SuggestedSearch/Audio/Name/audio",
@@ -14435,7 +14435,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/340/data/name
+       * #/341/data/name
        */
       "name": {
         "key": "SuggestedSearch/Attic/Name/attic",
@@ -14488,8 +14488,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/341/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/342/data/name
        */
       "name": {
         "key": "SuggestedSearch/Asylum/Name/asylum",
@@ -14542,8 +14542,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/342/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/343/data/contentList/name
        */
       "name": {
         "key": "SuggestedSearch/Asmr/Name/asmr",
@@ -14597,7 +14597,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/343/data/name
+       * #/344/data/name
        */
       "name": {
         "key": "SuggestedSearch/Art/Name/art",
@@ -14650,8 +14650,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/344/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/345/data/name
        */
       "name": {
         "key": "SuggestedSearch/Arena/Name/arena",
@@ -14705,7 +14705,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/345/data/name
+       * #/346/data/name
        */
       "name": {
         "key": "SuggestedSearch/Architecture/Name/architecture",
@@ -14759,7 +14759,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/346/data/name
+       * #/347/data/name
        */
       "name": {
         "key": "SuggestedSearch/Arcade/Name/arcade",
@@ -14813,7 +14813,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/347/data/name
+       * #/348/data/name
        */
       "name": {
         "key": "SuggestedSearch/Aquarium/Name/aquarium",
@@ -14867,7 +14867,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/348/data/name
+       * #/349/data/name
        */
       "name": {
         "key": "SuggestedSearch/Apartment/Name/apartment",
@@ -14921,7 +14921,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/349/data/name
+       * #/350/data/name
        */
       "name": {
         "key": "SuggestedSearch/Animation/Name/animation",
@@ -14975,7 +14975,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/350/data/name
+       * #/352/data/name
        */
       "name": {
         "key": "SuggestedSearch/Alien/Name/alien",
@@ -15029,7 +15029,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/351/data/name
+       * #/353/data/name
        */
       "name": {
         "key": "SuggestedSearch/Airship/Name/airship",
@@ -15082,8 +15082,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/352/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/357/data/name
        */
       "name": {
         "key": "SuggestedSearch/Airport/Name/airport",
@@ -15137,7 +15137,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/352/data/name
+       * #/358/data/name
        */
       "name": {
         "key": "SuggestedSearch/Adventure/Name/adventure",
@@ -15191,7 +15191,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/354/data/name
+       * #/360/data/name
        */
       "name": {
         "key": "SuggestedSearch/Action/Name/action",
@@ -15244,8 +15244,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/355/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/361/data/name
        */
       "name": {
         "key": "SuggestedSearch/Abandoned/Name/abandoned",
@@ -15289,7 +15289,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/355/data/name
+       * #/362/data/name
        */
       "name": "Tiếng Việt",
       /**
@@ -15330,7 +15330,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/356/data/name
+       * #/365/data/name
        */
       "name": "Yкраї́нська",
       /**
@@ -15370,8 +15370,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/357/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/366/data/name
        */
       "name": "Türkçe",
       /**
@@ -15411,8 +15411,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/357/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/367/data/contentList/name
        */
       "name": "ภาษาไทย",
       /**
@@ -15452,8 +15452,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/358/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/367/data/name
        */
       "name": "Svenska",
       /**
@@ -15493,8 +15493,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/358/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/368/data/contentList/name
        */
       "name": "Español",
       /**
@@ -15534,8 +15534,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/360/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/368/data/name
        */
       "name": "Русский",
       /**
@@ -15575,8 +15575,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/360/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/369/data/contentList/name
        */
       "name": "Română",
       /**
@@ -15616,8 +15616,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/362/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/369/data/name
        */
       "name": "Português",
       /**
@@ -15657,8 +15657,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/362/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/370/data/contentList/name
        */
       "name": "Polski",
       /**
@@ -15698,8 +15698,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/364/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/370/data/name
        */
       "name": "Norsk",
       /**
@@ -15739,8 +15739,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/364/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/371/data/contentList/name
        */
       "name": "한국어",
       /**
@@ -15781,7 +15781,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/365/data/name
+       * #/371/data/name
        */
       "name": "日本語",
       /**
@@ -15822,7 +15822,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/366/data/contentList/name
+       * #/372/data/contentList/name
        */
       "name": "Italiano",
       /**
@@ -15863,7 +15863,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/366/data/name
+       * #/372/data/name
        */
       "name": "Magyar",
       /**
@@ -15903,8 +15903,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/367/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/373/data/contentList/name
        */
       "name": "Deutsch",
       /**
@@ -15944,8 +15944,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/368/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/373/data/name
        */
       "name": "Français",
       /**
@@ -15985,8 +15985,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/368/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/374/data/contentList/name
        */
       "name": "Suomi",
       /**
@@ -16027,7 +16027,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/370/data/name
+       * #/374/data/name
        */
       "name": "Nederlands",
       /**
@@ -16067,8 +16067,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/371/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/375/data/contentList/name
        */
       "name": "Dansk",
       /**
@@ -16109,7 +16109,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/372/data/name
+       * #/375/data/name
        */
       "name": "Čeština",
       /**
@@ -16150,7 +16150,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/375/data/contentList/name
+       * #/376/data/contentList/name
        */
       "name": "中文",
       /**
@@ -16191,7 +16191,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/375/data/name
+       * #/376/data/name
        */
       "name": "العربية",
       /**
@@ -16233,7 +16233,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/376/data/contentList/name
+       * #/377/data/contentList/name
        */
       "name": "Spotlight",
       /**
@@ -16274,7 +16274,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
            * @keyword type
            *
            * #/items/properties/data/properties/name/type
-           * #/376/data/name
+           * #/377/data/name
            */
           "name": "VRChat Creator Economy",
           "type": "articles",
@@ -16289,7 +16289,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
            * @keyword additionalProperties
            *
            * #/items/properties/data/additionalProperties
-           * #/340data/ipsQuery
+           * #/339data/ipsQuery
            */
           "ipsQuery": {
             "require": "help-topic-marketplace",
@@ -16303,8 +16303,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
            * @schema unknown
            * @keyword type
            *
-           * #/items/properties/data/properties/name/type
-           * #/377/data/name
+           * #/items/properties/data/properties/contentList/properties/name/type
+           * #/378/data/contentList/name
            */
           "name": "Worlds",
           "type": "worlds",
@@ -16388,6 +16388,15 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
       "user-all"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/379/data/contentList/name
+       */
       "name": "Spotlight",
       /**
        * Unexpected property.
@@ -16420,6 +16429,15 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        */
       "categories": [
         {
+          /**
+           * Invalid type.
+           *
+           * @schema unknown
+           * @keyword type
+           *
+           * #/items/properties/data/properties/name/type
+           * #/379/data/name
+           */
           "name": "VRChat Creator Economy",
           "type": "articles",
           "ids": [
@@ -16433,7 +16451,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
            * @keyword additionalProperties
            *
            * #/items/properties/data/additionalProperties
-           * #/342data/ipsQuery
+           * #/341data/ipsQuery
            */
           "ipsQuery": {
             "require": "help-topic-marketplace",
@@ -16441,6 +16459,15 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
           }
         },
         {
+          /**
+           * Invalid type.
+           *
+           * @schema unknown
+           * @keyword type
+           *
+           * #/items/properties/data/properties/contentList/properties/name/type
+           * #/380/data/contentList/name
+           */
           "name": "Worlds",
           "type": "worlds",
           "maxCells": 20,
@@ -16471,6 +16498,15 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
           ]
         },
         {
+          /**
+           * Invalid type.
+           *
+           * @schema unknown
+           * @keyword type
+           *
+           * #/items/properties/data/properties/name/type
+           * #/380/data/name
+           */
           "name": "Groups",
           "type": "groups",
           "maxCells": 20,
@@ -17736,7 +17772,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/340/data/description
+       * #/339/data/description
        */
       "description": {
         "key": "Tooltips/Learn-about-the-latest-updates-to-VRChat!",
@@ -17841,7 +17877,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/342/data/description
+       * #/341/data/description
        */
       "description": {
         "key": "Tooltips/Making-Groups!",
@@ -18037,91 +18073,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "updatedAt": "2023-12-02T00:58:09+00:00"
   },
   {
-    "id": "world-spotlight-mobile",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1001,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/338/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/338/requireClientTags
-     */
-    "requireClientTags": [
-      "platform-mobile-desktop"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/SpotlightMobile/Name/Spotlight-Mobile",
-        "fallback": "Spotlight - Mobile"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/338data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-top-worlds-from-the-community!",
-        "fallback": "Browse top worlds from the community!"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/338data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/SpotlightMobile/Name/Spotlight-Mobile",
-          "fallback": "Spotlight Mobile"
-        },
-        "sortHeading": "shuffle",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        "tag": "admin_spotlight_mobile",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/338data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-spotlight-mobile"
-      }
-    },
-    "hash": "e60622884e6028b03100f605a61331a7",
-    "createdAt": "2023-12-05T06:11:04+00:00",
-    "updatedAt": "2023-12-05T06:11:04+00:00"
-  },
-  {
     "id": "world-banner---udon-getstarted",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -18155,7 +18106,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/340/isLocalizable
+     * #/339/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18175,7 +18126,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/343/data/description
+       * #/342/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-News",
@@ -18188,7 +18139,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/340data/tooltipDescription
+       * #/339data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Updates-from-the-VRChat-Team!",
@@ -18201,7 +18152,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/340data/iconImageUrl
+       * #/339data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/53271ee0aeb78e81644606859c6c488b6edd413ce81a27ae14a5687ef1fc9bee.png",
       /**
@@ -18211,7 +18162,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/340data/thumbnailImageUrl
+       * #/339data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/07368d729a2364534e3cca9f798fc1dbd7ba682fdfd84ba17899a875077c2dfe.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/0c9a6404d7d35e9a3a171b06e4e9d869ad8084a8fcb9a6575e003601318cf707.png",
@@ -18222,7 +18173,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/345data/ipsQuery
+       * #/344data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-news",
@@ -18245,7 +18196,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/341/isLocalizable
+     * #/340/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18282,7 +18233,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/342/isLocalizable
+     * #/341/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18302,7 +18253,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/345/data/description
+       * #/344/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Features",
@@ -18315,7 +18266,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/342data/tooltipDescription
+       * #/341data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/New-to-VRChat?-Start-here-for-info-on-VRChat-features!",
@@ -18328,7 +18279,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/342data/iconImageUrl
+       * #/341data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/69408993d8c3f1c64b987a27bd320b59a1deeb07e0fbee9affca977723f691d0.png",
       /**
@@ -18338,7 +18289,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/342data/thumbnailImageUrl
+       * #/341data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/d551286885968aff4908cc466d1ead82873df90f231bb953497b967c64b9190a.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/5b2ca11a23e1a9f64a66ef9ed2a56334ee910c5f52f290b06ebae0432a19a2ef.png",
@@ -18349,7 +18300,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/342data/isNew
+       * #/341data/isNew
        */
       "isNew": true,
       /**
@@ -18359,7 +18310,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/349data/ipsQuery
+       * #/348data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-essentials",
@@ -18382,7 +18333,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/343/isLocalizable
+     * #/342/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18404,7 +18355,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/346/data/description
+       * #/345/data/description
        */
       "description": {
         "key": "Tooltips/Explore-New-Worlds!",
@@ -18418,7 +18369,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/343/data/article/content
+         * #/342/data/article/content
          */
         "content": [
           {
@@ -18458,7 +18409,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/344/isLocalizable
+     * #/343/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18496,7 +18447,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/345/isLocalizable
+     * #/344/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18517,7 +18468,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/347/data/description
+       * #/346/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Safety-System",
@@ -18530,7 +18481,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/345data/tooltipDescription
+       * #/344data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Learn-about-VRChat's-Safety-System.",
@@ -18543,7 +18494,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/345data/thumbnailImageUrl
+       * #/344data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/c165e3e819c42ace7a955206fa35c7af96de2ec2215ac3638aeb0b3c08238011.png",
       /**
@@ -18553,7 +18504,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/345data/iconImageUrl
+       * #/344data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/fb74bd503a79b7cc63c635d6d11f6594ad01225d17c1d4c6bac3e7049add674a.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/5d0a67c5d4ad0401b47650e8925409875307197869f85db979f5a5baa749461f.png",
@@ -18564,7 +18515,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/ipsQuery
+       * #/349data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-safety",
@@ -18587,7 +18538,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/346/isLocalizable
+     * #/345/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18609,7 +18560,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/348/data/description
+       * #/347/data/description
        */
       "description": {
         "key": "Tooltips/Custom-Emoji",
@@ -18623,7 +18574,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/346data/article/sectionLinks
+         * #/345data/article/sectionLinks
          */
         "sectionLinks": [
           "link-create-app",
@@ -18637,7 +18588,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/346/data/article/content
+         * #/345/data/article/content
          */
         "content": [
           {
@@ -18698,7 +18649,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/347/isLocalizable
+     * #/346/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18721,7 +18672,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/349/data/description
+       * #/348/data/description
        */
       "description": {
         "key": "Tooltips/The-VRChat-Community",
@@ -18735,7 +18686,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/347data/article/jumpLinks
+         * #/346data/article/jumpLinks
          */
         "jumpLinks": [
           "discord",
@@ -18748,7 +18699,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/347/data/article/content
+         * #/346/data/article/content
          */
         "content": [
           {
@@ -18768,7 +18719,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/347data/article/embeddedLinkData
+         * #/346data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -18827,7 +18778,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/347data/article/moreInfoLinks
+         * #/346data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -18891,7 +18842,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/348/isLocalizable
+     * #/347/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18913,7 +18864,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/350/data/description
+       * #/349/data/description
        */
       "description": {
         "key": "Tooltips/Crowdin",
@@ -18927,7 +18878,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/348/data/article/content
+         * #/347/data/article/content
          */
         "content": [
           {
@@ -18947,7 +18898,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/348data/article/embeddedLinkData
+         * #/347data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -18974,7 +18925,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/348data/article/moreInfoLinks
+         * #/347data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -19010,7 +18961,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/349/isLocalizable
+     * #/348/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19030,7 +18981,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/351/data/description
+       * #/350/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Groups",
@@ -19043,7 +18994,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/349data/tooltipDescription
+       * #/348data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Discover-VRChat-Groups!",
@@ -19056,7 +19007,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/349data/iconImageUrl
+       * #/348data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/1e5ff00b91329c824984c5b9cf806e040647d665078cfdb49cbc5a9bc6a1425e.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/451fdab71624a2c335982c6de66148bfc6b2ab75fa4657ed09ce49749391cfea.png",
@@ -19067,7 +19018,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/351data/ipsQuery
+       * #/350data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-groups",
@@ -19090,7 +19041,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/350/isLocalizable
+     * #/349/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19109,7 +19060,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/354/data/description
+       * #/352/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Worlds",
@@ -19122,7 +19073,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/tooltipDescription
+       * #/349data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Discover-new-VRChat-Worlds!",
@@ -19135,7 +19086,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/iconImageUrl
+       * #/349data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/0dc2d4aafa414fa0cf8eafd51c1fcf5ada9c7c5cfb646f634ee2b0c4ab89302f.png",
       /**
@@ -19145,7 +19096,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/thumbnailImageUrl
+       * #/349data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/a4c0162219282d08c967add1ddb7cc9ada84274262dc39899cb9a26d5f9790f5.png",
       /**
@@ -19155,7 +19106,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/354data/ipsQuery
+       * #/352data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-worlds",
@@ -19178,7 +19129,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/351/isLocalizable
+     * #/350/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19197,7 +19148,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/356/data/description
+       * #/353/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Support",
@@ -19210,7 +19161,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/351data/tooltipDescription
+       * #/350data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/General-info-about-VRChat-features.",
@@ -19223,7 +19174,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/351data/iconImageUrl
+       * #/350data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/f00f52a0f2fb1905ac2a498ab9eaedd484665151ba756183ab4676012f2895d7.png",
       /**
@@ -19233,7 +19184,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/351data/thumbnailImageUrl
+       * #/350data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/ff8966f5d5d252c9c8e1192d8d6883a5679ca19bac060f69fa74e2a7a68ff5e0.png",
       /**
@@ -19243,7 +19194,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/356data/ipsQuery
+       * #/353data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-support",
@@ -19253,88 +19204,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "hash": "25d31b078793c9c0214c6bfc8132bf1f",
     "createdAt": "2022-03-11T00:25:55+00:00",
     "updatedAt": "2023-11-09T17:19:55+00:00"
-  },
-  {
-    "id": "world-trending",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1010,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/352/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/Trending/Name/Trending",
-        "fallback": "Trending"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/352data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-trending-worlds",
-        "fallback": "Browse trending worlds"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/352data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/5568aa5059b72048ec0560b0eb68822c5ea338e5235637c36a3273f1081176ef.png",
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/Trending/Name/Hot",
-          "fallback": "Hot"
-        },
-        "sortHeading": "heat",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/352data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-trending",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/352data/contentList/avatarSpecific
-         */
-        "avatarSpecific": false
-      }
-    },
-    "hash": "d520e698f9faf154f41d5e63e5a166be",
-    "createdAt": "2022-03-30T01:07:23+00:00",
-    "updatedAt": "2023-11-09T17:20:12+00:00"
   },
   {
     "id": "launch-werehiring",
@@ -19370,7 +19239,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/354/isLocalizable
+     * #/352/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19389,7 +19258,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/365/data/description
+       * #/357/data/description
        */
       "description": {
         "key": "HelpTopic/Vrcplus/Description/VRC+",
@@ -19402,7 +19271,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/354data/tooltipDescription
+       * #/352data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Subscribe-to-VRChat+-today-and-enjoy-all-of-these-exclusive-features!",
@@ -19415,7 +19284,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/354data/iconImageUrl
+       * #/352data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/bcfabc013e81d970fd4f6ab4773bbc181e896371923504dd3d7b244c26eaf9d6.png",
       /**
@@ -19425,7 +19294,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/354data/thumbnailImageUrl
+       * #/352data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/7d6d6f993d10df181f842a5de8c1918075790621c3b91181efcc45b82f839bd6.png",
       /**
@@ -19435,7 +19304,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/359data/ipsQuery
+       * #/354data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-vrcplus",
@@ -19445,88 +19314,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "hash": "aaa37e3b2c1f84aca68682d3e0cb4b16",
     "createdAt": "2022-10-06T19:54:48+00:00",
     "updatedAt": "2023-11-09T17:19:56+00:00"
-  },
-  {
-    "id": "world-avatar-worlds-trending",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1011,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/355/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/AvatarWorldsTrending/Name/Avatar-Worlds-Trending",
-        "fallback": "Avatar Worlds - Trending"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/355data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-hot-avatar-worlds",
-        "fallback": "Browse hot avatar worlds"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/355data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/AvatarWorldsTrending/Name/Avatar-Worlds-Trending",
-          "fallback": "Avatar Worlds - Trending"
-        },
-        "sortHeading": "heat",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/355data/contentList/avatarSpecific
-         */
-        "avatarSpecific": true,
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/355data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-avatar"
-      }
-    },
-    "hash": "06bd21310de2b832264e4bfa72480364",
-    "createdAt": "2023-08-10T20:44:02+00:00",
-    "updatedAt": "2023-11-09T17:20:09+00:00"
   },
   {
     "id": "help-topic-settings",
@@ -19540,7 +19327,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/356/isLocalizable
+     * #/353/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19559,7 +19346,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/367/data/description
+       * #/358/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Settings",
@@ -19572,7 +19359,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/356data/tooltipDescription
+       * #/353data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Information-on-VRChat-settings.",
@@ -19585,7 +19372,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/356data/iconImageUrl
+       * #/353data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/195be68b573ae24e1ec0ac7c9f51e4535e4f18a1f9b274ea957dec222eb929dc.png",
       /**
@@ -19595,7 +19382,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/356data/thumbnailImageUrl
+       * #/353data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/b45eac50742f7a8c72cd5dc86b88fcbb5a28313f4ccf417e1a508cdc0282b388.png",
       "ipsQuery": {
@@ -19606,188 +19393,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "hash": "7d2c5b6cb4937f23c321aa131082262e",
     "createdAt": "2022-04-07T23:44:31+00:00",
     "updatedAt": "2023-11-09T17:19:56+00:00"
-  },
-  {
-    "id": "world-games",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1015,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/357/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/Games/Name/Games-Hot",
-        "fallback": "Games - Hot"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/357data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/f13fed02d81a04a7dc8d1d9c2960d43ed955ac1d84a87fe9348087cb2a9c4343.png",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/357data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Join-game-worlds",
-        "fallback": "Join game worlds"
-      },
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/Games/Name/Games-Hot",
-          "fallback": "Games - Hot"
-        },
-        "sortHeading": "heat",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        "tag": "author_tag_game",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/357data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-games",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/357data/contentList/avatarSpecific
-         */
-        "avatarSpecific": false
-      }
-    },
-    "hash": "fb575ee9ae82b32af684ad9b06136e28",
-    "createdAt": "2023-08-12T23:23:57+00:00",
-    "updatedAt": "2023-11-09T17:20:10+00:00"
-  },
-  {
-    "id": "world-spotlight-crossplatform",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1020,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/358/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/SpotlightCrossplatform/Name/Spotlight-Cross-Platform",
-        "fallback": "Spotlight - Cross Platform"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema DynamicContentRow
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/properties/contentList/additionalProperties
-       * #/358data/contentList/shortName
-       */
-      "shortName": {
-        "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
-        "fallback": "Spotlight X Plat"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/358data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-top-cross-platform-worlds-from-the-community!",
-        "fallback": "Browse top cross-platform worlds from the community!"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/358data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/SpotlightCrossplatform/Name/Spotlight-Cross-Platform",
-          "fallback": "Spotlight Cross Platform"
-        },
-        /**
-         * Unexpected property.
-         *
-         * @schema InfoPushData
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/additionalProperties
-         * #/358data/shortName
-         */
-        "shortName": {
-          "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
-          "fallback": "Spotlight X Plat"
-        },
-        "sortHeading": "random",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        "tag": "admin_spotlight_xplat",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/358data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-spotlight-xplat"
-      }
-    },
-    "hash": "352bb1916a5d88816473c9ebe79bd986",
-    "createdAt": "2022-06-24T23:34:50+00:00",
-    "updatedAt": "2023-11-09T17:20:12+00:00"
   },
   {
     "id": "help-topic-marketplace",
@@ -19808,7 +19413,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/377/data/description
+       * #/365/data/description
        */
       "description": "VRChat Creator Economy",
       /**
@@ -19818,7 +19423,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/359data/tooltipDescription
+       * #/354data/tooltipDescription
        */
       "tooltipDescription": "Get help and information about the VRChat Creator Economy",
       /**
@@ -19828,7 +19433,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/359data/iconImageUrl
+       * #/354data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/c2a3a676e58c90b5d7af19ad2f7a6bc3635b125448164ab04a8aba4f59c07f08.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/2269c4a06f15f39cc69c2b43905b68b55086a36b60a2517ffe5a3894635c57af.png",
@@ -19840,91 +19445,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "hash": "09bb1b207fd8251688c5a04b5870fb15",
     "createdAt": "2023-10-12T16:05:07+00:00",
     "updatedAt": "2023-11-22T23:46:33+00:00"
-  },
-  {
-    "id": "world-spotlight-pc",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1030,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/360/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/360/requireClientTags
-     */
-    "requireClientTags": [
-      "platform-pc"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/SpotlightPc/Name/Spotlight-PC",
-        "fallback": "Spotlight - PC"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/360data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-top-PC-worlds-from-the-community!",
-        "fallback": "Browse top PC worlds from the community!"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/360data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/SpotlightPc/Name/Spotlight-PC",
-          "fallback": "Spotlight PC"
-        },
-        "sortHeading": "random",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformOnly",
-        "tag": "admin_spotlight_pc",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/360data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-spotlight"
-      }
-    },
-    "hash": "97ffaac2a46cbaf003e3cdff14ca6ddc",
-    "createdAt": "2022-06-24T23:34:50+00:00",
-    "updatedAt": "2023-11-09T17:20:11+00:00"
   },
   {
     "id": "launch-feedback",
@@ -19949,88 +19469,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "updatedAt": "2022-09-08T21:59:18+00:00"
   },
   {
-    "id": "world-new",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1040,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/362/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/New/Name/New",
-        "fallback": "New"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/362data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/e5a352ccf894dd8a30001611e525caeaf3ec7710444610703549fb306f542400.png",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/362data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-new-worlds",
-        "fallback": "Browse new worlds"
-      },
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/New/Name/New",
-          "fallback": "New"
-        },
-        "sortHeading": "publication",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/362data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-new-worlds",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/362data/contentList/avatarSpecific
-         */
-        "avatarSpecific": false
-      }
-    },
-    "hash": "9f3f187a531f2a0bdef282f5a769ebd5",
-    "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-11-09T17:20:10+00:00"
-  },
-  {
     "id": "LAUNCH---SDK",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -20053,88 +19491,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "updatedAt": "2022-09-08T21:59:19+00:00"
   },
   {
-    "id": "world-avatar-worlds-new",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1050,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/364/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/AvatarWorldsNew/Name/Avatar-Worlds-New",
-        "fallback": "Avatar Worlds - New"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/364data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-new-avatar-worlds",
-        "fallback": "Browse new avatar worlds"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/364data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/AvatarWorldsNew/Name/Avatar-Worlds-New",
-          "fallback": "Avatar Worlds - New"
-        },
-        "sortHeading": "publication",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/364data/contentList/avatarSpecific
-         */
-        "avatarSpecific": true,
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/364data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-avatar-new"
-      }
-    },
-    "hash": "581ced21a95143a1049f1c19b8c1c370",
-    "createdAt": "2023-08-10T19:34:15+00:00",
-    "updatedAt": "2023-11-09T17:20:09+00:00"
-  },
-  {
     "id": "release-avatar-dynamics",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -20146,7 +19502,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/365/isLocalizable
+     * #/357/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20168,7 +19524,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/378/data/description
+       * #/366/data/description
        */
       "description": {
         "key": "Tooltips/Avatar-Dynamics-is-now-live!",
@@ -20181,7 +19537,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/365data/isNew
+       * #/357data/isNew
        */
       "isNew": false,
       "article": {
@@ -20192,7 +19548,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/365data/article/sectionLinks
+         * #/357data/article/sectionLinks
          */
         "sectionLinks": [
           "link-physbones",
@@ -20208,7 +19564,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/365/data/article/content
+         * #/357/data/article/content
          */
         "content": [
           {
@@ -20320,7 +19676,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/365data/article/embeddedLinkData
+         * #/357data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -20347,7 +19703,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/365data/article/moreInfoLinks
+         * #/357data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -20372,78 +19728,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "updatedAt": "2023-11-09T17:18:20+00:00"
   },
   {
-    "id": "world-updated-recently",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1070,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/366/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/UpdatedRecently/Name/Updated-Recently",
-        "fallback": "Updated Recently"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/366data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-recently-updated-worlds",
-        "fallback": "Browse recently updated worlds"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/366data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/06737a66fb6de284125da130c1866ec729d7bbd9b8cdfdafee2b23840b153c67.png",
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/UpdatedRecently/Name/Updated-Recently",
-          "fallback": "Updated Recently"
-        },
-        "sortHeading": "updated",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/366data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-updated-recently"
-      }
-    },
-    "hash": "3fb4744d90d721ad83b9bbdf45569df2",
-    "createdAt": "2020-06-05T08:23:32+00:00",
-    "updatedAt": "2023-11-09T17:20:12+00:00"
-  },
-  {
     "id": "help-article-content-warnings",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -20455,7 +19739,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/367/isLocalizable
+     * #/358/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20482,7 +19766,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/367data/article/sectionLinks
+         * #/358data/article/sectionLinks
          */
         "sectionLinks": [
           "link-adding-content-warnings",
@@ -20495,7 +19779,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/367/data/article/content
+         * #/358/data/article/content
          */
         "content": [
           {
@@ -20637,7 +19921,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/367data/article/embeddedLinkData
+         * #/358data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -20688,7 +19972,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/367data/article/moreInfoLinks
+         * #/358data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -20734,78 +20018,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "updatedAt": "2023-11-09T17:18:33+00:00"
   },
   {
-    "id": "world-community-labs",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1100,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/368/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/CommunityLabs/Name/Community-Labs",
-        "fallback": "Community Labs"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/368data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-worlds-newly-created-by-the-community",
-        "fallback": "Browse worlds newly created by the community"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/368data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/7846fda184f0ee4686558903b87823890351cac53a501b95f848b46b227294b1.png",
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/CommunityLabs/Name/Community-Labs",
-          "fallback": "Community Labs"
-        },
-        "sortHeading": "labs",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/368data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-labs"
-      }
-    },
-    "hash": "dae8cc41a6b58f99df525b088b59c286",
-    "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-11-09T17:20:10+00:00"
-  },
-  {
     "id": "search-promoted-Spookality",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -20823,7 +20035,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/369data/search
+       * #/359data/search
        */
       "search": {
         "searchQuery": "Spookality",
@@ -20849,7 +20061,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/370/isLocalizable
+     * #/360/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20868,7 +20080,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/370data/search
+       * #/360data/search
        */
       "search": {
         "searchQuery": "liminal",
@@ -20894,7 +20106,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/371/isLocalizable
+     * #/361/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20913,7 +20125,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/371data/search
+       * #/361data/search
        */
       "search": {
         "searchQuery": "horror",
@@ -20939,7 +20151,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/372/isLocalizable
+     * #/362/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20958,7 +20170,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/372data/search
+       * #/362data/search
        */
       "search": {
         "searchQuery": "Halloween",
@@ -20995,7 +20207,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/373/data/article/content
+         * #/363/data/article/content
          */
         "content": [
           {
@@ -21043,7 +20255,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/374/data/article/content
+         * #/364/data/article/content
          */
         "content": [
           {
@@ -21063,170 +20275,6 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "updatedAt": "2023-11-22T23:46:12+00:00"
   },
   {
-    "id": "world-random",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1110,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/375/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/Random/Name/Random",
-        "fallback": "Random"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/375data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/0b0ca87fa01cdfce085a9f1080336e2d819717dd98bf10405a3a76a346b79629.png",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/375data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-random-worlds",
-        "fallback": "Browse random worlds"
-      },
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/Random/Name/Random",
-          "fallback": "Random"
-        },
-        "sortHeading": "shuffle",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/375data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-random",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/375data/contentList/avatarSpecific
-         */
-        "avatarSpecific": false
-      }
-    },
-    "hash": "243161716c5d65dbd055fef53a27bf73",
-    "createdAt": "2020-06-05T08:23:31+00:00",
-    "updatedAt": "2023-11-09T17:20:11+00:00"
-  },
-  {
-    "id": "world-avatar-worlds-random",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1120,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/376/isLocalizable
-     */
-    "isLocalizable": true,
-    "tags": [
-      "world-category",
-      "user-all"
-    ],
-    "data": {
-      "name": {
-        "key": "WorldCategory/AvatarWorldsRandom/Name/Avatar-Worlds-Random",
-        "fallback": "Avatar Worlds - Random"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/376data/tooltipDescription
-       */
-      "tooltipDescription": {
-        "key": "Tooltips/Browse-random-avatar-worlds",
-        "fallback": "Browse random avatar worlds"
-      },
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/376data/iconImageUrl
-       */
-      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
-      "contentList": {
-        "name": {
-          "key": "WorldCategory/AvatarWorldsRandom/Name/Avatar-Worlds-Random",
-          "fallback": "Avatar Worlds - Random"
-        },
-        "sortHeading": "shuffle",
-        "sortOwnership": "any",
-        "sortOrder": "descending",
-        "platform": "ThisPlatformSupported",
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/376data/contentList/avatarSpecific
-         */
-        "avatarSpecific": true,
-        /**
-         * Unexpected property.
-         *
-         * @schema DynamicContentRow
-         * @keyword additionalProperties
-         *
-         * #/items/properties/data/properties/contentList/additionalProperties
-         * #/376data/contentList/bannersTag
-         */
-        "bannersTag": "world-category-banner-avatar-random"
-      }
-    },
-    "hash": "dc9b5d0f53b3ec6503e0fb73f5d5ab91",
-    "createdAt": "2023-08-10T19:34:16+00:00",
-    "updatedAt": "2023-11-09T17:20:09+00:00"
-  },
-  {
     "id": "release-main-menu-launch",
     "isEnabled": true,
     "releaseStatus": "public",
@@ -21238,7 +20286,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/377/isLocalizable
+     * #/365/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21264,7 +20312,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/377data/isNew
+       * #/365data/isNew
        */
       "isNew": true,
       "article": {
@@ -21275,7 +20323,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/377data/article/sectionLinks
+         * #/365data/article/sectionLinks
          */
         "sectionLinks": [
           "link-feature-highlights",
@@ -21288,7 +20336,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/377/data/article/content
+         * #/365/data/article/content
          */
         "content": [
           {
@@ -21333,7 +20381,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/377data/article/embeddedLinkData
+         * #/365data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -21368,7 +20416,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/377data/article/moreInfoLinks
+         * #/365data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -21411,7 +20459,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/378/isLocalizable
+     * #/366/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21438,7 +20486,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/378/data/article/content
+         * #/366/data/article/content
          */
         "content": [
           {
@@ -21458,7 +20506,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/378data/article/embeddedLinkData
+         * #/366data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -21485,7 +20533,7 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/378data/article/moreInfoLinks
+         * #/366data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -21508,6 +20556,1152 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
     "hash": "c330c83c045f368a27691b1b1349bee9",
     "createdAt": "2022-04-06T00:11:34+00:00",
     "updatedAt": "2023-11-09T17:18:18+00:00"
+  },
+  {
+    "id": "world-spotlight-mobile",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2010,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/367/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/367/requireClientTags
+     */
+    "requireClientTags": [
+      "platform-mobile-desktop"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/SpotlightMobile/Name/Spotlight-Mobile",
+        "fallback": "Spotlight - Mobile"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/367data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-top-worlds-from-the-community!",
+        "fallback": "Browse top worlds from the community!"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/367data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/SpotlightMobile/Name/Spotlight-Mobile",
+          "fallback": "Spotlight Mobile"
+        },
+        "sortHeading": "random",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_spotlight_mobile",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/367data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-spotlight-mobile"
+      }
+    },
+    "hash": "340a7bd2fa5a8c6d2f6c580ac85eb517",
+    "createdAt": "2023-12-05T06:11:04+00:00",
+    "updatedAt": "2023-12-06T08:56:12+00:00"
+  },
+  {
+    "id": "world-trending",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2020,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/368/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/Trending/Name/Trending",
+        "fallback": "Trending"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/368data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-trending-worlds",
+        "fallback": "Browse trending worlds"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/368data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/5568aa5059b72048ec0560b0eb68822c5ea338e5235637c36a3273f1081176ef.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/Trending/Name/Trending",
+          "fallback": "Trending"
+        },
+        "sortHeading": "hotness",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/368data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-trending",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/368data/contentList/avatarSpecific
+         */
+        "avatarSpecific": false
+      }
+    },
+    "hash": "41d12564e14293d089650abe8ba052e0",
+    "createdAt": "2022-03-30T01:07:23+00:00",
+    "updatedAt": "2023-12-06T08:56:12+00:00"
+  },
+  {
+    "id": "world-avatar-worlds-trending",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2030,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/369/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/AvatarWorldsTrending/Name/Avatar-Worlds-Trending",
+        "fallback": "Avatar Worlds - Trending"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/369data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-trending-avatar-worlds",
+        "fallback": "Browse trending avatar worlds"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/369data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/AvatarWorldsTrending/Name/Avatar-Worlds-Trending",
+          "fallback": "Avatar Worlds - Trending"
+        },
+        "sortHeading": "hotness",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/369data/contentList/avatarSpecific
+         */
+        "avatarSpecific": true,
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/369data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-avatar"
+      }
+    },
+    "hash": "2386c17cfbed5d1bc59e436938fd755c",
+    "createdAt": "2023-08-10T20:44:02+00:00",
+    "updatedAt": "2023-12-06T08:56:12+00:00"
+  },
+  {
+    "id": "world-games-active",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2040,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/370/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/GamesActive/Name/Games-Active",
+        "fallback": "Games - Active"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/370data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/f13fed02d81a04a7dc8d1d9c2960d43ed955ac1d84a87fe9348087cb2a9c4343.png",
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/370data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Join-active-game-worlds",
+        "fallback": "Join active game worlds"
+      },
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/GamesActive/Name/Games-Active",
+          "fallback": "Games - Active"
+        },
+        "sortHeading": "active",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "author_tag_game",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/370data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-games",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/370data/contentList/avatarSpecific
+         */
+        "avatarSpecific": false
+      }
+    },
+    "hash": "08073ab7e49737bd4729a4d1016972d7",
+    "createdAt": "2023-12-06T08:56:12+00:00",
+    "updatedAt": "2023-12-06T08:56:12+00:00"
+  },
+  {
+    "id": "world-new-noteworthy",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2050,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/371/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/NewNoteworthy/Name/New-&-Noteworthy",
+        "fallback": "New & Noteworthy"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/371data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/e5a352ccf894dd8a30001611e525caeaf3ec7710444610703549fb306f542400.png",
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/371data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-noteworthy-new-worlds",
+        "fallback": "Browse noteworthy new worlds"
+      },
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/NewNoteworthy/Name/New-and-Noteworthy",
+          "fallback": "New and Noteworthy"
+        },
+        "sortHeading": "hotness",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/371data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-new-worlds",
+        "tag": "system_published_recently"
+      }
+    },
+    "hash": "4b47c497ff07a111d8d27623f08354cf",
+    "createdAt": "2023-12-06T08:56:13+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
+  },
+  {
+    "id": "world-spotlight-crossplatform",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2070,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/372/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/SpotlightCrossplatform/Name/Spotlight-Cross-Platform",
+        "fallback": "Spotlight - Cross Platform"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema DynamicContentRow
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/properties/contentList/additionalProperties
+       * #/372data/contentList/shortName
+       */
+      "shortName": {
+        "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
+        "fallback": "Spotlight X Plat"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/372data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-top-cross-platform-worlds-from-the-community!",
+        "fallback": "Browse top cross-platform worlds from the community!"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/372data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/SpotlightCrossplatform/Name/Spotlight-Cross-Platform",
+          "fallback": "Spotlight Cross Platform"
+        },
+        /**
+         * Unexpected property.
+         *
+         * @schema InfoPushData
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/additionalProperties
+         * #/372data/shortName
+         */
+        "shortName": {
+          "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
+          "fallback": "Spotlight X Plat"
+        },
+        "sortHeading": "random",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "admin_spotlight_xplat",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/372data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-spotlight-xplat"
+      }
+    },
+    "hash": "e55121bc76935b8803e347b551a66068",
+    "createdAt": "2022-06-24T23:34:50+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
+  },
+  {
+    "id": "world-spotlight-pc",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2080,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/373/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/373/requireClientTags
+     */
+    "requireClientTags": [
+      "platform-pc"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/SpotlightPc/Name/Spotlight-PC",
+        "fallback": "Spotlight - PC"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/373data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-top-PC-worlds-from-the-community!",
+        "fallback": "Browse top PC worlds from the community!"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/373data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/SpotlightPc/Name/Spotlight-PC",
+          "fallback": "Spotlight PC"
+        },
+        "sortHeading": "random",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformOnly",
+        "tag": "admin_spotlight_pc",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/373data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-spotlight"
+      }
+    },
+    "hash": "90d0643edf502c065a625585d3e31976",
+    "createdAt": "2022-06-24T23:34:50+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
+  },
+  {
+    "id": "world-popular",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2090,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/374/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/Popular/Name/Popular",
+        "fallback": "Popular"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/374data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-popular-worlds",
+        "fallback": "Browse popular worlds"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/374data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/5568aa5059b72048ec0560b0eb68822c5ea338e5235637c36a3273f1081176ef.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/Popular/Name/Popular",
+          "fallback": "Popular"
+        },
+        "sortHeading": "heat",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/374data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-trending",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/374data/contentList/avatarSpecific
+         */
+        "avatarSpecific": false
+      }
+    },
+    "hash": "c009520c5e31801a9e5df64b7e2fbcdc",
+    "createdAt": "2023-12-06T08:56:13+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
+  },
+  {
+    "id": "world-new",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2100,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/375/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/New/Name/New",
+        "fallback": "New"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/375data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/e5a352ccf894dd8a30001611e525caeaf3ec7710444610703549fb306f542400.png",
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/375data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-new-worlds",
+        "fallback": "Browse new worlds"
+      },
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/New/Name/New",
+          "fallback": "New"
+        },
+        "sortHeading": "publication",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/375data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-new-worlds",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/375data/contentList/avatarSpecific
+         */
+        "avatarSpecific": false,
+        "tag": "system_published_recently"
+      }
+    },
+    "hash": "69ce8de02404a4eca64261047df9d236",
+    "createdAt": "2020-06-05T08:23:31+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
+  },
+  {
+    "id": "world-updated-recently",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2110,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/376/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/UpdatedRecently/Name/Updated-Recently",
+        "fallback": "Updated Recently"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/376data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-recently-updated-worlds",
+        "fallback": "Browse recently updated worlds"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/376data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/06737a66fb6de284125da130c1866ec729d7bbd9b8cdfdafee2b23840b153c67.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/UpdatedRecently/Name/Updated-Recently",
+          "fallback": "Updated Recently"
+        },
+        "sortHeading": "updated",
+        "tag": "system_updated_recently",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/376data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-updated-recently"
+      }
+    },
+    "hash": "dfd74b5c6841aba1c8ef5f3c20848cc2",
+    "createdAt": "2020-06-05T08:23:32+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
+  },
+  {
+    "id": "world-avatar-worlds-new",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2120,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/377/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/AvatarWorldsNew/Name/Avatar-Worlds-New",
+        "fallback": "Avatar Worlds - New"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/377data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-new-avatar-worlds",
+        "fallback": "Browse new avatar worlds"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/377data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/AvatarWorldsNew/Name/Avatar-Worlds-New",
+          "fallback": "Avatar Worlds - New"
+        },
+        "sortHeading": "publication",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        "tag": "system_published_recently",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/377data/contentList/avatarSpecific
+         */
+        "avatarSpecific": true,
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/377data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-avatar-new"
+      }
+    },
+    "hash": "e53b288dfa6425fbcda71a5e11cab9ec",
+    "createdAt": "2023-08-10T19:34:15+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
+  },
+  {
+    "id": "world-community-labs",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2130,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/378/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/CommunityLabs/Name/Community-Labs",
+        "fallback": "Community Labs"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/378data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-worlds-newly-created-by-the-community",
+        "fallback": "Browse worlds newly created by the community"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/378data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/7846fda184f0ee4686558903b87823890351cac53a501b95f848b46b227294b1.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/CommunityLabs/Name/Community-Labs",
+          "fallback": "Community Labs"
+        },
+        "sortHeading": "labs",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/378data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-labs"
+      }
+    },
+    "hash": "d78ddeebd34c0934b5721e3bb68e8ba8",
+    "createdAt": "2020-06-05T08:23:31+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
+  },
+  {
+    "id": "world-random",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2140,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/379/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/Random/Name/Random",
+        "fallback": "Random"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/379data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/0b0ca87fa01cdfce085a9f1080336e2d819717dd98bf10405a3a76a346b79629.png",
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/379data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-random-worlds",
+        "fallback": "Browse random worlds"
+      },
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/Random/Name/Random",
+          "fallback": "Random"
+        },
+        "sortHeading": "shuffle",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/379data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-random",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/379data/contentList/avatarSpecific
+         */
+        "avatarSpecific": false
+      }
+    },
+    "hash": "7cfb28d20c0217b468e72c315fb4c5b5",
+    "createdAt": "2020-06-05T08:23:31+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
+  },
+  {
+    "id": "world-avatar-worlds-random",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 2150,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/380/isLocalizable
+     */
+    "isLocalizable": true,
+    "tags": [
+      "world-category",
+      "user-all"
+    ],
+    "data": {
+      "name": {
+        "key": "WorldCategory/AvatarWorldsRandom/Name/Avatar-Worlds-Random",
+        "fallback": "Avatar Worlds - Random"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/380data/tooltipDescription
+       */
+      "tooltipDescription": {
+        "key": "Tooltips/Browse-random-avatar-worlds",
+        "fallback": "Browse random avatar worlds"
+      },
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/380data/iconImageUrl
+       */
+      "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
+      "contentList": {
+        "name": {
+          "key": "WorldCategory/AvatarWorldsRandom/Name/Avatar-Worlds-Random",
+          "fallback": "Avatar Worlds - Random"
+        },
+        "sortHeading": "shuffle",
+        "sortOwnership": "any",
+        "sortOrder": "descending",
+        "platform": "ThisPlatformSupported",
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/380data/contentList/avatarSpecific
+         */
+        "avatarSpecific": true,
+        /**
+         * Unexpected property.
+         *
+         * @schema DynamicContentRow
+         * @keyword additionalProperties
+         *
+         * #/items/properties/data/properties/contentList/additionalProperties
+         * #/380data/contentList/bannersTag
+         */
+        "bannersTag": "world-category-banner-avatar-random"
+      }
+    },
+    "hash": "57a26eb6363fd1cdce0d9114af1cc759",
+    "createdAt": "2023-08-10T19:34:16+00:00",
+    "updatedAt": "2023-12-06T08:56:13+00:00"
   }
 ]
 ```
