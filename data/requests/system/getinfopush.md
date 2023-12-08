@@ -16333,7 +16333,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
             "wrld_c87d9e7a-d46a-4ca4-9077-a6322ac0f7e7",
             "wrld_7281543e-6888-4676-896a-fdd090552fc4",
             "wrld_7416746a-9a5f-4d49-8135-2ff55388b09d",
-            "wrld_9876e234-6dcf-444e-b9e9-d505b6d27189"
+            "wrld_9876e234-6dcf-444e-b9e9-d505b6d27189",
+            "wrld_7e5b5720-7a4e-4083-954e-d7c98c6c18b0"
           ]
         },
         {
@@ -16373,9 +16374,9 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
         }
       ]
     },
-    "hash": "b3c6fc7e6f74acaa0225b83490dd1c75",
+    "hash": "45357a24636b06d82c2367acbb2ea0af",
     "createdAt": "2023-11-20T19:48:24+00:00",
-    "updatedAt": "2023-12-02T05:01:28+00:00"
+    "updatedAt": "2023-12-07T17:49:19+00:00"
   },
   {
     "id": "marketplace-spotlight-android",
@@ -16494,7 +16495,8 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
             "wrld_c87d9e7a-d46a-4ca4-9077-a6322ac0f7e7",
             "wrld_7281543e-6888-4676-896a-fdd090552fc4",
             "wrld_7416746a-9a5f-4d49-8135-2ff55388b09d",
-            "wrld_9876e234-6dcf-444e-b9e9-d505b6d27189"
+            "wrld_9876e234-6dcf-444e-b9e9-d505b6d27189",
+            "wrld_7e5b5720-7a4e-4083-954e-d7c98c6c18b0"
           ]
         },
         {
@@ -16533,9 +16535,9 @@ Response schema mismatch: Unexpected property at #/1data/contentList/bannersTag,
         }
       ]
     },
-    "hash": "cf480da7f9c18e3baba0b0f2c775db07",
+    "hash": "5e7e5f1838c35c73f7dc7deda6312f66",
     "createdAt": "2023-11-20T19:48:24+00:00",
-    "updatedAt": "2023-12-02T05:01:28+00:00"
+    "updatedAt": "2023-12-07T17:49:19+00:00"
   },
   {
     "id": "help-article-what-vrcp-quest",

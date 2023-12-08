@@ -69,7 +69,7 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, 
        * #/properties/unityPackages/items/additionalProperties
        * #/unityPackages/0/scanStatus
        */
-      "scanStatus": "unscanned"
+      "scanStatus": "passed"
     },
     {
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
