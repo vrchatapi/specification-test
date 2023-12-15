@@ -39,7 +39,7 @@ Response schema mismatch: undefined at #/unityPackages/0/assetUrl, Unexpected pr
   "authorName": "spookyghostboo",
   "releaseStatus": "public",
   "featured": false,
-  "capacity": 48,
+  "capacity": 80,
   "recommendedCapacity": 24,
   "imageUrl": "<unstable: string>",
   "thumbnailImageUrl": "<unstable: string>",
@@ -98,9 +98,10 @@ Response schema mismatch: undefined at #/unityPackages/0/assetUrl, Unexpected pr
     "author_tag_hangout",
     "author_tag_chill",
     "author_tag_lounge",
-    "system_approved",
     "admin_approved",
-    "admin_spotlight_mobile"
+    "admin_spotlight_mobile",
+    "system_approved",
+    "system_updated_recently"
   ],
   "created_at": "2019-05-01T01:19:43.477Z",
   "updated_at": "<unstable: string>"
