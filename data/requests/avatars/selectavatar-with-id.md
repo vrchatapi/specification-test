@@ -1,10 +1,5 @@
 # selectAvatar with id
 
-## Issues
-```
-Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Unexpected property at #/userLanguage, Unexpected property at #/userLanguageCode, Unexpected property at #/currentAvatarTags, Unexpected property at #/googleId, Unexpected property at #/picoId, Unexpected property at #/viveId.
-```
-
 ## Request
 `put https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/select`
 
@@ -47,15 +42,6 @@ Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Un
   "obfuscatedPendingEmail": "",
   "emailVerified": true,
   "hasBirthday": true,
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/hideContentFilterSettings
-   */
   "hideContentFilterSettings": false,
   "unsubscribe": true,
   "statusHistory": [
@@ -73,37 +59,10 @@ Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Un
   "statusFirstTime": true,
   "friends": [],
   "friendGroupNames": [],
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/userLanguage
-   */
   "userLanguage": null,
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/userLanguageCode
-   */
   "userLanguageCode": null,
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/256",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/currentAvatarTags
-   */
   "currentAvatarTags": [],
   "currentAvatar": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_cea4ec5e-af23-4c1e-982b-b93f3c6cfc2b/8/file",
@@ -113,37 +72,10 @@ Response schema mismatch: Unexpected property at #/hideContentFilterSettings, Un
   "acceptedTOSVersion": 8,
   "acceptedPrivacyVersion": 0,
   "steamId": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/googleId
-   */
   "googleId": "",
   "steamDetails": {},
   "oculusId": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/picoId
-   */
   "picoId": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/viveId
-   */
   "viveId": "",
   "hasLoggedInFromClient": false,
   "homeLocation": "",

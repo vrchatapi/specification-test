@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, Unexpected property at #/unityPackages/0/scanStatus, Unexpected property at #/unityPackages/1/impostorUrl, Unexpected property at #/unityPackages/1/scanStatus, Unexpected property at #/unityPackages/2/impostorUrl, Unexpected property at #/unityPackages/2/scanStatus, Unexpected property at #/unityPackages/3/impostorUrl, Unexpected property at #/unityPackages/3/scanStatus.
+Response schema mismatch: Invalid type at #/unityPackages/0/impostorUrl, Invalid type at #/unityPackages/1/impostorUrl, Invalid type at #/unityPackages/2/impostorUrl, Invalid type at #/unityPackages/3/impostorUrl.
 ```
 
 ## Request
@@ -48,108 +48,72 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/impostorUrl, 
       "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
       "created_at": "2022-01-27T01:34:07.257Z",
       /**
-       * Unexpected property.
+       * Invalid type.
        *
-       * @schema UnityPackage
-       * @keyword additionalProperties
+       * @schema unknown
+       * @keyword type
        *
-       * #/properties/unityPackages/items/additionalProperties
+       * #/properties/unityPackages/items/properties/impostorUrl/type
        * #/unityPackages/0/impostorUrl
        */
       "impostorUrl": null,
       "unityVersion": "2019.4.30f1",
       "assetVersion": 1,
       "platform": "standalonewindows",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/0/scanStatus
-       */
       "scanStatus": "passed"
     },
     {
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
       "created_at": "2022-02-03T06:57:10.346Z",
       /**
-       * Unexpected property.
+       * Invalid type.
        *
-       * @schema UnityPackage
-       * @keyword additionalProperties
+       * @schema unknown
+       * @keyword type
        *
-       * #/properties/unityPackages/items/additionalProperties
+       * #/properties/unityPackages/items/properties/impostorUrl/type
        * #/unityPackages/1/impostorUrl
        */
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
       "unityVersion": "2019.4.30f1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/1/scanStatus
-       */
       "scanStatus": "unscanned"
     },
     {
       "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
       "created_at": "2022-07-07T11:36:36.197Z",
       /**
-       * Unexpected property.
+       * Invalid type.
        *
-       * @schema UnityPackage
-       * @keyword additionalProperties
+       * @schema unknown
+       * @keyword type
        *
-       * #/properties/unityPackages/items/additionalProperties
+       * #/properties/unityPackages/items/properties/impostorUrl/type
        * #/unityPackages/2/impostorUrl
        */
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "standalonewindows",
       "unityVersion": "2019.4.31f1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/2/scanStatus
-       */
       "scanStatus": "passed"
     },
     {
       "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
       "created_at": "2022-07-07T11:51:24.091Z",
       /**
-       * Unexpected property.
+       * Invalid type.
        *
-       * @schema UnityPackage
-       * @keyword additionalProperties
+       * @schema unknown
+       * @keyword type
        *
-       * #/properties/unityPackages/items/additionalProperties
+       * #/properties/unityPackages/items/properties/impostorUrl/type
        * #/unityPackages/3/impostorUrl
        */
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
       "unityVersion": "2019.4.31f1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/3/scanStatus
-       */
       "scanStatus": "passed"
     }
   ],

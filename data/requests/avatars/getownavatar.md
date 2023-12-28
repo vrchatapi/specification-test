@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unexpected property at #/unityPackages/1/variant, Unexpected property at #/unityPackages/1/scanStatus, Unexpected property at #/unityPackages/2/variant, Unexpected property at #/unityPackages/2/scanStatus, Unexpected property at #/unityPackages/3/variant, Unexpected property at #/unityPackages/3/scanStatus.
+Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unexpected property at #/unityPackages/1/variant, Unexpected property at #/unityPackages/2/variant, Unexpected property at #/unityPackages/3/variant.
 ```
 
 ## Request

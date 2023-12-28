@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: undefined at #/unityPackages/0/assetUrl, Unexpected property at #/udonProducts.
+Response schema mismatch: undefined at #/unityPackages/0/assetUrl.
 ```
 
 ## Request
@@ -47,15 +47,6 @@ Response schema mismatch: undefined at #/unityPackages/0/assetUrl, Unexpected pr
   "version": "<unstable: number>",
   "organization": "vrchat",
   "previewYoutubeId": null,
-  /**
-   * Unexpected property.
-   *
-   * @schema World
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/udonProducts
-   */
   "udonProducts": [
     "prod_2f76612c-7358-4b19-9097-2dd0d4e5dd4c",
     "prod_ac810a17-6c2c-443b-8a57-c3d69742c7d3",
