@@ -1,10 +1,5 @@
 # getAvatar by id
 
-## Issues
-```
-Response schema mismatch: Invalid type at #/unityPackages/0/impostorUrl, Invalid type at #/unityPackages/1/impostorUrl, Invalid type at #/unityPackages/2/impostorUrl, Invalid type at #/unityPackages/3/impostorUrl.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0`
 
@@ -47,15 +42,6 @@ Response schema mismatch: Invalid type at #/unityPackages/0/impostorUrl, Invalid
     {
       "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
       "created_at": "2022-01-27T01:34:07.257Z",
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/properties/unityPackages/items/properties/impostorUrl/type
-       * #/unityPackages/0/impostorUrl
-       */
       "impostorUrl": null,
       "unityVersion": "2019.4.30f1",
       "assetVersion": 1,
@@ -65,15 +51,6 @@ Response schema mismatch: Invalid type at #/unityPackages/0/impostorUrl, Invalid
     {
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
       "created_at": "2022-02-03T06:57:10.346Z",
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/properties/unityPackages/items/properties/impostorUrl/type
-       * #/unityPackages/1/impostorUrl
-       */
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
@@ -83,15 +60,6 @@ Response schema mismatch: Invalid type at #/unityPackages/0/impostorUrl, Invalid
     {
       "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
       "created_at": "2022-07-07T11:36:36.197Z",
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/properties/unityPackages/items/properties/impostorUrl/type
-       * #/unityPackages/2/impostorUrl
-       */
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "standalonewindows",
@@ -101,15 +69,6 @@ Response schema mismatch: Invalid type at #/unityPackages/0/impostorUrl, Invalid
     {
       "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
       "created_at": "2022-07-07T11:51:24.091Z",
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/properties/unityPackages/items/properties/impostorUrl/type
-       * #/unityPackages/3/impostorUrl
-       */
       "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
