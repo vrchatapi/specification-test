@@ -33,7 +33,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
 ```jsonc
 [
   {
-    "id": "qm-banner-android-launch",
+    "id": "qm-banner-android-alpha-everyone",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 910,
@@ -42,7 +42,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
       "user-all"
     ],
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/c912b7d30aeafa2ff14dc7e77cfe5055864be211f68aa5b95f7366d5d0600f83.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/47cd36ef2a54edccc90cf979f99dbd957123333252f96e6559127deb95238087.png",
       "onPressed": {
         /**
          * Cannot fit value in explicit enum.
@@ -59,9 +59,9 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         ]
       }
     },
-    "hash": "b726370c1bf2583dce34d8ef7d73ca56",
-    "createdAt": "2023-08-17T23:48:02+00:00",
-    "updatedAt": "2023-08-17T23:48:02+00:00"
+    "hash": "44c4af71dff3388a679826adc3072190",
+    "createdAt": "2024-01-11T18:39:53+00:00",
+    "updatedAt": "2024-01-11T18:39:53+00:00"
   },
   {
     "id": "qm-banner---gift-stacking-quest",
