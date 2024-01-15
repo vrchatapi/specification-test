@@ -1,10 +1,5 @@
 # getOwnAvatar
 
-## Issues
-```
-Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unexpected property at #/unityPackages/1/variant, Unexpected property at #/unityPackages/2/variant, Unexpected property at #/unityPackages/3/variant.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 
@@ -32,24 +27,21 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
 
 ```jsonc
 {
-  "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "name": "Robot",
-  "description": "Beep Boop",
-  "authorId": "8JoV9XEdpo",
-  "authorName": "vrchat",
-  "tags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
-  ],
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "id": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
+  "name": "Bella Bear Public - by Mai",
+  "description": "Bella Bear Public - by Mai",
+  "authorId": "usr_6eb7f0ee-b71c-47a1-b37f-d2c6567a940e",
+  "authorName": "Mai♡",
+  "tags": [],
+  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/file",
+  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/256",
   "releaseStatus": "public",
   "version": "<unstable: number>",
   "featured": false,
   "unityPackages": "<unstable: array>",
   "unityPackageUrl": "",
   "unityPackageUrlObject": {},
-  "created_at": "2016-11-30T03:47:35.000Z",
+  "created_at": "2022-01-27T01:34:07.257Z",
   "updated_at": "<unstable: string>"
 }
 ```
