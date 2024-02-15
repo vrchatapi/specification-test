@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPressed/command, Unexpected property at #/1/requireClientTags, Cannot fit value in explicit enum at #/2/data/onPressed/command, Unexpected property at #/2/requireClientTags, Cannot fit value in explicit enum at #/3/data/onPressed/command, Unexpected property at #/3/requireClientTags, Cannot fit value in explicit enum at #/4/data/onPressed/command, Cannot fit value in explicit enum at #/5/data/onPressed/command, Unexpected property at #/8data/search, Unexpected property at #/9data/search, Unexpected property at #/10data/search, Unexpected property at #/11data/search, Unexpected property at #/12data/search, Unexpected property at #/13data/search, Unexpected property at #/14data/search, Unexpected property at #/15data/search, Unexpected property at #/16data/search, Unexpected property at #/17data/search, Unexpected property at #/18data/search, Unexpected property at #/19data/search, Unexpected property at #/20data/search, Unexpected property at #/21data/search, Unexpected property at #/22data/search, Unexpected property at #/23data/search, Unexpected property at #/24data/search, Unexpected property at #/25data/search, Unexpected property at #/26data/search, Unexpected property at #/27data/search, Unexpected property at #/28data/search, Unexpected property at #/29data/search, Unexpected property at #/30data/search, Invalid type at #/49/data/description, Unexpected property at #/49data/iconImageUrl, Unexpected property at #/49data/tooltipDescription, Unexpected property at #/49/isLocalizable, Unexpected property at #/49/requireClientTags, Invalid type at #/50/data/description, Unexpected property at #/50data/iconImageUrl, Unexpected property at #/50data/tooltipDescription, Unexpected property at #/50/isLocalizable, Unexpected property at #/50/requireClientTags, Invalid type at #/51/data/name, Unexpected property at #/51data/search, Unexpected property at #/51/isLocalizable, Invalid type at #/52/data/name, Unexpected property at #/52data/search, Unexpected property at #/52/isLocalizable, Invalid type at #/53/data/name, Unexpected property at #/53data/search, Unexpected property at #/53/isLocalizable, Invalid type at #/54/data/name, Unexpected property at #/54data/search, Unexpected property at #/54/isLocalizable, Invalid type at #/55/data/name, Unexpected property at #/55data/search, Unexpected property at #/55/isLocalizable, Invalid type at #/56/data/name, Unexpected property at #/56data/search, Unexpected property at #/56/isLocalizable, Invalid type at #/57/data/name, Unexpected property at #/57data/search, Unexpected property at #/57/isLocalizable, Invalid type at #/58/data/name, Unexpected property at #/58data/search, Unexpected property at #/58/isLocalizable, Invalid type at #/59/data/name, Unexpected property at #/59data/search, Unexpected property at #/59/isLocalizable, Invalid type at #/60/data/name, Unexpected property at #/60data/search, Unexpected property at #/60/isLocalizable, Invalid type at #/61/data/name, Unexpected property at #/61data/search, Unexpected property at #/61/isLocalizable, Invalid type at #/62/data/name, Unexpected property at #/62data/search, Unexpected property at #/62/isLocalizable, Invalid type at #/63/data/name, Unexpected property at #/63data/search, Unexpected property at #/63/isLocalizable, Invalid type at #/64/data/name, Unexpected property at #/64data/search, Unexpected property at #/64/isLocalizable, Invalid type at #/65/data/name, Unexpected property at #/65data/search, Unexpected property at #/65/isLocalizable, Invalid type at #/66/data/name, Unexpected property at #/66data/search, Unexpected property at #/66/isLocalizable, Invalid type at #/67/data/name, Unexpected property at #/67data/search, Unexpected property at #/67/isLocalizable, Invalid type at #/68/data/name, Unexpected property at #/68data/search, Unexpected property at #/68/isLocalizable, Invalid type at #/69/data/name, Unexpected property at #/69data/search, Unexpected property at #/69/isLocalizable, Invalid type at #/70/data/name, Unexpected property at #/70data/search, Unexpected property at #/70/isLocalizable, Invalid type at #/71/data/name, Unexpected property at #/71data/search, Unexpected property at #/71/isLocalizable, Invalid type at #/72/data/name, Unexpected property at #/72data/search, Unexpected property at #/72/isLocalizable, Invalid type at #/73/data/name, Unexpected property at #/73data/search, Unexpected property at #/73/isLocalizable, Invalid type at #/74/data/name, Unexpected property at #/74data/search, Unexpected property at #/74/isLocalizable, Invalid type at #/75/data/name, Unexpected property at #/75data/search, Unexpected property at #/75/isLocalizable, Invalid type at #/76/data/name, Unexpected property at #/76data/search, Unexpected property at #/76/isLocalizable, Invalid type at #/77/data/name, Unexpected property at #/77data/search, Unexpected property at #/77/isLocalizable, Invalid type at #/78/data/name, Unexpected property at #/78data/search, Unexpected property at #/78/isLocalizable, Invalid type at #/79/data/name, Unexpected property at #/79data/search, Unexpected property at #/79/isLocalizable, Invalid type at #/80/data/name, Unexpected property at #/80data/search, Unexpected property at #/80/isLocalizable, Invalid type at #/81/data/name, Unexpected property at #/81data/search, Unexpected property at #/81/isLocalizable, Invalid type at #/82/data/name, Unexpected property at #/82data/search, Unexpected property at #/82/isLocalizable, Invalid type at #/83/data/name, Unexpected property at #/83data/search, Unexpected property at #/83/isLocalizable, Invalid type at #/84/data/name, Unexpected property at #/84data/search, Unexpected property at #/84/isLocalizable, Invalid type at #/85/data/name, Unexpected property at #/85data/search, Unexpected property at #/85/isLocalizable, Invalid type at #/86/data/name, Unexpected property at #/86data/search, Unexpected property at #/86/isLocalizable, Invalid type at #/87/data/name, Unexpected property at #/87data/search, Unexpected property at #/87/isLocalizable, Invalid type at #/88/data/name, Unexpected property at #/88data/search, Unexpected property at #/88/isLocalizable, Invalid type at #/89/data/name, Unexpected property at #/89data/search, Unexpected property at #/89/isLocalizable, Invalid type at #/90/data/name, Unexpected property at #/90data/search, Unexpected property at #/90/isLocalizable, Invalid type at #/91/data/name, Unexpected property at #/91data/search, Unexpected property at #/91/isLocalizable, Invalid type at #/92/data/name, Unexpected property at #/92data/search, Unexpected property at #/92/isLocalizable, Invalid type at #/93/data/name, Unexpected property at #/93data/search, Unexpected property at #/93/isLocalizable, Invalid type at #/94/data/name, Unexpected property at #/94data/search, Unexpected property at #/94/isLocalizable, Invalid type at #/95/data/name, Unexpected property at #/95data/search, Unexpected property at #/95/isLocalizable, Invalid type at #/96/data/name, Unexpected property at #/96data/search, Unexpected property at #/96/isLocalizable, Invalid type at #/97/data/name, Unexpected property at #/97data/search, Unexpected property at #/97/isLocalizable, Invalid type at #/98/data/name, Unexpected property at #/98data/search, Unexpected property at #/98/isLocalizable, Invalid type at #/99/data/name, Unexpected property at #/99data/search, Unexpected property at #/99/isLocalizable, Invalid type at #/100/data/name, Unexpected property at #/100data/search, Unexpected property at #/100/isLocalizable, Invalid type at #/101/data/name, Unexpected property at #/101data/search, Unexpected property at #/101/isLocalizable, Invalid type at #/102/data/name, Unexpected property at #/102data/search, Unexpected property at #/102/isLocalizable, Invalid type at #/103/data/name, Unexpected property at #/103data/search, Unexpected property at #/103/isLocalizable, Invalid type at #/104/data/name, Unexpected property at #/104data/search, Unexpected property at #/104/isLocalizable, Invalid type at #/105/data/name, Unexpected property at #/105data/search, Unexpected property at #/105/isLocalizable, Invalid type at #/106/data/name, Unexpected property at #/106data/search, Unexpected property at #/106/isLocalizable, Invalid type at #/107/data/name, Unexpected property at #/107data/search, Unexpected property at #/107/isLocalizable, Invalid type at #/108/data/name, Unexpected property at #/108data/search, Unexpected property at #/108/isLocalizable, Invalid type at #/109/data/name, Unexpected property at #/109data/search, Unexpected property at #/109/isLocalizable, Invalid type at #/110/data/name, Unexpected property at #/110data/search, Unexpected property at #/110/isLocalizable, Invalid type at #/111/data/name, Unexpected property at #/111data/search, Unexpected property at #/111/isLocalizable, Invalid type at #/112/data/name, Unexpected property at #/112data/search, Unexpected property at #/112/isLocalizable, Invalid type at #/113/data/name, Unexpected property at #/113data/search, Unexpected property at #/113/isLocalizable, Invalid type at #/114/data/name, Unexpected property at #/114data/search, Unexpected property at #/114/isLocalizable, Invalid type at #/115/data/name, Unexpected property at #/115data/search, Unexpected property at #/115/isLocalizable, Invalid type at #/116/data/name, Unexpected property at #/116data/search, Unexpected property at #/116/isLocalizable, Invalid type at #/117/data/name, Unexpected property at #/117data/search, Unexpected property at #/117/isLocalizable, Invalid type at #/118/data/name, Unexpected property at #/118data/search, Unexpected property at #/118/isLocalizable, Invalid type at #/119/data/name, Unexpected property at #/119data/search, Unexpected property at #/119/isLocalizable, Invalid type at #/120/data/name, Unexpected property at #/120data/search, Unexpected property at #/120/isLocalizable, Invalid type at #/121/data/name, Unexpected property at #/121data/search, Unexpected property at #/121/isLocalizable, Invalid type at #/122/data/name, Unexpected property at #/122data/search, Unexpected property at #/122/isLocalizable, Invalid type at #/123/data/name, Unexpected property at #/123data/search, Unexpected property at #/123/isLocalizable, Invalid type at #/124/data/name, Unexpected property at #/124data/search, Unexpected property at #/124/isLocalizable, Invalid type at #/125/data/name, Unexpected property at #/125data/search, Unexpected property at #/125/isLocalizable, Invalid type at #/126/data/name, Unexpected property at #/126data/search, Unexpected property at #/126/isLocalizable, Invalid type at #/127/data/name, Unexpected property at #/127data/search, Unexpected property at #/127/isLocalizable, Invalid type at #/128/data/name, Unexpected property at #/128data/search, Unexpected property at #/128/isLocalizable, Invalid type at #/129/data/name, Unexpected property at #/129data/search, Unexpected property at #/129/isLocalizable, Invalid type at #/130/data/name, Unexpected property at #/130data/search, Unexpected property at #/130/isLocalizable, Invalid type at #/131/data/name, Unexpected property at #/131data/search, Unexpected property at #/131/isLocalizable, Invalid type at #/132/data/name, Unexpected property at #/132data/search, Unexpected property at #/132/isLocalizable, Invalid type at #/133/data/name, Unexpected property at #/133data/search, Unexpected property at #/133/isLocalizable, Invalid type at #/134/data/name, Unexpected property at #/134data/search, Unexpected property at #/134/isLocalizable, Invalid type at #/135/data/name, Unexpected property at #/135data/search, Unexpected property at #/135/isLocalizable, Invalid type at #/136/data/name, Unexpected property at #/136data/search, Unexpected property at #/136/isLocalizable, Invalid type at #/137/data/name, Unexpected property at #/137data/search, Unexpected property at #/137/isLocalizable, Invalid type at #/138/data/name, Unexpected property at #/138data/search, Unexpected property at #/138/isLocalizable, Invalid type at #/139/data/name, Unexpected property at #/139data/search, Unexpected property at #/139/isLocalizable, Invalid type at #/140/data/name, Unexpected property at #/140data/search, Unexpected property at #/140/isLocalizable, Invalid type at #/141/data/name, Unexpected property at #/141data/search, Unexpected property at #/141/isLocalizable, Invalid type at #/142/data/name, Unexpected property at #/142data/search, Unexpected property at #/142/isLocalizable, Invalid type at #/143/data/name, Unexpected property at #/143data/search, Unexpected property at #/143/isLocalizable, Invalid type at #/144/data/name, Unexpected property at #/144data/search, Unexpected property at #/144/isLocalizable, Invalid type at #/145/data/name, Unexpected property at #/145data/search, Unexpected property at #/145/isLocalizable, Invalid type at #/146/data/name, Unexpected property at #/146data/search, Unexpected property at #/146/isLocalizable, Invalid type at #/147/data/name, Unexpected property at #/147data/search, Unexpected property at #/147/isLocalizable, Invalid type at #/148/data/name, Unexpected property at #/148data/search, Unexpected property at #/148/isLocalizable, Invalid type at #/149/data/name, Unexpected property at #/149data/search, Unexpected property at #/149/isLocalizable, Invalid type at #/150/data/name, Unexpected property at #/150data/search, Unexpected property at #/150/isLocalizable, Invalid type at #/151/data/name, Unexpected property at #/151data/search, Unexpected property at #/151/isLocalizable, Invalid type at #/152/data/name, Unexpected property at #/152data/search, Unexpected property at #/152/isLocalizable, Invalid type at #/153/data/name, Unexpected property at #/153data/search, Unexpected property at #/153/isLocalizable, Invalid type at #/154/data/name, Unexpected property at #/154data/search, Unexpected property at #/154/isLocalizable, Invalid type at #/155/data/name, Unexpected property at #/155data/search, Unexpected property at #/155/isLocalizable, Invalid type at #/156/data/name, Unexpected property at #/156data/search, Unexpected property at #/156/isLocalizable, Invalid type at #/157/data/name, Unexpected property at #/157data/search, Unexpected property at #/157/isLocalizable, Invalid type at #/158/data/name, Unexpected property at #/158data/search, Unexpected property at #/158/isLocalizable, Invalid type at #/159/data/name, Unexpected property at #/159data/search, Unexpected property at #/159/isLocalizable, Invalid type at #/160/data/name, Unexpected property at #/160data/search, Unexpected property at #/160/isLocalizable, Invalid type at #/161/data/name, Unexpected property at #/161data/search, Unexpected property at #/161/isLocalizable, Invalid type at #/162/data/name, Unexpected property at #/162data/search, Unexpected property at #/162/isLocalizable, Invalid type at #/163/data/name, Unexpected property at #/163data/search, Unexpected property at #/163/isLocalizable, Invalid type at #/164/data/name, Unexpected property at #/164data/search, Unexpected property at #/164/isLocalizable, Invalid type at #/165/data/name, Unexpected property at #/165data/search, Unexpected property at #/165/isLocalizable, Invalid type at #/166/data/name, Unexpected property at #/166data/search, Unexpected property at #/166/isLocalizable, Invalid type at #/167/data/name, Unexpected property at #/167data/search, Unexpected property at #/167/isLocalizable, Invalid type at #/168/data/name, Unexpected property at #/168data/search, Unexpected property at #/168/isLocalizable, Invalid type at #/169/data/name, Unexpected property at #/169data/search, Unexpected property at #/169/isLocalizable, Invalid type at #/170/data/name, Unexpected property at #/170data/search, Unexpected property at #/170/isLocalizable, Invalid type at #/171/data/name, Unexpected property at #/171data/search, Unexpected property at #/171/isLocalizable, Invalid type at #/172/data/name, Unexpected property at #/172data/search, Unexpected property at #/172/isLocalizable, Invalid type at #/173/data/name, Unexpected property at #/173data/search, Unexpected property at #/173/isLocalizable, Invalid type at #/174/data/name, Unexpected property at #/174data/search, Unexpected property at #/174/isLocalizable, Invalid type at #/175/data/name, Unexpected property at #/175data/search, Unexpected property at #/175/isLocalizable, Invalid type at #/176/data/name, Unexpected property at #/176data/search, Unexpected property at #/176/isLocalizable, Invalid type at #/177/data/name, Unexpected property at #/177data/search, Unexpected property at #/177/isLocalizable, Invalid type at #/178/data/name, Unexpected property at #/178data/search, Unexpected property at #/178/isLocalizable, Invalid type at #/179/data/name, Unexpected property at #/179data/search, Unexpected property at #/179/isLocalizable, Invalid type at #/180/data/name, Unexpected property at #/180data/search, Unexpected property at #/180/isLocalizable, Invalid type at #/181/data/name, Unexpected property at #/181data/search, Unexpected property at #/181/isLocalizable, Invalid type at #/182/data/name, Unexpected property at #/182data/search, Unexpected property at #/182/isLocalizable, Invalid type at #/183/data/name, Unexpected property at #/183data/search, Unexpected property at #/183/isLocalizable, Invalid type at #/184/data/name, Unexpected property at #/184data/search, Unexpected property at #/184/isLocalizable, Invalid type at #/185/data/name, Unexpected property at #/185data/search, Unexpected property at #/185/isLocalizable, Invalid type at #/186/data/name, Unexpected property at #/186data/search, Unexpected property at #/186/isLocalizable, Invalid type at #/187/data/name, Unexpected property at #/187data/search, Unexpected property at #/187/isLocalizable, Invalid type at #/188/data/name, Unexpected property at #/188data/search, Unexpected property at #/188/isLocalizable, Invalid type at #/189/data/name, Unexpected property at #/189data/search, Unexpected property at #/189/isLocalizable, Invalid type at #/190/data/name, Unexpected property at #/190data/search, Unexpected property at #/190/isLocalizable, Invalid type at #/191/data/name, Unexpected property at #/191data/search, Unexpected property at #/191/isLocalizable, Invalid type at #/192/data/name, Unexpected property at #/192data/search, Unexpected property at #/192/isLocalizable, Invalid type at #/193/data/name, Unexpected property at #/193data/search, Unexpected property at #/193/isLocalizable, Invalid type at #/194/data/name, Unexpected property at #/194data/search, Unexpected property at #/194/isLocalizable, Invalid type at #/195/data/name, Unexpected property at #/195data/search, Unexpected property at #/195/isLocalizable, Invalid type at #/196/data/name, Unexpected property at #/196data/search, Unexpected property at #/196/isLocalizable, Invalid type at #/197/data/name, Unexpected property at #/197data/search, Unexpected property at #/197/isLocalizable, Invalid type at #/198/data/name, Unexpected property at #/198data/search, Unexpected property at #/198/isLocalizable, Invalid type at #/199/data/name, Unexpected property at #/199data/search, Unexpected property at #/199/isLocalizable, Invalid type at #/200/data/name, Unexpected property at #/200data/search, Unexpected property at #/200/isLocalizable, Invalid type at #/201/data/name, Unexpected property at #/201data/search, Unexpected property at #/201/isLocalizable, Invalid type at #/202/data/name, Unexpected property at #/202data/search, Unexpected property at #/202/isLocalizable, Invalid type at #/203/data/name, Unexpected property at #/203data/search, Unexpected property at #/203/isLocalizable, Invalid type at #/204/data/name, Unexpected property at #/204data/search, Unexpected property at #/204/isLocalizable, Invalid type at #/205/data/name, Unexpected property at #/205data/search, Unexpected property at #/205/isLocalizable, Invalid type at #/206/data/name, Unexpected property at #/206data/search, Unexpected property at #/206/isLocalizable, Invalid type at #/207/data/name, Unexpected property at #/207data/search, Unexpected property at #/207/isLocalizable, Invalid type at #/208/data/name, Unexpected property at #/208data/search, Unexpected property at #/208/isLocalizable, Invalid type at #/209/data/name, Unexpected property at #/209data/search, Unexpected property at #/209/isLocalizable, Invalid type at #/210/data/name, Unexpected property at #/210data/search, Unexpected property at #/210/isLocalizable, Invalid type at #/211/data/name, Unexpected property at #/211data/search, Unexpected property at #/211/isLocalizable, Invalid type at #/212/data/name, Unexpected property at #/212data/search, Unexpected property at #/212/isLocalizable, Invalid type at #/213/data/name, Unexpected property at #/213data/search, Unexpected property at #/213/isLocalizable, Invalid type at #/214/data/name, Unexpected property at #/214data/search, Unexpected property at #/214/isLocalizable, Invalid type at #/215/data/name, Unexpected property at #/215data/search, Unexpected property at #/215/isLocalizable, Invalid type at #/216/data/name, Unexpected property at #/216data/search, Unexpected property at #/216/isLocalizable, Invalid type at #/217/data/name, Unexpected property at #/217data/search, Unexpected property at #/217/isLocalizable, Invalid type at #/218/data/name, Unexpected property at #/218data/search, Unexpected property at #/218/isLocalizable, Invalid type at #/219/data/name, Unexpected property at #/219data/search, Unexpected property at #/219/isLocalizable, Invalid type at #/220/data/name, Unexpected property at #/220data/search, Unexpected property at #/220/isLocalizable, Invalid type at #/221/data/name, Unexpected property at #/221data/search, Unexpected property at #/221/isLocalizable, Invalid type at #/222/data/name, Unexpected property at #/222data/search, Unexpected property at #/222/isLocalizable, Invalid type at #/223/data/name, Unexpected property at #/223data/search, Unexpected property at #/223/isLocalizable, Invalid type at #/224/data/name, Unexpected property at #/224data/search, Unexpected property at #/224/isLocalizable, Invalid type at #/225/data/name, Unexpected property at #/225data/search, Unexpected property at #/225/isLocalizable, Invalid type at #/226/data/name, Unexpected property at #/226data/search, Unexpected property at #/226/isLocalizable, Invalid type at #/227/data/name, Unexpected property at #/227data/search, Unexpected property at #/227/isLocalizable, Invalid type at #/228/data/name, Unexpected property at #/228data/search, Unexpected property at #/228/isLocalizable, Invalid type at #/229/data/name, Unexpected property at #/229data/search, Unexpected property at #/229/isLocalizable, Invalid type at #/230/data/name, Unexpected property at #/230data/search, Unexpected property at #/230/isLocalizable, Invalid type at #/231/data/name, Unexpected property at #/231data/search, Unexpected property at #/231/isLocalizable, Invalid type at #/232/data/name, Unexpected property at #/232data/search, Unexpected property at #/232/isLocalizable, Invalid type at #/233/data/name, Unexpected property at #/233data/search, Unexpected property at #/233/isLocalizable, Invalid type at #/234/data/name, Unexpected property at #/234data/search, Unexpected property at #/234/isLocalizable, Invalid type at #/235/data/name, Unexpected property at #/235data/search, Unexpected property at #/235/isLocalizable, Invalid type at #/236/data/name, Unexpected property at #/236data/search, Unexpected property at #/236/isLocalizable, Invalid type at #/237/data/name, Unexpected property at #/237data/search, Unexpected property at #/237/isLocalizable, Invalid type at #/238/data/name, Unexpected property at #/238data/search, Unexpected property at #/238/isLocalizable, Invalid type at #/239/data/name, Unexpected property at #/239data/search, Unexpected property at #/239/isLocalizable, Invalid type at #/240/data/name, Unexpected property at #/240data/search, Unexpected property at #/240/isLocalizable, Invalid type at #/241/data/name, Unexpected property at #/241data/search, Unexpected property at #/241/isLocalizable, Invalid type at #/242/data/name, Unexpected property at #/242data/search, Unexpected property at #/242/isLocalizable, Invalid type at #/243/data/name, Unexpected property at #/243data/search, Unexpected property at #/243/isLocalizable, Invalid type at #/244/data/name, Unexpected property at #/244data/search, Unexpected property at #/244/isLocalizable, Invalid type at #/245/data/name, Unexpected property at #/245data/search, Unexpected property at #/245/isLocalizable, Invalid type at #/246/data/name, Unexpected property at #/246data/search, Unexpected property at #/246/isLocalizable, Invalid type at #/247/data/name, Unexpected property at #/247data/search, Unexpected property at #/247/isLocalizable, Invalid type at #/248/data/name, Unexpected property at #/248data/search, Unexpected property at #/248/isLocalizable, Invalid type at #/249/data/name, Unexpected property at #/249data/search, Unexpected property at #/249/isLocalizable, Invalid type at #/250/data/name, Unexpected property at #/250data/search, Unexpected property at #/250/isLocalizable, Invalid type at #/251/data/name, Unexpected property at #/251data/search, Unexpected property at #/251/isLocalizable, Invalid type at #/252/data/name, Unexpected property at #/252data/search, Unexpected property at #/252/isLocalizable, Invalid type at #/253/data/name, Unexpected property at #/253data/search, Unexpected property at #/253/isLocalizable, Invalid type at #/254/data/name, Unexpected property at #/254data/search, Unexpected property at #/254/isLocalizable, Invalid type at #/255/data/name, Unexpected property at #/255data/search, Unexpected property at #/255/isLocalizable, Invalid type at #/256/data/name, Unexpected property at #/256data/search, Unexpected property at #/256/isLocalizable, Invalid type at #/257/data/name, Unexpected property at #/257data/search, Unexpected property at #/257/isLocalizable, Invalid type at #/258/data/name, Unexpected property at #/258data/search, Unexpected property at #/258/isLocalizable, Invalid type at #/259/data/name, Unexpected property at #/259data/search, Unexpected property at #/259/isLocalizable, Invalid type at #/260/data/name, Unexpected property at #/260data/search, Unexpected property at #/260/isLocalizable, Invalid type at #/261/data/name, Unexpected property at #/261data/search, Unexpected property at #/261/isLocalizable, Invalid type at #/262/data/name, Unexpected property at #/262data/search, Unexpected property at #/262/isLocalizable, Invalid type at #/263/data/name, Unexpected property at #/263data/search, Unexpected property at #/263/isLocalizable, Invalid type at #/264/data/name, Unexpected property at #/264data/search, Unexpected property at #/264/isLocalizable, Invalid type at #/265/data/name, Unexpected property at #/265data/search, Unexpected property at #/265/isLocalizable, Invalid type at #/266/data/name, Unexpected property at #/266data/search, Unexpected property at #/266/isLocalizable, Invalid type at #/267/data/name, Unexpected property at #/267data/search, Unexpected property at #/267/isLocalizable, Invalid type at #/268/data/name, Unexpected property at #/268data/search, Unexpected property at #/268/isLocalizable, Invalid type at #/269/data/name, Unexpected property at #/269data/search, Unexpected property at #/269/isLocalizable, Invalid type at #/270/data/name, Unexpected property at #/270data/search, Unexpected property at #/270/isLocalizable, Invalid type at #/271/data/name, Unexpected property at #/271data/search, Unexpected property at #/271/isLocalizable, Invalid type at #/272/data/name, Unexpected property at #/272data/search, Unexpected property at #/272/isLocalizable, Invalid type at #/273/data/name, Unexpected property at #/273data/search, Unexpected property at #/273/isLocalizable, Invalid type at #/274/data/name, Unexpected property at #/274data/search, Unexpected property at #/274/isLocalizable, Invalid type at #/275/data/name, Unexpected property at #/275data/search, Unexpected property at #/275/isLocalizable, Invalid type at #/276/data/name, Unexpected property at #/276data/search, Unexpected property at #/276/isLocalizable, Invalid type at #/277/data/name, Unexpected property at #/277data/search, Unexpected property at #/277/isLocalizable, Invalid type at #/278/data/name, Unexpected property at #/278data/search, Unexpected property at #/278/isLocalizable, Invalid type at #/279/data/name, Unexpected property at #/279data/search, Unexpected property at #/279/isLocalizable, Invalid type at #/280/data/name, Unexpected property at #/280data/search, Unexpected property at #/280/isLocalizable, Invalid type at #/281/data/name, Unexpected property at #/281data/search, Unexpected property at #/281/isLocalizable, Invalid type at #/282/data/name, Unexpected property at #/282data/search, Unexpected property at #/282/isLocalizable, Invalid type at #/283/data/name, Unexpected property at #/283data/search, Unexpected property at #/283/isLocalizable, Invalid type at #/284/data/name, Unexpected property at #/284data/search, Unexpected property at #/284/isLocalizable, Invalid type at #/285/data/name, Unexpected property at #/285data/search, Unexpected property at #/285/isLocalizable, Invalid type at #/286/data/name, Unexpected property at #/286data/search, Unexpected property at #/286/isLocalizable, Invalid type at #/287/data/name, Unexpected property at #/287data/search, Unexpected property at #/287/isLocalizable, Invalid type at #/288/data/name, Unexpected property at #/288data/search, Unexpected property at #/288/isLocalizable, Invalid type at #/289/data/name, Unexpected property at #/289data/search, Unexpected property at #/289/isLocalizable, Invalid type at #/290/data/name, Unexpected property at #/290data/search, Unexpected property at #/290/isLocalizable, Invalid type at #/291/data/name, Unexpected property at #/291data/search, Unexpected property at #/291/isLocalizable, Invalid type at #/292/data/name, Unexpected property at #/292data/search, Unexpected property at #/292/isLocalizable, Invalid type at #/293/data/name, Unexpected property at #/293data/search, Unexpected property at #/293/isLocalizable, Invalid type at #/294/data/name, Unexpected property at #/294data/search, Unexpected property at #/294/isLocalizable, Invalid type at #/295/data/name, Unexpected property at #/295data/search, Unexpected property at #/295/isLocalizable, Invalid type at #/296/data/name, Unexpected property at #/296data/search, Unexpected property at #/296/isLocalizable, Invalid type at #/297/data/name, Unexpected property at #/297data/search, Unexpected property at #/297/isLocalizable, Invalid type at #/298/data/name, Unexpected property at #/298data/search, Unexpected property at #/298/isLocalizable, Invalid type at #/299/data/name, Unexpected property at #/299data/search, Unexpected property at #/299/isLocalizable, Invalid type at #/300/data/name, Unexpected property at #/300data/search, Unexpected property at #/300/isLocalizable, Unexpected property at #/301data/search, Unexpected property at #/302data/search, Unexpected property at #/303data/search, Unexpected property at #/304data/search, Unexpected property at #/305data/search, Unexpected property at #/306data/search, Unexpected property at #/307data/search, Unexpected property at #/308data/search, Unexpected property at #/309data/search, Unexpected property at #/310data/search, Unexpected property at #/311data/search, Unexpected property at #/312data/search, Unexpected property at #/313data/search, Unexpected property at #/314data/search, Unexpected property at #/315data/search, Unexpected property at #/316data/search, Unexpected property at #/317data/search, Unexpected property at #/318data/search, Unexpected property at #/319data/search, Unexpected property at #/320data/search, Unexpected property at #/321data/search, Unexpected property at #/322data/search, Unexpected property at #/323data/search, Unexpected property at #/324data/tooltipDescription, Unexpected property at #/324data/iconImageUrl, Unexpected property at #/324data/categories, Unexpected property at #/325data/tooltipDescription, Unexpected property at #/325data/iconImageUrl, Unexpected property at #/325data/categories, Invalid type at #/326/data/article/content, Unexpected property at #/326data/article/embeddedLinkData, Unexpected property at #/326data/article/moreInfoLinks, Unexpected property at #/326/requireClientTags, Invalid type at #/327/data/article/content, Unexpected property at #/327data/article/embeddedLinkData, Unexpected property at #/327data/article/moreInfoLinks, Unexpected property at #/327/requireClientTags, Invalid type at #/328/data/description, Invalid type at #/328/data/name, Invalid type at #/328/data/article/content, Unexpected property at #/328data/article/embeddedLinkData, Unexpected property at #/328data/article/moreInfoLinks, Unexpected property at #/328/isLocalizable, Unexpected property at #/328/requireClientTags, Invalid type at #/329/data/description, Invalid type at #/329/data/name, Invalid type at #/329/data/article/content, Unexpected property at #/329data/article/sectionLinks, Unexpected property at #/329data/article/embeddedLinkData, Unexpected property at #/329data/article/moreInfoLinks, Unexpected property at #/329/isLocalizable, Unexpected property at #/329/requireClientTags, Invalid type at #/330/data/description, Invalid type at #/330/data/name, Invalid type at #/330/data/article/content, Unexpected property at #/330data/article/sectionLinks, Unexpected property at #/330data/article/embeddedLinkData, Unexpected property at #/330data/article/moreInfoLinks, Unexpected property at #/330/isLocalizable, Unexpected property at #/330/requireClientTags, Invalid type at #/331/data/description, Invalid type at #/331/data/name, Invalid type at #/331/data/article/content, Unexpected property at #/331data/article/sectionLinks, Unexpected property at #/331data/article/embeddedLinkData, Unexpected property at #/331data/article/moreInfoLinks, Unexpected property at #/331/isLocalizable, Unexpected property at #/331/requireClientTags, Invalid type at #/332/data/description, Invalid type at #/332/data/name, Invalid type at #/332/data/article/content, Unexpected property at #/332data/article/embeddedLinkData, Unexpected property at #/332data/article/moreInfoLinks, Unexpected property at #/332/isLocalizable, Invalid type at #/333/data/description, Invalid type at #/333/data/name, Invalid type at #/333/data/article/content, Unexpected property at #/333data/article/embeddedLinkData, Unexpected property at #/333data/article/moreInfoLinks, Unexpected property at #/333/isLocalizable, Invalid type at #/334/data/description, Invalid type at #/334/data/name, Invalid type at #/334/data/article/content, Unexpected property at #/334/isLocalizable, Invalid type at #/336/data/description, Invalid type at #/336/data/name, Unexpected property at #/336data/tooltipDescription, Unexpected property at #/336data/iconImageUrl, Unexpected property at #/336data/thumbnailImageUrl, Unexpected property at #/336data/ipsQuery, Unexpected property at #/336/isLocalizable, Invalid type at #/337/data/contentList/name, Unexpected property at #/337/isLocalizable, Invalid type at #/338/data/description, Invalid type at #/338/data/name, Unexpected property at #/338data/tooltipDescription, Unexpected property at #/338data/iconImageUrl, Unexpected property at #/338data/thumbnailImageUrl, Unexpected property at #/338data/isNew, Unexpected property at #/338data/ipsQuery, Unexpected property at #/338/isLocalizable, Invalid type at #/339/data/description, Invalid type at #/339/data/name, Invalid type at #/339/data/article/content, Unexpected property at #/339/isLocalizable, Invalid type at #/340/data/contentList/name, Unexpected property at #/340/isLocalizable, Invalid type at #/341/data/description, Invalid type at #/341/data/name, Unexpected property at #/341data/tooltipDescription, Unexpected property at #/341data/thumbnailImageUrl, Unexpected property at #/341data/iconImageUrl, Unexpected property at #/341data/ipsQuery, Unexpected property at #/341/isLocalizable, Invalid type at #/342/data/description, Invalid type at #/342/data/name, Invalid type at #/342/data/article/content, Unexpected property at #/342data/article/sectionLinks, Unexpected property at #/342/isLocalizable, Invalid type at #/343/data/description, Invalid type at #/343/data/name, Invalid type at #/343/data/article/content, Unexpected property at #/343data/article/jumpLinks, Unexpected property at #/343data/article/embeddedLinkData, Unexpected property at #/343data/article/moreInfoLinks, Unexpected property at #/343/isLocalizable, Invalid type at #/344/data/description, Invalid type at #/344/data/name, Invalid type at #/344/data/article/content, Unexpected property at #/344data/article/embeddedLinkData, Unexpected property at #/344data/article/moreInfoLinks, Unexpected property at #/344/isLocalizable, Invalid type at #/345/data/description, Invalid type at #/345/data/name, Unexpected property at #/345data/tooltipDescription, Unexpected property at #/345data/iconImageUrl, Unexpected property at #/345data/ipsQuery, Unexpected property at #/345/isLocalizable, Invalid type at #/346/data/description, Invalid type at #/346/data/name, Unexpected property at #/346data/tooltipDescription, Unexpected property at #/346data/iconImageUrl, Unexpected property at #/346data/thumbnailImageUrl, Unexpected property at #/346data/ipsQuery, Unexpected property at #/346/isLocalizable, Invalid type at #/347/data/description, Invalid type at #/347/data/name, Unexpected property at #/347data/tooltipDescription, Unexpected property at #/347data/iconImageUrl, Unexpected property at #/347data/thumbnailImageUrl, Unexpected property at #/347data/ipsQuery, Unexpected property at #/347/isLocalizable, Invalid type at #/349/data/description, Invalid type at #/349/data/name, Unexpected property at #/349data/tooltipDescription, Unexpected property at #/349data/iconImageUrl, Unexpected property at #/349data/thumbnailImageUrl, Unexpected property at #/349data/ipsQuery, Unexpected property at #/349/isLocalizable, Invalid type at #/350/data/description, Invalid type at #/350/data/name, Unexpected property at #/350data/tooltipDescription, Unexpected property at #/350data/iconImageUrl, Unexpected property at #/350data/thumbnailImageUrl, Unexpected property at #/350data/ipsQuery, Unexpected property at #/350/isLocalizable, Unexpected property at #/351data/tooltipDescription, Unexpected property at #/351data/iconImageUrl, Unexpected property at #/351data/ipsQuery, Invalid type at #/354/data/description, Invalid type at #/354/data/name, Invalid type at #/354/data/article/content, Unexpected property at #/354data/article/sectionLinks, Unexpected property at #/354data/article/embeddedLinkData, Unexpected property at #/354data/article/moreInfoLinks, Unexpected property at #/354data/isNew, Unexpected property at #/354/isLocalizable, Invalid type at #/355/data/description, Invalid type at #/355/data/name, Invalid type at #/355/data/article/content, Unexpected property at #/355data/article/sectionLinks, Unexpected property at #/355data/article/embeddedLinkData, Unexpected property at #/355data/article/moreInfoLinks, Unexpected property at #/355/isLocalizable, Unexpected property at #/356data/search, Invalid type at #/357/data/name, Unexpected property at #/357data/search, Unexpected property at #/357/isLocalizable, Invalid type at #/358/data/name, Unexpected property at #/358data/search, Unexpected property at #/358/isLocalizable, Invalid type at #/359/data/name, Unexpected property at #/359data/search, Unexpected property at #/359/isLocalizable, Invalid type at #/360/data/article/content, Invalid type at #/361/data/article/content, Invalid type at #/362/data/description, Invalid type at #/362/data/name, Invalid type at #/362/data/article/content, Unexpected property at #/362data/article/sectionLinks, Unexpected property at #/362data/article/embeddedLinkData, Unexpected property at #/362data/article/moreInfoLinks, Unexpected property at #/362data/isNew, Unexpected property at #/362/isLocalizable, Invalid type at #/363/data/description, Invalid type at #/363/data/name, Invalid type at #/363/data/article/content, Unexpected property at #/363data/article/embeddedLinkData, Unexpected property at #/363data/article/moreInfoLinks, Unexpected property at #/363/isLocalizable, Invalid type at #/364/data/contentList/name, Unexpected property at #/364data/contentList/bannersTag, Invalid type at #/364/data/name, Unexpected property at #/364data/tooltipDescription, Unexpected property at #/364data/iconImageUrl, Unexpected property at #/364/isLocalizable, Unexpected property at #/364/requireClientTags, Invalid type at #/365/data/contentList/name, Unexpected property at #/365data/contentList/bannersTag, Unexpected property at #/365data/contentList/avatarSpecific, Invalid type at #/365/data/name, Unexpected property at #/365data/tooltipDescription, Unexpected property at #/365data/iconImageUrl, Unexpected property at #/365/isLocalizable, Invalid type at #/366/data/contentList/name, Unexpected property at #/366data/contentList/avatarSpecific, Unexpected property at #/366data/contentList/bannersTag, Invalid type at #/366/data/name, Unexpected property at #/366data/tooltipDescription, Unexpected property at #/366data/iconImageUrl, Unexpected property at #/366/isLocalizable, Invalid type at #/367/data/contentList/name, Unexpected property at #/367data/contentList/bannersTag, Unexpected property at #/367data/contentList/avatarSpecific, Invalid type at #/367/data/name, Unexpected property at #/367data/iconImageUrl, Unexpected property at #/367data/tooltipDescription, Unexpected property at #/367/isLocalizable, Invalid type at #/368/data/contentList/name, Unexpected property at #/368data/contentList/bannersTag, Invalid type at #/368/data/name, Unexpected property at #/368data/iconImageUrl, Unexpected property at #/368data/tooltipDescription, Unexpected property at #/368/isLocalizable, Invalid type at #/369/data/contentList/name, Unexpected property at #/369data/contentList/shortName, Unexpected property at #/369data/contentList/bannersTag, Invalid type at #/369/data/name, Unexpected property at #/369data/shortName, Unexpected property at #/369data/tooltipDescription, Unexpected property at #/369data/iconImageUrl, Unexpected property at #/369/isLocalizable, Invalid type at #/370/data/contentList/name, Unexpected property at #/370data/contentList/bannersTag, Invalid type at #/370/data/name, Unexpected property at #/370data/tooltipDescription, Unexpected property at #/370data/iconImageUrl, Unexpected property at #/370/isLocalizable, Unexpected property at #/370/requireClientTags, Invalid type at #/371/data/contentList/name, Unexpected property at #/371data/contentList/bannersTag, Unexpected property at #/371data/contentList/avatarSpecific, Invalid type at #/371/data/name, Unexpected property at #/371data/tooltipDescription, Unexpected property at #/371data/iconImageUrl, Unexpected property at #/371/isLocalizable, Invalid type at #/372/data/contentList/name, Unexpected property at #/372data/contentList/bannersTag, Unexpected property at #/372data/contentList/avatarSpecific, Invalid type at #/372/data/name, Unexpected property at #/372data/iconImageUrl, Unexpected property at #/372data/tooltipDescription, Unexpected property at #/372/isLocalizable, Invalid type at #/373/data/contentList/name, Unexpected property at #/373data/contentList/bannersTag, Invalid type at #/373/data/name, Unexpected property at #/373data/tooltipDescription, Unexpected property at #/373data/iconImageUrl, Unexpected property at #/373/isLocalizable, Invalid type at #/374/data/contentList/name, Unexpected property at #/374data/contentList/avatarSpecific, Unexpected property at #/374data/contentList/bannersTag, Invalid type at #/374/data/name, Unexpected property at #/374data/tooltipDescription, Unexpected property at #/374data/iconImageUrl, Unexpected property at #/374/isLocalizable, Invalid type at #/375/data/contentList/name, Unexpected property at #/375data/contentList/bannersTag, Invalid type at #/375/data/name, Unexpected property at #/375data/tooltipDescription, Unexpected property at #/375data/iconImageUrl, Unexpected property at #/375/isLocalizable, Invalid type at #/376/data/contentList/name, Unexpected property at #/376data/contentList/bannersTag, Unexpected property at #/376data/contentList/avatarSpecific, Invalid type at #/376/data/name, Unexpected property at #/376data/iconImageUrl, Unexpected property at #/376data/tooltipDescription, Unexpected property at #/376/isLocalizable, Invalid type at #/377/data/contentList/name, Unexpected property at #/377data/contentList/avatarSpecific, Unexpected property at #/377data/contentList/bannersTag, Invalid type at #/377/data/name, Unexpected property at #/377data/tooltipDescription, Unexpected property at #/377data/iconImageUrl, Unexpected property at #/377/isLocalizable.
+Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPressed/command, Unexpected property at #/1/requireClientTags, Cannot fit value in explicit enum at #/2/data/onPressed/command, Unexpected property at #/2/requireClientTags, Cannot fit value in explicit enum at #/3/data/onPressed/command, Unexpected property at #/3/requireClientTags, Cannot fit value in explicit enum at #/4/data/onPressed/command, Cannot fit value in explicit enum at #/5/data/onPressed/command, Invalid type at #/26/data/description, Unexpected property at #/26data/iconImageUrl, Unexpected property at #/26data/tooltipDescription, Unexpected property at #/26/isLocalizable, Unexpected property at #/26/requireClientTags, Invalid type at #/27/data/description, Unexpected property at #/27data/iconImageUrl, Unexpected property at #/27data/tooltipDescription, Unexpected property at #/27/isLocalizable, Unexpected property at #/27/requireClientTags, Invalid type at #/28/data/name, Unexpected property at #/28data/search, Unexpected property at #/28/isLocalizable, Invalid type at #/29/data/name, Unexpected property at #/29data/search, Unexpected property at #/29/isLocalizable, Invalid type at #/30/data/name, Unexpected property at #/30data/search, Unexpected property at #/30/isLocalizable, Invalid type at #/31/data/name, Unexpected property at #/31data/search, Unexpected property at #/31/isLocalizable, Invalid type at #/32/data/name, Unexpected property at #/32data/search, Unexpected property at #/32/isLocalizable, Invalid type at #/33/data/name, Unexpected property at #/33data/search, Unexpected property at #/33/isLocalizable, Invalid type at #/34/data/name, Unexpected property at #/34data/search, Unexpected property at #/34/isLocalizable, Invalid type at #/35/data/name, Unexpected property at #/35data/search, Unexpected property at #/35/isLocalizable, Invalid type at #/36/data/name, Unexpected property at #/36data/search, Unexpected property at #/36/isLocalizable, Invalid type at #/37/data/name, Unexpected property at #/37data/search, Unexpected property at #/37/isLocalizable, Invalid type at #/38/data/name, Unexpected property at #/38data/search, Unexpected property at #/38/isLocalizable, Invalid type at #/39/data/name, Unexpected property at #/39data/search, Unexpected property at #/39/isLocalizable, Invalid type at #/40/data/name, Unexpected property at #/40data/search, Unexpected property at #/40/isLocalizable, Invalid type at #/41/data/name, Unexpected property at #/41data/search, Unexpected property at #/41/isLocalizable, Invalid type at #/42/data/name, Unexpected property at #/42data/search, Unexpected property at #/42/isLocalizable, Invalid type at #/43/data/name, Unexpected property at #/43data/search, Unexpected property at #/43/isLocalizable, Invalid type at #/44/data/name, Unexpected property at #/44data/search, Unexpected property at #/44/isLocalizable, Invalid type at #/45/data/name, Unexpected property at #/45data/search, Unexpected property at #/45/isLocalizable, Invalid type at #/46/data/name, Unexpected property at #/46data/search, Unexpected property at #/46/isLocalizable, Invalid type at #/47/data/name, Unexpected property at #/47data/search, Unexpected property at #/47/isLocalizable, Invalid type at #/48/data/name, Unexpected property at #/48data/search, Unexpected property at #/48/isLocalizable, Invalid type at #/49/data/name, Unexpected property at #/49data/search, Unexpected property at #/49/isLocalizable, Invalid type at #/50/data/name, Unexpected property at #/50data/search, Unexpected property at #/50/isLocalizable, Invalid type at #/51/data/name, Unexpected property at #/51data/search, Unexpected property at #/51/isLocalizable, Invalid type at #/52/data/name, Unexpected property at #/52data/search, Unexpected property at #/52/isLocalizable, Invalid type at #/53/data/name, Unexpected property at #/53data/search, Unexpected property at #/53/isLocalizable, Invalid type at #/54/data/name, Unexpected property at #/54data/search, Unexpected property at #/54/isLocalizable, Invalid type at #/55/data/name, Unexpected property at #/55data/search, Unexpected property at #/55/isLocalizable, Invalid type at #/56/data/name, Unexpected property at #/56data/search, Unexpected property at #/56/isLocalizable, Invalid type at #/57/data/name, Unexpected property at #/57data/search, Unexpected property at #/57/isLocalizable, Invalid type at #/58/data/name, Unexpected property at #/58data/search, Unexpected property at #/58/isLocalizable, Invalid type at #/59/data/name, Unexpected property at #/59data/search, Unexpected property at #/59/isLocalizable, Invalid type at #/60/data/name, Unexpected property at #/60data/search, Unexpected property at #/60/isLocalizable, Invalid type at #/61/data/name, Unexpected property at #/61data/search, Unexpected property at #/61/isLocalizable, Invalid type at #/62/data/name, Unexpected property at #/62data/search, Unexpected property at #/62/isLocalizable, Invalid type at #/63/data/name, Unexpected property at #/63data/search, Unexpected property at #/63/isLocalizable, Invalid type at #/64/data/name, Unexpected property at #/64data/search, Unexpected property at #/64/isLocalizable, Invalid type at #/65/data/name, Unexpected property at #/65data/search, Unexpected property at #/65/isLocalizable, Invalid type at #/66/data/name, Unexpected property at #/66data/search, Unexpected property at #/66/isLocalizable, Invalid type at #/67/data/name, Unexpected property at #/67data/search, Unexpected property at #/67/isLocalizable, Invalid type at #/68/data/name, Unexpected property at #/68data/search, Unexpected property at #/68/isLocalizable, Invalid type at #/69/data/name, Unexpected property at #/69data/search, Unexpected property at #/69/isLocalizable, Invalid type at #/70/data/name, Unexpected property at #/70data/search, Unexpected property at #/70/isLocalizable, Invalid type at #/71/data/name, Unexpected property at #/71data/search, Unexpected property at #/71/isLocalizable, Invalid type at #/72/data/name, Unexpected property at #/72data/search, Unexpected property at #/72/isLocalizable, Invalid type at #/73/data/name, Unexpected property at #/73data/search, Unexpected property at #/73/isLocalizable, Invalid type at #/74/data/name, Unexpected property at #/74data/search, Unexpected property at #/74/isLocalizable, Invalid type at #/75/data/name, Unexpected property at #/75data/search, Unexpected property at #/75/isLocalizable, Invalid type at #/76/data/name, Unexpected property at #/76data/search, Unexpected property at #/76/isLocalizable, Invalid type at #/77/data/name, Unexpected property at #/77data/search, Unexpected property at #/77/isLocalizable, Invalid type at #/78/data/name, Unexpected property at #/78data/search, Unexpected property at #/78/isLocalizable, Invalid type at #/79/data/name, Unexpected property at #/79data/search, Unexpected property at #/79/isLocalizable, Invalid type at #/80/data/name, Unexpected property at #/80data/search, Unexpected property at #/80/isLocalizable, Invalid type at #/81/data/name, Unexpected property at #/81data/search, Unexpected property at #/81/isLocalizable, Invalid type at #/82/data/name, Unexpected property at #/82data/search, Unexpected property at #/82/isLocalizable, Invalid type at #/83/data/name, Unexpected property at #/83data/search, Unexpected property at #/83/isLocalizable, Invalid type at #/84/data/name, Unexpected property at #/84data/search, Unexpected property at #/84/isLocalizable, Invalid type at #/85/data/name, Unexpected property at #/85data/search, Unexpected property at #/85/isLocalizable, Invalid type at #/86/data/name, Unexpected property at #/86data/search, Unexpected property at #/86/isLocalizable, Invalid type at #/87/data/name, Unexpected property at #/87data/search, Unexpected property at #/87/isLocalizable, Invalid type at #/88/data/name, Unexpected property at #/88data/search, Unexpected property at #/88/isLocalizable, Invalid type at #/89/data/name, Unexpected property at #/89data/search, Unexpected property at #/89/isLocalizable, Invalid type at #/90/data/name, Unexpected property at #/90data/search, Unexpected property at #/90/isLocalizable, Invalid type at #/91/data/name, Unexpected property at #/91data/search, Unexpected property at #/91/isLocalizable, Invalid type at #/92/data/name, Unexpected property at #/92data/search, Unexpected property at #/92/isLocalizable, Invalid type at #/93/data/name, Unexpected property at #/93data/search, Unexpected property at #/93/isLocalizable, Invalid type at #/94/data/name, Unexpected property at #/94data/search, Unexpected property at #/94/isLocalizable, Invalid type at #/95/data/name, Unexpected property at #/95data/search, Unexpected property at #/95/isLocalizable, Invalid type at #/96/data/name, Unexpected property at #/96data/search, Unexpected property at #/96/isLocalizable, Invalid type at #/97/data/name, Unexpected property at #/97data/search, Unexpected property at #/97/isLocalizable, Invalid type at #/98/data/name, Unexpected property at #/98data/search, Unexpected property at #/98/isLocalizable, Invalid type at #/99/data/name, Unexpected property at #/99data/search, Unexpected property at #/99/isLocalizable, Invalid type at #/100/data/name, Unexpected property at #/100data/search, Unexpected property at #/100/isLocalizable, Invalid type at #/101/data/name, Unexpected property at #/101data/search, Unexpected property at #/101/isLocalizable, Invalid type at #/102/data/name, Unexpected property at #/102data/search, Unexpected property at #/102/isLocalizable, Invalid type at #/103/data/name, Unexpected property at #/103data/search, Unexpected property at #/103/isLocalizable, Invalid type at #/104/data/name, Unexpected property at #/104data/search, Unexpected property at #/104/isLocalizable, Invalid type at #/105/data/name, Unexpected property at #/105data/search, Unexpected property at #/105/isLocalizable, Invalid type at #/106/data/name, Unexpected property at #/106data/search, Unexpected property at #/106/isLocalizable, Invalid type at #/107/data/name, Unexpected property at #/107data/search, Unexpected property at #/107/isLocalizable, Invalid type at #/108/data/name, Unexpected property at #/108data/search, Unexpected property at #/108/isLocalizable, Invalid type at #/109/data/name, Unexpected property at #/109data/search, Unexpected property at #/109/isLocalizable, Invalid type at #/110/data/name, Unexpected property at #/110data/search, Unexpected property at #/110/isLocalizable, Invalid type at #/111/data/name, Unexpected property at #/111data/search, Unexpected property at #/111/isLocalizable, Invalid type at #/112/data/name, Unexpected property at #/112data/search, Unexpected property at #/112/isLocalizable, Invalid type at #/113/data/name, Unexpected property at #/113data/search, Unexpected property at #/113/isLocalizable, Invalid type at #/114/data/name, Unexpected property at #/114data/search, Unexpected property at #/114/isLocalizable, Invalid type at #/115/data/name, Unexpected property at #/115data/search, Unexpected property at #/115/isLocalizable, Invalid type at #/116/data/name, Unexpected property at #/116data/search, Unexpected property at #/116/isLocalizable, Invalid type at #/117/data/name, Unexpected property at #/117data/search, Unexpected property at #/117/isLocalizable, Invalid type at #/118/data/name, Unexpected property at #/118data/search, Unexpected property at #/118/isLocalizable, Invalid type at #/119/data/name, Unexpected property at #/119data/search, Unexpected property at #/119/isLocalizable, Invalid type at #/120/data/name, Unexpected property at #/120data/search, Unexpected property at #/120/isLocalizable, Invalid type at #/121/data/name, Unexpected property at #/121data/search, Unexpected property at #/121/isLocalizable, Invalid type at #/122/data/name, Unexpected property at #/122data/search, Unexpected property at #/122/isLocalizable, Invalid type at #/123/data/name, Unexpected property at #/123data/search, Unexpected property at #/123/isLocalizable, Invalid type at #/124/data/name, Unexpected property at #/124data/search, Unexpected property at #/124/isLocalizable, Invalid type at #/125/data/name, Unexpected property at #/125data/search, Unexpected property at #/125/isLocalizable, Invalid type at #/126/data/name, Unexpected property at #/126data/search, Unexpected property at #/126/isLocalizable, Invalid type at #/127/data/name, Unexpected property at #/127data/search, Unexpected property at #/127/isLocalizable, Invalid type at #/128/data/name, Unexpected property at #/128data/search, Unexpected property at #/128/isLocalizable, Invalid type at #/129/data/name, Unexpected property at #/129data/search, Unexpected property at #/129/isLocalizable, Invalid type at #/130/data/name, Unexpected property at #/130data/search, Unexpected property at #/130/isLocalizable, Invalid type at #/131/data/name, Unexpected property at #/131data/search, Unexpected property at #/131/isLocalizable, Invalid type at #/132/data/name, Unexpected property at #/132data/search, Unexpected property at #/132/isLocalizable, Invalid type at #/133/data/name, Unexpected property at #/133data/search, Unexpected property at #/133/isLocalizable, Invalid type at #/134/data/name, Unexpected property at #/134data/search, Unexpected property at #/134/isLocalizable, Invalid type at #/135/data/name, Unexpected property at #/135data/search, Unexpected property at #/135/isLocalizable, Invalid type at #/136/data/name, Unexpected property at #/136data/search, Unexpected property at #/136/isLocalizable, Invalid type at #/137/data/name, Unexpected property at #/137data/search, Unexpected property at #/137/isLocalizable, Invalid type at #/138/data/name, Unexpected property at #/138data/search, Unexpected property at #/138/isLocalizable, Invalid type at #/139/data/name, Unexpected property at #/139data/search, Unexpected property at #/139/isLocalizable, Invalid type at #/140/data/name, Unexpected property at #/140data/search, Unexpected property at #/140/isLocalizable, Invalid type at #/141/data/name, Unexpected property at #/141data/search, Unexpected property at #/141/isLocalizable, Invalid type at #/142/data/name, Unexpected property at #/142data/search, Unexpected property at #/142/isLocalizable, Invalid type at #/143/data/name, Unexpected property at #/143data/search, Unexpected property at #/143/isLocalizable, Invalid type at #/144/data/name, Unexpected property at #/144data/search, Unexpected property at #/144/isLocalizable, Invalid type at #/145/data/name, Unexpected property at #/145data/search, Unexpected property at #/145/isLocalizable, Invalid type at #/146/data/name, Unexpected property at #/146data/search, Unexpected property at #/146/isLocalizable, Invalid type at #/147/data/name, Unexpected property at #/147data/search, Unexpected property at #/147/isLocalizable, Invalid type at #/148/data/name, Unexpected property at #/148data/search, Unexpected property at #/148/isLocalizable, Invalid type at #/149/data/name, Unexpected property at #/149data/search, Unexpected property at #/149/isLocalizable, Invalid type at #/150/data/name, Unexpected property at #/150data/search, Unexpected property at #/150/isLocalizable, Invalid type at #/151/data/name, Unexpected property at #/151data/search, Unexpected property at #/151/isLocalizable, Invalid type at #/152/data/name, Unexpected property at #/152data/search, Unexpected property at #/152/isLocalizable, Invalid type at #/153/data/name, Unexpected property at #/153data/search, Unexpected property at #/153/isLocalizable, Invalid type at #/154/data/name, Unexpected property at #/154data/search, Unexpected property at #/154/isLocalizable, Invalid type at #/155/data/name, Unexpected property at #/155data/search, Unexpected property at #/155/isLocalizable, Invalid type at #/156/data/name, Unexpected property at #/156data/search, Unexpected property at #/156/isLocalizable, Invalid type at #/157/data/name, Unexpected property at #/157data/search, Unexpected property at #/157/isLocalizable, Invalid type at #/158/data/name, Unexpected property at #/158data/search, Unexpected property at #/158/isLocalizable, Invalid type at #/159/data/name, Unexpected property at #/159data/search, Unexpected property at #/159/isLocalizable, Invalid type at #/160/data/name, Unexpected property at #/160data/search, Unexpected property at #/160/isLocalizable, Invalid type at #/161/data/name, Unexpected property at #/161data/search, Unexpected property at #/161/isLocalizable, Invalid type at #/162/data/name, Unexpected property at #/162data/search, Unexpected property at #/162/isLocalizable, Invalid type at #/163/data/name, Unexpected property at #/163data/search, Unexpected property at #/163/isLocalizable, Invalid type at #/164/data/name, Unexpected property at #/164data/search, Unexpected property at #/164/isLocalizable, Invalid type at #/165/data/name, Unexpected property at #/165data/search, Unexpected property at #/165/isLocalizable, Invalid type at #/166/data/name, Unexpected property at #/166data/search, Unexpected property at #/166/isLocalizable, Invalid type at #/167/data/name, Unexpected property at #/167data/search, Unexpected property at #/167/isLocalizable, Invalid type at #/168/data/name, Unexpected property at #/168data/search, Unexpected property at #/168/isLocalizable, Invalid type at #/169/data/name, Unexpected property at #/169data/search, Unexpected property at #/169/isLocalizable, Invalid type at #/170/data/name, Unexpected property at #/170data/search, Unexpected property at #/170/isLocalizable, Invalid type at #/171/data/name, Unexpected property at #/171data/search, Unexpected property at #/171/isLocalizable, Invalid type at #/172/data/name, Unexpected property at #/172data/search, Unexpected property at #/172/isLocalizable, Invalid type at #/173/data/name, Unexpected property at #/173data/search, Unexpected property at #/173/isLocalizable, Invalid type at #/174/data/name, Unexpected property at #/174data/search, Unexpected property at #/174/isLocalizable, Invalid type at #/175/data/name, Unexpected property at #/175data/search, Unexpected property at #/175/isLocalizable, Invalid type at #/176/data/name, Unexpected property at #/176data/search, Unexpected property at #/176/isLocalizable, Invalid type at #/177/data/name, Unexpected property at #/177data/search, Unexpected property at #/177/isLocalizable, Invalid type at #/178/data/name, Unexpected property at #/178data/search, Unexpected property at #/178/isLocalizable, Invalid type at #/179/data/name, Unexpected property at #/179data/search, Unexpected property at #/179/isLocalizable, Invalid type at #/180/data/name, Unexpected property at #/180data/search, Unexpected property at #/180/isLocalizable, Invalid type at #/181/data/name, Unexpected property at #/181data/search, Unexpected property at #/181/isLocalizable, Invalid type at #/182/data/name, Unexpected property at #/182data/search, Unexpected property at #/182/isLocalizable, Invalid type at #/183/data/name, Unexpected property at #/183data/search, Unexpected property at #/183/isLocalizable, Invalid type at #/184/data/name, Unexpected property at #/184data/search, Unexpected property at #/184/isLocalizable, Invalid type at #/185/data/name, Unexpected property at #/185data/search, Unexpected property at #/185/isLocalizable, Invalid type at #/186/data/name, Unexpected property at #/186data/search, Unexpected property at #/186/isLocalizable, Invalid type at #/187/data/name, Unexpected property at #/187data/search, Unexpected property at #/187/isLocalizable, Invalid type at #/188/data/name, Unexpected property at #/188data/search, Unexpected property at #/188/isLocalizable, Invalid type at #/189/data/name, Unexpected property at #/189data/search, Unexpected property at #/189/isLocalizable, Invalid type at #/190/data/name, Unexpected property at #/190data/search, Unexpected property at #/190/isLocalizable, Invalid type at #/191/data/name, Unexpected property at #/191data/search, Unexpected property at #/191/isLocalizable, Invalid type at #/192/data/name, Unexpected property at #/192data/search, Unexpected property at #/192/isLocalizable, Invalid type at #/193/data/name, Unexpected property at #/193data/search, Unexpected property at #/193/isLocalizable, Invalid type at #/194/data/name, Unexpected property at #/194data/search, Unexpected property at #/194/isLocalizable, Invalid type at #/195/data/name, Unexpected property at #/195data/search, Unexpected property at #/195/isLocalizable, Invalid type at #/196/data/name, Unexpected property at #/196data/search, Unexpected property at #/196/isLocalizable, Invalid type at #/197/data/name, Unexpected property at #/197data/search, Unexpected property at #/197/isLocalizable, Invalid type at #/198/data/name, Unexpected property at #/198data/search, Unexpected property at #/198/isLocalizable, Invalid type at #/199/data/name, Unexpected property at #/199data/search, Unexpected property at #/199/isLocalizable, Invalid type at #/200/data/name, Unexpected property at #/200data/search, Unexpected property at #/200/isLocalizable, Invalid type at #/201/data/name, Unexpected property at #/201data/search, Unexpected property at #/201/isLocalizable, Invalid type at #/202/data/name, Unexpected property at #/202data/search, Unexpected property at #/202/isLocalizable, Invalid type at #/203/data/name, Unexpected property at #/203data/search, Unexpected property at #/203/isLocalizable, Invalid type at #/204/data/name, Unexpected property at #/204data/search, Unexpected property at #/204/isLocalizable, Invalid type at #/205/data/name, Unexpected property at #/205data/search, Unexpected property at #/205/isLocalizable, Invalid type at #/206/data/name, Unexpected property at #/206data/search, Unexpected property at #/206/isLocalizable, Invalid type at #/207/data/name, Unexpected property at #/207data/search, Unexpected property at #/207/isLocalizable, Invalid type at #/208/data/name, Unexpected property at #/208data/search, Unexpected property at #/208/isLocalizable, Invalid type at #/209/data/name, Unexpected property at #/209data/search, Unexpected property at #/209/isLocalizable, Invalid type at #/210/data/name, Unexpected property at #/210data/search, Unexpected property at #/210/isLocalizable, Invalid type at #/211/data/name, Unexpected property at #/211data/search, Unexpected property at #/211/isLocalizable, Invalid type at #/212/data/name, Unexpected property at #/212data/search, Unexpected property at #/212/isLocalizable, Invalid type at #/213/data/name, Unexpected property at #/213data/search, Unexpected property at #/213/isLocalizable, Invalid type at #/214/data/name, Unexpected property at #/214data/search, Unexpected property at #/214/isLocalizable, Invalid type at #/215/data/name, Unexpected property at #/215data/search, Unexpected property at #/215/isLocalizable, Invalid type at #/216/data/name, Unexpected property at #/216data/search, Unexpected property at #/216/isLocalizable, Invalid type at #/217/data/name, Unexpected property at #/217data/search, Unexpected property at #/217/isLocalizable, Invalid type at #/218/data/name, Unexpected property at #/218data/search, Unexpected property at #/218/isLocalizable, Invalid type at #/219/data/name, Unexpected property at #/219data/search, Unexpected property at #/219/isLocalizable, Invalid type at #/220/data/name, Unexpected property at #/220data/search, Unexpected property at #/220/isLocalizable, Invalid type at #/221/data/name, Unexpected property at #/221data/search, Unexpected property at #/221/isLocalizable, Invalid type at #/222/data/name, Unexpected property at #/222data/search, Unexpected property at #/222/isLocalizable, Invalid type at #/223/data/name, Unexpected property at #/223data/search, Unexpected property at #/223/isLocalizable, Invalid type at #/224/data/name, Unexpected property at #/224data/search, Unexpected property at #/224/isLocalizable, Invalid type at #/225/data/name, Unexpected property at #/225data/search, Unexpected property at #/225/isLocalizable, Invalid type at #/226/data/name, Unexpected property at #/226data/search, Unexpected property at #/226/isLocalizable, Invalid type at #/227/data/name, Unexpected property at #/227data/search, Unexpected property at #/227/isLocalizable, Invalid type at #/228/data/name, Unexpected property at #/228data/search, Unexpected property at #/228/isLocalizable, Invalid type at #/229/data/name, Unexpected property at #/229data/search, Unexpected property at #/229/isLocalizable, Invalid type at #/230/data/name, Unexpected property at #/230data/search, Unexpected property at #/230/isLocalizable, Invalid type at #/231/data/name, Unexpected property at #/231data/search, Unexpected property at #/231/isLocalizable, Invalid type at #/232/data/name, Unexpected property at #/232data/search, Unexpected property at #/232/isLocalizable, Invalid type at #/233/data/name, Unexpected property at #/233data/search, Unexpected property at #/233/isLocalizable, Invalid type at #/234/data/name, Unexpected property at #/234data/search, Unexpected property at #/234/isLocalizable, Invalid type at #/235/data/name, Unexpected property at #/235data/search, Unexpected property at #/235/isLocalizable, Invalid type at #/236/data/name, Unexpected property at #/236data/search, Unexpected property at #/236/isLocalizable, Invalid type at #/237/data/name, Unexpected property at #/237data/search, Unexpected property at #/237/isLocalizable, Invalid type at #/238/data/name, Unexpected property at #/238data/search, Unexpected property at #/238/isLocalizable, Invalid type at #/239/data/name, Unexpected property at #/239data/search, Unexpected property at #/239/isLocalizable, Invalid type at #/240/data/name, Unexpected property at #/240data/search, Unexpected property at #/240/isLocalizable, Invalid type at #/241/data/name, Unexpected property at #/241data/search, Unexpected property at #/241/isLocalizable, Invalid type at #/242/data/name, Unexpected property at #/242data/search, Unexpected property at #/242/isLocalizable, Invalid type at #/243/data/name, Unexpected property at #/243data/search, Unexpected property at #/243/isLocalizable, Invalid type at #/244/data/name, Unexpected property at #/244data/search, Unexpected property at #/244/isLocalizable, Invalid type at #/245/data/name, Unexpected property at #/245data/search, Unexpected property at #/245/isLocalizable, Invalid type at #/246/data/name, Unexpected property at #/246data/search, Unexpected property at #/246/isLocalizable, Invalid type at #/247/data/name, Unexpected property at #/247data/search, Unexpected property at #/247/isLocalizable, Invalid type at #/248/data/name, Unexpected property at #/248data/search, Unexpected property at #/248/isLocalizable, Invalid type at #/249/data/name, Unexpected property at #/249data/search, Unexpected property at #/249/isLocalizable, Invalid type at #/250/data/name, Unexpected property at #/250data/search, Unexpected property at #/250/isLocalizable, Invalid type at #/251/data/name, Unexpected property at #/251data/search, Unexpected property at #/251/isLocalizable, Invalid type at #/252/data/name, Unexpected property at #/252data/search, Unexpected property at #/252/isLocalizable, Invalid type at #/253/data/name, Unexpected property at #/253data/search, Unexpected property at #/253/isLocalizable, Invalid type at #/254/data/name, Unexpected property at #/254data/search, Unexpected property at #/254/isLocalizable, Invalid type at #/255/data/name, Unexpected property at #/255data/search, Unexpected property at #/255/isLocalizable, Invalid type at #/256/data/name, Unexpected property at #/256data/search, Unexpected property at #/256/isLocalizable, Invalid type at #/257/data/name, Unexpected property at #/257data/search, Unexpected property at #/257/isLocalizable, Invalid type at #/258/data/name, Unexpected property at #/258data/search, Unexpected property at #/258/isLocalizable, Invalid type at #/259/data/name, Unexpected property at #/259data/search, Unexpected property at #/259/isLocalizable, Invalid type at #/260/data/name, Unexpected property at #/260data/search, Unexpected property at #/260/isLocalizable, Invalid type at #/261/data/name, Unexpected property at #/261data/search, Unexpected property at #/261/isLocalizable, Invalid type at #/262/data/name, Unexpected property at #/262data/search, Unexpected property at #/262/isLocalizable, Invalid type at #/263/data/name, Unexpected property at #/263data/search, Unexpected property at #/263/isLocalizable, Invalid type at #/264/data/name, Unexpected property at #/264data/search, Unexpected property at #/264/isLocalizable, Invalid type at #/265/data/name, Unexpected property at #/265data/search, Unexpected property at #/265/isLocalizable, Invalid type at #/266/data/name, Unexpected property at #/266data/search, Unexpected property at #/266/isLocalizable, Invalid type at #/267/data/name, Unexpected property at #/267data/search, Unexpected property at #/267/isLocalizable, Invalid type at #/268/data/name, Unexpected property at #/268data/search, Unexpected property at #/268/isLocalizable, Invalid type at #/269/data/name, Unexpected property at #/269data/search, Unexpected property at #/269/isLocalizable, Invalid type at #/270/data/name, Unexpected property at #/270data/search, Unexpected property at #/270/isLocalizable, Invalid type at #/271/data/name, Unexpected property at #/271data/search, Unexpected property at #/271/isLocalizable, Invalid type at #/272/data/name, Unexpected property at #/272data/search, Unexpected property at #/272/isLocalizable, Invalid type at #/273/data/name, Unexpected property at #/273data/search, Unexpected property at #/273/isLocalizable, Invalid type at #/274/data/name, Unexpected property at #/274data/search, Unexpected property at #/274/isLocalizable, Invalid type at #/275/data/name, Unexpected property at #/275data/search, Unexpected property at #/275/isLocalizable, Invalid type at #/276/data/name, Unexpected property at #/276data/search, Unexpected property at #/276/isLocalizable, Invalid type at #/277/data/name, Unexpected property at #/277data/search, Unexpected property at #/277/isLocalizable, Unexpected property at #/278data/search, Unexpected property at #/279data/search, Unexpected property at #/280data/search, Unexpected property at #/281data/search, Unexpected property at #/282data/search, Unexpected property at #/283data/search, Unexpected property at #/284data/search, Unexpected property at #/285data/search, Unexpected property at #/286data/search, Unexpected property at #/287data/search, Unexpected property at #/288data/search, Unexpected property at #/289data/search, Unexpected property at #/290data/search, Unexpected property at #/291data/search, Unexpected property at #/292data/search, Unexpected property at #/293data/search, Unexpected property at #/294data/search, Unexpected property at #/295data/search, Unexpected property at #/296data/search, Unexpected property at #/297data/search, Unexpected property at #/298data/search, Unexpected property at #/299data/search, Unexpected property at #/300data/search, Unexpected property at #/301data/tooltipDescription, Unexpected property at #/301data/iconImageUrl, Unexpected property at #/301data/categories, Unexpected property at #/302data/tooltipDescription, Unexpected property at #/302data/iconImageUrl, Unexpected property at #/302data/categories, Invalid type at #/303/data/article/content, Unexpected property at #/303data/article/embeddedLinkData, Unexpected property at #/303data/article/moreInfoLinks, Unexpected property at #/303/requireClientTags, Invalid type at #/304/data/article/content, Unexpected property at #/304data/article/embeddedLinkData, Unexpected property at #/304data/article/moreInfoLinks, Unexpected property at #/304/requireClientTags, Invalid type at #/305/data/description, Invalid type at #/305/data/name, Invalid type at #/305/data/article/content, Unexpected property at #/305data/article/embeddedLinkData, Unexpected property at #/305data/article/moreInfoLinks, Unexpected property at #/305/isLocalizable, Unexpected property at #/305/requireClientTags, Invalid type at #/306/data/description, Invalid type at #/306/data/name, Invalid type at #/306/data/article/content, Unexpected property at #/306data/article/sectionLinks, Unexpected property at #/306data/article/embeddedLinkData, Unexpected property at #/306data/article/moreInfoLinks, Unexpected property at #/306/isLocalizable, Unexpected property at #/306/requireClientTags, Invalid type at #/307/data/description, Invalid type at #/307/data/name, Invalid type at #/307/data/article/content, Unexpected property at #/307data/article/sectionLinks, Unexpected property at #/307data/article/embeddedLinkData, Unexpected property at #/307data/article/moreInfoLinks, Unexpected property at #/307/isLocalizable, Unexpected property at #/307/requireClientTags, Invalid type at #/308/data/description, Invalid type at #/308/data/name, Invalid type at #/308/data/article/content, Unexpected property at #/308data/article/sectionLinks, Unexpected property at #/308data/article/embeddedLinkData, Unexpected property at #/308data/article/moreInfoLinks, Unexpected property at #/308/isLocalizable, Unexpected property at #/308/requireClientTags, Invalid type at #/309/data/description, Invalid type at #/309/data/name, Invalid type at #/309/data/article/content, Unexpected property at #/309data/article/embeddedLinkData, Unexpected property at #/309data/article/moreInfoLinks, Unexpected property at #/309/isLocalizable, Invalid type at #/310/data/description, Invalid type at #/310/data/name, Invalid type at #/310/data/article/content, Unexpected property at #/310data/article/embeddedLinkData, Unexpected property at #/310data/article/moreInfoLinks, Unexpected property at #/310/isLocalizable, Invalid type at #/311/data/description, Invalid type at #/311/data/name, Invalid type at #/311/data/article/content, Unexpected property at #/311/isLocalizable, Invalid type at #/313/data/description, Invalid type at #/313/data/name, Unexpected property at #/313data/tooltipDescription, Unexpected property at #/313data/iconImageUrl, Unexpected property at #/313data/thumbnailImageUrl, Unexpected property at #/313data/ipsQuery, Unexpected property at #/313/isLocalizable, Invalid type at #/314/data/contentList/name, Unexpected property at #/314/isLocalizable, Invalid type at #/315/data/description, Invalid type at #/315/data/name, Unexpected property at #/315data/tooltipDescription, Unexpected property at #/315data/iconImageUrl, Unexpected property at #/315data/thumbnailImageUrl, Unexpected property at #/315data/isNew, Unexpected property at #/315data/ipsQuery, Unexpected property at #/315/isLocalizable, Invalid type at #/316/data/description, Invalid type at #/316/data/name, Invalid type at #/316/data/article/content, Unexpected property at #/316/isLocalizable, Invalid type at #/317/data/contentList/name, Unexpected property at #/317/isLocalizable, Invalid type at #/318/data/description, Invalid type at #/318/data/name, Unexpected property at #/318data/tooltipDescription, Unexpected property at #/318data/thumbnailImageUrl, Unexpected property at #/318data/iconImageUrl, Unexpected property at #/318data/ipsQuery, Unexpected property at #/318/isLocalizable, Invalid type at #/319/data/description, Invalid type at #/319/data/name, Invalid type at #/319/data/article/content, Unexpected property at #/319data/article/sectionLinks, Unexpected property at #/319/isLocalizable, Invalid type at #/320/data/description, Invalid type at #/320/data/name, Invalid type at #/320/data/article/content, Unexpected property at #/320data/article/jumpLinks, Unexpected property at #/320data/article/embeddedLinkData, Unexpected property at #/320data/article/moreInfoLinks, Unexpected property at #/320/isLocalizable, Invalid type at #/321/data/description, Invalid type at #/321/data/name, Invalid type at #/321/data/article/content, Unexpected property at #/321data/article/embeddedLinkData, Unexpected property at #/321data/article/moreInfoLinks, Unexpected property at #/321/isLocalizable, Invalid type at #/322/data/description, Invalid type at #/322/data/name, Unexpected property at #/322data/tooltipDescription, Unexpected property at #/322data/iconImageUrl, Unexpected property at #/322data/ipsQuery, Unexpected property at #/322/isLocalizable, Invalid type at #/323/data/description, Invalid type at #/323/data/name, Unexpected property at #/323data/tooltipDescription, Unexpected property at #/323data/iconImageUrl, Unexpected property at #/323data/thumbnailImageUrl, Unexpected property at #/323data/ipsQuery, Unexpected property at #/323/isLocalizable, Invalid type at #/324/data/description, Invalid type at #/324/data/name, Unexpected property at #/324data/tooltipDescription, Unexpected property at #/324data/iconImageUrl, Unexpected property at #/324data/thumbnailImageUrl, Unexpected property at #/324data/ipsQuery, Unexpected property at #/324/isLocalizable, Invalid type at #/326/data/description, Invalid type at #/326/data/name, Unexpected property at #/326data/tooltipDescription, Unexpected property at #/326data/iconImageUrl, Unexpected property at #/326data/thumbnailImageUrl, Unexpected property at #/326data/ipsQuery, Unexpected property at #/326/isLocalizable, Invalid type at #/327/data/description, Invalid type at #/327/data/name, Unexpected property at #/327data/tooltipDescription, Unexpected property at #/327data/iconImageUrl, Unexpected property at #/327data/thumbnailImageUrl, Unexpected property at #/327data/ipsQuery, Unexpected property at #/327/isLocalizable, Unexpected property at #/328data/tooltipDescription, Unexpected property at #/328data/iconImageUrl, Unexpected property at #/328data/ipsQuery, Invalid type at #/331/data/description, Invalid type at #/331/data/name, Invalid type at #/331/data/article/content, Unexpected property at #/331data/article/sectionLinks, Unexpected property at #/331data/article/embeddedLinkData, Unexpected property at #/331data/article/moreInfoLinks, Unexpected property at #/331data/isNew, Unexpected property at #/331/isLocalizable, Invalid type at #/332/data/description, Invalid type at #/332/data/name, Invalid type at #/332/data/article/content, Unexpected property at #/332data/article/sectionLinks, Unexpected property at #/332data/article/embeddedLinkData, Unexpected property at #/332data/article/moreInfoLinks, Unexpected property at #/332/isLocalizable, Unexpected property at #/333data/search, Invalid type at #/334/data/name, Unexpected property at #/334data/search, Unexpected property at #/334/isLocalizable, Invalid type at #/335/data/name, Unexpected property at #/335data/search, Unexpected property at #/335/isLocalizable, Invalid type at #/336/data/name, Unexpected property at #/336data/search, Unexpected property at #/336/isLocalizable, Invalid type at #/337/data/article/content, Invalid type at #/338/data/article/content, Invalid type at #/339/data/description, Invalid type at #/339/data/name, Invalid type at #/339/data/article/content, Unexpected property at #/339data/article/sectionLinks, Unexpected property at #/339data/article/embeddedLinkData, Unexpected property at #/339data/article/moreInfoLinks, Unexpected property at #/339data/isNew, Unexpected property at #/339/isLocalizable, Invalid type at #/340/data/description, Invalid type at #/340/data/name, Invalid type at #/340/data/article/content, Unexpected property at #/340data/article/embeddedLinkData, Unexpected property at #/340data/article/moreInfoLinks, Unexpected property at #/340/isLocalizable, Invalid type at #/341/data/contentList/name, Unexpected property at #/341data/contentList/bannersTag, Invalid type at #/341/data/name, Unexpected property at #/341data/tooltipDescription, Unexpected property at #/341data/iconImageUrl, Unexpected property at #/341/isLocalizable, Unexpected property at #/341/requireClientTags, Invalid type at #/342/data/contentList/name, Unexpected property at #/342data/contentList/bannersTag, Unexpected property at #/342data/contentList/avatarSpecific, Invalid type at #/342/data/name, Unexpected property at #/342data/tooltipDescription, Unexpected property at #/342data/iconImageUrl, Unexpected property at #/342/isLocalizable, Invalid type at #/343/data/contentList/name, Unexpected property at #/343data/contentList/avatarSpecific, Unexpected property at #/343data/contentList/bannersTag, Invalid type at #/343/data/name, Unexpected property at #/343data/tooltipDescription, Unexpected property at #/343data/iconImageUrl, Unexpected property at #/343/isLocalizable, Invalid type at #/344/data/contentList/name, Unexpected property at #/344data/contentList/bannersTag, Unexpected property at #/344data/contentList/avatarSpecific, Invalid type at #/344/data/name, Unexpected property at #/344data/iconImageUrl, Unexpected property at #/344data/tooltipDescription, Unexpected property at #/344/isLocalizable, Invalid type at #/345/data/contentList/name, Unexpected property at #/345data/contentList/bannersTag, Invalid type at #/345/data/name, Unexpected property at #/345data/iconImageUrl, Unexpected property at #/345data/tooltipDescription, Unexpected property at #/345/isLocalizable, Invalid type at #/346/data/contentList/name, Unexpected property at #/346data/contentList/shortName, Unexpected property at #/346data/contentList/bannersTag, Invalid type at #/346/data/name, Unexpected property at #/346data/shortName, Unexpected property at #/346data/tooltipDescription, Unexpected property at #/346data/iconImageUrl, Unexpected property at #/346/isLocalizable, Invalid type at #/347/data/contentList/name, Unexpected property at #/347data/contentList/bannersTag, Invalid type at #/347/data/name, Unexpected property at #/347data/tooltipDescription, Unexpected property at #/347data/iconImageUrl, Unexpected property at #/347/isLocalizable, Unexpected property at #/347/requireClientTags, Invalid type at #/348/data/contentList/name, Unexpected property at #/348data/contentList/bannersTag, Unexpected property at #/348data/contentList/avatarSpecific, Invalid type at #/348/data/name, Unexpected property at #/348data/tooltipDescription, Unexpected property at #/348data/iconImageUrl, Unexpected property at #/348/isLocalizable, Invalid type at #/349/data/contentList/name, Unexpected property at #/349data/contentList/bannersTag, Unexpected property at #/349data/contentList/avatarSpecific, Invalid type at #/349/data/name, Unexpected property at #/349data/iconImageUrl, Unexpected property at #/349data/tooltipDescription, Unexpected property at #/349/isLocalizable, Invalid type at #/350/data/contentList/name, Unexpected property at #/350data/contentList/bannersTag, Invalid type at #/350/data/name, Unexpected property at #/350data/tooltipDescription, Unexpected property at #/350data/iconImageUrl, Unexpected property at #/350/isLocalizable, Invalid type at #/351/data/contentList/name, Unexpected property at #/351data/contentList/avatarSpecific, Unexpected property at #/351data/contentList/bannersTag, Invalid type at #/351/data/name, Unexpected property at #/351data/tooltipDescription, Unexpected property at #/351data/iconImageUrl, Unexpected property at #/351/isLocalizable, Invalid type at #/352/data/contentList/name, Unexpected property at #/352data/contentList/bannersTag, Invalid type at #/352/data/name, Unexpected property at #/352data/tooltipDescription, Unexpected property at #/352data/iconImageUrl, Unexpected property at #/352/isLocalizable, Invalid type at #/353/data/contentList/name, Unexpected property at #/353data/contentList/bannersTag, Unexpected property at #/353data/contentList/avatarSpecific, Invalid type at #/353/data/name, Unexpected property at #/353data/iconImageUrl, Unexpected property at #/353data/tooltipDescription, Unexpected property at #/353/isLocalizable, Invalid type at #/354/data/contentList/name, Unexpected property at #/354data/contentList/avatarSpecific, Unexpected property at #/354data/contentList/bannersTag, Invalid type at #/354/data/name, Unexpected property at #/354data/tooltipDescription, Unexpected property at #/354data/iconImageUrl, Unexpected property at #/354/isLocalizable.
 ```
 
 ## Request
@@ -288,949 +288,6 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
     "hash": "d58f7dc3a79db8562194a0c46eddcf31",
     "createdAt": "2022-10-24T23:54:48+00:00",
     "updatedAt": "2022-10-24T23:54:48+00:00"
-  },
-  {
-    "id": "search-vi",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-vi",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/51/data/name
-       */
-      "name": "Tiếng Việt",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/8data/search
-       */
-      "search": {
-        "searchQuery": "Vietnamese Tiếng Việt Vietnam VN",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "93be0e90912d2c1a9c5e2bdf18a6b1a1",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-uk",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-uk",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/52/data/name
-       */
-      "name": "Yкраї́нська",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/9data/search
-       */
-      "search": {
-        "searchQuery": "ukr Ukranian Yкраї́нська Ukraine",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "c32b2df3ac5c896f53080755d121fb3e",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-tr",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-tr",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/53/data/name
-       */
-      "name": "Türkçe",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/10data/search
-       */
-      "search": {
-        "searchQuery": "Turkish Türkçe Türkiye TR",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "517c5e2b1e7af7ac0988d7c7a4988fc8",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-th",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-th",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/54/data/name
-       */
-      "name": "ภาษาไทย",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/11data/search
-       */
-      "search": {
-        "searchQuery": "Thai, ภาษาไทย, Thailand, TH, sala",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "917641cef6342e3e26d96945cb2a59e8",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-sv",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-sv",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/55/data/name
-       */
-      "name": "Svenska",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/12data/search
-       */
-      "search": {
-        "searchQuery": "Swedish Svenska Sweden",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "9321d71598bb5ec4c1fb63b004491cb3",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-es",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-es",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/56/data/name
-       */
-      "name": "Español",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/13data/search
-       */
-      "search": {
-        "searchQuery": "Spanish Español latino latam",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "cb26d51b5b6ba2b0896c689a50ec4890",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-ru",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-ru",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/57/data/name
-       */
-      "name": "Русский",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/14data/search
-       */
-      "search": {
-        "searchQuery": "rus Russian Русский Russia RU Россия",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "5fa33fbccefd8f837efdf61b9befc5bf",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-ro",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-ro",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/58/data/name
-       */
-      "name": "Română",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/15data/search
-       */
-      "search": {
-        "searchQuery": "Romanian Română Romania",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "a9f7395da782de32682a095811414bbb",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-pt-BR",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-pt-BR",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/59/data/name
-       */
-      "name": "Português",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/16data/search
-       */
-      "search": {
-        "searchQuery": "Portuguese Português Portugal Brasil Brazil BR",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "07bff812899b34a23d3e0239ad877cfc",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-pl",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-pl",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/60/data/name
-       */
-      "name": "Polski",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/17data/search
-       */
-      "search": {
-        "searchQuery": "Polish Polski Poland Polska",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1fbb87efb71b601f10f15c56b28fd8e5",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-no",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-no",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/61/data/name
-       */
-      "name": "Norsk",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/18data/search
-       */
-      "search": {
-        "searchQuery": "Norwegian Norsk Norway",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "e6fbd3c4361462f688380b1315366a69",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-ko",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-ko",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/62/data/name
-       */
-      "name": "한국어",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/19data/search
-       */
-      "search": {
-        "searchQuery": "kor Korean 한국어 Korea 한국 KR",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "03b05f36d81965640037b9f69c423d93",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-ja",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-ja",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/63/data/name
-       */
-      "name": "日本語",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/20data/search
-       */
-      "search": {
-        "searchQuery": " jpn Japanese 日本語 Japan 日本 JP",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "a0af361ee4be69c1947b2fe07351be9c",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-it",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-it",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/64/data/name
-       */
-      "name": "Italiano",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/21data/search
-       */
-      "search": {
-        "searchQuery": "Italian Italiano Italiani Italia Italy",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1c3335b1a6504062ac810b3d6cf4df9c",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-hu",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-hu",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/65/data/name
-       */
-      "name": "Magyar",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/22data/search
-       */
-      "search": {
-        "searchQuery": "Hungarian Magyar Hungary Magyarország",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "584a55c6510fffdbe63a52fc0f61d96d",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-de",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-de",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/66/data/name
-       */
-      "name": "Deutsch",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/23data/search
-       */
-      "search": {
-        "searchQuery": "deu German Deutsch Germany DE ",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1506c3a1b7afde7be970454b547800a4",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-fr",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-fr",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/67/data/name
-       */
-      "name": "Français",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/24data/search
-       */
-      "search": {
-        "searchQuery": "French Français France FR",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "b855c4b7337fadf3dbacd04837af2ccd",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-fi",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-fi",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/68/data/name
-       */
-      "name": "Suomi",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/25data/search
-       */
-      "search": {
-        "searchQuery": "Finnish, Suomi, Finland",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "1823a5a94bd56298bff9620a8428e51e",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-nl",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-nl",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/69/data/name
-       */
-      "name": "Nederlands",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/26data/search
-       */
-      "search": {
-        "searchQuery": "Dutch Nederlands Netherlands NL",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "ba752fa03206c28a82b8e06658105894",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-da",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-da",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/70/data/name
-       */
-      "name": "Dansk",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/27data/search
-       */
-      "search": {
-        "searchQuery": "Danish Dansk Denmark Danmark",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "acb8f864f54469148cc93abb2d41c632",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-cs",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-cs",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/71/data/name
-       */
-      "name": "Čeština",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/28data/search
-       */
-      "search": {
-        "searchQuery": "Czech Čeština CZ Slovakia Slovak SK",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "52fd2f2b72af071684c0229bc2a366dc",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-zh",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-zh",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/72/data/name
-       */
-      "name": "中文",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/29data/search
-       */
-      "search": {
-        "searchQuery": "zho Chinese 中文 China CN Taiwan TW Hong Kong HK zhongwen",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "2b2ef11d33181288d62f4fd36cfacbe5",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
-  },
-  {
-    "id": "search-ar",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-ar",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/name/type
-       * #/73/data/name
-       */
-      "name": "العربية",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/30data/search
-       */
-      "search": {
-        "searchQuery": "Arabic العربية arab عرب Saudi Arabia UAE KSA",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "fa805a3a2f606fab95f58f6a9ca70d8d",
-    "createdAt": "2023-12-01T18:11:11+00:00",
-    "updatedAt": "2023-12-01T18:11:11+00:00"
   },
   {
     "id": "build-config",
@@ -1532,7 +589,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/49/isLocalizable
+     * #/26/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -1547,7 +604,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/49/requireClientTags
+     * #/26/requireClientTags
      */
     "requireClientTags": [
       "platform-store-steam"
@@ -1560,7 +617,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/49data/iconImageUrl
+       * #/26data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/4edb5ea6d547986af07a7855972106959b13c271e09965ffbc1de0d4f84eb4f6.png",
       /**
@@ -1570,7 +627,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/49data/tooltipDescription
+       * #/26data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Purchase-a-yearly-VRC+-subscription-now-and-get-3-additional-months-free!",
@@ -1583,7 +640,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/49/data/description
+       * #/26/data/description
        */
       "description": {
         "key": "VRC+/YearlySteamSubscriptionOffer/Description/Special-Holiday-Bonus:-Get-Free-Time!",
@@ -1606,7 +663,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/50/isLocalizable
+     * #/27/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -1621,7 +678,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/50/requireClientTags
+     * #/27/requireClientTags
      */
     "requireClientTags": [
       "platform-store-steam"
@@ -1634,7 +691,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/50data/iconImageUrl
+       * #/27data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/6ebcbf030bd90d26a89fbc74b70160c7662df05f5a3378a00bfbdf3062aa6340.png",
       /**
@@ -1644,7 +701,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/50data/tooltipDescription
+       * #/27data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Purchase-a-monthly-VRC+-subscription-now-and-get-1-additional-month-free!",
@@ -1657,7 +714,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/50/data/description
+       * #/27/data/description
        */
       "description": {
         "key": "VRC+/MonthlySteamSubscriptionOffer/Description/Special-Holiday-Bonus:-Get-Free-Time!",
@@ -1680,7 +737,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/51/isLocalizable
+     * #/28/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -1695,7 +752,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/74/data/name
+       * #/28/data/name
        */
       "name": {
         "key": "SuggestedSearch/Zoo/Name/zoo",
@@ -1708,7 +765,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/51data/search
+       * #/28data/search
        */
       "search": {
         "searchQuery": "zoo",
@@ -1734,7 +791,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/52/isLocalizable
+     * #/29/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -1749,7 +806,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/75/data/name
+       * #/29/data/name
        */
       "name": {
         "key": "SuggestedSearch/Zombie/Name/zombie",
@@ -1762,7 +819,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/52data/search
+       * #/29data/search
        */
       "search": {
         "searchQuery": "zombie",
@@ -1788,7 +845,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/53/isLocalizable
+     * #/30/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -1803,7 +860,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/76/data/name
+       * #/30/data/name
        */
       "name": {
         "key": "SuggestedSearch/Workout/Name/workout",
@@ -1816,7 +873,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/53data/search
+       * #/30data/search
        */
       "search": {
         "searchQuery": "workout",
@@ -1842,7 +899,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/54/isLocalizable
+     * #/31/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -1857,7 +914,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/77/data/name
+       * #/31/data/name
        */
       "name": {
         "key": "SuggestedSearch/Winter/Name/winter",
@@ -1870,7 +927,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/54data/search
+       * #/31data/search
        */
       "search": {
         "searchQuery": "winter",
@@ -1896,7 +953,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/55/isLocalizable
+     * #/32/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -1911,7 +968,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/78/data/name
+       * #/32/data/name
        */
       "name": {
         "key": "SuggestedSearch/Western/Name/western",
@@ -1924,7 +981,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/55data/search
+       * #/32data/search
        */
       "search": {
         "searchQuery": "western",
@@ -1950,7 +1007,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/56/isLocalizable
+     * #/33/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -1965,7 +1022,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/79/data/name
+       * #/33/data/name
        */
       "name": {
         "key": "SuggestedSearch/Weird/Name/weird",
@@ -1978,7 +1035,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/56data/search
+       * #/33data/search
        */
       "search": {
         "searchQuery": "weird",
@@ -2004,7 +1061,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/57/isLocalizable
+     * #/34/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2019,7 +1076,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/80/data/name
+       * #/34/data/name
        */
       "name": {
         "key": "SuggestedSearch/Wedding/Name/wedding",
@@ -2032,7 +1089,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/57data/search
+       * #/34data/search
        */
       "search": {
         "searchQuery": "wedding",
@@ -2058,7 +1115,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/58/isLocalizable
+     * #/35/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2073,7 +1130,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/81/data/name
+       * #/35/data/name
        */
       "name": {
         "key": "SuggestedSearch/Waves/Name/waves",
@@ -2086,7 +1143,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/58data/search
+       * #/35data/search
        */
       "search": {
         "searchQuery": "waves",
@@ -2112,7 +1169,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/59/isLocalizable
+     * #/36/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2127,7 +1184,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/82/data/name
+       * #/36/data/name
        */
       "name": {
         "key": "SuggestedSearch/Water/Name/water",
@@ -2140,7 +1197,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/59data/search
+       * #/36data/search
        */
       "search": {
         "searchQuery": "water",
@@ -2166,7 +1223,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/60/isLocalizable
+     * #/37/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2181,7 +1238,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/83/data/name
+       * #/37/data/name
        */
       "name": {
         "key": "SuggestedSearch/Water park/Name/water-park",
@@ -2194,7 +1251,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/60data/search
+       * #/37data/search
        */
       "search": {
         "searchQuery": "water park",
@@ -2220,7 +1277,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/61/isLocalizable
+     * #/38/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2235,7 +1292,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/84/data/name
+       * #/38/data/name
        */
       "name": {
         "key": "SuggestedSearch/War/Name/war",
@@ -2248,7 +1305,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/61data/search
+       * #/38data/search
        */
       "search": {
         "searchQuery": "war",
@@ -2274,7 +1331,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/62/isLocalizable
+     * #/39/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2289,7 +1346,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/85/data/name
+       * #/39/data/name
        */
       "name": {
         "key": "SuggestedSearch/Vtuber/Name/vtuber",
@@ -2302,7 +1359,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/62data/search
+       * #/39data/search
        */
       "search": {
         "searchQuery": "vtuber",
@@ -2328,7 +1385,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/63/isLocalizable
+     * #/40/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2343,7 +1400,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/86/data/name
+       * #/40/data/name
        */
       "name": {
         "key": "SuggestedSearch/Visualizer/Name/visualizer",
@@ -2356,7 +1413,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/63data/search
+       * #/40data/search
        */
       "search": {
         "searchQuery": "visualizer",
@@ -2382,7 +1439,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/64/isLocalizable
+     * #/41/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2397,7 +1454,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/87/data/name
+       * #/41/data/name
        */
       "name": {
         "key": "SuggestedSearch/Vaporwave/Name/vaporwave",
@@ -2410,7 +1467,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/64data/search
+       * #/41data/search
        */
       "search": {
         "searchQuery": "vaporwave",
@@ -2436,7 +1493,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/65/isLocalizable
+     * #/42/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2451,7 +1508,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/88/data/name
+       * #/42/data/name
        */
       "name": {
         "key": "SuggestedSearch/Underwater/Name/underwater",
@@ -2464,7 +1521,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/65data/search
+       * #/42data/search
        */
       "search": {
         "searchQuery": "underwater",
@@ -2490,7 +1547,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/66/isLocalizable
+     * #/43/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2505,7 +1562,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/89/data/name
+       * #/43/data/name
        */
       "name": {
         "key": "SuggestedSearch/Underground/Name/underground",
@@ -2518,7 +1575,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/66data/search
+       * #/43data/search
        */
       "search": {
         "searchQuery": "underground",
@@ -2544,7 +1601,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/67/isLocalizable
+     * #/44/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2559,7 +1616,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/90/data/name
+       * #/44/data/name
        */
       "name": {
         "key": "SuggestedSearch/Tunnel/Name/tunnel",
@@ -2572,7 +1629,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/67data/search
+       * #/44data/search
        */
       "search": {
         "searchQuery": "tunnel",
@@ -2598,7 +1655,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/68/isLocalizable
+     * #/45/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2613,7 +1670,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/91/data/name
+       * #/45/data/name
        */
       "name": {
         "key": "SuggestedSearch/Truth or dare/Name/truth-or-dare",
@@ -2626,7 +1683,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/68data/search
+       * #/45data/search
        */
       "search": {
         "searchQuery": "truth or dare",
@@ -2652,7 +1709,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/69/isLocalizable
+     * #/46/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2667,7 +1724,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/92/data/name
+       * #/46/data/name
        */
       "name": {
         "key": "SuggestedSearch/Trivia/Name/trivia",
@@ -2680,7 +1737,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/69data/search
+       * #/46data/search
        */
       "search": {
         "searchQuery": "trivia",
@@ -2706,7 +1763,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/70/isLocalizable
+     * #/47/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2721,7 +1778,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/93/data/name
+       * #/47/data/name
        */
       "name": {
         "key": "SuggestedSearch/Trippy/Name/trippy",
@@ -2734,7 +1791,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/70data/search
+       * #/47data/search
        */
       "search": {
         "searchQuery": "trippy",
@@ -2760,7 +1817,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/71/isLocalizable
+     * #/48/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2775,7 +1832,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/94/data/name
+       * #/48/data/name
        */
       "name": {
         "key": "SuggestedSearch/Treehouse/Name/treehouse",
@@ -2788,7 +1845,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/71data/search
+       * #/48data/search
        */
       "search": {
         "searchQuery": "treehouse",
@@ -2814,7 +1871,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/72/isLocalizable
+     * #/49/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2829,7 +1886,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/95/data/name
+       * #/49/data/name
        */
       "name": {
         "key": "SuggestedSearch/Train/Name/train",
@@ -2842,7 +1899,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/72data/search
+       * #/49data/search
        */
       "search": {
         "searchQuery": "train",
@@ -2868,7 +1925,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/73/isLocalizable
+     * #/50/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2883,7 +1940,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/96/data/name
+       * #/50/data/name
        */
       "name": {
         "key": "SuggestedSearch/Toys/Name/toys",
@@ -2896,7 +1953,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/73data/search
+       * #/50data/search
        */
       "search": {
         "searchQuery": "toys",
@@ -2922,7 +1979,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/74/isLocalizable
+     * #/51/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2937,7 +1994,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/97/data/name
+       * #/51/data/name
        */
       "name": {
         "key": "SuggestedSearch/Town/Name/town",
@@ -2950,7 +2007,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/74data/search
+       * #/51data/search
        */
       "search": {
         "searchQuery": "town",
@@ -2976,7 +2033,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/75/isLocalizable
+     * #/52/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -2991,7 +2048,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/98/data/name
+       * #/52/data/name
        */
       "name": {
         "key": "SuggestedSearch/Tower/Name/tower",
@@ -3004,7 +2061,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/75data/search
+       * #/52data/search
        */
       "search": {
         "searchQuery": "tower",
@@ -3030,7 +2087,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/76/isLocalizable
+     * #/53/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3045,7 +2102,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/99/data/name
+       * #/53/data/name
        */
       "name": {
         "key": "SuggestedSearch/Tower defense/Name/tower-defense",
@@ -3058,7 +2115,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/76data/search
+       * #/53data/search
        */
       "search": {
         "searchQuery": "tower defense",
@@ -3084,7 +2141,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/77/isLocalizable
+     * #/54/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3099,7 +2156,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/100/data/name
+       * #/54/data/name
        */
       "name": {
         "key": "SuggestedSearch/Tornado/Name/tornado",
@@ -3112,7 +2169,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/77data/search
+       * #/54data/search
        */
       "search": {
         "searchQuery": "tornado",
@@ -3138,7 +2195,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/78/isLocalizable
+     * #/55/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3153,7 +2210,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/101/data/name
+       * #/55/data/name
        */
       "name": {
         "key": "SuggestedSearch/Theater/Name/theater",
@@ -3166,7 +2223,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/78data/search
+       * #/55data/search
        */
       "search": {
         "searchQuery": "theater",
@@ -3192,7 +2249,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/79/isLocalizable
+     * #/56/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3207,7 +2264,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/102/data/name
+       * #/56/data/name
        */
       "name": {
         "key": "SuggestedSearch/Temple/Name/temple",
@@ -3220,7 +2277,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/79data/search
+       * #/56data/search
        */
       "search": {
         "searchQuery": "temple",
@@ -3246,7 +2303,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/80/isLocalizable
+     * #/57/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3261,7 +2318,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/103/data/name
+       * #/57/data/name
        */
       "name": {
         "key": "SuggestedSearch/Tavern/Name/tavern",
@@ -3274,7 +2331,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/80data/search
+       * #/57data/search
        */
       "search": {
         "searchQuery": "tavern",
@@ -3300,7 +2357,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/81/isLocalizable
+     * #/58/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3315,7 +2372,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/104/data/name
+       * #/58/data/name
        */
       "name": {
         "key": "SuggestedSearch/Talk/Name/talk",
@@ -3328,7 +2385,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/81data/search
+       * #/58data/search
        */
       "search": {
         "searchQuery": "talk",
@@ -3354,7 +2411,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/82/isLocalizable
+     * #/59/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3369,7 +2426,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/105/data/name
+       * #/59/data/name
        */
       "name": {
         "key": "SuggestedSearch/Tag/Name/tag",
@@ -3382,7 +2439,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/82data/search
+       * #/59data/search
        */
       "search": {
         "searchQuery": "tag",
@@ -3408,7 +2465,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/83/isLocalizable
+     * #/60/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3423,7 +2480,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/106/data/name
+       * #/60/data/name
        */
       "name": {
         "key": "SuggestedSearch/Swim/Name/swim",
@@ -3436,7 +2493,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/83data/search
+       * #/60data/search
        */
       "search": {
         "searchQuery": "swim",
@@ -3462,7 +2519,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/84/isLocalizable
+     * #/61/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3477,7 +2534,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/107/data/name
+       * #/61/data/name
        */
       "name": {
         "key": "SuggestedSearch/Surreal/Name/surreal",
@@ -3490,7 +2547,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/84data/search
+       * #/61data/search
        */
       "search": {
         "searchQuery": "surreal",
@@ -3516,7 +2573,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/85/isLocalizable
+     * #/62/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3531,7 +2588,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/108/data/name
+       * #/62/data/name
        */
       "name": {
         "key": "SuggestedSearch/Surf/Name/surf",
@@ -3544,7 +2601,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/85data/search
+       * #/62data/search
        */
       "search": {
         "searchQuery": "surf",
@@ -3570,7 +2627,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/86/isLocalizable
+     * #/63/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3585,7 +2642,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/109/data/name
+       * #/63/data/name
        */
       "name": {
         "key": "SuggestedSearch/Superhero/Name/superhero",
@@ -3598,7 +2655,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/86data/search
+       * #/63data/search
        */
       "search": {
         "searchQuery": "superhero",
@@ -3624,7 +2681,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/87/isLocalizable
+     * #/64/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3639,7 +2696,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/110/data/name
+       * #/64/data/name
        */
       "name": {
         "key": "SuggestedSearch/Sunset/Name/sunset",
@@ -3652,7 +2709,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/87data/search
+       * #/64data/search
        */
       "search": {
         "searchQuery": "sunset",
@@ -3678,7 +2735,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/88/isLocalizable
+     * #/65/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3693,7 +2750,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/111/data/name
+       * #/65/data/name
        */
       "name": {
         "key": "SuggestedSearch/Sunny/Name/sunny",
@@ -3706,7 +2763,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/88data/search
+       * #/65data/search
        */
       "search": {
         "searchQuery": "sunny",
@@ -3732,7 +2789,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/89/isLocalizable
+     * #/66/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3747,7 +2804,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/112/data/name
+       * #/66/data/name
        */
       "name": {
         "key": "SuggestedSearch/Summer/Name/summer",
@@ -3760,7 +2817,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/89data/search
+       * #/66data/search
        */
       "search": {
         "searchQuery": "summer",
@@ -3786,7 +2843,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/90/isLocalizable
+     * #/67/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3801,7 +2858,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/113/data/name
+       * #/67/data/name
        */
       "name": {
         "key": "SuggestedSearch/Studio/Name/studio",
@@ -3814,7 +2871,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/90data/search
+       * #/67data/search
        */
       "search": {
         "searchQuery": "studio",
@@ -3840,7 +2897,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/91/isLocalizable
+     * #/68/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3855,7 +2912,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/114/data/name
+       * #/68/data/name
        */
       "name": {
         "key": "SuggestedSearch/Strategy/Name/strategy",
@@ -3868,7 +2925,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/91data/search
+       * #/68data/search
        */
       "search": {
         "searchQuery": "strategy",
@@ -3894,7 +2951,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/92/isLocalizable
+     * #/69/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3909,7 +2966,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/115/data/name
+       * #/69/data/name
        */
       "name": {
         "key": "SuggestedSearch/Story/Name/story",
@@ -3922,7 +2979,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/92data/search
+       * #/69data/search
        */
       "search": {
         "searchQuery": "story",
@@ -3948,7 +3005,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/93/isLocalizable
+     * #/70/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -3963,7 +3020,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/116/data/name
+       * #/70/data/name
        */
       "name": {
         "key": "SuggestedSearch/Store/Name/store",
@@ -3976,7 +3033,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/93data/search
+       * #/70data/search
        */
       "search": {
         "searchQuery": "store",
@@ -4002,7 +3059,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/94/isLocalizable
+     * #/71/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4017,7 +3074,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/117/data/name
+       * #/71/data/name
        */
       "name": {
         "key": "SuggestedSearch/Starry/Name/starry",
@@ -4030,7 +3087,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/94data/search
+       * #/71data/search
        */
       "search": {
         "searchQuery": "starry",
@@ -4056,7 +3113,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/95/isLocalizable
+     * #/72/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4071,7 +3128,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/118/data/name
+       * #/72/data/name
        */
       "name": {
         "key": "SuggestedSearch/Stage/Name/stage",
@@ -4084,7 +3141,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/95data/search
+       * #/72data/search
        */
       "search": {
         "searchQuery": "stage",
@@ -4110,7 +3167,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/96/isLocalizable
+     * #/73/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4125,7 +3182,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/119/data/name
+       * #/73/data/name
        */
       "name": {
         "key": "SuggestedSearch/Spring/Name/spring",
@@ -4138,7 +3195,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/96data/search
+       * #/73data/search
        */
       "search": {
         "searchQuery": "spring",
@@ -4164,7 +3221,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/97/isLocalizable
+     * #/74/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4179,7 +3236,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/120/data/name
+       * #/74/data/name
        */
       "name": {
         "key": "SuggestedSearch/Sports/Name/sports",
@@ -4192,7 +3249,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/97data/search
+       * #/74data/search
        */
       "search": {
         "searchQuery": "sports",
@@ -4218,7 +3275,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/98/isLocalizable
+     * #/75/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4233,7 +3290,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/121/data/name
+       * #/75/data/name
        */
       "name": {
         "key": "SuggestedSearch/Spaceship/Name/spaceship",
@@ -4246,7 +3303,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/98data/search
+       * #/75data/search
        */
       "search": {
         "searchQuery": "spaceship",
@@ -4272,7 +3329,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/99/isLocalizable
+     * #/76/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4287,7 +3344,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/122/data/name
+       * #/76/data/name
        */
       "name": {
         "key": "SuggestedSearch/Space/Name/space",
@@ -4300,7 +3357,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/99data/search
+       * #/76data/search
        */
       "search": {
         "searchQuery": "space",
@@ -4326,7 +3383,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/100/isLocalizable
+     * #/77/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4341,7 +3398,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/123/data/name
+       * #/77/data/name
        */
       "name": {
         "key": "SuggestedSearch/SpaWorld/Name/spa",
@@ -4354,7 +3411,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/100data/search
+       * #/77data/search
        */
       "search": {
         "searchQuery": "spa",
@@ -4380,7 +3437,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/101/isLocalizable
+     * #/78/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4395,7 +3452,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/124/data/name
+       * #/78/data/name
        */
       "name": {
         "key": "SuggestedSearch/Soft/Name/soft",
@@ -4408,7 +3465,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/101data/search
+       * #/78data/search
        */
       "search": {
         "searchQuery": "soft",
@@ -4434,7 +3491,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/102/isLocalizable
+     * #/79/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4449,7 +3506,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/125/data/name
+       * #/79/data/name
        */
       "name": {
         "key": "SuggestedSearch/Soccer/Name/soccer",
@@ -4462,7 +3519,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/102data/search
+       * #/79data/search
        */
       "search": {
         "searchQuery": "soccer",
@@ -4488,7 +3545,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/103/isLocalizable
+     * #/80/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4503,7 +3560,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/126/data/name
+       * #/80/data/name
        */
       "name": {
         "key": "SuggestedSearch/Snow/Name/snow",
@@ -4516,7 +3573,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/103data/search
+       * #/80data/search
        */
       "search": {
         "searchQuery": "snow",
@@ -4542,7 +3599,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/104/isLocalizable
+     * #/81/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4557,7 +3614,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/127/data/name
+       * #/81/data/name
        */
       "name": {
         "key": "SuggestedSearch/Smoke/Name/smoke",
@@ -4570,7 +3627,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/104data/search
+       * #/81data/search
        */
       "search": {
         "searchQuery": "smoke",
@@ -4596,7 +3653,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/105/isLocalizable
+     * #/82/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4611,7 +3668,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/128/data/name
+       * #/82/data/name
        */
       "name": {
         "key": "SuggestedSearch/Sleep/Name/sleep",
@@ -4624,7 +3681,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/105data/search
+       * #/82data/search
        */
       "search": {
         "searchQuery": "sleep",
@@ -4650,7 +3707,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/106/isLocalizable
+     * #/83/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4665,7 +3722,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/129/data/name
+       * #/83/data/name
        */
       "name": {
         "key": "SuggestedSearch/Simulator/Name/simulator",
@@ -4678,7 +3735,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/106data/search
+       * #/83data/search
        */
       "search": {
         "searchQuery": "simulator",
@@ -4704,7 +3761,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/107/isLocalizable
+     * #/84/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4719,7 +3776,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/130/data/name
+       * #/84/data/name
        */
       "name": {
         "key": "SuggestedSearch/Shrine/Name/shrine",
@@ -4732,7 +3789,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/107data/search
+       * #/84data/search
        */
       "search": {
         "searchQuery": "shrine",
@@ -4758,7 +3815,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/108/isLocalizable
+     * #/85/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4773,7 +3830,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/131/data/name
+       * #/85/data/name
        */
       "name": {
         "key": "SuggestedSearch/Shooting/Name/shooting",
@@ -4786,7 +3843,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/108data/search
+       * #/85data/search
        */
       "search": {
         "searchQuery": "shooting",
@@ -4812,7 +3869,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/109/isLocalizable
+     * #/86/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4827,7 +3884,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/132/data/name
+       * #/86/data/name
        */
       "name": {
         "key": "SuggestedSearch/Ship/Name/ship",
@@ -4840,7 +3897,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/109data/search
+       * #/86data/search
        */
       "search": {
         "searchQuery": "ship",
@@ -4866,7 +3923,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/110/isLocalizable
+     * #/87/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4881,7 +3938,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/133/data/name
+       * #/87/data/name
        */
       "name": {
         "key": "SuggestedSearch/School/Name/school",
@@ -4894,7 +3951,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/110data/search
+       * #/87data/search
        */
       "search": {
         "searchQuery": "school",
@@ -4920,7 +3977,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/111/isLocalizable
+     * #/88/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4935,7 +3992,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/134/data/name
+       * #/88/data/name
        */
       "name": {
         "key": "SuggestedSearch/Sandbox/Name/sandbox",
@@ -4948,7 +4005,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/111data/search
+       * #/88data/search
        */
       "search": {
         "searchQuery": "sandbox",
@@ -4974,7 +4031,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/112/isLocalizable
+     * #/89/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -4989,7 +4046,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/135/data/name
+       * #/89/data/name
        */
       "name": {
         "key": "SuggestedSearch/Sakura/Name/sakura",
@@ -5002,7 +4059,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/112data/search
+       * #/89data/search
        */
       "search": {
         "searchQuery": "sakura",
@@ -5028,7 +4085,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/113/isLocalizable
+     * #/90/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5043,7 +4100,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/136/data/name
+       * #/90/data/name
        */
       "name": {
         "key": "SuggestedSearch/Sad/Name/sad",
@@ -5056,7 +4113,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/113data/search
+       * #/90data/search
        */
       "search": {
         "searchQuery": "sad",
@@ -5082,7 +4139,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/114/isLocalizable
+     * #/91/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5097,7 +4154,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/137/data/name
+       * #/91/data/name
        */
       "name": {
         "key": "SuggestedSearch/Rooftop/Name/rooftop",
@@ -5110,7 +4167,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/114data/search
+       * #/91data/search
        */
       "search": {
         "searchQuery": "rooftop",
@@ -5136,7 +4193,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/115/isLocalizable
+     * #/92/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5151,7 +4208,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/138/data/name
+       * #/92/data/name
        */
       "name": {
         "key": "SuggestedSearch/Romantic/Name/romantic",
@@ -5164,7 +4221,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/115data/search
+       * #/92data/search
        */
       "search": {
         "searchQuery": "romantic",
@@ -5190,7 +4247,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/116/isLocalizable
+     * #/93/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5205,7 +4262,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/139/data/name
+       * #/93/data/name
        */
       "name": {
         "key": "SuggestedSearch/Rollercoaster/Name/rollercoaster",
@@ -5218,7 +4275,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/116data/search
+       * #/93data/search
        */
       "search": {
         "searchQuery": "rollercoaster",
@@ -5244,7 +4301,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/117/isLocalizable
+     * #/94/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5259,7 +4316,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/140/data/name
+       * #/94/data/name
        */
       "name": {
         "key": "SuggestedSearch/Roleplay/Name/roleplay",
@@ -5272,7 +4329,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/117data/search
+       * #/94data/search
        */
       "search": {
         "searchQuery": "roleplay",
@@ -5298,7 +4355,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/118/isLocalizable
+     * #/95/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5313,7 +4370,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/141/data/name
+       * #/95/data/name
        */
       "name": {
         "key": "SuggestedSearch/Robot/Name/robot",
@@ -5326,7 +4383,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/118data/search
+       * #/95data/search
        */
       "search": {
         "searchQuery": "robot",
@@ -5352,7 +4409,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/119/isLocalizable
+     * #/96/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5367,7 +4424,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/142/data/name
+       * #/96/data/name
        */
       "name": {
         "key": "SuggestedSearch/River/Name/river",
@@ -5380,7 +4437,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/119data/search
+       * #/96data/search
        */
       "search": {
         "searchQuery": "river",
@@ -5406,7 +4463,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/120/isLocalizable
+     * #/97/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5421,7 +4478,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/143/data/name
+       * #/97/data/name
        */
       "name": {
         "key": "SuggestedSearch/Ride/Name/ride",
@@ -5434,7 +4491,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/120data/search
+       * #/97data/search
        */
       "search": {
         "searchQuery": "ride",
@@ -5460,7 +4517,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/121/isLocalizable
+     * #/98/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5475,7 +4532,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/144/data/name
+       * #/98/data/name
        */
       "name": {
         "key": "SuggestedSearch/Rhythm/Name/rhythm",
@@ -5488,7 +4545,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/121data/search
+       * #/98data/search
        */
       "search": {
         "searchQuery": "rhythm",
@@ -5514,7 +4571,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/122/isLocalizable
+     * #/99/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5529,7 +4586,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/145/data/name
+       * #/99/data/name
        */
       "name": {
         "key": "SuggestedSearch/Retro/Name/retro",
@@ -5542,7 +4599,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/122data/search
+       * #/99data/search
        */
       "search": {
         "searchQuery": "retro",
@@ -5568,7 +4625,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/123/isLocalizable
+     * #/100/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5583,7 +4640,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/146/data/name
+       * #/100/data/name
        */
       "name": {
         "key": "SuggestedSearch/Restaurant/Name/restaurant",
@@ -5596,7 +4653,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/123data/search
+       * #/100data/search
        */
       "search": {
         "searchQuery": "restaurant",
@@ -5622,7 +4679,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/124/isLocalizable
+     * #/101/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5637,7 +4694,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/147/data/name
+       * #/101/data/name
        */
       "name": {
         "key": "SuggestedSearch/Relax/Name/relax",
@@ -5650,7 +4707,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/124data/search
+       * #/101data/search
        */
       "search": {
         "searchQuery": "relax",
@@ -5676,7 +4733,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/125/isLocalizable
+     * #/102/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5691,7 +4748,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/148/data/name
+       * #/102/data/name
        */
       "name": {
         "key": "SuggestedSearch/Realistic/Name/realistic",
@@ -5704,7 +4761,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/125data/search
+       * #/102data/search
        */
       "search": {
         "searchQuery": "realistic",
@@ -5730,7 +4787,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/126/isLocalizable
+     * #/103/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5745,7 +4802,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/149/data/name
+       * #/103/data/name
        */
       "name": {
         "key": "SuggestedSearch/Rave/Name/rave",
@@ -5758,7 +4815,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/126data/search
+       * #/103data/search
        */
       "search": {
         "searchQuery": "rave",
@@ -5784,7 +4841,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/127/isLocalizable
+     * #/104/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5799,7 +4856,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/150/data/name
+       * #/104/data/name
        */
       "name": {
         "key": "SuggestedSearch/Rainy/Name/rainy",
@@ -5812,7 +4869,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/127data/search
+       * #/104data/search
        */
       "search": {
         "searchQuery": "rainy",
@@ -5838,7 +4895,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/128/isLocalizable
+     * #/105/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5853,7 +4910,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/151/data/name
+       * #/105/data/name
        */
       "name": {
         "key": "SuggestedSearch/Rainbow/Name/rainbow",
@@ -5866,7 +4923,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/128data/search
+       * #/105data/search
        */
       "search": {
         "searchQuery": "rainbow",
@@ -5892,7 +4949,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/129/isLocalizable
+     * #/106/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5907,7 +4964,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/152/data/name
+       * #/106/data/name
        */
       "name": {
         "key": "SuggestedSearch/Race/Name/race",
@@ -5920,7 +4977,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/129data/search
+       * #/106data/search
        */
       "search": {
         "searchQuery": "race",
@@ -5946,7 +5003,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/130/isLocalizable
+     * #/107/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -5961,7 +5018,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/153/data/name
+       * #/107/data/name
        */
       "name": {
         "key": "SuggestedSearch/Quiz/Name/quiz",
@@ -5974,7 +5031,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/130data/search
+       * #/107data/search
        */
       "search": {
         "searchQuery": "quiz",
@@ -6000,7 +5057,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/131/isLocalizable
+     * #/108/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6015,7 +5072,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/154/data/name
+       * #/108/data/name
        */
       "name": {
         "key": "SuggestedSearch/Pvp/Name/pvp",
@@ -6028,7 +5085,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/131data/search
+       * #/108data/search
        */
       "search": {
         "searchQuery": "pvp",
@@ -6054,7 +5111,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/132/isLocalizable
+     * #/109/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6069,7 +5126,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/155/data/name
+       * #/109/data/name
        */
       "name": {
         "key": "SuggestedSearch/Puzzle/Name/puzzle",
@@ -6082,7 +5139,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/132data/search
+       * #/109data/search
        */
       "search": {
         "searchQuery": "puzzle",
@@ -6108,7 +5165,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/133/isLocalizable
+     * #/110/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6123,7 +5180,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/156/data/name
+       * #/110/data/name
        */
       "name": {
         "key": "SuggestedSearch/Prison/Name/prison",
@@ -6136,7 +5193,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/133data/search
+       * #/110data/search
        */
       "search": {
         "searchQuery": "prison",
@@ -6162,7 +5219,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/134/isLocalizable
+     * #/111/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6177,7 +5234,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/157/data/name
+       * #/111/data/name
        */
       "name": {
         "key": "SuggestedSearch/Police/Name/police",
@@ -6190,7 +5247,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/134data/search
+       * #/111data/search
        */
       "search": {
         "searchQuery": "police",
@@ -6216,7 +5273,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/135/isLocalizable
+     * #/112/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6231,7 +5288,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/158/data/name
+       * #/112/data/name
        */
       "name": {
         "key": "SuggestedSearch/Podcast/Name/podcast",
@@ -6244,7 +5301,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/135data/search
+       * #/112data/search
        */
       "search": {
         "searchQuery": "podcast",
@@ -6270,7 +5327,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/136/isLocalizable
+     * #/113/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6285,7 +5342,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/159/data/name
+       * #/113/data/name
        */
       "name": {
         "key": "SuggestedSearch/Playground/Name/playground",
@@ -6298,7 +5355,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/136data/search
+       * #/113data/search
        */
       "search": {
         "searchQuery": "playground",
@@ -6324,7 +5381,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/137/isLocalizable
+     * #/114/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6339,7 +5396,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/160/data/name
+       * #/114/data/name
        */
       "name": {
         "key": "SuggestedSearch/Planet/Name/planet",
@@ -6352,7 +5409,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/137data/search
+       * #/114data/search
        */
       "search": {
         "searchQuery": "planet",
@@ -6378,7 +5435,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/138/isLocalizable
+     * #/115/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6393,7 +5450,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/161/data/name
+       * #/115/data/name
        */
       "name": {
         "key": "SuggestedSearch/Pizza/Name/pizza",
@@ -6406,7 +5463,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/138data/search
+       * #/115data/search
        */
       "search": {
         "searchQuery": "pizza",
@@ -6432,7 +5489,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/139/isLocalizable
+     * #/116/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6447,7 +5504,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/162/data/name
+       * #/116/data/name
        */
       "name": {
         "key": "SuggestedSearch/Pirate/Name/pirate",
@@ -6460,7 +5517,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/139data/search
+       * #/116data/search
        */
       "search": {
         "searchQuery": "pirate",
@@ -6486,7 +5543,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/140/isLocalizable
+     * #/117/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6501,7 +5558,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/163/data/name
+       * #/117/data/name
        */
       "name": {
         "key": "SuggestedSearch/Piano/Name/piano",
@@ -6514,7 +5571,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/140data/search
+       * #/117data/search
        */
       "search": {
         "searchQuery": "piano",
@@ -6540,7 +5597,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/141/isLocalizable
+     * #/118/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6555,7 +5612,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/164/data/name
+       * #/118/data/name
        */
       "name": {
         "key": "SuggestedSearch/Photography/Name/photography",
@@ -6568,7 +5625,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/141data/search
+       * #/118data/search
        */
       "search": {
         "searchQuery": "photography",
@@ -6594,7 +5651,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/142/isLocalizable
+     * #/119/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6609,7 +5666,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/165/data/name
+       * #/119/data/name
        */
       "name": {
         "key": "SuggestedSearch/Photogrammetry/Name/photogrammetry",
@@ -6622,7 +5679,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/142data/search
+       * #/119data/search
        */
       "search": {
         "searchQuery": "photogrammetry",
@@ -6648,7 +5705,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/143/isLocalizable
+     * #/120/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6663,7 +5720,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/166/data/name
+       * #/120/data/name
        */
       "name": {
         "key": "SuggestedSearch/Pet/Name/pet",
@@ -6676,7 +5733,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/143data/search
+       * #/120data/search
        */
       "search": {
         "searchQuery": "pet",
@@ -6702,7 +5759,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/144/isLocalizable
+     * #/121/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6717,7 +5774,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/167/data/name
+       * #/121/data/name
        */
       "name": {
         "key": "SuggestedSearch/Party/Name/party",
@@ -6730,7 +5787,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/144data/search
+       * #/121data/search
        */
       "search": {
         "searchQuery": "party",
@@ -6756,7 +5813,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/145/isLocalizable
+     * #/122/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6771,7 +5828,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/168/data/name
+       * #/122/data/name
        */
       "name": {
         "key": "SuggestedSearch/Particle/Name/particle",
@@ -6784,7 +5841,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/145data/search
+       * #/122data/search
        */
       "search": {
         "searchQuery": "particle",
@@ -6810,7 +5867,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/146/isLocalizable
+     * #/123/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6825,7 +5882,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/169/data/name
+       * #/123/data/name
        */
       "name": {
         "key": "SuggestedSearch/Parkour/Name/parkour",
@@ -6838,7 +5895,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/146data/search
+       * #/123data/search
        */
       "search": {
         "searchQuery": "parkour",
@@ -6864,7 +5921,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/147/isLocalizable
+     * #/124/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6879,7 +5936,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/170/data/name
+       * #/124/data/name
        */
       "name": {
         "key": "SuggestedSearch/Park/Name/park",
@@ -6892,7 +5949,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/147data/search
+       * #/124data/search
        */
       "search": {
         "searchQuery": "park",
@@ -6918,7 +5975,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/148/isLocalizable
+     * #/125/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6933,7 +5990,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/171/data/name
+       * #/125/data/name
        */
       "name": {
         "key": "SuggestedSearch/Paint/Name/paint",
@@ -6946,7 +6003,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/148data/search
+       * #/125data/search
        */
       "search": {
         "searchQuery": "paint",
@@ -6972,7 +6029,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/149/isLocalizable
+     * #/126/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -6987,7 +6044,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/172/data/name
+       * #/126/data/name
        */
       "name": {
         "key": "SuggestedSearch/Onsen/Name/onsen",
@@ -7000,7 +6057,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/149data/search
+       * #/126data/search
        */
       "search": {
         "searchQuery": "onsen",
@@ -7026,7 +6083,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/150/isLocalizable
+     * #/127/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7041,7 +6098,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/173/data/name
+       * #/127/data/name
        */
       "name": {
         "key": "SuggestedSearch/Office/Name/office",
@@ -7054,7 +6111,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/150data/search
+       * #/127data/search
        */
       "search": {
         "searchQuery": "office",
@@ -7080,7 +6137,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/151/isLocalizable
+     * #/128/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7095,7 +6152,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/174/data/name
+       * #/128/data/name
        */
       "name": {
         "key": "SuggestedSearch/Ocean/Name/ocean",
@@ -7108,7 +6165,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/151data/search
+       * #/128data/search
        */
       "search": {
         "searchQuery": "ocean",
@@ -7134,7 +6191,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/152/isLocalizable
+     * #/129/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7149,7 +6206,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/175/data/name
+       * #/129/data/name
        */
       "name": {
         "key": "SuggestedSearch/Night/Name/night",
@@ -7162,7 +6219,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/152data/search
+       * #/129data/search
        */
       "search": {
         "searchQuery": "night",
@@ -7188,7 +6245,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/153/isLocalizable
+     * #/130/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7203,7 +6260,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/176/data/name
+       * #/130/data/name
        */
       "name": {
         "key": "SuggestedSearch/Neon/Name/neon",
@@ -7216,7 +6273,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/153data/search
+       * #/130data/search
        */
       "search": {
         "searchQuery": "neon",
@@ -7242,7 +6299,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/154/isLocalizable
+     * #/131/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7257,7 +6314,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/177/data/name
+       * #/131/data/name
        */
       "name": {
         "key": "SuggestedSearch/Nature/Name/nature",
@@ -7270,7 +6327,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/154data/search
+       * #/131data/search
        */
       "search": {
         "searchQuery": "nature",
@@ -7296,7 +6353,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/155/isLocalizable
+     * #/132/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7311,7 +6368,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/178/data/name
+       * #/132/data/name
        */
       "name": {
         "key": "SuggestedSearch/Music/Name/music",
@@ -7324,7 +6381,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/155data/search
+       * #/132data/search
        */
       "search": {
         "searchQuery": "music",
@@ -7350,7 +6407,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/156/isLocalizable
+     * #/133/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7365,7 +6422,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/179/data/name
+       * #/133/data/name
        */
       "name": {
         "key": "SuggestedSearch/Mushroom/Name/mushroom",
@@ -7378,7 +6435,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/156data/search
+       * #/133data/search
        */
       "search": {
         "searchQuery": "mushroom",
@@ -7404,7 +6461,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/157/isLocalizable
+     * #/134/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7419,7 +6476,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/180/data/name
+       * #/134/data/name
        */
       "name": {
         "key": "SuggestedSearch/Museum/Name/museum",
@@ -7432,7 +6489,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/157data/search
+       * #/134data/search
        */
       "search": {
         "searchQuery": "museum",
@@ -7458,7 +6515,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/158/isLocalizable
+     * #/135/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7473,7 +6530,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/181/data/name
+       * #/135/data/name
        */
       "name": {
         "key": "SuggestedSearch/Murder mystery/Name/murder-mystery",
@@ -7486,7 +6543,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/158data/search
+       * #/135data/search
        */
       "search": {
         "searchQuery": "murder mystery",
@@ -7512,7 +6569,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/159/isLocalizable
+     * #/136/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7527,7 +6584,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/182/data/name
+       * #/136/data/name
        */
       "name": {
         "key": "SuggestedSearch/Movie/Name/movie",
@@ -7540,7 +6597,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/159data/search
+       * #/136data/search
        */
       "search": {
         "searchQuery": "movie",
@@ -7566,7 +6623,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/160/isLocalizable
+     * #/137/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7581,7 +6638,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/183/data/name
+       * #/137/data/name
        */
       "name": {
         "key": "SuggestedSearch/Mountain/Name/mountain",
@@ -7594,7 +6651,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/160data/search
+       * #/137data/search
        */
       "search": {
         "searchQuery": "mountain",
@@ -7620,7 +6677,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/161/isLocalizable
+     * #/138/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7635,7 +6692,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/184/data/name
+       * #/138/data/name
        */
       "name": {
         "key": "SuggestedSearch/Motorcycle/Name/motorcycle",
@@ -7648,7 +6705,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/161data/search
+       * #/138data/search
        */
       "search": {
         "searchQuery": "motorcycle",
@@ -7674,7 +6731,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/162/isLocalizable
+     * #/139/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7689,7 +6746,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/185/data/name
+       * #/139/data/name
        */
       "name": {
         "key": "SuggestedSearch/Morning/Name/morning",
@@ -7702,7 +6759,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/162data/search
+       * #/139data/search
        */
       "search": {
         "searchQuery": "morning",
@@ -7728,7 +6785,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/163/isLocalizable
+     * #/140/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7743,7 +6800,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/186/data/name
+       * #/140/data/name
        */
       "name": {
         "key": "SuggestedSearch/Moon/Name/moon",
@@ -7756,7 +6813,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/163data/search
+       * #/140data/search
        */
       "search": {
         "searchQuery": "moon",
@@ -7782,7 +6839,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/164/isLocalizable
+     * #/141/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7797,7 +6854,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/187/data/name
+       * #/141/data/name
        */
       "name": {
         "key": "SuggestedSearch/Monster/Name/monster",
@@ -7810,7 +6867,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/164data/search
+       * #/141data/search
        */
       "search": {
         "searchQuery": "monster",
@@ -7836,7 +6893,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/165/isLocalizable
+     * #/142/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7851,7 +6908,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/188/data/name
+       * #/142/data/name
        */
       "name": {
         "key": "SuggestedSearch/Military/Name/military",
@@ -7864,7 +6921,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/165data/search
+       * #/142data/search
        */
       "search": {
         "searchQuery": "military",
@@ -7890,7 +6947,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/166/isLocalizable
+     * #/143/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7905,7 +6962,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/189/data/name
+       * #/143/data/name
        */
       "name": {
         "key": "SuggestedSearch/Meme/Name/meme",
@@ -7918,7 +6975,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/166data/search
+       * #/143data/search
        */
       "search": {
         "searchQuery": "meme",
@@ -7944,7 +7001,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/167/isLocalizable
+     * #/144/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -7959,7 +7016,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/190/data/name
+       * #/144/data/name
        */
       "name": {
         "key": "SuggestedSearch/Meeting/Name/meeting",
@@ -7972,7 +7029,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/167data/search
+       * #/144data/search
        */
       "search": {
         "searchQuery": "meeting",
@@ -7998,7 +7055,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/168/isLocalizable
+     * #/145/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8013,7 +7070,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/191/data/name
+       * #/145/data/name
        */
       "name": {
         "key": "SuggestedSearch/Meditation/Name/meditation",
@@ -8026,7 +7083,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/168data/search
+       * #/145data/search
        */
       "search": {
         "searchQuery": "meditation",
@@ -8052,7 +7109,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/169/isLocalizable
+     * #/146/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8067,7 +7124,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/192/data/name
+       * #/146/data/name
        */
       "name": {
         "key": "SuggestedSearch/Medieval/Name/medieval",
@@ -8080,7 +7137,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/169data/search
+       * #/146data/search
        */
       "search": {
         "searchQuery": "medieval",
@@ -8106,7 +7163,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/170/isLocalizable
+     * #/147/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8121,7 +7178,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/193/data/name
+       * #/147/data/name
        */
       "name": {
         "key": "SuggestedSearch/Mech/Name/mech",
@@ -8134,7 +7191,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/170data/search
+       * #/147data/search
        */
       "search": {
         "searchQuery": "mech",
@@ -8160,7 +7217,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/171/isLocalizable
+     * #/148/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8175,7 +7232,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/194/data/name
+       * #/148/data/name
        */
       "name": {
         "key": "SuggestedSearch/Maze/Name/maze",
@@ -8188,7 +7245,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/171data/search
+       * #/148data/search
        */
       "search": {
         "searchQuery": "maze",
@@ -8214,7 +7271,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/172/isLocalizable
+     * #/149/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8229,7 +7286,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/195/data/name
+       * #/149/data/name
        */
       "name": {
         "key": "SuggestedSearch/Mansion/Name/mansion",
@@ -8242,7 +7299,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/172data/search
+       * #/149data/search
        */
       "search": {
         "searchQuery": "mansion",
@@ -8268,7 +7325,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/173/isLocalizable
+     * #/150/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8283,7 +7340,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/196/data/name
+       * #/150/data/name
        */
       "name": {
         "key": "SuggestedSearch/Mall/Name/mall",
@@ -8296,7 +7353,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/173data/search
+       * #/150data/search
        */
       "search": {
         "searchQuery": "mall",
@@ -8322,7 +7379,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/174/isLocalizable
+     * #/151/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8337,7 +7394,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/197/data/name
+       * #/151/data/name
        */
       "name": {
         "key": "SuggestedSearch/Magic/Name/magic",
@@ -8350,7 +7407,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/174data/search
+       * #/151data/search
        */
       "search": {
         "searchQuery": "magic",
@@ -8376,7 +7433,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/175/isLocalizable
+     * #/152/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8391,7 +7448,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/198/data/name
+       * #/152/data/name
        */
       "name": {
         "key": "SuggestedSearch/Mafia/Name/mafia",
@@ -8404,7 +7461,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/175data/search
+       * #/152data/search
        */
       "search": {
         "searchQuery": "mafia",
@@ -8430,7 +7487,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/176/isLocalizable
+     * #/153/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8445,7 +7502,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/199/data/name
+       * #/153/data/name
        */
       "name": {
         "key": "SuggestedSearch/Love/Name/love",
@@ -8458,7 +7515,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/176data/search
+       * #/153data/search
        */
       "search": {
         "searchQuery": "love",
@@ -8484,7 +7541,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/177/isLocalizable
+     * #/154/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8499,7 +7556,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/200/data/name
+       * #/154/data/name
        */
       "name": {
         "key": "SuggestedSearch/Lonely/Name/lonely",
@@ -8512,7 +7569,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/177data/search
+       * #/154data/search
        */
       "search": {
         "searchQuery": "lonely",
@@ -8538,7 +7595,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/178/isLocalizable
+     * #/155/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8553,7 +7610,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/201/data/name
+       * #/155/data/name
        */
       "name": {
         "key": "SuggestedSearch/Liminal/Name/liminal",
@@ -8566,7 +7623,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/178data/search
+       * #/155data/search
        */
       "search": {
         "searchQuery": "liminal",
@@ -8592,7 +7649,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/179/isLocalizable
+     * #/156/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8607,7 +7664,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/202/data/name
+       * #/156/data/name
        */
       "name": {
         "key": "SuggestedSearch/Library/Name/library",
@@ -8620,7 +7677,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/179data/search
+       * #/156data/search
        */
       "search": {
         "searchQuery": "library",
@@ -8646,7 +7703,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/180/isLocalizable
+     * #/157/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8661,7 +7718,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/203/data/name
+       * #/157/data/name
        */
       "name": {
         "key": "SuggestedSearch/LGBTQ/Name/LGBTQ",
@@ -8674,7 +7731,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/180data/search
+       * #/157data/search
        */
       "search": {
         "searchQuery": "LGBTQ",
@@ -8700,7 +7757,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/181/isLocalizable
+     * #/158/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8715,7 +7772,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/204/data/name
+       * #/158/data/name
        */
       "name": {
         "key": "SuggestedSearch/Language/Name/language",
@@ -8728,7 +7785,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/181data/search
+       * #/158data/search
        */
       "search": {
         "searchQuery": "language",
@@ -8754,7 +7811,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/182/isLocalizable
+     * #/159/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8769,7 +7826,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/205/data/name
+       * #/159/data/name
        */
       "name": {
         "key": "SuggestedSearch/Landscape/Name/landscape",
@@ -8782,7 +7839,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/182data/search
+       * #/159data/search
        */
       "search": {
         "searchQuery": "landscape",
@@ -8808,7 +7865,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/183/isLocalizable
+     * #/160/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8823,7 +7880,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/206/data/name
+       * #/160/data/name
        */
       "name": {
         "key": "SuggestedSearch/Lab/Name/lab",
@@ -8836,7 +7893,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/183data/search
+       * #/160data/search
        */
       "search": {
         "searchQuery": "lab",
@@ -8862,7 +7919,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/184/isLocalizable
+     * #/161/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8877,7 +7934,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/207/data/name
+       * #/161/data/name
        */
       "name": {
         "key": "SuggestedSearch/Karaoke/Name/karaoke",
@@ -8890,7 +7947,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/184data/search
+       * #/161data/search
        */
       "search": {
         "searchQuery": "karaoke",
@@ -8916,7 +7973,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/185/isLocalizable
+     * #/162/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8931,7 +7988,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/208/data/name
+       * #/162/data/name
        */
       "name": {
         "key": "SuggestedSearch/Jungle/Name/jungle",
@@ -8944,7 +8001,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/185data/search
+       * #/162data/search
        */
       "search": {
         "searchQuery": "jungle",
@@ -8970,7 +8027,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/186/isLocalizable
+     * #/163/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -8985,7 +8042,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/209/data/name
+       * #/163/data/name
        */
       "name": {
         "key": "SuggestedSearch/Jet/Name/jet",
@@ -8998,7 +8055,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/186data/search
+       * #/163data/search
        */
       "search": {
         "searchQuery": "jet",
@@ -9024,7 +8081,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/187/isLocalizable
+     * #/164/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9039,7 +8096,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/210/data/name
+       * #/164/data/name
        */
       "name": {
         "key": "SuggestedSearch/Island/Name/island",
@@ -9052,7 +8109,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/187data/search
+       * #/164data/search
        */
       "search": {
         "searchQuery": "island",
@@ -9078,7 +8135,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/188/isLocalizable
+     * #/165/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9093,7 +8150,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/211/data/name
+       * #/165/data/name
        */
       "name": {
         "key": "SuggestedSearch/Hub/Name/hub",
@@ -9106,7 +8163,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/188data/search
+       * #/165data/search
        */
       "search": {
         "searchQuery": "hub",
@@ -9132,7 +8189,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/189/isLocalizable
+     * #/166/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9147,7 +8204,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/212/data/name
+       * #/166/data/name
        */
       "name": {
         "key": "SuggestedSearch/House/Name/house",
@@ -9160,7 +8217,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/189data/search
+       * #/166data/search
        */
       "search": {
         "searchQuery": "house",
@@ -9186,7 +8243,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/190/isLocalizable
+     * #/167/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9201,7 +8258,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/213/data/name
+       * #/167/data/name
        */
       "name": {
         "key": "SuggestedSearch/Hotel/Name/hotel",
@@ -9214,7 +8271,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/190data/search
+       * #/167data/search
        */
       "search": {
         "searchQuery": "hotel",
@@ -9240,7 +8297,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/191/isLocalizable
+     * #/168/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9255,7 +8312,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/214/data/name
+       * #/168/data/name
        */
       "name": {
         "key": "SuggestedSearch/Hospital/Name/hospital",
@@ -9268,7 +8325,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/191data/search
+       * #/168data/search
        */
       "search": {
         "searchQuery": "hospital",
@@ -9294,7 +8351,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/192/isLocalizable
+     * #/169/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9309,7 +8366,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/215/data/name
+       * #/169/data/name
        */
       "name": {
         "key": "SuggestedSearch/Horse/Name/horse",
@@ -9322,7 +8379,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/192data/search
+       * #/169data/search
        */
       "search": {
         "searchQuery": "horse",
@@ -9348,7 +8405,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/193/isLocalizable
+     * #/170/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9363,7 +8420,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/216/data/name
+       * #/170/data/name
        */
       "name": {
         "key": "SuggestedSearch/Horror/Name/horror",
@@ -9376,7 +8433,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/193data/search
+       * #/170data/search
        */
       "search": {
         "searchQuery": "horror",
@@ -9402,7 +8459,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/194/isLocalizable
+     * #/171/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9417,7 +8474,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/217/data/name
+       * #/171/data/name
        */
       "name": {
         "key": "SuggestedSearch/Home/Name/home",
@@ -9430,7 +8487,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/194data/search
+       * #/171data/search
        */
       "search": {
         "searchQuery": "home",
@@ -9456,7 +8513,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/195/isLocalizable
+     * #/172/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9471,7 +8528,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/218/data/name
+       * #/172/data/name
        */
       "name": {
         "key": "SuggestedSearch/Holiday/Name/holiday",
@@ -9484,7 +8541,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/195data/search
+       * #/172data/search
        */
       "search": {
         "searchQuery": "holiday",
@@ -9510,7 +8567,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/196/isLocalizable
+     * #/173/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9525,7 +8582,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/219/data/name
+       * #/173/data/name
        */
       "name": {
         "key": "SuggestedSearch/Hide and seek/Name/hide-and-seek",
@@ -9538,7 +8595,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/196data/search
+       * #/173data/search
        */
       "search": {
         "searchQuery": "hide and seek",
@@ -9564,7 +8621,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/197/isLocalizable
+     * #/174/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9579,7 +8636,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/220/data/name
+       * #/174/data/name
        */
       "name": {
         "key": "SuggestedSearch/Helicopter/Name/helicopter",
@@ -9592,7 +8649,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/197data/search
+       * #/174data/search
        */
       "search": {
         "searchQuery": "helicopter",
@@ -9618,7 +8675,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/198/isLocalizable
+     * #/175/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9633,7 +8690,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/221/data/name
+       * #/175/data/name
        */
       "name": {
         "key": "SuggestedSearch/Hangout/Name/hangout",
@@ -9646,7 +8703,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/198data/search
+       * #/175data/search
        */
       "search": {
         "searchQuery": "hangout",
@@ -9672,7 +8729,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/199/isLocalizable
+     * #/176/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9687,7 +8744,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/222/data/name
+       * #/176/data/name
        */
       "name": {
         "key": "SuggestedSearch/Halloween/Name/halloween",
@@ -9700,7 +8757,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/199data/search
+       * #/176data/search
        */
       "search": {
         "searchQuery": "halloween",
@@ -9726,7 +8783,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/200/isLocalizable
+     * #/177/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9741,7 +8798,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/223/data/name
+       * #/177/data/name
        */
       "name": {
         "key": "SuggestedSearch/Gym/Name/gym",
@@ -9754,7 +8811,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/200data/search
+       * #/177data/search
        */
       "search": {
         "searchQuery": "gym",
@@ -9780,7 +8837,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/201/isLocalizable
+     * #/178/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9795,7 +8852,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/224/data/name
+       * #/178/data/name
        */
       "name": {
         "key": "SuggestedSearch/Grass/Name/grass",
@@ -9808,7 +8865,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/201data/search
+       * #/178data/search
        */
       "search": {
         "searchQuery": "grass",
@@ -9834,7 +8891,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/202/isLocalizable
+     * #/179/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9849,7 +8906,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/225/data/name
+       * #/179/data/name
        */
       "name": {
         "key": "SuggestedSearch/Grapple/Name/grapple",
@@ -9862,7 +8919,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/202data/search
+       * #/179data/search
        */
       "search": {
         "searchQuery": "grapple",
@@ -9888,7 +8945,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/203/isLocalizable
+     * #/180/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9903,7 +8960,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/226/data/name
+       * #/180/data/name
        */
       "name": {
         "key": "SuggestedSearch/Graffiti/Name/graffiti",
@@ -9916,7 +8973,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/203data/search
+       * #/180data/search
        */
       "search": {
         "searchQuery": "graffiti",
@@ -9942,7 +8999,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/204/isLocalizable
+     * #/181/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -9957,7 +9014,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/227/data/name
+       * #/181/data/name
        */
       "name": {
         "key": "SuggestedSearch/Golf/Name/golf",
@@ -9970,7 +9027,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/204data/search
+       * #/181data/search
        */
       "search": {
         "searchQuery": "golf",
@@ -9996,7 +9053,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/205/isLocalizable
+     * #/182/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10011,7 +9068,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/228/data/name
+       * #/182/data/name
        */
       "name": {
         "key": "SuggestedSearch/Giant/Name/giant",
@@ -10024,7 +9081,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/205data/search
+       * #/182data/search
        */
       "search": {
         "searchQuery": "giant",
@@ -10050,7 +9107,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/206/isLocalizable
+     * #/183/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10065,7 +9122,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/229/data/name
+       * #/183/data/name
        */
       "name": {
         "key": "SuggestedSearch/Garden/Name/garden",
@@ -10078,7 +9135,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/206data/search
+       * #/183data/search
        */
       "search": {
         "searchQuery": "garden",
@@ -10104,7 +9161,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/207/isLocalizable
+     * #/184/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10119,7 +9176,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/230/data/name
+       * #/184/data/name
        */
       "name": {
         "key": "SuggestedSearch/Garage/Name/garage",
@@ -10132,7 +9189,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/207data/search
+       * #/184data/search
        */
       "search": {
         "searchQuery": "garage",
@@ -10158,7 +9215,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/208/isLocalizable
+     * #/185/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10173,7 +9230,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/231/data/name
+       * #/185/data/name
        */
       "name": {
         "key": "SuggestedSearch/Gallery/Name/gallery",
@@ -10186,7 +9243,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/208data/search
+       * #/185data/search
        */
       "search": {
         "searchQuery": "gallery",
@@ -10212,7 +9269,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/209/isLocalizable
+     * #/186/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10227,7 +9284,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/232/data/name
+       * #/186/data/name
        */
       "name": {
         "key": "SuggestedSearch/Furry/Name/furry",
@@ -10240,7 +9297,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/209data/search
+       * #/186data/search
        */
       "search": {
         "searchQuery": "furry",
@@ -10266,7 +9323,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/210/isLocalizable
+     * #/187/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10281,7 +9338,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/233/data/name
+       * #/187/data/name
        */
       "name": {
         "key": "SuggestedSearch/Fort/Name/fort",
@@ -10294,7 +9351,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/210data/search
+       * #/187data/search
        */
       "search": {
         "searchQuery": "fort",
@@ -10320,7 +9377,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/211/isLocalizable
+     * #/188/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10335,7 +9392,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/234/data/name
+       * #/188/data/name
        */
       "name": {
         "key": "SuggestedSearch/Forest/Name/forest",
@@ -10348,7 +9405,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/211data/search
+       * #/188data/search
        */
       "search": {
         "searchQuery": "forest",
@@ -10374,7 +9431,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/212/isLocalizable
+     * #/189/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10389,7 +9446,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/235/data/name
+       * #/189/data/name
        */
       "name": {
         "key": "SuggestedSearch/Food/Name/food",
@@ -10402,7 +9459,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/212data/search
+       * #/189data/search
        */
       "search": {
         "searchQuery": "food",
@@ -10428,7 +9485,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/213/isLocalizable
+     * #/190/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10443,7 +9500,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/236/data/name
+       * #/190/data/name
        */
       "name": {
         "key": "SuggestedSearch/Fog/Name/fog",
@@ -10456,7 +9513,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/213data/search
+       * #/190data/search
        */
       "search": {
         "searchQuery": "fog",
@@ -10482,7 +9539,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/214/isLocalizable
+     * #/191/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10497,7 +9554,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/237/data/name
+       * #/191/data/name
        */
       "name": {
         "key": "SuggestedSearch/Flower/Name/flower",
@@ -10510,7 +9567,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/214data/search
+       * #/191data/search
        */
       "search": {
         "searchQuery": "flower",
@@ -10536,7 +9593,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/215/isLocalizable
+     * #/192/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10551,7 +9608,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/238/data/name
+       * #/192/data/name
        */
       "name": {
         "key": "SuggestedSearch/Flight sim/Name/flight-sim",
@@ -10564,7 +9621,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/215data/search
+       * #/192data/search
        */
       "search": {
         "searchQuery": "flight sim",
@@ -10590,7 +9647,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/216/isLocalizable
+     * #/193/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10605,7 +9662,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/239/data/name
+       * #/193/data/name
        */
       "name": {
         "key": "SuggestedSearch/Fishing/Name/fishing",
@@ -10618,7 +9675,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/216data/search
+       * #/193data/search
        */
       "search": {
         "searchQuery": "fishing",
@@ -10644,7 +9701,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/217/isLocalizable
+     * #/194/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10659,7 +9716,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/240/data/name
+       * #/194/data/name
        */
       "name": {
         "key": "SuggestedSearch/Fish/Name/fish",
@@ -10672,7 +9729,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/217data/search
+       * #/194data/search
        */
       "search": {
         "searchQuery": "fish",
@@ -10698,7 +9755,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/218/isLocalizable
+     * #/195/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10713,7 +9770,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/241/data/name
+       * #/195/data/name
        */
       "name": {
         "key": "SuggestedSearch/Fireworks/Name/fireworks",
@@ -10726,7 +9783,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/218data/search
+       * #/195data/search
        */
       "search": {
         "searchQuery": "fireworks",
@@ -10752,7 +9809,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/219/isLocalizable
+     * #/196/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10767,7 +9824,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/242/data/name
+       * #/196/data/name
        */
       "name": {
         "key": "SuggestedSearch/Festival/Name/festival",
@@ -10780,7 +9837,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/219data/search
+       * #/196data/search
        */
       "search": {
         "searchQuery": "festival",
@@ -10806,7 +9863,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/220/isLocalizable
+     * #/197/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10821,7 +9878,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/243/data/name
+       * #/197/data/name
        */
       "name": {
         "key": "SuggestedSearch/Fast food/Name/fast-food",
@@ -10834,7 +9891,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/220data/search
+       * #/197data/search
        */
       "search": {
         "searchQuery": "fast food",
@@ -10860,7 +9917,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/221/isLocalizable
+     * #/198/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10875,7 +9932,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/244/data/name
+       * #/198/data/name
        */
       "name": {
         "key": "SuggestedSearch/Farm/Name/farm",
@@ -10888,7 +9945,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/221data/search
+       * #/198data/search
        */
       "search": {
         "searchQuery": "farm",
@@ -10914,7 +9971,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/222/isLocalizable
+     * #/199/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10929,7 +9986,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/245/data/name
+       * #/199/data/name
        */
       "name": {
         "key": "SuggestedSearch/Fantasy/Name/fantasy",
@@ -10942,7 +9999,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/222data/search
+       * #/199data/search
        */
       "search": {
         "searchQuery": "fantasy",
@@ -10968,7 +10025,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/223/isLocalizable
+     * #/200/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -10983,7 +10040,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/246/data/name
+       * #/200/data/name
        */
       "name": {
         "key": "SuggestedSearch/Explore/Name/explore",
@@ -10996,7 +10053,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/223data/search
+       * #/200data/search
        */
       "search": {
         "searchQuery": "explore",
@@ -11022,7 +10079,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/224/isLocalizable
+     * #/201/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11037,7 +10094,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/247/data/name
+       * #/201/data/name
        */
       "name": {
         "key": "SuggestedSearch/Escape room/Name/escape-room",
@@ -11050,7 +10107,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/224data/search
+       * #/201data/search
        */
       "search": {
         "searchQuery": "escape room",
@@ -11076,7 +10133,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/225/isLocalizable
+     * #/202/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11091,7 +10148,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/248/data/name
+       * #/202/data/name
        */
       "name": {
         "key": "SuggestedSearch/Elevator/Name/elevator",
@@ -11104,7 +10161,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/225data/search
+       * #/202data/search
        */
       "search": {
         "searchQuery": "elevator",
@@ -11130,7 +10187,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/226/isLocalizable
+     * #/203/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11145,7 +10202,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/249/data/name
+       * #/203/data/name
        */
       "name": {
         "key": "SuggestedSearch/Dungeon/Name/dungeon",
@@ -11158,7 +10215,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/226data/search
+       * #/203data/search
        */
       "search": {
         "searchQuery": "dungeon",
@@ -11184,7 +10241,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/227/isLocalizable
+     * #/204/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11199,7 +10256,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/250/data/name
+       * #/204/data/name
        */
       "name": {
         "key": "SuggestedSearch/Drone/Name/drone",
@@ -11212,7 +10269,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/227data/search
+       * #/204data/search
        */
       "search": {
         "searchQuery": "drone",
@@ -11238,7 +10295,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/228/isLocalizable
+     * #/205/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11253,7 +10310,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/251/data/name
+       * #/205/data/name
        */
       "name": {
         "key": "SuggestedSearch/Drive/Name/drive",
@@ -11266,7 +10323,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/228data/search
+       * #/205data/search
        */
       "search": {
         "searchQuery": "drive",
@@ -11292,7 +10349,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/229/isLocalizable
+     * #/206/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11307,7 +10364,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/252/data/name
+       * #/206/data/name
        */
       "name": {
         "key": "SuggestedSearch/Drink/Name/drink",
@@ -11320,7 +10377,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/229data/search
+       * #/206data/search
        */
       "search": {
         "searchQuery": "drink",
@@ -11346,7 +10403,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/230/isLocalizable
+     * #/207/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11361,7 +10418,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/253/data/name
+       * #/207/data/name
        */
       "name": {
         "key": "SuggestedSearch/Draw/Name/draw",
@@ -11374,7 +10431,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/230data/search
+       * #/207data/search
        */
       "search": {
         "searchQuery": "draw",
@@ -11400,7 +10457,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/231/isLocalizable
+     * #/208/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11415,7 +10472,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/254/data/name
+       * #/208/data/name
        */
       "name": {
         "key": "SuggestedSearch/Dog/Name/dog",
@@ -11428,7 +10485,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/231data/search
+       * #/208data/search
        */
       "search": {
         "searchQuery": "dog",
@@ -11454,7 +10511,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/232/isLocalizable
+     * #/209/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11469,7 +10526,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/255/data/name
+       * #/209/data/name
        */
       "name": {
         "key": "SuggestedSearch/Dj/Name/dj",
@@ -11482,7 +10539,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/232data/search
+       * #/209data/search
        */
       "search": {
         "searchQuery": "dj",
@@ -11508,7 +10565,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/233/isLocalizable
+     * #/210/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11523,7 +10580,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/256/data/name
+       * #/210/data/name
        */
       "name": {
         "key": "SuggestedSearch/Dinosaur/Name/dinosaur",
@@ -11536,7 +10593,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/233data/search
+       * #/210data/search
        */
       "search": {
         "searchQuery": "dinosaur",
@@ -11562,7 +10619,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/234/isLocalizable
+     * #/211/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11577,7 +10634,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/257/data/name
+       * #/211/data/name
        */
       "name": {
         "key": "SuggestedSearch/Diner/Name/diner",
@@ -11590,7 +10647,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/234data/search
+       * #/211data/search
        */
       "search": {
         "searchQuery": "diner",
@@ -11616,7 +10673,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/235/isLocalizable
+     * #/212/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11631,7 +10688,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/258/data/name
+       * #/212/data/name
        */
       "name": {
         "key": "SuggestedSearch/Desert/Name/desert",
@@ -11644,7 +10701,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/235data/search
+       * #/212data/search
        */
       "search": {
         "searchQuery": "desert",
@@ -11670,7 +10727,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/236/isLocalizable
+     * #/213/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11685,7 +10742,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/259/data/name
+       * #/213/data/name
        */
       "name": {
         "key": "SuggestedSearch/Dating/Name/dating",
@@ -11698,7 +10755,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/236data/search
+       * #/213data/search
        */
       "search": {
         "searchQuery": "dating",
@@ -11724,7 +10781,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/237/isLocalizable
+     * #/214/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11739,7 +10796,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/260/data/name
+       * #/214/data/name
        */
       "name": {
         "key": "SuggestedSearch/Dark/Name/dark",
@@ -11752,7 +10809,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/237data/search
+       * #/214data/search
        */
       "search": {
         "searchQuery": "dark",
@@ -11778,7 +10835,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/238/isLocalizable
+     * #/215/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11793,7 +10850,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/261/data/name
+       * #/215/data/name
        */
       "name": {
         "key": "SuggestedSearch/Dance/Name/dance",
@@ -11806,7 +10863,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/238data/search
+       * #/215data/search
        */
       "search": {
         "searchQuery": "dance",
@@ -11832,7 +10889,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/239/isLocalizable
+     * #/216/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11847,7 +10904,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/262/data/name
+       * #/216/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cyber/Name/cyber",
@@ -11860,7 +10917,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/239data/search
+       * #/216data/search
        */
       "search": {
         "searchQuery": "cyber",
@@ -11886,7 +10943,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/240/isLocalizable
+     * #/217/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11901,7 +10958,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/263/data/name
+       * #/217/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cute/Name/cute",
@@ -11914,7 +10971,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/240data/search
+       * #/217data/search
        */
       "search": {
         "searchQuery": "cute",
@@ -11940,7 +10997,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/241/isLocalizable
+     * #/218/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -11955,7 +11012,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/264/data/name
+       * #/218/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cuddle/Name/cuddle",
@@ -11968,7 +11025,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/241data/search
+       * #/218data/search
        */
       "search": {
         "searchQuery": "cuddle",
@@ -11994,7 +11051,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/242/isLocalizable
+     * #/219/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12009,7 +11066,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/265/data/name
+       * #/219/data/name
        */
       "name": {
         "key": "SuggestedSearch/Creepy/Name/creepy",
@@ -12022,7 +11079,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/242data/search
+       * #/219data/search
        */
       "search": {
         "searchQuery": "creepy",
@@ -12048,7 +11105,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/243/isLocalizable
+     * #/220/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12063,7 +11120,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/266/data/name
+       * #/220/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cozy/Name/cozy",
@@ -12076,7 +11133,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/243data/search
+       * #/220data/search
        */
       "search": {
         "searchQuery": "cozy",
@@ -12102,7 +11159,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/244/isLocalizable
+     * #/221/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12117,7 +11174,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/267/data/name
+       * #/221/data/name
        */
       "name": {
         "key": "SuggestedSearch/Court/Name/court",
@@ -12130,7 +11187,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/244data/search
+       * #/221data/search
        */
       "search": {
         "searchQuery": "court",
@@ -12156,7 +11213,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/245/isLocalizable
+     * #/222/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12171,7 +11228,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/268/data/name
+       * #/222/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cook/Name/cook",
@@ -12184,7 +11241,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/245data/search
+       * #/222data/search
        */
       "search": {
         "searchQuery": "cook",
@@ -12210,7 +11267,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/246/isLocalizable
+     * #/223/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12225,7 +11282,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/269/data/name
+       * #/223/data/name
        */
       "name": {
         "key": "SuggestedSearch/Community/Name/community",
@@ -12238,7 +11295,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/246data/search
+       * #/223data/search
        */
       "search": {
         "searchQuery": "community",
@@ -12264,7 +11321,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/247/isLocalizable
+     * #/224/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12279,7 +11336,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/270/data/name
+       * #/224/data/name
        */
       "name": {
         "key": "SuggestedSearch/Comfy/Name/comfy",
@@ -12292,7 +11349,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/247data/search
+       * #/224data/search
        */
       "search": {
         "searchQuery": "comfy",
@@ -12318,7 +11375,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/248/isLocalizable
+     * #/225/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12333,7 +11390,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/271/data/name
+       * #/225/data/name
        */
       "name": {
         "key": "SuggestedSearch/Comedy/Name/comedy",
@@ -12346,7 +11403,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/248data/search
+       * #/225data/search
        */
       "search": {
         "searchQuery": "comedy",
@@ -12372,7 +11429,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/249/isLocalizable
+     * #/226/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12387,7 +11444,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/272/data/name
+       * #/226/data/name
        */
       "name": {
         "key": "SuggestedSearch/Coffee/Name/coffee",
@@ -12400,7 +11457,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/249data/search
+       * #/226data/search
        */
       "search": {
         "searchQuery": "coffee",
@@ -12426,7 +11483,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/250/isLocalizable
+     * #/227/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12441,7 +11498,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/273/data/name
+       * #/227/data/name
        */
       "name": {
         "key": "SuggestedSearch/Club/Name/club",
@@ -12454,7 +11511,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/250data/search
+       * #/227data/search
        */
       "search": {
         "searchQuery": "club",
@@ -12480,7 +11537,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/251/isLocalizable
+     * #/228/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12495,7 +11552,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/274/data/name
+       * #/228/data/name
        */
       "name": {
         "key": "SuggestedSearch/Climbing/Name/climbing",
@@ -12508,7 +11565,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/251data/search
+       * #/228data/search
        */
       "search": {
         "searchQuery": "climbing",
@@ -12534,7 +11591,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/252/isLocalizable
+     * #/229/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12549,7 +11606,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/275/data/name
+       * #/229/data/name
        */
       "name": {
         "key": "SuggestedSearch/Chill/Name/chill",
@@ -12562,7 +11619,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/252data/search
+       * #/229data/search
        */
       "search": {
         "searchQuery": "chill",
@@ -12588,7 +11645,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/253/isLocalizable
+     * #/230/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12603,7 +11660,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/276/data/name
+       * #/230/data/name
        */
       "name": {
         "key": "SuggestedSearch/Chess/Name/chess",
@@ -12616,7 +11673,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/253data/search
+       * #/230data/search
        */
       "search": {
         "searchQuery": "chess",
@@ -12642,7 +11699,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/254/isLocalizable
+     * #/231/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12657,7 +11714,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/277/data/name
+       * #/231/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cave/Name/cave",
@@ -12670,7 +11727,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/254data/search
+       * #/231data/search
        */
       "search": {
         "searchQuery": "cave",
@@ -12696,7 +11753,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/255/isLocalizable
+     * #/232/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12711,7 +11768,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/278/data/name
+       * #/232/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cathedral/Name/cathedral",
@@ -12724,7 +11781,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/255data/search
+       * #/232data/search
        */
       "search": {
         "searchQuery": "cathedral",
@@ -12750,7 +11807,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/256/isLocalizable
+     * #/233/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12765,7 +11822,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/279/data/name
+       * #/233/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cat/Name/cat",
@@ -12778,7 +11835,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/256data/search
+       * #/233data/search
        */
       "search": {
         "searchQuery": "cat",
@@ -12804,7 +11861,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/257/isLocalizable
+     * #/234/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12819,7 +11876,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/280/data/name
+       * #/234/data/name
        */
       "name": {
         "key": "SuggestedSearch/Castle/Name/castle",
@@ -12832,7 +11889,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/257data/search
+       * #/234data/search
        */
       "search": {
         "searchQuery": "castle",
@@ -12858,7 +11915,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/258/isLocalizable
+     * #/235/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12873,7 +11930,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/281/data/name
+       * #/235/data/name
        */
       "name": {
         "key": "SuggestedSearch/Casino/Name/casino",
@@ -12886,7 +11943,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/258data/search
+       * #/235data/search
        */
       "search": {
         "searchQuery": "casino",
@@ -12912,7 +11969,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/259/isLocalizable
+     * #/236/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12927,7 +11984,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/282/data/name
+       * #/236/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cartoon/Name/cartoon",
@@ -12940,7 +11997,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/259data/search
+       * #/236data/search
        */
       "search": {
         "searchQuery": "cartoon",
@@ -12966,7 +12023,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/260/isLocalizable
+     * #/237/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -12981,7 +12038,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/283/data/name
+       * #/237/data/name
        */
       "name": {
         "key": "SuggestedSearch/Carnival/Name/carnival",
@@ -12994,7 +12051,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/260data/search
+       * #/237data/search
        */
       "search": {
         "searchQuery": "carnival",
@@ -13020,7 +12077,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/261/isLocalizable
+     * #/238/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13035,7 +12092,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/284/data/name
+       * #/238/data/name
        */
       "name": {
         "key": "SuggestedSearch/Car/Name/car",
@@ -13048,7 +12105,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/261data/search
+       * #/238data/search
        */
       "search": {
         "searchQuery": "car",
@@ -13074,7 +12131,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/262/isLocalizable
+     * #/239/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13089,7 +12146,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/285/data/name
+       * #/239/data/name
        */
       "name": {
         "key": "SuggestedSearch/Camping/Name/camping",
@@ -13102,7 +12159,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/262data/search
+       * #/239data/search
        */
       "search": {
         "searchQuery": "camping",
@@ -13128,7 +12185,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/263/isLocalizable
+     * #/240/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13143,7 +12200,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/286/data/name
+       * #/240/data/name
        */
       "name": {
         "key": "SuggestedSearch/Campfire/Name/campfire",
@@ -13156,7 +12213,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/263data/search
+       * #/240data/search
        */
       "search": {
         "searchQuery": "campfire",
@@ -13182,7 +12239,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/264/isLocalizable
+     * #/241/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13197,7 +12254,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/287/data/name
+       * #/241/data/name
        */
       "name": {
         "key": "SuggestedSearch/Calm/Name/calm",
@@ -13210,7 +12267,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/264data/search
+       * #/241data/search
        */
       "search": {
         "searchQuery": "calm",
@@ -13236,7 +12293,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/265/isLocalizable
+     * #/242/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13251,7 +12308,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/288/data/name
+       * #/242/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cafe/Name/cafe",
@@ -13264,7 +12321,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/265data/search
+       * #/242data/search
        */
       "search": {
         "searchQuery": "cafe",
@@ -13290,7 +12347,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/266/isLocalizable
+     * #/243/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13305,7 +12362,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/289/data/name
+       * #/243/data/name
        */
       "name": {
         "key": "SuggestedSearch/Cabin/Name/cabin",
@@ -13318,7 +12375,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/266data/search
+       * #/243data/search
        */
       "search": {
         "searchQuery": "cabin",
@@ -13344,7 +12401,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/267/isLocalizable
+     * #/244/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13359,7 +12416,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/290/data/name
+       * #/244/data/name
        */
       "name": {
         "key": "SuggestedSearch/Bus/Name/bus",
@@ -13372,7 +12429,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/267data/search
+       * #/244data/search
        */
       "search": {
         "searchQuery": "bus",
@@ -13398,7 +12455,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/268/isLocalizable
+     * #/245/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13413,7 +12470,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/291/data/name
+       * #/245/data/name
        */
       "name": {
         "key": "SuggestedSearch/Boxing/Name/boxing",
@@ -13426,7 +12483,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/268data/search
+       * #/245data/search
        */
       "search": {
         "searchQuery": "boxing",
@@ -13452,7 +12509,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/269/isLocalizable
+     * #/246/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13467,7 +12524,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/292/data/name
+       * #/246/data/name
        */
       "name": {
         "key": "SuggestedSearch/Box/Name/box",
@@ -13480,7 +12537,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/269data/search
+       * #/246data/search
        */
       "search": {
         "searchQuery": "box",
@@ -13506,7 +12563,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/270/isLocalizable
+     * #/247/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13521,7 +12578,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/293/data/name
+       * #/247/data/name
        */
       "name": {
         "key": "SuggestedSearch/Bowling/Name/bowling",
@@ -13534,7 +12591,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/270data/search
+       * #/247data/search
        */
       "search": {
         "searchQuery": "bowling",
@@ -13560,7 +12617,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/271/isLocalizable
+     * #/248/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13575,7 +12632,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/294/data/name
+       * #/248/data/name
        */
       "name": {
         "key": "SuggestedSearch/Boat/Name/boat",
@@ -13588,7 +12645,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/271data/search
+       * #/248data/search
        */
       "search": {
         "searchQuery": "boat",
@@ -13614,7 +12671,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/272/isLocalizable
+     * #/249/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13629,7 +12686,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/295/data/name
+       * #/249/data/name
        */
       "name": {
         "key": "SuggestedSearch/Board game/Name/board-game",
@@ -13642,7 +12699,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/272data/search
+       * #/249data/search
        */
       "search": {
         "searchQuery": "board game",
@@ -13668,7 +12725,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/273/isLocalizable
+     * #/250/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13683,7 +12740,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/296/data/name
+       * #/250/data/name
        */
       "name": {
         "key": "SuggestedSearch/Birthday/Name/birthday",
@@ -13696,7 +12753,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/273data/search
+       * #/250data/search
        */
       "search": {
         "searchQuery": "birthday",
@@ -13722,7 +12779,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/274/isLocalizable
+     * #/251/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13737,7 +12794,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/297/data/name
+       * #/251/data/name
        */
       "name": {
         "key": "SuggestedSearch/Bike/Name/bike",
@@ -13750,7 +12807,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/274data/search
+       * #/251data/search
        */
       "search": {
         "searchQuery": "bike",
@@ -13776,7 +12833,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/275/isLocalizable
+     * #/252/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13791,7 +12848,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/298/data/name
+       * #/252/data/name
        */
       "name": {
         "key": "SuggestedSearch/Bedroom/Name/bedroom",
@@ -13804,7 +12861,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/275data/search
+       * #/252data/search
        */
       "search": {
         "searchQuery": "bedroom",
@@ -13830,7 +12887,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/276/isLocalizable
+     * #/253/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13845,7 +12902,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/299/data/name
+       * #/253/data/name
        */
       "name": {
         "key": "SuggestedSearch/Beautiful/Name/beautiful",
@@ -13858,7 +12915,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/276data/search
+       * #/253data/search
        */
       "search": {
         "searchQuery": "beautiful",
@@ -13884,7 +12941,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/277/isLocalizable
+     * #/254/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13899,7 +12956,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/300/data/name
+       * #/254/data/name
        */
       "name": {
         "key": "SuggestedSearch/Beach/Name/beach",
@@ -13912,7 +12969,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/277data/search
+       * #/254data/search
        */
       "search": {
         "searchQuery": "beach",
@@ -13938,7 +12995,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/278/isLocalizable
+     * #/255/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -13953,7 +13010,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/328/data/name
+       * #/255/data/name
        */
       "name": {
         "key": "SuggestedSearch/Bbq/Name/bbq",
@@ -13966,7 +13023,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/278data/search
+       * #/255data/search
        */
       "search": {
         "searchQuery": "bbq",
@@ -13992,7 +13049,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/279/isLocalizable
+     * #/256/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14007,7 +13064,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/329/data/name
+       * #/256/data/name
        */
       "name": {
         "key": "SuggestedSearch/Battle/Name/battle",
@@ -14020,7 +13077,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/279data/search
+       * #/256data/search
        */
       "search": {
         "searchQuery": "battle",
@@ -14046,7 +13103,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/280/isLocalizable
+     * #/257/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14061,7 +13118,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/330/data/name
+       * #/257/data/name
        */
       "name": {
         "key": "SuggestedSearch/Basement/Name/basement",
@@ -14074,7 +13131,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/280data/search
+       * #/257data/search
        */
       "search": {
         "searchQuery": "basement",
@@ -14100,7 +13157,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/281/isLocalizable
+     * #/258/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14115,7 +13172,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/331/data/name
+       * #/258/data/name
        */
       "name": {
         "key": "SuggestedSearch/Bar/Name/bar",
@@ -14128,7 +13185,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/281data/search
+       * #/258data/search
        */
       "search": {
         "searchQuery": "bar",
@@ -14154,7 +13211,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/282/isLocalizable
+     * #/259/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14169,7 +13226,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/332/data/name
+       * #/259/data/name
        */
       "name": {
         "key": "SuggestedSearch/Ballroom/Name/ballroom",
@@ -14182,7 +13239,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/282data/search
+       * #/259data/search
        */
       "search": {
         "searchQuery": "ballroom",
@@ -14208,7 +13265,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/283/isLocalizable
+     * #/260/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14223,7 +13280,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/333/data/name
+       * #/260/data/name
        */
       "name": {
         "key": "SuggestedSearch/Autumn/Name/autumn",
@@ -14236,7 +13293,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/283data/search
+       * #/260data/search
        */
       "search": {
         "searchQuery": "autumn",
@@ -14262,7 +13319,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/284/isLocalizable
+     * #/261/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14277,7 +13334,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/334/data/name
+       * #/261/data/name
        */
       "name": {
         "key": "SuggestedSearch/Audio/Name/audio",
@@ -14290,7 +13347,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/284data/search
+       * #/261data/search
        */
       "search": {
         "searchQuery": "audio",
@@ -14316,7 +13373,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/285/isLocalizable
+     * #/262/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14331,7 +13388,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/336/data/name
+       * #/262/data/name
        */
       "name": {
         "key": "SuggestedSearch/Attic/Name/attic",
@@ -14344,7 +13401,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/285data/search
+       * #/262data/search
        */
       "search": {
         "searchQuery": "attic",
@@ -14370,7 +13427,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/286/isLocalizable
+     * #/263/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14384,8 +13441,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/337/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/263/data/name
        */
       "name": {
         "key": "SuggestedSearch/Asylum/Name/asylum",
@@ -14398,7 +13455,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/286data/search
+       * #/263data/search
        */
       "search": {
         "searchQuery": "asylum",
@@ -14424,7 +13481,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/287/isLocalizable
+     * #/264/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14439,7 +13496,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/338/data/name
+       * #/264/data/name
        */
       "name": {
         "key": "SuggestedSearch/Asmr/Name/asmr",
@@ -14452,7 +13509,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/287data/search
+       * #/264data/search
        */
       "search": {
         "searchQuery": "asmr",
@@ -14478,7 +13535,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/288/isLocalizable
+     * #/265/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14493,7 +13550,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/339/data/name
+       * #/265/data/name
        */
       "name": {
         "key": "SuggestedSearch/Art/Name/art",
@@ -14506,7 +13563,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/288data/search
+       * #/265data/search
        */
       "search": {
         "searchQuery": "art",
@@ -14532,7 +13589,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/289/isLocalizable
+     * #/266/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14546,8 +13603,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/340/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/266/data/name
        */
       "name": {
         "key": "SuggestedSearch/Arena/Name/arena",
@@ -14560,7 +13617,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/289data/search
+       * #/266data/search
        */
       "search": {
         "searchQuery": "arena",
@@ -14586,7 +13643,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/290/isLocalizable
+     * #/267/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14601,7 +13658,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/341/data/name
+       * #/267/data/name
        */
       "name": {
         "key": "SuggestedSearch/Architecture/Name/architecture",
@@ -14614,7 +13671,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/290data/search
+       * #/267data/search
        */
       "search": {
         "searchQuery": "architecture",
@@ -14640,7 +13697,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/291/isLocalizable
+     * #/268/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14655,7 +13712,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/342/data/name
+       * #/268/data/name
        */
       "name": {
         "key": "SuggestedSearch/Arcade/Name/arcade",
@@ -14668,7 +13725,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/291data/search
+       * #/268data/search
        */
       "search": {
         "searchQuery": "arcade",
@@ -14694,7 +13751,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/292/isLocalizable
+     * #/269/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14709,7 +13766,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/343/data/name
+       * #/269/data/name
        */
       "name": {
         "key": "SuggestedSearch/Aquarium/Name/aquarium",
@@ -14722,7 +13779,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/292data/search
+       * #/269data/search
        */
       "search": {
         "searchQuery": "aquarium",
@@ -14748,7 +13805,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/293/isLocalizable
+     * #/270/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14763,7 +13820,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/344/data/name
+       * #/270/data/name
        */
       "name": {
         "key": "SuggestedSearch/Apartment/Name/apartment",
@@ -14776,7 +13833,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/293data/search
+       * #/270data/search
        */
       "search": {
         "searchQuery": "apartment",
@@ -14802,7 +13859,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/294/isLocalizable
+     * #/271/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14817,7 +13874,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/345/data/name
+       * #/271/data/name
        */
       "name": {
         "key": "SuggestedSearch/Animation/Name/animation",
@@ -14830,7 +13887,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/294data/search
+       * #/271data/search
        */
       "search": {
         "searchQuery": "animation",
@@ -14856,7 +13913,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/295/isLocalizable
+     * #/272/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14871,7 +13928,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/346/data/name
+       * #/272/data/name
        */
       "name": {
         "key": "SuggestedSearch/Alien/Name/alien",
@@ -14884,7 +13941,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/295data/search
+       * #/272data/search
        */
       "search": {
         "searchQuery": "alien",
@@ -14910,7 +13967,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/296/isLocalizable
+     * #/273/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14925,7 +13982,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/347/data/name
+       * #/273/data/name
        */
       "name": {
         "key": "SuggestedSearch/Airship/Name/airship",
@@ -14938,7 +13995,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/296data/search
+       * #/273data/search
        */
       "search": {
         "searchQuery": "airship",
@@ -14964,7 +14021,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/297/isLocalizable
+     * #/274/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -14979,7 +14036,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/349/data/name
+       * #/274/data/name
        */
       "name": {
         "key": "SuggestedSearch/Airport/Name/airport",
@@ -14992,7 +14049,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/297data/search
+       * #/274data/search
        */
       "search": {
         "searchQuery": "airport",
@@ -15018,7 +14075,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/298/isLocalizable
+     * #/275/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -15033,7 +14090,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/350/data/name
+       * #/275/data/name
        */
       "name": {
         "key": "SuggestedSearch/Adventure/Name/adventure",
@@ -15046,7 +14103,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/298data/search
+       * #/275data/search
        */
       "search": {
         "searchQuery": "adventure",
@@ -15072,7 +14129,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/299/isLocalizable
+     * #/276/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -15087,7 +14144,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/354/data/name
+       * #/276/data/name
        */
       "name": {
         "key": "SuggestedSearch/Action/Name/action",
@@ -15100,7 +14157,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/299data/search
+       * #/276data/search
        */
       "search": {
         "searchQuery": "action",
@@ -15126,7 +14183,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/300/isLocalizable
+     * #/277/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -15141,7 +14198,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/355/data/name
+       * #/277/data/name
        */
       "name": {
         "key": "SuggestedSearch/Abandoned/Name/abandoned",
@@ -15154,7 +14211,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/300data/search
+       * #/277data/search
        */
       "search": {
         "searchQuery": "abandoned",
@@ -15169,12 +14226,12 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
     "updatedAt": "2023-11-14T23:16:29+00:00"
   },
   {
-    "id": "search-vie",
+    "id": "search-vi",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-vie",
+      "suggested-search-vi",
       "user-all"
     ],
     "data": {
@@ -15185,7 +14242,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/357/data/name
+       * #/305/data/name
        */
       "name": "Tiếng Việt",
       /**
@@ -15195,7 +14252,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/301data/search
+       * #/278data/search
        */
       "search": {
         "searchQuery": "Vietnamese Tiếng Việt Vietnam VN",
@@ -15205,17 +14262,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "f80cbbd93df4d0ad71aef9c51e9219f6",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "f8a0c0df55c44eae94da1d930674afa0",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-ukr",
+    "id": "search-uk",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-ukr",
+      "suggested-search-uk",
       "user-all"
     ],
     "data": {
@@ -15226,7 +14283,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/358/data/name
+       * #/306/data/name
        */
       "name": "Yкраї́нська",
       /**
@@ -15236,7 +14293,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/302data/search
+       * #/279data/search
        */
       "search": {
         "searchQuery": "ukr Ukranian Yкраї́нська Ukraine",
@@ -15246,17 +14303,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "be165431081a7e790bd1b105cc684a6d",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "f24959d735f11b3a2e00c11d9e63cf3d",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-tur",
+    "id": "search-tr",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-tur",
+      "suggested-search-tr",
       "user-all"
     ],
     "data": {
@@ -15267,7 +14324,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/359/data/name
+       * #/307/data/name
        */
       "name": "Türkçe",
       /**
@@ -15277,7 +14334,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/303data/search
+       * #/280data/search
        */
       "search": {
         "searchQuery": "Turkish Türkçe Türkiye TR",
@@ -15287,17 +14344,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "c950882f5edd89d5caf690dd3fc72cb0",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "f9dcfeedeade7aec71cfe542541f86a6",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-tha",
+    "id": "search-th",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-tha",
+      "suggested-search-th",
       "user-all"
     ],
     "data": {
@@ -15308,7 +14365,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/362/data/name
+       * #/308/data/name
        */
       "name": "ภาษาไทย",
       /**
@@ -15318,7 +14375,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/304data/search
+       * #/281data/search
        */
       "search": {
         "searchQuery": "Thai, ภาษาไทย, Thailand, TH, sala",
@@ -15328,17 +14385,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "06195b8b1de7a273d831bb315ef95d93",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "c308ca1ed7e2304eb7c41c610f2af135",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-swe",
+    "id": "search-sv",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-swe",
+      "suggested-search-sv",
       "user-all"
     ],
     "data": {
@@ -15349,7 +14406,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/363/data/name
+       * #/309/data/name
        */
       "name": "Svenska",
       /**
@@ -15359,7 +14416,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/305data/search
+       * #/282data/search
        */
       "search": {
         "searchQuery": "Swedish Svenska Sweden",
@@ -15369,17 +14426,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "1f3d2b76a82a80382d7030e3f05d7518",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "6455669d3b39a7239aeac6f66dc0cf6d",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-spa",
+    "id": "search-es",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-spa",
+      "suggested-search-es",
       "user-all"
     ],
     "data": {
@@ -15389,8 +14446,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/364/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/310/data/name
        */
       "name": "Español",
       /**
@@ -15400,7 +14457,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/306data/search
+       * #/283data/search
        */
       "search": {
         "searchQuery": "Spanish Español latino latam",
@@ -15410,17 +14467,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "e86da6ab5afc3e1a6036a2fe555279c6",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "77b3443c08ff401043be6841621c77c9",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-rus",
+    "id": "search-ru",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-rus",
+      "suggested-search-ru",
       "user-all"
     ],
     "data": {
@@ -15431,7 +14488,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/364/data/name
+       * #/311/data/name
        */
       "name": "Русский",
       /**
@@ -15441,7 +14498,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/307data/search
+       * #/284data/search
        */
       "search": {
         "searchQuery": "rus Russian Русский Russia RU Россия",
@@ -15451,17 +14508,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "5503b482e4c2c16c0f2c7bc51bf32acc",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "ee28e024136c596ef2cbb796818d2cbe",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-ron",
+    "id": "search-ro",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-ron",
+      "suggested-search-ro",
       "user-all"
     ],
     "data": {
@@ -15471,8 +14528,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/365/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/313/data/name
        */
       "name": "Română",
       /**
@@ -15482,7 +14539,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/308data/search
+       * #/285data/search
        */
       "search": {
         "searchQuery": "Romanian Română Romania",
@@ -15492,17 +14549,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "2c0358a7fc9cdc00581f11972f7d2b9b",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "72b70a90b695cf5742e2212ebe6acecb",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-por",
+    "id": "search-pt-BR",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-por",
+      "suggested-search-pt-BR",
       "user-all"
     ],
     "data": {
@@ -15512,8 +14569,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/name/type
-       * #/365/data/name
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/314/data/contentList/name
        */
       "name": "Português",
       /**
@@ -15523,7 +14580,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/309data/search
+       * #/286data/search
        */
       "search": {
         "searchQuery": "Portuguese Português Portugal Brasil Brazil BR",
@@ -15533,17 +14590,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "9d6fc4bc38e338442ac0d4947f3df220",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "7f6cf2de5cca30c57ea8fdb5a925ec21",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-pol",
+    "id": "search-pl",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-pol",
+      "suggested-search-pl",
       "user-all"
     ],
     "data": {
@@ -15553,8 +14610,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/366/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/315/data/name
        */
       "name": "Polski",
       /**
@@ -15564,7 +14621,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/310data/search
+       * #/287data/search
        */
       "search": {
         "searchQuery": "Polish Polski Poland Polska",
@@ -15574,17 +14631,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "d56197b86c280b06516431d9735e818f",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "a3119ef6f8a1b447d94b6f3259269cf5",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-nor",
+    "id": "search-no",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-nor",
+      "suggested-search-no",
       "user-all"
     ],
     "data": {
@@ -15595,7 +14652,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/366/data/name
+       * #/316/data/name
        */
       "name": "Norsk",
       /**
@@ -15605,7 +14662,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/311data/search
+       * #/288data/search
        */
       "search": {
         "searchQuery": "Norwegian Norsk Norway",
@@ -15615,17 +14672,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "6f62b636a2f1e8178f6043a06779adaf",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "454039278bbdb5ba5c0ccba0a974f5b5",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-kor",
+    "id": "search-ko",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-kor",
+      "suggested-search-ko",
       "user-all"
     ],
     "data": {
@@ -15636,7 +14693,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/367/data/contentList/name
+       * #/317/data/contentList/name
        */
       "name": "한국어",
       /**
@@ -15646,7 +14703,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/312data/search
+       * #/289data/search
        */
       "search": {
         "searchQuery": "kor Korean 한국어 Korea 한국 KR",
@@ -15656,17 +14713,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "c5bdbb58d07740a69af48159442a337b",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "fb00c673d435224ce6e0692ae8910b77",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-jpn",
+    "id": "search-ja",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-jpn",
+      "suggested-search-ja",
       "user-all"
     ],
     "data": {
@@ -15677,7 +14734,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/367/data/name
+       * #/318/data/name
        */
       "name": "日本語",
       /**
@@ -15687,7 +14744,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/313data/search
+       * #/290data/search
        */
       "search": {
         "searchQuery": " jpn Japanese 日本語 Japan 日本 JP",
@@ -15697,17 +14754,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "07046ad5a7177d14ba6287c390660e8f",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "57baa3ff161a728269e7d9b546f4734e",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-ita",
+    "id": "search-it",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-ita",
+      "suggested-search-it",
       "user-all"
     ],
     "data": {
@@ -15717,8 +14774,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/368/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/319/data/name
        */
       "name": "Italiano",
       /**
@@ -15728,7 +14785,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/314data/search
+       * #/291data/search
        */
       "search": {
         "searchQuery": "Italian Italiano Italiani Italia Italy",
@@ -15738,17 +14795,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "a3ae5baad2a9bdd0959929722b6ceea5",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "3208176b2112ed507c53b8cc79f3c6fa",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-hun",
+    "id": "search-hu",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-hun",
+      "suggested-search-hu",
       "user-all"
     ],
     "data": {
@@ -15759,7 +14816,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/368/data/name
+       * #/320/data/name
        */
       "name": "Magyar",
       /**
@@ -15769,7 +14826,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/315data/search
+       * #/292data/search
        */
       "search": {
         "searchQuery": "Hungarian Magyar Hungary Magyarország",
@@ -15779,17 +14836,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "f05f6b7552a903d18fdbd6ad38c5a2a6",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "e0ef599d213289aa1b8c319be63e4220",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-deu",
+    "id": "search-de",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-deu",
+      "suggested-search-de",
       "user-all"
     ],
     "data": {
@@ -15799,8 +14856,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/369/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/321/data/name
        */
       "name": "Deutsch",
       /**
@@ -15810,7 +14867,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/316data/search
+       * #/293data/search
        */
       "search": {
         "searchQuery": "deu German Deutsch Germany DE ",
@@ -15820,17 +14877,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "5fc51a3ce701240863e0963d8e3df9c9",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "b871acee8d7a717cee155393d63c1703",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-fra",
+    "id": "search-fr",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-fra",
+      "suggested-search-fr",
       "user-all"
     ],
     "data": {
@@ -15841,7 +14898,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/369/data/name
+       * #/322/data/name
        */
       "name": "Français",
       /**
@@ -15851,7 +14908,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/317data/search
+       * #/294data/search
        */
       "search": {
         "searchQuery": "French Français France FR",
@@ -15861,17 +14918,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "456e0ed12b9cbcb85790bf2ab0c07263",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "d3b74db47aa29d35995fb8e8eef68e30",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-fin",
+    "id": "search-fi",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-fin",
+      "suggested-search-fi",
       "user-all"
     ],
     "data": {
@@ -15881,8 +14938,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/370/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/323/data/name
        */
       "name": "Suomi",
       /**
@@ -15892,7 +14949,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/318data/search
+       * #/295data/search
        */
       "search": {
         "searchQuery": "Finnish, Suomi, Finland",
@@ -15902,17 +14959,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "91c178f7812546f1a17f34424510ab8d",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "1de99b1e3588c3d6dca233f2b5b2426c",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-nld",
+    "id": "search-nl",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-nld",
+      "suggested-search-nl",
       "user-all"
     ],
     "data": {
@@ -15923,7 +14980,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/370/data/name
+       * #/324/data/name
        */
       "name": "Nederlands",
       /**
@@ -15933,7 +14990,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/319data/search
+       * #/296data/search
        */
       "search": {
         "searchQuery": "Dutch Nederlands Netherlands NL",
@@ -15943,17 +15000,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "49911ea1a0bb74aa25fdf25beef537db",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "54988b0c424a9a111b9cbe60a75d4d27",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-dan",
+    "id": "search-da",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-dan",
+      "suggested-search-da",
       "user-all"
     ],
     "data": {
@@ -15963,8 +15020,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/371/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/326/data/name
        */
       "name": "Dansk",
       /**
@@ -15974,7 +15031,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/320data/search
+       * #/297data/search
        */
       "search": {
         "searchQuery": "Danish Dansk Denmark Danmark",
@@ -15984,17 +15041,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "546a03053b1cc2cdde5b399dd320c8c9",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "658bd2020d7f05d671b576760be6f217",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-ces",
+    "id": "search-cs",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-ces",
+      "suggested-search-cs",
       "user-all"
     ],
     "data": {
@@ -16005,7 +15062,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/371/data/name
+       * #/327/data/name
        */
       "name": "Čeština",
       /**
@@ -16015,7 +15072,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/321data/search
+       * #/298data/search
        */
       "search": {
         "searchQuery": "Czech Čeština CZ Slovakia Slovak SK",
@@ -16025,58 +15082,17 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "745a99131cc033b0f52521b0ed501b0c",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "091559b2cb16dfb824de6c1b3fa946b8",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
-    "id": "search-zho",
+    "id": "search-zh",
     "isEnabled": true,
     "releaseStatus": "public",
     "priority": 1000,
     "tags": [
-      "suggested-search-zho",
-      "user-all"
-    ],
-    "data": {
-      /**
-       * Invalid type.
-       *
-       * @schema unknown
-       * @keyword type
-       *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/372/data/contentList/name
-       */
-      "name": "中文",
-      /**
-       * Unexpected property.
-       *
-       * @schema InfoPushData
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/322data/search
-       */
-      "search": {
-        "searchQuery": "zho Chinese 中文 China CN Taiwan TW Hong Kong HK zhongwen",
-        "searchTags": "",
-        "searchContent": "world",
-        "searchInFields": "name,tags,description",
-        "sortBy": "relevance"
-      }
-    },
-    "hash": "4031220208eb91c22b01611cd0947d0f",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
-  },
-  {
-    "id": "search-ara",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1000,
-    "tags": [
-      "suggested-search-ara",
+      "suggested-search-zh",
       "user-all"
     ],
     "data": {
@@ -16087,7 +15103,48 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/372/data/name
+       * #/331/data/name
+       */
+      "name": "中文",
+      /**
+       * Unexpected property.
+       *
+       * @schema InfoPushData
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/299data/search
+       */
+      "search": {
+        "searchQuery": "zho Chinese 中文 China CN Taiwan TW Hong Kong HK zhongwen",
+        "searchTags": "",
+        "searchContent": "world",
+        "searchInFields": "name,tags,description",
+        "sortBy": "relevance"
+      }
+    },
+    "hash": "445d5e21b3f96e9c63bb6fcd9ac183e0",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
+  },
+  {
+    "id": "search-ar",
+    "isEnabled": true,
+    "releaseStatus": "public",
+    "priority": 1000,
+    "tags": [
+      "suggested-search-ar",
+      "user-all"
+    ],
+    "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/name/type
+       * #/332/data/name
        */
       "name": "العربية",
       /**
@@ -16097,7 +15154,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/323data/search
+       * #/300data/search
        */
       "search": {
         "searchQuery": "Arabic العربية arab عرب Saudi Arabia UAE KSA",
@@ -16107,9 +15164,9 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         "sortBy": "relevance"
       }
     },
-    "hash": "de3766458964e9597d14e9bcfb3529de",
-    "createdAt": "2023-08-31T21:08:27+00:00",
-    "updatedAt": "2023-08-31T21:08:27+00:00"
+    "hash": "1b0f3569c434a294ce1ce18e6d9964f8",
+    "createdAt": "2023-12-01T18:11:11+00:00",
+    "updatedAt": "2024-02-14T23:02:38+00:00"
   },
   {
     "id": "marketplace-spotlight-pc",
@@ -16128,8 +15185,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/373/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/334/data/name
        */
       "name": "Spotlight",
       /**
@@ -16139,7 +15196,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/324data/tooltipDescription
+       * #/301data/tooltipDescription
        */
       "tooltipDescription": "View Featured VRChat Creator Economy Content",
       /**
@@ -16149,7 +15206,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/324data/iconImageUrl
+       * #/301data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/90f1b49353850be01c43966dc58c7895aa2da4564f48afc69480f2942f123257.png",
       /**
@@ -16159,7 +15216,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/324data/categories
+       * #/301data/categories
        */
       "categories": [
         {
@@ -16170,7 +15227,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword type
            *
            * #/items/properties/data/properties/name/type
-           * #/373/data/name
+           * #/335/data/name
            */
           "name": "VRChat Creator Economy",
           "type": "articles",
@@ -16185,7 +15242,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword additionalProperties
            *
            * #/items/properties/data/additionalProperties
-           * #/336data/ipsQuery
+           * #/313data/ipsQuery
            */
           "ipsQuery": {
             "require": "help-topic-marketplace",
@@ -16199,8 +15256,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @schema unknown
            * @keyword type
            *
-           * #/items/properties/data/properties/contentList/properties/name/type
-           * #/374/data/contentList/name
+           * #/items/properties/data/properties/name/type
+           * #/336/data/name
            */
           "name": "Worlds",
           "type": "worlds",
@@ -16267,7 +15324,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword type
            *
            * #/items/properties/data/properties/name/type
-           * #/374/data/name
+           * #/339/data/name
            */
           "name": "Groups",
           "type": "groups",
@@ -16327,8 +15384,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/375/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/340/data/name
        */
       "name": "Spotlight",
       /**
@@ -16338,7 +15395,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/325data/tooltipDescription
+       * #/302data/tooltipDescription
        */
       "tooltipDescription": "View Featured VRChat Creator Economy Content",
       /**
@@ -16348,7 +15405,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/325data/iconImageUrl
+       * #/302data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/90f1b49353850be01c43966dc58c7895aa2da4564f48afc69480f2942f123257.png",
       /**
@@ -16358,7 +15415,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/325data/categories
+       * #/302data/categories
        */
       "categories": [
         {
@@ -16368,8 +15425,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @schema unknown
            * @keyword type
            *
-           * #/items/properties/data/properties/name/type
-           * #/375/data/name
+           * #/items/properties/data/properties/contentList/properties/name/type
+           * #/341/data/contentList/name
            */
           "name": "VRChat Creator Economy",
           "type": "articles",
@@ -16384,7 +15441,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword additionalProperties
            *
            * #/items/properties/data/additionalProperties
-           * #/338data/ipsQuery
+           * #/315data/ipsQuery
            */
           "ipsQuery": {
             "require": "help-topic-marketplace",
@@ -16398,8 +15455,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @schema unknown
            * @keyword type
            *
-           * #/items/properties/data/properties/contentList/properties/name/type
-           * #/376/data/contentList/name
+           * #/items/properties/data/properties/name/type
+           * #/341/data/name
            */
           "name": "Worlds",
           "type": "worlds",
@@ -16456,8 +15513,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @schema unknown
            * @keyword type
            *
-           * #/items/properties/data/properties/name/type
-           * #/376/data/name
+           * #/items/properties/data/properties/contentList/properties/name/type
+           * #/342/data/contentList/name
            */
           "name": "Groups",
           "type": "groups",
@@ -16515,7 +15572,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/326/requireClientTags
+     * #/303/requireClientTags
      */
     "requireClientTags": [
       "platform-oculus-quest"
@@ -16527,8 +15584,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @schema unknown
        * @keyword type
        *
-       * #/items/properties/data/properties/contentList/properties/name/type
-       * #/377/data/contentList/name
+       * #/items/properties/data/properties/name/type
+       * #/342/data/name
        */
       "name": "What is VRChat Plus?",
       "imageUrl": "https://assets.vrchat.com/ips/assets/54571a9a3517ddb05cf710c1f670dcd0d50af69078b01948de5c07ebf61a6164.png",
@@ -16539,7 +15596,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/328/data/description
+       * #/305/data/description
        */
       "description": "Learn about what you get for subscribing to VRChat Plus.",
       "article": {
@@ -16550,7 +15607,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/326/data/article/content
+         * #/303/data/article/content
          */
         "content": [
           {
@@ -16612,7 +15669,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/326data/article/embeddedLinkData
+         * #/303data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -16623,8 +15680,8 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
              * @schema unknown
              * @keyword type
              *
-             * #/items/properties/data/properties/name/type
-             * #/377/data/name
+             * #/items/properties/data/properties/contentList/properties/name/type
+             * #/343/data/contentList/name
              */
             "name": "Gifting VRChat",
             "command": "OpenHelpArticle",
@@ -16640,7 +15697,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/326data/article/moreInfoLinks
+         * #/303data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -16674,12 +15731,21 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/327/requireClientTags
+     * #/304/requireClientTags
      */
     "requireClientTags": [
       "platform-pc-vr"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/name/type
+       * #/343/data/name
+       */
       "name": "What is VRChat Plus?",
       "imageUrl": "https://assets.vrchat.com/ips/assets/54571a9a3517ddb05cf710c1f670dcd0d50af69078b01948de5c07ebf61a6164.png",
       /**
@@ -16689,7 +15755,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/329/data/description
+       * #/306/data/description
        */
       "description": "Learn about what you get for subscribing to VRChat Plus.",
       "article": {
@@ -16700,7 +15766,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/327/data/article/content
+         * #/304/data/article/content
          */
         "content": [
           {
@@ -16762,11 +15828,20 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/327data/article/embeddedLinkData
+         * #/304data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
             "id": "gifting-vrchat",
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/contentList/properties/name/type
+             * #/344/data/contentList/name
+             */
             "name": "Gifting VRChat",
             "command": "OpenHelpArticle",
             "parameters": [
@@ -16781,7 +15856,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/327data/article/moreInfoLinks
+         * #/304data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -16809,7 +15884,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/328/isLocalizable
+     * #/305/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -16825,12 +15900,21 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/328/requireClientTags
+     * #/305/requireClientTags
      */
     "requireClientTags": [
       "platform-pc-desktop"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/name/type
+       * #/344/data/name
+       */
       "name": {
         "key": "HelpArticle/WhatVrcp/Name/What-is-VRChat-Plus?",
         "fallback": "What is VRChat Plus?"
@@ -16843,7 +15927,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/330/data/description
+       * #/307/data/description
        */
       "description": {
         "key": "Tooltips/Learn-about-what-you-get-for-subscribing-to-VRChat-Plus.",
@@ -16857,7 +15941,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/328/data/article/content
+         * #/305/data/article/content
          */
         "content": [
           {
@@ -16919,11 +16003,20 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/328data/article/embeddedLinkData
+         * #/305data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
             "id": "gifting-vrchat",
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/contentList/properties/name/type
+             * #/345/data/contentList/name
+             */
             "name": "Gifting VRChat",
             "command": "OpenHelpArticle",
             "parameters": [
@@ -16938,7 +16031,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/328data/article/moreInfoLinks
+         * #/305data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -16966,7 +16059,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/329/isLocalizable
+     * #/306/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -16982,12 +16075,21 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/329/requireClientTags
+     * #/306/requireClientTags
      */
     "requireClientTags": [
       "platform-oculus-quest"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/name/type
+       * #/345/data/name
+       */
       "name": {
         "key": "HelpArticle/GiftVrcp/Name/How-to-Gift-Someone-VRC+",
         "fallback": "How to Gift Someone VRC+"
@@ -17000,7 +16102,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/331/data/description
+       * #/308/data/description
        */
       "description": {
         "key": "Tooltips/Give-someone-the-gift-of-VRC-Plus!",
@@ -17014,7 +16116,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/329data/article/sectionLinks
+         * #/306data/article/sectionLinks
          */
         "sectionLinks": [
           "link-gifting-vrchat",
@@ -17027,7 +16129,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/329/data/article/content
+         * #/306/data/article/content
          */
         "content": [
           {
@@ -17135,11 +16237,20 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/329data/article/embeddedLinkData
+         * #/306data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
             "id": "vrchat-plus",
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/contentList/properties/name/type
+             * #/346/data/contentList/name
+             */
             "name": "VRChat Plus",
             "command": "OpenHelpArticle",
             "parameters": [
@@ -17154,7 +16265,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/329data/article/moreInfoLinks
+         * #/306data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -17182,7 +16293,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/330/isLocalizable
+     * #/307/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -17198,12 +16309,21 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/330/requireClientTags
+     * #/307/requireClientTags
      */
     "requireClientTags": [
       "platform-pc-vr"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/name/type
+       * #/346/data/name
+       */
       "name": {
         "key": "HelpArticle/GiftVrcp/Name/How-to-Gift-Someone-VRC+",
         "fallback": "How to Gift Someone VRC+"
@@ -17216,7 +16336,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/332/data/description
+       * #/309/data/description
        */
       "description": {
         "key": "Tooltips/Give-someone-the-gift-of-VRC-Plus!",
@@ -17230,7 +16350,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/330data/article/sectionLinks
+         * #/307data/article/sectionLinks
          */
         "sectionLinks": [
           "link-gifting-vrchat",
@@ -17243,7 +16363,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/330/data/article/content
+         * #/307/data/article/content
          */
         "content": [
           {
@@ -17351,11 +16471,20 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/330data/article/embeddedLinkData
+         * #/307data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
             "id": "vrchat-plus",
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/contentList/properties/name/type
+             * #/347/data/contentList/name
+             */
             "name": "VRChat Plus",
             "command": "OpenHelpArticle",
             "parameters": [
@@ -17370,7 +16499,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/330data/article/moreInfoLinks
+         * #/307data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -17398,7 +16527,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/331/isLocalizable
+     * #/308/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -17414,12 +16543,21 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/331/requireClientTags
+     * #/308/requireClientTags
      */
     "requireClientTags": [
       "platform-pc-desktop"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/name/type
+       * #/347/data/name
+       */
       "name": {
         "key": "HelpArticle/GiftVrcp/Name/How-to-Gift-Someone-VRC+",
         "fallback": "How to Gift Someone VRC+"
@@ -17432,7 +16570,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/333/data/description
+       * #/310/data/description
        */
       "description": {
         "key": "Tooltips/Give-someone-the-gift-of-VRC-Plus!",
@@ -17446,7 +16584,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/331data/article/sectionLinks
+         * #/308data/article/sectionLinks
          */
         "sectionLinks": [
           "link-gifting-vrchat",
@@ -17459,7 +16597,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/331/data/article/content
+         * #/308/data/article/content
          */
         "content": [
           {
@@ -17567,11 +16705,20 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/331data/article/embeddedLinkData
+         * #/308data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
             "id": "vrchat-plus",
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/contentList/properties/name/type
+             * #/348/data/contentList/name
+             */
             "name": "VRChat Plus",
             "command": "OpenHelpArticle",
             "parameters": [
@@ -17586,7 +16733,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/331data/article/moreInfoLinks
+         * #/308data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -17614,7 +16761,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/332/isLocalizable
+     * #/309/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -17624,6 +16771,15 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
       "help-notifications"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/name/type
+       * #/348/data/name
+       */
       "name": {
         "key": "HelpArticle/ContactSupport/Name/Contact-Support",
         "fallback": "Contact Support"
@@ -17636,7 +16792,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/334/data/description
+       * #/311/data/description
        */
       "description": {
         "key": "Tooltips/Information-on-how-to-contact-VRChat-support.",
@@ -17650,7 +16806,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/332/data/article/content
+         * #/309/data/article/content
          */
         "content": [
           {
@@ -17664,11 +16820,20 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/332data/article/embeddedLinkData
+         * #/309data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
             "id": "knowledge-base",
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/contentList/properties/name/type
+             * #/349/data/contentList/name
+             */
             "name": "Knowledge Base",
             "command": "OpenURL",
             "parameters": [
@@ -17677,6 +16842,15 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
           },
           {
             "id": "vrchat-support",
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/name/type
+             * #/349/data/name
+             */
             "name": "VRChat Support",
             "command": "OpenURL",
             "parameters": [
@@ -17691,10 +16865,19 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/332data/article/moreInfoLinks
+         * #/309data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/contentList/properties/name/type
+             * #/350/data/contentList/name
+             */
             "name": "Knowledge Base",
             "command": "OpenURL",
             "parameters": [
@@ -17702,6 +16885,15 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
             ]
           },
           {
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/name/type
+             * #/350/data/name
+             */
             "name": "VRChat Support",
             "command": "OpenURL",
             "parameters": [
@@ -17727,7 +16919,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/333/isLocalizable
+     * #/310/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -17738,6 +16930,15 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
       "help-notifications"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/351/data/contentList/name
+       */
       "name": {
         "key": "HelpArticle/UpdateArticle202332/Name/VRChat-Update-2023.3.2",
         "fallback": "VRChat Update - 2023.3.2"
@@ -17750,7 +16951,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/336/data/description
+       * #/313/data/description
        */
       "description": {
         "key": "Tooltips/Learn-about-the-latest-updates-to-VRChat!",
@@ -17764,7 +16965,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/333/data/article/content
+         * #/310/data/article/content
          */
         "content": [
           {
@@ -17784,11 +16985,20 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/333data/article/embeddedLinkData
+         * #/310data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
             "id": "full-patchnotes",
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/name/type
+             * #/351/data/name
+             */
             "name": "Full Patchnotes",
             "command": "OpenURL",
             "parameters": [
@@ -17803,11 +17013,20 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/333data/article/moreInfoLinks
+         * #/310data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
             "id": "full-patchnotes",
+            /**
+             * Invalid type.
+             *
+             * @schema unknown
+             * @keyword type
+             *
+             * #/items/properties/data/properties/contentList/properties/name/type
+             * #/352/data/contentList/name
+             */
             "name": "Full Patchnotes",
             "command": "OpenURL",
             "parameters": [
@@ -17833,7 +17052,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/334/isLocalizable
+     * #/311/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -17843,6 +17062,15 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
       "help-notifications"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/name/type
+       * #/352/data/name
+       */
       "name": {
         "key": "HelpArticle/MakingGroups/Name/Making-Groups",
         "fallback": "Making Groups"
@@ -17855,7 +17083,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/338/data/description
+       * #/315/data/description
        */
       "description": {
         "key": "Tooltips/Making-Groups!",
@@ -17869,7 +17097,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/334/data/article/content
+         * #/311/data/article/content
          */
         "content": [
           {
@@ -18068,7 +17296,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/336/isLocalizable
+     * #/313/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18077,6 +17305,15 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
       "user-all"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/353/data/contentList/name
+       */
       "name": {
         "key": "HelpTopic/News/Name/News",
         "fallback": "News"
@@ -18088,7 +17325,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/339/data/description
+       * #/316/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-News",
@@ -18101,7 +17338,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/336data/tooltipDescription
+       * #/313data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Updates-from-the-VRChat-Team!",
@@ -18114,7 +17351,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/336data/iconImageUrl
+       * #/313data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/53271ee0aeb78e81644606859c6c488b6edd413ce81a27ae14a5687ef1fc9bee.png",
       /**
@@ -18124,7 +17361,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/336data/thumbnailImageUrl
+       * #/313data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/07368d729a2364534e3cca9f798fc1dbd7ba682fdfd84ba17899a875077c2dfe.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/0c9a6404d7d35e9a3a171b06e4e9d869ad8084a8fcb9a6575e003601318cf707.png",
@@ -18135,7 +17372,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/341data/ipsQuery
+       * #/318data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-news",
@@ -18158,7 +17395,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/337/isLocalizable
+     * #/314/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18168,6 +17405,15 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/557b110b75151d4446a90a058d9509616af73b1e6377bc969b083d5f968fc122.png",
       "contentList": {
+        /**
+         * Invalid type.
+         *
+         * @schema unknown
+         * @keyword type
+         *
+         * #/items/properties/data/properties/name/type
+         * #/353/data/name
+         */
         "name": {
           "key": "AvatarCategory/Public/Name/Public",
           "fallback": "Public"
@@ -18195,7 +17441,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/338/isLocalizable
+     * #/315/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18204,6 +17450,15 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
       "help-topic-explore-wing"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/contentList/properties/name/type
+       * #/354/data/contentList/name
+       */
       "name": {
         "key": "HelpTopic/Essentials/Name/Essentials",
         "fallback": "Essentials"
@@ -18215,7 +17470,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/341/data/description
+       * #/318/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Features",
@@ -18228,7 +17483,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/338data/tooltipDescription
+       * #/315data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/New-to-VRChat?-Start-here-for-info-on-VRChat-features!",
@@ -18241,7 +17496,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/338data/iconImageUrl
+       * #/315data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/69408993d8c3f1c64b987a27bd320b59a1deeb07e0fbee9affca977723f691d0.png",
       /**
@@ -18251,7 +17506,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/338data/thumbnailImageUrl
+       * #/315data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/d551286885968aff4908cc466d1ead82873df90f231bb953497b967c64b9190a.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/5b2ca11a23e1a9f64a66ef9ed2a56334ee910c5f52f290b06ebae0432a19a2ef.png",
@@ -18262,7 +17517,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/338data/isNew
+       * #/315data/isNew
        */
       "isNew": true,
       /**
@@ -18272,7 +17527,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/345data/ipsQuery
+       * #/322data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-essentials",
@@ -18295,7 +17550,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/339/isLocalizable
+     * #/316/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18305,6 +17560,15 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
       "help-topic-general"
     ],
     "data": {
+      /**
+       * Invalid type.
+       *
+       * @schema unknown
+       * @keyword type
+       *
+       * #/items/properties/data/properties/name/type
+       * #/354/data/name
+       */
       "name": {
         "key": "HelpArticle/ExploreWorlds/Name/Explore-New-Worlds!",
         "fallback": "Explore New Worlds!"
@@ -18317,7 +17581,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/342/data/description
+       * #/319/data/description
        */
       "description": {
         "key": "Tooltips/Explore-New-Worlds!",
@@ -18331,7 +17595,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/339/data/article/content
+         * #/316/data/article/content
          */
         "content": [
           {
@@ -18371,7 +17635,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/340/isLocalizable
+     * #/317/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18409,7 +17673,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/341/isLocalizable
+     * #/318/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18430,7 +17694,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/343/data/description
+       * #/320/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Safety-System",
@@ -18443,7 +17707,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/341data/tooltipDescription
+       * #/318data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Learn-about-VRChat's-Safety-System.",
@@ -18456,7 +17720,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/341data/thumbnailImageUrl
+       * #/318data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/c165e3e819c42ace7a955206fa35c7af96de2ec2215ac3638aeb0b3c08238011.png",
       /**
@@ -18466,7 +17730,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/341data/iconImageUrl
+       * #/318data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/fb74bd503a79b7cc63c635d6d11f6594ad01225d17c1d4c6bac3e7049add674a.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/5d0a67c5d4ad0401b47650e8925409875307197869f85db979f5a5baa749461f.png",
@@ -18477,7 +17741,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/346data/ipsQuery
+       * #/323data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-safety",
@@ -18500,7 +17764,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/342/isLocalizable
+     * #/319/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18522,7 +17786,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/344/data/description
+       * #/321/data/description
        */
       "description": {
         "key": "Tooltips/Custom-Emoji",
@@ -18536,7 +17800,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/342data/article/sectionLinks
+         * #/319data/article/sectionLinks
          */
         "sectionLinks": [
           "link-create-app",
@@ -18550,7 +17814,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/342/data/article/content
+         * #/319/data/article/content
          */
         "content": [
           {
@@ -18611,7 +17875,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/343/isLocalizable
+     * #/320/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18634,7 +17898,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/345/data/description
+       * #/322/data/description
        */
       "description": {
         "key": "Tooltips/The-VRChat-Community",
@@ -18648,7 +17912,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/343data/article/jumpLinks
+         * #/320data/article/jumpLinks
          */
         "jumpLinks": [
           "discord",
@@ -18661,7 +17925,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/343/data/article/content
+         * #/320/data/article/content
          */
         "content": [
           {
@@ -18681,7 +17945,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/343data/article/embeddedLinkData
+         * #/320data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -18740,7 +18004,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/343data/article/moreInfoLinks
+         * #/320data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -18804,7 +18068,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/344/isLocalizable
+     * #/321/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18826,7 +18090,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/346/data/description
+       * #/323/data/description
        */
       "description": {
         "key": "Tooltips/Crowdin",
@@ -18840,7 +18104,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/344/data/article/content
+         * #/321/data/article/content
          */
         "content": [
           {
@@ -18860,7 +18124,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/344data/article/embeddedLinkData
+         * #/321data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -18887,7 +18151,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/344data/article/moreInfoLinks
+         * #/321data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -18923,7 +18187,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/345/isLocalizable
+     * #/322/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18943,7 +18207,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/347/data/description
+       * #/324/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Groups",
@@ -18956,7 +18220,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/345data/tooltipDescription
+       * #/322data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Discover-VRChat-Groups!",
@@ -18969,7 +18233,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/345data/iconImageUrl
+       * #/322data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/1e5ff00b91329c824984c5b9cf806e040647d665078cfdb49cbc5a9bc6a1425e.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/451fdab71624a2c335982c6de66148bfc6b2ab75fa4657ed09ce49749391cfea.png",
@@ -18980,7 +18244,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/347data/ipsQuery
+       * #/324data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-groups",
@@ -19003,7 +18267,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/346/isLocalizable
+     * #/323/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19022,7 +18286,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/349/data/description
+       * #/326/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Worlds",
@@ -19035,7 +18299,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/346data/tooltipDescription
+       * #/323data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Discover-new-VRChat-Worlds!",
@@ -19048,7 +18312,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/346data/iconImageUrl
+       * #/323data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/0dc2d4aafa414fa0cf8eafd51c1fcf5ada9c7c5cfb646f634ee2b0c4ab89302f.png",
       /**
@@ -19058,7 +18322,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/346data/thumbnailImageUrl
+       * #/323data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/a4c0162219282d08c967add1ddb7cc9ada84274262dc39899cb9a26d5f9790f5.png",
       /**
@@ -19068,7 +18332,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/349data/ipsQuery
+       * #/326data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-worlds",
@@ -19091,7 +18355,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/347/isLocalizable
+     * #/324/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19110,7 +18374,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/350/data/description
+       * #/327/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Support",
@@ -19123,7 +18387,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/347data/tooltipDescription
+       * #/324data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/General-info-about-VRChat-features.",
@@ -19136,7 +18400,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/347data/iconImageUrl
+       * #/324data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/f00f52a0f2fb1905ac2a498ab9eaedd484665151ba756183ab4676012f2895d7.png",
       /**
@@ -19146,7 +18410,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/347data/thumbnailImageUrl
+       * #/324data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/ff8966f5d5d252c9c8e1192d8d6883a5679ca19bac060f69fa74e2a7a68ff5e0.png",
       /**
@@ -19156,7 +18420,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/ipsQuery
+       * #/327data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-support",
@@ -19201,7 +18465,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/349/isLocalizable
+     * #/326/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19220,7 +18484,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/354/data/description
+       * #/331/data/description
        */
       "description": {
         "key": "HelpTopic/Vrcplus/Description/VRC+",
@@ -19233,7 +18497,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/349data/tooltipDescription
+       * #/326data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Subscribe-to-VRChat+-today-and-enjoy-all-of-these-exclusive-features!",
@@ -19246,7 +18510,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/349data/iconImageUrl
+       * #/326data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/bcfabc013e81d970fd4f6ab4773bbc181e896371923504dd3d7b244c26eaf9d6.png",
       /**
@@ -19256,7 +18520,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/349data/thumbnailImageUrl
+       * #/326data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/7d6d6f993d10df181f842a5de8c1918075790621c3b91181efcc45b82f839bd6.png",
       /**
@@ -19266,7 +18530,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/351data/ipsQuery
+       * #/328data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-vrcplus",
@@ -19289,7 +18553,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/350/isLocalizable
+     * #/327/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19308,7 +18572,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/355/data/description
+       * #/332/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Settings",
@@ -19321,7 +18585,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/tooltipDescription
+       * #/327data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Information-on-VRChat-settings.",
@@ -19334,7 +18598,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/iconImageUrl
+       * #/327data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/195be68b573ae24e1ec0ac7c9f51e4535e4f18a1f9b274ea957dec222eb929dc.png",
       /**
@@ -19344,7 +18608,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/thumbnailImageUrl
+       * #/327data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/b45eac50742f7a8c72cd5dc86b88fcbb5a28313f4ccf417e1a508cdc0282b388.png",
       "ipsQuery": {
@@ -19375,7 +18639,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/362/data/description
+       * #/339/data/description
        */
       "description": "VRChat Creator Economy",
       /**
@@ -19385,7 +18649,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/351data/tooltipDescription
+       * #/328data/tooltipDescription
        */
       "tooltipDescription": "Get help and information about the VRChat Creator Economy",
       /**
@@ -19395,7 +18659,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/351data/iconImageUrl
+       * #/328data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/c2a3a676e58c90b5d7af19ad2f7a6bc3635b125448164ab04a8aba4f59c07f08.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/2269c4a06f15f39cc69c2b43905b68b55086a36b60a2517ffe5a3894635c57af.png",
@@ -19464,7 +18728,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/354/isLocalizable
+     * #/331/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19486,7 +18750,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/363/data/description
+       * #/340/data/description
        */
       "description": {
         "key": "Tooltips/Avatar-Dynamics-is-now-live!",
@@ -19499,7 +18763,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/354data/isNew
+       * #/331data/isNew
        */
       "isNew": false,
       "article": {
@@ -19510,7 +18774,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/354data/article/sectionLinks
+         * #/331data/article/sectionLinks
          */
         "sectionLinks": [
           "link-physbones",
@@ -19526,7 +18790,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/354/data/article/content
+         * #/331/data/article/content
          */
         "content": [
           {
@@ -19638,7 +18902,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/354data/article/embeddedLinkData
+         * #/331data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -19665,7 +18929,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/354data/article/moreInfoLinks
+         * #/331data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -19701,7 +18965,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/355/isLocalizable
+     * #/332/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19728,7 +18992,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/355data/article/sectionLinks
+         * #/332data/article/sectionLinks
          */
         "sectionLinks": [
           "link-adding-content-warnings",
@@ -19741,7 +19005,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/355/data/article/content
+         * #/332/data/article/content
          */
         "content": [
           {
@@ -19883,7 +19147,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/355data/article/embeddedLinkData
+         * #/332data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -19934,7 +19198,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/355data/article/moreInfoLinks
+         * #/332data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -19997,7 +19261,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/356data/search
+       * #/333data/search
        */
       "search": {
         "searchQuery": "Spookality",
@@ -20023,7 +19287,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/357/isLocalizable
+     * #/334/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20042,7 +19306,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/357data/search
+       * #/334data/search
        */
       "search": {
         "searchQuery": "liminal",
@@ -20068,7 +19332,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/358/isLocalizable
+     * #/335/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20087,7 +19351,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/358data/search
+       * #/335data/search
        */
       "search": {
         "searchQuery": "horror",
@@ -20113,7 +19377,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/359/isLocalizable
+     * #/336/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20132,7 +19396,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/359data/search
+       * #/336data/search
        */
       "search": {
         "searchQuery": "Halloween",
@@ -20169,7 +19433,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/360/data/article/content
+         * #/337/data/article/content
          */
         "content": [
           {
@@ -20217,7 +19481,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/361/data/article/content
+         * #/338/data/article/content
          */
         "content": [
           {
@@ -20248,7 +19512,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/362/isLocalizable
+     * #/339/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20274,7 +19538,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/362data/isNew
+       * #/339data/isNew
        */
       "isNew": true,
       "article": {
@@ -20285,7 +19549,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/362data/article/sectionLinks
+         * #/339data/article/sectionLinks
          */
         "sectionLinks": [
           "link-feature-highlights",
@@ -20298,7 +19562,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/362/data/article/content
+         * #/339/data/article/content
          */
         "content": [
           {
@@ -20343,7 +19607,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/362data/article/embeddedLinkData
+         * #/339data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -20378,7 +19642,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/362data/article/moreInfoLinks
+         * #/339data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -20421,7 +19685,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/363/isLocalizable
+     * #/340/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20448,7 +19712,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/363/data/article/content
+         * #/340/data/article/content
          */
         "content": [
           {
@@ -20468,7 +19732,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/363data/article/embeddedLinkData
+         * #/340data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -20495,7 +19759,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/363data/article/moreInfoLinks
+         * #/340data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -20531,7 +19795,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/364/isLocalizable
+     * #/341/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20545,7 +19809,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/364/requireClientTags
+     * #/341/requireClientTags
      */
     "requireClientTags": [
       "platform-mobile-desktop"
@@ -20562,7 +19826,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/364data/tooltipDescription
+       * #/341data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-top-worlds-from-the-community!",
@@ -20575,7 +19839,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/364data/iconImageUrl
+       * #/341data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
@@ -20595,7 +19859,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/364data/contentList/bannersTag
+         * #/341data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-spotlight-mobile"
       }
@@ -20616,7 +19880,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/365/isLocalizable
+     * #/342/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20635,7 +19899,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/365data/tooltipDescription
+       * #/342data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-trending-worlds",
@@ -20648,7 +19912,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/365data/iconImageUrl
+       * #/342data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/5568aa5059b72048ec0560b0eb68822c5ea338e5235637c36a3273f1081176ef.png",
       "contentList": {
@@ -20667,7 +19931,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/365data/contentList/bannersTag
+         * #/342data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-trending",
         /**
@@ -20677,7 +19941,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/365data/contentList/avatarSpecific
+         * #/342data/contentList/avatarSpecific
          */
         "avatarSpecific": false
       }
@@ -20698,7 +19962,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/366/isLocalizable
+     * #/343/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20717,7 +19981,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/366data/tooltipDescription
+       * #/343data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-trending-avatar-worlds",
@@ -20730,7 +19994,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/366data/iconImageUrl
+       * #/343data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
@@ -20749,7 +20013,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/366data/contentList/avatarSpecific
+         * #/343data/contentList/avatarSpecific
          */
         "avatarSpecific": true,
         /**
@@ -20759,7 +20023,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/366data/contentList/bannersTag
+         * #/343data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-avatar"
       }
@@ -20780,7 +20044,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/367/isLocalizable
+     * #/344/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20799,7 +20063,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/367data/iconImageUrl
+       * #/344data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/f13fed02d81a04a7dc8d1d9c2960d43ed955ac1d84a87fe9348087cb2a9c4343.png",
       /**
@@ -20809,7 +20073,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/367data/tooltipDescription
+       * #/344data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Join-active-game-worlds",
@@ -20832,7 +20096,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/367data/contentList/bannersTag
+         * #/344data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-games",
         /**
@@ -20842,7 +20106,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/367data/contentList/avatarSpecific
+         * #/344data/contentList/avatarSpecific
          */
         "avatarSpecific": false
       }
@@ -20863,7 +20127,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/368/isLocalizable
+     * #/345/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20882,7 +20146,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/368data/iconImageUrl
+       * #/345data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/e5a352ccf894dd8a30001611e525caeaf3ec7710444610703549fb306f542400.png",
       /**
@@ -20892,7 +20156,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/368data/tooltipDescription
+       * #/345data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-noteworthy-new-worlds",
@@ -20914,7 +20178,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/368data/contentList/bannersTag
+         * #/345data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-new-worlds",
         "tag": "system_published_recently"
@@ -20936,7 +20200,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/369/isLocalizable
+     * #/346/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20955,7 +20219,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/properties/contentList/additionalProperties
-       * #/369data/contentList/shortName
+       * #/346data/contentList/shortName
        */
       "shortName": {
         "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
@@ -20968,7 +20232,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/369data/tooltipDescription
+       * #/346data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-top-cross-platform-worlds-from-the-community!",
@@ -20981,7 +20245,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/369data/iconImageUrl
+       * #/346data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
@@ -20996,7 +20260,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/additionalProperties
-         * #/369data/shortName
+         * #/346data/shortName
          */
         "shortName": {
           "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
@@ -21014,7 +20278,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/369data/contentList/bannersTag
+         * #/346data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-spotlight-xplat"
       }
@@ -21035,7 +20299,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/370/isLocalizable
+     * #/347/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21049,7 +20313,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/370/requireClientTags
+     * #/347/requireClientTags
      */
     "requireClientTags": [
       "platform-pc"
@@ -21066,7 +20330,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/370data/tooltipDescription
+       * #/347data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-top-PC-worlds-from-the-community!",
@@ -21079,7 +20343,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/370data/iconImageUrl
+       * #/347data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
@@ -21099,7 +20363,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/370data/contentList/bannersTag
+         * #/347data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-spotlight"
       }
@@ -21120,7 +20384,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/371/isLocalizable
+     * #/348/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21139,7 +20403,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/371data/tooltipDescription
+       * #/348data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-popular-worlds",
@@ -21152,7 +20416,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/371data/iconImageUrl
+       * #/348data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/5568aa5059b72048ec0560b0eb68822c5ea338e5235637c36a3273f1081176ef.png",
       "contentList": {
@@ -21171,7 +20435,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/371data/contentList/bannersTag
+         * #/348data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-trending",
         /**
@@ -21181,7 +20445,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/371data/contentList/avatarSpecific
+         * #/348data/contentList/avatarSpecific
          */
         "avatarSpecific": false
       }
@@ -21202,7 +20466,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/372/isLocalizable
+     * #/349/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21221,7 +20485,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/372data/iconImageUrl
+       * #/349data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/e5a352ccf894dd8a30001611e525caeaf3ec7710444610703549fb306f542400.png",
       /**
@@ -21231,7 +20495,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/372data/tooltipDescription
+       * #/349data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-new-worlds",
@@ -21253,7 +20517,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/372data/contentList/bannersTag
+         * #/349data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-new-worlds",
         /**
@@ -21263,7 +20527,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/372data/contentList/avatarSpecific
+         * #/349data/contentList/avatarSpecific
          */
         "avatarSpecific": false,
         "tag": "system_published_recently"
@@ -21285,7 +20549,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/373/isLocalizable
+     * #/350/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21304,7 +20568,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/373data/tooltipDescription
+       * #/350data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-recently-updated-worlds",
@@ -21317,7 +20581,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/373data/iconImageUrl
+       * #/350data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/06737a66fb6de284125da130c1866ec729d7bbd9b8cdfdafee2b23840b153c67.png",
       "contentList": {
@@ -21337,7 +20601,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/373data/contentList/bannersTag
+         * #/350data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-updated-recently"
       }
@@ -21358,7 +20622,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/374/isLocalizable
+     * #/351/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21377,7 +20641,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/374data/tooltipDescription
+       * #/351data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-new-avatar-worlds",
@@ -21390,7 +20654,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/374data/iconImageUrl
+       * #/351data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
@@ -21410,7 +20674,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/374data/contentList/avatarSpecific
+         * #/351data/contentList/avatarSpecific
          */
         "avatarSpecific": true,
         /**
@@ -21420,7 +20684,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/374data/contentList/bannersTag
+         * #/351data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-avatar-new"
       }
@@ -21441,7 +20705,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/375/isLocalizable
+     * #/352/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21460,7 +20724,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/375data/tooltipDescription
+       * #/352data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-worlds-newly-created-by-the-community",
@@ -21473,7 +20737,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/375data/iconImageUrl
+       * #/352data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/7846fda184f0ee4686558903b87823890351cac53a501b95f848b46b227294b1.png",
       "contentList": {
@@ -21492,7 +20756,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/375data/contentList/bannersTag
+         * #/352data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-labs"
       }
@@ -21513,7 +20777,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/376/isLocalizable
+     * #/353/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21532,7 +20796,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/376data/iconImageUrl
+       * #/353data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/0b0ca87fa01cdfce085a9f1080336e2d819717dd98bf10405a3a76a346b79629.png",
       /**
@@ -21542,7 +20806,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/376data/tooltipDescription
+       * #/353data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-random-worlds",
@@ -21564,7 +20828,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/376data/contentList/bannersTag
+         * #/353data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-random",
         /**
@@ -21574,7 +20838,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/376data/contentList/avatarSpecific
+         * #/353data/contentList/avatarSpecific
          */
         "avatarSpecific": false
       }
@@ -21595,7 +20859,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/377/isLocalizable
+     * #/354/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21614,7 +20878,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/377data/tooltipDescription
+       * #/354data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-random-avatar-worlds",
@@ -21627,7 +20891,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/377data/iconImageUrl
+       * #/354data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
@@ -21646,7 +20910,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/377data/contentList/avatarSpecific
+         * #/354data/contentList/avatarSpecific
          */
         "avatarSpecific": true,
         /**
@@ -21656,7 +20920,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/377data/contentList/bannersTag
+         * #/354data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-avatar-random"
       }
