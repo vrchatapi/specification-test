@@ -1,5 +1,10 @@
 # selectAvatar with id
 
+## Issues
+```
+Response schema mismatch: Unexpected property at #/googleDetails.
+```
+
 ## Request
 `put https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/select`
 
@@ -72,8 +77,18 @@
   "acceptedTOSVersion": 8,
   "acceptedPrivacyVersion": 0,
   "steamId": "",
-  "googleId": "",
   "steamDetails": {},
+  "googleId": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/googleDetails
+   */
+  "googleDetails": {},
   "oculusId": "",
   "picoId": "",
   "viveId": "",
