@@ -62,23 +62,27 @@ Response schema mismatch: Unexpected property at #/googleDetails.
     "My discord is ․․․‚"
   ],
   "statusFirstTime": true,
-  "friends": [],
+  "friends": [
+    "usr_63a9376e-d000-4357-9a76-3958b69477b0"
+  ],
   "friendGroupNames": [],
   "userLanguage": null,
-  "userLanguageCode": null,
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "userLanguageCode": "en",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1ab634a7-2cb1-4772-9baa-325080941bf8/1/file",
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1ab634a7-2cb1-4772-9baa-325080941bf8/1/256",
   "currentAvatarTags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
+    "admin_quest_fallback_extended",
+    "admin_featured_quest",
+    "system_jam_8a3721bc-9c06-4da8-b5c8-9a0aaa669930",
+    "author_quest_fallback"
   ],
-  "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_534ffc10-15d0-4fc5-86d5-2dcd55f0ac45/1/file",
+  "currentAvatar": "avtr_047c01c7-e958-4e59-8099-86316479fd9a",
+  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_5b112dca-c8fc-428e-bd59-60b2b3970b28/1/file",
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
   "accountDeletionDate": null,
   "accountDeletionLog": null,
-  "acceptedTOSVersion": 8,
-  "acceptedPrivacyVersion": 0,
+  "acceptedTOSVersion": 9,
+  "acceptedPrivacyVersion": 1,
   "steamId": "",
   "steamDetails": {},
   "googleId": "",
@@ -102,18 +106,21 @@ Response schema mismatch: Unexpected property at #/googleDetails.
   "updated_at": "<unstable: string>",
   "state": "offline",
   "tags": [
-    "system_no_captcha"
+    "system_no_captcha",
+    "language_eng"
   ],
   "developerType": "none",
   "last_login": "<unstable: string>",
   "last_platform": "standalonewindows",
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "status": "active",
   "date_joined": "2023-04-11",
   "isFriend": false,
-  "friendKey": "b04df0c8743c7667e17bfccef6e9a17096b68ae9377964c6b19518391742bbd5",
+  "friendKey": "e0dbcabbb69205f0c1d01a7cefabd01a",
   "last_activity": "<unstable: string>",
-  "onlineFriends": [],
+  "onlineFriends": [
+    "usr_63a9376e-d000-4357-9a76-3958b69477b0"
+  ],
   "activeFriends": [],
   "presence": {
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",

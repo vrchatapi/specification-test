@@ -62,10 +62,12 @@ Response schema mismatch: Unexpected property at #/googleDetails.
     "My discord is ․․․‚"
   ],
   "statusFirstTime": true,
-  "friends": [],
+  "friends": [
+    "usr_63a9376e-d000-4357-9a76-3958b69477b0"
+  ],
   "friendGroupNames": [],
   "userLanguage": null,
-  "userLanguageCode": null,
+  "userLanguageCode": "en",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/256",
   "currentAvatarTags": [],
@@ -74,8 +76,8 @@ Response schema mismatch: Unexpected property at #/googleDetails.
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
   "accountDeletionDate": null,
   "accountDeletionLog": null,
-  "acceptedTOSVersion": 8,
-  "acceptedPrivacyVersion": 0,
+  "acceptedTOSVersion": 9,
+  "acceptedPrivacyVersion": 1,
   "steamId": "",
   "steamDetails": {},
   "googleId": "",
@@ -99,16 +101,17 @@ Response schema mismatch: Unexpected property at #/googleDetails.
   "updated_at": "<unstable: string>",
   "state": "offline",
   "tags": [
-    "system_no_captcha"
+    "system_no_captcha",
+    "language_eng"
   ],
   "developerType": "none",
   "last_login": "<unstable: string>",
   "last_platform": "standalonewindows",
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "status": "active",
   "date_joined": "2023-04-11",
   "isFriend": false,
-  "friendKey": "b04df0c8743c7667e17bfccef6e9a17096b68ae9377964c6b19518391742bbd5",
+  "friendKey": "e0dbcabbb69205f0c1d01a7cefabd01a",
   "last_activity": "<unstable: string>"
 }
 ```
