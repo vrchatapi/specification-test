@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unexpected property at #/unityPackages/1/variant, Unexpected property at #/unityPackages/2/impostorizerVersion, Unexpected property at #/unityPackages/2/variant, Unexpected property at #/unityPackages/3/impostorizerVersion, Unexpected property at #/unityPackages/3/variant.
+Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unexpected property at #/unityPackages/1/variant, Unexpected property at #/unityPackages/2/variant, Unexpected property at #/unityPackages/3/variant.
 ```
 
 ## Request
@@ -32,26 +32,24 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
 
 ```jsonc
 {
-  "id": "avtr_047c01c7-e958-4e59-8099-86316479fd9a",
-  "name": "The Professional",
-  "description": "Enjoys large spreadsheets‚ unpaid overtime‚ lukewarm coffee and white noise․",
-  "authorId": "usr_45e2a371-9fbb-47bc-a938-99f090b2517a",
-  "authorName": "Bāph",
+  "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
+  "name": "Robot",
+  "description": "Beep Boop",
+  "authorId": "8JoV9XEdpo",
+  "authorName": "vrchat",
   "tags": [
-    "author_quest_fallback",
-    "system_jam_8a3721bc-9c06-4da8-b5c8-9a0aaa669930",
-    "admin_featured_quest",
-    "admin_quest_fallback_extended"
+    "admin_featured_legacy",
+    "admin_content_reviewed"
   ],
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_1ab634a7-2cb1-4772-9baa-325080941bf8/1/file",
-  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1ab634a7-2cb1-4772-9baa-325080941bf8/1/256",
+  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "releaseStatus": "public",
   "version": "<unstable: number>",
-  "featured": true,
+  "featured": false,
   "unityPackages": "<unstable: array>",
   "unityPackageUrl": "",
   "unityPackageUrlObject": {},
-  "created_at": "2023-03-12T07:14:35.052Z",
+  "created_at": "2016-11-30T03:47:35.000Z",
   "updated_at": "<unstable: string>"
 }
 ```
