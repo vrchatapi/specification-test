@@ -62,9 +62,7 @@ Response schema mismatch: Unexpected property at #/googleDetails.
     "My discord is ․․․‚"
   ],
   "statusFirstTime": true,
-  "friends": [
-    "usr_63a9376e-d000-4357-9a76-3958b69477b0"
-  ],
+  "friends": [],
   "friendGroupNames": [],
   "userLanguage": null,
   "userLanguageCode": "en",
@@ -114,7 +112,7 @@ Response schema mismatch: Unexpected property at #/googleDetails.
   "status": "active",
   "date_joined": "2023-04-11",
   "isFriend": false,
-  "friendKey": "e0dbcabbb69205f0c1d01a7cefabd01a",
+  "friendKey": "c61f12138fd21145f86eca5b51631932",
   "last_activity": "<unstable: string>"
 }
 ```

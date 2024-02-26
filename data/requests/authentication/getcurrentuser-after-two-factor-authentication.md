@@ -62,17 +62,15 @@ Response schema mismatch: Unexpected property at #/googleDetails.
     "My discord is ․․․‚"
   ],
   "statusFirstTime": true,
-  "friends": [
-    "usr_63a9376e-d000-4357-9a76-3958b69477b0"
-  ],
+  "friends": [],
   "friendGroupNames": [],
   "userLanguage": null,
   "userLanguageCode": "en",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "currentAvatarTags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
+    "admin_content_reviewed",
+    "admin_featured_legacy"
   ],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_534ffc10-15d0-4fc5-86d5-2dcd55f0ac45/1/file",
@@ -114,11 +112,9 @@ Response schema mismatch: Unexpected property at #/googleDetails.
   "status": "active",
   "date_joined": "2023-04-11",
   "isFriend": false,
-  "friendKey": "e0dbcabbb69205f0c1d01a7cefabd01a",
+  "friendKey": "c61f12138fd21145f86eca5b51631932",
   "last_activity": "<unstable: string>",
-  "onlineFriends": [
-    "usr_63a9376e-d000-4357-9a76-3958b69477b0"
-  ],
+  "onlineFriends": [],
   "activeFriends": [],
   "presence": {
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
