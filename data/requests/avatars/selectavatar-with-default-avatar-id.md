@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/googleDetails.
+Response schema mismatch: Unexpected property at #/badges, Unexpected property at #/googleDetails.
 ```
 
 ## Request
@@ -39,6 +39,16 @@ Response schema mismatch: Unexpected property at #/googleDetails.
   "bioLinks": [],
   "profilePicOverride": "",
   "statusDescription": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/badges
+   */
+  "badges": [],
   "username": "8cf3def6b8cea",
   "pastDisplayNames": [],
   "hasEmail": true,
