@@ -1,12 +1,12 @@
-# selectAvatar with id
+# getCurrentUser after two-factor authentication
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/googleDetails.
+Response schema mismatch: Unexpected property at #/badges, Unexpected property at #/googleDetails.
 ```
 
 ## Request
-`put https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/select`
+`get https://api.vrchat.cloud/api/1/auth/user`
 
 | Header | Value |
 | ------ | ----- |
@@ -39,6 +39,16 @@ Response schema mismatch: Unexpected property at #/googleDetails.
   "bioLinks": [],
   "profilePicOverride": "",
   "statusDescription": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/badges
+   */
+  "badges": [],
   "username": "8cf3def6b8cea",
   "pastDisplayNames": [],
   "hasEmail": true,
@@ -66,11 +76,14 @@ Response schema mismatch: Unexpected property at #/googleDetails.
   "friendGroupNames": [],
   "userLanguage": null,
   "userLanguageCode": "en",
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/file",
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/256",
-  "currentAvatarTags": [],
-  "currentAvatar": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
-  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_cea4ec5e-af23-4c1e-982b-b93f3c6cfc2b/8/file",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "currentAvatarTags": [
+    "admin_featured_legacy",
+    "admin_content_reviewed"
+  ],
+  "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
+  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_534ffc10-15d0-4fc5-86d5-2dcd55f0ac45/1/file",
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
   "accountDeletionDate": null,
   "accountDeletionLog": null,
@@ -110,6 +123,20 @@ Response schema mismatch: Unexpected property at #/googleDetails.
   "date_joined": "2023-04-11",
   "isFriend": false,
   "friendKey": "c61f12138fd21145f86eca5b51631932",
-  "last_activity": "<unstable: string>"
+  "last_activity": "<unstable: string>",
+  "onlineFriends": [],
+  "activeFriends": [],
+  "presence": {
+    "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+    "platform": "",
+    "status": "offline",
+    "world": "offline",
+    "instance": "offline",
+    "instanceType": "",
+    "travelingToWorld": "offline",
+    "travelingToInstance": "offline",
+    "groups": []
+  },
+  "offlineFriends": []
 }
 ```
