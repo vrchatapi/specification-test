@@ -1,6 +1,7 @@
+import { state } from "./_cache";
 import { failUnauthenticated, test, testOperation } from "./_utilities";
 
-const blackCatWorldId = "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b";
+export const blackCatWorldId = "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b";
 
 const unstableWorldKeys = [
 	"imageUrl",
@@ -47,13 +48,22 @@ test(
 	}
 );
 
-test("by id", testOperation, "getWorld", {
-	statusCode: 200,
-	parameters: {
-		worldId: blackCatWorldId
+test(
+	"by id",
+	testOperation,
+	"getWorld",
+	{
+		statusCode: 200,
+		parameters: {
+			worldId: blackCatWorldId
+		},
+		unstable: unstableWorldKeys
 	},
-	unstable: unstableWorldKeys
-});
+	(t) => {
+		t.is(t.context.body.id, blackCatWorldId, "Should have the correct world id");
+		state.set("blackcat-world", t.context.body);
+	}
+);
 
 test("by id", testOperation, "getWorldMetadata", {
 	statusCode: 200,
