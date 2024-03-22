@@ -1,12 +1,12 @@
 # checkUserExists via display name
 
 ## Request
-`get https://api.vrchat.cloud/api/1/auth/exists?displayName=8cf3def6b8cea`
+`get https://api.vrchat.cloud/api/1/auth/exists?displayName=undefined`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
+| cookie | `auth=<redacted>` |
 
 
 ## Response

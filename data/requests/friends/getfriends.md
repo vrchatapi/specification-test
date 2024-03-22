@@ -1,23 +1,28 @@
 # getFriends
 
+## Issues
+```
+Response schema mismatch: Invalid type at #.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/auth/user/friends`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
+| cookie | `auth=<redacted>` |
 
 
 ## Response
-`200 OK`
+`401 Unauthorized`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-length | `2` |
+| content-length | `80` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
@@ -26,5 +31,10 @@
 | x-frame-options | `deny` |
 
 ```jsonc
-[]
+{
+  "error": {
+    "message": "\"Requires Two-Factor Authentication\"",
+    "status_code": 401
+  }
+}
 ```

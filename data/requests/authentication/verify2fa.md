@@ -1,5 +1,10 @@
 # verify2FA
 
+## Issues
+```
+Response schema mismatch: Missing property at #/verified, Unexpected property at #/error.
+```
+
 ## Request
 `post https://api.vrchat.cloud/api/1/auth/twofactorauth/totp/verify`
 
@@ -17,24 +22,35 @@
 
 
 ## Response
-`200 OK`
+`429 Too Many Requests`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
-| content-length | `17` |
+| content-length | `59` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| set-cookie | `<redacted>` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "verified": true
+  /**
+   * Unexpected property.
+   *
+   * @schema Verify2FAResult
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/error
+   */
+  "error": {
+    "message": "Too many requests",
+    "status_code": 429
+  }
 }
 ```
