@@ -6,5 +6,4 @@ test(testOperation, "getAssignedPermissions", {
 	statusCode: 200
 });
 
-test.todo("List Permissions");
 test.todo("Get Permission");
