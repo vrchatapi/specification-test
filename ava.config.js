@@ -15,6 +15,6 @@ module.exports = {
 		file1 = path.relative(__dirname, file1);
 		file2 = path.relative(__dirname, file2);
 
-		return testOrder[file1] - testOrder[file2];
+		return (testOrder[file2] || Infinity) - (testOrder[file1] || Infinity);
 	}
 };
