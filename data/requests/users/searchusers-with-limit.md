@@ -98,8 +98,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
       "https://www.deviantart.com/azuliezeiro"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6348d0fd-d920-4f40-963f-f309b7568eab/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6348d0fd-d920-4f40-963f-f309b7568eab/2/256",
     /**
      * Unexpected property.
      *
@@ -161,7 +161,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "userIcon": "",
     "profilePicOverride": "",
     "statusDescription": "",
-    "status": "ask me",
+    "status": "active",
     "last_platform": "standalonewindows",
     "isFriend": false,
     "tags": [
@@ -181,8 +181,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
     "displayName": "aphex505",
     "bio": "おさかなのおさしみ",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_493cf1d7-80d0-4aee-860c-d459c2146884/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_493cf1d7-80d0-4aee-860c-d459c2146884/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b8e9a722-031d-4d2e-ae4d-73964c41e512/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b8e9a722-031d-4d2e-ae4d-73964c41e512/2/256",
     /**
      * Unexpected property.
      *
@@ -229,8 +229,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b4c5f565-25e8-4c7e-9335-e56eae5be136/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b4c5f565-25e8-4c7e-9335-e56eae5be136/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_cb8f1a12-936b-4803-a4ad-e25cc21ba760/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_cb8f1a12-936b-4803-a4ad-e25cc21ba760/1/256",
     /**
      * Unexpected property.
      *
