@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/bioLinks, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/bioLinks, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
+Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/bioLinks, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/bioLinks, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/bioLinks, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
 ```
 
 ## Request
@@ -33,25 +33,11 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
 ```jsonc
 [
   {
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "displayName": "Averiff",
-    "bio": "I want choo choo train set for Christmas but I might be on the bad list‚ we will see․",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/0/bioLinks
-     */
-    "bioLinks": [
-      "https://www.guiltygear.com/ggst/en/",
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=HE5ld2PCWvw"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_592d8044-07f2-4095-a256-ca296b38ccef/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_592d8044-07f2-4095-a256-ca296b38ccef/2/256",
+    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
+    "displayName": "aphex505",
+    "bio": "おさかなのおさしみ",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b8e9a722-031d-4d2e-ae4d-73964c41e512/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b8e9a722-031d-4d2e-ae4d-73964c41e512/2/256",
     /**
      * Unexpected property.
      *
@@ -64,20 +50,21 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "currentAvatarTags": [],
     "userIcon": "",
     "profilePicOverride": "",
-    "statusDescription": "Thanks‚ AT․",
+    "statusDescription": "",
     "status": "active",
     "last_platform": "standalonewindows",
     "isFriend": false,
     "tags": [
-      "system_trust_basic",
       "system_avatar_access",
       "system_world_access",
-      "system_trust_known",
+      "system_trust_basic",
       "system_feedback_access",
+      "system_trust_known",
       "system_trust_trusted",
       "system_trust_veteran",
+      "show_social_rank",
       "system_early_adopter",
-      "language_eng"
+      "language_jpn"
     ],
     "developerType": "none"
   },
@@ -178,42 +165,6 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "developerType": "none"
   },
   {
-    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
-    "displayName": "aphex505",
-    "bio": "おさかなのおさしみ",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b8e9a722-031d-4d2e-ae4d-73964c41e512/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b8e9a722-031d-4d2e-ae4d-73964c41e512/2/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/3/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_jpn"
-    ],
-    "developerType": "none"
-  },
-  {
     "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
     "displayName": "Aggrakia",
     "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
@@ -224,7 +175,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/bioLinks
+     * #/3/bioLinks
      */
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
@@ -238,12 +189,12 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/currentAvatarTags
+     * #/3/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
     "profilePicOverride": "",
-    "statusDescription": "Rp Spectating",
+    "statusDescription": "I'm coming for your fentanyl",
     "status": "ask me",
     "last_platform": "standalonewindows",
     "isFriend": false,
@@ -256,6 +207,55 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "system_trust_trusted",
       "system_trust_veteran",
       "show_social_rank",
+      "system_early_adopter",
+      "language_eng"
+    ],
+    "developerType": "none"
+  },
+  {
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
+    "displayName": "Averiff",
+    "bio": "I want choo choo train set for Christmas but I might be on the bad list‚ we will see․",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/4/bioLinks
+     */
+    "bioLinks": [
+      "https://www.guiltygear.com/ggst/en/",
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=HE5ld2PCWvw"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_32ca9ade-e2fe-46dc-af14-6291a52cd635/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_32ca9ade-e2fe-46dc-af14-6291a52cd635/1/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/4/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "Break out․",
+    "status": "active",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
       "system_early_adopter",
       "language_eng"
     ],
