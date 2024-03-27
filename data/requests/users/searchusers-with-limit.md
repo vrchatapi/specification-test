@@ -85,8 +85,8 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
       "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
       "https://www.deviantart.com/azuliezeiro"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6348d0fd-d920-4f40-963f-f309b7568eab/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6348d0fd-d920-4f40-963f-f309b7568eab/2/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_57046935-59e6-4f8e-ad42-2635b8049a4f/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_57046935-59e6-4f8e-ad42-2635b8049a4f/1/256",
     /**
      * Unexpected property.
      *
@@ -118,6 +118,54 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
     "developerType": "none"
   },
   {
+    "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
+    "displayName": "Aggrakia",
+    "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/bioLinks
+     */
+    "bioLinks": [
+      "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b4c5f565-25e8-4c7e-9335-e56eae5be136/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b4c5f565-25e8-4c7e-9335-e56eae5be136/1/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "Rp Spectating",
+    "status": "ask me",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_eng"
+    ],
+    "developerType": "none"
+  },
+  {
     "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
     "displayName": "Azuteatime",
     "bio": "To see with eyes unclouded by hate․",
@@ -128,7 +176,7 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/2/bioLinks
+     * #/3/bioLinks
      */
     "bioLinks": [
       ""
@@ -142,7 +190,7 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/2/currentAvatarTags
+     * #/3/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -165,54 +213,6 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
     "developerType": "none"
   },
   {
-    "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
-    "displayName": "Aggrakia",
-    "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/3/bioLinks
-     */
-    "bioLinks": [
-      "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_cb8f1a12-936b-4803-a4ad-e25cc21ba760/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_cb8f1a12-936b-4803-a4ad-e25cc21ba760/1/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/3/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "I'm coming for your fentanyl",
-    "status": "ask me",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_eng"
-    ],
-    "developerType": "none"
-  },
-  {
     "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
     "displayName": "Averiff",
     "bio": "I want choo choo train set for Christmas but I might be on the bad list‚ we will see․",
@@ -230,8 +230,8 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=HE5ld2PCWvw"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_32ca9ade-e2fe-46dc-af14-6291a52cd635/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_32ca9ade-e2fe-46dc-af14-6291a52cd635/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/256",
     /**
      * Unexpected property.
      *
