@@ -50,7 +50,22 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
    * #/additionalProperties
    * #/badges
    */
-  "badges": [],
+  "badges": [
+    {
+      "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
+      "showcased": false,
+      "badgeName": "Supporter",
+      "badgeDescription": "Supports VRChat through VRC+.",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_eff7def2-c264-4c0e-b462-6a9477ea4e6c.png"
+    },
+    {
+      "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
+      "showcased": false,
+      "badgeName": "Early Adopter",
+      "badgeDescription": "Supported VRChat through VRC+ when it first launched.",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_28e70141-6859-450b-834b-30c15ecf3ff4.png"
+    }
+  ],
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   /**
