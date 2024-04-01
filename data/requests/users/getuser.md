@@ -34,7 +34,7 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
 {
   "id": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
   "displayName": "tupper",
-  "userIcon": "https://api.vrchat.cloud/api/1/file/file_25de9c05-1c13-4f43-8657-b82ec2389b33/1/",
+  "userIcon": "https://api.vrchat.cloud/api/1/file/file_662d8b2f-2142-4052-bd40-385d56830873/1/",
   "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
   "bioLinks": [
     "https://dtupper.com"
