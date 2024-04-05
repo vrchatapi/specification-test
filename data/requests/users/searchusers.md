@@ -55,7 +55,7 @@
      * #/0/currentAvatarTags
      */
     "currentAvatarTags": [],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_1b381c3f-81f3-4219-9a9f-f376d61b6526/1/",
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_662d8b2f-2142-4052-bd40-385d56830873/1/",
     "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
     "statusDescription": "hewwow",
     "status": "ask me",

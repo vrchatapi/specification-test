@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/bioLinks, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/bioLinks, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
+Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/bioLinks, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/bioLinks, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/bioLinks, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
 ```
 
 ## Request
@@ -33,55 +33,6 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
 ```jsonc
 [
   {
-    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
-    "displayName": "AzulieZeiro",
-    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\nv-slut",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/0/bioLinks
-     */
-    "bioLinks": [
-      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
-      "https://www.deviantart.com/azuliezeiro"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e22394d5-f4dc-4a94-bb61-3684b3af09fd/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e22394d5-f4dc-4a94-bb61-3684b3af09fd/2/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/0/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "4‚000 year old loli",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "language_eng",
-      "system_early_adopter"
-    ],
-    "developerType": "none"
-  },
-  {
     "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
     "displayName": "aphex505",
     "bio": "おさかなのおさしみ",
@@ -94,7 +45,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/1/currentAvatarTags
+     * #/0/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -118,6 +69,104 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "developerType": "none"
   },
   {
+    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
+    "displayName": "AzulieZeiro",
+    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\nv-slut",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/1/bioLinks
+     */
+    "bioLinks": [
+      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
+      "https://www.deviantart.com/azuliezeiro"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_986e2e44-9624-40e0-8736-4c43d4c09139/4/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_986e2e44-9624-40e0-8736-4c43d4c09139/4/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/1/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "4‚000 year old loli",
+    "status": "active",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "language_eng",
+      "system_early_adopter"
+    ],
+    "developerType": "none"
+  },
+  {
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
+    "displayName": "Averiff",
+    "bio": "I want choo choo train set for Christmas but I might be on the bad list‚ we will see․",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/bioLinks
+     */
+    "bioLinks": [
+      "https://www.guiltygear.com/ggst/en/",
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=r0ycdb99ksk"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_67424042-e621-4b3b-a942-4716f96e2f2c/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_67424042-e621-4b3b-a942-4716f96e2f2c/2/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "",
+    "status": "ask me",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "system_early_adopter",
+      "language_eng"
+    ],
+    "developerType": "none"
+  },
+  {
     "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
     "displayName": "Azuteatime",
     "bio": "To see with eyes unclouded by hate․",
@@ -128,7 +177,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/2/bioLinks
+     * #/3/bioLinks
      */
     "bioLinks": [
       ""
@@ -142,7 +191,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/2/currentAvatarTags
+     * #/3/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -161,55 +210,6 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "system_trust_veteran",
       "show_social_rank",
       "system_early_adopter"
-    ],
-    "developerType": "none"
-  },
-  {
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "displayName": "Averiff",
-    "bio": "I want choo choo train set for Christmas but I might be on the bad list‚ we will see․",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/3/bioLinks
-     */
-    "bioLinks": [
-      "https://www.guiltygear.com/ggst/en/",
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=r0ycdb99ksk"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/3/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "system_early_adopter",
-      "language_eng"
     ],
     "developerType": "none"
   },
