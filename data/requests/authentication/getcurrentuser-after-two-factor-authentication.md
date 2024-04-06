@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/badges, Unexpected property at #/googleDetails.
+Response schema mismatch: Unexpected property at #/badges, Unexpected property at #/googleDetails, Unexpected property at #/last_mobile.
 ```
 
 ## Request
@@ -111,6 +111,16 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
   "updated_at": "<unstable: string>",
   "state": "offline",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/last_mobile
+   */
+  "last_mobile": null,
   "tags": [
     "system_no_captcha",
     "language_eng"
