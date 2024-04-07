@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/bioLinks, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/bioLinks, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
+Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/bioLinks, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/bioLinks, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/bioLinks, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
 ```
 
 ## Request
@@ -33,24 +33,11 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
 ```jsonc
 [
   {
-    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
-    "displayName": "AzulieZeiro",
-    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\nv-slut",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/0/bioLinks
-     */
-    "bioLinks": [
-      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
-      "https://www.deviantart.com/azuliezeiro"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6952f899-a2e2-49c1-a1a6-1c410b54fa47/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6952f899-a2e2-49c1-a1a6-1c410b54fa47/1/256",
+    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
+    "displayName": "aphex505",
+    "bio": "おさかなのおさしみ",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_5d9973ef-ee86-452f-93af-ae08839802f3/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_5d9973ef-ee86-452f-93af-ae08839802f3/1/256",
     /**
      * Unexpected property.
      *
@@ -63,7 +50,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "currentAvatarTags": [],
     "userIcon": "",
     "profilePicOverride": "",
-    "statusDescription": "4‚000 year old loli",
+    "statusDescription": "",
     "status": "active",
     "last_platform": "standalonewindows",
     "isFriend": false,
@@ -76,8 +63,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "system_trust_trusted",
       "system_trust_veteran",
       "show_social_rank",
-      "language_eng",
-      "system_early_adopter"
+      "system_early_adopter",
+      "language_jpn"
     ],
     "developerType": "none"
   },
@@ -129,11 +116,24 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "developerType": "none"
   },
   {
-    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
-    "displayName": "aphex505",
-    "bio": "おさかなのおさしみ",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_f94ffcac-5f24-478c-abbf-73397f86997e/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_f94ffcac-5f24-478c-abbf-73397f86997e/1/256",
+    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
+    "displayName": "AzulieZeiro",
+    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\nv-slut",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/bioLinks
+     */
+    "bioLinks": [
+      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
+      "https://www.deviantart.com/azuliezeiro"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6a345b41-5145-4b15-8bc4-49fbb242501f/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6a345b41-5145-4b15-8bc4-49fbb242501f/2/256",
     /**
      * Unexpected property.
      *
@@ -146,7 +146,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "currentAvatarTags": [],
     "userIcon": "",
     "profilePicOverride": "",
-    "statusDescription": "",
+    "statusDescription": "4‚000 year old loli",
     "status": "active",
     "last_platform": "standalonewindows",
     "isFriend": false,
@@ -159,8 +159,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "system_trust_trusted",
       "system_trust_veteran",
       "show_social_rank",
-      "system_early_adopter",
-      "language_jpn"
+      "language_eng",
+      "system_early_adopter"
     ],
     "developerType": "none"
   },
@@ -231,8 +231,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=r0ycdb99ksk"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_67424042-e621-4b3b-a942-4716f96e2f2c/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_67424042-e621-4b3b-a942-4716f96e2f2c/2/256",
     /**
      * Unexpected property.
      *
