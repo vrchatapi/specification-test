@@ -59,7 +59,7 @@
     "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
     "statusDescription": "hewwow",
     "status": "ask me",
-    "last_platform": "standalonewindows",
+    "last_platform": "android",
     "isFriend": false,
     "tags": [
       "admin_moderator",
