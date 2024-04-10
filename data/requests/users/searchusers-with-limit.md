@@ -49,8 +49,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
       "https://www.deviantart.com/azuliezeiro"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6952f899-a2e2-49c1-a1a6-1c410b54fa47/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6952f899-a2e2-49c1-a1a6-1c410b54fa47/2/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9c3cdd47-7112-4dd9-9c41-d632228eae27/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9c3cdd47-7112-4dd9-9c41-d632228eae27/1/256",
     /**
      * Unexpected property.
      *
@@ -118,55 +118,6 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "developerType": "none"
   },
   {
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "displayName": "Averiff",
-    "bio": "I want choo choo train set for Christmas but I might be on the bad list‚ we will see․",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/2/bioLinks
-     */
-    "bioLinks": [
-      "https://www.guiltygear.com/ggst/en/",
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=r0ycdb99ksk"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_67424042-e621-4b3b-a942-4716f96e2f2c/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_67424042-e621-4b3b-a942-4716f96e2f2c/2/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/2/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "system_early_adopter",
-      "language_eng"
-    ],
-    "developerType": "none"
-  },
-  {
     "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
     "displayName": "Azuteatime",
     "bio": "To see with eyes unclouded by hate․",
@@ -177,7 +128,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/bioLinks
+     * #/2/bioLinks
      */
     "bioLinks": [
       ""
@@ -191,7 +142,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/currentAvatarTags
+     * #/2/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -210,6 +161,55 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "system_trust_veteran",
       "show_social_rank",
       "system_early_adopter"
+    ],
+    "developerType": "none"
+  },
+  {
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
+    "displayName": "Averiff",
+    "bio": "I want choo choo train set for Christmas but I might be on the bad list‚ we will see․",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/3/bioLinks
+     */
+    "bioLinks": [
+      "https://www.guiltygear.com/ggst/en/",
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=r0ycdb99ksk"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_82719ac4-48a1-43be-9cf4-242ffd7c9841/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_82719ac4-48a1-43be-9cf4-242ffd7c9841/1/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/3/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "",
+    "status": "active",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "system_early_adopter",
+      "language_eng"
     ],
     "developerType": "none"
   },

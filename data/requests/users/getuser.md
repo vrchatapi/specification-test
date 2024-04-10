@@ -99,7 +99,7 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   ],
   "developerType": "internal",
   "last_login": "",
-  "last_platform": "android",
+  "last_platform": "standalonewindows",
   "allowAvatarCopying": false,
   "status": "ask me",
   "date_joined": "2017-07-12",
