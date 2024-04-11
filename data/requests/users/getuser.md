@@ -80,7 +80,6 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "currentAvatarTags": [],
   "tags": [
     "admin_moderator",
-    "admin_scripting_access",
     "system_trust_trusted",
     "system_world_access",
     "system_trust_known",

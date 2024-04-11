@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: undefined at #/unityPackages/0/assetUrl.
+Response schema mismatch: Missing property at #/namespace, undefined at #/unityPackages/0/assetUrl.
 ```
 
 ## Request
@@ -43,7 +43,6 @@ Response schema mismatch: undefined at #/unityPackages/0/assetUrl.
   "recommendedCapacity": 24,
   "imageUrl": "<unstable: string>",
   "thumbnailImageUrl": "<unstable: string>",
-  "namespace": "",
   "version": "<unstable: number>",
   "organization": "vrchat",
   "previewYoutubeId": null,
@@ -99,8 +98,7 @@ Response schema mismatch: undefined at #/unityPackages/0/assetUrl.
     "author_tag_lounge",
     "admin_approved",
     "admin_spotlight_mobile",
-    "system_approved",
-    "system_updated_recently"
+    "system_approved"
   ],
   "created_at": "2019-05-01T01:19:43.477Z",
   "updated_at": "<unstable: string>"

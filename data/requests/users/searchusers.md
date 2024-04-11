@@ -63,7 +63,6 @@
     "isFriend": false,
     "tags": [
       "admin_moderator",
-      "admin_scripting_access",
       "system_trust_trusted",
       "system_world_access",
       "system_trust_known",
