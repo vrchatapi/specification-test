@@ -165,55 +165,6 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
     "developerType": "none"
   },
   {
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "displayName": "Averiff",
-    "bio": "＂They have transcended human existence‚ just like me․＂",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/3/bioLinks
-     */
-    "bioLinks": [
-      "https://www.guiltygear.com/ggst/en/",
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=r0ycdb99ksk"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9e61873b-f142-4faf-85dd-6dc3bc3dd161/4/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9e61873b-f142-4faf-85dd-6dc3bc3dd161/4/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/3/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "system_early_adopter",
-      "language_eng"
-    ],
-    "developerType": "none"
-  },
-  {
     "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
     "displayName": "Aggrakia",
     "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
@@ -224,7 +175,7 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/bioLinks
+     * #/3/bioLinks
      */
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
@@ -238,7 +189,7 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/currentAvatarTags
+     * #/3/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_e5494cf5-e58e-4fb6-9758-3695fc01f957/1",
@@ -259,6 +210,55 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
       "system_early_adopter",
       "language_eng",
       "system_supporter"
+    ],
+    "developerType": "none"
+  },
+  {
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
+    "displayName": "Averiff",
+    "bio": "＂They have transcended human existence‚ just like me․＂",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/4/bioLinks
+     */
+    "bioLinks": [
+      "https://www.guiltygear.com/ggst/en/",
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=r0ycdb99ksk"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_32ca9ade-e2fe-46dc-af14-6291a52cd635/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_32ca9ade-e2fe-46dc-af14-6291a52cd635/1/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/4/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "",
+    "status": "ask me",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "system_early_adopter",
+      "language_eng"
     ],
     "developerType": "none"
   }
