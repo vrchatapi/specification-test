@@ -36,8 +36,8 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
     "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
     "displayName": "aphex505",
     "bio": "おさかなのおさしみ",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_da9d667b-1d66-4379-8b5a-91094ab873cd/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_da9d667b-1d66-4379-8b5a-91094ab873cd/2/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b8e9a722-031d-4d2e-ae4d-73964c41e512/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b8e9a722-031d-4d2e-ae4d-73964c41e512/2/256",
     /**
      * Unexpected property.
      *
@@ -69,53 +69,6 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
     "developerType": "none"
   },
   {
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
-    "displayName": "Azuteatime",
-    "bio": "To see with eyes unclouded by hate․",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/1/bioLinks
-     */
-    "bioLinks": [
-      ""
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b5bf99b2-3310-480d-8733-1d53c83ca51d/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b5bf99b2-3310-480d-8733-1d53c83ca51d/1/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/1/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter"
-    ],
-    "developerType": "none"
-  },
-  {
     "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
     "displayName": "AzulieZeiro",
     "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\nv-slut",
@@ -126,14 +79,14 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/2/bioLinks
+     * #/1/bioLinks
      */
     "bioLinks": [
       "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
       "https://www.deviantart.com/azuliezeiro"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6a345b41-5145-4b15-8bc4-49fbb242501f/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6a345b41-5145-4b15-8bc4-49fbb242501f/2/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d8550459-3f82-4ce8-9550-e6f013a9d573/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d8550459-3f82-4ce8-9550-e6f013a9d573/1/256",
     /**
      * Unexpected property.
      *
@@ -141,7 +94,7 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/2/currentAvatarTags
+     * #/1/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -160,6 +113,53 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
       "system_trust_veteran",
       "show_social_rank",
       "language_eng",
+      "system_early_adopter"
+    ],
+    "developerType": "none"
+  },
+  {
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "displayName": "Azuteatime",
+    "bio": "To see with eyes unclouded by hate․",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/bioLinks
+     */
+    "bioLinks": [
+      ""
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/1/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "",
+    "status": "active",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
       "system_early_adopter"
     ],
     "developerType": "none"
@@ -216,7 +216,7 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
   {
     "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
     "displayName": "Averiff",
-    "bio": "＂They have transcended human existence‚ just like me․＂",
+    "bio": "",
     /**
      * Unexpected property.
      *
@@ -231,8 +231,8 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=r0ycdb99ksk"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_32ca9ade-e2fe-46dc-af14-6291a52cd635/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_32ca9ade-e2fe-46dc-af14-6291a52cd635/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_cf6efca3-2011-49e0-8838-4fe9d0ee458d/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_cf6efca3-2011-49e0-8838-4fe9d0ee458d/2/256",
     /**
      * Unexpected property.
      *
@@ -246,7 +246,7 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
     "userIcon": "",
     "profilePicOverride": "",
     "statusDescription": "",
-    "status": "ask me",
+    "status": "active",
     "last_platform": "standalonewindows",
     "isFriend": false,
     "tags": [
