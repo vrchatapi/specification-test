@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Missing property at #/namespace, undefined at #/unityPackages/0/assetUrl.
+Response schema mismatch: undefined at #/unityPackages/0/assetUrl.
 ```
 
 ## Request
