@@ -40,9 +40,7 @@
      * #/items/additionalProperties
      * #/0/bioLinks
      */
-    "bioLinks": [
-      "https://dtupper.com"
-    ],
+    "bioLinks": [],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
     "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     /**
@@ -57,12 +55,11 @@
     "currentAvatarTags": [],
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_662d8b2f-2142-4052-bd40-385d56830873/1/",
     "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
-    "statusDescription": "hewwow",
+    "statusDescription": "",
     "status": "ask me",
     "last_platform": "standalonewindows",
     "isFriend": false,
     "tags": [
-      "admin_moderator",
       "system_trust_trusted",
       "system_world_access",
       "system_trust_known",
@@ -79,7 +76,7 @@
       "system_cute_robot",
       "system_supporter"
     ],
-    "developerType": "internal"
+    "developerType": "none"
   },
   {
     "id": "usr_35e46e53-bffe-43ab-9e5e-b6dc622af5a3",

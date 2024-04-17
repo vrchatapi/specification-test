@@ -36,11 +36,9 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "displayName": "tupper",
   "userIcon": "https://api.vrchat.cloud/api/1/file/file_662d8b2f-2142-4052-bd40-385d56830873/1/",
   "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
-  "bioLinks": [
-    "https://dtupper.com"
-  ],
+  "bioLinks": [],
   "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
-  "statusDescription": "hewwow",
+  "statusDescription": "",
   /**
    * Unexpected property.
    *
@@ -79,7 +77,6 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
    */
   "currentAvatarTags": [],
   "tags": [
-    "admin_moderator",
     "system_trust_trusted",
     "system_world_access",
     "system_trust_known",
@@ -96,7 +93,7 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
     "system_cute_robot",
     "system_supporter"
   ],
-  "developerType": "internal",
+  "developerType": "none",
   "last_login": "",
   "last_platform": "standalonewindows",
   "allowAvatarCopying": false,
