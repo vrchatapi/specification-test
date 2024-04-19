@@ -53,7 +53,7 @@
      * #/0/currentAvatarTags
      */
     "currentAvatarTags": [],
-    "userIcon": "",
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_25de9c05-1c13-4f43-8657-b82ec2389b33/1/",
     "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
     "statusDescription": "",
     "status": "ask me",
@@ -79,6 +79,42 @@
     "developerType": "none"
   },
   {
+    "id": "usr_5cd9007b-1802-45fe-92e2-0b6617639344",
+    "displayName": "Tupper VRC",
+    "bio": "",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9e0ae1b3-e708-458d-bf9e-23b5234ccfa6/2/file",
+    "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/www/brand/logo-thumbnail-400x300.png",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/1/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "",
+    "status": "active",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_trust_known",
+      "system_trust_veteran",
+      "system_trust_basic",
+      "system_trust_trusted",
+      "system_avatar_access",
+      "system_world_access",
+      "system_feedback_access",
+      "admin_moderator",
+      "admin_official_thumbnail",
+      "system_early_adopter"
+    ],
+    "developerType": "internal"
+  },
+  {
     "id": "usr_35e46e53-bffe-43ab-9e5e-b6dc622af5a3",
     "displayName": "Tupper f5a3",
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
@@ -90,7 +126,7 @@
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/1/currentAvatarTags
+     * #/2/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -116,7 +152,7 @@
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/2/currentAvatarTags
+     * #/3/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -139,7 +175,7 @@
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/bioLinks
+     * #/4/bioLinks
      */
     "bioLinks": [],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d4dc524f-1f6e-4bdf-979f-bd621517178b/1/file",
@@ -151,7 +187,7 @@
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/currentAvatarTags
+     * #/4/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -175,7 +211,7 @@
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/currentAvatarTags
+     * #/5/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -203,7 +239,7 @@
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/5/currentAvatarTags
+     * #/6/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -229,7 +265,7 @@
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/6/currentAvatarTags
+     * #/7/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -253,7 +289,7 @@
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/7/currentAvatarTags
+     * #/8/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -276,37 +312,11 @@
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/8/bioLinks
+     * #/9/bioLinks
      */
     "bioLinks": [],
     "currentAvatarImageUrl": "https://assets.vrchat.com/system/defaultAvatar.png",
     "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/system/defaultAvatarThumbnail.png",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/8/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "android",
-    "isFriend": false,
-    "tags": [
-      "show_social_rank"
-    ],
-    "developerType": "none"
-  },
-  {
-    "id": "usr_32c94cc7-6681-4a1c-a94b-d055b1f63340",
-    "displayName": "tupperware 3340",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9efe5704-7689-4cc0-8693-314c3008d010/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9efe5704-7689-4cc0-8693-314c3008d010/1/256",
     /**
      * Unexpected property.
      *
@@ -321,9 +331,11 @@
     "profilePicOverride": "",
     "statusDescription": "",
     "status": "active",
-    "last_platform": "standalonewindows",
+    "last_platform": "android",
     "isFriend": false,
-    "tags": [],
+    "tags": [
+      "show_social_rank"
+    ],
     "developerType": "none"
   }
 ]
