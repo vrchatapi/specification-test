@@ -118,9 +118,9 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
     "developerType": "none"
   },
   {
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "displayName": "Averiff",
-    "bio": "Still can't think of anything to put here․",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "displayName": "Azuteatime",
+    "bio": "To see with eyes unclouded by hate․",
     /**
      * Unexpected property.
      *
@@ -131,12 +131,10 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      * #/2/bioLinks
      */
     "bioLinks": [
-      "https://www.guiltygear.com/ggst/en/",
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=r0ycdb99ksk"
+      ""
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d5532996-092b-42d9-8aca-0024ad4fe537/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d5532996-092b-42d9-8aca-0024ad4fe537/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/1/256",
     /**
      * Unexpected property.
      *
@@ -145,6 +143,55 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      *
      * #/items/additionalProperties
      * #/2/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "",
+    "status": "active",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter"
+    ],
+    "developerType": "none"
+  },
+  {
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
+    "displayName": "Averiff",
+    "bio": "Still can't think of anything to put here․",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/3/bioLinks
+     */
+    "bioLinks": [
+      "https://www.guiltygear.com/ggst/en/",
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=r0ycdb99ksk"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0451a1a4-8299-4025-bd1c-5dee7576dc72/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0451a1a4-8299-4025-bd1c-5dee7576dc72/2/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/3/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -177,7 +224,7 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/bioLinks
+     * #/4/bioLinks
      */
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
@@ -191,12 +238,12 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/currentAvatarTags
+     * #/4/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_e5494cf5-e58e-4fb6-9758-3695fc01f957/1",
     "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_9bb82323-9051-4b58-8dff-30c63fdd24eb/1/",
-    "statusDescription": "Full Of Soap",
+    "statusDescription": "Rp Stuffs",
     "status": "ask me",
     "last_platform": "standalonewindows",
     "isFriend": false,
@@ -212,55 +259,6 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
       "system_early_adopter",
       "language_eng",
       "system_supporter"
-    ],
-    "developerType": "none"
-  },
-  {
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
-    "displayName": "Azuteatime",
-    "bio": "To see with eyes unclouded by hate․",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/4/bioLinks
-     */
-    "bioLinks": [
-      ""
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0ab067d3-cc84-4bf8-9896-e67bd7d2a045/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0ab067d3-cc84-4bf8-9896-e67bd7d2a045/1/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/4/currentAvatarTags
-     */
-    "currentAvatarTags": [
-      "content_sex"
-    ],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter"
     ],
     "developerType": "none"
   }
