@@ -1,5 +1,10 @@
 # getAvatar by id
 
+## Issues
+```
+Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unexpected property at #/unityPackages/1/variant, Unexpected property at #/unityPackages/2/variant, Unexpected property at #/unityPackages/3/variant.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0`
 
@@ -33,52 +38,88 @@
   "authorId": "usr_6eb7f0ee-b71c-47a1-b37f-d2c6567a940e",
   "authorName": "Mai♡",
   "tags": [],
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/file",
-  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/5/256",
+  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
+  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",
   "releaseStatus": "public",
-  "version": 24,
+  "version": 26,
   "featured": false,
   "unityPackages": [
     {
       "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
       "created_at": "2022-01-27T01:34:07.257Z",
-      "impostorUrl": null,
       "unityVersion": "2019.4.30f1",
       "assetVersion": 1,
       "platform": "standalonewindows",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/0/variant
+       */
+      "variant": "standard",
       "scanStatus": "passed"
     },
     {
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
       "created_at": "2022-02-03T06:57:10.346Z",
-      "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
       "unityVersion": "2019.4.30f1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/1/variant
+       */
+      "variant": "standard",
       "scanStatus": "unscanned"
     },
     {
       "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
       "created_at": "2022-07-07T11:36:36.197Z",
-      "impostorUrl": null,
       "assetVersion": 1,
       "platform": "standalonewindows",
       "unityVersion": "2019.4.31f1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/2/variant
+       */
+      "variant": "standard",
       "scanStatus": "passed"
     },
     {
       "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
       "created_at": "2022-07-07T11:51:24.091Z",
-      "impostorUrl": null,
       "assetVersion": 1,
       "platform": "android",
       "unityVersion": "2019.4.31f1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/3/variant
+       */
+      "variant": "standard",
       "scanStatus": "passed"
     }
   ],
   "unityPackageUrl": "",
   "unityPackageUrlObject": {},
   "created_at": "2022-01-27T01:34:07.257Z",
-  "updated_at": "2022-07-07T11:51:24.095Z"
+  "updated_at": "2024-04-24T08:37:23.411Z"
 }
 ```
