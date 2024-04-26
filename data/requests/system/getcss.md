@@ -21,7 +21,7 @@ Response schema mismatch: Unexpected token : in JSON at position 0.
 | connection | `keep-alive` |
 | content-type | `text/css` |
 | etag | `<redacted>` |
-| server | `AmazonS3` |
+| server | `CloudFront` |
 | transfer-encoding | `chunked` |
 | vary | `Accept-Encoding, Origin` |
 
