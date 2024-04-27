@@ -73,7 +73,7 @@ Response schema mismatch: Unexpected property at #/googleDetails, Unexpected pro
     "admin_content_reviewed"
   ],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_534ffc10-15d0-4fc5-86d5-2dcd55f0ac45/1/file",
+  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_ddea1398-ae13-41c4-8c74-6d7479337d40/1/file",
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
   "accountDeletionDate": null,
   "accountDeletionLog": null,

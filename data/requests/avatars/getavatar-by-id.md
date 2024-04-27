@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unexpected property at #/unityPackages/1/variant, Unexpected property at #/unityPackages/2/variant, Unexpected property at #/unityPackages/3/variant.
+Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unexpected property at #/unityPackages/1/variant, Unexpected property at #/unityPackages/2/variant, Unexpected property at #/unityPackages/3/variant, Unexpected property at #/unityPackages/4/variant.
 ```
 
 ## Request
@@ -41,7 +41,7 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
   "imageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
   "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",
   "releaseStatus": "public",
-  "version": 26,
+  "version": 27,
   "featured": false,
   "unityPackages": [
     {
@@ -115,11 +115,29 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
        */
       "variant": "standard",
       "scanStatus": "passed"
+    },
+    {
+      "id": "unp_290ee8b3-8aea-4135-97d8-327c061c11ed",
+      "created_at": "2024-04-26T21:30:32.655Z",
+      "assetVersion": 1,
+      "platform": "ios",
+      "unityVersion": "2019.4.31f1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/4/variant
+       */
+      "variant": "standard",
+      "scanStatus": "unscanned"
     }
   ],
   "unityPackageUrl": "",
   "unityPackageUrlObject": {},
   "created_at": "2022-01-27T01:34:07.257Z",
-  "updated_at": "2024-04-24T08:37:23.411Z"
+  "updated_at": "2024-04-26T21:30:32.659Z"
 }
 ```

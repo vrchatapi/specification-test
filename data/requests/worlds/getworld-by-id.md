@@ -98,7 +98,8 @@ Response schema mismatch: undefined at #/unityPackages/0/assetUrl.
     "author_tag_lounge",
     "admin_approved",
     "admin_spotlight_mobile",
-    "system_approved"
+    "system_approved",
+    "system_monetized_world"
   ],
   "created_at": "2019-05-01T01:19:43.477Z",
   "updated_at": "<unstable: string>"
