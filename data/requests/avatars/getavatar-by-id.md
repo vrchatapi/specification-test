@@ -132,7 +132,7 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
        * #/unityPackages/4/variant
        */
       "variant": "standard",
-      "scanStatus": "unscanned"
+      "scanStatus": "passed"
     }
   ],
   "unityPackageUrl": "",

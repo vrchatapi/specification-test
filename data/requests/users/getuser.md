@@ -96,7 +96,7 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "developerType": "none",
   "last_login": "",
   "last_platform": "standalonewindows",
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "status": "ask me",
   "date_joined": "2017-07-12",
   "isFriend": false,
