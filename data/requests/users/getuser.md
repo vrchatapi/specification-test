@@ -34,7 +34,7 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
 {
   "id": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
   "displayName": "tupper",
-  "userIcon": "https://api.vrchat.cloud/api/1/file/file_25de9c05-1c13-4f43-8657-b82ec2389b33/1/",
+  "userIcon": "https://api.vrchat.cloud/api/1/file/file_c0cdc832-861b-403a-804a-066c51baee7f/1/",
   "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
   "bioLinks": [],
   "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
@@ -96,7 +96,7 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "developerType": "none",
   "last_login": "",
   "last_platform": "standalonewindows",
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "status": "ask me",
   "date_joined": "2017-07-12",
   "isFriend": false,
