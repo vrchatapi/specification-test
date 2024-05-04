@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/badges, Unexpected property at #/currentAvatarTags.
+Response schema mismatch: Unexpected property at #/badges, Unexpected property at #/pronouns, Unexpected property at #/currentAvatarTags.
 ```
 
 ## Request
@@ -64,6 +64,16 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
       "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_28e70141-6859-450b-834b-30c15ecf3ff4.png"
     }
   ],
+  /**
+   * Unexpected property.
+   *
+   * @schema User
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/pronouns
+   */
+  "pronouns": "",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   /**

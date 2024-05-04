@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/googleDetails, Unexpected property at #/last_mobile.
+Response schema mismatch: Unexpected property at #/pronouns, Unexpected property at #/googleDetails, Unexpected property at #/last_mobile.
 ```
 
 ## Request
@@ -39,6 +39,16 @@ Response schema mismatch: Unexpected property at #/googleDetails, Unexpected pro
   "bioLinks": [],
   "profilePicOverride": "",
   "statusDescription": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/pronouns
+   */
+  "pronouns": "",
   "username": "8cf3def6b8cea",
   "pastDisplayNames": [],
   "hasEmail": true,
