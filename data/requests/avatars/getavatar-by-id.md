@@ -1,10 +1,5 @@
 # getAvatar by id
 
-## Issues
-```
-Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unexpected property at #/unityPackages/1/variant, Unexpected property at #/unityPackages/2/variant, Unexpected property at #/unityPackages/3/variant, Unexpected property at #/unityPackages/4/variant.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0`
 
@@ -50,15 +45,6 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
       "unityVersion": "2019.4.30f1",
       "assetVersion": 1,
       "platform": "standalonewindows",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/0/variant
-       */
       "variant": "standard",
       "scanStatus": "passed"
     },
@@ -68,15 +54,6 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
       "assetVersion": 1,
       "platform": "android",
       "unityVersion": "2019.4.30f1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/1/variant
-       */
       "variant": "standard",
       "scanStatus": "unscanned"
     },
@@ -86,15 +63,6 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
       "assetVersion": 1,
       "platform": "standalonewindows",
       "unityVersion": "2019.4.31f1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/2/variant
-       */
       "variant": "standard",
       "scanStatus": "passed"
     },
@@ -104,15 +72,6 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
       "assetVersion": 1,
       "platform": "android",
       "unityVersion": "2019.4.31f1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/3/variant
-       */
       "variant": "standard",
       "scanStatus": "passed"
     },
@@ -122,15 +81,6 @@ Response schema mismatch: Unexpected property at #/unityPackages/0/variant, Unex
       "assetVersion": 1,
       "platform": "ios",
       "unityVersion": "2019.4.31f1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/4/variant
-       */
       "variant": "standard",
       "scanStatus": "passed"
     }

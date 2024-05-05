@@ -1,10 +1,5 @@
 # getCurrentUser after two-factor authentication
 
-## Issues
-```
-Response schema mismatch: Unexpected property at #/badges, Unexpected property at #/pronouns, Unexpected property at #/googleDetails, Unexpected property at #/last_mobile.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/auth/user`
 
@@ -39,25 +34,7 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "bioLinks": [],
   "profilePicOverride": "",
   "statusDescription": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/badges
-   */
   "badges": [],
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/pronouns
-   */
   "pronouns": "",
   "username": "8cf3def6b8cea",
   "pastDisplayNames": [],
@@ -89,8 +66,8 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "currentAvatarTags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
+    "admin_content_reviewed",
+    "admin_featured_legacy"
   ],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_ddea1398-ae13-41c4-8c74-6d7479337d40/1/file",
@@ -102,15 +79,6 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "steamId": "",
   "steamDetails": {},
   "googleId": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/googleDetails
-   */
   "googleDetails": {},
   "oculusId": "",
   "picoId": "",
@@ -121,15 +89,6 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
   "updated_at": "<unstable: string>",
   "state": "offline",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/last_mobile
-   */
   "last_mobile": null,
   "tags": [
     "system_no_captcha",

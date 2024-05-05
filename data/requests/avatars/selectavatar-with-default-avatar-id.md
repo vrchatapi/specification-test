@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/pronouns, Unexpected property at #/googleDetails, Unexpected property at #/last_mobile.
+Response schema mismatch: Missing property at #/badges.
 ```
 
 ## Request
@@ -39,15 +39,6 @@ Response schema mismatch: Unexpected property at #/pronouns, Unexpected property
   "bioLinks": [],
   "profilePicOverride": "",
   "statusDescription": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/pronouns
-   */
   "pronouns": "",
   "username": "8cf3def6b8cea",
   "pastDisplayNames": [],
@@ -92,15 +83,6 @@ Response schema mismatch: Unexpected property at #/pronouns, Unexpected property
   "steamId": "",
   "steamDetails": {},
   "googleId": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/googleDetails
-   */
   "googleDetails": {},
   "oculusId": "",
   "picoId": "",
@@ -111,15 +93,6 @@ Response schema mismatch: Unexpected property at #/pronouns, Unexpected property
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
   "updated_at": "<unstable: string>",
   "state": "offline",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/last_mobile
-   */
   "last_mobile": null,
   "tags": [
     "system_no_captcha",

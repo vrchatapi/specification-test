@@ -1,10 +1,5 @@
 # getWorldPublishStatus by id
 
-## Issues
-```
-Response schema mismatch: Missing property at #/canPubilsh, Unexpected property at #/canPublish.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/publish`
 
@@ -32,15 +27,6 @@ Response schema mismatch: Missing property at #/canPubilsh, Unexpected property 
 
 ```jsonc
 {
-  /**
-   * Unexpected property.
-   *
-   * @schema WorldPublishStatus
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/canPublish
-   */
   "canPublish": false
 }
 ```

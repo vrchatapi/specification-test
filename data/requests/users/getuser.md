@@ -1,10 +1,5 @@
 # getUser
 
-## Issues
-```
-Response schema mismatch: Unexpected property at #/badges, Unexpected property at #/pronouns, Unexpected property at #/currentAvatarTags.
-```
-
 ## Request
 `get https://api.vrchat.cloud/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 
@@ -39,15 +34,6 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
   "bioLinks": [],
   "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
   "statusDescription": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema User
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/badges
-   */
   "badges": [
     {
       "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
@@ -64,27 +50,9 @@ Response schema mismatch: Unexpected property at #/badges, Unexpected property a
       "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_28e70141-6859-450b-834b-30c15ecf3ff4.png"
     }
   ],
-  /**
-   * Unexpected property.
-   *
-   * @schema User
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/pronouns
-   */
   "pronouns": "",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-  /**
-   * Unexpected property.
-   *
-   * @schema User
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/currentAvatarTags
-   */
   "currentAvatarTags": [],
   "tags": [
     "system_trust_trusted",
