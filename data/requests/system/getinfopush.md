@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPressed/command, Cannot fit value in explicit enum at #/2/data/onPressed/command, Invalid type at #/3/data/description, Invalid type at #/3/data/article/content, Unexpected property at #/3data/article/embeddedLinkData, Unexpected property at #/3data/article/moreInfoLinks, Unexpected property at #/3/isLocalizable, Unexpected property at #/4data/contentList/bannersTag, Unexpected property at #/4data/tooltipDescription, Unexpected property at #/4data/thumbnailImageUrl, Unexpected property at #/4data/iconImageUrl, Cannot fit value in explicit enum at #/6/data/onPressed/command, Unexpected property at #/6/requireClientTags, Cannot fit value in explicit enum at #/7/data/onPressed/command, Unexpected property at #/7/requireClientTags, Cannot fit value in explicit enum at #/8/data/onPressed/command, Unexpected property at #/8/requireClientTags, Cannot fit value in explicit enum at #/9/data/onPressed/command, Cannot fit value in explicit enum at #/10/data/onPressed/command, Invalid type at #/31/data/description, Unexpected property at #/31data/iconImageUrl, Unexpected property at #/31data/tooltipDescription, Unexpected property at #/31/isLocalizable, Unexpected property at #/31/requireClientTags, Invalid type at #/32/data/description, Unexpected property at #/32data/iconImageUrl, Unexpected property at #/32data/tooltipDescription, Unexpected property at #/32/isLocalizable, Unexpected property at #/32/requireClientTags, Invalid type at #/33/data/name, Unexpected property at #/33data/search, Unexpected property at #/33/isLocalizable, Invalid type at #/34/data/name, Unexpected property at #/34data/search, Unexpected property at #/34/isLocalizable, Invalid type at #/35/data/name, Unexpected property at #/35data/search, Unexpected property at #/35/isLocalizable, Invalid type at #/36/data/name, Unexpected property at #/36data/search, Unexpected property at #/36/isLocalizable, Invalid type at #/37/data/name, Unexpected property at #/37data/search, Unexpected property at #/37/isLocalizable, Invalid type at #/38/data/name, Unexpected property at #/38data/search, Unexpected property at #/38/isLocalizable, Invalid type at #/39/data/name, Unexpected property at #/39data/search, Unexpected property at #/39/isLocalizable, Invalid type at #/40/data/name, Unexpected property at #/40data/search, Unexpected property at #/40/isLocalizable, Invalid type at #/41/data/name, Unexpected property at #/41data/search, Unexpected property at #/41/isLocalizable, Invalid type at #/42/data/name, Unexpected property at #/42data/search, Unexpected property at #/42/isLocalizable, Invalid type at #/43/data/name, Unexpected property at #/43data/search, Unexpected property at #/43/isLocalizable, Invalid type at #/44/data/name, Unexpected property at #/44data/search, Unexpected property at #/44/isLocalizable, Invalid type at #/45/data/name, Unexpected property at #/45data/search, Unexpected property at #/45/isLocalizable, Invalid type at #/46/data/name, Unexpected property at #/46data/search, Unexpected property at #/46/isLocalizable, Invalid type at #/47/data/name, Unexpected property at #/47data/search, Unexpected property at #/47/isLocalizable, Invalid type at #/48/data/name, Unexpected property at #/48data/search, Unexpected property at #/48/isLocalizable, Invalid type at #/49/data/name, Unexpected property at #/49data/search, Unexpected property at #/49/isLocalizable, Invalid type at #/50/data/name, Unexpected property at #/50data/search, Unexpected property at #/50/isLocalizable, Invalid type at #/51/data/name, Unexpected property at #/51data/search, Unexpected property at #/51/isLocalizable, Invalid type at #/52/data/name, Unexpected property at #/52data/search, Unexpected property at #/52/isLocalizable, Invalid type at #/53/data/name, Unexpected property at #/53data/search, Unexpected property at #/53/isLocalizable, Invalid type at #/54/data/name, Unexpected property at #/54data/search, Unexpected property at #/54/isLocalizable, Invalid type at #/55/data/name, Unexpected property at #/55data/search, Unexpected property at #/55/isLocalizable, Invalid type at #/56/data/name, Unexpected property at #/56data/search, Unexpected property at #/56/isLocalizable, Invalid type at #/57/data/name, Unexpected property at #/57data/search, Unexpected property at #/57/isLocalizable, Invalid type at #/58/data/name, Unexpected property at #/58data/search, Unexpected property at #/58/isLocalizable, Invalid type at #/59/data/name, Unexpected property at #/59data/search, Unexpected property at #/59/isLocalizable, Invalid type at #/60/data/name, Unexpected property at #/60data/search, Unexpected property at #/60/isLocalizable, Invalid type at #/61/data/name, Unexpected property at #/61data/search, Unexpected property at #/61/isLocalizable, Invalid type at #/62/data/name, Unexpected property at #/62data/search, Unexpected property at #/62/isLocalizable, Invalid type at #/63/data/name, Unexpected property at #/63data/search, Unexpected property at #/63/isLocalizable, Invalid type at #/64/data/name, Unexpected property at #/64data/search, Unexpected property at #/64/isLocalizable, Invalid type at #/65/data/name, Unexpected property at #/65data/search, Unexpected property at #/65/isLocalizable, Invalid type at #/66/data/name, Unexpected property at #/66data/search, Unexpected property at #/66/isLocalizable, Invalid type at #/67/data/name, Unexpected property at #/67data/search, Unexpected property at #/67/isLocalizable, Invalid type at #/68/data/name, Unexpected property at #/68data/search, Unexpected property at #/68/isLocalizable, Invalid type at #/69/data/name, Unexpected property at #/69data/search, Unexpected property at #/69/isLocalizable, Invalid type at #/70/data/name, Unexpected property at #/70data/search, Unexpected property at #/70/isLocalizable, Invalid type at #/71/data/name, Unexpected property at #/71data/search, Unexpected property at #/71/isLocalizable, Invalid type at #/72/data/name, Unexpected property at #/72data/search, Unexpected property at #/72/isLocalizable, Invalid type at #/73/data/name, Unexpected property at #/73data/search, Unexpected property at #/73/isLocalizable, Invalid type at #/74/data/name, Unexpected property at #/74data/search, Unexpected property at #/74/isLocalizable, Invalid type at #/75/data/name, Unexpected property at #/75data/search, Unexpected property at #/75/isLocalizable, Invalid type at #/76/data/name, Unexpected property at #/76data/search, Unexpected property at #/76/isLocalizable, Invalid type at #/77/data/name, Unexpected property at #/77data/search, Unexpected property at #/77/isLocalizable, Invalid type at #/78/data/name, Unexpected property at #/78data/search, Unexpected property at #/78/isLocalizable, Invalid type at #/79/data/name, Unexpected property at #/79data/search, Unexpected property at #/79/isLocalizable, Invalid type at #/80/data/name, Unexpected property at #/80data/search, Unexpected property at #/80/isLocalizable, Invalid type at #/81/data/name, Unexpected property at #/81data/search, Unexpected property at #/81/isLocalizable, Invalid type at #/82/data/name, Unexpected property at #/82data/search, Unexpected property at #/82/isLocalizable, Invalid type at #/83/data/name, Unexpected property at #/83data/search, Unexpected property at #/83/isLocalizable, Invalid type at #/84/data/name, Unexpected property at #/84data/search, Unexpected property at #/84/isLocalizable, Invalid type at #/85/data/name, Unexpected property at #/85data/search, Unexpected property at #/85/isLocalizable, Invalid type at #/86/data/name, Unexpected property at #/86data/search, Unexpected property at #/86/isLocalizable, Invalid type at #/87/data/name, Unexpected property at #/87data/search, Unexpected property at #/87/isLocalizable, Invalid type at #/88/data/name, Unexpected property at #/88data/search, Unexpected property at #/88/isLocalizable, Invalid type at #/89/data/name, Unexpected property at #/89data/search, Unexpected property at #/89/isLocalizable, Invalid type at #/90/data/name, Unexpected property at #/90data/search, Unexpected property at #/90/isLocalizable, Invalid type at #/91/data/name, Unexpected property at #/91data/search, Unexpected property at #/91/isLocalizable, Invalid type at #/92/data/name, Unexpected property at #/92data/search, Unexpected property at #/92/isLocalizable, Invalid type at #/93/data/name, Unexpected property at #/93data/search, Unexpected property at #/93/isLocalizable, Invalid type at #/94/data/name, Unexpected property at #/94data/search, Unexpected property at #/94/isLocalizable, Invalid type at #/95/data/name, Unexpected property at #/95data/search, Unexpected property at #/95/isLocalizable, Invalid type at #/96/data/name, Unexpected property at #/96data/search, Unexpected property at #/96/isLocalizable, Invalid type at #/97/data/name, Unexpected property at #/97data/search, Unexpected property at #/97/isLocalizable, Invalid type at #/98/data/name, Unexpected property at #/98data/search, Unexpected property at #/98/isLocalizable, Invalid type at #/99/data/name, Unexpected property at #/99data/search, Unexpected property at #/99/isLocalizable, Invalid type at #/100/data/name, Unexpected property at #/100data/search, Unexpected property at #/100/isLocalizable, Invalid type at #/101/data/name, Unexpected property at #/101data/search, Unexpected property at #/101/isLocalizable, Invalid type at #/102/data/name, Unexpected property at #/102data/search, Unexpected property at #/102/isLocalizable, Invalid type at #/103/data/name, Unexpected property at #/103data/search, Unexpected property at #/103/isLocalizable, Invalid type at #/104/data/name, Unexpected property at #/104data/search, Unexpected property at #/104/isLocalizable, Invalid type at #/105/data/name, Unexpected property at #/105data/search, Unexpected property at #/105/isLocalizable, Invalid type at #/106/data/name, Unexpected property at #/106data/search, Unexpected property at #/106/isLocalizable, Invalid type at #/107/data/name, Unexpected property at #/107data/search, Unexpected property at #/107/isLocalizable, Invalid type at #/108/data/name, Unexpected property at #/108data/search, Unexpected property at #/108/isLocalizable, Invalid type at #/109/data/name, Unexpected property at #/109data/search, Unexpected property at #/109/isLocalizable, Invalid type at #/110/data/name, Unexpected property at #/110data/search, Unexpected property at #/110/isLocalizable, Invalid type at #/111/data/name, Unexpected property at #/111data/search, Unexpected property at #/111/isLocalizable, Invalid type at #/112/data/name, Unexpected property at #/112data/search, Unexpected property at #/112/isLocalizable, Invalid type at #/113/data/name, Unexpected property at #/113data/search, Unexpected property at #/113/isLocalizable, Invalid type at #/114/data/name, Unexpected property at #/114data/search, Unexpected property at #/114/isLocalizable, Invalid type at #/115/data/name, Unexpected property at #/115data/search, Unexpected property at #/115/isLocalizable, Invalid type at #/116/data/name, Unexpected property at #/116data/search, Unexpected property at #/116/isLocalizable, Invalid type at #/117/data/name, Unexpected property at #/117data/search, Unexpected property at #/117/isLocalizable, Invalid type at #/118/data/name, Unexpected property at #/118data/search, Unexpected property at #/118/isLocalizable, Invalid type at #/119/data/name, Unexpected property at #/119data/search, Unexpected property at #/119/isLocalizable, Invalid type at #/120/data/name, Unexpected property at #/120data/search, Unexpected property at #/120/isLocalizable, Invalid type at #/121/data/name, Unexpected property at #/121data/search, Unexpected property at #/121/isLocalizable, Invalid type at #/122/data/name, Unexpected property at #/122data/search, Unexpected property at #/122/isLocalizable, Invalid type at #/123/data/name, Unexpected property at #/123data/search, Unexpected property at #/123/isLocalizable, Invalid type at #/124/data/name, Unexpected property at #/124data/search, Unexpected property at #/124/isLocalizable, Invalid type at #/125/data/name, Unexpected property at #/125data/search, Unexpected property at #/125/isLocalizable, Invalid type at #/126/data/name, Unexpected property at #/126data/search, Unexpected property at #/126/isLocalizable, Invalid type at #/127/data/name, Unexpected property at #/127data/search, Unexpected property at #/127/isLocalizable, Invalid type at #/128/data/name, Unexpected property at #/128data/search, Unexpected property at #/128/isLocalizable, Invalid type at #/129/data/name, Unexpected property at #/129data/search, Unexpected property at #/129/isLocalizable, Invalid type at #/130/data/name, Unexpected property at #/130data/search, Unexpected property at #/130/isLocalizable, Invalid type at #/131/data/name, Unexpected property at #/131data/search, Unexpected property at #/131/isLocalizable, Invalid type at #/132/data/name, Unexpected property at #/132data/search, Unexpected property at #/132/isLocalizable, Invalid type at #/133/data/name, Unexpected property at #/133data/search, Unexpected property at #/133/isLocalizable, Invalid type at #/134/data/name, Unexpected property at #/134data/search, Unexpected property at #/134/isLocalizable, Invalid type at #/135/data/name, Unexpected property at #/135data/search, Unexpected property at #/135/isLocalizable, Invalid type at #/136/data/name, Unexpected property at #/136data/search, Unexpected property at #/136/isLocalizable, Invalid type at #/137/data/name, Unexpected property at #/137data/search, Unexpected property at #/137/isLocalizable, Invalid type at #/138/data/name, Unexpected property at #/138data/search, Unexpected property at #/138/isLocalizable, Invalid type at #/139/data/name, Unexpected property at #/139data/search, Unexpected property at #/139/isLocalizable, Invalid type at #/140/data/name, Unexpected property at #/140data/search, Unexpected property at #/140/isLocalizable, Invalid type at #/141/data/name, Unexpected property at #/141data/search, Unexpected property at #/141/isLocalizable, Invalid type at #/142/data/name, Unexpected property at #/142data/search, Unexpected property at #/142/isLocalizable, Invalid type at #/143/data/name, Unexpected property at #/143data/search, Unexpected property at #/143/isLocalizable, Invalid type at #/144/data/name, Unexpected property at #/144data/search, Unexpected property at #/144/isLocalizable, Invalid type at #/145/data/name, Unexpected property at #/145data/search, Unexpected property at #/145/isLocalizable, Invalid type at #/146/data/name, Unexpected property at #/146data/search, Unexpected property at #/146/isLocalizable, Invalid type at #/147/data/name, Unexpected property at #/147data/search, Unexpected property at #/147/isLocalizable, Invalid type at #/148/data/name, Unexpected property at #/148data/search, Unexpected property at #/148/isLocalizable, Invalid type at #/149/data/name, Unexpected property at #/149data/search, Unexpected property at #/149/isLocalizable, Invalid type at #/150/data/name, Unexpected property at #/150data/search, Unexpected property at #/150/isLocalizable, Invalid type at #/151/data/name, Unexpected property at #/151data/search, Unexpected property at #/151/isLocalizable, Invalid type at #/152/data/name, Unexpected property at #/152data/search, Unexpected property at #/152/isLocalizable, Invalid type at #/153/data/name, Unexpected property at #/153data/search, Unexpected property at #/153/isLocalizable, Invalid type at #/154/data/name, Unexpected property at #/154data/search, Unexpected property at #/154/isLocalizable, Invalid type at #/155/data/name, Unexpected property at #/155data/search, Unexpected property at #/155/isLocalizable, Invalid type at #/156/data/name, Unexpected property at #/156data/search, Unexpected property at #/156/isLocalizable, Invalid type at #/157/data/name, Unexpected property at #/157data/search, Unexpected property at #/157/isLocalizable, Invalid type at #/158/data/name, Unexpected property at #/158data/search, Unexpected property at #/158/isLocalizable, Invalid type at #/159/data/name, Unexpected property at #/159data/search, Unexpected property at #/159/isLocalizable, Invalid type at #/160/data/name, Unexpected property at #/160data/search, Unexpected property at #/160/isLocalizable, Invalid type at #/161/data/name, Unexpected property at #/161data/search, Unexpected property at #/161/isLocalizable, Invalid type at #/162/data/name, Unexpected property at #/162data/search, Unexpected property at #/162/isLocalizable, Invalid type at #/163/data/name, Unexpected property at #/163data/search, Unexpected property at #/163/isLocalizable, Invalid type at #/164/data/name, Unexpected property at #/164data/search, Unexpected property at #/164/isLocalizable, Invalid type at #/165/data/name, Unexpected property at #/165data/search, Unexpected property at #/165/isLocalizable, Invalid type at #/166/data/name, Unexpected property at #/166data/search, Unexpected property at #/166/isLocalizable, Invalid type at #/167/data/name, Unexpected property at #/167data/search, Unexpected property at #/167/isLocalizable, Invalid type at #/168/data/name, Unexpected property at #/168data/search, Unexpected property at #/168/isLocalizable, Invalid type at #/169/data/name, Unexpected property at #/169data/search, Unexpected property at #/169/isLocalizable, Invalid type at #/170/data/name, Unexpected property at #/170data/search, Unexpected property at #/170/isLocalizable, Invalid type at #/171/data/name, Unexpected property at #/171data/search, Unexpected property at #/171/isLocalizable, Invalid type at #/172/data/name, Unexpected property at #/172data/search, Unexpected property at #/172/isLocalizable, Invalid type at #/173/data/name, Unexpected property at #/173data/search, Unexpected property at #/173/isLocalizable, Invalid type at #/174/data/name, Unexpected property at #/174data/search, Unexpected property at #/174/isLocalizable, Invalid type at #/175/data/name, Unexpected property at #/175data/search, Unexpected property at #/175/isLocalizable, Invalid type at #/176/data/name, Unexpected property at #/176data/search, Unexpected property at #/176/isLocalizable, Invalid type at #/177/data/name, Unexpected property at #/177data/search, Unexpected property at #/177/isLocalizable, Invalid type at #/178/data/name, Unexpected property at #/178data/search, Unexpected property at #/178/isLocalizable, Invalid type at #/179/data/name, Unexpected property at #/179data/search, Unexpected property at #/179/isLocalizable, Invalid type at #/180/data/name, Unexpected property at #/180data/search, Unexpected property at #/180/isLocalizable, Invalid type at #/181/data/name, Unexpected property at #/181data/search, Unexpected property at #/181/isLocalizable, Invalid type at #/182/data/name, Unexpected property at #/182data/search, Unexpected property at #/182/isLocalizable, Invalid type at #/183/data/name, Unexpected property at #/183data/search, Unexpected property at #/183/isLocalizable, Invalid type at #/184/data/name, Unexpected property at #/184data/search, Unexpected property at #/184/isLocalizable, Invalid type at #/185/data/name, Unexpected property at #/185data/search, Unexpected property at #/185/isLocalizable, Invalid type at #/186/data/name, Unexpected property at #/186data/search, Unexpected property at #/186/isLocalizable, Invalid type at #/187/data/name, Unexpected property at #/187data/search, Unexpected property at #/187/isLocalizable, Invalid type at #/188/data/name, Unexpected property at #/188data/search, Unexpected property at #/188/isLocalizable, Invalid type at #/189/data/name, Unexpected property at #/189data/search, Unexpected property at #/189/isLocalizable, Invalid type at #/190/data/name, Unexpected property at #/190data/search, Unexpected property at #/190/isLocalizable, Invalid type at #/191/data/name, Unexpected property at #/191data/search, Unexpected property at #/191/isLocalizable, Invalid type at #/192/data/name, Unexpected property at #/192data/search, Unexpected property at #/192/isLocalizable, Invalid type at #/193/data/name, Unexpected property at #/193data/search, Unexpected property at #/193/isLocalizable, Invalid type at #/194/data/name, Unexpected property at #/194data/search, Unexpected property at #/194/isLocalizable, Invalid type at #/195/data/name, Unexpected property at #/195data/search, Unexpected property at #/195/isLocalizable, Invalid type at #/196/data/name, Unexpected property at #/196data/search, Unexpected property at #/196/isLocalizable, Invalid type at #/197/data/name, Unexpected property at #/197data/search, Unexpected property at #/197/isLocalizable, Invalid type at #/198/data/name, Unexpected property at #/198data/search, Unexpected property at #/198/isLocalizable, Invalid type at #/199/data/name, Unexpected property at #/199data/search, Unexpected property at #/199/isLocalizable, Invalid type at #/200/data/name, Unexpected property at #/200data/search, Unexpected property at #/200/isLocalizable, Invalid type at #/201/data/name, Unexpected property at #/201data/search, Unexpected property at #/201/isLocalizable, Invalid type at #/202/data/name, Unexpected property at #/202data/search, Unexpected property at #/202/isLocalizable, Invalid type at #/203/data/name, Unexpected property at #/203data/search, Unexpected property at #/203/isLocalizable, Invalid type at #/204/data/name, Unexpected property at #/204data/search, Unexpected property at #/204/isLocalizable, Invalid type at #/205/data/name, Unexpected property at #/205data/search, Unexpected property at #/205/isLocalizable, Invalid type at #/206/data/name, Unexpected property at #/206data/search, Unexpected property at #/206/isLocalizable, Invalid type at #/207/data/name, Unexpected property at #/207data/search, Unexpected property at #/207/isLocalizable, Invalid type at #/208/data/name, Unexpected property at #/208data/search, Unexpected property at #/208/isLocalizable, Invalid type at #/209/data/name, Unexpected property at #/209data/search, Unexpected property at #/209/isLocalizable, Invalid type at #/210/data/name, Unexpected property at #/210data/search, Unexpected property at #/210/isLocalizable, Invalid type at #/211/data/name, Unexpected property at #/211data/search, Unexpected property at #/211/isLocalizable, Invalid type at #/212/data/name, Unexpected property at #/212data/search, Unexpected property at #/212/isLocalizable, Invalid type at #/213/data/name, Unexpected property at #/213data/search, Unexpected property at #/213/isLocalizable, Invalid type at #/214/data/name, Unexpected property at #/214data/search, Unexpected property at #/214/isLocalizable, Invalid type at #/215/data/name, Unexpected property at #/215data/search, Unexpected property at #/215/isLocalizable, Invalid type at #/216/data/name, Unexpected property at #/216data/search, Unexpected property at #/216/isLocalizable, Invalid type at #/217/data/name, Unexpected property at #/217data/search, Unexpected property at #/217/isLocalizable, Invalid type at #/218/data/name, Unexpected property at #/218data/search, Unexpected property at #/218/isLocalizable, Invalid type at #/219/data/name, Unexpected property at #/219data/search, Unexpected property at #/219/isLocalizable, Invalid type at #/220/data/name, Unexpected property at #/220data/search, Unexpected property at #/220/isLocalizable, Invalid type at #/221/data/name, Unexpected property at #/221data/search, Unexpected property at #/221/isLocalizable, Invalid type at #/222/data/name, Unexpected property at #/222data/search, Unexpected property at #/222/isLocalizable, Invalid type at #/223/data/name, Unexpected property at #/223data/search, Unexpected property at #/223/isLocalizable, Invalid type at #/224/data/name, Unexpected property at #/224data/search, Unexpected property at #/224/isLocalizable, Invalid type at #/225/data/name, Unexpected property at #/225data/search, Unexpected property at #/225/isLocalizable, Invalid type at #/226/data/name, Unexpected property at #/226data/search, Unexpected property at #/226/isLocalizable, Invalid type at #/227/data/name, Unexpected property at #/227data/search, Unexpected property at #/227/isLocalizable, Invalid type at #/228/data/name, Unexpected property at #/228data/search, Unexpected property at #/228/isLocalizable, Invalid type at #/229/data/name, Unexpected property at #/229data/search, Unexpected property at #/229/isLocalizable, Invalid type at #/230/data/name, Unexpected property at #/230data/search, Unexpected property at #/230/isLocalizable, Invalid type at #/231/data/name, Unexpected property at #/231data/search, Unexpected property at #/231/isLocalizable, Invalid type at #/232/data/name, Unexpected property at #/232data/search, Unexpected property at #/232/isLocalizable, Invalid type at #/233/data/name, Unexpected property at #/233data/search, Unexpected property at #/233/isLocalizable, Invalid type at #/234/data/name, Unexpected property at #/234data/search, Unexpected property at #/234/isLocalizable, Invalid type at #/235/data/name, Unexpected property at #/235data/search, Unexpected property at #/235/isLocalizable, Invalid type at #/236/data/name, Unexpected property at #/236data/search, Unexpected property at #/236/isLocalizable, Invalid type at #/237/data/name, Unexpected property at #/237data/search, Unexpected property at #/237/isLocalizable, Invalid type at #/238/data/name, Unexpected property at #/238data/search, Unexpected property at #/238/isLocalizable, Invalid type at #/239/data/name, Unexpected property at #/239data/search, Unexpected property at #/239/isLocalizable, Invalid type at #/240/data/name, Unexpected property at #/240data/search, Unexpected property at #/240/isLocalizable, Invalid type at #/241/data/name, Unexpected property at #/241data/search, Unexpected property at #/241/isLocalizable, Invalid type at #/242/data/name, Unexpected property at #/242data/search, Unexpected property at #/242/isLocalizable, Invalid type at #/243/data/name, Unexpected property at #/243data/search, Unexpected property at #/243/isLocalizable, Invalid type at #/244/data/name, Unexpected property at #/244data/search, Unexpected property at #/244/isLocalizable, Invalid type at #/245/data/name, Unexpected property at #/245data/search, Unexpected property at #/245/isLocalizable, Invalid type at #/246/data/name, Unexpected property at #/246data/search, Unexpected property at #/246/isLocalizable, Invalid type at #/247/data/name, Unexpected property at #/247data/search, Unexpected property at #/247/isLocalizable, Invalid type at #/248/data/name, Unexpected property at #/248data/search, Unexpected property at #/248/isLocalizable, Invalid type at #/249/data/name, Unexpected property at #/249data/search, Unexpected property at #/249/isLocalizable, Invalid type at #/250/data/name, Unexpected property at #/250data/search, Unexpected property at #/250/isLocalizable, Invalid type at #/251/data/name, Unexpected property at #/251data/search, Unexpected property at #/251/isLocalizable, Invalid type at #/252/data/name, Unexpected property at #/252data/search, Unexpected property at #/252/isLocalizable, Invalid type at #/253/data/name, Unexpected property at #/253data/search, Unexpected property at #/253/isLocalizable, Invalid type at #/254/data/name, Unexpected property at #/254data/search, Unexpected property at #/254/isLocalizable, Invalid type at #/255/data/name, Unexpected property at #/255data/search, Unexpected property at #/255/isLocalizable, Invalid type at #/256/data/name, Unexpected property at #/256data/search, Unexpected property at #/256/isLocalizable, Invalid type at #/257/data/name, Unexpected property at #/257data/search, Unexpected property at #/257/isLocalizable, Invalid type at #/258/data/name, Unexpected property at #/258data/search, Unexpected property at #/258/isLocalizable, Invalid type at #/259/data/name, Unexpected property at #/259data/search, Unexpected property at #/259/isLocalizable, Invalid type at #/260/data/name, Unexpected property at #/260data/search, Unexpected property at #/260/isLocalizable, Invalid type at #/261/data/name, Unexpected property at #/261data/search, Unexpected property at #/261/isLocalizable, Invalid type at #/262/data/name, Unexpected property at #/262data/search, Unexpected property at #/262/isLocalizable, Invalid type at #/263/data/name, Unexpected property at #/263data/search, Unexpected property at #/263/isLocalizable, Invalid type at #/264/data/name, Unexpected property at #/264data/search, Unexpected property at #/264/isLocalizable, Invalid type at #/265/data/name, Unexpected property at #/265data/search, Unexpected property at #/265/isLocalizable, Invalid type at #/266/data/name, Unexpected property at #/266data/search, Unexpected property at #/266/isLocalizable, Invalid type at #/267/data/name, Unexpected property at #/267data/search, Unexpected property at #/267/isLocalizable, Invalid type at #/268/data/name, Unexpected property at #/268data/search, Unexpected property at #/268/isLocalizable, Invalid type at #/269/data/name, Unexpected property at #/269data/search, Unexpected property at #/269/isLocalizable, Invalid type at #/270/data/name, Unexpected property at #/270data/search, Unexpected property at #/270/isLocalizable, Invalid type at #/271/data/name, Unexpected property at #/271data/search, Unexpected property at #/271/isLocalizable, Invalid type at #/272/data/name, Unexpected property at #/272data/search, Unexpected property at #/272/isLocalizable, Invalid type at #/273/data/name, Unexpected property at #/273data/search, Unexpected property at #/273/isLocalizable, Invalid type at #/274/data/name, Unexpected property at #/274data/search, Unexpected property at #/274/isLocalizable, Invalid type at #/275/data/name, Unexpected property at #/275data/search, Unexpected property at #/275/isLocalizable, Invalid type at #/276/data/name, Unexpected property at #/276data/search, Unexpected property at #/276/isLocalizable, Invalid type at #/277/data/name, Unexpected property at #/277data/search, Unexpected property at #/277/isLocalizable, Invalid type at #/278/data/name, Unexpected property at #/278data/search, Unexpected property at #/278/isLocalizable, Invalid type at #/279/data/name, Unexpected property at #/279data/search, Unexpected property at #/279/isLocalizable, Invalid type at #/280/data/name, Unexpected property at #/280data/search, Unexpected property at #/280/isLocalizable, Invalid type at #/281/data/name, Unexpected property at #/281data/search, Unexpected property at #/281/isLocalizable, Invalid type at #/282/data/name, Unexpected property at #/282data/search, Unexpected property at #/282/isLocalizable, Unexpected property at #/283data/search, Unexpected property at #/284data/search, Unexpected property at #/285data/search, Unexpected property at #/286data/search, Unexpected property at #/287data/search, Unexpected property at #/288data/search, Unexpected property at #/289data/search, Unexpected property at #/290data/search, Unexpected property at #/291data/search, Unexpected property at #/292data/search, Unexpected property at #/293data/search, Unexpected property at #/294data/search, Unexpected property at #/295data/search, Unexpected property at #/296data/search, Unexpected property at #/297data/search, Unexpected property at #/298data/search, Unexpected property at #/299data/search, Unexpected property at #/300data/search, Unexpected property at #/301data/search, Unexpected property at #/302data/search, Unexpected property at #/303data/search, Unexpected property at #/304data/search, Unexpected property at #/305data/search, Invalid type at #/306/data/name, Unexpected property at #/306data/tooltipDescription, Unexpected property at #/306data/iconImageUrl, Unexpected property at #/306data/categories, Unexpected property at #/306/isLocalizable, Invalid type at #/307/data/name, Unexpected property at #/307data/tooltipDescription, Unexpected property at #/307data/iconImageUrl, Unexpected property at #/307data/categories, Unexpected property at #/307/isLocalizable, Unexpected property at #/308data/disclaimerText, Unexpected property at #/308data/worldTag, Unexpected property at #/308data/domainList, Invalid type at #/309/data/article/content, Unexpected property at #/309data/article/embeddedLinkData, Unexpected property at #/309data/article/moreInfoLinks, Unexpected property at #/309/requireClientTags, Invalid type at #/310/data/article/content, Unexpected property at #/310data/article/embeddedLinkData, Unexpected property at #/310data/article/moreInfoLinks, Unexpected property at #/310/requireClientTags, Invalid type at #/311/data/description, Invalid type at #/311/data/article/content, Unexpected property at #/311data/article/embeddedLinkData, Unexpected property at #/311data/article/moreInfoLinks, Unexpected property at #/311/isLocalizable, Unexpected property at #/311/requireClientTags, Invalid type at #/312/data/description, Invalid type at #/312/data/article/content, Unexpected property at #/312data/article/sectionLinks, Unexpected property at #/312data/article/embeddedLinkData, Unexpected property at #/312data/article/moreInfoLinks, Unexpected property at #/312/isLocalizable, Unexpected property at #/312/requireClientTags, Invalid type at #/313/data/description, Invalid type at #/313/data/article/content, Unexpected property at #/313data/article/sectionLinks, Unexpected property at #/313data/article/embeddedLinkData, Unexpected property at #/313data/article/moreInfoLinks, Unexpected property at #/313/isLocalizable, Unexpected property at #/313/requireClientTags, Invalid type at #/314/data/description, Invalid type at #/314/data/article/content, Unexpected property at #/314data/article/sectionLinks, Unexpected property at #/314data/article/embeddedLinkData, Unexpected property at #/314data/article/moreInfoLinks, Unexpected property at #/314/isLocalizable, Unexpected property at #/314/requireClientTags, Invalid type at #/315/data/description, Invalid type at #/315/data/article/content, Unexpected property at #/315data/article/embeddedLinkData, Unexpected property at #/315data/article/moreInfoLinks, Unexpected property at #/315/isLocalizable, Invalid type at #/316/data/description, Invalid type at #/316/data/article/content, Unexpected property at #/316data/article/embeddedLinkData, Unexpected property at #/316data/article/moreInfoLinks, Unexpected property at #/316/isLocalizable, Invalid type at #/317/data/description, Invalid type at #/317/data/article/content, Unexpected property at #/317/isLocalizable, Invalid type at #/320/data/description, Invalid type at #/320/data/name, Unexpected property at #/320data/tooltipDescription, Unexpected property at #/320data/iconImageUrl, Unexpected property at #/320data/thumbnailImageUrl, Unexpected property at #/320data/ipsQuery, Unexpected property at #/320/isLocalizable, Invalid type at #/321/data/contentList/name, Unexpected property at #/321/isLocalizable, Invalid type at #/322/data/description, Invalid type at #/322/data/name, Unexpected property at #/322data/tooltipDescription, Unexpected property at #/322data/iconImageUrl, Unexpected property at #/322data/thumbnailImageUrl, Unexpected property at #/322data/isNew, Unexpected property at #/322data/ipsQuery, Unexpected property at #/322/isLocalizable, Invalid type at #/323/data/description, Invalid type at #/323/data/article/content, Unexpected property at #/323/isLocalizable, Invalid type at #/324/data/contentList/name, Unexpected property at #/324/isLocalizable, Invalid type at #/325/data/description, Invalid type at #/325/data/name, Unexpected property at #/325data/tooltipDescription, Unexpected property at #/325data/thumbnailImageUrl, Unexpected property at #/325data/iconImageUrl, Unexpected property at #/325data/ipsQuery, Unexpected property at #/325/isLocalizable, Invalid type at #/326/data/description, Invalid type at #/326/data/article/content, Unexpected property at #/326data/article/sectionLinks, Unexpected property at #/326/isLocalizable, Invalid type at #/327/data/description, Invalid type at #/327/data/article/content, Unexpected property at #/327data/article/jumpLinks, Unexpected property at #/327data/article/embeddedLinkData, Unexpected property at #/327data/article/moreInfoLinks, Unexpected property at #/327/isLocalizable, Invalid type at #/328/data/description, Invalid type at #/328/data/article/content, Unexpected property at #/328data/article/embeddedLinkData, Unexpected property at #/328data/article/moreInfoLinks, Unexpected property at #/328/isLocalizable, Invalid type at #/329/data/description, Invalid type at #/329/data/name, Unexpected property at #/329data/tooltipDescription, Unexpected property at #/329data/iconImageUrl, Unexpected property at #/329data/ipsQuery, Unexpected property at #/329/isLocalizable, Invalid type at #/330/data/description, Invalid type at #/330/data/name, Unexpected property at #/330data/tooltipDescription, Unexpected property at #/330data/iconImageUrl, Unexpected property at #/330data/thumbnailImageUrl, Unexpected property at #/330data/ipsQuery, Unexpected property at #/330/isLocalizable, Invalid type at #/331/data/description, Invalid type at #/331/data/name, Unexpected property at #/331data/tooltipDescription, Unexpected property at #/331data/iconImageUrl, Unexpected property at #/331data/thumbnailImageUrl, Unexpected property at #/331data/ipsQuery, Unexpected property at #/331/isLocalizable, Invalid type at #/333/data/description, Invalid type at #/333/data/name, Unexpected property at #/333data/tooltipDescription, Unexpected property at #/333data/iconImageUrl, Unexpected property at #/333data/thumbnailImageUrl, Unexpected property at #/333data/ipsQuery, Unexpected property at #/333/isLocalizable, Invalid type at #/334/data/description, Invalid type at #/334/data/name, Unexpected property at #/334data/tooltipDescription, Unexpected property at #/334data/iconImageUrl, Unexpected property at #/334data/thumbnailImageUrl, Unexpected property at #/334data/ipsQuery, Unexpected property at #/334/isLocalizable, Invalid type at #/335/data/description, Invalid type at #/335/data/name, Unexpected property at #/335data/tooltipDescription, Unexpected property at #/335data/iconImageUrl, Unexpected property at #/335data/ipsQuery, Unexpected property at #/335/isLocalizable, Invalid type at #/338/data/description, Invalid type at #/338/data/article/content, Unexpected property at #/338data/article/sectionLinks, Unexpected property at #/338data/article/embeddedLinkData, Unexpected property at #/338data/article/moreInfoLinks, Unexpected property at #/338data/isNew, Unexpected property at #/338/isLocalizable, Invalid type at #/339/data/description, Invalid type at #/339/data/article/content, Unexpected property at #/339data/article/sectionLinks, Unexpected property at #/339data/article/embeddedLinkData, Unexpected property at #/339data/article/moreInfoLinks, Unexpected property at #/339/isLocalizable, Unexpected property at #/340data/search, Invalid type at #/341/data/name, Unexpected property at #/341data/search, Unexpected property at #/341/isLocalizable, Invalid type at #/342/data/name, Unexpected property at #/342data/search, Unexpected property at #/342/isLocalizable, Invalid type at #/343/data/name, Unexpected property at #/343data/search, Unexpected property at #/343/isLocalizable, Invalid type at #/344/data/article/content, Unexpected property at #/344/isLocalizable, Invalid type at #/345/data/article/content, Unexpected property at #/345/isLocalizable, Invalid type at #/346/data/description, Invalid type at #/346/data/article/content, Unexpected property at #/346data/article/sectionLinks, Unexpected property at #/346data/article/embeddedLinkData, Unexpected property at #/346data/article/moreInfoLinks, Unexpected property at #/346data/isNew, Unexpected property at #/346/isLocalizable, Invalid type at #/347/data/description, Invalid type at #/347/data/article/content, Unexpected property at #/347data/article/embeddedLinkData, Unexpected property at #/347data/article/moreInfoLinks, Unexpected property at #/347/isLocalizable, Invalid type at #/348/data/contentList/name, Unexpected property at #/348data/contentList/bannersTag, Invalid type at #/348/data/name, Unexpected property at #/348data/tooltipDescription, Unexpected property at #/348data/iconImageUrl, Unexpected property at #/348/isLocalizable, Unexpected property at #/348/requireClientTags, Invalid type at #/349/data/contentList/name, Unexpected property at #/349data/contentList/bannersTag, Unexpected property at #/349data/contentList/avatarSpecific, Invalid type at #/349/data/name, Unexpected property at #/349data/tooltipDescription, Unexpected property at #/349data/iconImageUrl, Unexpected property at #/349/isLocalizable, Invalid type at #/350/data/contentList/name, Unexpected property at #/350data/contentList/avatarSpecific, Unexpected property at #/350data/contentList/bannersTag, Invalid type at #/350/data/name, Unexpected property at #/350data/tooltipDescription, Unexpected property at #/350data/iconImageUrl, Unexpected property at #/350/isLocalizable, Invalid type at #/351/data/contentList/name, Unexpected property at #/351data/contentList/bannersTag, Unexpected property at #/351data/contentList/avatarSpecific, Invalid type at #/351/data/name, Unexpected property at #/351data/iconImageUrl, Unexpected property at #/351data/tooltipDescription, Unexpected property at #/351/isLocalizable, Invalid type at #/352/data/contentList/name, Unexpected property at #/352data/contentList/bannersTag, Invalid type at #/352/data/name, Unexpected property at #/352data/iconImageUrl, Unexpected property at #/352data/tooltipDescription, Unexpected property at #/352/isLocalizable, Invalid type at #/353/data/contentList/name, Unexpected property at #/353data/contentList/shortName, Unexpected property at #/353data/contentList/bannersTag, Invalid type at #/353/data/name, Unexpected property at #/353data/shortName, Unexpected property at #/353data/tooltipDescription, Unexpected property at #/353data/iconImageUrl, Unexpected property at #/353/isLocalizable, Invalid type at #/354/data/contentList/name, Unexpected property at #/354data/contentList/bannersTag, Invalid type at #/354/data/name, Unexpected property at #/354data/tooltipDescription, Unexpected property at #/354data/iconImageUrl, Unexpected property at #/354/isLocalizable, Unexpected property at #/354/requireClientTags, Invalid type at #/355/data/contentList/name, Unexpected property at #/355data/contentList/bannersTag, Unexpected property at #/355data/contentList/avatarSpecific, Invalid type at #/355/data/name, Unexpected property at #/355data/tooltipDescription, Unexpected property at #/355data/iconImageUrl, Unexpected property at #/355/isLocalizable, Invalid type at #/356/data/contentList/name, Unexpected property at #/356data/contentList/bannersTag, Unexpected property at #/356data/contentList/avatarSpecific, Invalid type at #/356/data/name, Unexpected property at #/356data/iconImageUrl, Unexpected property at #/356data/tooltipDescription, Unexpected property at #/356/isLocalizable, Invalid type at #/357/data/contentList/name, Unexpected property at #/357data/contentList/bannersTag, Invalid type at #/357/data/name, Unexpected property at #/357data/tooltipDescription, Unexpected property at #/357data/iconImageUrl, Unexpected property at #/357/isLocalizable, Invalid type at #/358/data/contentList/name, Unexpected property at #/358data/contentList/avatarSpecific, Unexpected property at #/358data/contentList/bannersTag, Invalid type at #/358/data/name, Unexpected property at #/358data/tooltipDescription, Unexpected property at #/358data/iconImageUrl, Unexpected property at #/358/isLocalizable, Invalid type at #/359/data/contentList/name, Unexpected property at #/359data/contentList/bannersTag, Invalid type at #/359/data/name, Unexpected property at #/359data/tooltipDescription, Unexpected property at #/359data/iconImageUrl, Unexpected property at #/359/isLocalizable, Invalid type at #/360/data/contentList/name, Unexpected property at #/360data/contentList/bannersTag, Unexpected property at #/360data/contentList/avatarSpecific, Invalid type at #/360/data/name, Unexpected property at #/360data/iconImageUrl, Unexpected property at #/360data/tooltipDescription, Unexpected property at #/360/isLocalizable, Invalid type at #/361/data/contentList/name, Unexpected property at #/361data/contentList/avatarSpecific, Unexpected property at #/361data/contentList/bannersTag, Invalid type at #/361/data/name, Unexpected property at #/361data/tooltipDescription, Unexpected property at #/361data/iconImageUrl, Unexpected property at #/361/isLocalizable.
+Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPressed/command, Cannot fit value in explicit enum at #/2/data/onPressed/command, Invalid type at #/3/data/description, Invalid type at #/3/data/article/content, Unexpected property at #/3data/article/embeddedLinkData, Unexpected property at #/3data/article/moreInfoLinks, Unexpected property at #/3/isLocalizable, Unexpected property at #/4data/contentList/bannersTag, Unexpected property at #/4data/tooltipDescription, Unexpected property at #/4data/thumbnailImageUrl, Unexpected property at #/4data/iconImageUrl, Cannot fit value in explicit enum at #/6/data/onPressed/command, Unexpected property at #/6/requireClientTags, Cannot fit value in explicit enum at #/7/data/onPressed/command, Unexpected property at #/7/requireClientTags, Cannot fit value in explicit enum at #/8/data/onPressed/command, Unexpected property at #/8/requireClientTags, Cannot fit value in explicit enum at #/9/data/onPressed/command, Cannot fit value in explicit enum at #/10/data/onPressed/command, Invalid type at #/31/data/description, Unexpected property at #/31data/iconImageUrl, Unexpected property at #/31data/tooltipDescription, Unexpected property at #/31/isLocalizable, Unexpected property at #/31/requireClientTags, Invalid type at #/32/data/description, Unexpected property at #/32data/iconImageUrl, Unexpected property at #/32data/tooltipDescription, Unexpected property at #/32/isLocalizable, Unexpected property at #/32/requireClientTags, Invalid type at #/33/data/name, Unexpected property at #/33data/search, Unexpected property at #/33/isLocalizable, Invalid type at #/34/data/name, Unexpected property at #/34data/search, Unexpected property at #/34/isLocalizable, Invalid type at #/35/data/name, Unexpected property at #/35data/search, Unexpected property at #/35/isLocalizable, Invalid type at #/36/data/name, Unexpected property at #/36data/search, Unexpected property at #/36/isLocalizable, Invalid type at #/37/data/name, Unexpected property at #/37data/search, Unexpected property at #/37/isLocalizable, Invalid type at #/38/data/name, Unexpected property at #/38data/search, Unexpected property at #/38/isLocalizable, Invalid type at #/39/data/name, Unexpected property at #/39data/search, Unexpected property at #/39/isLocalizable, Invalid type at #/40/data/name, Unexpected property at #/40data/search, Unexpected property at #/40/isLocalizable, Invalid type at #/41/data/name, Unexpected property at #/41data/search, Unexpected property at #/41/isLocalizable, Invalid type at #/42/data/name, Unexpected property at #/42data/search, Unexpected property at #/42/isLocalizable, Invalid type at #/43/data/name, Unexpected property at #/43data/search, Unexpected property at #/43/isLocalizable, Invalid type at #/44/data/name, Unexpected property at #/44data/search, Unexpected property at #/44/isLocalizable, Invalid type at #/45/data/name, Unexpected property at #/45data/search, Unexpected property at #/45/isLocalizable, Invalid type at #/46/data/name, Unexpected property at #/46data/search, Unexpected property at #/46/isLocalizable, Invalid type at #/47/data/name, Unexpected property at #/47data/search, Unexpected property at #/47/isLocalizable, Invalid type at #/48/data/name, Unexpected property at #/48data/search, Unexpected property at #/48/isLocalizable, Invalid type at #/49/data/name, Unexpected property at #/49data/search, Unexpected property at #/49/isLocalizable, Invalid type at #/50/data/name, Unexpected property at #/50data/search, Unexpected property at #/50/isLocalizable, Invalid type at #/51/data/name, Unexpected property at #/51data/search, Unexpected property at #/51/isLocalizable, Invalid type at #/52/data/name, Unexpected property at #/52data/search, Unexpected property at #/52/isLocalizable, Invalid type at #/53/data/name, Unexpected property at #/53data/search, Unexpected property at #/53/isLocalizable, Invalid type at #/54/data/name, Unexpected property at #/54data/search, Unexpected property at #/54/isLocalizable, Invalid type at #/55/data/name, Unexpected property at #/55data/search, Unexpected property at #/55/isLocalizable, Invalid type at #/56/data/name, Unexpected property at #/56data/search, Unexpected property at #/56/isLocalizable, Invalid type at #/57/data/name, Unexpected property at #/57data/search, Unexpected property at #/57/isLocalizable, Invalid type at #/58/data/name, Unexpected property at #/58data/search, Unexpected property at #/58/isLocalizable, Invalid type at #/59/data/name, Unexpected property at #/59data/search, Unexpected property at #/59/isLocalizable, Invalid type at #/60/data/name, Unexpected property at #/60data/search, Unexpected property at #/60/isLocalizable, Invalid type at #/61/data/name, Unexpected property at #/61data/search, Unexpected property at #/61/isLocalizable, Invalid type at #/62/data/name, Unexpected property at #/62data/search, Unexpected property at #/62/isLocalizable, Invalid type at #/63/data/name, Unexpected property at #/63data/search, Unexpected property at #/63/isLocalizable, Invalid type at #/64/data/name, Unexpected property at #/64data/search, Unexpected property at #/64/isLocalizable, Invalid type at #/65/data/name, Unexpected property at #/65data/search, Unexpected property at #/65/isLocalizable, Invalid type at #/66/data/name, Unexpected property at #/66data/search, Unexpected property at #/66/isLocalizable, Invalid type at #/67/data/name, Unexpected property at #/67data/search, Unexpected property at #/67/isLocalizable, Invalid type at #/68/data/name, Unexpected property at #/68data/search, Unexpected property at #/68/isLocalizable, Invalid type at #/69/data/name, Unexpected property at #/69data/search, Unexpected property at #/69/isLocalizable, Invalid type at #/70/data/name, Unexpected property at #/70data/search, Unexpected property at #/70/isLocalizable, Invalid type at #/71/data/name, Unexpected property at #/71data/search, Unexpected property at #/71/isLocalizable, Invalid type at #/72/data/name, Unexpected property at #/72data/search, Unexpected property at #/72/isLocalizable, Invalid type at #/73/data/name, Unexpected property at #/73data/search, Unexpected property at #/73/isLocalizable, Invalid type at #/74/data/name, Unexpected property at #/74data/search, Unexpected property at #/74/isLocalizable, Invalid type at #/75/data/name, Unexpected property at #/75data/search, Unexpected property at #/75/isLocalizable, Invalid type at #/76/data/name, Unexpected property at #/76data/search, Unexpected property at #/76/isLocalizable, Invalid type at #/77/data/name, Unexpected property at #/77data/search, Unexpected property at #/77/isLocalizable, Invalid type at #/78/data/name, Unexpected property at #/78data/search, Unexpected property at #/78/isLocalizable, Invalid type at #/79/data/name, Unexpected property at #/79data/search, Unexpected property at #/79/isLocalizable, Invalid type at #/80/data/name, Unexpected property at #/80data/search, Unexpected property at #/80/isLocalizable, Invalid type at #/81/data/name, Unexpected property at #/81data/search, Unexpected property at #/81/isLocalizable, Invalid type at #/82/data/name, Unexpected property at #/82data/search, Unexpected property at #/82/isLocalizable, Invalid type at #/83/data/name, Unexpected property at #/83data/search, Unexpected property at #/83/isLocalizable, Invalid type at #/84/data/name, Unexpected property at #/84data/search, Unexpected property at #/84/isLocalizable, Invalid type at #/85/data/name, Unexpected property at #/85data/search, Unexpected property at #/85/isLocalizable, Invalid type at #/86/data/name, Unexpected property at #/86data/search, Unexpected property at #/86/isLocalizable, Invalid type at #/87/data/name, Unexpected property at #/87data/search, Unexpected property at #/87/isLocalizable, Invalid type at #/88/data/name, Unexpected property at #/88data/search, Unexpected property at #/88/isLocalizable, Invalid type at #/89/data/name, Unexpected property at #/89data/search, Unexpected property at #/89/isLocalizable, Invalid type at #/90/data/name, Unexpected property at #/90data/search, Unexpected property at #/90/isLocalizable, Invalid type at #/91/data/name, Unexpected property at #/91data/search, Unexpected property at #/91/isLocalizable, Invalid type at #/92/data/name, Unexpected property at #/92data/search, Unexpected property at #/92/isLocalizable, Invalid type at #/93/data/name, Unexpected property at #/93data/search, Unexpected property at #/93/isLocalizable, Invalid type at #/94/data/name, Unexpected property at #/94data/search, Unexpected property at #/94/isLocalizable, Invalid type at #/95/data/name, Unexpected property at #/95data/search, Unexpected property at #/95/isLocalizable, Invalid type at #/96/data/name, Unexpected property at #/96data/search, Unexpected property at #/96/isLocalizable, Invalid type at #/97/data/name, Unexpected property at #/97data/search, Unexpected property at #/97/isLocalizable, Invalid type at #/98/data/name, Unexpected property at #/98data/search, Unexpected property at #/98/isLocalizable, Invalid type at #/99/data/name, Unexpected property at #/99data/search, Unexpected property at #/99/isLocalizable, Invalid type at #/100/data/name, Unexpected property at #/100data/search, Unexpected property at #/100/isLocalizable, Invalid type at #/101/data/name, Unexpected property at #/101data/search, Unexpected property at #/101/isLocalizable, Invalid type at #/102/data/name, Unexpected property at #/102data/search, Unexpected property at #/102/isLocalizable, Invalid type at #/103/data/name, Unexpected property at #/103data/search, Unexpected property at #/103/isLocalizable, Invalid type at #/104/data/name, Unexpected property at #/104data/search, Unexpected property at #/104/isLocalizable, Invalid type at #/105/data/name, Unexpected property at #/105data/search, Unexpected property at #/105/isLocalizable, Invalid type at #/106/data/name, Unexpected property at #/106data/search, Unexpected property at #/106/isLocalizable, Invalid type at #/107/data/name, Unexpected property at #/107data/search, Unexpected property at #/107/isLocalizable, Invalid type at #/108/data/name, Unexpected property at #/108data/search, Unexpected property at #/108/isLocalizable, Invalid type at #/109/data/name, Unexpected property at #/109data/search, Unexpected property at #/109/isLocalizable, Invalid type at #/110/data/name, Unexpected property at #/110data/search, Unexpected property at #/110/isLocalizable, Invalid type at #/111/data/name, Unexpected property at #/111data/search, Unexpected property at #/111/isLocalizable, Invalid type at #/112/data/name, Unexpected property at #/112data/search, Unexpected property at #/112/isLocalizable, Invalid type at #/113/data/name, Unexpected property at #/113data/search, Unexpected property at #/113/isLocalizable, Invalid type at #/114/data/name, Unexpected property at #/114data/search, Unexpected property at #/114/isLocalizable, Invalid type at #/115/data/name, Unexpected property at #/115data/search, Unexpected property at #/115/isLocalizable, Invalid type at #/116/data/name, Unexpected property at #/116data/search, Unexpected property at #/116/isLocalizable, Invalid type at #/117/data/name, Unexpected property at #/117data/search, Unexpected property at #/117/isLocalizable, Invalid type at #/118/data/name, Unexpected property at #/118data/search, Unexpected property at #/118/isLocalizable, Invalid type at #/119/data/name, Unexpected property at #/119data/search, Unexpected property at #/119/isLocalizable, Invalid type at #/120/data/name, Unexpected property at #/120data/search, Unexpected property at #/120/isLocalizable, Invalid type at #/121/data/name, Unexpected property at #/121data/search, Unexpected property at #/121/isLocalizable, Invalid type at #/122/data/name, Unexpected property at #/122data/search, Unexpected property at #/122/isLocalizable, Invalid type at #/123/data/name, Unexpected property at #/123data/search, Unexpected property at #/123/isLocalizable, Invalid type at #/124/data/name, Unexpected property at #/124data/search, Unexpected property at #/124/isLocalizable, Invalid type at #/125/data/name, Unexpected property at #/125data/search, Unexpected property at #/125/isLocalizable, Invalid type at #/126/data/name, Unexpected property at #/126data/search, Unexpected property at #/126/isLocalizable, Invalid type at #/127/data/name, Unexpected property at #/127data/search, Unexpected property at #/127/isLocalizable, Invalid type at #/128/data/name, Unexpected property at #/128data/search, Unexpected property at #/128/isLocalizable, Invalid type at #/129/data/name, Unexpected property at #/129data/search, Unexpected property at #/129/isLocalizable, Invalid type at #/130/data/name, Unexpected property at #/130data/search, Unexpected property at #/130/isLocalizable, Invalid type at #/131/data/name, Unexpected property at #/131data/search, Unexpected property at #/131/isLocalizable, Invalid type at #/132/data/name, Unexpected property at #/132data/search, Unexpected property at #/132/isLocalizable, Invalid type at #/133/data/name, Unexpected property at #/133data/search, Unexpected property at #/133/isLocalizable, Invalid type at #/134/data/name, Unexpected property at #/134data/search, Unexpected property at #/134/isLocalizable, Invalid type at #/135/data/name, Unexpected property at #/135data/search, Unexpected property at #/135/isLocalizable, Invalid type at #/136/data/name, Unexpected property at #/136data/search, Unexpected property at #/136/isLocalizable, Invalid type at #/137/data/name, Unexpected property at #/137data/search, Unexpected property at #/137/isLocalizable, Invalid type at #/138/data/name, Unexpected property at #/138data/search, Unexpected property at #/138/isLocalizable, Invalid type at #/139/data/name, Unexpected property at #/139data/search, Unexpected property at #/139/isLocalizable, Invalid type at #/140/data/name, Unexpected property at #/140data/search, Unexpected property at #/140/isLocalizable, Invalid type at #/141/data/name, Unexpected property at #/141data/search, Unexpected property at #/141/isLocalizable, Invalid type at #/142/data/name, Unexpected property at #/142data/search, Unexpected property at #/142/isLocalizable, Invalid type at #/143/data/name, Unexpected property at #/143data/search, Unexpected property at #/143/isLocalizable, Invalid type at #/144/data/name, Unexpected property at #/144data/search, Unexpected property at #/144/isLocalizable, Invalid type at #/145/data/name, Unexpected property at #/145data/search, Unexpected property at #/145/isLocalizable, Invalid type at #/146/data/name, Unexpected property at #/146data/search, Unexpected property at #/146/isLocalizable, Invalid type at #/147/data/name, Unexpected property at #/147data/search, Unexpected property at #/147/isLocalizable, Invalid type at #/148/data/name, Unexpected property at #/148data/search, Unexpected property at #/148/isLocalizable, Invalid type at #/149/data/name, Unexpected property at #/149data/search, Unexpected property at #/149/isLocalizable, Invalid type at #/150/data/name, Unexpected property at #/150data/search, Unexpected property at #/150/isLocalizable, Invalid type at #/151/data/name, Unexpected property at #/151data/search, Unexpected property at #/151/isLocalizable, Invalid type at #/152/data/name, Unexpected property at #/152data/search, Unexpected property at #/152/isLocalizable, Invalid type at #/153/data/name, Unexpected property at #/153data/search, Unexpected property at #/153/isLocalizable, Invalid type at #/154/data/name, Unexpected property at #/154data/search, Unexpected property at #/154/isLocalizable, Invalid type at #/155/data/name, Unexpected property at #/155data/search, Unexpected property at #/155/isLocalizable, Invalid type at #/156/data/name, Unexpected property at #/156data/search, Unexpected property at #/156/isLocalizable, Invalid type at #/157/data/name, Unexpected property at #/157data/search, Unexpected property at #/157/isLocalizable, Invalid type at #/158/data/name, Unexpected property at #/158data/search, Unexpected property at #/158/isLocalizable, Invalid type at #/159/data/name, Unexpected property at #/159data/search, Unexpected property at #/159/isLocalizable, Invalid type at #/160/data/name, Unexpected property at #/160data/search, Unexpected property at #/160/isLocalizable, Invalid type at #/161/data/name, Unexpected property at #/161data/search, Unexpected property at #/161/isLocalizable, Invalid type at #/162/data/name, Unexpected property at #/162data/search, Unexpected property at #/162/isLocalizable, Invalid type at #/163/data/name, Unexpected property at #/163data/search, Unexpected property at #/163/isLocalizable, Invalid type at #/164/data/name, Unexpected property at #/164data/search, Unexpected property at #/164/isLocalizable, Invalid type at #/165/data/name, Unexpected property at #/165data/search, Unexpected property at #/165/isLocalizable, Invalid type at #/166/data/name, Unexpected property at #/166data/search, Unexpected property at #/166/isLocalizable, Invalid type at #/167/data/name, Unexpected property at #/167data/search, Unexpected property at #/167/isLocalizable, Invalid type at #/168/data/name, Unexpected property at #/168data/search, Unexpected property at #/168/isLocalizable, Invalid type at #/169/data/name, Unexpected property at #/169data/search, Unexpected property at #/169/isLocalizable, Invalid type at #/170/data/name, Unexpected property at #/170data/search, Unexpected property at #/170/isLocalizable, Invalid type at #/171/data/name, Unexpected property at #/171data/search, Unexpected property at #/171/isLocalizable, Invalid type at #/172/data/name, Unexpected property at #/172data/search, Unexpected property at #/172/isLocalizable, Invalid type at #/173/data/name, Unexpected property at #/173data/search, Unexpected property at #/173/isLocalizable, Invalid type at #/174/data/name, Unexpected property at #/174data/search, Unexpected property at #/174/isLocalizable, Invalid type at #/175/data/name, Unexpected property at #/175data/search, Unexpected property at #/175/isLocalizable, Invalid type at #/176/data/name, Unexpected property at #/176data/search, Unexpected property at #/176/isLocalizable, Invalid type at #/177/data/name, Unexpected property at #/177data/search, Unexpected property at #/177/isLocalizable, Invalid type at #/178/data/name, Unexpected property at #/178data/search, Unexpected property at #/178/isLocalizable, Invalid type at #/179/data/name, Unexpected property at #/179data/search, Unexpected property at #/179/isLocalizable, Invalid type at #/180/data/name, Unexpected property at #/180data/search, Unexpected property at #/180/isLocalizable, Invalid type at #/181/data/name, Unexpected property at #/181data/search, Unexpected property at #/181/isLocalizable, Invalid type at #/182/data/name, Unexpected property at #/182data/search, Unexpected property at #/182/isLocalizable, Invalid type at #/183/data/name, Unexpected property at #/183data/search, Unexpected property at #/183/isLocalizable, Invalid type at #/184/data/name, Unexpected property at #/184data/search, Unexpected property at #/184/isLocalizable, Invalid type at #/185/data/name, Unexpected property at #/185data/search, Unexpected property at #/185/isLocalizable, Invalid type at #/186/data/name, Unexpected property at #/186data/search, Unexpected property at #/186/isLocalizable, Invalid type at #/187/data/name, Unexpected property at #/187data/search, Unexpected property at #/187/isLocalizable, Invalid type at #/188/data/name, Unexpected property at #/188data/search, Unexpected property at #/188/isLocalizable, Invalid type at #/189/data/name, Unexpected property at #/189data/search, Unexpected property at #/189/isLocalizable, Invalid type at #/190/data/name, Unexpected property at #/190data/search, Unexpected property at #/190/isLocalizable, Invalid type at #/191/data/name, Unexpected property at #/191data/search, Unexpected property at #/191/isLocalizable, Invalid type at #/192/data/name, Unexpected property at #/192data/search, Unexpected property at #/192/isLocalizable, Invalid type at #/193/data/name, Unexpected property at #/193data/search, Unexpected property at #/193/isLocalizable, Invalid type at #/194/data/name, Unexpected property at #/194data/search, Unexpected property at #/194/isLocalizable, Invalid type at #/195/data/name, Unexpected property at #/195data/search, Unexpected property at #/195/isLocalizable, Invalid type at #/196/data/name, Unexpected property at #/196data/search, Unexpected property at #/196/isLocalizable, Invalid type at #/197/data/name, Unexpected property at #/197data/search, Unexpected property at #/197/isLocalizable, Invalid type at #/198/data/name, Unexpected property at #/198data/search, Unexpected property at #/198/isLocalizable, Invalid type at #/199/data/name, Unexpected property at #/199data/search, Unexpected property at #/199/isLocalizable, Invalid type at #/200/data/name, Unexpected property at #/200data/search, Unexpected property at #/200/isLocalizable, Invalid type at #/201/data/name, Unexpected property at #/201data/search, Unexpected property at #/201/isLocalizable, Invalid type at #/202/data/name, Unexpected property at #/202data/search, Unexpected property at #/202/isLocalizable, Invalid type at #/203/data/name, Unexpected property at #/203data/search, Unexpected property at #/203/isLocalizable, Invalid type at #/204/data/name, Unexpected property at #/204data/search, Unexpected property at #/204/isLocalizable, Invalid type at #/205/data/name, Unexpected property at #/205data/search, Unexpected property at #/205/isLocalizable, Invalid type at #/206/data/name, Unexpected property at #/206data/search, Unexpected property at #/206/isLocalizable, Invalid type at #/207/data/name, Unexpected property at #/207data/search, Unexpected property at #/207/isLocalizable, Invalid type at #/208/data/name, Unexpected property at #/208data/search, Unexpected property at #/208/isLocalizable, Invalid type at #/209/data/name, Unexpected property at #/209data/search, Unexpected property at #/209/isLocalizable, Invalid type at #/210/data/name, Unexpected property at #/210data/search, Unexpected property at #/210/isLocalizable, Invalid type at #/211/data/name, Unexpected property at #/211data/search, Unexpected property at #/211/isLocalizable, Invalid type at #/212/data/name, Unexpected property at #/212data/search, Unexpected property at #/212/isLocalizable, Invalid type at #/213/data/name, Unexpected property at #/213data/search, Unexpected property at #/213/isLocalizable, Invalid type at #/214/data/name, Unexpected property at #/214data/search, Unexpected property at #/214/isLocalizable, Invalid type at #/215/data/name, Unexpected property at #/215data/search, Unexpected property at #/215/isLocalizable, Invalid type at #/216/data/name, Unexpected property at #/216data/search, Unexpected property at #/216/isLocalizable, Invalid type at #/217/data/name, Unexpected property at #/217data/search, Unexpected property at #/217/isLocalizable, Invalid type at #/218/data/name, Unexpected property at #/218data/search, Unexpected property at #/218/isLocalizable, Invalid type at #/219/data/name, Unexpected property at #/219data/search, Unexpected property at #/219/isLocalizable, Invalid type at #/220/data/name, Unexpected property at #/220data/search, Unexpected property at #/220/isLocalizable, Invalid type at #/221/data/name, Unexpected property at #/221data/search, Unexpected property at #/221/isLocalizable, Invalid type at #/222/data/name, Unexpected property at #/222data/search, Unexpected property at #/222/isLocalizable, Invalid type at #/223/data/name, Unexpected property at #/223data/search, Unexpected property at #/223/isLocalizable, Invalid type at #/224/data/name, Unexpected property at #/224data/search, Unexpected property at #/224/isLocalizable, Invalid type at #/225/data/name, Unexpected property at #/225data/search, Unexpected property at #/225/isLocalizable, Invalid type at #/226/data/name, Unexpected property at #/226data/search, Unexpected property at #/226/isLocalizable, Invalid type at #/227/data/name, Unexpected property at #/227data/search, Unexpected property at #/227/isLocalizable, Invalid type at #/228/data/name, Unexpected property at #/228data/search, Unexpected property at #/228/isLocalizable, Invalid type at #/229/data/name, Unexpected property at #/229data/search, Unexpected property at #/229/isLocalizable, Invalid type at #/230/data/name, Unexpected property at #/230data/search, Unexpected property at #/230/isLocalizable, Invalid type at #/231/data/name, Unexpected property at #/231data/search, Unexpected property at #/231/isLocalizable, Invalid type at #/232/data/name, Unexpected property at #/232data/search, Unexpected property at #/232/isLocalizable, Invalid type at #/233/data/name, Unexpected property at #/233data/search, Unexpected property at #/233/isLocalizable, Invalid type at #/234/data/name, Unexpected property at #/234data/search, Unexpected property at #/234/isLocalizable, Invalid type at #/235/data/name, Unexpected property at #/235data/search, Unexpected property at #/235/isLocalizable, Invalid type at #/236/data/name, Unexpected property at #/236data/search, Unexpected property at #/236/isLocalizable, Invalid type at #/237/data/name, Unexpected property at #/237data/search, Unexpected property at #/237/isLocalizable, Invalid type at #/238/data/name, Unexpected property at #/238data/search, Unexpected property at #/238/isLocalizable, Invalid type at #/239/data/name, Unexpected property at #/239data/search, Unexpected property at #/239/isLocalizable, Invalid type at #/240/data/name, Unexpected property at #/240data/search, Unexpected property at #/240/isLocalizable, Invalid type at #/241/data/name, Unexpected property at #/241data/search, Unexpected property at #/241/isLocalizable, Invalid type at #/242/data/name, Unexpected property at #/242data/search, Unexpected property at #/242/isLocalizable, Invalid type at #/243/data/name, Unexpected property at #/243data/search, Unexpected property at #/243/isLocalizable, Invalid type at #/244/data/name, Unexpected property at #/244data/search, Unexpected property at #/244/isLocalizable, Invalid type at #/245/data/name, Unexpected property at #/245data/search, Unexpected property at #/245/isLocalizable, Invalid type at #/246/data/name, Unexpected property at #/246data/search, Unexpected property at #/246/isLocalizable, Invalid type at #/247/data/name, Unexpected property at #/247data/search, Unexpected property at #/247/isLocalizable, Invalid type at #/248/data/name, Unexpected property at #/248data/search, Unexpected property at #/248/isLocalizable, Invalid type at #/249/data/name, Unexpected property at #/249data/search, Unexpected property at #/249/isLocalizable, Invalid type at #/250/data/name, Unexpected property at #/250data/search, Unexpected property at #/250/isLocalizable, Invalid type at #/251/data/name, Unexpected property at #/251data/search, Unexpected property at #/251/isLocalizable, Invalid type at #/252/data/name, Unexpected property at #/252data/search, Unexpected property at #/252/isLocalizable, Invalid type at #/253/data/name, Unexpected property at #/253data/search, Unexpected property at #/253/isLocalizable, Invalid type at #/254/data/name, Unexpected property at #/254data/search, Unexpected property at #/254/isLocalizable, Invalid type at #/255/data/name, Unexpected property at #/255data/search, Unexpected property at #/255/isLocalizable, Invalid type at #/256/data/name, Unexpected property at #/256data/search, Unexpected property at #/256/isLocalizable, Invalid type at #/257/data/name, Unexpected property at #/257data/search, Unexpected property at #/257/isLocalizable, Invalid type at #/258/data/name, Unexpected property at #/258data/search, Unexpected property at #/258/isLocalizable, Invalid type at #/259/data/name, Unexpected property at #/259data/search, Unexpected property at #/259/isLocalizable, Invalid type at #/260/data/name, Unexpected property at #/260data/search, Unexpected property at #/260/isLocalizable, Invalid type at #/261/data/name, Unexpected property at #/261data/search, Unexpected property at #/261/isLocalizable, Invalid type at #/262/data/name, Unexpected property at #/262data/search, Unexpected property at #/262/isLocalizable, Invalid type at #/263/data/name, Unexpected property at #/263data/search, Unexpected property at #/263/isLocalizable, Invalid type at #/264/data/name, Unexpected property at #/264data/search, Unexpected property at #/264/isLocalizable, Invalid type at #/265/data/name, Unexpected property at #/265data/search, Unexpected property at #/265/isLocalizable, Invalid type at #/266/data/name, Unexpected property at #/266data/search, Unexpected property at #/266/isLocalizable, Invalid type at #/267/data/name, Unexpected property at #/267data/search, Unexpected property at #/267/isLocalizable, Invalid type at #/268/data/name, Unexpected property at #/268data/search, Unexpected property at #/268/isLocalizable, Invalid type at #/269/data/name, Unexpected property at #/269data/search, Unexpected property at #/269/isLocalizable, Invalid type at #/270/data/name, Unexpected property at #/270data/search, Unexpected property at #/270/isLocalizable, Invalid type at #/271/data/name, Unexpected property at #/271data/search, Unexpected property at #/271/isLocalizable, Invalid type at #/272/data/name, Unexpected property at #/272data/search, Unexpected property at #/272/isLocalizable, Invalid type at #/273/data/name, Unexpected property at #/273data/search, Unexpected property at #/273/isLocalizable, Invalid type at #/274/data/name, Unexpected property at #/274data/search, Unexpected property at #/274/isLocalizable, Invalid type at #/275/data/name, Unexpected property at #/275data/search, Unexpected property at #/275/isLocalizable, Invalid type at #/276/data/name, Unexpected property at #/276data/search, Unexpected property at #/276/isLocalizable, Invalid type at #/277/data/name, Unexpected property at #/277data/search, Unexpected property at #/277/isLocalizable, Invalid type at #/278/data/name, Unexpected property at #/278data/search, Unexpected property at #/278/isLocalizable, Invalid type at #/279/data/name, Unexpected property at #/279data/search, Unexpected property at #/279/isLocalizable, Invalid type at #/280/data/name, Unexpected property at #/280data/search, Unexpected property at #/280/isLocalizable, Invalid type at #/281/data/name, Unexpected property at #/281data/search, Unexpected property at #/281/isLocalizable, Invalid type at #/282/data/name, Unexpected property at #/282data/search, Unexpected property at #/282/isLocalizable, Unexpected property at #/283data/search, Unexpected property at #/284data/search, Unexpected property at #/285data/search, Unexpected property at #/286data/search, Unexpected property at #/287data/search, Unexpected property at #/288data/search, Unexpected property at #/289data/search, Unexpected property at #/290data/search, Unexpected property at #/291data/search, Unexpected property at #/292data/search, Unexpected property at #/293data/search, Unexpected property at #/294data/search, Unexpected property at #/295data/search, Unexpected property at #/296data/search, Unexpected property at #/297data/search, Unexpected property at #/298data/search, Unexpected property at #/299data/search, Unexpected property at #/300data/search, Unexpected property at #/301data/search, Unexpected property at #/302data/search, Unexpected property at #/303data/search, Unexpected property at #/304data/search, Unexpected property at #/305data/search, Invalid type at #/306/data/name, Unexpected property at #/306data/tooltipDescription, Unexpected property at #/306data/iconImageUrl, Unexpected property at #/306data/categories, Unexpected property at #/306/isLocalizable, Invalid type at #/307/data/name, Unexpected property at #/307data/tooltipDescription, Unexpected property at #/307data/iconImageUrl, Unexpected property at #/307data/categories, Unexpected property at #/307/isLocalizable, Unexpected property at #/308data/disclaimerText, Unexpected property at #/308data/worldTag, Unexpected property at #/308data/domainList, Invalid type at #/309/data/article/content, Unexpected property at #/309data/article/embeddedLinkData, Unexpected property at #/309data/article/moreInfoLinks, Unexpected property at #/309/requireClientTags, Invalid type at #/310/data/article/content, Unexpected property at #/310data/article/embeddedLinkData, Unexpected property at #/310data/article/moreInfoLinks, Unexpected property at #/310/requireClientTags, Invalid type at #/311/data/description, Invalid type at #/311/data/article/content, Unexpected property at #/311data/article/embeddedLinkData, Unexpected property at #/311data/article/moreInfoLinks, Unexpected property at #/311/isLocalizable, Unexpected property at #/311/requireClientTags, Invalid type at #/312/data/description, Invalid type at #/312/data/article/content, Unexpected property at #/312data/article/sectionLinks, Unexpected property at #/312data/article/embeddedLinkData, Unexpected property at #/312data/article/moreInfoLinks, Unexpected property at #/312/isLocalizable, Unexpected property at #/312/requireClientTags, Invalid type at #/313/data/description, Invalid type at #/313/data/article/content, Unexpected property at #/313data/article/sectionLinks, Unexpected property at #/313data/article/embeddedLinkData, Unexpected property at #/313data/article/moreInfoLinks, Unexpected property at #/313/isLocalizable, Unexpected property at #/313/requireClientTags, Invalid type at #/314/data/description, Invalid type at #/314/data/article/content, Unexpected property at #/314data/article/sectionLinks, Unexpected property at #/314data/article/embeddedLinkData, Unexpected property at #/314data/article/moreInfoLinks, Unexpected property at #/314/isLocalizable, Unexpected property at #/314/requireClientTags, Invalid type at #/315/data/description, Invalid type at #/315/data/article/content, Unexpected property at #/315data/article/embeddedLinkData, Unexpected property at #/315data/article/moreInfoLinks, Unexpected property at #/315/isLocalizable, Invalid type at #/316/data/description, Invalid type at #/316/data/article/content, Unexpected property at #/316data/article/embeddedLinkData, Unexpected property at #/316data/article/moreInfoLinks, Unexpected property at #/316/isLocalizable, Invalid type at #/317/data/description, Invalid type at #/317/data/article/content, Unexpected property at #/317/isLocalizable, Invalid type at #/320/data/description, Invalid type at #/320/data/name, Unexpected property at #/320data/tooltipDescription, Unexpected property at #/320data/iconImageUrl, Unexpected property at #/320data/thumbnailImageUrl, Unexpected property at #/320data/ipsQuery, Unexpected property at #/320/isLocalizable, Invalid type at #/321/data/contentList/name, Unexpected property at #/321/isLocalizable, Invalid type at #/322/data/description, Invalid type at #/322/data/name, Unexpected property at #/322data/tooltipDescription, Unexpected property at #/322data/iconImageUrl, Unexpected property at #/322data/thumbnailImageUrl, Unexpected property at #/322data/isNew, Unexpected property at #/322data/ipsQuery, Unexpected property at #/322/isLocalizable, Invalid type at #/323/data/description, Invalid type at #/323/data/article/content, Unexpected property at #/323/isLocalizable, Invalid type at #/324/data/contentList/name, Unexpected property at #/324/isLocalizable, Invalid type at #/325/data/description, Invalid type at #/325/data/name, Unexpected property at #/325data/tooltipDescription, Unexpected property at #/325data/thumbnailImageUrl, Unexpected property at #/325data/iconImageUrl, Unexpected property at #/325data/ipsQuery, Unexpected property at #/325/isLocalizable, Invalid type at #/326/data/description, Invalid type at #/326/data/article/content, Unexpected property at #/326data/article/sectionLinks, Unexpected property at #/326/isLocalizable, Invalid type at #/327/data/description, Invalid type at #/327/data/article/content, Unexpected property at #/327data/article/jumpLinks, Unexpected property at #/327data/article/embeddedLinkData, Unexpected property at #/327data/article/moreInfoLinks, Unexpected property at #/327/isLocalizable, Invalid type at #/328/data/description, Invalid type at #/328/data/article/content, Unexpected property at #/328data/article/embeddedLinkData, Unexpected property at #/328data/article/moreInfoLinks, Unexpected property at #/328/isLocalizable, Invalid type at #/329/data/description, Invalid type at #/329/data/name, Unexpected property at #/329data/tooltipDescription, Unexpected property at #/329data/iconImageUrl, Unexpected property at #/329data/ipsQuery, Unexpected property at #/329/isLocalizable, Invalid type at #/330/data/description, Invalid type at #/330/data/name, Unexpected property at #/330data/tooltipDescription, Unexpected property at #/330data/iconImageUrl, Unexpected property at #/330data/thumbnailImageUrl, Unexpected property at #/330data/ipsQuery, Unexpected property at #/330/isLocalizable, Invalid type at #/331/data/description, Invalid type at #/331/data/name, Unexpected property at #/331data/tooltipDescription, Unexpected property at #/331data/iconImageUrl, Unexpected property at #/331data/thumbnailImageUrl, Unexpected property at #/331data/ipsQuery, Unexpected property at #/331/isLocalizable, Invalid type at #/332/data/description, Invalid type at #/332/data/name, Unexpected property at #/332data/tooltipDescription, Unexpected property at #/332data/iconImageUrl, Unexpected property at #/332data/thumbnailImageUrl, Unexpected property at #/332data/ipsQuery, Unexpected property at #/332/isLocalizable, Invalid type at #/333/data/description, Invalid type at #/333/data/name, Unexpected property at #/333data/tooltipDescription, Unexpected property at #/333data/iconImageUrl, Unexpected property at #/333data/thumbnailImageUrl, Unexpected property at #/333data/ipsQuery, Unexpected property at #/333/isLocalizable, Invalid type at #/334/data/description, Invalid type at #/334/data/name, Unexpected property at #/334data/tooltipDescription, Unexpected property at #/334data/iconImageUrl, Unexpected property at #/334data/ipsQuery, Unexpected property at #/334/isLocalizable, Invalid type at #/337/data/description, Invalid type at #/337/data/article/content, Unexpected property at #/337data/article/sectionLinks, Unexpected property at #/337data/article/embeddedLinkData, Unexpected property at #/337data/article/moreInfoLinks, Unexpected property at #/337data/isNew, Unexpected property at #/337/isLocalizable, Invalid type at #/338/data/description, Invalid type at #/338/data/article/content, Unexpected property at #/338data/article/sectionLinks, Unexpected property at #/338data/article/embeddedLinkData, Unexpected property at #/338data/article/moreInfoLinks, Unexpected property at #/338/isLocalizable, Unexpected property at #/339data/search, Invalid type at #/340/data/name, Unexpected property at #/340data/search, Unexpected property at #/340/isLocalizable, Invalid type at #/341/data/name, Unexpected property at #/341data/search, Unexpected property at #/341/isLocalizable, Invalid type at #/342/data/name, Unexpected property at #/342data/search, Unexpected property at #/342/isLocalizable, Invalid type at #/343/data/article/content, Unexpected property at #/343/isLocalizable, Invalid type at #/344/data/article/content, Unexpected property at #/344/isLocalizable, Invalid type at #/345/data/description, Invalid type at #/345/data/article/content, Unexpected property at #/345data/article/sectionLinks, Unexpected property at #/345data/article/embeddedLinkData, Unexpected property at #/345data/article/moreInfoLinks, Unexpected property at #/345data/isNew, Unexpected property at #/345/isLocalizable, Invalid type at #/346/data/description, Invalid type at #/346/data/article/content, Unexpected property at #/346data/article/embeddedLinkData, Unexpected property at #/346data/article/moreInfoLinks, Unexpected property at #/346/isLocalizable, Invalid type at #/347/data/contentList/name, Unexpected property at #/347data/contentList/bannersTag, Invalid type at #/347/data/name, Unexpected property at #/347data/tooltipDescription, Unexpected property at #/347data/iconImageUrl, Unexpected property at #/347/isLocalizable, Unexpected property at #/347/requireClientTags, Invalid type at #/348/data/contentList/name, Unexpected property at #/348data/contentList/bannersTag, Unexpected property at #/348data/contentList/avatarSpecific, Invalid type at #/348/data/name, Unexpected property at #/348data/tooltipDescription, Unexpected property at #/348data/iconImageUrl, Unexpected property at #/348/isLocalizable, Invalid type at #/349/data/contentList/name, Unexpected property at #/349data/contentList/avatarSpecific, Unexpected property at #/349data/contentList/bannersTag, Invalid type at #/349/data/name, Unexpected property at #/349data/tooltipDescription, Unexpected property at #/349data/iconImageUrl, Unexpected property at #/349/isLocalizable, Invalid type at #/350/data/contentList/name, Unexpected property at #/350data/contentList/bannersTag, Unexpected property at #/350data/contentList/avatarSpecific, Invalid type at #/350/data/name, Unexpected property at #/350data/iconImageUrl, Unexpected property at #/350data/tooltipDescription, Unexpected property at #/350/isLocalizable, Invalid type at #/351/data/contentList/name, Unexpected property at #/351data/contentList/bannersTag, Invalid type at #/351/data/name, Unexpected property at #/351data/iconImageUrl, Unexpected property at #/351data/tooltipDescription, Unexpected property at #/351/isLocalizable, Invalid type at #/352/data/contentList/name, Unexpected property at #/352data/contentList/shortName, Unexpected property at #/352data/contentList/bannersTag, Invalid type at #/352/data/name, Unexpected property at #/352data/shortName, Unexpected property at #/352data/tooltipDescription, Unexpected property at #/352data/iconImageUrl, Unexpected property at #/352/isLocalizable, Invalid type at #/353/data/contentList/name, Unexpected property at #/353data/contentList/bannersTag, Invalid type at #/353/data/name, Unexpected property at #/353data/tooltipDescription, Unexpected property at #/353data/iconImageUrl, Unexpected property at #/353/isLocalizable, Unexpected property at #/353/requireClientTags, Invalid type at #/354/data/contentList/name, Unexpected property at #/354data/contentList/bannersTag, Unexpected property at #/354data/contentList/avatarSpecific, Invalid type at #/354/data/name, Unexpected property at #/354data/tooltipDescription, Unexpected property at #/354data/iconImageUrl, Unexpected property at #/354/isLocalizable, Invalid type at #/355/data/contentList/name, Unexpected property at #/355data/contentList/bannersTag, Unexpected property at #/355data/contentList/avatarSpecific, Invalid type at #/355/data/name, Unexpected property at #/355data/iconImageUrl, Unexpected property at #/355data/tooltipDescription, Unexpected property at #/355/isLocalizable, Invalid type at #/356/data/contentList/name, Unexpected property at #/356data/contentList/bannersTag, Invalid type at #/356/data/name, Unexpected property at #/356data/tooltipDescription, Unexpected property at #/356data/iconImageUrl, Unexpected property at #/356/isLocalizable, Invalid type at #/357/data/contentList/name, Unexpected property at #/357data/contentList/avatarSpecific, Unexpected property at #/357data/contentList/bannersTag, Invalid type at #/357/data/name, Unexpected property at #/357data/tooltipDescription, Unexpected property at #/357data/iconImageUrl, Unexpected property at #/357/isLocalizable, Invalid type at #/358/data/contentList/name, Unexpected property at #/358data/contentList/bannersTag, Invalid type at #/358/data/name, Unexpected property at #/358data/tooltipDescription, Unexpected property at #/358data/iconImageUrl, Unexpected property at #/358/isLocalizable, Invalid type at #/359/data/contentList/name, Unexpected property at #/359data/contentList/bannersTag, Unexpected property at #/359data/contentList/avatarSpecific, Invalid type at #/359/data/name, Unexpected property at #/359data/iconImageUrl, Unexpected property at #/359data/tooltipDescription, Unexpected property at #/359/isLocalizable, Invalid type at #/360/data/contentList/name, Unexpected property at #/360data/contentList/avatarSpecific, Unexpected property at #/360data/contentList/bannersTag, Invalid type at #/360/data/name, Unexpected property at #/360data/tooltipDescription, Unexpected property at #/360data/iconImageUrl, Unexpected property at #/360/isLocalizable.
 ```
 
 ## Request
@@ -14705,7 +14705,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/333/data/name
+       * #/332/data/name
        */
       "name": "ภาษาไทย",
       /**
@@ -14746,7 +14746,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/334/data/name
+       * #/333/data/name
        */
       "name": "Svenska",
       /**
@@ -14787,7 +14787,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/335/data/name
+       * #/334/data/name
        */
       "name": "Español",
       /**
@@ -14828,7 +14828,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/341/data/name
+       * #/340/data/name
        */
       "name": "Русский",
       /**
@@ -14869,7 +14869,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/342/data/name
+       * #/341/data/name
        */
       "name": "Română",
       /**
@@ -14910,7 +14910,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/343/data/name
+       * #/342/data/name
        */
       "name": "Português",
       /**
@@ -14951,7 +14951,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/348/data/contentList/name
+       * #/347/data/contentList/name
        */
       "name": "Polski",
       /**
@@ -14992,7 +14992,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/348/data/name
+       * #/347/data/name
        */
       "name": "Norsk",
       /**
@@ -15033,7 +15033,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/349/data/contentList/name
+       * #/348/data/contentList/name
        */
       "name": "한국어",
       /**
@@ -15074,7 +15074,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/349/data/name
+       * #/348/data/name
        */
       "name": "日本語",
       /**
@@ -15115,7 +15115,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/350/data/contentList/name
+       * #/349/data/contentList/name
        */
       "name": "Italiano",
       /**
@@ -15156,7 +15156,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/350/data/name
+       * #/349/data/name
        */
       "name": "Magyar",
       /**
@@ -15197,7 +15197,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/351/data/contentList/name
+       * #/350/data/contentList/name
        */
       "name": "Deutsch",
       /**
@@ -15238,7 +15238,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/351/data/name
+       * #/350/data/name
        */
       "name": "Français",
       /**
@@ -15279,7 +15279,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/352/data/contentList/name
+       * #/351/data/contentList/name
        */
       "name": "Suomi",
       /**
@@ -15320,7 +15320,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/352/data/name
+       * #/351/data/name
        */
       "name": "Nederlands",
       /**
@@ -15361,7 +15361,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/353/data/contentList/name
+       * #/352/data/contentList/name
        */
       "name": "Dansk",
       /**
@@ -15402,7 +15402,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/353/data/name
+       * #/352/data/name
        */
       "name": "Čeština",
       /**
@@ -15443,7 +15443,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/354/data/contentList/name
+       * #/353/data/contentList/name
        */
       "name": "中文",
       /**
@@ -15484,7 +15484,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/name/type
-       * #/354/data/name
+       * #/353/data/name
        */
       "name": "العربية",
       /**
@@ -15536,7 +15536,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/355/data/contentList/name
+       * #/354/data/contentList/name
        */
       "name": {
         "key": "MarketplacePage/SpotlightPc/Name/Spotlight",
@@ -15583,7 +15583,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword type
            *
            * #/items/properties/data/properties/name/type
-           * #/355/data/name
+           * #/354/data/name
            */
           "name": {
             "key": "MarketplacePage/SpotlightPc/CategoryName/VRChat-Creator-Economy",
@@ -15616,7 +15616,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword type
            *
            * #/items/properties/data/properties/contentList/properties/name/type
-           * #/356/data/contentList/name
+           * #/355/data/contentList/name
            */
           "name": {
             "key": "MarketplacePage/SpotlightPc/CategoryName/Worlds",
@@ -15730,7 +15730,10 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
             "wrld_f488ac8c-aa6e-40dd-82eb-6213372f09f6",
             "wrld_69f3f14b-784d-456c-b32d-73c3601a2a75",
             "wrld_4a48a5c1-fae9-416c-98ad-ec410687224d",
-            "wrld_c3dda9f9-7615-41e4-bbfa-a2cf5b77b9fb"
+            "wrld_c3dda9f9-7615-41e4-bbfa-a2cf5b77b9fb",
+            "wrld_78e661b9-05ec-4d43-9dcf-b06efc1237ec",
+            "wrld_27f609ee-beae-40ba-941b-6af6af0efa66",
+            "wrld_58e44637-9916-481e-93e5-2929bacd3bb9"
           ]
         },
         {
@@ -15741,7 +15744,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword type
            *
            * #/items/properties/data/properties/name/type
-           * #/356/data/name
+           * #/355/data/name
            */
           "name": {
             "key": "MarketplacePage/SpotlightPc/CategoryName/Groups",
@@ -15808,9 +15811,9 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         }
       ]
     },
-    "hash": "476a815d1b128ce56f1b803dd25f48d6",
+    "hash": "5803d354f97d9c55e08f87be092ab112",
     "createdAt": "2023-11-20T19:48:24+00:00",
-    "updatedAt": "2024-04-23T19:05:22+00:00"
+    "updatedAt": "2024-05-08T19:06:09+00:00"
   },
   {
     "id": "marketplace-spotlight-android",
@@ -15840,7 +15843,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/357/data/contentList/name
+       * #/356/data/contentList/name
        */
       "name": {
         "key": "MarketplacePage/SpotlightAndroid/Name/Spotlight",
@@ -15887,7 +15890,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword type
            *
            * #/items/properties/data/properties/name/type
-           * #/357/data/name
+           * #/356/data/name
            */
           "name": {
             "key": "MarketplacePage/SpotlightAndroid/CategoryName/VRChat-Creator-Economy",
@@ -15920,7 +15923,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword type
            *
            * #/items/properties/data/properties/contentList/properties/name/type
-           * #/358/data/contentList/name
+           * #/357/data/contentList/name
            */
           "name": {
             "key": "MarketplacePage/SpotlightAndroid/CategoryName/Worlds",
@@ -16024,7 +16027,9 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
             "wrld_f488ac8c-aa6e-40dd-82eb-6213372f09f6",
             "wrld_69f3f14b-784d-456c-b32d-73c3601a2a75",
             "wrld_4a48a5c1-fae9-416c-98ad-ec410687224d",
-            "wrld_c3dda9f9-7615-41e4-bbfa-a2cf5b77b9fb"
+            "wrld_c3dda9f9-7615-41e4-bbfa-a2cf5b77b9fb",
+            "wrld_78e661b9-05ec-4d43-9dcf-b06efc1237ec",
+            "wrld_27f609ee-beae-40ba-941b-6af6af0efa66"
           ]
         },
         {
@@ -16035,7 +16040,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
            * @keyword type
            *
            * #/items/properties/data/properties/name/type
-           * #/358/data/name
+           * #/357/data/name
            */
           "name": {
             "key": "MarketplacePage/SpotlightAndroid/CategoryName/Groups",
@@ -16096,9 +16101,9 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         }
       ]
     },
-    "hash": "817bcaa445095c241abacbc4eeb0de58",
+    "hash": "7549026b6bc19d2adc08435a5549033d",
     "createdAt": "2023-11-20T19:48:24+00:00",
-    "updatedAt": "2024-04-23T19:05:22+00:00"
+    "updatedAt": "2024-05-08T19:06:09+00:00"
   },
   {
     "id": "loading-url-consent-screen-test",
@@ -16184,7 +16189,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/359/data/contentList/name
+       * #/358/data/contentList/name
        */
       "name": "What is VRChat+?",
       "imageUrl": "https://assets.vrchat.com/ips/assets/54571a9a3517ddb05cf710c1f670dcd0d50af69078b01948de5c07ebf61a6164.png",
@@ -16280,7 +16285,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
              * @keyword type
              *
              * #/items/properties/data/properties/name/type
-             * #/359/data/name
+             * #/358/data/name
              */
             "name": "Gifting VRChat",
             "command": "OpenHelpArticle",
@@ -16344,7 +16349,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/360/data/contentList/name
+       * #/359/data/contentList/name
        */
       "name": "What is VRChat+?",
       "imageUrl": "https://assets.vrchat.com/ips/assets/54571a9a3517ddb05cf710c1f670dcd0d50af69078b01948de5c07ebf61a6164.png",
@@ -16440,7 +16445,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
              * @keyword type
              *
              * #/items/properties/data/properties/name/type
-             * #/360/data/name
+             * #/359/data/name
              */
             "name": "Gifting VRChat",
             "command": "OpenHelpArticle",
@@ -16514,7 +16519,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/contentList/properties/name/type
-       * #/361/data/contentList/name
+       * #/360/data/contentList/name
        */
       "name": "What is VRChat+?",
       "imageUrl": "https://assets.vrchat.com/ips/assets/54571a9a3517ddb05cf710c1f670dcd0d50af69078b01948de5c07ebf61a6164.png",
@@ -16613,7 +16618,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
              * @keyword type
              *
              * #/items/properties/data/properties/name/type
-             * #/361/data/name
+             * #/360/data/name
              */
             "name": "Gifting VRChat",
             "command": "OpenHelpArticle",
@@ -18709,7 +18714,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/333/data/description
+       * #/332/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Worlds",
@@ -18755,7 +18760,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/333data/ipsQuery
+       * #/332data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-worlds",
@@ -18797,7 +18802,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/334/data/description
+       * #/333/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Support",
@@ -18843,7 +18848,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/334data/ipsQuery
+       * #/333data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-support",
@@ -18853,28 +18858,6 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
     "hash": "25d31b078793c9c0214c6bfc8132bf1f",
     "createdAt": "2022-03-11T00:25:55+00:00",
     "updatedAt": "2023-11-09T17:19:55+00:00"
-  },
-  {
-    "id": "launch-werehiring",
-    "isEnabled": true,
-    "releaseStatus": "public",
-    "priority": 1010,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/a3c908711710358c37d6195a3e51f62b6b3c68f61e63d76529464ccdf23e618f.png",
-      "onPressed": {
-        "command": "OpenURL",
-        "parameters": [
-          "https://hello.vrchat.com/careers"
-        ]
-      }
-    },
-    "hash": "0b26b848e9fb36bb73bff90ca114d482",
-    "createdAt": "2021-09-13T20:50:42+00:00",
-    "updatedAt": "2022-09-08T21:59:19+00:00"
   },
   {
     "id": "help-topic-vrcplus",
@@ -18888,7 +18871,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/333/isLocalizable
+     * #/332/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18907,7 +18890,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/335/data/description
+       * #/334/data/description
        */
       "description": {
         "key": "HelpTopic/Vrcplus/Description/VRC+",
@@ -18920,7 +18903,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/333data/tooltipDescription
+       * #/332data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Subscribe-to-VRChat+-today-and-enjoy-all-of-these-exclusive-features!",
@@ -18933,7 +18916,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/333data/iconImageUrl
+       * #/332data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/bcfabc013e81d970fd4f6ab4773bbc181e896371923504dd3d7b244c26eaf9d6.png",
       /**
@@ -18943,7 +18926,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/333data/thumbnailImageUrl
+       * #/332data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/7d6d6f993d10df181f842a5de8c1918075790621c3b91181efcc45b82f839bd6.png",
       /**
@@ -18953,7 +18936,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/335data/ipsQuery
+       * #/334data/ipsQuery
        */
       "ipsQuery": {
         "require": "help-topic-vrcplus",
@@ -18976,7 +18959,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/334/isLocalizable
+     * #/333/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -18995,7 +18978,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/338/data/description
+       * #/337/data/description
        */
       "description": {
         "key": "Tooltips/VRChat-Settings",
@@ -19008,7 +18991,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/334data/tooltipDescription
+       * #/333data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Information-on-VRChat-settings.",
@@ -19021,7 +19004,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/334data/iconImageUrl
+       * #/333data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/195be68b573ae24e1ec0ac7c9f51e4535e4f18a1f9b274ea957dec222eb929dc.png",
       /**
@@ -19031,7 +19014,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/334data/thumbnailImageUrl
+       * #/333data/thumbnailImageUrl
        */
       "thumbnailImageUrl": "https://assets.vrchat.com/ips/assets/b45eac50742f7a8c72cd5dc86b88fcbb5a28313f4ccf417e1a508cdc0282b388.png",
       "ipsQuery": {
@@ -19055,7 +19038,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/335/isLocalizable
+     * #/334/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19075,7 +19058,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/339/data/description
+       * #/338/data/description
        */
       "description": {
         "key": "HelpTopic/Marketplace/Description/VRChat-Creator-Economy",
@@ -19088,7 +19071,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/335data/tooltipDescription
+       * #/334data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "HelpTopic/Marketplace/Tooltip/Get-help-and-information-about-the-VRChat-Creator-Economy",
@@ -19101,7 +19084,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/335data/iconImageUrl
+       * #/334data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/c2a3a676e58c90b5d7af19ad2f7a6bc3635b125448164ab04a8aba4f59c07f08.png",
       "imageUrl": "https://assets.vrchat.com/ips/assets/2269c4a06f15f39cc69c2b43905b68b55086a36b60a2517ffe5a3894635c57af.png",
@@ -19170,7 +19153,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/338/isLocalizable
+     * #/337/isLocalizable
      */
     "isLocalizable": false,
     "tags": [
@@ -19190,7 +19173,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/346/data/description
+       * #/345/data/description
        */
       "description": {
         "key": "Tooltips/Avatar-Dynamics-is-now-live!",
@@ -19203,7 +19186,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/338data/isNew
+       * #/337data/isNew
        */
       "isNew": false,
       "article": {
@@ -19214,7 +19197,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/338data/article/sectionLinks
+         * #/337data/article/sectionLinks
          */
         "sectionLinks": [
           "link-physbones",
@@ -19230,7 +19213,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/338/data/article/content
+         * #/337/data/article/content
          */
         "content": [
           {
@@ -19342,7 +19325,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/338data/article/embeddedLinkData
+         * #/337data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -19369,7 +19352,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/338data/article/moreInfoLinks
+         * #/337data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -19405,7 +19388,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/339/isLocalizable
+     * #/338/isLocalizable
      */
     "isLocalizable": false,
     "tags": [
@@ -19425,7 +19408,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword type
        *
        * #/items/properties/data/properties/description/type
-       * #/347/data/description
+       * #/346/data/description
        */
       "description": {
         "key": "Tooltips/Learn-about-content-warnings.",
@@ -19439,7 +19422,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/339data/article/sectionLinks
+         * #/338data/article/sectionLinks
          */
         "sectionLinks": [
           "link-adding-content-warnings",
@@ -19452,7 +19435,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/339/data/article/content
+         * #/338/data/article/content
          */
         "content": [
           {
@@ -19594,7 +19577,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/339data/article/embeddedLinkData
+         * #/338data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -19645,7 +19628,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/339data/article/moreInfoLinks
+         * #/338data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -19708,7 +19691,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/340data/search
+       * #/339data/search
        */
       "search": {
         "searchQuery": "Spookality",
@@ -19734,7 +19717,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/341/isLocalizable
+     * #/340/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19753,7 +19736,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/341data/search
+       * #/340data/search
        */
       "search": {
         "searchQuery": "liminal",
@@ -19779,7 +19762,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/342/isLocalizable
+     * #/341/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19798,7 +19781,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/342data/search
+       * #/341data/search
        */
       "search": {
         "searchQuery": "horror",
@@ -19824,7 +19807,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/343/isLocalizable
+     * #/342/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -19843,7 +19826,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/343data/search
+       * #/342data/search
        */
       "search": {
         "searchQuery": "Halloween",
@@ -19869,7 +19852,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/344/isLocalizable
+     * #/343/isLocalizable
      */
     "isLocalizable": false,
     "tags": [
@@ -19891,7 +19874,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/344/data/article/content
+         * #/343/data/article/content
          */
         "content": [
           {
@@ -19928,7 +19911,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/345/isLocalizable
+     * #/344/isLocalizable
      */
     "isLocalizable": false,
     "tags": [
@@ -19950,7 +19933,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/345/data/article/content
+         * #/344/data/article/content
          */
         "content": [
           {
@@ -19981,7 +19964,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/346/isLocalizable
+     * #/345/isLocalizable
      */
     "isLocalizable": false,
     "tags": [
@@ -20005,7 +19988,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/346data/isNew
+       * #/345data/isNew
        */
       "isNew": true,
       "article": {
@@ -20016,7 +19999,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/346data/article/sectionLinks
+         * #/345data/article/sectionLinks
          */
         "sectionLinks": [
           "link-feature-highlights",
@@ -20029,7 +20012,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/346/data/article/content
+         * #/345/data/article/content
          */
         "content": [
           {
@@ -20074,7 +20057,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/346data/article/embeddedLinkData
+         * #/345data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -20109,7 +20092,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/346data/article/moreInfoLinks
+         * #/345data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -20152,7 +20135,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/347/isLocalizable
+     * #/346/isLocalizable
      */
     "isLocalizable": false,
     "tags": [
@@ -20177,7 +20160,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword type
          *
          * #/items/properties/data/properties/article/properties/content/type
-         * #/347/data/article/content
+         * #/346/data/article/content
          */
         "content": [
           {
@@ -20197,7 +20180,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/347data/article/embeddedLinkData
+         * #/346data/article/embeddedLinkData
          */
         "embeddedLinkData": [
           {
@@ -20224,7 +20207,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/article/additionalProperties
-         * #/347data/article/moreInfoLinks
+         * #/346data/article/moreInfoLinks
          */
         "moreInfoLinks": [
           {
@@ -20260,7 +20243,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/348/isLocalizable
+     * #/347/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20274,7 +20257,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/348/requireClientTags
+     * #/347/requireClientTags
      */
     "requireClientTags": [
       "platform-mobile-desktop"
@@ -20291,7 +20274,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/348data/tooltipDescription
+       * #/347data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-top-worlds-from-the-community!",
@@ -20304,7 +20287,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/348data/iconImageUrl
+       * #/347data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
@@ -20324,7 +20307,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/348data/contentList/bannersTag
+         * #/347data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-spotlight-mobile"
       }
@@ -20345,7 +20328,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/349/isLocalizable
+     * #/348/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20364,7 +20347,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/349data/tooltipDescription
+       * #/348data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-trending-worlds",
@@ -20377,7 +20360,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/349data/iconImageUrl
+       * #/348data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/5568aa5059b72048ec0560b0eb68822c5ea338e5235637c36a3273f1081176ef.png",
       "contentList": {
@@ -20396,7 +20379,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/349data/contentList/bannersTag
+         * #/348data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-trending",
         /**
@@ -20406,7 +20389,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/349data/contentList/avatarSpecific
+         * #/348data/contentList/avatarSpecific
          */
         "avatarSpecific": false
       }
@@ -20427,7 +20410,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/350/isLocalizable
+     * #/349/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20446,7 +20429,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/tooltipDescription
+       * #/349data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-trending-avatar-worlds",
@@ -20459,7 +20442,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/350data/iconImageUrl
+       * #/349data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
@@ -20478,7 +20461,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/350data/contentList/avatarSpecific
+         * #/349data/contentList/avatarSpecific
          */
         "avatarSpecific": true,
         /**
@@ -20488,7 +20471,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/350data/contentList/bannersTag
+         * #/349data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-avatar"
       }
@@ -20509,7 +20492,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/351/isLocalizable
+     * #/350/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20528,7 +20511,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/351data/iconImageUrl
+       * #/350data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/f13fed02d81a04a7dc8d1d9c2960d43ed955ac1d84a87fe9348087cb2a9c4343.png",
       /**
@@ -20538,7 +20521,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/351data/tooltipDescription
+       * #/350data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Join-active-game-worlds",
@@ -20561,7 +20544,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/351data/contentList/bannersTag
+         * #/350data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-games",
         /**
@@ -20571,7 +20554,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/351data/contentList/avatarSpecific
+         * #/350data/contentList/avatarSpecific
          */
         "avatarSpecific": false
       }
@@ -20592,7 +20575,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/352/isLocalizable
+     * #/351/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20611,7 +20594,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/352data/iconImageUrl
+       * #/351data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/e5a352ccf894dd8a30001611e525caeaf3ec7710444610703549fb306f542400.png",
       /**
@@ -20621,7 +20604,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/352data/tooltipDescription
+       * #/351data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-noteworthy-new-worlds",
@@ -20643,7 +20626,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/352data/contentList/bannersTag
+         * #/351data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-new-worlds",
         "tag": "system_published_recently"
@@ -20665,7 +20648,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/353/isLocalizable
+     * #/352/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20684,7 +20667,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/properties/contentList/additionalProperties
-       * #/353data/contentList/shortName
+       * #/352data/contentList/shortName
        */
       "shortName": {
         "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
@@ -20697,7 +20680,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/353data/tooltipDescription
+       * #/352data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-top-cross-platform-worlds-from-the-community!",
@@ -20710,7 +20693,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/353data/iconImageUrl
+       * #/352data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
@@ -20725,7 +20708,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/additionalProperties
-         * #/353data/shortName
+         * #/352data/shortName
          */
         "shortName": {
           "key": "WorldCategory/SpotlightCrossplatform/ShortName/Spotlight-X-Plat",
@@ -20743,7 +20726,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/353data/contentList/bannersTag
+         * #/352data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-spotlight-xplat"
       }
@@ -20764,7 +20747,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/354/isLocalizable
+     * #/353/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20778,7 +20761,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/354/requireClientTags
+     * #/353/requireClientTags
      */
     "requireClientTags": [
       "platform-pc"
@@ -20795,7 +20778,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/354data/tooltipDescription
+       * #/353data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-top-PC-worlds-from-the-community!",
@@ -20808,7 +20791,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/354data/iconImageUrl
+       * #/353data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/04467dd5e224b017a553dee3d23566ea35d6fa131bb95146a22c7d1fe6dcb53b.png",
       "contentList": {
@@ -20828,7 +20811,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/354data/contentList/bannersTag
+         * #/353data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-spotlight"
       }
@@ -20849,7 +20832,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/355/isLocalizable
+     * #/354/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20868,7 +20851,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/355data/tooltipDescription
+       * #/354data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-popular-worlds",
@@ -20881,7 +20864,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/355data/iconImageUrl
+       * #/354data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/5568aa5059b72048ec0560b0eb68822c5ea338e5235637c36a3273f1081176ef.png",
       "contentList": {
@@ -20900,7 +20883,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/355data/contentList/bannersTag
+         * #/354data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-trending",
         /**
@@ -20910,7 +20893,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/355data/contentList/avatarSpecific
+         * #/354data/contentList/avatarSpecific
          */
         "avatarSpecific": false
       }
@@ -20931,7 +20914,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/356/isLocalizable
+     * #/355/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -20950,7 +20933,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/356data/iconImageUrl
+       * #/355data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/e5a352ccf894dd8a30001611e525caeaf3ec7710444610703549fb306f542400.png",
       /**
@@ -20960,7 +20943,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/356data/tooltipDescription
+       * #/355data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-new-worlds",
@@ -20982,7 +20965,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/356data/contentList/bannersTag
+         * #/355data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-new-worlds",
         /**
@@ -20992,7 +20975,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/356data/contentList/avatarSpecific
+         * #/355data/contentList/avatarSpecific
          */
         "avatarSpecific": false,
         "tag": "system_published_recently"
@@ -21014,7 +20997,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/357/isLocalizable
+     * #/356/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21033,7 +21016,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/357data/tooltipDescription
+       * #/356data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-recently-updated-worlds",
@@ -21046,7 +21029,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/357data/iconImageUrl
+       * #/356data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/06737a66fb6de284125da130c1866ec729d7bbd9b8cdfdafee2b23840b153c67.png",
       "contentList": {
@@ -21066,7 +21049,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/357data/contentList/bannersTag
+         * #/356data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-updated-recently"
       }
@@ -21087,7 +21070,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/358/isLocalizable
+     * #/357/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21106,7 +21089,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/358data/tooltipDescription
+       * #/357data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-new-avatar-worlds",
@@ -21119,7 +21102,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/358data/iconImageUrl
+       * #/357data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
@@ -21139,7 +21122,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/358data/contentList/avatarSpecific
+         * #/357data/contentList/avatarSpecific
          */
         "avatarSpecific": true,
         /**
@@ -21149,7 +21132,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/358data/contentList/bannersTag
+         * #/357data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-avatar-new"
       }
@@ -21170,7 +21153,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/359/isLocalizable
+     * #/358/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21189,7 +21172,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/359data/tooltipDescription
+       * #/358data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-worlds-newly-created-by-the-community",
@@ -21202,7 +21185,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/359data/iconImageUrl
+       * #/358data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/7846fda184f0ee4686558903b87823890351cac53a501b95f848b46b227294b1.png",
       "contentList": {
@@ -21221,7 +21204,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/359data/contentList/bannersTag
+         * #/358data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-labs"
       }
@@ -21242,7 +21225,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/360/isLocalizable
+     * #/359/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21261,7 +21244,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/360data/iconImageUrl
+       * #/359data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/0b0ca87fa01cdfce085a9f1080336e2d819717dd98bf10405a3a76a346b79629.png",
       /**
@@ -21271,7 +21254,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/360data/tooltipDescription
+       * #/359data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-random-worlds",
@@ -21293,7 +21276,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/360data/contentList/bannersTag
+         * #/359data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-random",
         /**
@@ -21303,7 +21286,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/360data/contentList/avatarSpecific
+         * #/359data/contentList/avatarSpecific
          */
         "avatarSpecific": false
       }
@@ -21324,7 +21307,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/361/isLocalizable
+     * #/360/isLocalizable
      */
     "isLocalizable": true,
     "tags": [
@@ -21343,7 +21326,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/361data/tooltipDescription
+       * #/360data/tooltipDescription
        */
       "tooltipDescription": {
         "key": "Tooltips/Browse-random-avatar-worlds",
@@ -21356,7 +21339,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/361data/iconImageUrl
+       * #/360data/iconImageUrl
        */
       "iconImageUrl": "https://assets.vrchat.com/ips/assets/44e7136e8cad4efe36c28f73e60b7de137306c6a7f38c1d1bf7c589a633022df.png",
       "contentList": {
@@ -21375,7 +21358,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/361data/contentList/avatarSpecific
+         * #/360data/contentList/avatarSpecific
          */
         "avatarSpecific": true,
         /**
@@ -21385,7 +21368,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword additionalProperties
          *
          * #/items/properties/data/properties/contentList/additionalProperties
-         * #/361data/contentList/bannersTag
+         * #/360data/contentList/bannersTag
          */
         "bannersTag": "world-category-banner-avatar-random"
       }
