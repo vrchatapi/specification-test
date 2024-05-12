@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/bioLinks, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/bioLinks, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
+Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/bioLinks, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/bioLinks, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
 ```
 
 ## Request
@@ -33,9 +33,9 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
 ```jsonc
 [
   {
-    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
-    "displayName": "AzulieZeiro",
-    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
+    "displayName": "Averiff",
+    "bio": "",
     /**
      * Unexpected property.
      *
@@ -46,12 +46,13 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * #/0/bioLinks
      */
     "bioLinks": [
-      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
-      "https://www.deviantart.com/azuliezeiro"
+      "https://www.guiltygear.com/ggst/en/",
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=r0ycdb99ksk"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_741a2b95-414b-49a9-8935-a4621743a37f/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_741a2b95-414b-49a9-8935-a4621743a37f/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_30a2ebe3-8b16-4686-9784-45df7e57d973/4/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_30a2ebe3-8b16-4686-9784-45df7e57d973/4/256",
     /**
      * Unexpected property.
      *
@@ -64,106 +65,20 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "currentAvatarTags": [],
     "userIcon": "",
     "profilePicOverride": "",
-    "statusDescription": "4‚000 year old loli",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "language_eng",
-      "system_early_adopter"
-    ],
-    "developerType": "none"
-  },
-  {
-    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
-    "displayName": "aphex505",
-    "bio": "おさかなのおさしみ",
-    "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_11955240-4f1f-43cb-9ee6-657cf5447993/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_11955240-4f1f-43cb-9ee6-657cf5447993/1/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/1/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
     "statusDescription": "",
-    "status": "active",
+    "status": "ask me",
     "last_platform": "standalonewindows",
     "isFriend": false,
     "tags": [
+      "system_trust_basic",
       "system_avatar_access",
       "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
       "system_trust_known",
+      "system_feedback_access",
       "system_trust_trusted",
       "system_trust_veteran",
-      "show_social_rank",
       "system_early_adopter",
-      "language_jpn"
-    ],
-    "developerType": "none"
-  },
-  {
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
-    "displayName": "Azuteatime",
-    "bio": "To see with eyes unclouded by hate․",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/2/bioLinks
-     */
-    "bioLinks": [
-      ""
-    ],
-    "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/2/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/2/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter"
+      "language_eng"
     ],
     "developerType": "none"
   },
@@ -178,14 +93,14 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/bioLinks
+     * #/1/bioLinks
      */
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b6f51d57-0d5b-4e5b-843c-1de1a45f2bdf/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b6f51d57-0d5b-4e5b-843c-1de1a45f2bdf/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b6f51d57-0d5b-4e5b-843c-1de1a45f2bdf/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b6f51d57-0d5b-4e5b-843c-1de1a45f2bdf/2/256",
     /**
      * Unexpected property.
      *
@@ -193,7 +108,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/currentAvatarTags
+     * #/1/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -217,9 +132,94 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "developerType": "none"
   },
   {
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "displayName": "Averiff",
-    "bio": "I shitted",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "displayName": "Azuteatime",
+    "bio": "To see with eyes unclouded by hate․",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/bioLinks
+     */
+    "bioLinks": [
+      ""
+    ],
+    "pronouns": "",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/3/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/3/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "Who does?",
+    "status": "ask me",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter"
+    ],
+    "developerType": "none"
+  },
+  {
+    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
+    "displayName": "aphex505",
+    "bio": "おさかなのおさしみ",
+    "pronouns": "",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_11955240-4f1f-43cb-9ee6-657cf5447993/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_11955240-4f1f-43cb-9ee6-657cf5447993/1/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/3/currentAvatarTags
+     */
+    "currentAvatarTags": [],
+    "userIcon": "",
+    "profilePicOverride": "",
+    "statusDescription": "",
+    "status": "active",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_jpn"
+    ],
+    "developerType": "none"
+  },
+  {
+    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
+    "displayName": "AzulieZeiro",
+    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
     /**
      * Unexpected property.
      *
@@ -230,13 +230,12 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * #/4/bioLinks
      */
     "bioLinks": [
-      "https://www.guiltygear.com/ggst/en/",
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=r0ycdb99ksk"
+      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
+      "https://www.deviantart.com/azuliezeiro"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6a345b41-5145-4b15-8bc4-49fbb242501f/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6a345b41-5145-4b15-8bc4-49fbb242501f/2/256",
     /**
      * Unexpected property.
      *
@@ -249,20 +248,21 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "currentAvatarTags": [],
     "userIcon": "",
     "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "ask me",
+    "statusDescription": "4‚000 year old loli",
+    "status": "active",
     "last_platform": "standalonewindows",
     "isFriend": false,
     "tags": [
-      "system_trust_basic",
       "system_avatar_access",
       "system_world_access",
-      "system_trust_known",
+      "system_trust_basic",
       "system_feedback_access",
+      "system_trust_known",
       "system_trust_trusted",
       "system_trust_veteran",
-      "system_early_adopter",
-      "language_eng"
+      "show_social_rank",
+      "language_eng",
+      "system_early_adopter"
     ],
     "developerType": "none"
   }
