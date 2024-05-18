@@ -19880,7 +19880,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
        * #/items/properties/data/additionalProperties
        * #/342data/isNew
        */
-      "isNew": true,
+      "isNew": false,
       "article": {
         /**
          * Unexpected property.
@@ -20009,9 +20009,9 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
         ]
       }
     },
-    "hash": "59fa4222486e674b15cf71737935fe78",
+    "hash": "93996de7a8da84eee57d168de77cf154",
     "createdAt": "2022-10-12T22:26:05+00:00",
-    "updatedAt": "2024-04-25T16:28:44+00:00"
+    "updatedAt": "2024-05-16T17:46:29+00:00"
   },
   {
     "id": "help-article-hiring",
