@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/bioLinks, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/bioLinks, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
+Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected property at #/0/currentAvatarTags, Unexpected property at #/1/currentAvatarTags, Unexpected property at #/2/bioLinks, Unexpected property at #/2/currentAvatarTags, Unexpected property at #/3/bioLinks, Unexpected property at #/3/currentAvatarTags, Unexpected property at #/4/bioLinks, Unexpected property at #/4/currentAvatarTags.
 ```
 
 ## Request
@@ -50,8 +50,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "https://www.deviantart.com/azuliezeiro"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_87232deb-12e7-4feb-8143-6cd89e48b3d1/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_87232deb-12e7-4feb-8143-6cd89e48b3d1/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_61757f9b-48fd-495f-9ffa-b8ead08da5d8/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_61757f9b-48fd-495f-9ffa-b8ead08da5d8/1/256",
     /**
      * Unexpected property.
      *
@@ -83,24 +83,12 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "developerType": "none"
   },
   {
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
-    "displayName": "Azuteatime",
-    "bio": "To see with eyes unclouded by hate․",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/1/bioLinks
-     */
-    "bioLinks": [
-      "https://x.com/AzuTeaTime"
-    ],
+    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
+    "displayName": "aphex505",
+    "bio": "おさかなのおさしみ\n逆から読んでもみしさおのなかさお",
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/3/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/3/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4ebed24d-ceb9-4898-9279-c264e8e227b1/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4ebed24d-ceb9-4898-9279-c264e8e227b1/1/256",
     /**
      * Unexpected property.
      *
@@ -113,46 +101,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "currentAvatarTags": [],
     "userIcon": "",
     "profilePicOverride": "",
-    "statusDescription": "It is what it is",
-    "status": "active",
-    "last_platform": "standalonewindows",
-    "isFriend": false,
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_fra",
-      "language_eng"
-    ],
-    "developerType": "none"
-  },
-  {
-    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
-    "displayName": "aphex505",
-    "bio": "おさかなのおさしみ",
-    "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_302ac527-385a-4e40-a696-42dab5a3afed/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_302ac527-385a-4e40-a696-42dab5a3afed/1/256",
-    /**
-     * Unexpected property.
-     *
-     * @schema LimitedUser
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/2/currentAvatarTags
-     */
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
     "statusDescription": "",
-    "status": "ask me",
+    "status": "active",
     "last_platform": "standalonewindows",
     "isFriend": false,
     "tags": [
@@ -180,14 +130,14 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/bioLinks
+     * #/2/bioLinks
      */
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6b8ce1f5-9bc9-4898-a7f2-b14c65643d2b/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6b8ce1f5-9bc9-4898-a7f2-b14c65643d2b/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_a12847e2-7514-4a05-b9b6-e349901996cc/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_a12847e2-7514-4a05-b9b6-e349901996cc/1/256",
     /**
      * Unexpected property.
      *
@@ -195,7 +145,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/currentAvatarTags
+     * #/2/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
@@ -229,7 +179,7 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/bioLinks
+     * #/3/bioLinks
      */
     "bioLinks": [
       "https://www.guiltygear.com/ggst/en/",
@@ -237,8 +187,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "https://www.youtube.com/watch?v=r0ycdb99ksk"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_00e61e3e-1e64-442f-ba25-98e89b09225d/5/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_00e61e3e-1e64-442f-ba25-98e89b09225d/5/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/256",
     /**
      * Unexpected property.
      *
@@ -246,13 +196,13 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/currentAvatarTags
+     * #/3/currentAvatarTags
      */
     "currentAvatarTags": [],
     "userIcon": "",
     "profilePicOverride": "",
-    "statusDescription": "Birthday today",
-    "status": "busy",
+    "statusDescription": "i shitted",
+    "status": "ask me",
     "last_platform": "standalonewindows",
     "isFriend": false,
     "tags": [
@@ -265,6 +215,61 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "system_trust_veteran",
       "system_early_adopter",
       "language_eng"
+    ],
+    "developerType": "none"
+  },
+  {
+    "id": "usr_f3667b2c-65d2-47d4-944e-633ff00cb134",
+    "displayName": "Artsy",
+    "bio": "Hi~\n\nI make stuff for a living․\nshe⁄they",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/4/bioLinks
+     */
+    "bioLinks": [
+      "https://www.youtube.com/artsyvrc",
+      "https://twitch.tv/artsyvrc",
+      "https://twitter.com/ArtsyVRC"
+    ],
+    "pronouns": "",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+    /**
+     * Unexpected property.
+     *
+     * @schema LimitedUser
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/4/currentAvatarTags
+     */
+    "currentAvatarTags": [
+      "content_sex"
+    ],
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_70add13c-2b69-4b0b-a978-e6f705707b90/1",
+    "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_ebdf194a-2bce-47e0-829c-242e95f68915/1/file",
+    "statusDescription": "gyaru face tracking",
+    "status": "ask me",
+    "last_platform": "standalonewindows",
+    "isFriend": false,
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "language_eng",
+      "language_jpn",
+      "language_nld",
+      "system_supporter",
+      "system_early_adopter"
     ],
     "developerType": "none"
   }

@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: undefined at #/unityPackages/0/assetUrl.
+Response schema mismatch: undefined at #/unityPackages/15/assetUrl.
 ```
 
 ## Request
@@ -99,7 +99,8 @@ Response schema mismatch: undefined at #/unityPackages/0/assetUrl.
     "admin_approved",
     "admin_spotlight_mobile",
     "system_approved",
-    "system_monetized_world"
+    "system_monetized_world",
+    "system_updated_recently"
   ],
   "created_at": "2019-05-01T01:19:43.477Z",
   "updated_at": "<unstable: string>"
