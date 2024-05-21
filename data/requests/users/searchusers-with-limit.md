@@ -50,8 +50,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "https://www.deviantart.com/azuliezeiro"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_40e4c1ce-66fa-4aae-813f-5a3a563f454c/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_40e4c1ce-66fa-4aae-813f-5a3a563f454c/2/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e22394d5-f4dc-4a94-bb61-3684b3af09fd/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e22394d5-f4dc-4a94-bb61-3684b3af09fd/2/256",
     /**
      * Unexpected property.
      *
@@ -87,8 +87,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
     "displayName": "aphex505",
     "bio": "おさかなのおさしみ\n逆から読んでもみしさおのなかさお",
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4e5156fc-2711-491f-bb2c-463619addbe8/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4e5156fc-2711-491f-bb2c-463619addbe8/2/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_fd704664-9ce6-4b43-bce3-dbc43553088f/3/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_fd704664-9ce6-4b43-bce3-dbc43553088f/3/256",
     /**
      * Unexpected property.
      *
@@ -136,8 +136,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_3bdd8036-0c3a-4b85-92be-9c6facc42b92/2/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_3bdd8036-0c3a-4b85-92be-9c6facc42b92/2/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b6f51d57-0d5b-4e5b-843c-1de1a45f2bdf/2/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b6f51d57-0d5b-4e5b-843c-1de1a45f2bdf/2/256",
     /**
      * Unexpected property.
      *
@@ -187,8 +187,8 @@ Response schema mismatch: Unexpected property at #/0/bioLinks, Unexpected proper
       "https://www.youtube.com/watch?v=r0ycdb99ksk"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9246f973-578e-4af7-a429-8bd8cba88f02/4/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9246f973-578e-4af7-a429-8bd8cba88f02/4/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_00e61e3e-1e64-442f-ba25-98e89b09225d/6/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_00e61e3e-1e64-442f-ba25-98e89b09225d/6/256",
     /**
      * Unexpected property.
      *
