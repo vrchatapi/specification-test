@@ -1,5 +1,10 @@
 # getUser
 
+## Issues
+```
+Response schema mismatch: Unexpected property at #/platform.
+```
+
 ## Request
 `get https://api.vrchat.cloud/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 
@@ -80,6 +85,16 @@
   "isFriend": false,
   "friendKey": "",
   "last_activity": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema User
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/platform
+   */
+  "platform": "offline",
   "location": "offline",
   "worldId": "offline",
   "instanceId": "offline",

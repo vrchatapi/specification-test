@@ -138,8 +138,8 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
       "https://www.youtube.com/watch?v=r0ycdb99ksk"
     ],
     "pronouns": "",
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_00e61e3e-1e64-442f-ba25-98e89b09225d/6/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_00e61e3e-1e64-442f-ba25-98e89b09225d/6/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_00e61e3e-1e64-442f-ba25-98e89b09225d/7/file",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_00e61e3e-1e64-442f-ba25-98e89b09225d/7/256",
     /**
      * Unexpected property.
      *
@@ -152,7 +152,7 @@ Response schema mismatch: Unexpected property at #/0/currentAvatarTags, Unexpect
     "currentAvatarTags": [],
     "userIcon": "",
     "profilePicOverride": "",
-    "statusDescription": "Fallen Prayer is finished․",
+    "statusDescription": "",
     "status": "active",
     "last_platform": "standalonewindows",
     "isFriend": false,
