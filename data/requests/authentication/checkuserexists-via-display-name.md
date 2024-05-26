@@ -1,7 +1,7 @@
 # checkUserExists via display name
 
 ## Request
-`get https://api.vrchat.cloud/api/1/auth/exists?displayName=8cf3def6b8cea`
+`get https://vrchat.com/api/1/auth/exists?displayName=8cf3def6b8cea`
 
 | Header | Value |
 | ------ | ----- |

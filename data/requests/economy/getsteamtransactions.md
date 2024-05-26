@@ -6,7 +6,7 @@ Response schema mismatch: Invalid type at #/0/agreement, Invalid type at #/1/agr
 ```
 
 ## Request
-`get https://api.vrchat.cloud/api/1/Steam/transactions`
+`get https://vrchat.com/api/1/Steam/transactions`
 
 | Header | Value |
 | ------ | ----- |

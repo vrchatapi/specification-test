@@ -1,12 +1,7 @@
 # selectAvatar with default avatar id
 
-## Issues
-```
-Response schema mismatch: Missing property at #/badges.
-```
-
 ## Request
-`put https://api.vrchat.cloud/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
+`put https://vrchat.com/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
 | Header | Value |
 | ------ | ----- |

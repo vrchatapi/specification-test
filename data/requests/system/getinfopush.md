@@ -6,7 +6,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/0/data/onPresse
 ```
 
 ## Request
-`get https://api.vrchat.cloud/api/1/infoPush?include=user-all`
+`get https://vrchat.com/api/1/infoPush?include=user-all`
 
 | Header | Value |
 | ------ | ----- |

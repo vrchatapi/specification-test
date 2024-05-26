@@ -1,7 +1,7 @@
 # getSubscriptions
 
 ## Request
-`get https://api.vrchat.cloud/api/1/subscriptions`
+`get https://vrchat.com/api/1/subscriptions`
 
 | Header | Value |
 | ------ | ----- |

@@ -1,7 +1,7 @@
 # getInfoPush with zero parameters
 
 ## Request
-`get https://api.vrchat.cloud/api/1/infoPush`
+`get https://vrchat.com/api/1/infoPush`
 
 | Header | Value |
 | ------ | ----- |

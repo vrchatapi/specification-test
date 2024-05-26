@@ -1,7 +1,7 @@
 # searchWorlds
 
 ## Request
-`get https://api.vrchat.cloud/api/1/worlds`
+`get https://vrchat.com/api/1/worlds`
 
 | Header | Value |
 | ------ | ----- |

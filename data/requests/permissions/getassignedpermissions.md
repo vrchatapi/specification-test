@@ -1,7 +1,7 @@
 # getAssignedPermissions
 
 ## Request
-`get https://api.vrchat.cloud/api/1/auth/permissions`
+`get https://vrchat.com/api/1/auth/permissions`
 
 | Header | Value |
 | ------ | ----- |

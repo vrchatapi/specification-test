@@ -6,7 +6,7 @@ Response schema mismatch: undefined at #/unityPackages/15/assetUrl.
 ```
 
 ## Request
-`get https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
+`get https://vrchat.com/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
 
 | Header | Value |
 | ------ | ----- |

@@ -1,7 +1,7 @@
 # getCurrentUser after two-factor authentication
 
 ## Request
-`get https://api.vrchat.cloud/api/1/auth/user`
+`get https://vrchat.com/api/1/auth/user`
 
 | Header | Value |
 | ------ | ----- |

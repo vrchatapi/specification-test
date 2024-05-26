@@ -1,7 +1,7 @@
 # getFavoritedAvatars with zero parameters
 
 ## Request
-`get https://api.vrchat.cloud/api/1/avatars/favorites`
+`get https://vrchat.com/api/1/avatars/favorites`
 
 | Header | Value |
 | ------ | ----- |

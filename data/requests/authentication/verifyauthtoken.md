@@ -1,7 +1,7 @@
 # verifyAuthToken
 
 ## Request
-`get https://api.vrchat.cloud/api/1/auth`
+`get https://vrchat.com/api/1/auth`
 
 | Header | Value |
 | ------ | ----- |

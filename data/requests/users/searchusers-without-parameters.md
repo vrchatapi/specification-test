@@ -1,7 +1,7 @@
 # searchUsers without parameters
 
 ## Request
-`get https://api.vrchat.cloud/api/1/users`
+`get https://vrchat.com/api/1/users`
 
 | Header | Value |
 | ------ | ----- |

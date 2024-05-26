@@ -1,7 +1,7 @@
 # getSystemTime
 
 ## Request
-`get https://api.vrchat.cloud/api/1/time`
+`get https://vrchat.com/api/1/time`
 
 | Header | Value |
 | ------ | ----- |
