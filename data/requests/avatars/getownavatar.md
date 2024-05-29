@@ -15,7 +15,7 @@
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
@@ -27,24 +27,24 @@
 
 ```jsonc
 {
-  "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "name": "Robot",
-  "description": "Beep Boop",
   "authorId": "8JoV9XEdpo",
   "authorName": "vrchat",
+  "created_at": "2016-11-30T03:47:35.000Z",
+  "description": "Beep Boop",
+  "featured": false,
+  "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
+  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "name": "Robot",
+  "releaseStatus": "public",
   "tags": [
     "admin_featured_legacy",
     "admin_content_reviewed"
   ],
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-  "releaseStatus": "public",
-  "version": "<unstable: number>",
-  "featured": false,
-  "unityPackages": "<unstable: array>",
   "unityPackageUrl": "",
   "unityPackageUrlObject": {},
-  "created_at": "2016-11-30T03:47:35.000Z",
-  "updated_at": "<unstable: string>"
+  "unityPackages": "<unstable: array>",
+  "updated_at": "<unstable: string>",
+  "version": "<unstable: number>"
 }
 ```

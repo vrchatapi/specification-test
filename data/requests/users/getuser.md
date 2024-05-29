@@ -20,7 +20,7 @@ Response schema mismatch: Unexpected property at #/platform.
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
@@ -32,33 +32,56 @@ Response schema mismatch: Unexpected property at #/platform.
 
 ```jsonc
 {
-  "id": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
-  "displayName": "tupper",
-  "userIcon": "https://api.vrchat.cloud/api/1/file/file_c0cdc832-861b-403a-804a-066c51baee7f/1/",
-  "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
-  "bioLinks": [],
-  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
-  "statusDescription": "",
+  "allowAvatarCopying": false,
   "badges": [
     {
-      "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
-      "showcased": false,
-      "badgeName": "Supporter",
       "badgeDescription": "Supports VRChat through VRC+.",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_eff7def2-c264-4c0e-b462-6a9477ea4e6c.png"
+      "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_eff7def2-c264-4c0e-b462-6a9477ea4e6c.png",
+      "badgeName": "Supporter",
+      "showcased": false
     },
     {
-      "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
-      "showcased": false,
-      "badgeName": "Early Adopter",
       "badgeDescription": "Supported VRChat through VRC+ when it first launched.",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_28e70141-6859-450b-834b-30c15ecf3ff4.png"
+      "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_28e70141-6859-450b-834b-30c15ecf3ff4.png",
+      "badgeName": "Early Adopter",
+      "showcased": false
     }
   ],
-  "pronouns": "",
+  "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
+  "bioLinks": [],
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "currentAvatarTags": [],
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "date_joined": "2017-07-12",
+  "developerType": "none",
+  "displayName": "tupper",
+  "friendKey": "",
+  "friendRequestStatus": "null",
+  "id": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
+  "instanceId": "offline",
+  "isFriend": false,
+  "last_activity": "",
+  "last_login": "",
+  "last_platform": "standalonewindows",
+  "location": "offline",
+  "note": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema User
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/platform
+   */
+  "platform": "offline",
+  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
+  "pronouns": "",
+  "state": "offline",
+  "status": "ask me",
+  "statusDescription": "",
   "tags": [
     "system_trust_trusted",
     "system_world_access",
@@ -76,30 +99,7 @@ Response schema mismatch: Unexpected property at #/platform.
     "system_cute_robot",
     "system_supporter"
   ],
-  "developerType": "none",
-  "last_login": "",
-  "last_platform": "standalonewindows",
-  "allowAvatarCopying": false,
-  "status": "ask me",
-  "date_joined": "2017-07-12",
-  "isFriend": false,
-  "friendKey": "",
-  "last_activity": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema User
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/platform
-   */
-  "platform": "offline",
-  "location": "offline",
-  "worldId": "offline",
-  "instanceId": "offline",
-  "state": "offline",
-  "friendRequestStatus": "null",
-  "note": ""
+  "userIcon": "https://api.vrchat.cloud/api/1/file/file_c0cdc832-861b-403a-804a-066c51baee7f/1/",
+  "worldId": "offline"
 }
 ```

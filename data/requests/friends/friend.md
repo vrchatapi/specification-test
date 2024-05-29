@@ -18,7 +18,6 @@
 | cache-control | `private, no-cache, no-store` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |

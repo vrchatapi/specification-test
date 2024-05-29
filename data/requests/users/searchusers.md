@@ -15,7 +15,7 @@
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
@@ -28,20 +28,20 @@
 ```jsonc
 [
   {
-    "id": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
-    "displayName": "tupper",
     "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
     "bioLinks": [],
-    "pronouns": "",
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "currentAvatarTags": [],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_c0cdc832-861b-403a-804a-066c51baee7f/1/",
-    "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
-    "statusDescription": "",
-    "status": "ask me",
-    "last_platform": "standalonewindows",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+    "developerType": "none",
+    "displayName": "tupper",
+    "id": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
     "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "",
     "tags": [
       "system_trust_trusted",
       "system_world_access",
@@ -59,156 +59,156 @@
       "system_cute_robot",
       "system_supporter"
     ],
-    "developerType": "none"
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_c0cdc832-861b-403a-804a-066c51baee7f/1/"
   },
   {
-    "id": "usr_35e46e53-bffe-43ab-9e5e-b6dc622af5a3",
-    "displayName": "Tupper f5a3",
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
-    "currentAvatarThumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/thumbnails/194889991.thumbnail-200.png",
     "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "2019.2.4-801-Release",
+    "currentAvatarThumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/thumbnails/194889991.thumbnail-200.png",
+    "developerType": "none",
+    "displayName": "Tupper f5a3",
+    "id": "usr_35e46e53-bffe-43ab-9e5e-b6dc622af5a3",
     "isFriend": false,
+    "last_platform": "2019.2.4-801-Release",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
     "tags": [
       "show_social_rank"
     ],
-    "developerType": "none"
+    "userIcon": ""
   },
   {
-    "id": "usr_fe50ccdf-5a2e-47a0-9c43-78f74b82d864",
-    "displayName": "Tupper For Supper",
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_ee0b44b5-2486-4c84-a3d9-a4fbd1a11527/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_ee0b44b5-2486-4c84-a3d9-a4fbd1a11527/1/256",
     "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_ee0b44b5-2486-4c84-a3d9-a4fbd1a11527/1/256",
+    "developerType": "none",
+    "displayName": "Tupper For Supper",
+    "id": "usr_fe50ccdf-5a2e-47a0-9c43-78f74b82d864",
     "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
     "tags": [],
-    "developerType": "none"
+    "userIcon": ""
   },
   {
-    "id": "usr_825fc9d2-9e59-4c31-96e2-0189e0819fbd",
-    "displayName": "Tupper GAD-悪魔の主",
     "bio": "",
     "bioLinks": [],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d4dc524f-1f6e-4bdf-979f-bd621517178b/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d4dc524f-1f6e-4bdf-979f-bd621517178b/1/256",
     "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d4dc524f-1f6e-4bdf-979f-bd621517178b/1/256",
+    "developerType": "none",
+    "displayName": "Tupper GAD-悪魔の主",
+    "id": "usr_825fc9d2-9e59-4c31-96e2-0189e0819fbd",
     "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
     "tags": [],
-    "developerType": "none"
+    "userIcon": ""
   },
   {
-    "id": "usr_16a60dbf-bf40-4464-ae99-1c0d687f66b3",
-    "displayName": "TupperDose",
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_c6736504-6bc1-46dd-9bc4-e7135a9ffb1b/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_c6736504-6bc1-46dd-9bc4-e7135a9ffb1b/1/256",
     "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_c6736504-6bc1-46dd-9bc4-e7135a9ffb1b/1/256",
+    "developerType": "none",
+    "displayName": "TupperDose",
+    "id": "usr_16a60dbf-bf40-4464-ae99-1c0d687f66b3",
     "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
     "tags": [
       "system_trust_basic",
       "system_avatar_access",
       "system_world_access"
     ],
-    "developerType": "none"
+    "userIcon": ""
   },
   {
-    "id": "usr_d263a093-d612-4eae-b1f4-c90855956b7d",
-    "displayName": "Tuppersgrandma",
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-57-34.png",
-    "currentAvatarThumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/thumbnails/2233882830.thumbnail-200.png",
     "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
+    "currentAvatarThumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/thumbnails/2233882830.thumbnail-200.png",
+    "developerType": "none",
+    "displayName": "Tuppersgrandma",
+    "id": "usr_d263a093-d612-4eae-b1f4-c90855956b7d",
     "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
     "tags": [
       "show_social_rank"
     ],
-    "developerType": "none"
+    "userIcon": ""
   },
   {
-    "id": "usr_3ab00d61-ff97-4e0b-adb7-90ba2097a8ae",
-    "displayName": "tupper_vrc a8ae",
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_2ef64281-6d1e-481f-9f47-9d945c644cd8/1/file",
+    "currentAvatarTags": [],
     "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_2ef64281-6d1e-481f-9f47-9d945c644cd8/1/256",
-    "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
+    "developerType": "none",
+    "displayName": "tupper_vrc a8ae",
+    "id": "usr_3ab00d61-ff97-4e0b-adb7-90ba2097a8ae",
     "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
     "tags": [],
-    "developerType": "none"
+    "userIcon": ""
   },
   {
-    "id": "usr_be4b70c7-f434-4603-bb3b-09404c12a9c0",
-    "displayName": "tupper1010 a9c0",
     "currentAvatarImageUrl": "https://assets.vrchat.com/system/defaultAvatar.png",
-    "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/system/defaultAvatarThumbnail.png",
     "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
+    "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/system/defaultAvatarThumbnail.png",
+    "developerType": "none",
+    "displayName": "tupper1010 a9c0",
+    "id": "usr_be4b70c7-f434-4603-bb3b-09404c12a9c0",
     "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
     "tags": [],
-    "developerType": "none"
+    "userIcon": ""
   },
   {
-    "id": "usr_a10f22e1-1cf4-4c06-a00b-09b609570528",
-    "displayName": "tupper_test2_a",
     "bio": "",
     "bioLinks": [],
     "currentAvatarImageUrl": "https://assets.vrchat.com/system/defaultAvatar.png",
-    "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/system/defaultAvatarThumbnail.png",
     "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "android",
+    "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/system/defaultAvatarThumbnail.png",
+    "developerType": "none",
+    "displayName": "tupper_test2_a",
+    "id": "usr_a10f22e1-1cf4-4c06-a00b-09b609570528",
     "isFriend": false,
+    "last_platform": "android",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
     "tags": [
       "show_social_rank"
     ],
-    "developerType": "none"
+    "userIcon": ""
   },
   {
-    "id": "usr_32c94cc7-6681-4a1c-a94b-d055b1f63340",
-    "displayName": "tupperware 3340",
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9efe5704-7689-4cc0-8693-314c3008d010/1/file",
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9efe5704-7689-4cc0-8693-314c3008d010/1/256",
     "currentAvatarTags": [],
-    "userIcon": "",
-    "profilePicOverride": "",
-    "statusDescription": "",
-    "status": "active",
-    "last_platform": "standalonewindows",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9efe5704-7689-4cc0-8693-314c3008d010/1/256",
+    "developerType": "none",
+    "displayName": "tupperware 3340",
+    "id": "usr_32c94cc7-6681-4a1c-a94b-d055b1f63340",
     "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
     "tags": [],
-    "developerType": "none"
+    "userIcon": ""
   }
 ]
 ```

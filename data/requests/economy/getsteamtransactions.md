@@ -20,7 +20,7 @@ Response schema mismatch: Invalid type at #/0/agreement, Invalid type at #/1/agr
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |

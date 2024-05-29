@@ -18,8 +18,9 @@ Response schema mismatch: Missing property at #/id, Missing property at #/displa
 
 | Header | Value |
 | ------ | ----- |
+| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-length | `40` |
 | content-type | `application/json; charset=utf-8` |

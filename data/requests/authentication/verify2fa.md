@@ -26,7 +26,6 @@
 | connection | `keep-alive` |
 | content-length | `17` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | set-cookie | `<redacted>` |

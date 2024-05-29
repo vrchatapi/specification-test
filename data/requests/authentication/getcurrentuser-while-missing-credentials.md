@@ -14,11 +14,10 @@
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-length | `65` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |

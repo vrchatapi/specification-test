@@ -14,8 +14,9 @@
 
 | Header | Value |
 | ------ | ----- |
+| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-length | `19` |
 | content-type | `application/json; charset=utf-8` |

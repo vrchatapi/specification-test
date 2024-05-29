@@ -15,7 +15,7 @@
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
@@ -27,67 +27,67 @@
 
 ```jsonc
 {
-  "id": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
-  "name": "Bella Bear Public - by Mai",
-  "description": "Bella Bear Public - by Mai",
   "authorId": "usr_6eb7f0ee-b71c-47a1-b37f-d2c6567a940e",
   "authorName": "Mai♡",
-  "tags": [],
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
-  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",
-  "releaseStatus": "public",
-  "version": 27,
+  "created_at": "2022-01-27T01:34:07.257Z",
+  "description": "Bella Bear Public - by Mai",
   "featured": false,
-  "unityPackages": [
-    {
-      "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
-      "created_at": "2022-01-27T01:34:07.257Z",
-      "unityVersion": "2019.4.30f1",
-      "assetVersion": 1,
-      "platform": "standalonewindows",
-      "variant": "standard",
-      "scanStatus": "passed"
-    },
-    {
-      "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
-      "created_at": "2022-02-03T06:57:10.346Z",
-      "assetVersion": 1,
-      "platform": "android",
-      "unityVersion": "2019.4.30f1",
-      "variant": "standard",
-      "scanStatus": "unscanned"
-    },
-    {
-      "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
-      "created_at": "2022-07-07T11:36:36.197Z",
-      "assetVersion": 1,
-      "platform": "standalonewindows",
-      "unityVersion": "2019.4.31f1",
-      "variant": "standard",
-      "scanStatus": "passed"
-    },
-    {
-      "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
-      "created_at": "2022-07-07T11:51:24.091Z",
-      "assetVersion": 1,
-      "platform": "android",
-      "unityVersion": "2019.4.31f1",
-      "variant": "standard",
-      "scanStatus": "passed"
-    },
-    {
-      "id": "unp_290ee8b3-8aea-4135-97d8-327c061c11ed",
-      "created_at": "2024-04-26T21:30:32.655Z",
-      "assetVersion": 1,
-      "platform": "ios",
-      "unityVersion": "2019.4.31f1",
-      "variant": "standard",
-      "scanStatus": "passed"
-    }
-  ],
+  "id": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
+  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
+  "name": "Bella Bear Public - by Mai",
+  "releaseStatus": "public",
+  "tags": [],
+  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",
   "unityPackageUrl": "",
   "unityPackageUrlObject": {},
-  "created_at": "2022-01-27T01:34:07.257Z",
-  "updated_at": "2024-04-26T21:30:32.659Z"
+  "unityPackages": [
+    {
+      "assetVersion": 1,
+      "created_at": "2022-01-27T01:34:07.257Z",
+      "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
+      "platform": "standalonewindows",
+      "scanStatus": "passed",
+      "unityVersion": "2019.4.30f1",
+      "variant": "standard"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2022-02-03T06:57:10.346Z",
+      "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
+      "platform": "android",
+      "scanStatus": "unscanned",
+      "unityVersion": "2019.4.30f1",
+      "variant": "standard"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2022-07-07T11:36:36.197Z",
+      "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
+      "platform": "standalonewindows",
+      "scanStatus": "passed",
+      "unityVersion": "2019.4.31f1",
+      "variant": "standard"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2022-07-07T11:51:24.091Z",
+      "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
+      "platform": "android",
+      "scanStatus": "passed",
+      "unityVersion": "2019.4.31f1",
+      "variant": "standard"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2024-04-26T21:30:32.655Z",
+      "id": "unp_290ee8b3-8aea-4135-97d8-327c061c11ed",
+      "platform": "ios",
+      "scanStatus": "passed",
+      "unityVersion": "2019.4.31f1",
+      "variant": "standard"
+    }
+  ],
+  "updated_at": "2024-04-26T21:30:32.659Z",
+  "version": 27
 }
 ```
