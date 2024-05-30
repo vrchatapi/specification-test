@@ -29,6 +29,9 @@ Response schema mismatch: Cannot fit value in explicit enum at #/0/data/onPresse
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-delphi-c4q` |
+| x-vrc-api-version | `master-build-2024-05-30-farnsworth-y-goopfunk` |
 
 ```jsonc
 [

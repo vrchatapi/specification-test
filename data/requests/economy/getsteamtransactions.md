@@ -29,6 +29,9 @@ Response schema mismatch: Invalid type at #/0/agreement, Invalid type at #/1/agr
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-baffle-7b0` |
+| x-vrc-api-version | `master-build-2024-05-30-farnsworth-y-goopfunk` |
 
 ```jsonc
 [

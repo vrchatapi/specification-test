@@ -23,6 +23,9 @@
 | server | `cloudflare` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-wheeljack-8r8` |
+| x-vrc-api-version | `master-build-2024-05-30-farnsworth-y-goopfunk` |
 
 ```jsonc
 {

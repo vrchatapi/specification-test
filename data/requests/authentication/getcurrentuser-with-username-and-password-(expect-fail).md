@@ -30,6 +30,9 @@ Response schema mismatch: Missing property at #/id, Missing property at #/displa
 | set-cookie | `<redacted>` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-kampala-qbl` |
+| x-vrc-api-version | `master-build-2024-05-30-farnsworth-y-goopfunk` |
 
 ```jsonc
 {
