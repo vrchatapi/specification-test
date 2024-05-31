@@ -24,44 +24,12 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-undies-svx` |
-| x-vrc-api-version | `master-build-2024-05-30-farnsworth-y-goopfunk` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-curtalina-hhx` |
+| x-vrc-api-version | `master-build-2024-05-30-suki-boyegem` |
 
 ```jsonc
 [
-  {
-    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
-    "bioLinks": [
-      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
-      "https://www.deviantart.com/azuliezeiro"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_741a2b95-414b-49a9-8935-a4621743a37f/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_741a2b95-414b-49a9-8935-a4621743a37f/1/256",
-    "developerType": "none",
-    "displayName": "AzulieZeiro",
-    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "4‚000 year old loli",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "language_eng",
-      "system_early_adopter"
-    ],
-    "userIcon": ""
-  },
   {
     "bio": "おさかなのおさしみ\n逆から読んでもみしさおのなかさお",
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4f830608-acac-4f1f-8979-61d15afd6bca/1/file",
@@ -87,6 +55,38 @@
       "show_social_rank",
       "system_early_adopter",
       "language_jpn"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
+    "bioLinks": [
+      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
+      "https://www.deviantart.com/azuliezeiro"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6a345b41-5145-4b15-8bc4-49fbb242501f/2/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6a345b41-5145-4b15-8bc4-49fbb242501f/2/256",
+    "developerType": "none",
+    "displayName": "AzulieZeiro",
+    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "4‚000 year old loli",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "language_eng",
+      "system_early_adopter"
     ],
     "userIcon": ""
   },
@@ -138,7 +138,7 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "active",
+    "status": "ask me",
     "statusDescription": "",
     "tags": [
       "system_trust_basic",

@@ -25,9 +25,9 @@
 | server | `cloudflare` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-angel-rez` |
-| x-vrc-api-version | `master-build-2024-05-30-farnsworth-y-goopfunk` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-boris-hw6` |
+| x-vrc-api-version | `master-build-2024-05-30-suki-boyegem` |
 
 ```jsonc
 {
