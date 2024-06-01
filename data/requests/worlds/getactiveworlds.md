@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-sophia-1us` |
-| x-vrc-api-version | `master-build-2024-05-30-suki-boyegem` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-beer-ddj` |
+| x-vrc-api-version | `master-build-2024-06-01-beverly-fishgubbin` |
 
 ```jsonc
 <unstable>

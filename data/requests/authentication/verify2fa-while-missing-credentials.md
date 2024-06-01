@@ -22,9 +22,9 @@
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-destiny-yk3` |
-| x-vrc-api-version | `master-build-2024-05-30-suki-boyegem` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-fuddy-5kw` |
+| x-vrc-api-version | `master-build-2024-06-01-beverly-fishgubbin` |
 
 ```jsonc
 {

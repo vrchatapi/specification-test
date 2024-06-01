@@ -1,5 +1,10 @@
 # selectAvatar with default avatar id
 
+## Issues
+```
+Response schema mismatch: Unexpected property at #/isBoopingEnabled.
+```
+
 ## Request
 `put https://vrchat.com/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
@@ -23,9 +28,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-busan-e57` |
-| x-vrc-api-version | `master-build-2024-05-30-suki-boyegem` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-sacred-5vo` |
+| x-vrc-api-version | `master-build-2024-06-01-beverly-fishgubbin` |
 
 ```jsonc
 {
@@ -61,6 +66,16 @@
   "hideContentFilterSettings": false,
   "homeLocation": "",
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/isBoopingEnabled
+   */
+  "isBoopingEnabled": true,
   "isFriend": false,
   "last_activity": "<unstable: string>",
   "last_login": "<unstable: string>",

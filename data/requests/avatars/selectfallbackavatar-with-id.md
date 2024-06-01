@@ -1,5 +1,10 @@
 # selectFallbackAvatar with id
 
+## Issues
+```
+Response schema mismatch: Unexpected property at #/isBoopingEnabled.
+```
+
 ## Request
 `put https://vrchat.com/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
 
@@ -23,9 +28,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-tae-o32` |
-| x-vrc-api-version | `master-build-2024-05-30-suki-boyegem` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-scala-ex9` |
+| x-vrc-api-version | `master-build-2024-06-01-beverly-fishgubbin` |
 
 ```jsonc
 {
@@ -61,6 +66,16 @@
   "hideContentFilterSettings": false,
   "homeLocation": "",
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/isBoopingEnabled
+   */
+  "isBoopingEnabled": true,
   "isFriend": false,
   "last_activity": "<unstable: string>",
   "last_login": "<unstable: string>",

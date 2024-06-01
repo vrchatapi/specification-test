@@ -1,5 +1,10 @@
 # getCurrentUser after two-factor authentication
 
+## Issues
+```
+Response schema mismatch: Unexpected property at #/isBoopingEnabled.
+```
+
 ## Request
 `get https://vrchat.com/api/1/auth/user`
 
@@ -24,9 +29,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-felicity-sxy` |
-| x-vrc-api-version | `master-build-2024-05-30-suki-boyegem` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-plaid-1ht` |
+| x-vrc-api-version | `master-build-2024-06-01-beverly-fishgubbin` |
 
 ```jsonc
 {
@@ -43,8 +48,8 @@
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_ddea1398-ae13-41c4-8c74-6d7479337d40/1/file",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarTags": [
-    "admin_content_reviewed",
-    "admin_featured_legacy"
+    "admin_featured_legacy",
+    "admin_content_reviewed"
   ],
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "date_joined": "2023-04-11",
@@ -64,6 +69,16 @@
   "hideContentFilterSettings": false,
   "homeLocation": "",
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/isBoopingEnabled
+   */
+  "isBoopingEnabled": true,
   "isFriend": false,
   "last_activity": "<unstable: string>",
   "last_login": "<unstable: string>",
