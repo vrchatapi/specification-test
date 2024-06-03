@@ -25,29 +25,28 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-music-n8n` |
+| x-vrc-api-server | `prod-api-blue-the-vast-kb5` |
 | x-vrc-api-version | `master-build-2024-06-01-beverly-fishgubbin` |
 
 ```jsonc
 [
   {
-    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
+    "bio": "To see with eyes unclouded by hate․",
     "bioLinks": [
-      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
-      "https://www.deviantart.com/azuliezeiro"
+      "https://x.com/AzuTeaTime"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_93fa14b6-4ea2-48d2-a580-a3957474e2f9/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_93fa14b6-4ea2-48d2-a580-a3957474e2f9/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
     "developerType": "none",
-    "displayName": "AzulieZeiro",
-    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
+    "displayName": "Azuteatime",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
     "isFriend": false,
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
     "status": "active",
-    "statusDescription": "4‚000 year old loli",
+    "statusDescription": "",
     "tags": [
       "system_avatar_access",
       "system_world_access",
@@ -57,17 +56,18 @@
       "system_trust_trusted",
       "system_trust_veteran",
       "show_social_rank",
-      "language_eng",
-      "system_early_adopter"
+      "system_early_adopter",
+      "language_fra",
+      "language_eng"
     ],
     "userIcon": ""
   },
   {
     "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_de22ae4f-cce0-4ca0-abb5-dde9f463246a/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_3ff1b0a7-8e85-43a2-ba95-24218c1d21a3/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_de22ae4f-cce0-4ca0-abb5-dde9f463246a/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_3ff1b0a7-8e85-43a2-ba95-24218c1d21a3/1/256",
     "developerType": "none",
     "displayName": "aphex505",
     "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
@@ -75,7 +75,7 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "ask me",
+    "status": "active",
     "statusDescription": "",
     "tags": [
       "system_avatar_access",
@@ -96,9 +96,9 @@
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d2f04ba1-c237-448b-884c-e536686a7cd9/6/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_da267a2c-aef2-443e-8e09-7065936ec9af/2/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d2f04ba1-c237-448b-884c-e536686a7cd9/6/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_da267a2c-aef2-443e-8e09-7065936ec9af/2/256",
     "developerType": "none",
     "displayName": "Aggrakia",
     "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
@@ -123,15 +123,47 @@
     "userIcon": ""
   },
   {
+    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
+    "bioLinks": [
+      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
+      "https://www.deviantart.com/azuliezeiro"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6808f1bb-7a0e-4410-9b27-5e538dcb9f7e/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6808f1bb-7a0e-4410-9b27-5e538dcb9f7e/1/256",
+    "developerType": "none",
+    "displayName": "AzulieZeiro",
+    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "4‚000 year old loli",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "language_eng",
+      "system_early_adopter"
+    ],
+    "userIcon": ""
+  },
+  {
     "bio": "Just trying to be myself․",
     "bioLinks": [
       "https://www.guiltygear.com/ggst/en/",
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=r0ycdb99ksk"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9246f973-578e-4af7-a429-8bd8cba88f02/4/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9246f973-578e-4af7-a429-8bd8cba88f02/4/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/256",
     "developerType": "none",
     "displayName": "Averiff",
     "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
@@ -139,7 +171,7 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "active",
+    "status": "ask me",
     "statusDescription": "",
     "tags": [
       "system_trust_basic",
@@ -151,33 +183,6 @@
       "system_trust_veteran",
       "system_early_adopter",
       "language_eng"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "waiting for something to happen?\n\n＋Taken＋ ≺3",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_26da85fa-c238-4263-860e-8e6cf579e4a8/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_26da85fa-c238-4263-860e-8e6cf579e4a8/1/256",
-    "developerType": "none",
-    "displayName": "Antia",
-    "id": "usr_e6f50b40-3b11-437c-9ed6-7fca049ef792",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "On vrchat for android",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "system_early_adopter"
     ],
     "userIcon": ""
   }
