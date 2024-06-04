@@ -24,44 +24,12 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-the-vast-kb5` |
-| x-vrc-api-version | `master-build-2024-06-01-beverly-fishgubbin` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-rutherford-bhf` |
+| x-vrc-api-version | `master-build-2024-06-04-freja-prodomoto` |
 
 ```jsonc
 [
-  {
-    "bio": "To see with eyes unclouded by hate․",
-    "bioLinks": [
-      "https://x.com/AzuTeaTime"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
-    "developerType": "none",
-    "displayName": "Azuteatime",
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_fra",
-      "language_eng"
-    ],
-    "userIcon": ""
-  },
   {
     "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
     "bioLinks": [],
@@ -88,37 +56,6 @@
       "show_social_rank",
       "system_early_adopter",
       "language_jpn"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
-    "bioLinks": [
-      "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_da267a2c-aef2-443e-8e09-7065936ec9af/2/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_da267a2c-aef2-443e-8e09-7065936ec9af/2/256",
-    "developerType": "none",
-    "displayName": "Aggrakia",
-    "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "Full Of Soap",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_eng"
     ],
     "userIcon": ""
   },
@@ -155,9 +92,40 @@
     "userIcon": ""
   },
   {
+    "bio": "To see with eyes unclouded by hate․",
+    "bioLinks": [
+      "https://x.com/AzuTeaTime"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
+    "developerType": "none",
+    "displayName": "Azuteatime",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_fra",
+      "language_eng"
+    ],
+    "userIcon": ""
+  },
+  {
     "bio": "Just trying to be myself․",
     "bioLinks": [
-      "https://www.guiltygear.com/ggst/en/",
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=r0ycdb99ksk"
     ],
@@ -171,7 +139,7 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "ask me",
+    "status": "active",
     "statusDescription": "",
     "tags": [
       "system_trust_basic",
@@ -181,6 +149,37 @@
       "system_feedback_access",
       "system_trust_trusted",
       "system_trust_veteran",
+      "system_early_adopter",
+      "language_eng"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
+    "bioLinks": [
+      "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_822c67a5-ed88-4f82-b4c6-098b1051c54a/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_822c67a5-ed88-4f82-b4c6-098b1051c54a/1/256",
+    "developerType": "none",
+    "displayName": "Aggrakia",
+    "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "Full Of Soap",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
       "system_early_adopter",
       "language_eng"
     ],

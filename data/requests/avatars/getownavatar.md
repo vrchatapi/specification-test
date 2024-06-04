@@ -24,26 +24,23 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-captain-v98` |
-| x-vrc-api-version | `master-build-2024-06-01-beverly-fishgubbin` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-white-2gt` |
+| x-vrc-api-version | `master-build-2024-06-04-freja-prodomoto` |
 
 ```jsonc
 {
-  "authorId": "8JoV9XEdpo",
-  "authorName": "vrchat",
-  "created_at": "2016-11-30T03:47:35.000Z",
-  "description": "Beep Boop",
+  "authorId": "usr_6eb7f0ee-b71c-47a1-b37f-d2c6567a940e",
+  "authorName": "Mai♡",
+  "created_at": "2022-01-27T01:34:07.257Z",
+  "description": "Bella Bear Public - by Mai",
   "featured": false,
-  "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "name": "Robot",
+  "id": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
+  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
+  "name": "Bella Bear Public - by Mai",
   "releaseStatus": "public",
-  "tags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
-  ],
-  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "tags": [],
+  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",
   "unityPackageUrl": "",
   "unityPackageUrlObject": {},
   "unityPackages": "<unstable: array>",

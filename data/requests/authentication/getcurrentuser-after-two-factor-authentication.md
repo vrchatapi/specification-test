@@ -29,9 +29,9 @@ Response schema mismatch: Unexpected property at #/isBoopingEnabled.
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-edith-98g` |
-| x-vrc-api-version | `master-build-2024-06-01-beverly-fishgubbin` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-paul-hyz` |
+| x-vrc-api-version | `master-build-2024-06-04-freja-prodomoto` |
 
 ```jsonc
 {
@@ -44,14 +44,14 @@ Response schema mismatch: Unexpected property at #/isBoopingEnabled.
   "badges": [],
   "bio": "",
   "bioLinks": [],
-  "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_ddea1398-ae13-41c4-8c74-6d7479337d40/1/file",
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "currentAvatar": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
+  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_84e00c33-6b87-44eb-830a-757b56b62e8e/1/file",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
   "currentAvatarTags": [
-    "admin_content_reviewed",
-    "admin_featured_legacy"
+    "admin_featured_legacy",
+    "admin_content_reviewed"
   ],
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",
   "date_joined": "2023-04-11",
   "developerType": "none",
   "displayName": "8cf3def6b8cea",
