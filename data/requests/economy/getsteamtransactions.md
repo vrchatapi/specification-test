@@ -30,8 +30,8 @@ Response schema mismatch: Invalid type at #/0/agreement, Invalid type at #/1/agr
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-goro-mn4` |
-| x-vrc-api-version | `master-build-2024-06-04-freja-prodomoto` |
+| x-vrc-api-server | `prod-api-green-saffronbread-x3h` |
+| x-vrc-api-version | `master-build-2024-06-04-the-endless-knickerscheesebread` |
 
 ```jsonc
 [

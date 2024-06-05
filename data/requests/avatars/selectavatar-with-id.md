@@ -29,8 +29,8 @@ Response schema mismatch: Unexpected property at #/isBoopingEnabled.
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-ridley-tan` |
-| x-vrc-api-version | `master-build-2024-06-04-freja-prodomoto` |
+| x-vrc-api-server | `prod-api-green-note-kep` |
+| x-vrc-api-version | `master-build-2024-06-04-the-endless-knickerscheesebread` |
 
 ```jsonc
 {

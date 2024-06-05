@@ -25,8 +25,8 @@
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-seto-0iy` |
-| x-vrc-api-version | `master-build-2024-06-04-freja-prodomoto` |
+| x-vrc-api-server | `prod-api-green-trundle-83i` |
+| x-vrc-api-version | `master-build-2024-06-04-the-endless-knickerscheesebread` |
 
 ```jsonc
 {
