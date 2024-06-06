@@ -25,9 +25,9 @@
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-stinky-5vn` |
-| x-vrc-api-version | `master-build-2024-06-04-the-endless-knickerscheesebread` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-zariel-jq9` |
+| x-vrc-api-version | `master-build-2024-06-05-turkey-upgrademeal` |
 
 ```jsonc
 []

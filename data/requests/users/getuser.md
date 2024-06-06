@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/platform.
+Response schema mismatch: Unexpected property at #/platform, Unexpected property at #/profilePicOverrideThumbnail.
 ```
 
 ## Request
@@ -29,9 +29,9 @@ Response schema mismatch: Unexpected property at #/platform.
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-alphabeta-ugs` |
-| x-vrc-api-version | `master-build-2024-06-04-the-endless-knickerscheesebread` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-forgettable-cqg` |
+| x-vrc-api-version | `master-build-2024-06-05-turkey-upgrademeal` |
 
 ```jsonc
 {
@@ -81,6 +81,16 @@ Response schema mismatch: Unexpected property at #/platform.
    */
   "platform": "offline",
   "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
+  /**
+   * Unexpected property.
+   *
+   * @schema User
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/profilePicOverrideThumbnail
+   */
+  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/512",
   "pronouns": "",
   "state": "offline",
   "status": "ask me",

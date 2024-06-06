@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/isBoopingEnabled.
+Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
 ```
 
 ## Request
@@ -28,9 +28,9 @@ Response schema mismatch: Unexpected property at #/isBoopingEnabled.
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-chip-fiy` |
-| x-vrc-api-version | `master-build-2024-06-04-the-endless-knickerscheesebread` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-mike-c9b` |
+| x-vrc-api-version | `master-build-2024-06-05-turkey-upgrademeal` |
 
 ```jsonc
 {
@@ -66,15 +66,6 @@ Response schema mismatch: Unexpected property at #/isBoopingEnabled.
   "hideContentFilterSettings": false,
   "homeLocation": "",
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/isBoopingEnabled
-   */
   "isBoopingEnabled": true,
   "isFriend": false,
   "last_activity": "<unstable: string>",
@@ -87,6 +78,16 @@ Response schema mismatch: Unexpected property at #/isBoopingEnabled.
   "pastDisplayNames": [],
   "picoId": "",
   "profilePicOverride": "",
+  /**
+   * Unexpected property.
+   *
+   * @schema CurrentUser
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/profilePicOverrideThumbnail
+   */
+  "profilePicOverrideThumbnail": "",
   "pronouns": "",
   "state": "offline",
   "status": "active",

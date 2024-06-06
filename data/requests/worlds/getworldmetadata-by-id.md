@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-trundle-83i` |
-| x-vrc-api-version | `master-build-2024-06-04-the-endless-knickerscheesebread` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-where-7m1` |
+| x-vrc-api-version | `master-build-2024-06-05-turkey-upgrademeal` |
 
 ```jsonc
 {
