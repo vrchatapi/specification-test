@@ -28,9 +28,9 @@ Response schema mismatch: Missing property at #/userExists, Unexpected property 
 | server | `cloudflare` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-sam-cqv` |
-| x-vrc-api-version | `master-build-2024-06-05-turkey-upgrademeal` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-hamza-gdt` |
+| x-vrc-api-version | `master-build-2024-06-07-mackenzie-u-letterwrath` |
 
 ```jsonc
 {

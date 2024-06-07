@@ -15,7 +15,7 @@
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
@@ -23,9 +23,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-hammer-g4b` |
-| x-vrc-api-version | `master-build-2024-06-05-turkey-upgrademeal` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-robyn-9fk` |
+| x-vrc-api-version | `master-build-2024-06-07-mackenzie-u-letterwrath` |
 
 ```jsonc
 {

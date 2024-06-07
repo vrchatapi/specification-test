@@ -1,10 +1,5 @@
 # selectAvatar with default avatar id
 
-## Issues
-```
-Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
-```
-
 ## Request
 `put https://vrchat.com/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
@@ -20,7 +15,7 @@ Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
@@ -28,9 +23,9 @@ Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-mike-c9b` |
-| x-vrc-api-version | `master-build-2024-06-05-turkey-upgrademeal` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-sausage-qzw` |
+| x-vrc-api-version | `master-build-2024-06-07-mackenzie-u-letterwrath` |
 
 ```jsonc
 {
@@ -78,15 +73,6 @@ Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
   "pastDisplayNames": [],
   "picoId": "",
   "profilePicOverride": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/profilePicOverrideThumbnail
-   */
   "profilePicOverrideThumbnail": "",
   "pronouns": "",
   "state": "offline",

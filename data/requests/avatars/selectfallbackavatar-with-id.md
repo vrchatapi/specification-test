@@ -1,10 +1,5 @@
 # selectFallbackAvatar with id
 
-## Issues
-```
-Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
-```
-
 ## Request
 `put https://vrchat.com/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
 
@@ -20,7 +15,7 @@ Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
-| cache-control | `private, no-cache, no-store` |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
@@ -28,9 +23,9 @@ Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-canal-kux` |
-| x-vrc-api-version | `master-build-2024-06-05-turkey-upgrademeal` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-sausage-0yi` |
+| x-vrc-api-version | `master-build-2024-06-07-mackenzie-u-letterwrath` |
 
 ```jsonc
 {
@@ -45,8 +40,8 @@ Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_ddea1398-ae13-41c4-8c74-6d7479337d40/1/file",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarTags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
+    "admin_content_reviewed",
+    "admin_featured_legacy"
   ],
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "date_joined": "2023-04-11",
@@ -78,15 +73,6 @@ Response schema mismatch: Unexpected property at #/profilePicOverrideThumbnail.
   "pastDisplayNames": [],
   "picoId": "",
   "profilePicOverride": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/profilePicOverrideThumbnail
-   */
   "profilePicOverrideThumbnail": "",
   "pronouns": "",
   "state": "offline",
