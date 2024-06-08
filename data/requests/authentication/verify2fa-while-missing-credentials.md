@@ -23,8 +23,8 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-suki-afd` |
-| x-vrc-api-version | `master-build-2024-06-07-mackenzie-u-letterwrath` |
+| x-vrc-api-server | `prod-api-green-cronch-lm8` |
+| x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc
 {

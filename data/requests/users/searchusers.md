@@ -25,8 +25,8 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-late-r8b` |
-| x-vrc-api-version | `master-build-2024-06-07-mackenzie-u-letterwrath` |
+| x-vrc-api-server | `prod-api-green-spin-v9c` |
+| x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc
 [
@@ -63,6 +63,26 @@
       "system_supporter"
     ],
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_c0cdc832-861b-403a-804a-066c51baee7f/1/"
+  },
+  {
+    "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e99aebe8-2af9-4d67-9763-80db8bd9088a/2/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e99aebe8-2af9-4d67-9763-80db8bd9088a/2/256",
+    "developerType": "none",
+    "displayName": "͘tupper",
+    "id": "usr_15a5bd3a-e64f-418c-a895-36e4d3db3b88",
+    "isFriend": false,
+    "last_platform": "android",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "Hewwow",
+    "tags": [
+      "language_eng"
+    ],
+    "userIcon": ""
   },
   {
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
@@ -196,21 +216,6 @@
     "tags": [
       "show_social_rank"
     ],
-    "userIcon": ""
-  },
-  {
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9efe5704-7689-4cc0-8693-314c3008d010/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9efe5704-7689-4cc0-8693-314c3008d010/1/256",
-    "developerType": "none",
-    "displayName": "tupperware 3340",
-    "id": "usr_32c94cc7-6681-4a1c-a94b-d055b1f63340",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [],
     "userIcon": ""
   }
 ]

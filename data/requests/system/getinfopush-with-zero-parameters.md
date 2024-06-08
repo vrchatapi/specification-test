@@ -1,5 +1,10 @@
 # getInfoPush with zero parameters
 
+## Issues
+```
+Response schema mismatch: Invalid type at #.
+```
+
 ## Request
 `get https://vrchat.com/api/1/infoPush`
 
@@ -10,25 +15,28 @@
 
 
 ## Response
-`200 OK`
+`400 Bad Request`
 
 | Header | Value |
 | ------ | ----- |
-| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `2` |
+| content-length | `81` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-boring-uj9` |
-| x-vrc-api-version | `master-build-2024-06-07-mackenzie-u-letterwrath` |
+| x-vrc-api-server | `prod-api-green-aurora-2ws` |
+| x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc
-[]
+{
+  "error": {
+    "message": "Parameter `require` must be an array․",
+    "status_code": 400
+  }
+}
 ```

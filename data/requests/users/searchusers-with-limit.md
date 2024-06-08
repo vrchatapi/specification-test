@@ -25,49 +25,20 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-babka-y6c` |
-| x-vrc-api-version | `master-build-2024-06-07-mackenzie-u-letterwrath` |
+| x-vrc-api-server | `prod-api-green-pacha-vpz` |
+| x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc
 [
-  {
-    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_de22ae4f-cce0-4ca0-abb5-dde9f463246a/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_de22ae4f-cce0-4ca0-abb5-dde9f463246a/1/256",
-    "developerType": "none",
-    "displayName": "aphex505",
-    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_jpn"
-    ],
-    "userIcon": ""
-  },
   {
     "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
     "bioLinks": [
       "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
       "https://www.deviantart.com/azuliezeiro"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6808f1bb-7a0e-4410-9b27-5e538dcb9f7e/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_5dd03434-c4ef-48a0-b494-eab63261223c/3/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6808f1bb-7a0e-4410-9b27-5e538dcb9f7e/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_5dd03434-c4ef-48a0-b494-eab63261223c/3/256",
     "developerType": "none",
     "displayName": "AzulieZeiro",
     "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
@@ -128,9 +99,9 @@
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_f9ad434d-9998-4e7a-af2a-3677583a4c0e/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4af8dcbc-55fa-4587-92b6-9a6c6030c45f/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_f9ad434d-9998-4e7a-af2a-3677583a4c0e/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4af8dcbc-55fa-4587-92b6-9a6c6030c45f/1/256",
     "developerType": "none",
     "displayName": "Aggrakia",
     "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
@@ -155,14 +126,43 @@
     "userIcon": ""
   },
   {
-    "bio": "Just trying to be myself․",
+    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_5e865b0e-403a-4605-a95e-6e5d3e09111a/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_5e865b0e-403a-4605-a95e-6e5d3e09111a/1/256",
+    "developerType": "none",
+    "displayName": "aphex505",
+    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_jpn"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "Just trying to be myself․\n\nIf you try to call me a ＂god＂ or ＂legend＂ for making VRChat worlds I will punch you․",
     "bioLinks": [
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=d4dVWC5b4jg"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_21cb3f54-5541-4d9a-aa30-d7685c111a80/5/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_21cb3f54-5541-4d9a-aa30-d7685c111a80/5/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/256",
     "developerType": "none",
     "displayName": "Averiff",
     "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
