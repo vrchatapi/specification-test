@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-spin-v9c` |
+| x-vrc-api-server | `prod-api-green-maria-cje` |
 | x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc
@@ -62,19 +62,19 @@
       "system_cute_robot",
       "system_supporter"
     ],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_c0cdc832-861b-403a-804a-066c51baee7f/1/"
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_327b9cb3-0ed3-4bfd-b4f7-d1ec91c5be61/1/"
   },
   {
     "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e99aebe8-2af9-4d67-9763-80db8bd9088a/2/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4afe6238-0a23-42a8-8f6b-8ec506e5fee7/3/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e99aebe8-2af9-4d67-9763-80db8bd9088a/2/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4afe6238-0a23-42a8-8f6b-8ec506e5fee7/3/256",
     "developerType": "none",
     "displayName": "͘tupper",
     "id": "usr_15a5bd3a-e64f-418c-a895-36e4d3db3b88",
     "isFriend": false,
-    "last_platform": "android",
+    "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
     "status": "active",

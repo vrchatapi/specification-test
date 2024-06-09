@@ -30,7 +30,7 @@ Response schema mismatch: Unexpected property at #/platform.
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-deluxe-jmf` |
+| x-vrc-api-server | `prod-api-green-og-0xe` |
 | x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc
@@ -103,7 +103,7 @@ Response schema mismatch: Unexpected property at #/platform.
     "system_cute_robot",
     "system_supporter"
   ],
-  "userIcon": "https://api.vrchat.cloud/api/1/file/file_c0cdc832-861b-403a-804a-066c51baee7f/1/",
+  "userIcon": "https://api.vrchat.cloud/api/1/file/file_327b9cb3-0ed3-4bfd-b4f7-d1ec91c5be61/1/",
   "worldId": "offline"
 }
 ```
