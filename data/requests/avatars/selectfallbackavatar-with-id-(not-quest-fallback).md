@@ -24,7 +24,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-ham-zjp` |
+| x-vrc-api-server | `prod-api-green-dawson-k5n` |
 | x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc

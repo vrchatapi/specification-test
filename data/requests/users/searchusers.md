@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-maria-cje` |
+| x-vrc-api-server | `prod-api-green-video-ivg` |
 | x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc
@@ -62,7 +62,7 @@
       "system_cute_robot",
       "system_supporter"
     ],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_327b9cb3-0ed3-4bfd-b4f7-d1ec91c5be61/1/"
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_1b381c3f-81f3-4219-9a9f-f376d61b6526/1/"
   },
   {
     "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
@@ -80,7 +80,10 @@
     "status": "active",
     "statusDescription": "Hewwow",
     "tags": [
-      "language_eng"
+      "language_eng",
+      "system_world_access",
+      "system_avatar_access",
+      "system_trust_basic"
     ],
     "userIcon": ""
   },

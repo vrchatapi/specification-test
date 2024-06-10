@@ -30,7 +30,7 @@ Response schema mismatch: undefined at #/unityPackages/15/assetUrl.
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-python-t4t` |
+| x-vrc-api-server | `prod-api-green-armor-xke` |
 | x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc

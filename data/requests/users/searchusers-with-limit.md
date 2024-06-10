@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-pickle-61g` |
+| x-vrc-api-server | `prod-api-green-chance-0v5` |
 | x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
 
 ```jsonc
@@ -36,9 +36,9 @@
       "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
       "https://www.deviantart.com/azuliezeiro"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_5dd03434-c4ef-48a0-b494-eab63261223c/3/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_741a2b95-414b-49a9-8935-a4621743a37f/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_5dd03434-c4ef-48a0-b494-eab63261223c/3/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_741a2b95-414b-49a9-8935-a4621743a37f/1/256",
     "developerType": "none",
     "displayName": "AzulieZeiro",
     "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
@@ -124,44 +124,13 @@
     "userIcon": ""
   },
   {
-    "bio": "Just trying to be myself․\n\nIf you try to call me a ＂god＂ or ＂legend＂ for making VRChat worlds I will punch you․",
-    "bioLinks": [
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=d4dVWC5b4jg"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/256",
-    "developerType": "none",
-    "displayName": "Averiff",
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "",
-    "tags": [
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "system_early_adopter",
-      "language_eng"
-    ],
-    "userIcon": ""
-  },
-  {
     "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_3672eedf-edeb-4995-b58c-14ba68c485a7/2/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_822c67a5-ed88-4f82-b4c6-098b1051c54a/3/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_3672eedf-edeb-4995-b58c-14ba68c485a7/2/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_822c67a5-ed88-4f82-b4c6-098b1051c54a/3/256",
     "developerType": "none",
     "displayName": "Aggrakia",
     "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
@@ -180,6 +149,37 @@
       "system_trust_trusted",
       "system_trust_veteran",
       "show_social_rank",
+      "system_early_adopter",
+      "language_eng"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "Just trying to be myself․\n\nIf you try to call me a ＂god＂ or ＂legend＂ for making VRChat worlds I will punch you․",
+    "bioLinks": [
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=d4dVWC5b4jg"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9436d268-8c2b-47b4-9451-4b7eed62dcb3/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9436d268-8c2b-47b4-9451-4b7eed62dcb3/1/256",
+    "developerType": "none",
+    "displayName": "Averiff",
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "",
+    "tags": [
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
       "system_early_adopter",
       "language_eng"
     ],
