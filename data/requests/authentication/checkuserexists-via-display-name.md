@@ -25,9 +25,9 @@
 | server | `cloudflare` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-tasty-ngn` |
-| x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-brienne-0c1` |
+| x-vrc-api-version | `master-build-2024-06-10-rear-admiral-dumpvelvet` |
 
 ```jsonc
 {

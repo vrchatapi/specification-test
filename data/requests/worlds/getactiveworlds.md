@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-celes-7w3` |
-| x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-throw-jjn` |
+| x-vrc-api-version | `master-build-2024-06-10-rear-admiral-dumpvelvet` |
 
 ```jsonc
 <unstable>

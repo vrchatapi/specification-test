@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-video-ivg` |
-| x-vrc-api-version | `master-build-2024-06-07-kylie-e-pumpernickelblarborries` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-skull-ffx` |
+| x-vrc-api-version | `master-build-2024-06-10-rear-admiral-dumpvelvet` |
 
 ```jsonc
 [
@@ -63,29 +63,6 @@
       "system_supporter"
     ],
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_1b381c3f-81f3-4219-9a9f-f376d61b6526/1/"
-  },
-  {
-    "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4afe6238-0a23-42a8-8f6b-8ec506e5fee7/3/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4afe6238-0a23-42a8-8f6b-8ec506e5fee7/3/256",
-    "developerType": "none",
-    "displayName": "͘tupper",
-    "id": "usr_15a5bd3a-e64f-418c-a895-36e4d3db3b88",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "Hewwow",
-    "tags": [
-      "language_eng",
-      "system_world_access",
-      "system_avatar_access",
-      "system_trust_basic"
-    ],
-    "userIcon": ""
   },
   {
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
@@ -153,6 +130,24 @@
       "system_avatar_access",
       "system_world_access"
     ],
+    "userIcon": ""
+  },
+  {
+    "bio": "",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_f3915e10-9185-46c3-9d76-47c0f5dd1b24/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_f3915e10-9185-46c3-9d76-47c0f5dd1b24/1/256",
+    "developerType": "none",
+    "displayName": "Tupperware 7081",
+    "id": "usr_33251c89-afd2-45ae-aa45-ac28702a7081",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [],
     "userIcon": ""
   },
   {
