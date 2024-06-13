@@ -31,9 +31,9 @@
 | set-cookie | `<redacted>` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-hammerfest-i1e` |
-| x-vrc-api-version | `master-build-2024-06-11-artemis-k-shootaggrieve` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-december-q0i` |
+| x-vrc-api-version | `master-build-2024-06-12-nice-p-integrationknight` |
 
 ```jsonc
 {

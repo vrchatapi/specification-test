@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-korg-4py` |
-| x-vrc-api-version | `master-build-2024-06-11-artemis-k-shootaggrieve` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-stack-dn5` |
+| x-vrc-api-version | `master-build-2024-06-12-nice-p-integrationknight` |
 
 ```jsonc
 {
