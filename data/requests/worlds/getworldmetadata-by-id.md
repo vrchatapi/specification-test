@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-sabin-poo` |
-| x-vrc-api-version | `master-build-2024-06-12-nice-p-integrationknight` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-poco-oyr` |
+| x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc
 {

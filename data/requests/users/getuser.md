@@ -29,9 +29,9 @@ Response schema mismatch: Unexpected property at #/platform.
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-couronne-c6z` |
-| x-vrc-api-version | `master-build-2024-06-12-nice-p-integrationknight` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-fard-xjl` |
+| x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc
 {

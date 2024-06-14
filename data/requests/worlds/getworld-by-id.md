@@ -1,10 +1,5 @@
 # getWorld by id
 
-## Issues
-```
-Response schema mismatch: undefined at #/unityPackages/15/assetUrl.
-```
-
 ## Request
 `get https://vrchat.com/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
 
@@ -29,9 +24,9 @@ Response schema mismatch: undefined at #/unityPackages/15/assetUrl.
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-ranch-4mu` |
-| x-vrc-api-version | `master-build-2024-06-12-nice-p-integrationknight` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-open-o2k` |
+| x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc
 {

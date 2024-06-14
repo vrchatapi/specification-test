@@ -24,23 +24,21 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-cottageloaf-kf7` |
-| x-vrc-api-version | `master-build-2024-06-12-nice-p-integrationknight` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-jose-9us` |
+| x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc
 [
   {
-    "bio": "To see with eyes unclouded by hate․",
-    "bioLinks": [
-      "https://x.com/AzuTeaTime"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
+    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_f4594a25-ec20-4a8b-8d58-e1a00ac30014/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_f4594a25-ec20-4a8b-8d58-e1a00ac30014/1/256",
     "developerType": "none",
-    "displayName": "Azuteatime",
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "displayName": "aphex505",
+    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
     "isFriend": false,
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
@@ -57,8 +55,7 @@
       "system_trust_veteran",
       "show_social_rank",
       "system_early_adopter",
-      "language_fra",
-      "language_eng"
+      "language_jpn"
     ],
     "userIcon": ""
   },
@@ -95,14 +92,16 @@
     "userIcon": ""
   },
   {
-    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_f4594a25-ec20-4a8b-8d58-e1a00ac30014/1/file",
+    "bio": "To see with eyes unclouded by hate․",
+    "bioLinks": [
+      "https://x.com/AzuTeaTime"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_f4594a25-ec20-4a8b-8d58-e1a00ac30014/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
     "developerType": "none",
-    "displayName": "aphex505",
-    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
+    "displayName": "Azuteatime",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
     "isFriend": false,
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
@@ -119,7 +118,8 @@
       "system_trust_veteran",
       "show_social_rank",
       "system_early_adopter",
-      "language_jpn"
+      "language_fra",
+      "language_eng"
     ],
     "userIcon": ""
   },
@@ -128,9 +128,9 @@
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_2df9f97f-067b-4b4f-8849-da3057672d06/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_822c67a5-ed88-4f82-b4c6-098b1051c54a/3/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_2df9f97f-067b-4b4f-8849-da3057672d06/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_822c67a5-ed88-4f82-b4c6-098b1051c54a/3/256",
     "developerType": "none",
     "displayName": "Aggrakia",
     "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
@@ -160,9 +160,9 @@
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=d4dVWC5b4jg"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_00e61e3e-1e64-442f-ba25-98e89b09225d/8/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_00e61e3e-1e64-442f-ba25-98e89b09225d/8/256",
     "developerType": "none",
     "displayName": "Averiff",
     "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
