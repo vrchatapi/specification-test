@@ -28,8 +28,8 @@ Response schema mismatch: Invalid type at #.
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-marge-a46` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-performance-oyz` |
 | x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc

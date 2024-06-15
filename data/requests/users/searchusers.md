@@ -24,8 +24,8 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-magenta-8go` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-innovate-3k6` |
 | x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc
@@ -63,6 +63,26 @@
       "system_supporter"
     ],
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_1b381c3f-81f3-4219-9a9f-f376d61b6526/1/"
+  },
+  {
+    "bio": "",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+    "developerType": "none",
+    "displayName": "Tupper﮳",
+    "id": "usr_264b42b8-49bf-48e2-9775-6b133dbc95b2",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "language_eng"
+    ],
+    "userIcon": ""
   },
   {
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
@@ -195,25 +215,6 @@
     "status": "active",
     "statusDescription": "",
     "tags": [],
-    "userIcon": ""
-  },
-  {
-    "bio": "",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://assets.vrchat.com/system/defaultAvatar.png",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/system/defaultAvatarThumbnail.png",
-    "developerType": "none",
-    "displayName": "tupper_test2_a",
-    "id": "usr_a10f22e1-1cf4-4c06-a00b-09b609570528",
-    "isFriend": false,
-    "last_platform": "android",
-    "profilePicOverride": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "show_social_rank"
-    ],
     "userIcon": ""
   }
 ]
