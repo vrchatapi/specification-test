@@ -25,11 +25,43 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-salmon-urt` |
+| x-vrc-api-server | `prod-api-blue-noodle-hrz` |
 | x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc
 [
+  {
+    "bio": "To see with eyes unclouded by hate․",
+    "bioLinks": [
+      "https://x.com/AzuTeaTime"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_cec2d97b-8da2-47d2-91df-ee1f70b35c72/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_cec2d97b-8da2-47d2-91df-ee1f70b35c72/1/256",
+    "developerType": "none",
+    "displayName": "Azuteatime",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_fra",
+      "language_eng"
+    ],
+    "userIcon": ""
+  },
   {
     "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
     "bioLinks": [
@@ -63,75 +95,14 @@
     "userIcon": ""
   },
   {
-    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_f4594a25-ec20-4a8b-8d58-e1a00ac30014/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_f4594a25-ec20-4a8b-8d58-e1a00ac30014/1/256",
-    "developerType": "none",
-    "displayName": "aphex503",
-    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_jpn"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "To see with eyes unclouded by hate․",
-    "bioLinks": [
-      "https://x.com/AzuTeaTime"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
-    "developerType": "none",
-    "displayName": "Azuteatime",
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_fra",
-      "language_eng"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "",
+    "bio": "I'm the Eminem of VRChat․",
     "bioLinks": [
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=d4dVWC5b4jg"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d05e9bef-bfc8-40a7-aa39-5af8b08ad978/4/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d05e9bef-bfc8-40a7-aa39-5af8b08ad978/4/256",
     "developerType": "none",
     "displayName": "Averiff",
     "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
@@ -182,6 +153,35 @@
       "show_social_rank",
       "system_early_adopter",
       "language_eng"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_124e522f-98e8-4e30-84e4-55347ceb15b6/2/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_124e522f-98e8-4e30-84e4-55347ceb15b6/2/256",
+    "developerType": "none",
+    "displayName": "aphex503",
+    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_jpn"
     ],
     "userIcon": ""
   }

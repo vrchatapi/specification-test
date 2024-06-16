@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-matheus-4td` |
+| x-vrc-api-server | `prod-api-blue-tijuana-b3u` |
 | x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc

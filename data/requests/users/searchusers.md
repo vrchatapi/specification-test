@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-innovate-3k6` |
+| x-vrc-api-server | `prod-api-blue-kale-pp4` |
 | x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc
@@ -65,11 +65,11 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_1b381c3f-81f3-4219-9a9f-f376d61b6526/1/"
   },
   {
-    "bio": "",
+    "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9f7ae324-0176-4a32-88ff-73c90f87b6d1/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9f7ae324-0176-4a32-88ff-73c90f87b6d1/1/256",
     "developerType": "none",
     "displayName": "Tupper﮳",
     "id": "usr_264b42b8-49bf-48e2-9775-6b133dbc95b2",
@@ -77,8 +77,8 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
+    "status": "join me",
+    "statusDescription": "You aint got swag like me",
     "tags": [
       "language_eng"
     ],
