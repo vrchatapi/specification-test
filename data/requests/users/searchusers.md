@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-kale-pp4` |
+| x-vrc-api-server | `prod-api-blue-heimlich-jrn` |
 | x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
 
 ```jsonc
@@ -62,7 +62,7 @@
       "system_cute_robot",
       "system_supporter"
     ],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_1b381c3f-81f3-4219-9a9f-f376d61b6526/1/"
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
     "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
@@ -80,7 +80,10 @@
     "status": "join me",
     "statusDescription": "You aint got swag like me",
     "tags": [
-      "language_eng"
+      "language_eng",
+      "system_world_access",
+      "system_trust_basic",
+      "system_avatar_access"
     ],
     "userIcon": ""
   },
