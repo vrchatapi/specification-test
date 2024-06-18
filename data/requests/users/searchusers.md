@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-heimlich-jrn` |
-| x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-poopfart-h54` |
+| x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc
 [
@@ -67,9 +67,9 @@
   {
     "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9f7ae324-0176-4a32-88ff-73c90f87b6d1/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d4384ddc-9385-4bde-8f67-9603d4e68429/4/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9f7ae324-0176-4a32-88ff-73c90f87b6d1/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d4384ddc-9385-4bde-8f67-9603d4e68429/4/256",
     "developerType": "none",
     "displayName": "Tupper﮳",
     "id": "usr_264b42b8-49bf-48e2-9775-6b133dbc95b2",

@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-club-9nb` |
-| x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-leash-0ix` |
+| x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc
 {

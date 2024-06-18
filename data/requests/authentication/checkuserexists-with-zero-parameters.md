@@ -23,9 +23,9 @@
 | server | `cloudflare` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-beef-tde` |
-| x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-chani-z9j` |
+| x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc
 {

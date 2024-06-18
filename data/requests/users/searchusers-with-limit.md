@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-david-flm` |
-| x-vrc-api-version | `master-build-2024-06-13-admiral-chanceloquent` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-jormp-p08` |
+| x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc
 [
@@ -67,9 +67,9 @@
     "bioLinks": [
       "https://x.com/AzuTeaTime"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_5c970abe-8b6c-4d8f-89a6-678b21a082e3/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4a8603b4-d2af-44c4-89e8-ce3404fed84c/8/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_5c970abe-8b6c-4d8f-89a6-678b21a082e3/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4a8603b4-d2af-44c4-89e8-ce3404fed84c/8/256",
     "developerType": "none",
     "displayName": "Azuteatime",
     "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
@@ -90,37 +90,6 @@
       "show_social_rank",
       "system_early_adopter",
       "language_fra",
-      "language_eng"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "I'm the Eminem of VRChat․",
-    "bioLinks": [
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=d4dVWC5b4jg"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9c64e666-0bb5-4654-93c1-cd15b565ff38/1/256",
-    "developerType": "none",
-    "displayName": "Averiff",
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "",
-    "tags": [
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "system_early_adopter",
       "language_eng"
     ],
     "userIcon": ""
@@ -155,13 +124,44 @@
     "userIcon": ""
   },
   {
+    "bio": "I'm the Eminem of VRChat․",
+    "bioLinks": [
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=d4dVWC5b4jg"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/256",
+    "developerType": "none",
+    "displayName": "Averiff",
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "system_early_adopter",
+      "language_eng"
+    ],
+    "userIcon": ""
+  },
+  {
     "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1a393ded-564b-4853-b06f-9eb59f06c570/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_822c67a5-ed88-4f82-b4c6-098b1051c54a/3/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1a393ded-564b-4853-b06f-9eb59f06c570/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_822c67a5-ed88-4f82-b4c6-098b1051c54a/3/256",
     "developerType": "none",
     "displayName": "Aggrakia",
     "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
