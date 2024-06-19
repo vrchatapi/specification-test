@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-poopfart-h54` |
+| x-vrc-api-server | `prod-api-green-smelly-6bu` |
 | x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc
@@ -65,11 +65,11 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
-    "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
+    "bio": "I'm too swagalicious‚ fire emoji\n\n＃getbetterproblems\n＃scamforallowance",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d4384ddc-9385-4bde-8f67-9603d4e68429/4/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_687e1664-f94f-44d8-9126-60e35085afed/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d4384ddc-9385-4bde-8f67-9603d4e68429/4/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_687e1664-f94f-44d8-9126-60e35085afed/1/256",
     "developerType": "none",
     "displayName": "Tupper﮳",
     "id": "usr_264b42b8-49bf-48e2-9775-6b133dbc95b2",
@@ -77,8 +77,8 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "join me",
-    "statusDescription": "You aint got swag like me",
+    "status": "ask me",
+    "statusDescription": "I got poison in my sprite",
     "tags": [
       "language_eng",
       "system_world_access",

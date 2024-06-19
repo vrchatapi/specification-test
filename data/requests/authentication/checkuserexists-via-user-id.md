@@ -29,7 +29,7 @@ Response schema mismatch: Missing property at #/userExists, Unexpected property 
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-berdly-qke` |
+| x-vrc-api-server | `prod-api-green-avery-nao` |
 | x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc
