@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-smelly-6bu` |
+| x-vrc-api-server | `prod-api-green-game-fvw` |
 | x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc
@@ -67,9 +67,9 @@
   {
     "bio": "I'm too swagalicious‚ fire emoji\n\n＃getbetterproblems\n＃scamforallowance",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_687e1664-f94f-44d8-9126-60e35085afed/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b2a048cc-6693-4d87-afb6-0c94c975250d/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_687e1664-f94f-44d8-9126-60e35085afed/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b2a048cc-6693-4d87-afb6-0c94c975250d/1/256",
     "developerType": "none",
     "displayName": "Tupper﮳",
     "id": "usr_264b42b8-49bf-48e2-9775-6b133dbc95b2",
@@ -77,7 +77,7 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "ask me",
+    "status": "join me",
     "statusDescription": "I got poison in my sprite",
     "tags": [
       "language_eng",

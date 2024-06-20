@@ -30,7 +30,7 @@ Response schema mismatch: Unexpected property at #/platform.
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-seymour-z8c` |
+| x-vrc-api-server | `prod-api-green-leash-0ix` |
 | x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc

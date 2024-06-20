@@ -26,7 +26,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-carlbert-f28` |
+| x-vrc-api-server | `prod-api-green-house-o8g` |
 | x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc

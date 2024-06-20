@@ -31,7 +31,7 @@ Response schema mismatch: Missing property at #/id, Missing property at #/displa
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-gulp-n7v` |
+| x-vrc-api-server | `prod-api-green-clorb-f8i` |
 | x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
 
 ```jsonc
