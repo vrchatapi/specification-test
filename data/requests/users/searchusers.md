@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-game-fvw` |
-| x-vrc-api-version | `master-build-2024-06-17-jon-k-boattumbler` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-stack-38i` |
+| x-vrc-api-version | `master-build-2024-06-20-westminster-r-crudelies` |
 
 ```jsonc
 [
@@ -63,29 +63,6 @@
       "system_supporter"
     ],
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
-  },
-  {
-    "bio": "I'm too swagalicious‚ fire emoji\n\n＃getbetterproblems\n＃scamforallowance",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_b2a048cc-6693-4d87-afb6-0c94c975250d/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_b2a048cc-6693-4d87-afb6-0c94c975250d/1/256",
-    "developerType": "none",
-    "displayName": "Tupper﮳",
-    "id": "usr_264b42b8-49bf-48e2-9775-6b133dbc95b2",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "join me",
-    "statusDescription": "I got poison in my sprite",
-    "tags": [
-      "language_eng",
-      "system_world_access",
-      "system_trust_basic",
-      "system_avatar_access"
-    ],
-    "userIcon": ""
   },
   {
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
@@ -218,6 +195,25 @@
     "status": "active",
     "statusDescription": "",
     "tags": [],
+    "userIcon": ""
+  },
+  {
+    "bio": "",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://assets.vrchat.com/system/defaultAvatar.png",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/system/defaultAvatarThumbnail.png",
+    "developerType": "none",
+    "displayName": "tupper_test2_a",
+    "id": "usr_a10f22e1-1cf4-4c06-a00b-09b609570528",
+    "isFriend": false,
+    "last_platform": "android",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "show_social_rank"
+    ],
     "userIcon": ""
   }
 ]
