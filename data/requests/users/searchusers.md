@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-stack-38i` |
-| x-vrc-api-version | `master-build-2024-06-20-westminster-r-crudelies` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-penticton-j1i` |
+| x-vrc-api-version | `master-build-2024-06-21-bolin-moongalumph` |
 
 ```jsonc
 [
@@ -79,6 +79,24 @@
     "tags": [
       "show_social_rank"
     ],
+    "userIcon": ""
+  },
+  {
+    "bio": "",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_7adbd18b-33eb-491f-bda6-f5a3b5b6ed8c/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_7adbd18b-33eb-491f-bda6-f5a3b5b6ed8c/1/256",
+    "developerType": "none",
+    "displayName": "Tupper kid",
+    "id": "usr_cf6bf18f-4191-4e48-9e90-24f158de0092",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [],
     "userIcon": ""
   },
   {
@@ -195,25 +213,6 @@
     "status": "active",
     "statusDescription": "",
     "tags": [],
-    "userIcon": ""
-  },
-  {
-    "bio": "",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://assets.vrchat.com/system/defaultAvatar.png",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/system/defaultAvatarThumbnail.png",
-    "developerType": "none",
-    "displayName": "tupper_test2_a",
-    "id": "usr_a10f22e1-1cf4-4c06-a00b-09b609570528",
-    "isFriend": false,
-    "last_platform": "android",
-    "profilePicOverride": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "show_social_rank"
-    ],
     "userIcon": ""
   }
 ]
