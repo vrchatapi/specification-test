@@ -24,7 +24,7 @@
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-hat-8ea` |
+| x-vrc-api-server | `prod-api-green-case-oeu` |
 | x-vrc-api-version | `master-build-2024-06-21-bolin-moongalumph` |
 
 ```jsonc

@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-penticton-j1i` |
+| x-vrc-api-server | `prod-api-green-daegu-qzl` |
 | x-vrc-api-version | `master-build-2024-06-21-bolin-moongalumph` |
 
 ```jsonc
@@ -63,6 +63,24 @@
       "system_supporter"
     ],
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
+  },
+  {
+    "bio": "20 years old chill and ask to give cuddle",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d4d3c94f-69f7-45bb-9e69-5f54109f8218/2/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d4d3c94f-69f7-45bb-9e69-5f54109f8218/2/256",
+    "developerType": "none",
+    "displayName": "༒TUPPER༒",
+    "id": "usr_d1562cae-2cd6-4a35-80c9-0ea646a55479",
+    "isFriend": false,
+    "last_platform": "android",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [],
+    "userIcon": ""
   },
   {
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
@@ -192,21 +210,6 @@
     "developerType": "none",
     "displayName": "tupper_vrc a8ae",
     "id": "usr_3ab00d61-ff97-4e0b-adb7-90ba2097a8ae",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [],
-    "userIcon": ""
-  },
-  {
-    "currentAvatarImageUrl": "https://assets.vrchat.com/system/defaultAvatar.png",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://assets.vrchat.com/system/defaultAvatarThumbnail.png",
-    "developerType": "none",
-    "displayName": "tupper1010 a9c0",
-    "id": "usr_be4b70c7-f434-4603-bb3b-09404c12a9c0",
     "isFriend": false,
     "last_platform": "standalonewindows",
     "profilePicOverride": "",

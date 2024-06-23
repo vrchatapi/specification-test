@@ -24,7 +24,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-weed-de6` |
+| x-vrc-api-server | `prod-api-green-policy-byg` |
 | x-vrc-api-version | `master-build-2024-06-21-bolin-moongalumph` |
 
 ```jsonc

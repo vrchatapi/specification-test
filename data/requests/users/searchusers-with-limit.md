@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-boxers-t2i` |
+| x-vrc-api-server | `prod-api-green-trundle-gn2` |
 | x-vrc-api-version | `master-build-2024-06-21-bolin-moongalumph` |
 
 ```jsonc
@@ -35,9 +35,9 @@
     "bioLinks": [
       "https://x.com/AzuTeaTime"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d9b70c44-b82f-4f18-8f3c-0d30ff9fab04/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d9b70c44-b82f-4f18-8f3c-0d30ff9fab04/1/256",
     "developerType": "none",
     "displayName": "Azuteatime",
     "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
@@ -68,9 +68,9 @@
       "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
       "https://www.deviantart.com/azuliezeiro"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e819529f-760c-42cd-80ac-de25a1fd4cd9/3/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e56685f0-7ccf-4bf6-a6b5-9e8db7c86ce6/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e819529f-760c-42cd-80ac-de25a1fd4cd9/3/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e56685f0-7ccf-4bf6-a6b5-9e8db7c86ce6/1/256",
     "developerType": "none",
     "displayName": "AzulieZeiro",
     "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
@@ -97,9 +97,9 @@
   {
     "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_530e0901-a257-45ed-a5ce-071782483feb/3/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_646be1a4-0603-499f-9ffc-9eaa733243b6/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_530e0901-a257-45ed-a5ce-071782483feb/3/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_646be1a4-0603-499f-9ffc-9eaa733243b6/1/256",
     "developerType": "none",
     "displayName": "aphex503",
     "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
@@ -128,9 +128,9 @@
     "bioLinks": [
       "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9f49491a-f0d9-463e-9adc-74a85baef155/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_155d2716-8c49-4253-855c-9e1e34b6c31e/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9f49491a-f0d9-463e-9adc-74a85baef155/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_155d2716-8c49-4253-855c-9e1e34b6c31e/1/256",
     "developerType": "none",
     "displayName": "Aggrakia",
     "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
@@ -155,7 +155,7 @@
     "userIcon": ""
   },
   {
-    "bio": "Controversial autistic world creator․",
+    "bio": "Still here‚ but why?",
     "bioLinks": [
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=2s9hiKGrBQc"
@@ -184,7 +184,7 @@
       "language_eng",
       "system_supporter"
     ],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_f226efb8-021e-4092-a75e-4cafef122654/1"
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_0d74700a-10b9-4dd0-be5c-5319da76e14d/1"
   }
 ]
 ```
