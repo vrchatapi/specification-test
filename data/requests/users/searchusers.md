@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-daegu-qzl` |
+| x-vrc-api-server | `prod-api-green-blernsday-vrv` |
 | x-vrc-api-version | `master-build-2024-06-21-bolin-moongalumph` |
 
 ```jsonc
@@ -65,11 +65,11 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
-    "bio": "20 years old chill and ask to give cuddle",
+    "bio": "20 years old chill and ask to give cuddle taken",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d4d3c94f-69f7-45bb-9e69-5f54109f8218/2/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_41536f2d-968c-4de9-bd49-7c095f16c71b/2/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d4d3c94f-69f7-45bb-9e69-5f54109f8218/2/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_41536f2d-968c-4de9-bd49-7c095f16c71b/2/256",
     "developerType": "none",
     "displayName": "༒TUPPER༒",
     "id": "usr_d1562cae-2cd6-4a35-80c9-0ea646a55479",
@@ -77,7 +77,7 @@
     "last_platform": "android",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "active",
+    "status": "ask me",
     "statusDescription": "",
     "tags": [],
     "userIcon": ""

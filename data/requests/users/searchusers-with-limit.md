@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-trundle-gn2` |
+| x-vrc-api-server | `prod-api-green-maroon-f9u` |
 | x-vrc-api-version | `master-build-2024-06-21-bolin-moongalumph` |
 
 ```jsonc
@@ -35,9 +35,9 @@
     "bioLinks": [
       "https://x.com/AzuTeaTime"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d9b70c44-b82f-4f18-8f3c-0d30ff9fab04/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d9b70c44-b82f-4f18-8f3c-0d30ff9fab04/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
     "developerType": "none",
     "displayName": "Azuteatime",
     "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
@@ -63,43 +63,11 @@
     "userIcon": ""
   },
   {
-    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
-    "bioLinks": [
-      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
-      "https://www.deviantart.com/azuliezeiro"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e56685f0-7ccf-4bf6-a6b5-9e8db7c86ce6/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e56685f0-7ccf-4bf6-a6b5-9e8db7c86ce6/1/256",
-    "developerType": "none",
-    "displayName": "AzulieZeiro",
-    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "4‚000 year old loli",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "language_eng",
-      "system_early_adopter"
-    ],
-    "userIcon": ""
-  },
-  {
     "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_646be1a4-0603-499f-9ffc-9eaa733243b6/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_8cf3ae86-0a3b-4253-979c-942976edde98/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_646be1a4-0603-499f-9ffc-9eaa733243b6/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_8cf3ae86-0a3b-4253-979c-942976edde98/1/256",
     "developerType": "none",
     "displayName": "aphex503",
     "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
@@ -124,38 +92,7 @@
     "userIcon": ""
   },
   {
-    "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
-    "bioLinks": [
-      "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_155d2716-8c49-4253-855c-9e1e34b6c31e/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_155d2716-8c49-4253-855c-9e1e34b6c31e/1/256",
-    "developerType": "none",
-    "displayName": "Aggrakia",
-    "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "Full Of Soap",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_eng"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "Still here‚ but why?",
+    "bio": "",
     "bioLinks": [
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=2s9hiKGrBQc"
@@ -185,6 +122,69 @@
       "system_supporter"
     ],
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_0d74700a-10b9-4dd0-be5c-5319da76e14d/1"
+  },
+  {
+    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
+    "bioLinks": [
+      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
+      "https://www.deviantart.com/azuliezeiro"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_61757f9b-48fd-495f-9ffa-b8ead08da5d8/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_61757f9b-48fd-495f-9ffa-b8ead08da5d8/1/256",
+    "developerType": "none",
+    "displayName": "AzulieZeiro",
+    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "4‚000 year old loli",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "language_eng",
+      "system_early_adopter"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
+    "bioLinks": [
+      "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_cea35b7b-e6e2-4cad-b4c3-b674d1d7edfe/4/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_cea35b7b-e6e2-4cad-b4c3-b674d1d7edfe/4/256",
+    "developerType": "none",
+    "displayName": "Aggrakia",
+    "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "Full Of Soap",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_eng"
+    ],
+    "userIcon": ""
   }
 ]
 ```
