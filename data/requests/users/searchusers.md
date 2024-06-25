@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-blernsday-vrv` |
+| x-vrc-api-server | `prod-api-green-allison-0mi` |
 | x-vrc-api-version | `master-build-2024-06-21-bolin-moongalumph` |
 
 ```jsonc
@@ -65,7 +65,33 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
-    "bio": "20 years old chill and ask to give cuddle taken",
+    "bio": "joined vrchat 03⁄01⁄2016․ Thick thighs save lifes but thigh highs are my demise․",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_2b4d7d2a-acdb-4ea5-80ae-355992f6f59b/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_2b4d7d2a-acdb-4ea5-80ae-355992f6f59b/1/256",
+    "developerType": "none",
+    "displayName": "༒TUPPER ༒",
+    "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "im the biggest bird",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "20 years old chill and ask to give cuddle",
     "bioLinks": [],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_41536f2d-968c-4de9-bd49-7c095f16c71b/2/file",
     "currentAvatarTags": [],
@@ -79,7 +105,11 @@
     "pronouns": "",
     "status": "ask me",
     "statusDescription": "",
-    "tags": [],
+    "tags": [
+      "system_trust_basic",
+      "system_world_access",
+      "system_avatar_access"
+    ],
     "userIcon": ""
   },
   {
@@ -201,21 +231,6 @@
     "tags": [
       "show_social_rank"
     ],
-    "userIcon": ""
-  },
-  {
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_2ef64281-6d1e-481f-9f47-9d945c644cd8/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_2ef64281-6d1e-481f-9f47-9d945c644cd8/1/256",
-    "developerType": "none",
-    "displayName": "tupper_vrc a8ae",
-    "id": "usr_3ab00d61-ff97-4e0b-adb7-90ba2097a8ae",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [],
     "userIcon": ""
   }
 ]
