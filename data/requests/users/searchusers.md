@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-allison-0mi` |
-| x-vrc-api-version | `master-build-2024-06-21-bolin-moongalumph` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-mint-mpe` |
+| x-vrc-api-version | `master-build-2024-06-25-funke-o-fockyfard` |
 
 ```jsonc
 [
@@ -40,7 +40,7 @@
     "displayName": "tupper",
     "id": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
     "isFriend": false,
-    "last_platform": "standalonewindows",
+    "last_platform": "android",
     "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
     "pronouns": "",
     "status": "ask me",
@@ -67,9 +67,9 @@
   {
     "bio": "joined vrchat 03⁄01⁄2016․ Thick thighs save lifes but thigh highs are my demise․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_2b4d7d2a-acdb-4ea5-80ae-355992f6f59b/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_522cc62f-005d-4863-bbe1-89104e575818/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_2b4d7d2a-acdb-4ea5-80ae-355992f6f59b/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_522cc62f-005d-4863-bbe1-89104e575818/1/256",
     "developerType": "none",
     "displayName": "༒TUPPER ༒",
     "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
@@ -78,7 +78,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "im the biggest bird",
+    "statusDescription": "im the biggest bird․",
     "tags": [
       "system_avatar_access",
       "system_world_access",
@@ -100,7 +100,7 @@
     "displayName": "༒TUPPER༒",
     "id": "usr_d1562cae-2cd6-4a35-80c9-0ea646a55479",
     "isFriend": false,
-    "last_platform": "android",
+    "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
