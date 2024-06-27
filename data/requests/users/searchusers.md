@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-mint-mpe` |
+| x-vrc-api-server | `prod-api-blue-orc-bl5` |
 | x-vrc-api-version | `master-build-2024-06-25-funke-o-fockyfard` |
 
 ```jsonc
@@ -67,9 +67,9 @@
   {
     "bio": "joined vrchat 03⁄01⁄2016․ Thick thighs save lifes but thigh highs are my demise․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_522cc62f-005d-4863-bbe1-89104e575818/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_2b4d7d2a-acdb-4ea5-80ae-355992f6f59b/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_522cc62f-005d-4863-bbe1-89104e575818/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_2b4d7d2a-acdb-4ea5-80ae-355992f6f59b/1/256",
     "developerType": "none",
     "displayName": "༒TUPPER ༒",
     "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",

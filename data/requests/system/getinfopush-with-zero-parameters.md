@@ -29,7 +29,7 @@ Response schema mismatch: Invalid type at #.
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-transparent-j7l` |
+| x-vrc-api-server | `prod-api-blue-chug-s20` |
 | x-vrc-api-version | `master-build-2024-06-25-funke-o-fockyfard` |
 
 ```jsonc
