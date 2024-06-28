@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-orc-bl5` |
-| x-vrc-api-version | `master-build-2024-06-25-funke-o-fockyfard` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-khal-3se` |
+| x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
 [
@@ -67,9 +67,9 @@
   {
     "bio": "joined vrchat 03⁄01⁄2016․ Thick thighs save lifes but thigh highs are my demise․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_2b4d7d2a-acdb-4ea5-80ae-355992f6f59b/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_2b4d7d2a-acdb-4ea5-80ae-355992f6f59b/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/256",
     "developerType": "none",
     "displayName": "༒TUPPER ༒",
     "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
@@ -108,6 +108,33 @@
     "tags": [
       "system_trust_basic",
       "system_world_access",
+      "system_avatar_access"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․ \n\nHead of VRchat Trust and Safety Team \n\n Follow VRchat TOS \n\n Tech Support˸ https˸⁄⁄vrch․at⁄support \n\n Moderation˸ https˸⁄⁄vrch․at⁄moderation",
+    "bioLinks": [
+      "https://vrchat.com/home/login",
+      "https://vrch.at/support",
+      "https://vrchat.com/home/group/grp_25d2df0f-8629-41fc-b245-6fd963676372"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e5fbc48f-9c65-4674-814b-5cf2685fabc8/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e5fbc48f-9c65-4674-814b-5cf2685fabc8/1/256",
+    "developerType": "none",
+    "displayName": "Tupper VRC3",
+    "id": "usr_ff9d841c-64ba-49e2-adae-c7ce89bd0e61",
+    "isFriend": false,
+    "last_platform": "android",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "join me",
+    "statusDescription": "VRchat Trust and Safety Team",
+    "tags": [
+      "language_eng",
+      "system_world_access",
+      "system_trust_basic",
       "system_avatar_access"
     ],
     "userIcon": ""
@@ -214,23 +241,6 @@
     "status": "active",
     "statusDescription": "",
     "tags": [],
-    "userIcon": ""
-  },
-  {
-    "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-57-34.png",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/thumbnails/2233882830.thumbnail-200.png",
-    "developerType": "none",
-    "displayName": "Tuppersgrandma",
-    "id": "usr_d263a093-d612-4eae-b1f4-c90855956b7d",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "show_social_rank"
-    ],
     "userIcon": ""
   }
 ]
