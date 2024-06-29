@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-khal-3se` |
+| x-vrc-api-server | `prod-api-green-chacha-5uu` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -67,9 +67,15 @@
   {
     "bio": "joined vrchat 03⁄01⁄2016․ Thick thighs save lifes but thigh highs are my demise․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_44e40039-ff34-4e36-b87c-b3a446823f84/1/file",
+    "currentAvatarTags": [
+      "content_horror",
+      "content_sex",
+      "content_adult",
+      "content_violence",
+      "content_gore"
+    ],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_44e40039-ff34-4e36-b87c-b3a446823f84/1/256",
     "developerType": "none",
     "displayName": "༒TUPPER ༒",
     "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
@@ -113,10 +119,9 @@
     "userIcon": ""
   },
   {
-    "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․ \n\nHead of VRchat Trust and Safety Team \n\n Follow VRchat TOS \n\n Tech Support˸ https˸⁄⁄vrch․at⁄support \n\n Moderation˸ https˸⁄⁄vrch․at⁄moderation",
+    "bio": "i changed my username and identity for obvious reasons‚ \n\n New to VRchat - making new friends",
     "bioLinks": [
       "https://vrchat.com/home/login",
-      "https://vrch.at/support",
       "https://vrchat.com/home/group/grp_25d2df0f-8629-41fc-b245-6fd963676372"
     ],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e5fbc48f-9c65-4674-814b-5cf2685fabc8/1/file",
@@ -130,7 +135,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "join me",
-    "statusDescription": "VRchat Trust and Safety Team",
+    "statusDescription": "VRC - VR",
     "tags": [
       "language_eng",
       "system_world_access",

@@ -26,7 +26,7 @@
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-sad-m1g` |
+| x-vrc-api-server | `prod-api-green-liam-w84` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
