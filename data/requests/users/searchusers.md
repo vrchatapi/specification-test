@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-chacha-5uu` |
+| x-vrc-api-server | `prod-api-green-striped-cvs` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -65,17 +65,11 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
-    "bio": "joined vrchat 03⁄01⁄2016․ Thick thighs save lifes but thigh highs are my demise․",
+    "bio": "joined vrchat 03⁄01⁄2016",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_44e40039-ff34-4e36-b87c-b3a446823f84/1/file",
-    "currentAvatarTags": [
-      "content_horror",
-      "content_sex",
-      "content_adult",
-      "content_violence",
-      "content_gore"
-    ],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_44e40039-ff34-4e36-b87c-b3a446823f84/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/256",
     "developerType": "none",
     "displayName": "༒TUPPER ༒",
     "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
@@ -84,7 +78,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "im the biggest bird․",
+    "statusDescription": "i dont talk anymore․",
     "tags": [
       "system_avatar_access",
       "system_world_access",
@@ -119,7 +113,28 @@
     "userIcon": ""
   },
   {
-    "bio": "i changed my username and identity for obvious reasons‚ \n\n New to VRchat - making new friends",
+    "bio": "",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "currentAvatarTags": [
+      "admin_content_reviewed",
+      "admin_featured_legacy"
+    ],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+    "developerType": "none",
+    "displayName": "༒ Tupper ༒",
+    "id": "usr_4e37c7c1-c88d-4e43-b7dd-5b9d7102cf82",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "",
+    "tags": [],
+    "userIcon": ""
+  },
+  {
+    "bio": "i changed my username and identity for obvious reasons‚ \n\n My name is Alex Tupper and Im New to VRchat - making new friends \n\n i watch movies and Videos in Public Worlds \n\n i work for the Trust and Safety Team‚ \n\n i work for Roblox （ROBLOX admin）",
     "bioLinks": [
       "https://vrchat.com/home/login",
       "https://vrchat.com/home/group/grp_25d2df0f-8629-41fc-b245-6fd963676372"
@@ -135,7 +150,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "join me",
-    "statusDescription": "VRC - VR",
+    "statusDescription": "ROBLOX VRChat",
     "tags": [
       "language_eng",
       "system_world_access",
@@ -228,24 +243,6 @@
       "system_avatar_access",
       "system_world_access"
     ],
-    "userIcon": ""
-  },
-  {
-    "bio": "",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_f3915e10-9185-46c3-9d76-47c0f5dd1b24/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_f3915e10-9185-46c3-9d76-47c0f5dd1b24/1/256",
-    "developerType": "none",
-    "displayName": "Tupperware 7081",
-    "id": "usr_33251c89-afd2-45ae-aa45-ac28702a7081",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [],
     "userIcon": ""
   }
 ]
