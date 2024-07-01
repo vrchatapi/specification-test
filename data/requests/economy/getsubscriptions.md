@@ -1,5 +1,10 @@
 # getSubscriptions
 
+## Issues
+```
+Response media type "text/html" not expected.
+```
+
 ## Request
 `get https://vrchat.com/api/1/subscriptions`
 
@@ -10,65 +15,18 @@
 
 
 ## Response
-`200 OK`
+`504 Gateway Timeout`
 
 | Header | Value |
 | ------ | ----- |
-| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
+| content-length | `132` |
+| content-type | `text/html` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Authorization, Accept-Encoding` |
-| x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-lord-31g` |
-| x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
+| vary | `Accept-Encoding` |
 
 ```jsonc
-[
-  {
-    "id": "vrchatplus-monthly",
-    "steamItemId": "4000",
-    "oculusSku": "vrchat-plus-oculus-monthly",
-    "googleProductId": "vrchat.plus.googleplay.monthly",
-    "googlePlanId": "monthly",
-    "picoSku": "vrchat_plus_pico_monthly",
-    "amount": 999,
-    "description": "VRChat Plus (Monthly)",
-    "period": "month",
-    "tier": 5
-  },
-  {
-    "id": "vrchatplus-yearly",
-    "steamItemId": "5000",
-    "oculusSku": "vrchat-plus-oculus-yearly",
-    "googleProductId": "vrchat.plus.googleplay.yearly",
-    "googlePlanId": "yearly",
-    "picoSku": "vrchat_plus_pico_yearly",
-    "amount": 9999,
-    "description": "VRChat Plus (Yearly)",
-    "period": "year",
-    "tier": 5
-  },
-  {
-    "id": "vrchatplus-open-beta",
-    "steamItemId": "1234",
-    "amount": 999,
-    "description": "VRChat Plus (Open Beta)",
-    "period": "month",
-    "tier": 5
-  },
-  {
-    "id": "vrchat-internal-beta",
-    "steamItemId": "-1",
-    "amount": 99999999,
-    "description": "VRChat Internal Features for Testing",
-    "period": "month",
-    "tier": 5
-  }
-]
+"<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
 ```

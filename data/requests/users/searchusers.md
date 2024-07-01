@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-striped-cvs` |
+| x-vrc-api-server | `prod-api-green-klaus-0bh` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -78,7 +78,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "i dont talk anymore․",
+    "statusDescription": "slowly fading away",
     "tags": [
       "system_avatar_access",
       "system_world_access",
@@ -113,7 +113,7 @@
     "userIcon": ""
   },
   {
-    "bio": "",
+    "bio": "joined vrchat 03⁄01⁄2016",
     "bioLinks": [],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
     "currentAvatarTags": [
@@ -129,12 +129,12 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "",
+    "statusDescription": "slowly fading away",
     "tags": [],
     "userIcon": ""
   },
   {
-    "bio": "i changed my username and identity for obvious reasons‚ \n\n My name is Alex Tupper and Im New to VRchat - making new friends \n\n i watch movies and Videos in Public Worlds \n\n i work for the Trust and Safety Team‚ \n\n i work for Roblox （ROBLOX admin）",
+    "bio": "i changed my username and identity for Safety Reasons‚ \n\n My name is Tupper VR and Im New to VRchat - making new friends \n\n i watch movies and Videos in Public Worlds \n\n i work for the ROBLOX corporation‚ \n\n i work for Roblox （ROBLOX admin）",
     "bioLinks": [
       "https://vrchat.com/home/login",
       "https://vrchat.com/home/group/grp_25d2df0f-8629-41fc-b245-6fd963676372"
@@ -150,7 +150,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "join me",
-    "statusDescription": "ROBLOX VRChat",
+    "statusDescription": "VRC",
     "tags": [
       "language_eng",
       "system_world_access",
@@ -227,21 +227,28 @@
     "userIcon": ""
   },
   {
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_c6736504-6bc1-46dd-9bc4-e7135a9ffb1b/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_c6736504-6bc1-46dd-9bc4-e7135a9ffb1b/1/256",
+    "bio": "",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d842876f-fc51-4b52-af11-906dc9f6a697/2/file",
+    "currentAvatarTags": [
+      "admin_quest_fallback_extended",
+      "admin_featured_quest",
+      "author_quest_fallback",
+      "system_jam_8a3721bc-9c06-4da8-b5c8-9a0aaa669930"
+    ],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d842876f-fc51-4b52-af11-906dc9f6a697/2/256",
     "developerType": "none",
-    "displayName": "TupperDose",
-    "id": "usr_16a60dbf-bf40-4464-ae99-1c0d687f66b3",
+    "displayName": "tuppernators 35ba",
+    "id": "usr_eabaf32a-bdfb-4bba-8523-007f8e1235ba",
     "isFriend": false,
-    "last_platform": "standalonewindows",
+    "last_platform": "android",
     "profilePicOverride": "",
+    "pronouns": "",
     "status": "active",
     "statusDescription": "",
     "tags": [
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_world_access"
+      "system_feedback_access",
+      "system_trust_known"
     ],
     "userIcon": ""
   }

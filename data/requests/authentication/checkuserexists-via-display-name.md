@@ -1,7 +1,7 @@
 # checkUserExists via display name
 
 ## Request
-`get https://vrchat.com/api/1/auth/exists?displayName=8cf3def6b8cea`
+`get https://vrchat.com/api/1/auth/exists?displayName=undefined`
 
 | Header | Value |
 | ------ | ----- |
@@ -26,7 +26,7 @@
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-smith-uqn` |
+| x-vrc-api-server | `prod-api-green-hazel-c72` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc

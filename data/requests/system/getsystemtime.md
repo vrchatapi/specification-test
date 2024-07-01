@@ -1,5 +1,10 @@
 # getSystemTime
 
+## Issues
+```
+Response media type "text/html" not expected.
+```
+
 ## Request
 `get https://vrchat.com/api/1/time`
 
@@ -10,24 +15,17 @@
 
 
 ## Response
-`200 OK`
+`504 Gateway Timeout`
 
 | Header | Value |
 | ------ | ----- |
-| accept-ranges | `bytes` |
-| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `27` |
-| content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
+| content-length | `132` |
+| content-type | `text/html` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Origin, Accept-Encoding` |
-| x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-shirley-rac` |
-| x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
+| vary | `Accept-Encoding` |
 
 ```jsonc
 <unstable>

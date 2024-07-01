@@ -1,5 +1,10 @@
 # searchAvatars with admin_featured_legacy tag
 
+## Issues
+```
+Response media type "text/html" not expected.
+```
+
 ## Request
 `get https://vrchat.com/api/1/avatars?tag=admin_featured_legacy`
 
@@ -10,23 +15,17 @@
 
 
 ## Response
-`200 OK`
+`504 Gateway Timeout`
 
 | Header | Value |
 | ------ | ----- |
-| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
+| content-length | `132` |
+| content-type | `text/html` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Authorization, Accept-Encoding` |
-| x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-homsar-1iq` |
-| x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
+| vary | `Accept-Encoding` |
 
 ```jsonc
 <unstable>

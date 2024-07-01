@@ -25,13 +25,13 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-childish-qjb` |
+| x-vrc-api-server | `prod-api-green-rock-ca1` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
 {
   "isFriend": false,
-  "outgoingRequest": false,
+  "outgoingRequest": true,
   "incomingRequest": false
 }
 ```

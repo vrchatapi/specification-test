@@ -1,5 +1,10 @@
 # deleteFriendRequest
 
+## Issues
+```
+Response media type "text/html" not expected.
+```
+
 ## Request
 `delete https://vrchat.com/api/1/user/usr_9e10ea3e-8115-4b51-9076-b1792215d57e/friendRequest`
 
@@ -10,28 +15,17 @@
 
 
 ## Response
-`200 OK`
+`504 Gateway Timeout`
 
 | Header | Value |
 | ------ | ----- |
-| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/json; charset=utf-8` |
+| content-length | `132` |
+| content-type | `text/html` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Authorization, Accept-Encoding` |
-| x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-seanna-dqv` |
-| x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
-{
-  "success": {
-    "message": "Friendship request deleted",
-    "status_code": 200
-  }
-}
+"<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
 ```

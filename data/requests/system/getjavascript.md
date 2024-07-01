@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected token / in JSON at position 0.
+Response media type "text/html" not expected.
 ```
 
 ## Request
@@ -11,19 +11,21 @@ Response schema mismatch: Unexpected token / in JSON at position 0.
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
+| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
-`200 OK`
+`504 Gateway Timeout`
 
 | Header | Value |
 | ------ | ----- |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/javascript` |
-| etag | `<redacted>` |
-| server | `CloudFront` |
-| transfer-encoding | `chunked` |
-| vary | `Accept-Encoding, Origin` |
+| content-length | `132` |
+| content-type | `text/html` |
+| pragma | `no-cache` |
+| server | `cloudflare` |
+| vary | `Accept-Encoding` |
 
 ```jsonc
 <unstable>

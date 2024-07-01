@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-industry-8f5` |
+| x-vrc-api-server | `prod-api-green-walnutbread-z7e` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -61,7 +61,8 @@
     "admin_approved",
     "admin_spotlight_mobile",
     "system_approved",
-    "system_monetized_world"
+    "system_monetized_world",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": [
@@ -81,6 +82,7 @@
     "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
     "prod_aac28b54-75d8-4c30-a0a2-da3f5ede0baf",
     "prod_226b5392-3b93-4905-960c-345588d6116e",
+    "prod_5d31fc08-603e-4445-a488-073653118982",
     "prod_b07efe0d-08a4-49a1-be2e-3ef085788bab",
     "prod_126bbe02-a118-44cb-866f-a9eddd557da6",
     "prod_ceb879d0-51c9-412b-b903-26a684e37158",

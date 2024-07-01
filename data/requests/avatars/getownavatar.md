@@ -1,7 +1,12 @@
 # getOwnAvatar
 
+## Issues
+```
+Response schema mismatch: Missing property at #/authorId, Missing property at #/authorName, Missing property at #/created_at, Missing property at #/description, Missing property at #/featured, Missing property at #/id, Missing property at #/imageUrl, Missing property at #/name, Missing property at #/releaseStatus, Missing property at #/tags, Missing property at #/thumbnailImageUrl, Missing property at #/unityPackages, Missing property at #/unityPackageUrl, Missing property at #/unityPackageUrlObject, Missing property at #/updated_at, Missing property at #/version, Unexpected property at #/error.
+```
+
 ## Request
-`get https://vrchat.com/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
+`get https://vrchat.com/api/1/users/undefined/avatar`
 
 | Header | Value |
 | ------ | ----- |
@@ -10,7 +15,7 @@
 
 
 ## Response
-`200 OK`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
@@ -18,36 +23,29 @@
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-saanich-k45` |
+| x-vrc-api-server | `prod-api-green-steel-4eg` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
 {
-  "authorId": "8JoV9XEdpo",
-  "authorName": "vrchat",
-  "created_at": "2016-11-30T03:47:35.000Z",
-  "description": "Beep Boop",
-  "featured": false,
-  "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "name": "Robot",
-  "releaseStatus": "public",
-  "tags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
-  ],
-  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-  "unityPackageUrl": "",
-  "unityPackageUrlObject": {},
-  "unityPackages": "<unstable: array>",
-  "updated_at": "<unstable: string>",
-  "version": "<unstable: number>"
+  /**
+   * Unexpected property.
+   *
+   * @schema Avatar
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/error
+   */
+  "error": {
+    "message": "\"You do not have permission to fetch details about the avatar on this user.\"",
+    "status_code": 403
+  }
 }
 ```

@@ -24,7 +24,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-bagel-whl` |
+| x-vrc-api-server | `prod-api-green-nathan-3k4` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -64,7 +64,7 @@
   "last_login": "<unstable: string>",
   "last_mobile": null,
   "last_platform": "standalonewindows",
-  "obfuscatedEmail": "<redacted>",
+  "obfuscatedEmail": "v******@ariesclark.com",
   "obfuscatedPendingEmail": "",
   "oculusId": "",
   "pastDisplayNames": [],

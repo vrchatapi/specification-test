@@ -6,7 +6,7 @@ Response schema mismatch: Missing property at #/userExists, Unexpected property 
 ```
 
 ## Request
-`get https://vrchat.com/api/1/auth/exists?userId=usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701`
+`get https://vrchat.com/api/1/auth/exists?userId=undefined`
 
 | Header | Value |
 | ------ | ----- |
@@ -29,7 +29,7 @@ Response schema mismatch: Missing property at #/userExists, Unexpected property 
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-clean-c47` |
+| x-vrc-api-server | `prod-api-green-major-general-wcm` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
