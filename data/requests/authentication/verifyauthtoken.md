@@ -1,10 +1,5 @@
 # verifyAuthToken
 
-## Issues
-```
-Response media type "text/html" not expected.
-```
-
 ## Request
 `get https://vrchat.com/api/1/auth`
 
@@ -15,18 +10,27 @@ Response media type "text/html" not expected.
 
 
 ## Response
-`504 Gateway Timeout`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `132` |
-| content-type | `text/html` |
+| content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Accept-Encoding` |
+| transfer-encoding | `chunked` |
+| vary | `Authorization, Accept-Encoding` |
+| x-frame-options | `deny` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-hunt-rk4` |
+| x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
-"<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
+{
+  "ok": true,
+  "token": "<redacted>"
+}
 ```

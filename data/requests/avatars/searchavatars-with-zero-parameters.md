@@ -1,10 +1,5 @@
 # searchAvatars with zero parameters
 
-## Issues
-```
-Response media type "text/html" not expected.
-```
-
 ## Request
 `get https://vrchat.com/api/1/avatars`
 
@@ -15,18 +10,25 @@ Response media type "text/html" not expected.
 
 
 ## Response
-`502 Bad Gateway`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
+| accept-ranges | `bytes` |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `122` |
-| content-type | `text/html` |
+| content-length | `2` |
+| content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Accept-Encoding` |
+| vary | `Authorization, Accept-Encoding` |
+| x-frame-options | `deny` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-greed-6z9` |
+| x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
-"<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
+[]
 ```

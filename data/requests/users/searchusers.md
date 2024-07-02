@@ -24,8 +24,8 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-klaus-0bh` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-spanner-q0a` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -78,7 +78,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "slowly fading away",
+    "statusDescription": "thoughts are coming back․",
     "tags": [
       "system_avatar_access",
       "system_world_access",

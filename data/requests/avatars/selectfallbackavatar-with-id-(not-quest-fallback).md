@@ -1,10 +1,5 @@
 # selectFallbackAvatar with id (not quest fallback)
 
-## Issues
-```
-Response media type "text/html" not expected.
-```
-
 ## Request
 `put https://vrchat.com/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/selectFallback`
 
@@ -15,18 +10,28 @@ Response media type "text/html" not expected.
 
 
 ## Response
-`504 Gateway Timeout`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `132` |
-| content-type | `text/html` |
+| content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Accept-Encoding` |
+| transfer-encoding | `chunked` |
+| vary | `Authorization, Accept-Encoding` |
+| x-frame-options | `deny` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-clean-kx4` |
+| x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
-"<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n</body>\r\n</html>\r\n"
+{
+  "error": {
+    "message": "This avatar isn't tagged as a quest fallback avatar․",
+    "status_code": 403
+  }
+}
 ```

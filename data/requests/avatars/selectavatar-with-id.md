@@ -23,8 +23,8 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-nathan-3k4` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-doki-7dh` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -64,7 +64,7 @@
   "last_login": "<unstable: string>",
   "last_mobile": null,
   "last_platform": "standalonewindows",
-  "obfuscatedEmail": "v******@ariesclark.com",
+  "obfuscatedEmail": "<redacted>",
   "obfuscatedPendingEmail": "",
   "oculusId": "",
   "pastDisplayNames": [],
