@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-bojack-kbh` |
+| x-vrc-api-server | `prod-api-blue-allison-zsc` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -77,7 +77,7 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "busy",
+    "status": "ask me",
     "statusDescription": "im the biggest bird․",
     "tags": [
       "system_avatar_access",
@@ -157,6 +157,33 @@
     "userIcon": ""
   },
   {
+    "bio": "i am the guy who visits YTS and plays videos on the Video Player‚ \n\n My name is VRC3 666 and Im New to VRchat - making new friends \n\n i watch movies and Videos in Public Worlds \n\n i work for the ROBLOX corporation‚ \n\n i work for Roblox （ROBLOX admin）\n\n Proud Quest User",
+    "bioLinks": [
+      "https://vrchat.com/home/group/grp_25d2df0f-8629-41fc-b245-6fd963676372"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e5fbc48f-9c65-4674-814b-5cf2685fabc8/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e5fbc48f-9c65-4674-814b-5cf2685fabc8/1/256",
+    "developerType": "none",
+    "displayName": "Tupper VRC3",
+    "id": "usr_ff9d841c-64ba-49e2-adae-c7ce89bd0e61",
+    "isFriend": false,
+    "last_platform": "android",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "join me",
+    "statusDescription": "VRC",
+    "tags": [
+      "language_eng",
+      "system_world_access",
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_feedback_access",
+      "system_trust_known"
+    ],
+    "userIcon": ""
+  },
+  {
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
     "currentAvatarTags": [],
     "currentAvatarThumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/thumbnails/194889991.thumbnail-200.png",
@@ -189,34 +216,6 @@
     "status": "active",
     "statusDescription": "",
     "tags": [],
-    "userIcon": ""
-  },
-  {
-    "bio": "i am the guy who visits Kinda Like or YTS and plays videos on the Video Player‚ \n\n My name is Tupper VR and Im New to VRchat - making new friends \n\n i watch movies and Videos in Public Worlds \n\n i work for the ROBLOX corporation‚ \n\n i work for Roblox （ROBLOX admin）\n\n Proud Quest User",
-    "bioLinks": [
-      "https://vrchat.com/home/login",
-      "https://vrchat.com/home/group/grp_25d2df0f-8629-41fc-b245-6fd963676372"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_ff545630-f246-4747-a752-2569bbc36b37/2/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_ff545630-f246-4747-a752-2569bbc36b37/2/256",
-    "developerType": "none",
-    "displayName": "Tupper VRC3",
-    "id": "usr_ff9d841c-64ba-49e2-adae-c7ce89bd0e61",
-    "isFriend": false,
-    "last_platform": "android",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "VRC",
-    "tags": [
-      "language_eng",
-      "system_world_access",
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_feedback_access",
-      "system_trust_known"
-    ],
     "userIcon": ""
   },
   {

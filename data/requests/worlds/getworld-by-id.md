@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-barmbrack-i2n` |
+| x-vrc-api-server | `prod-api-blue-barbie-qbl` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -61,8 +61,7 @@
     "admin_approved",
     "admin_spotlight_mobile",
     "system_approved",
-    "system_monetized_world",
-    "system_updated_recently"
+    "system_monetized_world"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": [
