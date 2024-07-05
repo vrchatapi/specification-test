@@ -25,11 +25,40 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-pant-l7j` |
+| x-vrc-api-server | `prod-api-blue-jacket-edb` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
 [
+  {
+    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_124e522f-98e8-4e30-84e4-55347ceb15b6/3/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_124e522f-98e8-4e30-84e4-55347ceb15b6/3/256",
+    "developerType": "none",
+    "displayName": "aphex503",
+    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_jpn"
+    ],
+    "userIcon": ""
+  },
   {
     "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
     "bioLinks": [
@@ -59,35 +88,6 @@
       "show_social_rank",
       "language_eng",
       "system_early_adopter"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_124e522f-98e8-4e30-84e4-55347ceb15b6/3/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_124e522f-98e8-4e30-84e4-55347ceb15b6/3/256",
-    "developerType": "none",
-    "displayName": "aphex503",
-    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_jpn"
     ],
     "userIcon": ""
   },
