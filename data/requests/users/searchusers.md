@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-world-fbw` |
+| x-vrc-api-server | `prod-api-blue-grillby-29d` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -65,7 +65,7 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
-    "bio": "joined vrchat 03⁄01⁄2016",
+    "bio": "joined vrchat 03⁄01⁄2016｜taken by sanity｜7⁄5⁄24",
     "bioLinks": [],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
     "currentAvatarTags": [],
@@ -78,7 +78,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "im the biggest bird․",
+    "statusDescription": "slowly fading away",
     "tags": [
       "system_avatar_access",
       "system_world_access",
@@ -93,9 +93,11 @@
   {
     "bio": "i want to be a rockstar",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_f0416f63-1b9a-477a-aaae-02fb26b22406/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_f0416f63-1b9a-477a-aaae-02fb26b22406/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_329560d0-296a-4d6c-a3db-21a5c8d32c47/1/file",
+    "currentAvatarTags": [
+      "admin_featured_legacy"
+    ],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_329560d0-296a-4d6c-a3db-21a5c8d32c47/1/256",
     "developerType": "none",
     "displayName": "﮴tupper",
     "id": "usr_9788b122-fb4a-4bd3-baef-44ffef048c26",
@@ -157,6 +159,33 @@
     "userIcon": ""
   },
   {
+    "bio": "i am the guy who visits YTS and plays videos on the Video Player‚ \n\n My name is VRC3 and I'm a VRchat player - making new friends on VR‚\n\n i watch movies and Videos in Public Worlds \n\n i work for the ROBLOX corporation‚ \n\n （i am also involved with Meta）\n\n i work for ROBLOX （Roblox Staff）\n\n Proud Quest User",
+    "bioLinks": [
+      "https://vrchat.com/home/group/grp_25d2df0f-8629-41fc-b245-6fd963676372"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_ced8aa03-6181-435c-afd7-0ae76d7898b2/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_ced8aa03-6181-435c-afd7-0ae76d7898b2/1/256",
+    "developerType": "none",
+    "displayName": "Tupper VRC3",
+    "id": "usr_ff9d841c-64ba-49e2-adae-c7ce89bd0e61",
+    "isFriend": false,
+    "last_platform": "android",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "VRchat - VRC - VRC - VRC - VRC",
+    "tags": [
+      "language_eng",
+      "system_world_access",
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_feedback_access",
+      "system_trust_known"
+    ],
+    "userIcon": ""
+  },
+  {
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
     "currentAvatarTags": [],
     "currentAvatarThumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/thumbnails/194889991.thumbnail-200.png",
@@ -189,33 +218,6 @@
     "status": "active",
     "statusDescription": "",
     "tags": [],
-    "userIcon": ""
-  },
-  {
-    "bio": "i am the guy who visits YTS and plays videos on the Video Player‚ \n\n My name is VRC3 666 and Im New to VRchat - making new friends \n\n i watch movies and Videos in Public Worlds \n\n i work for the ROBLOX corporation‚ \n\n i work for Roblox （ROBLOX admin）\n\n Proud Quest User",
-    "bioLinks": [
-      "https://vrchat.com/home/group/grp_25d2df0f-8629-41fc-b245-6fd963676372"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_ff545630-f246-4747-a752-2569bbc36b37/2/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_ff545630-f246-4747-a752-2569bbc36b37/2/256",
-    "developerType": "none",
-    "displayName": "Tupper VRC3",
-    "id": "usr_ff9d841c-64ba-49e2-adae-c7ce89bd0e61",
-    "isFriend": false,
-    "last_platform": "android",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "VRC",
-    "tags": [
-      "language_eng",
-      "system_world_access",
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_feedback_access",
-      "system_trust_known"
-    ],
     "userIcon": ""
   },
   {
