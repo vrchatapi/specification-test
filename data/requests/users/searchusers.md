@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-grillby-29d` |
+| x-vrc-api-server | `prod-api-blue-twin-3ke` |
 | x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
 
 ```jsonc
@@ -65,11 +65,11 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
-    "bio": "joined vrchat 03⁄01⁄2016｜taken by sanity｜7⁄5⁄24",
+    "bio": "joined vrchat 03⁄01⁄2016｜taken by sanity｜7⁄5⁄24\ni miss you hun stay safe․․․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4353535a-93c7-4def-9f84-d1b68fd31162/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4353535a-93c7-4def-9f84-d1b68fd31162/1/256",
     "developerType": "none",
     "displayName": "༒TUPPER ༒",
     "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
@@ -78,7 +78,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "slowly fading away",
+    "statusDescription": "waiting for to her to come home․",
     "tags": [
       "system_avatar_access",
       "system_world_access",
