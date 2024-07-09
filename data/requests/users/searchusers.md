@@ -25,8 +25,8 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-luke-t23` |
-| x-vrc-api-version | `master-build-2024-06-27-barry-jerkcraveable` |
+| x-vrc-api-server | `prod-api-blue-curtina-w1d` |
+| x-vrc-api-version | `master-build-2024-07-08-james-w-tumblerzing` |
 
 ```jsonc
 [
@@ -65,7 +65,7 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
-    "bio": "joined vrchat 03⁄01⁄2016｜taken by sanity｜7⁄5⁄24\ni miss you hun stay safe․․․",
+    "bio": "joined vrchat 03⁄01⁄2016｜taken by sanity｜7⁄5⁄24",
     "bioLinks": [],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
     "currentAvatarTags": [],
@@ -78,7 +78,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "waiting for her to come home․",
+    "statusDescription": "im scared for her․․․ i miss you․",
     "tags": [
       "system_avatar_access",
       "system_world_access",
@@ -159,36 +159,6 @@
     "userIcon": ""
   },
   {
-    "bio": "i am the guy who visits YTS and plays videos on the Video Player‚ \n\n Age 21 \n\n 18＋\n\n My name is VRC3 and I'm a VRchat player - making new friends on VR‚\n\n i watch movies and Videos in Public Worlds \n\n i work for the ROBLOX corporation‚ \n\n （i am also involved with Meta）\n\n i work for ROBLOX （Roblox Staff）\n\n Proud Quest User",
-    "bioLinks": [
-      "https://vrchat.com/home/group/grp_25d2df0f-8629-41fc-b245-6fd963676372"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_5020732c-1b72-4a1c-8e08-91e0b91c8313/2/file",
-    "currentAvatarTags": [
-      "content_adult",
-      "content_sex"
-    ],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_5020732c-1b72-4a1c-8e08-91e0b91c8313/2/256",
-    "developerType": "none",
-    "displayName": "Tupper VRC3",
-    "id": "usr_ff9d841c-64ba-49e2-adae-c7ce89bd0e61",
-    "isFriend": false,
-    "last_platform": "android",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "join me",
-    "statusDescription": "VRchat - VRC - VRC - VRC - VRC",
-    "tags": [
-      "language_eng",
-      "system_world_access",
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_feedback_access",
-      "system_trust_known"
-    ],
-    "userIcon": ""
-  },
-  {
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
     "currentAvatarTags": [],
     "currentAvatarThumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/thumbnails/194889991.thumbnail-200.png",
@@ -253,6 +223,32 @@
     "status": "active",
     "statusDescription": "",
     "tags": [],
+    "userIcon": ""
+  },
+  {
+    "bio": "",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d842876f-fc51-4b52-af11-906dc9f6a697/2/file",
+    "currentAvatarTags": [
+      "admin_quest_fallback_extended",
+      "admin_featured_quest",
+      "author_quest_fallback",
+      "system_jam_8a3721bc-9c06-4da8-b5c8-9a0aaa669930"
+    ],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d842876f-fc51-4b52-af11-906dc9f6a697/2/256",
+    "developerType": "none",
+    "displayName": "tuppernators 35ba",
+    "id": "usr_eabaf32a-bdfb-4bba-8523-007f8e1235ba",
+    "isFriend": false,
+    "last_platform": "android",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_feedback_access",
+      "system_trust_known"
+    ],
     "userIcon": ""
   }
 ]
