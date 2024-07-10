@@ -30,8 +30,8 @@ Response schema mismatch: Unexpected property at #/platform.
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-glass-0lv` |
-| x-vrc-api-version | `master-build-2024-07-08-james-w-tumblerzing` |
+| x-vrc-api-server | `prod-api-blue-forky-9iq` |
+| x-vrc-api-version | `master-build-2024-07-09-marshal-d-sadlypropane` |
 
 ```jsonc
 {
@@ -48,7 +48,7 @@ Response schema mismatch: Unexpected property at #/platform.
       "badgeDescription": "Supported VRChat through VRC+ when it first launched.",
       "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
       "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_28e70141-6859-450b-834b-30c15ecf3ff4.png",
-      "badgeName": "Early Adopter",
+      "badgeName": "Early Supporter",
       "showcased": false
     }
   ],

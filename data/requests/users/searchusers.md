@@ -25,8 +25,8 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-curtina-w1d` |
-| x-vrc-api-version | `master-build-2024-07-08-james-w-tumblerzing` |
+| x-vrc-api-server | `prod-api-blue-switzerland-jeg` |
+| x-vrc-api-version | `master-build-2024-07-09-marshal-d-sadlypropane` |
 
 ```jsonc
 [
@@ -65,32 +65,6 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
-    "bio": "joined vrchat 03⁄01⁄2016｜taken by sanity｜7⁄5⁄24",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/256",
-    "developerType": "none",
-    "displayName": "༒TUPPER ༒",
-    "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "im scared for her․․․ i miss you․",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran"
-    ],
-    "userIcon": ""
-  },
-  {
     "bio": "i want to be a rockstar",
     "bioLinks": [],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_329560d0-296a-4d6c-a3db-21a5c8d32c47/1/file",
@@ -112,6 +86,32 @@
       "system_trust_basic",
       "system_avatar_access",
       "language_nor"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "joined vrchat 03⁄01⁄2016｜taken by sanity｜7⁄5⁄24",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_dcda5cd7-5b35-4f90-853a-b42db9f986ac/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_dcda5cd7-5b35-4f90-853a-b42db9f986ac/1/256",
+    "developerType": "none",
+    "displayName": "༒TUPPER ༒",
+    "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "scared․․․",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran"
     ],
     "userIcon": ""
   },
