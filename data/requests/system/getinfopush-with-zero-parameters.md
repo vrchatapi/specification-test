@@ -28,9 +28,9 @@ Response schema mismatch: Invalid type at #.
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-firkin-oj0` |
-| x-vrc-api-version | `master-build-2024-07-09-marshal-d-sadlypropane` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-gozleme-o9k` |
+| x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
 
 ```jsonc
 {

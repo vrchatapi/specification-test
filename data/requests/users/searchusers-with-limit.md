@@ -24,12 +24,41 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-flam-5ty` |
-| x-vrc-api-version | `master-build-2024-07-09-marshal-d-sadlypropane` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-erang-y2w` |
+| x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
 
 ```jsonc
 [
+  {
+    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d46dac4d-4b1a-48c6-9cd7-f53c0c3e01ef/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d46dac4d-4b1a-48c6-9cd7-f53c0c3e01ef/1/256",
+    "developerType": "none",
+    "displayName": "aphex503",
+    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_jpn"
+    ],
+    "userIcon": ""
+  },
   {
     "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
     "bioLinks": [
@@ -59,35 +88,6 @@
       "show_social_rank",
       "language_eng",
       "system_early_adopter"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_d46dac4d-4b1a-48c6-9cd7-f53c0c3e01ef/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_d46dac4d-4b1a-48c6-9cd7-f53c0c3e01ef/1/256",
-    "developerType": "none",
-    "displayName": "aphex503",
-    "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_jpn"
     ],
     "userIcon": ""
   },
@@ -156,28 +156,34 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_13c36669-a82d-404e-876f-4c8d85b15b11/1/"
   },
   {
-    "bio": "Just a guy trying to make his way through the chaos of VRChat․\n\n＋Taken＋ ≺3",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_39b7a2f6-a802-45b6-97b6-e8342b89b857/1/file",
+    "bio": "About me˸\n- Owner of Isekai Realm online community\n- Bachelor Of Business Administration\n- VRChat Avatar ＆ World creator\n- Bilingual （English⁄Spanish）\n- Playing VRChat since 2017\n\nFeel free to join my discord server˸ https˸⁄⁄discord․gg⁄Rk2gvQtMYX",
+    "bioLinks": [
+      "https://patreon.com/vr_architect",
+      "https://discord.gg/Rk2gvQtMYX"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_6d3a40f9-a917-4cf8-a6f6-395ef074ec2e/3/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_39b7a2f6-a802-45b6-97b6-e8342b89b857/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_6d3a40f9-a917-4cf8-a6f6-395ef074ec2e/3/256",
     "developerType": "none",
-    "displayName": "Antia",
-    "id": "usr_e6f50b40-3b11-437c-9ed6-7fca049ef792",
+    "displayName": "The Architect",
+    "id": "usr_5892276b-e544-423e-9307-080b8cb9d87d",
     "isFriend": false,
-    "last_platform": "standalonewindows",
+    "last_platform": "android",
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "Happy Halloweenǃǃ",
+    "statusDescription": "",
     "tags": [
       "system_avatar_access",
       "system_world_access",
-      "system_trust_basic",
       "system_feedback_access",
+      "system_trust_basic",
       "system_trust_known",
+      "show_social_rank",
       "system_trust_trusted",
       "system_trust_veteran",
+      "language_eng",
+      "language_spa",
       "system_early_adopter"
     ],
     "userIcon": ""
