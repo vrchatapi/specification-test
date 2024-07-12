@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-pubert-5an` |
+| x-vrc-api-server | `prod-api-green-jessi-ace` |
 | x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
 
 ```jsonc

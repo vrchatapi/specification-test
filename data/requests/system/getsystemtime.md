@@ -26,7 +26,7 @@
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-tynnifer-px6` |
+| x-vrc-api-server | `prod-api-green-soup-e6a` |
 | x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
 
 ```jsonc

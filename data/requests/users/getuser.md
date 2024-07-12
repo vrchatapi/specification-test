@@ -30,12 +30,12 @@ Response schema mismatch: Unexpected property at #/platform.
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-celery-h26` |
+| x-vrc-api-server | `prod-api-green-dongl-jl1` |
 | x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
 
 ```jsonc
 {
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "badges": [
     {
       "badgeDescription": "Supports VRChat through VRC+.",
@@ -67,7 +67,7 @@ Response schema mismatch: Unexpected property at #/platform.
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "android",
+  "last_platform": "standalonewindows",
   "location": "offline",
   "note": "",
   /**

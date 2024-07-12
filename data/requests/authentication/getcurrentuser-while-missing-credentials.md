@@ -23,7 +23,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-mofn-q3b` |
+| x-vrc-api-server | `prod-api-green-boomquisha-flk` |
 | x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
 
 ```jsonc

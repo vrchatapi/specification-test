@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-cathcart-9d7` |
+| x-vrc-api-server | `prod-api-green-soda-22m` |
 | x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
 
 ```jsonc
@@ -40,7 +40,7 @@
     "displayName": "tupper",
     "id": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
     "isFriend": false,
-    "last_platform": "android",
+    "last_platform": "standalonewindows",
     "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
     "pronouns": "",
     "status": "ask me",
@@ -65,39 +65,11 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
   },
   {
-    "bio": "what people call love its just a chemical reaction that compels animals to breed it hits hard then just slowly fades․",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/256",
-    "developerType": "none",
-    "displayName": "༒TUPPER ༒",
-    "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "thoughts are coming back․",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran"
-    ],
-    "userIcon": ""
-  },
-  {
     "bio": "i want to be a rockstar",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_329560d0-296a-4d6c-a3db-21a5c8d32c47/1/file",
-    "currentAvatarTags": [
-      "admin_featured_legacy"
-    ],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_329560d0-296a-4d6c-a3db-21a5c8d32c47/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_53e05dca-62ed-415c-bd1f-e827b9539b6f/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_53e05dca-62ed-415c-bd1f-e827b9539b6f/1/256",
     "developerType": "none",
     "displayName": "﮴tupper",
     "id": "usr_9788b122-fb4a-4bd3-baef-44ffef048c26",
@@ -112,6 +84,35 @@
       "system_trust_basic",
       "system_avatar_access",
       "language_nor"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "what people call love its just a chemical reaction that compels animals to breed it hits hard then just slowly fades․",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "currentAvatarTags": [
+      "admin_featured_legacy",
+      "admin_content_reviewed"
+    ],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+    "developerType": "none",
+    "displayName": "༒TUPPER ༒",
+    "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "sleep is for the weak day 1",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran"
     ],
     "userIcon": ""
   },
@@ -159,6 +160,29 @@
     "userIcon": ""
   },
   {
+    "bio": "＂Meet the legendary Tupper‚ VRChat's head community wrangler and meme maestroǃ When he's not taming the wild digital frontier‚ he's probably sipping virtual coffee or spawning avatars out of thin air․ Got a VRChat issue? Tupper's got your back with a dash of humor and a sprinkle of loli magicǃ A true VRChat superhero in disguise‚ making our virtual world a better place one pixel at a time․ Praise be to Tupper‚ the beacon of virtual shenanigansǃ ＃TupperForPrez ＃VRCMagic ＂",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "currentAvatarTags": [
+      "admin_content_reviewed",
+      "admin_featured_legacy"
+    ],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+    "developerType": "none",
+    "displayName": "tupper nіgger",
+    "id": "usr_d98a425a-7592-4ce6-8dd5-9af659b9b640",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_probable_troll"
+    ],
+    "userIcon": ""
+  },
+  {
     "currentAvatarImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/images/image_1200x900_2016-11-29_21-47-25.png",
     "currentAvatarTags": [],
     "currentAvatarThumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/vrc-uploads/thumbnails/194889991.thumbnail-200.png",
@@ -191,29 +215,6 @@
     "status": "active",
     "statusDescription": "",
     "tags": [],
-    "userIcon": ""
-  },
-  {
-    "bio": "＂Meet the legendary Tupper‚ VRChat's head community wrangler and meme maestroǃ When he's not taming the wild digital frontier‚ he's probably sipping virtual coffee or spawning avatars out of thin air․ Got a VRChat issue? Tupper's got your back with a dash of humor and a sprinkle of loli magicǃ A true VRChat superhero in disguise‚ making our virtual world a better place one pixel at a time․ Praise be to Tupper‚ the beacon of virtual shenanigansǃ ＃TupperForPrez ＃VRCMagic ＂",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-    "currentAvatarTags": [
-      "admin_content_reviewed",
-      "admin_featured_legacy"
-    ],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-    "developerType": "none",
-    "displayName": "tupper nіgger",
-    "id": "usr_d98a425a-7592-4ce6-8dd5-9af659b9b640",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_probable_troll"
-    ],
     "userIcon": ""
   },
   {
