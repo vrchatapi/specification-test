@@ -24,76 +24,12 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-wump-9jj` |
-| x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-zelda-pqz` |
+| x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc
 [
-  {
-    "bio": "To see with eyes unclouded by hate․",
-    "bioLinks": [
-      "https://x.com/AzuTeaTime"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/1/256",
-    "developerType": "none",
-    "displayName": "Azuteatime",
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_fra",
-      "language_eng"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
-    "bioLinks": [
-      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
-      "https://www.deviantart.com/azuliezeiro"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_93fa14b6-4ea2-48d2-a580-a3957474e2f9/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_93fa14b6-4ea2-48d2-a580-a3957474e2f9/1/256",
-    "developerType": "none",
-    "displayName": "AzulieZeiro",
-    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "4‚000 year old loli",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "language_eng",
-      "system_early_adopter"
-    ],
-    "userIcon": ""
-  },
   {
     "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
     "bioLinks": [],
@@ -120,6 +56,70 @@
       "show_social_rank",
       "system_early_adopter",
       "language_jpn"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
+    "bioLinks": [
+      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
+      "https://www.deviantart.com/azuliezeiro"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/256",
+    "developerType": "none",
+    "displayName": "AzulieZeiro",
+    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "4‚000 year old loli",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "language_eng",
+      "system_early_adopter"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "To see with eyes unclouded by hate․",
+    "bioLinks": [
+      "https://x.com/AzuTeaTime"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/2/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/2/256",
+    "developerType": "none",
+    "displayName": "Azuteatime",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_fra",
+      "language_eng"
     ],
     "userIcon": ""
   },

@@ -22,9 +22,9 @@
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-grace-mv2` |
-| x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-pamplona-0n4` |
+| x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc
 {

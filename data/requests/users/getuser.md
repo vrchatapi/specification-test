@@ -29,23 +29,23 @@ Response schema mismatch: Unexpected property at #/platform.
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-dongl-jl1` |
-| x-vrc-api-version | `master-build-2024-07-10-hearts-v-lynxmusic` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-venus-hny` |
+| x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc
 {
   "allowAvatarCopying": false,
   "badges": [
     {
-      "badgeDescription": "Supports VRChat through VRC+.",
+      "badgeDescription": "Supports VRChat through VRC+",
       "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
       "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_eff7def2-c264-4c0e-b462-6a9477ea4e6c.png",
       "badgeName": "Supporter",
       "showcased": false
     },
     {
-      "badgeDescription": "Supported VRChat through VRC+ when it first launched.",
+      "badgeDescription": "Supported VRChat through VRC+ when it first launched",
       "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
       "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_28e70141-6859-450b-834b-30c15ecf3ff4.png",
       "badgeName": "Early Supporter",
