@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-marino-lrc` |
+| x-vrc-api-server | `prod-api-blue-scam-30l` |
 | x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc
@@ -67,9 +67,9 @@
   {
     "bio": "what people call love its just a chemical reaction that compels animals to breed it hits hard then just slowly fades․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_90342946-c9c5-4eba-8cae-7c3ccde13834/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_90342946-c9c5-4eba-8cae-7c3ccde13834/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/256",
     "developerType": "none",
     "displayName": "༒TUPPER ༒",
     "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
@@ -78,7 +78,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "sleep is for the weak day 1",
+    "statusDescription": "sleep is for the weak day 3",
     "tags": [
       "system_avatar_access",
       "system_world_access",
@@ -110,28 +110,6 @@
       "system_trust_basic",
       "system_avatar_access",
       "language_nor"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "20 years old chill and ask to give cuddle taken",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e3bf624c-8dc9-4e38-a4bb-1e40e8fb6e3a/2/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e3bf624c-8dc9-4e38-a4bb-1e40e8fb6e3a/2/256",
-    "developerType": "none",
-    "displayName": "༒TUPPER༒",
-    "id": "usr_d1562cae-2cd6-4a35-80c9-0ea646a55479",
-    "isFriend": false,
-    "last_platform": "android",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "",
-    "tags": [
-      "system_trust_basic",
-      "system_world_access",
-      "system_avatar_access"
     ],
     "userIcon": ""
   },
@@ -246,6 +224,25 @@
     "tags": [
       "system_feedback_access",
       "system_trust_known"
+    ],
+    "userIcon": ""
+  },
+  {
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_c6736504-6bc1-46dd-9bc4-e7135a9ffb1b/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_c6736504-6bc1-46dd-9bc4-e7135a9ffb1b/1/256",
+    "developerType": "none",
+    "displayName": "TupperDose",
+    "id": "usr_16a60dbf-bf40-4464-ae99-1c0d687f66b3",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_world_access"
     ],
     "userIcon": ""
   }

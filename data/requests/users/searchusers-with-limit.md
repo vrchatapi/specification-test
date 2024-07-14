@@ -25,17 +25,49 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-zelda-pqz` |
+| x-vrc-api-server | `prod-api-blue-mantou-k8x` |
 | x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc
 [
   {
+    "bio": "To see with eyes unclouded by hate․",
+    "bioLinks": [
+      "https://x.com/AzuTeaTime"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/2/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/2/256",
+    "developerType": "none",
+    "displayName": "Azuteatime",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_fra",
+      "language_eng"
+    ],
+    "userIcon": ""
+  },
+  {
     "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_110d92a2-5ce0-4470-bb35-20a9c0874d3a/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_257a7fc7-1d20-4ac8-aed5-87552e94077f/2/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_110d92a2-5ce0-4470-bb35-20a9c0874d3a/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_257a7fc7-1d20-4ac8-aed5-87552e94077f/2/256",
     "developerType": "none",
     "displayName": "aphex503",
     "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
@@ -43,7 +75,7 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "active",
+    "status": "ask me",
     "statusDescription": "",
     "tags": [
       "system_avatar_access",
@@ -92,38 +124,6 @@
     "userIcon": ""
   },
   {
-    "bio": "To see with eyes unclouded by hate․",
-    "bioLinks": [
-      "https://x.com/AzuTeaTime"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/2/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/2/256",
-    "developerType": "none",
-    "displayName": "Azuteatime",
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_fra",
-      "language_eng"
-    ],
-    "userIcon": ""
-  },
-  {
     "bio": "Then why are you here?",
     "bioLinks": [
       "https://twitter.com/Averiff1",
@@ -156,24 +156,20 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_13c36669-a82d-404e-876f-4c8d85b15b11/1/"
   },
   {
-    "bio": "Hi~\n\nI make stuff for a living․\nshe⁄they",
-    "bioLinks": [
-      "https://www.youtube.com/artsyvrc",
-      "https://twitch.tv/artsyvrc",
-      "https://twitter.com/ArtsyVRC"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "bio": "Just a guy trying to make his way through the chaos of VRChat․\n\n＋Taken＋ ≺3",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_561e6c75-cd53-4b86-9cda-472c26ca7af8/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_561e6c75-cd53-4b86-9cda-472c26ca7af8/1/256",
     "developerType": "none",
-    "displayName": "Artsy",
-    "id": "usr_f3667b2c-65d2-47d4-944e-633ff00cb134",
+    "displayName": "Antia",
+    "id": "usr_e6f50b40-3b11-437c-9ed6-7fca049ef792",
     "isFriend": false,
     "last_platform": "standalonewindows",
-    "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_ebdf194a-2bce-47e0-829c-242e95f68915/1/file",
+    "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "facetracking~",
+    "statusDescription": "Merry Christmasǃǃǃ",
     "tags": [
       "system_avatar_access",
       "system_world_access",
@@ -182,13 +178,10 @@
       "system_trust_known",
       "system_trust_trusted",
       "system_trust_veteran",
-      "language_eng",
-      "language_jpn",
-      "language_nld",
-      "system_supporter",
-      "system_early_adopter"
+      "system_early_adopter",
+      "system_supporter"
     ],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_70add13c-2b69-4b0b-a978-e6f705707b90/1"
+    "userIcon": ""
   }
 ]
 ```
