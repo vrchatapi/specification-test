@@ -30,7 +30,7 @@ Response schema mismatch: Invalid type at #/0/agreement, Invalid type at #/1/agr
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-thermo-lrv` |
+| x-vrc-api-server | `prod-api-blue-stubbs-otr` |
 | x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc

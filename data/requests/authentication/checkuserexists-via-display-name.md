@@ -26,7 +26,7 @@
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-curtina-fr4` |
+| x-vrc-api-server | `prod-api-blue-assemble-8qd` |
 | x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc

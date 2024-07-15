@@ -25,11 +25,43 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-mantou-k8x` |
+| x-vrc-api-server | `prod-api-blue-katamari-cfb` |
 | x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc
 [
+  {
+    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
+    "bioLinks": [
+      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
+      "https://www.deviantart.com/azuliezeiro"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/256",
+    "developerType": "none",
+    "displayName": "AzulieZeiro",
+    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "4‚000 year old loli",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "language_eng",
+      "system_early_adopter"
+    ],
+    "userIcon": ""
+  },
   {
     "bio": "To see with eyes unclouded by hate․",
     "bioLinks": [
@@ -65,9 +97,9 @@
   {
     "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_257a7fc7-1d20-4ac8-aed5-87552e94077f/2/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_7d7802a5-3a39-4145-aef7-f482b09377f9/4/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_257a7fc7-1d20-4ac8-aed5-87552e94077f/2/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_7d7802a5-3a39-4145-aef7-f482b09377f9/4/256",
     "developerType": "none",
     "displayName": "aphex503",
     "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
@@ -75,7 +107,7 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "ask me",
+    "status": "active",
     "statusDescription": "",
     "tags": [
       "system_avatar_access",
@@ -88,38 +120,6 @@
       "show_social_rank",
       "system_early_adopter",
       "language_jpn"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
-    "bioLinks": [
-      "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
-      "https://www.deviantart.com/azuliezeiro"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/256",
-    "developerType": "none",
-    "displayName": "AzulieZeiro",
-    "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "4‚000 year old loli",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "language_eng",
-      "system_early_adopter"
     ],
     "userIcon": ""
   },
@@ -156,30 +156,35 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_13c36669-a82d-404e-876f-4c8d85b15b11/1/"
   },
   {
-    "bio": "Just a guy trying to make his way through the chaos of VRChat․\n\n＋Taken＋ ≺3",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_561e6c75-cd53-4b86-9cda-472c26ca7af8/1/file",
+    "bio": "About me˸\n- Owner of Isekai Realm online community\n- Bachelor Of Business Administration\n- VRChat Avatar ＆ World creator\n- Bilingual （English⁄Spanish）\n- Playing VRChat since 2017\n\nFeel free to join my discord server˸ https˸⁄⁄discord․gg⁄Rk2gvQtMYX",
+    "bioLinks": [
+      "https://patreon.com/vr_architect",
+      "https://discord.gg/Rk2gvQtMYX"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_c094dc76-c0aa-47b0-a9de-dc60a853fd6a/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_561e6c75-cd53-4b86-9cda-472c26ca7af8/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_c094dc76-c0aa-47b0-a9de-dc60a853fd6a/1/256",
     "developerType": "none",
-    "displayName": "Antia",
-    "id": "usr_e6f50b40-3b11-437c-9ed6-7fca049ef792",
+    "displayName": "The Architect",
+    "id": "usr_5892276b-e544-423e-9307-080b8cb9d87d",
     "isFriend": false,
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "Merry Christmasǃǃǃ",
+    "statusDescription": "",
     "tags": [
       "system_avatar_access",
       "system_world_access",
-      "system_trust_basic",
       "system_feedback_access",
+      "system_trust_basic",
       "system_trust_known",
+      "show_social_rank",
       "system_trust_trusted",
       "system_trust_veteran",
-      "system_early_adopter",
-      "system_supporter"
+      "language_eng",
+      "language_spa",
+      "system_early_adopter"
     ],
     "userIcon": ""
   }

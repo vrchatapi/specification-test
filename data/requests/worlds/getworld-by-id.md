@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-nin-rc9` |
+| x-vrc-api-server | `prod-api-blue-drill-0b1` |
 | x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc

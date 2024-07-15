@@ -26,7 +26,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-sabin-vw7` |
+| x-vrc-api-server | `prod-api-blue-admiral-xpj` |
 | x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc

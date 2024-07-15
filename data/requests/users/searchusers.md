@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-scam-30l` |
+| x-vrc-api-server | `prod-api-blue-cornelius-ccn` |
 | x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
 
 ```jsonc
@@ -77,8 +77,8 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "sleep is for the weak day 3",
+    "status": "join me",
+    "statusDescription": "sleep is for the weak day 5",
     "tags": [
       "system_avatar_access",
       "system_world_access",
