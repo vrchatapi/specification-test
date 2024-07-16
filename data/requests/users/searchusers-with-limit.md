@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-katamari-cfb` |
-| x-vrc-api-version | `master-build-2024-07-12-togo-groupfuchsia` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-carl-jwo` |
+| x-vrc-api-version | `master-build-2024-07-15-drone-beercloak` |
 
 ```jsonc
 [
@@ -97,9 +97,9 @@
   {
     "bio": "おさかなのおさしみ\n\nむちゃ無言勢",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_7d7802a5-3a39-4145-aef7-f482b09377f9/4/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_cdb1b678-00a8-4663-b0fc-bc07f4a088ce/2/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_7d7802a5-3a39-4145-aef7-f482b09377f9/4/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_cdb1b678-00a8-4663-b0fc-bc07f4a088ce/2/256",
     "developerType": "none",
     "displayName": "aphex503",
     "id": "usr_0f972fff-f006-4e0a-9754-93dc836219d5",
@@ -139,7 +139,7 @@
     "last_platform": "standalonewindows",
     "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_09321baa-93d7-418c-ba6d-a21ed04ac27b/1/",
     "pronouns": "",
-    "status": "active",
+    "status": "ask me",
     "statusDescription": "",
     "tags": [
       "system_trust_basic",
