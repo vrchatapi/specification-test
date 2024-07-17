@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-carl-jwo` |
-| x-vrc-api-version | `master-build-2024-07-15-drone-beercloak` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-maroon-791` |
+| x-vrc-api-version | `master-build-2024-07-16-flursday-n-sadlyomoto` |
 
 ```jsonc
 [
@@ -36,9 +36,9 @@
       "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
       "https://www.deviantart.com/azuliezeiro"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_e10a1f37-3e6d-4bd1-9d8a-42a1aca52c08/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1676cd4e-6875-49b1-95ca-441bb5f50e35/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_e10a1f37-3e6d-4bd1-9d8a-42a1aca52c08/1/256",
     "developerType": "none",
     "displayName": "AzulieZeiro",
     "id": "usr_711e0b7c-de98-41e8-89ce-e89e15d62e99",
@@ -59,38 +59,6 @@
       "show_social_rank",
       "language_eng",
       "system_early_adopter"
-    ],
-    "userIcon": ""
-  },
-  {
-    "bio": "To see with eyes unclouded by hate․",
-    "bioLinks": [
-      "https://x.com/AzuTeaTime"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/2/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_8cdf4761-c735-48af-9b3e-0adb7fcb9c93/2/256",
-    "developerType": "none",
-    "displayName": "Azuteatime",
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_basic",
-      "system_feedback_access",
-      "system_trust_known",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "show_social_rank",
-      "system_early_adopter",
-      "language_fra",
-      "language_eng"
     ],
     "userIcon": ""
   },
@@ -120,6 +88,38 @@
       "show_social_rank",
       "system_early_adopter",
       "language_jpn"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "To see with eyes unclouded by hate․",
+    "bioLinks": [
+      "https://x.com/AzuTeaTime"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
+    "developerType": "none",
+    "displayName": "Azuteatime",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "show_social_rank",
+      "system_early_adopter",
+      "language_fra",
+      "language_eng"
     ],
     "userIcon": ""
   },
@@ -156,37 +156,39 @@
     "userIcon": "https://api.vrchat.cloud/api/1/file/file_13c36669-a82d-404e-876f-4c8d85b15b11/1/"
   },
   {
-    "bio": "About me˸\n- Owner of Isekai Realm online community\n- Bachelor Of Business Administration\n- VRChat Avatar ＆ World creator\n- Bilingual （English⁄Spanish）\n- Playing VRChat since 2017\n\nFeel free to join my discord server˸ https˸⁄⁄discord․gg⁄Rk2gvQtMYX",
+    "bio": "Hi~\n\nI make stuff for a living․\nshe⁄they",
     "bioLinks": [
-      "https://patreon.com/vr_architect",
-      "https://discord.gg/Rk2gvQtMYX"
+      "https://www.youtube.com/artsyvrc",
+      "https://twitch.tv/artsyvrc",
+      "https://twitter.com/ArtsyVRC"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_c094dc76-c0aa-47b0-a9de-dc60a853fd6a/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_c094dc76-c0aa-47b0-a9de-dc60a853fd6a/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "developerType": "none",
-    "displayName": "The Architect",
-    "id": "usr_5892276b-e544-423e-9307-080b8cb9d87d",
+    "displayName": "Artsy",
+    "id": "usr_f3667b2c-65d2-47d4-944e-633ff00cb134",
     "isFriend": false,
     "last_platform": "standalonewindows",
-    "profilePicOverride": "",
+    "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_ebdf194a-2bce-47e0-829c-242e95f68915/1/file",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "",
+    "statusDescription": "USA Tripǃ",
     "tags": [
       "system_avatar_access",
       "system_world_access",
-      "system_feedback_access",
       "system_trust_basic",
+      "system_feedback_access",
       "system_trust_known",
-      "show_social_rank",
       "system_trust_trusted",
       "system_trust_veteran",
       "language_eng",
-      "language_spa",
+      "language_jpn",
+      "language_nld",
+      "system_supporter",
       "system_early_adopter"
     ],
-    "userIcon": ""
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_70add13c-2b69-4b0b-a978-e6f705707b90/1"
   }
 ]
 ```

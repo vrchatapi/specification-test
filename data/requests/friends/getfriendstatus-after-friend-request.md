@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-norway-oya` |
-| x-vrc-api-version | `master-build-2024-07-15-drone-beercloak` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-duck-n6z` |
+| x-vrc-api-version | `master-build-2024-07-16-flursday-n-sadlyomoto` |
 
 ```jsonc
 {
