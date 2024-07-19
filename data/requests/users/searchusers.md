@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-july-hxg` |
+| x-vrc-api-server | `prod-api-blue-nice-6gq` |
 | x-vrc-api-version | `master-build-2024-07-16-flursday-n-sadlyomoto` |
 
 ```jsonc
@@ -62,7 +62,25 @@
       "system_cute_robot",
       "system_supporter"
     ],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_9a353841-493c-45b4-ae15-9ee872fb3f47/1/"
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_cf0e57e1-c90c-4e74-b829-bc25b7bac707/1/"
+  },
+  {
+    "bio": "",
+    "bioLinks": [],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_129381c5-2407-4913-a689-38703836b04c/1/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_129381c5-2407-4913-a689-38703836b04c/1/256",
+    "developerType": "none",
+    "displayName": "Tupper-",
+    "id": "usr_80c07ff8-8f31-41ea-a52e-d6a6962aaecf",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "Hi",
+    "tags": [],
+    "userIcon": ""
   },
   {
     "bio": "what people call love its just a chemical reaction that compels animals to breed it hits hard then just slowly fades․",
@@ -224,25 +242,6 @@
     "tags": [
       "system_feedback_access",
       "system_trust_known"
-    ],
-    "userIcon": ""
-  },
-  {
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_c6736504-6bc1-46dd-9bc4-e7135a9ffb1b/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_c6736504-6bc1-46dd-9bc4-e7135a9ffb1b/1/256",
-    "developerType": "none",
-    "displayName": "TupperDose",
-    "id": "usr_16a60dbf-bf40-4464-ae99-1c0d687f66b3",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_world_access"
     ],
     "userIcon": ""
   }

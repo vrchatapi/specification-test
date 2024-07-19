@@ -25,7 +25,7 @@
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-yellow-e1o` |
+| x-vrc-api-server | `prod-api-blue-caravan-5z6` |
 | x-vrc-api-version | `master-build-2024-07-16-flursday-n-sadlyomoto` |
 
 ```jsonc

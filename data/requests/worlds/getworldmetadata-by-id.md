@@ -25,7 +25,7 @@
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 | x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-empty-yt0` |
+| x-vrc-api-server | `prod-api-blue-growth-l4z` |
 | x-vrc-api-version | `master-build-2024-07-16-flursday-n-sadlyomoto` |
 
 ```jsonc
