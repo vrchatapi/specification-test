@@ -24,9 +24,9 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-nice-6gq` |
-| x-vrc-api-version | `master-build-2024-07-16-flursday-n-sadlyomoto` |
+| x-vrc-api-group | `green` |
+| x-vrc-api-server | `prod-api-green-coquitlam-s6m` |
+| x-vrc-api-version | `master-build-2024-07-20-armenia-q-jugglegog` |
 
 ```jsonc
 [
@@ -62,7 +62,7 @@
       "system_cute_robot",
       "system_supporter"
     ],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_cf0e57e1-c90c-4e74-b829-bc25b7bac707/1/"
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_662d8b2f-2142-4052-bd40-385d56830873/1/"
   },
   {
     "bio": "",
