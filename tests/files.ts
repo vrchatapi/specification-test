@@ -3,7 +3,7 @@ import { failUnauthenticated, test, testOperation } from "./_utilities";
 
 test.before(failUnauthenticated);
 test.serial(
-	"getFileWithoutData",
+	"without data",
 	testOperation,
 	"getFiles",
 	() => ({
@@ -39,7 +39,6 @@ test.serial(
 );
 
 test.serial(
-	"getFileWithData",
 	testOperation,
 	"getFiles",
 	() => ({
