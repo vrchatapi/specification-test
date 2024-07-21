@@ -25,9 +25,9 @@
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `green` |
-| x-vrc-api-server | `prod-api-green-babka-w71` |
-| x-vrc-api-version | `master-build-2024-07-20-armenia-q-jugglegog` |
+| x-vrc-api-group | `blue` |
+| x-vrc-api-server | `prod-api-blue-flush-a5u` |
+| x-vrc-api-version | `master-build-2024-07-20-dionysus-v-flipslice` |
 
 ```jsonc
 []
