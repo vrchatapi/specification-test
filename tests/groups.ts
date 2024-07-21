@@ -1,8 +1,11 @@
-import { failUnauthenticated, test } from "./_utilities";
+import { failUnauthenticated, test, testOperation } from "./_utilities";
+
+const unstableGroupKeys = [
+	"id",
+];
 
 test.before(failUnauthenticated);
 
-test.todo("Create Group");
 test.todo("Get Group by ID");
 test.todo("Update Group");
 test.todo("Delete Group");
@@ -24,7 +27,6 @@ test.todo("Invite User to Group");
 test.todo("Delete User Invite");
 test.todo("Join Group");
 test.todo("Leave Group");
-test.todo("List Group Members");
 test.todo("Get Group Member");
 test.todo("Update Group Member");
 test.todo("Kick Group Member");
@@ -38,3 +40,54 @@ test.todo("Get Group Roles");
 test.todo("Create GroupRole");
 test.todo("Update Group Role");
 test.todo("Delete Group Role");
+
+
+const groupName = 'testGroup'
+const groupShortCode = 'grop'
+let groupId: string;
+
+test.serial(
+	testOperation,
+	"createGroup",
+	{
+		requestBody: {
+			name: groupName,
+			shortCode: groupShortCode,
+			roleTemplate: 'default',
+		},
+		statusCode: 200,
+		unstable: unstableGroupKeys,
+	},
+	(t) => {
+		const { context } = t;
+
+		groupId = context.body.id;
+
+		t.is(context.body.name, groupName);
+	}
+);
+
+
+test.serial(
+	testOperation,
+	"getGroupMembers",
+	() => ({
+		parameters: {
+			groupId,
+		},
+		statusCode: 200
+	})
+);
+
+
+test.serial(
+	testOperation,
+	"deleteGroup",
+	() => ({
+		parameters: {
+			groupId,
+		},
+		statusCode: 200,
+		unstable: unstableGroupKeys,
+	})
+);
