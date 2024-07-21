@@ -29,7 +29,17 @@ test(
 	(t) => {
 		const { context } = t;
 
-		t.assert(context.body.contains(tupperUserId), "Should contain Tupper");
+		//Todo: a `filter`, `map`, `for in` or `some` on `context.body` makes the test freeze completely
+		//		Thus we do a regular for loop here.
+		let foundTupper = false;
+		for(let i = 0; i < context.body.length; i++){
+			if (context.body[i].id === tupperUserId) {
+				foundTupper = true;
+				break;
+			}
+		}
+
+		t.is(foundTupper, true, "Should contain Tupper");
 	}
 );
 
