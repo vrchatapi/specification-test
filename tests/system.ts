@@ -12,7 +12,8 @@ test("with zero parameters", testOperation, "getInfoPush", {
 test.failing(testOperation, "getInfoPush", {
 	statusCode: 200,
 	parameters: {
-		include: ["user-all"].join(",")
+		include: ["user-all"].join(","),
+		require: ["user-all"].join(",")
 	}
 });
 
