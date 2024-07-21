@@ -92,7 +92,13 @@
   "steamId": "",
   "tags": [
     "system_no_captcha",
-    "language_eng"
+    "language_eng",
+    "system_supporter",
+    "system_avatar_access",
+    "system_trust_basic",
+    "system_world_access",
+    "system_trust_known",
+    "system_feedback_access"
   ],
   "twoFactorAuthEnabled": true,
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",

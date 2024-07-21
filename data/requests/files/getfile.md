@@ -1,7 +1,7 @@
 # getFile
 
 ## Request
-`get https://vrchat.com/api/1/file/undefined`
+`get https://vrchat.com/api/1/file/file_ca9f2a32-5c43-45d1-b1c8-47077cfb2f9e`
 
 | Header | Value |
 | ------ | ----- |
@@ -10,7 +10,7 @@
 
 
 ## Response
-`404 Not Found`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
@@ -18,6 +18,7 @@
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
@@ -26,18 +27,20 @@
 
 ```jsonc
 {
-  /**
-   * Unexpected property.
-   *
-   * @schema File
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/error
-   */
-  "error": {
-    "message": "File not found",
-    "status_code": 404
-  }
+  "extension": ".A",
+  "id": "file_ca9f2a32-5c43-45d1-b1c8-47077cfb2f9e",
+  "mimeType": "image/jpeg",
+  "name": "string",
+  "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  "tags": [
+    "gallery"
+  ],
+  "versions": [
+    {
+      "created_at": "2024-07-21T22:44:22.606Z",
+      "status": "complete",
+      "version": 0
+    }
+  ]
 }
 ```

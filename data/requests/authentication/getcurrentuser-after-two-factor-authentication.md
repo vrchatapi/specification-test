@@ -33,15 +33,26 @@
   "accountDeletionLog": null,
   "activeFriends": [],
   "allowAvatarCopying": true,
-  "badges": [],
+  "badges": [
+    {
+      "assignedAt": "2024-07-21T22:28:04.790Z",
+      "badgeDescription": "Supports VRChat through VRC+",
+      "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_eff7def2-c264-4c0e-b462-6a9477ea4e6c.png",
+      "badgeName": "Supporter",
+      "hidden": false,
+      "showcased": false,
+      "updatedAt": "2024-07-21T22:28:04.790Z"
+    }
+  ],
   "bio": "",
   "bioLinks": [],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_ddea1398-ae13-41c4-8c74-6d7479337d40/1/file",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarTags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
+    "admin_content_reviewed",
+    "admin_featured_legacy"
   ],
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "date_joined": "2023-04-11",
@@ -108,7 +119,13 @@
   "steamId": "",
   "tags": [
     "system_no_captcha",
-    "language_eng"
+    "language_eng",
+    "system_supporter",
+    "system_avatar_access",
+    "system_trust_basic",
+    "system_world_access",
+    "system_trust_known",
+    "system_feedback_access"
   ],
   "twoFactorAuthEnabled": true,
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",

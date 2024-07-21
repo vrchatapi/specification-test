@@ -1,7 +1,7 @@
 # downloadFileVersion
 
 ## Request
-`get https://vrchat.com/api/1/file/undefined/0`
+`get https://vrchat.com/api/1/file/file_ca9f2a32-5c43-45d1-b1c8-47077cfb2f9e/0`
 
 | Header | Value |
 | ------ | ----- |
@@ -27,7 +27,7 @@
 ```jsonc
 {
   "error": {
-    "message": "File not found",
+    "message": "File version type not found",
     "status_code": 404
   }
 }

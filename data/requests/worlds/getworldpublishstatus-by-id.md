@@ -18,7 +18,7 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `20` |
+| content-length | `19` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
@@ -28,6 +28,6 @@
 
 ```jsonc
 {
-  "canPublish": false
+  "canPublish": true
 }
 ```

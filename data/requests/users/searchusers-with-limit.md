@@ -28,38 +28,6 @@
 ```jsonc
 [
   {
-    "bio": "Then why are you here?",
-    "bioLinks": [
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=69YVGbOSW7I"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-    "developerType": "none",
-    "displayName": "Averiff",
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "isFriend": false,
-    "last_platform": "android",
-    "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_09321baa-93d7-418c-ba6d-a21ed04ac27b/1/",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
-    "tags": [
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "system_early_adopter",
-      "language_eng",
-      "system_supporter"
-    ],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_13c36669-a82d-404e-876f-4c8d85b15b11/1/"
-  },
-  {
     "bio": "Trash princess\ngarbage furry\ncuddle puddle maker\ncancer to the pure",
     "bioLinks": [
       "https://www.youtube.com/channel/UCP-9p0IAZWesPa0gokOSwLw",
@@ -92,33 +60,32 @@
     "userIcon": ""
   },
   {
-    "bio": "To see with eyes unclouded by hate․",
+    "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
     "bioLinks": [
-      "https://x.com/AzuTeaTime"
+      "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1736c470-cdd1-4111-b45a-150df4a8494c/3/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1736c470-cdd1-4111-b45a-150df4a8494c/3/256",
     "developerType": "none",
-    "displayName": "Azuteatime",
-    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "displayName": "Aggrakia",
+    "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
     "isFriend": false,
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "active",
-    "statusDescription": "",
+    "status": "ask me",
+    "statusDescription": "Full Of Soap",
     "tags": [
       "system_avatar_access",
       "system_world_access",
       "system_trust_basic",
-      "system_feedback_access",
       "system_trust_known",
+      "system_feedback_access",
       "system_trust_trusted",
       "system_trust_veteran",
       "show_social_rank",
       "system_early_adopter",
-      "language_fra",
       "language_eng"
     ],
     "userIcon": ""
@@ -153,32 +120,64 @@
     "userIcon": ""
   },
   {
-    "bio": "Age˸ 25\nGender˸ Female\nRelationship˸ taken by Spots‚ who is big ghey for Kyle Crane by the way\nJust your local spooky fentanyl fairy who is a goofy ah creature",
+    "bio": "Then why are you here?",
     "bioLinks": [
-      "https://open.spotify.com/playlist/7vLvHm81WOQuSAeFAwE02Y?si=ccc47f1d28d04fba"
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=69YVGbOSW7I"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1736c470-cdd1-4111-b45a-150df4a8494c/3/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_00e61e3e-1e64-442f-ba25-98e89b09225d/9/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1736c470-cdd1-4111-b45a-150df4a8494c/3/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_00e61e3e-1e64-442f-ba25-98e89b09225d/9/256",
     "developerType": "none",
-    "displayName": "Aggrakia",
-    "id": "usr_ce0d7b4c-8a81-4fdd-a638-3de81d8a7d0d",
+    "displayName": "Averiff",
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
     "isFriend": false,
     "last_platform": "standalonewindows",
     "profilePicOverride": "",
     "pronouns": "",
-    "status": "ask me",
-    "statusDescription": "Full Of Soap",
+    "status": "active",
+    "statusDescription": "Watching EVO",
     "tags": [
+      "system_trust_basic",
       "system_avatar_access",
       "system_world_access",
-      "system_trust_basic",
       "system_trust_known",
       "system_feedback_access",
       "system_trust_trusted",
       "system_trust_veteran",
+      "system_early_adopter",
+      "language_eng"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "To see with eyes unclouded by hate․",
+    "bioLinks": [
+      "https://x.com/AzuTeaTime"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_4d7ffaa2-f772-486e-9f06-44658a077a03/4/256",
+    "developerType": "none",
+    "displayName": "Azuteatime",
+    "id": "usr_41cb0d01-de12-4f5e-9345-f4d8601dc4d4",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "active",
+    "statusDescription": "",
+    "tags": [
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_basic",
+      "system_feedback_access",
+      "system_trust_known",
+      "system_trust_trusted",
+      "system_trust_veteran",
       "show_social_rank",
       "system_early_adopter",
+      "language_fra",
       "language_eng"
     ],
     "userIcon": ""
