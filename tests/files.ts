@@ -1,4 +1,4 @@
-import { state } from "./_cache";
+import { state, unstableValues } from "./_cache";
 import { failUnauthenticated, test, testOperation } from "./_utilities";
 
 test.before(failUnauthenticated);
@@ -35,6 +35,9 @@ test.serial(
 		const { body } = t.context;
 		state.set("fileId", body.id);
 		t.is(body.versions.length, 1, "File should have 1 version, the initial one");
+		unstableValues.add(body.id);
+		unstableValues.add(body.versions.map((x: any) => x.created_at));
+		unstableValues.add("https://vrchat.com/api/1/file/"+body.id);
 	}
 );
 
@@ -50,6 +53,8 @@ test.serial(
 	(t) => {
 		const { body } = t.context;
 		t.is(body.length, 1, "Should have one file");
+		unstableValues.add(body.id);
+		unstableValues.add(body[0].versions.map((x: any) => x.created_at));
 	}
 );
 
@@ -66,6 +71,8 @@ test.serial(
 		const { body } = t.context;
 		t.is(body.id, state.get("fileId"), "Successful file get returns file object");
 		t.is(body.versions.length, 1, "File should have 1 version, the initial one");
+		unstableValues.add(body.id);
+		unstableValues.add(body.versions.map((x: any) => x.created_at));
 	}
 );
 
@@ -82,6 +89,7 @@ test.serial(
 	(t) => {
 		const { body } = t.context;
 		t.is(body.error.message, "File version type not found", "File version 0 has no data");
+		unstableValues.add("https://vrchat.com/api/1/file/"+state.get("fileId")+"/0");
 	}
 );
 
@@ -104,6 +112,12 @@ test.serial(
 		const { body } = t.context;
 		t.is(body.id, state.get("fileId"), "Successful file get returns file object");
 		t.is(body.versions.length, 2, "File should have 2 version, the initial one, and the one we created");
+		unstableValues.add(body.id);
+		unstableValues.add(body.versions.map((x: any) => x.created_at));
+		unstableValues.add(body.versions.filter((x: any) => x.file).map((x: any) => x.file.fileName));
+		unstableValues.add(body.versions.filter((x: any) => x.file).map((x: any) => x.file.url));
+		unstableValues.add(body.versions.filter((x: any) => x.signature).map((x: any) => x.signature.fileName));
+		unstableValues.add(body.versions.filter((x: any) => x.signature).map((x: any) => x.signature.url));
 	}
 );
 
@@ -121,6 +135,8 @@ test.serial(
 		const { body } = t.context;
 		t.is(body.id, state.get("fileId"), "Successful file get returns file object");
 		t.is(body.versions.length, 1, "File should have 1 version, the initial one");
+		unstableValues.add(body.id);
+		unstableValues.add(body.versions.map((x: any) => x.created_at));
 	}
 );
 
@@ -137,6 +153,8 @@ test.serial(
 		const { body } = t.context;
 		t.is(body.id, state.get("fileId"), "Successful file deletion returns file object");
 		t.is(body.versions.length, 1, "File should have 1 version, the initial one");
+		unstableValues.add(body.id);
+		unstableValues.add(body.versions.map((x: any) => x.created_at));
 	}
 );
 
