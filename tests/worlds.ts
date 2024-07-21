@@ -72,7 +72,7 @@ test("by id", testOperation, "getWorldMetadata", {
 	}
 });
 
-test.failing("by id", testOperation, "getWorldPublishStatus", {
+test("by id", testOperation, "getWorldPublishStatus", {
 	statusCode: 200,
 	parameters: {
 		worldId: blackCatWorldId
