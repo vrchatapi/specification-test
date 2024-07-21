@@ -24,9 +24,6 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-richmond-7d0` |
-| x-vrc-api-version | `master-build-2024-07-20-dionysus-v-flipslice` |
 
 ```jsonc
 <unstable>

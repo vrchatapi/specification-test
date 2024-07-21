@@ -28,9 +28,6 @@ Response schema mismatch: Missing property at #/userExists, Unexpected property 
 | server | `cloudflare` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-lynx-jsz` |
-| x-vrc-api-version | `master-build-2024-07-20-dionysus-v-flipslice` |
 
 ```jsonc
 {

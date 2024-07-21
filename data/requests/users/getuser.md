@@ -1,10 +1,5 @@
 # getUser
 
-## Issues
-```
-Response schema mismatch: Unexpected property at #/platform.
-```
-
 ## Request
 `get https://vrchat.com/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 
@@ -29,9 +24,6 @@ Response schema mismatch: Unexpected property at #/platform.
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-api-group | `blue` |
-| x-vrc-api-server | `prod-api-blue-lykke-k9n` |
-| x-vrc-api-version | `master-build-2024-07-20-dionysus-v-flipslice` |
 
 ```jsonc
 {
@@ -70,15 +62,6 @@ Response schema mismatch: Unexpected property at #/platform.
   "last_platform": "standalonewindows",
   "location": "offline",
   "note": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema User
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/platform
-   */
   "platform": "offline",
   "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
   "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/512",
