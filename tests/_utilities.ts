@@ -234,7 +234,10 @@ const unstableResponseHeaders = [
 	"x-amz-cf-id",
 	"x-amz-cf-pop",
 	"x-amz-server-side-encryption",
-	"x-cache"
+	"x-cache",
+	"x-vrc-api-group",
+	"x-vrc-api-server",
+	"x-vrc-api-version",
 ];
 
 function normalizeTestTitle(title: string) {
