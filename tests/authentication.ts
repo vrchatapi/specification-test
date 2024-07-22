@@ -108,11 +108,11 @@ test.serial(
 	}
 );
 
-test.failing("via user id", testOperation, "checkUserExists", () => ({
+test.failing("via username", testOperation, "checkUserExists", () => ({
 	verbose: false,
 	statusCode: 200,
 	parameters: {
-		userId: state.get("current-user").id
+		username: state.get("current-user").username
 	}
 }));
 
