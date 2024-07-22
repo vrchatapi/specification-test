@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/0/starts.
+Response schema mismatch: undefined at #/0/starts.
 ```
 
 ## Request
@@ -44,12 +44,12 @@ Response schema mismatch: Unexpected property at #/0/starts.
     "active": true,
     "status": "active",
     /**
-     * Unexpected property.
+     * format.
      *
-     * @schema UserSubscription
-     * @keyword additionalProperties
+     * @schema unknown
+     * @keyword format
      *
-     * #/items/additionalProperties
+     * #/items/properties/starts/format
      * #/0/starts
      */
     "starts": "",

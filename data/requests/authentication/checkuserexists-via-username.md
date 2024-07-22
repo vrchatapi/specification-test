@@ -1,7 +1,12 @@
-# deleteFile
+# checkUserExists via username
+
+## Issues
+```
+Response schema mismatch: Unexpected property at #/nameOk.
+```
 
 ## Request
-`delete https://vrchat.com/api/1/file/<unstable>`
+`get https://vrchat.com/api/1/auth/exists?username=8cf3def6b8cea`
 
 | Header | Value |
 | ------ | ----- |
@@ -14,32 +19,30 @@
 
 | Header | Value |
 | ------ | ----- |
+| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `33` |
 | content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Authorization, Accept-Encoding` |
+| vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "extension": ".A",
-  "id": "<unstable>",
-  "mimeType": "image/jpeg",
-  "name": "string",
-  "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
-  "tags": [
-    "gallery"
-  ],
-  "versions": [
-    {
-      "created_at": "<unstable>",
-      "status": "complete",
-      "version": 0
-    }
-  ]
+  /**
+   * Unexpected property.
+   *
+   * @schema UserExists
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/nameOk
+   */
+  "nameOk": true,
+  "userExists": true
 }
 ```

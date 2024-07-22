@@ -59,7 +59,7 @@
       "system_cute_robot",
       "system_supporter"
     ],
-    "userIcon": "https://api.vrchat.cloud/api/1/file/file_662d8b2f-2142-4052-bd40-385d56830873/1/"
+    "userIcon": "https://api.vrchat.cloud/api/1/file/file_1b381c3f-81f3-4219-9a9f-f376d61b6526/1/"
   },
   {
     "bio": "",
@@ -82,9 +82,11 @@
   {
     "bio": "what people call love its just a chemical reaction that compels animals to breed it hits hard then just slowly fades․",
     "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_10ca59bb-6b08-461e-934e-b0f3652fff7a/1/256",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_1853813c-e4f7-4c4e-942f-7ad538be127a/1/file",
+    "currentAvatarTags": [
+      "content_sex"
+    ],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_1853813c-e4f7-4c4e-942f-7ad538be127a/1/256",
     "developerType": "none",
     "displayName": "༒TUPPER ༒",
     "id": "usr_fc4c2896-e23f-4551-aca6-3d3a9952fbf7",
@@ -93,7 +95,7 @@
     "profilePicOverride": "",
     "pronouns": "",
     "status": "ask me",
-    "statusDescription": "wont be on after today",
+    "statusDescription": "sleep is for the weak day 3",
     "tags": [
       "system_avatar_access",
       "system_world_access",

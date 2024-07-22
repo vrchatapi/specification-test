@@ -1,7 +1,7 @@
 # createFileVersion
 
 ## Request
-`post https://vrchat.com/api/1/file/file_87394be4-911b-4ec8-80d4-c38f20da244a`
+`post https://vrchat.com/api/1/file/<unstable>`
 
 | Header | Value |
 | ------ | ----- |
@@ -37,7 +37,7 @@
 ```jsonc
 {
   "extension": ".A",
-  "id": "file_87394be4-911b-4ec8-80d4-c38f20da244a",
+  "id": "<unstable>",
   "mimeType": "image/jpeg",
   "name": "string",
   "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
@@ -46,29 +46,29 @@
   ],
   "versions": [
     {
-      "created_at": "2024-07-22T00:56:27.430Z",
+      "created_at": "<unstable>",
       "status": "complete",
       "version": 0
     },
     {
-      "created_at": "2024-07-22T00:56:28.407Z",
+      "created_at": "<unstable>",
       "file": {
         "category": "simple",
-        "fileName": "string.file_87394be4-911b-4ec8-80d4-c38f20da244a.1.A",
+        "fileName": "string.<unstable>.1.A",
         "md5": "dGVzdA==",
         "sizeInBytes": 64,
         "status": "waiting",
         "uploadId": "",
-        "url": "https://api.vrchat.cloud/api/1/file/file_87394be4-911b-4ec8-80d4-c38f20da244a/1/file"
+        "url": "https://api.vrchat.cloud/api/1/file/<unstable>/1/file"
       },
       "signature": {
         "category": "simple",
-        "fileName": "string.file_87394be4-911b-4ec8-80d4-c38f20da244a.1.A.signature",
+        "fileName": "string.<unstable>.1.A.signature",
         "md5": "dGVzdA==",
         "sizeInBytes": 64,
         "status": "waiting",
         "uploadId": "",
-        "url": "https://api.vrchat.cloud/api/1/file/file_87394be4-911b-4ec8-80d4-c38f20da244a/1/signature"
+        "url": "https://api.vrchat.cloud/api/1/file/<unstable>/1/signature"
       },
       "status": "waiting",
       "version": 1

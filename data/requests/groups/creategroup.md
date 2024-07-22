@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/myMember/acceptedByDisplayName, Unexpected property at #/myMember/acceptedById, Unexpected property at #/myMember/createdAt, Unexpected property at #/myMember/hasJoinedFromPurchase, Unexpected property at #/myMember/lastPostReadAt, Unexpected property at #/myMember/mRoleIds, Unexpected property at #/lastPostCreatedAt, Unexpected property at #/transferTargetId, Unexpected property at #/updatedAt.
+Response schema mismatch: Invalid type at #/transferTargetId, Invalid type at #/lastPostCreatedAt, Invalid type at #/myMember/acceptedByDisplayName, Invalid type at #/myMember/acceptedById, Invalid type at #/myMember/lastPostReadAt.
 ```
 
 ## Request
@@ -42,18 +42,9 @@ Response schema mismatch: Unexpected property at #/myMember/acceptedByDisplayNam
 {
   "bannerId": null,
   "bannerUrl": "https://assets.vrchat.com/www/groups/default_banner.png",
-  /**
-   * Unexpected property.
-   *
-   * @schema GroupMyMember
-   * @keyword additionalProperties
-   *
-   * #/properties/myMember/additionalProperties
-   * #/myMember/createdAt
-   */
-  "createdAt": "2024-07-22T00:56:35.278Z",
+  "createdAt": "2024-07-22T21:42:41.578Z",
   "description": "My exciting new group․ It's pretty niftyǃ",
-  "discriminator": "2764",
+  "discriminator": "1000",
   "galleries": [],
   "iconId": null,
   "iconUrl": "https://assets.vrchat.com/www/groups/default_icon.png",
@@ -62,76 +53,58 @@ Response schema mismatch: Unexpected property at #/myMember/acceptedByDisplayNam
   "joinState": "closed",
   "languages": [],
   /**
-   * Unexpected property.
+   * Invalid type.
    *
-   * @schema Group
-   * @keyword additionalProperties
+   * @schema unknown
+   * @keyword type
    *
-   * #/additionalProperties
+   * #/properties/lastPostCreatedAt/type
    * #/lastPostCreatedAt
    */
   "lastPostCreatedAt": null,
   "links": [],
   "memberCount": 1,
-  "memberCountSyncedAt": "2024-07-22T00:56:35.270Z",
+  "memberCountSyncedAt": "2024-07-22T21:42:41.570Z",
   "membershipStatus": "member",
   "myMember": {
     /**
-     * Unexpected property.
+     * Invalid type.
      *
-     * @schema GroupMyMember
-     * @keyword additionalProperties
+     * @schema unknown
+     * @keyword type
      *
-     * #/properties/myMember/additionalProperties
+     * #/properties/myMember/properties/acceptedByDisplayName/type
      * #/myMember/acceptedByDisplayName
      */
     "acceptedByDisplayName": null,
     /**
-     * Unexpected property.
+     * Invalid type.
      *
-     * @schema GroupMyMember
-     * @keyword additionalProperties
+     * @schema UserID
+     * @keyword type
      *
-     * #/properties/myMember/additionalProperties
+     * #/properties/myMember/properties/acceptedById/type
      * #/myMember/acceptedById
      */
     "acceptedById": null,
-    "createdAt": "2024-07-22T00:56:35.351Z",
-    "groupId": "grp_9336eecb-2f66-4c70-8c61-621b55ae5f30",
+    "createdAt": "2024-07-22T21:42:41.603Z",
+    "groupId": "grp_8c928b6a-4a7b-4ff7-983e-a5fe30ed3cd9",
     "has2FA": true,
-    /**
-     * Unexpected property.
-     *
-     * @schema GroupMyMember
-     * @keyword additionalProperties
-     *
-     * #/properties/myMember/additionalProperties
-     * #/myMember/hasJoinedFromPurchase
-     */
     "hasJoinedFromPurchase": false,
-    "id": "gmem_8f86b9ba-fa42-46c3-9a3e-71e4b6fe37c4",
+    "id": "gmem_acff2d66-1ac1-4115-bd0e-704f74f96d0a",
     "isRepresenting": false,
     "isSubscribedToAnnouncements": true,
-    "joinedAt": "2024-07-22T00:56:35.351Z",
+    "joinedAt": "2024-07-22T21:42:41.603Z",
     /**
-     * Unexpected property.
+     * Invalid type.
      *
-     * @schema GroupMyMember
-     * @keyword additionalProperties
+     * @schema unknown
+     * @keyword type
      *
-     * #/properties/myMember/additionalProperties
+     * #/properties/myMember/properties/lastPostReadAt/type
      * #/myMember/lastPostReadAt
      */
     "lastPostReadAt": null,
-    /**
-     * Unexpected property.
-     *
-     * @schema GroupMyMember
-     * @keyword additionalProperties
-     *
-     * #/properties/myMember/additionalProperties
-     * #/myMember/mRoleIds
-     */
     "mRoleIds": [],
     "managerNotes": "",
     "membershipStatus": "member",
@@ -144,7 +117,7 @@ Response schema mismatch: Unexpected property at #/myMember/acceptedByDisplayNam
       "group-members-viewall"
     ],
     "roleIds": [
-      "grol_a96609de-309b-4ce3-be37-b14eb872ea8e"
+      "grol_f306e412-89fe-430e-9510-4c034a0592c9"
     ],
     "userId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "visibility": "visible"
@@ -156,24 +129,15 @@ Response schema mismatch: Unexpected property at #/myMember/acceptedByDisplayNam
   "shortCode": "GROP",
   "tags": [],
   /**
-   * Unexpected property.
+   * Invalid type.
    *
-   * @schema Group
-   * @keyword additionalProperties
+   * @schema UserID
+   * @keyword type
    *
-   * #/additionalProperties
+   * #/properties/transferTargetId/type
    * #/transferTargetId
    */
   "transferTargetId": null,
-  /**
-   * Unexpected property.
-   *
-   * @schema Group
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/updatedAt
-   */
-  "updatedAt": "2024-07-22T00:56:35.278Z"
+  "updatedAt": "2024-07-22T21:42:41.578Z"
 }
 ```

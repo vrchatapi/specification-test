@@ -7,7 +7,7 @@ It is **REQUIRED** to include **AT LEAST** `username`, `displayName` **or** `ema
 * [checkUserExists with zero parameters](./checkuserexists-with-zero-parameters.md)
 * [checkUserExists via email address](./checkuserexists-via-email-address.md)
 * [checkUserExists via display name](./checkuserexists-via-display-name.md)
-* [checkUserExists via user id](./checkuserexists-via-user-id.md)
+* [checkUserExists via username](./checkuserexists-via-username.md)
 
 ## Login and/or Get Current User Info
 This endpoint does the following two operations:
