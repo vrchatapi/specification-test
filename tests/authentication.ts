@@ -108,7 +108,7 @@ test.serial(
 	}
 );
 
-test.failing("via username", testOperation, "checkUserExists", () => ({
+test.serial("via username", testOperation, "checkUserExists", () => ({
 	verbose: false,
 	statusCode: 200,
 	parameters: {
