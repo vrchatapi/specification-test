@@ -105,7 +105,7 @@ test.serial(
 	(t) => {
 		const { body } = t.context;
 		t.is(body.id, state.get("fileId"), "Successful file get returns file object");
-		t.is(body.versions.length, 2, "File should have 2 version, the initial one, and the one we created");
+		t.is(body.versions.length, 2, "File should have 2 versions, the initial one, and the one we created");
 		body.versions.map((x: any) => x.created_at).forEach(unstableValues.add);
 		body.versions.filter((x: any) => x.file).map((x: any) => x.file.fileName).forEach(unstableValues.add);
 		body.versions.filter((x: any) => x.file).map((x: any) => x.file.url).forEach(unstableValues.add);
