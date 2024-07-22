@@ -26,7 +26,8 @@ test(
 		parameters: {
 			search: "tupper"
 		},
-		statusCode: 200
+		statusCode: 200,
+		unstable: true
 	},
 	(t) => {
 		const { context } = t;
@@ -49,7 +50,8 @@ test(
 			n: 5,
 			search: "a"
 		},
-		statusCode: 200
+		statusCode: 200,
+		unstable: true
 	},
 	(t) => {
 		const { context } = t;

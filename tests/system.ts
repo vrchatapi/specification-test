@@ -1,8 +1,7 @@
 import { test, testOperation } from "./_utilities.js";
 
 test(testOperation, "getConfig", {
-	statusCode: 200,
-	unstable: true
+	statusCode: 200
 });
 
 test("with zero parameters", testOperation, "getInfoPush", {
@@ -11,26 +10,27 @@ test("with zero parameters", testOperation, "getInfoPush", {
 
 test.failing(testOperation, "getInfoPush", {
 	parameters: {
-		include: ["user-all"].join(","),
-		require: ["user-all"].join(",")
+		include: "quick-menu-banner",
+		require: "quick-menu-banner"
 	},
 	statusCode: 200
 });
 
-test.failing(testOperation, "getCSS", {
-	requestOptions: {
-		// VRChat blocks requests for this via "api.vrchat.cloud", but not "vrchat.com".
-		baseUrl: "https://vrchat.com/api/1"
+test.failing("with user-all", testOperation, "getInfoPush", {
+	parameters: {
+		include: "user-all",
+		require: "user-all"
 	},
 	statusCode: 200,
 	unstable: true
 });
 
+test.failing(testOperation, "getCSS", {
+	statusCode: 200,
+	unstable: true
+});
+
 test.failing(testOperation, "getJavaScript", {
-	requestOptions: {
-		// VRChat blocks requests for this via "api.vrchat.cloud", but not "vrchat.com".
-		baseUrl: "https://vrchat.com/api/1"
-	},
 	statusCode: 200,
 	unstable: true
 });
