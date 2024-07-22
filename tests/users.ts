@@ -1,4 +1,6 @@
-import { failUnauthenticated, test, testOperation } from "./_utilities";
+import { failUnauthenticated, test, testOperation } from "./_utilities.js";
+
+import type { LimitedUser } from "vrchat";
 
 test.before(failUnauthenticated);
 
@@ -29,7 +31,12 @@ test(
 	(t) => {
 		const { context } = t;
 
-		t.assert(context.body.contains(tupperUserId), "Should contain Tupper");
+		t.assert(
+			(context.body as Array<LimitedUser>).some(
+				(user) => user.id === tupperUserId
+			),
+			"Should contain Tupper"
+		);
 	}
 );
 

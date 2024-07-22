@@ -1,14 +1,14 @@
-import totpGenerator from "totp-generator";
+import { TOTP } from "totp-generator";
 
-import { test, testOperation } from "./_utilities";
-import { sensitiveValues, state, unstableValues } from "./_cache";
+import { test, testOperation } from "./_utilities.js";
+import { sensitiveValues, state, unstableValues } from "./_cache.js";
 import {
 	vrchatEmail,
 	vrchatPassword,
 	vrchatTotpSecret,
 	vrchatUsername
-} from "./_consts";
-import { unstableUserKeys } from "./_users";
+} from "./_consts.js";
+import { unstableUserKeys } from "./_users.js";
 
 test.serial("while missing credentials", testOperation, "getCurrentUser", {
 	statusCode: 401
@@ -32,7 +32,7 @@ test.serial.failing(
 );
 
 test.serial(testOperation, "verify2FA", () => {
-	const code = totpGenerator(vrchatTotpSecret);
+	const { otp: code } = TOTP.generate(vrchatTotpSecret);
 	unstableValues.add(code);
 
 	return {

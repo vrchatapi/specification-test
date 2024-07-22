@@ -1,4 +1,4 @@
-import { test, testOperation } from "./_utilities";
+import { test, testOperation } from "./_utilities.js";
 
 test(testOperation, "getConfig", {
 	statusCode: 200,

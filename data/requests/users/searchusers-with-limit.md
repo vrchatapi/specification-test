@@ -1,7 +1,7 @@
 # searchUsers with limit
 
 ## Request
-`get https://vrchat.com/api/1/users?search=a&n=5`
+`get https://vrchat.com/api/1/users?n=5&search=a`
 
 | Header | Value |
 | ------ | ----- |
@@ -157,9 +157,9 @@
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=69YVGbOSW7I"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_289b1687-b8e2-496f-afa2-56abeda658fb/8/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_606c77f8-20f0-464d-95e1-bd462685b5c5/1/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_289b1687-b8e2-496f-afa2-56abeda658fb/8/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_606c77f8-20f0-464d-95e1-bd462685b5c5/1/256",
     "developerType": "none",
     "displayName": "Averiff",
     "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",

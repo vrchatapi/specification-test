@@ -1,6 +1,6 @@
-import { state } from "./_cache";
-import { unstableUserKeys } from "./_users";
-import { failUnauthenticated, test, testOperation } from "./_utilities";
+import { state } from "./_cache.js";
+import { unstableUserKeys } from "./_users.js";
+import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
 const defaultAvatarId = "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11";
 const publicAvatarId = "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0";

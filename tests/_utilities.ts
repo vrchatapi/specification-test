@@ -4,7 +4,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 
 import withCookie from "fetch-cookie";
-import { headerCase } from "change-case";
+import { capitalCase } from "change-case";
 import yaml from "yaml";
 import { $RefParser } from "@apidevtools/json-schema-ref-parser";
 import testFn, {
@@ -30,8 +30,8 @@ import {
 	tryJsonParse,
 	tryStringify,
 	unstableValues
-} from "./_cache";
-import { debug, methods, requestRateLimit, version } from "./_consts";
+} from "./_cache.js";
+import { debug, methods, requestRateLimit, version } from "./_consts.js";
 
 import type { OpenAPIV3 } from "openapi-types";
 
@@ -307,7 +307,7 @@ test.after.always(async (t) => {
 	cache.set(
 		"requests",
 		`${t.context.testGroup}/readme.md`,
-		`# ${headerCase(t.context.testGroup)}
+		`# ${capitalCase(t.context.testGroup)}
 
 ${groupOperations
 	.map(([operationId, operation]) => {

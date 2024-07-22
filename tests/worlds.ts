@@ -1,5 +1,5 @@
-import { state } from "./_cache";
-import { failUnauthenticated, test, testOperation } from "./_utilities";
+import { state } from "./_cache.js";
+import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
 export const blackCatWorldId = "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b";
 

@@ -1,4 +1,4 @@
-import { failUnauthenticated, test } from "./_utilities";
+import { failUnauthenticated, test } from "./_utilities.js";
 
 test.before(failUnauthenticated);
 

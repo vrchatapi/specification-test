@@ -6,7 +6,7 @@ import {
 	vrchatEmail,
 	vrchatPassword,
 	vrchatTotpSecret
-} from "./_consts";
+} from "./_consts.js";
 
 export function tryJsonParse(value: unknown): unknown {
 	try {

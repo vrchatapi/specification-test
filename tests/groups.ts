@@ -1,4 +1,4 @@
-import { failUnauthenticated, test, testOperation } from "./_utilities";
+import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
 const unstableGroupKeys = ["id"];
 

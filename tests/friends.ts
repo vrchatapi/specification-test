@@ -1,5 +1,5 @@
-import { vrchatFriendId } from "./_consts";
-import { failUnauthenticated, test, testOperation } from "./_utilities";
+import { vrchatFriendId } from "./_consts.js";
+import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
 test.before(failUnauthenticated);
 

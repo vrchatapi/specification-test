@@ -1,5 +1,5 @@
-import { state, unstableValues } from "./_cache";
-import { failUnauthenticated, test, testOperation } from "./_utilities";
+import { state, unstableValues } from "./_cache.js";
+import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
 test.before(failUnauthenticated);
 
