@@ -1,10 +1,5 @@
 # getCurrentSubscriptions
 
-## Issues
-```
-Response schema mismatch: undefined at #/0/starts.
-```
-
 ## Request
 `get https://vrchat.com/api/1/auth/user/subscription`
 
@@ -43,15 +38,6 @@ Response schema mismatch: undefined at #/0/starts.
     "tier": 5,
     "active": true,
     "status": "active",
-    /**
-     * format.
-     *
-     * @schema unknown
-     * @keyword format
-     *
-     * #/items/properties/starts/format
-     * #/0/starts
-     */
     "starts": "",
     "expires": "2124-07-21T22:28:04.573Z",
     "created_at": "2024-07-21T22:28:04.580Z",

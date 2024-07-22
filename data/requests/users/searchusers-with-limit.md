@@ -157,9 +157,9 @@
       "https://twitter.com/Averiff1",
       "https://www.youtube.com/watch?v=69YVGbOSW7I"
     ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/file",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_289b1687-b8e2-496f-afa2-56abeda658fb/8/file",
     "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_a62a3e7b-1e0c-4f47-9804-6d99b591390f/1/256",
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_289b1687-b8e2-496f-afa2-56abeda658fb/8/256",
     "developerType": "none",
     "displayName": "Averiff",
     "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
