@@ -1,10 +1,13 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
-
 import totpGenerator from "totp-generator";
 
 import { test, testOperation } from "./_utilities";
 import { sensitiveValues, state, unstableValues } from "./_cache";
-import { vrchatEmail, vrchatPassword, vrchatTotpSecret, vrchatUsername } from "./_consts";
+import {
+	vrchatEmail,
+	vrchatPassword,
+	vrchatTotpSecret,
+	vrchatUsername
+} from "./_consts";
 import { unstableUserKeys } from "./_users";
 
 test.serial("while missing credentials", testOperation, "getCurrentUser", {
@@ -20,11 +23,11 @@ test.serial.failing(
 	testOperation,
 	"getCurrentUser",
 	() => ({
-		verbose: false,
-		statusCode: 200,
 		security: {
 			authHeader: btoa(`${vrchatUsername}:${vrchatPassword}`)
-		}
+		},
+		statusCode: 200,
+		verbose: false
 	})
 );
 
@@ -33,10 +36,10 @@ test.serial(testOperation, "verify2FA", () => {
 	unstableValues.add(code);
 
 	return {
-		statusCode: 200,
 		requestBody: {
 			code
-		}
+		},
+		statusCode: 200
 	};
 });
 
@@ -81,10 +84,10 @@ test.serial(
 	testOperation,
 	"checkUserExists",
 	{
-		statusCode: 200,
 		parameters: {
 			email: vrchatEmail
-		}
+		},
+		statusCode: 200
 	},
 	(t) => {
 		const { body } = t.context;
@@ -97,10 +100,10 @@ test.serial(
 	testOperation,
 	"checkUserExists",
 	() => ({
-		statusCode: 200,
 		parameters: {
 			displayName: state.get("current-user").displayName
-		}
+		},
+		statusCode: 200
 	}),
 	(t) => {
 		const { body } = t.context;
@@ -109,11 +112,11 @@ test.serial(
 );
 
 test.serial("via username", testOperation, "checkUserExists", () => ({
-	verbose: false,
-	statusCode: 200,
 	parameters: {
 		username: state.get("current-user").username
-	}
+	},
+	statusCode: 200,
+	verbose: false
 }));
 
 test.todo("Verify 2FA code with Recovery code");

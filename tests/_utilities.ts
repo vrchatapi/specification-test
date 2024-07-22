@@ -1,18 +1,25 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
 /* eslint-disable require-atomic-updates */
-import util from "util";
-import fs from "fs/promises";
-import path from "path";
+import util from "node:util";
+import fs from "node:fs/promises";
+import path from "node:path";
 
 import withCookie from "fetch-cookie";
 import { headerCase } from "change-case";
 import yaml from "yaml";
-import { OpenAPIV3 } from "openapi-types";
 import { $RefParser } from "@apidevtools/json-schema-ref-parser";
-import testFn, { ExecutionContext, ImplementationFn, TestFn } from "ava";
-import { Schema, parser, ParseResult, ValidationError } from "@exodus/schemasafe";
+import testFn, {
+	type ExecutionContext,
+	type ImplementationFn,
+	type TestFn
+} from "ava";
+import {
+	type Schema,
+	parser,
+	type ParseResult,
+	type ValidationError
+} from "@exodus/schemasafe";
 import ms from "ms";
-import { Cookie, CookieJar } from "tough-cookie";
+import { Cookie, type CookieJar } from "tough-cookie";
 import objectPath from "object-path";
 import jsonpointer from "jsonpointer";
 
@@ -25,6 +32,8 @@ import {
 	unstableValues
 } from "./_cache";
 import { debug, methods, requestRateLimit, version } from "./_consts";
+
+import type { OpenAPIV3 } from "openapi-types";
 
 util.inspect.defaultOptions.depth = 4; // Increase AVA's printing depth
 
@@ -39,13 +48,15 @@ export async function getSpecification() {
 		yaml.parse(await fs.readFile("./openapi.yaml", "utf8"))
 	)) as Specification;
 
-	// eslint-disable-next-line require-atomic-updates
 	_specification = specification;
 
 	return specification;
 }
 
-export type Operation = OpenAPIV3.OperationObject<{ method: string; path: string }>;
+export type Operation = OpenAPIV3.OperationObject<{
+	method: string;
+	path: string;
+}>;
 export type Operations = Record<string, Operation>;
 
 let _operations: Operations | null = null;
@@ -54,31 +65,31 @@ export async function getOperations(specification: Specification) {
 	if (_operations) return _operations;
 
 	const operations = Object.fromEntries(
-		Object.entries(specification.paths)
-			.map(([path, route]) => {
-				if (!route) return [];
+		Object.entries(specification.paths).flatMap(([path, route]) => {
+			if (!route) return [];
 
-				return methods
-					.map((method) => {
-						const operation = route[method];
-						if (!operation) return;
+			return methods
+				.map((method) => {
+					const operation = route[method];
+					if (!operation) return;
 
-						return [
-							operation.operationId,
-							{
-								path,
-								method,
-								...operation,
-								parameters: [...(route.parameters ?? []), ...(operation.parameters ?? [])]
-							}
-						];
-					})
-					.filter(Boolean);
-			})
-			.flat(1) as Array<[string, Operation]>
+					return [
+						operation.operationId,
+						{
+							method,
+							path,
+							...operation,
+							parameters: [
+								...(route.parameters ?? []),
+								...(operation.parameters ?? [])
+							]
+						}
+					];
+				})
+				.filter(Boolean);
+		}) as Array<[string, Operation]>
 	) as Operations;
 
-	// eslint-disable-next-line require-atomic-updates
 	_operations = operations;
 
 	return operations;
@@ -127,13 +138,13 @@ function parseSchema(schema: OpenAPIV3.SchemaObject, value: string) {
 
 	try {
 		return parser(newSchema, {
-			mode: "lax",
+			allErrors: true,
 			includeErrors: true,
-			allErrors: true
+			mode: "lax"
 		})(value);
 	} catch (reason) {
 		const error = reason instanceof Error ? reason.message : String(reason);
-		return { valid: false, error, errors: [] } satisfies ParseResult;
+		return { error, errors: [], valid: false } satisfies ParseResult;
 	}
 }
 
@@ -144,7 +155,9 @@ export async function fetch(
 	url: URL,
 	options: RequestInit = {}
 ): Promise<Response | null> {
-	const sinceLastRequest = lastRequestAt ? performance.now() - lastRequestAt : 0;
+	const sinceLastRequest = lastRequestAt
+		? performance.now() - lastRequestAt
+		: 0;
 
 	if (sinceLastRequest < requestRateLimit) {
 		const delay = requestRateLimit - sinceLastRequest;
@@ -158,8 +171,8 @@ export async function fetch(
 	let response: Response | null = null;
 	let attempt: Awaited<ReturnType<typeof t.try>> | null = null;
 
-	for (let i = 0; i < 10; i++) {
-		attempt = await t.try(`Request attempt #${i + 1}`, async (t) => {
+	for (let index = 0; index < 10; index++) {
+		attempt = await t.try(`Request attempt #${index + 1}`, async (t) => {
 			response = await t.context.fetchWithCookie(url, options);
 			lastRequestAt = performance.now();
 
@@ -177,7 +190,7 @@ export async function fetch(
 		);
 
 		if (attempt.passed) {
-			if (i > 0) t.log(`Request attempt #${i + 1} succeeded`);
+			if (index > 0) t.log(`Request attempt #${index + 1} succeeded`);
 
 			attempt.commit();
 			break;
@@ -186,9 +199,11 @@ export async function fetch(
 		attempt.discard();
 
 		// Exponential back off, starting at 1 second.
-		const backoff = requestRateLimit * Math.pow(2, i);
+		const backoff = requestRateLimit * Math.pow(2, index);
 
-		t.log(`Request attempt #${i + 1} rate limited, waiting ${ms(backoff, { long: true })}...`);
+		t.log(
+			`Request attempt #${index + 1} rate limited, waiting ${ms(backoff, { long: true })}...`
+		);
 		await new Promise((resolve) => setTimeout(resolve, backoff));
 	}
 
@@ -203,7 +218,7 @@ export interface TestContext {
 	fetchWithCookie: typeof globalThis.fetch;
 	cookieJar: CookieJar;
 	response?: Response;
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+
 	body?: any;
 	schema?: OpenAPIV3.SchemaObject;
 	schemaIssues?: Array<ValidationError>;
@@ -221,7 +236,7 @@ function failLog(t: ExecutionContext<TestContext>, ...values: Array<any>) {
 }
 
 const redactedResponseHeaders = ["etag", "set-cookie"];
-const unstableResponseHeaders = [
+const unstableResponseHeaders = new Set([
 	"date",
 	"cf-ray",
 	"cf-cache-status",
@@ -237,11 +252,11 @@ const unstableResponseHeaders = [
 	"x-cache",
 	"x-vrc-api-group",
 	"x-vrc-api-server",
-	"x-vrc-api-version",
-];
+	"x-vrc-api-version"
+]);
 
 function normalizeTestTitle(title: string) {
-	return title.toLowerCase().replace(/ /g, "-");
+	return title.toLowerCase().replaceAll(" ", "-");
 }
 
 test.before(async (t) => {
@@ -258,23 +273,36 @@ test.before(async (t) => {
 	const cookieJar = new withCookie.toughCookie.CookieJar();
 	const fetchWithCookie = withCookie(globalThis.fetch, cookieJar);
 
-	const cookies = Object.values((state.get("cookies") ?? []) as Record<string, Cookie.Properties>);
+	const cookies = Object.values(
+		(state.get("cookies") ?? []) as Record<string, Cookie.Properties>
+	);
 	for (const cookie of cookies) {
-		await cookieJar.setCookie(Cookie.fromJSON(cookie)!, new URL(`https://${cookie.domain!}`).href);
+		await cookieJar.setCookie(
+			Cookie.fromJSON(cookie)!,
+			new URL(`https://${cookie.domain!}`).href
+		);
 		sensitiveValues.add(cookie.value!);
 	}
 
-	if (cookies.length) t.log(`Cookie jar initialized with ${cookies.length} cookies.`);
-	Object.assign(t.context, { fetchWithCookie, cookieJar, specification, operations, testGroup });
+	if (cookies.length > 0)
+		t.log(`Cookie jar initialized with ${cookies.length} cookies.`);
+	Object.assign(t.context, {
+		cookieJar,
+		fetchWithCookie,
+		operations,
+		specification,
+		testGroup
+	});
 });
 
 test.after.always(async (t) => {
-	const groupOperations = Object.entries(t.context.operations).filter(([, operation]) =>
-		operation.tags?.includes(t.context.testGroup)
+	const groupOperations = Object.entries(t.context.operations).filter(
+		([, operation]) => operation.tags?.includes(t.context.testGroup)
 	);
 
 	const completeTests =
-		state.get<Record<string, Array<string>>>(`tests-${t.context.testGroup}`) ?? [];
+		state.get<Record<string, Array<string>>>(`tests-${t.context.testGroup}`) ??
+		[];
 
 	cache.set(
 		"requests",
@@ -290,8 +318,10 @@ ${groupOperations
 		return `## ${operation.summary}
 ${operation.description ?? ""}
 ${
-	completedGroupTests.length
-		? completedGroupTests.map((test) => `* [${test}](./${normalizeTestTitle(test)}.md)`).join("\n")
+	completedGroupTests.length > 0
+		? completedGroupTests
+				.map((test) => `* [${test}](./${normalizeTestTitle(test)}.md)`)
+				.join("\n")
 		: `> Missing coverage.`
 }
 `;
@@ -301,7 +331,6 @@ ${
 	);
 });
 
-// eslint-disable-next-line @typescript-eslint/no-empty-function
 const noop = () => {};
 
 type RequestOptions = Omit<RequestInit, "headers"> & {
@@ -324,24 +353,29 @@ type TestOperationOptions = {
 
 type TestOperationArguments = [
 	operationId: string,
-	options: TestOperationOptions | ((t: ExecutionContext<TestContext>) => TestOperationOptions),
+	options:
+		| TestOperationOptions
+		| ((t: ExecutionContext<TestContext>) => TestOperationOptions),
 	fn?: ImplementationFn<[], Required<TestContext>>
 ];
 
 export const failUnauthenticated = (t: ExecutionContext<TestContext>) => {
 	const cookies = t.context.cookieJar.serializeSync().cookies;
-	if (!state.get("current-user") || cookies.length === 0) t.fail("Missing authenticated user");
+	if (!state.get("current-user") || cookies.length === 0)
+		t.fail("Missing authenticated user");
 };
 const resolveOptions = (
 	t: ExecutionContext<TestContext>,
-	options: TestOperationOptions | ((t: ExecutionContext<TestContext>) => TestOperationOptions)
+	options:
+		| TestOperationOptions
+		| ((t: ExecutionContext<TestContext>) => TestOperationOptions)
 ) => {
 	return Object.assign(
 		{
-			unstable: false,
 			parameters: {},
+			requestOptions: {},
 			security: {},
-			requestOptions: {}
+			unstable: false
 		},
 		typeof options === "function" ? options(t) : options
 	);
@@ -349,9 +383,9 @@ const resolveOptions = (
 
 const keywordMessages = {
 	additionalProperties: "Unexpected property",
+	enum: "Cannot fit value in explicit enum",
 	required: "Missing property",
-	type: "Invalid type",
-	enum: "Cannot fit value in explicit enum"
+	type: "Invalid type"
 };
 
 export async function fetchOperation(
@@ -359,16 +393,20 @@ export async function fetchOperation(
 	operation: Operation,
 	options: FetchOperationOptions = {}
 ) {
-	const { parameters = {}, security = {}, requestBody, requestOptions = {} } = options;
+	const {
+		parameters = {},
+		security = {},
+		requestBody,
+		requestOptions = {}
+	} = options;
 	const { specification } = t.context;
 
 	const baseUrl = requestOptions.baseUrl ?? specification.servers![0].url;
 
 	const url = new URL(baseUrl + operation.path);
 	requestOptions.headers ??= {};
-	requestOptions.headers![
-		"user-agent"
-	] ??= `specification-test/@${version} https://github.com/vrchatapi/specification-test/issues/new`;
+	requestOptions.headers!["user-agent"] ??=
+		`specification-test/@${version} https://github.com/vrchatapi/specification-test/issues/new`;
 
 	const parameterKeys = Object.keys(parameters);
 	if (!operation.parameters && parameterKeys.length > 0)
@@ -382,23 +420,36 @@ export async function fetchOperation(
 			(parameter) => "name" in parameter && parameter.name === name
 		);
 
-		if (!parameter || !("in" in parameter)) return failLog(t, `Parameter "${name}" not defined`);
+		if (!parameter || !("in" in parameter))
+			return failLog(t, `Parameter "${name}" not defined`);
 
 		switch (parameter.in) {
-			case "query":
+			case "query": {
 				url.searchParams.set(name, String(value));
 				break;
-			case "path":
-				url.pathname = url.pathname.replace(encodeURIComponent(`{${name}}`), String(value));
+			}
+			case "path": {
+				url.pathname = url.pathname.replace(
+					encodeURIComponent(`{${name}}`),
+					String(value)
+				);
 				break;
-			default:
-				return failLog(t, `Parameter "${name}" with type "${parameter.in}" not supported`);
+			}
+			default: {
+				return failLog(
+					t,
+					`Parameter "${name}" with type "${parameter.in}" not supported`
+				);
+			}
 		}
 	}
 
 	const securityKeys = Object.keys(security);
 	if (!operation.security && securityKeys.length > 0)
-		return failLog(t, `Operation has no security defined, expected "${securityKeys.join(", ")}"`);
+		return failLog(
+			t,
+			`Operation has no security defined, expected "${securityKeys.join(", ")}"`
+		);
 
 	for (const [name, value] of Object.entries(security)) {
 		const security = specification.components?.securitySchemes?.[name];
@@ -408,7 +459,7 @@ export async function fetchOperation(
 			return failLog(t, `Security scheme "${name}" not defined`);
 
 		switch (security.type) {
-			case "http":
+			case "http": {
 				if (security.scheme !== "basic")
 					return failLog(t, `Security scheme "${name}" not supported`);
 
@@ -416,10 +467,16 @@ export async function fetchOperation(
 					authorization: `Basic ${value}`
 				};
 				break;
-			case "apiKey":
+			}
+			case "apiKey": {
 				return failLog(t, `Security scheme "${name}" not supported`);
-			default:
-				return failLog(t, `Security scheme "${name}" with type "${security.type}" not supported`);
+			}
+			default: {
+				return failLog(
+					t,
+					`Security scheme "${name}" with type "${security.type}" not supported`
+				);
+			}
 		}
 	}
 
@@ -432,9 +489,15 @@ export async function fetchOperation(
 
 		const mediaType = operation.requestBody.content["application/json"];
 		if (!mediaType || !mediaType.schema || !("type" in mediaType.schema))
-			return failLog(t, `Operation request body media type "application/json" not defined`);
+			return failLog(
+				t,
+				`Operation request body media type "application/json" not defined`
+			);
 
-		const { error, value } = parseSchema(mediaType.schema, tryStringify(requestBody));
+		const { error, value } = parseSchema(
+			mediaType.schema,
+			tryStringify(requestBody)
+		);
 
 		if (error) {
 			t.log("Request body schema mismatch:", error);
@@ -450,7 +513,9 @@ export async function fetchOperation(
 		requestOptions.headers!["content-type"] = "application/json";
 	}
 
-	requestOptions.headers!["cookie"] = t.context.cookieJar.getCookieStringSync(url.href);
+	requestOptions.headers!["cookie"] = t.context.cookieJar.getCookieStringSync(
+		url.href
+	);
 
 	requestOptions.method = operation.method;
 
@@ -458,14 +523,14 @@ export async function fetchOperation(
 	if (!response) return null;
 
 	return {
-		url,
 		requestOptions,
-		response
+		response,
+		url
 	};
 }
 
 export const testOperation = test.macro<TestOperationArguments>({
-	async exec(t, operationId, _options, fn = noop) {
+	async exec(t, operationId, _options, function_ = noop) {
 		const options = resolveOptions(t, _options);
 		const { operations } = t.context;
 
@@ -489,83 +554,102 @@ export const testOperation = test.macro<TestOperationArguments>({
 
 		for (const redactedResponseHeader of redactedResponseHeaders) {
 			const value = response.headers.get(redactedResponseHeader);
-			if (value) sensitiveValues.add(value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+			if (value)
+				sensitiveValues.add(value.replaceAll(/[$()*+.?[\\\]^{|}]/g, "\\$&"));
 		}
 
 		t.context.response = response;
 		t.is(response.status, options.statusCode, "Unexpected status code");
 
-		const contentType = response.headers.get("content-type") ?? "application/json";
+		const contentType =
+			response.headers.get("content-type") ?? "application/json";
 		const body = await response.text();
 
 		t.teardown(async () => {
 			const maybeJsonBody = tryJsonParse(body);
-			if (typeof maybeJsonBody === "object" && maybeJsonBody) {
-				if (Array.isArray(options.unstable)) {
-					options.unstable.map((unstableKey) => {
-						const value = objectPath.get(maybeJsonBody, unstableKey);
-						if (value)
-							objectPath.set(
-								maybeJsonBody,
-								unstableKey,
-								`<unstable: ${Array.isArray(value) ? "array" : typeof value}>`
-							);
-					});
-				}
+			if (
+				typeof maybeJsonBody === "object" &&
+				maybeJsonBody &&
+				Array.isArray(options.unstable)
+			) {
+				options.unstable.map((unstableKey) => {
+					const value = objectPath.get(maybeJsonBody, unstableKey);
+					if (value)
+						objectPath.set(
+							maybeJsonBody,
+							unstableKey,
+							`<unstable: ${Array.isArray(value) ? "array" : typeof value}>`
+						);
+				});
 			}
 
 			const completeTests =
-				state.get<Record<string, Array<string>>>(`tests-${t.context.testGroup}`) ?? [];
+				state.get<Record<string, Array<string>>>(
+					`tests-${t.context.testGroup}`
+				) ?? [];
 			state.set(`tests-${t.context.testGroup}`, {
 				...completeTests,
-				[operationId]: [...new Set([...(completeTests[operationId] ?? []), t.title])]
+				[operationId]: [
+					...new Set([...(completeTests[operationId] ?? []), t.title])
+				]
 			});
 
 			const responseText =
 				options.unstable === true
 					? "<unstable>"
 					: options.sensitive === true
-					? "<redacted>"
-					: JSON.stringify(maybeJsonBody, null, 2)
-							.split("\n")
-							.map((line) => {
-								const key = line.match(/"([^"]+)":/)?.[1];
-								const issue = t.context.schemaIssues?.find(
-									({ instanceLocation }) => instanceLocation.split("/").pop() === key
-								);
+						? "<redacted>"
+						: JSON.stringify(maybeJsonBody, null, 2)
+								.split("\n")
+								.flatMap((line) => {
+									const key = line.match(/"([^"]+)":/)?.[1];
+									const issue = t.context.schemaIssues?.find(
+										({ instanceLocation }) =>
+											instanceLocation.split("/").pop() === key
+									);
 
-								// Remove issue from schema issues so we don't log it again.
-								if (issue) t.context.schemaIssues?.splice(t.context.schemaIssues.indexOf(issue), 1);
+									// Remove issue from schema issues so we don't log it again.
+									if (issue)
+										t.context.schemaIssues?.splice(
+											t.context.schemaIssues.indexOf(issue),
+											1
+										);
 
-								const whitespace = line.match(/^(\s*)/)?.[1] ?? "";
-								if (!issue || !t.context.schema) return line;
+									const whitespace = line.match(/^(\s*)/)?.[1] ?? "";
+									if (!issue || !t.context.schema) return line;
 
-								const keyword = issue.keywordLocation.split("/").pop();
+									const keyword = issue.keywordLocation.split("/").pop();
 
-								const keywordMessage =
-									(keyword && keywordMessages[keyword as keyof typeof keywordMessages]) ?? keyword;
+									const keywordMessage =
+										(keyword &&
+											keywordMessages[
+												keyword as keyof typeof keywordMessages
+											]) ??
+										keyword;
 
-								// eslint-disable-next-line import/no-named-as-default-member
-								const keySchema = jsonpointer.get(
-									t.context.schema,
-									issue.keywordLocation.replace("#", "").split("/").slice(0, -1).join("/")
-								);
+									const keySchema = jsonpointer.get(
+										t.context.schema,
+										issue.keywordLocation
+											.replace("#", "")
+											.split("/")
+											.slice(0, -1)
+											.join("/")
+									);
 
-								return [
-									`${whitespace}/**`,
-									`${whitespace} * ${keywordMessage}.`,
-									`${whitespace} *`,
-									`${whitespace} * @schema ${keySchema?.title ?? "unknown"}`,
-									`${whitespace} * @keyword ${keyword}`,
-									`${whitespace} *`,
-									`${whitespace} * ${issue.keywordLocation}`,
-									`${whitespace} * ${issue.instanceLocation}`,
-									`${whitespace} */`,
-									line
-								];
-							})
-							.flat()
-							.join("\n");
+									return [
+										`${whitespace}/**`,
+										`${whitespace} * ${keywordMessage}.`,
+										`${whitespace} *`,
+										`${whitespace} * @schema ${keySchema?.title ?? "unknown"}`,
+										`${whitespace} * @keyword ${keyword}`,
+										`${whitespace} *`,
+										`${whitespace} * ${issue.keywordLocation}`,
+										`${whitespace} * ${issue.instanceLocation}`,
+										`${whitespace} */`,
+										line
+									];
+								})
+								.join("\n");
 
 			cache.set(
 				"requests",
@@ -603,7 +687,7 @@ ${requestOptions.body ? `\n\`\`\`json\n${requestOptions.body}\n\`\`\`\n` : ""}
 | Header | Value |
 | ------ | ----- |
 ${[...response.headers.entries()]
-	.filter(([name]) => !unstableResponseHeaders.includes(name))
+	.filter(([name]) => !unstableResponseHeaders.has(name))
 	.map(
 		([name, value]) =>
 			`| ${name} | \`${redactedResponseHeaders.includes(name) ? "<redacted>" : value}\` |`
@@ -621,17 +705,22 @@ ${responseText}
 		const issues: Array<string> = [];
 
 		if ("content" in operationResponse && operationResponse.content) {
-			const mediaType = Object.entries(operationResponse.content).find(([type]) =>
-				contentType.startsWith(type)
+			const mediaType = Object.entries(operationResponse.content).find(
+				([type]) => contentType.startsWith(type)
 			)?.[1];
 
-			if (!mediaType) issues.push(`Response media type "${contentType}" not expected.`);
+			if (!mediaType)
+				issues.push(`Response media type "${contentType}" not expected.`);
 
 			if (mediaType) {
 				if (!mediaType.schema || !("type" in mediaType.schema)) return t.pass();
 				t.context.schema = mediaType.schema;
 
-				const { error, value, errors = [] } = parseSchema(mediaType.schema, body);
+				const {
+					error,
+					value,
+					errors = []
+				} = parseSchema(mediaType.schema, body);
 				t.context.body = value || tryJsonParse(body);
 
 				if (error) {
@@ -639,12 +728,14 @@ ${responseText}
 
 					issues.push(
 						`Response schema mismatch: ${
-							errors.length
+							errors.length > 0
 								? errors
 										.map((error) => {
 											const keyword = error.keywordLocation.split("/").pop();
 											const message = keyword
-												? keywordMessages[keyword as keyof typeof keywordMessages]
+												? keywordMessages[
+														keyword as keyof typeof keywordMessages
+													]
 												: `failed ${keyword}`;
 
 											return `${message} at ${error.instanceLocation}`;
@@ -659,7 +750,7 @@ ${responseText}
 			}
 		}
 
-		await fn(t as ExecutionContext<Required<TestContext>>);
+		await function_(t as ExecutionContext<Required<TestContext>>);
 		if (issues.length > 0) failLog(t, ...issues);
 	},
 	title: (title, operationId) => `${operationId}${title ? " " + title : ""}`

@@ -1,8 +1,6 @@
 import { failUnauthenticated, test, testOperation } from "./_utilities";
 
-const unstableGroupKeys = [
-	"id",
-];
+const unstableGroupKeys = ["id"];
 
 test.before(failUnauthenticated);
 
@@ -41,9 +39,8 @@ test.todo("Create GroupRole");
 test.todo("Update Group Role");
 test.todo("Delete Group Role");
 
-
-const groupName = 'testGroup'
-const groupShortCode = 'grop'
+const groupName = "testGroup";
+const groupShortCode = "grop";
 let groupId: string;
 
 test.serial(
@@ -52,11 +49,11 @@ test.serial(
 	{
 		requestBody: {
 			name: groupName,
-			shortCode: groupShortCode,
-			roleTemplate: 'default',
+			roleTemplate: "default",
+			shortCode: groupShortCode
 		},
 		statusCode: 200,
-		unstable: unstableGroupKeys,
+		unstable: unstableGroupKeys
 	},
 	(t) => {
 		const { context } = t;
@@ -67,27 +64,17 @@ test.serial(
 	}
 );
 
+test.serial(testOperation, "getGroupMembers", () => ({
+	parameters: {
+		groupId
+	},
+	statusCode: 200
+}));
 
-test.serial(
-	testOperation,
-	"getGroupMembers",
-	() => ({
-		parameters: {
-			groupId,
-		},
-		statusCode: 200
-	})
-);
-
-
-test.serial(
-	testOperation,
-	"deleteGroup",
-	() => ({
-		parameters: {
-			groupId,
-		},
-		statusCode: 200,
-		unstable: unstableGroupKeys,
-	})
-);
+test.serial(testOperation, "deleteGroup", () => ({
+	parameters: {
+		groupId
+	},
+	statusCode: 200,
+	unstable: unstableGroupKeys
+}));

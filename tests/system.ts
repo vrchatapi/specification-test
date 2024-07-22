@@ -10,29 +10,29 @@ test("with zero parameters", testOperation, "getInfoPush", {
 });
 
 test.failing(testOperation, "getInfoPush", {
-	statusCode: 200,
 	parameters: {
 		include: ["user-all"].join(","),
 		require: ["user-all"].join(",")
-	}
+	},
+	statusCode: 200
 });
 
 test.failing(testOperation, "getCSS", {
-	statusCode: 200,
-	unstable: true,
 	requestOptions: {
 		// VRChat blocks requests for this via "api.vrchat.cloud", but not "vrchat.com".
 		baseUrl: "https://vrchat.com/api/1"
-	}
+	},
+	statusCode: 200,
+	unstable: true
 });
 
 test.failing(testOperation, "getJavaScript", {
-	statusCode: 200,
-	unstable: true,
 	requestOptions: {
 		// VRChat blocks requests for this via "api.vrchat.cloud", but not "vrchat.com".
 		baseUrl: "https://vrchat.com/api/1"
-	}
+	},
+	statusCode: 200,
+	unstable: true
 });
 
 test(testOperation, "getCurrentOnlineUsers", {

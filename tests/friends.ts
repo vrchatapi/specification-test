@@ -20,24 +20,28 @@ test(
 	testOperation,
 	"getFriendStatus",
 	{
-		statusCode: 200,
 		parameters: {
 			userId: vrchatFriendId
-		}
+		},
+		statusCode: 200
 	},
 	(t) => {
 		const { context } = t;
 
 		t.is(context.body.isFriend, false, "Should not be friends");
-		t.is(context.body.outgoingRequest, false, "Should not have an outgoing request");
+		t.is(
+			context.body.outgoingRequest,
+			false,
+			"Should not have an outgoing request"
+		);
 	}
 );
 
 test(testOperation, "friend", {
-	statusCode: 200,
 	parameters: {
 		userId: vrchatFriendId
 	},
+	statusCode: 200,
 	unstable: ["id", "created_at"]
 });
 
@@ -46,10 +50,10 @@ test(
 	testOperation,
 	"getFriendStatus",
 	{
-		statusCode: 200,
 		parameters: {
 			userId: vrchatFriendId
-		}
+		},
+		statusCode: 200
 	},
 	(t) => {
 		const { context } = t;
@@ -60,10 +64,10 @@ test(
 );
 
 test(testOperation, "deleteFriendRequest", {
-	statusCode: 200,
 	parameters: {
 		userId: vrchatFriendId
-	}
+	},
+	statusCode: 200
 });
 
 test(
@@ -71,16 +75,20 @@ test(
 	testOperation,
 	"getFriendStatus",
 	{
-		statusCode: 200,
 		parameters: {
 			userId: vrchatFriendId
-		}
+		},
+		statusCode: 200
 	},
 	(t) => {
 		const { context } = t;
 
 		t.is(context.body.isFriend, false, "Should not be friends");
-		t.is(context.body.outgoingRequest, false, "Should not have an outgoing request");
+		t.is(
+			context.body.outgoingRequest,
+			false,
+			"Should not have an outgoing request"
+		);
 	}
 );
 

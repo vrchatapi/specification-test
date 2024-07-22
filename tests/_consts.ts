@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
 import "dotenv/config";
 
 export const debug = process.env.DEBUG === "1";
@@ -12,7 +11,15 @@ export const vrchatFriendId = process.env.VRCHAT_FRIEND_ID!;
 export const githubSha = process.env.GITHUB_SHA ?? null;
 export const version = githubSha ? githubSha.slice(0, 8) : "local";
 
-export const methods = ["delete", "get", "head", "patch", "post", "put", "trace"] as const;
+export const methods = [
+	"delete",
+	"get",
+	"head",
+	"patch",
+	"post",
+	"put",
+	"trace"
+] as const;
 
 /**
  * Delay between requests in milliseconds.

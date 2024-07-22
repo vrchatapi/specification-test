@@ -21,29 +21,29 @@ const blackCatFirstInstanceId = blackCatWorld.instances[0][0];
 unstableValues.add(blackCatFirstInstanceId);
 
 test(testOperation, "getInstance", {
-	statusCode: 200,
 	parameters: {
-		worldId: blackCatWorldId,
-		instanceId: blackCatFirstInstanceId
+		instanceId: blackCatFirstInstanceId,
+		worldId: blackCatWorldId
 	},
+	statusCode: 200,
 	unstable: unstableInstanceKeys
 });
 
 test(testOperation, "getShortName", {
-	statusCode: 200,
 	parameters: {
-		worldId: blackCatWorld.id,
-		instanceId: blackCatFirstInstanceId
+		instanceId: blackCatFirstInstanceId,
+		worldId: blackCatWorld.id
 	},
+	statusCode: 200,
 	unstable: ["secureName", "shortName"]
 });
 
 test(testOperation, "sendSelfInvite", {
-	statusCode: 200,
 	parameters: {
-		worldId: blackCatWorld.id,
-		instanceId: blackCatFirstInstanceId
-	}
+		instanceId: blackCatFirstInstanceId,
+		worldId: blackCatWorld.id
+	},
+	statusCode: 200
 });
 
 test.todo("Get Instance By Short Name");

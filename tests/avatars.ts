@@ -14,10 +14,10 @@ test(
 	testOperation,
 	"getOwnAvatar",
 	() => ({
-		statusCode: 200,
 		parameters: {
 			userId: state.get("current-user").id
 		},
+		statusCode: 200,
 		unstable: unstableAvatarKeys
 	}),
 	(t) => {
@@ -44,10 +44,10 @@ test(
 	testOperation,
 	"searchAvatars",
 	{
-		statusCode: 200,
 		parameters: {
 			tag: "admin_featured_legacy"
 		},
+		statusCode: 200,
 		unstable: true
 	},
 	(t) => {
@@ -57,40 +57,40 @@ test(
 );
 
 test("by id", testOperation, "getAvatar", {
-	statusCode: 200,
-	parameters: {
-		avatarId: publicAvatarId
-	}
-});
-
-test("with id", testOperation, "selectAvatar", {
-	statusCode: 200,
 	parameters: {
 		avatarId: publicAvatarId
 	},
+	statusCode: 200
+});
+
+test("with id", testOperation, "selectAvatar", {
+	parameters: {
+		avatarId: publicAvatarId
+	},
+	statusCode: 200,
 	unstable: unstableUserKeys
 });
 
 test("with default avatar id", testOperation, "selectAvatar", {
-	statusCode: 200,
 	parameters: {
 		avatarId: defaultAvatarId
 	},
+	statusCode: 200,
 	unstable: unstableUserKeys
 });
 
 test("with id (not quest fallback)", testOperation, "selectFallbackAvatar", {
-	statusCode: 403,
 	parameters: {
 		avatarId: publicAvatarId
-	}
+	},
+	statusCode: 403
 });
 
 test("with id", testOperation, "selectFallbackAvatar", {
-	statusCode: 200,
 	parameters: {
 		avatarId: fallbackAvatarId
 	},
+	statusCode: 200,
 	unstable: unstableUserKeys
 });
 

@@ -21,10 +21,10 @@ test(
 	testOperation,
 	"searchUsers",
 	{
-		statusCode: 200,
 		parameters: {
 			search: "tupper"
-		}
+		},
+		statusCode: 200
 	},
 	(t) => {
 		const { context } = t;
@@ -38,11 +38,11 @@ test(
 	testOperation,
 	"searchUsers",
 	{
-		statusCode: 200,
 		parameters: {
-			search: "a",
-			n: 5
-		}
+			n: 5,
+			search: "a"
+		},
+		statusCode: 200
 	},
 	(t) => {
 		const { context } = t;
@@ -55,10 +55,10 @@ test(
 	testOperation,
 	"getUser",
 	{
-		statusCode: 200,
 		parameters: {
 			userId: tupperUserId
-		}
+		},
+		statusCode: 200
 	},
 	(t) => {
 		const { context } = t;

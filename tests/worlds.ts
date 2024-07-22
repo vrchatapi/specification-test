@@ -53,30 +53,34 @@ test(
 	testOperation,
 	"getWorld",
 	{
-		statusCode: 200,
 		parameters: {
 			worldId: blackCatWorldId
 		},
+		statusCode: 200,
 		unstable: unstableWorldKeys
 	},
 	(t) => {
-		t.is(t.context.body.id, blackCatWorldId, "Should have the correct world id");
+		t.is(
+			t.context.body.id,
+			blackCatWorldId,
+			"Should have the correct world id"
+		);
 		state.set("blackcat-world", t.context.body);
 	}
 );
 
 test("by id", testOperation, "getWorldMetadata", {
-	statusCode: 200,
 	parameters: {
 		worldId: blackCatWorldId
-	}
+	},
+	statusCode: 200
 });
 
 test("by id", testOperation, "getWorldPublishStatus", {
-	statusCode: 200,
 	parameters: {
 		worldId: blackCatWorldId
-	}
+	},
+	statusCode: 200
 });
 
 test.todo("Create World");
