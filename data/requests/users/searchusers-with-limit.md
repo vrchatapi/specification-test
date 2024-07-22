@@ -120,37 +120,6 @@
     "userIcon": ""
   },
   {
-    "bio": "Then why are you here?",
-    "bioLinks": [
-      "https://twitter.com/Averiff1",
-      "https://www.youtube.com/watch?v=69YVGbOSW7I"
-    ],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_00e61e3e-1e64-442f-ba25-98e89b09225d/9/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_00e61e3e-1e64-442f-ba25-98e89b09225d/9/256",
-    "developerType": "none",
-    "displayName": "Averiff",
-    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
-    "isFriend": false,
-    "last_platform": "standalonewindows",
-    "profilePicOverride": "",
-    "pronouns": "",
-    "status": "active",
-    "statusDescription": "Watching EVO",
-    "tags": [
-      "system_trust_basic",
-      "system_avatar_access",
-      "system_world_access",
-      "system_trust_known",
-      "system_feedback_access",
-      "system_trust_trusted",
-      "system_trust_veteran",
-      "system_early_adopter",
-      "language_eng"
-    ],
-    "userIcon": ""
-  },
-  {
     "bio": "To see with eyes unclouded by hate․",
     "bioLinks": [
       "https://x.com/AzuTeaTime"
@@ -178,6 +147,37 @@
       "show_social_rank",
       "system_early_adopter",
       "language_fra",
+      "language_eng"
+    ],
+    "userIcon": ""
+  },
+  {
+    "bio": "Then why are you here?",
+    "bioLinks": [
+      "https://twitter.com/Averiff1",
+      "https://www.youtube.com/watch?v=69YVGbOSW7I"
+    ],
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_00e61e3e-1e64-442f-ba25-98e89b09225d/9/file",
+    "currentAvatarTags": [],
+    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_00e61e3e-1e64-442f-ba25-98e89b09225d/9/256",
+    "developerType": "none",
+    "displayName": "Averiff",
+    "id": "usr_8e04f52a-3b74-4609-ab3e-0b7bc683d5c3",
+    "isFriend": false,
+    "last_platform": "standalonewindows",
+    "profilePicOverride": "",
+    "pronouns": "",
+    "status": "ask me",
+    "statusDescription": "",
+    "tags": [
+      "system_trust_basic",
+      "system_avatar_access",
+      "system_world_access",
+      "system_trust_known",
+      "system_feedback_access",
+      "system_trust_trusted",
+      "system_trust_veteran",
+      "system_early_adopter",
       "language_eng"
     ],
     "userIcon": ""
