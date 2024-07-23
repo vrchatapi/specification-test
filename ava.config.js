@@ -5,18 +5,22 @@ const testOrder = JSON.parse(fs.readFileSync("./tests/_order.json", "utf8"));
 
 export default {
 	cache: false,
-	compileEnhancements: false,
 	concurrency: 0,
 	extensions: {
 		ts: "module"
 	},
 	files: ["tests/**/*"],
 	nodeArguments: ["--import=tsimp"],
-	sortTestFiles: (file1, file2) => {
-		file1 = path.relative(__dirname, file1);
-		file2 = path.relative(__dirname, file2);
+	// sortTestFiles: (file1, file2) => testData[file1].order - testData[file2].order,
+	sortTestFiles: (a, b) => {
+		a = path.relative(import.meta.dirname, a);
+		const aOrder = testOrder[a] || Infinity;
 
-		return (testOrder[file2] || Infinity) - (testOrder[file1] || Infinity);
+		b = path.relative(import.meta.dirname, b);
+		const bOrder = testOrder[b] || Infinity;
+
+		// console.log({a: path.relative(import.meta.dirname, a), aOrder, b, bOrder});
+		return aOrder - bOrder;
 	},
 	timeout: "5m",
 	utilizeParallelBuilds: false

@@ -5,7 +5,7 @@ test(testOperation, "getConfig", {
 });
 
 test("with zero parameters", testOperation, "getInfoPush", {
-	statusCode: 200
+	statusCode: 400
 });
 
 test.failing(testOperation, "getInfoPush", {

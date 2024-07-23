@@ -1,7 +1,7 @@
 {
-	"tests/authentication.ts": 0,
-	"tests/users.ts": 1,
-	"tests/worlds.ts": 2,
-	"tests/instances.ts": 3,
-	"tests/avatars.ts": 4
+	"tests/authentication.ts": 1,
+	"tests/users.ts": 2,
+	"tests/worlds.ts": 3,
+	"tests/instances.ts": 4,
+	"tests/avatars.ts": 5
 }
