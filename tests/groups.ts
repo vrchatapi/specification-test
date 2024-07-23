@@ -1,12 +1,24 @@
-import { failUnauthenticated, test, testOperation } from "./_utilities.js";
+import { randomUUID } from "node:crypto";
 
-const unstableGroupKeys = ["id"];
+import { failUnauthenticated, test, testOperation } from "./_utilities.js";
+import { state, unstableValues } from "./_cache.js";
+import { vrchatFriendId } from "./_consts.js";
+
+const unstableGroupKeys = [
+	"id",
+	"discriminator",
+	"createdAt",
+	"memberCountSyncedAt",
+	"myMember.createdAt",
+	"myMember.groupId",
+	"myMember.id",
+	"myMember.joinedAt",
+	"myMember.roleIds",
+	"updatedAt"
+];
 
 test.before(failUnauthenticated);
 
-test.todo("Get Group by ID");
-test.todo("Update Group");
-test.todo("Delete Group");
 test.todo("Get Group Announcement");
 test.todo("Create Group Announcement");
 test.todo("Delete Group Announcement");
@@ -20,9 +32,6 @@ test.todo("Update Group Gallery");
 test.todo("Delete Group Gallery");
 test.todo("Add Group Gallery Image");
 test.todo("Delete Group Gallery Image");
-test.todo("Get Group Invites Sent");
-test.todo("Invite User to Group");
-test.todo("Delete User Invite");
 test.todo("Join Group");
 test.todo("Leave Group");
 test.todo("Get Group Member");
@@ -39,9 +48,10 @@ test.todo("Create GroupRole");
 test.todo("Update Group Role");
 test.todo("Delete Group Role");
 
-const groupName = "testGroup";
-const groupShortCode = "grop";
-let groupId: string;
+const groupName = "Test";
+
+const groupShortCode = randomUUID().replace(/-/g, "").slice(0, 4).toUpperCase();
+unstableValues.add(groupShortCode);
 
 test.serial(
 	testOperation,
@@ -58,22 +68,77 @@ test.serial(
 	(t) => {
 		const { context } = t;
 
-		groupId = context.body.id;
+		state.set("groupId", context.body.id);
+		unstableValues.add(context.body.id);
 
 		t.is(context.body.name, groupName);
 	}
 );
 
+test.serial(testOperation, "getGroup", () => ({
+	parameters: {
+		groupId: state.get("groupId")
+	},
+	statusCode: 200,
+	unstable: unstableGroupKeys
+}));
+
 test.serial(testOperation, "getGroupMembers", () => ({
 	parameters: {
-		groupId
+		groupId: state.get("groupId")
+	},
+	statusCode: 200
+}));
+
+const newGroupName = `${groupName} 2`;
+
+test.serial(
+	testOperation,
+	"updateGroup",
+	() => ({
+		parameters: {
+			groupId: state.get("groupId")
+		},
+		requestBody: {
+			joinState: "invite",
+			name: newGroupName
+		},
+		statusCode: 200,
+		unstable: unstableGroupKeys
+	}),
+	(t) => {
+		t.is(t.context.body.name, newGroupName);
+	}
+);
+
+test.serial(testOperation, "createGroupInvite", () => ({
+	parameters: {
+		groupId: state.get("groupId")
+	},
+	requestBody: {
+		userId: vrchatFriendId
+	},
+	statusCode: 200
+}));
+
+test.serial(testOperation, "getGroupInvites", () => ({
+	parameters: {
+		groupId: state.get("groupId")
+	},
+	statusCode: 200
+}));
+
+test.serial(testOperation, "deleteGroupInvite", () => ({
+	parameters: {
+		groupId: state.get("groupId"),
+		userId: vrchatFriendId
 	},
 	statusCode: 200
 }));
 
 test.serial(testOperation, "deleteGroup", () => ({
 	parameters: {
-		groupId
+		groupId: state.get("groupId")
 	},
 	statusCode: 200,
 	unstable: unstableGroupKeys

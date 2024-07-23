@@ -25,3 +25,5 @@ export const methods = [
  * Delay between requests in milliseconds.
  */
 export const requestRateLimit = 200;
+
+export const tupperUserId = "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469";

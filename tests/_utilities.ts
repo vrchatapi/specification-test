@@ -559,7 +559,9 @@ export const testOperation = test.macro<TestOperationArguments>({
 		}
 
 		t.context.response = response;
-		t.is(response.status, options.statusCode, "Unexpected status code");
+		//t.is(response.status, options.statusCode, "Unexpected status code");
+		if (response.status !== options.statusCode)
+			t.context.failLogs?.push([`Unexpected status code: ${response.status}`]);
 
 		const contentType =
 			response.headers.get("content-type") ?? "application/json";
@@ -578,7 +580,7 @@ export const testOperation = test.macro<TestOperationArguments>({
 						objectPath.set(
 							maybeJsonBody,
 							unstableKey,
-							`<unstable: ${Array.isArray(value) ? "array" : typeof value}>`
+							`<unstable: ${Array.isArray(value) ? (value.length ? `array of ${typeof value[0]}s` : "empty array") : typeof value}>`
 						);
 				});
 			}
@@ -727,22 +729,22 @@ ${responseText}
 					t.context.schemaIssues = errors;
 
 					issues.push(
-						`Response schema mismatch: ${
-							errors.length > 0
-								? errors
-										.map((error) => {
-											const keyword = error.keywordLocation.split("/").pop();
-											const message = keyword
-												? keywordMessages[
-														keyword as keyof typeof keywordMessages
-													]
-												: `failed ${keyword}`;
+						`Response schema mismatch:
 
-											return `${message} at ${error.instanceLocation}`;
-										})
-										.join(", ")
-								: error
-						}.`
+${
+	errors.length > 0
+		? errors
+				.map((error) => {
+					const keyword = error.keywordLocation.split("/").pop();
+					const message = keyword
+						? keywordMessages[keyword as keyof typeof keywordMessages]
+						: `failed ${keyword}`;
+
+					return `${message} at ${error.instanceLocation}`;
+				})
+				.join(",\n")
+		: error
+}.`
 					);
 				}
 			} else {

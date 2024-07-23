@@ -11,7 +11,9 @@ const unstableInstanceKeys = [
 	"type",
 	"ownerId",
 	"secureName",
-	"world"
+	"world",
+	"n_users",
+	"platforms"
 ];
 
 const blackCatWorld = state.get("blackcat-world");

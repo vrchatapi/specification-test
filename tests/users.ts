@@ -1,10 +1,9 @@
+import { tupperUserId } from "./_consts.js";
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
 import type { LimitedUser } from "vrchat";
 
 test.before(failUnauthenticated);
-
-const tupperUserId = "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469";
 
 test(
 	"without parameters",
