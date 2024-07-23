@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfUsers, Unexpected property at #/analyticsSegment_NewUI_Salt, Unexpected property at #/animatorApi, Unexpected property at #/buildCookieProp, Unexpected property at #/churnStringError, Unexpected property at #/compileDisableThreshold, Unexpected property at #/constants, Unexpected property at #/contentEmbed, Unexpected property at #/defaultSort, Unexpected property at #/forceUseLatestWorld, Unexpected property at #/generatorMessage, Unexpected property at #/googleApiClientId, Unexpected property at #/labelCloudMacLengthBiography, Unexpected property at #/lossVoiceClientGenerator, Unexpected property at #/minSupportedClientBuildNumber, Unexpected property at #/minimumUnityVersionForUploads, Unexpected property at #/offlineAnalysis, Unexpected property at #/photonNameserverOverrides, Unexpected property at #/sdkChurnRateTimeout, Unexpected property at #/socketAnimatorType, Unexpected property at #/stringChumpOnlyHidden, Unexpected property at #/timekeeping, Unexpected property at #/timeoutContentObjectUpdate, Unexpected property at #/trustedSegment, Unexpected property at #/websocketMaxFriendsRefreshDelay, Unexpected property at #/websocketQuickReconnectTime, Unexpected property at #/websocketReconnectMaxDelay.
+Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfUsers, Unexpected property at #/analyticsSegment_NewUI_Salt, Unexpected property at #/apiSendRegion, Unexpected property at #/availabilityVideoLoss, Unexpected property at #/constants, Unexpected property at #/contentPlayer, Unexpected property at #/dataBytesReferenceMaximum, Unexpected property at #/defaultSort, Unexpected property at #/forceUseLatestWorld, Unexpected property at #/generateClipKeyAnimation, Unexpected property at #/googleApiClientId, Unexpected property at #/headDisconnect, Unexpected property at #/mapSubscriberColliderLatencyUser, Unexpected property at #/minSupportedClientBuildNumber, Unexpected property at #/minimumUnityVersionForUploads, Unexpected property at #/offlineAnalysis, Unexpected property at #/photonNameserverOverrides, Unexpected property at #/subscriberLimiter, Unexpected property at #/timekeeping, Unexpected property at #/trustedSegment, Unexpected property at #/websocketMaxFriendsRefreshDelay, Unexpected property at #/websocketQuickReconnectTime, Unexpected property at #/websocketReconnectMaxDelay.
 ```
 
 ## Request
@@ -55,6 +55,7 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
    * #/analyticsSegment_NewUI_Salt
    */
   "analyticsSegment_NewUI_Salt": "0d8522abac334287830d1192a8605f39",
+  "announcements": [],
   /**
    * Unexpected property.
    *
@@ -62,11 +63,23 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/animatorApi
+   * #/apiSendRegion
    */
-  "animatorApi": 0.29506120851749773,
-  "announcements": [],
+  "apiSendRegion": 26456,
   "appName": "VrChat",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/availabilityVideoLoss
+   */
+  "availabilityVideoLoss": [
+    18617,
+    55860
+  ],
   "availableLanguageCodes": [
     "en",
     "fr",
@@ -95,36 +108,7 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
     "Portuguese, Brazilian",
     "Chinese Simplified"
   ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/buildCookieProp
-   */
-  "buildCookieProp": {
-    "eventBytes": 19239
-  },
   "buildVersionTag": "master-build-2024-07-22-uganda-latchpoop",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/churnStringError
-   */
-  "churnStringError": {
-    "bonesVectorBuildCompile": 1,
-    "delayUserCross": [
-      7876,
-      0
-    ],
-    "favoritePhotonShellSwarmRequest": 0
-  },
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -140,16 +124,6 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
   "clientQR": 1,
   "clientReservedPlayerBPS": 7168,
   "clientSentCountAllowance": 100,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/compileDisableThreshold
-   */
-  "compileDisableThreshold": 47452,
   /**
    * Unexpected property.
    *
@@ -275,12 +249,22 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/contentEmbed
+   * #/contentPlayer
    */
-  "contentEmbed": 0.5405825998680438,
+  "contentPlayer": {},
   "copyrightEmail": "copyright@vrchat.com",
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/dataBytesReferenceMaximum
+   */
+  "dataBytesReferenceMaximum": {},
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   /**
    * Unexpected property.
@@ -489,9 +473,9 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/generatorMessage
+   * #/generateClipKeyAnimation
    */
-  "generatorMessage": false,
+  "generateClipKeyAnimation": {},
   /**
    * Unexpected property.
    *
@@ -502,6 +486,16 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
    * #/googleApiClientId
    */
   "googleApiClientId": "827942544393-r2ouvckvouldn9dg9uruseje575e878f.apps.googleusercontent.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/headDisconnect
+   */
+  "headDisconnect": false,
   "homeWorldId": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
   "homepageRedirectTarget": "https://hello.vrchat.com",
   "hubWorldId": "wrld_ba913a96-fac4-4048-a062-9aa5db092812",
@@ -538,19 +532,9 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/labelCloudMacLengthBiography
+   * #/mapSubscriberColliderLatencyUser
    */
-  "labelCloudMacLengthBiography": false,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/lossVoiceClientGenerator
-   */
-  "lossVoiceClientGenerator": 0,
+  "mapSubscriberColliderLatencyUser": false,
   /**
    * Unexpected property.
    *
@@ -644,41 +628,11 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
   ],
   "player-url-resolver-sha1": "CA-24-0C-BA-B0-46-5A-FE-84-A6-02-62-E3-56-36-E8-34-0E-B7-EA",
   "player-url-resolver-version": "2024-07-09",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/sdkChurnRateTimeout
-   */
-  "sdkChurnRateTimeout": false,
   "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
-  "serverName": "prod-api-blue-oat-vpn",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/socketAnimatorType
-   */
-  "socketAnimatorType": true,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/stringChumpOnlyHidden
-   */
-  "stringChumpOnlyHidden": false,
+  "serverName": "prod-api-blue-weed-wk7",
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -696,6 +650,16 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
     "vr.anique.jp",
     "*.vrcdn.cloud"
   ],
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/subscriberLimiter
+   */
+  "subscriberLimiter": 0.6776013191319818,
   "supportEmail": "support@vrchat.com",
   "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
   /**
@@ -708,16 +672,6 @@ Response schema mismatch: Unexpected property at #/analyticsSegment_NewUI_PctOfU
    * #/timekeeping
    */
   "timekeeping": true,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/timeoutContentObjectUpdate
-   */
-  "timeoutContentObjectUpdate": "chumpTargetHeadFarLabel",
   /**
    * Unexpected property.
    *

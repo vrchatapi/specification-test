@@ -1,7 +1,7 @@
 # getGroupMembers
 
 ## Request
-`get https://vrchat.com/api/1/groups/grp_ded6e181-5314-44ed-af5e-0e072d248317/members`
+`get https://vrchat.com/api/1/groups/grp_f58054ba-4c37-4f9d-bd9c-0150ef6ae74c/members`
 
 | Header | Value |
 | ------ | ----- |

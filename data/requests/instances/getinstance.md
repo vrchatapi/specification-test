@@ -74,13 +74,13 @@ Response schema mismatch: Unexpected property at #/platforms/ios, Unexpected pro
    */
   "instancePersistenceEnabled": null,
   "location": "<unstable: string>",
-  "n_users": 33,
+  "n_users": 28,
   "name": "<unstable: string>",
   "ownerId": "<unstable: string>",
   "permanent": true,
   "photonRegion": "us",
   "platforms": {
-    "android": 22,
+    "android": 12,
     /**
      * Unexpected property.
      *
@@ -91,7 +91,7 @@ Response schema mismatch: Unexpected property at #/platforms/ios, Unexpected pro
      * #/platforms/ios
      */
     "ios": 0,
-    "standalonewindows": 11
+    "standalonewindows": 16
   },
   /**
    * Unexpected property.
@@ -118,11 +118,15 @@ Response schema mismatch: Unexpected property at #/platforms/ios, Unexpected pro
     "author_tag_chill",
     "author_tag_lounge",
     "language_eng",
+    "show_social_rank",
+    "language_nor",
+    "language_deu",
+    "language_spa",
     "language_ase",
-    "language_spa"
+    "language_zxx"
   ],
   "type": "<unstable: string>",
-  "userCount": 27,
+  "userCount": 24,
   "world": "<unstable: object>",
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b"
 }

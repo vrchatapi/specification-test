@@ -209,49 +209,6 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
     "updatedAt": "2023-08-25T22:12:23.000Z"
   },
   {
-    "createdAt": "2023-08-25T21:14:55.000Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
-      "onPressed": {
-        /**
-         * Cannot fit value in explicit enum.
-         *
-         * @schema unknown
-         * @keyword enum
-         *
-         * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/8/data/onPressed/command
-         */
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_f834b7c3-8ab8-4281-85d1-fee394163d16"
-        ]
-      }
-    },
-    "hash": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
-    "id": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
-    "isEnabled": true,
-    "priority": 915,
-    "releaseStatus": "public",
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/5/requireClientTags
-     */
-    "requireClientTags": [
-      "platform-oculus-quest"
-    ],
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2023-08-25T22:12:24.000Z"
-  },
-  {
     "createdAt": "2023-08-25T21:11:07.000Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
@@ -263,7 +220,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/9/data/onPressed/command
+         * #/8/data/onPressed/command
          */
         "command": "OpenHelpArticle",
         "parameters": [
@@ -283,7 +240,7 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/6/requireClientTags
+     * #/5/requireClientTags
      */
     "requireClientTags": [
       "platform-pc-vr"
@@ -293,6 +250,49 @@ Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPresse
       "user-all"
     ],
     "updatedAt": "2023-08-25T22:12:23.000Z"
+  },
+  {
+    "createdAt": "2023-08-25T21:14:55.000Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
+      "onPressed": {
+        /**
+         * Cannot fit value in explicit enum.
+         *
+         * @schema unknown
+         * @keyword enum
+         *
+         * #/items/properties/data/properties/onPressed/properties/command/enum
+         * #/9/data/onPressed/command
+         */
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_f834b7c3-8ab8-4281-85d1-fee394163d16"
+        ]
+      }
+    },
+    "hash": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
+    "id": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
+    "isEnabled": true,
+    "priority": 915,
+    "releaseStatus": "public",
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/6/requireClientTags
+     */
+    "requireClientTags": [
+      "platform-oculus-quest"
+    ],
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2023-08-25T22:12:24.000Z"
   },
   {
     "createdAt": "2023-06-29T22:26:18.000Z",
