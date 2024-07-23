@@ -2,7 +2,13 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/platforms/ios, Unexpected property at #/displayName, Unexpected property at #/gameServerVersion, Unexpected property at #/instancePersistenceEnabled, Unexpected property at #/playerPersistenceEnabled.
+Response schema mismatch:
+
+Unexpected property at #/platforms/ios,
+Unexpected property at #/displayName,
+Unexpected property at #/gameServerVersion,
+Unexpected property at #/instancePersistenceEnabled,
+Unexpected property at #/playerPersistenceEnabled.
 ```
 
 ## Request
@@ -47,7 +53,7 @@ Response schema mismatch: Unexpected property at #/platforms/ios, Unexpected pro
    * #/displayName
    */
   "displayName": null,
-  "full": true,
+  "full": false,
   /**
    * Unexpected property.
    *
@@ -74,25 +80,12 @@ Response schema mismatch: Unexpected property at #/platforms/ios, Unexpected pro
    */
   "instancePersistenceEnabled": null,
   "location": "<unstable: string>",
-  "n_users": 28,
+  "n_users": "<unstable: number>",
   "name": "<unstable: string>",
   "ownerId": "<unstable: string>",
   "permanent": true,
   "photonRegion": "us",
-  "platforms": {
-    "android": 12,
-    /**
-     * Unexpected property.
-     *
-     * @schema InstancePlatforms
-     * @keyword additionalProperties
-     *
-     * #/properties/platforms/additionalProperties
-     * #/platforms/ios
-     */
-    "ios": 0,
-    "standalonewindows": 16
-  },
+  "platforms": "<unstable: object>",
   /**
    * Unexpected property.
    *
@@ -118,15 +111,12 @@ Response schema mismatch: Unexpected property at #/platforms/ios, Unexpected pro
     "author_tag_chill",
     "author_tag_lounge",
     "language_eng",
-    "show_social_rank",
-    "language_nor",
-    "language_deu",
-    "language_spa",
-    "language_ase",
-    "language_zxx"
+    "language_fra",
+    "language_tha",
+    "language_cmn"
   ],
   "type": "<unstable: string>",
-  "userCount": 24,
+  "userCount": 19,
   "world": "<unstable: object>",
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b"
 }

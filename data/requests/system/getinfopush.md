@@ -2,7 +2,22 @@
 
 ## Issues
 ```
-Response schema mismatch: Cannot fit value in explicit enum at #/1/data/onPressed/command, Unexpected property at #/1/regions, Unexpected property at #/1/requireClientTags, Cannot fit value in explicit enum at #/4/data/onPressed/command, Unexpected property at #/4/requireClientTags, Cannot fit value in explicit enum at #/5/data/onPressed/command, Unexpected property at #/5/requireClientTags, Cannot fit value in explicit enum at #/6/data/onPressed/command, Unexpected property at #/6/requireClientTags, Cannot fit value in explicit enum at #/8/data/onPressed/command, Cannot fit value in explicit enum at #/9/data/onPressed/command, Cannot fit value in explicit enum at #/10/data/onPressed/command, Unexpected property at #/10/requireClientTags, Cannot fit value in explicit enum at #/11/data/onPressed/command.
+Response schema mismatch:
+
+Cannot fit value in explicit enum at #/1/data/onPressed/command,
+Unexpected property at #/1/regions,
+Unexpected property at #/1/requireClientTags,
+Cannot fit value in explicit enum at #/4/data/onPressed/command,
+Unexpected property at #/4/requireClientTags,
+Cannot fit value in explicit enum at #/5/data/onPressed/command,
+Unexpected property at #/5/requireClientTags,
+Cannot fit value in explicit enum at #/6/data/onPressed/command,
+Unexpected property at #/6/requireClientTags,
+Cannot fit value in explicit enum at #/8/data/onPressed/command,
+Cannot fit value in explicit enum at #/9/data/onPressed/command,
+Cannot fit value in explicit enum at #/10/data/onPressed/command,
+Unexpected property at #/10/requireClientTags,
+Cannot fit value in explicit enum at #/11/data/onPressed/command.
 ```
 
 ## Request

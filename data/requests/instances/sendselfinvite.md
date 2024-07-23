@@ -1,14 +1,15 @@
-# checkUserExists via username
+# sendSelfInvite
 
 ## Issues
 ```
 Response schema mismatch:
 
-Unexpected property at #/nameOk.
+Unexpected property at #/error,
+Unexpected property at #/status_code.
 ```
 
 ## Request
-`get https://vrchat.com/api/1/auth/exists?username=8cf3def6b8cea`
+`post https://vrchat.com/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>/invite`
 
 | Header | Value |
 | ------ | ----- |
@@ -17,19 +18,17 @@ Unexpected property at #/nameOk.
 
 
 ## Response
-`200 OK`
+`404 Not Found`
 
 | Header | Value |
 | ------ | ----- |
-| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `33` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
@@ -38,13 +37,22 @@ Unexpected property at #/nameOk.
   /**
    * Unexpected property.
    *
-   * @schema UserExists
+   * @schema Success
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/nameOk
+   * #/error
    */
-  "nameOk": true,
-  "userExists": true
+  "error": "The endpoint you're looking for is not implemented by our system.",
+  /**
+   * Unexpected property.
+   *
+   * @schema Success
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/status_code
+   */
+  "status_code": 404
 }
 ```

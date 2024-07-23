@@ -43,7 +43,7 @@
   "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "unityPackageUrl": "",
   "unityPackageUrlObject": {},
-  "unityPackages": "<unstable: array>",
+  "unityPackages": "<unstable: array of objects>",
   "updated_at": "<unstable: string>",
   "version": "<unstable: number>"
 }

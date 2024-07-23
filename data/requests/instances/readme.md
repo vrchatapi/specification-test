@@ -22,7 +22,7 @@ Returns an instance short name.
 
 ## Send Self Invite
 Sends an invite to the instance to yourself.
-> Missing coverage.
+* [sendSelfInvite](./sendselfinvite.md)
 
 ## Get Instance By Short Name
 Returns an instance. Please read [Instances Tutorial](https://vrchatapi.github.io/tutorials/instances/) for more information on Instances.

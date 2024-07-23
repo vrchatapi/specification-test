@@ -37,7 +37,7 @@
   "heat": "<unstable: number>",
   "id": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
   "imageUrl": "<unstable: string>",
-  "instances": "<unstable: array>",
+  "instances": "<unstable: array of objects>",
   "labsPublicationDate": "2019-06-13T22:59:46.028Z",
   "name": "The Black Cat",
   "occupants": "<unstable: number>",
@@ -95,7 +95,7 @@
     "prod_8a027235-c374-416f-ac4a-a9f6d9c23ee0",
     "prod_4f7574dd-5668-41ca-bb2c-0bacc84e1220"
   ],
-  "unityPackages": "<unstable: array>",
+  "unityPackages": "<unstable: array of objects>",
   "updated_at": "<unstable: string>",
   "version": "<unstable: number>",
   "visits": "<unstable: number>"

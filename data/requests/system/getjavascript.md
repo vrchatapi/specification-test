@@ -2,7 +2,9 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected token '/', "/*! For li"... is not valid JSON.
+Response schema mismatch:
+
+Unexpected token '/', "/*! For li"... is not valid JSON.
 ```
 
 ## Request

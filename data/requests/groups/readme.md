@@ -14,11 +14,11 @@ Deletes a Group.
 
 ## Get Group by ID
 Returns a single Group by ID.
-> Missing coverage.
+* [getGroup](./getgroup.md)
 
 ## Update Group
 Updates a Group and returns it.
-> Missing coverage.
+* [updateGroup](./updategroup.md)
 
 ## Delete Group Announcement
 Deletes the announcement for a Group.
@@ -80,15 +80,15 @@ Returns a list of group instances
 
 ## Get Group Invites Sent
 Returns a list of members that have been invited to the Group.
-> Missing coverage.
+* [getGroupInvites](./getgroupinvites.md)
 
 ## Invite User to Group
 Sends an invite to a user to join the group.
-> Missing coverage.
+* [createGroupInvite](./creategroupinvite.md)
 
 ## Delete User Invite
 Deletes an Group invite sent to a User
-> Missing coverage.
+* [deleteGroupInvite](./deletegroupinvite.md)
 
 ## Join Group
 Join a Group by ID and returns the member object.

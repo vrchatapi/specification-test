@@ -2,7 +2,11 @@
 
 ## Issues
 ```
-Response schema mismatch: Invalid type at #/0/agreement, Invalid type at #/1/agreement, Invalid type at #/2/agreement.
+Response schema mismatch:
+
+Invalid type at #/0/agreement,
+Invalid type at #/1/agreement,
+Invalid type at #/2/agreement.
 ```
 
 ## Request

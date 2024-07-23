@@ -2,7 +2,16 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected property at #/2data/max, Unexpected property at #/4/displayName, Unexpected property at #/4/description, Unexpected property at #/4/type, Unexpected property at #/6data/maxFavoritesPerGroup, Unexpected property at #/6data/maxFavoriteGroups, Unexpected property at #/7data/tags, Unexpected property at #/7data/badges.
+Response schema mismatch:
+
+Unexpected property at #/2data/max,
+Unexpected property at #/4/displayName,
+Unexpected property at #/4/description,
+Unexpected property at #/4/type,
+Unexpected property at #/6data/maxFavoritesPerGroup,
+Unexpected property at #/6data/maxFavoriteGroups,
+Unexpected property at #/7data/tags,
+Unexpected property at #/7data/badges.
 ```
 
 ## Request

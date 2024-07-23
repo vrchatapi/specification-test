@@ -1,21 +1,19 @@
-# createGroup
+# getGroup
+
+## Issues
+```
+Response schema mismatch:
+
+Unexpected property at #/badges.
+```
 
 ## Request
-`post https://vrchat.com/api/1/groups`
+`get https://vrchat.com/api/1/groups/<unstable>`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| content-type | `application/json` |
 | cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
-
-```json
-{
-  "name": "Test",
-  "roleTemplate": "default",
-  "shortCode": "<unstable>"
-}
-```
 
 
 ## Response
@@ -27,6 +25,7 @@
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
@@ -35,6 +34,16 @@
 
 ```jsonc
 {
+  /**
+   * Unexpected property.
+   *
+   * @schema Group
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/badges
+   */
+  "badges": [],
   "bannerId": null,
   "bannerUrl": "https://assets.vrchat.com/www/groups/default_banner.png",
   "createdAt": "<unstable: string>",
@@ -53,19 +62,14 @@
   "memberCountSyncedAt": "<unstable: string>",
   "membershipStatus": "member",
   "myMember": {
-    "acceptedByDisplayName": null,
-    "acceptedById": null,
-    "createdAt": "<unstable: string>",
     "groupId": "<unstable: string>",
     "has2FA": true,
-    "hasJoinedFromPurchase": false,
     "id": "<unstable: string>",
     "isRepresenting": false,
     "isSubscribedToAnnouncements": true,
     "joinedAt": "<unstable: string>",
     "lastPostReadAt": null,
     "mRoleIds": [],
-    "managerNotes": "",
     "membershipStatus": "member",
     "permissions": [
       "*",
@@ -80,6 +84,7 @@
     "visibility": "visible"
   },
   "name": "Test",
+  "onlineMemberCount": 0,
   "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "privacy": "default",
   "rules": "",
