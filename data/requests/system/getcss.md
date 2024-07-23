@@ -2,7 +2,7 @@
 
 ## Issues
 ```
-Response schema mismatch: Unexpected token : in JSON at position 0.
+Response schema mismatch: Unexpected token ':', ":root{--st"... is not valid JSON.
 ```
 
 ## Request

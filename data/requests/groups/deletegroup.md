@@ -1,7 +1,7 @@
 # deleteGroup
 
 ## Request
-`delete https://vrchat.com/api/1/groups/grp_1b2b525b-ecdd-49a7-aa7a-397af173c3e5`
+`delete https://vrchat.com/api/1/groups/grp_ded6e181-5314-44ed-af5e-0e072d248317`
 
 | Header | Value |
 | ------ | ----- |

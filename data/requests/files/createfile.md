@@ -11,9 +11,9 @@
 
 ```json
 {
-  "name": "string",
-  "mimeType": "image/jpeg",
   "extension": "A",
+  "mimeType": "image/jpeg",
+  "name": "string",
   "tags": [
     "gallery"
   ]

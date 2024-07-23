@@ -1,7 +1,12 @@
-# searchUsers with limit
+# getShortName
+
+## Issues
+```
+Response media type "application/json; charset=utf-8" not expected.
+```
 
 ## Request
-`get https://vrchat.com/api/1/users?n=5&search=a`
+`get https://vrchat.com/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>/shortName`
 
 | Header | Value |
 | ------ | ----- |
@@ -14,17 +19,21 @@
 
 | Header | Value |
 | ------ | ----- |
+| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `42` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "secureName": "<unstable: string>",
+  "shortName": null
+}
 ```

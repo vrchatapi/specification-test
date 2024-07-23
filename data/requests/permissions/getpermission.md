@@ -1,7 +1,7 @@
-# searchUsers with limit
+# getPermission
 
 ## Request
-`get https://vrchat.com/api/1/users?n=5&search=a`
+`get https://vrchat.com/api/1/permissions/prms_fe07c8a7-a4ca-4eda-97e5-e241040ef6f8`
 
 | Header | Value |
 | ------ | ----- |
@@ -22,9 +22,14 @@
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
-| vary | `Authorization, Accept-Encoding` |
+| vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "id": "prms_fe07c8a7-a4ca-4eda-97e5-e241040ef6f8",
+  "ownerId": "usr_17f19d1e-fd48-493b-a8ad-807a3d8bdd1b",
+  "ownerDisplayName": "Arctor",
+  "name": "permission-trust-boost"
+}
 ```

@@ -6,6 +6,6 @@ Returns a list of all permissions currently granted by the user. Permissions are
 
 ## Get Permission
 Returns a single permission. This endpoint is pretty useless, as it returns the exact same information as `/auth/permissions`.
-> Missing coverage.
+* [getPermission](./getpermission.md)
 
 	

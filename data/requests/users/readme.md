@@ -16,7 +16,6 @@ This endpoint now require Admin Credentials.
 ## Get User by ID
 Get public user information about a specific user using their ID.
 * [getUser](./getuser.md)
-* [getUser without parameters](./getuser-without-parameters.md)
 
 ## Update User Info
 Update a users information such as the email and birthday.

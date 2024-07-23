@@ -11,10 +11,10 @@
 
 ```json
 {
-  "signatureMd5": "dGVzdA==",
-  "signatureSizeInBytes": 64,
   "fileMd5": "dGVzdA==",
-  "fileSizeInBytes": 64
+  "fileSizeInBytes": 64,
+  "signatureMd5": "dGVzdA==",
+  "signatureSizeInBytes": 64
 }
 ```
 

@@ -12,8 +12,8 @@ IPS (Info Push System) is a system for VRChat to push out dynamic information to
 `include` is used to query what Information Pushes should be included in the response. If include is missing or empty, then no notices will normally be returned. This is an "any of" search.
 
 `require` is used to limit what Information Pushes should be included in the response. This is usually used in combination with `include`, and is an "all of" search.
-* [getInfoPush with zero parameters](./getinfopush-with-zero-parameters.md)
 * [getInfoPush](./getinfopush.md)
+* [getInfoPush with user-all](./getinfopush-with-user-all.md)
 
 ## Download CSS
 Fetches the CSS code to the frontend React website.
