@@ -1,5 +1,12 @@
 # checkUserExists via email address
 
+## Issues
+```
+Response schema mismatch:
+
+Missing property at #/nameOk.
+```
+
 ## Request
 `get https://vrchat.com/api/1/auth/exists?email=<redacted>`
 

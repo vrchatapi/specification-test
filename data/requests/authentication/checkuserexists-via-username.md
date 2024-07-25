@@ -1,12 +1,5 @@
 # checkUserExists via username
 
-## Issues
-```
-Response schema mismatch:
-
-Unexpected property at #/nameOk.
-```
-
 ## Request
 `get https://vrchat.com/api/1/auth/exists?username=8cf3def6b8cea`
 
@@ -35,15 +28,6 @@ Unexpected property at #/nameOk.
 
 ```jsonc
 {
-  /**
-   * Unexpected property.
-   *
-   * @schema UserExists
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/nameOk
-   */
   "nameOk": true,
   "userExists": true
 }

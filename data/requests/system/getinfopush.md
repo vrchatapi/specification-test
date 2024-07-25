@@ -7,13 +7,21 @@ Response schema mismatch:
 Cannot fit value in explicit enum at #/1/data/onPressed/command,
 Unexpected property at #/1/regions,
 Unexpected property at #/1/requireClientTags,
-Cannot fit value in explicit enum at #/4/data/onPressed/command,
-Unexpected property at #/4/requireClientTags,
-Cannot fit value in explicit enum at #/5/data/onPressed/command,
-Unexpected property at #/5/requireClientTags,
+Invalid type at #/2/startDate,
+Invalid type at #/2/endDate,
+Unexpected property at #/2/regions,
+Unexpected property at #/2/requireClientTags,
+Cannot fit value in explicit enum at #/3/data/onPressed/command,
+Invalid type at #/3/startDate,
+Invalid type at #/3/endDate,
+Unexpected property at #/3/regions,
+Unexpected property at #/3/requireClientTags,
 Cannot fit value in explicit enum at #/6/data/onPressed/command,
 Unexpected property at #/6/requireClientTags,
+Cannot fit value in explicit enum at #/7/data/onPressed/command,
+Unexpected property at #/7/requireClientTags,
 Cannot fit value in explicit enum at #/8/data/onPressed/command,
+Unexpected property at #/8/requireClientTags,
 Cannot fit value in explicit enum at #/9/data/onPressed/command,
 Cannot fit value in explicit enum at #/10/data/onPressed/command,
 Unexpected property at #/10/requireClientTags,
@@ -85,6 +93,15 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
         ]
       }
     },
+    /**
+     * Invalid type.
+     *
+     * @schema unknown
+     * @keyword type
+     *
+     * #/items/properties/endDate/type
+     * #/2/endDate
+     */
     "endDate": "2024-08-03T14:00:00.000Z",
     "hash": "ips_73f41df5-65ac-4660-a59a-992f2cc4b931",
     "id": "ips_73f41df5-65ac-4660-a59a-992f2cc4b931",
@@ -111,12 +128,142 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
      * #/1/requireClientTags
      */
     "requireClientTags": [],
+    /**
+     * Invalid type.
+     *
+     * @schema unknown
+     * @keyword type
+     *
+     * #/items/properties/startDate/type
+     * #/2/startDate
+     */
     "startDate": "2024-07-20T01:00:00.000Z",
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
     "updatedAt": "2024-07-17T18:13:39.357Z"
+  },
+  {
+    "createdAt": "2023-06-29T22:26:18.000Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/3d77b57763c7cf61c163b6992a2b226809097dae25eb9cce5b6e4daccb63d12b.png",
+      "onPressed": {
+        /**
+         * Cannot fit value in explicit enum.
+         *
+         * @schema unknown
+         * @keyword enum
+         *
+         * #/items/properties/data/properties/onPressed/properties/command/enum
+         * #/3/data/onPressed/command
+         */
+        "command": "OpenVRCPlusMenu"
+      }
+    },
+    /**
+     * Invalid type.
+     *
+     * @schema unknown
+     * @keyword type
+     *
+     * #/items/properties/endDate/type
+     * #/3/endDate
+     */
+    "endDate": null,
+    "hash": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
+    "id": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
+    "isEnabled": true,
+    "priority": 877,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/regions
+     */
+    "regions": [],
+    "releaseStatus": "public",
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/requireClientTags
+     */
+    "requireClientTags": [],
+    /**
+     * Invalid type.
+     *
+     * @schema unknown
+     * @keyword type
+     *
+     * #/items/properties/startDate/type
+     * #/3/startDate
+     */
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-no-vrcplus"
+    ],
+    "updatedAt": "2024-07-24T17:18:32.052Z"
+  },
+  {
+    "createdAt": "2023-06-29T22:22:28.000Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/3d77b57763c7cf61c163b6992a2b226809097dae25eb9cce5b6e4daccb63d12b.png",
+      "onPressed": {
+        /**
+         * Cannot fit value in explicit enum.
+         *
+         * @schema unknown
+         * @keyword enum
+         *
+         * #/items/properties/data/properties/onPressed/properties/command/enum
+         * #/6/data/onPressed/command
+         */
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_35060828-5b61-4c1e-b01d-19233b890002"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_873d6aa8-133b-456a-b490-22609976110d",
+    "id": "ips_873d6aa8-133b-456a-b490-22609976110d",
+    "isEnabled": true,
+    "priority": 877,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/3/regions
+     */
+    "regions": [],
+    "releaseStatus": "public",
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/3/requireClientTags
+     */
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-vrcplus"
+    ],
+    "updatedAt": "2024-07-24T17:19:34.428Z"
   },
   {
     "createdAt": "2024-05-21T18:09:44.000Z",
@@ -130,7 +277,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/4/data/onPressed/command
+         * #/7/data/onPressed/command
          */
         "command": "OpenURL",
         "parameters": [
@@ -161,7 +308,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/5/data/onPressed/command
+         * #/8/data/onPressed/command
          */
         "command": "OpenURL",
         "parameters": [
@@ -192,7 +339,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/6/data/onPressed/command
+         * #/9/data/onPressed/command
          */
         "command": "OpenHelpArticle",
         "parameters": [
@@ -212,7 +359,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/requireClientTags
+     * #/6/requireClientTags
      */
     "requireClientTags": [
       "platform-pc-desktop"
@@ -222,49 +369,6 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
       "user-all"
     ],
     "updatedAt": "2023-08-25T22:12:23.000Z"
-  },
-  {
-    "createdAt": "2023-08-25T21:14:55.000Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
-      "onPressed": {
-        /**
-         * Cannot fit value in explicit enum.
-         *
-         * @schema unknown
-         * @keyword enum
-         *
-         * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/8/data/onPressed/command
-         */
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_f834b7c3-8ab8-4281-85d1-fee394163d16"
-        ]
-      }
-    },
-    "hash": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
-    "id": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
-    "isEnabled": true,
-    "priority": 915,
-    "releaseStatus": "public",
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/5/requireClientTags
-     */
-    "requireClientTags": [
-      "platform-oculus-quest"
-    ],
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2023-08-25T22:12:24.000Z"
   },
   {
     "createdAt": "2023-08-25T21:11:07.000Z",
@@ -278,7 +382,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/9/data/onPressed/command
+         * #/10/data/onPressed/command
          */
         "command": "OpenHelpArticle",
         "parameters": [
@@ -298,7 +402,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/6/requireClientTags
+     * #/7/requireClientTags
      */
     "requireClientTags": [
       "platform-pc-vr"
@@ -310,37 +414,9 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
     "updatedAt": "2023-08-25T22:12:23.000Z"
   },
   {
-    "createdAt": "2023-06-29T22:26:18.000Z",
+    "createdAt": "2023-08-25T21:14:55.000Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/3d77b57763c7cf61c163b6992a2b226809097dae25eb9cce5b6e4daccb63d12b.png",
-      "onPressed": {
-        /**
-         * Cannot fit value in explicit enum.
-         *
-         * @schema unknown
-         * @keyword enum
-         *
-         * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/10/data/onPressed/command
-         */
-        "command": "OpenVRCPlusMenu"
-      }
-    },
-    "hash": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
-    "id": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
-    "isEnabled": true,
-    "priority": 920,
-    "releaseStatus": "public",
-    "tags": [
-      "quick-menu-banner",
-      "user-no-vrcplus"
-    ],
-    "updatedAt": "2023-06-29T22:56:28.000Z"
-  },
-  {
-    "createdAt": "2023-06-29T22:22:28.000Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/3d77b57763c7cf61c163b6992a2b226809097dae25eb9cce5b6e4daccb63d12b.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
       "onPressed": {
         /**
          * Cannot fit value in explicit enum.
@@ -353,20 +429,32 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
          */
         "command": "OpenHelpArticle",
         "parameters": [
-          "ips_35060828-5b61-4c1e-b01d-19233b890002"
+          "ips_f834b7c3-8ab8-4281-85d1-fee394163d16"
         ]
       }
     },
-    "hash": "ips_873d6aa8-133b-456a-b490-22609976110d",
-    "id": "ips_873d6aa8-133b-456a-b490-22609976110d",
+    "hash": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
+    "id": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
     "isEnabled": true,
-    "priority": 920,
+    "priority": 915,
     "releaseStatus": "public",
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/8/requireClientTags
+     */
+    "requireClientTags": [
+      "platform-oculus-quest"
+    ],
     "tags": [
       "quick-menu-banner",
-      "user-vrcplus"
+      "user-all"
     ],
-    "updatedAt": "2023-06-29T23:03:15.000Z"
+    "updatedAt": "2023-08-25T22:12:24.000Z"
   },
   {
     "createdAt": "2023-06-12T22:38:29.000Z",
