@@ -328,7 +328,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
     "updatedAt": "2024-01-11T18:39:53.000Z"
   },
   {
-    "createdAt": "2023-08-25T21:11:07.000Z",
+    "createdAt": "2023-08-25T21:14:55.000Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
       "onPressed": {
@@ -343,12 +343,12 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
          */
         "command": "OpenHelpArticle",
         "parameters": [
-          "ips_8626bb31-2c94-44d3-a7bb-18db67fd5d41"
+          "ips_f834b7c3-8ab8-4281-85d1-fee394163d16"
         ]
       }
     },
-    "hash": "ips_926e7956-e13f-412c-a1b7-f13c88709309",
-    "id": "ips_926e7956-e13f-412c-a1b7-f13c88709309",
+    "hash": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
+    "id": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
     "isEnabled": true,
     "priority": 915,
     "releaseStatus": "public",
@@ -362,13 +362,13 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
      * #/6/requireClientTags
      */
     "requireClientTags": [
-      "platform-pc-desktop"
+      "platform-oculus-quest"
     ],
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2023-08-25T22:12:23.000Z"
+    "updatedAt": "2023-08-25T22:12:24.000Z"
   },
   {
     "createdAt": "2023-08-25T21:11:07.000Z",
@@ -414,7 +414,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
     "updatedAt": "2023-08-25T22:12:23.000Z"
   },
   {
-    "createdAt": "2023-08-25T21:14:55.000Z",
+    "createdAt": "2023-08-25T21:11:07.000Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
       "onPressed": {
@@ -429,12 +429,12 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
          */
         "command": "OpenHelpArticle",
         "parameters": [
-          "ips_f834b7c3-8ab8-4281-85d1-fee394163d16"
+          "ips_8626bb31-2c94-44d3-a7bb-18db67fd5d41"
         ]
       }
     },
-    "hash": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
-    "id": "ips_ce3b4b04-f48e-47de-9cd5-b3acd51fe211",
+    "hash": "ips_926e7956-e13f-412c-a1b7-f13c88709309",
+    "id": "ips_926e7956-e13f-412c-a1b7-f13c88709309",
     "isEnabled": true,
     "priority": 915,
     "releaseStatus": "public",
@@ -448,13 +448,13 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
      * #/8/requireClientTags
      */
     "requireClientTags": [
-      "platform-oculus-quest"
+      "platform-pc-desktop"
     ],
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2023-08-25T22:12:24.000Z"
+    "updatedAt": "2023-08-25T22:12:23.000Z"
   },
   {
     "createdAt": "2023-06-12T22:38:29.000Z",
