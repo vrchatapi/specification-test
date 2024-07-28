@@ -4,37 +4,37 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/analyticsDelayNode,
+Unexpected property at #/BehaviourExpiresResolverContentTape,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/applicationDisconnectOut,
-Unexpected property at #/ciabattaPartitionTutorialFirewallSlot,
-Unexpected property at #/coefficientHandlerVirtual,
-Unexpected property at #/commitModelCompilePhoton,
+Unexpected property at #/bytesLoafHealthBarrier,
+Unexpected property at #/clipHeadReserved,
 Unexpected property at #/constants,
-Unexpected property at #/expiresShardOnlineRegression,
 Unexpected property at #/forceUseLatestWorld,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/librarySegmentPluginCdnPresence,
+Unexpected property at #/heapCheckPermanent,
+Unexpected property at #/impostorRegressionHoist,
+Unexpected property at #/instructionHiddenGenerate,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
 Unexpected property at #/offlineAnalysis,
-Unexpected property at #/pasteAnimationGenderRye,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/probabilityMultigrain,
-Unexpected property at #/propRyePropCluster,
-Unexpected property at #/readerCommunity,
-Unexpected property at #/remoteClipboardPush,
-Unexpected property at #/replicationDevice,
-Unexpected property at #/rollbackDatagramStatus,
-Unexpected property at #/sendPodBandwidthMinimumMultigrain,
-Unexpected property at #/souvenirExecute,
-Unexpected property at #/sprayCrossReliableLengthStore,
+Unexpected property at #/privateLoafPublishViolationUsage,
+Unexpected property at #/privateRank,
+Unexpected property at #/randomScrollPayloadBehavior,
+Unexpected property at #/readUpdatedBackgroundLayoutTemporal,
+Unexpected property at #/restLimiter,
+Unexpected property at #/schedulingReason,
+Unexpected property at #/seedIndicator,
+Unexpected property at #/signJwt,
+Unexpected property at #/slicingChaos,
+Unexpected property at #/soapHeapJoinMochaNotify,
 Unexpected property at #/timekeeping,
-Unexpected property at #/undoSort,
+Unexpected property at #/udpStreamingCrema,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
-Unexpected property at #/websocketReconnectMaxDelay.
+Unexpected property at #/websocketReconnectMaxDelay,
+Unexpected property at #/workerYachtInstance.
 ```
 
 ## Request
@@ -64,9 +64,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
 
 ```jsonc
 {
-  "VoiceEnableDegradation": false,
-  "VoiceEnableReceiverLimiting": true,
-  "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
   /**
    * Unexpected property.
    *
@@ -74,9 +71,12 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/analyticsDelayNode
+   * #/BehaviourExpiresResolverContentTape
    */
-  "analyticsDelayNode": 8369,
+  "BehaviourExpiresResolverContentTape": 24506,
+  "VoiceEnableDegradation": false,
+  "VoiceEnableReceiverLimiting": true,
+  "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
   /**
    * Unexpected property.
    *
@@ -99,16 +99,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "analyticsSegment_NewUI_Salt": "0d8522abac334287830d1192a8605f39",
   "announcements": [],
   "appName": "VrChat",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/applicationDisconnectOut
-   */
-  "applicationDisconnectOut": 1,
   "availableLanguageCodes": [
     "en",
     "fr",
@@ -146,9 +136,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/ciabattaPartitionTutorialFirewallSlot
+   * #/bytesLoafHealthBarrier
    */
-  "ciabattaPartitionTutorialFirewallSlot": false,
+  "bytesLoafHealthBarrier": 0,
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -171,24 +161,17 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/coefficientHandlerVirtual
+   * #/clipHeadReserved
    */
-  "coefficientHandlerVirtual": [
-    -20759,
-    null
-  ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/commitModelCompilePhoton
-   */
-  "commitModelCompilePhoton": [
-    null,
-    "UpTierCiabattaReferenceCheck"
+  "clipHeadReserved": [
+    "bootstrapRolloverBufferJsonExpires",
+    [
+      {},
+      {
+        "excursionRotationHook": 0.2874575891667943
+      },
+      "authReaderBracketIso8601Tracker"
+    ]
   ],
   /**
    * Unexpected property.
@@ -498,16 +481,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/expiresShardOnlineRegression
-   */
-  "expiresShardOnlineRegression": 1,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
    * #/forceUseLatestWorld
    */
   "forceUseLatestWorld": true,
@@ -521,6 +494,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * #/googleApiClientId
    */
   "googleApiClientId": "827942544393-r2ouvckvouldn9dg9uruseje575e878f.apps.googleusercontent.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/heapCheckPermanent
+   */
+  "heapCheckPermanent": 0,
   "homeWorldId": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
   "homepageRedirectTarget": "https://hello.vrchat.com",
   "hubWorldId": "wrld_ba913a96-fac4-4048-a062-9aa5db092812",
@@ -549,7 +532,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
     "vr-static.anique.jp",
     "*.vrcdn.cloud"
   ],
-  "jobsEmail": "jobs@vrchat.com",
   /**
    * Unexpected property.
    *
@@ -557,9 +539,20 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/librarySegmentPluginCdnPresence
+   * #/impostorRegressionHoist
    */
-  "librarySegmentPluginCdnPresence": -1648,
+  "impostorRegressionHoist": 1,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/instructionHiddenGenerate
+   */
+  "instructionHiddenGenerate": true,
+  "jobsEmail": "jobs@vrchat.com",
   /**
    * Unexpected property.
    *
@@ -646,22 +639,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/pasteAnimationGenderRye
-   */
-  "pasteAnimationGenderRye": [
-    {
-      "streamFoxExtendedDatagramToken": false
-    },
-    false,
-    false
-  ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
    * #/photonNameserverOverrides
    */
   "photonNameserverOverrides": [
@@ -676,9 +653,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/probabilityMultigrain
+   * #/privateLoafPublishViolationUsage
    */
-  "probabilityMultigrain": 0.20517720010297902,
+  "privateLoafPublishViolationUsage": 472,
   /**
    * Unexpected property.
    *
@@ -686,9 +663,11 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/propRyePropCluster
+   * #/privateRank
    */
-  "propRyePropCluster": 0,
+  "privateRank": {
+    "pullBookmarkInternalSignPod": "throughputThreadTagPluginPlugin"
+  },
   /**
    * Unexpected property.
    *
@@ -696,9 +675,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/readerCommunity
+   * #/randomScrollPayloadBehavior
    */
-  "readerCommunity": 0.07983666001158474,
+  "randomScrollPayloadBehavior": false,
   /**
    * Unexpected property.
    *
@@ -706,9 +685,19 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/remoteClipboardPush
+   * #/readUpdatedBackgroundLayoutTemporal
    */
-  "remoteClipboardPush": 0.36556648552249094,
+  "readUpdatedBackgroundLayoutTemporal": {
+    "SessionBulkJustifyProp": [
+      [],
+      null,
+      {
+        "avatarFoxCrema": 29055,
+        "timeoutFileCommitSessionView": null
+      }
+    ],
+    "sprayCronTokenSyscallAuthentication": 0
+  },
   /**
    * Unexpected property.
    *
@@ -716,9 +705,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/replicationDevice
+   * #/restLimiter
    */
-  "replicationDevice": "behaviorReplicaBrewJoinCache",
+  "restLimiter": null,
   /**
    * Unexpected property.
    *
@@ -726,9 +715,13 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/rollbackDatagramStatus
+   * #/schedulingReason
    */
-  "rollbackDatagramStatus": "boneReverseBufferJsonDistance",
+  "schedulingReason": {
+    "cappuccinoKeyword": {},
+    "downReasonHandler": 0.9893288819683463,
+    "timeCrustThresholdLatteBranch": 1
+  },
   "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
@@ -740,10 +733,10 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/sendPodBandwidthMinimumMultigrain
+   * #/seedIndicator
    */
-  "sendPodBandwidthMinimumMultigrain": false,
-  "serverName": "prod-api-green-paris-3wk",
+  "seedIndicator": true,
+  "serverName": "prod-api-green-sunday-11n",
   /**
    * Unexpected property.
    *
@@ -751,9 +744,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/souvenirExecute
+   * #/signJwt
    */
-  "souvenirExecute": "syncTemporalRelaadventureElection",
+  "signJwt": 0,
   /**
    * Unexpected property.
    *
@@ -761,9 +754,19 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/sprayCrossReliableLengthStore
+   * #/slicingChaos
    */
-  "sprayCrossReliableLengthStore": false,
+  "slicingChaos": null,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/soapHeapJoinMochaNotify
+   */
+  "soapHeapJoinMochaNotify": 0,
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -801,12 +804,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/undoSort
+   * #/udpStreamingCrema
    */
-  "undoSort": [
-    null,
-    28938
-  ],
+  "udpStreamingCrema": 0.2878606638484347,
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,
   "updateRateMsNormal": 200,
@@ -899,6 +899,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
     "https://dev-api.vrchat.cloud/api/1/file/",
     "https://api.vrchat.cloud/api/1/file/",
     "https://files.vrchat.cloud/unmanaged/"
-  ]
+  ],
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/workerYachtInstance
+   */
+  "workerYachtInstance": "stroopwafelTargetPublishCollider"
 }
 ```
