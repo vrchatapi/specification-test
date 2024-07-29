@@ -4,37 +4,32 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/BehaviourExpiresResolverContentTape,
+Unexpected property at #/TargetGraphqlRebaseFriend,
+Unexpected property at #/addressDashboardNightly,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/bytesLoafHealthBarrier,
-Unexpected property at #/clipHeadReserved,
 Unexpected property at #/constants,
 Unexpected property at #/forceUseLatestWorld,
+Unexpected property at #/framePocketCoefficient,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/heapCheckPermanent,
-Unexpected property at #/impostorRegressionHoist,
-Unexpected property at #/instructionHiddenGenerate,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
+Unexpected property at #/oauthOnlyIpv6Weight,
 Unexpected property at #/offlineAnalysis,
+Unexpected property at #/photonConnectNode,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/privateLoafPublishViolationUsage,
-Unexpected property at #/privateRank,
-Unexpected property at #/randomScrollPayloadBehavior,
-Unexpected property at #/readUpdatedBackgroundLayoutTemporal,
-Unexpected property at #/restLimiter,
-Unexpected property at #/schedulingReason,
-Unexpected property at #/seedIndicator,
-Unexpected property at #/signJwt,
-Unexpected property at #/slicingChaos,
-Unexpected property at #/soapHeapJoinMochaNotify,
+Unexpected property at #/propSlot,
+Unexpected property at #/reportCategories,
+Unexpected property at #/reportOptions,
+Unexpected property at #/reportReasons,
+Unexpected property at #/resolverWeight,
+Unexpected property at #/schedulingUser,
+Unexpected property at #/spaceShard,
+Unexpected property at #/subscriptionRoutingCyclePaper,
 Unexpected property at #/timekeeping,
-Unexpected property at #/udpStreamingCrema,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
-Unexpected property at #/websocketReconnectMaxDelay,
-Unexpected property at #/workerYachtInstance.
+Unexpected property at #/websocketReconnectMaxDelay.
 ```
 
 ## Request
@@ -71,12 +66,22 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/BehaviourExpiresResolverContentTape
+   * #/TargetGraphqlRebaseFriend
    */
-  "BehaviourExpiresResolverContentTape": 24506,
+  "TargetGraphqlRebaseFriend": true,
   "VoiceEnableDegradation": false,
   "VoiceEnableReceiverLimiting": true,
   "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/addressDashboardNightly
+   */
+  "addressDashboardNightly": 1,
   /**
    * Unexpected property.
    *
@@ -129,16 +134,6 @@ Unexpected property at #/workerYachtInstance.
     "Chinese Simplified"
   ],
   "buildVersionTag": "master-build-2024-07-25-september-parathakhubz",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/bytesLoafHealthBarrier
-   */
-  "bytesLoafHealthBarrier": 0,
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -154,25 +149,6 @@ Unexpected property at #/workerYachtInstance.
   "clientQR": 1,
   "clientReservedPlayerBPS": 7168,
   "clientSentCountAllowance": 100,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/clipHeadReserved
-   */
-  "clipHeadReserved": [
-    "bootstrapRolloverBufferJsonExpires",
-    [
-      {},
-      {
-        "excursionRotationHook": 0.2874575891667943
-      },
-      "authReaderBracketIso8601Tracker"
-    ]
-  ],
   /**
    * Unexpected property.
    *
@@ -491,9 +467,9 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/googleApiClientId
+   * #/framePocketCoefficient
    */
-  "googleApiClientId": "827942544393-r2ouvckvouldn9dg9uruseje575e878f.apps.googleusercontent.com",
+  "framePocketCoefficient": 7899,
   /**
    * Unexpected property.
    *
@@ -501,9 +477,9 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/heapCheckPermanent
+   * #/googleApiClientId
    */
-  "heapCheckPermanent": 0,
+  "googleApiClientId": "827942544393-r2ouvckvouldn9dg9uruseje575e878f.apps.googleusercontent.com",
   "homeWorldId": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
   "homepageRedirectTarget": "https://hello.vrchat.com",
   "hubWorldId": "wrld_ba913a96-fac4-4048-a062-9aa5db092812",
@@ -532,26 +508,6 @@ Unexpected property at #/workerYachtInstance.
     "vr-static.anique.jp",
     "*.vrcdn.cloud"
   ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/impostorRegressionHoist
-   */
-  "impostorRegressionHoist": 1,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/instructionHiddenGenerate
-   */
-  "instructionHiddenGenerate": true,
   "jobsEmail": "jobs@vrchat.com",
   /**
    * Unexpected property.
@@ -626,12 +582,32 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
+   * #/oauthOnlyIpv6Weight
+   */
+  "oauthOnlyIpv6Weight": 0.5593280747072635,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
    * #/offlineAnalysis
    */
   "offlineAnalysis": {
     "android": true,
     "standalonewindows": true
   },
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/photonConnectNode
+   */
+  "photonConnectNode": "reachabilitySdk",
   /**
    * Unexpected property.
    *
@@ -653,9 +629,9 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/privateLoafPublishViolationUsage
+   * #/propSlot
    */
-  "privateLoafPublishViolationUsage": 472,
+  "propSlot": 0.30929664075168084,
   /**
    * Unexpected property.
    *
@@ -663,10 +639,37 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/privateRank
+   * #/reportCategories
    */
-  "privateRank": {
-    "pullBookmarkInternalSignPod": "throughputThreadTagPluginPlugin"
+  "reportCategories": {
+    "avatar": {
+      "text": "Avatar",
+      "tooltip": "The avatar contains objectionable content"
+    },
+    "behavior": {
+      "text": "Behavior",
+      "tooltip": "A user's words or actions contain harmful or malicious intent"
+    },
+    "environment": {
+      "text": "Environment",
+      "tooltip": "There is objectionable content found in this world"
+    },
+    "image": {
+      "text": "Image",
+      "tooltip": "The image, icon, or other graphics contain objectionable content"
+    },
+    "text": {
+      "text": "Text",
+      "tooltip": "The user's name, status, or bio contain objectionable content"
+    },
+    "warnings": {
+      "text": "Content Warnings",
+      "tooltip": "There is something wrong with this content's warnings"
+    },
+    "worldimage": {
+      "text": "World Image",
+      "tooltip": "The image thumbnail that represents this world contains objectionable content"
+    }
   },
   /**
    * Unexpected property.
@@ -675,28 +678,104 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/randomScrollPayloadBehavior
+   * #/reportOptions
    */
-  "randomScrollPayloadBehavior": false,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/readUpdatedBackgroundLayoutTemporal
-   */
-  "readUpdatedBackgroundLayoutTemporal": {
-    "SessionBulkJustifyProp": [
-      [],
-      null,
-      {
-        "avatarFoxCrema": 29055,
-        "timeoutFileCommitSessionView": null
-      }
-    ],
-    "sprayCronTokenSyscallAuthentication": 0
+  "reportOptions": {
+    "avatar": {
+      "avatar": [
+        "hateful",
+        "nudity",
+        "malicious",
+        "threatening",
+        "leaking",
+        "gore"
+      ],
+      "warnings": [
+        "missing"
+      ]
+    },
+    "group": {
+      "image": [
+        "hateful",
+        "malicious",
+        "visuals",
+        "inappropriate",
+        "impersonation",
+        "threatening",
+        "leaking",
+        "gore",
+        "sexual"
+      ],
+      "text": [
+        "hateful",
+        "malicious",
+        "visuals",
+        "inappropriate",
+        "impersonation",
+        "threatening",
+        "leaking",
+        "gore",
+        "sexual"
+      ]
+    },
+    "user": {
+      "behavior": [
+        "hateful",
+        "sexual",
+        "harassing",
+        "hacking",
+        "impersonation",
+        "botting",
+        "threatening"
+      ],
+      "image": [
+        "hateful",
+        "nudity",
+        "harassing",
+        "impersonation",
+        "threatening",
+        "gore"
+      ],
+      "text": [
+        "hateful",
+        "sexual",
+        "harassing",
+        "impersonation",
+        "threatening",
+        "leaking"
+      ]
+    },
+    "world": {
+      "environment": [
+        "hateful",
+        "nudity",
+        "malicious",
+        "inappropriate",
+        "gore"
+      ],
+      "text": [
+        "hateful",
+        "sexual",
+        "harassing",
+        "inappropriate",
+        "impersonation",
+        "threatening",
+        "leaking"
+      ],
+      "warnings": [
+        "missing"
+      ],
+      "worldImage": [
+        "hateful",
+        "nudity",
+        "harassing",
+        "inappropriate",
+        "impersonation",
+        "threatening",
+        "leaking",
+        "gore"
+      ]
+    }
   },
   /**
    * Unexpected property.
@@ -705,9 +784,66 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/restLimiter
+   * #/reportReasons
    */
-  "restLimiter": null,
+  "reportReasons": {
+    "botting": {
+      "text": "Botting",
+      "tooltip": "The user is using automated tools or software to spam or perform other disruptive activities"
+    },
+    "gore": {
+      "text": "Gore",
+      "tooltip": "The content contains graphic violence or gruesome images that are intended to shock or disturb"
+    },
+    "hacking": {
+      "text": "Client Modding / Hacking",
+      "tooltip": "This person is using unapproved software for harmful or malicious intent"
+    },
+    "harassing": {
+      "text": "Harassing",
+      "tooltip": "The content has the intent to disturb or upset"
+    },
+    "hateful": {
+      "text": "Hateful",
+      "tooltip": "The content contains hate speech, including language, symbols, and actions"
+    },
+    "impersonation": {
+      "text": "Impersonation",
+      "tooltip": "The user or content is pretending to be someone else with the intent to deceive"
+    },
+    "inappropriate": {
+      "text": "Inappropriate",
+      "tooltip": "The content contains shock content, political or religious figures and symbology"
+    },
+    "leaking": {
+      "text": "Leaking Private Information",
+      "tooltip": "The user or content shares personal or confidential information without consent"
+    },
+    "malicious": {
+      "text": "Malicious",
+      "tooltip": "The content contains intentionally harmful material"
+    },
+    "missing": {
+      "text": "Missing",
+      "tooltip": "There is something missing"
+    },
+    "nudity": {
+      "text": "Nudity",
+      "tooltip": "The content contains sexually explicit art, images, or similar"
+    },
+    "sexual": {
+      "text": "Sexual",
+      "tooltip": "The content contains suggestive material"
+    },
+    "threatening": {
+      "text": "Threats / Promoting Self-Harm",
+      "tooltip": "The user or content spreads threats of violence or encourages self-harm"
+    },
+    "visuals": {
+      "text": "Abusive or disruptive visuals",
+      "tooltip": "The content contains visuals that could be harmful or irritating"
+    }
+  },
   /**
    * Unexpected property.
    *
@@ -715,17 +851,27 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/schedulingReason
+   * #/resolverWeight
    */
-  "schedulingReason": {
-    "cappuccinoKeyword": {},
-    "downReasonHandler": 0.9893288819683463,
-    "timeCrustThresholdLatteBranch": 1
+  "resolverWeight": {
+    "availabilityExternal": "apiPullBookmarkInternalSign",
+    "entryTimestampCompilePrivate": {}
   },
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/schedulingUser
+   */
+  "schedulingUser": 0.5471667528082054,
   "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
+  "serverName": "prod-api-green-senegal-ae5",
   /**
    * Unexpected property.
    *
@@ -733,40 +879,9 @@ Unexpected property at #/workerYachtInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/seedIndicator
+   * #/spaceShard
    */
-  "seedIndicator": true,
-  "serverName": "prod-api-green-sunday-11n",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/signJwt
-   */
-  "signJwt": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/slicingChaos
-   */
-  "slicingChaos": null,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/soapHeapJoinMochaNotify
-   */
-  "soapHeapJoinMochaNotify": 0,
+  "spaceShard": 0,
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -784,6 +899,19 @@ Unexpected property at #/workerYachtInstance.
     "vr.anique.jp",
     "*.vrcdn.cloud"
   ],
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/subscriptionRoutingCyclePaper
+   */
+  "subscriptionRoutingCyclePaper": [
+    -11655,
+    24558
+  ],
   "supportEmail": "support@vrchat.com",
   "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
   /**
@@ -797,16 +925,6 @@ Unexpected property at #/workerYachtInstance.
    */
   "timekeeping": true,
   "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/udpStreamingCrema
-   */
-  "udpStreamingCrema": 0.2878606638484347,
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,
   "updateRateMsNormal": 200,
@@ -899,16 +1017,6 @@ Unexpected property at #/workerYachtInstance.
     "https://dev-api.vrchat.cloud/api/1/file/",
     "https://api.vrchat.cloud/api/1/file/",
     "https://files.vrchat.cloud/unmanaged/"
-  ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/workerYachtInstance
-   */
-  "workerYachtInstance": "stroopwafelTargetPublishCollider"
+  ]
 }
 ```

@@ -68,7 +68,7 @@
   "pronouns": "",
   "state": "offline",
   "status": "ask me",
-  "statusDescription": "",
+  "statusDescription": "hewwo․",
   "tags": [
     "system_trust_trusted",
     "system_world_access",
