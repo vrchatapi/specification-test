@@ -4,35 +4,39 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/LatteSchedulerPipelineBranch,
-Unexpected property at #/activeDaemonReportKernelSlice,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/bytesForwardRealtimeTapePocket,
-Unexpected property at #/cacheFoxRealtimeTracingReplace,
+Unexpected property at #/barrierElectionPeriod,
+Unexpected property at #/channelFocacciaDynamic,
 Unexpected property at #/constants,
-Unexpected property at #/distanceTargetFriendVoice,
-Unexpected property at #/draftTransactionStreamBandwidth,
-Unexpected property at #/electionRandomDeploymentPointer,
+Unexpected property at #/cronRotationBootstrapNext,
+Unexpected property at #/dashboardRolloverThunderPitaEthernet,
+Unexpected property at #/documentationRemoteLabelTicket,
 Unexpected property at #/forceUseLatestWorld,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/hiddenUserPrototypeMethod,
-Unexpected property at #/listNameReference,
+Unexpected property at #/heightFocacciaDisableActive,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
 Unexpected property at #/offlineAnalysis,
+Unexpected property at #/ownershipViolationCoexistenceSort,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/positionClusterScreenLoss,
+Unexpected property at #/pocketAnalytics,
+Unexpected property at #/rebaseWhoisTemporaryHeight,
+Unexpected property at #/referenceSlotPodBehaviour,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/syncGraph,
+Unexpected property at #/requestEthernetBehaviorMutexMonitor,
+Unexpected property at #/serviceNodeViolationPacket,
+Unexpected property at #/shardNextUserPage,
+Unexpected property at #/thunderControlPrimary,
 Unexpected property at #/timekeeping,
+Unexpected property at #/unityInstruction,
+Unexpected property at #/voiceReservedPositionCommunity,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
-Unexpected property at #/websocketReconnectMaxDelay,
-Unexpected property at #/writeManager.
+Unexpected property at #/websocketReconnectMaxDelay.
 ```
 
 ## Request
@@ -62,28 +66,8 @@ Unexpected property at #/writeManager.
 
 ```jsonc
 {
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/LatteSchedulerPipelineBranch
-   */
-  "LatteSchedulerPipelineBranch": 1,
   "VoiceEnableDegradation": false,
   "VoiceEnableReceiverLimiting": true,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/activeDaemonReportKernelSlice
-   */
-  "activeDaemonReportKernelSlice": false,
   "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
   /**
    * Unexpected property.
@@ -136,7 +120,6 @@ Unexpected property at #/writeManager.
     "Portuguese, Brazilian",
     "Chinese Simplified"
   ],
-  "buildVersionTag": "master-build-2024-07-30-deckard-skullsolar",
   /**
    * Unexpected property.
    *
@@ -144,9 +127,10 @@ Unexpected property at #/writeManager.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/bytesForwardRealtimeTapePocket
+   * #/barrierElectionPeriod
    */
-  "bytesForwardRealtimeTapePocket": null,
+  "barrierElectionPeriod": 492,
+  "buildVersionTag": "master-build-2024-07-31-benjamin-w-coughlittle",
   /**
    * Unexpected property.
    *
@@ -154,9 +138,11 @@ Unexpected property at #/writeManager.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/cacheFoxRealtimeTracingReplace
+   * #/channelFocacciaDynamic
    */
-  "cacheFoxRealtimeTracingReplace": 0.0842683742321626,
+  "channelFocacciaDynamic": {
+    "hiddenTemporaryJoinBulkPrimary": true
+  },
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -291,10 +277,30 @@ Unexpected property at #/writeManager.
   },
   "contactEmail": "hello@vrchat.com",
   "copyrightEmail": "copyright@vrchat.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/cronRotationBootstrapNext
+   */
+  "cronRotationBootstrapNext": true,
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/dashboardRolloverThunderPitaEthernet
+   */
+  "dashboardRolloverThunderPitaEthernet": true,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "deploymentGroup": "blue",
+  "deploymentGroup": "green",
   "devLanguageCodes": [
     "sv",
     "nl",
@@ -339,9 +345,9 @@ Unexpected property at #/writeManager.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/distanceTargetFriendVoice
+   * #/documentationRemoteLabelTicket
    */
-  "distanceTargetFriendVoice": 1,
+  "documentationRemoteLabelTicket": true,
   "downloadLinkWindows": "https://www.oculus.com/experiences/rift/997678176960598/",
   "downloadUrls": {
     "bootstrap": "https://github.com/vrchat/packages/releases/download/resolvers/latest-resolver.unitypackage",
@@ -350,16 +356,6 @@ Unexpected property at #/writeManager.
     "sdk3-worlds": "https://assets.vrchat.com/sdk/VRChat-Worlds-3.6.1.unitypackage",
     "vcc": "https://vrcpm.vrchat.cloud/vcc/Builds/2.3.2/VRChat_CreatorCompanion_Setup_2.3.2.exe"
   },
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/draftTransactionStreamBandwidth
-   */
-  "draftTransactionStreamBandwidth": 0,
   "dynamicWorldRows": [
     {
       "index": 1,
@@ -481,16 +477,6 @@ Unexpected property at #/writeManager.
   "economyPauseEnd": "2024-02-01T15:05:00.000Z",
   "economyPauseStart": "2024-02-01T13:55:00.000Z",
   "economyState": 1,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/electionRandomDeploymentPointer
-   */
-  "electionRandomDeploymentPointer": 1,
   "events": {
     "distanceClose": 2,
     "distanceFactor": 100,
@@ -530,9 +516,9 @@ Unexpected property at #/writeManager.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/hiddenUserPrototypeMethod
+   * #/heightFocacciaDisableActive
    */
-  "hiddenUserPrototypeMethod": 0.3194240405042601,
+  "heightFocacciaDisableActive": false,
   "homeWorldId": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
   "homepageRedirectTarget": "https://hello.vrchat.com",
   "hubWorldId": "wrld_ba913a96-fac4-4048-a062-9aa5db092812",
@@ -562,16 +548,6 @@ Unexpected property at #/writeManager.
     "*.vrcdn.cloud"
   ],
   "jobsEmail": "jobs@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/listNameReference
-   */
-  "listNameReference": 0.3790120893340827,
   /**
    * Unexpected property.
    *
@@ -658,6 +634,16 @@ Unexpected property at #/writeManager.
    * @keyword additionalProperties
    *
    * #/additionalProperties
+   * #/ownershipViolationCoexistenceSort
+   */
+  "ownershipViolationCoexistenceSort": false,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
    * #/photonNameserverOverrides
    */
   "photonNameserverOverrides": [
@@ -672,9 +658,29 @@ Unexpected property at #/writeManager.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/positionClusterScreenLoss
+   * #/pocketAnalytics
    */
-  "positionClusterScreenLoss": 0,
+  "pocketAnalytics": false,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/rebaseWhoisTemporaryHeight
+   */
+  "rebaseWhoisTemporaryHeight": "BandwidthRegressionBread",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/referenceSlotPodBehaviour
+   */
+  "referenceSlotPodBehaviour": false,
   /**
    * Unexpected property.
    *
@@ -909,11 +915,41 @@ Unexpected property at #/writeManager.
       "tooltip": "The content contains visuals that could be harmful or irritating"
     }
   },
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/requestEthernetBehaviorMutexMonitor
+   */
+  "requestEthernetBehaviorMutexMonitor": false,
   "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
-  "serverName": "prod-api-blue-quiet-umq",
+  "serverName": "prod-api-green-sphere-7nk",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/serviceNodeViolationPacket
+   */
+  "serviceNodeViolationPacket": -30087,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/shardNextUserPage
+   */
+  "shardNextUserPage": -30944,
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -939,9 +975,9 @@ Unexpected property at #/writeManager.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/syncGraph
+   * #/thunderControlPrimary
    */
-  "syncGraph": null,
+  "thunderControlPrimary": true,
   "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
   /**
    * Unexpected property.
@@ -954,6 +990,18 @@ Unexpected property at #/writeManager.
    */
   "timekeeping": true,
   "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/unityInstruction
+   */
+  "unityInstruction": [
+    null
+  ],
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,
   "updateRateMsNormal": 200,
@@ -1016,6 +1064,16 @@ Unexpected property at #/writeManager.
    * @keyword additionalProperties
    *
    * #/additionalProperties
+   * #/voiceReservedPositionCommunity
+   */
+  "voiceReservedPositionCommunity": 1,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
    * #/websocketMaxFriendsRefreshDelay
    */
   "websocketMaxFriendsRefreshDelay": 900,
@@ -1046,16 +1104,6 @@ Unexpected property at #/writeManager.
     "https://dev-api.vrchat.cloud/api/1/file/",
     "https://api.vrchat.cloud/api/1/file/",
     "https://files.vrchat.cloud/unmanaged/"
-  ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/writeManager
-   */
-  "writeManager": true
+  ]
 }
 ```

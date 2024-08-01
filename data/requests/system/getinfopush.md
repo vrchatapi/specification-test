@@ -328,49 +328,6 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
     "updatedAt": "2024-01-11T18:39:53.000Z"
   },
   {
-    "createdAt": "2023-08-25T21:11:07.000Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
-      "onPressed": {
-        /**
-         * Cannot fit value in explicit enum.
-         *
-         * @schema unknown
-         * @keyword enum
-         *
-         * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/9/data/onPressed/command
-         */
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_8626bb31-2c94-44d3-a7bb-18db67fd5d41"
-        ]
-      }
-    },
-    "hash": "ips_926e7956-e13f-412c-a1b7-f13c88709309",
-    "id": "ips_926e7956-e13f-412c-a1b7-f13c88709309",
-    "isEnabled": true,
-    "priority": 915,
-    "releaseStatus": "public",
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/6/requireClientTags
-     */
-    "requireClientTags": [
-      "platform-pc-desktop"
-    ],
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2023-08-25T22:12:23.000Z"
-  },
-  {
     "createdAt": "2023-08-25T21:14:55.000Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
@@ -382,7 +339,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/10/data/onPressed/command
+         * #/9/data/onPressed/command
          */
         "command": "OpenHelpArticle",
         "parameters": [
@@ -402,7 +359,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/7/requireClientTags
+     * #/6/requireClientTags
      */
     "requireClientTags": [
       "platform-oculus-quest"
@@ -425,7 +382,7 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/11/data/onPressed/command
+         * #/10/data/onPressed/command
          */
         "command": "OpenHelpArticle",
         "parameters": [
@@ -445,10 +402,53 @@ Cannot fit value in explicit enum at #/11/data/onPressed/command.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/8/requireClientTags
+     * #/7/requireClientTags
      */
     "requireClientTags": [
       "platform-pc-vr"
+    ],
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2023-08-25T22:12:23.000Z"
+  },
+  {
+    "createdAt": "2023-08-25T21:11:07.000Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/78434ca43795bb4cccb469f0a2ed396e1a1c5d914b49d0a61ba981226cc953da.png",
+      "onPressed": {
+        /**
+         * Cannot fit value in explicit enum.
+         *
+         * @schema unknown
+         * @keyword enum
+         *
+         * #/items/properties/data/properties/onPressed/properties/command/enum
+         * #/11/data/onPressed/command
+         */
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_8626bb31-2c94-44d3-a7bb-18db67fd5d41"
+        ]
+      }
+    },
+    "hash": "ips_926e7956-e13f-412c-a1b7-f13c88709309",
+    "id": "ips_926e7956-e13f-412c-a1b7-f13c88709309",
+    "isEnabled": true,
+    "priority": 915,
+    "releaseStatus": "public",
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/8/requireClientTags
+     */
+    "requireClientTags": [
+      "platform-pc-desktop"
     ],
     "tags": [
       "quick-menu-banner",
