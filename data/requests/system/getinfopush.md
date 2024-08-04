@@ -88,7 +88,7 @@ Cannot fit value in explicit enum at #/3/data/onPressed/command.
      * #/items/properties/endDate/type
      * #/2/endDate
      */
-    "endDate": "2024-08-03T14:00:00.000Z",
+    "endDate": "2024-08-04T14:00:00.000Z",
     "hash": "ips_73f41df5-65ac-4660-a59a-992f2cc4b931",
     "id": "ips_73f41df5-65ac-4660-a59a-992f2cc4b931",
     "isEnabled": true,
@@ -128,7 +128,7 @@ Cannot fit value in explicit enum at #/3/data/onPressed/command.
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2024-07-17T18:13:39.357Z"
+    "updatedAt": "2024-08-03T16:01:30.682Z"
   },
   {
     "createdAt": "2023-06-29T22:26:18.000Z",
