@@ -6,35 +6,35 @@ Response schema mismatch:
 
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/authExtract,
-Unexpected property at #/behaviourExitRebase,
+Unexpected property at #/authFilterCrustTotal,
+Unexpected property at #/baristaEternalQuery,
+Unexpected property at #/bulkFormationRealtime,
 Unexpected property at #/constants,
-Unexpected property at #/contentMinimumBird,
-Unexpected property at #/delayJustifyNuisanceToolbox,
-Unexpected property at #/espressoWeightPointerHeaderSegfault,
-Unexpected property at #/exitMessageMacRouting,
+Unexpected property at #/dockerLicenseHiddenLoaf,
+Unexpected property at #/eventNotificationTimerUnityInstance,
+Unexpected property at #/expireAssetItineraryOut,
+Unexpected property at #/feedTimeoutSocket,
 Unexpected property at #/forceUseLatestWorld,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/markerWafflePrint,
-Unexpected property at #/methodReachabilityAmericanoInternal,
+Unexpected property at #/heightYachtShiftSeed,
+Unexpected property at #/messageInstructionBurritoNuisance,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
+Unexpected property at #/objectsDisableRandom,
 Unexpected property at #/offlineAnalysis,
+Unexpected property at #/paginationInstallValue,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/publishBarrierLoafMention,
-Unexpected property at #/publishInstallTargetRankDisconnect,
+Unexpected property at #/presencePresenceHeader,
+Unexpected property at #/relaadventureNewsBackground,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/temporaryOwnershipNameDebounce,
+Unexpected property at #/souvenirListener,
 Unexpected property at #/timekeeping,
-Unexpected property at #/transactionHoist,
-Unexpected property at #/unitySubscription,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
-Unexpected property at #/websocketReconnectMaxDelay,
-Unexpected property at #/zoneDocsReadColourMap.
+Unexpected property at #/websocketReconnectMaxDelay.
 ```
 
 ## Request
@@ -96,12 +96,9 @@ Unexpected property at #/zoneDocsReadColourMap.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/authExtract
+   * #/authFilterCrustTotal
    */
-  "authExtract": [
-    0.9779744870759477,
-    {}
-  ],
+  "authFilterCrustTotal": true,
   "availableLanguageCodes": [
     "en",
     "fr",
@@ -138,10 +135,20 @@ Unexpected property at #/zoneDocsReadColourMap.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/behaviourExitRebase
+   * #/baristaEternalQuery
    */
-  "behaviourExitRebase": true,
+  "baristaEternalQuery": true,
   "buildVersionTag": "master-build-2024-08-02-samoa-e-derpycinnamonswirl",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/bulkFormationRealtime
+   */
+  "bulkFormationRealtime": 2354,
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -275,30 +282,10 @@ Unexpected property at #/zoneDocsReadColourMap.
     }
   },
   "contactEmail": "hello@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/contentMinimumBird
-   */
-  "contentMinimumBird": 0,
   "copyrightEmail": "copyright@vrchat.com",
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/delayJustifyNuisanceToolbox
-   */
-  "delayJustifyNuisanceToolbox": true,
   "deploymentGroup": "green",
   "devLanguageCodes": [
     "sv",
@@ -337,6 +324,16 @@ Unexpected property at #/zoneDocsReadColourMap.
   "disableTwoFactorAuth": false,
   "disableUdon": false,
   "disableUpgradeAccount": false,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/dockerLicenseHiddenLoaf
+   */
+  "dockerLicenseHiddenLoaf": 1,
   "downloadLinkWindows": "https://www.oculus.com/experiences/rift/997678176960598/",
   "downloadUrls": {
     "bootstrap": "https://github.com/vrchat/packages/releases/download/resolvers/latest-resolver.unitypackage",
@@ -473,9 +470,9 @@ Unexpected property at #/zoneDocsReadColourMap.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/espressoWeightPointerHeaderSegfault
+   * #/eventNotificationTimerUnityInstance
    */
-  "espressoWeightPointerHeaderSegfault": -7288,
+  "eventNotificationTimerUnityInstance": [],
   "events": {
     "distanceClose": 2,
     "distanceFactor": 100,
@@ -495,16 +492,19 @@ Unexpected property at #/zoneDocsReadColourMap.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/exitMessageMacRouting
+   * #/expireAssetItineraryOut
    */
-  "exitMessageMacRouting": [
-    [],
-    null,
-    {
-      "datagramPrimaryFormationSegment": null,
-      "routeBuildJsonFusl": false
-    }
-  ],
+  "expireAssetItineraryOut": 0.8932215947614859,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/feedTimeoutSocket
+   */
+  "feedTimeoutSocket": false,
   /**
    * Unexpected property.
    *
@@ -525,6 +525,16 @@ Unexpected property at #/zoneDocsReadColourMap.
    * #/googleApiClientId
    */
   "googleApiClientId": "827942544393-r2ouvckvouldn9dg9uruseje575e878f.apps.googleusercontent.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/heightYachtShiftSeed
+   */
+  "heightYachtShiftSeed": 0,
   "homeWorldId": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
   "homepageRedirectTarget": "https://hello.vrchat.com",
   "hubWorldId": "wrld_ba913a96-fac4-4048-a062-9aa5db092812",
@@ -561,21 +571,9 @@ Unexpected property at #/zoneDocsReadColourMap.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/markerWafflePrint
+   * #/messageInstructionBurritoNuisance
    */
-  "markerWafflePrint": true,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/methodReachabilityAmericanoInternal
-   */
-  "methodReachabilityAmericanoInternal": {
-    "responseRolloutHome": 0.2589831825631337
-  },
+  "messageInstructionBurritoNuisance": {},
   /**
    * Unexpected property.
    *
@@ -649,12 +647,35 @@ Unexpected property at #/zoneDocsReadColourMap.
    * @keyword additionalProperties
    *
    * #/additionalProperties
+   * #/objectsDisableRandom
+   */
+  "objectsDisableRandom": {
+    "commandNetworking": true,
+    "objectArrayHandlerShaderWaffle": "timezoneThrottleUdpRyeScroll"
+  },
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
    * #/offlineAnalysis
    */
   "offlineAnalysis": {
     "android": true,
     "standalonewindows": true
   },
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/paginationInstallValue
+   */
+  "paginationInstallValue": 0,
   /**
    * Unexpected property.
    *
@@ -676,9 +697,9 @@ Unexpected property at #/zoneDocsReadColourMap.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/publishBarrierLoafMention
+   * #/presencePresenceHeader
    */
-  "publishBarrierLoafMention": false,
+  "presencePresenceHeader": 18269,
   /**
    * Unexpected property.
    *
@@ -686,9 +707,9 @@ Unexpected property at #/zoneDocsReadColourMap.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/publishInstallTargetRankDisconnect
+   * #/relaadventureNewsBackground
    */
-  "publishInstallTargetRankDisconnect": [],
+  "relaadventureNewsBackground": 0,
   /**
    * Unexpected property.
    *
@@ -927,7 +948,17 @@ Unexpected property at #/zoneDocsReadColourMap.
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
-  "serverName": "prod-api-green-good-d5n",
+  "serverName": "prod-api-green-spanner-olm",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/souvenirListener
+   */
+  "souvenirListener": false,
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -946,16 +977,6 @@ Unexpected property at #/zoneDocsReadColourMap.
     "*.vrcdn.cloud"
   ],
   "supportEmail": "support@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/temporaryOwnershipNameDebounce
-   */
-  "temporaryOwnershipNameDebounce": null,
   "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
   /**
    * Unexpected property.
@@ -967,27 +988,7 @@ Unexpected property at #/zoneDocsReadColourMap.
    * #/timekeeping
    */
   "timekeeping": true,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/transactionHoist
-   */
-  "transactionHoist": 27109,
   "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/unitySubscription
-   */
-  "unitySubscription": {},
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,
   "updateRateMsNormal": 200,
@@ -1080,16 +1081,6 @@ Unexpected property at #/zoneDocsReadColourMap.
     "https://dev-api.vrchat.cloud/api/1/file/",
     "https://api.vrchat.cloud/api/1/file/",
     "https://files.vrchat.cloud/unmanaged/"
-  ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/zoneDocsReadColourMap
-   */
-  "zoneDocsReadColourMap": 0.24540491696300348
+  ]
 }
 ```

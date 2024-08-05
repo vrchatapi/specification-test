@@ -4,14 +4,11 @@
 ```
 Response schema mismatch:
 
-Cannot fit value in explicit enum at #/1/data/onPressed/command,
+Invalid type at #/1/startDate,
+Invalid type at #/1/endDate,
 Unexpected property at #/1/regions,
 Unexpected property at #/1/requireClientTags,
-Invalid type at #/2/startDate,
-Invalid type at #/2/endDate,
-Unexpected property at #/2/regions,
-Unexpected property at #/2/requireClientTags,
-Cannot fit value in explicit enum at #/3/data/onPressed/command.
+Cannot fit value in explicit enum at #/2/data/onPressed/command.
 ```
 
 ## Request
@@ -60,9 +57,9 @@ Cannot fit value in explicit enum at #/3/data/onPressed/command.
     "updatedAt": "2023-10-16T20:55:19.000Z"
   },
   {
-    "createdAt": "2024-07-17T18:01:34.192Z",
+    "createdAt": "2023-06-29T22:26:18.000Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_0bccadf6-b0e7-41c6-bd7c-c98351134be9.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_2b9ffcd5-4b99-46da-8575-90bd7af8c4a1.png",
       "onPressed": {
         /**
          * Cannot fit value in explicit enum.
@@ -71,12 +68,9 @@ Cannot fit value in explicit enum at #/3/data/onPressed/command.
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/1/data/onPressed/command
+         * #/2/data/onPressed/command
          */
-        "command": "OpenWorldsMenu",
-        "parameters": [
-          "ips_bc05dea7-035c-461a-b13e-6266dd5a1189"
-        ]
+        "command": "OpenVRCPlusMenu"
       }
     },
     /**
@@ -86,13 +80,13 @@ Cannot fit value in explicit enum at #/3/data/onPressed/command.
      * @keyword type
      *
      * #/items/properties/endDate/type
-     * #/2/endDate
+     * #/1/endDate
      */
-    "endDate": "2024-08-04T14:00:00.000Z",
-    "hash": "ips_73f41df5-65ac-4660-a59a-992f2cc4b931",
-    "id": "ips_73f41df5-65ac-4660-a59a-992f2cc4b931",
+    "endDate": null,
+    "hash": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
+    "id": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
     "isEnabled": true,
-    "priority": 800,
+    "priority": 877,
     /**
      * Unexpected property.
      *
@@ -121,58 +115,8 @@ Cannot fit value in explicit enum at #/3/data/onPressed/command.
      * @keyword type
      *
      * #/items/properties/startDate/type
-     * #/2/startDate
+     * #/1/startDate
      */
-    "startDate": "2024-07-20T01:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-08-03T16:01:30.682Z"
-  },
-  {
-    "createdAt": "2023-06-29T22:26:18.000Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_2b9ffcd5-4b99-46da-8575-90bd7af8c4a1.png",
-      "onPressed": {
-        /**
-         * Cannot fit value in explicit enum.
-         *
-         * @schema unknown
-         * @keyword enum
-         *
-         * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/3/data/onPressed/command
-         */
-        "command": "OpenVRCPlusMenu"
-      }
-    },
-    "endDate": null,
-    "hash": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
-    "id": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
-    "isEnabled": true,
-    "priority": 877,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/2/regions
-     */
-    "regions": [],
-    "releaseStatus": "public",
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/2/requireClientTags
-     */
-    "requireClientTags": [],
     "startDate": null,
     "tags": [
       "quick-menu-banner",
