@@ -111,14 +111,15 @@ Unexpected property at #/playerPersistenceEnabled.
     "author_tag_chill",
     "author_tag_lounge",
     "language_eng",
+    "language_dan",
+    "language_spa",
     "language_deu",
-    "language_nor",
-    "show_social_rank",
-    "language_bfi",
-    "language_swe"
+    "language_jpn",
+    "language_tur",
+    "show_social_rank"
   ],
   "type": "<unstable: string>",
-  "userCount": 25,
+  "userCount": 23,
   "world": "<unstable: object>",
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b"
 }

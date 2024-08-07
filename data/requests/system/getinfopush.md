@@ -8,7 +8,11 @@ Invalid type at #/1/startDate,
 Invalid type at #/1/endDate,
 Unexpected property at #/1/regions,
 Unexpected property at #/1/requireClientTags,
-Cannot fit value in explicit enum at #/2/data/onPressed/command.
+Cannot fit value in explicit enum at #/2/data/onPressed/command,
+Invalid type at #/3/startDate,
+Invalid type at #/3/endDate,
+Unexpected property at #/3/regions,
+Unexpected property at #/3/requireClientTags.
 ```
 
 ## Request
@@ -149,7 +153,7 @@ Cannot fit value in explicit enum at #/2/data/onPressed/command.
   {
     "createdAt": "2021-11-08T22:45:26.000Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/c9bb5ca0943d090263c4f6bf7b25191a0330f34e6a0bf53cf742ea587a319048.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_ccb636c2-1888-4234-8880-6f63ec23f330.png",
       "onPressed": {
         "command": "OpenURL",
         "parameters": [
@@ -157,16 +161,56 @@ Cannot fit value in explicit enum at #/2/data/onPressed/command.
         ]
       }
     },
+    /**
+     * Invalid type.
+     *
+     * @schema unknown
+     * @keyword type
+     *
+     * #/items/properties/endDate/type
+     * #/3/endDate
+     */
+    "endDate": null,
     "hash": "ips_d83ed94c-dc16-4b32-a4c9-16fa9dd52e48",
     "id": "ips_d83ed94c-dc16-4b32-a4c9-16fa9dd52e48",
     "isEnabled": true,
     "priority": 1030,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/3/regions
+     */
+    "regions": [],
     "releaseStatus": "public",
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/3/requireClientTags
+     */
+    "requireClientTags": [],
+    /**
+     * Invalid type.
+     *
+     * @schema unknown
+     * @keyword type
+     *
+     * #/items/properties/startDate/type
+     * #/3/startDate
+     */
+    "startDate": null,
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2022-09-08T21:59:18.000Z"
+    "updatedAt": "2024-08-06T15:55:51.592Z"
   },
   {
     "createdAt": "2021-09-13T20:50:40.000Z",
