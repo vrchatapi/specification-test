@@ -4,15 +4,20 @@
 ```
 Response schema mismatch:
 
+Cannot fit value in explicit enum at #/1/data/onPressed/command,
 Invalid type at #/1/startDate,
 Invalid type at #/1/endDate,
 Unexpected property at #/1/regions,
 Unexpected property at #/1/requireClientTags,
-Cannot fit value in explicit enum at #/2/data/onPressed/command,
-Invalid type at #/3/startDate,
-Invalid type at #/3/endDate,
-Unexpected property at #/3/regions,
-Unexpected property at #/3/requireClientTags.
+Invalid type at #/2/startDate,
+Invalid type at #/2/endDate,
+Unexpected property at #/2/regions,
+Unexpected property at #/2/requireClientTags,
+Cannot fit value in explicit enum at #/3/data/onPressed/command,
+Invalid type at #/4/startDate,
+Invalid type at #/4/endDate,
+Unexpected property at #/4/regions,
+Unexpected property at #/4/requireClientTags.
 ```
 
 ## Request
@@ -61,9 +66,9 @@ Unexpected property at #/3/requireClientTags.
     "updatedAt": "2023-10-16T20:55:19.000Z"
   },
   {
-    "createdAt": "2023-06-29T22:26:18.000Z",
+    "createdAt": "2024-07-25T21:09:20.823Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_2b9ffcd5-4b99-46da-8575-90bd7af8c4a1.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_10694bab-786a-458a-83ae-543b0b60d2e4.png",
       "onPressed": {
         /**
          * Cannot fit value in explicit enum.
@@ -72,9 +77,9 @@ Unexpected property at #/3/requireClientTags.
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/2/data/onPressed/command
+         * #/1/data/onPressed/command
          */
-        "command": "OpenVRCPlusMenu"
+        "command": "OpenAccountUpgrade"
       }
     },
     /**
@@ -87,10 +92,10 @@ Unexpected property at #/3/requireClientTags.
      * #/1/endDate
      */
     "endDate": null,
-    "hash": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
-    "id": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
+    "hash": "ips_81d61462-c265-4f16-ac40-0d9c0d784297",
+    "id": "ips_81d61462-c265-4f16-ac40-0d9c0d784297",
     "isEnabled": true,
-    "priority": 877,
+    "priority": 690,
     /**
      * Unexpected property.
      *
@@ -120,6 +125,74 @@ Unexpected property at #/3/requireClientTags.
      *
      * #/items/properties/startDate/type
      * #/1/startDate
+     */
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-account-upgradable"
+    ],
+    "updatedAt": "2024-08-07T19:58:41.362Z"
+  },
+  {
+    "createdAt": "2023-06-29T22:26:18.000Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_2b9ffcd5-4b99-46da-8575-90bd7af8c4a1.png",
+      "onPressed": {
+        /**
+         * Cannot fit value in explicit enum.
+         *
+         * @schema unknown
+         * @keyword enum
+         *
+         * #/items/properties/data/properties/onPressed/properties/command/enum
+         * #/3/data/onPressed/command
+         */
+        "command": "OpenVRCPlusMenu"
+      }
+    },
+    /**
+     * Invalid type.
+     *
+     * @schema unknown
+     * @keyword type
+     *
+     * #/items/properties/endDate/type
+     * #/2/endDate
+     */
+    "endDate": null,
+    "hash": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
+    "id": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
+    "isEnabled": true,
+    "priority": 877,
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/regions
+     */
+    "regions": [],
+    "releaseStatus": "public",
+    /**
+     * Unexpected property.
+     *
+     * @schema InfoPush
+     * @keyword additionalProperties
+     *
+     * #/items/additionalProperties
+     * #/2/requireClientTags
+     */
+    "requireClientTags": [],
+    /**
+     * Invalid type.
+     *
+     * @schema unknown
+     * @keyword type
+     *
+     * #/items/properties/startDate/type
+     * #/2/startDate
      */
     "startDate": null,
     "tags": [
@@ -168,7 +241,7 @@ Unexpected property at #/3/requireClientTags.
      * @keyword type
      *
      * #/items/properties/endDate/type
-     * #/3/endDate
+     * #/4/endDate
      */
     "endDate": null,
     "hash": "ips_d83ed94c-dc16-4b32-a4c9-16fa9dd52e48",
@@ -182,7 +255,7 @@ Unexpected property at #/3/requireClientTags.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/regions
+     * #/4/regions
      */
     "regions": [],
     "releaseStatus": "public",
@@ -193,7 +266,7 @@ Unexpected property at #/3/requireClientTags.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/3/requireClientTags
+     * #/4/requireClientTags
      */
     "requireClientTags": [],
     /**
@@ -203,7 +276,7 @@ Unexpected property at #/3/requireClientTags.
      * @keyword type
      *
      * #/items/properties/startDate/type
-     * #/3/startDate
+     * #/4/startDate
      */
     "startDate": null,
     "tags": [

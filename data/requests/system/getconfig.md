@@ -6,32 +6,39 @@ Response schema mismatch:
 
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/blinkHeadCachePartitionError,
-Unexpected property at #/captchaMonitorRolloutVersion,
+Unexpected property at #/blockExpirationPublicPackageViolation,
+Unexpected property at #/bulkMergeSet,
+Unexpected property at #/chaosKernel,
 Unexpected property at #/clientNetDispatchThreadMobile,
-Unexpected property at #/clipNoise,
-Unexpected property at #/communityLibraryTimeApiInternal,
+Unexpected property at #/commandIndicatorRouting,
+Unexpected property at #/commitHeadHome,
 Unexpected property at #/constants,
-Unexpected property at #/defaultNightlyAddress,
-Unexpected property at #/ethernetVirtualLockingCache,
+Unexpected property at #/excursionMessageInternalNotification,
 Unexpected property at #/forceUseLatestWorld,
-Unexpected property at #/forwardNightlySignatureLogging,
+Unexpected property at #/foxCdn,
+Unexpected property at #/foxObjectsOnlineVector,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/handlerReturnClient,
+Unexpected property at #/graphqlSecurityDisplayRebaseFormation,
+Unexpected property at #/lockBehaviourJson,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
+Unexpected property at #/modelVrchatSession,
+Unexpected property at #/moderationSlicingColourStart,
 Unexpected property at #/offlineAnalysis,
-Unexpected property at #/payloadChaosReadError,
+Unexpected property at #/offsetOnlyHomeUdp,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/quorumIdentityStreamingRandomDeployment,
-Unexpected property at #/readCrudTrackerSortThrottle,
+Unexpected property at #/presenceLoafAnimationInstructionSlicing,
+Unexpected property at #/replaceConnect,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/souvenirNameTransmittionPointerToken,
+Unexpected property at #/socketCrustMonitorStore,
+Unexpected property at #/steamChump,
+Unexpected property at #/throughputOauth,
 Unexpected property at #/timekeeping,
-Unexpected property at #/versionContentPasteBytesLayout,
+Unexpected property at #/timestampDucking,
+Unexpected property at #/userIso8601BootstrapPool,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
 Unexpected property at #/websocketReconnectMaxDelay.
@@ -125,10 +132,10 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/blinkHeadCachePartitionError
+   * #/blockExpirationPublicPackageViolation
    */
-  "blinkHeadCachePartitionError": 0.27892622727800465,
-  "buildVersionTag": "master-build-2024-08-06-benson-wheatdevice",
+  "blockExpirationPublicPackageViolation": 1,
+  "buildVersionTag": "master-build-2024-08-07-isabelle-u-overflowjetpuffed",
   /**
    * Unexpected property.
    *
@@ -136,9 +143,22 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/captchaMonitorRolloutVersion
+   * #/bulkMergeSet
    */
-  "captchaMonitorRolloutVersion": null,
+  "bulkMergeSet": false,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/chaosKernel
+   */
+  "chaosKernel": [
+    null,
+    29986
+  ],
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -167,9 +187,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/clipNoise
+   * #/commandIndicatorRouting
    */
-  "clipNoise": 1,
+  "commandIndicatorRouting": true,
   /**
    * Unexpected property.
    *
@@ -177,9 +197,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/communityLibraryTimeApiInternal
+   * #/commitHeadHome
    */
-  "communityLibraryTimeApiInternal": 1,
+  "commitHeadHome": 0,
   /**
    * Unexpected property.
    *
@@ -302,17 +322,7 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/defaultNightlyAddress
-   */
-  "defaultNightlyAddress": false,
-  "deploymentGroup": "blue",
+  "deploymentGroup": "green",
   "devLanguageCodes": [
     "sv",
     "nl",
@@ -479,16 +489,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "economyPauseEnd": "2024-02-01T15:05:00.000Z",
   "economyPauseStart": "2024-02-01T13:55:00.000Z",
   "economyState": 1,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/ethernetVirtualLockingCache
-   */
-  "ethernetVirtualLockingCache": 0,
   "events": {
     "distanceClose": 2,
     "distanceFactor": 100,
@@ -508,6 +508,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
+   * #/excursionMessageInternalNotification
+   */
+  "excursionMessageInternalNotification": 0.8570417450921548,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
    * #/forceUseLatestWorld
    */
   "forceUseLatestWorld": true,
@@ -518,9 +528,19 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/forwardNightlySignatureLogging
+   * #/foxCdn
    */
-  "forwardNightlySignatureLogging": false,
+  "foxCdn": null,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/foxObjectsOnlineVector
+   */
+  "foxObjectsOnlineVector": 0,
   /**
    * Unexpected property.
    *
@@ -538,9 +558,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/handlerReturnClient
+   * #/graphqlSecurityDisplayRebaseFormation
    */
-  "handlerReturnClient": null,
+  "graphqlSecurityDisplayRebaseFormation": true,
   "homeWorldId": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
   "homepageRedirectTarget": "https://hello.vrchat.com",
   "hubWorldId": "wrld_ba913a96-fac4-4048-a062-9aa5db092812",
@@ -570,6 +590,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
     "*.vrcdn.cloud"
   ],
   "jobsEmail": "jobs@vrchat.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/lockBehaviourJson
+   */
+  "lockBehaviourJson": "streamingTargetPrivate",
   /**
    * Unexpected property.
    *
@@ -634,7 +664,27 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * #/minimumUnityVersionForUploads
    */
   "minimumUnityVersionForUploads": "2019.0.0",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/modelVrchatSession
+   */
+  "modelVrchatSession": 1,
   "moderationEmail": "moderation@vrchat.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/moderationSlicingColourStart
+   */
+  "moderationSlicingColourStart": false,
   "notAllowedToSelectAvatarInPrivateWorldMessage": "For security reasons, you're not yet allowed to select avatars in private worlds or upload content. Please continue to enjoy VRChat and we'll message you when you've been unlocked. Thanks and have fun!",
   /**
    * Unexpected property.
@@ -656,12 +706,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/payloadChaosReadError
+   * #/offsetOnlyHomeUdp
    */
-  "payloadChaosReadError": [
-    null,
-    "YachtTimerHeadpatFavoriteBulk"
-  ],
+  "offsetOnlyHomeUdp": null,
   /**
    * Unexpected property.
    *
@@ -683,9 +730,11 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/quorumIdentityStreamingRandomDeployment
+   * #/presenceLoafAnimationInstructionSlicing
    */
-  "quorumIdentityStreamingRandomDeployment": "stackSubscription",
+  "presenceLoafAnimationInstructionSlicing": [
+    1
+  ],
   /**
    * Unexpected property.
    *
@@ -693,9 +742,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/readCrudTrackerSortThrottle
+   * #/replaceConnect
    */
-  "readCrudTrackerSortThrottle": 0,
+  "replaceConnect": 0.908031177321182,
   /**
    * Unexpected property.
    *
@@ -934,7 +983,7 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
-  "serverName": "prod-api-blue-quick-360",
+  "serverName": "prod-api-green-melfrid-m2n",
   /**
    * Unexpected property.
    *
@@ -942,11 +991,19 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/souvenirNameTransmittionPointerToken
+   * #/socketCrustMonitorStore
    */
-  "souvenirNameTransmittionPointerToken": [
-    true
-  ],
+  "socketCrustMonitorStore": 1,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/steamChump
+   */
+  "steamChump": null,
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -965,6 +1022,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
     "*.vrcdn.cloud"
   ],
   "supportEmail": "support@vrchat.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/throughputOauth
+   */
+  "throughputOauth": 0,
   "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
   /**
    * Unexpected property.
@@ -976,6 +1043,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * #/timekeeping
    */
   "timekeeping": true,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/timestampDucking
+   */
+  "timestampDucking": 0.36953080673869954,
   "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,
@@ -1038,13 +1115,15 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/versionContentPasteBytesLayout
+   * #/userIso8601BootstrapPool
    */
-  "versionContentPasteBytesLayout": {
-    "PullBookmarkInternalSign": null,
-    "downloadRedoHead": 0.023105673620201106,
-    "tierChaosQueueBiographyLogging": false
-  },
+  "userIso8601BootstrapPool": [
+    {
+      "routingBuildJsonGender": false
+    },
+    false,
+    false
+  ],
   "viveWindowsUrl": "http://store.steampowered.com/app/438100/",
   /**
    * Unexpected property.
