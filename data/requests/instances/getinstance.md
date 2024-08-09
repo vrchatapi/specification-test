@@ -53,7 +53,7 @@ Unexpected property at #/playerPersistenceEnabled.
    * #/displayName
    */
   "displayName": null,
-  "full": false,
+  "full": true,
   /**
    * Unexpected property.
    *
@@ -96,7 +96,7 @@ Unexpected property at #/playerPersistenceEnabled.
    * #/playerPersistenceEnabled
    */
   "playerPersistenceEnabled": null,
-  "queueEnabled": false,
+  "queueEnabled": true,
   "queueSize": 0,
   "recommendedCapacity": 24,
   "region": "use",
@@ -110,16 +110,19 @@ Unexpected property at #/playerPersistenceEnabled.
     "author_tag_hangout",
     "author_tag_chill",
     "author_tag_lounge",
-    "language_eng",
-    "language_spa",
-    "language_rus",
-    "language_ron",
-    "language_fra",
     "language_zxx",
-    "language_swe"
+    "language_eng",
+    "language_ara",
+    "language_heb",
+    "language_ces",
+    "show_social_rank",
+    "language_spa",
+    "language_kvk",
+    "language_fra",
+    "language_ron"
   ],
   "type": "<unstable: string>",
-  "userCount": 16,
+  "userCount": 23,
   "world": "<unstable: object>",
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b"
 }
