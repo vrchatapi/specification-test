@@ -84,7 +84,7 @@ Unexpected property at #/playerPersistenceEnabled.
   "name": "<unstable: string>",
   "ownerId": "<unstable: string>",
   "permanent": true,
-  "photonRegion": "use",
+  "photonRegion": "us",
   "platforms": "<unstable: object>",
   /**
    * Unexpected property.
@@ -96,10 +96,10 @@ Unexpected property at #/playerPersistenceEnabled.
    * #/playerPersistenceEnabled
    */
   "playerPersistenceEnabled": null,
-  "queueEnabled": true,
+  "queueEnabled": false,
   "queueSize": 0,
   "recommendedCapacity": 24,
-  "region": "use",
+  "region": "us",
   "roleRestricted": false,
   "secureName": "<unstable: string>",
   "shortName": null,
@@ -110,19 +110,20 @@ Unexpected property at #/playerPersistenceEnabled.
     "author_tag_hangout",
     "author_tag_chill",
     "author_tag_lounge",
-    "language_zxx",
     "language_eng",
-    "language_ara",
-    "language_heb",
-    "language_ces",
     "show_social_rank",
-    "language_spa",
-    "language_kvk",
-    "language_fra",
-    "language_ron"
+    "language_jpn",
+    "language_deu",
+    "language_ron",
+    "language_rus",
+    "language_ase",
+    "language_ita",
+    "language_asf",
+    "language_por",
+    "language_spa"
   ],
   "type": "<unstable: string>",
-  "userCount": 23,
+  "userCount": 28,
   "world": "<unstable: object>",
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b"
 }
