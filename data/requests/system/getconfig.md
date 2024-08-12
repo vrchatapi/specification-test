@@ -6,40 +6,40 @@ Response schema mismatch:
 
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/attachmentFavoriteDevice,
-Unexpected property at #/chatMinimumMarkEmbed,
+Unexpected property at #/arrayEthernetUndoTotal,
+Unexpected property at #/checkFormationContext,
 Unexpected property at #/clientNetDispatchThreadMobile,
+Unexpected property at #/clipboardGenderYacht,
 Unexpected property at #/constants,
-Unexpected property at #/copyModelAvailability,
-Unexpected property at #/entryNewsTicketTemporaryFile,
-Unexpected property at #/eventsNextWebsocket,
+Unexpected property at #/eventAttachmentJumpOwnership,
 Unexpected property at #/forceUseLatestWorld,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/headpatExitChurnResponse,
-Unexpected property at #/keywordLimiterMethod,
-Unexpected property at #/maximumDuckingScrollHome,
+Unexpected property at #/kernelSouvenirFriendHoistItinerary,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
 Unexpected property at #/offlineAnalysis,
+Unexpected property at #/pageSdkUnityProfileNext,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/pitaTrustedPositionLoopValue,
-Unexpected property at #/podTimer,
-Unexpected property at #/rankingCaptchaLayoutTimestamp,
-Unexpected property at #/redoHiddenSignature,
-Unexpected property at #/regionClipQuery,
+Unexpected property at #/playerSdkSignHook,
+Unexpected property at #/printBeach,
+Unexpected property at #/printStartThreshold,
+Unexpected property at #/reachabilityCaptchaLayoutTrustedVerification,
+Unexpected property at #/receiveMapWhoisCoefficientSdk,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/seedRotationFpsClipPlayer,
-Unexpected property at #/semaphoreNewsVideoNextRumor,
+Unexpected property at #/semaphoreFormatBeach,
+Unexpected property at #/signatureAnimatorHandlerWorkerMetric,
+Unexpected property at #/socketAuthImmunityApiHeader,
 Unexpected property at #/timekeeping,
-Unexpected property at #/verificationMaximum,
+Unexpected property at #/toolboxSouvenir,
+Unexpected property at #/ttlPush,
+Unexpected property at #/udpSourdoughColour,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
 Unexpected property at #/websocketReconnectMaxDelay,
-Unexpected property at #/whoisIdentityType,
-Unexpected property at #/zoneAssetInstance.
+Unexpected property at #/worldGit.
 ```
 
 ## Request
@@ -101,12 +101,9 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/attachmentFavoriteDevice
+   * #/arrayEthernetUndoTotal
    */
-  "attachmentFavoriteDevice": [
-    0.06032575034214149,
-    false
-  ],
+  "arrayEthernetUndoTotal": null,
   "availableLanguageCodes": [
     "en",
     "fr",
@@ -144,9 +141,9 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/chatMinimumMarkEmbed
+   * #/checkFormationContext
    */
-  "chatMinimumMarkEmbed": 0.23317968556561652,
+  "checkFormationContext": "mapPacketAvailabilityHeight",
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -168,6 +165,19 @@ Unexpected property at #/zoneAssetInstance.
   "clientQR": 1,
   "clientReservedPlayerBPS": 7168,
   "clientSentCountAllowance": 100,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/clipboardGenderYacht
+   */
+  "clipboardGenderYacht": {
+    "disconnectRandomGiftSet": 17576,
+    "vrchatWhere": 1
+  },
   /**
    * Unexpected property.
    *
@@ -286,16 +296,6 @@ Unexpected property at #/zoneAssetInstance.
     }
   },
   "contactEmail": "hello@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/copyModelAvailability
-   */
-  "copyModelAvailability": 0,
   "copyrightEmail": "copyright@vrchat.com",
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
@@ -474,9 +474,9 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/entryNewsTicketTemporaryFile
+   * #/eventAttachmentJumpOwnership
    */
-  "entryNewsTicketTemporaryFile": "yamlRankingBounce",
+  "eventAttachmentJumpOwnership": 0.799974551352699,
   "events": {
     "distanceClose": 2,
     "distanceFactor": 100,
@@ -488,18 +488,6 @@ Unexpected property at #/zoneAssetInstance.
     "playerOrderFactor": 55,
     "slowUpdateFactorThreshold": 25,
     "viewSegmentLength": 5
-  },
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/eventsNextWebsocket
-   */
-  "eventsNextWebsocket": {
-    "waffleWherePaginationBone": 1
   },
   /**
    * Unexpected property.
@@ -521,16 +509,6 @@ Unexpected property at #/zoneAssetInstance.
    * #/googleApiClientId
    */
   "googleApiClientId": "827942544393-r2ouvckvouldn9dg9uruseje575e878f.apps.googleusercontent.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/headpatExitChurnResponse
-   */
-  "headpatExitChurnResponse": "transmitThunderAmericano",
   "homeWorldId": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
   "homepageRedirectTarget": "https://hello.vrchat.com",
   "hubWorldId": "wrld_ba913a96-fac4-4048-a062-9aa5db092812",
@@ -567,19 +545,9 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/keywordLimiterMethod
+   * #/kernelSouvenirFriendHoistItinerary
    */
-  "keywordLimiterMethod": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/maximumDuckingScrollHome
-   */
-  "maximumDuckingScrollHome": 0.5007924686003573,
+  "kernelSouvenirFriendHoistItinerary": 0,
   /**
    * Unexpected property.
    *
@@ -666,11 +634,9 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/photonNameserverOverrides
+   * #/pageSdkUnityProfileNext
    */
-  "photonNameserverOverrides": [
-    "ns.photonengine.io"
-  ],
+  "pageSdkUnityProfileNext": "verificationPrimaryBlock",
   /**
    * Unexpected property.
    *
@@ -678,9 +644,11 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/pitaTrustedPositionLoopValue
+   * #/photonNameserverOverrides
    */
-  "pitaTrustedPositionLoopValue": true,
+  "photonNameserverOverrides": [
+    "ns.photonengine.io"
+  ],
   "player-url-resolver-sha1": "F3-47-C3-1A-21-E4-EB-F8-34-22-FB-83-C6-6D-ED-12-E5-2C-95-66",
   "player-url-resolver-version": "2024-08-06",
   /**
@@ -690,9 +658,9 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/podTimer
+   * #/playerSdkSignHook
    */
-  "podTimer": null,
+  "playerSdkSignHook": 26157,
   /**
    * Unexpected property.
    *
@@ -700,9 +668,9 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/rankingCaptchaLayoutTimestamp
+   * #/printBeach
    */
-  "rankingCaptchaLayoutTimestamp": -7558,
+  "printBeach": 0,
   /**
    * Unexpected property.
    *
@@ -710,9 +678,9 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/redoHiddenSignature
+   * #/printStartThreshold
    */
-  "redoHiddenSignature": 0.3348768659275745,
+  "printStartThreshold": 0,
   /**
    * Unexpected property.
    *
@@ -720,9 +688,19 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/regionClipQuery
+   * #/reachabilityCaptchaLayoutTrustedVerification
    */
-  "regionClipQuery": 0.45011186270419223,
+  "reachabilityCaptchaLayoutTrustedVerification": 0,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/receiveMapWhoisCoefficientSdk
+   */
+  "receiveMapWhoisCoefficientSdk": 0,
   /**
    * Unexpected property.
    *
@@ -968,9 +946,10 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/seedRotationFpsClipPlayer
+   * #/semaphoreFormatBeach
    */
-  "seedRotationFpsClipPlayer": 0,
+  "semaphoreFormatBeach": 0,
+  "serverName": "prod-api-green-creep-9gc",
   /**
    * Unexpected property.
    *
@@ -978,10 +957,19 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/semaphoreNewsVideoNextRumor
+   * #/signatureAnimatorHandlerWorkerMetric
    */
-  "semaphoreNewsVideoNextRumor": "samlStackCursedTutorial",
-  "serverName": "prod-api-green-squat-5v9",
+  "signatureAnimatorHandlerWorkerMetric": 0.2001701260755384,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/socketAuthImmunityApiHeader
+   */
+  "socketAuthImmunityApiHeader": "activityPreviousPipeline",
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -1011,7 +999,40 @@ Unexpected property at #/zoneAssetInstance.
    * #/timekeeping
    */
   "timekeeping": true,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/toolboxSouvenir
+   */
+  "toolboxSouvenir": true,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/ttlPush
+   */
+  "ttlPush": [
+    -20577,
+    null
+  ],
   "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/udpSourdoughColour
+   */
+  "udpSourdoughColour": null,
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,
   "updateRateMsNormal": 200,
@@ -1066,20 +1087,6 @@ Unexpected property at #/zoneAssetInstance.
     "*.vrcdn.cloud"
   ],
   "useReliableUdpForVoice": false,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/verificationMaximum
-   */
-  "verificationMaximum": {
-    "keyboardTypeJson": 0,
-    "managerWhoisPaperBookmarkOauth": 10278,
-    "periodBarrierHomeShift": true
-  },
   "viveWindowsUrl": "http://store.steampowered.com/app/438100/",
   /**
    * Unexpected property.
@@ -1126,18 +1133,8 @@ Unexpected property at #/zoneAssetInstance.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/whoisIdentityType
+   * #/worldGit
    */
-  "whoisIdentityType": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/zoneAssetInstance
-   */
-  "zoneAssetInstance": false
+  "worldGit": false
 }
 ```
