@@ -4,42 +4,38 @@
 ```
 Response schema mismatch:
 
+Unexpected property at #/FavoritePrivateAttributeItineraryFocaccia,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/arrayEthernetUndoTotal,
-Unexpected property at #/checkFormationContext,
+Unexpected property at #/backgroundEventReverseCycle,
+Unexpected property at #/cdnGroupSaml,
 Unexpected property at #/clientNetDispatchThreadMobile,
-Unexpected property at #/clipboardGenderYacht,
 Unexpected property at #/constants,
-Unexpected property at #/eventAttachmentJumpOwnership,
+Unexpected property at #/detectionPositionDisconnect,
+Unexpected property at #/embedReadDuty,
+Unexpected property at #/ethernetRebaseDisable,
+Unexpected property at #/eventsModerationTapePackage,
+Unexpected property at #/firewallChurnRelaadventureDynamic,
 Unexpected property at #/forceUseLatestWorld,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/kernelSouvenirFriendHoistItinerary,
+Unexpected property at #/licenseListLayout,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
 Unexpected property at #/offlineAnalysis,
-Unexpected property at #/pageSdkUnityProfileNext,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/playerSdkSignHook,
-Unexpected property at #/printBeach,
-Unexpected property at #/printStartThreshold,
-Unexpected property at #/reachabilityCaptchaLayoutTrustedVerification,
-Unexpected property at #/receiveMapWhoisCoefficientSdk,
+Unexpected property at #/publishAvatar,
+Unexpected property at #/pushGraphSession,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/semaphoreFormatBeach,
-Unexpected property at #/signatureAnimatorHandlerWorkerMetric,
-Unexpected property at #/socketAuthImmunityApiHeader,
+Unexpected property at #/streamingMonitorMainDeployment,
 Unexpected property at #/timekeeping,
-Unexpected property at #/toolboxSouvenir,
-Unexpected property at #/ttlPush,
-Unexpected property at #/udpSourdoughColour,
+Unexpected property at #/tokenLimiterStickerSegfault,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
 Unexpected property at #/websocketReconnectMaxDelay,
-Unexpected property at #/worldGit.
+Unexpected property at #/yamlShellLoaderRollback.
 ```
 
 ## Request
@@ -69,6 +65,16 @@ Unexpected property at #/worldGit.
 
 ```jsonc
 {
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/FavoritePrivateAttributeItineraryFocaccia
+   */
+  "FavoritePrivateAttributeItineraryFocaccia": false,
   "VoiceEnableDegradation": false,
   "VoiceEnableReceiverLimiting": true,
   "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
@@ -94,16 +100,6 @@ Unexpected property at #/worldGit.
   "analyticsSegment_NewUI_Salt": "0d8522abac334287830d1192a8605f39",
   "announcements": [],
   "appName": "VrChat",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/arrayEthernetUndoTotal
-   */
-  "arrayEthernetUndoTotal": null,
   "availableLanguageCodes": [
     "en",
     "fr",
@@ -133,7 +129,6 @@ Unexpected property at #/worldGit.
     "Portuguese, Brazilian",
     "Chinese Simplified"
   ],
-  "buildVersionTag": "master-build-2024-08-08-munich-plaidgraffiti",
   /**
    * Unexpected property.
    *
@@ -141,9 +136,20 @@ Unexpected property at #/worldGit.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/checkFormationContext
+   * #/backgroundEventReverseCycle
    */
-  "checkFormationContext": "mapPacketAvailabilityHeight",
+  "backgroundEventReverseCycle": null,
+  "buildVersionTag": "master-build-2024-08-12-kanaya-w-staffginger",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/cdnGroupSaml
+   */
+  "cdnGroupSaml": null,
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -165,19 +171,6 @@ Unexpected property at #/worldGit.
   "clientQR": 1,
   "clientReservedPlayerBPS": 7168,
   "clientSentCountAllowance": 100,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/clipboardGenderYacht
-   */
-  "clipboardGenderYacht": {
-    "disconnectRandomGiftSet": 17576,
-    "vrchatWhere": 1
-  },
   /**
    * Unexpected property.
    *
@@ -300,7 +293,17 @@ Unexpected property at #/worldGit.
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "deploymentGroup": "green",
+  "deploymentGroup": "blue",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/detectionPositionDisconnect
+   */
+  "detectionPositionDisconnect": null,
   "devLanguageCodes": [
     "sv",
     "nl",
@@ -474,9 +477,19 @@ Unexpected property at #/worldGit.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/eventAttachmentJumpOwnership
+   * #/embedReadDuty
    */
-  "eventAttachmentJumpOwnership": 0.799974551352699,
+  "embedReadDuty": null,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/ethernetRebaseDisable
+   */
+  "ethernetRebaseDisable": null,
   "events": {
     "distanceClose": 2,
     "distanceFactor": 100,
@@ -489,6 +502,26 @@ Unexpected property at #/worldGit.
     "slowUpdateFactorThreshold": 25,
     "viewSegmentLength": 5
   },
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/eventsModerationTapePackage
+   */
+  "eventsModerationTapePackage": 0,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/firewallChurnRelaadventureDynamic
+   */
+  "firewallChurnRelaadventureDynamic": "rebaseSegmentBulkJson",
   /**
    * Unexpected property.
    *
@@ -545,9 +578,9 @@ Unexpected property at #/worldGit.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/kernelSouvenirFriendHoistItinerary
+   * #/licenseListLayout
    */
-  "kernelSouvenirFriendHoistItinerary": 0,
+  "licenseListLayout": true,
   /**
    * Unexpected property.
    *
@@ -634,16 +667,6 @@ Unexpected property at #/worldGit.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/pageSdkUnityProfileNext
-   */
-  "pageSdkUnityProfileNext": "verificationPrimaryBlock",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
    * #/photonNameserverOverrides
    */
   "photonNameserverOverrides": [
@@ -658,9 +681,9 @@ Unexpected property at #/worldGit.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/playerSdkSignHook
+   * #/publishAvatar
    */
-  "playerSdkSignHook": 26157,
+  "publishAvatar": 0,
   /**
    * Unexpected property.
    *
@@ -668,39 +691,9 @@ Unexpected property at #/worldGit.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/printBeach
+   * #/pushGraphSession
    */
-  "printBeach": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/printStartThreshold
-   */
-  "printStartThreshold": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/reachabilityCaptchaLayoutTrustedVerification
-   */
-  "reachabilityCaptchaLayoutTrustedVerification": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/receiveMapWhoisCoefficientSdk
-   */
-  "receiveMapWhoisCoefficientSdk": 0,
+  "pushGraphSession": 1,
   /**
    * Unexpected property.
    *
@@ -856,7 +849,7 @@ Unexpected property at #/worldGit.
       "warnings": [
         "missing"
       ],
-      "worldImage": [
+      "worldimage": [
         "hateful",
         "nudity",
         "harassing",
@@ -939,6 +932,7 @@ Unexpected property at #/worldGit.
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
+  "serverName": "prod-api-blue-bulgaria-77v",
   /**
    * Unexpected property.
    *
@@ -946,30 +940,9 @@ Unexpected property at #/worldGit.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/semaphoreFormatBeach
+   * #/streamingMonitorMainDeployment
    */
-  "semaphoreFormatBeach": 0,
-  "serverName": "prod-api-green-creep-9gc",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/signatureAnimatorHandlerWorkerMetric
-   */
-  "signatureAnimatorHandlerWorkerMetric": 0.2001701260755384,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/socketAuthImmunityApiHeader
-   */
-  "socketAuthImmunityApiHeader": "activityPreviousPipeline",
+  "streamingMonitorMainDeployment": null,
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -1006,33 +979,13 @@ Unexpected property at #/worldGit.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/toolboxSouvenir
+   * #/tokenLimiterStickerSegfault
    */
-  "toolboxSouvenir": true,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/ttlPush
-   */
-  "ttlPush": [
-    -20577,
-    null
-  ],
+  "tokenLimiterStickerSegfault": {
+    "PrototypeBoneInterfaceSign": 1,
+    "stickerFormation": "blockRestBriocheJsonDashboard"
+  },
   "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/udpSourdoughColour
-   */
-  "udpSourdoughColour": null,
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,
   "updateRateMsNormal": 200,
@@ -1133,8 +1086,10 @@ Unexpected property at #/worldGit.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/worldGit
+   * #/yamlShellLoaderRollback
    */
-  "worldGit": false
+  "yamlShellLoaderRollback": {
+    "websocketOnly": true
+  }
 }
 ```
