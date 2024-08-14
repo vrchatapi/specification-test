@@ -4,38 +4,36 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/FavoritePrivateAttributeItineraryFocaccia,
+Unexpected property at #/EacPayloadApiInstructionVrchat,
+Unexpected property at #/PermanentTimestampFrame,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/backgroundEventReverseCycle,
-Unexpected property at #/cdnGroupSaml,
 Unexpected property at #/clientNetDispatchThreadMobile,
 Unexpected property at #/constants,
-Unexpected property at #/detectionPositionDisconnect,
-Unexpected property at #/embedReadDuty,
-Unexpected property at #/ethernetRebaseDisable,
-Unexpected property at #/eventsModerationTapePackage,
-Unexpected property at #/firewallChurnRelaadventureDynamic,
+Unexpected property at #/docsLicenseLineReader,
+Unexpected property at #/ethernetPaginationVirtual,
 Unexpected property at #/forceUseLatestWorld,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/licenseListLayout,
+Unexpected property at #/keyboardHeadpatHealthFusl,
+Unexpected property at #/limiterWorkerAuthenticationLogging,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
 Unexpected property at #/offlineAnalysis,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/publishAvatar,
-Unexpected property at #/pushGraphSession,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/streamingMonitorMainDeployment,
+Unexpected property at #/segfaultDeployment,
+Unexpected property at #/semaphoreUpdatedRoastReaderCoexistence,
+Unexpected property at #/sendBaguette,
 Unexpected property at #/timekeeping,
-Unexpected property at #/tokenLimiterStickerSegfault,
+Unexpected property at #/trackerDocsRoast,
+Unexpected property at #/versionRoutingReverseExtended,
+Unexpected property at #/waffleSyncViolationNightlyReturn,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
-Unexpected property at #/websocketReconnectMaxDelay,
-Unexpected property at #/yamlShellLoaderRollback.
+Unexpected property at #/websocketReconnectMaxDelay.
 ```
 
 ## Request
@@ -72,9 +70,22 @@ Unexpected property at #/yamlShellLoaderRollback.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/FavoritePrivateAttributeItineraryFocaccia
+   * #/EacPayloadApiInstructionVrchat
    */
-  "FavoritePrivateAttributeItineraryFocaccia": false,
+  "EacPayloadApiInstructionVrchat": {
+    "notificationLockControlPull": {},
+    "positionBlink": false
+  },
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/PermanentTimestampFrame
+   */
+  "PermanentTimestampFrame": "cappuccinoSegfaultBulkJsonNoise",
   "VoiceEnableDegradation": false,
   "VoiceEnableReceiverLimiting": true,
   "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
@@ -129,27 +140,7 @@ Unexpected property at #/yamlShellLoaderRollback.
     "Portuguese, Brazilian",
     "Chinese Simplified"
   ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/backgroundEventReverseCycle
-   */
-  "backgroundEventReverseCycle": null,
-  "buildVersionTag": "master-build-2024-08-12-kanaya-w-staffginger",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/cdnGroupSaml
-   */
-  "cdnGroupSaml": null,
+  "buildVersionTag": "master-build-2024-08-13-fellony-i-crackranch",
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -294,16 +285,6 @@ Unexpected property at #/yamlShellLoaderRollback.
   "currentTOSVersion": 9,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "deploymentGroup": "blue",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/detectionPositionDisconnect
-   */
-  "detectionPositionDisconnect": null,
   "devLanguageCodes": [
     "sv",
     "nl",
@@ -341,6 +322,16 @@ Unexpected property at #/yamlShellLoaderRollback.
   "disableTwoFactorAuth": false,
   "disableUdon": false,
   "disableUpgradeAccount": false,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/docsLicenseLineReader
+   */
+  "docsLicenseLineReader": "communityStickerExcursionCommand",
   "downloadLinkWindows": "https://www.oculus.com/experiences/rift/997678176960598/",
   "downloadUrls": {
     "bootstrap": "https://github.com/vrchat/packages/releases/download/resolvers/latest-resolver.unitypackage",
@@ -477,19 +468,9 @@ Unexpected property at #/yamlShellLoaderRollback.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/embedReadDuty
+   * #/ethernetPaginationVirtual
    */
-  "embedReadDuty": null,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/ethernetRebaseDisable
-   */
-  "ethernetRebaseDisable": null,
+  "ethernetPaginationVirtual": -9084,
   "events": {
     "distanceClose": 2,
     "distanceFactor": 100,
@@ -502,26 +483,6 @@ Unexpected property at #/yamlShellLoaderRollback.
     "slowUpdateFactorThreshold": 25,
     "viewSegmentLength": 5
   },
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/eventsModerationTapePackage
-   */
-  "eventsModerationTapePackage": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/firewallChurnRelaadventureDynamic
-   */
-  "firewallChurnRelaadventureDynamic": "rebaseSegmentBulkJson",
   /**
    * Unexpected property.
    *
@@ -578,9 +539,22 @@ Unexpected property at #/yamlShellLoaderRollback.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/licenseListLayout
+   * #/keyboardHeadpatHealthFusl
    */
-  "licenseListLayout": true,
+  "keyboardHeadpatHealthFusl": {
+    "reverseRoutingHook": 0.30673609618822484,
+    "taggingTierJsonDashboardUsage": 14355
+  },
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/limiterWorkerAuthenticationLogging
+   */
+  "limiterWorkerAuthenticationLogging": false,
   /**
    * Unexpected property.
    *
@@ -674,26 +648,6 @@ Unexpected property at #/yamlShellLoaderRollback.
   ],
   "player-url-resolver-sha1": "F3-47-C3-1A-21-E4-EB-F8-34-22-FB-83-C6-6D-ED-12-E5-2C-95-66",
   "player-url-resolver-version": "2024-08-06",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/publishAvatar
-   */
-  "publishAvatar": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/pushGraphSession
-   */
-  "pushGraphSession": 1,
   /**
    * Unexpected property.
    *
@@ -932,7 +886,6 @@ Unexpected property at #/yamlShellLoaderRollback.
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
-  "serverName": "prod-api-blue-bulgaria-77v",
   /**
    * Unexpected property.
    *
@@ -940,9 +893,30 @@ Unexpected property at #/yamlShellLoaderRollback.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/streamingMonitorMainDeployment
+   * #/segfaultDeployment
    */
-  "streamingMonitorMainDeployment": null,
+  "segfaultDeployment": "distanceColour",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/semaphoreUpdatedRoastReaderCoexistence
+   */
+  "semaphoreUpdatedRoastReaderCoexistence": 1,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/sendBaguette
+   */
+  "sendBaguette": 0,
+  "serverName": "prod-api-blue-carolyn-8ic",
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -979,12 +953,9 @@ Unexpected property at #/yamlShellLoaderRollback.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/tokenLimiterStickerSegfault
+   * #/trackerDocsRoast
    */
-  "tokenLimiterStickerSegfault": {
-    "PrototypeBoneInterfaceSign": 1,
-    "stickerFormation": "blockRestBriocheJsonDashboard"
-  },
+  "trackerDocsRoast": false,
   "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,
@@ -1040,7 +1011,27 @@ Unexpected property at #/yamlShellLoaderRollback.
     "*.vrcdn.cloud"
   ],
   "useReliableUdpForVoice": false,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/versionRoutingReverseExtended
+   */
+  "versionRoutingReverseExtended": null,
   "viveWindowsUrl": "http://store.steampowered.com/app/438100/",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/waffleSyncViolationNightlyReturn
+   */
+  "waffleSyncViolationNightlyReturn": false,
   /**
    * Unexpected property.
    *
@@ -1078,18 +1069,6 @@ Unexpected property at #/yamlShellLoaderRollback.
     "https://dev-api.vrchat.cloud/api/1/file/",
     "https://api.vrchat.cloud/api/1/file/",
     "https://files.vrchat.cloud/unmanaged/"
-  ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/yamlShellLoaderRollback
-   */
-  "yamlShellLoaderRollback": {
-    "websocketOnly": true
-  }
+  ]
 }
 ```
