@@ -53,7 +53,7 @@ Unexpected property at #/playerPersistenceEnabled.
    * #/displayName
    */
   "displayName": null,
-  "full": true,
+  "full": false,
   /**
    * Unexpected property.
    *
@@ -112,14 +112,12 @@ Unexpected property at #/playerPersistenceEnabled.
     "author_tag_lounge",
     "language_eng",
     "language_spa",
-    "show_social_rank",
-    "language_kor",
     "language_ase",
     "language_deu",
-    "language_ukr"
+    "language_fra"
   ],
   "type": "<unstable: string>",
-  "userCount": 24,
+  "userCount": 21,
   "world": "<unstable: object>",
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b"
 }
