@@ -4,40 +4,42 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/MinimumRelaadventureBriochePaper,
+Unexpected property at #/Iso8601ReportModelTemporal,
+Unexpected property at #/LimitNoiseSignatureBranch,
+Unexpected property at #/PermanentUdpMethodDefault,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/attachmentExtractContainerSubscriber,
-Unexpected property at #/channelMain,
+Unexpected property at #/beachGenerateBrewOnlyExtended,
 Unexpected property at #/clientNetDispatchThreadMobile,
-Unexpected property at #/coefficientHiddenReturnCreatedTcp,
-Unexpected property at #/colliderModerationDeploymentRedo,
 Unexpected property at #/constants,
-Unexpected property at #/dashboardMochaVector,
+Unexpected property at #/contextReverse,
+Unexpected property at #/datagramRegression,
+Unexpected property at #/excursionRttIpv4,
 Unexpected property at #/forceUseLatestWorld,
+Unexpected property at #/formationPocketAuth,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/hoistRttClipSegmentNoise,
-Unexpected property at #/joinStroopwafelError,
-Unexpected property at #/macMarkJwtClock,
+Unexpected property at #/graphProxyCrossVideoTransmit,
+Unexpected property at #/latteTicketStackCluster,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
 Unexpected property at #/offlineAnalysis,
-Unexpected property at #/onlyTerminalExtendedCron,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/pushUndoWriteLock,
-Unexpected property at #/realBookmarkMobile,
-Unexpected property at #/replaceCoexistenceRegion,
+Unexpected property at #/playerExpireReturnConnectionShard,
+Unexpected property at #/pocketCiabattaLoop,
+Unexpected property at #/pointerWhoisBranchPayload,
+Unexpected property at #/readActive,
+Unexpected property at #/readerSegmentPartition,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/shaderInstance,
-Unexpected property at #/sliceMobileTrackerNetworking,
+Unexpected property at #/shiftBlink,
+Unexpected property at #/soapInstallCursedScroll,
 Unexpected property at #/timekeeping,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
 Unexpected property at #/websocketReconnectMaxDelay,
-Unexpected property at #/whoisReverseGitItinerary.
+Unexpected property at #/weightSchedulerReplaceDocs.
 ```
 
 ## Request
@@ -74,9 +76,29 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/MinimumRelaadventureBriochePaper
+   * #/Iso8601ReportModelTemporal
    */
-  "MinimumRelaadventureBriochePaper": 0,
+  "Iso8601ReportModelTemporal": false,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/LimitNoiseSignatureBranch
+   */
+  "LimitNoiseSignatureBranch": 0,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/PermanentUdpMethodDefault
+   */
+  "PermanentUdpMethodDefault": null,
   "VoiceEnableDegradation": false,
   "VoiceEnableReceiverLimiting": true,
   "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
@@ -102,16 +124,6 @@ Unexpected property at #/whoisReverseGitItinerary.
   "analyticsSegment_NewUI_Salt": "0d8522abac334287830d1192a8605f39",
   "announcements": [],
   "appName": "VrChat",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/attachmentExtractContainerSubscriber
-   */
-  "attachmentExtractContainerSubscriber": true,
   "availableLanguageCodes": [
     "en",
     "fr",
@@ -141,7 +153,6 @@ Unexpected property at #/whoisReverseGitItinerary.
     "Portuguese, Brazilian",
     "Chinese Simplified"
   ],
-  "buildVersionTag": "master-build-2024-08-23-thursday-underoopurple",
   /**
    * Unexpected property.
    *
@@ -149,9 +160,10 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/channelMain
+   * #/beachGenerateBrewOnlyExtended
    */
-  "channelMain": false,
+  "beachGenerateBrewOnlyExtended": -15192,
+  "buildVersionTag": "master-build-2024-08-23-thursday-underoopurple",
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -169,29 +181,6 @@ Unexpected property at #/whoisReverseGitItinerary.
   "clientQR": 1,
   "clientReservedPlayerBPS": 7168,
   "clientSentCountAllowance": 100,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/coefficientHiddenReturnCreatedTcp
-   */
-  "coefficientHiddenReturnCreatedTcp": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/colliderModerationDeploymentRedo
-   */
-  "colliderModerationDeploymentRedo": {
-    "steamEndpointChannelResortDownload": "activePoolBirdIndicatorSign",
-    "userViolation": 0
-  },
   /**
    * Unexpected property.
    *
@@ -310,6 +299,16 @@ Unexpected property at #/whoisReverseGitItinerary.
     }
   },
   "contactEmail": "hello@vrchat.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/contextReverse
+   */
+  "contextReverse": true,
   "copyrightEmail": "copyright@vrchat.com",
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
@@ -320,9 +319,9 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/dashboardMochaVector
+   * #/datagramRegression
    */
-  "dashboardMochaVector": false,
+  "datagramRegression": null,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "deploymentGroup": "green",
   "devLanguageCodes": [
@@ -510,9 +509,29 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
+   * #/excursionRttIpv4
+   */
+  "excursionRttIpv4": -8733,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
    * #/forceUseLatestWorld
    */
   "forceUseLatestWorld": true,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/formationPocketAuth
+   */
+  "formationPocketAuth": 0,
   /**
    * Unexpected property.
    *
@@ -530,9 +549,9 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/hoistRttClipSegmentNoise
+   * #/graphProxyCrossVideoTransmit
    */
-  "hoistRttClipSegmentNoise": 0.3974807922385699,
+  "graphProxyCrossVideoTransmit": {},
   "homeWorldId": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
   "homepageRedirectTarget": "https://hello.vrchat.com",
   "hubWorldId": "wrld_ba913a96-fac4-4048-a062-9aa5db092812",
@@ -569,23 +588,9 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/joinStroopwafelError
+   * #/latteTicketStackCluster
    */
-  "joinStroopwafelError": {
-    "expireSamlImmunityShift": false,
-    "groupSubscriberIso8601": "receiveSemaphoreBulkJson",
-    "handlerSubscriptionItinerary": "UnityTierBytesPodWeight"
-  },
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/macMarkJwtClock
-   */
-  "macMarkJwtClock": 1,
+  "latteTicketStackCluster": 1,
   /**
    * Unexpected property.
    *
@@ -672,16 +677,6 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/onlyTerminalExtendedCron
-   */
-  "onlyTerminalExtendedCron": -21727,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
    * #/photonNameserverOverrides
    */
   "photonNameserverOverrides": [
@@ -696,35 +691,51 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/pushUndoWriteLock
+   * #/playerExpireReturnConnectionShard
    */
-  "pushUndoWriteLock": [
-    0.9572575937619556,
-    {
-      "readerBracketIso8601Transaction": "virtualTimeoutDutyApiLayout",
-      "sandwichSegment": 0
-    }
+  "playerExpireReturnConnectionShard": null,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/pocketCiabattaLoop
+   */
+  "pocketCiabattaLoop": 11741,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/pointerWhoisBranchPayload
+   */
+  "pointerWhoisBranchPayload": 1,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/readActive
+   */
+  "readActive": false,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/readerSegmentPartition
+   */
+  "readerSegmentPartition": [
+    1
   ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/realBookmarkMobile
-   */
-  "realBookmarkMobile": 1,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/replaceCoexistenceRegion
-   */
-  "replaceCoexistenceRegion": 0.4314553531284768,
   /**
    * Unexpected property.
    *
@@ -1004,7 +1015,7 @@ Unexpected property at #/whoisReverseGitItinerary.
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
-  "serverName": "prod-api-green-speedy-cc2",
+  "serverName": "prod-api-green-mister-3rl",
   /**
    * Unexpected property.
    *
@@ -1012,9 +1023,9 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/shaderInstance
+   * #/shiftBlink
    */
-  "shaderInstance": false,
+  "shiftBlink": 0,
   /**
    * Unexpected property.
    *
@@ -1022,9 +1033,9 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/sliceMobileTrackerNetworking
+   * #/soapInstallCursedScroll
    */
-  "sliceMobileTrackerNetworking": 0.8975385408665357,
+  "soapInstallCursedScroll": 0,
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -1140,14 +1151,6 @@ Unexpected property at #/whoisReverseGitItinerary.
    * #/websocketReconnectMaxDelay
    */
   "websocketReconnectMaxDelay": 2,
-  "whiteListedAssetUrls": [
-    "http://dbinj8iahsbec.cloudfront.net/plugins",
-    "http://dbinj8iahsbec.cloudfront.net/",
-    "https://dbinj8iahsbec.cloudfront.net/",
-    "https://dev-api.vrchat.cloud/api/1/file/",
-    "https://api.vrchat.cloud/api/1/file/",
-    "https://files.vrchat.cloud/unmanaged/"
-  ],
   /**
    * Unexpected property.
    *
@@ -1155,8 +1158,16 @@ Unexpected property at #/whoisReverseGitItinerary.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/whoisReverseGitItinerary
+   * #/weightSchedulerReplaceDocs
    */
-  "whoisReverseGitItinerary": 0
+  "weightSchedulerReplaceDocs": 1,
+  "whiteListedAssetUrls": [
+    "http://dbinj8iahsbec.cloudfront.net/plugins",
+    "http://dbinj8iahsbec.cloudfront.net/",
+    "https://dbinj8iahsbec.cloudfront.net/",
+    "https://dev-api.vrchat.cloud/api/1/file/",
+    "https://api.vrchat.cloud/api/1/file/",
+    "https://files.vrchat.cloud/unmanaged/"
+  ]
 }
 ```
