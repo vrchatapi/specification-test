@@ -25,7 +25,7 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 | etag | `<redacted>` |
 | server | `CloudFront` |
 | transfer-encoding | `chunked` |
-| vary | `Accept-Encoding, Origin` |
+| vary | `accept-encoding, Origin` |
 
 ```jsonc
 <unstable>
