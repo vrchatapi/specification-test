@@ -42,7 +42,7 @@ Unexpected property at #/playerPersistenceEnabled.
   "canRequestInvite": false,
   "capacity": 80,
   "clientNumber": "unknown",
-  "closedAt": null,
+  "closedAt": "2024-08-29T00:47:22.968Z",
   /**
    * Unexpected property.
    *
@@ -53,7 +53,7 @@ Unexpected property at #/playerPersistenceEnabled.
    * #/displayName
    */
   "displayName": null,
-  "full": true,
+  "full": false,
   /**
    * Unexpected property.
    *
@@ -65,7 +65,7 @@ Unexpected property at #/playerPersistenceEnabled.
    */
   "gameServerVersion": 1343,
   "groupAccessType": "public",
-  "hardClose": null,
+  "hardClose": false,
   "hasCapacityForYou": true,
   "id": "<unstable: string>",
   "instanceId": "<unstable: string>",
@@ -110,14 +110,10 @@ Unexpected property at #/playerPersistenceEnabled.
     "author_tag_hangout",
     "author_tag_chill",
     "author_tag_lounge",
-    "language_eng",
-    "language_ase",
-    "language_spa",
-    "show_social_rank",
-    "language_zxx"
+    "language_eng"
   ],
   "type": "<unstable: string>",
-  "userCount": 24,
+  "userCount": 15,
   "world": "<unstable: object>",
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b"
 }
