@@ -42,7 +42,7 @@ Unexpected property at #/playerPersistenceEnabled.
   "canRequestInvite": false,
   "capacity": 80,
   "clientNumber": "unknown",
-  "closedAt": "2024-08-29T00:47:22.968Z",
+  "closedAt": null,
   /**
    * Unexpected property.
    *
@@ -53,7 +53,7 @@ Unexpected property at #/playerPersistenceEnabled.
    * #/displayName
    */
   "displayName": null,
-  "full": false,
+  "full": true,
   /**
    * Unexpected property.
    *
@@ -65,7 +65,7 @@ Unexpected property at #/playerPersistenceEnabled.
    */
   "gameServerVersion": 1343,
   "groupAccessType": "public",
-  "hardClose": false,
+  "hardClose": null,
   "hasCapacityForYou": true,
   "id": "<unstable: string>",
   "instanceId": "<unstable: string>",
@@ -84,7 +84,7 @@ Unexpected property at #/playerPersistenceEnabled.
   "name": "<unstable: string>",
   "ownerId": "<unstable: string>",
   "permanent": true,
-  "photonRegion": "us",
+  "photonRegion": "use",
   "platforms": "<unstable: object>",
   /**
    * Unexpected property.
@@ -99,7 +99,7 @@ Unexpected property at #/playerPersistenceEnabled.
   "queueEnabled": false,
   "queueSize": 0,
   "recommendedCapacity": 24,
-  "region": "us",
+  "region": "use",
   "roleRestricted": false,
   "secureName": "<unstable: string>",
   "shortName": null,
@@ -110,10 +110,21 @@ Unexpected property at #/playerPersistenceEnabled.
     "author_tag_hangout",
     "author_tag_chill",
     "author_tag_lounge",
-    "language_eng"
+    "language_eng",
+    "language_rus",
+    "language_deu",
+    "language_ase",
+    "language_hun",
+    "language_spa",
+    "language_fra",
+    "language_ara",
+    "language_kvk",
+    "language_cmn",
+    "show_social_rank",
+    "language_jpn"
   ],
   "type": "<unstable: string>",
-  "userCount": 15,
+  "userCount": 25,
   "world": "<unstable: object>",
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b"
 }
