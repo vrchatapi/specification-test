@@ -25,6 +25,7 @@ Cannot fit value in explicit enum at #/4/data/onPressed/command,
 Unexpected property at #/4/regions,
 Unexpected property at #/4/requireClientTags,
 Cannot fit value in explicit enum at #/5/data/onPressed/command,
+Cannot fit value in explicit enum at #/6/data/onPressed/command,
 Invalid type at #/6/startDate,
 Invalid type at #/6/endDate,
 Unexpected property at #/6/regions,
@@ -394,6 +395,15 @@ Unexpected property at #/6/requireClientTags.
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/1da1e49e888bcc5ed2503d97442d32d2208aaf5802df08f0e71c664c8ebbbfad.png",
       "onPressed": {
+        /**
+         * Cannot fit value in explicit enum.
+         *
+         * @schema unknown
+         * @keyword enum
+         *
+         * #/items/properties/data/properties/onPressed/properties/command/enum
+         * #/6/data/onPressed/command
+         */
         "command": "OpenHelpArticle",
         "parameters": [
           "ips_1f542a96-90b9-4e9a-9bff-0228f8f94289"
@@ -416,9 +426,9 @@ Unexpected property at #/6/requireClientTags.
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_ccb636c2-1888-4234-8880-6f63ec23f330.png",
       "onPressed": {
-        "command": "OpenURL",
+        "command": "OpenHelpArticle",
         "parameters": [
-          "https://feedback.vrchat.com/"
+          "ips_000ae222-6bc7-416b-ab95-1d40380acc4d"
         ]
       }
     },
@@ -453,7 +463,7 @@ Unexpected property at #/6/requireClientTags.
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2024-08-06T15:55:51.592Z"
+    "updatedAt": "2024-08-30T17:42:54.144Z"
   }
 ]
 ```
