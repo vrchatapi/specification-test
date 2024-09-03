@@ -96,7 +96,7 @@ Unexpected property at #/playerPersistenceEnabled.
    * #/playerPersistenceEnabled
    */
   "playerPersistenceEnabled": null,
-  "queueEnabled": true,
+  "queueEnabled": false,
   "queueSize": 0,
   "recommendedCapacity": 24,
   "region": "us",
@@ -110,10 +110,18 @@ Unexpected property at #/playerPersistenceEnabled.
     "author_tag_hangout",
     "author_tag_chill",
     "author_tag_lounge",
+    "language_deu",
     "language_eng",
+    "language_ron",
+    "language_ita",
+    "language_tur",
+    "language_por",
+    "language_zxx",
+    "language_vie",
     "language_ase",
+    "show_social_rank",
     "language_spa",
-    "show_social_rank"
+    "language_nld"
   ],
   "type": "<unstable: string>",
   "userCount": 25,
