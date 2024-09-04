@@ -4,35 +4,33 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/activityDefault,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/boneFeedReplica,
-Unexpected property at #/brewExtractPrimary,
-Unexpected property at #/brewLocationPeriodReverse,
+Unexpected property at #/avatarEmbedQueue,
+Unexpected property at #/biographyEthernetPointerReturnFilter,
 Unexpected property at #/clientNetDispatchThreadMobile,
+Unexpected property at #/commandImmunityRollover,
 Unexpected property at #/constants,
-Unexpected property at #/errorTcpWaffleNetworkSemaphore,
+Unexpected property at #/embedNameThresholdSyscallEvents,
+Unexpected property at #/executePocketArrayIpv4Connect,
 Unexpected property at #/forceUseLatestWorld,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/justifyColorPosition,
-Unexpected property at #/metricMacchiatoFormatTransaction,
+Unexpected property at #/mainHealthBarista,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
-Unexpected property at #/multigrainSetEndpointCappuccino,
 Unexpected property at #/offlineAnalysis,
-Unexpected property at #/pageThunderGraphqlGenerate,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/realWebsocketClipObjectsVoice,
-Unexpected property at #/reliableUpdated,
+Unexpected property at #/rebaseNextBlink,
+Unexpected property at #/receiveVrchat,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/resolverActiveFormatAssetImpostor,
-Unexpected property at #/securityChurn,
-Unexpected property at #/streamReachability,
+Unexpected property at #/sessionExtendedPrivateTapePhoton,
+Unexpected property at #/shardAvailabilityInterface,
+Unexpected property at #/stickerCommandPreviousDashboard,
 Unexpected property at #/timekeeping,
+Unexpected property at #/trustedFeed,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
 Unexpected property at #/websocketReconnectMaxDelay.
@@ -67,16 +65,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
 {
   "VoiceEnableDegradation": false,
   "VoiceEnableReceiverLimiting": true,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/activityDefault
-   */
-  "activityDefault": "BonesRollbackBuffer",
   "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
   /**
    * Unexpected property.
@@ -136,20 +124,12 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/boneFeedReplica
+   * #/avatarEmbedQueue
    */
-  "boneFeedReplica": false,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/brewExtractPrimary
-   */
-  "brewExtractPrimary": {
-    "voiceWeightOnlineAsset": 0
+  "avatarEmbedQueue": {
+    "RankingBounceIpv6Tagging": -16945,
+    "fireShaderInstruction": 0.5225643039580139,
+    "timeoutDownloadAddressImpostorFocaccia": {}
   },
   /**
    * Unexpected property.
@@ -158,10 +138,12 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/brewLocationPeriodReverse
+   * #/biographyEthernetPointerReturnFilter
    */
-  "brewLocationPeriodReverse": 1,
-  "buildVersionTag": "master-build-2024-08-31-rico-threatplace",
+  "biographyEthernetPointerReturnFilter": {
+    "socketBulkPointerContext": -15643
+  },
+  "buildVersionTag": "master-build-2024-09-03-moody-deportvanilla",
   "clientApiKey": "JlE5Jldo5Jibnk5O5hTx6XVqsJu4WJ26",
   "clientBPSCeiling": 18432,
   "clientDisconnectTimeout": 30000,
@@ -179,6 +161,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "clientQR": 1,
   "clientReservedPlayerBPS": 7168,
   "clientSentCountAllowance": 100,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/commandImmunityRollover
+   */
+  "commandImmunityRollover": true,
   /**
    * Unexpected property.
    *
@@ -301,7 +293,7 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "deploymentGroup": "blue",
+  "deploymentGroup": "green",
   "devLanguageCodes": [
     "sv",
     "nl",
@@ -475,9 +467,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/errorTcpWaffleNetworkSemaphore
+   * #/embedNameThresholdSyscallEvents
    */
-  "errorTcpWaffleNetworkSemaphore": 0,
+  "embedNameThresholdSyscallEvents": "tcpMultigrain",
   "events": {
     "distanceClose": 2,
     "distanceFactor": 100,
@@ -490,6 +482,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
     "slowUpdateFactorThreshold": 25,
     "viewSegmentLength": 5
   },
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/executePocketArrayIpv4Connect
+   */
+  "executePocketArrayIpv4Connect": "BeachReplicaBrew",
   /**
    * Unexpected property.
    *
@@ -546,19 +548,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/justifyColorPosition
+   * #/mainHealthBarista
    */
-  "justifyColorPosition": false,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/metricMacchiatoFormatTransaction
-   */
-  "metricMacchiatoFormatTransaction": 0,
+  "mainHealthBarista": 0,
   /**
    * Unexpected property.
    *
@@ -624,16 +616,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
    */
   "minimumUnityVersionForUploads": "2019.0.0",
   "moderationEmail": "moderation@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/multigrainSetEndpointCappuccino
-   */
-  "multigrainSetEndpointCappuccino": null,
   "notAllowedToSelectAvatarInPrivateWorldMessage": "For security reasons, you're not yet allowed to select avatars in private worlds or upload content. Please continue to enjoy VRChat and we'll message you when you've been unlocked. Thanks and have fun!",
   /**
    * Unexpected property.
@@ -647,22 +629,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "offlineAnalysis": {
     "android": true,
     "standalonewindows": true
-  },
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/pageThunderGraphqlGenerate
-   */
-  "pageThunderGraphqlGenerate": {
-    "extendedSchedulingImpostor": 0.38125723013078083,
-    "writeXmlPullEndpoint": [
-      -19945,
-      null
-    ]
   },
   /**
    * Unexpected property.
@@ -685,9 +651,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/realWebsocketClipObjectsVoice
+   * #/rebaseNextBlink
    */
-  "realWebsocketClipObjectsVoice": 0.05964903149547496,
+  "rebaseNextBlink": 0,
   /**
    * Unexpected property.
    *
@@ -695,9 +661,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/reliableUpdated
+   * #/receiveVrchat
    */
-  "reliableUpdated": null,
+  "receiveVrchat": "animationPrototypeBoneInterfaceSign",
   /**
    * Unexpected property.
    *
@@ -973,22 +939,11 @@ Unexpected property at #/websocketReconnectMaxDelay.
       "tooltip": "The content contains visuals that could be harmful or irritating"
     }
   },
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/resolverActiveFormatAssetImpostor
-   */
-  "resolverActiveFormatAssetImpostor": [
-    true
-  ],
   "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
+  "serverName": "prod-api-green-rhythm-kp5",
   /**
    * Unexpected property.
    *
@@ -996,10 +951,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/securityChurn
+   * #/sessionExtendedPrivateTapePhoton
    */
-  "securityChurn": null,
-  "serverName": "prod-api-blue-contact-6na",
+  "sessionExtendedPrivateTapePhoton": null,
   /**
    * Unexpected property.
    *
@@ -1007,12 +961,22 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/streamReachability
+   * #/shardAvailabilityInterface
    */
-  "streamReachability": {
-    "SessionBulk": 0,
-    "expiresSandwichImmunitySign": false
-  },
+  "shardAvailabilityInterface": [
+    null,
+    "notifyCross"
+  ],
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/stickerCommandPreviousDashboard
+   */
+  "stickerCommandPreviousDashboard": -7016,
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -1042,6 +1006,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * #/timekeeping
    */
   "timekeeping": true,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/trustedFeed
+   */
+  "trustedFeed": true,
   "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,

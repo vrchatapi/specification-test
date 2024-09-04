@@ -27,7 +27,7 @@
 
 ```jsonc
 {
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "badges": [
     {
       "badgeDescription": "Supports VRChat through VRC+",
