@@ -22,14 +22,11 @@ Invalid type at #/3/startDate,
 Unexpected property at #/3/regions,
 Unexpected property at #/3/requireClientTags,
 Cannot fit value in explicit enum at #/4/data/onPressed/command,
-Unexpected property at #/4/regions,
-Unexpected property at #/4/requireClientTags,
 Cannot fit value in explicit enum at #/5/data/onPressed/command,
-Cannot fit value in explicit enum at #/6/data/onPressed/command,
-Invalid type at #/6/startDate,
-Invalid type at #/6/endDate,
-Unexpected property at #/6/regions,
-Unexpected property at #/6/requireClientTags.
+Invalid type at #/5/startDate,
+Invalid type at #/5/endDate,
+Unexpected property at #/5/regions,
+Unexpected property at #/5/requireClientTags.
 ```
 
 ## Request
@@ -222,7 +219,7 @@ Unexpected property at #/6/requireClientTags.
      * @keyword type
      *
      * #/items/properties/endDate/type
-     * #/6/endDate
+     * #/5/endDate
      */
     "endDate": "2024-09-07T21:00:00.000Z",
     "hash": "ips_e112b132-c546-4b86-b3bd-69b7bf573b83",
@@ -329,68 +326,6 @@ Unexpected property at #/6/requireClientTags.
     "updatedAt": "2024-08-29T23:26:17.995Z"
   },
   {
-    "createdAt": "2024-08-20T14:41:17.393Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_e2024253-fae4-4939-a69a-e38de2ceaa47.png",
-      "onPressed": {
-        /**
-         * Cannot fit value in explicit enum.
-         *
-         * @schema unknown
-         * @keyword enum
-         *
-         * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/5/data/onPressed/command
-         */
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_f63b05aa-99da-4669-a83f-5becc64ef07d"
-        ]
-      }
-    },
-    "endDate": "2024-09-04T03:59:00.000Z",
-    "hash": "ips_86ba297c-6771-4808-8b63-5d918a0a92d0",
-    "id": "ips_86ba297c-6771-4808-8b63-5d918a0a92d0",
-    "isEnabled": true,
-    "priority": 925,
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/4/regions
-     */
-    "regions": [],
-    "releaseStatus": "public",
-    /**
-     * Unexpected property.
-     *
-     * @schema InfoPush
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/4/requireClientTags
-     */
-    "requireClientTags": [],
-    /**
-     * Invalid type.
-     *
-     * @schema unknown
-     * @keyword type
-     *
-     * #/items/properties/startDate/type
-     * #/6/startDate
-     */
-    "startDate": "2024-08-20T04:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-08-29T22:01:30.010Z"
-  },
-  {
     "createdAt": "2023-06-12T22:38:29.000Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/1da1e49e888bcc5ed2503d97442d32d2208aaf5802df08f0e71c664c8ebbbfad.png",
@@ -402,7 +337,7 @@ Unexpected property at #/6/requireClientTags.
          * @keyword enum
          *
          * #/items/properties/data/properties/onPressed/properties/command/enum
-         * #/6/data/onPressed/command
+         * #/5/data/onPressed/command
          */
         "command": "OpenHelpArticle",
         "parameters": [
@@ -444,7 +379,7 @@ Unexpected property at #/6/requireClientTags.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/6/regions
+     * #/5/regions
      */
     "regions": [],
     "releaseStatus": "public",
@@ -455,9 +390,18 @@ Unexpected property at #/6/requireClientTags.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/6/requireClientTags
+     * #/5/requireClientTags
      */
     "requireClientTags": [],
+    /**
+     * Invalid type.
+     *
+     * @schema unknown
+     * @keyword type
+     *
+     * #/items/properties/startDate/type
+     * #/5/startDate
+     */
     "startDate": null,
     "tags": [
       "quick-menu-banner",

@@ -48,7 +48,7 @@ Unexpected property at #/receiveMobileInvitations.
       "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_eff7def2-c264-4c0e-b462-6a9477ea4e6c.png",
       "badgeName": "Supporter",
       "hidden": false,
-      "showcased": false,
+      "showcased": true,
       "updatedAt": "2024-07-21T22:28:04.790Z"
     }
   ],

@@ -34,14 +34,14 @@
       "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
       "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_eff7def2-c264-4c0e-b462-6a9477ea4e6c.png",
       "badgeName": "Supporter",
-      "showcased": false
+      "showcased": true
     },
     {
       "badgeDescription": "Supported VRChat through VRC+ when it first launched",
       "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
       "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_28e70141-6859-450b-834b-30c15ecf3ff4.png",
       "badgeName": "Early Supporter",
-      "showcased": false
+      "showcased": true
     }
   ],
   "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
@@ -59,7 +59,7 @@
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "android",
+  "last_platform": "standalonewindows",
   "location": "offline",
   "note": "",
   "platform": "offline",
