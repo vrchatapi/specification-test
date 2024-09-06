@@ -59,7 +59,7 @@ Unexpected property at #/5/requireClientTags.
   {
     "createdAt": "2023-06-29T22:26:18.000Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_2b9ffcd5-4b99-46da-8575-90bd7af8c4a1.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f10c5dce-ca02-4514-82c3-ac918d60410f.png",
       "onPressed": {
         /**
          * Cannot fit value in explicit enum.
@@ -122,7 +122,7 @@ Unexpected property at #/5/requireClientTags.
       "quick-menu-banner",
       "user-no-vrcplus"
     ],
-    "updatedAt": "2024-08-29T21:53:03.351Z"
+    "updatedAt": "2024-09-05T23:41:16.367Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",
