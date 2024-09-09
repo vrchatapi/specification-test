@@ -57,10 +57,10 @@ Unexpected property at #/0/acceptedById.
      */
     "acceptedById": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "bannedAt": null,
-    "createdAt": "2024-09-08T01:03:29.506Z",
+    "createdAt": "2024-09-09T01:00:41.687Z",
     "groupId": "<unstable>",
     "hasJoinedFromPurchase": false,
-    "id": "gmem_610199ea-a0db-4685-a80d-6ad82ad8828d",
+    "id": "gmem_919fb6fc-75c2-468a-93a6-2a44121e5f9f",
     "isRepresenting": false,
     "isSubscribedToAnnouncements": true,
     "joinedAt": null,
