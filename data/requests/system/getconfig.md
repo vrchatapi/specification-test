@@ -4,43 +4,41 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/FrameCronThroughputPerformance,
-Unexpected property at #/FriendPullApiJsonPagination,
+Unexpected property at #/DocumentationOutAmericanoImmunityStack,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
+Unexpected property at #/animatorEntryBouncePita,
+Unexpected property at #/baristaFarStackIndicator,
+Unexpected property at #/blinkInstance,
+Unexpected property at #/branchIpv4ControlReplicationFusl,
+Unexpected property at #/bulkMessageShard,
 Unexpected property at #/chatboxLogBufferSeconds,
 Unexpected property at #/clientNetDispatchThreadMobile,
 Unexpected property at #/constants,
-Unexpected property at #/contextOrchestrationEternalRoom,
-Unexpected property at #/cronQueryPaginationConfigurationModeration,
-Unexpected property at #/disconnectPointerCron,
+Unexpected property at #/farNodeDucking,
 Unexpected property at #/forceUseLatestWorld,
-Unexpected property at #/generateShardOwnershipRollback,
 Unexpected property at #/googleApiClientId,
+Unexpected property at #/internalQueueResponseGift,
+Unexpected property at #/localizationHiddenChumpPlus,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
+Unexpected property at #/mutexDuckingReverseEvent,
 Unexpected property at #/offlineAnalysis,
-Unexpected property at #/ownershipReferenceResponseHeight,
 Unexpected property at #/photonNameserverOverrides,
-Unexpected property at #/privateTracing,
-Unexpected property at #/rankingIdentityLengthOfflineOffset,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/reverseSegment,
-Unexpected property at #/souvenirLoggingInternalChump,
-Unexpected property at #/systemPocket,
-Unexpected property at #/throughputPlayer,
+Unexpected property at #/samlExpires,
+Unexpected property at #/scrollStringMessageTrustedWaffle,
+Unexpected property at #/signatureMark,
+Unexpected property at #/slicingBodyListClipModel,
+Unexpected property at #/throttleChannelPullBackgroundLatency,
 Unexpected property at #/timekeeping,
-Unexpected property at #/viewAvatarHomeTemporary,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
 Unexpected property at #/websocketReconnectMaxDelay,
-Unexpected property at #/weightVerification,
-Unexpected property at #/yachtSignScreenEvents,
-Unexpected property at #/zoneSeedLocationListenerCopy,
-Unexpected property at #/zoneSign.
+Unexpected property at #/workerGitTape.
 ```
 
 ## Request
@@ -77,19 +75,9 @@ Unexpected property at #/zoneSign.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/FrameCronThroughputPerformance
+   * #/DocumentationOutAmericanoImmunityStack
    */
-  "FrameCronThroughputPerformance": 0,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/FriendPullApiJsonPagination
-   */
-  "FriendPullApiJsonPagination": [],
+  "DocumentationOutAmericanoImmunityStack": 0.946831599506103,
   "VoiceEnableDegradation": false,
   "VoiceEnableReceiverLimiting": true,
   "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
@@ -113,6 +101,16 @@ Unexpected property at #/zoneSign.
    * #/analyticsSegment_NewUI_Salt
    */
   "analyticsSegment_NewUI_Salt": "0d8522abac334287830d1192a8605f39",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/animatorEntryBouncePita
+   */
+  "animatorEntryBouncePita": 23987,
   "announcements": [],
   "appName": "VrChat",
   "availableLanguageCodes": [
@@ -144,7 +142,50 @@ Unexpected property at #/zoneSign.
     "Portuguese, Brazilian",
     "Chinese Simplified"
   ],
-  "buildVersionTag": "master-build-2024-09-06-tomtom-h-bassomoto",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/baristaFarStackIndicator
+   */
+  "baristaFarStackIndicator": [
+    0.11249833420456934,
+    0
+  ],
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/blinkInstance
+   */
+  "blinkInstance": false,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/branchIpv4ControlReplicationFusl
+   */
+  "branchIpv4ControlReplicationFusl": 0.0002448974693018968,
+  "buildVersionTag": "master-build-2024-09-10-gogo-emojiclaw",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/bulkMessageShard
+   */
+  "bulkMessageShard": false,
   /**
    * Unexpected property.
    *
@@ -290,35 +331,11 @@ Unexpected property at #/zoneSign.
     }
   },
   "contactEmail": "hello@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/contextOrchestrationEternalRoom
-   */
-  "contextOrchestrationEternalRoom": true,
   "copyrightEmail": "copyright@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/cronQueryPaginationConfigurationModeration
-   */
-  "cronQueryPaginationConfigurationModeration": {
-    "dutyRelaadventureHeadpat": 0.06526778224906593,
-    "trackerUndo": 0,
-    "vrchatWherePageBird": 1
-  },
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "deploymentGroup": "green",
+  "deploymentGroup": "blue",
   "devLanguageCodes": [
     "sv",
     "nl",
@@ -356,23 +373,13 @@ Unexpected property at #/zoneSign.
   "disableTwoFactorAuth": false,
   "disableUdon": false,
   "disableUpgradeAccount": false,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/disconnectPointerCron
-   */
-  "disconnectPointerCron": 1,
   "downloadLinkWindows": "https://www.oculus.com/experiences/rift/997678176960598/",
   "downloadUrls": {
     "bootstrap": "https://github.com/vrchat/packages/releases/download/resolvers/latest-resolver.unitypackage",
     "sdk2": "https://assets.vrchat.com/sdk/VRCSDK2-2022.04.20.16.27_Public.unitypackage",
     "sdk3-avatars": "https://assets.vrchat.com/sdk/VRChat-Avatars-3.7.0.unitypackage",
     "sdk3-worlds": "https://assets.vrchat.com/sdk/VRChat-Worlds-3.7.0.unitypackage",
-    "vcc": "https://vrcpm.vrchat.cloud/vcc/Builds/2.3.2/VRChat_CreatorCompanion_Setup_2.3.2.exe"
+    "vcc": "https://vrcpm.vrchat.cloud/vcc/Builds/2.3.3/VRChat_CreatorCompanion_Setup_2.3.3.exe"
   },
   "dynamicWorldRows": [
     {
@@ -514,9 +521,12 @@ Unexpected property at #/zoneSign.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/forceUseLatestWorld
+   * #/farNodeDucking
    */
-  "forceUseLatestWorld": true,
+  "farNodeDucking": {
+    "trackingUnityJsonManager": 0.10874561119338644,
+    "whoisWrite": null
+  },
   /**
    * Unexpected property.
    *
@@ -524,9 +534,9 @@ Unexpected property at #/zoneSign.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/generateShardOwnershipRollback
+   * #/forceUseLatestWorld
    */
-  "generateShardOwnershipRollback": 1,
+  "forceUseLatestWorld": true,
   /**
    * Unexpected property.
    *
@@ -565,7 +575,29 @@ Unexpected property at #/zoneSign.
     "vr-static.anique.jp",
     "*.vrcdn.cloud"
   ],
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/internalQueueResponseGift
+   */
+  "internalQueueResponseGift": {
+    "resortRollback": false
+  },
   "jobsEmail": "jobs@vrchat.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/localizationHiddenChumpPlus
+   */
+  "localizationHiddenChumpPlus": true,
   /**
    * Unexpected property.
    *
@@ -631,6 +663,16 @@ Unexpected property at #/zoneSign.
    */
   "minimumUnityVersionForUploads": "2019.0.0",
   "moderationEmail": "moderation@vrchat.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/mutexDuckingReverseEvent
+   */
+  "mutexDuckingReverseEvent": null,
   "notAllowedToSelectAvatarInPrivateWorldMessage": "For security reasons, you're not yet allowed to select avatars in private worlds or upload content. Please continue to enjoy VRChat and we'll message you when you've been unlocked. Thanks and have fun!",
   /**
    * Unexpected property.
@@ -652,16 +694,6 @@ Unexpected property at #/zoneSign.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/ownershipReferenceResponseHeight
-   */
-  "ownershipReferenceResponseHeight": 0.28311791155864885,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
    * #/photonNameserverOverrides
    */
   "photonNameserverOverrides": [
@@ -669,26 +701,6 @@ Unexpected property at #/zoneSign.
   ],
   "player-url-resolver-sha1": "4D-FB-9F-3D-4A-67-9F-DA-8D-51-0C-46-B4-16-3F-38-85-79-35-CF",
   "player-url-resolver-version": "2024-08-06-v2",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/privateTracing
-   */
-  "privateTracing": "stackTagOfflineTtl",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/rankingIdentityLengthOfflineOffset
-   */
-  "rankingIdentityLengthOfflineOffset": false,
   /**
    * Unexpected property.
    *
@@ -971,14 +983,12 @@ Unexpected property at #/zoneSign.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/reverseSegment
+   * #/samlExpires
    */
-  "reverseSegment": 0,
-  "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
-  "sdkDiscordUrl": "https://discord.gg/vrchat",
-  "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
-  "sdkUnityVersion": "2022.3.22f1",
-  "serverName": "prod-api-green-thomas-ync",
+  "samlExpires": [
+    null,
+    -29980
+  ],
   /**
    * Unexpected property.
    *
@@ -986,9 +996,34 @@ Unexpected property at #/zoneSign.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/souvenirLoggingInternalChump
+   * #/scrollStringMessageTrustedWaffle
    */
-  "souvenirLoggingInternalChump": 1,
+  "scrollStringMessageTrustedWaffle": 1,
+  "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
+  "sdkDiscordUrl": "https://discord.gg/vrchat",
+  "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
+  "sdkUnityVersion": "2022.3.22f1",
+  "serverName": "prod-api-blue-kevin-uvb",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/signatureMark
+   */
+  "signatureMark": 1,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/slicingBodyListClipModel
+   */
+  "slicingBodyListClipModel": [],
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -1014,19 +1049,9 @@ Unexpected property at #/zoneSign.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/systemPocket
+   * #/throttleChannelPullBackgroundLatency
    */
-  "systemPocket": 0.5408406490774662,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/throughputPlayer
-   */
-  "throughputPlayer": "SystemTemporalResolverFeedback",
+  "throttleChannelPullBackgroundLatency": false,
   "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
   /**
    * Unexpected property.
@@ -1093,16 +1118,6 @@ Unexpected property at #/zoneSign.
     "*.vrcdn.cloud"
   ],
   "useReliableUdpForVoice": false,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/viewAvatarHomeTemporary
-   */
-  "viewAvatarHomeTemporary": 13909,
   "viveWindowsUrl": "http://store.steampowered.com/app/438100/",
   /**
    * Unexpected property.
@@ -1134,16 +1149,6 @@ Unexpected property at #/zoneSign.
    * #/websocketReconnectMaxDelay
    */
   "websocketReconnectMaxDelay": 2,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/weightVerification
-   */
-  "weightVerification": true,
   "whiteListedAssetUrls": [
     "http://dbinj8iahsbec.cloudfront.net/plugins",
     "http://dbinj8iahsbec.cloudfront.net/",
@@ -1159,28 +1164,8 @@ Unexpected property at #/zoneSign.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/yachtSignScreenEvents
+   * #/workerGitTape
    */
-  "yachtSignScreenEvents": 0.6297393368690738,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/zoneSeedLocationListenerCopy
-   */
-  "zoneSeedLocationListenerCopy": 0.9911464534773218,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/zoneSign
-   */
-  "zoneSign": 0
+  "workerGitTape": false
 }
 ```
