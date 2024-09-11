@@ -85,6 +85,24 @@
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
       "variant": "standard"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2024-09-10T05:56:42.590Z",
+      "id": "unp_77b74da8-b081-4a53-b807-22af46015c54",
+      "platform": "standalonewindows",
+      "scanStatus": "passed",
+      "unityVersion": "2019.4.31f1",
+      "variant": "security"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2024-09-10T06:01:04.946Z",
+      "id": "unp_e0fdf793-d546-4d52-b5ad-8b60b3901bb5",
+      "platform": "android",
+      "scanStatus": "passed",
+      "unityVersion": "2019.4.31f1",
+      "variant": "security"
     }
   ],
   "updated_at": "2024-04-26T21:30:32.659Z",

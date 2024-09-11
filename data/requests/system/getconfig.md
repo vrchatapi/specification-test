@@ -4,41 +4,34 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/DocumentationOutAmericanoImmunityStack,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/animatorEntryBouncePita,
-Unexpected property at #/baristaFarStackIndicator,
-Unexpected property at #/blinkInstance,
-Unexpected property at #/branchIpv4ControlReplicationFusl,
-Unexpected property at #/bulkMessageShard,
+Unexpected property at #/buildFavoriteReport,
+Unexpected property at #/chatFuslReal,
 Unexpected property at #/chatboxLogBufferSeconds,
 Unexpected property at #/clientNetDispatchThreadMobile,
 Unexpected property at #/constants,
-Unexpected property at #/farNodeDucking,
+Unexpected property at #/deploymentReservedPrimaryConnectMinimum,
 Unexpected property at #/forceUseLatestWorld,
+Unexpected property at #/friendStringLocation,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/internalQueueResponseGift,
-Unexpected property at #/localizationHiddenChumpPlus,
+Unexpected property at #/instructionTrustedMac,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
-Unexpected property at #/mutexDuckingReverseEvent,
 Unexpected property at #/offlineAnalysis,
 Unexpected property at #/photonNameserverOverrides,
+Unexpected property at #/reachabilityCompile,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/samlExpires,
-Unexpected property at #/scrollStringMessageTrustedWaffle,
-Unexpected property at #/signatureMark,
-Unexpected property at #/slicingBodyListClipModel,
-Unexpected property at #/throttleChannelPullBackgroundLatency,
+Unexpected property at #/routingFileRateResolver,
+Unexpected property at #/schedulingFriend,
 Unexpected property at #/timekeeping,
+Unexpected property at #/updatedThresholdFuslImpostor,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
-Unexpected property at #/websocketReconnectMaxDelay,
-Unexpected property at #/workerGitTape.
+Unexpected property at #/websocketReconnectMaxDelay.
 ```
 
 ## Request
@@ -68,16 +61,6 @@ Unexpected property at #/workerGitTape.
 
 ```jsonc
 {
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/DocumentationOutAmericanoImmunityStack
-   */
-  "DocumentationOutAmericanoImmunityStack": 0.946831599506103,
   "VoiceEnableDegradation": false,
   "VoiceEnableReceiverLimiting": true,
   "address": "1062 Folsom St., Suite 200, San Francisco, CA, 94103",
@@ -101,16 +84,6 @@ Unexpected property at #/workerGitTape.
    * #/analyticsSegment_NewUI_Salt
    */
   "analyticsSegment_NewUI_Salt": "0d8522abac334287830d1192a8605f39",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/animatorEntryBouncePita
-   */
-  "animatorEntryBouncePita": 23987,
   "announcements": [],
   "appName": "VrChat",
   "availableLanguageCodes": [
@@ -149,12 +122,10 @@ Unexpected property at #/workerGitTape.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/baristaFarStackIndicator
+   * #/buildFavoriteReport
    */
-  "baristaFarStackIndicator": [
-    0.11249833420456934,
-    0
-  ],
+  "buildFavoriteReport": 0,
+  "buildVersionTag": "master-build-2024-09-10-layla-stapleham",
   /**
    * Unexpected property.
    *
@@ -162,30 +133,16 @@ Unexpected property at #/workerGitTape.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/blinkInstance
+   * #/chatFuslReal
    */
-  "blinkInstance": false,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/branchIpv4ControlReplicationFusl
-   */
-  "branchIpv4ControlReplicationFusl": 0.0002448974693018968,
-  "buildVersionTag": "master-build-2024-09-10-gogo-emojiclaw",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/bulkMessageShard
-   */
-  "bulkMessageShard": false,
+  "chatFuslReal": {
+    "alignmentDetectionSocketReserved": {
+      "activeDashboard": -7365,
+      "samlSegfaultInstallSignLimiter": null
+    },
+    "endpointReservedHelp": 0.15966916833205325,
+    "violationWebsocket": 1
+  },
   /**
    * Unexpected property.
    *
@@ -336,6 +293,16 @@ Unexpected property at #/workerGitTape.
   "currentTOSVersion": 9,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "deploymentGroup": "blue",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/deploymentReservedPrimaryConnectMinimum
+   */
+  "deploymentReservedPrimaryConnectMinimum": 0,
   "devLanguageCodes": [
     "sv",
     "nl",
@@ -521,12 +488,9 @@ Unexpected property at #/workerGitTape.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/farNodeDucking
+   * #/forceUseLatestWorld
    */
-  "farNodeDucking": {
-    "trackingUnityJsonManager": 0.10874561119338644,
-    "whoisWrite": null
-  },
+  "forceUseLatestWorld": true,
   /**
    * Unexpected property.
    *
@@ -534,9 +498,9 @@ Unexpected property at #/workerGitTape.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/forceUseLatestWorld
+   * #/friendStringLocation
    */
-  "forceUseLatestWorld": true,
+  "friendStringLocation": "branchRoutingBuild",
   /**
    * Unexpected property.
    *
@@ -582,22 +546,10 @@ Unexpected property at #/workerGitTape.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/internalQueueResponseGift
+   * #/instructionTrustedMac
    */
-  "internalQueueResponseGift": {
-    "resortRollback": false
-  },
+  "instructionTrustedMac": false,
   "jobsEmail": "jobs@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/localizationHiddenChumpPlus
-   */
-  "localizationHiddenChumpPlus": true,
   /**
    * Unexpected property.
    *
@@ -663,16 +615,6 @@ Unexpected property at #/workerGitTape.
    */
   "minimumUnityVersionForUploads": "2019.0.0",
   "moderationEmail": "moderation@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/mutexDuckingReverseEvent
-   */
-  "mutexDuckingReverseEvent": null,
   "notAllowedToSelectAvatarInPrivateWorldMessage": "For security reasons, you're not yet allowed to select avatars in private worlds or upload content. Please continue to enjoy VRChat and we'll message you when you've been unlocked. Thanks and have fun!",
   /**
    * Unexpected property.
@@ -701,6 +643,16 @@ Unexpected property at #/workerGitTape.
   ],
   "player-url-resolver-sha1": "4D-FB-9F-3D-4A-67-9F-DA-8D-51-0C-46-B4-16-3F-38-85-79-35-CF",
   "player-url-resolver-version": "2024-08-06-v2",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/reachabilityCompile
+   */
+  "reachabilityCompile": 1,
   /**
    * Unexpected property.
    *
@@ -983,12 +935,9 @@ Unexpected property at #/workerGitTape.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/samlExpires
+   * #/routingFileRateResolver
    */
-  "samlExpires": [
-    null,
-    -29980
-  ],
+  "routingFileRateResolver": false,
   /**
    * Unexpected property.
    *
@@ -996,34 +945,16 @@ Unexpected property at #/workerGitTape.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/scrollStringMessageTrustedWaffle
+   * #/schedulingFriend
    */
-  "scrollStringMessageTrustedWaffle": 1,
+  "schedulingFriend": {
+    "keyTutorialJsonKeyOffset": 11254
+  },
   "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
-  "serverName": "prod-api-blue-kevin-uvb",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/signatureMark
-   */
-  "signatureMark": 1,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/slicingBodyListClipModel
-   */
-  "slicingBodyListClipModel": [],
+  "serverName": "prod-api-blue-megatron-f2r",
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -1042,16 +973,6 @@ Unexpected property at #/workerGitTape.
     "*.vrcdn.cloud"
   ],
   "supportEmail": "support@vrchat.com",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/throttleChannelPullBackgroundLatency
-   */
-  "throttleChannelPullBackgroundLatency": false,
   "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
   /**
    * Unexpected property.
@@ -1068,6 +989,16 @@ Unexpected property at #/workerGitTape.
   "updateRateMsMinimum": 50,
   "updateRateMsNormal": 200,
   "updateRateMsUdonManual": 50,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/updatedThresholdFuslImpostor
+   */
+  "updatedThresholdFuslImpostor": 0,
   "uploadAnalysisPercent": 1,
   "urlList": [
     "*.facebook.com",
@@ -1156,16 +1087,6 @@ Unexpected property at #/workerGitTape.
     "https://dev-api.vrchat.cloud/api/1/file/",
     "https://api.vrchat.cloud/api/1/file/",
     "https://files.vrchat.cloud/unmanaged/"
-  ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/workerGitTape
-   */
-  "workerGitTape": false
+  ]
 }
 ```

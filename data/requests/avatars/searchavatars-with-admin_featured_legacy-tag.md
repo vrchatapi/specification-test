@@ -4,6 +4,9 @@
 ```
 Response schema mismatch:
 
+Unexpected property at #/0unityPackages/8/impostorizerVersion,
+Unexpected property at #/0unityPackages/9/impostorizerVersion,
+Unexpected property at #/0unityPackages/10/impostorizerVersion,
 Unexpected property at #/3unityPackages/13/impostorizerVersion,
 Unexpected property at #/3unityPackages/14/impostorizerVersion,
 Unexpected property at #/3unityPackages/15/impostorizerVersion,
