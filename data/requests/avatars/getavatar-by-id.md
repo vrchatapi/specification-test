@@ -1,5 +1,18 @@
 # getAvatar by id
 
+## Issues
+```
+Response schema mismatch:
+
+Unexpected property at #/unityPackages/0/performanceRating,
+Unexpected property at #/unityPackages/1/performanceRating,
+Unexpected property at #/unityPackages/2/performanceRating,
+Unexpected property at #/unityPackages/3/performanceRating,
+Unexpected property at #/unityPackages/4/performanceRating,
+Unexpected property at #/unityPackages/5/performanceRating,
+Unexpected property at #/unityPackages/6/performanceRating.
+```
+
 ## Request
 `get https://vrchat.com/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0`
 
@@ -45,6 +58,16 @@
       "assetVersion": 1,
       "created_at": "2022-01-27T01:34:07.257Z",
       "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/0/performanceRating
+       */
+      "performanceRating": "None",
       "platform": "standalonewindows",
       "scanStatus": "passed",
       "unityVersion": "2019.4.30f1",
@@ -54,6 +77,16 @@
       "assetVersion": 1,
       "created_at": "2022-02-03T06:57:10.346Z",
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/1/performanceRating
+       */
+      "performanceRating": "None",
       "platform": "android",
       "scanStatus": "unscanned",
       "unityVersion": "2019.4.30f1",
@@ -63,6 +96,16 @@
       "assetVersion": 1,
       "created_at": "2022-07-07T11:36:36.197Z",
       "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/2/performanceRating
+       */
+      "performanceRating": "None",
       "platform": "standalonewindows",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
@@ -72,6 +115,16 @@
       "assetVersion": 1,
       "created_at": "2022-07-07T11:51:24.091Z",
       "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/3/performanceRating
+       */
+      "performanceRating": "None",
       "platform": "android",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
@@ -81,6 +134,16 @@
       "assetVersion": 1,
       "created_at": "2024-04-26T21:30:32.655Z",
       "id": "unp_290ee8b3-8aea-4135-97d8-327c061c11ed",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/4/performanceRating
+       */
+      "performanceRating": "None",
       "platform": "ios",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
@@ -90,6 +153,16 @@
       "assetVersion": 1,
       "created_at": "2024-09-10T05:56:42.590Z",
       "id": "unp_77b74da8-b081-4a53-b807-22af46015c54",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/5/performanceRating
+       */
+      "performanceRating": "None",
       "platform": "standalonewindows",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
@@ -99,6 +172,16 @@
       "assetVersion": 1,
       "created_at": "2024-09-10T06:01:04.946Z",
       "id": "unp_e0fdf793-d546-4d52-b5ad-8b60b3901bb5",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/6/performanceRating
+       */
+      "performanceRating": "None",
       "platform": "android",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
