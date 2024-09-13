@@ -2,7 +2,9 @@
 
 ## Issues
 ```
-Response media type "text/html" not expected.
+Response schema mismatch:
+
+Unexpected token '/', "/*! For li"... is not valid JSON.
 ```
 
 ## Request
@@ -11,21 +13,19 @@ Response media type "text/html" not expected.
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
-`504 Gateway Timeout`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
-| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `132` |
-| content-type | `text/html` |
-| pragma | `no-cache` |
-| server | `cloudflare` |
-| vary | `Accept-Encoding` |
+| content-type | `application/javascript` |
+| etag | `<redacted>` |
+| server | `CloudFront` |
+| transfer-encoding | `chunked` |
+| vary | `Accept-Encoding, Origin` |
 
 ```jsonc
 <unstable>

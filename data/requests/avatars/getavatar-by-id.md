@@ -105,7 +105,7 @@ Unexpected property at #/unityPackages/6/performanceRating.
        * #/properties/unityPackages/items/additionalProperties
        * #/unityPackages/2/performanceRating
        */
-      "performanceRating": "None",
+      "performanceRating": "VeryPoor",
       "platform": "standalonewindows",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
@@ -124,7 +124,7 @@ Unexpected property at #/unityPackages/6/performanceRating.
        * #/properties/unityPackages/items/additionalProperties
        * #/unityPackages/3/performanceRating
        */
-      "performanceRating": "None",
+      "performanceRating": "VeryPoor",
       "platform": "android",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
@@ -143,7 +143,7 @@ Unexpected property at #/unityPackages/6/performanceRating.
        * #/properties/unityPackages/items/additionalProperties
        * #/unityPackages/4/performanceRating
        */
-      "performanceRating": "None",
+      "performanceRating": "VeryPoor",
       "platform": "ios",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
@@ -162,7 +162,7 @@ Unexpected property at #/unityPackages/6/performanceRating.
        * #/properties/unityPackages/items/additionalProperties
        * #/unityPackages/5/performanceRating
        */
-      "performanceRating": "None",
+      "performanceRating": "VeryPoor",
       "platform": "standalonewindows",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
@@ -181,7 +181,7 @@ Unexpected property at #/unityPackages/6/performanceRating.
        * #/properties/unityPackages/items/additionalProperties
        * #/unityPackages/6/performanceRating
        */
-      "performanceRating": "None",
+      "performanceRating": "VeryPoor",
       "platform": "android",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",

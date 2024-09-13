@@ -55,7 +55,7 @@ Unexpected property at #/receiveMobileInvitations.
   "bio": "",
   "bioLinks": [],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_38098a9c-e5c1-4f30-a83a-6f5185d72d21/1/file",
+  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_ddea1398-ae13-41c4-8c74-6d7479337d40/1/variant/security?v=2",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarTags": [
     "admin_featured_legacy",
