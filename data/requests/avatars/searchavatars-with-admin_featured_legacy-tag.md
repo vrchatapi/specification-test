@@ -110,7 +110,8 @@ Unexpected property at #/9unityPackages/9/performanceRating,
 Unexpected property at #/9unityPackages/10/impostorizerVersion,
 Unexpected property at #/9unityPackages/10/performanceRating,
 Unexpected property at #/9unityPackages/11/performanceRating,
-Unexpected property at #/9unityPackages/12/performanceRating.
+Unexpected property at #/9unityPackages/12/performanceRating,
+Unexpected property at #/9unityPackages/13/performanceRating.
 ```
 
 ## Request
