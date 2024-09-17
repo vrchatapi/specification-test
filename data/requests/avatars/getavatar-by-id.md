@@ -10,7 +10,13 @@ Unexpected property at #/unityPackages/2/performanceRating,
 Unexpected property at #/unityPackages/3/performanceRating,
 Unexpected property at #/unityPackages/4/performanceRating,
 Unexpected property at #/unityPackages/5/performanceRating,
-Unexpected property at #/unityPackages/6/performanceRating.
+Unexpected property at #/unityPackages/6/performanceRating,
+Unexpected property at #/unityPackages/7/impostorizerVersion,
+Unexpected property at #/unityPackages/7/performanceRating,
+Unexpected property at #/unityPackages/8/impostorizerVersion,
+Unexpected property at #/unityPackages/8/performanceRating,
+Unexpected property at #/unityPackages/9/impostorizerVersion,
+Unexpected property at #/unityPackages/9/performanceRating.
 ```
 
 ## Request
@@ -186,6 +192,93 @@ Unexpected property at #/unityPackages/6/performanceRating.
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
       "variant": "security"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2024-09-16T22:05:24.654Z",
+      "id": "unp_1721aa0c-d1bd-482f-8fdd-0e9232b3e4f7",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/7/impostorizerVersion
+       */
+      "impostorizerVersion": "1.0.1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/7/performanceRating
+       */
+      "performanceRating": "None",
+      "platform": "standalonewindows",
+      "scanStatus": "unscanned",
+      "unityVersion": "2022.3.22f1",
+      "variant": "impostor"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2024-09-16T22:05:25.988Z",
+      "id": "unp_952f2cb6-5020-4b54-88b1-1a755a58252b",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/8/impostorizerVersion
+       */
+      "impostorizerVersion": "1.0.1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/8/performanceRating
+       */
+      "performanceRating": "None",
+      "platform": "android",
+      "scanStatus": "unscanned",
+      "unityVersion": "2022.3.22f1",
+      "variant": "impostor"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2024-09-16T22:05:28.234Z",
+      "id": "unp_34536fbf-4da2-4e02-8f7c-366882ca367a",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/9/impostorizerVersion
+       */
+      "impostorizerVersion": "1.0.1",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/9/performanceRating
+       */
+      "performanceRating": "None",
+      "platform": "ios",
+      "scanStatus": "unscanned",
+      "unityVersion": "2022.3.22f1",
+      "variant": "impostor"
     }
   ],
   "updated_at": "2024-04-26T21:30:32.659Z",
