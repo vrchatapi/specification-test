@@ -1,12 +1,5 @@
 # selectFallbackAvatar with id
 
-## Issues
-```
-Response schema mismatch:
-
-Unexpected property at #/receiveMobileInvitations.
-```
-
 ## Request
 `put https://vrchat.com/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
 
@@ -79,15 +72,6 @@ Unexpected property at #/receiveMobileInvitations.
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/receiveMobileInvitations
-   */
   "receiveMobileInvitations": true,
   "state": "offline",
   "status": "active",

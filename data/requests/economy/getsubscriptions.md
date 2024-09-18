@@ -35,7 +35,7 @@
     "googlePlanId": "monthly",
     "picoSku": "vrchat_plus_pico_monthly",
     "amount": 999,
-    "description": "VRChat + (Monthly)",
+    "description": "VRChat+ (Monthly)",
     "period": "month",
     "tier": 5
   },
@@ -47,7 +47,7 @@
     "googlePlanId": "yearly",
     "picoSku": "vrchat_plus_pico_yearly",
     "amount": 9999,
-    "description": "VRChat + (Yearly)",
+    "description": "VRChat+ (Yearly)",
     "period": "year",
     "tier": 5
   },

@@ -1,12 +1,5 @@
 # getCurrentUser after two-factor authentication
 
-## Issues
-```
-Response schema mismatch:
-
-Unexpected property at #/receiveMobileInvitations.
-```
-
 ## Request
 `get https://vrchat.com/api/1/auth/user`
 
@@ -106,15 +99,6 @@ Unexpected property at #/receiveMobileInvitations.
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/receiveMobileInvitations
-   */
   "receiveMobileInvitations": true,
   "state": "offline",
   "status": "active",

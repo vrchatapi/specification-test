@@ -1,12 +1,5 @@
 # selectAvatar with default avatar id
 
-## Issues
-```
-Response schema mismatch:
-
-Unexpected property at #/receiveMobileInvitations.
-```
-
 ## Request
 `put https://vrchat.com/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
@@ -79,15 +72,6 @@ Unexpected property at #/receiveMobileInvitations.
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",
-  /**
-   * Unexpected property.
-   *
-   * @schema CurrentUser
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/receiveMobileInvitations
-   */
   "receiveMobileInvitations": true,
   "state": "offline",
   "status": "active",

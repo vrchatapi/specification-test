@@ -11,11 +11,8 @@ Unexpected property at #/unityPackages/4/performanceRating,
 Unexpected property at #/unityPackages/5/performanceRating,
 Unexpected property at #/unityPackages/6/performanceRating,
 Unexpected property at #/unityPackages/7/performanceRating,
-Unexpected property at #/unityPackages/8/impostorizerVersion,
 Unexpected property at #/unityPackages/8/performanceRating,
-Unexpected property at #/unityPackages/9/impostorizerVersion,
 Unexpected property at #/unityPackages/9/performanceRating,
-Unexpected property at #/unityPackages/10/impostorizerVersion,
 Unexpected property at #/unityPackages/10/performanceRating.
 ```
 
