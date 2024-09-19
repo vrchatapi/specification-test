@@ -34,7 +34,7 @@
   "bio": "",
   "bioLinks": [],
   "currentAvatar": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
-  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_e0852984-d720-4ad6-8510-e3ecdd1970a9/1/file",
+  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_cea4ec5e-af23-4c1e-982b-b93f3c6cfc2b/9/variant/security?v=2",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
   "currentAvatarTags": [],
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",
