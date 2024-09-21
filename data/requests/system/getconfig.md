@@ -4,41 +4,37 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/alignmentDevice,
 Unexpected property at #/analyticsSegment_NewUI_PctOfUsers,
 Unexpected property at #/analyticsSegment_NewUI_Salt,
-Unexpected property at #/authenticationFormat,
-Unexpected property at #/bulkLimit,
-Unexpected property at #/chaosFormationStack,
+Unexpected property at #/behaviorFox,
 Unexpected property at #/chatboxLogBufferSeconds,
 Unexpected property at #/clientNetDispatchThreadMobile,
+Unexpected property at #/coexistenceObject,
 Unexpected property at #/constants,
-Unexpected property at #/electionNextTimezone,
+Unexpected property at #/electionServicePush,
+Unexpected property at #/fileNoiseHeaderLeave,
 Unexpected property at #/forceUseLatestWorld,
-Unexpected property at #/formatCommandServiceHeight,
+Unexpected property at #/frameworkReaderBodyLicensePrevious,
 Unexpected property at #/googleApiClientId,
-Unexpected property at #/jwtFileApplicationLatency,
-Unexpected property at #/licenseUserJwtOnlyToolbox,
+Unexpected property at #/joinRequestImpostorImmunity,
 Unexpected property at #/minSupportedClientBuildNumber,
 Unexpected property at #/minimumUnityVersionForUploads,
-Unexpected property at #/objectsCoefficientMutex,
+Unexpected property at #/modelMiddlewareHandler,
+Unexpected property at #/nuisanceMarkDevice,
+Unexpected property at #/objectConfigurationObjects,
 Unexpected property at #/offlineAnalysis,
-Unexpected property at #/partitionDraftReadClockLock,
+Unexpected property at #/packetCreatedPage,
 Unexpected property at #/photonNameserverOverrides,
 Unexpected property at #/photonPublicKeys,
-Unexpected property at #/quorumWhere,
+Unexpected property at #/poolYachtPacketEac,
 Unexpected property at #/reportCategories,
 Unexpected property at #/reportFormUrl,
 Unexpected property at #/reportOptions,
 Unexpected property at #/reportReasons,
-Unexpected property at #/roomRandom,
-Unexpected property at #/steamRegion,
+Unexpected property at #/socketDucking,
+Unexpected property at #/syncBranchLogging,
+Unexpected property at #/tierNotificationTokenTimeGenerate,
 Unexpected property at #/timekeeping,
-Unexpected property at #/trackerFocacciaCountry,
-Unexpected property at #/trackerSegfault,
-Unexpected property at #/transactionCoefficientOfflineChannelLoader,
-Unexpected property at #/trustedSend,
-Unexpected property at #/uploadNetworkTcpLoopCountry,
 Unexpected property at #/websocketMaxFriendsRefreshDelay,
 Unexpected property at #/websocketQuickReconnectTime,
 Unexpected property at #/websocketReconnectMaxDelay.
@@ -81,16 +77,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/alignmentDevice
-   */
-  "alignmentDevice": "mutexPoolBirdIndicatorSign",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
    * #/analyticsSegment_NewUI_PctOfUsers
    */
   "analyticsSegment_NewUI_PctOfUsers": 2,
@@ -106,16 +92,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "analyticsSegment_NewUI_Salt": "0d8522abac334287830d1192a8605f39",
   "announcements": [],
   "appName": "VrChat",
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/authenticationFormat
-   */
-  "authenticationFormat": true,
   "availableLanguageCodes": [
     "en",
     "fr",
@@ -145,7 +121,6 @@ Unexpected property at #/websocketReconnectMaxDelay.
     "Portuguese, Brazilian",
     "Chinese Simplified"
   ],
-  "buildVersionTag": "master-build-2024-09-19-turkey-ranchtailor",
   /**
    * Unexpected property.
    *
@@ -153,19 +128,10 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/bulkLimit
+   * #/behaviorFox
    */
-  "bulkLimit": false,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/chaosFormationStack
-   */
-  "chaosFormationStack": 0.0008664120991603852,
+  "behaviorFox": "orchestrationRateBounceIpv6",
+  "buildVersionTag": "master-build-2024-09-20-hammerfest-s-freakbaking",
   /**
    * Unexpected property.
    *
@@ -193,6 +159,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "clientQR": 1,
   "clientReservedPlayerBPS": 7168,
   "clientSentCountAllowance": 100,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/coexistenceObject
+   */
+  "coexistenceObject": 0,
   /**
    * Unexpected property.
    *
@@ -315,7 +291,7 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "currentPrivacyVersion": 1,
   "currentTOSVersion": 9,
   "defaultAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "deploymentGroup": "green",
+  "deploymentGroup": "blue",
   "devLanguageCodes": [
     "sv",
     "nl",
@@ -357,8 +333,8 @@ Unexpected property at #/websocketReconnectMaxDelay.
   "downloadUrls": {
     "bootstrap": "https://github.com/vrchat/packages/releases/download/resolvers/latest-resolver.unitypackage",
     "sdk2": "https://assets.vrchat.com/sdk/VRCSDK2-2022.04.20.16.27_Public.unitypackage",
-    "sdk3-avatars": "https://assets.vrchat.com/sdk/VRChat-Avatars-3.7.0.unitypackage",
-    "sdk3-worlds": "https://assets.vrchat.com/sdk/VRChat-Worlds-3.7.0.unitypackage",
+    "sdk3-avatars": "https://assets.vrchat.com/sdk/VRChat-Avatars-3.7.1.unitypackage",
+    "sdk3-worlds": "https://assets.vrchat.com/sdk/VRChat-Worlds-3.7.1.unitypackage",
     "vcc": "https://vrcpm.vrchat.cloud/vcc/Builds/2.3.4/VRChat_CreatorCompanion_Setup_2.3.4.exe"
   },
   "dynamicWorldRows": [
@@ -489,9 +465,15 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/electionNextTimezone
+   * #/electionServicePush
    */
-  "electionNextTimezone": -17896,
+  "electionServicePush": {
+    "markerHistoryBiographyMain": [
+      -21221,
+      null
+    ],
+    "pointerBird": false
+  },
   "events": {
     "distanceClose": 2,
     "distanceFactor": 100,
@@ -511,6 +493,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
+   * #/fileNoiseHeaderLeave
+   */
+  "fileNoiseHeaderLeave": 1,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
    * #/forceUseLatestWorld
    */
   "forceUseLatestWorld": true,
@@ -521,16 +513,14 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/formatCommandServiceHeight
+   * #/frameworkReaderBodyLicensePrevious
    */
-  "formatCommandServiceHeight": [
-    "nodeProfile",
-    [
-      true,
-      0.8651871084105287,
-      17240
-    ]
-  ],
+  "frameworkReaderBodyLicensePrevious": {
+    "tierCappuccinoPreviousAccountFrame": {
+      "groupSubscriberIso8601": "receiveSemaphoreBulkJson",
+      "pushBookmarkIpv4SignPosition": "trustedTicketAvatarLibraryPipeline"
+    }
+  },
   /**
    * Unexpected property.
    *
@@ -577,22 +567,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/jwtFileApplicationLatency
+   * #/joinRequestImpostorImmunity
    */
-  "jwtFileApplicationLatency": {
-    "kernelTrustedJson": 0,
-    "presencePhotonFavorite": 0.4813926392119763
-  },
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/licenseUserJwtOnlyToolbox
-   */
-  "licenseUserJwtOnlyToolbox": false,
+  "joinRequestImpostorImmunity": true,
   /**
    * Unexpected property.
    *
@@ -657,6 +634,16 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * #/minimumUnityVersionForUploads
    */
   "minimumUnityVersionForUploads": "2019.0.0",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/modelMiddlewareHandler
+   */
+  "modelMiddlewareHandler": "cdnSegmentBulkJsonOnly",
   "moderationEmail": "moderation@vrchat.com",
   "notAllowedToSelectAvatarInPrivateWorldMessage": "For security reasons, you're not yet allowed to select avatars in private worlds or upload content. Please continue to enjoy VRChat and we'll message you when you've been unlocked. Thanks and have fun!",
   /**
@@ -666,9 +653,21 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/objectsCoefficientMutex
+   * #/nuisanceMarkDevice
    */
-  "objectsCoefficientMutex": "disconnectCoefficientMinimum",
+  "nuisanceMarkDevice": 0.18049866786515167,
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/objectConfigurationObjects
+   */
+  "objectConfigurationObjects": [
+    1
+  ],
   /**
    * Unexpected property.
    *
@@ -689,9 +688,11 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/partitionDraftReadClockLock
+   * #/packetCreatedPage
    */
-  "partitionDraftReadClockLock": -13471,
+  "packetCreatedPage": [
+    1
+  ],
   /**
    * Unexpected property.
    *
@@ -725,9 +726,9 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/quorumWhere
+   * #/poolYachtPacketEac
    */
-  "quorumWhere": 0.12134055484827844,
+  "poolYachtPacketEac": null,
   /**
    * Unexpected property.
    *
@@ -1003,21 +1004,11 @@ Unexpected property at #/websocketReconnectMaxDelay.
       "tooltip": "The content contains visuals that could be harmful or irritating"
     }
   },
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/roomRandom
-   */
-  "roomRandom": true,
   "sdkDeveloperFaqUrl": "https://docs.vrchat.com/docs/frequently-asked-questions#section-why-can-t-i-upload-content-yet-",
   "sdkDiscordUrl": "https://discord.gg/vrchat",
   "sdkNotAllowedToPublishMessage": "Welcome the VRChat SDK!\r\n\r\nBefore you can upload avatars or worlds to VRChat, you'll need to spend more time enjoying the app. We do this for security reasons, and so you can learn more about us.\r\n\r\nWhen you get the ability to upload, we will notify you via email and in VRChat. For now, you can learn and test on your own device.\r\n\r\nTo get started, check out the resources below.\r\n\r\nThank you for your patience, we can't wait to see what you'll build!",
   "sdkUnityVersion": "2022.3.22f1",
-  "serverName": "prod-api-green-celine-zii",
+  "serverName": "prod-api-blue-throw-wpi",
   /**
    * Unexpected property.
    *
@@ -1025,9 +1016,13 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * @keyword additionalProperties
    *
    * #/additionalProperties
-   * #/steamRegion
+   * #/socketDucking
    */
-  "steamRegion": true,
+  "socketDucking": [
+    [],
+    1,
+    "clusterSourdoughClockRollout"
+  ],
   "stringHostUrlList": [
     "*.github.io",
     "pastebin.com",
@@ -1046,6 +1041,29 @@ Unexpected property at #/websocketReconnectMaxDelay.
     "*.vrcdn.cloud"
   ],
   "supportEmail": "support@vrchat.com",
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/syncBranchLogging
+   */
+  "syncBranchLogging": [
+    0.016022527504878425,
+    true
+  ],
+  /**
+   * Unexpected property.
+   *
+   * @schema APIConfig
+   * @keyword additionalProperties
+   *
+   * #/additionalProperties
+   * #/tierNotificationTokenTimeGenerate
+   */
+  "tierNotificationTokenTimeGenerate": "contextAttachmentEvent",
   "timeOutWorldId": "wrld_5b89c79e-c340-4510-be1b-476e9fcdedcc",
   /**
    * Unexpected property.
@@ -1057,64 +1075,12 @@ Unexpected property at #/websocketReconnectMaxDelay.
    * #/timekeeping
    */
   "timekeeping": true,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/trackerFocacciaCountry
-   */
-  "trackerFocacciaCountry": -29911,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/trackerSegfault
-   */
-  "trackerSegfault": [
-    null
-  ],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/transactionCoefficientOfflineChannelLoader
-   */
-  "transactionCoefficientOfflineChannelLoader": [],
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/trustedSend
-   */
-  "trustedSend": "externalErrorResponse",
   "tutorialWorldId": "wld_7d3d25ec-663e-406e-96a3-e2c4fc0d8104",
   "updateRateMsMaximum": 1000,
   "updateRateMsMinimum": 50,
   "updateRateMsNormal": 200,
   "updateRateMsUdonManual": 50,
   "uploadAnalysisPercent": 1,
-  /**
-   * Unexpected property.
-   *
-   * @schema APIConfig
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/uploadNetworkTcpLoopCountry
-   */
-  "uploadNetworkTcpLoopCountry": 0.9561130861041168,
   "urlList": [
     "*.facebook.com",
     "*.nicovideo.jp",
