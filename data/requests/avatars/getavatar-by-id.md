@@ -13,7 +13,8 @@ Unexpected property at #/unityPackages/5/performanceRating,
 Unexpected property at #/unityPackages/6/performanceRating,
 Unexpected property at #/unityPackages/7/performanceRating,
 Unexpected property at #/unityPackages/8/performanceRating,
-Unexpected property at #/unityPackages/9/performanceRating.
+Unexpected property at #/unityPackages/9/performanceRating,
+Unexpected property at #/unityPackages/10/performanceRating.
 ```
 
 ## Request
@@ -249,6 +250,25 @@ Unexpected property at #/unityPackages/9/performanceRating.
       "scanStatus": "unscanned",
       "unityVersion": "2022.3.22f1",
       "variant": "impostor"
+    },
+    {
+      "assetVersion": 1,
+      "created_at": "2024-09-21T23:31:17.879Z",
+      "id": "unp_52c87f6c-a5e4-47c6-bcbe-c61a4b1a58c0",
+      /**
+       * Unexpected property.
+       *
+       * @schema UnityPackage
+       * @keyword additionalProperties
+       *
+       * #/properties/unityPackages/items/additionalProperties
+       * #/unityPackages/10/performanceRating
+       */
+      "performanceRating": "None",
+      "platform": "ios",
+      "scanStatus": "failed",
+      "unityVersion": "2019.4.31f1",
+      "variant": "security"
     }
   ],
   "updated_at": "2024-04-26T21:30:32.659Z",

@@ -114,11 +114,10 @@ Unexpected property at #/playerPersistenceEnabled.
     "language_eng",
     "language_spa",
     "language_ase",
-    "language_est",
     "show_social_rank"
   ],
   "type": "<unstable: string>",
-  "userCount": 24,
+  "userCount": 21,
   "world": "<unstable: object>",
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b"
 }
