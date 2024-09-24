@@ -1,21 +1,5 @@
 # getOwnAvatar
 
-## Issues
-```
-Response schema mismatch:
-
-Unexpected property at #/unityPackages/1/performanceRating,
-Unexpected property at #/unityPackages/2/performanceRating,
-Unexpected property at #/unityPackages/3/performanceRating,
-Unexpected property at #/unityPackages/4/performanceRating,
-Unexpected property at #/unityPackages/5/performanceRating,
-Unexpected property at #/unityPackages/6/performanceRating,
-Unexpected property at #/unityPackages/7/performanceRating,
-Unexpected property at #/unityPackages/8/performanceRating,
-Unexpected property at #/unityPackages/9/performanceRating,
-Unexpected property at #/unityPackages/10/performanceRating.
-```
-
 ## Request
 `get https://vrchat.com/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 

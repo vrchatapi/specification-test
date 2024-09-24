@@ -1,22 +1,5 @@
 # getAvatar by id
 
-## Issues
-```
-Response schema mismatch:
-
-Unexpected property at #/unityPackages/0/performanceRating,
-Unexpected property at #/unityPackages/1/performanceRating,
-Unexpected property at #/unityPackages/2/performanceRating,
-Unexpected property at #/unityPackages/3/performanceRating,
-Unexpected property at #/unityPackages/4/performanceRating,
-Unexpected property at #/unityPackages/5/performanceRating,
-Unexpected property at #/unityPackages/6/performanceRating,
-Unexpected property at #/unityPackages/7/performanceRating,
-Unexpected property at #/unityPackages/8/performanceRating,
-Unexpected property at #/unityPackages/9/performanceRating,
-Unexpected property at #/unityPackages/10/performanceRating.
-```
-
 ## Request
 `get https://vrchat.com/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0`
 
@@ -62,15 +45,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "assetVersion": 1,
       "created_at": "2022-01-27T01:34:07.257Z",
       "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/0/performanceRating
-       */
       "performanceRating": "None",
       "platform": "standalonewindows",
       "scanStatus": "passed",
@@ -81,15 +55,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "assetVersion": 1,
       "created_at": "2022-02-03T06:57:10.346Z",
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/1/performanceRating
-       */
       "performanceRating": "None",
       "platform": "android",
       "scanStatus": "unscanned",
@@ -100,15 +65,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "assetVersion": 1,
       "created_at": "2022-07-07T11:36:36.197Z",
       "id": "unp_1304627e-3420-46c2-bc17-8a85481e359a",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/2/performanceRating
-       */
       "performanceRating": "VeryPoor",
       "platform": "standalonewindows",
       "scanStatus": "passed",
@@ -119,15 +75,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "assetVersion": 1,
       "created_at": "2022-07-07T11:51:24.091Z",
       "id": "unp_80cde87d-61cb-400e-9e35-69745257642a",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/3/performanceRating
-       */
       "performanceRating": "VeryPoor",
       "platform": "android",
       "scanStatus": "passed",
@@ -138,15 +85,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "assetVersion": 1,
       "created_at": "2024-04-26T21:30:32.655Z",
       "id": "unp_290ee8b3-8aea-4135-97d8-327c061c11ed",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/4/performanceRating
-       */
       "performanceRating": "VeryPoor",
       "platform": "ios",
       "scanStatus": "passed",
@@ -157,15 +95,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "assetVersion": 1,
       "created_at": "2024-09-10T05:56:42.590Z",
       "id": "unp_77b74da8-b081-4a53-b807-22af46015c54",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/5/performanceRating
-       */
       "performanceRating": "VeryPoor",
       "platform": "standalonewindows",
       "scanStatus": "passed",
@@ -176,15 +105,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "assetVersion": 1,
       "created_at": "2024-09-10T06:01:04.946Z",
       "id": "unp_e0fdf793-d546-4d52-b5ad-8b60b3901bb5",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/6/performanceRating
-       */
       "performanceRating": "VeryPoor",
       "platform": "android",
       "scanStatus": "passed",
@@ -196,15 +116,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "created_at": "2024-09-16T22:05:24.654Z",
       "id": "unp_1721aa0c-d1bd-482f-8fdd-0e9232b3e4f7",
       "impostorizerVersion": "1.0.1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/7/performanceRating
-       */
       "performanceRating": "None",
       "platform": "standalonewindows",
       "scanStatus": "unscanned",
@@ -216,15 +127,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "created_at": "2024-09-16T22:05:25.988Z",
       "id": "unp_952f2cb6-5020-4b54-88b1-1a755a58252b",
       "impostorizerVersion": "1.0.1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/8/performanceRating
-       */
       "performanceRating": "None",
       "platform": "android",
       "scanStatus": "unscanned",
@@ -236,15 +138,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "created_at": "2024-09-16T22:05:28.234Z",
       "id": "unp_34536fbf-4da2-4e02-8f7c-366882ca367a",
       "impostorizerVersion": "1.0.1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/9/performanceRating
-       */
       "performanceRating": "None",
       "platform": "ios",
       "scanStatus": "unscanned",
@@ -255,15 +148,6 @@ Unexpected property at #/unityPackages/10/performanceRating.
       "assetVersion": 1,
       "created_at": "2024-09-21T23:31:17.879Z",
       "id": "unp_52c87f6c-a5e4-47c6-bcbe-c61a4b1a58c0",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/10/performanceRating
-       */
       "performanceRating": "None",
       "platform": "ios",
       "scanStatus": "failed",
