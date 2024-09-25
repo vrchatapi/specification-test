@@ -85,7 +85,7 @@ Unexpected property at #/playerPersistenceEnabled.
   "name": "<unstable: string>",
   "ownerId": "<unstable: string>",
   "permanent": true,
-  "photonRegion": "use",
+  "photonRegion": "us",
   "platforms": "<unstable: object>",
   /**
    * Unexpected property.
@@ -100,7 +100,7 @@ Unexpected property at #/playerPersistenceEnabled.
   "queueEnabled": false,
   "queueSize": 0,
   "recommendedCapacity": 24,
-  "region": "use",
+  "region": "us",
   "roleRestricted": false,
   "secureName": "<unstable: string>",
   "shortName": null,
@@ -111,12 +111,15 @@ Unexpected property at #/playerPersistenceEnabled.
     "author_tag_hangout",
     "author_tag_chill",
     "author_tag_lounge",
-    "language_zxx",
     "language_eng",
+    "language_deu",
+    "language_fin",
     "show_social_rank",
+    "language_zxx",
     "language_spa",
-    "language_nld",
-    "language_rus"
+    "language_por",
+    "language_ase",
+    "language_jpn"
   ],
   "type": "<unstable: string>",
   "userCount": 23,
