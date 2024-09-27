@@ -4,14 +4,15 @@
 ```
 Response schema mismatch:
 
-Unexpected property at #/2data/max,
-Unexpected property at #/4/displayName,
-Unexpected property at #/4/description,
-Unexpected property at #/4/type,
-Unexpected property at #/6data/maxFavoritesPerGroup,
-Unexpected property at #/6data/maxFavoriteGroups,
-Unexpected property at #/7data/tags,
-Unexpected property at #/7data/badges.
+Unexpected property at #/0data/max,
+Unexpected property at #/3data/max,
+Unexpected property at #/5/displayName,
+Unexpected property at #/5/description,
+Unexpected property at #/5/type,
+Unexpected property at #/7data/maxFavoritesPerGroup,
+Unexpected property at #/7data/maxFavoriteGroups,
+Unexpected property at #/8data/tags,
+Unexpected property at #/8data/badges.
 ```
 
 ## Request
@@ -42,6 +43,24 @@ Unexpected property at #/7data/badges.
 ```jsonc
 [
   {
+    "id": "prms_f2ccb432-81d3-41d7-9af6-6d3893f1840f",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-user-stickers",
+    "data": {
+      /**
+       * Unexpected property.
+       *
+       * @schema unknown
+       * @keyword additionalProperties
+       *
+       * #/items/properties/data/additionalProperties
+       * #/0data/max
+       */
+      "max": 9
+    }
+  },
+  {
     "id": "prms_c32ac86d-9bb2-41f9-b086-681871d8b909",
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
     "ownerDisplayName": "Nyx",
@@ -68,7 +87,7 @@ Unexpected property at #/7data/badges.
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/2data/max
+       * #/3data/max
        */
       "max": 9
     }
@@ -92,7 +111,7 @@ Unexpected property at #/7data/badges.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/displayName
+     * #/5/displayName
      */
     "displayName": "",
     /**
@@ -102,7 +121,7 @@ Unexpected property at #/7data/badges.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/description
+     * #/5/description
      */
     "description": "",
     /**
@@ -112,7 +131,7 @@ Unexpected property at #/7data/badges.
      * @keyword additionalProperties
      *
      * #/items/additionalProperties
-     * #/4/type
+     * #/5/type
      */
     "type": "system",
     "data": {}
@@ -136,7 +155,7 @@ Unexpected property at #/7data/badges.
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/6data/maxFavoritesPerGroup
+       * #/7data/maxFavoritesPerGroup
        */
       "maxFavoritesPerGroup": {
         "avatar": 50
@@ -148,7 +167,7 @@ Unexpected property at #/7data/badges.
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/6data/maxFavoriteGroups
+       * #/7data/maxFavoriteGroups
        */
       "maxFavoriteGroups": {
         "avatar": 6
@@ -168,7 +187,7 @@ Unexpected property at #/7data/badges.
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/7data/tags
+       * #/8data/tags
        */
       "tags": [
         "system_supporter"
@@ -180,7 +199,7 @@ Unexpected property at #/7data/badges.
        * @keyword additionalProperties
        *
        * #/items/properties/data/additionalProperties
-       * #/7data/badges
+       * #/8data/badges
        */
       "badges": [
         "bdg_754f9935-0f97-49d8-b857-95afb9b673fa"
