@@ -121,12 +121,25 @@ test.serial(testOperation, "createGroupInvite", () => ({
 	statusCode: 200
 }));
 
-test.serial(testOperation, "getGroupInvites", () => ({
-	parameters: {
-		groupId: state.get("groupId")
-	},
-	statusCode: 200
-}));
+test.serial(
+	testOperation,
+	"getGroupInvites",
+	() => ({
+		parameters: {
+			groupId: state.get("groupId")
+		},
+		statusCode: 200
+	}),
+	(t) => {
+		const { body } = t.context;
+		t.true(Array.isArray(body));
+
+		(body as Array<any>).map((member) => {
+			unstableValues.add(member.id);
+			unstableValues.add(member.createdAt);
+		});
+	}
+);
 
 test.serial(testOperation, "deleteGroupInvite", () => ({
 	parameters: {

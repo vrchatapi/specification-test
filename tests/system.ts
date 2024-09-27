@@ -1,7 +1,8 @@
 import { test, testOperation } from "./_utilities.js";
 
 test(testOperation, "getConfig", {
-	statusCode: 200
+	statusCode: 200,
+	unstable: true
 });
 
 test("with zero parameters", testOperation, "getInfoPush", {

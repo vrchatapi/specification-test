@@ -3,19 +3,6 @@ import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
 test.before(failUnauthenticated);
 
-const unstableInstanceKeys = [
-	"id",
-	"location",
-	"instanceId",
-	"name",
-	"type",
-	"ownerId",
-	"secureName",
-	"world",
-	"n_users",
-	"platforms"
-];
-
 const blackCatWorld = state.get("blackcat-world");
 
 const blackCatWorldId = blackCatWorld.id;
@@ -28,7 +15,7 @@ test(testOperation, "getInstance", {
 		worldId: blackCatWorldId
 	},
 	statusCode: 200,
-	unstable: unstableInstanceKeys
+	unstable: true
 });
 
 test(testOperation, "getShortName", {

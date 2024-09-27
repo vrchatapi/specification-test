@@ -2,19 +2,20 @@ import { state } from "./_cache.js";
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
 export const blackCatWorldId = "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b";
+export const vrchatHomeWorldId = "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd";
 
 const unstableWorldKeys = [
 	"imageUrl",
 	"thumbnailImageUrl",
 	"version",
 	"favorites",
-	"unityPackages",
 	"updated_at",
 	"visits",
 	"popularity",
 	"heat",
 	"publicOccupants",
 	"privateOccupants",
+	"udonProducts",
 	"occupants",
 	"instances"
 ];
@@ -57,7 +58,7 @@ test(
 			worldId: blackCatWorldId
 		},
 		statusCode: 200,
-		unstable: unstableWorldKeys
+		unstable: [...unstableWorldKeys, "unityPackages"]
 	},
 	(t) => {
 		t.is(
@@ -66,6 +67,26 @@ test(
 			"Should have the correct world id"
 		);
 		state.set("blackcat-world", t.context.body);
+	}
+);
+
+test(
+	"(VRChat Home)",
+	testOperation,
+	"getWorld",
+	{
+		parameters: {
+			worldId: vrchatHomeWorldId
+		},
+		statusCode: 200,
+		unstable: unstableWorldKeys
+	},
+	(t) => {
+		t.is(
+			t.context.body.id,
+			vrchatHomeWorldId,
+			"Should have the correct world id"
+		);
 	}
 );
 
