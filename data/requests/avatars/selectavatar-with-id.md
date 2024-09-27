@@ -36,7 +36,7 @@
   "currentAvatar": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
   "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_84e00c33-6b87-44eb-830a-757b56b62e8e/1/variant/security?v=1",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
-  "currentAvatarTags": [],
+  "currentAvatarTags": "<unstable: empty array>",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",
   "date_joined": "2023-04-11",
   "developerType": "none",

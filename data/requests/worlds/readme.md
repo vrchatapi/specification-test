@@ -28,6 +28,7 @@ Delete a world. Notice a world is never fully "deleted", only its ReleaseStatus 
 Get information about a specific World.
 Works unauthenticated but when so will always return `0` for certain fields.
 * [getWorld by id](./getworld-by-id.md)
+* [getWorld (VRChat Home)](./getworld-(vrchat-home).md)
 
 ## Update World
 Update information about a specific World.
