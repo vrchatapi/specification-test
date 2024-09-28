@@ -118,7 +118,10 @@ function normalizeSchema(schema: OpenAPIV3.SchemaObject): Schema {
 				})
 			);
 		}
-		newSchema.additionalProperties = false;
+		newSchema.additionalProperties =
+			schema.additionalProperties == undefined
+				? false
+				: schema.additionalProperties;
 	} else if (schemaType === "array") {
 		if (schema.items && "type" in schema.items) {
 			newSchema.items = normalizeSchema(schema.items);

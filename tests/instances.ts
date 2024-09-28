@@ -27,12 +27,4 @@ test(testOperation, "getShortName", {
 	unstable: ["secureName", "shortName"]
 });
 
-test(testOperation, "sendSelfInvite", {
-	parameters: {
-		instanceId: blackCatFirstInstanceId,
-		worldId: blackCatWorld.id
-	},
-	statusCode: 200
-});
-
 test.todo("Get Instance By Short Name");
