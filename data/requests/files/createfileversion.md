@@ -1,7 +1,7 @@
 # createFileVersion
 
 ## Request
-`post https://vrchat.com/api/1/file/<unstable>`
+`POST https://vrchat.com/api/1/file/<unstable>`
 
 | Header | Value |
 | ------ | ----- |

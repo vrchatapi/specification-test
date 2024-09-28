@@ -1,7 +1,7 @@
 # deleteGroupInvite
 
 ## Request
-`delete https://vrchat.com/api/1/groups/<unstable>/invites/usr_9e10ea3e-8115-4b51-9076-b1792215d57e`
+`DELETE https://vrchat.com/api/1/groups/<unstable>/invites/usr_9e10ea3e-8115-4b51-9076-b1792215d57e`
 
 | Header | Value |
 | ------ | ----- |

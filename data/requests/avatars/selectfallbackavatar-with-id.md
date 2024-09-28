@@ -1,7 +1,7 @@
 # selectFallbackAvatar with id
 
 ## Request
-`put https://vrchat.com/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
+`PUT https://vrchat.com/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
 
 | Header | Value |
 | ------ | ----- |

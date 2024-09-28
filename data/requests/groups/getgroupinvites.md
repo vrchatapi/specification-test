@@ -1,15 +1,11 @@
 # getGroupInvites
 
 ## Issues
-```
 Response schema mismatch:
-
-Unexpected property at #/0/acceptedByDisplayName,
-Unexpected property at #/0/acceptedById.
-```
-
+* Unexpected property at ``#/0/acceptedByDisplayName``,
+* Unexpected property at ``#/0/acceptedById``.
 ## Request
-`get https://vrchat.com/api/1/groups/<unstable>/invites`
+`GET https://vrchat.com/api/1/groups/<unstable>/invites`
 
 | Header | Value |
 | ------ | ----- |
@@ -36,25 +32,7 @@ Unexpected property at #/0/acceptedById.
 ```jsonc
 [
   {
-    /**
-     * Unexpected property.
-     *
-     * @schema GroupMember
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/0/acceptedByDisplayName
-     */
     "acceptedByDisplayName": "8cf3def6b8cea",
-    /**
-     * Unexpected property.
-     *
-     * @schema GroupMember
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/0/acceptedById
-     */
     "acceptedById": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "bannedAt": null,
     "createdAt": "<unstable>",

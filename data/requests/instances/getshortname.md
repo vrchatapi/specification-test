@@ -1,12 +1,9 @@
 # getShortName
 
 ## Issues
-```
-Response media type "application/json; charset=utf-8" not expected.
-```
-
+Response media type ``application/json; charset=utf-8`` not expected.
 ## Request
-`get https://vrchat.com/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>/shortName`
+`GET https://vrchat.com/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>/shortName`
 
 | Header | Value |
 | ------ | ----- |

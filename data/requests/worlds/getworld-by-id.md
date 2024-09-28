@@ -1,14 +1,10 @@
 # getWorld by id
 
 ## Issues
-```
 Response schema mismatch:
-
-Unexpected property at #/storeId.
-```
-
+* Unexpected property at ``#/storeId``.
 ## Request
-`get https://vrchat.com/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
+`GET https://vrchat.com/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
 
 | Header | Value |
 | ------ | ----- |
@@ -56,15 +52,6 @@ Unexpected property at #/storeId.
   "publicationDate": "2021-04-18T23:17:33.390Z",
   "recommendedCapacity": 24,
   "releaseStatus": "public",
-  /**
-   * Unexpected property.
-   *
-   * @schema World
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/storeId
-   */
   "storeId": null,
   "tags": [
     "author_tag_bar",

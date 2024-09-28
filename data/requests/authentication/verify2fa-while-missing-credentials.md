@@ -1,7 +1,7 @@
 # verify2FA while missing credentials
 
 ## Request
-`post https://vrchat.com/api/1/auth/twofactorauth/totp/verify`
+`POST https://vrchat.com/api/1/auth/twofactorauth/totp/verify`
 
 | Header | Value |
 | ------ | ----- |

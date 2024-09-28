@@ -1,7 +1,7 @@
 # searchUsers
 
 ## Request
-`get https://vrchat.com/api/1/users?search=tupper`
+`GET https://vrchat.com/api/1/users?search=tupper`
 
 | Header | Value |
 | ------ | ----- |

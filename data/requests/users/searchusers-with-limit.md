@@ -1,7 +1,7 @@
 # searchUsers with limit
 
 ## Request
-`get https://vrchat.com/api/1/users?n=5&search=a`
+`GET https://vrchat.com/api/1/users?n=5&search=a`
 
 | Header | Value |
 | ------ | ----- |

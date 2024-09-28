@@ -1,14 +1,10 @@
 # getJavaScript
 
 ## Issues
-```
 Response schema mismatch:
-
 Unexpected token '/', "/*! For li"... is not valid JSON.
-```
-
 ## Request
-`get https://vrchat.com/api/1/js/app.js`
+`GET https://vrchat.com/api/1/js/app.js`
 
 | Header | Value |
 | ------ | ----- |

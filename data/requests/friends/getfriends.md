@@ -1,7 +1,7 @@
 # getFriends
 
 ## Request
-`get https://vrchat.com/api/1/auth/user/friends`
+`GET https://vrchat.com/api/1/auth/user/friends`
 
 | Header | Value |
 | ------ | ----- |

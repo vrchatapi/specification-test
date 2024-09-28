@@ -1,7 +1,7 @@
 # updateGroup
 
 ## Request
-`put https://vrchat.com/api/1/groups/<unstable>`
+`PUT https://vrchat.com/api/1/groups/<unstable>`
 
 | Header | Value |
 | ------ | ----- |

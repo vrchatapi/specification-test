@@ -2,22 +2,22 @@
 
 ## List Notifications
 Retrieve all of the current user's notifications.
-* [getNotifications](./getnotifications.md)
 
+* [getNotifications](./getnotifications.md)
 ## Accept Friend Request
 Accept a friend request by notification `frq_` ID. Friend requests can be found using the NotificationsAPI `getNotifications` by filtering of type `friendRequest`.
-> Missing coverage.
 
+> Missing coverage.
 ## Mark Notification As Read
 Mark a notification as seen.
-> Missing coverage.
 
+> Missing coverage.
 ## Delete Notification
 Delete a notification.
-> Missing coverage.
 
+> Missing coverage.
 ## Clear All Notifications
 Clear **all** notifications.
-> Missing coverage.
 
+> Missing coverage.
 	

@@ -1,7 +1,7 @@
 # getFile
 
 ## Request
-`get https://vrchat.com/api/1/file/<unstable>`
+`GET https://vrchat.com/api/1/file/<unstable>`
 
 | Header | Value |
 | ------ | ----- |

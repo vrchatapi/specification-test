@@ -1,7 +1,7 @@
 # downloadFileVersion
 
 ## Request
-`get https://vrchat.com/api/1/file/<unstable>/0`
+`GET https://vrchat.com/api/1/file/<unstable>/0`
 
 | Header | Value |
 | ------ | ----- |

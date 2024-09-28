@@ -1,14 +1,10 @@
 # getGroup
 
 ## Issues
-```
 Response schema mismatch:
-
-Unexpected property at #/badges.
-```
-
+* Unexpected property at ``#/badges``.
 ## Request
-`get https://vrchat.com/api/1/groups/<unstable>`
+`GET https://vrchat.com/api/1/groups/<unstable>`
 
 | Header | Value |
 | ------ | ----- |
@@ -34,15 +30,6 @@ Unexpected property at #/badges.
 
 ```jsonc
 {
-  /**
-   * Unexpected property.
-   *
-   * @schema Group
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/badges
-   */
   "badges": [],
   "bannerId": null,
   "bannerUrl": "https://assets.vrchat.com/www/groups/default_banner.png",

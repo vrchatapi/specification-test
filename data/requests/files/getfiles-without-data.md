@@ -1,7 +1,7 @@
 # getFiles without data
 
 ## Request
-`get https://vrchat.com/api/1/files?tag=gallery`
+`GET https://vrchat.com/api/1/files?tag=gallery`
 
 | Header | Value |
 | ------ | ----- |

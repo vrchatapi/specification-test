@@ -1,7 +1,7 @@
 # getFavoritedWorlds
 
 ## Request
-`get https://vrchat.com/api/1/worlds/favorites`
+`GET https://vrchat.com/api/1/worlds/favorites`
 
 | Header | Value |
 | ------ | ----- |

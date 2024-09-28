@@ -1,7 +1,7 @@
 # searchAvatars with zero parameters
 
 ## Request
-`get https://vrchat.com/api/1/avatars`
+`GET https://vrchat.com/api/1/avatars`
 
 | Header | Value |
 | ------ | ----- |

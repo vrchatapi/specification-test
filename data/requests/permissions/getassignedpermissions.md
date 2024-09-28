@@ -1,22 +1,18 @@
 # getAssignedPermissions
 
 ## Issues
-```
 Response schema mismatch:
-
-Unexpected property at #/0data/max,
-Unexpected property at #/3data/max,
-Unexpected property at #/5/displayName,
-Unexpected property at #/5/description,
-Unexpected property at #/5/type,
-Unexpected property at #/7data/maxFavoritesPerGroup,
-Unexpected property at #/7data/maxFavoriteGroups,
-Unexpected property at #/8data/tags,
-Unexpected property at #/8data/badges.
-```
-
+* Unexpected property at ``#/0data/max``,
+* Unexpected property at ``#/3data/max``,
+* Unexpected property at ``#/5/displayName``,
+* Unexpected property at ``#/5/description``,
+* Unexpected property at ``#/5/type``,
+* Unexpected property at ``#/7data/maxFavoritesPerGroup``,
+* Unexpected property at ``#/7data/maxFavoriteGroups``,
+* Unexpected property at ``#/8data/tags``,
+* Unexpected property at ``#/8data/badges``.
 ## Request
-`get https://vrchat.com/api/1/auth/permissions`
+`GET https://vrchat.com/api/1/auth/permissions`
 
 | Header | Value |
 | ------ | ----- |
@@ -48,15 +44,6 @@ Unexpected property at #/8data/badges.
     "ownerDisplayName": "Nyx",
     "name": "permission-user-stickers",
     "data": {
-      /**
-       * Unexpected property.
-       *
-       * @schema unknown
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/0data/max
-       */
       "max": 9
     }
   },
@@ -80,15 +67,6 @@ Unexpected property at #/8data/badges.
     "ownerDisplayName": "Nyx",
     "name": "permission-user-emoji",
     "data": {
-      /**
-       * Unexpected property.
-       *
-       * @schema unknown
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/3data/max
-       */
       "max": 9
     }
   },
@@ -104,35 +82,8 @@ Unexpected property at #/8data/badges.
     "ownerId": "usr_23643ec7-e88a-4acc-acb7-17f3964e9cf9",
     "ownerDisplayName": "Nifty255",
     "name": "permission-groups-create",
-    /**
-     * Unexpected property.
-     *
-     * @schema Permission
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/5/displayName
-     */
     "displayName": "",
-    /**
-     * Unexpected property.
-     *
-     * @schema Permission
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/5/description
-     */
     "description": "",
-    /**
-     * Unexpected property.
-     *
-     * @schema Permission
-     * @keyword additionalProperties
-     *
-     * #/items/additionalProperties
-     * #/5/type
-     */
     "type": "system",
     "data": {}
   },
@@ -148,27 +99,9 @@ Unexpected property at #/8data/badges.
     "ownerDisplayName": "Arctor",
     "name": "permission-extra-favorites-avatar-groups",
     "data": {
-      /**
-       * Unexpected property.
-       *
-       * @schema unknown
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/7data/maxFavoritesPerGroup
-       */
       "maxFavoritesPerGroup": {
         "avatar": 50
       },
-      /**
-       * Unexpected property.
-       *
-       * @schema unknown
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/7data/maxFavoriteGroups
-       */
       "maxFavoriteGroups": {
         "avatar": 6
       }
@@ -180,27 +113,9 @@ Unexpected property at #/8data/badges.
     "ownerDisplayName": "Arctor",
     "name": "permission-supporter-tags",
     "data": {
-      /**
-       * Unexpected property.
-       *
-       * @schema unknown
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/8data/tags
-       */
       "tags": [
         "system_supporter"
       ],
-      /**
-       * Unexpected property.
-       *
-       * @schema unknown
-       * @keyword additionalProperties
-       *
-       * #/items/properties/data/additionalProperties
-       * #/8data/badges
-       */
       "badges": [
         "bdg_754f9935-0f97-49d8-b857-95afb9b673fa"
       ]

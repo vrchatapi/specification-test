@@ -1,7 +1,7 @@
 # selectAvatar with default avatar id
 
 ## Request
-`put https://vrchat.com/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
+`PUT https://vrchat.com/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
 | Header | Value |
 | ------ | ----- |

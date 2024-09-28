@@ -1,16 +1,12 @@
 # getSteamTransactions
 
 ## Issues
-```
 Response schema mismatch:
-
-Invalid type at #/0/agreement,
-Invalid type at #/1/agreement,
-Invalid type at #/2/agreement.
-```
-
+* Invalid type at ``#/0/agreement``,
+* Invalid type at ``#/1/agreement``,
+* Invalid type at ``#/2/agreement``.
 ## Request
-`get https://vrchat.com/api/1/Steam/transactions`
+`GET https://vrchat.com/api/1/Steam/transactions`
 
 | Header | Value |
 | ------ | ----- |
@@ -52,15 +48,6 @@ Invalid type at #/2/agreement.
       "steamUrl": "",
       "transId": "3254460074228293216"
     },
-    /**
-     * Invalid type.
-     *
-     * @schema TransactionAgreement
-     * @keyword type
-     *
-     * #/items/properties/agreement/type
-     * #/0/agreement
-     */
     "agreement": "",
     "status": "failed",
     "sandbox": false,
@@ -95,15 +82,6 @@ Invalid type at #/2/agreement.
       "steamUrl": "",
       "transId": "3254460074228326291"
     },
-    /**
-     * Invalid type.
-     *
-     * @schema TransactionAgreement
-     * @keyword type
-     *
-     * #/items/properties/agreement/type
-     * #/1/agreement
-     */
     "agreement": "",
     "status": "failed",
     "sandbox": false,
@@ -138,15 +116,6 @@ Invalid type at #/2/agreement.
       "steamUrl": "",
       "transId": "3254460074228531644"
     },
-    /**
-     * Invalid type.
-     *
-     * @schema TransactionAgreement
-     * @keyword type
-     *
-     * #/items/properties/agreement/type
-     * #/2/agreement
-     */
     "agreement": "",
     "status": "failed",
     "sandbox": false,

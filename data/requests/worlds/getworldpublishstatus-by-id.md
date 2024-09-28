@@ -1,7 +1,7 @@
 # getWorldPublishStatus by id
 
 ## Request
-`get https://vrchat.com/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/publish`
+`GET https://vrchat.com/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/publish`
 
 | Header | Value |
 | ------ | ----- |

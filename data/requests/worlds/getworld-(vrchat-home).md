@@ -1,16 +1,12 @@
 # getWorld (VRChat Home)
 
 ## Issues
-```
 Response schema mismatch:
-
-Unexpected property at #/unityPackages/9/worldSignature,
-Unexpected property at #/unityPackages/21/worldSignature,
-Unexpected property at #/storeId.
-```
-
+* Unexpected property at ``#/unityPackages/9/worldSignature``,
+* Unexpected property at ``#/unityPackages/21/worldSignature``,
+* Unexpected property at ``#/storeId``.
 ## Request
-`get https://vrchat.com/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
+`GET https://vrchat.com/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
 
 | Header | Value |
 | ------ | ----- |
@@ -58,15 +54,6 @@ Unexpected property at #/storeId.
   "publicationDate": "2022-10-01T02:55:15.725Z",
   "recommendedCapacity": 8,
   "releaseStatus": "public",
-  /**
-   * Unexpected property.
-   *
-   * @schema World
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/storeId
-   */
   "storeId": null,
   "tags": [
     "admin_approved",
@@ -197,15 +184,6 @@ Unexpected property at #/storeId.
       "platform": "android",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/9/worldSignature
-       */
       "worldSignature": "AHiPAWerwCpeYrxDthF5TU2SdUWEWnm43UAn8PKRXlS8k8tVRQ=="
     },
     {
@@ -336,15 +314,6 @@ Unexpected property at #/storeId.
       "platform": "standalonewindows",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
-      /**
-       * Unexpected property.
-       *
-       * @schema UnityPackage
-       * @keyword additionalProperties
-       *
-       * #/properties/unityPackages/items/additionalProperties
-       * #/unityPackages/21/worldSignature
-       */
       "worldSignature": "AOMGxZjjE2TpIIhfSxtwqc1c2/m7HoE3uLAnQzK9eHJIbtB9cQ=="
     }
   ],

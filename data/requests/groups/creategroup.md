@@ -1,7 +1,7 @@
 # createGroup
 
 ## Request
-`post https://vrchat.com/api/1/groups`
+`POST https://vrchat.com/api/1/groups`
 
 | Header | Value |
 | ------ | ----- |

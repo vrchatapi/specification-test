@@ -1,7 +1,7 @@
 # createFile
 
 ## Request
-`post https://vrchat.com/api/1/file`
+`POST https://vrchat.com/api/1/file`
 
 | Header | Value |
 | ------ | ----- |

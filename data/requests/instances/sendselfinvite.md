@@ -1,15 +1,11 @@
 # sendSelfInvite
 
 ## Issues
-```
 Response schema mismatch:
-
-Unexpected property at #/error,
-Unexpected property at #/status_code.
-```
-
+* Unexpected property at ``#/error``,
+* Unexpected property at ``#/status_code``.
 ## Request
-`post https://vrchat.com/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>/invite`
+`POST https://vrchat.com/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>/invite`
 
 | Header | Value |
 | ------ | ----- |
@@ -34,25 +30,7 @@ Unexpected property at #/status_code.
 
 ```jsonc
 {
-  /**
-   * Unexpected property.
-   *
-   * @schema Success
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/error
-   */
   "error": "The endpoint you're looking for is not implemented by our system.",
-  /**
-   * Unexpected property.
-   *
-   * @schema Success
-   * @keyword additionalProperties
-   *
-   * #/additionalProperties
-   * #/status_code
-   */
   "status_code": 404
 }
 ```

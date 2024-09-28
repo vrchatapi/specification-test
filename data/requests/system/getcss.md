@@ -1,14 +1,10 @@
 # getCSS
 
 ## Issues
-```
 Response schema mismatch:
-
 Unexpected token ':', ":root{--st"... is not valid JSON.
-```
-
 ## Request
-`get https://vrchat.com/api/1/css/app.css`
+`GET https://vrchat.com/api/1/css/app.css`
 
 | Header | Value |
 | ------ | ----- |

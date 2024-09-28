@@ -1,7 +1,7 @@
 # getUser
 
 ## Request
-`get https://vrchat.com/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
+`GET https://vrchat.com/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 
 | Header | Value |
 | ------ | ----- |

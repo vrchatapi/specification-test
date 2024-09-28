@@ -1,7 +1,7 @@
 # getCurrentOnlineUsers
 
 ## Request
-`get https://vrchat.com/api/1/visits`
+`GET https://vrchat.com/api/1/visits`
 
 | Header | Value |
 | ------ | ----- |
