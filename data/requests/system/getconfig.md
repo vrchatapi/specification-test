@@ -2,9 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/ReplicaDashboardTicketHandlerTransmittion``,
 * Unexpected property at ``#/RolloutBlock``,
-* Unexpected property at ``#/YamlUpdateClothPaperAnimator``,
 * Unexpected property at ``#/alertDebounce``,
 * Unexpected property at ``#/analyticsSegment_NewUI_PctOfUsers``,
 * Unexpected property at ``#/analyticsSegment_NewUI_Salt``,
@@ -19,6 +17,7 @@ Response schema mismatch:
 * Unexpected property at ``#/jwtKeywordListener``,
 * Unexpected property at ``#/minSupportedClientBuildNumber``,
 * Unexpected property at ``#/minimumUnityVersionForUploads``,
+* Unexpected property at ``#/notifySwarmDeviceApi``,
 * Unexpected property at ``#/offlineAnalysis``,
 * Unexpected property at ``#/pasteClipboardMarker``,
 * Unexpected property at ``#/photonNameserverOverrides``,
@@ -27,6 +26,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportFormUrl``,
 * Unexpected property at ``#/reportOptions``,
 * Unexpected property at ``#/reportReasons``,
+* Unexpected property at ``#/schedulingInterface``,
 * Unexpected property at ``#/shardHome``,
 * Unexpected property at ``#/syscallNewsTotalRttCiabatta``,
 * Unexpected property at ``#/tcpOfflineMethodCrema``,
