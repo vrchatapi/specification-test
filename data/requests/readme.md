@@ -85,12 +85,10 @@ Response schema mismatch:
 
 ## [Instances](/data/requests/instances)
 
-#### [getShortName](/data/requests/instances/getshortname.md)
-
-Response schema mismatch:
-* Invalid type at ``#/shortName``.
-
 #### [getInstance](/data/requests/instances/getinstance.md)
+
+
+#### [getShortName](/data/requests/instances/getshortname.md)
 
 
 
@@ -274,11 +272,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/constants/LANGUAGE/SPOKEN_LANGUAGE_OPTIONS/afr``,
-* Unexpected property at ``#/constants/LANGUAGE/SPOKEN_LANGUAGE_OPTIONS/ara``,
-* Unexpected property at ``#/constants/LANGUAGE/SPOKEN_LANGUAGE_OPTIONS/ase``,
+* Missing property at ``#/minSupportedClientBuildNumber/Default/redirectionAddress``,
+* Unexpected property at ``#/reportOptions/avatar``,
+* Unexpected property at ``#/reportOptions/group``,
 
-*85 issues truncated.*
+*17 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
