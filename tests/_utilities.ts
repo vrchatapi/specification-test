@@ -148,6 +148,18 @@ function parseSchema(schema: OpenAPIV3.SchemaObject, value: string) {
 	}
 }
 
+function pick<T, K extends keyof T>(
+	object: T,
+	keys: Array<K>
+): { [k in K]: T[k] } {
+	const newObject: Partial<T> = {};
+	for (const key of keys) {
+		newObject[key] = object[key];
+	}
+
+	return newObject as { [k in K]: T[k] };
+}
+
 let lastRequestAt: number | null = null;
 
 export async function fetch(
@@ -296,13 +308,68 @@ test.before(async (t) => {
 });
 
 test.after.always(async (t) => {
-	const groupOperations = Object.entries(t.context.operations).filter(
-		([, operation]) => operation.tags?.includes(t.context.testGroup)
+	const testGroupNames = [
+		...new Set([
+			...(state.get<Array<string>>("groups") || []),
+			t.context.testGroup
+		])
+	];
+
+	state.set("groups", testGroupNames);
+
+	const testGroups = testGroupNames.map(
+		(testGroup) =>
+			[
+				testGroup,
+				state.get<
+					Record<
+						string,
+						{
+							operationId: string;
+							failLogs: Array<string>;
+						}
+					>
+				>(`tests/${testGroup}`) ?? []
+			] as const
+	);
+
+	cache.set(
+		"requests",
+		"readme.md",
+		`# Overview
+
+${testGroups
+	.map(([testGroupName, testGroup]) => {
+		return `## [${capitalCase(testGroupName)}](/data/requests/${testGroupName})
+
+${Object.entries(testGroup)
+	.sort(([, { failLogs }]) => (failLogs?.length ? -1 : 0))
+	.map(([testTitle, { failLogs }]) => {
+		return `#### [${testTitle}](/data/requests/${testGroupName}/${normalizeTestTitle(testTitle)}.md)
+${!failLogs || failLogs.length === 0 ? "" : `\n${failLogs}`}`;
+	})
+	.join("\n")}
+`;
+	})
+	.join("\n\n")}
+
+`
 	);
 
 	const completeTests =
-		state.get<Record<string, Array<string>>>(`tests-${t.context.testGroup}`) ??
-		[];
+		state.get<
+			Record<
+				string,
+				{
+					operationId: string;
+					failLogs: Array<string>;
+				}
+			>
+		>(`tests/${t.context.testGroup}`) ?? [];
+
+	const groupOperations = Object.entries(t.context.operations).filter(
+		([, operation]) => operation.tags?.includes(t.context.testGroup)
+	);
 
 	cache.set(
 		"requests",
@@ -311,20 +378,15 @@ test.after.always(async (t) => {
 
 ${groupOperations
 	.map(([operationId, operation]) => {
-		const [, completedGroupTests] = Object.entries(completeTests).find(
-			([completedOperationId]) => completedOperationId === operationId
-		) ?? [null, []];
+		const completedGroupTests =
+			Object.entries(completeTests).filter(
+				([, { operationId: a }]) => a === operationId
+			) || [];
 
 		return `## ${operation.summary}
 ${operation.description ?? ""}
-${
-	completedGroupTests.length > 0
-		? completedGroupTests
-				.map((test) => `* [${test}](./${normalizeTestTitle(test)}.md)`)
-				.join("\n")
-		: `> Missing coverage.`
-}
-`;
+
+${completedGroupTests.length === 0 ? `> Missing coverage.` : completedGroupTests.map(([testTitle]) => `* [${testTitle}](./${normalizeTestTitle(testTitle)}.md)`).join("\n")}`;
 	})
 	.join("\n")}
 	`
@@ -412,7 +474,7 @@ export async function fetchOperation(
 	if (!operation.parameters && parameterKeys.length > 0)
 		return failLog(
 			t,
-			`Operation has no parameters defined, expected "${parameterKeys.join(", ")}"`
+			`Operation has no parameters defined, expected \`\`${parameterKeys.join(", ")}\`\``
 		);
 
 	for (const [name, value] of Object.entries(parameters)) {
@@ -421,7 +483,7 @@ export async function fetchOperation(
 		);
 
 		if (!parameter || !("in" in parameter))
-			return failLog(t, `Parameter "${name}" not defined`);
+			return failLog(t, `Parameter \`\`${name}\`\` not defined`);
 
 		switch (parameter.in) {
 			case "query": {
@@ -438,7 +500,7 @@ export async function fetchOperation(
 			default: {
 				return failLog(
 					t,
-					`Parameter "${name}" with type "${parameter.in}" not supported`
+					`Parameter \`\`${name}\`\` with type \`\`${parameter.in}\`\` not supported`
 				);
 			}
 		}
@@ -448,7 +510,7 @@ export async function fetchOperation(
 	if (!operation.security && securityKeys.length > 0)
 		return failLog(
 			t,
-			`Operation has no security defined, expected "${securityKeys.join(", ")}"`
+			`Operation has no security defined, expected \`\`${securityKeys.join(", ")}\`\``
 		);
 
 	for (const [name, value] of Object.entries(security)) {
@@ -456,12 +518,12 @@ export async function fetchOperation(
 		sensitiveValues.add(String(value));
 
 		if (!security || !("type" in security))
-			return failLog(t, `Security scheme "${name}" not defined`);
+			return failLog(t, `Security scheme \`\`${name}\`\` not defined`);
 
 		switch (security.type) {
 			case "http": {
 				if (security.scheme !== "basic")
-					return failLog(t, `Security scheme "${name}" not supported`);
+					return failLog(t, `Security scheme \`\`${name}\`\` not supported`);
 
 				requestOptions.headers = {
 					authorization: `Basic ${value}`
@@ -469,12 +531,12 @@ export async function fetchOperation(
 				break;
 			}
 			case "apiKey": {
-				return failLog(t, `Security scheme "${name}" not supported`);
+				return failLog(t, `Security scheme \`\`${name}\`\` not supported`);
 			}
 			default: {
 				return failLog(
 					t,
-					`Security scheme "${name}" with type "${security.type}" not supported`
+					`Security scheme \`\`${name}\`\` with type \`\`${security.type}\`\` not supported`
 				);
 			}
 		}
@@ -484,14 +546,14 @@ export async function fetchOperation(
 		if (!operation.requestBody || !("content" in operation.requestBody))
 			return failLog(
 				t,
-				`Operation has no request body defined but got "${tryStringify(requestBody)}"`
+				`Operation has no request body defined but got \`\`${tryStringify(requestBody)}\`\``
 			);
 
 		const mediaType = operation.requestBody.content["application/json"];
 		if (!mediaType || !mediaType.schema || !("type" in mediaType.schema))
 			return failLog(
 				t,
-				`Operation request body media type "application/json" not defined`
+				`Operation request body media type \`\`application/json\`\` not defined`
 			);
 
 		const { error, value } = parseSchema(
@@ -561,7 +623,9 @@ export const testOperation = test.macro<TestOperationArguments>({
 		t.context.response = response;
 		//t.is(response.status, options.statusCode, "Unexpected status code");
 		if (response.status !== options.statusCode)
-			t.context.failLogs?.push([`Unexpected status code: ${response.status}`]);
+			t.context.failLogs?.push([
+				`Unexpected status code: \`\`${response.status}\`\``
+			]);
 
 		const contentType =
 			response.headers.get("content-type") ?? "application/json";
@@ -586,14 +650,19 @@ export const testOperation = test.macro<TestOperationArguments>({
 			}
 
 			const completeTests =
-				state.get<Record<string, Array<string>>>(
-					`tests-${t.context.testGroup}`
+				state.get<Record<string, Record<string, unknown>>>(
+					`tests/${t.context.testGroup}`
 				) ?? [];
-			state.set(`tests-${t.context.testGroup}`, {
+
+			state.set(`tests/${t.context.testGroup}`, {
 				...completeTests,
-				[operationId]: [
+				[t.title]: {
+					operationId,
+					...pick(t.context, ["failLogs"])
+				}
+				/* [
 					...new Set([...(completeTests[operationId] ?? []), t.title])
-				]
+				] */
 			});
 
 			const responseText =
@@ -662,18 +731,11 @@ ${
 	t.context.failLogs
 		? `
 ## Issues
-${t.context.failLogs
-	.map(
-		(v) => `\`\`\`
-${v}
-\`\`\``
-	)
-	.join("\n")}
-`
+${t.context.failLogs.join("\n\n")}`
 		: ""
 }
 ## Request
-\`${requestOptions.method} ${url.href}\`
+\`${requestOptions.method?.toUpperCase()} ${url.href}\`
 
 | Header | Value |
 | ------ | ----- |
@@ -712,7 +774,7 @@ ${responseText}
 			)?.[1];
 
 			if (!mediaType)
-				issues.push(`Response media type "${contentType}" not expected.`);
+				issues.push(`Response media type \`\`${contentType}\`\` not expected.`);
 
 			if (mediaType) {
 				if (!mediaType.schema || !("type" in mediaType.schema)) return t.pass();
@@ -726,11 +788,10 @@ ${responseText}
 				t.context.body = value || tryJsonParse(body);
 
 				if (error) {
-					t.context.schemaIssues = errors;
+					t.context.schemaIssues = []; //errors;
 
 					issues.push(
 						`Response schema mismatch:
-
 ${
 	errors.length > 0
 		? errors
@@ -740,7 +801,7 @@ ${
 						? keywordMessages[keyword as keyof typeof keywordMessages]
 						: `failed ${keyword}`;
 
-					return `${message} at ${error.instanceLocation}`;
+					return `* ${message} at \`\`${error.instanceLocation}\`\``;
 				})
 				.join(",\n")
 		: error
