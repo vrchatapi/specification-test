@@ -148,18 +148,6 @@ function parseSchema(schema: OpenAPIV3.SchemaObject, value: string) {
 	}
 }
 
-function pick<T, K extends keyof T>(
-	object: T,
-	keys: Array<K>
-): { [k in K]: T[k] } {
-	const newObject: Partial<T> = {};
-	for (const key of keys) {
-		newObject[key] = object[key];
-	}
-
-	return newObject as { [k in K]: T[k] };
-}
-
 let lastRequestAt: number | null = null;
 
 export async function fetch(
@@ -345,8 +333,21 @@ ${testGroups
 ${Object.entries(testGroup)
 	.sort(([, { failLogs }]) => (failLogs?.length ? -1 : 0))
 	.map(([testTitle, { failLogs }]) => {
-		return `#### [${testTitle}](/data/requests/${testGroupName}/${normalizeTestTitle(testTitle)}.md)
-${!failLogs || failLogs.length === 0 ? "" : `\n${failLogs}`}`;
+		const issues = failLogs.map((failLog) => failLog.split("\n")).flat(1);
+
+		const maximumLines = 4;
+		const truncated = issues.length > maximumLines;
+
+		const url = `/data/requests/${testGroupName}/${normalizeTestTitle(testTitle)}.md`;
+
+		return `#### [${testTitle}](${url})
+
+${
+	failLogs.length === 0
+		? ""
+		: `${issues.slice(0, maximumLines).join("\n")}
+${truncated ? `\n*${issues.length - maximumLines} issues truncated.*` : ""}`
+}`;
 	})
 	.join("\n")}
 `;
@@ -657,8 +658,8 @@ export const testOperation = test.macro<TestOperationArguments>({
 			state.set(`tests/${t.context.testGroup}`, {
 				...completeTests,
 				[t.title]: {
-					operationId,
-					...pick(t.context, ["failLogs"])
+					failLogs: t.context.failLogs?.flat(1) || [],
+					operationId
 				}
 				/* [
 					...new Set([...(completeTests[operationId] ?? []), t.title])
