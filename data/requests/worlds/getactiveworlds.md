@@ -1,17 +1,5 @@
 # getActiveWorlds
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/0/storeId``,
-* Unexpected property at ``#/1/storeId``,
-* Unexpected property at ``#/2/storeId``,
-* Unexpected property at ``#/3/storeId``,
-* Unexpected property at ``#/4/storeId``,
-* Unexpected property at ``#/5/storeId``,
-* Unexpected property at ``#/6/storeId``,
-* Unexpected property at ``#/7/storeId``,
-* Unexpected property at ``#/8/storeId``,
-* Unexpected property at ``#/9/storeId``.
 ## Request
 `GET https://vrchat.com/api/1/worlds/active`
 

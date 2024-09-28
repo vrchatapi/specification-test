@@ -4,9 +4,6 @@
 Response schema mismatch:
 * Unexpected property at ``#/0data/max``,
 * Unexpected property at ``#/3data/max``,
-* Unexpected property at ``#/5/displayName``,
-* Unexpected property at ``#/5/description``,
-* Unexpected property at ``#/5/type``,
 * Unexpected property at ``#/7data/maxFavoritesPerGroup``,
 * Unexpected property at ``#/7data/maxFavoriteGroups``,
 * Unexpected property at ``#/8data/tags``,

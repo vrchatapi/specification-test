@@ -1,8 +1,5 @@
 # getWorld by id
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/storeId``.
 ## Request
 `GET https://vrchat.com/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
 

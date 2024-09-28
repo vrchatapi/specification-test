@@ -1,9 +1,5 @@
 # getGroupInvites
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/0/acceptedByDisplayName``,
-* Unexpected property at ``#/0/acceptedById``.
 ## Request
 `GET https://vrchat.com/api/1/groups/<unstable>/invites`
 

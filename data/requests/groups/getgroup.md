@@ -1,8 +1,5 @@
 # getGroup
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/badges``.
 ## Request
 `GET https://vrchat.com/api/1/groups/<unstable>`
 

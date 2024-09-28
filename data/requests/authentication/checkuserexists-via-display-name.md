@@ -1,8 +1,5 @@
 # checkUserExists via display name
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/nameOk``.
 ## Request
 `GET https://vrchat.com/api/1/auth/exists?displayName=8cf3def6b8cea`
 

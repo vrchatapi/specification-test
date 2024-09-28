@@ -1,10 +1,5 @@
 # getWorld (VRChat Home)
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/unityPackages/9/worldSignature``,
-* Unexpected property at ``#/unityPackages/21/worldSignature``,
-* Unexpected property at ``#/storeId``.
 ## Request
 `GET https://vrchat.com/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
 

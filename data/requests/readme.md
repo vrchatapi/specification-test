@@ -2,16 +2,6 @@
 
 ## [Authentication](/data/requests/authentication)
 
-#### [checkUserExists via display name](/data/requests/authentication/checkuserexists-via-display-name.md)
-
-Response schema mismatch:
-* Missing property at ``#/nameOk``.
-
-#### [checkUserExists via email address](/data/requests/authentication/checkuserexists-via-email-address.md)
-
-Response schema mismatch:
-* Missing property at ``#/nameOk``.
-
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -38,6 +28,12 @@ Response schema mismatch:
 #### [checkUserExists with zero parameters](/data/requests/authentication/checkuserexists-with-zero-parameters.md)
 
 
+#### [checkUserExists via email address](/data/requests/authentication/checkuserexists-via-email-address.md)
+
+
+#### [checkUserExists via display name](/data/requests/authentication/checkuserexists-via-display-name.md)
+
+
 #### [checkUserExists via username](/data/requests/authentication/checkuserexists-via-username.md)
 
 
@@ -61,38 +57,22 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/unityPackages/9/worldSignature``,
-* Unexpected property at ``#/unityPackages/21/worldSignature``,
-* Unexpected property at ``#/storeId``.
-
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/storeId``.
 
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/storeId``,
-* Unexpected property at ``#/1/storeId``,
-* Unexpected property at ``#/2/storeId``,
 
-*7 issues truncated.*
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/storeId``,
-* Unexpected property at ``#/1/storeId``,
-* Unexpected property at ``#/2/storeId``,
-
-*7 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
+
+
+#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+
+
+#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
 
 #### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
@@ -105,24 +85,14 @@ Response schema mismatch:
 
 ## [Instances](/data/requests/instances)
 
-#### [sendSelfInvite](/data/requests/instances/sendselfinvite.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/error``,
-* Unexpected property at ``#/status_code``.
-
 #### [getShortName](/data/requests/instances/getshortname.md)
 
-Response media type ``application/json; charset=utf-8`` not expected.
+Response schema mismatch:
+* Invalid type at ``#/shortName``.
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/platforms/ios``,
-* Unexpected property at ``#/world/storeId``,
-* Unexpected property at ``#/displayName``,
 
-*3 issues truncated.*
 
 
 ## [Avatars](/data/requests/avatars)
@@ -225,18 +195,10 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
-#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
+#### [createGroup](/data/requests/groups/creategroup.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/acceptedByDisplayName``,
-* Unexpected property at ``#/0/acceptedById``.
 
 #### [getGroup](/data/requests/groups/getgroup.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/badges``.
-
-#### [createGroup](/data/requests/groups/creategroup.md)
 
 
 #### [getGroupMembers](/data/requests/groups/getgroupmembers.md)
@@ -246,6 +208,9 @@ Response schema mismatch:
 
 
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
+
+
+#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 
 #### [deleteGroupInvite](/data/requests/groups/deletegroupinvite.md)
@@ -270,9 +235,9 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/0data/max``,
 * Unexpected property at ``#/3data/max``,
-* Unexpected property at ``#/5/displayName``,
+* Unexpected property at ``#/7data/maxFavoritesPerGroup``,
 
-*6 issues truncated.*
+*3 issues truncated.*
 #### [getPermission](/data/requests/permissions/getpermission.md)
 
 
@@ -309,11 +274,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/RolloutBlock``,
-* Unexpected property at ``#/alertDebounce``,
-* Unexpected property at ``#/analyticsSegment_NewUI_PctOfUsers``,
+* Unexpected property at ``#/constants/LANGUAGE/SPOKEN_LANGUAGE_OPTIONS/afr``,
+* Unexpected property at ``#/constants/LANGUAGE/SPOKEN_LANGUAGE_OPTIONS/ara``,
+* Unexpected property at ``#/constants/LANGUAGE/SPOKEN_LANGUAGE_OPTIONS/ase``,
 
-*33 issues truncated.*
+*85 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

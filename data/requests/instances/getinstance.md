@@ -1,13 +1,5 @@
 # getInstance
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/platforms/ios``,
-* Unexpected property at ``#/world/storeId``,
-* Unexpected property at ``#/displayName``,
-* Unexpected property at ``#/gameServerVersion``,
-* Unexpected property at ``#/instancePersistenceEnabled``,
-* Unexpected property at ``#/playerPersistenceEnabled``.
 ## Request
 `GET https://vrchat.com/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>`
 
