@@ -28,7 +28,6 @@ Response schema mismatch:
 * Unexpected property at ``#/reportReasons``,
 * Unexpected property at ``#/schedulingInterface``,
 * Unexpected property at ``#/shardHome``,
-* Unexpected property at ``#/syscallNewsTotalRttCiabatta``,
 * Unexpected property at ``#/tcpOfflineMethodCrema``,
 * Unexpected property at ``#/timekeeping``,
 * Unexpected property at ``#/trackingPackageRye``,
@@ -37,7 +36,8 @@ Response schema mismatch:
 * Unexpected property at ``#/wafflePropTimer``,
 * Unexpected property at ``#/websocketMaxFriendsRefreshDelay``,
 * Unexpected property at ``#/websocketQuickReconnectTime``,
-* Unexpected property at ``#/websocketReconnectMaxDelay``.
+* Unexpected property at ``#/websocketReconnectMaxDelay``,
+* Unexpected property at ``#/zoneFocaccia``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
