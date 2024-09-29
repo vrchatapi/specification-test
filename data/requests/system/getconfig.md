@@ -10,18 +10,19 @@ Response schema mismatch:
 * Unexpected property at ``#/activeCycleNetworkingPlusAttachment``,
 * Unexpected property at ``#/birdEthernetPlusStoreNightly``,
 * Unexpected property at ``#/cookieMergeAccount``,
-* Unexpected property at ``#/eacSemaphoreMultigrainPointer``,
 * Unexpected property at ``#/errorStreamingSwarmHealth``,
+* Unexpected property at ``#/excursionTemporalTemporalHeader``,
 * Unexpected property at ``#/executeTaggingStackFile``,
+* Unexpected property at ``#/graphAssetIdentityClock``,
+* Unexpected property at ``#/hiddenCursedSlot``,
 * Unexpected property at ``#/hookFuslEac``,
 * Unexpected property at ``#/keywordDisconnectSignature``,
-* Unexpected property at ``#/networkingNewsIdentityWeight``,
-* Unexpected property at ``#/photonValuePipelineHeightSlice``,
+* Unexpected property at ``#/limiterDownSliceObject``,
 * Unexpected property at ``#/presenceLocationArrayJoinSpace``,
-* Unexpected property at ``#/presenceShellSoapHead``,
 * Unexpected property at ``#/privateBounce``,
 * Unexpected property at ``#/receiveFpsReverse``,
-* Unexpected property at ``#/shaderContentRebaseMaximumTrend``.
+* Unexpected property at ``#/reverseVersionTerminal``,
+* Unexpected property at ``#/streamToken``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
