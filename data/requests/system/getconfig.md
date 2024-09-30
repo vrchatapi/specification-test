@@ -7,22 +7,17 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/activeCycleNetworkingPlusAttachment``,
-* Unexpected property at ``#/birdEthernetPlusStoreNightly``,
-* Unexpected property at ``#/cookieMergeAccount``,
-* Unexpected property at ``#/errorStreamingSwarmHealth``,
-* Unexpected property at ``#/excursionTemporalTemporalHeader``,
-* Unexpected property at ``#/executeTaggingStackFile``,
-* Unexpected property at ``#/graphAssetIdentityClock``,
-* Unexpected property at ``#/hiddenCursedSlot``,
-* Unexpected property at ``#/hookFuslEac``,
-* Unexpected property at ``#/keywordDisconnectSignature``,
-* Unexpected property at ``#/limiterDownSliceObject``,
-* Unexpected property at ``#/presenceLocationArrayJoinSpace``,
-* Unexpected property at ``#/privateBounce``,
-* Unexpected property at ``#/receiveFpsReverse``,
-* Unexpected property at ``#/reverseVersionTerminal``,
-* Unexpected property at ``#/streamToken``.
+* Unexpected property at ``#/captchaInterfaceViolationMonitor``,
+* Unexpected property at ``#/checkOnlineStringChumpNews``,
+* Unexpected property at ``#/ciabattaPayloadAnimation``,
+* Unexpected property at ``#/defaultSecurityXmlRoute``,
+* Unexpected property at ``#/eacSliceScheduler``,
+* Unexpected property at ``#/nightlyRankSendObjectUndo``,
+* Unexpected property at ``#/sliceCookie``,
+* Unexpected property at ``#/systemNews``,
+* Unexpected property at ``#/threadTerminal``,
+* Unexpected property at ``#/tokenDisableVirtualAsset``,
+* Unexpected property at ``#/typePluginBirdOauthQuery``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
