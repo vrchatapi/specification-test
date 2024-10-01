@@ -7,17 +7,22 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/captchaInterfaceViolationMonitor``,
-* Unexpected property at ``#/checkOnlineStringChumpNews``,
-* Unexpected property at ``#/ciabattaPayloadAnimation``,
-* Unexpected property at ``#/defaultSecurityXmlRoute``,
-* Unexpected property at ``#/eacSliceScheduler``,
-* Unexpected property at ``#/nightlyRankSendObjectUndo``,
-* Unexpected property at ``#/sliceCookie``,
-* Unexpected property at ``#/systemNews``,
-* Unexpected property at ``#/threadTerminal``,
-* Unexpected property at ``#/tokenDisableVirtualAsset``,
-* Unexpected property at ``#/typePluginBirdOauthQuery``.
+* Unexpected property at ``#/arrayExpiresCross``,
+* Unexpected property at ``#/bootstrapFileRelaadventureLossReturn``,
+* Unexpected property at ``#/brewHashInstall``,
+* Unexpected property at ``#/chatImmunitySystem``,
+* Unexpected property at ``#/colourReadDistance``,
+* Unexpected property at ``#/commandHookReverse``,
+* Unexpected property at ``#/commitPositionRollbackObjectViolation``,
+* Unexpected property at ``#/configurationImpostorRoast``,
+* Unexpected property at ``#/pointerShell``,
+* Unexpected property at ``#/pushBaguetteListPaperPassport``,
+* Unexpected property at ``#/pushReliable``,
+* Unexpected property at ``#/redoBaguette``,
+* Unexpected property at ``#/sprayPlugin``,
+* Unexpected property at ``#/toolboxLatte``,
+* Unexpected property at ``#/tutorialEntryCheckRoutingGenerate``,
+* Unexpected property at ``#/weightStatusPassport``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
