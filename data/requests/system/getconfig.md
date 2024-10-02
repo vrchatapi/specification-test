@@ -7,22 +7,15 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/arrayExpiresCross``,
-* Unexpected property at ``#/bootstrapFileRelaadventureLossReturn``,
-* Unexpected property at ``#/brewHashInstall``,
-* Unexpected property at ``#/chatImmunitySystem``,
-* Unexpected property at ``#/colourReadDistance``,
-* Unexpected property at ``#/commandHookReverse``,
-* Unexpected property at ``#/commitPositionRollbackObjectViolation``,
-* Unexpected property at ``#/configurationImpostorRoast``,
-* Unexpected property at ``#/pointerShell``,
-* Unexpected property at ``#/pushBaguetteListPaperPassport``,
-* Unexpected property at ``#/pushReliable``,
-* Unexpected property at ``#/redoBaguette``,
-* Unexpected property at ``#/sprayPlugin``,
-* Unexpected property at ``#/toolboxLatte``,
-* Unexpected property at ``#/tutorialEntryCheckRoutingGenerate``,
-* Unexpected property at ``#/weightStatusPassport``.
+* Unexpected property at ``#/BlinkExtractReportEntryClient``,
+* Unexpected property at ``#/activityDatagramTypePointer``,
+* Unexpected property at ``#/bounceLength``,
+* Unexpected property at ``#/bufferFavoritePrint``,
+* Unexpected property at ``#/daemonSessionNamePlayer``,
+* Unexpected property at ``#/monitorCrustPrint``,
+* Unexpected property at ``#/resolverShard``,
+* Unexpected property at ``#/seedSaml``,
+* Unexpected property at ``#/vrchatStatusCross``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
