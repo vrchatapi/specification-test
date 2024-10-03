@@ -1,10 +1,38 @@
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
+import { state } from "./_cache.js";
 
 test.before(failUnauthenticated);
 
-test.failing(testOperation, "getSteamTransactions", {
-	statusCode: 200
-});
+test.serial.failing(
+	testOperation,
+	"getSteamTransactions",
+	{
+		statusCode: 200
+	},
+	(t) => {
+		const { context } = t;
+		state.set("transactionId", context.body[0].id);
+	}
+);
+
+test.serial.failing(
+	testOperation,
+	"getSteamTransaction",
+	{
+		parameters: {
+			transactionId: state.get("transactionId")
+		},
+		statusCode: 200
+	},
+	(t) => {
+		const { context } = t;
+		t.is(
+			context.body.id,
+			state.get("transactionId"),
+			"Should have the right transaction Id"
+		);
+	}
+);
 
 test(
 	testOperation,
@@ -22,5 +50,4 @@ test(testOperation, "getSubscriptions", {
 	statusCode: 200
 });
 
-test.todo("Get Steam Transaction");
 test.todo("Get License Group");
