@@ -50,4 +50,9 @@ test(testOperation, "getSubscriptions", {
 	statusCode: 200
 });
 
-test.todo("Get License Group");
+test(testOperation, "getLicenseGroup", {
+	parameters: {
+		licenseGroupId: "lgrp_608513da-b213-4e15-80af-bd88c27f0979"
+	},
+	statusCode: 200
+});
