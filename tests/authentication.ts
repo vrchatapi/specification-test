@@ -119,7 +119,21 @@ test.serial("via username", testOperation, "checkUserExists", () => ({
 	verbose: false
 }));
 
+test.serial("logout", testOperation, "logout", () => ({ statusCode: 200 }));
+
+test.serial(
+	"log back in username and password after logout",
+	testOperation,
+	"getCurrentUser",
+	() => ({
+		security: {
+			authHeader: btoa(`${vrchatUsername}:${vrchatPassword}`)
+		},
+		statusCode: 200,
+		verbose: false
+	})
+);
+
 test.todo("Verify 2FA code with Recovery code");
 test.todo("Verify 2FA email code");
-test.todo("Logout");
 test.todo("Delete User");
