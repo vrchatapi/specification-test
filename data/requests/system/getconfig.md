@@ -7,15 +7,20 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/BlinkExtractReportEntryClient``,
-* Unexpected property at ``#/activityDatagramTypePointer``,
-* Unexpected property at ``#/bounceLength``,
-* Unexpected property at ``#/bufferFavoritePrint``,
-* Unexpected property at ``#/daemonSessionNamePlayer``,
-* Unexpected property at ``#/monitorCrustPrint``,
-* Unexpected property at ``#/resolverShard``,
-* Unexpected property at ``#/seedSaml``,
-* Unexpected property at ``#/vrchatStatusCross``.
+* Unexpected property at ``#/addressDebounceReplicationHeapRollout``,
+* Unexpected property at ``#/americanoDebounceVirtual``,
+* Unexpected property at ``#/bytesLicense``,
+* Unexpected property at ``#/cdnMiddlewareSourdough``,
+* Unexpected property at ``#/createdInstallCommunity``,
+* Unexpected property at ``#/excursionOfflineTransaction``,
+* Unexpected property at ``#/graphPitaLatencyPrototype``,
+* Unexpected property at ``#/healthShellDynamic``,
+* Unexpected property at ``#/heapPartitionZoneString``,
+* Unexpected property at ``#/lossApiGraphqlSwarmPrivate``,
+* Unexpected property at ``#/moderationColliderNuisance``,
+* Unexpected property at ``#/ownershipEntryCappuccinoReceiveBranch``,
+* Unexpected property at ``#/serviceHash``,
+* Unexpected property at ``#/tracingPresenceOrchestrationCross``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
