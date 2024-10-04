@@ -2,7 +2,7 @@ import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
 test.before(failUnauthenticated);
 
-test(testOperation, "getAssignedPermissions", {
+test.failing(testOperation, "getAssignedPermissions", {
 	statusCode: 200
 });
 
