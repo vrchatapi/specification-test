@@ -1,8 +1,8 @@
 import { state } from "./_cache.js";
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
+import { vrchatHomeWorldId } from "./_consts.js";
 
 export const blackCatWorldId = "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b";
-export const vrchatHomeWorldId = "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd";
 
 const unstableWorldKeys = [
 	"imageUrl",
