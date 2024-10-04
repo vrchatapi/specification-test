@@ -1,5 +1,6 @@
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 import { tupperUserId } from "./_consts.js";
+import { unstableValues } from "./_cache.js";
 
 test.before(failUnauthenticated);
 
@@ -23,7 +24,8 @@ test.serial(
 			moderated: tupperUserId,
 			type: "unmute"
 		},
-		statusCode: 200
+		statusCode: 200,
+		unstable: ["created"]
 	},
 	(t) => {
 		const { body } = t.context;
@@ -32,19 +34,20 @@ test.serial(
 );
 
 test.serial(
-	"with Filter",
+	"with filter",
 	testOperation,
 	"getPlayerModerations",
 	{
 		parameters: {
 			type: "unmute"
 		},
-		statusCode: 200
+		statusCode: 200,
 	},
 	(t) => {
 		const { body } = t.context;
 		t.is(body.length, 1, "Should have 1 player moderation");
 		t.is(body[0].targetUserId, tupperUserId, "Should have moderated Tupper");
+		unstableValues.add(body[0].created);
 	}
 );
 
