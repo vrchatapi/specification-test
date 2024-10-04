@@ -130,6 +130,7 @@ test.serial(
 			authHeader: btoa(`${vrchatUsername}:${vrchatPassword}`)
 		},
 		statusCode: 200,
+		unstable: unstableUserKeys,
 		verbose: false
 	})
 );
