@@ -12,5 +12,3 @@ test(testOperation, "getPermission", {
 	},
 	statusCode: 200
 });
-
-test.todo("Get Permission");
