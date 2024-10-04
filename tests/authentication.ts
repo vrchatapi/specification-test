@@ -122,7 +122,7 @@ test.serial("via username", testOperation, "checkUserExists", () => ({
 test.serial("logout", testOperation, "logout", () => ({ statusCode: 200 }));
 
 test.serial(
-	"log back in username and password after logout",
+	"after logout to log back in",
 	testOperation,
 	"getCurrentUser",
 	() => ({
