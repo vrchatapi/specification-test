@@ -45,7 +45,7 @@ test(
 	},
 	(t) => {
 		const { context } = t;
-		t.is(context.body.length, 0, "Should have zero favorited worlds");
+		t.is(context.body.length, 1, "Should have one favorited world");
 	}
 );
 
