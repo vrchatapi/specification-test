@@ -1,6 +1,6 @@
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 import { defaultAvatarId, vrchatHomeWorldId, favoriteId } from "./_consts.js";
-import { state } from "./_cache.js";
+import { state, unstableValues } from "./_cache.js";
 
 test.before(failUnauthenticated);
 
@@ -32,6 +32,7 @@ test(
 	},
 	(t) => {
 		const { body } = t.context;
+		unstableValues.add(body.id)
 		t.is(body.favoriteId, defaultAvatarId);
 	}
 );
