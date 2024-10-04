@@ -45,7 +45,11 @@
     }
   ],
   "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
-  "bioLinks": [],
+  "bioLinks": [
+    "https://vrchat.com/",
+    "https://twitter.com/dtupper",
+    "https://dtupper.com/"
+  ],
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarTags": [],
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
@@ -86,7 +90,7 @@
     "system_cute_robot",
     "system_supporter"
   ],
-  "userIcon": "https://api.vrchat.cloud/api/1/file/file_662d8b2f-2142-4052-bd40-385d56830873/1/",
+  "userIcon": "https://api.vrchat.cloud/api/1/file/file_878bc4d4-c2b9-43f8-ac35-4df0a89395d2/1/",
   "worldId": "offline"
 }
 ```
