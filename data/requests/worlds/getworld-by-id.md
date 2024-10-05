@@ -1,5 +1,8 @@
 # getWorld by id
 
+## Issues
+Response schema mismatch:
+* Missing property at ``#/storeId``.
 ## Request
 `GET https://vrchat.com/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
 
@@ -49,7 +52,6 @@
   "publicationDate": "2021-04-18T23:17:33.390Z",
   "recommendedCapacity": 24,
   "releaseStatus": "public",
-  "storeId": null,
   "tags": [
     "author_tag_bar",
     "author_tag_quest",
