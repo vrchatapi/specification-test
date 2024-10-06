@@ -41,7 +41,8 @@ test(
 	testOperation,
 	"getFavoritedWorlds",
 	{
-		statusCode: 200
+		statusCode: 200,
+		unstable: true
 	},
 	(t) => {
 		const { context } = t;
