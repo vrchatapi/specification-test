@@ -131,7 +131,6 @@ test.serial(
 		},
 		statusCode: 200,
 		unstable: unstableUserKeys,
-		verbose: false
 	})
 );
 
