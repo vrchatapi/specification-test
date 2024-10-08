@@ -66,8 +66,7 @@ Response schema mismatch:
     "admin_AllowInternal_PortalCreator",
     "admin_AllowInternal_PlatformCheck",
     "admin_filter_UrlLauncher",
-    "admin_filter_analytics",
-    "system_updated_recently"
+    "admin_filter_analytics"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",

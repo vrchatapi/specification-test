@@ -61,7 +61,8 @@ Response schema mismatch:
     "admin_approved",
     "admin_spotlight_mobile",
     "system_approved",
-    "system_monetized_world"
+    "system_monetized_world",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: array of strings>",

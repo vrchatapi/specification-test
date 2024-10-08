@@ -7,20 +7,18 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/DetectionNuisanceAccountHiddenResponse``,
-* Unexpected property at ``#/arrayDisableTotal``,
-* Unexpected property at ``#/coefficientHelpResortDelayUnlisted``,
-* Unexpected property at ``#/crudLossTier``,
-* Unexpected property at ``#/indicatorUnlistedNightly``,
-* Unexpected property at ``#/nightlySetFeedbackAccount``,
-* Unexpected property at ``#/protocolUsage``,
-* Unexpected property at ``#/publishLeaveUpdated``,
-* Unexpected property at ``#/reservedAccount``,
-* Unexpected property at ``#/shardResort``,
-* Unexpected property at ``#/spaceTrackingMutex``,
-* Unexpected property at ``#/versionReadObject``,
-* Unexpected property at ``#/virtualJump``,
-* Unexpected property at ``#/xmlGraphqlHandlerInternalIndicator``.
+* Unexpected property at ``#/HeadpatRankEmbed``,
+* Unexpected property at ``#/bufferJoinClothPoolCountry``,
+* Unexpected property at ``#/colourQueueBaguetteMarkGift``,
+* Unexpected property at ``#/daemonIso8601HealthLayout``,
+* Unexpected property at ``#/errorAlertGenerate``,
+* Unexpected property at ``#/latencyChannelNetwork``,
+* Unexpected property at ``#/mutexVectorTag``,
+* Unexpected property at ``#/randomBread``,
+* Unexpected property at ``#/reliableTimerSortGroup``,
+* Unexpected property at ``#/shaderMainThrottleInterface``,
+* Unexpected property at ``#/temporaryMobileTemporaryRoom``,
+* Unexpected property at ``#/vrchatReplicationExpiresDownload``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
