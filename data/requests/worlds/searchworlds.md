@@ -1,17 +1,5 @@
 # searchWorlds
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/0/storeId``,
-* Missing property at ``#/1/storeId``,
-* Missing property at ``#/2/storeId``,
-* Missing property at ``#/3/storeId``,
-* Missing property at ``#/4/storeId``,
-* Missing property at ``#/5/storeId``,
-* Missing property at ``#/6/storeId``,
-* Missing property at ``#/7/storeId``,
-* Missing property at ``#/8/storeId``,
-* Missing property at ``#/9/storeId``.
 ## Request
 `GET https://vrchat.com/api/1/worlds`
 

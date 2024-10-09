@@ -35,14 +35,14 @@
     "description": "VRChat Home",
     "favoriteGroup": "world1",
     "favoriteId": "fvrt_ace79e90-fadf-465c-9898-049c099060f1",
-    "favorites": 130877,
+    "favorites": 130964,
     "featured": false,
     "heat": 8,
     "id": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
     "imageUrl": "https://api.vrchat.cloud/api/1/file/file_c2b7ad18-5276-4e9b-aef7-8e18555e5030/9/file",
     "labsPublicationDate": "none",
     "name": "VRChat Home",
-    "occupants": 2005,
+    "occupants": 2847,
     "organization": "vrchat",
     "popularity": 10,
     "previewYoutubeId": null,
@@ -63,7 +63,9 @@
       "admin_AllowInternal_PortalCreator",
       "admin_AllowInternal_PlatformCheck",
       "admin_filter_UrlLauncher",
-      "admin_filter_analytics"
+      "admin_filter_analytics",
+      "admin_hide_broad",
+      "system_updated_recently"
     ],
     "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_c2b7ad18-5276-4e9b-aef7-8e18555e5030/9/256",
     "udonProducts": [],
@@ -317,9 +319,9 @@
         "unityVersion": "2022.3.22f1"
       }
     ],
-    "updated_at": "2024-10-04T19:12:12.897Z",
-    "version": 377,
-    "visits": 384454268
+    "updated_at": "2024-10-08T17:52:37.247Z",
+    "version": 378,
+    "visits": 384768025
   }
 ]
 ```

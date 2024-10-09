@@ -57,36 +57,22 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
-Response schema mismatch:
-* Missing property at ``#/storeId``.
-
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
-
-Response schema mismatch:
-* Missing property at ``#/storeId``.
 
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
-Response schema mismatch:
-* Missing property at ``#/0/storeId``,
-* Missing property at ``#/1/storeId``,
-* Missing property at ``#/2/storeId``,
 
-*7 issues truncated.*
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-Response schema mismatch:
-* Missing property at ``#/0/storeId``,
-* Missing property at ``#/1/storeId``,
-* Missing property at ``#/2/storeId``,
-
-*7 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
+
+
+#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+
+
+#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
 
 #### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
@@ -101,8 +87,6 @@ Response schema mismatch:
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
-Response schema mismatch:
-* Missing property at ``#/world/storeId``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -292,7 +276,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/avatar``,
 * Unexpected property at ``#/reportOptions/group``,
 
-*14 issues truncated.*
+*22 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
