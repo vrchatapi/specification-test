@@ -2,16 +2,16 @@
 
 ## Issues
 Response schema mismatch:
+* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
+* Invalid type at ``#/1/startDate``,
+* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
@@ -20,11 +20,16 @@ Response schema mismatch:
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
+* Invalid type at ``#/4/startDate``,
+* Invalid type at ``#/4/endDate``,
+* Unexpected property at ``#/4/regions``,
+* Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Invalid type at ``#/5/startDate``,
-* Invalid type at ``#/5/endDate``,
-* Unexpected property at ``#/5/regions``,
-* Unexpected property at ``#/5/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
+* Invalid type at ``#/6/startDate``,
+* Invalid type at ``#/6/endDate``,
+* Unexpected property at ``#/6/regions``,
+* Unexpected property at ``#/6/requireClientTags``.
 ## Request
 `GET https://vrchat.com/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -52,6 +57,32 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2024-10-09T18:57:12.817Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_8db6cb99-f505-444e-bf5e-74ed29aedd15.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_3081ad76-aae8-4b45-96d4-e71f0e8603f5"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_023d020b-c733-447f-8a4c-b557e87347ca",
+    "id": "ips_023d020b-c733-447f-8a4c-b557e87347ca",
+    "isEnabled": true,
+    "priority": 845,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-10-10T00:28:50.173Z"
+  },
   {
     "createdAt": "2023-06-29T22:26:18.000Z",
     "data": {
