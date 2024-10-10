@@ -22,6 +22,7 @@
     "object-path": "^0.11.8",
     "totp-generator": "^1.0.0",
     "tough-cookie": "^4.1.4",
+    "vrchat": "^1.18.5",
     "yaml": "^2.4.5"
   },
   "devDependencies": {

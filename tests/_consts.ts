@@ -27,3 +27,6 @@ export const methods = [
 export const requestRateLimit = 200;
 
 export const tupperUserId = "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469";
+export const defaultAvatarId = "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11";
+export const vrchatHomeWorldId = "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd";
+export const favoriteId = "fvrt_6d1580a7-2670-414b-b197-d4adea72467a";
