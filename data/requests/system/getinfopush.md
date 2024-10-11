@@ -7,11 +7,12 @@ Response schema mismatch:
 * Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
-* Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
+* Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
@@ -20,16 +21,11 @@ Response schema mismatch:
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
-* Invalid type at ``#/4/startDate``,
-* Invalid type at ``#/4/endDate``,
-* Unexpected property at ``#/4/regions``,
-* Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Invalid type at ``#/6/startDate``,
-* Invalid type at ``#/6/endDate``,
-* Unexpected property at ``#/6/regions``,
-* Unexpected property at ``#/6/requireClientTags``.
+* Invalid type at ``#/5/startDate``,
+* Invalid type at ``#/5/endDate``,
+* Unexpected property at ``#/5/regions``,
+* Unexpected property at ``#/5/requireClientTags``.
 ## Request
 `GET https://vrchat.com/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -82,29 +78,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2024-10-10T00:28:50.173Z"
-  },
-  {
-    "createdAt": "2023-06-29T22:26:18.000Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f10c5dce-ca02-4514-82c3-ac918d60410f.png",
-      "onPressed": {
-        "command": "OpenVRCPlusMenu"
-      }
-    },
-    "endDate": null,
-    "hash": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
-    "id": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
-    "isEnabled": true,
-    "priority": 850,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-no-vrcplus"
-    ],
-    "updatedAt": "2024-09-18T23:53:58.681Z"
   },
   {
     "createdAt": "2024-09-27T15:17:51.489Z",

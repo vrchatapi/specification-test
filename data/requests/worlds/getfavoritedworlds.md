@@ -35,14 +35,14 @@
     "description": "VRChat Home",
     "favoriteGroup": "world1",
     "favoriteId": "fvrt_ace79e90-fadf-465c-9898-049c099060f1",
-    "favorites": 131046,
+    "favorites": 131112,
     "featured": false,
-    "heat": 6,
+    "heat": 7,
     "id": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
     "imageUrl": "https://api.vrchat.cloud/api/1/file/file_c2b7ad18-5276-4e9b-aef7-8e18555e5030/9/file",
     "labsPublicationDate": "none",
     "name": "VRChat Home",
-    "occupants": 2425,
+    "occupants": 2435,
     "organization": "vrchat",
     "popularity": 10,
     "previewYoutubeId": null,
@@ -321,7 +321,7 @@
     ],
     "updated_at": "2024-10-08T17:52:37.247Z",
     "version": 378,
-    "visits": 385085331
+    "visits": 385391959
   }
 ]
 ```

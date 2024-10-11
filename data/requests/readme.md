@@ -268,7 +268,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 
-*25 issues truncated.*
+*21 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -276,7 +276,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/avatar``,
 * Unexpected property at ``#/reportOptions/group``,
 
-*16 issues truncated.*
+*18 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
