@@ -7,28 +7,26 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/FpsCopySyscallMaximum``,
-* Unexpected property at ``#/bracketIpv6DisconnectStackMiddleware``,
-* Unexpected property at ``#/compileRealBlockNext``,
-* Unexpected property at ``#/docsPermanentBirdOffline``,
-* Unexpected property at ``#/fireBandwidthLimiterLabel``,
-* Unexpected property at ``#/foxProfileActive``,
-* Unexpected property at ``#/justifyLatteMerge``,
-* Unexpected property at ``#/kernelSpaceFrameHealthHistory``,
-* Unexpected property at ``#/keyboardFuslBurritoPerformance``,
-* Unexpected property at ``#/labelHeightCrud``,
-* Unexpected property at ``#/onlineWorldBonePeriodVerification``,
-* Unexpected property at ``#/plusBurritoPreviousCommit``,
+* Unexpected property at ``#/PermanentTransmitKeyBranch``,
+* Unexpected property at ``#/QueryChurnReadAnalysisHash``,
+* Unexpected property at ``#/bufferLoopPermanentReference``,
+* Unexpected property at ``#/clothIpv4Stack``,
+* Unexpected property at ``#/disconnectRoomQueryCreated``,
+* Unexpected property at ``#/downloadSignature``,
+* Unexpected property at ``#/dutySlicing``,
+* Unexpected property at ``#/identityThroughputJustify``,
+* Unexpected property at ``#/pushBaguette``,
+* Unexpected property at ``#/reverseFirewall``,
+* Unexpected property at ``#/stroopwafelColorPitaEventQuery``,
+* Unexpected property at ``#/subscriptionContext``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/trustedGraphql``,
-* Unexpected property at ``#/writeSteam``.
+* Unexpected property at ``#/yachtArrayIso8601NamePosition``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
