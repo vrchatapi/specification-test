@@ -529,9 +529,7 @@ export async function fetchOperation(
 				if (security.scheme !== "basic")
 					return failLog(t, `Security scheme \`\`${name}\`\` not supported`);
 
-				requestOptions.headers = {
-					authorization: `Basic ${value}`
-				};
+				requestOptions.headers["authorization"] = `Basic ${value}`
 				break;
 			}
 			case "apiKey": {
