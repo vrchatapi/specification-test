@@ -3,7 +3,9 @@
 ## Search All Users
 Search and list any users by text query
 
-> Missing coverage.
+* [searchUsers without parameters](./searchusers-without-parameters.md)
+* [searchUsers](./searchusers.md)
+* [searchUsers with limit](./searchusers-with-limit.md)
 ## Get User by Username
 ~~Get public user information about a specific user using their name.~~
 
@@ -14,7 +16,7 @@ This endpoint now require Admin Credentials.
 ## Get User by ID
 Get public user information about a specific user using their ID.
 
-> Missing coverage.
+* [getUser](./getuser.md)
 ## Update User Info
 Update a users information such as the email and birthday.
 

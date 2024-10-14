@@ -46,34 +46,39 @@ Response schema mismatch:
 * Missing property at ``#/date_joined``,
 * Missing property at ``#/isFriend``,
 * Missing property at ``#/friendKey``,
-* Unexpected property at ``#/error``.
+* Unexpected property at ``#/requiresTwoFactorAuth``.
 ## Request
 `GET https://vrchat.com/api/1/auth/user`
 
 | Header | Value |
 | ------ | ----- |
+| user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
 | authorization | `Basic <redacted>` |
 
 
 ## Response
-`403 Forbidden`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
+| accept-ranges | `bytes` |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/json` |
+| content-length | `40` |
+| content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Accept-Encoding` |
+| set-cookie | `<redacted>` |
+| vary | `Authorization, Accept-Encoding` |
+| x-frame-options | `deny` |
 
 ```jsonc
 {
-  "error": {
-    "message": "\"please identify yourself with a properly formatted user-agent containing application name, version and contact information. thank you!\"",
-    "status_code": 403,
-    "waf_code": 13799
-  }
+  "requiresTwoFactorAuth": [
+    "totp",
+    "otp"
+  ]
 }
 ```

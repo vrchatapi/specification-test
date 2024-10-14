@@ -7,26 +7,28 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/PermanentTransmitKeyBranch``,
-* Unexpected property at ``#/QueryChurnReadAnalysisHash``,
+* Unexpected property at ``#/blinkEspressoUpdated``,
 * Unexpected property at ``#/bufferLoopPermanentReference``,
-* Unexpected property at ``#/clothIpv4Stack``,
-* Unexpected property at ``#/disconnectRoomQueryCreated``,
-* Unexpected property at ``#/downloadSignature``,
-* Unexpected property at ``#/dutySlicing``,
-* Unexpected property at ``#/identityThroughputJustify``,
-* Unexpected property at ``#/pushBaguette``,
+* Unexpected property at ``#/entryPermanentAppend``,
+* Unexpected property at ``#/firewallPluginCaptchaReason``,
+* Unexpected property at ``#/headQueryDucking``,
+* Unexpected property at ``#/headpatPrivateKeyPool``,
+* Unexpected property at ``#/mentionYamlPublish``,
+* Unexpected property at ``#/monitorCreatedThrottleRegion``,
+* Unexpected property at ``#/periodTerminalMultigrainRollback``,
+* Unexpected property at ``#/remoteArrayGitBarista``,
 * Unexpected property at ``#/reverseFirewall``,
-* Unexpected property at ``#/stroopwafelColorPitaEventQuery``,
+* Unexpected property at ``#/schedulerExtractAttributeList``,
 * Unexpected property at ``#/subscriptionContext``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/yachtArrayIso8601NamePosition``.
+* Unexpected property at ``#/unlistedPageHidden``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
+| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
