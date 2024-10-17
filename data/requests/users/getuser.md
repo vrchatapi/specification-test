@@ -32,14 +32,14 @@
     {
       "badgeDescription": "Supports VRChat through VRC+",
       "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_eff7def2-c264-4c0e-b462-6a9477ea4e6c.png",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_8c9cf371-ffd2-4177-9894-1093e2e34bf7.png",
       "badgeName": "Supporter",
       "showcased": true
     },
     {
       "badgeDescription": "Supported VRChat through VRC+ when it first launched",
       "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_28e70141-6859-450b-834b-30c15ecf3ff4.png",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_c51b0dc0-56fb-4e20-bfd5-48db74e6a059.png",
       "badgeName": "Early Supporter",
       "showcased": true
     }

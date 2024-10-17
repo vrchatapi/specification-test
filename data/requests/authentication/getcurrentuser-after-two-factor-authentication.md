@@ -38,7 +38,7 @@
       "assignedAt": "2024-07-21T22:28:04.790Z",
       "badgeDescription": "Supports VRChat through VRC+",
       "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_eff7def2-c264-4c0e-b462-6a9477ea4e6c.png",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_8c9cf371-ffd2-4177-9894-1093e2e34bf7.png",
       "badgeName": "Supporter",
       "hidden": false,
       "showcased": true,

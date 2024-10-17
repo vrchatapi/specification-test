@@ -7,17 +7,23 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/americanoDebounceThrottle``,
-* Unexpected property at ``#/barrierFrame``,
-* Unexpected property at ``#/containerKeywordSortDashboardTransmittion``,
-* Unexpected property at ``#/cycleProfileJustifyTransmittion``,
-* Unexpected property at ``#/dataRankingDocumentationAnalytics``,
-* Unexpected property at ``#/graphCrudStroopwafel``,
-* Unexpected property at ``#/managerBlockJwt``,
-* Unexpected property at ``#/responseEthernet``,
-* Unexpected property at ``#/searchTypeRemoteProxyClock``,
+* Unexpected property at ``#/assetExitBandwidthMentionImmunity``,
+* Unexpected property at ``#/buildLoopPacketPocket``,
+* Unexpected property at ``#/duckingVideoTransmittionBytes``,
+* Unexpected property at ``#/endpointRedoExpiration``,
+* Unexpected property at ``#/entryWhoisWebsocketCopy``,
+* Unexpected property at ``#/excursionMarkerNightlyTime``,
+* Unexpected property at ``#/giftCopySocketCloudPaper``,
+* Unexpected property at ``#/homeFormatCycle``,
+* Unexpected property at ``#/ipv4RttGenerate``,
+* Unexpected property at ``#/ownershipCommandNextXmlRye``,
+* Unexpected property at ``#/pocketSegmentSoapHook``,
+* Unexpected property at ``#/probabilityXmlLibrary``,
+* Unexpected property at ``#/queryVrchat``,
+* Unexpected property at ``#/routingDocsPaperObjectsTracker``,
+* Unexpected property at ``#/signatureIso8601SegmentDeployUser``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/toolboxQuorumRealGit``.
+* Unexpected property at ``#/tcpPresenceAnalyticsImpostor``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
