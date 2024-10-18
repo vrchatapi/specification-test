@@ -13,16 +13,11 @@ Response schema mismatch:
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
-* Unexpected property at ``#/2/regions``,
-* Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
-* Invalid type at ``#/4/startDate``,
-* Invalid type at ``#/4/endDate``,
-* Unexpected property at ``#/4/regions``,
-* Unexpected property at ``#/4/requireClientTags``.
+* Invalid type at ``#/3/startDate``,
+* Invalid type at ``#/3/endDate``,
+* Unexpected property at ``#/3/regions``,
+* Unexpected property at ``#/3/requireClientTags``.
 ## Request
 `GET https://vrchat.com/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -75,32 +70,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2024-10-10T00:28:50.173Z"
-  },
-  {
-    "createdAt": "2024-09-06T21:36:11.072Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_03d9ab9b-0ea0-43b2-9218-94d00b6d36d9.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_f63b05aa-99da-4669-a83f-5becc64ef07d"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_44c4e858-e0a6-4fd4-8daf-727a3b6f6ce0",
-    "id": "ips_44c4e858-e0a6-4fd4-8daf-727a3b6f6ce0",
-    "isEnabled": true,
-    "priority": 865,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-09-06T21:36:11.072Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",
