@@ -276,7 +276,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/avatar``,
 * Unexpected property at ``#/reportOptions/group``,
 
-*18 issues truncated.*
+*15 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
