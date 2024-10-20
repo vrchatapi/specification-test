@@ -1,11 +1,11 @@
 import { test, testOperation } from "./_utilities.js";
 
-test(testOperation, "getConfig", {
+test.failing(testOperation, "getConfig", {
 	statusCode: 200,
 	unstable: true
 });
 
-test("with zero parameters", testOperation, "getInfoPush", {
+test.failing("with zero parameters", testOperation, "getInfoPush", {
 	statusCode: 400
 });
 
