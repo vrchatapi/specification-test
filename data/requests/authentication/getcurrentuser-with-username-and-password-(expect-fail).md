@@ -52,6 +52,7 @@ Response schema mismatch:
 
 | Header | Value |
 | ------ | ----- |
+| user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
 | authorization | `Basic <redacted>` |
 
 

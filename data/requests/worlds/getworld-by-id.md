@@ -49,7 +49,6 @@
   "publicationDate": "2021-04-18T23:17:33.390Z",
   "recommendedCapacity": 24,
   "releaseStatus": "public",
-  "storeId": null,
   "tags": [
     "author_tag_bar",
     "author_tag_quest",

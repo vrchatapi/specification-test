@@ -2,29 +2,22 @@
 
 ## Issues
 Response schema mismatch:
+* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
+* Invalid type at ``#/1/startDate``,
+* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
-* Unexpected property at ``#/2/regions``,
-* Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Invalid type at ``#/3/startDate``,
 * Invalid type at ``#/3/endDate``,
 * Unexpected property at ``#/3/regions``,
-* Unexpected property at ``#/3/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Invalid type at ``#/5/startDate``,
-* Invalid type at ``#/5/endDate``,
-* Unexpected property at ``#/5/regions``,
-* Unexpected property at ``#/5/requireClientTags``.
+* Unexpected property at ``#/3/requireClientTags``.
 ## Request
 `GET https://vrchat.com/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -53,70 +46,21 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2023-06-29T22:26:18.000Z",
+    "createdAt": "2024-10-09T18:57:12.817Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f10c5dce-ca02-4514-82c3-ac918d60410f.png",
-      "onPressed": {
-        "command": "OpenVRCPlusMenu"
-      }
-    },
-    "endDate": null,
-    "hash": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
-    "id": "ips_78bfec9d-8316-41cc-a959-214d9ded061f",
-    "isEnabled": true,
-    "priority": 850,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-no-vrcplus"
-    ],
-    "updatedAt": "2024-09-18T23:53:58.681Z"
-  },
-  {
-    "createdAt": "2024-09-27T15:17:51.489Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_e7321732-ee5c-48dd-910d-906457bf34a2.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_8db6cb99-f505-444e-bf5e-74ed29aedd15.png",
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
-          "ips_14076924-56bb-4d53-ba29-f04f5ff2d857"
-        ]
-      }
-    },
-    "endDate": "2024-10-14T07:00:00.000Z",
-    "hash": "ips_799768e8-69f6-4367-b501-a75ab18164cd",
-    "id": "ips_799768e8-69f6-4367-b501-a75ab18164cd",
-    "isEnabled": true,
-    "priority": 855,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2024-10-01T07:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-09-27T19:27:07.634Z"
-  },
-  {
-    "createdAt": "2024-09-06T21:36:11.072Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_03d9ab9b-0ea0-43b2-9218-94d00b6d36d9.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_f63b05aa-99da-4669-a83f-5becc64ef07d"
+          "ips_3081ad76-aae8-4b45-96d4-e71f0e8603f5"
         ]
       }
     },
     "endDate": null,
-    "hash": "ips_44c4e858-e0a6-4fd4-8daf-727a3b6f6ce0",
-    "id": "ips_44c4e858-e0a6-4fd4-8daf-727a3b6f6ce0",
+    "hash": "ips_023d020b-c733-447f-8a4c-b557e87347ca",
+    "id": "ips_023d020b-c733-447f-8a4c-b557e87347ca",
     "isEnabled": true,
-    "priority": 865,
+    "priority": 845,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -125,7 +69,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2024-09-06T21:36:11.072Z"
+    "updatedAt": "2024-10-10T00:28:50.173Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",
