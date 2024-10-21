@@ -9,6 +9,8 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/world``,
 * Unexpected property at ``#/LimiterSortPacket``,
 * Unexpected property at ``#/authDownPartition``,
+* Unexpected property at ``#/bonesFilterRoast``,
+* Unexpected property at ``#/filterNoiseHomeMark``,
 * Unexpected property at ``#/formatCheckPushUdpString``,
 * Unexpected property at ``#/formationClipRedoApplicationHook``,
 * Unexpected property at ``#/markSetVoiceTicket``,
