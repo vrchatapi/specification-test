@@ -258,17 +258,17 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
+* Unexpected property at ``#/0/regions``,
 
-*872 issues truncated.*
+*902 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
+* Unexpected property at ``#/0/regions``,
 
-*13 issues truncated.*
+*17 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -276,7 +276,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/avatar``,
 * Unexpected property at ``#/reportOptions/group``,
 
-*23 issues truncated.*
+*17 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

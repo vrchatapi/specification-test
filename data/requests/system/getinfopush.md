@@ -4,7 +4,6 @@
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
@@ -13,11 +12,16 @@ Response schema mismatch:
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
+* Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
+* Unexpected property at ``#/2/regions``,
+* Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Invalid type at ``#/3/startDate``,
-* Invalid type at ``#/3/endDate``,
-* Unexpected property at ``#/3/regions``,
-* Unexpected property at ``#/3/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
+* Invalid type at ``#/4/startDate``,
+* Invalid type at ``#/4/endDate``,
+* Unexpected property at ``#/4/regions``,
+* Unexpected property at ``#/4/requireClientTags``.
 ## Request
 `GET https://vrchat.com/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -45,6 +49,32 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2024-10-21T20:38:09.749Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_ee0c3bb6-5eb8-4b50-b109-3ef62e679741.png",
+      "onPressed": {
+        "command": "OpenWorldsMenu",
+        "parameters": [
+          "ips_f9722bbd-a1a2-4b2d-9844-435c7acc8b04"
+        ]
+      }
+    },
+    "endDate": "2024-11-05T08:00:00.000Z",
+    "hash": "ips_6359f727-a5bc-4269-afaf-4a8d9f244bbc",
+    "id": "ips_6359f727-a5bc-4269-afaf-4a8d9f244bbc",
+    "isEnabled": true,
+    "priority": 500,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-10-21T20:50:15.039Z"
+  },
   {
     "createdAt": "2024-10-09T18:57:12.817Z",
     "data": {
