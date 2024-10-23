@@ -69,7 +69,7 @@
       "platform": "standalonewindows",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
-      "variant": "standard"
+      "variant": "security"
     },
     {
       "assetVersion": 1,
@@ -79,35 +79,15 @@
       "platform": "android",
       "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
-      "variant": "standard"
+      "variant": "security"
     },
     {
       "assetVersion": 1,
       "created_at": "2024-04-26T21:30:32.655Z",
       "id": "unp_290ee8b3-8aea-4135-97d8-327c061c11ed",
-      "performanceRating": "VeryPoor",
+      "performanceRating": "None",
       "platform": "ios",
-      "scanStatus": "passed",
-      "unityVersion": "2019.4.31f1",
-      "variant": "standard"
-    },
-    {
-      "assetVersion": 1,
-      "created_at": "2024-09-10T05:56:42.590Z",
-      "id": "unp_77b74da8-b081-4a53-b807-22af46015c54",
-      "performanceRating": "VeryPoor",
-      "platform": "standalonewindows",
-      "scanStatus": "passed",
-      "unityVersion": "2019.4.31f1",
-      "variant": "security"
-    },
-    {
-      "assetVersion": 1,
-      "created_at": "2024-09-10T06:01:04.946Z",
-      "id": "unp_e0fdf793-d546-4d52-b5ad-8b60b3901bb5",
-      "performanceRating": "VeryPoor",
-      "platform": "android",
-      "scanStatus": "passed",
+      "scanStatus": "failed",
       "unityVersion": "2019.4.31f1",
       "variant": "security"
     },
@@ -116,9 +96,7 @@
       "created_at": "2024-09-16T22:05:24.654Z",
       "id": "unp_1721aa0c-d1bd-482f-8fdd-0e9232b3e4f7",
       "impostorizerVersion": "1.0.1",
-      "performanceRating": "None",
       "platform": "standalonewindows",
-      "scanStatus": "unscanned",
       "unityVersion": "2022.3.22f1",
       "variant": "impostor"
     },
@@ -127,9 +105,7 @@
       "created_at": "2024-09-16T22:05:25.988Z",
       "id": "unp_952f2cb6-5020-4b54-88b1-1a755a58252b",
       "impostorizerVersion": "1.0.1",
-      "performanceRating": "None",
       "platform": "android",
-      "scanStatus": "unscanned",
       "unityVersion": "2022.3.22f1",
       "variant": "impostor"
     },
@@ -138,21 +114,9 @@
       "created_at": "2024-09-16T22:05:28.234Z",
       "id": "unp_34536fbf-4da2-4e02-8f7c-366882ca367a",
       "impostorizerVersion": "1.0.1",
-      "performanceRating": "None",
       "platform": "ios",
-      "scanStatus": "unscanned",
       "unityVersion": "2022.3.22f1",
       "variant": "impostor"
-    },
-    {
-      "assetVersion": 1,
-      "created_at": "2024-09-21T23:31:17.879Z",
-      "id": "unp_52c87f6c-a5e4-47c6-bcbe-c61a4b1a58c0",
-      "performanceRating": "None",
-      "platform": "ios",
-      "scanStatus": "failed",
-      "unityVersion": "2019.4.31f1",
-      "variant": "security"
     }
   ],
   "updated_at": "2024-04-26T21:30:32.659Z",

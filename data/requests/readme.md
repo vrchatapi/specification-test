@@ -260,7 +260,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 
-*902 issues truncated.*
+*906 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -273,10 +273,10 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/Default/redirectionAddress``,
-* Unexpected property at ``#/reportOptions/avatar``,
-* Unexpected property at ``#/reportOptions/group``,
+* Unexpected property at ``#/reportCategories/emoji``,
+* Unexpected property at ``#/reportCategories/sticker``,
 
-*17 issues truncated.*
+*18 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

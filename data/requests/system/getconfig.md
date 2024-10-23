@@ -3,25 +3,26 @@
 ## Issues
 Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/Default/redirectionAddress``,
+* Unexpected property at ``#/reportCategories/emoji``,
+* Unexpected property at ``#/reportCategories/sticker``,
 * Unexpected property at ``#/reportOptions/avatar``,
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/animationDynamicBrioche``,
+* Unexpected property at ``#/authExecuteTimezoneReserved``,
 * Unexpected property at ``#/avatarPerfLimiter``,
-* Unexpected property at ``#/cloneHandlerRegion``,
-* Unexpected property at ``#/cursedLabelSeed``,
-* Unexpected property at ``#/docsSegmentSegmentFrame``,
-* Unexpected property at ``#/entryStreamSubscriptionHealthCross``,
-* Unexpected property at ``#/eternalAnimatorHome``,
-* Unexpected property at ``#/formationClip``,
-* Unexpected property at ``#/lockingKeyNetworkingRelaadventureProtocol``,
-* Unexpected property at ``#/roomFeedbackRankingRedo``,
-* Unexpected property at ``#/signPaper``,
-* Unexpected property at ``#/storePaginationRealtimeOauthAlignment``,
-* Unexpected property at ``#/storePaperReceiveOrchestrationApplication``,
-* Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/upShiftClipboard``.
+* Unexpected property at ``#/bonesExtendedPull``,
+* Unexpected property at ``#/clusterGraphVrchat``,
+* Unexpected property at ``#/clusterMutex``,
+* Unexpected property at ``#/connectInstanceMinimumSlice``,
+* Unexpected property at ``#/deployRolloutRolloverForward``,
+* Unexpected property at ``#/destinationStatusDisplaySlot``,
+* Unexpected property at ``#/foxReachabilityBody``,
+* Unexpected property at ``#/instructionBufferMiddleware``,
+* Unexpected property at ``#/instructionDeviceSubscriber``,
+* Unexpected property at ``#/rollbackAddressFormationFar``,
+* Unexpected property at ``#/stringCompileQuorumExternal``,
+* Unexpected property at ``#/supportFormUrl``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
