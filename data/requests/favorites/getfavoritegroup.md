@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# getFavoriteGroup
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`GET https://vrchat.com/api/1/favorite/group/avatar/avatars2/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701`
 
 | Header | Value |
 | ------ | ----- |
@@ -26,5 +26,14 @@
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "displayName": "newName",
+  "id": "fvgrp_e303b9a5-4534-496f-bfbd-2a18b0976f5c",
+  "name": "avatars2",
+  "ownerDisplayName": "8cf3def6b8cea",
+  "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  "tags": [],
+  "type": "avatar",
+  "visibility": "private"
+}
 ```

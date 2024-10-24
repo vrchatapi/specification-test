@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# getSteamTransaction
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`GET https://vrchat.com/api/1/Steam/transactions/undefined`
 
 | Header | Value |
 | ------ | ----- |
@@ -10,7 +10,7 @@
 
 
 ## Response
-`200 OK`
+`404 Not Found`
 
 | Header | Value |
 | ------ | ----- |
@@ -18,7 +18,6 @@
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
@@ -26,5 +25,10 @@
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "error": {
+    "message": "\"transaction not found\"",
+    "status_code": 404
+  }
+}
 ```

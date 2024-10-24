@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# removeFavorite
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`DELETE https://vrchat.com/api/1/favorites/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11`
 
 | Header | Value |
 | ------ | ----- |
@@ -18,7 +18,6 @@
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
@@ -26,5 +25,10 @@
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "success": {
+    "message": "favorite deleted!",
+    "status_code": 200
+  }
+}
 ```

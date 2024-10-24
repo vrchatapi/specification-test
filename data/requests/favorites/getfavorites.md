@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# getFavorites
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`GET https://vrchat.com/api/1/favorites?type=world`
 
 | Header | Value |
 | ------ | ----- |
@@ -26,5 +26,14 @@
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+[
+  {
+    "favoriteId": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
+    "id": "fvrt_ace79e90-fadf-465c-9898-049c099060f1",
+    "tags": [
+      "world1"
+    ],
+    "type": "world"
+  }
+]
 ```

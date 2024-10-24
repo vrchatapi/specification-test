@@ -37,6 +37,12 @@ Response schema mismatch:
 #### [checkUserExists via username](/data/requests/authentication/checkuserexists-via-username.md)
 
 
+#### [logout logout](/data/requests/authentication/logout-logout.md)
+
+
+#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
+
+
 
 
 ## [Users](/data/requests/users)
@@ -133,10 +139,44 @@ Response schema mismatch:
 * Invalid type at ``#/1/agreement``,
 * Invalid type at ``#/2/agreement``.
 
+#### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
+
+
 #### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
 
 
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
+
+
+#### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
+
+
+
+
+## [Favorites](/data/requests/favorites)
+
+#### [getFavorites](/data/requests/favorites/getfavorites.md)
+
+
+#### [addFavorite](/data/requests/favorites/addfavorite.md)
+
+
+#### [getFavorites after favorite add](/data/requests/favorites/getfavorites-after-favorite-add.md)
+
+
+#### [getFavorite](/data/requests/favorites/getfavorite.md)
+
+
+#### [removeFavorite](/data/requests/favorites/removefavorite.md)
+
+
+#### [getFavoriteGroups](/data/requests/favorites/getfavoritegroups.md)
+
+
+#### [getFavoriteGroup](/data/requests/favorites/getfavoritegroup.md)
+
+
+#### [updateFavoriteGroup](/data/requests/favorites/updatefavoritegroup.md)
 
 
 
@@ -241,6 +281,22 @@ Response schema mismatch:
 
 
 
+## [Player Moderation](/data/requests/player-moderation)
+
+#### [getPlayerModerations](/data/requests/player-moderation/getplayermoderations.md)
+
+
+#### [moderateUser](/data/requests/player-moderation/moderateuser.md)
+
+
+#### [getPlayerModerations with filter](/data/requests/player-moderation/getplayermoderations-with-filter.md)
+
+
+#### [clearAllPlayerModerations](/data/requests/player-moderation/clearallplayermoderations.md)
+
+
+
+
 ## [System](/data/requests/system)
 
 #### [getJavaScript](/data/requests/system/getjavascript.md)
@@ -276,7 +332,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/emoji``,
 * Unexpected property at ``#/reportCategories/sticker``,
 
-*27 issues truncated.*
+*16 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

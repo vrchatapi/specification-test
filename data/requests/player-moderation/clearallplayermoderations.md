@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# clearAllPlayerModerations
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`DELETE https://vrchat.com/api/1/auth/user/playermoderations`
 
 | Header | Value |
 | ------ | ----- |
@@ -17,14 +17,18 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `46` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "success": {
+    "message": "OK",
+    "status_code": 200
+  }
+}
 ```

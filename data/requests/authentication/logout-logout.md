@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# logout logout
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`PUT https://vrchat.com/api/1/logout`
 
 | Header | Value |
 | ------ | ----- |
@@ -17,14 +17,21 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `47` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
+| set-cookie | `<redacted>` |
+| set-cookie | `<redacted>` |
+| set-cookie | `<redacted>` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "success": {
+    "message": "Ok!",
+    "status_code": 200
+  }
+}
 ```

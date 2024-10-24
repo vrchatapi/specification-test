@@ -23,6 +23,7 @@ The auth string after `Authorization: Basic {string}` is a base64-encoded string
 * [getCurrentUser while missing credentials](./getcurrentuser-while-missing-credentials.md)
 * [getCurrentUser with username and password (expect fail)](./getcurrentuser-with-username-and-password-(expect-fail).md)
 * [getCurrentUser after two-factor authentication](./getcurrentuser-after-two-factor-authentication.md)
+* [getCurrentUser after logout to log back in](./getcurrentuser-after-logout-to-log-back-in.md)
 ## Verify 2FA code
 Finishes the login sequence with a normal 2FA-generated code for accounts with 2FA-protection enabled.
 
@@ -43,7 +44,7 @@ Verify whether the currently provided Auth Token is valid.
 ## Logout
 Invalidates the login session.
 
-> Missing coverage.
+* [logout logout](./logout-logout.md)
 ## Delete User
 Deletes the account with given ID. Normal users only have permission to delete their own account. Account deletion is 14 days from this request, and will be cancelled if you do an authenticated request with the account afterwards.
 

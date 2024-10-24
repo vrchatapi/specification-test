@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# getFavoriteGroups
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`GET https://vrchat.com/api/1/favorite/groups`
 
 | Header | Value |
 | ------ | ----- |
@@ -26,5 +26,26 @@
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+[
+  {
+    "displayName": "world1",
+    "id": "fvgrp_f07726b9-3fba-4239-90a9-90dbd3058f0d",
+    "name": "world1",
+    "ownerDisplayName": "8cf3def6b8cea",
+    "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+    "tags": [],
+    "type": "world",
+    "visibility": "private"
+  },
+  {
+    "displayName": "newName",
+    "id": "fvgrp_e303b9a5-4534-496f-bfbd-2a18b0976f5c",
+    "name": "avatars2",
+    "ownerDisplayName": "8cf3def6b8cea",
+    "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+    "tags": [],
+    "type": "avatar",
+    "visibility": "private"
+  }
+]
 ```

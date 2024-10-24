@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# getFavorites after favorite add
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`GET https://vrchat.com/api/1/favorites?tag=avatars2&type=avatar`
 
 | Header | Value |
 | ------ | ----- |
@@ -26,5 +26,14 @@
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+[
+  {
+    "favoriteId": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
+    "id": "<unstable>",
+    "tags": [
+      "avatars2"
+    ],
+    "type": "avatar"
+  }
+]
 ```

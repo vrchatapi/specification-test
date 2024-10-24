@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# getPlayerModerations with filter
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`GET https://vrchat.com/api/1/auth/user/playermoderations?type=unmute`
 
 | Header | Value |
 | ------ | ----- |
@@ -26,5 +26,15 @@
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+[
+  {
+    "created": "<unstable>",
+    "id": "oun_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
+    "sourceDisplayName": "8cf3def6b8cea",
+    "sourceUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+    "targetDisplayName": "tupper",
+    "targetUserId": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
+    "type": "unmute"
+  }
+]
 ```

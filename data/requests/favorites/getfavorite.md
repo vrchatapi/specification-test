@@ -1,7 +1,7 @@
-# getFavoritedWorlds
+# getFavorite
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/favorites`
+`GET https://vrchat.com/api/1/favorites/fvrt_6d1580a7-2670-414b-b197-d4adea72467a`
 
 | Header | Value |
 | ------ | ----- |
@@ -10,21 +10,22 @@
 
 
 ## Response
-`200 OK`
+`401 Unauthorized`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `76` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "error": "This endpoint is not accessible under this server configuration."
+}
 ```
