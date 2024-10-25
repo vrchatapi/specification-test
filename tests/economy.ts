@@ -18,12 +18,12 @@ test.serial.failing(
 test.serial.failing(
 	testOperation,
 	"getSteamTransaction",
-	{
+	() => ({
 		parameters: {
 			transactionId: state.get("transactionId")
 		},
 		statusCode: 200
-	},
+	}),
 	(t) => {
 		const { context } = t;
 		t.is(

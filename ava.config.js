@@ -1,7 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const testOrder = JSON.parse(fs.readFileSync("./tests/_order.json", "utf8"));
+var testOrder = JSON.parse(fs.readFileSync("./tests/_order.json", "utf8"));
+testOrder = Object.fromEntries(
+	Object.entries(testOrder).map(([key, value]) => [
+		key.replaceAll("/", path.sep),
+		value
+	])
+);
 
 export default {
 	cache: false,
