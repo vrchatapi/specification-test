@@ -9,18 +9,21 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
+* Unexpected property at ``#/ClothIdentityScroll``,
+* Unexpected property at ``#/alignmentDatagramText``,
 * Unexpected property at ``#/avatarPerfLimiter``,
 * Unexpected property at ``#/burritoMark``,
 * Unexpected property at ``#/defaultStickerSet``,
+* Unexpected property at ``#/exitBeachMarkScheduling``,
 * Unexpected property at ``#/localizationAppendHandler``,
-* Unexpected property at ``#/objectPerformanceMacBookmark``,
-* Unexpected property at ``#/publishBounce``,
+* Unexpected property at ``#/protocolNext``,
+* Unexpected property at ``#/redoCollider``,
 * Unexpected property at ``#/returnNotifyAttachmentItineraryScroll``,
-* Unexpected property at ``#/samlReadControlSouvenirTtl``,
-* Unexpected property at ``#/setBird``,
+* Unexpected property at ``#/screenBlinkMochaRolloutStream``,
+* Unexpected property at ``#/scrollExternalChannelReachabilityScheduler``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/syscallEmbedSpaceNameUp``,
-* Unexpected property at ``#/throttleOfflineLocalizationCache``.
+* Unexpected property at ``#/throttleOfflineLocalizationCache``,
+* Unexpected property at ``#/whoisIpv4EmbedCoefficient``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
