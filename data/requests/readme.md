@@ -132,15 +132,17 @@ Response schema mismatch:
 
 ## [Economy](/data/requests/economy)
 
+#### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
+
+Response schema mismatch:
+* Invalid type at ``#/agreement``.
+
 #### [getSteamTransactions](/data/requests/economy/getsteamtransactions.md)
 
 Response schema mismatch:
 * Invalid type at ``#/0/agreement``,
 * Invalid type at ``#/1/agreement``,
 * Invalid type at ``#/2/agreement``.
-
-#### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
-
 
 #### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
 
@@ -281,18 +283,18 @@ Response schema mismatch:
 
 
 
-## [Player Moderation](/data/requests/player-moderation)
+## [Playermoderation](/data/requests/playermoderation)
 
-#### [getPlayerModerations](/data/requests/player-moderation/getplayermoderations.md)
-
-
-#### [moderateUser](/data/requests/player-moderation/moderateuser.md)
+#### [getPlayerModerations](/data/requests/playermoderation/getplayermoderations.md)
 
 
-#### [getPlayerModerations with filter](/data/requests/player-moderation/getplayermoderations-with-filter.md)
+#### [moderateUser](/data/requests/playermoderation/moderateuser.md)
 
 
-#### [clearAllPlayerModerations](/data/requests/player-moderation/clearallplayermoderations.md)
+#### [getPlayerModerations with filter](/data/requests/playermoderation/getplayermoderations-with-filter.md)
+
+
+#### [clearAllPlayerModerations](/data/requests/playermoderation/clearallplayermoderations.md)
 
 
 
