@@ -334,7 +334,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/emoji``,
 * Unexpected property at ``#/reportCategories/sticker``,
 
-*19 issues truncated.*
+*20 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
