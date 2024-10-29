@@ -23,6 +23,7 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
+| x-vrc-request-id | `m2tqv5dfaboumvu6` |
 
 ```jsonc
 {

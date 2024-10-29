@@ -25,6 +25,7 @@
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
+| x-vrc-request-id | `m2tqv5zli6w3ps1c` |
 
 ```jsonc
 []

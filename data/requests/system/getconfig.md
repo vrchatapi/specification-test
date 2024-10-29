@@ -9,22 +9,24 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/NodeSlicingHelpClockPacket``,
 * Unexpected property at ``#/avatarPerfLimiter``,
-* Unexpected property at ``#/barrierElectionPartition``,
-* Unexpected property at ``#/blinkFriend``,
-* Unexpected property at ``#/burritoFirewallPublish``,
-* Unexpected property at ``#/colourHoistResort``,
+* Unexpected property at ``#/bulkLimiterGenderAmericanoGraphql``,
+* Unexpected property at ``#/cloudMochaStringMac``,
+* Unexpected property at ``#/contentInstanceScreen``,
+* Unexpected property at ``#/crossRoutingBonesMutex``,
 * Unexpected property at ``#/defaultStickerSet``,
-* Unexpected property at ``#/frameCookieStream``,
-* Unexpected property at ``#/loafExcursionCloneSearch``,
-* Unexpected property at ``#/partitionBaristaHomeSliceDelay``,
-* Unexpected property at ``#/protocolFrameworkSearchInstallMessage``,
-* Unexpected property at ``#/proxyValue``,
-* Unexpected property at ``#/schedulerKeywordStatusClipReserved``,
+* Unexpected property at ``#/deploymentReplicaGeneratorDraft``,
+* Unexpected property at ``#/electionWeightTcp``,
+* Unexpected property at ``#/lineHeadpatChatPlugin``,
+* Unexpected property at ``#/randomPrimary``,
+* Unexpected property at ``#/readConnection``,
+* Unexpected property at ``#/signAppendHealth``,
+* Unexpected property at ``#/signReceive``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/tokenCommitPasteConfigurationModel``,
-* Unexpected property at ``#/transmitMinimumTtlAmericano``.
+* Unexpected property at ``#/textImpostorReturnLoader``,
+* Unexpected property at ``#/throttleLoopStackRealtime``,
+* Unexpected property at ``#/transmittionResolverShardListenerSocket``,
+* Unexpected property at ``#/viewMetricClusterSpace``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
@@ -49,6 +51,7 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
+| x-vrc-request-id | `m2tqtrzyys8m47gw` |
 
 ```jsonc
 <unstable>
