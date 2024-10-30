@@ -9,24 +9,30 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
+* Unexpected property at ``#/WorldMarkElectionCoefficient``,
+* Unexpected property at ``#/analyticsDutyAvailabilityMarker``,
+* Unexpected property at ``#/attachmentDraftProbabilityBuildPrimary``,
 * Unexpected property at ``#/avatarPerfLimiter``,
-* Unexpected property at ``#/bulkLimiterGenderAmericanoGraphql``,
-* Unexpected property at ``#/cloudMochaStringMac``,
-* Unexpected property at ``#/contentInstanceScreen``,
-* Unexpected property at ``#/crossRoutingBonesMutex``,
+* Unexpected property at ``#/bandwidthDuckingToolbox``,
+* Unexpected property at ``#/bodyEternalUnlisted``,
+* Unexpected property at ``#/coexistenceNoise``,
 * Unexpected property at ``#/defaultStickerSet``,
-* Unexpected property at ``#/deploymentReplicaGeneratorDraft``,
-* Unexpected property at ``#/electionWeightTcp``,
-* Unexpected property at ``#/lineHeadpatChatPlugin``,
-* Unexpected property at ``#/randomPrimary``,
-* Unexpected property at ``#/readConnection``,
-* Unexpected property at ``#/signAppendHealth``,
-* Unexpected property at ``#/signReceive``,
+* Unexpected property at ``#/deployStatusGenderAnimator``,
+* Unexpected property at ``#/deploymentScreenLoopModel``,
+* Unexpected property at ``#/downloadMarkerTemporal``,
+* Unexpected property at ``#/gitApiHeightCaptchaMonitor``,
+* Unexpected property at ``#/impostorEternalYaml``,
+* Unexpected property at ``#/managerOutThrottleDisplayReplace``,
+* Unexpected property at ``#/realDraftPoolEspresso``,
+* Unexpected property at ``#/remoteContainerSchedulerUpdate``,
+* Unexpected property at ``#/restDestination``,
+* Unexpected property at ``#/rumorAmericano``,
+* Unexpected property at ``#/segmentBuffer``,
+* Unexpected property at ``#/slotMacchiatoTcpLibrary``,
+* Unexpected property at ``#/souvenirMetric``,
+* Unexpected property at ``#/stickerEndpoint``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/textImpostorReturnLoader``,
-* Unexpected property at ``#/throttleLoopStackRealtime``,
-* Unexpected property at ``#/transmittionResolverShardListenerSocket``,
-* Unexpected property at ``#/viewMetricClusterSpace``.
+* Unexpected property at ``#/toolboxSegmentBrew``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
@@ -51,7 +57,7 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2tqtrzyys8m47gw` |
+| x-vrc-request-id | `m2v68jg7p6cb5gny` |
 
 ```jsonc
 <unstable>
