@@ -8,7 +8,6 @@ Response schema mismatch:
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
@@ -46,10 +45,36 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2v6al590ldrk9v8` |
+| x-vrc-request-id | `m2wlqxbvj53kch86` |
 
 ```jsonc
 [
+  {
+    "createdAt": "2024-10-29T17:23:33.367Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_fe0322a8-4e1c-4e15-88d1-43931e81ed7f.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_77faaca8-86c0-4e0f-bffb-4655a9a63697"
+        ]
+      }
+    },
+    "endDate": "2024-11-05T05:00:00.000Z",
+    "hash": "ips_b3fc2b97-14f2-4175-8444-2988a4f7d778",
+    "id": "ips_b3fc2b97-14f2-4175-8444-2988a4f7d778",
+    "isEnabled": true,
+    "priority": 450,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-10-30T23:38:46.433Z"
+  },
   {
     "createdAt": "2024-10-21T20:38:09.749Z",
     "data": {
@@ -75,32 +100,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2024-10-21T20:50:15.039Z"
-  },
-  {
-    "createdAt": "2024-10-09T18:57:12.817Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_8db6cb99-f505-444e-bf5e-74ed29aedd15.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_3081ad76-aae8-4b45-96d4-e71f0e8603f5"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_023d020b-c733-447f-8a4c-b557e87347ca",
-    "id": "ips_023d020b-c733-447f-8a4c-b557e87347ca",
-    "isEnabled": true,
-    "priority": 845,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-10-10T00:28:50.173Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",

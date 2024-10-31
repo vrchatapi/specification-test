@@ -93,6 +93,8 @@ Response schema mismatch:
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
+Response schema mismatch:
+* Invalid type at ``#/playerPersistenceEnabled``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -318,7 +320,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 
-*906 issues truncated.*
+*910 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -326,7 +328,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 
-*17 issues truncated.*
+*16 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -334,7 +336,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/emoji``,
 * Unexpected property at ``#/reportCategories/sticker``,
 
-*28 issues truncated.*
+*27 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
