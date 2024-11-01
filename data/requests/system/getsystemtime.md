@@ -25,7 +25,7 @@
 | server | `cloudflare` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2wlqyu3qk74v96k` |
+| x-vrc-request-id | `m2y1cc4q6mzg42fz` |
 
 ```jsonc
 <unstable>

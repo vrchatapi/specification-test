@@ -320,7 +320,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 
-*910 issues truncated.*
+*914 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -336,7 +336,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/emoji``,
 * Unexpected property at ``#/reportCategories/sticker``,
 
-*27 issues truncated.*
+*26 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

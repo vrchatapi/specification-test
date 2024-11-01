@@ -9,29 +9,28 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/appendEvent``,
+* Unexpected property at ``#/arrayDisableObject``,
+* Unexpected property at ``#/avatarEacPosition``,
 * Unexpected property at ``#/avatarPerfLimiter``,
-* Unexpected property at ``#/clientHashReserved``,
+* Unexpected property at ``#/clusterPreviousVirtualDebounce``,
+* Unexpected property at ``#/commitPublish``,
+* Unexpected property at ``#/cremaSeedLabel``,
+* Unexpected property at ``#/dashboardMutexXml``,
 * Unexpected property at ``#/defaultStickerSet``,
-* Unexpected property at ``#/exitStroopwafelRollout``,
-* Unexpected property at ``#/forkThroughputReferenceCursed``,
-* Unexpected property at ``#/homeFuslEntryBiography``,
-* Unexpected property at ``#/identityApiHeadpat``,
-* Unexpected property at ``#/iso8601InternalIso8601``,
-* Unexpected property at ``#/jsonBiographyLabelBird``,
-* Unexpected property at ``#/pageRoomSubscriberModelBlock``,
-* Unexpected property at ``#/rankBreadJoinSyncService``,
-* Unexpected property at ``#/reliableLoopUploadChurnRemote``,
-* Unexpected property at ``#/replicaEndpoint``,
-* Unexpected property at ``#/reversePackageBookmarkLoaderTemporal``,
-* Unexpected property at ``#/routingReplicaExecute``,
-* Unexpected property at ``#/stackMain``,
+* Unexpected property at ``#/friendAttributeKeyPocket``,
+* Unexpected property at ``#/headStatusRankTime``,
+* Unexpected property at ``#/labelLoopPayload``,
+* Unexpected property at ``#/namePointerQueueInterfaceSlice``,
+* Unexpected property at ``#/pluginReportPrint``,
+* Unexpected property at ``#/reachabilityCoefficient``,
+* Unexpected property at ``#/reasonChangePlayerReplication``,
+* Unexpected property at ``#/remoteJoinSubscriptionTimestampRtt``,
+* Unexpected property at ``#/responseIpv6Space``,
+* Unexpected property at ``#/rolloverIpv4``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/totalCrossProxyDevicePage``,
-* Unexpected property at ``#/ttlExpireSoapHoistUndo``,
-* Unexpected property at ``#/udpDisplay``,
-* Unexpected property at ``#/verificationPoolCompileText``,
-* Unexpected property at ``#/vrchatAlert``.
+* Unexpected property at ``#/systemLoaderRateBranchMutex``,
+* Unexpected property at ``#/tagDistance``,
+* Unexpected property at ``#/timestampColliderPackage``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
@@ -56,7 +55,7 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2wlq2g3ga5m9opg` |
+| x-vrc-request-id | `m2y1b14trruzsr79` |
 
 ```jsonc
 <unstable>
