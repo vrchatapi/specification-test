@@ -24,7 +24,7 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2y1bndbrl5uqcm3` |
+| x-vrc-request-id | `m2zgjfccv77t3y3r` |
 
 ```jsonc
 {
@@ -65,7 +65,8 @@
     "admin_AllowInternal_PlatformCheck",
     "admin_filter_UrlLauncher",
     "admin_filter_analytics",
-    "admin_hide_broad"
+    "admin_hide_broad",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",
@@ -172,10 +173,10 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/239/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/240/file",
       "assetVersion": 4,
-      "created_at": "2024-10-22T01:28:40.475Z",
-      "id": "unp_b9098f43-39a9-43b1-9882-0efce5378e43",
+      "created_at": "2024-11-01T16:27:29.143Z",
+      "id": "unp_175811d9-fe6e-4633-950d-0ede1fa5a54e",
       "platform": "android",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1"
@@ -200,10 +201,10 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/20/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/21/file",
       "assetVersion": 4,
-      "created_at": "2024-10-22T01:32:51.661Z",
-      "id": "unp_701b7960-9c31-41c3-9375-93606f0226ea",
+      "created_at": "2024-11-01T16:31:45.886Z",
+      "id": "unp_278e93f0-78bc-400c-acc3-b48a89c6170b",
       "platform": "ios",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1"
@@ -310,10 +311,10 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/238/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/242/file",
       "assetVersion": 4,
-      "created_at": "2024-10-22T01:23:27.426Z",
-      "id": "unp_d82bdaf1-aeb4-4caf-93f2-0720e13ec165",
+      "created_at": "2024-11-01T17:55:52.962Z",
+      "id": "unp_2c7296cc-42f0-4efe-bce9-659d3724746b",
       "platform": "standalonewindows",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1"

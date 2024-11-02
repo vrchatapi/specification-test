@@ -23,7 +23,7 @@
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2y1bwauc1177nu8` |
+| x-vrc-request-id | `m2zgjph0a0oal7jk` |
 
 ```jsonc
 {

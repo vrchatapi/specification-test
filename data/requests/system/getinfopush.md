@@ -7,20 +7,23 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Invalid type at ``#/1/startDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
+* Invalid type at ``#/3/startDate``,
+* Invalid type at ``#/3/endDate``,
+* Unexpected property at ``#/3/regions``,
+* Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
-* Invalid type at ``#/4/startDate``,
-* Invalid type at ``#/4/endDate``,
-* Unexpected property at ``#/4/regions``,
-* Unexpected property at ``#/4/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
+* Invalid type at ``#/5/startDate``,
+* Invalid type at ``#/5/endDate``,
+* Unexpected property at ``#/5/regions``,
+* Unexpected property at ``#/5/requireClientTags``.
 ## Request
 `GET https://vrchat.com/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -45,7 +48,7 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2y1caqd1hb4lb7v` |
+| x-vrc-request-id | `m2zgk57n2awku2rz` |
 
 ```jsonc
 [
@@ -74,6 +77,32 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2024-10-30T23:38:46.433Z"
+  },
+  {
+    "createdAt": "2024-10-31T23:53:10.499Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4cb79537-e942-4462-9806-9878754a29fa.png",
+      "onPressed": {
+        "command": "OpenWorldsMenu",
+        "parameters": [
+          "ips_19ff0710-644a-4cfd-aa12-b1d910b25346"
+        ]
+      }
+    },
+    "endDate": "2024-11-10T15:00:00.000Z",
+    "hash": "ips_c546e73a-ea41-4d0b-9c21-f3ddc1c9a2e5",
+    "id": "ips_c546e73a-ea41-4d0b-9c21-f3ddc1c9a2e5",
+    "isEnabled": true,
+    "priority": 470,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2024-11-01T15:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-11-01T17:46:21.318Z"
   },
   {
     "createdAt": "2024-10-21T20:38:09.749Z",

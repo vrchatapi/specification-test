@@ -9,28 +9,27 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/arrayDisableObject``,
-* Unexpected property at ``#/avatarEacPosition``,
+* Unexpected property at ``#/PayloadUnityPassportHeightSouvenir``,
+* Unexpected property at ``#/attachmentDockerPartition``,
 * Unexpected property at ``#/avatarPerfLimiter``,
-* Unexpected property at ``#/clusterPreviousVirtualDebounce``,
-* Unexpected property at ``#/commitPublish``,
-* Unexpected property at ``#/cremaSeedLabel``,
-* Unexpected property at ``#/dashboardMutexXml``,
+* Unexpected property at ``#/blockJoinNode``,
+* Unexpected property at ``#/captchaFocacciaReport``,
+* Unexpected property at ``#/commandKeywordSyscallAnimatorInstall``,
+* Unexpected property at ``#/contentJwtSetEternalBrioche``,
+* Unexpected property at ``#/contextPullResolverLengthStart``,
 * Unexpected property at ``#/defaultStickerSet``,
-* Unexpected property at ``#/friendAttributeKeyPocket``,
-* Unexpected property at ``#/headStatusRankTime``,
-* Unexpected property at ``#/labelLoopPayload``,
-* Unexpected property at ``#/namePointerQueueInterfaceSlice``,
-* Unexpected property at ``#/pluginReportPrint``,
-* Unexpected property at ``#/reachabilityCoefficient``,
-* Unexpected property at ``#/reasonChangePlayerReplication``,
-* Unexpected property at ``#/remoteJoinSubscriptionTimestampRtt``,
-* Unexpected property at ``#/responseIpv6Space``,
-* Unexpected property at ``#/rolloverIpv4``,
+* Unexpected property at ``#/defaultStreamingLockingFileStart``,
+* Unexpected property at ``#/libraryModerationResolverTotal``,
+* Unexpected property at ``#/protocolBarrierLocationNightly``,
+* Unexpected property at ``#/resolverConnectionRoom``,
+* Unexpected property at ``#/roastUpdated``,
+* Unexpected property at ``#/schedulerItinerary``,
+* Unexpected property at ``#/scrollJustify``,
+* Unexpected property at ``#/segmentActivityFoxVideoNotification``,
+* Unexpected property at ``#/segmentHiddenDelayStream``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/systemLoaderRateBranchMutex``,
-* Unexpected property at ``#/tagDistance``,
-* Unexpected property at ``#/timestampColliderPackage``.
+* Unexpected property at ``#/thunderBurritoManagerBlinkItinerary``,
+* Unexpected property at ``#/unityChangePublicBeachLoader``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
@@ -55,7 +54,7 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2y1b14trruzsr79` |
+| x-vrc-request-id | `m2zgj2m0aqrc9wp3` |
 
 ```jsonc
 <unstable>
