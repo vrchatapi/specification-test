@@ -18,14 +18,14 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `5` |
+| content-length | `6` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2zgk6cjwk3i79ic` |
+| x-vrc-request-id | `m30w7dpv54fvsu2k` |
 
 ```jsonc
 <unstable>

@@ -73,7 +73,7 @@ Response schema mismatch:
 | set-cookie | `<redacted>` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2zgj8r2d7wficyz` |
+| x-vrc-request-id | `m30w6btt8tpa2nlv` |
 
 ```jsonc
 {

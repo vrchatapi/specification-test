@@ -9,27 +9,25 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/PayloadUnityPassportHeightSouvenir``,
-* Unexpected property at ``#/attachmentDockerPartition``,
+* Unexpected property at ``#/AvailabilityElectionQuery``,
+* Unexpected property at ``#/DatagramNameWorldJsonLoop``,
+* Unexpected property at ``#/LeaveSchedulingPrimaryColour``,
 * Unexpected property at ``#/avatarPerfLimiter``,
-* Unexpected property at ``#/blockJoinNode``,
-* Unexpected property at ``#/captchaFocacciaReport``,
-* Unexpected property at ``#/commandKeywordSyscallAnimatorInstall``,
-* Unexpected property at ``#/contentJwtSetEternalBrioche``,
-* Unexpected property at ``#/contextPullResolverLengthStart``,
+* Unexpected property at ``#/bufferFuslScheduler``,
+* Unexpected property at ``#/changeHealthShader``,
+* Unexpected property at ``#/channelFocacciaDatagram``,
+* Unexpected property at ``#/connectionPoolPasteDownPointer``,
 * Unexpected property at ``#/defaultStickerSet``,
-* Unexpected property at ``#/defaultStreamingLockingFileStart``,
-* Unexpected property at ``#/libraryModerationResolverTotal``,
-* Unexpected property at ``#/protocolBarrierLocationNightly``,
-* Unexpected property at ``#/resolverConnectionRoom``,
-* Unexpected property at ``#/roastUpdated``,
-* Unexpected property at ``#/schedulerItinerary``,
-* Unexpected property at ``#/scrollJustify``,
-* Unexpected property at ``#/segmentActivityFoxVideoNotification``,
-* Unexpected property at ``#/segmentHiddenDelayStream``,
+* Unexpected property at ``#/displayTemporaryInterfaceBuild``,
+* Unexpected property at ``#/duckingMentionTransactionWorldJump``,
+* Unexpected property at ``#/expireTargetShardElectionBackground``,
+* Unexpected property at ``#/friendObjectsRotationGroup``,
+* Unexpected property at ``#/helpTransmitTerminalCompile``,
+* Unexpected property at ``#/podEntry``,
+* Unexpected property at ``#/signaturePayloadApiInstruction``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/thunderBurritoManagerBlinkItinerary``,
-* Unexpected property at ``#/unityChangePublicBeachLoader``.
+* Unexpected property at ``#/timeoutMinimumTagSocket``,
+* Unexpected property at ``#/worldGit``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
@@ -54,7 +52,7 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m2zgj2m0aqrc9wp3` |
+| x-vrc-request-id | `m30w6f9umsjwrjzp` |
 
 ```jsonc
 <unstable>
