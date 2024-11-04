@@ -26,7 +26,7 @@
 | set-cookie | `<redacted>` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m30w6fguj57lx656` |
+| x-vrc-request-id | `m32bimb6kfkmihm0` |
 
 ```jsonc
 {

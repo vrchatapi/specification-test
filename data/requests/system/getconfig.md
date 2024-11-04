@@ -9,25 +9,26 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/AvailabilityElectionQuery``,
-* Unexpected property at ``#/DatagramNameWorldJsonLoop``,
-* Unexpected property at ``#/LeaveSchedulingPrimaryColour``,
+* Unexpected property at ``#/CommunityLocationVersionArray``,
+* Unexpected property at ``#/attributeFeedContextSubscription``,
 * Unexpected property at ``#/avatarPerfLimiter``,
-* Unexpected property at ``#/bufferFuslScheduler``,
-* Unexpected property at ``#/changeHealthShader``,
-* Unexpected property at ``#/channelFocacciaDatagram``,
-* Unexpected property at ``#/connectionPoolPasteDownPointer``,
+* Unexpected property at ``#/connectionPrimaryPropFriendResponse``,
+* Unexpected property at ``#/contentHistoryIso8601Oauth``,
 * Unexpected property at ``#/defaultStickerSet``,
-* Unexpected property at ``#/displayTemporaryInterfaceBuild``,
-* Unexpected property at ``#/duckingMentionTransactionWorldJump``,
-* Unexpected property at ``#/expireTargetShardElectionBackground``,
-* Unexpected property at ``#/friendObjectsRotationGroup``,
-* Unexpected property at ``#/helpTransmitTerminalCompile``,
-* Unexpected property at ``#/podEntry``,
-* Unexpected property at ``#/signaturePayloadApiInstruction``,
+* Unexpected property at ``#/executeSwarmRelaadventureToolbox``,
+* Unexpected property at ``#/extendedTimeoutTimer``,
+* Unexpected property at ``#/feedbackMobileStatusModeration``,
+* Unexpected property at ``#/friendNuisanceSwarmOwnership``,
+* Unexpected property at ``#/headRandomDelay``,
+* Unexpected property at ``#/passportExpiresContextThrottleKeyboard``,
+* Unexpected property at ``#/printVideoHash``,
+* Unexpected property at ``#/responseRye``,
+* Unexpected property at ``#/spaceChaos``,
+* Unexpected property at ``#/startMarker``,
+* Unexpected property at ``#/streamingMaximum``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/timeoutMinimumTagSocket``,
-* Unexpected property at ``#/worldGit``.
+* Unexpected property at ``#/trendSyncExcursionCollider``,
+* Unexpected property at ``#/verificationTimezoneEvents``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
@@ -52,7 +53,7 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m30w6f9umsjwrjzp` |
+| x-vrc-request-id | `m32bi9bsyk1s3wul` |
 
 ```jsonc
 <unstable>
