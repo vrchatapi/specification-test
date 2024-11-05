@@ -1,5 +1,8 @@
 # getFavoritedWorlds
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0/urlList``.
 ## Request
 `GET https://vrchat.com/api/1/worlds/favorites`
 
@@ -24,7 +27,7 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m32biq5s8kkzdoph` |
+| x-vrc-request-id | `m33quowj3mbx8sr1` |
 
 ```jsonc
 <unstable>

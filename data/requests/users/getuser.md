@@ -1,5 +1,8 @@
 # getUser
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/ageVerificationStatus``.
 ## Request
 `GET https://vrchat.com/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 
@@ -24,10 +27,11 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m32bioj14hexbnsl` |
+| x-vrc-request-id | `m33qun39u2uget3r` |
 
 ```jsonc
 {
+  "ageVerificationStatus": "hidden",
   "allowAvatarCopying": false,
   "badges": [
     {

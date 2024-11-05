@@ -1,5 +1,8 @@
 # getWorld by id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/urlList``.
 ## Request
 `GET https://vrchat.com/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
 
@@ -24,7 +27,7 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m32biqcvssd7j8he` |
+| x-vrc-request-id | `m33qup5hztg2jtno` |
 
 ```jsonc
 {
@@ -59,12 +62,14 @@
     "admin_approved",
     "admin_spotlight_mobile",
     "system_approved",
-    "system_monetized_world"
+    "system_monetized_world",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: array of strings>",
   "unityPackages": "<unstable: array of objects>",
   "updated_at": "<unstable: string>",
+  "urlList": [],
   "version": "<unstable: number>",
   "visits": "<unstable: number>"
 }

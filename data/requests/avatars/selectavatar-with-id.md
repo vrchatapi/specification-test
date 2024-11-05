@@ -1,5 +1,10 @@
 # selectAvatar with id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/ageVerificationStatus``,
+* Unexpected property at ``#/ageVerified``,
+* Unexpected property at ``#/isAdult``.
 ## Request
 `PUT https://vrchat.com/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/select`
 
@@ -23,7 +28,7 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m32bitllsgpd37vm` |
+| x-vrc-request-id | `m33qutgbtu9bzm3v` |
 
 ```jsonc
 {
@@ -31,6 +36,8 @@
   "acceptedTOSVersion": 9,
   "accountDeletionDate": null,
   "accountDeletionLog": null,
+  "ageVerificationStatus": "hidden",
+  "ageVerified": false,
   "allowAvatarCopying": true,
   "bio": "",
   "bioLinks": [],
@@ -56,6 +63,7 @@
   "hideContentFilterSettings": false,
   "homeLocation": "",
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  "isAdult": true,
   "isBoopingEnabled": true,
   "isFriend": false,
   "last_activity": "<unstable: string>",

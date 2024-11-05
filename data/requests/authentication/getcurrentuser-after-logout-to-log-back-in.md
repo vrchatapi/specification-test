@@ -1,5 +1,10 @@
 # getCurrentUser after logout to log back in
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/ageVerificationStatus``,
+* Unexpected property at ``#/ageVerified``,
+* Unexpected property at ``#/isAdult``.
 ## Request
 `GET https://vrchat.com/api/1/auth/user`
 
@@ -27,7 +32,7 @@
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m32bimi2eot9qy1b` |
+| x-vrc-request-id | `m33quki0xp7zg1ek` |
 
 ```jsonc
 {
@@ -36,6 +41,8 @@
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "activeFriends": [],
+  "ageVerificationStatus": "hidden",
+  "ageVerified": false,
   "allowAvatarCopying": true,
   "badges": [
     {
@@ -73,6 +80,7 @@
   "hideContentFilterSettings": false,
   "homeLocation": "",
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  "isAdult": true,
   "isBoopingEnabled": true,
   "isFriend": false,
   "last_activity": "<unstable: string>",

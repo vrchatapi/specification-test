@@ -48,7 +48,7 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m32bjbgl2h0l62dn` |
+| x-vrc-request-id | `m33qvg4r1501bbsv` |
 
 ```jsonc
 [
@@ -63,7 +63,7 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": "2024-11-05T05:00:00.000Z",
+    "endDate": "2024-11-30T05:00:00.000Z",
     "hash": "ips_b3fc2b97-14f2-4175-8444-2988a4f7d778",
     "id": "ips_b3fc2b97-14f2-4175-8444-2988a4f7d778",
     "isEnabled": true,
@@ -76,7 +76,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2024-10-30T23:38:46.433Z"
+    "updatedAt": "2024-11-04T21:50:04.505Z"
   },
   {
     "createdAt": "2024-10-31T23:53:10.499Z",
