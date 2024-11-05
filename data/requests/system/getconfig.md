@@ -9,25 +9,20 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/PocketYamlQuorumJoinSpace``,
 * Unexpected property at ``#/ageVerificationP``,
 * Unexpected property at ``#/ageVerificationStatusVisible``,
 * Unexpected property at ``#/alignmentDeploymentResponseHeap``,
-* Unexpected property at ``#/avatarDownPublish``,
+* Unexpected property at ``#/arrayExecuteAvailabilityLoopGift``,
 * Unexpected property at ``#/avatarPerfLimiter``,
-* Unexpected property at ``#/compileNode``,
 * Unexpected property at ``#/defaultStickerSet``,
-* Unexpected property at ``#/draftMergeSwarmStatusDevice``,
-* Unexpected property at ``#/errorWorld``,
-* Unexpected property at ``#/executeSteamReliable``,
-* Unexpected property at ``#/giftRemoteBulk``,
+* Unexpected property at ``#/detectionMainStroopwafelPositionTier``,
 * Unexpected property at ``#/headCursedSteam``,
-* Unexpected property at ``#/rateTutorialAnalysisInstallSteam``,
 * Unexpected property at ``#/regionDashboardObjectsDetectionAlert``,
 * Unexpected property at ``#/regressionDownPlainFox``,
-* Unexpected property at ``#/resolverChurnReadAttributeIpv6``,
-* Unexpected property at ``#/serviceKernel``,
-* Unexpected property at ``#/supportFormUrl``.
+* Unexpected property at ``#/resortEmbedAppendLeaveHidden``,
+* Unexpected property at ``#/semaphoreUploadReferenceMessageShard``,
+* Unexpected property at ``#/supportFormUrl``,
+* Unexpected property at ``#/usageRateUp``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
@@ -52,7 +47,6 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m33qubqa8dg6vjw0` |
 
 ```jsonc
 <unstable>

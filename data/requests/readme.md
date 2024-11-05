@@ -111,8 +111,7 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Invalid type at ``#/playerPersistenceEnabled``,
-* Unexpected property at ``#/world/urlList``,
-* Unexpected property at ``#/ageGate``.
+* Unexpected property at ``#/world/urlList``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -350,7 +349,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 
-*926 issues truncated.*
+*920 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -366,7 +365,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/emoji``,
 * Unexpected property at ``#/reportCategories/sticker``,
 
-*23 issues truncated.*
+*18 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

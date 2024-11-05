@@ -32,7 +32,6 @@ Response schema mismatch:
 | transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
-| x-vrc-request-id | `m33quki0xp7zg1ek` |
 
 ```jsonc
 {
