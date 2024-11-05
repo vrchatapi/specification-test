@@ -255,7 +255,8 @@ const unstableResponseHeaders = new Set([
 	"x-cache",
 	"x-vrc-api-group",
 	"x-vrc-api-server",
-	"x-vrc-api-version"
+	"x-vrc-api-version",
+	"x-vrc-request-id"
 ]);
 
 function normalizeTestTitle(title: string) {
@@ -529,7 +530,7 @@ export async function fetchOperation(
 				if (security.scheme !== "basic")
 					return failLog(t, `Security scheme \`\`${name}\`\` not supported`);
 
-				requestOptions.headers["authorization"] = `Basic ${value}`
+				requestOptions.headers["authorization"] = `Basic ${value}`;
 				break;
 			}
 			case "apiKey": {
