@@ -3,14 +3,12 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
+* Invalid type at ``#/1/startDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
@@ -52,32 +50,6 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2024-10-29T17:23:33.367Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_fe0322a8-4e1c-4e15-88d1-43931e81ed7f.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_77faaca8-86c0-4e0f-bffb-4655a9a63697"
-        ]
-      }
-    },
-    "endDate": "2024-11-30T05:00:00.000Z",
-    "hash": "ips_b3fc2b97-14f2-4175-8444-2988a4f7d778",
-    "id": "ips_b3fc2b97-14f2-4175-8444-2988a4f7d778",
-    "isEnabled": true,
-    "priority": 450,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-11-04T21:50:04.505Z"
-  },
-  {
     "createdAt": "2024-10-31T23:53:10.499Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4cb79537-e942-4462-9806-9878754a29fa.png",
@@ -92,7 +64,7 @@ Response schema mismatch:
     "hash": "ips_c546e73a-ea41-4d0b-9c21-f3ddc1c9a2e5",
     "id": "ips_c546e73a-ea41-4d0b-9c21-f3ddc1c9a2e5",
     "isEnabled": true,
-    "priority": 470,
+    "priority": 450,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -101,24 +73,24 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2024-11-01T17:46:21.318Z"
+    "updatedAt": "2024-11-05T15:58:13.424Z"
   },
   {
-    "createdAt": "2024-10-21T20:38:09.749Z",
+    "createdAt": "2024-10-29T17:23:33.367Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_ee0c3bb6-5eb8-4b50-b109-3ef62e679741.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_fe0322a8-4e1c-4e15-88d1-43931e81ed7f.png",
       "onPressed": {
-        "command": "OpenWorldsMenu",
+        "command": "OpenHelpArticle",
         "parameters": [
-          "ips_f9722bbd-a1a2-4b2d-9844-435c7acc8b04"
+          "ips_77faaca8-86c0-4e0f-bffb-4655a9a63697"
         ]
       }
     },
-    "endDate": "2024-11-05T08:00:00.000Z",
-    "hash": "ips_6359f727-a5bc-4269-afaf-4a8d9f244bbc",
-    "id": "ips_6359f727-a5bc-4269-afaf-4a8d9f244bbc",
+    "endDate": "2024-11-30T05:00:00.000Z",
+    "hash": "ips_b3fc2b97-14f2-4175-8444-2988a4f7d778",
+    "id": "ips_b3fc2b97-14f2-4175-8444-2988a4f7d778",
     "isEnabled": true,
-    "priority": 500,
+    "priority": 470,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -127,7 +99,33 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2024-10-21T20:50:15.039Z"
+    "updatedAt": "2024-11-05T15:58:35.483Z"
+  },
+  {
+    "createdAt": "2024-11-05T00:03:48.789Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f665c872-a250-46f7-8133-ff4b9d866874.png",
+      "onPressed": {
+        "command": "OpenURL",
+        "parameters": [
+          "https://hello.vrchat.com/blog/mobile-alpha-now-live"
+        ]
+      }
+    },
+    "endDate": "2024-11-12T08:00:00.000Z",
+    "hash": "ips_fb5f0422-ffcd-45fe-92f6-eb18424f64f5",
+    "id": "ips_fb5f0422-ffcd-45fe-92f6-eb18424f64f5",
+    "isEnabled": true,
+    "priority": 500,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2024-11-05T08:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-11-05T00:04:29.195Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",

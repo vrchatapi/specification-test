@@ -3,7 +3,8 @@
 ## Issues
 Response schema mismatch:
 * Invalid type at ``#/playerPersistenceEnabled``,
-* Unexpected property at ``#/world/urlList``.
+* Unexpected property at ``#/world/urlList``,
+* Unexpected property at ``#/ageGate``.
 ## Request
 `GET https://vrchat.com/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>`
 
