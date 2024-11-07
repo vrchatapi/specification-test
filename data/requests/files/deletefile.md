@@ -1,7 +1,7 @@
 # deleteFile
 
 ## Request
-`DELETE https://vrchat.com/api/1/file/<unstable>`
+`DELETE https://api.vrchat.cloud/api/1/file/<unstable>`
 
 | Header | Value |
 | ------ | ----- |

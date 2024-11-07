@@ -1,7 +1,7 @@
 # getFavorites after favorite add
 
 ## Request
-`GET https://vrchat.com/api/1/favorites?tag=avatars2&type=avatar`
+`GET https://api.vrchat.cloud/api/1/favorites?tag=avatars2&type=avatar`
 
 | Header | Value |
 | ------ | ----- |

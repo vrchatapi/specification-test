@@ -1,7 +1,7 @@
 # deleteFileVersion
 
 ## Request
-`DELETE https://vrchat.com/api/1/file/<unstable>/1`
+`DELETE https://api.vrchat.cloud/api/1/file/<unstable>/1`
 
 | Header | Value |
 | ------ | ----- |

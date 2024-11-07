@@ -1,7 +1,7 @@
 # deleteGroup
 
 ## Request
-`DELETE https://vrchat.com/api/1/groups/<unstable>`
+`DELETE https://api.vrchat.cloud/api/1/groups/<unstable>`
 
 | Header | Value |
 | ------ | ----- |

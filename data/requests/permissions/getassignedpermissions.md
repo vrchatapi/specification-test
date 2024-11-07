@@ -9,7 +9,7 @@ Response schema mismatch:
 * Unexpected property at ``#/8data/tags``,
 * Unexpected property at ``#/8data/badges``.
 ## Request
-`GET https://vrchat.com/api/1/auth/permissions`
+`GET https://api.vrchat.cloud/api/1/auth/permissions`
 
 | Header | Value |
 | ------ | ----- |

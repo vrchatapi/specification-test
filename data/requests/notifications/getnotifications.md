@@ -1,7 +1,7 @@
 # getNotifications
 
 ## Request
-`GET https://vrchat.com/api/1/auth/user/notifications`
+`GET https://api.vrchat.cloud/api/1/auth/user/notifications`
 
 | Header | Value |
 | ------ | ----- |

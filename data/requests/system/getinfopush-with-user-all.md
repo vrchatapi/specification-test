@@ -1182,7 +1182,7 @@ Response schema mismatch:
 * Unexpected property at ``#/387data/iconImageUrl``,
 * Unexpected property at ``#/387data/tooltipDescription``.
 ## Request
-`GET https://vrchat.com/api/1/infoPush?include=user-all&require=user-all`
+`GET https://api.vrchat.cloud/api/1/infoPush?include=user-all&require=user-all`
 
 | Header | Value |
 | ------ | ----- |

@@ -1,7 +1,7 @@
 # logout logout
 
 ## Request
-`PUT https://vrchat.com/api/1/logout`
+`PUT https://api.vrchat.cloud/api/1/logout`
 
 | Header | Value |
 | ------ | ----- |

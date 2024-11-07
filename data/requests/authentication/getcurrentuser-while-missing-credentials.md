@@ -1,7 +1,7 @@
 # getCurrentUser while missing credentials
 
 ## Request
-`GET https://vrchat.com/api/1/auth/user`
+`GET https://api.vrchat.cloud/api/1/auth/user`
 
 | Header | Value |
 | ------ | ----- |

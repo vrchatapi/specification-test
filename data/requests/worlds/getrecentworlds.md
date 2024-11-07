@@ -1,7 +1,7 @@
 # getRecentWorlds
 
 ## Request
-`GET https://vrchat.com/api/1/worlds/recent`
+`GET https://api.vrchat.cloud/api/1/worlds/recent`
 
 | Header | Value |
 | ------ | ----- |

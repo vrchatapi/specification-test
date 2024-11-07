@@ -1,7 +1,7 @@
 # getGroupInvites
 
 ## Request
-`GET https://vrchat.com/api/1/groups/<unstable>/invites`
+`GET https://api.vrchat.cloud/api/1/groups/<unstable>/invites`
 
 | Header | Value |
 | ------ | ----- |

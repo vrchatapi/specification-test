@@ -335,13 +335,11 @@ Response schema mismatch:
 
 #### [getJavaScript](/data/requests/system/getjavascript.md)
 
-Response schema mismatch:
-Unexpected token '/', "/*! For li"... is not valid JSON.
+Response media type ``text/html`` not expected.
 
 #### [getCSS](/data/requests/system/getcss.md)
 
-Response schema mismatch:
-Unexpected token ':', ":root{--st"... is not valid JSON.
+Response media type ``text/html`` not expected.
 
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
@@ -366,7 +364,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/emoji``,
 * Unexpected property at ``#/reportCategories/sticker``,
 
-*29 issues truncated.*
+*30 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

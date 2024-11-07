@@ -6,7 +6,7 @@ Response schema mismatch:
 * Unexpected property at ``#/ageVerified``,
 * Unexpected property at ``#/isAdult``.
 ## Request
-`PUT https://vrchat.com/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
+`PUT https://api.vrchat.cloud/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
 
 | Header | Value |
 | ------ | ----- |

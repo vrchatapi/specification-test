@@ -1,7 +1,7 @@
 # moderateUser
 
 ## Request
-`POST https://vrchat.com/api/1/auth/user/playermoderations`
+`POST https://api.vrchat.cloud/api/1/auth/user/playermoderations`
 
 | Header | Value |
 | ------ | ----- |

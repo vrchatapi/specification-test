@@ -1,7 +1,7 @@
 # getLicenseGroup
 
 ## Request
-`GET https://vrchat.com/api/1/licenseGroups/lgrp_608513da-b213-4e15-80af-bd88c27f0979`
+`GET https://api.vrchat.cloud/api/1/licenseGroups/lgrp_608513da-b213-4e15-80af-bd88c27f0979`
 
 | Header | Value |
 | ------ | ----- |

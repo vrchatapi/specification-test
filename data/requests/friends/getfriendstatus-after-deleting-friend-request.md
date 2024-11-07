@@ -1,7 +1,7 @@
 # getFriendStatus after deleting friend request
 
 ## Request
-`GET https://vrchat.com/api/1/user/usr_9e10ea3e-8115-4b51-9076-b1792215d57e/friendStatus`
+`GET https://api.vrchat.cloud/api/1/user/usr_9e10ea3e-8115-4b51-9076-b1792215d57e/friendStatus`
 
 | Header | Value |
 | ------ | ----- |

@@ -6,7 +6,7 @@ Response schema mismatch:
 * Unexpected property at ``#/ageVerified``,
 * Unexpected property at ``#/isAdult``.
 ## Request
-`GET https://vrchat.com/api/1/auth/user`
+`GET https://api.vrchat.cloud/api/1/auth/user`
 
 | Header | Value |
 | ------ | ----- |

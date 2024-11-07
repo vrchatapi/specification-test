@@ -1,7 +1,7 @@
 # getFavoriteGroup
 
 ## Request
-`GET https://vrchat.com/api/1/favorite/group/avatar/avatars2/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701`
+`GET https://api.vrchat.cloud/api/1/favorite/group/avatar/avatars2/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701`
 
 | Header | Value |
 | ------ | ----- |

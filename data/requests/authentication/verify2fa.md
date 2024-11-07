@@ -1,7 +1,7 @@
 # verify2FA
 
 ## Request
-`POST https://vrchat.com/api/1/auth/twofactorauth/totp/verify`
+`POST https://api.vrchat.cloud/api/1/auth/twofactorauth/totp/verify`
 
 | Header | Value |
 | ------ | ----- |

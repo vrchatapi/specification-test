@@ -23,7 +23,7 @@ Response schema mismatch:
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``.
 ## Request
-`GET https://vrchat.com/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
+`GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
 | Header | Value |
 | ------ | ----- |

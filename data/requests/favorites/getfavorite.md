@@ -1,7 +1,7 @@
 # getFavorite
 
 ## Request
-`GET https://vrchat.com/api/1/favorites/fvrt_6d1580a7-2670-414b-b197-d4adea72467a`
+`GET https://api.vrchat.cloud/api/1/favorites/fvrt_6d1580a7-2670-414b-b197-d4adea72467a`
 
 | Header | Value |
 | ------ | ----- |

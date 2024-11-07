@@ -48,7 +48,7 @@ Response schema mismatch:
 * Missing property at ``#/friendKey``,
 * Unexpected property at ``#/requiresTwoFactorAuth``.
 ## Request
-`GET https://vrchat.com/api/1/auth/user`
+`GET https://api.vrchat.cloud/api/1/auth/user`
 
 | Header | Value |
 | ------ | ----- |

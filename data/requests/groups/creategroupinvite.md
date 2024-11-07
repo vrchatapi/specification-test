@@ -1,7 +1,7 @@
 # createGroupInvite
 
 ## Request
-`POST https://vrchat.com/api/1/groups/<unstable>/invites`
+`POST https://api.vrchat.cloud/api/1/groups/<unstable>/invites`
 
 | Header | Value |
 | ------ | ----- |

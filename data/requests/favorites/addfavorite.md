@@ -1,7 +1,7 @@
 # addFavorite
 
 ## Request
-`POST https://vrchat.com/api/1/favorites`
+`POST https://api.vrchat.cloud/api/1/favorites`
 
 | Header | Value |
 | ------ | ----- |

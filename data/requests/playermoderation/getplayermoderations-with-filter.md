@@ -1,7 +1,7 @@
 # getPlayerModerations with filter
 
 ## Request
-`GET https://vrchat.com/api/1/auth/user/playermoderations?type=unmute`
+`GET https://api.vrchat.cloud/api/1/auth/user/playermoderations?type=unmute`
 
 | Header | Value |
 | ------ | ----- |

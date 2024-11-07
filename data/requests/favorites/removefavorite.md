@@ -1,7 +1,7 @@
 # removeFavorite
 
 ## Request
-`DELETE https://vrchat.com/api/1/favorites/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11`
+`DELETE https://api.vrchat.cloud/api/1/favorites/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11`
 
 | Header | Value |
 | ------ | ----- |

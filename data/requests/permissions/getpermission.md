@@ -1,7 +1,7 @@
 # getPermission
 
 ## Request
-`GET https://vrchat.com/api/1/permissions/prms_fe07c8a7-a4ca-4eda-97e5-e241040ef6f8`
+`GET https://api.vrchat.cloud/api/1/permissions/prms_fe07c8a7-a4ca-4eda-97e5-e241040ef6f8`
 
 | Header | Value |
 | ------ | ----- |

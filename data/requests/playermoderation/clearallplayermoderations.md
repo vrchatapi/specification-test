@@ -1,7 +1,7 @@
 # clearAllPlayerModerations
 
 ## Request
-`DELETE https://vrchat.com/api/1/auth/user/playermoderations`
+`DELETE https://api.vrchat.cloud/api/1/auth/user/playermoderations`
 
 | Header | Value |
 | ------ | ----- |

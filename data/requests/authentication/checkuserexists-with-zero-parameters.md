@@ -1,7 +1,7 @@
 # checkUserExists with zero parameters
 
 ## Request
-`GET https://vrchat.com/api/1/auth/exists`
+`GET https://api.vrchat.cloud/api/1/auth/exists`
 
 | Header | Value |
 | ------ | ----- |

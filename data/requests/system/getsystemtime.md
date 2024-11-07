@@ -1,12 +1,12 @@
 # getSystemTime
 
 ## Request
-`GET https://vrchat.com/api/1/time`
+`GET https://api.vrchat.cloud/api/1/time`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
+| cookie | `auth=<redacted>; twoFactorAuth=<redacted>; CF_AppSession=<redacted>` |
 
 
 ## Response

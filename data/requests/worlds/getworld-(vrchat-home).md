@@ -4,7 +4,7 @@
 Response schema mismatch:
 * Unexpected property at ``#/urlList``.
 ## Request
-`GET https://vrchat.com/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
 
 | Header | Value |
 | ------ | ----- |

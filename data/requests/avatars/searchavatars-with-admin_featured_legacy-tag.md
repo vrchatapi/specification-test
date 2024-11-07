@@ -1,7 +1,7 @@
 # searchAvatars with admin_featured_legacy tag
 
 ## Request
-`GET https://vrchat.com/api/1/avatars?tag=admin_featured_legacy`
+`GET https://api.vrchat.cloud/api/1/avatars?tag=admin_featured_legacy`
 
 | Header | Value |
 | ------ | ----- |
