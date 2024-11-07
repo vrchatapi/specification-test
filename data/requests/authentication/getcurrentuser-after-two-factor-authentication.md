@@ -1,10 +1,5 @@
 # getCurrentUser after two-factor authentication
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/ageVerificationStatus``,
-* Unexpected property at ``#/ageVerified``,
-* Unexpected property at ``#/isAdult``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 

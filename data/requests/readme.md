@@ -2,20 +2,6 @@
 
 ## [Authentication](/data/requests/authentication)
 
-#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/ageVerificationStatus``,
-* Unexpected property at ``#/ageVerified``,
-* Unexpected property at ``#/isAdult``.
-
-#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/ageVerificationStatus``,
-* Unexpected property at ``#/ageVerified``,
-* Unexpected property at ``#/isAdult``.
-
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -23,7 +9,7 @@ Response schema mismatch:
 * Missing property at ``#/displayName``,
 * Missing property at ``#/userIcon``,
 
-*42 issues truncated.*
+*45 issues truncated.*
 #### [getCurrentUser while missing credentials](/data/requests/authentication/getcurrentuser-while-missing-credentials.md)
 
 
@@ -34,6 +20,9 @@ Response schema mismatch:
 
 
 #### [verifyAuthToken](/data/requests/authentication/verifyauthtoken.md)
+
+
+#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 
 #### [checkUserExists with zero parameters](/data/requests/authentication/checkuserexists-with-zero-parameters.md)
@@ -51,14 +40,12 @@ Response schema mismatch:
 #### [logout logout](/data/requests/authentication/logout-logout.md)
 
 
+#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
+
+
 
 
 ## [Users](/data/requests/users)
-
-#### [getUser](/data/requests/users/getuser.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/ageVerificationStatus``.
 
 #### [searchUsers without parameters](/data/requests/users/searchusers-without-parameters.md)
 
@@ -69,24 +56,12 @@ Response schema mismatch:
 #### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
 
 
+#### [getUser](/data/requests/users/getuser.md)
+
+
 
 
 ## [Worlds](/data/requests/worlds)
-
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
-
-Response schema mismatch:
-* Unexpected property at ``#/urlList``.
-
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/urlList``.
-
-#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/urlList``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -95,6 +70,15 @@ Response schema mismatch:
 
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
+
+
+#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
+
+
+#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+
+
+#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
 
 #### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
@@ -109,10 +93,6 @@ Response schema mismatch:
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
-Response schema mismatch:
-* Invalid type at ``#/playerPersistenceEnabled``,
-* Unexpected property at ``#/world/urlList``,
-* Unexpected property at ``#/ageGate``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -120,27 +100,6 @@ Response schema mismatch:
 
 
 ## [Avatars](/data/requests/avatars)
-
-#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/ageVerificationStatus``,
-* Unexpected property at ``#/ageVerified``,
-* Unexpected property at ``#/isAdult``.
-
-#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/ageVerificationStatus``,
-* Unexpected property at ``#/ageVerified``,
-* Unexpected property at ``#/isAdult``.
-
-#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/ageVerificationStatus``,
-* Unexpected property at ``#/ageVerified``,
-* Unexpected property at ``#/isAdult``.
 
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
@@ -154,7 +113,16 @@ Response schema mismatch:
 #### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 
+#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
+
+
+#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
+
+
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
+
+
+#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
 
 
 #### [getFavoritedAvatars with zero parameters](/data/requests/avatars/getfavoritedavatars-with-zero-parameters.md)
@@ -361,10 +329,10 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/Default/redirectionAddress``,
-* Unexpected property at ``#/reportCategories/emoji``,
-* Unexpected property at ``#/reportCategories/sticker``,
+* Unexpected property at ``#/reportOptions/avatar``,
+* Unexpected property at ``#/reportOptions/group``,
 
-*30 issues truncated.*
+*22 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

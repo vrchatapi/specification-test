@@ -46,6 +46,9 @@ Response schema mismatch:
 * Missing property at ``#/date_joined``,
 * Missing property at ``#/isFriend``,
 * Missing property at ``#/friendKey``,
+* Missing property at ``#/isAdult``,
+* Missing property at ``#/ageVerificationStatus``,
+* Missing property at ``#/ageVerified``,
 * Unexpected property at ``#/requiresTwoFactorAuth``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
