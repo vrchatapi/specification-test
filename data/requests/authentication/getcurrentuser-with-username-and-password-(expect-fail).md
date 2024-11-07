@@ -46,39 +46,35 @@ Response schema mismatch:
 * Missing property at ``#/date_joined``,
 * Missing property at ``#/isFriend``,
 * Missing property at ``#/friendKey``,
-* Unexpected property at ``#/requiresTwoFactorAuth``.
+* Unexpected property at ``#/error``.
 ## Request
 `GET https://vrchat.com/api/1/auth/user`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| authorization | `Basic <redacted>` |
 
 
 ## Response
-`200 OK`
+`401 Unauthorized`
 
 | Header | Value |
 | ------ | ----- |
-| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `40` |
+| content-length | `65` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| set-cookie | `<redacted>` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "requiresTwoFactorAuth": [
-    "totp",
-    "otp"
-  ]
+  "error": {
+    "message": "\"Missing Credentials\"",
+    "status_code": 401
+  }
 }
 ```

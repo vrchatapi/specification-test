@@ -9,38 +9,37 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
+* Unexpected property at ``#/CrossMarkerUnity``,
+* Unexpected property at ``#/SortExcursionPlusVirtual``,
 * Unexpected property at ``#/ageVerificationP``,
 * Unexpected property at ``#/ageVerificationStatusVisible``,
-* Unexpected property at ``#/alertDeployRttManagerTarget``,
+* Unexpected property at ``#/animationElectionBonesPeriod``,
 * Unexpected property at ``#/avatarPerfLimiter``,
-* Unexpected property at ``#/debounceLengthSocketResponseAuthentication``,
-* Unexpected property at ``#/debounceStack``,
+* Unexpected property at ``#/cappuccinoFilterVerification``,
+* Unexpected property at ``#/dashboardLeaveSend``,
 * Unexpected property at ``#/defaultStickerSet``,
-* Unexpected property at ``#/eventsNetworkingActive``,
-* Unexpected property at ``#/expirationMaximumReferenceDocker``,
-* Unexpected property at ``#/frameCrustToolboxQuorum``,
-* Unexpected property at ``#/frameworkCreatedSystem``,
-* Unexpected property at ``#/lockingGroupBandwidthLock``,
-* Unexpected property at ``#/maximumOffsetTapeDefaultReason``,
-* Unexpected property at ``#/outTrustedCrossUnity``,
-* Unexpected property at ``#/paginationWhereCremaTtl``,
-* Unexpected property at ``#/prototypeYaml``,
-* Unexpected property at ``#/semaphoreUploadReferenceMessageShard``,
-* Unexpected property at ``#/stickerDeviceScroll``,
+* Unexpected property at ``#/deploySouvenir``,
+* Unexpected property at ``#/dockerPropDocker``,
+* Unexpected property at ``#/fpsSubscriberMinimum``,
+* Unexpected property at ``#/genderStringLimiterTrusted``,
+* Unexpected property at ``#/joinGiftConnectionSchedulingQuery``,
+* Unexpected property at ``#/keyboardClonePartition``,
+* Unexpected property at ``#/listKeyboardFileWaffle``,
+* Unexpected property at ``#/lockingSecuritySyscallQueue``,
+* Unexpected property at ``#/partitionAnimatorGeneratorSchedulerBookmark``,
+* Unexpected property at ``#/requireAgeVerificationBetaTag``,
+* Unexpected property at ``#/roastThreshold``,
+* Unexpected property at ``#/rotationPointer``,
+* Unexpected property at ``#/sessionBone``,
+* Unexpected property at ``#/stringPaginationPushMapUnlisted``,
 * Unexpected property at ``#/supportFormUrl``,
-* Unexpected property at ``#/syncPrototypeCiabattaRequestTcp``,
-* Unexpected property at ``#/textTransmit``,
-* Unexpected property at ``#/threadPaginationUsageUpdated``,
-* Unexpected property at ``#/trackingInternalBackgroundLicenseUsage``,
-* Unexpected property at ``#/trendPlusMerge``,
-* Unexpected property at ``#/unlistedString``.
+* Unexpected property at ``#/whereRealDownActivityGenerate``.
 ## Request
 `GET https://vrchat.com/api/1/config`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
