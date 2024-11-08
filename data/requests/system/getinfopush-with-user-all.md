@@ -945,7 +945,6 @@ Response schema mismatch:
 * Unexpected property at ``#/350/regions``,
 * Unexpected property at ``#/350/requireClientTags``,
 * Invalid type at ``#/351/startDate``,
-* Invalid type at ``#/351/endDate``,
 * Unexpected property at ``#/351/regions``,
 * Unexpected property at ``#/351/requireClientTags``,
 * Invalid type at ``#/352/data/article/content``,
