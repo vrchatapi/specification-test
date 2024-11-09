@@ -101,16 +101,25 @@ Response schema mismatch:
 
 ## [Avatars](/data/requests/avatars)
 
-#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
-
-#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
-
+Response schema mismatch:
+* Unexpected property at ``#/styles``.
 
 #### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/0/styles``,
+* Unexpected property at ``#/1/styles``,
+* Unexpected property at ``#/2/styles``,
 
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+*7 issues truncated.*
+#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/styles``.
+
+#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
 
 
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
@@ -316,7 +325,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*1175 issues truncated.*
+*1105 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
