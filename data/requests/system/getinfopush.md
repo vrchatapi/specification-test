@@ -5,23 +5,26 @@ Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
-* Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
+* Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Invalid type at ``#/3/startDate``,
-* Invalid type at ``#/3/endDate``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
+* Invalid type at ``#/4/startDate``,
+* Invalid type at ``#/4/endDate``,
+* Unexpected property at ``#/4/regions``,
+* Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Invalid type at ``#/5/startDate``,
-* Invalid type at ``#/5/endDate``,
-* Unexpected property at ``#/5/regions``,
-* Unexpected property at ``#/5/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
+* Invalid type at ``#/6/startDate``,
+* Invalid type at ``#/6/endDate``,
+* Unexpected property at ``#/6/regions``,
+* Unexpected property at ``#/6/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -49,6 +52,35 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2024-11-09T18:54:19.831Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_37c440c9-6bd1-47c1-a6c3-31069afb588b.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_2933b438-86f8-4e86-8dd7-4320210ae15e"
+        ]
+      }
+    },
+    "endDate": "2024-11-10T10:00:00.000Z",
+    "hash": "ips_cc4fce60-5a85-4456-b66f-e30ee920da83",
+    "id": "ips_cc4fce60-5a85-4456-b66f-e30ee920da83",
+    "isEnabled": true,
+    "priority": 400,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2024-11-10T00:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "platform-pc",
+      "platform-pc-vr",
+      "platform-store-steam",
+      "platform-store-oculus"
+    ],
+    "updatedAt": "2024-11-09T18:54:19.831Z"
+  },
   {
     "createdAt": "2024-10-31T23:53:10.499Z",
     "data": {

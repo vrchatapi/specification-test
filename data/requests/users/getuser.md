@@ -28,7 +28,7 @@
 ```jsonc
 {
   "ageVerificationStatus": "hidden",
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "badges": [
     {
       "badgeDescription": "Supports VRChat through VRC+",
