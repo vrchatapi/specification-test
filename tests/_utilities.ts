@@ -242,6 +242,7 @@ const redactedResponseHeaders = ["etag", "set-cookie"];
 const unstableResponseHeaders = new Set([
 	"date",
 	"cf-ray",
+	"cf-trace",
 	"cf-cache-status",
 	"age",
 	"x-powered-by",
