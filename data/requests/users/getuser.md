@@ -64,7 +64,7 @@
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "standalonewindows",
+  "last_platform": "android",
   "location": "offline",
   "note": "",
   "platform": "offline",

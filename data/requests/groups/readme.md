@@ -31,7 +31,7 @@ If an announcement exists, then it will always return all fields except `imageId
 
 > Missing coverage.
 ## Create Group Announcement
-Creates an Announcement for a Group.
+Creates an Announcement for a Group. Warning: This will also remove all announcements. To make proper announcements, use the posts endpoint instead
 
 > Missing coverage.
 ## Get Group Audit Logs

@@ -101,25 +101,16 @@ Response schema mismatch:
 
 ## [Avatars](/data/requests/avatars)
 
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/styles``.
+
+#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
+
 
 #### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/styles``,
-* Unexpected property at ``#/1/styles``,
-* Unexpected property at ``#/2/styles``,
 
-*7 issues truncated.*
-#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/styles``.
-
-#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
@@ -321,19 +312,19 @@ Response media type ``text/html`` not expected.
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
+* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
-*1105 issues truncated.*
+*1090 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
+* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
-*20 issues truncated.*
+*14 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -341,7 +332,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/avatar``,
 * Unexpected property at ``#/reportOptions/group``,
 
-*20 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
