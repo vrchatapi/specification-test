@@ -16,7 +16,6 @@ Response media type ``text/html`` not expected.
 | Header | Value |
 | ------ | ----- |
 | cf-access-domain | `*.vrchat.cloud` |
-| cf-trace | `57018f13097c5a9332b3e124e53cdb20` |
 | cf-version | `1862-c2fd613` |
 | connection | `keep-alive` |
 | content-security-policy | `frame-ancestors 'none'; connect-src 'self' http://127.0.0.1:*; default-src https: 'unsafe-inline'` |
