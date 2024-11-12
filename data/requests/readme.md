@@ -303,11 +303,13 @@ Response schema mismatch:
 
 #### [getJavaScript](/data/requests/system/getjavascript.md)
 
-Response media type ``text/html`` not expected.
+Response schema mismatch:
+Unexpected token '/', "/*! For li"... is not valid JSON.
 
 #### [getCSS](/data/requests/system/getcss.md)
 
-Response media type ``text/html`` not expected.
+Response schema mismatch:
+Unexpected token ':', ":root{--st"... is not valid JSON.
 
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
@@ -316,7 +318,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 
-*1090 issues truncated.*
+*1088 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -324,7 +326,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 
-*14 issues truncated.*
+*12 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -332,7 +334,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/avatar``,
 * Unexpected property at ``#/reportOptions/group``,
 
-*19 issues truncated.*
+*17 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
