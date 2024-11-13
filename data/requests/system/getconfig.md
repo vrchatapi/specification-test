@@ -7,21 +7,25 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/birdFeedbackScroll``,
+* Unexpected property at ``#/assetExtractCrustUnlistedNetworking``,
 * Unexpected property at ``#/boneImpostorDocumentationText``,
-* Unexpected property at ``#/clientPipelineBehavior``,
+* Unexpected property at ``#/changeGenerateReplica``,
 * Unexpected property at ``#/cursedSessionFirewallAnimatorHeight``,
-* Unexpected property at ``#/distanceOwnershipAttachment``,
+* Unexpected property at ``#/extractThunderStackFilterEntry``,
+* Unexpected property at ``#/formatNewsToolboxRank``,
 * Unexpected property at ``#/groupPhotonObjectUpload``,
+* Unexpected property at ``#/immunityExternalBootstrapOwnershipModel``,
 * Unexpected property at ``#/immunityPrintContainerTag``,
-* Unexpected property at ``#/locationSoapRegressionFormat``,
-* Unexpected property at ``#/proxyLibraryPlainTierTracking``,
+* Unexpected property at ``#/impostorHandlerFirewallConnect``,
+* Unexpected property at ``#/photonToolboxGroup``,
+* Unexpected property at ``#/pipelineTutorialLatencyBread``,
+* Unexpected property at ``#/pullString``,
+* Unexpected property at ``#/pushView``,
 * Unexpected property at ``#/quorumBrew``,
 * Unexpected property at ``#/readBarista``,
+* Unexpected property at ``#/regionDisableAmericanoItineraryMention``,
 * Unexpected property at ``#/requireAgeVerificationBetaTag``,
-* Unexpected property at ``#/rolloutBaguetteKernelCursedQuery``,
-* Unexpected property at ``#/searchMiddleware``,
-* Unexpected property at ``#/upProbabilityBrewPushDelay``.
+* Unexpected property at ``#/timerTrendItinerary``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
