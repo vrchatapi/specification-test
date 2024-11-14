@@ -330,11 +330,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Missing property at ``#/minSupportedClientBuildNumber/Default/redirectionAddress``,
-* Unexpected property at ``#/reportOptions/avatar``,
-* Unexpected property at ``#/reportOptions/group``,
+* Missing property at ``#/avatarPerfLimiter/AndroidMobile/allowed``,
+* Missing property at ``#/avatarPerfLimiter/PC/allowed``,
+* Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*21 issues truncated.*
+*22 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
