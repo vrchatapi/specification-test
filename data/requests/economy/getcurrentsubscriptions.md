@@ -1,5 +1,8 @@
 # getCurrentSubscriptions
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0/isGiftDrop``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user/subscription`
 
@@ -45,7 +48,8 @@
     "licenseGroups": [
       "lgrp_608513da-b213-4e15-80af-bd88c27f0979"
     ],
-    "isGift": false
+    "isGift": false,
+    "isGiftDrop": false
   }
 ]
 ```

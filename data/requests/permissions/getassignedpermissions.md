@@ -3,11 +3,15 @@
 ## Issues
 Response schema mismatch:
 * Unexpected property at ``#/0data/max``,
+* Unexpected property at ``#/1data/max``,
+* Unexpected property at ``#/2data/max``,
 * Unexpected property at ``#/3data/max``,
-* Unexpected property at ``#/7data/maxFavoritesPerGroup``,
-* Unexpected property at ``#/7data/maxFavoriteGroups``,
-* Unexpected property at ``#/8data/tags``,
-* Unexpected property at ``#/8data/badges``.
+* Unexpected property at ``#/4data/max``,
+* Unexpected property at ``#/7data/max``,
+* Unexpected property at ``#/11data/maxFavoritesPerGroup``,
+* Unexpected property at ``#/11data/maxFavoriteGroups``,
+* Unexpected property at ``#/12data/tags``,
+* Unexpected property at ``#/12data/badges``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/permissions`
 
@@ -35,6 +39,42 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "id": "prms_6d2096bc-22c4-4f7e-a4e6-7f46b18bb2fc",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-user-prints",
+    "data": {
+      "max": 64
+    }
+  },
+  {
+    "id": "prms_ac1c3d9e-ffcf-474a-9f3f-32f11c24835a",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-user-prints-gallery-vrcplus",
+    "data": {
+      "max": 60
+    }
+  },
+  {
+    "id": "prms_f3639e26-cacf-4d42-a23d-7f6dca329fd6",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-user-prints-gallery-free",
+    "data": {
+      "max": 60
+    }
+  },
+  {
+    "id": "prms_f3ca998c-6e10-4b9e-b05f-9c06abf3ce32",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-user-prints-upload",
+    "data": {
+      "max": 60
+    }
+  },
   {
     "id": "prms_f2ccb432-81d3-41d7-9af6-6d3893f1840f",
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",

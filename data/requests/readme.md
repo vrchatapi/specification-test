@@ -132,6 +132,11 @@ Response schema mismatch:
 
 ## [Economy](/data/requests/economy)
 
+#### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/isGiftDrop``.
+
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -143,9 +148,6 @@ Response schema mismatch:
 * Invalid type at ``#/0/agreement``,
 * Invalid type at ``#/1/agreement``,
 * Invalid type at ``#/2/agreement``.
-
-#### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
-
 
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
 
@@ -274,10 +276,10 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Unexpected property at ``#/0data/max``,
-* Unexpected property at ``#/3data/max``,
-* Unexpected property at ``#/7data/maxFavoritesPerGroup``,
+* Unexpected property at ``#/1data/max``,
+* Unexpected property at ``#/2data/max``,
 
-*3 issues truncated.*
+*7 issues truncated.*
 #### [getPermission](/data/requests/permissions/getpermission.md)
 
 
@@ -334,7 +336,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*25 issues truncated.*
+*26 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

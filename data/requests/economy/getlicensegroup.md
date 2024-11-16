@@ -32,6 +32,30 @@
   "description": "VRC+ benefits",
   "licenses": [
     {
+      "forId": "prms_6d2096bc-22c4-4f7e-a4e6-7f46b18bb2fc",
+      "forType": "permission",
+      "forName": "permission-user-prints",
+      "forAction": "have"
+    },
+    {
+      "forId": "prms_f3ca998c-6e10-4b9e-b05f-9c06abf3ce32",
+      "forType": "permission",
+      "forName": "permission-user-prints-upload",
+      "forAction": "have"
+    },
+    {
+      "forId": "prms_ac1c3d9e-ffcf-474a-9f3f-32f11c24835a",
+      "forType": "permission",
+      "forName": "permission-user-prints-gallery-vrcplus",
+      "forAction": "have"
+    },
+    {
+      "forId": "prms_f3639e26-cacf-4d42-a23d-7f6dca329fd6",
+      "forType": "permission",
+      "forName": "permission-user-prints-gallery-free",
+      "forAction": "have"
+    },
+    {
       "forId": "prms_f2ccb432-81d3-41d7-9af6-6d3893f1840f",
       "forType": "permission",
       "forName": "permission-user-stickers",
