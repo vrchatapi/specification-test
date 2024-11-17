@@ -1,8 +1,8 @@
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 import { state } from "./_cache.js";
 
-const blackCatProductId = "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910";
-const blackCatOwnerId = "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20";
+const prominentListingId = "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910";
+const prominentSellerUserId = "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20";
 
 test.before(failUnauthenticated);
 
@@ -62,14 +62,14 @@ test(testOperation, "getLicenseGroup", {
 
 test(testOperation, "getProductListing", {
 	parameters: {
-		productId: blackCatListingId
+		productId: prominentListingId
 	},
 	statusCode: 200
 });
 
 test(testOperation, "getProductListings", {
 	parameters: {
-		userId: blackCatOwnerId,
+		userId: prominentSellerUserId,
         hydrate: true
 	},
 	statusCode: 200
