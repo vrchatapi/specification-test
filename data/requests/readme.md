@@ -132,6 +132,22 @@ Response schema mismatch:
 
 ## [Economy](/data/requests/economy)
 
+#### [getProductListings](/data/requests/economy/getproductlistings.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0products/0/archived``,
+* Unexpected property at ``#/0products/0/created``,
+* Unexpected property at ``#/0products/0/description``,
+
+*1944 issues truncated.*
+#### [getProductListing](/data/requests/economy/getproductlisting.md)
+
+Response schema mismatch:
+* Invalid type at ``#/products/0``,
+* Invalid type at ``#/products/1``,
+* Invalid type at ``#/products/2``,
+
+*7 issues truncated.*
 #### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
 
 Response schema mismatch:
@@ -153,6 +169,18 @@ Response schema mismatch:
 
 
 #### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
+
+
+#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
+
+
+#### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
+
+
+#### [getTiliaTos](/data/requests/economy/gettiliatos.md)
+
+
+#### [getBalance](/data/requests/economy/getbalance.md)
 
 
 
@@ -336,7 +364,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*22 issues truncated.*
+*23 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

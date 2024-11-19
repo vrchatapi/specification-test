@@ -20,4 +20,28 @@ List all existing Subscriptions. For example, "vrchatplus-monthly" and "vrchatpl
 Get a single License Group by given ID.
 
 * [getLicenseGroup](./getlicensegroup.md)
+## Get Product Listing
+Gets a product listing
+
+* [getProductListing](./getproductlisting.md)
+## Get User Product Listings
+Gets the product listings of a given user
+
+* [getProductListings](./getproductlistings.md)
+## List Token Bundles
+Gets the list of token bundles
+
+* [getTokenBundles](./gettokenbundles.md)
+## Get Tilia Status
+Gets the status of Tilia integration
+
+* [getTiliaStatus](./gettiliastatus.md)
+## Get Tilia TOS Agreement Status
+Gets the status of the agreement of a user to the Tilia TOS
+
+* [getTiliaTos](./gettiliatos.md)
+## Get Balance
+Gets the balance of a user
+
+* [getBalance](./getbalance.md)
 	
