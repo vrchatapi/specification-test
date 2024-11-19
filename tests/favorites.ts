@@ -54,7 +54,7 @@ test(
 	}
 );
 
-test(
+test.failing( //VRChat seems to have broken this endpoint ages ago?
 	testOperation,
 	"getFavorite",
 	{
