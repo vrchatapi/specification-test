@@ -64,7 +64,8 @@
     "admin_AllowInternal_PlatformCheck",
     "admin_filter_UrlLauncher",
     "admin_filter_analytics",
-    "admin_hide_broad"
+    "admin_hide_broad",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",
@@ -171,10 +172,10 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/249/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/251/file",
       "assetVersion": 4,
-      "created_at": "2024-11-05T21:32:15.396Z",
-      "id": "unp_700bae5f-16e3-41b3-a68f-48c9b2243e7f",
+      "created_at": "2024-11-18T19:56:36.485Z",
+      "id": "unp_e27fe155-85b8-42b5-8d94-357b2ce69759",
       "platform": "android",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1"
@@ -199,10 +200,10 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/23/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/24/file",
       "assetVersion": 4,
-      "created_at": "2024-11-05T21:37:43.335Z",
-      "id": "unp_27940731-0cf6-4779-beb0-d33c5e629d00",
+      "created_at": "2024-11-18T20:01:24.045Z",
+      "id": "unp_c3117a7a-0c28-4fed-a034-be9e02a948ad",
       "platform": "ios",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1"
@@ -309,10 +310,10 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/248/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/250/file",
       "assetVersion": 4,
-      "created_at": "2024-11-05T21:24:16.091Z",
-      "id": "unp_89ef3a73-a0c2-41c8-9625-dc89dfad5d49",
+      "created_at": "2024-11-18T19:52:03.715Z",
+      "id": "unp_3700e868-917f-47c3-91b1-493d69530b3a",
       "platform": "standalonewindows",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1"
