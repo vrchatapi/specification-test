@@ -47,4 +47,16 @@ Starts an upload of a specific FilePart. This endpoint will return an AWS URL wh
 Retrieves the upload status for file upload. Can currently only be accessed when `status` is `waiting`. Trying to access it on a file version already uploaded currently times out.
 
 > Missing coverage.
+## Get File Version Analysis
+Get the performance analysis for the uploaded assets of an avatar
+
+* [getFileAnalysis](./getfileanalysis.md)
+## Get File Version Analysis Security
+Get the security performance analysis for the uploaded assets of an avatar
+
+* [getFileAnalysisSecurity](./getfileanalysissecurity.md)
+## Get File Version Analysis Standard
+Get the standard performance analysis for the uploaded assets of an avatar
+
+* [getFileAnalysisStandard](./getfileanalysisstandard.md)
 	

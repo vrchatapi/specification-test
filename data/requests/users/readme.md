@@ -33,4 +33,20 @@ Returns a list of Groups the user has requested to be invited into.
 Returns the current group that the user is currently representing
 
 > Missing coverage.
+## Get User Feedback
+Get user's submitted feedback
+
+* [getUserFeedback](./getuserfeedback.md)
+## Get User Notes
+Get recently updated user notes
+
+* [getUserNotes](./getusernotes.md)
+## Update User Note
+Updates the currently authenticated user's note on a user
+
+* [updateUserNote](./updateusernote.md)
+## Get User Note
+Get a particular user note
+
+* [getUserNote](./getusernote.md)
 	

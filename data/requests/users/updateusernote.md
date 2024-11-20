@@ -1,15 +1,20 @@
-# getInstance
+# updateUserNote
 
-## Issues
-Response schema mismatch:
-* Invalid type at ``#/ageGate``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>`
+`POST https://api.vrchat.cloud/api/1/userNotes`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
+| content-type | `application/json` |
 | cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
+
+```json
+{
+  "targetUserId": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
+  "note": "system_haha_we_actually_ended_up_documenting_this_one_too"
+}
+```
 
 
 ## Response
@@ -21,7 +26,6 @@ Response schema mismatch:
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
@@ -29,5 +33,11 @@ Response schema mismatch:
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "createdAt": "<unstable>",
+  "id": "unt_2ee83e63-8bb4-4add-8714-cef2894836c2",
+  "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
+  "targetUserId": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
+  "userId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701"
+}
 ```

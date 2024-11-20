@@ -47,6 +47,12 @@ Response schema mismatch:
 
 ## [Users](/data/requests/users)
 
+#### [updateUserNote](/data/requests/users/updateusernote.md)
+
+
+#### [getUserNote](/data/requests/users/getusernote.md)
+
+
 #### [searchUsers without parameters](/data/requests/users/searchusers-without-parameters.md)
 
 
@@ -57,6 +63,12 @@ Response schema mismatch:
 
 
 #### [getUser](/data/requests/users/getuser.md)
+
+
+#### [getUserFeedback](/data/requests/users/getuserfeedback.md)
+
+
+#### [getUserNotes](/data/requests/users/getusernotes.md)
 
 
 
@@ -93,6 +105,8 @@ Response schema mismatch:
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
+Response schema mismatch:
+* Invalid type at ``#/ageGate``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -148,6 +162,12 @@ Response schema mismatch:
 * Invalid type at ``#/products/2``,
 
 *7 issues truncated.*
+#### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
+
+Response schema mismatch:
+* Missing property at ``#/0/isGiftDrop``,
+* Unexpected property at ``#/0/isBulkGift``.
+
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -159,9 +179,6 @@ Response schema mismatch:
 * Invalid type at ``#/0/agreement``,
 * Invalid type at ``#/1/agreement``,
 * Invalid type at ``#/2/agreement``.
-
-#### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
-
 
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
 
@@ -209,6 +226,9 @@ Response schema mismatch:
 #### [updateFavoriteGroup](/data/requests/favorites/updatefavoritegroup.md)
 
 
+#### [getFavoriteLimits](/data/requests/favorites/getfavoritelimits.md)
+
+
 
 
 ## [Files](/data/requests/files)
@@ -235,6 +255,15 @@ Response schema mismatch:
 
 
 #### [deleteFile](/data/requests/files/deletefile.md)
+
+
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+
+#### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
+
+
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -362,7 +391,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*23 issues truncated.*
+*28 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

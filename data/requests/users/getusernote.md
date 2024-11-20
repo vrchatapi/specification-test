@@ -1,10 +1,7 @@
-# getInstance
+# getUserNote
 
-## Issues
-Response schema mismatch:
-* Invalid type at ``#/ageGate``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>`
+`GET https://api.vrchat.cloud/api/1/userNotes/unt_2ee83e63-8bb4-4add-8714-cef2894836c2`
 
 | Header | Value |
 | ------ | ----- |
@@ -29,5 +26,11 @@ Response schema mismatch:
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "createdAt": "<unstable>",
+  "id": "unt_2ee83e63-8bb4-4add-8714-cef2894836c2",
+  "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
+  "targetUserId": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
+  "userId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701"
+}
 ```

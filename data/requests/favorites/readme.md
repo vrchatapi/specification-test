@@ -37,4 +37,8 @@ Fetch information about a specific favorite group.
 Update information about a specific favorite group.
 
 * [updateFavoriteGroup](./updatefavoritegroup.md)
+## Get Favorite Limits
+Return information about a specific Favorite.
+
+* [getFavoriteLimits](./getfavoritelimits.md)
 	

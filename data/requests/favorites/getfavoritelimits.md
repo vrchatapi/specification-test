@@ -1,10 +1,7 @@
-# getInstance
+# getFavoriteLimits
 
-## Issues
-Response schema mismatch:
-* Invalid type at ``#/ageGate``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>`
+`GET https://api.vrchat.cloud/api/1/auth/user/favoritelimits`
 
 | Header | Value |
 | ------ | ----- |
@@ -29,5 +26,18 @@ Response schema mismatch:
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "defaultMaxFavoriteGroups": 1,
+  "defaultMaxFavoritesPerGroup": 64,
+  "maxFavoriteGroups": {
+    "avatar": 6,
+    "friend": 3,
+    "world": 4
+  },
+  "maxFavoritesPerGroup": {
+    "avatar": 50,
+    "friend": 150,
+    "world": 100
+  }
+}
 ```

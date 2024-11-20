@@ -1,5 +1,9 @@
 # getCurrentSubscriptions
 
+## Issues
+Response schema mismatch:
+* Missing property at ``#/0/isGiftDrop``,
+* Unexpected property at ``#/0/isBulkGift``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user/subscription`
 
@@ -28,25 +32,25 @@
 ```jsonc
 [
   {
-    "id": "vrchatplus-yearly",
-    "transactionId": "txn_cbc67d95-db21-4879-bbbb-09a38c4e7b2c",
-    "store": "Admin",
-    "steamItemId": "5000",
-    "amount": 9999,
-    "description": "VRChat Plus (Yearly)",
-    "period": "year",
-    "tier": 5,
     "active": true,
-    "status": "active",
-    "starts": "",
-    "expires": "2124-07-21T22:28:04.573Z",
+    "amount": 9999,
     "created_at": "2024-07-21T22:28:04.580Z",
-    "updated_at": "2024-07-21T22:28:04.580Z",
+    "description": "VRChat Plus (Yearly)",
+    "expires": "2124-07-21T22:28:04.573Z",
+    "id": "vrchatplus-yearly",
+    "isBulkGift": false,
+    "isGift": false,
     "licenseGroups": [
       "lgrp_608513da-b213-4e15-80af-bd88c27f0979"
     ],
-    "isGift": false,
-    "isGiftDrop": false
+    "period": "year",
+    "starts": "",
+    "status": "active",
+    "steamItemId": "5000",
+    "store": "Admin",
+    "tier": 5,
+    "transactionId": "txn_cbc67d95-db21-4879-bbbb-09a38c4e7b2c",
+    "updated_at": "2024-07-21T22:28:04.580Z"
   }
 ]
 ```
