@@ -148,11 +148,6 @@ Response schema mismatch:
 * Invalid type at ``#/products/2``,
 
 *7 issues truncated.*
-#### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/isGiftDrop``.
-
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -164,6 +159,9 @@ Response schema mismatch:
 * Invalid type at ``#/0/agreement``,
 * Invalid type at ``#/1/agreement``,
 * Invalid type at ``#/2/agreement``.
+
+#### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
+
 
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
 

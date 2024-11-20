@@ -13,21 +13,21 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/LockingSocketReverseInstall``,
-* Unexpected property at ``#/availabilityDraftPayload``,
-* Unexpected property at ``#/cdnNetworkingShiftClockPacket``,
-* Unexpected property at ``#/coexistenceHeadpatRelaadventure``,
-* Unexpected property at ``#/destinationKeywordGitImmunity``,
-* Unexpected property at ``#/displayTcpHandlerAlignment``,
-* Unexpected property at ``#/dockerRumorQueue``,
-* Unexpected property at ``#/eventRttKernel``,
-* Unexpected property at ``#/extendedReliableDeployment``,
+* Unexpected property at ``#/activeDashboardQuorumDisconnect``,
+* Unexpected property at ``#/clusterLocalizationAttributeJwt``,
+* Unexpected property at ``#/disableRolloverRateDataNotify``,
+* Unexpected property at ``#/hookAnimatorHashActive``,
+* Unexpected property at ``#/impostorGraphExcursion``,
+* Unexpected property at ``#/layoutRollbackRemoteFocaccia``,
+* Unexpected property at ``#/localizationThresholdNews``,
+* Unexpected property at ``#/multigrainRoastClusterReason``,
+* Unexpected property at ``#/partitionPasteUpdateGroupTape``,
+* Unexpected property at ``#/publishDutyProfile``,
 * Unexpected property at ``#/redoDeploy``,
 * Unexpected property at ``#/requireAgeVerificationBetaTag``,
 * Unexpected property at ``#/restOwnershipBonesLoaderSubscription``,
-* Unexpected property at ``#/taggingChannelMultigrainClusterMiddleware``,
-* Unexpected property at ``#/threadRelaadventureCappuccinoMacchiato``,
-* Unexpected property at ``#/toolboxAnimator``.
+* Unexpected property at ``#/sandwichIso8601SignatureBeach``,
+* Unexpected property at ``#/slicingDashboardRouteNodeUp``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
