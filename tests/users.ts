@@ -1,6 +1,6 @@
 import { tupperUserId } from "./_consts.js";
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
-import { state } from "./_cache.js";
+import { state, unstableValues } from "./_cache.js";
 
 import type { LimitedUser } from "vrchat";
 
@@ -113,9 +113,10 @@ test.serial(
 	(t) => {
 		const { context } = t;
 
-		state.set("tupper-user-note", context.body)
+		state.set("tupper-user-note", context.body);
 
 		t.is(context.body.targetUserId, tupperUserId, "Should be the same user");
+		unstableValues.add(context.body.createdAt);
 	}
 );
 
@@ -133,5 +134,6 @@ test.serial(
 
 		t.is(context.body.id, state.get("tupper-user-note").id, "Should be the same user note");
 		t.is(context.body.targetUserId, tupperUserId, "Should be the same user");
+		unstableValues.add(context.body.createdAt);
 	}
 );
