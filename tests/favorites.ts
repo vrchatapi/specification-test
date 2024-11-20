@@ -110,3 +110,7 @@ test(testOperation, "updateFavoriteGroup", {
 });
 
 test.todo("Clear Favorite Group");
+
+test(testOperation, "getFavoriteLimits", {
+	statusCode: 200
+});

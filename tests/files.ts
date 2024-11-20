@@ -1,6 +1,9 @@
 import { state, unstableValues } from "./_cache.js";
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
+const prominentAvatarFileId = "file_989feccd-3e6d-41f6-bf87-a8b3ece88438";
+const prominentAvatarVersionId = 1;
+
 test.before(failUnauthenticated);
 test.serial(
 	"without data",
@@ -205,3 +208,27 @@ test.todo("Download File Version");
 test.todo("Finish FileData Upload");
 test.todo("Start FileData Upload");
 test.todo("Check FileData Upload Status");
+
+test(testOperation, "getFileAnalysis", {
+	parameters: {
+		fileId: prominentAvatarFileId,
+		versionId: prominentAvatarVersionId
+	},
+	statusCode: 200
+});
+
+test(testOperation, "getFileAnalysisSecurity", {
+	parameters: {
+		fileId: prominentAvatarFileId,
+		versionId: prominentAvatarVersionId
+	},
+	statusCode: 200
+});
+
+test(testOperation, "getFileAnalysisStandard", {
+	parameters: {
+		fileId: prominentAvatarFileId,
+		versionId: prominentAvatarVersionId
+	},
+	statusCode: 200
+});
