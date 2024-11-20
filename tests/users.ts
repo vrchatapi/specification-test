@@ -126,10 +126,6 @@ test.serial(
 		parameters: {
 			userNoteId: state.get("tupper-user-note").id
 		},
-		requestBody: {
-			targetUserId: tupperUserId,
-			note: "system_haha_we_actually_ended_up_documenting_this_one_too"
-		},
 		statusCode: 200
 	}),
 	(t) => {
