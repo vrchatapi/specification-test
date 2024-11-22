@@ -31,7 +31,7 @@
   "authorName": "spookyghostboo",
   "capacity": 80,
   "created_at": "2019-05-01T01:19:43.477Z",
-  "description": "The Black Cat is a simple mirror world․ Come hangout‚ meet new friends‚ eat pancakes‚ and stare at yourself․",
+  "description": "The Black Cat is a simple mirror world․ Come hangout‚ meet new friends‚ eat pancakes‚ and stare at yourself․ Everyone is welcomed at The Black Catǃ Sponsored Content˸ https˸⁄⁄www․picoxr․com⁄?utm_medium＝psm＆utm_source＝vrc＆utm_campaign＝＆utm_content＝vrchat＆utm_term＝vrchat",
   "favorites": "<unstable: number>",
   "featured": false,
   "heat": "<unstable: number>",
@@ -58,7 +58,8 @@
     "admin_approved",
     "admin_spotlight_mobile",
     "system_approved",
-    "system_monetized_world"
+    "system_monetized_world",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: array of strings>",

@@ -9,16 +9,20 @@ Response schema mismatch:
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
+* Unexpected property at ``#/2/experiment``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
+* Invalid type at ``#/3/startDate``,
+* Invalid type at ``#/3/endDate``,
+* Unexpected property at ``#/3/regions``,
+* Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
-* Invalid type at ``#/4/startDate``,
-* Invalid type at ``#/4/endDate``,
-* Unexpected property at ``#/4/regions``,
-* Unexpected property at ``#/4/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
+* Invalid type at ``#/5/startDate``,
+* Invalid type at ``#/5/endDate``,
+* Unexpected property at ``#/5/regions``,
+* Unexpected property at ``#/5/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -94,6 +98,36 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2024-11-14T18:04:39.009Z"
+  },
+  {
+    "createdAt": "2024-11-12T14:03:24.358Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_6c026919-9274-4372-b16b-b097c3266e6f.png",
+      "onPressed": {
+        "command": "OpenWorldsMenu",
+        "parameters": [
+          "ips_6474e2a2-5458-477b-b46b-528747f893a7"
+        ]
+      }
+    },
+    "endDate": "2024-12-06T10:00:00.000Z",
+    "experiment": {
+      "key": "ips-bullet-time",
+      "variant": "treatment"
+    },
+    "hash": "ips_f2962f53-4a41-448f-a804-cd29e45c266a",
+    "id": "ips_f2962f53-4a41-448f-a804-cd29e45c266a",
+    "isEnabled": true,
+    "priority": 547,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2024-11-22T00:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-11-21T22:17:02.526Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",
