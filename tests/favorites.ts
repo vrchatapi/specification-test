@@ -54,21 +54,6 @@ test(
 	}
 );
 
-test.failing( //VRChat seems to have broken this endpoint ages ago?
-	testOperation,
-	"getFavorite",
-	{
-		parameters: {
-			favoriteId: favoriteId
-		},
-		statusCode: 200
-	},
-	(t) => {
-		const { body } = t.context;
-		t.is(body.favoriteId, vrchatHomeWorldId);
-	}
-);
-
 test(testOperation, "removeFavorite", {
 	parameters: {
 		favoriteId: defaultAvatarId
