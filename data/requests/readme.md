@@ -105,8 +105,6 @@ Response schema mismatch:
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
-Response schema mismatch:
-* Invalid type at ``#/ageGate``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -391,7 +389,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*25 issues truncated.*
+*24 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
