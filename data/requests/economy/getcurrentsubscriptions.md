@@ -1,9 +1,5 @@
 # getCurrentSubscriptions
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/0/isGiftDrop``,
-* Unexpected property at ``#/0/isBulkGift``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user/subscription`
 

@@ -160,12 +160,6 @@ Response schema mismatch:
 * Invalid type at ``#/products/2``,
 
 *7 issues truncated.*
-#### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
-
-Response schema mismatch:
-* Missing property at ``#/0/isGiftDrop``,
-* Unexpected property at ``#/0/isBulkGift``.
-
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -177,6 +171,9 @@ Response schema mismatch:
 * Invalid type at ``#/0/agreement``,
 * Invalid type at ``#/1/agreement``,
 * Invalid type at ``#/2/agreement``.
+
+#### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
+
 
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
 
@@ -389,7 +386,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*24 issues truncated.*
+*26 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

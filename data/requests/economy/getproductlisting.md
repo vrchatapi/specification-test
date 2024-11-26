@@ -112,7 +112,9 @@ Response schema mismatch:
   "sellerDisplayName": "spookyghostboo",
   "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
   "stackable": true,
-  "storeIds": [],
+  "storeIds": [
+    "esto_58413a17-1ea8-42cc-aca3-366acad5494d"
+  ],
   "tags": [],
   "updated": "2024-10-04T19:37:20.916Z"
 }

@@ -49,4 +49,8 @@ Updates the currently authenticated user's note on a user
 Get a particular user note
 
 * [getUserNote](./getusernote.md)
+## Get User Group Instances
+Returns a list of group instances for a user
+
+> Missing coverage.
 	
