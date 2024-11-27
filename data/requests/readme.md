@@ -151,7 +151,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0products/0/created``,
 * Unexpected property at ``#/0products/0/description``,
 
-*1944 issues truncated.*
+*2065 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -329,7 +329,7 @@ Response schema mismatch:
 * Unexpected property at ``#/1data/max``,
 * Unexpected property at ``#/2data/max``,
 
-*7 issues truncated.*
+*8 issues truncated.*
 #### [getPermission](/data/requests/permissions/getpermission.md)
 
 
@@ -370,7 +370,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*1117 issues truncated.*
+*1109 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -386,7 +386,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*26 issues truncated.*
+*23 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
