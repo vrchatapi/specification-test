@@ -147,11 +147,11 @@ Response schema mismatch:
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0products/0/archived``,
-* Unexpected property at ``#/0products/0/created``,
-* Unexpected property at ``#/0products/0/description``,
+* Missing property at ``#/0/groupIcon``,
+* Missing property at ``#/0/groupId``,
+* Missing property at ``#/0/groupName``,
 
-*2065 issues truncated.*
+*1978 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -370,15 +370,15 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*1109 issues truncated.*
+*1113 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*21 issues truncated.*
+*28 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -386,7 +386,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*23 issues truncated.*
+*27 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

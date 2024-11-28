@@ -2,30 +2,37 @@
 
 ## Issues
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
-* Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
+* Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Unexpected property at ``#/3/experiment``,
+* Invalid type at ``#/3/startDate``,
+* Invalid type at ``#/3/endDate``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
-* Invalid type at ``#/4/startDate``,
-* Invalid type at ``#/4/endDate``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
+* Unexpected property at ``#/5/experiment``,
+* Unexpected property at ``#/5/regions``,
+* Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
 * Invalid type at ``#/6/startDate``,
 * Invalid type at ``#/6/endDate``,
 * Unexpected property at ``#/6/regions``,
-* Unexpected property at ``#/6/requireClientTags``.
+* Unexpected property at ``#/6/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
+* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
+* Invalid type at ``#/8/startDate``,
+* Invalid type at ``#/8/endDate``,
+* Unexpected property at ``#/8/regions``,
+* Unexpected property at ``#/8/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -54,6 +61,29 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2024-11-27T23:33:27.433Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_46bbdd69-28f0-4a8e-8c8a-b5dc82ba57b5.png",
+      "onPressed": {
+        "command": "OpenVRCPlusMenu"
+      }
+    },
+    "endDate": "2024-12-03T08:00:00.000Z",
+    "hash": "ips_08abe936-d037-418b-a288-e98f02341159",
+    "id": "ips_08abe936-d037-418b-a288-e98f02341159",
+    "isEnabled": true,
+    "priority": 400,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "platform-store-steam"
+    ],
+    "updatedAt": "2024-11-27T23:33:27.433Z"
+  },
+  {
     "createdAt": "2024-11-22T02:51:11.255Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4918bf6b-e19c-41bd-af1c-a747172601c0.png",
@@ -78,6 +108,34 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2024-11-22T20:17:27.799Z"
+  },
+  {
+    "createdAt": "2024-11-28T00:10:38.880Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_5b777960-88fb-4279-82be-03a1ed376cb9.png",
+      "onPressed": {
+        "command": "OpenURL",
+        "parameters": [
+          "https://www.tkqlhce.com/click-101270393-15268034?url=https%3A%2F%2Felectronics.sony.com%2Fmore%2Fmocopi%2Fall-mocopi%2Fp%2Fqmss1-uscx"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_954c2ef7-9c90-43de-8914-ca069e381bb1",
+    "id": "ips_954c2ef7-9c90-43de-8914-ca069e381bb1",
+    "isEnabled": true,
+    "priority": 460,
+    "regions": [
+      "US"
+    ],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-11-28T00:13:12.484Z"
   },
   {
     "createdAt": "2024-11-08T12:05:32.916Z",
