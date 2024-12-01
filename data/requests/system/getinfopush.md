@@ -23,16 +23,19 @@ Response schema mismatch:
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Invalid type at ``#/6/startDate``,
-* Invalid type at ``#/6/endDate``,
 * Unexpected property at ``#/6/regions``,
 * Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
+* Invalid type at ``#/7/startDate``,
+* Invalid type at ``#/7/endDate``,
+* Unexpected property at ``#/7/regions``,
+* Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
-* Invalid type at ``#/8/startDate``,
-* Invalid type at ``#/8/endDate``,
-* Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
+* Invalid type at ``#/9/startDate``,
+* Invalid type at ``#/9/endDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -215,6 +218,32 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2024-11-21T22:17:02.526Z"
+  },
+  {
+    "createdAt": "2024-11-29T20:54:33.973Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_5643bc89-c2c1-408e-b084-a848f7a21f08.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_2db19483-683a-4123-9bba-865fe40f98aa"
+        ]
+      }
+    },
+    "endDate": "2024-12-14T00:00:00.000Z",
+    "hash": "ips_530555a1-59c5-44ea-a2c1-49f3ced7a92d",
+    "id": "ips_530555a1-59c5-44ea-a2c1-49f3ced7a92d",
+    "isEnabled": true,
+    "priority": 800,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2024-12-01T00:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-11-29T21:22:23.249Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",
