@@ -63,7 +63,7 @@ Response schema mismatch:
   {
     "createdAt": "2024-11-27T23:33:27.433Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_46bbdd69-28f0-4a8e-8c8a-b5dc82ba57b5.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_7b69afe7-d329-44c5-8a59-b44cf9bcbe44.png",
       "onPressed": {
         "command": "OpenVRCPlusMenu"
       }
@@ -81,7 +81,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "platform-store-steam"
     ],
-    "updatedAt": "2024-11-27T23:33:27.433Z"
+    "updatedAt": "2024-12-02T13:16:56.641Z"
   },
   {
     "createdAt": "2024-11-28T00:10:38.880Z",
