@@ -28,7 +28,7 @@
 ```jsonc
 {
   "acceptedPrivacyVersion": 1,
-  "acceptedTOSVersion": 9,
+  "acceptedTOSVersion": 10,
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "activeFriends": [],

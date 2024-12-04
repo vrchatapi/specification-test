@@ -31,6 +31,13 @@
   "allowAvatarCopying": false,
   "badges": [
     {
+      "badgeDescription": "Awarded for gifting VRChat Plus (1 Month)",
+      "badgeId": "bdg_0b25e2ad-64ce-4e1b-bc61-7c57e45e1329",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/29/bdgai_7530140f-1374-472b-9540-5cfbcbd592c9.png",
+      "badgeName": "Gift (1 Month)",
+      "showcased": true
+    },
+    {
       "badgeDescription": "Supports VRChat through VRC+",
       "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
       "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_8c9cf371-ffd2-4177-9894-1093e2e34bf7.png",

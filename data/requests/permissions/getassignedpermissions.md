@@ -11,8 +11,7 @@ Response schema mismatch:
 * Unexpected property at ``#/11data/maxFavoritesPerGroup``,
 * Unexpected property at ``#/11data/maxFavoriteGroups``,
 * Unexpected property at ``#/12data/tags``,
-* Unexpected property at ``#/12data/badges``,
-* Invalid type at ``#/17/type``.
+* Unexpected property at ``#/12data/badges``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/permissions`
 
@@ -185,16 +184,6 @@ Response schema mismatch:
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
     "ownerDisplayName": "Nyx",
     "name": "permission-user-gallery",
-    "data": {}
-  },
-  {
-    "id": "prms_46dadde5-329c-4711-8f00-4a3a25dfc237",
-    "ownerId": "usr_6c553262-3e43-4daf-a6b9-1fa83b41c85b",
-    "ownerDisplayName": "Slorg",
-    "name": "permission-mass-gifting",
-    "displayName": "Mass Gifting",
-    "description": "Allows a user to purchase gifts in bulk",
-    "type": null,
     "data": {}
   }
 ]
