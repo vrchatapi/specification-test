@@ -7,29 +7,32 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
+* Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Unexpected property at ``#/3/experiment``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
+* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Invalid type at ``#/5/startDate``,
-* Invalid type at ``#/5/endDate``,
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
+* Invalid type at ``#/6/startDate``,
+* Invalid type at ``#/6/endDate``,
+* Unexpected property at ``#/6/regions``,
+* Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Invalid type at ``#/7/startDate``,
-* Invalid type at ``#/7/endDate``,
-* Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
+* Invalid type at ``#/8/startDate``,
+* Invalid type at ``#/8/endDate``,
+* Unexpected property at ``#/8/regions``,
+* Unexpected property at ``#/8/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -84,6 +87,32 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2024-11-28T00:13:12.484Z"
+  },
+  {
+    "createdAt": "2024-12-04T21:33:05.811Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_07b8714b-c1f7-4532-b755-de7167f3322f.png",
+      "onPressed": {
+        "command": "OpenURL",
+        "parameters": [
+          "https://www.makeship.com/products/vrrat-plush"
+        ]
+      }
+    },
+    "endDate": "2024-12-23T05:00:00.000Z",
+    "hash": "ips_6852954d-4af0-4787-a388-c0d78c8af7dd",
+    "id": "ips_6852954d-4af0-4787-a388-c0d78c8af7dd",
+    "isEnabled": true,
+    "priority": 468,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-12-04T21:34:41.885Z"
   },
   {
     "createdAt": "2024-11-08T12:05:32.916Z",

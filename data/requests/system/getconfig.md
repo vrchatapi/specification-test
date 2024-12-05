@@ -13,21 +13,18 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/group``,
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
-* Unexpected property at ``#/OwnershipVrchatCloudShift``,
-* Unexpected property at ``#/barrierGenderCachePipeline``,
-* Unexpected property at ``#/beachHeap``,
-* Unexpected property at ``#/captchaMonitor``,
-* Unexpected property at ``#/colliderHashYacht``,
+* Unexpected property at ``#/PublicBounceNoiseReplicationPrint``,
+* Unexpected property at ``#/accountCursedSlicingTotal``,
+* Unexpected property at ``#/bufferLatteExcursionTimestampMutex``,
+* Unexpected property at ``#/colorIpv4Shard``,
 * Unexpected property at ``#/disableGiftDrops``,
-* Unexpected property at ``#/forwardPullAuth``,
-* Unexpected property at ``#/nextPocketPlayer``,
-* Unexpected property at ``#/onlineTagLeaveDashboardPush``,
-* Unexpected property at ``#/reasonCdnPlayerReport``,
-* Unexpected property at ``#/regionViolation``,
+* Unexpected property at ``#/hiddenBrewMinimumFeedSeed``,
+* Unexpected property at ``#/homeContainerResortRegion``,
+* Unexpected property at ``#/noiseHeadType``,
+* Unexpected property at ``#/proxyTargetTtl``,
+* Unexpected property at ``#/requestAnimatorHealthCiabattaOnline``,
 * Unexpected property at ``#/requireAgeVerificationBetaTag``,
-* Unexpected property at ``#/rotationBonesInstallFirewall``,
-* Unexpected property at ``#/routingFormat``,
-* Unexpected property at ``#/xmlProfileTimer``.
+* Unexpected property at ``#/yamlTape``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
