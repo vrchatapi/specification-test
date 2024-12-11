@@ -50,21 +50,21 @@
       "assetVersion": 1,
       "created_at": "2022-01-27T01:34:07.257Z",
       "id": "unp_8b8587ce-a35b-4920-9815-bf72277fd11a",
-      "performanceRating": "None",
+      "performanceRating": "VeryPoor",
       "platform": "standalonewindows",
       "scanStatus": "passed",
       "unityVersion": "2019.4.30f1",
-      "variant": "standard"
+      "variant": "security"
     },
     {
       "assetVersion": 1,
       "created_at": "2022-02-03T06:57:10.346Z",
       "id": "unp_c92a2ed4-e802-4730-bcea-fc83af6d86ed",
-      "performanceRating": "None",
+      "performanceRating": "VeryPoor",
       "platform": "android",
-      "scanStatus": "unscanned",
+      "scanStatus": "passed",
       "unityVersion": "2019.4.30f1",
-      "variant": "standard"
+      "variant": "security"
     },
     {
       "assetVersion": 1,
