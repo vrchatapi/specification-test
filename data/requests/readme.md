@@ -160,6 +160,10 @@ Response schema mismatch:
 * Invalid type at ``#/products/2``,
 
 *7 issues truncated.*
+#### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
+
+Response media type ``text/html`` not expected.
+
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -176,9 +180,6 @@ Response schema mismatch:
 
 
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
-
-
-#### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
 
 
 #### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
@@ -228,22 +229,6 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -268,7 +253,13 @@ Response schema mismatch:
 #### [deleteFile](/data/requests/files/deletefile.md)
 
 
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
+
+
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
