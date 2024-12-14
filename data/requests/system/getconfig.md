@@ -16,23 +16,16 @@ Response schema mismatch:
 * Unexpected property at ``#/accessLogsUrls``,
 * Unexpected property at ``#/analysisMaxRetries``,
 * Unexpected property at ``#/analysisRetryInterval``,
-* Unexpected property at ``#/colliderQueueCopy``,
-* Unexpected property at ``#/copyImpostorDuty``,
+* Unexpected property at ``#/blinkHeadpat``,
+* Unexpected property at ``#/bulkMapRandomTcp``,
 * Unexpected property at ``#/disableGiftDrops``,
-* Unexpected property at ``#/feedBookmarkNightlyRolloverRollover``,
-* Unexpected property at ``#/limitShellPitaBurritoPita``,
-* Unexpected property at ``#/mentionXmlPush``,
-* Unexpected property at ``#/queueHeader``,
-* Unexpected property at ``#/readThresholdOwnershipLoaderWrite``,
+* Unexpected property at ``#/externalResortEntry``,
+* Unexpected property at ``#/foxAnalysisGraphqlChurnOwnership``,
+* Unexpected property at ``#/heightCookieScheduler``,
+* Unexpected property at ``#/joinAttachmentHoistWhois``,
+* Unexpected property at ``#/limitAnimatorGraphqlThroughputMinimum``,
 * Unexpected property at ``#/requireAgeVerificationBetaTag``,
-* Unexpected property at ``#/returnUndo``,
-* Unexpected property at ``#/sdkCoefficientProbabilityMainUser``,
-* Unexpected property at ``#/serviceExpiration``,
-* Unexpected property at ``#/throttleVideoMethod``,
-* Unexpected property at ``#/thunderAttributeKernelNuisancePool``,
-* Unexpected property at ``#/timeRemoteSwarmPocketBytes``,
-* Unexpected property at ``#/tutorialRollbackSignatureLengthSubscriber``,
-* Unexpected property at ``#/virtualDestinationRandomConnectionMetric``.
+* Unexpected property at ``#/resortFuslFocacciaEacYacht``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

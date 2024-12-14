@@ -160,10 +160,6 @@ Response schema mismatch:
 * Invalid type at ``#/products/2``,
 
 *7 issues truncated.*
-#### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
-
-Response media type ``text/html`` not expected.
-
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -180,6 +176,9 @@ Response schema mismatch:
 
 
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
+
+
+#### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
 
 
 #### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
@@ -371,7 +370,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*1114 issues truncated.*
+*1105 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -379,7 +378,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*33 issues truncated.*
+*30 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -387,7 +386,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*28 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
