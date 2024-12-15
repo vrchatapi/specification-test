@@ -3,6 +3,7 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
@@ -10,7 +11,6 @@ Response schema mismatch:
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Invalid type at ``#/3/startDate``,
@@ -63,6 +63,63 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2024-12-05T20:33:14.004Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f6c6a298-b895-4e4c-9699-e20f2d84cd40.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_df9ebb03-174e-4190-954a-a2216d72c7d9"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_e61cede8-efb8-4be1-8472-2346eb2d8adc",
+    "id": "ips_e61cede8-efb8-4be1-8472-2346eb2d8adc",
+    "isEnabled": true,
+    "priority": 180,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2024-12-06T05:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2024-12-14T01:50:46.465Z"
+  },
+  {
+    "createdAt": "2024-12-05T19:13:29.777Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_e4d1d8d2-2573-48b1-9ac1-dfdfbb8975f1.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_21c479c9-a591-4148-b5a8-4976180bc361"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_84be39d1-c86e-4cb5-936c-135c92cc8392",
+    "id": "ips_84be39d1-c86e-4cb5-936c-135c92cc8392",
+    "isEnabled": true,
+    "priority": 185,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2024-12-06T05:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "platform-pc-desktop",
+      "platform-store-oculus",
+      "platform-pc",
+      "platform-oculus-quest",
+      "platform-pc-vr",
+      "platform-store-steam"
+    ],
+    "updatedAt": "2024-12-14T01:51:04.374Z"
+  },
+  {
     "createdAt": "2024-12-07T00:18:50.955Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_31dfad2c-a7f8-426c-b5bb-c9ce8fbccb2f.png",
@@ -87,63 +144,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2024-12-07T00:18:50.955Z"
-  },
-  {
-    "createdAt": "2024-12-05T20:33:14.004Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f6c6a298-b895-4e4c-9699-e20f2d84cd40.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_df9ebb03-174e-4190-954a-a2216d72c7d9"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_e61cede8-efb8-4be1-8472-2346eb2d8adc",
-    "id": "ips_e61cede8-efb8-4be1-8472-2346eb2d8adc",
-    "isEnabled": true,
-    "priority": 200,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2024-12-06T05:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-12-06T02:45:49.987Z"
-  },
-  {
-    "createdAt": "2024-12-05T19:13:29.777Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_e4d1d8d2-2573-48b1-9ac1-dfdfbb8975f1.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_21c479c9-a591-4148-b5a8-4976180bc361"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_84be39d1-c86e-4cb5-936c-135c92cc8392",
-    "id": "ips_84be39d1-c86e-4cb5-936c-135c92cc8392",
-    "isEnabled": true,
-    "priority": 300,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2024-12-06T05:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "platform-pc-desktop",
-      "platform-store-oculus",
-      "platform-pc",
-      "platform-oculus-quest",
-      "platform-pc-vr",
-      "platform-store-steam"
-    ],
-    "updatedAt": "2024-12-06T23:26:27.066Z"
   },
   {
     "createdAt": "2024-11-28T00:10:38.880Z",
