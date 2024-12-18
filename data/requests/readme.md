@@ -287,16 +287,22 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
-#### [createGroup](/data/requests/groups/creategroup.md)
+#### [updateGroup](/data/requests/groups/updategroup.md)
 
+Response schema mismatch:
+* Cannot fit value in explicit enum at ``#/myMember/permissions/0``.
 
 #### [getGroup](/data/requests/groups/getgroup.md)
 
+Response schema mismatch:
+* Cannot fit value in explicit enum at ``#/myMember/permissions/0``.
+
+#### [createGroup](/data/requests/groups/creategroup.md)
+
+Response schema mismatch:
+* Cannot fit value in explicit enum at ``#/myMember/permissions/0``.
 
 #### [getGroupMembers](/data/requests/groups/getgroupmembers.md)
-
-
-#### [updateGroup](/data/requests/groups/updategroup.md)
 
 
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
@@ -370,7 +376,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 
-*1105 issues truncated.*
+*1113 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -386,7 +392,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*29 issues truncated.*
+*33 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

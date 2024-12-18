@@ -27,7 +27,7 @@
 
 ```jsonc
 {
-  "ageVerificationStatus": "hidden",
+  "ageVerificationStatus": "18+",
   "allowAvatarCopying": false,
   "badges": [
     {
@@ -35,6 +35,13 @@
       "badgeId": "bdg_0b25e2ad-64ce-4e1b-bc61-7c57e45e1329",
       "badgeImageUrl": "https://assets.vrchat.com/badges/29/bdgai_7530140f-1374-472b-9540-5cfbcbd592c9.png",
       "badgeName": "Gift (1 Month)",
+      "showcased": false
+    },
+    {
+      "badgeDescription": "Granted to official VRChat Staff",
+      "badgeId": "bdg_11f41e60-d24e-4358-b7ad-06e2b9d23569",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/69/bdgai_ad914c8b-8b9c-42c8-957a-40fde888009a.png",
+      "badgeName": "VRChat Staff",
       "showcased": true
     },
     {

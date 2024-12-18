@@ -32,8 +32,8 @@
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "activeFriends": [],
-  "ageVerificationStatus": "hidden",
-  "ageVerified": false,
+  "ageVerificationStatus": "verified",
+  "ageVerified": true,
   "allowAvatarCopying": true,
   "badges": [
     {

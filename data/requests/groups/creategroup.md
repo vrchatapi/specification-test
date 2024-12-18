@@ -1,5 +1,8 @@
 # createGroup
 
+## Issues
+Response schema mismatch:
+* Cannot fit value in explicit enum at ``#/myMember/permissions/0``.
 ## Request
 `POST https://api.vrchat.cloud/api/1/groups`
 
