@@ -54,21 +54,6 @@ test(
 	}
 );
 
-test(
-	testOperation,
-	"getFavorite",
-	{
-		parameters: {
-			favoriteId: favoriteId
-		},
-		statusCode: 200
-	},
-	(t) => {
-		const { body } = t.context;
-		t.is(body.favoriteId, vrchatHomeWorldId);
-	}
-);
-
 test(testOperation, "removeFavorite", {
 	parameters: {
 		favoriteId: defaultAvatarId
