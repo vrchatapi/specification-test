@@ -76,8 +76,8 @@
     "trailRendererCount": 0,
     "writeDefaultsUsed": true
   },
-  "created_at": "2024-11-30T01:57:33.127Z",
-  "fileSize": 82155,
+  "created_at": "2024-12-21T01:57:42.886Z",
+  "fileSize": 82154,
   "success": true,
   "uncompressedSize": 388972
 }
