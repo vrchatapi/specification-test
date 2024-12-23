@@ -75,10 +75,12 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/8/storeId``.
+
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
@@ -376,7 +378,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 
-*1126 issues truncated.*
+*1113 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -384,7 +386,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 
-*39 issues truncated.*
+*36 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:

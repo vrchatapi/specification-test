@@ -19,31 +19,28 @@ Response schema mismatch:
 * Invalid type at ``#/3/endDate``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
+* Invalid type at ``#/4/startDate``,
+* Invalid type at ``#/4/endDate``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Invalid type at ``#/5/startDate``,
-* Invalid type at ``#/5/endDate``,
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Invalid type at ``#/6/startDate``,
+* Invalid type at ``#/6/endDate``,
 * Unexpected property at ``#/6/regions``,
 * Unexpected property at ``#/6/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
 * Invalid type at ``#/7/startDate``,
 * Invalid type at ``#/7/endDate``,
 * Unexpected property at ``#/7/regions``,
 * Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
-* Invalid type at ``#/8/startDate``,
-* Invalid type at ``#/8/endDate``,
-* Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
-* Invalid type at ``#/10/startDate``,
-* Invalid type at ``#/10/endDate``,
-* Unexpected property at ``#/10/regions``,
-* Unexpected property at ``#/10/requireClientTags``.
+* Invalid type at ``#/9/startDate``,
+* Invalid type at ``#/9/endDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -180,32 +177,6 @@ Response schema mismatch:
       "platform-store-steam"
     ],
     "updatedAt": "2024-12-14T01:51:04.374Z"
-  },
-  {
-    "createdAt": "2024-12-07T00:18:50.955Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_31dfad2c-a7f8-426c-b5bb-c9ce8fbccb2f.png",
-      "onPressed": {
-        "command": "OpenWorldsMenu",
-        "parameters": [
-          "ips_7f3fc127-22e7-4d7c-92aa-42989b67d097"
-        ]
-      }
-    },
-    "endDate": "2024-12-22T02:00:00.000Z",
-    "hash": "ips_26dd6c66-f865-48d1-992d-819a501ff527",
-    "id": "ips_26dd6c66-f865-48d1-992d-819a501ff527",
-    "isEnabled": true,
-    "priority": 190,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2024-12-07T01:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-12-07T00:18:50.955Z"
   },
   {
     "createdAt": "2024-11-28T00:10:38.880Z",
