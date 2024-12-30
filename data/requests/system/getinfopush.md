@@ -79,7 +79,7 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": "2024-12-31T05:00:00.000Z",
+    "endDate": "2024-12-31T08:00:00.000Z",
     "hash": "ips_90706533-8810-4918-8625-6bec21781a89",
     "id": "ips_90706533-8810-4918-8625-6bec21781a89",
     "isEnabled": true,
@@ -92,7 +92,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2024-12-26T22:42:02.329Z"
+    "updatedAt": "2024-12-29T01:58:01.282Z"
   },
   {
     "createdAt": "2024-12-16T20:45:13.666Z",
