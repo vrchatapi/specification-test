@@ -69,30 +69,30 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2024-12-24T15:12:15.555Z",
+    "createdAt": "2024-12-29T02:08:42.471Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4d2546f3-c973-4d92-8eff-b02d75062ead.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_63d3bd12-5fcc-44a8-a206-2c8eadd1278b.png",
       "onPressed": {
-        "command": "OpenHelpArticle",
+        "command": "OpenWorldsMenu",
         "parameters": [
-          "ips_ca35d0f2-7205-48ac-bc33-f7b624d0b077"
+          "ips_3f2d7249-dcc6-476d-b413-6101718d9553"
         ]
       }
     },
-    "endDate": "2024-12-31T08:00:00.000Z",
-    "hash": "ips_90706533-8810-4918-8625-6bec21781a89",
-    "id": "ips_90706533-8810-4918-8625-6bec21781a89",
+    "endDate": "2025-01-04T08:00:00.000Z",
+    "hash": "ips_d1b1f27b-cc64-4b7c-8f16-f0c2ae252776",
+    "id": "ips_d1b1f27b-cc64-4b7c-8f16-f0c2ae252776",
     "isEnabled": true,
     "priority": 175,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": "2024-12-28T05:00:00.000Z",
+    "startDate": "2024-12-31T07:30:00.000Z",
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2024-12-29T01:58:01.282Z"
+    "updatedAt": "2024-12-31T06:46:35.207Z"
   },
   {
     "createdAt": "2024-12-16T20:45:13.666Z",
