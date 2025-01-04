@@ -75,12 +75,10 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/7/storeId``.
-
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
+
+
+#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
@@ -149,11 +147,11 @@ Response schema mismatch:
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0products/0/archived``,
-* Unexpected property at ``#/0products/0/created``,
-* Unexpected property at ``#/0products/0/description``,
+* Missing property at ``#/0/groupIcon``,
+* Missing property at ``#/0/groupId``,
+* Missing property at ``#/0/groupName``,
 
-*2065 issues truncated.*
+*2099 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -394,7 +392,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*27 issues truncated.*
+*24 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
