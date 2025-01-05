@@ -14,21 +14,22 @@ Response schema mismatch:
 * Unexpected property at ``#/reportOptions/user``,
 * Unexpected property at ``#/reportOptions/world``,
 * Unexpected property at ``#/accessLogsUrls``,
+* Unexpected property at ``#/activeCycleMultigrain``,
 * Unexpected property at ``#/ageVerificationInviteVisible``,
 * Unexpected property at ``#/analysisMaxRetries``,
 * Unexpected property at ``#/analysisRetryInterval``,
-* Unexpected property at ``#/bounceHomeListener``,
-* Unexpected property at ``#/cloneNuisanceMochaDetection``,
-* Unexpected property at ``#/detectionResortPlayerClip``,
+* Unexpected property at ``#/barrierHeadpatInternal``,
 * Unexpected property at ``#/disableGiftDrops``,
-* Unexpected property at ``#/fpsPoolBracketProbabilityCompile``,
-* Unexpected property at ``#/payloadIpv4VersionOnline``,
-* Unexpected property at ``#/realtimeCron``,
+* Unexpected property at ``#/fireProtocolAttachmentIpv6Instance``,
+* Unexpected property at ``#/friendCheckRebaseDisplay``,
+* Unexpected property at ``#/mapPluginSticker``,
+* Unexpected property at ``#/objectMonitorSemaphoreClonePassport``,
+* Unexpected property at ``#/pullBlockMetricPeriod``,
+* Unexpected property at ``#/remoteConfiguration``,
 * Unexpected property at ``#/requireAgeVerificationBetaTag``,
-* Unexpected property at ``#/signHeadpatResortBranch``,
-* Unexpected property at ``#/steamNightly``,
-* Unexpected property at ``#/tapePlayerRateLicenseTarget``,
-* Unexpected property at ``#/totalReport``.
+* Unexpected property at ``#/seedBeachLabel``,
+* Unexpected property at ``#/sourdoughMutexTransmittionPlugin``,
+* Unexpected property at ``#/terminalSecurity``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

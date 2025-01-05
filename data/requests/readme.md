@@ -75,10 +75,12 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/9/storeId``.
+
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
@@ -373,18 +375,18 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
+* Invalid type at ``#/0/startDate``,
+* Invalid type at ``#/0/endDate``,
 
-*1132 issues truncated.*
+*1121 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
-*36 issues truncated.*
+*33 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -392,7 +394,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*24 issues truncated.*
+*25 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
