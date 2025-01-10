@@ -3,7 +3,6 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
@@ -12,28 +11,16 @@ Response schema mismatch:
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
+* Invalid type at ``#/2/startDate``,
 * Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
-* Invalid type at ``#/3/startDate``,
-* Invalid type at ``#/3/endDate``,
-* Unexpected property at ``#/3/regions``,
-* Unexpected property at ``#/3/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
+* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/startDate``,
 * Invalid type at ``#/4/endDate``,
 * Unexpected property at ``#/4/regions``,
-* Unexpected property at ``#/4/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Invalid type at ``#/5/startDate``,
-* Invalid type at ``#/5/endDate``,
-* Unexpected property at ``#/5/regions``,
-* Unexpected property at ``#/5/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Invalid type at ``#/7/startDate``,
-* Invalid type at ``#/7/endDate``,
-* Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``.
+* Unexpected property at ``#/4/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -61,32 +48,6 @@ Response schema mismatch:
 
 ```jsonc
 [
-  {
-    "createdAt": "2024-12-17T20:51:57.389Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_99d6b7e2-8f30-49c4-8963-75fe912bcff1.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_2243ad87-0baa-4c71-8797-5d3ff798aad8"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_10906799-fe7c-42f5-afbb-f6202c73022f",
-    "id": "ips_10906799-fe7c-42f5-afbb-f6202c73022f",
-    "isEnabled": true,
-    "priority": 179,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-12-18T17:03:29.821Z"
-  },
   {
     "createdAt": "2024-12-05T20:33:14.004Z",
     "data": {
@@ -143,57 +104,6 @@ Response schema mismatch:
       "platform-store-steam"
     ],
     "updatedAt": "2024-12-14T01:51:04.374Z"
-  },
-  {
-    "createdAt": "2024-11-28T00:10:38.880Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_5b777960-88fb-4279-82be-03a1ed376cb9.png",
-      "onPressed": {
-        "command": "OpenURL",
-        "parameters": [
-          "https://www.tkqlhce.com/click-101270393-15268034?url=https%3A%2F%2Felectronics.sony.com%2Fmore%2Fmocopi%2Fall-mocopi%2Fp%2Fqmss1-uscx"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_954c2ef7-9c90-43de-8914-ca069e381bb1",
-    "id": "ips_954c2ef7-9c90-43de-8914-ca069e381bb1",
-    "isEnabled": true,
-    "priority": 460,
-    "regions": [
-      "US"
-    ],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-11-28T00:13:12.484Z"
-  },
-  {
-    "createdAt": "2024-11-08T12:05:32.916Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_2b3f0f85-f349-47ff-9ff3-e7f3279b6fc2.png",
-      "onPressed": {
-        "command": "OpenVRCPlusMenu"
-      }
-    },
-    "endDate": null,
-    "hash": "ips_7681ee56-16a0-406d-96f6-fc7d58778ef9",
-    "id": "ips_7681ee56-16a0-406d-96f6-fc7d58778ef9",
-    "isEnabled": true,
-    "priority": 470,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2024-11-08T12:05:32.916Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",
