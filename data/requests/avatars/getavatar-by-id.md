@@ -38,8 +38,7 @@
   "releaseStatus": "public",
   "styles": {
     "primary": null,
-    "secondary": null,
-    "supplementary": []
+    "secondary": null
   },
   "tags": [],
   "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",

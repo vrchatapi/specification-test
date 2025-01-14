@@ -38,8 +38,7 @@
   "releaseStatus": "public",
   "styles": {
     "primary": null,
-    "secondary": null,
-    "supplementary": []
+    "secondary": null
   },
   "tags": [
     "admin_featured_legacy",
