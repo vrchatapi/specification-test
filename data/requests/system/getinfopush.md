@@ -81,7 +81,7 @@ Response schema mismatch:
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
-          "ips_21c479c9-a591-4148-b5a8-4976180bc361"
+          "ips_21c479c9-a591-4148-b5a8-4<unstable>80bc361"
         ]
       }
     },
