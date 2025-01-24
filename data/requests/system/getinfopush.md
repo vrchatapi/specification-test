@@ -3,6 +3,7 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
@@ -11,16 +12,20 @@ Response schema mismatch:
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
 * Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
+* Invalid type at ``#/3/startDate``,
+* Invalid type at ``#/3/endDate``,
+* Unexpected property at ``#/3/regions``,
+* Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
-* Invalid type at ``#/4/startDate``,
-* Invalid type at ``#/4/endDate``,
-* Unexpected property at ``#/4/regions``,
-* Unexpected property at ``#/4/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
+* Invalid type at ``#/5/startDate``,
+* Invalid type at ``#/5/endDate``,
+* Unexpected property at ``#/5/regions``,
+* Unexpected property at ``#/5/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -49,6 +54,32 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2025-01-23T22:19:50.735Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_1a915383-6699-4f9b-8bbe-1aab1fb15a4e.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_9b5cafcb-05f6-4260-a086-c33accb07ffd"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_f7b85a4e-b66c-4efd-b150-3779728f21a3",
+    "id": "ips_f7b85a4e-b66c-4efd-b150-3779728f21a3",
+    "isEnabled": true,
+    "priority": 395,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-01-23T22:19:50.735Z"
+  },
+  {
     "createdAt": "2024-12-05T20:33:14.004Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f6c6a298-b895-4e4c-9699-e20f2d84cd40.png",
@@ -63,7 +94,7 @@ Response schema mismatch:
     "hash": "ips_e61cede8-efb8-4be1-8472-2346eb2d8adc",
     "id": "ips_e61cede8-efb8-4be1-8472-2346eb2d8adc",
     "isEnabled": true,
-    "priority": 180,
+    "priority": 398,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -72,7 +103,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2024-12-14T01:50:46.465Z"
+    "updatedAt": "2025-01-23T19:55:34.807Z"
   },
   {
     "createdAt": "2024-12-05T19:13:29.777Z",
@@ -89,7 +120,7 @@ Response schema mismatch:
     "hash": "ips_84be39d1-c86e-4cb5-936c-135c92cc8392",
     "id": "ips_84be39d1-c86e-4cb5-936c-135c92cc8392",
     "isEnabled": true,
-    "priority": 185,
+    "priority": 399,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -103,7 +134,7 @@ Response schema mismatch:
       "platform-pc-vr",
       "platform-store-steam"
     ],
-    "updatedAt": "2024-12-14T01:51:04.374Z"
+    "updatedAt": "2025-01-23T19:55:16.617Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",
