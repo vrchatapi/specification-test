@@ -386,7 +386,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*31 issues truncated.*
+*27 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
