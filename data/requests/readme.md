@@ -75,10 +75,12 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/9/storeId``.
+
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
@@ -386,7 +388,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*27 issues truncated.*
+*36 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
