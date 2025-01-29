@@ -47,6 +47,11 @@ Response schema mismatch:
 
 ## [Users](/data/requests/users)
 
+#### [getUser](/data/requests/users/getuser.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/ageVerified``.
+
 #### [updateUserNote](/data/requests/users/updateusernote.md)
 
 
@@ -60,9 +65,6 @@ Response schema mismatch:
 
 
 #### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
-
-
-#### [getUser](/data/requests/users/getuser.md)
 
 
 #### [getUserFeedback](/data/requests/users/getuserfeedback.md)
@@ -327,9 +329,9 @@ Response schema mismatch:
 #### [getAssignedPermissions](/data/requests/permissions/getassignedpermissions.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0data/max``,
 * Unexpected property at ``#/1data/max``,
 * Unexpected property at ``#/2data/max``,
+* Unexpected property at ``#/3data/max``,
 
 *7 issues truncated.*
 #### [getPermission](/data/requests/permissions/getpermission.md)
@@ -372,7 +374,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 
-*1106 issues truncated.*
+*1119 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -380,7 +382,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 
-*21 issues truncated.*
+*26 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -388,7 +390,7 @@ Response schema mismatch:
 * Missing property at ``#/avatarPerfLimiter/PC/allowed``,
 * Missing property at ``#/avatarPerfLimiter/Pico/allowed``,
 
-*36 issues truncated.*
+*29 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

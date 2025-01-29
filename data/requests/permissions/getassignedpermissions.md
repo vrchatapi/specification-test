@@ -2,16 +2,16 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/0data/max``,
 * Unexpected property at ``#/1data/max``,
 * Unexpected property at ``#/2data/max``,
 * Unexpected property at ``#/3data/max``,
 * Unexpected property at ``#/4data/max``,
-* Unexpected property at ``#/7data/max``,
-* Unexpected property at ``#/11data/maxFavoritesPerGroup``,
-* Unexpected property at ``#/11data/maxFavoriteGroups``,
-* Unexpected property at ``#/12data/tags``,
-* Unexpected property at ``#/12data/badges``.
+* Unexpected property at ``#/5data/max``,
+* Unexpected property at ``#/8data/max``,
+* Unexpected property at ``#/12data/maxFavoritesPerGroup``,
+* Unexpected property at ``#/12data/maxFavoriteGroups``,
+* Unexpected property at ``#/13data/tags``,
+* Unexpected property at ``#/13data/badges``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/permissions`
 
@@ -39,6 +39,16 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "id": "prms_4cd435c5-f91d-4916-8195-3c2c7e2ae540",
+    "ownerId": "usr_f717a1d7-3329-4def-8f51-b0c82f72d4d0",
+    "ownerDisplayName": "VRC Nayir",
+    "name": "permission-age-verification",
+    "displayName": "",
+    "description": "",
+    "type": "system",
+    "data": {}
+  },
   {
     "id": "prms_6d2096bc-22c4-4f7e-a4e6-7f46b18bb2fc",
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",

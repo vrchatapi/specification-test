@@ -120,6 +120,12 @@
       "forType": "permission",
       "forName": "permission-user-emoji-animated",
       "forAction": "have"
+    },
+    {
+      "forId": "prms_4cd435c5-f91d-4916-8195-3c2c7e2ae540",
+      "forType": "permission",
+      "forName": "permission-age-verification",
+      "forAction": "have"
     }
   ]
 }
