@@ -32,7 +32,7 @@ Response schema mismatch:
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "badges": [
     {
       "badgeDescription": "Awarded for gifting VRChat+ (1 Month)",
