@@ -77,12 +77,10 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/9/storeId``.
-
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
+
+
+#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
