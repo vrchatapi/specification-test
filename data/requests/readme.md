@@ -80,7 +80,7 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/8/storeId``.
+* Unexpected property at ``#/9/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -374,7 +374,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 
-*1132 issues truncated.*
+*1125 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
