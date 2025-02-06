@@ -14,7 +14,6 @@ Response schema mismatch:
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
@@ -126,7 +125,7 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": null,
+    "endDate": "2025-02-06T05:00:00.000Z",
     "hash": "ips_f7b85a4e-b66c-4efd-b150-3779728f21a3",
     "id": "ips_f7b85a4e-b66c-4efd-b150-3779728f21a3",
     "isEnabled": true,
@@ -139,7 +138,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-01-23T22:19:50.735Z"
+    "updatedAt": "2025-02-05T16:38:34.737Z"
   },
   {
     "createdAt": "2024-12-05T20:33:14.004Z",

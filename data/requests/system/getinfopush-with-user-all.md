@@ -14,7 +14,6 @@ Response schema mismatch:
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
