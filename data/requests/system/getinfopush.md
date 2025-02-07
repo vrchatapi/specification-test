@@ -4,16 +4,15 @@
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
@@ -63,6 +62,58 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2025-01-30T18:24:13.267Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_a5bf175e-7242-4368-a2eb-fc9f4bc3a268.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_b116a68a-90a8-4835-bdeb-fd238c419634"
+        ]
+      }
+    },
+    "endDate": "2025-02-17T05:00:00.000Z",
+    "hash": "ips_ea5bf3d0-153b-41c2-a354-30d5917786c5",
+    "id": "ips_ea5bf3d0-153b-41c2-a354-30d5917786c5",
+    "isEnabled": true,
+    "priority": 340,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-02-06T21:25:25.071Z"
+  },
+  {
+    "createdAt": "2025-02-06T21:18:19.329Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_c6a2c5ad-34d8-4940-b538-78b778f78c83.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_2e86eca4-989f-45da-9b5a-72d7edff7c3c"
+        ]
+      }
+    },
+    "endDate": "2025-02-27T05:00:00.000Z",
+    "hash": "ips_0fcdbfba-3a90-4b8f-bd9e-0e6ccf51db7c",
+    "id": "ips_0fcdbfba-3a90-4b8f-bd9e-0e6ccf51db7c",
+    "isEnabled": true,
+    "priority": 345,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-02-06T21:19:21.590Z"
+  },
+  {
     "createdAt": "2025-01-27T21:09:40.711Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_0cadc6f6-29c1-45d6-ba45-8f32767279ca.png",
@@ -87,58 +138,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2025-01-29T00:06:56.223Z"
-  },
-  {
-    "createdAt": "2025-01-30T18:24:13.267Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_a5bf175e-7242-4368-a2eb-fc9f4bc3a268.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_b116a68a-90a8-4835-bdeb-fd238c419634"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_ea5bf3d0-153b-41c2-a354-30d5917786c5",
-    "id": "ips_ea5bf3d0-153b-41c2-a354-30d5917786c5",
-    "isEnabled": true,
-    "priority": 390,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-01-30T21:23:31.301Z"
-  },
-  {
-    "createdAt": "2025-01-23T22:19:50.735Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_1a915383-6699-4f9b-8bbe-1aab1fb15a4e.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_9b5cafcb-05f6-4260-a086-c33accb07ffd"
-        ]
-      }
-    },
-    "endDate": "2025-02-06T05:00:00.000Z",
-    "hash": "ips_f7b85a4e-b66c-4efd-b150-3779728f21a3",
-    "id": "ips_f7b85a4e-b66c-4efd-b150-3779728f21a3",
-    "isEnabled": true,
-    "priority": 395,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-02-05T16:38:34.737Z"
   },
   {
     "createdAt": "2024-12-05T20:33:14.004Z",
