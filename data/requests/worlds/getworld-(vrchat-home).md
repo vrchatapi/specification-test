@@ -64,7 +64,8 @@
     "admin_AllowInternal_PlatformCheck",
     "admin_filter_UrlLauncher",
     "admin_filter_analytics",
-    "admin_hide_broad"
+    "admin_hide_broad",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",
@@ -171,14 +172,14 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/265/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/269/file",
       "assetVersion": 4,
-      "created_at": "2025-01-16T20:34:37.583Z",
-      "id": "unp_4fea47d9-0756-46d5-b6c5-bdb86aa17fd1",
+      "created_at": "2025-02-07T22:30:18.776Z",
+      "id": "unp_caea1a38-932e-4e72-9499-e8622d164601",
       "platform": "android",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
-      "worldSignature": "ALAFEhTXNbJ2zP2hf3Fz3BjayNkvZDwccHj77TA97Xjkd4rv5g=="
+      "worldSignature": "AMYUNvicne+f0jMy0Pv9d+D70fvij5vQG9pFo1PCfWV14ypNTA=="
     },
     {
       "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/1/file",
@@ -311,14 +312,14 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/267/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/268/file",
       "assetVersion": 4,
-      "created_at": "2025-01-16T20:54:14.311Z",
-      "id": "unp_dd886195-2d4f-4fe7-bafc-90a07b1e12b5",
+      "created_at": "2025-02-07T22:04:40.633Z",
+      "id": "unp_b7e5b263-2efd-43e4-8205-52e3539c3f11",
       "platform": "standalonewindows",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
-      "worldSignature": "AEb+147Br1FbritaIW0XthO2srrQMmtD/+5xRQopaKYByqcXxA=="
+      "worldSignature": "AC40p2dENcCZH465zFvG2iCkm2b7LpFsfaVe+hVFV9P1jHDIiQ=="
     }
   ],
   "updated_at": "<unstable: string>",
