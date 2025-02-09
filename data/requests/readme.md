@@ -75,10 +75,12 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/9/storeId``.
+
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
@@ -367,26 +369,26 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
+* Unexpected property at ``#/0/regions``,
+* Unexpected property at ``#/0/requireClientTags``,
 
-*1122 issues truncated.*
+*1137 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
+* Unexpected property at ``#/0/regions``,
+* Unexpected property at ``#/0/requireClientTags``,
 
-*29 issues truncated.*
+*32 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/HoistReportDeployAuthenticationLimit``,
-* Unexpected property at ``#/ScreenHealthDisconnectTierShader``,
-* Unexpected property at ``#/changeMarkerLibraryCountry``,
+* Unexpected property at ``#/applicationEmbedSyscallPush``,
+* Unexpected property at ``#/bootstrapExcursionWorld``,
+* Unexpected property at ``#/chatKeywordAttachmentJwt``,
 
-*16 issues truncated.*
+*13 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

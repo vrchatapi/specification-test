@@ -2,25 +2,22 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/HoistReportDeployAuthenticationLimit``,
-* Unexpected property at ``#/ScreenHealthDisconnectTierShader``,
-* Unexpected property at ``#/changeMarkerLibraryCountry``,
-* Unexpected property at ``#/fpsContextSteam``,
-* Unexpected property at ``#/healthReceiveCrust``,
-* Unexpected property at ``#/impostorPluginAvatarMetric``,
-* Unexpected property at ``#/instanceRestJoinLayout``,
-* Unexpected property at ``#/locationResolverBuildQueue``,
-* Unexpected property at ``#/loopPeriodUpExpireSandwich``,
-* Unexpected property at ``#/nameZoneBrewPhoton``,
-* Unexpected property at ``#/partitionImmunityUdp``,
-* Unexpected property at ``#/playerItineraryUpdated``,
-* Unexpected property at ``#/rankingChurn``,
-* Unexpected property at ``#/reasonCookieNameCdn``,
-* Unexpected property at ``#/regressionMessage``,
-* Unexpected property at ``#/rotationBrew``,
-* Unexpected property at ``#/textKeyboardSearchNoise``,
-* Unexpected property at ``#/tracingLoafRealtimeClientPresence``,
-* Unexpected property at ``#/udpDocumentation``.
+* Unexpected property at ``#/applicationEmbedSyscallPush``,
+* Unexpected property at ``#/bootstrapExcursionWorld``,
+* Unexpected property at ``#/chatKeywordAttachmentJwt``,
+* Unexpected property at ``#/commandHealthTransmit``,
+* Unexpected property at ``#/debounceRolloverSoapLine``,
+* Unexpected property at ``#/forwardBookmarkMocha``,
+* Unexpected property at ``#/lockLatteExpireTransmit``,
+* Unexpected property at ``#/loggingResolverColourSpace``,
+* Unexpected property at ``#/queueAttributeIso8601``,
+* Unexpected property at ``#/queueManager``,
+* Unexpected property at ``#/relaadventureDistanceVerificationJoinUsage``,
+* Unexpected property at ``#/rolloutExitAuthLocation``,
+* Unexpected property at ``#/schedulingBookmarkInstanceLicense``,
+* Unexpected property at ``#/startProfileBlinkLibraryFormat``,
+* Unexpected property at ``#/timeReservedTimeoutReadFramework``,
+* Unexpected property at ``#/yachtUsageGroup``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
