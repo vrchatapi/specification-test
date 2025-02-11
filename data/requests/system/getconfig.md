@@ -2,24 +2,20 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/InstanceReplaceItinerary``,
-* Unexpected property at ``#/YachtHead``,
-* Unexpected property at ``#/analyticsDownToolboxActivityFriend``,
-* Unexpected property at ``#/channelLocalization``,
-* Unexpected property at ``#/chaosNoiseSandwichTrusted``,
-* Unexpected property at ``#/containerProp``,
-* Unexpected property at ``#/cronRoomBootstrapNightly``,
-* Unexpected property at ``#/endpointReceiveExpiration``,
-* Unexpected property at ``#/libraryBuildManager``,
-* Unexpected property at ``#/nightlyBriochePhotonBookmark``,
-* Unexpected property at ``#/nuisanceResolverDefaultTemporalStatus``,
-* Unexpected property at ``#/nuisanceScreenBounce``,
-* Unexpected property at ``#/rateBeachLoader``,
-* Unexpected property at ``#/referenceAmericanoGitCiabattaPage``,
-* Unexpected property at ``#/schedulingPacketAuthentication``,
-* Unexpected property at ``#/throughputReachabilitySessionNotifyTrusted``,
-* Unexpected property at ``#/trackingShaderCycleTimezone``,
-* Unexpected property at ``#/userDetectionReaderDaemonNoise``.
+* Unexpected property at ``#/PrimaryAuthenticationKeyboardMarkerInternal``,
+* Unexpected property at ``#/animationDraft``,
+* Unexpected property at ``#/brewLabel``,
+* Unexpected property at ``#/commandHeadDatagram``,
+* Unexpected property at ``#/controlMainVersionCompileSort``,
+* Unexpected property at ``#/dataStickerPaste``,
+* Unexpected property at ``#/foxWaffleWhoisDisable``,
+* Unexpected property at ``#/lockTierStoreContent``,
+* Unexpected property at ``#/pasteDatagramPlugin``,
+* Unexpected property at ``#/permanentTimestampFusl``,
+* Unexpected property at ``#/probabilityExpiration``,
+* Unexpected property at ``#/samlProxy``,
+* Unexpected property at ``#/viewNotification``,
+* Unexpected property at ``#/zoneCreatedTaggingLoaderCompile``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

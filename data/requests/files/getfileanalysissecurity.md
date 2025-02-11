@@ -1,5 +1,8 @@
 # getFileAnalysisSecurity
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/performanceRating``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/analysis/file_989feccd-3e6d-41f6-bf87-a8b3ece88438/1/security`
 
@@ -78,6 +81,7 @@
   },
   "created_at": "2025-02-01T01:59:02.761Z",
   "fileSize": 82155,
+  "performanceRating": "Excellent",
   "success": true,
   "uncompressedSize": 388972
 }
