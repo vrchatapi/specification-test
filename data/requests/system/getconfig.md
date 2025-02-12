@@ -2,20 +2,26 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/PrimaryAuthenticationKeyboardMarkerInternal``,
-* Unexpected property at ``#/animationDraft``,
-* Unexpected property at ``#/brewLabel``,
-* Unexpected property at ``#/commandHeadDatagram``,
-* Unexpected property at ``#/controlMainVersionCompileSort``,
-* Unexpected property at ``#/dataStickerPaste``,
-* Unexpected property at ``#/foxWaffleWhoisDisable``,
-* Unexpected property at ``#/lockTierStoreContent``,
-* Unexpected property at ``#/pasteDatagramPlugin``,
-* Unexpected property at ``#/permanentTimestampFusl``,
-* Unexpected property at ``#/probabilityExpiration``,
-* Unexpected property at ``#/samlProxy``,
-* Unexpected property at ``#/viewNotification``,
-* Unexpected property at ``#/zoneCreatedTaggingLoaderCompile``.
+* Unexpected property at ``#/reportCategories/avataravm``,
+* Unexpected property at ``#/reportCategories/avatarpage``,
+* Unexpected property at ``#/reportCategories/warningsavm``,
+* Unexpected property at ``#/reportOptions/avataravm``,
+* Unexpected property at ``#/reportReasons/copyright``,
+* Unexpected property at ``#/reportReasons/fraud``,
+* Unexpected property at ``#/reportReasons/technical``,
+* Unexpected property at ``#/ColliderJoinSpray``,
+* Unexpected property at ``#/backgroundForwardColorRotationReverse``,
+* Unexpected property at ``#/bufferKeyDeploymentSegfault``,
+* Unexpected property at ``#/dataSortHoistClockOwnership``,
+* Unexpected property at ``#/dynamicWebsocketUsageClient``,
+* Unexpected property at ``#/packetThresholdKeywordCluster``,
+* Unexpected property at ``#/primaryBulkLabelStreaming``,
+* Unexpected property at ``#/protocolEmbed``,
+* Unexpected property at ``#/rankingBufferOwnershipReceive``,
+* Unexpected property at ``#/rankingNews``,
+* Unexpected property at ``#/readXmlServiceDown``,
+* Unexpected property at ``#/realtimeMacchiatoRemoteBoneMain``,
+* Unexpected property at ``#/slicePoolBird``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

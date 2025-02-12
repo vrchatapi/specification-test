@@ -78,7 +78,7 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/7/storeId``,
+* Unexpected property at ``#/6/storeId``,
 * Unexpected property at ``#/9/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
@@ -391,11 +391,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/PrimaryAuthenticationKeyboardMarkerInternal``,
-* Unexpected property at ``#/animationDraft``,
-* Unexpected property at ``#/brewLabel``,
+* Unexpected property at ``#/reportCategories/avataravm``,
+* Unexpected property at ``#/reportCategories/avatarpage``,
+* Unexpected property at ``#/reportCategories/warningsavm``,
 
-*11 issues truncated.*
+*17 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
