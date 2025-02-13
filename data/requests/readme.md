@@ -78,8 +78,7 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/6/storeId``,
-* Unexpected property at ``#/9/storeId``.
+* Unexpected property at ``#/7/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -150,11 +149,11 @@ Response schema mismatch:
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
-* Missing property at ``#/0/groupIcon``,
-* Missing property at ``#/0/groupId``,
-* Missing property at ``#/0/groupName``,
+* Invalid type at ``#/0listingVariants/0/unitPriceTokens``,
+* Invalid type at ``#/0listingVariants/1/unitPriceTokens``,
+* Invalid type at ``#/0listingVariants/2/unitPriceTokens``,
 
-*2099 issues truncated.*
+*2102 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -234,8 +233,11 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/performanceRating``.
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
 
+*2 issues truncated.*
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
@@ -244,8 +246,11 @@ Response schema mismatch:
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/performanceRating``.
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
 
+*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -395,7 +400,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/avatarpage``,
 * Unexpected property at ``#/reportCategories/warningsavm``,
 
-*17 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
