@@ -2,30 +2,27 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/reportCategories/avataravm``,
+* Unexpected property at ``#/reportCategories/avatar/description``,
+* Unexpected property at ``#/reportCategories/avatar/title``,
+* Unexpected property at ``#/reportCategories/warnings/description``,
+* Unexpected property at ``#/reportCategories/warnings/title``,
 * Unexpected property at ``#/reportCategories/avatarpage``,
-* Unexpected property at ``#/reportCategories/warningsavm``,
-* Unexpected property at ``#/reportOptions/avataravm``,
+* Unexpected property at ``#/reportOptions/avatar/avatarpage``,
 * Unexpected property at ``#/reportReasons/copyright``,
 * Unexpected property at ``#/reportReasons/fraud``,
 * Unexpected property at ``#/reportReasons/technical``,
-* Unexpected property at ``#/americanoDockerUpdateExtendedScheduling``,
-* Unexpected property at ``#/bracketHome``,
-* Unexpected property at ``#/cdnKernelBiographyLock``,
-* Unexpected property at ``#/clusterPointerTrackerBehaviour``,
-* Unexpected property at ``#/colliderMainBounce``,
-* Unexpected property at ``#/colliderPermanentRankLoafTier``,
-* Unexpected property at ``#/countryMethodZoneDestinationWeight``,
-* Unexpected property at ``#/docsMobileThroughput``,
-* Unexpected property at ``#/extendedStatusPresence``,
-* Unexpected property at ``#/filterBuildPlusBird``,
-* Unexpected property at ``#/forkReadBrew``,
-* Unexpected property at ``#/macBandwidthInstall``,
-* Unexpected property at ``#/reverseMobileWaffle``,
-* Unexpected property at ``#/rolloverAppend``,
-* Unexpected property at ``#/transactionSlice``,
-* Unexpected property at ``#/worldSendRolloverElection``,
-* Unexpected property at ``#/xmlIdentityLoggingReplicationVoice``.
+* Unexpected property at ``#/commitRankingDockerAccount``,
+* Unexpected property at ``#/cyclePlusFeed``,
+* Unexpected property at ``#/eventSlotPublicBytesLatency``,
+* Unexpected property at ``#/frameShardGenerator``,
+* Unexpected property at ``#/jsonDebounceSegment``,
+* Unexpected property at ``#/keyboardUdpJwt``,
+* Unexpected property at ``#/replicationColourManagerCrossTracking``,
+* Unexpected property at ``#/ryeBootstrapMap``,
+* Unexpected property at ``#/searchTrend``,
+* Unexpected property at ``#/stickerMiddleware``,
+* Unexpected property at ``#/textLoopStartRankVideo``,
+* Unexpected property at ``#/timestampRoastTrackingReadKey``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

@@ -32,7 +32,7 @@
   "allowAvatarCopying": true,
   "badges": [
     {
-      "badgeDescription": "Awarded for gifting VRChat+ (1 Month)",
+      "badgeDescription": "Awarded for gifting VRC+ (1 Month)",
       "badgeId": "bdg_0b25e2ad-64ce-4e1b-bc61-7c57e45e1329",
       "badgeImageUrl": "https://assets.vrchat.com/badges/29/bdgai_7530140f-1374-472b-9540-5cfbcbd592c9.png",
       "badgeName": "Gift (1 Month)",
@@ -79,7 +79,7 @@
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "android",
+  "last_platform": "standalonewindows",
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",

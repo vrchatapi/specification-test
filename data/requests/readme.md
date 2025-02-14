@@ -78,7 +78,7 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/7/storeId``.
+* Unexpected property at ``#/5/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -233,11 +233,8 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
+* Unexpected property at ``#/performanceRating``.
 
-*2 issues truncated.*
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
@@ -246,11 +243,8 @@ Response schema mismatch:
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
+* Unexpected property at ``#/performanceRating``.
 
-*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -381,26 +375,26 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
 *1137 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
 *32 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/reportCategories/avataravm``,
-* Unexpected property at ``#/reportCategories/avatarpage``,
-* Unexpected property at ``#/reportCategories/warningsavm``,
+* Unexpected property at ``#/reportCategories/avatar/description``,
+* Unexpected property at ``#/reportCategories/avatar/title``,
+* Unexpected property at ``#/reportCategories/warnings/description``,
 
-*21 issues truncated.*
+*18 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
