@@ -394,7 +394,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/avatar/title``,
 * Unexpected property at ``#/reportCategories/warnings/description``,
 
-*18 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

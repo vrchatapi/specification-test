@@ -11,18 +11,21 @@ Response schema mismatch:
 * Unexpected property at ``#/reportReasons/copyright``,
 * Unexpected property at ``#/reportReasons/fraud``,
 * Unexpected property at ``#/reportReasons/technical``,
-* Unexpected property at ``#/commitRankingDockerAccount``,
-* Unexpected property at ``#/cyclePlusFeed``,
-* Unexpected property at ``#/eventSlotPublicBytesLatency``,
-* Unexpected property at ``#/frameShardGenerator``,
-* Unexpected property at ``#/jsonDebounceSegment``,
-* Unexpected property at ``#/keyboardUdpJwt``,
-* Unexpected property at ``#/replicationColourManagerCrossTracking``,
-* Unexpected property at ``#/ryeBootstrapMap``,
-* Unexpected property at ``#/searchTrend``,
-* Unexpected property at ``#/stickerMiddleware``,
-* Unexpected property at ``#/textLoopStartRankVideo``,
-* Unexpected property at ``#/timestampRoastTrackingReadKey``.
+* Unexpected property at ``#/EternalAnalysisHeadpat``,
+* Unexpected property at ``#/ExpiresBonesNoiseTemporary``,
+* Unexpected property at ``#/ThroughputReadSignOutUpdate``,
+* Unexpected property at ``#/behaviorHeightHeightFps``,
+* Unexpected property at ``#/clockPhotonTemporalArray``,
+* Unexpected property at ``#/connectionKeyPeriodAccount``,
+* Unexpected property at ``#/controlReservedBrewOut``,
+* Unexpected property at ``#/hashSessionOffsetReserved``,
+* Unexpected property at ``#/maximumSteamTemporalReplication``,
+* Unexpected property at ``#/packetPresenceMethodBookmark``,
+* Unexpected property at ``#/previousOrchestration``,
+* Unexpected property at ``#/pushTaggingThread``,
+* Unexpected property at ``#/sourdoughObject``,
+* Unexpected property at ``#/viewEthernet``,
+* Unexpected property at ``#/vrchatPushTransmittion``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
