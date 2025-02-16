@@ -11,21 +11,17 @@ Response schema mismatch:
 * Unexpected property at ``#/reportReasons/copyright``,
 * Unexpected property at ``#/reportReasons/fraud``,
 * Unexpected property at ``#/reportReasons/technical``,
-* Unexpected property at ``#/EternalAnalysisHeadpat``,
-* Unexpected property at ``#/ExpiresBonesNoiseTemporary``,
-* Unexpected property at ``#/ThroughputReadSignOutUpdate``,
-* Unexpected property at ``#/behaviorHeightHeightFps``,
-* Unexpected property at ``#/clockPhotonTemporalArray``,
-* Unexpected property at ``#/connectionKeyPeriodAccount``,
-* Unexpected property at ``#/controlReservedBrewOut``,
-* Unexpected property at ``#/hashSessionOffsetReserved``,
-* Unexpected property at ``#/maximumSteamTemporalReplication``,
-* Unexpected property at ``#/packetPresenceMethodBookmark``,
-* Unexpected property at ``#/previousOrchestration``,
-* Unexpected property at ``#/pushTaggingThread``,
-* Unexpected property at ``#/sourdoughObject``,
-* Unexpected property at ``#/viewEthernet``,
-* Unexpected property at ``#/vrchatPushTransmittion``.
+* Unexpected property at ``#/briocheFeedProfile``,
+* Unexpected property at ``#/extendedTimezoneTrusted``,
+* Unexpected property at ``#/foxConnectionSort``,
+* Unexpected property at ``#/regionVirtualAuth``,
+* Unexpected property at ``#/reportPool``,
+* Unexpected property at ``#/requestDisable``,
+* Unexpected property at ``#/reservedDetection``,
+* Unexpected property at ``#/rolloverCommunity``,
+* Unexpected property at ``#/routingBehavior``,
+* Unexpected property at ``#/violationRoutingBlink``,
+* Unexpected property at ``#/weightFuslSwarm``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

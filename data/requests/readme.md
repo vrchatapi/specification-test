@@ -78,7 +78,8 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/5/storeId``.
+* Unexpected property at ``#/5/storeId``,
+* Unexpected property at ``#/9/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -394,7 +395,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/avatar/title``,
 * Unexpected property at ``#/reportCategories/warnings/description``,
 
-*21 issues truncated.*
+*17 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
