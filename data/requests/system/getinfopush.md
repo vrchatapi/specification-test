@@ -7,14 +7,14 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Invalid type at ``#/1/startDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
+* Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Invalid type at ``#/3/startDate``,
 * Invalid type at ``#/3/endDate``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
@@ -23,20 +23,16 @@ Response schema mismatch:
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
+* Invalid type at ``#/5/startDate``,
 * Invalid type at ``#/5/endDate``,
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Invalid type at ``#/6/startDate``,
-* Invalid type at ``#/6/endDate``,
-* Unexpected property at ``#/6/regions``,
-* Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
-* Invalid type at ``#/8/startDate``,
-* Invalid type at ``#/8/endDate``,
-* Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``.
+* Invalid type at ``#/7/startDate``,
+* Invalid type at ``#/7/endDate``,
+* Unexpected property at ``#/7/regions``,
+* Unexpected property at ``#/7/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -64,32 +60,6 @@ Response schema mismatch:
 
 ```jsonc
 [
-  {
-    "createdAt": "2025-01-30T18:24:13.267Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_a5bf175e-7242-4368-a2eb-fc9f4bc3a268.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_b116a68a-90a8-4835-bdeb-fd238c419634"
-        ]
-      }
-    },
-    "endDate": "2025-02-17T05:00:00.000Z",
-    "hash": "ips_ea5bf3d0-153b-41c2-a354-30d5917786c5",
-    "id": "ips_ea5bf3d0-153b-41c2-a354-30d5917786c5",
-    "isEnabled": true,
-    "priority": 340,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-02-13T21:14:14.205Z"
-  },
   {
     "createdAt": "2025-02-06T21:18:19.329Z",
     "data": {
