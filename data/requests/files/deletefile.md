@@ -39,6 +39,30 @@
       "created_at": "<unstable>",
       "status": "complete",
       "version": 0
+    },
+    {
+      "created_at": "<unstable>",
+      "deleted": true,
+      "file": {
+        "category": "simple",
+        "fileName": "string.<unstable>.1.A",
+        "md5": "dGVzdA==",
+        "sizeInBytes": 64,
+        "status": "waiting",
+        "uploadId": "",
+        "url": "https://api.vrchat.cloud/api/1/file/<unstable>/1/file"
+      },
+      "signature": {
+        "category": "simple",
+        "fileName": "string.<unstable>.1.A.signature",
+        "md5": "dGVzdA==",
+        "sizeInBytes": 64,
+        "status": "waiting",
+        "uploadId": "",
+        "url": "https://api.vrchat.cloud/api/1/file/<unstable>/1/signature"
+      },
+      "status": "waiting",
+      "version": 1
     }
   ]
 }
