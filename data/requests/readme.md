@@ -2,6 +2,16 @@
 
 ## [Authentication](/data/requests/authentication)
 
+#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/platform_history``.
+
+#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/platform_history``.
+
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -22,9 +32,6 @@ Response schema mismatch:
 #### [verifyAuthToken](/data/requests/authentication/verifyauthtoken.md)
 
 
-#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
-
-
 #### [checkUserExists with zero parameters](/data/requests/authentication/checkuserexists-with-zero-parameters.md)
 
 
@@ -38,9 +45,6 @@ Response schema mismatch:
 
 
 #### [logout logout](/data/requests/authentication/logout-logout.md)
-
-
-#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
 
 
 
@@ -78,7 +82,8 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/7/storeId``.
+* Unexpected property at ``#/7/storeId``,
+* Unexpected property at ``#/9/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -115,6 +120,21 @@ Response schema mismatch:
 
 ## [Avatars](/data/requests/avatars)
 
+#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/platform_history``.
+
+#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/platform_history``.
+
+#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/platform_history``.
+
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
 
@@ -127,16 +147,7 @@ Response schema mismatch:
 #### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 
-#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
-
-
-#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
-
-
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
-
-
-#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
 
 
 #### [getFavoritedAvatars with zero parameters](/data/requests/avatars/getfavoritedavatars-with-zero-parameters.md)
@@ -390,11 +401,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/reportCategories/avatar/description``,
-* Unexpected property at ``#/reportCategories/avatar/title``,
-* Unexpected property at ``#/reportCategories/warnings/description``,
+* Missing property at ``#/appName``,
+* Missing property at ``#/buildVersionTag``,
+* Missing property at ``#/deploymentGroup``,
 
-*20 issues truncated.*
+*26 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

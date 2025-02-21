@@ -1,5 +1,8 @@
 # selectAvatar with default avatar id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/platform_history``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
@@ -69,6 +72,23 @@
   "oculusId": "",
   "pastDisplayNames": [],
   "picoId": "",
+  "platform_history": [
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-20T01:03:05.795Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-21T01:02:51.526Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-21T01:02:54.926Z"
+    }
+  ],
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",

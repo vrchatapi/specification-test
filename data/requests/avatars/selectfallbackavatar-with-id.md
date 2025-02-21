@@ -1,5 +1,8 @@
 # selectFallbackAvatar with id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/platform_history``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
 
@@ -69,6 +72,23 @@
   "oculusId": "",
   "pastDisplayNames": [],
   "picoId": "",
+  "platform_history": [
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-20T01:03:05.795Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-21T01:02:51.526Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-21T01:02:54.926Z"
+    }
+  ],
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",

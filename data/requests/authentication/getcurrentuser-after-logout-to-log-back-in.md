@@ -1,5 +1,8 @@
 # getCurrentUser after logout to log back in
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/platform_history``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -88,6 +91,23 @@
   "onlineFriends": [],
   "pastDisplayNames": [],
   "picoId": "",
+  "platform_history": [
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-20T01:03:05.795Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-21T01:02:51.526Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-21T01:02:54.926Z"
+    }
+  ],
   "presence": {
     "groups": [],
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
