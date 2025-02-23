@@ -1,8 +1,5 @@
 # getCurrentUser after two-factor authentication
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/platform_history``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -92,17 +89,17 @@ Response schema mismatch:
     {
       "isMobile": false,
       "platform": null,
-      "recorded": "2025-02-22T01:00:50.892Z"
-    },
-    {
-      "isMobile": false,
-      "platform": null,
-      "recorded": "2025-02-22T01:00:54.915Z"
-    },
-    {
-      "isMobile": false,
-      "platform": null,
       "recorded": "2025-02-23T01:07:12.041Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-23T01:07:17.024Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-23T20:08:59.629Z"
     }
   ],
   "presence": {

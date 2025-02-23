@@ -1,8 +1,5 @@
 # selectAvatar with id
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/platform_history``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/select`
 
@@ -76,17 +73,17 @@ Response schema mismatch:
     {
       "isMobile": false,
       "platform": null,
-      "recorded": "2025-02-22T01:00:54.915Z"
-    },
-    {
-      "isMobile": false,
-      "platform": null,
-      "recorded": "2025-02-23T01:07:12.041Z"
-    },
-    {
-      "isMobile": false,
-      "platform": null,
       "recorded": "2025-02-23T01:07:17.024Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-23T20:08:59.629Z"
+    },
+    {
+      "isMobile": false,
+      "platform": null,
+      "recorded": "2025-02-23T20:09:03.365Z"
     }
   ],
   "profilePicOverride": "",
