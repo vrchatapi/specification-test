@@ -78,8 +78,8 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/7/storeId``,
-* Unexpected property at ``#/9/storeId``.
+* Unexpected property at ``#/5/storeId``,
+* Unexpected property at ``#/8/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -379,7 +379,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 
-*1131 issues truncated.*
+*1124 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:

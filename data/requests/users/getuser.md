@@ -106,7 +106,7 @@
     "system_cute_robot",
     "system_supporter"
   ],
-  "userIcon": "https://api.vrchat.cloud/api/1/file/file_c0cdc832-861b-403a-804a-066c51baee7f/1/",
+  "userIcon": "",
   "worldId": "offline"
 }
 ```
