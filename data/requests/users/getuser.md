@@ -29,7 +29,7 @@
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "badges": [
     {
       "badgeDescription": "Awarded for gifting VRC+ (1 Month)",
@@ -58,6 +58,13 @@
       "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_c51b0dc0-56fb-4e20-bfd5-48db74e6a059.png",
       "badgeName": "Early Supporter",
       "showcased": true
+    },
+    {
+      "badgeDescription": "Awarded to those who completed all Initiate challenges on mobile",
+      "badgeId": "bdg_e389b2b4-d00f-4726-8d30-322ca7ae55ce",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/ce/bdgai_10bc3de7-12d9-4e51-bd20-77a792f8c109.png",
+      "badgeName": "Mobile Initiate",
+      "showcased": false
     }
   ],
   "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
@@ -79,7 +86,7 @@
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "standalonewindows",
+  "last_platform": "android",
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
