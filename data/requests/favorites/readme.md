@@ -17,10 +17,6 @@ You cannot add people whom you are not friends with to your friends list. Destro
 Remove a favorite from your favorites list.
 
 * [removeFavorite](./removefavorite.md)
-## Show Favorite
-Return information about a specific Favorite.
-
-* [getFavorite](./getfavorite.md)
 ## List Favorite Groups
 Return a list of favorite groups owned by a user. Returns the same information as `getFavoriteGroups`.
 
