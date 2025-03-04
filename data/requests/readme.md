@@ -75,25 +75,38 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
 Response schema mismatch:
-* Unexpected property at ``#/6/storeId``,
-* Unexpected property at ``#/9/storeId``.
-
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-
-#### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
-
-
-#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
-
+* Unexpected property at ``#/defaultContentSettings``.
 
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/defaultContentSettings``.
 
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
+#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/defaultContentSettings``.
+
+#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/defaultContentSettings``,
+* Unexpected property at ``#/1/defaultContentSettings``,
+* Unexpected property at ``#/2/defaultContentSettings``,
+
+*9 issues truncated.*
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/defaultContentSettings``,
+* Unexpected property at ``#/1/defaultContentSettings``,
+* Unexpected property at ``#/2/defaultContentSettings``,
+
+*7 issues truncated.*
+#### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
 #### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
@@ -108,6 +121,9 @@ Response schema mismatch:
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/world/defaultContentSettings``,
+* Unexpected property at ``#/contentSettings``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -395,7 +411,7 @@ Response schema mismatch:
 * Missing property at ``#/buildVersionTag``,
 * Missing property at ``#/deploymentGroup``,
 
-*23 issues truncated.*
+*27 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
