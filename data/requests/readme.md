@@ -122,8 +122,7 @@ Response schema mismatch:
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/world/defaultContentSettings``,
-* Unexpected property at ``#/contentSettings``.
+* Unexpected property at ``#/world/defaultContentSettings``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -408,7 +407,7 @@ Response schema mismatch:
 * Missing property at ``#/buildVersionTag``,
 * Missing property at ``#/deploymentGroup``,
 
-*24 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

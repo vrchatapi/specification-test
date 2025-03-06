@@ -15,20 +15,17 @@ Response schema mismatch:
 * Unexpected property at ``#/reportReasons/copyright``,
 * Unexpected property at ``#/reportReasons/fraud``,
 * Unexpected property at ``#/reportReasons/technical``,
-* Unexpected property at ``#/accountCycle``,
-* Unexpected property at ``#/biographyEthernetPointerRolloutFox``,
-* Unexpected property at ``#/cloneHeadRemote``,
-* Unexpected property at ``#/docsRestMultigrainActive``,
-* Unexpected property at ``#/expireMutexDucking``,
-* Unexpected property at ``#/farRequestHeightFormation``,
-* Unexpected property at ``#/markPocketSwarm``,
-* Unexpected property at ``#/pasteTaggingDestination``,
-* Unexpected property at ``#/previousVrchatKey``,
+* Unexpected property at ``#/behaviourHookIpv4Internal``,
+* Unexpected property at ``#/connectHistoryBlock``,
+* Unexpected property at ``#/docsMonitorTimezone``,
+* Unexpected property at ``#/graphqlDaemonTape``,
+* Unexpected property at ``#/iso8601RumorHeadpat``,
+* Unexpected property at ``#/listThunderLocation``,
+* Unexpected property at ``#/loaderBulkMacchiatoBehaviour``,
+* Unexpected property at ``#/maximumPageRankModerationWebsocket``,
+* Unexpected property at ``#/paginationSubscriberDisable``,
 * Unexpected property at ``#/publicKey``,
-* Unexpected property at ``#/rumorFirewall``,
-* Unexpected property at ``#/stringEventsColorStickerLocking``,
-* Unexpected property at ``#/taggingPlayerYamlWhois``,
-* Unexpected property at ``#/targetCache``.
+* Unexpected property at ``#/trendAssetHealth``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
