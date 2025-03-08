@@ -3,8 +3,11 @@
 ## Issues
 Response schema mismatch:
 * Invalid type at ``#/0/agreement``,
+* Invalid type at ``#/0/error``,
 * Invalid type at ``#/1/agreement``,
-* Invalid type at ``#/2/agreement``.
+* Invalid type at ``#/1/error``,
+* Invalid type at ``#/2/agreement``,
+* Invalid type at ``#/2/error``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/Steam/transactions`
 
@@ -62,7 +65,7 @@ Response schema mismatch:
     },
     "created_at": "2023-06-04T01:40:26.991Z",
     "updated_at": "2023-06-04T01:47:17.384Z",
-    "error": "",
+    "error": null,
     "isGift": false,
     "isTokens": false
   },
@@ -96,7 +99,7 @@ Response schema mismatch:
     },
     "created_at": "2023-06-04T01:47:17.993Z",
     "updated_at": "2023-06-04T02:27:00.537Z",
-    "error": "",
+    "error": null,
     "isGift": false,
     "isTokens": false
   },
@@ -130,7 +133,7 @@ Response schema mismatch:
     },
     "created_at": "2023-06-04T02:32:53.809Z",
     "updated_at": "2023-06-04T03:37:17.439Z",
-    "error": "",
+    "error": null,
     "isGift": false,
     "isTokens": false
   }

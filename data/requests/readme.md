@@ -182,15 +182,17 @@ Response schema mismatch:
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
-* Invalid type at ``#/agreement``.
+* Invalid type at ``#/agreement``,
+* Invalid type at ``#/error``.
 
 #### [getSteamTransactions](/data/requests/economy/getsteamtransactions.md)
 
 Response schema mismatch:
 * Invalid type at ``#/0/agreement``,
+* Invalid type at ``#/0/error``,
 * Invalid type at ``#/1/agreement``,
-* Invalid type at ``#/2/agreement``.
 
+*3 issues truncated.*
 #### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
 
 
