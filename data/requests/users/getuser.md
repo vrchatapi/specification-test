@@ -29,7 +29,7 @@
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "badges": [
     {
       "badgeDescription": "Awarded for gifting VRC+ (1 Month)",
