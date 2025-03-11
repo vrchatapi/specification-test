@@ -89,9 +89,9 @@
       "assetVersion": 1,
       "created_at": "2024-04-26T21:30:32.655Z",
       "id": "unp_290ee8b3-8aea-4135-97d8-327c061c11ed",
-      "performanceRating": "None",
+      "performanceRating": "VeryPoor",
       "platform": "ios",
-      "scanStatus": "failed",
+      "scanStatus": "passed",
       "unityVersion": "2019.4.31f1",
       "variant": "security"
     },

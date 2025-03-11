@@ -2,32 +2,30 @@
 
 ## Issues
 Response schema mismatch:
+* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
+* Invalid type at ``#/1/startDate``,
 * Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
 * Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
+* Invalid type at ``#/3/startDate``,
 * Invalid type at ``#/3/endDate``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
-* Invalid type at ``#/4/startDate``,
-* Invalid type at ``#/4/endDate``,
-* Unexpected property at ``#/4/regions``,
-* Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Invalid type at ``#/6/startDate``,
-* Invalid type at ``#/6/endDate``,
-* Unexpected property at ``#/6/regions``,
-* Unexpected property at ``#/6/requireClientTags``.
+* Invalid type at ``#/5/startDate``,
+* Invalid type at ``#/5/endDate``,
+* Unexpected property at ``#/5/regions``,
+* Unexpected property at ``#/5/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -55,32 +53,6 @@ Response schema mismatch:
 
 ```jsonc
 [
-  {
-    "createdAt": "2025-02-24T17:58:30.708Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b474a8e7-fedf-4d0a-9427-13c102622bf3.png",
-      "onPressed": {
-        "command": "OpenURL",
-        "parameters": [
-          "https://hello.vrchat.com/blog/space-jam-2025"
-        ]
-      }
-    },
-    "endDate": "2025-03-10T04:00:00.000Z",
-    "hash": "ips_c23ef652-e059-44ab-adf2-d5df8747e90b",
-    "id": "ips_c23ef652-e059-44ab-adf2-d5df8747e90b",
-    "isEnabled": true,
-    "priority": 335,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-02-24T19:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-02-24T19:18:32.927Z"
-  },
   {
     "createdAt": "2024-12-05T20:33:14.004Z",
     "data": {

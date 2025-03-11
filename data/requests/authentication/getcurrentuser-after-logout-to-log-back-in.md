@@ -88,23 +88,7 @@
   "onlineFriends": [],
   "pastDisplayNames": [],
   "picoId": "",
-  "platform_history": [
-    {
-      "isMobile": false,
-      "platform": null,
-      "recorded": "2025-03-09T00:56:47.718Z"
-    },
-    {
-      "isMobile": false,
-      "platform": null,
-      "recorded": "2025-03-10T00:55:27.110Z"
-    },
-    {
-      "isMobile": false,
-      "platform": null,
-      "recorded": "2025-03-10T00:55:30.511Z"
-    }
-  ],
+  "platform_history": [],
   "presence": {
     "groups": [],
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
