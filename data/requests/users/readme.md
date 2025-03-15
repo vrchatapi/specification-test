@@ -49,8 +49,28 @@ Updates the currently authenticated user's note on a user
 Get a particular user note
 
 * [getUserNote](./getusernote.md)
+## Add User Tags
+Adds tags to the user's profile
+
+> Missing coverage.
+## Remove User Tags
+Removes tags from the user's profile
+
+> Missing coverage.
+## Update User Badge
+Updates a user's badge
+
+> Missing coverage.
 ## Get User Group Instances
 Returns a list of group instances for a user
+
+> Missing coverage.
+## Check User Persistence Exists
+Checks whether the user has persistence data for a given world
+
+> Missing coverage.
+## Delete User Persistence
+Deletes the user's persistence data for a given world
 
 > Missing coverage.
 	

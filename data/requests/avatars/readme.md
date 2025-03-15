@@ -39,4 +39,20 @@ Switches into that avatar as your fallback avatar.
 Search and list favorited avatars by query filters.
 
 * [getFavoritedAvatars with zero parameters](./getfavoritedavatars-with-zero-parameters.md)
+## List Licensed Avatars
+List licensed avatars.
+
+> Missing coverage.
+## Enqueue Impostor generation
+Enqueue Impostor generation for that avatar.
+
+> Missing coverage.
+## Get Impostor Queue Stats
+Gets service stats for queued impostor.
+
+> Missing coverage.
+## Delete generated Impostor
+Delete generated Impostor for that avatar.
+
+> Missing coverage.
 	
