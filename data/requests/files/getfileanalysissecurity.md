@@ -79,8 +79,8 @@ Response schema mismatch:
     "trailRendererCount": 0,
     "writeDefaultsUsed": true
   },
-  "created_at": "2025-02-22T01:59:27.961Z",
-  "fileSize": 82155,
+  "created_at": "2025-03-15T02:02:08.794Z",
+  "fileSize": 82133,
   "performanceRating": "Excellent",
   "success": true,
   "uncompressedSize": 388972
