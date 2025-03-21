@@ -1813,10 +1813,6 @@ Response schema mismatch:
 * Unexpected property at ``#/38products/1/created``,
 * Unexpected property at ``#/38products/1/description``,
 * Unexpected property at ``#/38products/1/displayName``,
-* Unexpected property at ``#/38products/1/groupAccess``,
-* Unexpected property at ``#/38products/1/groupAccessRemove``,
-* Unexpected property at ``#/38products/1/groupId``,
-* Unexpected property at ``#/38products/1/groupRoleId``,
 * Unexpected property at ``#/38products/1/id``,
 * Unexpected property at ``#/38products/1/imageId``,
 * Unexpected property at ``#/38products/1/parentListings``,
@@ -1825,10 +1821,15 @@ Response schema mismatch:
 * Unexpected property at ``#/38products/1/sellerId``,
 * Unexpected property at ``#/38products/1/tags``,
 * Unexpected property at ``#/38products/1/updated``,
+* Unexpected property at ``#/38products/1/useForSubscriberList``,
 * Unexpected property at ``#/38products/2/archived``,
 * Unexpected property at ``#/38products/2/created``,
 * Unexpected property at ``#/38products/2/description``,
 * Unexpected property at ``#/38products/2/displayName``,
+* Unexpected property at ``#/38products/2/groupAccess``,
+* Unexpected property at ``#/38products/2/groupAccessRemove``,
+* Unexpected property at ``#/38products/2/groupId``,
+* Unexpected property at ``#/38products/2/groupRoleId``,
 * Unexpected property at ``#/38products/2/id``,
 * Unexpected property at ``#/38products/2/imageId``,
 * Unexpected property at ``#/38products/2/parentListings``,
@@ -1837,7 +1838,6 @@ Response schema mismatch:
 * Unexpected property at ``#/38products/2/sellerId``,
 * Unexpected property at ``#/38products/2/tags``,
 * Unexpected property at ``#/38products/2/updated``,
-* Unexpected property at ``#/38products/2/useForSubscriberList``,
 * Unexpected property at ``#/38products/3/archived``,
 * Unexpected property at ``#/38products/3/created``,
 * Unexpected property at ``#/38products/3/description``,
@@ -12534,6 +12534,26 @@ Response schema mismatch:
     "hydratedProducts": [
       {
         "archived": false,
+        "created": "2025-03-18T15:56:26.324Z",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "displayName": "Event Tip",
+        "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
+        "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "parentListings": [
+          "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
+          "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
+          "prod_424d1299-d87b-4cee-b93e-ecd7bc722e4c",
+          "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910"
+        ],
+        "productType": "udon",
+        "sellerDisplayName": "spookyghostboo",
+        "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
+        "tags": [],
+        "updated": "2025-03-18T15:56:26.324Z",
+        "useForSubscriberList": false
+      },
+      {
+        "archived": false,
         "created": "2024-03-25T17:24:07.854Z",
         "description": "All Decoration Options․",
         "displayName": "Decorations Complete",
@@ -12569,24 +12589,6 @@ Response schema mismatch:
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
         "updated": "2023-11-19T14:00:26.692Z"
-      },
-      {
-        "archived": false,
-        "created": "2023-11-10T18:58:38.965Z",
-        "description": "The Black Cat Floor is Lava Local Decorations․",
-        "displayName": "Floor is Lava Decorations",
-        "id": "prod_860beff0-1c18-4202-9cad-d5d0ac8ab395",
-        "imageId": "file_7f4ce69d-234b-4efe-9928-0adda1bd8bb3",
-        "parentListings": [
-          "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
-          "prod_6526d939-2c9e-4282-92f6-509bd714f73f"
-        ],
-        "productType": "udon",
-        "sellerDisplayName": "spookyghostboo",
-        "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
-        "tags": [],
-        "updated": "2023-11-20T20:33:24.475Z",
-        "useForSubscriberList": false
       },
       {
         "archived": false,
@@ -12823,11 +12825,31 @@ Response schema mismatch:
       "prod_aac28b54-75d8-4c30-a0a2-da3f5ede0baf",
       "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
       "prod_1dbb5caf-8ab4-4c78-afec-95ba50bca814",
-      "prod_860beff0-1c18-4202-9cad-d5d0ac8ab395",
-      "prod_950db306-aad8-4026-b5a3-2409d0aa21a9"
+      "prod_950db306-aad8-4026-b5a3-2409d0aa21a9",
+      "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1"
     ],
     "productType": "listing",
     "products": [
+      {
+        "archived": false,
+        "created": "2025-03-18T15:56:26.324Z",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "displayName": "Event Tip",
+        "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
+        "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "parentListings": [
+          "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
+          "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
+          "prod_424d1299-d87b-4cee-b93e-ecd7bc722e4c",
+          "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910"
+        ],
+        "productType": "udon",
+        "sellerDisplayName": "spookyghostboo",
+        "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
+        "tags": [],
+        "updated": "2025-03-18T15:56:26.324Z",
+        "useForSubscriberList": false
+      },
       {
         "archived": false,
         "created": "2024-03-25T17:24:07.854Z",
@@ -12865,24 +12887,6 @@ Response schema mismatch:
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
         "updated": "2023-11-19T14:00:26.692Z"
-      },
-      {
-        "archived": false,
-        "created": "2023-11-10T18:58:38.965Z",
-        "description": "The Black Cat Floor is Lava Local Decorations․",
-        "displayName": "Floor is Lava Decorations",
-        "id": "prod_860beff0-1c18-4202-9cad-d5d0ac8ab395",
-        "imageId": "file_7f4ce69d-234b-4efe-9928-0adda1bd8bb3",
-        "parentListings": [
-          "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
-          "prod_6526d939-2c9e-4282-92f6-509bd714f73f"
-        ],
-        "productType": "udon",
-        "sellerDisplayName": "spookyghostboo",
-        "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
-        "tags": [],
-        "updated": "2023-11-20T20:33:24.475Z",
-        "useForSubscriberList": false
       },
       {
         "archived": false,
@@ -13087,7 +13091,7 @@ Response schema mismatch:
       "esto_58413a17-1ea8-42cc-aca3-366acad5494d"
     ],
     "tags": [],
-    "updated": "2024-10-04T19:37:20.916Z"
+    "updated": "2025-03-20T21:25:07.466Z"
   },
   {
     "active": true,
