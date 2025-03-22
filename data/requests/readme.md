@@ -166,11 +166,11 @@ Response schema mismatch:
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
-* Invalid type at ``#/0listingVariants/0/unitPriceTokens``,
-* Invalid type at ``#/0listingVariants/1/unitPriceTokens``,
-* Invalid type at ``#/0listingVariants/2/unitPriceTokens``,
+* Missing property at ``#/0/groupIcon``,
+* Missing property at ``#/0/groupId``,
+* Missing property at ``#/0/groupName``,
 
-*2102 issues truncated.*
+*2240 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -410,7 +410,7 @@ Response schema mismatch:
 * Missing property at ``#/buildVersionTag``,
 * Missing property at ``#/deploymentGroup``,
 
-*29 issues truncated.*
+*27 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
