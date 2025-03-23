@@ -2277,7 +2277,7 @@ Response schema mismatch:
     "archived": false,
     "buyerRefundable": false,
     "created": "2025-03-18T15:59:28.525Z",
-    "description": "Thank you for tippingǃ 100％ will be split among the moderators․ You'll get a Disco Ball Flair‚ and Access to exclusive areas for this event․ Benefits lasts for 3 days․",
+    "description": "Thank you for tippingǃ 100％ will be split among the moderators․ You'll get a Disco Ball Flair․ Benefits lasts for 3 days․",
     "displayName": "EVENT TIP 1000ǃ",
     "duration": 3,
     "durationType": "days",
@@ -2285,7 +2285,7 @@ Response schema mismatch:
       {
         "archived": false,
         "created": "2025-03-18T15:56:26.324Z",
-        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive content during that eventǃ",
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
@@ -2299,7 +2299,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2025-03-18T15:56:26.324Z",
+        "updated": "2025-03-22T10:20:40.634Z",
         "useForSubscriberList": false
       },
       {
@@ -2399,7 +2399,7 @@ Response schema mismatch:
       {
         "archived": false,
         "created": "2025-03-18T15:56:26.324Z",
-        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive content during that eventǃ",
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
@@ -2413,7 +2413,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2025-03-18T15:56:26.324Z",
+        "updated": "2025-03-22T10:20:40.634Z",
         "useForSubscriberList": false
       },
       {
@@ -2505,14 +2505,14 @@ Response schema mismatch:
     "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
     "stackable": false,
     "storeIds": [],
-    "updated": "2025-03-21T22:59:33.218Z"
+    "updated": "2025-03-22T10:19:30.542Z"
   },
   {
     "active": true,
     "archived": false,
     "buyerRefundable": false,
     "created": "2025-03-18T15:58:16.659Z",
-    "description": "Thank you for tippingǃ 100％ will be split among the moderators․ You'll get a Disco Ball Flair‚ and Access to exclusive areas for this event․ Benefits lasts for 3 days․",
+    "description": "Thank you for tippingǃ 100％ will be split among the moderators․ You'll get a Disco Ball Flair․ Benefits lasts for 3 days․",
     "displayName": "EVENT TIP 500ǃ",
     "duration": 3,
     "durationType": "days",
@@ -2520,7 +2520,7 @@ Response schema mismatch:
       {
         "archived": false,
         "created": "2025-03-18T15:56:26.324Z",
-        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive content during that eventǃ",
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
@@ -2534,7 +2534,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2025-03-18T15:56:26.324Z",
+        "updated": "2025-03-22T10:20:40.634Z",
         "useForSubscriberList": false
       },
       {
@@ -2634,7 +2634,7 @@ Response schema mismatch:
       {
         "archived": false,
         "created": "2025-03-18T15:56:26.324Z",
-        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive content during that eventǃ",
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
@@ -2648,7 +2648,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2025-03-18T15:56:26.324Z",
+        "updated": "2025-03-22T10:20:40.634Z",
         "useForSubscriberList": false
       },
       {
@@ -2740,14 +2740,14 @@ Response schema mismatch:
     "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
     "stackable": false,
     "storeIds": [],
-    "updated": "2025-03-21T22:59:37.283Z"
+    "updated": "2025-03-22T10:19:56.736Z"
   },
   {
     "active": true,
     "archived": false,
     "buyerRefundable": false,
     "created": "2025-03-18T15:55:04.872Z",
-    "description": "Thank you for tippingǃ 100％ will be split among the moderators․ You'll get a Disco Ball Flair‚ and Access to exclusive areas for this event․ Benefits lasts for 3 days․",
+    "description": "Thank you for tippingǃ 100％ will be split among the moderators․ You'll get a Disco Ball Flair․ Benefits lasts for 3 days․",
     "displayName": "EVENT TIP 100ǃ",
     "duration": 3,
     "durationType": "days",
@@ -2755,7 +2755,7 @@ Response schema mismatch:
       {
         "archived": false,
         "created": "2025-03-18T15:56:26.324Z",
-        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive content during that eventǃ",
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
@@ -2769,7 +2769,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2025-03-18T15:56:26.324Z",
+        "updated": "2025-03-22T10:20:40.634Z",
         "useForSubscriberList": false
       },
       {
@@ -2869,7 +2869,7 @@ Response schema mismatch:
       {
         "archived": false,
         "created": "2025-03-18T15:56:26.324Z",
-        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive content during that eventǃ",
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
@@ -2883,7 +2883,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2025-03-18T15:56:26.324Z",
+        "updated": "2025-03-22T10:20:40.634Z",
         "useForSubscriberList": false
       },
       {
@@ -2975,7 +2975,7 @@ Response schema mismatch:
     "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
     "stackable": false,
     "storeIds": [],
-    "updated": "2025-03-21T22:59:57.912Z"
+    "updated": "2025-03-22T10:20:13.647Z"
   },
   {
     "active": true,
@@ -13378,7 +13378,7 @@ Response schema mismatch:
       {
         "archived": false,
         "created": "2025-03-18T15:56:26.324Z",
-        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive content during that eventǃ",
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
@@ -13392,7 +13392,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2025-03-18T15:56:26.324Z",
+        "updated": "2025-03-22T10:20:40.634Z",
         "useForSubscriberList": false
       },
       {
@@ -13676,7 +13676,7 @@ Response schema mismatch:
       {
         "archived": false,
         "created": "2025-03-18T15:56:26.324Z",
-        "description": "You tipped a Black Cat Event․ This will give you access to exclusive areas during that eventǃ",
+        "description": "You tipped a Black Cat Event․ This will give you access to exclusive content during that eventǃ",
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
@@ -13690,7 +13690,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2025-03-18T15:56:26.324Z",
+        "updated": "2025-03-22T10:20:40.634Z",
         "useForSubscriberList": false
       },
       {

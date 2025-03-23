@@ -45,6 +45,16 @@
       "hidden": false,
       "showcased": true,
       "updatedAt": "2024-07-21T22:28:04.790Z"
+    },
+    {
+      "assignedAt": "2025-03-22T20:22:36.532Z",
+      "badgeDescription": "Awarded for subscribing to VRC+ (6 Months)",
+      "badgeId": "bdg_db6d5d75-ab64-4740-989d-b832c836802f",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/2f/bdgai_d827250f-9cba-472b-92af-b8cbb816ed2c.png",
+      "badgeName": "VRC+ Subscriber (6 Months)",
+      "hidden": false,
+      "showcased": true,
+      "updatedAt": "2025-03-22T20:22:36.532Z"
     }
   ],
   "bio": "",
