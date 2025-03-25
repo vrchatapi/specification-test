@@ -394,7 +394,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 
-*1105 issues truncated.*
+*1109 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -410,7 +410,7 @@ Response schema mismatch:
 * Missing property at ``#/buildVersionTag``,
 * Missing property at ``#/deploymentGroup``,
 
-*31 issues truncated.*
+*32 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
