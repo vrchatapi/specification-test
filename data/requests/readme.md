@@ -390,19 +390,19 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/endDate``,
-* Unexpected property at ``#/0/regions``,
+* Unexpected property at ``#/0data/contentList/bannersTag``,
+* Unexpected property at ``#/0data/contentList/shortName``,
+* Unexpected property at ``#/0data/iconImageUrl``,
 
-*1109 issues truncated.*
+*1171 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
-* Unexpected property at ``#/0/regions``,
 
-*21 issues truncated.*
+*35 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -410,7 +410,7 @@ Response schema mismatch:
 * Missing property at ``#/buildVersionTag``,
 * Missing property at ``#/deploymentGroup``,
 
-*30 issues truncated.*
+*29 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
