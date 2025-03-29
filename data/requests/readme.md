@@ -249,16 +249,19 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
+* Unexpected property at ``#/encryptionKey``,
 * Unexpected property at ``#/performanceRating``.
 
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
+* Unexpected property at ``#/encryptionKey``,
 * Unexpected property at ``#/performanceRating``.
 
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
+* Unexpected property at ``#/encryptionKey``,
 * Unexpected property at ``#/performanceRating``.
 
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
@@ -410,7 +413,7 @@ Response schema mismatch:
 * Missing property at ``#/buildVersionTag``,
 * Missing property at ``#/deploymentGroup``,
 
-*31 issues truncated.*
+*30 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

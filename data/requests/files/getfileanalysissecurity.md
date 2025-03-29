@@ -2,6 +2,7 @@
 
 ## Issues
 Response schema mismatch:
+* Unexpected property at ``#/encryptionKey``,
 * Unexpected property at ``#/performanceRating``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/analysis/file_989feccd-3e6d-41f6-bf87-a8b3ece88438/1/security`
@@ -80,6 +81,7 @@ Response schema mismatch:
     "writeDefaultsUsed": true
   },
   "created_at": "2025-03-15T02:02:08.794Z",
+  "encryptionKey": "0eN0xwr1FKEPKDDKL1E4e3JOlH4VLcoE7lnsuShVG/g=",
   "fileSize": 82133,
   "performanceRating": "Excellent",
   "success": true,
