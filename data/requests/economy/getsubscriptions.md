@@ -54,6 +54,7 @@
   {
     "id": "vrchatplus-open-beta",
     "steamItemId": "1234",
+    "oculusSku": "vrchat-plus-oculus-monthly",
     "amount": 999,
     "description": "VRChat Plus (Open Beta)",
     "period": "month",

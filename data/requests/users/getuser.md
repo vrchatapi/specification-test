@@ -55,8 +55,15 @@
     {
       "badgeDescription": "Supported VRChat through VRC+ when it first launched",
       "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_c51b0dc0-56fb-4e20-bfd5-48db74e6a059.png",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_ef89bf15-e836-4c70-ad0d-b16378df973c.png",
       "badgeName": "Early Supporter",
+      "showcased": true
+    },
+    {
+      "badgeDescription": "Awarded to those who completed all Hero challenges on mobile",
+      "badgeId": "bdg_ffd998b1-c454-4a90-a14b-5d19ccd04513",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/13/bdgai_a41c63c9-eb0b-42d6-8aaf-15fcb0da3714.png",
+      "badgeName": "Mobile Hero",
       "showcased": false
     }
   ],
