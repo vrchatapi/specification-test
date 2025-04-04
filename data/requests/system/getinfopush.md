@@ -68,25 +68,25 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-03-17T18:05:47.771Z",
+    "createdAt": "2025-03-17T18:03:40.088Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_513d503d-ba13-413c-aeb0-e364dbe9011f.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b36925e3-eed4-40fd-b65d-2bd87a98a6f1.png",
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
-          "ips_321fcc84-f8a5-49f7-bf47-685c10dc177b"
+          "ips_98ae784a-a28d-4124-b694-5286465148ba"
         ]
       }
     },
     "endDate": null,
     "experiment": {
-      "key": "2025-1-3-ips-test-vr",
-      "variant": "drone"
+      "key": "",
+      "variant": ""
     },
-    "hash": "ips_ae862e17-8024-413d-811f-4ab5a0e14622",
-    "id": "ips_ae862e17-8024-413d-811f-4ab5a0e14622",
+    "hash": "ips_1e730748-06ba-4446-aea9-753b44b9fe0c",
+    "id": "ips_1e730748-06ba-4446-aea9-753b44b9fe0c",
     "isEnabled": true,
-    "priority": 650,
+    "priority": 698,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -95,7 +95,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-03-25T21:48:57.329Z"
+    "updatedAt": "2025-04-03T17:46:33.690Z"
   },
   {
     "createdAt": "2025-03-17T18:06:31.696Z",
@@ -110,11 +110,11 @@ Response schema mismatch:
     },
     "endDate": null,
     "experiment": {
-      "key": "2025-1-3-ips-test-vr",
-      "variant": "drone"
+      "key": "",
+      "variant": ""
     },
-    "hash": "ips_ae861b81-14d0-4a7c-96ba-ea8c6e82285f",
-    "id": "ips_ae861b81-14d0-4a7c-96ba-ea8c6e82285f",
+    "hash": "ips_e95d1b81-14d0-4a7c-96ba-ea8c6e82285f",
+    "id": "ips_e95d1b81-14d0-4a7c-96ba-ea8c6e82285f",
     "isEnabled": true,
     "priority": 700,
     "regions": [],
@@ -125,28 +125,28 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-03-25T21:49:35.978Z"
+    "updatedAt": "2025-04-03T17:47:10.235Z"
   },
   {
-    "createdAt": "2025-03-17T18:10:36.726Z",
+    "createdAt": "2025-03-17T18:08:43.645Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_7ac81f3e-377f-4747-90a9-34b6038777f7.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_aee35d6b-d6cf-4617-b59d-81a86c9e8227.png",
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
-          "ips_98ae784a-a28d-4124-b694-5286465148ba"
+          "ips_321fcc84-f8a5-49f7-bf47-685c10dc177b"
         ]
       }
     },
     "endDate": null,
     "experiment": {
-      "key": "2025-1-3-ips-test-vr",
-      "variant": "drone"
+      "key": "",
+      "variant": ""
     },
-    "hash": "ips_ae864228-14f7-43c6-ba9d-ebc53138b521",
-    "id": "ips_ae864228-14f7-43c6-ba9d-ebc53138b521",
+    "hash": "ips_5bf741f9-86ae-4d16-b958-ff8c17a5f3dc",
+    "id": "ips_5bf741f9-86ae-4d16-b958-ff8c17a5f3dc",
     "isEnabled": true,
-    "priority": 803,
+    "priority": 750,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -155,7 +155,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-03-26T19:23:19.155Z"
+    "updatedAt": "2025-04-03T17:47:29.432Z"
   },
   {
     "createdAt": "2025-01-27T21:09:40.711Z",
