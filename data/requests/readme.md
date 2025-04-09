@@ -163,6 +163,11 @@ Response schema mismatch:
 
 ## [Economy](/data/requests/economy)
 
+#### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/economyState``.
+
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
@@ -203,9 +208,6 @@ Response schema mismatch:
 
 
 #### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
-
-
-#### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 
 #### [getTiliaTos](/data/requests/economy/gettiliatos.md)
@@ -413,7 +415,7 @@ Response schema mismatch:
 * Missing property at ``#/buildVersionTag``,
 * Missing property at ``#/deploymentGroup``,
 
-*32 issues truncated.*
+*28 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

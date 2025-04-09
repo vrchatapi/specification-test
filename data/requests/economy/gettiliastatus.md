@@ -1,5 +1,8 @@
 # getTiliaStatus
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/economyState``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/tilia/status`
 
@@ -18,7 +21,7 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `22` |
+| content-length | `39` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
@@ -28,6 +31,7 @@
 
 ```jsonc
 {
-  "economyOnline": true
+  "economyOnline": true,
+  "economyState": 1
 }
 ```
