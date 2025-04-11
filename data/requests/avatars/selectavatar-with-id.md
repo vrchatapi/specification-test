@@ -69,7 +69,7 @@
   "oculusId": "",
   "pastDisplayNames": [],
   "picoId": "",
-  "platform_history": [],
+  "platform_history": "<unstable: empty array>",
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",
