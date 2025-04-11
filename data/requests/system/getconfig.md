@@ -16,6 +16,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportReasons/fraud``,
 * Unexpected property at ``#/reportReasons/technical``,
 * Unexpected property at ``#/animationDeployUp``,
+* Unexpected property at ``#/applicationEmbed``,
 * Unexpected property at ``#/churnListenerCheckOffline``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
@@ -26,6 +27,7 @@ Response schema mismatch:
 * Unexpected property at ``#/globalCacheVersionDefault``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
+* Unexpected property at ``#/mainTimezoneTcpDeploy``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/ninkilim``,
@@ -37,6 +39,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reliableAppendHistoryContainerPublic``,
 * Unexpected property at ``#/routingDisable``,
 * Unexpected property at ``#/shellPerformanceAssetIpv6Xml``,
+* Unexpected property at ``#/sortObject``,
 * Unexpected property at ``#/use_void_requiem_core``,
 * Unexpected property at ``#/whereLoaderNews``,
 * Unexpected property at ``#/worldDocumentationReasonContent``.

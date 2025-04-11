@@ -415,7 +415,7 @@ Response schema mismatch:
 * Missing property at ``#/buildVersionTag``,
 * Missing property at ``#/deploymentGroup``,
 
-*35 issues truncated.*
+*38 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
