@@ -2,8 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/encryptionKey``,
-* Unexpected property at ``#/performanceRating``.
+* Unexpected property at ``#/encryptionKey``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/analysis/file_989feccd-3e6d-41f6-bf87-a8b3ece88438/1/standard`
 

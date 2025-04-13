@@ -64,7 +64,8 @@ Response schema mismatch:
     "system_approved",
     "system_monetized_world",
     "admin_filter_UrlLauncher",
-    "admin_vrrat_community_takeover"
+    "admin_vrrat_community_takeover",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: array of strings>",

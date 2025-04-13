@@ -97,7 +97,7 @@ Response schema mismatch:
 * Unexpected property at ``#/1/defaultContentSettings``,
 * Unexpected property at ``#/2/defaultContentSettings``,
 
-*8 issues truncated.*
+*9 issues truncated.*
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 Response schema mismatch:
@@ -175,7 +175,7 @@ Response schema mismatch:
 * Missing property at ``#/0/groupId``,
 * Missing property at ``#/0/groupName``,
 
-*2240 issues truncated.*
+*2308 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -251,20 +251,17 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/encryptionKey``,
-* Unexpected property at ``#/performanceRating``.
+* Unexpected property at ``#/encryptionKey``.
 
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/encryptionKey``,
-* Unexpected property at ``#/performanceRating``.
+* Unexpected property at ``#/encryptionKey``.
 
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/encryptionKey``,
-* Unexpected property at ``#/performanceRating``.
+* Unexpected property at ``#/encryptionKey``.
 
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
@@ -399,23 +396,23 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/shortName``,
 * Unexpected property at ``#/0data/iconImageUrl``,
 
-*1180 issues truncated.*
+*1207 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
+* Unexpected property at ``#/0/regions``,
+* Unexpected property at ``#/0/requireClientTags``,
 
-*35 issues truncated.*
+*38 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Missing property at ``#/appName``,
-* Missing property at ``#/buildVersionTag``,
-* Missing property at ``#/deploymentGroup``,
+* Unexpected property at ``#/activeDaemonUnlisted``,
+* Unexpected property at ``#/bracketGenerateGenerate``,
+* Unexpected property at ``#/churnImpostorStartRotationInterface``,
 
-*32 issues truncated.*
+*20 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
