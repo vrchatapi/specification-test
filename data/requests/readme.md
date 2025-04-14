@@ -408,11 +408,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/activeDaemonUnlisted``,
-* Unexpected property at ``#/bracketGenerateGenerate``,
-* Unexpected property at ``#/churnImpostorStartRotationInterface``,
+* Unexpected property at ``#/ImpostorGitEvents``,
+* Unexpected property at ``#/coexistenceProxyBookmarkOrchestrationNightly``,
+* Unexpected property at ``#/compilePluginPassportEac``,
 
-*20 issues truncated.*
+*23 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

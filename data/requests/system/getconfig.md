@@ -2,29 +2,32 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/activeDaemonUnlisted``,
-* Unexpected property at ``#/bracketGenerateGenerate``,
-* Unexpected property at ``#/churnImpostorStartRotationInterface``,
+* Unexpected property at ``#/ImpostorGitEvents``,
+* Unexpected property at ``#/coexistenceProxyBookmarkOrchestrationNightly``,
+* Unexpected property at ``#/compilePluginPassportEac``,
+* Unexpected property at ``#/dataItineraryNotifyTimer``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
-* Unexpected property at ``#/entryMacchiatoHistoryLogging``,
+* Unexpected property at ``#/embedPrototypeCommitNuisanceHook``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
-* Unexpected property at ``#/headerTargetLatte``,
-* Unexpected property at ``#/heightRealEspresso``,
-* Unexpected property at ``#/identityDeviceTargetVideo``,
+* Unexpected property at ``#/instructionBoneLoaderCoefficient``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
-* Unexpected property at ``#/joinBodyNextToken``,
+* Unexpected property at ``#/loggingBranchLine``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
-* Unexpected property at ``#/mergeCoefficientObjectBuildLatte``,
+* Unexpected property at ``#/nameArrayHandler``,
+* Unexpected property at ``#/nightlyInterfaceAsset``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/playerEacRate``,
-* Unexpected property at ``#/proxySignRoomDown``,
+* Unexpected property at ``#/partitionFavoriteSecurityDownTotal``,
+* Unexpected property at ``#/pipelineBarrierHomeShell``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/upReturnApplication``,
-* Unexpected property at ``#/use_void_requiem_core``.
+* Unexpected property at ``#/returnDisplay``,
+* Unexpected property at ``#/rolloverBehaviourLimiterDownResort``,
+* Unexpected property at ``#/totalDockerWeightBarrier``,
+* Unexpected property at ``#/use_void_requiem_core``,
+* Unexpected property at ``#/weightItineraryKernel``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
