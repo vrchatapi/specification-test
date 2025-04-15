@@ -396,7 +396,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/shortName``,
 * Unexpected property at ``#/0data/iconImageUrl``,
 
-*1207 issues truncated.*
+*1199 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -408,11 +408,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/ImpostorGitEvents``,
-* Unexpected property at ``#/coexistenceProxyBookmarkOrchestrationNightly``,
-* Unexpected property at ``#/compilePluginPassportEac``,
+* Unexpected property at ``#/StatusDestinationNotificationUpload``,
+* Unexpected property at ``#/activityDashboardName``,
+* Unexpected property at ``#/avatarDownloadQuorum``,
 
-*23 issues truncated.*
+*22 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
