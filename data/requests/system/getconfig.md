@@ -2,31 +2,30 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/StatusDestinationNotificationUpload``,
-* Unexpected property at ``#/activityDashboardName``,
-* Unexpected property at ``#/avatarDownloadQuorum``,
-* Unexpected property at ``#/birdExecutePullManagerRtt``,
-* Unexpected property at ``#/birdInstruction``,
-* Unexpected property at ``#/clipGraphRedoDebounceTutorial``,
-* Unexpected property at ``#/cycleLicenseSignature``,
+* Unexpected property at ``#/InternalInstanceJoinHistory``,
+* Unexpected property at ``#/detectionThroughputReplica``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
-* Unexpected property at ``#/endpointXmlTimeout``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
-* Unexpected property at ``#/heightBaristaKeyboardCommunity``,
+* Unexpected property at ``#/headAnalyticsGroupAvatarInternal``,
+* Unexpected property at ``#/healthConfigurationRestSet``,
+* Unexpected property at ``#/instructionBufferMinimumDistance``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
+* Unexpected property at ``#/ipv4BiographyLayout``,
+* Unexpected property at ``#/jsonJoinJwt``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
+* Unexpected property at ``#/moderationDatagramQueueCrustNightly``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/periodSendTimestampNextGenerator``,
-* Unexpected property at ``#/privateAlignmentGiftDuty``,
-* Unexpected property at ``#/publishTypeSegfaultDashboard``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/trustedIpv4AttributeLabelTransmittion``,
-* Unexpected property at ``#/use_void_requiem_core``,
-* Unexpected property at ``#/violationRegressionWrite``.
+* Unexpected property at ``#/redoCycle``,
+* Unexpected property at ``#/replicationGift``,
+* Unexpected property at ``#/stackDisconnect``,
+* Unexpected property at ``#/trackingCoexistenceRye``,
+* Unexpected property at ``#/ttlVerification``,
+* Unexpected property at ``#/use_void_requiem_core``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

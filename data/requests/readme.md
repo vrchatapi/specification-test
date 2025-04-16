@@ -408,11 +408,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/StatusDestinationNotificationUpload``,
-* Unexpected property at ``#/activityDashboardName``,
-* Unexpected property at ``#/avatarDownloadQuorum``,
+* Unexpected property at ``#/InternalInstanceJoinHistory``,
+* Unexpected property at ``#/detectionThroughputReplica``,
+* Unexpected property at ``#/economyLedgerBackfill``,
 
-*22 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

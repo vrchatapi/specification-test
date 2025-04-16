@@ -46,6 +46,13 @@
       "showcased": true
     },
     {
+      "badgeDescription": "Awarded for subscribing to VRC+ (4 Years)",
+      "badgeId": "bdg_13c0e040-e6e6-4b7a-8187-93872fe81d89",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/89/bdgai_0c7585f3-cb4b-40a4-ad7c-cb6da4d50ea6.png",
+      "badgeName": "VRC+ Subscriber (4 Years)",
+      "showcased": true
+    },
+    {
       "badgeDescription": "Supports VRChat through VRC+",
       "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
       "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_8c9cf371-ffd2-4177-9894-1093e2e34bf7.png",
@@ -92,7 +99,7 @@
   "platform": "offline",
   "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
   "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/512",
-  "pronouns": "",
+  "pronouns": "he/him",
   "state": "offline",
   "status": "ask me",
   "statusDescription": "hewwo․",
