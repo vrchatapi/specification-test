@@ -36,6 +36,8 @@ Response schema mismatch:
 * Unexpected property at ``#/0products/1/tags``,
 * Unexpected property at ``#/0products/1/updated``,
 * Unexpected property at ``#/0products/1/useForSubscriberList``,
+* Unexpected property at ``#/0/hasAvatar``,
+* Unexpected property at ``#/0/hasUdon``,
 * Missing property at ``#/1/groupIcon``,
 * Missing property at ``#/1/groupId``,
 * Missing property at ``#/1/groupName``,
@@ -70,6 +72,8 @@ Response schema mismatch:
 * Unexpected property at ``#/1products/1/tags``,
 * Unexpected property at ``#/1products/1/updated``,
 * Unexpected property at ``#/1products/1/useForSubscriberList``,
+* Unexpected property at ``#/1/hasAvatar``,
+* Unexpected property at ``#/1/hasUdon``,
 * Missing property at ``#/2/groupIcon``,
 * Missing property at ``#/2/groupId``,
 * Missing property at ``#/2/groupName``,
@@ -116,6 +120,8 @@ Response schema mismatch:
 * Unexpected property at ``#/2products/2/tags``,
 * Unexpected property at ``#/2products/2/updated``,
 * Unexpected property at ``#/2products/2/useForSubscriberList``,
+* Unexpected property at ``#/2/hasAvatar``,
+* Unexpected property at ``#/2/hasUdon``,
 * Missing property at ``#/3/groupIcon``,
 * Missing property at ``#/3/groupId``,
 * Missing property at ``#/3/groupName``,
@@ -162,6 +168,8 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/2/tags``,
 * Unexpected property at ``#/3products/2/updated``,
 * Unexpected property at ``#/3products/2/useForSubscriberList``,
+* Unexpected property at ``#/3/hasAvatar``,
+* Unexpected property at ``#/3/hasUdon``,
 * Missing property at ``#/4/groupIcon``,
 * Missing property at ``#/4/groupId``,
 * Missing property at ``#/4/groupName``,
@@ -208,6 +216,8 @@ Response schema mismatch:
 * Unexpected property at ``#/4products/2/tags``,
 * Unexpected property at ``#/4products/2/updated``,
 * Unexpected property at ``#/4products/2/useForSubscriberList``,
+* Unexpected property at ``#/4/hasAvatar``,
+* Unexpected property at ``#/4/hasUdon``,
 * Invalid type at ``#/5listingVariants/0/unitPriceTokens``,
 * Invalid type at ``#/5listingVariants/1/unitPriceTokens``,
 * Invalid type at ``#/5listingVariants/2/unitPriceTokens``,
@@ -253,6 +263,8 @@ Response schema mismatch:
 * Unexpected property at ``#/5products/2/tags``,
 * Unexpected property at ``#/5products/2/updated``,
 * Unexpected property at ``#/5products/2/useForSubscriberList``,
+* Unexpected property at ``#/5/hasAvatar``,
+* Unexpected property at ``#/5/hasUdon``,
 * Missing property at ``#/6/groupIcon``,
 * Missing property at ``#/6/groupId``,
 * Missing property at ``#/6/groupName``,
@@ -287,6 +299,8 @@ Response schema mismatch:
 * Unexpected property at ``#/6products/1/tags``,
 * Unexpected property at ``#/6products/1/updated``,
 * Unexpected property at ``#/6products/1/useForSubscriberList``,
+* Unexpected property at ``#/6/hasAvatar``,
+* Unexpected property at ``#/6/hasUdon``,
 * Unexpected property at ``#/7products/0/archived``,
 * Unexpected property at ``#/7products/0/created``,
 * Unexpected property at ``#/7products/0/description``,
@@ -329,6 +343,8 @@ Response schema mismatch:
 * Unexpected property at ``#/7products/2/tags``,
 * Unexpected property at ``#/7products/2/updated``,
 * Unexpected property at ``#/7products/2/useForSubscriberList``,
+* Unexpected property at ``#/7/hasAvatar``,
+* Unexpected property at ``#/7/hasUdon``,
 * Invalid type at ``#/8listingVariants/0/unitPriceTokens``,
 * Invalid type at ``#/8listingVariants/1/unitPriceTokens``,
 * Invalid type at ``#/8listingVariants/2/unitPriceTokens``,
@@ -374,6 +390,8 @@ Response schema mismatch:
 * Unexpected property at ``#/8products/2/tags``,
 * Unexpected property at ``#/8products/2/updated``,
 * Unexpected property at ``#/8products/2/useForSubscriberList``,
+* Unexpected property at ``#/8/hasAvatar``,
+* Unexpected property at ``#/8/hasUdon``,
 * Missing property at ``#/9/groupIcon``,
 * Missing property at ``#/9/groupId``,
 * Missing property at ``#/9/groupName``,
@@ -408,6 +426,8 @@ Response schema mismatch:
 * Unexpected property at ``#/9products/1/tags``,
 * Unexpected property at ``#/9products/1/updated``,
 * Unexpected property at ``#/9products/1/useForSubscriberList``,
+* Unexpected property at ``#/9/hasAvatar``,
+* Unexpected property at ``#/9/hasUdon``,
 * Unexpected property at ``#/10products/0/archived``,
 * Unexpected property at ``#/10products/0/created``,
 * Unexpected property at ``#/10products/0/description``,
@@ -450,6 +470,8 @@ Response schema mismatch:
 * Unexpected property at ``#/10products/2/tags``,
 * Unexpected property at ``#/10products/2/updated``,
 * Unexpected property at ``#/10products/2/useForSubscriberList``,
+* Unexpected property at ``#/10/hasAvatar``,
+* Unexpected property at ``#/10/hasUdon``,
 * Unexpected property at ``#/11products/0/archived``,
 * Unexpected property at ``#/11products/0/created``,
 * Unexpected property at ``#/11products/0/description``,
@@ -492,6 +514,8 @@ Response schema mismatch:
 * Unexpected property at ``#/11products/2/tags``,
 * Unexpected property at ``#/11products/2/updated``,
 * Unexpected property at ``#/11products/2/useForSubscriberList``,
+* Unexpected property at ``#/11/hasAvatar``,
+* Unexpected property at ``#/11/hasUdon``,
 * Unexpected property at ``#/12products/0/archived``,
 * Unexpected property at ``#/12products/0/created``,
 * Unexpected property at ``#/12products/0/description``,
@@ -625,6 +649,8 @@ Response schema mismatch:
 * Unexpected property at ``#/12products/9/tags``,
 * Unexpected property at ``#/12products/9/updated``,
 * Unexpected property at ``#/12products/9/useForSubscriberList``,
+* Unexpected property at ``#/12/hasAvatar``,
+* Unexpected property at ``#/12/hasUdon``,
 * Unexpected property at ``#/13products/0/archived``,
 * Unexpected property at ``#/13products/0/created``,
 * Unexpected property at ``#/13products/0/description``,
@@ -732,6 +758,8 @@ Response schema mismatch:
 * Unexpected property at ``#/13products/7/tags``,
 * Unexpected property at ``#/13products/7/updated``,
 * Unexpected property at ``#/13products/7/useForSubscriberList``,
+* Unexpected property at ``#/13/hasAvatar``,
+* Unexpected property at ``#/13/hasUdon``,
 * Unexpected property at ``#/14products/0/archived``,
 * Unexpected property at ``#/14products/0/created``,
 * Unexpected property at ``#/14products/0/description``,
@@ -787,6 +815,8 @@ Response schema mismatch:
 * Unexpected property at ``#/14products/3/tags``,
 * Unexpected property at ``#/14products/3/updated``,
 * Unexpected property at ``#/14products/3/useForSubscriberList``,
+* Unexpected property at ``#/14/hasAvatar``,
+* Unexpected property at ``#/14/hasUdon``,
 * Unexpected property at ``#/15products/0/archived``,
 * Unexpected property at ``#/15products/0/created``,
 * Unexpected property at ``#/15products/0/description``,
@@ -855,6 +885,8 @@ Response schema mismatch:
 * Unexpected property at ``#/15products/4/tags``,
 * Unexpected property at ``#/15products/4/updated``,
 * Unexpected property at ``#/15products/4/useForSubscriberList``,
+* Unexpected property at ``#/15/hasAvatar``,
+* Unexpected property at ``#/15/hasUdon``,
 * Unexpected property at ``#/16products/0/archived``,
 * Unexpected property at ``#/16products/0/created``,
 * Unexpected property at ``#/16products/0/description``,
@@ -910,6 +942,8 @@ Response schema mismatch:
 * Unexpected property at ``#/16products/3/tags``,
 * Unexpected property at ``#/16products/3/updated``,
 * Unexpected property at ``#/16products/3/useForSubscriberList``,
+* Unexpected property at ``#/16/hasAvatar``,
+* Unexpected property at ``#/16/hasUdon``,
 * Unexpected property at ``#/17products/0/archived``,
 * Unexpected property at ``#/17products/0/created``,
 * Unexpected property at ``#/17products/0/description``,
@@ -952,6 +986,8 @@ Response schema mismatch:
 * Unexpected property at ``#/17products/2/tags``,
 * Unexpected property at ``#/17products/2/updated``,
 * Unexpected property at ``#/17products/2/useForSubscriberList``,
+* Unexpected property at ``#/17/hasAvatar``,
+* Unexpected property at ``#/17/hasUdon``,
 * Unexpected property at ``#/18products/0/archived``,
 * Unexpected property at ``#/18products/0/created``,
 * Unexpected property at ``#/18products/0/description``,
@@ -994,6 +1030,8 @@ Response schema mismatch:
 * Unexpected property at ``#/18products/2/tags``,
 * Unexpected property at ``#/18products/2/updated``,
 * Unexpected property at ``#/18products/2/useForSubscriberList``,
+* Unexpected property at ``#/18/hasAvatar``,
+* Unexpected property at ``#/18/hasUdon``,
 * Unexpected property at ``#/19products/0/archived``,
 * Unexpected property at ``#/19products/0/created``,
 * Unexpected property at ``#/19products/0/description``,
@@ -1036,6 +1074,8 @@ Response schema mismatch:
 * Unexpected property at ``#/19products/2/tags``,
 * Unexpected property at ``#/19products/2/updated``,
 * Unexpected property at ``#/19products/2/useForSubscriberList``,
+* Unexpected property at ``#/19/hasAvatar``,
+* Unexpected property at ``#/19/hasUdon``,
 * Unexpected property at ``#/20products/0/archived``,
 * Unexpected property at ``#/20products/0/created``,
 * Unexpected property at ``#/20products/0/description``,
@@ -1078,6 +1118,8 @@ Response schema mismatch:
 * Unexpected property at ``#/20products/2/tags``,
 * Unexpected property at ``#/20products/2/updated``,
 * Unexpected property at ``#/20products/2/useForSubscriberList``,
+* Unexpected property at ``#/20/hasAvatar``,
+* Unexpected property at ``#/20/hasUdon``,
 * Unexpected property at ``#/21products/0/archived``,
 * Unexpected property at ``#/21products/0/created``,
 * Unexpected property at ``#/21products/0/description``,
@@ -1120,6 +1162,8 @@ Response schema mismatch:
 * Unexpected property at ``#/21products/2/tags``,
 * Unexpected property at ``#/21products/2/updated``,
 * Unexpected property at ``#/21products/2/useForSubscriberList``,
+* Unexpected property at ``#/21/hasAvatar``,
+* Unexpected property at ``#/21/hasUdon``,
 * Unexpected property at ``#/22products/0/archived``,
 * Unexpected property at ``#/22products/0/created``,
 * Unexpected property at ``#/22products/0/description``,
@@ -1162,6 +1206,8 @@ Response schema mismatch:
 * Unexpected property at ``#/22products/2/tags``,
 * Unexpected property at ``#/22products/2/updated``,
 * Unexpected property at ``#/22products/2/useForSubscriberList``,
+* Unexpected property at ``#/22/hasAvatar``,
+* Unexpected property at ``#/22/hasUdon``,
 * Unexpected property at ``#/23products/0/archived``,
 * Unexpected property at ``#/23products/0/created``,
 * Unexpected property at ``#/23products/0/description``,
@@ -1204,6 +1250,8 @@ Response schema mismatch:
 * Unexpected property at ``#/23products/2/tags``,
 * Unexpected property at ``#/23products/2/updated``,
 * Unexpected property at ``#/23products/2/useForSubscriberList``,
+* Unexpected property at ``#/23/hasAvatar``,
+* Unexpected property at ``#/23/hasUdon``,
 * Unexpected property at ``#/24products/0/archived``,
 * Unexpected property at ``#/24products/0/created``,
 * Unexpected property at ``#/24products/0/description``,
@@ -1246,6 +1294,8 @@ Response schema mismatch:
 * Unexpected property at ``#/24products/2/tags``,
 * Unexpected property at ``#/24products/2/updated``,
 * Unexpected property at ``#/24products/2/useForSubscriberList``,
+* Unexpected property at ``#/24/hasAvatar``,
+* Unexpected property at ``#/24/hasUdon``,
 * Unexpected property at ``#/25products/0/archived``,
 * Unexpected property at ``#/25products/0/created``,
 * Unexpected property at ``#/25products/0/description``,
@@ -1288,6 +1338,8 @@ Response schema mismatch:
 * Unexpected property at ``#/25products/2/tags``,
 * Unexpected property at ``#/25products/2/updated``,
 * Unexpected property at ``#/25products/2/useForSubscriberList``,
+* Unexpected property at ``#/25/hasAvatar``,
+* Unexpected property at ``#/25/hasUdon``,
 * Unexpected property at ``#/26products/0/archived``,
 * Unexpected property at ``#/26products/0/created``,
 * Unexpected property at ``#/26products/0/description``,
@@ -1330,6 +1382,8 @@ Response schema mismatch:
 * Unexpected property at ``#/26products/2/tags``,
 * Unexpected property at ``#/26products/2/updated``,
 * Unexpected property at ``#/26products/2/useForSubscriberList``,
+* Unexpected property at ``#/26/hasAvatar``,
+* Unexpected property at ``#/26/hasUdon``,
 * Unexpected property at ``#/27products/0/archived``,
 * Unexpected property at ``#/27products/0/created``,
 * Unexpected property at ``#/27products/0/description``,
@@ -1372,6 +1426,8 @@ Response schema mismatch:
 * Unexpected property at ``#/27products/2/tags``,
 * Unexpected property at ``#/27products/2/updated``,
 * Unexpected property at ``#/27products/2/useForSubscriberList``,
+* Unexpected property at ``#/27/hasAvatar``,
+* Unexpected property at ``#/27/hasUdon``,
 * Unexpected property at ``#/28products/0/archived``,
 * Unexpected property at ``#/28products/0/created``,
 * Unexpected property at ``#/28products/0/description``,
@@ -1414,6 +1470,8 @@ Response schema mismatch:
 * Unexpected property at ``#/28products/2/tags``,
 * Unexpected property at ``#/28products/2/updated``,
 * Unexpected property at ``#/28products/2/useForSubscriberList``,
+* Unexpected property at ``#/28/hasAvatar``,
+* Unexpected property at ``#/28/hasUdon``,
 * Unexpected property at ``#/29products/0/archived``,
 * Unexpected property at ``#/29products/0/created``,
 * Unexpected property at ``#/29products/0/description``,
@@ -1456,6 +1514,8 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/2/tags``,
 * Unexpected property at ``#/29products/2/updated``,
 * Unexpected property at ``#/29products/2/useForSubscriberList``,
+* Unexpected property at ``#/29/hasAvatar``,
+* Unexpected property at ``#/29/hasUdon``,
 * Unexpected property at ``#/30products/0/archived``,
 * Unexpected property at ``#/30products/0/created``,
 * Unexpected property at ``#/30products/0/description``,
@@ -1498,6 +1558,8 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/2/tags``,
 * Unexpected property at ``#/30products/2/updated``,
 * Unexpected property at ``#/30products/2/useForSubscriberList``,
+* Unexpected property at ``#/30/hasAvatar``,
+* Unexpected property at ``#/30/hasUdon``,
 * Unexpected property at ``#/31products/0/archived``,
 * Unexpected property at ``#/31products/0/created``,
 * Unexpected property at ``#/31products/0/description``,
@@ -1540,6 +1602,8 @@ Response schema mismatch:
 * Unexpected property at ``#/31products/2/tags``,
 * Unexpected property at ``#/31products/2/updated``,
 * Unexpected property at ``#/31products/2/useForSubscriberList``,
+* Unexpected property at ``#/31/hasAvatar``,
+* Unexpected property at ``#/31/hasUdon``,
 * Unexpected property at ``#/32products/0/archived``,
 * Unexpected property at ``#/32products/0/created``,
 * Unexpected property at ``#/32products/0/description``,
@@ -1582,6 +1646,8 @@ Response schema mismatch:
 * Unexpected property at ``#/32products/2/tags``,
 * Unexpected property at ``#/32products/2/updated``,
 * Unexpected property at ``#/32products/2/useForSubscriberList``,
+* Unexpected property at ``#/32/hasAvatar``,
+* Unexpected property at ``#/32/hasUdon``,
 * Unexpected property at ``#/33products/0/archived``,
 * Unexpected property at ``#/33products/0/created``,
 * Unexpected property at ``#/33products/0/description``,
@@ -1624,6 +1690,8 @@ Response schema mismatch:
 * Unexpected property at ``#/33products/2/tags``,
 * Unexpected property at ``#/33products/2/updated``,
 * Unexpected property at ``#/33products/2/useForSubscriberList``,
+* Unexpected property at ``#/33/hasAvatar``,
+* Unexpected property at ``#/33/hasUdon``,
 * Unexpected property at ``#/34products/0/archived``,
 * Unexpected property at ``#/34products/0/created``,
 * Unexpected property at ``#/34products/0/description``,
@@ -1666,6 +1734,8 @@ Response schema mismatch:
 * Unexpected property at ``#/34products/2/tags``,
 * Unexpected property at ``#/34products/2/updated``,
 * Unexpected property at ``#/34products/2/useForSubscriberList``,
+* Unexpected property at ``#/34/hasAvatar``,
+* Unexpected property at ``#/34/hasUdon``,
 * Unexpected property at ``#/35products/0/archived``,
 * Unexpected property at ``#/35products/0/created``,
 * Unexpected property at ``#/35products/0/description``,
@@ -1708,6 +1778,8 @@ Response schema mismatch:
 * Unexpected property at ``#/35products/2/tags``,
 * Unexpected property at ``#/35products/2/updated``,
 * Unexpected property at ``#/35products/2/useForSubscriberList``,
+* Unexpected property at ``#/35/hasAvatar``,
+* Unexpected property at ``#/35/hasUdon``,
 * Unexpected property at ``#/36products/0/archived``,
 * Unexpected property at ``#/36products/0/created``,
 * Unexpected property at ``#/36products/0/description``,
@@ -1750,6 +1822,8 @@ Response schema mismatch:
 * Unexpected property at ``#/36products/2/tags``,
 * Unexpected property at ``#/36products/2/updated``,
 * Unexpected property at ``#/36products/2/useForSubscriberList``,
+* Unexpected property at ``#/36/hasAvatar``,
+* Unexpected property at ``#/36/hasUdon``,
 * Unexpected property at ``#/37products/0/archived``,
 * Unexpected property at ``#/37products/0/created``,
 * Unexpected property at ``#/37products/0/description``,
@@ -1792,6 +1866,8 @@ Response schema mismatch:
 * Unexpected property at ``#/37products/2/tags``,
 * Unexpected property at ``#/37products/2/updated``,
 * Unexpected property at ``#/37products/2/useForSubscriberList``,
+* Unexpected property at ``#/37/hasAvatar``,
+* Unexpected property at ``#/37/hasUdon``,
 * Unexpected property at ``#/38products/0/archived``,
 * Unexpected property at ``#/38products/0/created``,
 * Unexpected property at ``#/38products/0/description``,
@@ -1834,6 +1910,8 @@ Response schema mismatch:
 * Unexpected property at ``#/38products/2/tags``,
 * Unexpected property at ``#/38products/2/updated``,
 * Unexpected property at ``#/38products/2/useForSubscriberList``,
+* Unexpected property at ``#/38/hasAvatar``,
+* Unexpected property at ``#/38/hasUdon``,
 * Unexpected property at ``#/39products/0/archived``,
 * Unexpected property at ``#/39products/0/created``,
 * Unexpected property at ``#/39products/0/description``,
@@ -1876,6 +1954,8 @@ Response schema mismatch:
 * Unexpected property at ``#/39products/2/tags``,
 * Unexpected property at ``#/39products/2/updated``,
 * Unexpected property at ``#/39products/2/useForSubscriberList``,
+* Unexpected property at ``#/39/hasAvatar``,
+* Unexpected property at ``#/39/hasUdon``,
 * Unexpected property at ``#/40products/0/archived``,
 * Unexpected property at ``#/40products/0/created``,
 * Unexpected property at ``#/40products/0/description``,
@@ -1918,6 +1998,8 @@ Response schema mismatch:
 * Unexpected property at ``#/40products/2/tags``,
 * Unexpected property at ``#/40products/2/updated``,
 * Unexpected property at ``#/40products/2/useForSubscriberList``,
+* Unexpected property at ``#/40/hasAvatar``,
+* Unexpected property at ``#/40/hasUdon``,
 * Unexpected property at ``#/41products/0/archived``,
 * Unexpected property at ``#/41products/0/created``,
 * Unexpected property at ``#/41products/0/description``,
@@ -1960,6 +2042,8 @@ Response schema mismatch:
 * Unexpected property at ``#/41products/2/tags``,
 * Unexpected property at ``#/41products/2/updated``,
 * Unexpected property at ``#/41products/2/useForSubscriberList``,
+* Unexpected property at ``#/41/hasAvatar``,
+* Unexpected property at ``#/41/hasUdon``,
 * Unexpected property at ``#/42products/0/archived``,
 * Unexpected property at ``#/42products/0/created``,
 * Unexpected property at ``#/42products/0/description``,
@@ -2002,6 +2086,8 @@ Response schema mismatch:
 * Unexpected property at ``#/42products/2/tags``,
 * Unexpected property at ``#/42products/2/updated``,
 * Unexpected property at ``#/42products/2/useForSubscriberList``,
+* Unexpected property at ``#/42/hasAvatar``,
+* Unexpected property at ``#/42/hasUdon``,
 * Unexpected property at ``#/43products/0/archived``,
 * Unexpected property at ``#/43products/0/created``,
 * Unexpected property at ``#/43products/0/description``,
@@ -2135,6 +2221,8 @@ Response schema mismatch:
 * Unexpected property at ``#/43products/9/tags``,
 * Unexpected property at ``#/43products/9/updated``,
 * Unexpected property at ``#/43products/9/useForSubscriberList``,
+* Unexpected property at ``#/43/hasAvatar``,
+* Unexpected property at ``#/43/hasUdon``,
 * Unexpected property at ``#/44products/0/archived``,
 * Unexpected property at ``#/44products/0/created``,
 * Unexpected property at ``#/44products/0/description``,
@@ -2190,6 +2278,8 @@ Response schema mismatch:
 * Unexpected property at ``#/44products/3/tags``,
 * Unexpected property at ``#/44products/3/updated``,
 * Unexpected property at ``#/44products/3/useForSubscriberList``,
+* Unexpected property at ``#/44/hasAvatar``,
+* Unexpected property at ``#/44/hasUdon``,
 * Unexpected property at ``#/45products/0/archived``,
 * Unexpected property at ``#/45products/0/created``,
 * Unexpected property at ``#/45products/0/description``,
@@ -2284,6 +2374,8 @@ Response schema mismatch:
 * Unexpected property at ``#/45products/6/tags``,
 * Unexpected property at ``#/45products/6/updated``,
 * Unexpected property at ``#/45products/6/useForSubscriberList``,
+* Unexpected property at ``#/45/hasAvatar``,
+* Unexpected property at ``#/45/hasUdon``,
 * Unexpected property at ``#/46products/0/archived``,
 * Unexpected property at ``#/46products/0/created``,
 * Unexpected property at ``#/46products/0/description``,
@@ -2312,7 +2404,9 @@ Response schema mismatch:
 * Unexpected property at ``#/46products/1/sellerId``,
 * Unexpected property at ``#/46products/1/tags``,
 * Unexpected property at ``#/46products/1/updated``,
-* Unexpected property at ``#/46products/1/useForSubscriberList``.
+* Unexpected property at ``#/46products/1/useForSubscriberList``,
+* Unexpected property at ``#/46/hasAvatar``,
+* Unexpected property at ``#/46/hasUdon``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/user/usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20/listings?hydrate=true`
 
@@ -2349,6 +2443,8 @@ Response schema mismatch:
     "displayName": "Flair Goose",
     "duration": null,
     "durationType": null,
+    "hasAvatar": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -2544,6 +2640,8 @@ Response schema mismatch:
     "displayName": "Flair Mirror UI",
     "duration": null,
     "durationType": null,
+    "hasAvatar": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -2739,6 +2837,8 @@ Response schema mismatch:
     "displayName": "EVENT TIP 1000ǃ",
     "duration": 3,
     "durationType": "days",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -2978,6 +3078,8 @@ Response schema mismatch:
     "displayName": "EVENT TIP 500ǃ",
     "duration": 3,
     "durationType": "days",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -3217,6 +3319,8 @@ Response schema mismatch:
     "displayName": "EVENT TIP 100ǃ",
     "duration": 3,
     "durationType": "days",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -3459,6 +3563,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -3722,6 +3828,8 @@ Response schema mismatch:
     "displayName": "Flair Eggplant",
     "duration": null,
     "durationType": null,
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -3920,6 +4028,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -4186,6 +4296,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -4455,6 +4567,8 @@ Response schema mismatch:
     "displayName": "Christmas Train",
     "duration": null,
     "durationType": null,
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -4653,6 +4767,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -4916,6 +5032,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -5182,6 +5300,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -5773,6 +5893,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -6288,6 +6410,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -6622,6 +6746,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -6885,6 +7011,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -7113,6 +7241,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -7386,6 +7516,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -7659,6 +7791,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -7925,6 +8059,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -8188,6 +8324,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -8451,6 +8589,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -8714,6 +8854,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -8977,6 +9119,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -9240,6 +9384,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -9505,6 +9651,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -9770,6 +9918,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -10032,6 +10182,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -10294,6 +10446,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -10558,6 +10712,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -10822,6 +10978,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -11086,6 +11244,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -11350,6 +11510,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -11614,6 +11776,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -11878,6 +12042,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -12142,6 +12308,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -12406,6 +12574,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -12670,6 +12840,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -12934,6 +13106,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -13198,6 +13372,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -13460,6 +13636,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -13724,6 +13902,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -13988,6 +14168,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -14566,6 +14748,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -14902,6 +15086,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,
@@ -15379,6 +15565,8 @@ Response schema mismatch:
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
+    "hasAvatar": false,
+    "hasUdon": false,
     "hydratedProducts": [
       {
         "archived": false,

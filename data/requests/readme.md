@@ -175,7 +175,7 @@ Response schema mismatch:
 * Missing property at ``#/0/groupId``,
 * Missing property at ``#/0/groupName``,
 
-*2308 issues truncated.*
+*2402 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -183,7 +183,7 @@ Response schema mismatch:
 * Invalid type at ``#/products/1``,
 * Invalid type at ``#/products/2``,
 
-*7 issues truncated.*
+*9 issues truncated.*
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -251,8 +251,11 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/encryptionKey``.
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
 
+*2 issues truncated.*
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
@@ -261,8 +264,11 @@ Response schema mismatch:
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/encryptionKey``.
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
 
+*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -408,11 +414,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/InternalInstanceJoinHistory``,
-* Unexpected property at ``#/detectionThroughputReplica``,
-* Unexpected property at ``#/economyLedgerBackfill``,
+* Unexpected property at ``#/LeaveMinimumReplicationTrend``,
+* Unexpected property at ``#/briocheFireRandom``,
+* Unexpected property at ``#/contentLatteStartDashboardTrend``,
 
-*21 issues truncated.*
+*20 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

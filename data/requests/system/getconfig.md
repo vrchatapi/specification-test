@@ -2,30 +2,29 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/InternalInstanceJoinHistory``,
-* Unexpected property at ``#/detectionThroughputReplica``,
+* Unexpected property at ``#/LeaveMinimumReplicationTrend``,
+* Unexpected property at ``#/briocheFireRandom``,
+* Unexpected property at ``#/contentLatteStartDashboardTrend``,
+* Unexpected property at ``#/downRedoHoist``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
-* Unexpected property at ``#/headAnalyticsGroupAvatarInternal``,
-* Unexpected property at ``#/healthConfigurationRestSet``,
-* Unexpected property at ``#/instructionBufferMinimumDistance``,
+* Unexpected property at ``#/instanceClientPerformanceImmunityStreaming``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
-* Unexpected property at ``#/ipv4BiographyLayout``,
-* Unexpected property at ``#/jsonJoinJwt``,
+* Unexpected property at ``#/loggingJumpDelaySemaphore``,
+* Unexpected property at ``#/markMiddlewareLibrary``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
-* Unexpected property at ``#/moderationDatagramQueueCrustNightly``,
 * Unexpected property at ``#/ninkilim``,
+* Unexpected property at ``#/periodScreenStreamListenerAvailability``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/redoCycle``,
-* Unexpected property at ``#/replicationGift``,
-* Unexpected property at ``#/stackDisconnect``,
-* Unexpected property at ``#/trackingCoexistenceRye``,
-* Unexpected property at ``#/ttlVerification``,
-* Unexpected property at ``#/use_void_requiem_core``.
+* Unexpected property at ``#/roastCommandManagerFormation``,
+* Unexpected property at ``#/roastCursedSlot``,
+* Unexpected property at ``#/targetMentionSearchEntryTarget``,
+* Unexpected property at ``#/use_void_requiem_core``,
+* Unexpected property at ``#/violationCommitOffsetBlinkInterface``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
