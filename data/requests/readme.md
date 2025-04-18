@@ -2,6 +2,16 @@
 
 ## [Authentication](/data/requests/authentication)
 
+#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
+
+Response schema mismatch:
+* Missing property at ``#/currentAvatarAssetUrl``.
+
+#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
+
+Response schema mismatch:
+* Missing property at ``#/currentAvatarAssetUrl``.
+
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -22,9 +32,6 @@ Response schema mismatch:
 #### [verifyAuthToken](/data/requests/authentication/verifyauthtoken.md)
 
 
-#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
-
-
 #### [checkUserExists with zero parameters](/data/requests/authentication/checkuserexists-with-zero-parameters.md)
 
 
@@ -38,9 +45,6 @@ Response schema mismatch:
 
 
 #### [logout logout](/data/requests/authentication/logout-logout.md)
-
-
-#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
 
 
 
@@ -132,28 +136,43 @@ Response schema mismatch:
 
 ## [Avatars](/data/requests/avatars)
 
+#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
+
+Response schema mismatch:
+* Missing property at ``#/currentAvatarAssetUrl``.
+
+#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
+
+Response schema mismatch:
+* Missing property at ``#/currentAvatarAssetUrl``.
+
+#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
+
+Response schema mismatch:
+* Missing property at ``#/currentAvatarAssetUrl``.
+
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/searchable``.
+
+#### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/searchable``,
+* Unexpected property at ``#/1/searchable``,
+* Unexpected property at ``#/2/searchable``,
+
+*7 issues truncated.*
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/searchable``.
 
 #### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
 
 
-#### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
-
-
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
-
-
-#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
-
-
-#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
-
-
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
-
-
-#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
 
 
 #### [getFavoritedAvatars with zero parameters](/data/requests/avatars/getfavoritedavatars-with-zero-parameters.md)
@@ -251,11 +270,8 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
+* Unexpected property at ``#/encryptionKey``.
 
-*2 issues truncated.*
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
@@ -264,11 +280,8 @@ Response schema mismatch:
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
+* Unexpected property at ``#/encryptionKey``.
 
-*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -402,7 +415,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/shortName``,
 * Unexpected property at ``#/0data/iconImageUrl``,
 
-*1199 issues truncated.*
+*1203 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -414,11 +427,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/LeaveMinimumReplicationTrend``,
-* Unexpected property at ``#/briocheFireRandom``,
-* Unexpected property at ``#/contentLatteStartDashboardTrend``,
+* Unexpected property at ``#/authDockerSync``,
+* Unexpected property at ``#/crossRegionSearchLoaf``,
+* Unexpected property at ``#/economyLedgerBackfill``,
 
-*20 issues truncated.*
+*26 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

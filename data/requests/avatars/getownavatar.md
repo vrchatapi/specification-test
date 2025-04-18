@@ -1,5 +1,8 @@
 # getOwnAvatar
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/searchable``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 
@@ -36,6 +39,7 @@
   "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "name": "Robot",
   "releaseStatus": "public",
+  "searchable": false,
   "styles": {
     "primary": null,
     "secondary": null

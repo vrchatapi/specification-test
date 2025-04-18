@@ -2,29 +2,35 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/LeaveMinimumReplicationTrend``,
-* Unexpected property at ``#/briocheFireRandom``,
-* Unexpected property at ``#/contentLatteStartDashboardTrend``,
-* Unexpected property at ``#/downRedoHoist``,
+* Unexpected property at ``#/authDockerSync``,
+* Unexpected property at ``#/crossRegionSearchLoaf``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
+* Unexpected property at ``#/eternalLoopRolloverFox``,
+* Unexpected property at ``#/fileArrayImpostorExtended``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
-* Unexpected property at ``#/instanceClientPerformanceImmunityStreaming``,
+* Unexpected property at ``#/headerCountryServiceUnity``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
-* Unexpected property at ``#/loggingJumpDelaySemaphore``,
-* Unexpected property at ``#/markMiddlewareLibrary``,
+* Unexpected property at ``#/justifyProxyBuildPublish``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
+* Unexpected property at ``#/metricDraftRtt``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/periodScreenStreamListenerAvailability``,
+* Unexpected property at ``#/orchestrationRealtimeRemote``,
+* Unexpected property at ``#/performanceProxyMinimumBehavior``,
+* Unexpected property at ``#/primaryImpostorLimiterOwnershipOnline``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/roastCommandManagerFormation``,
-* Unexpected property at ``#/roastCursedSlot``,
-* Unexpected property at ``#/targetMentionSearchEntryTarget``,
-* Unexpected property at ``#/use_void_requiem_core``,
-* Unexpected property at ``#/violationCommitOffsetBlinkInterface``.
+* Unexpected property at ``#/redoChaos``,
+* Unexpected property at ``#/restFilter``,
+* Unexpected property at ``#/rollbackEternal``,
+* Unexpected property at ``#/schedulerExtendedPrototypeRollover``,
+* Unexpected property at ``#/segmentBootstrapInterfacePage``,
+* Unexpected property at ``#/serviceTtl``,
+* Unexpected property at ``#/streamingFavorite``,
+* Unexpected property at ``#/thresholdMultigrainHistory``,
+* Unexpected property at ``#/use_void_requiem_core``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

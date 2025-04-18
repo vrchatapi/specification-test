@@ -1,5 +1,8 @@
 # getCurrentUser after two-factor authentication
 
+## Issues
+Response schema mismatch:
+* Missing property at ``#/currentAvatarAssetUrl``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -60,7 +63,6 @@
   "bio": "",
   "bioLinks": [],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "currentAvatarAssetUrl": "https://api.vrchat.cloud/api/1/file/file_2b1945d3-13b7-43e5-8853-ae69a9ba0e7e/1/file",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarTags": "<unstable: array of strings>",
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",

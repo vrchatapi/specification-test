@@ -1,5 +1,8 @@
 # getAvatar by id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/searchable``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0`
 
@@ -36,6 +39,7 @@
   "imageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
   "name": "Bella Bear Public - by Mai",
   "releaseStatus": "public",
+  "searchable": false,
   "styles": {
     "primary": null,
     "secondary": null

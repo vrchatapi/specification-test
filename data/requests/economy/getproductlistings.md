@@ -3320,7 +3320,7 @@ Response schema mismatch:
     "duration": 3,
     "durationType": "days",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -3564,7 +3564,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -3829,7 +3829,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -4029,7 +4029,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -4297,7 +4297,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -4568,7 +4568,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -4768,7 +4768,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -5033,7 +5033,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -5301,7 +5301,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -5894,7 +5894,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -6411,7 +6411,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -6747,7 +6747,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -7012,7 +7012,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -7242,7 +7242,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -7517,7 +7517,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -7792,7 +7792,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -8060,7 +8060,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -8325,7 +8325,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -8590,7 +8590,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -8855,7 +8855,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -9120,7 +9120,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -9385,7 +9385,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -9652,7 +9652,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -9919,7 +9919,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -10183,7 +10183,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -10447,7 +10447,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -10713,7 +10713,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -10979,7 +10979,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -11245,7 +11245,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -11511,7 +11511,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -11777,7 +11777,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -12043,7 +12043,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -12309,7 +12309,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -12575,7 +12575,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -12841,7 +12841,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -13107,7 +13107,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -13373,7 +13373,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -13637,7 +13637,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -13903,7 +13903,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -14169,7 +14169,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -14749,7 +14749,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -15087,7 +15087,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -15566,7 +15566,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
