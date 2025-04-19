@@ -1,8 +1,5 @@
 # getCurrentUser after two-factor authentication
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/currentAvatarAssetUrl``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 

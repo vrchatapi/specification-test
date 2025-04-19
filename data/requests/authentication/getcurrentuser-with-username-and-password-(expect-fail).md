@@ -27,7 +27,6 @@ Response schema mismatch:
 * Missing property at ``#/currentAvatarThumbnailImageUrl``,
 * Missing property at ``#/currentAvatarTags``,
 * Missing property at ``#/currentAvatar``,
-* Missing property at ``#/currentAvatarAssetUrl``,
 * Missing property at ``#/acceptedTOSVersion``,
 * Missing property at ``#/steamId``,
 * Missing property at ``#/steamDetails``,

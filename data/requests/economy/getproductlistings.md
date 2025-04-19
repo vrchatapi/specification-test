@@ -2838,7 +2838,7 @@ Response schema mismatch:
     "duration": 3,
     "durationType": "days",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
@@ -3079,7 +3079,7 @@ Response schema mismatch:
     "duration": 3,
     "durationType": "days",
     "hasAvatar": false,
-    "hasUdon": false,
+    "hasUdon": true,
     "hydratedProducts": [
       {
         "archived": false,
