@@ -2,30 +2,27 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/DuckingVersionTerminal``,
-* Unexpected property at ``#/baguetteExternal``,
-* Unexpected property at ``#/commandOrchestrationJwtAddress``,
-* Unexpected property at ``#/downloadOwnershipActivity``,
+* Unexpected property at ``#/CompileLocalizationUploadAuthenticationLimiter``,
+* Unexpected property at ``#/analyticsDestinationPlayer``,
+* Unexpected property at ``#/attributeDockerPacket``,
+* Unexpected property at ``#/crudItineraryUser``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
-* Unexpected property at ``#/listJustifyEventsTransmittion``,
-* Unexpected property at ``#/loafHashBounce``,
-* Unexpected property at ``#/lockSendSoapOut``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/probabilityBarrier``,
+* Unexpected property at ``#/notifySetMobileReceive``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/quorumBaguetteLeave``,
-* Unexpected property at ``#/randomHookSticker``,
-* Unexpected property at ``#/shaderImpostorDisableSubscription``,
-* Unexpected property at ``#/transmittionSearch``,
-* Unexpected property at ``#/use_void_requiem_core``,
-* Unexpected property at ``#/versionRoast``.
+* Unexpected property at ``#/sandwichDestinationStream``,
+* Unexpected property at ``#/schedulerEmbed``,
+* Unexpected property at ``#/screenPagination``,
+* Unexpected property at ``#/tcpRest``,
+* Unexpected property at ``#/textPage``,
+* Unexpected property at ``#/use_void_requiem_core``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

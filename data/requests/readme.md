@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/DuckingVersionTerminal``,
-* Unexpected property at ``#/baguetteExternal``,
-* Unexpected property at ``#/commandOrchestrationJwtAddress``,
+* Unexpected property at ``#/CompileLocalizationUploadAuthenticationLimiter``,
+* Unexpected property at ``#/analyticsDestinationPlayer``,
+* Unexpected property at ``#/attributeDockerPacket``,
 
-*21 issues truncated.*
+*18 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
