@@ -2,10 +2,13 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/CompileLocalizationUploadAuthenticationLimiter``,
-* Unexpected property at ``#/analyticsDestinationPlayer``,
-* Unexpected property at ``#/attributeDockerPacket``,
-* Unexpected property at ``#/crudItineraryUser``,
+* Unexpected property at ``#/ReservedDeviceTimezoneCommand``,
+* Unexpected property at ``#/TokenDestination``,
+* Unexpected property at ``#/UnitySocketActiveHistoryToolbox``,
+* Unexpected property at ``#/dataReliablePushDistancePartition``,
+* Unexpected property at ``#/datagramStringPresence``,
+* Unexpected property at ``#/disconnectSchedulingRumorFire``,
+* Unexpected property at ``#/downloadOffsetWeight``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
 * Unexpected property at ``#/globalCacheVersion``,
@@ -15,13 +18,12 @@ Response schema mismatch:
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/notifySetMobileReceive``,
+* Unexpected property at ``#/privateYaml``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/sandwichDestinationStream``,
-* Unexpected property at ``#/schedulerEmbed``,
-* Unexpected property at ``#/screenPagination``,
-* Unexpected property at ``#/tcpRest``,
-* Unexpected property at ``#/textPage``,
+* Unexpected property at ``#/readerWorld``,
+* Unexpected property at ``#/scrollBehaviorLeaveContainer``,
+* Unexpected property at ``#/semaphoreKey``,
+* Unexpected property at ``#/targetBonesNodeSortWhois``,
 * Unexpected property at ``#/use_void_requiem_core``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`

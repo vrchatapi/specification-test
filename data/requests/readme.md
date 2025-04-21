@@ -405,7 +405,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/shortName``,
 * Unexpected property at ``#/0data/iconImageUrl``,
 
-*1203 issues truncated.*
+*1211 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/CompileLocalizationUploadAuthenticationLimiter``,
-* Unexpected property at ``#/analyticsDestinationPlayer``,
-* Unexpected property at ``#/attributeDockerPacket``,
+* Unexpected property at ``#/ReservedDeviceTimezoneCommand``,
+* Unexpected property at ``#/TokenDestination``,
+* Unexpected property at ``#/UnitySocketActiveHistoryToolbox``,
 
-*18 issues truncated.*
+*20 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
