@@ -10,8 +10,8 @@ Response schema mismatch:
 * Unexpected property at ``#/5/defaultContentSettings``,
 * Unexpected property at ``#/6/defaultContentSettings``,
 * Unexpected property at ``#/7/defaultContentSettings``,
-* Unexpected property at ``#/7/storeId``,
 * Unexpected property at ``#/8/defaultContentSettings``,
+* Unexpected property at ``#/8/storeId``,
 * Unexpected property at ``#/9/defaultContentSettings``,
 * Unexpected property at ``#/9/storeId``.
 ## Request

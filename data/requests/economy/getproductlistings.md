@@ -5532,7 +5532,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2024-06-22T11:19:29.929Z",
+        "updated": "2025-04-21T22:52:56.349Z",
         "useForSubscriberList": true
       },
       {
@@ -5559,8 +5559,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "id": "prod_8745681b-e41f-471f-8f01-8da42f539054",
@@ -5838,7 +5838,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2024-06-22T11:19:29.929Z",
+        "updated": "2025-04-21T22:52:56.349Z",
         "useForSubscriberList": true
       },
       {
@@ -5865,8 +5865,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "quantifiable": false,
@@ -6088,7 +6088,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2024-06-22T11:19:29.929Z",
+        "updated": "2025-04-21T22:52:56.349Z",
         "useForSubscriberList": true
       },
       {
@@ -6115,8 +6115,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "id": "prod_7878962e-984c-4605-9416-1ef552dd47ab",
@@ -6355,7 +6355,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2024-06-22T11:19:29.929Z",
+        "updated": "2025-04-21T22:52:56.349Z",
         "useForSubscriberList": true
       },
       {
@@ -6382,8 +6382,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "quantifiable": false,
@@ -6545,8 +6545,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "id": "prod_9cea2c5e-de68-4c87-ab48-bd89c33b13d8",
@@ -6718,8 +6718,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "quantifiable": false,
@@ -14394,7 +14394,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2024-06-22T11:19:29.929Z",
+        "updated": "2025-04-21T22:52:56.349Z",
         "useForSubscriberList": true
       },
       {
@@ -14421,8 +14421,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "id": "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
@@ -14694,7 +14694,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2024-06-22T11:19:29.929Z",
+        "updated": "2025-04-21T22:52:56.349Z",
         "useForSubscriberList": true
       },
       {
@@ -14721,8 +14721,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "recurrable": false,
@@ -14883,8 +14883,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "id": "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -15059,8 +15059,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "recurrable": false,
@@ -15263,7 +15263,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2024-06-22T11:19:29.929Z",
+        "updated": "2025-04-21T22:52:56.349Z",
         "useForSubscriberList": true
       },
       {
@@ -15290,8 +15290,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "id": "prod_9c471749-cb8a-4cf4-99c9-aa7db54642ef",
@@ -15511,7 +15511,7 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2024-06-22T11:19:29.929Z",
+        "updated": "2025-04-21T22:52:56.349Z",
         "useForSubscriberList": true
       },
       {
@@ -15538,8 +15538,8 @@ Response schema mismatch:
         "sellerDisplayName": "spookyghostboo",
         "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
         "tags": [],
-        "updated": "2023-11-19T14:25:47.988Z",
-        "useForSubscriberList": false
+        "updated": "2025-04-21T22:52:44.137Z",
+        "useForSubscriberList": true
       }
     ],
     "recurrable": false,

@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/ReservedDeviceTimezoneCommand``,
-* Unexpected property at ``#/TokenDestination``,
-* Unexpected property at ``#/UnitySocketActiveHistoryToolbox``,
+* Unexpected property at ``#/YachtImmunity``,
+* Unexpected property at ``#/analysisDownValue``,
+* Unexpected property at ``#/biographyFilterSlotFocaccia``,
 
-*20 issues truncated.*
+*23 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
