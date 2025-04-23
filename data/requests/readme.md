@@ -417,9 +417,9 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/YachtImmunity``,
-* Unexpected property at ``#/analysisDownValue``,
-* Unexpected property at ``#/biographyFilterSlotFocaccia``,
+* Unexpected property at ``#/PocketWebsocketIso8601Maximum``,
+* Unexpected property at ``#/analyticsDelayReason``,
+* Unexpected property at ``#/animationDeployRoom``,
 
 *23 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
