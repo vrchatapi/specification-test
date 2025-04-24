@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/PocketWebsocketIso8601Maximum``,
-* Unexpected property at ``#/analyticsDelayReason``,
-* Unexpected property at ``#/animationDeployRoom``,
+* Unexpected property at ``#/apiEmbedVersionCheckMaximum``,
+* Unexpected property at ``#/applicationErrorUsageAppendHeader``,
+* Unexpected property at ``#/attachmentExitWhereAttachment``,
 
-*23 issues truncated.*
+*27 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
