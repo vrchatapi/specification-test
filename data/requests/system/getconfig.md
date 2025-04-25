@@ -2,36 +2,25 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/apiEmbedVersionCheckMaximum``,
-* Unexpected property at ``#/applicationErrorUsageAppendHeader``,
-* Unexpected property at ``#/attachmentExitWhereAttachment``,
-* Unexpected property at ``#/bandwidthGender``,
-* Unexpected property at ``#/brewFireRead``,
-* Unexpected property at ``#/chumpGenerateReasonClothRollover``,
-* Unexpected property at ``#/cloudProfileColourShift``,
-* Unexpected property at ``#/colourReadDutyAttribute``,
-* Unexpected property at ``#/connectHomeSubscription``,
-* Unexpected property at ``#/contextImpostorTransaction``,
+* Unexpected property at ``#/alertDefault``,
+* Unexpected property at ``#/bookmarkInstallCursedSdkListener``,
+* Unexpected property at ``#/changeFormatResponse``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
+* Unexpected property at ``#/formatPitaBracketProfileCompile``,
+* Unexpected property at ``#/gitOnlySyscallPassport``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
-* Unexpected property at ``#/hiddenAttributeImpostor``,
-* Unexpected property at ``#/homeSlicingDraft``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
-* Unexpected property at ``#/methodMutexLicenseChurn``,
-* Unexpected property at ``#/monitorAppendGraphqlSoapSocket``,
-* Unexpected property at ``#/nextMultigrainGenerate``,
 * Unexpected property at ``#/ninkilim``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/scrollFarApiKey``,
-* Unexpected property at ``#/tcpBufferMacchiatoBounceLabel``,
-* Unexpected property at ``#/use_void_requiem_core``,
-* Unexpected property at ``#/yamlValueStroopwafelTutorialIpv6``,
-* Unexpected property at ``#/zoneSlice``.
+* Unexpected property at ``#/signatureMocha``,
+* Unexpected property at ``#/swarmMethodInstructionBehavior``,
+* Unexpected property at ``#/tracingCremaPropDelayOrchestration``,
+* Unexpected property at ``#/use_void_requiem_core``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

@@ -405,23 +405,23 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/shortName``,
 * Unexpected property at ``#/0data/iconImageUrl``,
 
-*1211 issues truncated.*
+*1219 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
-*38 issues truncated.*
+*42 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/apiEmbedVersionCheckMaximum``,
-* Unexpected property at ``#/applicationErrorUsageAppendHeader``,
-* Unexpected property at ``#/attachmentExitWhereAttachment``,
+* Unexpected property at ``#/alertDefault``,
+* Unexpected property at ``#/bookmarkInstallCursedSdkListener``,
+* Unexpected property at ``#/changeFormatResponse``,
 
-*27 issues truncated.*
+*16 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
