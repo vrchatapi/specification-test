@@ -74,7 +74,7 @@
       "showcased": false
     }
   ],
-  "bio": "VRChat Head of Community․ （he‚ him）\n\nabove all else‚ be kind․",
+  "bio": "VRChat Head of Community․\n\nabove all else‚ be kind․",
   "bioLinks": [
     "https://vrchat.com/",
     "https://dtupper.com/",
@@ -99,7 +99,7 @@
   "platform": "offline",
   "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
   "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/512",
-  "pronouns": "",
+  "pronouns": "he/him",
   "state": "offline",
   "status": "ask me",
   "statusDescription": "hewwo․",

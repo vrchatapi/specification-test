@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/alertDefault``,
-* Unexpected property at ``#/bookmarkInstallCursedSdkListener``,
-* Unexpected property at ``#/changeFormatResponse``,
+* Unexpected property at ``#/EacObjectsUpdated``,
+* Unexpected property at ``#/biographyEndpointTransmittion``,
+* Unexpected property at ``#/buildLimitHeaderBone``,
 
-*16 issues truncated.*
+*28 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
