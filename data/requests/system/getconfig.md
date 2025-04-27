@@ -2,37 +2,27 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/EacObjectsUpdated``,
-* Unexpected property at ``#/biographyEndpointTransmittion``,
-* Unexpected property at ``#/buildLimitHeaderBone``,
-* Unexpected property at ``#/cloudKeywordTransmit``,
-* Unexpected property at ``#/controlRegionFeedColor``,
-* Unexpected property at ``#/cookieJustifySeedHiddenGenerator``,
-* Unexpected property at ``#/countryItineraryRtt``,
-* Unexpected property at ``#/dashboardOnlyWaffleReverse``,
-* Unexpected property at ``#/duckingPocketCaptcha``,
+* Unexpected property at ``#/AttributeElectionReplicationCursed``,
+* Unexpected property at ``#/baristaExcursionReplica``,
+* Unexpected property at ``#/commitQuorumZoneClip``,
+* Unexpected property at ``#/debounceReturnSamlHeight``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
-* Unexpected property at ``#/executePackageUpdateUnlistedJwt``,
-* Unexpected property at ``#/frameworkNotificationThresholdPrevious``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
-* Unexpected property at ``#/hiddenFormatDeploymentVideo``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
-* Unexpected property at ``#/joinVoiceObject``,
-* Unexpected property at ``#/lineTargetMacchiatoSliceGraphql``,
+* Unexpected property at ``#/keyboardRemoteSamlKernel``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/ninkilim``,
+* Unexpected property at ``#/pipelineApiGiftRyeConnect``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/rankingAvatar``,
-* Unexpected property at ``#/remoteCopyMultigrainDeploymentYacht``,
-* Unexpected property at ``#/spaceKeyboardShaderFriend``,
-* Unexpected property at ``#/storeLibraryExitTime``,
-* Unexpected property at ``#/thunderSessionListInstallAvatar``,
-* Unexpected property at ``#/use_void_requiem_core``,
-* Unexpected property at ``#/waffleSamlReplicaDraft``.
+* Unexpected property at ``#/reachabilitySwarmSetEndpoint``,
+* Unexpected property at ``#/reverseTtlReaderPermanentBread``,
+* Unexpected property at ``#/roomLibraryTcp``,
+* Unexpected property at ``#/syncLoafExtended``,
+* Unexpected property at ``#/use_void_requiem_core``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

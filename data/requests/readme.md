@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/EacObjectsUpdated``,
-* Unexpected property at ``#/biographyEndpointTransmittion``,
-* Unexpected property at ``#/buildLimitHeaderBone``,
+* Unexpected property at ``#/AttributeElectionReplicationCursed``,
+* Unexpected property at ``#/baristaExcursionReplica``,
+* Unexpected property at ``#/commitQuorumZoneClip``,
 
-*28 issues truncated.*
+*18 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
