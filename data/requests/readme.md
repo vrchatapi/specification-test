@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/AttributeElectionReplicationCursed``,
-* Unexpected property at ``#/baristaExcursionReplica``,
-* Unexpected property at ``#/commitQuorumZoneClip``,
+* Unexpected property at ``#/americanoDelayPassport``,
+* Unexpected property at ``#/baguetteFavorite``,
+* Unexpected property at ``#/bodyImmunityDownloadTime``,
 
-*18 issues truncated.*
+*28 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

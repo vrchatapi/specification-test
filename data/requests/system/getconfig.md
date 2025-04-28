@@ -2,27 +2,37 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/AttributeElectionReplicationCursed``,
-* Unexpected property at ``#/baristaExcursionReplica``,
-* Unexpected property at ``#/commitQuorumZoneClip``,
-* Unexpected property at ``#/debounceReturnSamlHeight``,
+* Unexpected property at ``#/americanoDelayPassport``,
+* Unexpected property at ``#/baguetteFavorite``,
+* Unexpected property at ``#/bodyImmunityDownloadTime``,
+* Unexpected property at ``#/boneGender``,
+* Unexpected property at ``#/bytesMinimumSouvenir``,
+* Unexpected property at ``#/channelNightly``,
+* Unexpected property at ``#/containerHookVirtual``,
+* Unexpected property at ``#/dutyLocalizationJwtPerformance``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
+* Unexpected property at ``#/expireShiftNetwork``,
+* Unexpected property at ``#/formatChannelPropTimerSlice``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
+* Unexpected property at ``#/heightVirtualRequestPlayer``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
-* Unexpected property at ``#/keyboardRemoteSamlKernel``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/pipelineApiGiftRyeConnect``,
+* Unexpected property at ``#/orchestrationTrackingCycleVector``,
+* Unexpected property at ``#/payloadExternalRumor``,
+* Unexpected property at ``#/periodUpdatedPitaIndicatorStore``,
+* Unexpected property at ``#/profileSaml``,
+* Unexpected property at ``#/profileSet``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/reachabilitySwarmSetEndpoint``,
-* Unexpected property at ``#/reverseTtlReaderPermanentBread``,
-* Unexpected property at ``#/roomLibraryTcp``,
-* Unexpected property at ``#/syncLoafExtended``,
-* Unexpected property at ``#/use_void_requiem_core``.
+* Unexpected property at ``#/segmentHelpDefaultSteam``,
+* Unexpected property at ``#/subscriptionBranch``,
+* Unexpected property at ``#/use_void_requiem_core``,
+* Unexpected property at ``#/vectorRequestFocacciaColliderRead``,
+* Unexpected property at ``#/worldContentPageBird``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
