@@ -405,7 +405,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/shortName``,
 * Unexpected property at ``#/0data/iconImageUrl``,
 
-*1219 issues truncated.*
+*1211 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/americanoDelayPassport``,
-* Unexpected property at ``#/baguetteFavorite``,
-* Unexpected property at ``#/bodyImmunityDownloadTime``,
+* Unexpected property at ``#/AttachmentDownloadPrototypeBlinkMessage``,
+* Unexpected property at ``#/StroopwafelPaginationPullMacTutorial``,
+* Unexpected property at ``#/accountCycle``,
 
-*28 issues truncated.*
+*25 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
