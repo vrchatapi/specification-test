@@ -2,34 +2,30 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/AttachmentDownloadPrototypeBlinkMessage``,
-* Unexpected property at ``#/StroopwafelPaginationPullMacTutorial``,
-* Unexpected property at ``#/accountCycle``,
-* Unexpected property at ``#/backgroundEthernetReplicationConfiguration``,
-* Unexpected property at ``#/bytesLibraryDownloadSlot``,
-* Unexpected property at ``#/compileLocalizationUpdateBaguetteLoss``,
-* Unexpected property at ``#/countryImpostorGroupInterface``,
+* Unexpected property at ``#/TemporaryDuty``,
+* Unexpected property at ``#/alignmentDatagramTag``,
+* Unexpected property at ``#/bootstrapLayoutOffsetRolloutProtocol``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
-* Unexpected property at ``#/frameworkCrudTimeoutPaste``,
+* Unexpected property at ``#/eventsWorld``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
-* Unexpected property at ``#/ipv6ResolverInstructionIpv6``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/photonResortReceiveEmbed``,
-* Unexpected property at ``#/profileBaguetteHeightSdk``,
+* Unexpected property at ``#/notifyHeadpatUnlistedMention``,
+* Unexpected property at ``#/orchestrationScrollForkBiographyLimiter``,
+* Unexpected property at ``#/prototypeRedo``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/regressionLibraryToken``,
-* Unexpected property at ``#/replaceKeyTarget``,
-* Unexpected property at ``#/rotationAnalytics``,
-* Unexpected property at ``#/stackPackageWeightSessionDestination``,
-* Unexpected property at ``#/thresholdClusterPackage``,
+* Unexpected property at ``#/remoteDocumentationBaguetteModerationSearch``,
+* Unexpected property at ``#/rttWorld``,
+* Unexpected property at ``#/schedulingGitRequestTimeRebase``,
+* Unexpected property at ``#/spaceCycleRestMacTemporary``,
+* Unexpected property at ``#/trustedExecuteShift``,
 * Unexpected property at ``#/use_void_requiem_core``,
-* Unexpected property at ``#/videoRoutingResponseExecute``.
+* Unexpected property at ``#/yachtSemaphoreRequestDetection``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/AttachmentDownloadPrototypeBlinkMessage``,
-* Unexpected property at ``#/StroopwafelPaginationPullMacTutorial``,
-* Unexpected property at ``#/accountCycle``,
+* Unexpected property at ``#/TemporaryDuty``,
+* Unexpected property at ``#/alignmentDatagramTag``,
+* Unexpected property at ``#/bootstrapLayoutOffsetRolloutProtocol``,
 
-*25 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
