@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/TemporaryDuty``,
-* Unexpected property at ``#/alignmentDatagramTag``,
-* Unexpected property at ``#/bootstrapLayoutOffsetRolloutProtocol``,
+* Unexpected property at ``#/animationDraftUpdatedCopy``,
+* Unexpected property at ``#/availabilityDownloadPacket``,
+* Unexpected property at ``#/brewLocking``,
 
-*21 issues truncated.*
+*28 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
