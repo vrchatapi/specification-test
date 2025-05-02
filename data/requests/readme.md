@@ -405,23 +405,23 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/shortName``,
 * Unexpected property at ``#/0data/iconImageUrl``,
 
-*1211 issues truncated.*
+*1207 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
+* Unexpected property at ``#/0/requireClientTags``,
 
-*42 issues truncated.*
+*38 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/animationDraftUpdatedCopy``,
-* Unexpected property at ``#/availabilityDownloadPacket``,
-* Unexpected property at ``#/brewLocking``,
+* Unexpected property at ``#/burritoFrameworkRequestReplicaExtended``,
+* Unexpected property at ``#/clientPermanent``,
+* Unexpected property at ``#/colliderOwnershipMarkerClothMobile``,
 
-*28 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
