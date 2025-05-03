@@ -12,7 +12,6 @@ Response schema mismatch:
 * Unexpected property at ``#/6/storeId``,
 * Unexpected property at ``#/7/defaultContentSettings``,
 * Unexpected property at ``#/8/defaultContentSettings``,
-* Unexpected property at ``#/8/storeId``,
 * Unexpected property at ``#/9/defaultContentSettings``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/active`

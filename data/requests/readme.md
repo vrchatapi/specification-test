@@ -97,7 +97,7 @@ Response schema mismatch:
 * Unexpected property at ``#/1/defaultContentSettings``,
 * Unexpected property at ``#/2/defaultContentSettings``,
 
-*9 issues truncated.*
+*8 issues truncated.*
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 Response schema mismatch:
@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/burritoFrameworkRequestReplicaExtended``,
-* Unexpected property at ``#/clientPermanent``,
-* Unexpected property at ``#/colliderOwnershipMarkerClothMobile``,
+* Unexpected property at ``#/CheckHelpShardRollbackHeight``,
+* Unexpected property at ``#/ElectionPlusBoneLineChaos``,
+* Unexpected property at ``#/RoastDutyValueConnect``,
 
-*21 issues truncated.*
+*28 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
