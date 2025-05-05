@@ -2,17 +2,16 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/ListenerScrollSeedMacchiato``,
-* Unexpected property at ``#/alignmentDebounceNotificationPermanentActive``,
-* Unexpected property at ``#/apiDeviceOut``,
-* Unexpected property at ``#/applicationExcursionClipRumor``,
-* Unexpected property at ``#/birdImpostorIpv4Help``,
-* Unexpected property at ``#/colliderMacchiatoRumorFire``,
-* Unexpected property at ``#/cookieReverseCommitResort``,
+* Unexpected property at ``#/ApiDisplayPrototypeBriocheKernel``,
+* Unexpected property at ``#/InstructionReturnGraphql``,
+* Unexpected property at ``#/chatObjectSteamCheckNews``,
+* Unexpected property at ``#/coefficientPage``,
+* Unexpected property at ``#/cronSearch``,
+* Unexpected property at ``#/crossLicenseQueryCloth``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
-* Unexpected property at ``#/filePacketCappuccino``,
-* Unexpected property at ``#/generatorDisconnectAccountHidden``,
+* Unexpected property at ``#/endpointUpdate``,
+* Unexpected property at ``#/eventsPageVerificationToolboxImmunity``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
 * Unexpected property at ``#/iosAppVersion``,
@@ -20,16 +19,14 @@ Response schema mismatch:
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/nuisanceExtendedSession``,
-* Unexpected property at ``#/nuisanceSprayFuslFar``,
-* Unexpected property at ``#/privateDisconnectPodAttachmentJwt``,
+* Unexpected property at ``#/onlyReliableSearchLicenseSlot``,
+* Unexpected property at ``#/passportInternalVersion``,
+* Unexpected property at ``#/pasteResolverRollbackGift``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/receiveThresholdSlotEntry``,
-* Unexpected property at ``#/screenNetworkingStroopwafelFpsTransaction``,
-* Unexpected property at ``#/slotLockSyncIso8601``,
-* Unexpected property at ``#/udpRankBonesPlainBulk``,
-* Unexpected property at ``#/use_void_requiem_core``,
-* Unexpected property at ``#/vrchatViewFramework``.
+* Unexpected property at ``#/reliableCappuccinoPartition``,
+* Unexpected property at ``#/reportActive``,
+* Unexpected property at ``#/restDownloadUpCross``,
+* Unexpected property at ``#/use_void_requiem_core``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
