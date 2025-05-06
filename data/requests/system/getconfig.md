@@ -2,16 +2,15 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/ApiDisplayPrototypeBriocheKernel``,
-* Unexpected property at ``#/InstructionReturnGraphql``,
-* Unexpected property at ``#/chatObjectSteamCheckNews``,
-* Unexpected property at ``#/coefficientPage``,
-* Unexpected property at ``#/cronSearch``,
-* Unexpected property at ``#/crossLicenseQueryCloth``,
+* Unexpected property at ``#/barrierExtract``,
+* Unexpected property at ``#/bulkLicense``,
+* Unexpected property at ``#/destinationPoolDisable``,
+* Unexpected property at ``#/docsLossTimestamp``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
-* Unexpected property at ``#/endpointUpdate``,
-* Unexpected property at ``#/eventsPageVerificationToolboxImmunity``,
+* Unexpected property at ``#/errorAlignmentGraphqlInstall``,
+* Unexpected property at ``#/exitTimeoutVideoMaximum``,
+* Unexpected property at ``#/firePropArray``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
 * Unexpected property at ``#/iosAppVersion``,
@@ -19,14 +18,15 @@ Response schema mismatch:
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/onlyReliableSearchLicenseSlot``,
-* Unexpected property at ``#/passportInternalVersion``,
-* Unexpected property at ``#/pasteResolverRollbackGift``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/reliableCappuccinoPartition``,
-* Unexpected property at ``#/reportActive``,
-* Unexpected property at ``#/restDownloadUpCross``,
-* Unexpected property at ``#/use_void_requiem_core``.
+* Unexpected property at ``#/reasonCross``,
+* Unexpected property at ``#/rttOrchestrationAuthenticationJustifyShift``,
+* Unexpected property at ``#/shaderAssetHoistAttributeHook``,
+* Unexpected property at ``#/sourdoughKeyboard``,
+* Unexpected property at ``#/storeColorPlugin``,
+* Unexpected property at ``#/updateMentionBackgroundModel``,
+* Unexpected property at ``#/use_void_requiem_core``,
+* Unexpected property at ``#/whereMultigrain``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

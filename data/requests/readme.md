@@ -417,9 +417,9 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/ApiDisplayPrototypeBriocheKernel``,
-* Unexpected property at ``#/InstructionReturnGraphql``,
-* Unexpected property at ``#/chatObjectSteamCheckNews``,
+* Unexpected property at ``#/barrierExtract``,
+* Unexpected property at ``#/bulkLicense``,
+* Unexpected property at ``#/destinationPoolDisable``,
 
 *22 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
