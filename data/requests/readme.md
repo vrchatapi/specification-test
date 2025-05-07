@@ -97,7 +97,7 @@ Response schema mismatch:
 * Unexpected property at ``#/1/defaultContentSettings``,
 * Unexpected property at ``#/2/defaultContentSettings``,
 
-*8 issues truncated.*
+*9 issues truncated.*
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 Response schema mismatch:
@@ -417,11 +417,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/barrierExtract``,
-* Unexpected property at ``#/bulkLicense``,
-* Unexpected property at ``#/destinationPoolDisable``,
+* Unexpected property at ``#/CampaignStatus``,
+* Unexpected property at ``#/DeviceNoiseWebsocketOauthService``,
+* Unexpected property at ``#/attributeFeedbackCookieTape``,
 
-*22 issues truncated.*
+*24 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

@@ -2,31 +2,33 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/barrierExtract``,
-* Unexpected property at ``#/bulkLicense``,
-* Unexpected property at ``#/destinationPoolDisable``,
-* Unexpected property at ``#/docsLossTimestamp``,
+* Unexpected property at ``#/CampaignStatus``,
+* Unexpected property at ``#/DeviceNoiseWebsocketOauthService``,
+* Unexpected property at ``#/attributeFeedbackCookieTape``,
+* Unexpected property at ``#/cdnLabel``,
+* Unexpected property at ``#/channelOauthTutorial``,
+* Unexpected property at ``#/displayMethodTemporaryPrototypeUnity``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
-* Unexpected property at ``#/errorAlignmentGraphqlInstall``,
-* Unexpected property at ``#/exitTimeoutVideoMaximum``,
-* Unexpected property at ``#/firePropArray``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
+* Unexpected property at ``#/localizationTapeOrchestration``,
+* Unexpected property at ``#/lockingSecurityTcpReason``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/ninkilim``,
+* Unexpected property at ``#/primaryRumorRank``,
+* Unexpected property at ``#/probabilityRoastPeriodBuild``,
+* Unexpected property at ``#/pushHeapSouvenir``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/reasonCross``,
-* Unexpected property at ``#/rttOrchestrationAuthenticationJustifyShift``,
-* Unexpected property at ``#/shaderAssetHoistAttributeHook``,
-* Unexpected property at ``#/sourdoughKeyboard``,
-* Unexpected property at ``#/storeColorPlugin``,
-* Unexpected property at ``#/updateMentionBackgroundModel``,
-* Unexpected property at ``#/use_void_requiem_core``,
-* Unexpected property at ``#/whereMultigrain``.
+* Unexpected property at ``#/remoteViolation``,
+* Unexpected property at ``#/rolloutAttributeGraphqlExpire``,
+* Unexpected property at ``#/rolloutBrioche``,
+* Unexpected property at ``#/routeOnlineAuthenticationJumpSeed``,
+* Unexpected property at ``#/rumorGitDistanceUpAnalysis``,
+* Unexpected property at ``#/use_void_requiem_core``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
