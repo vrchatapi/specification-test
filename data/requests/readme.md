@@ -75,38 +75,25 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
-
-Response schema mismatch:
-* Unexpected property at ``#/defaultContentSettings``.
-
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/defaultContentSettings``.
-
-#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/defaultContentSettings``.
-
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0/defaultContentSettings``,
-* Unexpected property at ``#/1/defaultContentSettings``,
-* Unexpected property at ``#/2/defaultContentSettings``,
+* Unexpected property at ``#/7/storeId``,
+* Unexpected property at ``#/9/storeId``.
 
-*9 issues truncated.*
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/defaultContentSettings``,
-* Unexpected property at ``#/1/defaultContentSettings``,
-* Unexpected property at ``#/2/defaultContentSettings``,
 
-*7 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
+
+
+#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
+
+
+#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+
+
+#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
 
 #### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
@@ -121,9 +108,6 @@ Response schema mismatch:
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/world/defaultContentSettings``,
-* Unexpected property at ``#/contentSettings``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -418,10 +402,10 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Unexpected property at ``#/CampaignStatus``,
-* Unexpected property at ``#/DeviceNoiseWebsocketOauthService``,
-* Unexpected property at ``#/attributeFeedbackCookieTape``,
+* Unexpected property at ``#/Ipv6JsonMaximumPlayer``,
+* Unexpected property at ``#/activeData``,
 
-*24 issues truncated.*
+*19 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

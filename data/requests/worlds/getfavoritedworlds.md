@@ -1,8 +1,5 @@
 # getFavoritedWorlds
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/0/defaultContentSettings``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/favorites`
 

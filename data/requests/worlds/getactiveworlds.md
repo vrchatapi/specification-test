@@ -2,17 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/0/defaultContentSettings``,
-* Unexpected property at ``#/1/defaultContentSettings``,
-* Unexpected property at ``#/2/defaultContentSettings``,
-* Unexpected property at ``#/3/defaultContentSettings``,
-* Unexpected property at ``#/4/defaultContentSettings``,
-* Unexpected property at ``#/5/defaultContentSettings``,
-* Unexpected property at ``#/6/defaultContentSettings``,
-* Unexpected property at ``#/7/defaultContentSettings``,
-* Unexpected property at ``#/8/defaultContentSettings``,
-* Unexpected property at ``#/8/storeId``,
-* Unexpected property at ``#/9/defaultContentSettings``,
+* Unexpected property at ``#/7/storeId``,
 * Unexpected property at ``#/9/storeId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/active`

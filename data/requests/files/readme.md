@@ -59,4 +59,16 @@ Get the security performance analysis for the uploaded assets of an avatar
 Get the standard performance analysis for the uploaded assets of an avatar
 
 * [getFileAnalysisStandard](./getfileanalysisstandard.md)
+## Upload gallery image, icon, emoji or sticker
+Upload an image, which can be an icon, gallery image, sticker or emoji
+
+> Missing coverage.
+## Upload icon
+Upload an icon
+
+> Missing coverage.
+## Upload gallery image
+Upload a gallery image
+
+> Missing coverage.
 	
