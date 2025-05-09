@@ -6,28 +6,28 @@
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
+| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
-`403 Forbidden`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
+| accept-ranges | `bytes` |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/json` |
+| content-length | `19` |
+| content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Accept-Encoding` |
+| vary | `Origin, Accept-Encoding` |
+| x-frame-options | `deny` |
 
 ```jsonc
 {
-  "error": {
-    "message": "\"the IP address or network you're trying to connect from is blacklisted (spamhaus_drop list). if you're using a vpn, try disabling it first. if you believe to have gotten this message in error, please contact support at help.vrchat.com\"",
-    "status_code": 403,
-    "waf_code": 42860,
-    "waf_list": "spamhaus_drop"
-  }
+  "userExists": true
 }
 ```

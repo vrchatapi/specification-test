@@ -3,7 +3,9 @@
 ## Search All Users
 Search and list any users by text query
 
-> Missing coverage.
+* [searchUsers without parameters](./searchusers-without-parameters.md)
+* [searchUsers](./searchusers.md)
+* [searchUsers with limit](./searchusers-with-limit.md)
 ## Get User by Username
 ~~Get public user information about a specific user using their name.~~
 
@@ -14,7 +16,7 @@ This endpoint now require Admin Credentials.
 ## Get User by ID
 Get public user information about a specific user using their ID.
 
-> Missing coverage.
+* [getUser](./getuser.md)
 ## Update User Info
 Update a users information such as the email and birthday.
 
@@ -34,19 +36,19 @@ Returns the current group that the user is currently representing
 ## Get User Feedback
 Get user's submitted feedback
 
-> Missing coverage.
+* [getUserFeedback](./getuserfeedback.md)
 ## Get User Notes
 Get recently updated user notes
 
-> Missing coverage.
+* [getUserNotes](./getusernotes.md)
 ## Update User Note
 Updates the currently authenticated user's note on a user
 
-> Missing coverage.
+* [updateUserNote](./updateusernote.md)
 ## Get User Note
 Get a particular user note
 
-> Missing coverage.
+* [getUserNote](./getusernote.md)
 ## Add User Tags
 Adds tags to the user's profile
 

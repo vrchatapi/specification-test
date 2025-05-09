@@ -2,123 +2,59 @@
 
 ## Issues
 Response schema mismatch:
-* Missing property at ``#/VoiceEnableDegradation``,
-* Missing property at ``#/VoiceEnableReceiverLimiting``,
-* Missing property at ``#/accessLogsUrls``,
-* Missing property at ``#/address``,
-* Missing property at ``#/ageVerificationInviteVisible``,
-* Missing property at ``#/ageVerificationP``,
-* Missing property at ``#/ageVerificationStatusVisible``,
-* Missing property at ``#/analysisMaxRetries``,
-* Missing property at ``#/analysisRetryInterval``,
-* Missing property at ``#/announcements``,
-* Missing property at ``#/analyticsSegment_NewUI_PctOfUsers``,
-* Missing property at ``#/analyticsSegment_NewUI_Salt``,
-* Missing property at ``#/availableLanguageCodes``,
-* Missing property at ``#/availableLanguages``,
-* Missing property at ``#/avatarPerfLimiter``,
-* Missing property at ``#/chatboxLogBufferSeconds``,
-* Missing property at ``#/clientApiKey``,
-* Missing property at ``#/clientBPSCeiling``,
-* Missing property at ``#/clientNetDispatchThreadMobile``,
-* Missing property at ``#/clientDisconnectTimeout``,
-* Missing property at ``#/clientReservedPlayerBPS``,
-* Missing property at ``#/clientSentCountAllowance``,
-* Missing property at ``#/contactEmail``,
-* Missing property at ``#/constants``,
-* Missing property at ``#/copyrightEmail``,
-* Missing property at ``#/currentTOSVersion``,
-* Missing property at ``#/defaultAvatar``,
-* Missing property at ``#/defaultStickerSet``,
-* Missing property at ``#/devSdkUrl``,
-* Missing property at ``#/devSdkVersion``,
-* Missing property at ``#/dis-countdown``,
-* Missing property at ``#/disableAvatarCopying``,
-* Missing property at ``#/disableAvatarGating``,
-* Missing property at ``#/disableCommunityLabs``,
-* Missing property at ``#/disableCommunityLabsPromotion``,
-* Missing property at ``#/disableEmail``,
-* Missing property at ``#/disableEventStream``,
-* Missing property at ``#/disableFeedbackGating``,
-* Missing property at ``#/disableFrontendBuilds``,
-* Missing property at ``#/disableGiftDrops``,
-* Missing property at ``#/disableHello``,
-* Missing property at ``#/disableOculusSubs``,
-* Missing property at ``#/disableRegistration``,
-* Missing property at ``#/disableSteamNetworking``,
-* Missing property at ``#/disableTwoFactorAuth``,
-* Missing property at ``#/disableUdon``,
-* Missing property at ``#/disableUpgradeAccount``,
-* Missing property at ``#/downloadLinkWindows``,
-* Missing property at ``#/downloadUrls``,
-* Missing property at ``#/dynamicWorldRows``,
-* Missing property at ``#/events``,
-* Missing property at ``#/forceUseLatestWorld``,
-* Missing property at ``#/giftDisplayType``,
-* Missing property at ``#/googleApiClientId``,
-* Missing property at ``#/homeWorldId``,
-* Missing property at ``#/homepageRedirectTarget``,
-* Missing property at ``#/hubWorldId``,
-* Missing property at ``#/imageHostUrlList``,
-* Missing property at ``#/jobsEmail``,
-* Missing property at ``#/minSupportedClientBuildNumber``,
-* Missing property at ``#/minimumUnityVersionForUploads``,
-* Missing property at ``#/moderationEmail``,
-* Missing property at ``#/notAllowedToSelectAvatarInPrivateWorldMessage``,
-* Missing property at ``#/offlineAnalysis``,
-* Missing property at ``#/photonNameserverOverrides``,
-* Missing property at ``#/photonPublicKeys``,
-* Missing property at ``#/reportCategories``,
-* Missing property at ``#/reportFormUrl``,
-* Missing property at ``#/reportOptions``,
-* Missing property at ``#/reportReasons``,
-* Missing property at ``#/requireAgeVerificationBetaTag``,
-* Missing property at ``#/sdkDeveloperFaqUrl``,
-* Missing property at ``#/sdkDiscordUrl``,
-* Missing property at ``#/sdkNotAllowedToPublishMessage``,
-* Missing property at ``#/sdkUnityVersion``,
-* Missing property at ``#/stringHostUrlList``,
-* Missing property at ``#/supportEmail``,
-* Missing property at ``#/supportFormUrl``,
-* Missing property at ``#/timekeeping``,
-* Missing property at ``#/timeOutWorldId``,
-* Missing property at ``#/tutorialWorldId``,
-* Missing property at ``#/updateRateMsMaximum``,
-* Missing property at ``#/updateRateMsMinimum``,
-* Missing property at ``#/updateRateMsNormal``,
-* Missing property at ``#/updateRateMsUdonManual``,
-* Missing property at ``#/uploadAnalysisPercent``,
-* Missing property at ``#/urlList``,
-* Missing property at ``#/useReliableUdpForVoice``,
-* Missing property at ``#/viveWindowsUrl``,
-* Missing property at ``#/whiteListedAssetUrls``,
-* Missing property at ``#/player-url-resolver-version``,
-* Missing property at ``#/player-url-resolver-sha1``,
-* Missing property at ``#/publicKey``,
-* Missing property at ``#/websocketMaxFriendsRefreshDelay``,
-* Missing property at ``#/websocketQuickReconnectTime``,
-* Missing property at ``#/websocketReconnectMaxDelay``,
-* Unexpected property at ``#/error``.
+* Unexpected property at ``#/BoneFocacciaSearchDisplay``,
+* Unexpected property at ``#/CampaignStatus``,
+* Unexpected property at ``#/HoistFoxDistance``,
+* Unexpected property at ``#/SegmentLibraryLibraryFirewallText``,
+* Unexpected property at ``#/accountCursed``,
+* Unexpected property at ``#/datagramLoaderSouvenir``,
+* Unexpected property at ``#/economyLedgerBackfill``,
+* Unexpected property at ``#/economyLedgerMode``,
+* Unexpected property at ``#/embedStickerTargetInstanceEac``,
+* Unexpected property at ``#/executeRttImpostor``,
+* Unexpected property at ``#/firePreviousActiveHistoryFriend``,
+* Unexpected property at ``#/globalCacheVersion``,
+* Unexpected property at ``#/globalCacheVersionDefault``,
+* Unexpected property at ``#/instanceQueryDocumentationAuthentication``,
+* Unexpected property at ``#/iosAppVersion``,
+* Unexpected property at ``#/iosVersion``,
+* Unexpected property at ``#/itineraryFileBeach``,
+* Unexpected property at ``#/lossAnalysisGender``,
+* Unexpected property at ``#/maxUserEmoji``,
+* Unexpected property at ``#/maxUserStickers``,
+* Unexpected property at ``#/mochaScreenFocacciaDocker``,
+* Unexpected property at ``#/ninkilim``,
+* Unexpected property at ``#/ownershipUpdatedContainerThresholdMerge``,
+* Unexpected property at ``#/questMinimumLowMemoryThreshold``,
+* Unexpected property at ``#/slotBuildMetricCursedPermanent``,
+* Unexpected property at ``#/tierDeployToolboxTime``,
+* Unexpected property at ``#/udpExtendedSoap``,
+* Unexpected property at ``#/udpOnly``,
+* Unexpected property at ``#/use_void_requiem_core``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
+| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
-`403 Forbidden`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/json` |
+| content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
-| vary | `Accept-Encoding` |
+| vary | `Origin, Accept-Encoding` |
+| x-frame-options | `deny` |
 
 ```jsonc
 <unstable>

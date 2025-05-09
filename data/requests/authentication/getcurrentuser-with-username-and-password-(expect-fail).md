@@ -48,7 +48,7 @@ Response schema mismatch:
 * Missing property at ``#/isAdult``,
 * Missing property at ``#/ageVerificationStatus``,
 * Missing property at ``#/ageVerified``,
-* Unexpected property at ``#/error``.
+* Unexpected property at ``#/requiresTwoFactorAuth``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -59,25 +59,28 @@ Response schema mismatch:
 
 
 ## Response
-`403 Forbidden`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
+| accept-ranges | `bytes` |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/json` |
+| content-length | `40` |
+| content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Accept-Encoding` |
+| set-cookie | `<redacted>` |
+| vary | `Authorization, Accept-Encoding` |
+| x-frame-options | `deny` |
 
 ```jsonc
 {
-  "error": {
-    "message": "\"the IP address or network you're trying to connect from is blacklisted (spamhaus_drop list). if you're using a vpn, try disabling it first. if you believe to have gotten this message in error, please contact support at help.vrchat.com\"",
-    "status_code": 403,
-    "waf_code": 42860,
-    "waf_list": "spamhaus_drop"
-  }
+  "requiresTwoFactorAuth": [
+    "totp",
+    "otp"
+  ]
 }
 ```

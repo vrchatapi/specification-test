@@ -3,7 +3,7 @@
 ## List Notifications
 Retrieve all of the current user's notifications.
 
-> Missing coverage.
+* [getNotifications](./getnotifications.md)
 ## Show notification
 Get a notification by notification `not_` ID.
 
