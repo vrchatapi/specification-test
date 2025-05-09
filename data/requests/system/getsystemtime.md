@@ -1,30 +1,28 @@
 # getSystemTime
 
+## Issues
+Response schema mismatch:
+* Invalid type at ``#``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/time`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
-`200 OK`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
-| accept-ranges | `bytes` |
-| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `27` |
-| content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
+| content-type | `application/json` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Origin, Accept-Encoding` |
-| x-frame-options | `deny` |
+| transfer-encoding | `chunked` |
+| vary | `Accept-Encoding` |
 
 ```jsonc
 <unstable>
