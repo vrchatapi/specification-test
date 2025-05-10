@@ -2,35 +2,34 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/BoneFocacciaSearchDisplay``,
+* Unexpected property at ``#/events/useDirectPlayerSerialization``,
 * Unexpected property at ``#/CampaignStatus``,
-* Unexpected property at ``#/HoistFoxDistance``,
-* Unexpected property at ``#/SegmentLibraryLibraryFirewallText``,
-* Unexpected property at ``#/accountCursed``,
+* Unexpected property at ``#/branchFarPrototype``,
+* Unexpected property at ``#/connectionMiddlewareBone``,
+* Unexpected property at ``#/countryPrimaryMergeBirdIpv4``,
 * Unexpected property at ``#/datagramLoaderSouvenir``,
+* Unexpected property at ``#/deploymentNextWebsocket``,
+* Unexpected property at ``#/eacLoggingFriendHead``,
 * Unexpected property at ``#/economyLedgerBackfill``,
 * Unexpected property at ``#/economyLedgerMode``,
-* Unexpected property at ``#/embedStickerTargetInstanceEac``,
-* Unexpected property at ``#/executeRttImpostor``,
+* Unexpected property at ``#/eventsUploadTracingClone``,
 * Unexpected property at ``#/firePreviousActiveHistoryFriend``,
 * Unexpected property at ``#/globalCacheVersion``,
 * Unexpected property at ``#/globalCacheVersionDefault``,
 * Unexpected property at ``#/instanceQueryDocumentationAuthentication``,
 * Unexpected property at ``#/iosAppVersion``,
 * Unexpected property at ``#/iosVersion``,
-* Unexpected property at ``#/itineraryFileBeach``,
-* Unexpected property at ``#/lossAnalysisGender``,
 * Unexpected property at ``#/maxUserEmoji``,
 * Unexpected property at ``#/maxUserStickers``,
 * Unexpected property at ``#/mochaScreenFocacciaDocker``,
 * Unexpected property at ``#/ninkilim``,
-* Unexpected property at ``#/ownershipUpdatedContainerThresholdMerge``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
-* Unexpected property at ``#/slotBuildMetricCursedPermanent``,
+* Unexpected property at ``#/reportPointer``,
+* Unexpected property at ``#/reverseBuild``,
+* Unexpected property at ``#/routingNameWhois``,
 * Unexpected property at ``#/tierDeployToolboxTime``,
-* Unexpected property at ``#/udpExtendedSoap``,
-* Unexpected property at ``#/udpOnly``,
-* Unexpected property at ``#/use_void_requiem_core``.
+* Unexpected property at ``#/use_void_requiem_core``,
+* Unexpected property at ``#/videoDeploymentUpload``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

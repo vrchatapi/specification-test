@@ -78,7 +78,7 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/9/storeId``.
+* Unexpected property at ``#/6/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -400,11 +400,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/BoneFocacciaSearchDisplay``,
+* Unexpected property at ``#/events/useDirectPlayerSerialization``,
 * Unexpected property at ``#/CampaignStatus``,
-* Unexpected property at ``#/HoistFoxDistance``,
+* Unexpected property at ``#/branchFarPrototype``,
 
-*26 issues truncated.*
+*25 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
