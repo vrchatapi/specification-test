@@ -78,8 +78,7 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/6/storeId``,
-* Unexpected property at ``#/8/storeId``.
+* Unexpected property at ``#/5/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -405,7 +404,7 @@ Response schema mismatch:
 * Invalid type at ``#/economyPauseStart``,
 * Unexpected property at ``#/events/useDirectPlayerSerialization``,
 
-*29 issues truncated.*
+*27 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

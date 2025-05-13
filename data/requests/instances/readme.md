@@ -7,7 +7,7 @@ Create an instance
 ## Close Instance
 Close an instance or update the closedAt time when it will be closed.
 
-You can only close an instance if the ownerId is yourself or if the instance owner is a group and you have the `group-instance-moderate` permission.
+You can only close an instance if the ownerId is yourself or if the instance owner is a group and you have the `group-instance-manage` permission.
 
 > Missing coverage.
 ## Get Instance

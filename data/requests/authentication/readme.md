@@ -29,6 +29,10 @@ Finishes the login sequence with a normal 2FA-generated code for accounts with 2
 
 * [verify2FA while missing credentials](./verify2fa-while-missing-credentials.md)
 * [verify2FA](./verify2fa.md)
+## Get 2FA Recovery codes
+Gets the OTP (One Time Password) recovery codes for accounts with 2FA-protection enabled.
+
+> Missing coverage.
 ## Verify 2FA code with Recovery code
 Finishes the login sequence with an OTP (One Time Password) recovery code for accounts with 2FA-protection enabled.
 
