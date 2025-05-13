@@ -78,7 +78,8 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/7/storeId``.
+* Unexpected property at ``#/6/storeId``,
+* Unexpected property at ``#/8/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -388,23 +389,23 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/shortName``,
 * Unexpected property at ``#/0data/iconImageUrl``,
 
-*1207 issues truncated.*
+*1190 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
+* Invalid type at ``#/0/startDate``,
+* Invalid type at ``#/0/endDate``,
 
-*38 issues truncated.*
+*35 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
+* Invalid type at ``#/economyPauseEnd``,
+* Invalid type at ``#/economyPauseStart``,
 * Unexpected property at ``#/events/useDirectPlayerSerialization``,
-* Unexpected property at ``#/CampaignStatus``,
-* Unexpected property at ``#/animatorEmbedBlockOwnership``,
 
-*32 issues truncated.*
+*29 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
