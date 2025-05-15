@@ -78,8 +78,8 @@ Response schema mismatch:
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/7/storeId``,
-* Unexpected property at ``#/9/storeId``.
+* Unexpected property at ``#/5/storeId``,
+* Unexpected property at ``#/8/storeId``.
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
@@ -159,7 +159,9 @@ Response schema mismatch:
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/economyState``.
+* Unexpected property at ``#/economyState``,
+* Unexpected property at ``#/plannedOfflineWindowEnd``,
+* Unexpected property at ``#/plannedOfflineWindowStart``.
 
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
@@ -401,11 +403,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Invalid type at ``#/economyPauseEnd``,
-* Invalid type at ``#/economyPauseStart``,
 * Unexpected property at ``#/events/useDirectPlayerSerialization``,
+* Unexpected property at ``#/CampaignStatus``,
+* Unexpected property at ``#/authDocsOrchestration``,
 
-*29 issues truncated.*
+*22 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
