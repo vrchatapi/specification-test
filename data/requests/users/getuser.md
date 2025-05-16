@@ -77,8 +77,8 @@
   "bio": "VRChat Head of Community․\n\nabove all else‚ be kind․",
   "bioLinks": [
     "https://vrchat.com/",
-    "https://dtupper.com/",
-    "https://bsky.app/profile/dtupper.com"
+    "https://bsky.app/profile/dtupper.com",
+    "https://dtupper.com/"
   ],
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarTags": [],

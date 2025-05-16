@@ -2,9 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/economyState``,
-* Unexpected property at ``#/plannedOfflineWindowEnd``,
-* Unexpected property at ``#/plannedOfflineWindowStart``.
+* Unexpected property at ``#/economyState``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/tilia/status`
 
@@ -19,22 +17,21 @@ Response schema mismatch:
 
 | Header | Value |
 | ------ | ----- |
+| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `39` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
   "economyOnline": true,
-  "economyState": 1,
-  "plannedOfflineWindowEnd": "2025-05-15T16:05:00.000Z",
-  "plannedOfflineWindowStart": "2025-05-15T14:55:00.000Z"
+  "economyState": 1
 }
 ```
