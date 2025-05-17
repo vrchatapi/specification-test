@@ -8,6 +8,10 @@ Searches Groups by name or shortCode
 Creates a Group and returns a Group object. **Requires VRC+ Subscription.**
 
 * [createGroup](./creategroup.md)
+## Get Group Role Templates
+Obtain predefined templates for group roles
+
+> Missing coverage.
 ## Delete Group
 Deletes a Group.
 

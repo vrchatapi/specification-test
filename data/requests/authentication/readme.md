@@ -24,11 +24,27 @@ The auth string after `Authorization: Basic {string}` is a base64-encoded string
 * [getCurrentUser with username and password (expect fail)](./getcurrentuser-with-username-and-password-(expect-fail).md)
 * [getCurrentUser after two-factor authentication](./getcurrentuser-after-two-factor-authentication.md)
 * [getCurrentUser after logout to log back in](./getcurrentuser-after-logout-to-log-back-in.md)
+## Disable 2FA
+Disables 2FA for the currently logged in account
+
+> Missing coverage.
 ## Verify 2FA code
 Finishes the login sequence with a normal 2FA-generated code for accounts with 2FA-protection enabled.
 
 * [verify2FA while missing credentials](./verify2fa-while-missing-credentials.md)
 * [verify2FA](./verify2fa.md)
+## Cancel pending enabling of time-based 2FA codes
+Cancels the sequence for enabling time-based 2FA.
+
+> Missing coverage.
+## Enable time-based 2FA codes
+Begins the sequence for enabling time-based 2FA.
+
+> Missing coverage.
+## Verify Pending 2FA code
+Finishes sequence for enabling time-based 2FA.
+
+> Missing coverage.
 ## Get 2FA Recovery codes
 Gets the OTP (One Time Password) recovery codes for accounts with 2FA-protection enabled.
 
@@ -55,6 +71,26 @@ Deletes the account with given ID. Normal users only have permission to delete t
 **VRC+ NOTE:** Despite the 14-days cooldown, any VRC+ subscription will be cancelled **immediately**.
 
 **METHOD NOTE:** Despite this being a Delete action, the method type required is PUT.
+
+> Missing coverage.
+## Register User Account
+~~Register a new user account.~~
+
+**DEPRECATED:** Automated creation of accounts has no legitimate public third-party use case, and would be in violation of ToS §13.2:
+*By using the Platform, you agree not to: i. [...] use the Platform in a manner inconsistent with individual human usage*
+This endpoint is documented in the interest of completeness
+
+> Missing coverage.
+## Resend Email Confirmation
+Requests a resend of pending email address confirmation email
+
+> Missing coverage.
+## Confirm Email
+Confirms the email address for a user
+
+> Missing coverage.
+## Verify Login Place
+Verifies a login attempt for a user
 
 > Missing coverage.
 	
