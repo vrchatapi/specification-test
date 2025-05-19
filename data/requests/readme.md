@@ -75,13 +75,10 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/6/storeId``,
-* Unexpected property at ``#/9/storeId``.
-
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
+
+
+#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
@@ -116,25 +113,16 @@ Response schema mismatch:
 
 ## [Avatars](/data/requests/avatars)
 
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/searchable``.
+
+#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
+
 
 #### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/searchable``,
-* Unexpected property at ``#/1/searchable``,
-* Unexpected property at ``#/2/searchable``,
 
-*7 issues truncated.*
-#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/searchable``.
-
-#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
@@ -155,11 +143,6 @@ Response schema mismatch:
 
 
 ## [Economy](/data/requests/economy)
-
-#### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/economyState``.
 
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
@@ -201,6 +184,9 @@ Response schema mismatch:
 
 
 #### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
+
+
+#### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 
 #### [getTiliaTos](/data/requests/economy/gettiliatos.md)
@@ -405,7 +391,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*32 issues truncated.*
+*33 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

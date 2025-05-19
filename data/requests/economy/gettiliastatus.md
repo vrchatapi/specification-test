@@ -1,8 +1,5 @@
 # getTiliaStatus
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/economyState``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/tilia/status`
 

@@ -1,8 +1,5 @@
 # getOwnAvatar
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/searchable``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 
