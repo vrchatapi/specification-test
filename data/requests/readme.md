@@ -227,21 +227,6 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/encryptionKey``.
-
-#### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/encryptionKey``.
-
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/encryptionKey``.
-
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -264,6 +249,15 @@ Response schema mismatch:
 
 
 #### [deleteFile](/data/requests/files/deletefile.md)
+
+
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+
+#### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
+
+
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
