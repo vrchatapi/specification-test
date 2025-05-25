@@ -2,7 +2,7 @@ import { randomUUID } from "node:crypto";
 
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 import { state, unstableValues } from "./_cache.js";
-import { vrchatFriendId } from "./_consts.js";
+import { vrchatFriendId, vrcWikiTeamGroupId } from "./_consts.js";
 
 const unstableGroupKeys = [
 	"id",
@@ -140,6 +140,42 @@ test.serial(
 		});
 	}
 );
+
+test.serial(testOperation, "updateGroupRepresentation", () => ({
+	parameters: {
+		groupId: state.get("groupId"),
+	},
+	requestBody: {
+		isRepresenting: true,
+	},
+	statusCode: 200,
+}));
+
+test.serial(
+	"with group user is not a member of",
+	testOperation,
+	"updateGroupRepresentation",
+	{
+		parameters: {
+			groupId: vrcWikiTeamGroupId,
+		},
+		requestBody: {
+			isRepresenting: false,
+		},
+		statusCode: 403,
+	}
+);
+
+test.serial("with invalid group", testOperation, "updateGroupRepresentation", {
+	parameters: {
+		groupId: "grp_00000000-0000-0000-0000-000000000000",
+	},
+	requestBody: {
+		isRepresenting: false,
+	},
+	statusCode: 403,
+});
+
 
 test.serial(testOperation, "deleteGroupInvite", () => ({
 	parameters: {
