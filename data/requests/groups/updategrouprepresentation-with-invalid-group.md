@@ -1,31 +1,41 @@
-# getCurrentOnlineUsers
+# updateGroupRepresentation with invalid group
 
 ## Request
-`GET https://api.vrchat.cloud/api/1/visits`
+`PUT https://api.vrchat.cloud/api/1/groups/grp_00000000-0000-0000-0000-000000000000/representation`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
+| content-type | `application/json` |
 | cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
+
+```json
+{
+  "isRepresenting": false
+}
+```
 
 
 ## Response
-`200 OK`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
-| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `5` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Origin, Accept-Encoding` |
+| transfer-encoding | `chunked` |
+| vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "error": {
+    "message": "You're not a member․",
+    "status_code": 403
+  }
+}
 ```

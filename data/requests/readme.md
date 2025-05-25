@@ -304,6 +304,15 @@ Response schema mismatch:
 #### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 
+#### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
+
+
+#### [updateGroupRepresentation with group user is not a member of](/data/requests/groups/updategrouprepresentation-with-group-user-is-not-a-member-of.md)
+
+
+#### [updateGroupRepresentation with invalid group](/data/requests/groups/updategrouprepresentation-with-invalid-group.md)
+
+
 #### [deleteGroupInvite](/data/requests/groups/deletegroupinvite.md)
 
 
@@ -385,7 +394,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*29 issues truncated.*
+*25 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

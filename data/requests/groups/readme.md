@@ -147,6 +147,14 @@ Delete a Group post
 Edits a Group post
 
 > Missing coverage.
+## Update Group Representation
+Updates whether the user is representing the group.
+
+When `isRepresenting` is set to `true`, this flag will be set to `false` for all other groups
+
+* [updateGroupRepresentation](./updategrouprepresentation.md)
+* [updateGroupRepresentation with group user is not a member of](./updategrouprepresentation-with-group-user-is-not-a-member-of.md)
+* [updateGroupRepresentation with invalid group](./updategrouprepresentation-with-invalid-group.md)
 ## Cancel Group Join Request
 Cancels a request sent to join the group.
 
