@@ -55,6 +55,24 @@
     "imageUrl": "https://assets.vrchat.com/www/images/credits/CreditBundle_2400.png"
   },
   {
+    "id": "vrchat-credit-bundle-3600",
+    "steamItemId": "6006",
+    "oculusSku": "vrchat-credits-3600",
+    "amount": 2999,
+    "description": "3600 VRChat Credits",
+    "tokens": 3600,
+    "imageUrl": "https://assets.vrchat.com/www/images/credits/CreditBundle_3600.png"
+  },
+  {
+    "id": "vrchat-credit-bundle-4800",
+    "steamItemId": "6007",
+    "oculusSku": "vrchat-credits-4800",
+    "amount": 3999,
+    "description": "4800 VRChat Credits",
+    "tokens": 4800,
+    "imageUrl": "https://assets.vrchat.com/www/images/credits/CreditBundle_4800.png"
+  },
+  {
     "id": "vrchat-credit-bundle-6000",
     "steamItemId": "6004",
     "oculusSku": "vrchat-credits-6000",
@@ -62,6 +80,15 @@
     "description": "6000 VRChat Credits",
     "tokens": 6000,
     "imageUrl": "https://assets.vrchat.com/www/images/credits/CreditBundle_6000.png"
+  },
+  {
+    "id": "vrchat-credit-bundle-9000",
+    "steamItemId": "6008",
+    "oculusSku": "vrchat-credits-9000",
+    "amount": 7499,
+    "description": "9000 VRChat Credits",
+    "tokens": 9000,
+    "imageUrl": "https://assets.vrchat.com/www/images/credits/CreditBundle_9000.png"
   },
   {
     "id": "vrchat-credit-bundle-12000",
