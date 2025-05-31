@@ -113,16 +113,25 @@ Response schema mismatch:
 
 ## [Avatars](/data/requests/avatars)
 
-#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
-
-#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
-
+Response schema mismatch:
+* Unexpected property at ``#/performance``.
 
 #### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/0/performance``,
+* Unexpected property at ``#/1/performance``,
+* Unexpected property at ``#/2/performance``,
 
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+*7 issues truncated.*
+#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/performance``.
+
+#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
 
 
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
@@ -394,7 +403,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*26 issues truncated.*
+*30 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

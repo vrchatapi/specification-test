@@ -1,5 +1,8 @@
 # getOwnAvatar
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/performance``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 
@@ -35,6 +38,14 @@
   "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "name": "Robot",
+  "performance": {
+    "android": "Medium",
+    "android-sort": 3,
+    "ios": "Medium",
+    "ios-sort": 3,
+    "standalonewindows": "Excellent",
+    "standalonewindows-sort": 5
+  },
   "releaseStatus": "public",
   "searchable": false,
   "styles": {
