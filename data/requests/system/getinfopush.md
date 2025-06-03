@@ -4,14 +4,10 @@
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
-* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
-* Unexpected property at ``#/1/experiment``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
@@ -23,10 +19,13 @@ Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Invalid type at ``#/3/startDate``,
 * Invalid type at ``#/3/endDate``,
+* Unexpected property at ``#/3/experiment``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
+* Invalid type at ``#/4/startDate``,
 * Invalid type at ``#/4/endDate``,
+* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
@@ -35,11 +34,20 @@ Response schema mismatch:
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
+* Invalid type at ``#/6/endDate``,
+* Unexpected property at ``#/6/regions``,
+* Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
 * Invalid type at ``#/7/startDate``,
 * Invalid type at ``#/7/endDate``,
 * Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``.
+* Unexpected property at ``#/7/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
+* Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
+* Invalid type at ``#/9/startDate``,
+* Invalid type at ``#/9/endDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -67,6 +75,58 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2025-06-02T12:18:20.647Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b768b86a-d35b-4129-afae-52669557556e.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_c3e7d4da-8272-49da-bd4f-28b25302e297"
+        ]
+      }
+    },
+    "endDate": "2025-06-23T04:00:00.000Z",
+    "hash": "ips_avm-launch74f-40a8-b60c-3ea574083d69",
+    "id": "ips_avm-launch74f-40a8-b60c-3ea574083d69",
+    "isEnabled": true,
+    "priority": 695,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-06-02T20:54:32.130Z"
+  },
+  {
+    "createdAt": "2025-05-27T13:47:23.281Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b4af0360-d6ba-4652-89eb-661c417ddc69.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_89c46403-f74b-47a5-82c2-01a797533c9f"
+        ]
+      }
+    },
+    "endDate": "2025-06-05T04:00:00.000Z",
+    "hash": "ips_furality-preregistratio-c65a6c902967",
+    "id": "ips_furality-preregistratio-c65a6c902967",
+    "isEnabled": true,
+    "priority": 696,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-06-02T15:52:43.896Z"
+  },
   {
     "createdAt": "2025-03-17T18:03:40.088Z",
     "data": {
