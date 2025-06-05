@@ -1,5 +1,8 @@
 # getTokenBundles
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0/googleProductId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/tokenBundles`
 
@@ -31,6 +34,7 @@
     "id": "vrchat-credit-bundle-600",
     "steamItemId": "6001",
     "oculusSku": "vrchat-credits-600",
+    "googleProductId": "vrchat.credit.googleplay.600",
     "amount": 499,
     "description": "600 VRChat Credits",
     "tokens": 600,

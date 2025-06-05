@@ -1,5 +1,9 @@
 # getSubscriptions
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0/appleProductId``,
+* Unexpected property at ``#/1/appleProductId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/subscriptions`
 
@@ -34,6 +38,7 @@
     "googleProductId": "vrchat.plus.googleplay.monthly",
     "googlePlanId": "monthly",
     "picoSku": "vrchat_plus_pico_monthly",
+    "appleProductId": "vrchat.plus.apple.monthly",
     "amount": 999,
     "description": "VRChat+ (Monthly)",
     "period": "month",
@@ -46,6 +51,7 @@
     "googleProductId": "vrchat.plus.googleplay.yearly",
     "googlePlanId": "yearly",
     "picoSku": "vrchat_plus_pico_yearly",
+    "appleProductId": "vrchat.plus.apple.yearly",
     "amount": 9999,
     "description": "VRChat+ (Yearly)",
     "period": "year",

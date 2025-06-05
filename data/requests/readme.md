@@ -153,6 +153,11 @@ Response schema mismatch:
 
 ## [Economy](/data/requests/economy)
 
+#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/googleProductId``.
+
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
@@ -169,6 +174,12 @@ Response schema mismatch:
 * Invalid type at ``#/products/2``,
 
 *9 issues truncated.*
+#### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/appleProductId``,
+* Unexpected property at ``#/1/appleProductId``.
+
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -186,13 +197,7 @@ Response schema mismatch:
 #### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
 
 
-#### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
-
-
 #### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
-
-
-#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
 
 
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
@@ -383,11 +388,11 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0data/contentList/bannersTag``,
-* Unexpected property at ``#/0data/contentList/shortName``,
-* Unexpected property at ``#/0data/iconImageUrl``,
+* Unexpected property at ``#/0data/contentList/marketplace``,
+* Unexpected property at ``#/0data/contentList/minPrice``,
+* Unexpected property at ``#/0data/contentList/params``,
 
-*1223 issues truncated.*
+*1287 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -403,7 +408,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*31 issues truncated.*
+*28 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
