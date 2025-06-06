@@ -102,9 +102,9 @@ Response schema mismatch:
     "updatedAt": "2025-06-02T20:54:32.130Z"
   },
   {
-    "createdAt": "2025-05-27T13:47:23.281Z",
+    "createdAt": "2025-06-05T17:21:19.432Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b4af0360-d6ba-4652-89eb-661c417ddc69.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_7f768472-3b10-428f-9ff0-c4ada297890e.png",
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
@@ -112,11 +112,11 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": "2025-06-05T04:00:00.000Z",
-    "hash": "ips_furality-preregistratio-c65a6c902967",
-    "id": "ips_furality-preregistratio-c65a6c902967",
+    "endDate": "2025-06-09T04:00:00.000Z",
+    "hash": "ips_furality-somna-june-5to-645030a8e610",
+    "id": "ips_furality-somna-june-5to-645030a8e610",
     "isEnabled": true,
-    "priority": 696,
+    "priority": 698,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -125,7 +125,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-06-02T15:52:43.896Z"
+    "updatedAt": "2025-06-05T17:23:27.520Z"
   },
   {
     "createdAt": "2025-03-17T18:03:40.088Z",
@@ -146,7 +146,7 @@ Response schema mismatch:
     "hash": "ips_1e730748-06ba-4446-aea9-753b44b9fe0c",
     "id": "ips_1e730748-06ba-4446-aea9-753b44b9fe0c",
     "isEnabled": true,
-    "priority": 698,
+    "priority": 699,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -155,7 +155,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-04-03T17:46:33.690Z"
+    "updatedAt": "2025-06-05T22:27:02.669Z"
   },
   {
     "createdAt": "2025-03-17T18:06:31.696Z",
