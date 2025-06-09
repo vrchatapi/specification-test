@@ -1,7 +1,7 @@
 # updateGroupRepresentation with group user is not a member of
 
 ## Request
-`PUT https://api.vrchat.cloud/api/1/groups/grp_0f1d4450-822e-45d5-b5aa-6a0ea84<unstable>3/representation`
+`PUT https://api.vrchat.cloud/api/1/groups/grp_0f1d4450-822e-45d5-b5aa-6a0ea8402053/representation`
 
 | Header | Value |
 | ------ | ----- |
