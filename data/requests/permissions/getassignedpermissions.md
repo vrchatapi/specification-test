@@ -91,7 +91,7 @@ Response schema mismatch:
     "ownerDisplayName": "Nyx",
     "name": "permission-user-stickers",
     "data": {
-      "max": 9
+      "max": 18
     }
   },
   {
@@ -114,7 +114,7 @@ Response schema mismatch:
     "ownerDisplayName": "Nyx",
     "name": "permission-user-emoji",
     "data": {
-      "max": 9
+      "max": 18
     }
   },
   {
