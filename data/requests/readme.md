@@ -392,7 +392,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/minPrice``,
 * Unexpected property at ``#/0data/contentList/params``,
 
-*1283 issues truncated.*
+*1275 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -408,7 +408,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*35 issues truncated.*
+*33 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

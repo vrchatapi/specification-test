@@ -73,6 +73,14 @@ Response schema mismatch:
     "description": "VRChat Internal Features for Testing",
     "period": "month",
     "tier": 5
+  },
+  {
+    "id": "vrchat-community-testers",
+    "steamItemId": "-10",
+    "amount": 99999999,
+    "description": "VRChat Pre-Release Features For Testers",
+    "period": "month",
+    "tier": 5
   }
 ]
 ```
