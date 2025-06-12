@@ -46,10 +46,10 @@
       "showcased": true
     },
     {
-      "badgeDescription": "Awarded for gifting VRC+ (5 Months)",
-      "badgeId": "bdg_34fe4c95-4937-4295-9bd9-e3fff73b4a16",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/16/bdgai_54a8aa5f-72fc-4356-ad29-7690d435b564.png",
-      "badgeName": "Gift (5 Months)",
+      "badgeDescription": "Awarded for gifting VRC+ (10 Months)",
+      "badgeId": "bdg_66096bcd-1c5f-477b-803a-82a2af7ab675",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/75/bdgai_8c3d61a5-feb9-4440-9760-ead1c9137077.png",
+      "badgeName": "Gift (10 Months)",
       "showcased": false
     },
     {
@@ -65,6 +65,13 @@
       "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_72087107-f2f9-4b01-bd1e-ad461540695a.png",
       "badgeName": "Early Supporter",
       "showcased": true
+    },
+    {
+      "badgeDescription": "Awarded to those who donated to the VRChat 2025 Pride Month Charity Event",
+      "badgeId": "bdg_b8bef28d-277c-4d37-8168-f879362ba9cc",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/cc/bdgai_1ccb7ae1-d09e-4a3f-8cc4-e08c0cd48cd1.png",
+      "badgeName": "Pride Supporter",
+      "showcased": false
     },
     {
       "badgeDescription": "Awarded to those who completed all Hero challenges on mobile",
