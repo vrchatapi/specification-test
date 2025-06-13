@@ -11,7 +11,8 @@ Response schema mismatch:
 * Unexpected property at ``#/12data/maxFavoritesPerGroup``,
 * Unexpected property at ``#/12data/maxFavoriteGroups``,
 * Unexpected property at ``#/13data/tags``,
-* Unexpected property at ``#/13data/badges``.
+* Unexpected property at ``#/13data/badges``,
+* Unexpected property at ``#/19data/max``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/permissions`
 
@@ -194,6 +195,53 @@ Response schema mismatch:
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
     "ownerDisplayName": "Nyx",
     "name": "permission-user-gallery",
+    "data": {}
+  },
+  {
+    "id": "prms_253e6b4d-07f5-4ebf-b07f-99990ded6a7d",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-use-props",
+    "data": {}
+  },
+  {
+    "id": "prms_f3639e26-cacf-4d42-a23d-7f6dca329fd6",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-user-prints-gallery-free",
+    "data": {
+      "max": 60
+    }
+  },
+  {
+    "id": "prms_46dadde5-329c-4711-8f00-4a3a25dfc237",
+    "ownerId": "usr_6c553262-3e43-4daf-a6b9-1fa83b41c85b",
+    "ownerDisplayName": "Slorg",
+    "name": "permission-mass-gifting",
+    "displayName": "Mass Gifting",
+    "description": "Allows a user to purchase gifts in bulk",
+    "data": {}
+  },
+  {
+    "id": "prms_ddbfb4ac-0683-4c31-9290-ee097a51a176",
+    "ownerId": "usr_17f19d1e-fd48-493b-a8ad-807a3d8bdd1b",
+    "ownerDisplayName": "Arctor",
+    "name": "permission-queue-impostors-on-create",
+    "data": {}
+  },
+  {
+    "id": "prms_3fb9997e-6dab-4e52-8a29-767bacbb67a1",
+    "ownerId": "vF8OwsCETo",
+    "ownerDisplayName": "System",
+    "name": "permission-purchase-tokens",
+    "type": "system",
+    "data": {}
+  },
+  {
+    "id": "prms_3e11dbec-b594-46ca-a366-c2a56e758d00",
+    "ownerId": "usr_6c553262-3e43-4daf-a6b9-1fa83b41c85b",
+    "ownerDisplayName": "Slorg",
+    "name": "permission-purchase-gifts",
     "data": {}
   }
 ]
