@@ -76,9 +76,9 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-06-10T21:42:56.741Z",
+    "createdAt": "2025-06-13T18:45:44.113Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_8e9071c4-2dcb-4cad-9037-2183674541b5.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_06ea2228-8e56-4617-853a-6d09f07bcb27.png",
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
@@ -87,8 +87,8 @@ Response schema mismatch:
       }
     },
     "endDate": "2025-07-01T04:00:00.000Z",
-    "hash": "ips_pride20250d8e-4af4-ae72-3bdd1abb05a1",
-    "id": "ips_pride20250d8e-4af4-ae72-3bdd1abb05a1",
+    "hash": "ips_prideupdate8c-4178-a975-24264e05c20a",
+    "id": "ips_prideupdate8c-4178-a975-24264e05c20a",
     "isEnabled": true,
     "priority": 655,
     "regions": [],
@@ -99,7 +99,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-06-11T19:29:17.519Z"
+    "updatedAt": "2025-06-13T21:14:05.579Z"
   },
   {
     "createdAt": "2025-06-02T12:18:20.647Z",

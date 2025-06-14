@@ -32,10 +32,10 @@
   "allowAvatarCopying": false,
   "badges": [
     {
-      "badgeDescription": "Granted to official VRChat Staff",
+      "badgeDescription": "Granted to members of the official VRChat Development Team",
       "badgeId": "bdg_11f41e60-d24e-4358-b7ad-06e2b9d23569",
       "badgeImageUrl": "https://assets.vrchat.com/badges/69/bdgai_ad914c8b-8b9c-42c8-957a-40fde888009a.png",
-      "badgeName": "VRChat Staff",
+      "badgeName": "VRChat Developer",
       "showcased": true
     },
     {
