@@ -161,19 +161,19 @@ Response schema mismatch:
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
+* Missing property at ``#/0/archived``,
+* Missing property at ``#/0/created``,
 * Missing property at ``#/0/groupIcon``,
-* Missing property at ``#/0/groupId``,
-* Missing property at ``#/0/groupName``,
 
-*2402 issues truncated.*
+*2965 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
-* Invalid type at ``#/products/0``,
-* Invalid type at ``#/products/1``,
-* Invalid type at ``#/products/2``,
+* Missing property at ``#/archived``,
+* Missing property at ``#/created``,
+* Missing property at ``#/instant``,
 
-*9 issues truncated.*
+*14 issues truncated.*
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
 
 Response schema mismatch:

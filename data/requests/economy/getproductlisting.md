@@ -2,6 +2,11 @@
 
 ## Issues
 Response schema mismatch:
+* Missing property at ``#/archived``,
+* Missing property at ``#/created``,
+* Missing property at ``#/instant``,
+* Missing property at ``#/permanent``,
+* Missing property at ``#/updated``,
 * Invalid type at ``#/products/0``,
 * Invalid type at ``#/products/1``,
 * Invalid type at ``#/products/2``,
@@ -42,9 +47,7 @@ Response schema mismatch:
 ```jsonc
 {
   "active": true,
-  "archived": false,
   "buyerRefundable": true,
-  "created": "2023-11-19T10:30:17.440Z",
   "description": "Become a Tier 3 Supporterǃ You'll get everything in the previous tiers in addition to all the decoration toggles and access to the Video Playerǃ Additional video UI and screens at some mirror locations․",
   "displayName": "Tier 3 Supporter",
   "duration": 1,
@@ -56,7 +59,6 @@ Response schema mismatch:
   "hasUdon": true,
   "id": "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
   "imageId": "file_a04721c3-f7b2-4943-b70f-dc6c340d5430",
-  "instant": false,
   "listingType": "subscription",
   "listingVariants": [
     {
@@ -84,7 +86,6 @@ Response schema mismatch:
       "unitPriceTokens": 1050
     }
   ],
-  "permanent": false,
   "priceTokens": 1500,
   "productIds": [
     "prod_ba9ed49e-155e-4560-968e-0400b23049b8",
@@ -119,7 +120,6 @@ Response schema mismatch:
   "storeIds": [
     "esto_58413a17-1ea8-42cc-aca3-366acad5494d"
   ],
-  "tags": [],
-  "updated": "2025-03-20T21:25:07.466Z"
+  "tags": []
 }
 ```
