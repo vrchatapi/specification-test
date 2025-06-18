@@ -46,6 +46,16 @@
     "tags": [],
     "type": "avatar",
     "visibility": "private"
+  },
+  {
+    "displayName": "group_0",
+    "id": "fvgrp_4e6cda09-37e7-49a3-81b7-92e5b73fd28f",
+    "name": "group_0",
+    "ownerDisplayName": "8cf3def6b8cea",
+    "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+    "tags": [],
+    "type": "friend",
+    "visibility": "private"
   }
 ]
 ```

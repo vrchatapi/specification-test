@@ -27,7 +27,7 @@
 ```jsonc
 {
   "acceptedPrivacyVersion": 1,
-  "acceptedTOSVersion": 10,
+  "acceptedTOSVersion": 11,
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "ageVerificationStatus": "verified",
@@ -46,7 +46,9 @@
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
   "friendGroupNames": [],
   "friendKey": "c61f12138fd21145f86eca5b51631932",
-  "friends": [],
+  "friends": [
+    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
+  ],
   "googleDetails": {},
   "googleId": "",
   "hasBirthday": true,

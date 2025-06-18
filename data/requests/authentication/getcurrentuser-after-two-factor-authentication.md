@@ -1,5 +1,8 @@
 # getCurrentUser after two-factor authentication
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/presence/debugflag``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -28,10 +31,12 @@
 ```jsonc
 {
   "acceptedPrivacyVersion": 1,
-  "acceptedTOSVersion": 10,
+  "acceptedTOSVersion": 11,
   "accountDeletionDate": null,
   "accountDeletionLog": null,
-  "activeFriends": [],
+  "activeFriends": [
+    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
+  ],
   "ageVerificationStatus": "verified",
   "ageVerified": true,
   "allowAvatarCopying": true,
@@ -70,7 +75,9 @@
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
   "friendGroupNames": [],
   "friendKey": "c61f12138fd21145f86eca5b51631932",
-  "friends": [],
+  "friends": [
+    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
+  ],
   "googleDetails": {},
   "googleId": "",
   "hasBirthday": true,
@@ -96,14 +103,20 @@
   "picoId": "",
   "platform_history": "<unstable: empty array>",
   "presence": {
+    "avatarThumbnail": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "currentAvatarTags": "admin_featured_legacy,admin_content_reviewed",
+    "debugflag": "1",
+    "displayName": "8cf3def6b8cea",
     "groups": [],
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "instance": "offline",
     "instanceType": "",
-    "platform": "",
-    "status": "offline",
+    "platform": "web",
+    "profilePicOverride": "",
+    "status": "active",
     "travelingToInstance": "offline",
     "travelingToWorld": "offline",
+    "userIcon": "",
     "world": "offline"
   },
   "profilePicOverride": "",
