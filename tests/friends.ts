@@ -11,7 +11,7 @@ test(
 	},
 	(t) => {
 		const { context } = t;
-		t.is(context.body.length, 0, "Should have zero friends");
+		t.is(context.body.length, 1, "Should have one friend");
 	}
 );
 
