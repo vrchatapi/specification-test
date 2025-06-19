@@ -7,6 +7,9 @@ test(
 	testOperation,
 	"getFriends",
 	{
+		parameters: {
+			offline: true
+		},
 		statusCode: 200
 	},
 	(t) => {
