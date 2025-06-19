@@ -1,8 +1,5 @@
 # getCurrentUser after two-factor authentication
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/presence/debugflag``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -34,9 +31,7 @@ Response schema mismatch:
   "acceptedTOSVersion": 11,
   "accountDeletionDate": null,
   "accountDeletionLog": null,
-  "activeFriends": [
-    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
-  ],
+  "activeFriends": [],
   "ageVerificationStatus": "verified",
   "ageVerified": true,
   "allowAvatarCopying": true,
@@ -97,26 +92,22 @@ Response schema mismatch:
   "obfuscatedEmail": "<redacted>",
   "obfuscatedPendingEmail": "",
   "oculusId": "",
-  "offlineFriends": [],
+  "offlineFriends": [
+    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
+  ],
   "onlineFriends": [],
   "pastDisplayNames": [],
   "picoId": "",
   "platform_history": "<unstable: empty array>",
   "presence": {
-    "avatarThumbnail": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-    "currentAvatarTags": "admin_featured_legacy,admin_content_reviewed",
-    "debugflag": "1",
-    "displayName": "8cf3def6b8cea",
     "groups": [],
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "instance": "offline",
     "instanceType": "",
-    "platform": "web",
-    "profilePicOverride": "",
-    "status": "active",
+    "platform": "",
+    "status": "offline",
     "travelingToInstance": "offline",
     "travelingToWorld": "offline",
-    "userIcon": "",
     "world": "offline"
   },
   "profilePicOverride": "",

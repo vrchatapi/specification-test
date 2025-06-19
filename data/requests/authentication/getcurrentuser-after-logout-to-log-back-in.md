@@ -34,9 +34,7 @@
   "acceptedTOSVersion": 11,
   "accountDeletionDate": null,
   "accountDeletionLog": null,
-  "activeFriends": [
-    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
-  ],
+  "activeFriends": [],
   "ageVerificationStatus": "verified",
   "ageVerified": true,
   "allowAvatarCopying": true,
@@ -97,7 +95,9 @@
   "obfuscatedEmail": "<redacted>",
   "obfuscatedPendingEmail": "",
   "oculusId": "",
-  "offlineFriends": [],
+  "offlineFriends": [
+    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
+  ],
   "onlineFriends": [],
   "pastDisplayNames": [],
   "picoId": "",
