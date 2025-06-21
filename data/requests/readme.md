@@ -105,6 +105,8 @@ Response schema mismatch:
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
+Response schema mismatch:
+* Missing property at ``#/contentSettings``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -113,25 +115,16 @@ Response schema mismatch:
 
 ## [Avatars](/data/requests/avatars)
 
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/performance``.
+
+#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
+
 
 #### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/performance``,
-* Unexpected property at ``#/1/performance``,
-* Unexpected property at ``#/2/performance``,
 
-*7 issues truncated.*
-#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/performance``.
-
-#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
@@ -153,11 +146,6 @@ Response schema mismatch:
 
 ## [Economy](/data/requests/economy)
 
-#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/googleProductId``.
-
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
@@ -174,12 +162,6 @@ Response schema mismatch:
 * Missing property at ``#/instant``,
 
 *14 issues truncated.*
-#### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/appleProductId``,
-* Unexpected property at ``#/1/appleProductId``.
-
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -197,7 +179,13 @@ Response schema mismatch:
 #### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
 
 
+#### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
+
+
 #### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
+
+
+#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
 
 
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
@@ -408,7 +396,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*31 issues truncated.*
+*30 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

@@ -1,9 +1,5 @@
 # getSubscriptions
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/0/appleProductId``,
-* Unexpected property at ``#/1/appleProductId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/subscriptions`
 
