@@ -105,8 +105,6 @@ Response schema mismatch:
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
-Response schema mismatch:
-* Missing property at ``#/contentSettings``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -396,7 +394,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*30 issues truncated.*
+*35 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
