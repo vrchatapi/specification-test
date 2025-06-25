@@ -1,5 +1,8 @@
 # getCurrentUser after logout to log back in
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/pronounsHistory``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -116,6 +119,7 @@
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",
+  "pronounsHistory": [],
   "receiveMobileInvitations": true,
   "state": "offline",
   "status": "active",

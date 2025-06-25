@@ -2,6 +2,16 @@
 
 ## [Authentication](/data/requests/authentication)
 
+#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/pronounsHistory``.
+
+#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/pronounsHistory``.
+
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -22,9 +32,6 @@ Response schema mismatch:
 #### [verifyAuthToken](/data/requests/authentication/verifyauthtoken.md)
 
 
-#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
-
-
 #### [checkUserExists with zero parameters](/data/requests/authentication/checkuserexists-with-zero-parameters.md)
 
 
@@ -38,9 +45,6 @@ Response schema mismatch:
 
 
 #### [logout logout](/data/requests/authentication/logout-logout.md)
-
-
-#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
 
 
 
@@ -113,6 +117,21 @@ Response schema mismatch:
 
 ## [Avatars](/data/requests/avatars)
 
+#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/pronounsHistory``.
+
+#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/pronounsHistory``.
+
+#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/pronounsHistory``.
+
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
 
@@ -125,16 +144,7 @@ Response schema mismatch:
 #### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 
-#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
-
-
-#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
-
-
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
-
-
-#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
 
 
 #### [getFavoritedAvatars with zero parameters](/data/requests/avatars/getfavoritedavatars-with-zero-parameters.md)
@@ -378,7 +388,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/minPrice``,
 * Unexpected property at ``#/0data/contentList/params``,
 
-*1295 issues truncated.*
+*1319 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -386,7 +396,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 
-*42 issues truncated.*
+*46 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -394,7 +404,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*29 issues truncated.*
+*32 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

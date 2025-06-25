@@ -1,5 +1,8 @@
 # selectAvatar with default avatar id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/pronounsHistory``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
@@ -74,6 +77,7 @@
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",
+  "pronounsHistory": [],
   "receiveMobileInvitations": true,
   "state": "offline",
   "status": "active",
