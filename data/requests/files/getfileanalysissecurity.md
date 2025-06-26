@@ -1,5 +1,8 @@
 # getFileAnalysisSecurity
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/avatarStats/constraintDepth``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/analysis/file_989feccd-3e6d-41f6-bf87-a8b3ece88438/1/security`
 
@@ -40,6 +43,7 @@
     "cameraCount": 0,
     "clothCount": 0,
     "constraintCount": 0,
+    "constraintDepth": 0,
     "contactCount": 2,
     "customExpressions": true,
     "customizeAnimationLayers": true,
