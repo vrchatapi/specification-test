@@ -13,6 +13,10 @@ Search and list avatars by query filters. You can only search your own or featur
 Create an avatar. It's possible to optionally specify a ID if you want a custom one. Attempting to create an Avatar with an already claimed ID will result in a DB error.
 
 > Missing coverage.
+## Get Avatar Styles
+List avatar styles.
+
+> Missing coverage.
 ## Delete Avatar
 Delete an avatar. Notice an avatar is never fully "deleted", only its ReleaseStatus is set to "hidden" and the linked Files are deleted. The AvatarID is permanently reserved.
 

@@ -71,4 +71,8 @@ Upload an icon
 Upload a gallery image
 
 > Missing coverage.
+## Get AdminAssetBundle
+Returns an AdminAssetBundle
+
+> Missing coverage.
 	
