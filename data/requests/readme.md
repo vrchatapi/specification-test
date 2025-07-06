@@ -394,15 +394,15 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/minPrice``,
 * Unexpected property at ``#/0data/contentList/params``,
 
-*1299 issues truncated.*
+*1288 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
-* Unexpected property at ``#/0/regions``,
+* Invalid type at ``#/0/endDate``,
 
-*39 issues truncated.*
+*35 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -410,7 +410,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*33 issues truncated.*
+*31 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
