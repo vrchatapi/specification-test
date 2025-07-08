@@ -5,41 +5,24 @@ Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
-* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Invalid type at ``#/1/startDate``,
 * Invalid type at ``#/1/endDate``,
-* Unexpected property at ``#/1/experiment``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/startDate``,
 * Invalid type at ``#/2/endDate``,
-* Unexpected property at ``#/2/experiment``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Invalid type at ``#/3/startDate``,
-* Invalid type at ``#/3/endDate``,
-* Unexpected property at ``#/3/regions``,
-* Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
+* Invalid type at ``#/4/startDate``,
 * Invalid type at ``#/4/endDate``,
 * Unexpected property at ``#/4/regions``,
-* Unexpected property at ``#/4/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Invalid type at ``#/5/startDate``,
-* Invalid type at ``#/5/endDate``,
-* Unexpected property at ``#/5/regions``,
-* Unexpected property at ``#/5/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Invalid type at ``#/7/startDate``,
-* Invalid type at ``#/7/endDate``,
-* Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``.
+* Unexpected property at ``#/4/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -68,25 +51,21 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-03-17T18:03:40.088Z",
+    "createdAt": "2025-06-24T17:53:34.810Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b36925e3-eed4-40fd-b65d-2bd87a98a6f1.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_7bf4b581-63da-462f-84a1-8a0dcd41e723.png",
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
-          "ips_98ae784a-a28d-4124-b694-5286465148ba"
+          "ips_81e9f0b5-3ada-4632-8155-e855d2de879c"
         ]
       }
     },
     "endDate": null,
-    "experiment": {
-      "key": "",
-      "variant": ""
-    },
-    "hash": "ips_1e730748-06ba-4446-aea9-753b44b9fe0c",
-    "id": "ips_1e730748-06ba-4446-aea9-753b44b9fe0c",
+    "hash": "ips_inventoryrelease3e-b0b8-4b8da35d0a23",
+    "id": "ips_inventoryrelease3e-b0b8-4b8da35d0a23",
     "isEnabled": true,
-    "priority": 699,
+    "priority": 650,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -95,67 +74,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-06-05T22:27:02.669Z"
-  },
-  {
-    "createdAt": "2025-03-17T18:06:31.696Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4543f73a-d8ea-4d5c-90d1-20ba7409f9ec.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_2e9d5aed-1ac8-4720-9071-12d68c39ecb7"
-        ]
-      }
-    },
-    "endDate": null,
-    "experiment": {
-      "key": "",
-      "variant": ""
-    },
-    "hash": "ips_e95d1b81-14d0-4a7c-96ba-ea8c6e82285f",
-    "id": "ips_e95d1b81-14d0-4a7c-96ba-ea8c6e82285f",
-    "isEnabled": true,
-    "priority": 700,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-04-03T17:47:10.235Z"
-  },
-  {
-    "createdAt": "2025-03-17T18:08:43.645Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_aee35d6b-d6cf-4617-b59d-81a86c9e8227.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_321fcc84-f8a5-49f7-bf47-685c10dc177b"
-        ]
-      }
-    },
-    "endDate": null,
-    "experiment": {
-      "key": "",
-      "variant": ""
-    },
-    "hash": "ips_5bf741f9-86ae-4d16-b958-ff8c17a5f3dc",
-    "id": "ips_5bf741f9-86ae-4d16-b958-ff8c17a5f3dc",
-    "isEnabled": true,
-    "priority": 750,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-04-03T17:47:29.432Z"
+    "updatedAt": "2025-07-07T21:04:09.614Z"
   },
   {
     "createdAt": "2025-01-27T21:09:40.711Z",
@@ -182,32 +101,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2025-03-17T17:54:52.830Z"
-  },
-  {
-    "createdAt": "2024-12-05T19:13:29.777Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_c0174675-553d-44f4-85e8-6dc8eeda044f.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_21c479c9-a591-4148-b5a8-4976180bc361"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_84be39d1-c86e-4cb5-936c-135c92cc8392",
-    "id": "ips_84be39d1-c86e-4cb5-936c-135c92cc8392",
-    "isEnabled": true,
-    "priority": 825,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2024-12-06T05:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-03-27T00:18:46.932Z"
   },
   {
     "createdAt": "2024-07-25T21:09:20.823Z",

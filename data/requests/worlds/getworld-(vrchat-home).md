@@ -314,6 +314,18 @@
       "unityVersion": "2022.3.6f1"
     },
     {
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/291/variant/security?v=1749705288",
+      "assetVersion": 4,
+      "created_at": "2025-06-11T20:32:21.708Z",
+      "id": "unp_3f73a8e1-be31-48a0-8a35-2fa947f30c79",
+      "platform": "standalonewindows",
+      "scanStatus": "passed",
+      "unitySortNumber": 20220322000,
+      "unityVersion": "2022.3.22f1",
+      "variant": "security",
+      "worldSignature": "AB+xVaJGq8tVON6J7aAT+gd89TI3cjaXuxW/cMP8k4kp2uvS7w=="
+    },
+    {
       "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/291/file",
       "assetVersion": 4,
       "created_at": "2025-06-11T20:32:21.708Z",
