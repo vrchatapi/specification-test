@@ -161,7 +161,7 @@ Response schema mismatch:
 * Missing property at ``#/0/created``,
 * Missing property at ``#/0/groupIcon``,
 
-*2965 issues truncated.*
+*3055 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -394,7 +394,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/minPrice``,
 * Unexpected property at ``#/0data/contentList/params``,
 
-*1271 issues truncated.*
+*1275 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -410,7 +410,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*30 issues truncated.*
+*35 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
