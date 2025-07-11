@@ -43,7 +43,7 @@ Response schema mismatch:
       "assignedAt": "2024-07-21T22:28:04.790Z",
       "badgeDescription": "Supports VRChat through VRC+",
       "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_8c9cf371-ffd2-4177-9894-1093e2e34bf7.png",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_583f6b13-91ab-4e1b-974e-ab91600b06cb.png",
       "badgeName": "Supporter",
       "hidden": false,
       "showcased": true,
