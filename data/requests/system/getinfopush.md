@@ -89,9 +89,9 @@ Response schema mismatch:
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_68a20032-2e48-4ce6-8bf2-9c5df413df88.png",
       "onPressed": {
-        "command": "OpenWorldDetails",
+        "command": "OpenHelpArticle",
         "parameters": [
-          "wrld_03dac69a-7c9d-468e-a247-db32e5b96d3a"
+          "ips_1ab44443-dc6f-4ccf-b75c-895e318cf99b"
         ]
       }
     },
@@ -108,7 +108,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-07-11T16:29:55.821Z"
+    "updatedAt": "2025-07-14T14:26:53.176Z"
   },
   {
     "createdAt": "2025-06-24T17:53:34.810Z",
