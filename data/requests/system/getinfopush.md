@@ -3,11 +3,11 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
+* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
@@ -26,11 +26,16 @@ Response schema mismatch:
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
+* Invalid type at ``#/5/startDate``,
+* Invalid type at ``#/5/endDate``,
+* Unexpected property at ``#/5/regions``,
+* Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Invalid type at ``#/6/startDate``,
-* Invalid type at ``#/6/endDate``,
-* Unexpected property at ``#/6/regions``,
-* Unexpected property at ``#/6/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
+* Invalid type at ``#/7/startDate``,
+* Invalid type at ``#/7/endDate``,
+* Unexpected property at ``#/7/regions``,
+* Unexpected property at ``#/7/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -58,6 +63,34 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2025-07-16T01:58:10.772Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_42d99cd3-26ab-46be-bf81-7a331d861902.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_1c00687d-06d7-45df-acbb-dd56713a3865"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_bigscreen-beyond-2e-vrc-0ed381e92299",
+    "id": "ips_bigscreen-beyond-2e-vrc-0ed381e92299",
+    "isEnabled": true,
+    "priority": 450,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "platform-pc",
+      "platform-pc-vr",
+      "platform-pc-desktop"
+    ],
+    "updatedAt": "2025-07-16T20:00:10.135Z"
+  },
   {
     "createdAt": "2025-07-09T21:46:45.850Z",
     "data": {

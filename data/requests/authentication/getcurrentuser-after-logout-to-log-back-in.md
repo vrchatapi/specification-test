@@ -53,6 +53,16 @@ Response schema mismatch:
       "updatedAt": "2024-07-21T22:28:04.790Z"
     },
     {
+      "assignedAt": "2025-07-17T01:18:49.553Z",
+      "badgeDescription": "Joined VRChat 2 years ago",
+      "badgeId": "bdg_8f102075-4ac4-4367-aa46-f9c0ca90acac",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/ac/bdgai_e0d294a5-401d-4048-a569-4e3b92d2aed7.png",
+      "badgeName": "2 Years",
+      "hidden": false,
+      "showcased": true,
+      "updatedAt": "2025-07-17T01:18:49.553Z"
+    },
+    {
       "assignedAt": "2025-03-22T20:22:36.532Z",
       "badgeDescription": "Awarded for subscribing to VRC+ (6 Months)",
       "badgeId": "bdg_db6d5d75-ab64-4740-989d-b832c836802f",

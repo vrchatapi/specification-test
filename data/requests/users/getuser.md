@@ -46,6 +46,13 @@
       "showcased": true
     },
     {
+      "badgeDescription": "Joined VRChat 8 years ago",
+      "badgeId": "bdg_4708a50c-2a2f-4204-98be-f844b2f247eb",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/eb/bdgai_47e5526e-de82-46d7-9f85-323cc7ed1d4a.png",
+      "badgeName": "8 Years",
+      "showcased": true
+    },
+    {
       "badgeDescription": "Awarded for gifting VRC+ (10 Months)",
       "badgeId": "bdg_66096bcd-1c5f-477b-803a-82a2af7ab675",
       "badgeImageUrl": "https://assets.vrchat.com/badges/75/bdgai_8c3d61a5-feb9-4440-9760-ead1c9137077.png",
@@ -64,7 +71,7 @@
       "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
       "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_108f0981-f29b-4563-8a3f-f9c0d49f8132.png",
       "badgeName": "Early Supporter",
-      "showcased": true
+      "showcased": false
     },
     {
       "badgeDescription": "Awarded to those who donated to the VRChat 2025 Pride Month Charity Event",
