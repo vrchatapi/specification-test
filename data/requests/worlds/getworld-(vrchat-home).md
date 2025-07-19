@@ -174,6 +174,18 @@
       "unityVersion": "2022.3.6f1"
     },
     {
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/297/variant/security?v=1752821908",
+      "assetVersion": 4,
+      "created_at": "2025-07-12T12:58:27.831Z",
+      "id": "unp_5484b2f9-f5eb-41fb-bc24-28ab0ff63d5b",
+      "platform": "android",
+      "scanStatus": "passed",
+      "unitySortNumber": 20220322000,
+      "unityVersion": "2022.3.22f1",
+      "variant": "security",
+      "worldSignature": "AOM4UTsFYhN0gvnJzbBxHZmfTAd4YPQaFIdQeF3U50pTOYEqLg=="
+    },
+    {
       "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/297/file",
       "assetVersion": 4,
       "created_at": "2025-07-12T12:58:27.831Z",
@@ -201,6 +213,18 @@
       "platform": "ios",
       "unitySortNumber": 20220306000,
       "unityVersion": "2022.3.6f1"
+    },
+    {
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/39/variant/security?v=1752821909",
+      "assetVersion": 4,
+      "created_at": "2025-07-12T12:32:20.898Z",
+      "id": "unp_821dfaee-f412-4280-9b89-07bf43c71835",
+      "platform": "ios",
+      "scanStatus": "passed",
+      "unitySortNumber": 20220322000,
+      "unityVersion": "2022.3.22f1",
+      "variant": "security",
+      "worldSignature": "AIfy8r+oiAMf0cQ/bFwK+LhzNopuZ/k7iDy/7nB4iAeCS1DeZg=="
     },
     {
       "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/39/file",
@@ -312,6 +336,18 @@
       "platform": "standalonewindows",
       "unitySortNumber": 20220306000,
       "unityVersion": "2022.3.6f1"
+    },
+    {
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/295/variant/security?v=1752821909",
+      "assetVersion": 4,
+      "created_at": "2025-07-12T12:52:16.433Z",
+      "id": "unp_256c37e4-5bf9-4a33-8e90-eaf4372a15b1",
+      "platform": "standalonewindows",
+      "scanStatus": "passed",
+      "unitySortNumber": 20220322000,
+      "unityVersion": "2022.3.22f1",
+      "variant": "security",
+      "worldSignature": "ACPPZFinL+tHCq0jLdOBBLvdFQ4cFfK7pjPxAljPMXvXw1RcVQ=="
     },
     {
       "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/295/file",
