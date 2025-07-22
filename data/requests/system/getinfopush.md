@@ -78,7 +78,7 @@ Response schema mismatch:
     "hash": "ips_bigscreen-beyond-2e-vrc-0ed381e92299",
     "id": "ips_bigscreen-beyond-2e-vrc-0ed381e92299",
     "isEnabled": true,
-    "priority": 450,
+    "priority": 620,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -89,7 +89,7 @@ Response schema mismatch:
       "platform-pc-vr",
       "platform-pc-desktop"
     ],
-    "updatedAt": "2025-07-16T20:00:10.135Z"
+    "updatedAt": "2025-07-21T18:55:28.910Z"
   },
   {
     "createdAt": "2025-07-09T21:46:45.850Z",
@@ -106,7 +106,7 @@ Response schema mismatch:
     "hash": "ips_vket-2025-summer7f-8a98-63a3a5c3bd59",
     "id": "ips_vket-2025-summer7f-8a98-63a3a5c3bd59",
     "isEnabled": true,
-    "priority": 600,
+    "priority": 624,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -115,7 +115,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-07-09T21:46:45.850Z"
+    "updatedAt": "2025-07-21T18:57:39.708Z"
   },
   {
     "createdAt": "2025-07-11T16:29:55.821Z",

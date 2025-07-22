@@ -230,6 +230,16 @@ Response schema mismatch:
     "data": {}
   },
   {
+    "id": "prms_7ee8f7a4-c17a-4aa0-9696-24931e711677",
+    "ownerId": "usr_23643ec7-e88a-4acc-acb7-17f3964e9cf9",
+    "ownerDisplayName": "Nifty255",
+    "name": "permission-beta-group-permissions",
+    "displayName": "",
+    "description": "",
+    "type": "system",
+    "data": {}
+  },
+  {
     "id": "prms_3fb9997e-6dab-4e52-8a29-767bacbb67a1",
     "ownerId": "vF8OwsCETo",
     "ownerDisplayName": "System",

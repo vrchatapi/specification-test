@@ -302,22 +302,30 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
-#### [createGroup](/data/requests/groups/creategroup.md)
+#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/0/isSubscribedToEventAnnouncements``.
+
+#### [updateGroup](/data/requests/groups/updategroup.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/myMember/isSubscribedToEventAnnouncements``.
 
 #### [getGroup](/data/requests/groups/getgroup.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/myMember/isSubscribedToEventAnnouncements``.
+
+#### [createGroup](/data/requests/groups/creategroup.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/myMember/isSubscribedToEventAnnouncements``.
 
 #### [getGroupMembers](/data/requests/groups/getgroupmembers.md)
 
 
-#### [updateGroup](/data/requests/groups/updategroup.md)
-
-
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
-
-
-#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 
 #### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
@@ -410,7 +418,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*30 issues truncated.*
+*34 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

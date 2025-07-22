@@ -1,5 +1,8 @@
 # getGroupInvites
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0/isSubscribedToEventAnnouncements``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/groups/<unstable>/invites`
 
@@ -37,6 +40,7 @@
     "id": "<unstable>",
     "isRepresenting": false,
     "isSubscribedToAnnouncements": true,
+    "isSubscribedToEventAnnouncements": true,
     "joinedAt": null,
     "lastPostReadAt": null,
     "mRoleIds": [],
