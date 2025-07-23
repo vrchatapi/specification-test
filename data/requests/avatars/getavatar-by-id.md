@@ -1,5 +1,8 @@
 # getAvatar by id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/listingDate``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0`
 
@@ -34,6 +37,7 @@
   "featured": false,
   "id": "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0",
   "imageUrl": "https://api.vrchat.cloud/api/1/file/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/file",
+  "listingDate": null,
   "name": "Bella Bear Public - by Mai",
   "performance": {
     "android": "VeryPoor",

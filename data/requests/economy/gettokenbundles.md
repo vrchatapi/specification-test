@@ -1,5 +1,15 @@
 # getTokenBundles
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0/appleProductId``,
+* Unexpected property at ``#/1/appleProductId``,
+* Unexpected property at ``#/2/appleProductId``,
+* Unexpected property at ``#/3/appleProductId``,
+* Unexpected property at ``#/4/appleProductId``,
+* Unexpected property at ``#/5/appleProductId``,
+* Unexpected property at ``#/6/appleProductId``,
+* Unexpected property at ``#/7/appleProductId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/tokenBundles`
 
@@ -32,6 +42,7 @@
     "steamItemId": "6001",
     "oculusSku": "vrchat-credits-600",
     "googleProductId": "vrchat.credit.googleplay.600",
+    "appleProductId": "vrchat.credits.600",
     "amount": 499,
     "description": "600 VRChat Credits",
     "tokens": 600,
@@ -42,6 +53,7 @@
     "steamItemId": "6002",
     "oculusSku": "vrchat-credits-1200",
     "googleProductId": "vrchat.credit.googleplay.1200",
+    "appleProductId": "vrchat.credits.1200",
     "amount": 999,
     "description": "1200 VRChat Credits",
     "tokens": 1200,
@@ -52,6 +64,7 @@
     "steamItemId": "6003",
     "oculusSku": "vrchat-credits-2400",
     "googleProductId": "vrchat.credit.googleplay.2400",
+    "appleProductId": "vrchat.credits.2400",
     "amount": 1999,
     "description": "2400 VRChat Credits",
     "tokens": 2400,
@@ -62,6 +75,7 @@
     "steamItemId": "6006",
     "oculusSku": "vrchat-credits-3600",
     "googleProductId": "vrchat.credit.googleplay.3600",
+    "appleProductId": "vrchat.credits.3600",
     "amount": 2999,
     "description": "3600 VRChat Credits",
     "tokens": 3600,
@@ -72,6 +86,7 @@
     "steamItemId": "6007",
     "oculusSku": "vrchat-credits-4800",
     "googleProductId": "vrchat.credit.googleplay.4800",
+    "appleProductId": "vrchat.credits.4800",
     "amount": 3999,
     "description": "4800 VRChat Credits",
     "tokens": 4800,
@@ -82,6 +97,7 @@
     "steamItemId": "6004",
     "oculusSku": "vrchat-credits-6000",
     "googleProductId": "vrchat.credit.googleplay.6000",
+    "appleProductId": "vrchat.credits.6000",
     "amount": 4999,
     "description": "6000 VRChat Credits",
     "tokens": 6000,
@@ -92,6 +108,7 @@
     "steamItemId": "6008",
     "oculusSku": "vrchat-credits-9000",
     "googleProductId": "vrchat.credit.googleplay.9000",
+    "appleProductId": "vrchat.credits.9000",
     "amount": 7499,
     "description": "9000 VRChat Credits",
     "tokens": 9000,
@@ -102,6 +119,7 @@
     "steamItemId": "6005",
     "oculusSku": "vrchat-credits-12000",
     "googleProductId": "vrchat.credit.googleplay.12000",
+    "appleProductId": "vrchat.credits.12000",
     "amount": 9999,
     "description": "12000 VRChat Credits",
     "tokens": 12000,

@@ -1,5 +1,8 @@
 # getOwnAvatar
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/listingDate``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 
@@ -34,6 +37,7 @@
   "featured": false,
   "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
   "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "listingDate": null,
   "name": "Robot",
   "performance": {
     "android": "Medium",

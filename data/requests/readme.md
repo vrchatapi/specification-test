@@ -132,16 +132,25 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/pronounsHistory``.
 
-#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
-
-#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
-
+Response schema mismatch:
+* Unexpected property at ``#/listingDate``.
 
 #### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/0/listingDate``,
+* Unexpected property at ``#/1/listingDate``,
+* Unexpected property at ``#/2/listingDate``,
 
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+*7 issues truncated.*
+#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/listingDate``.
+
+#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
 
 
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
@@ -154,6 +163,14 @@ Response schema mismatch:
 
 ## [Economy](/data/requests/economy)
 
+#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/appleProductId``,
+* Unexpected property at ``#/1/appleProductId``,
+* Unexpected property at ``#/2/appleProductId``,
+
+*5 issues truncated.*
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
@@ -191,9 +208,6 @@ Response schema mismatch:
 
 
 #### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
-
-
-#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
 
 
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
@@ -418,7 +432,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*34 issues truncated.*
+*35 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

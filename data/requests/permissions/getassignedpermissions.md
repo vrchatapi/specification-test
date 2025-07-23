@@ -51,19 +51,10 @@ Response schema mismatch:
     "data": {}
   },
   {
-    "id": "prms_6d2096bc-22c4-4f7e-a4e6-7f46b18bb2fc",
+    "id": "prms_f3ca998c-6e10-4b9e-b05f-9c06abf3ce32",
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
     "ownerDisplayName": "Nyx",
-    "name": "permission-user-prints",
-    "data": {
-      "max": 64
-    }
-  },
-  {
-    "id": "prms_ac1c3d9e-ffcf-474a-9f3f-32f11c24835a",
-    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
-    "ownerDisplayName": "Nyx",
-    "name": "permission-user-prints-gallery-vrcplus",
+    "name": "permission-user-prints-upload",
     "data": {
       "max": 60
     }
@@ -78,10 +69,19 @@ Response schema mismatch:
     }
   },
   {
-    "id": "prms_f3ca998c-6e10-4b9e-b05f-9c06abf3ce32",
+    "id": "prms_6d2096bc-22c4-4f7e-a4e6-7f46b18bb2fc",
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
     "ownerDisplayName": "Nyx",
-    "name": "permission-user-prints-upload",
+    "name": "permission-user-prints",
+    "data": {
+      "max": 64
+    }
+  },
+  {
+    "id": "prms_ac1c3d9e-ffcf-474a-9f3f-32f11c24835a",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-user-prints-gallery-vrcplus",
     "data": {
       "max": 60
     }
@@ -170,17 +170,10 @@ Response schema mismatch:
     }
   },
   {
-    "id": "prms_0d9549db-d30a-48f3-a6b8-6741ce5a4283",
+    "id": "prms_dc02c512-4c03-479c-8c6a-d9329c023baf",
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
     "ownerDisplayName": "Nyx",
-    "name": "permission-invite-photos",
-    "data": {}
-  },
-  {
-    "id": "prms_153ac0b7-c2dd-43f9-96e3-c61fd2e85509",
-    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
-    "ownerDisplayName": "Nyx",
-    "name": "permission-profile-pic-override",
+    "name": "permission-user-gallery",
     "data": {}
   },
   {
@@ -191,10 +184,17 @@ Response schema mismatch:
     "data": {}
   },
   {
-    "id": "prms_dc02c512-4c03-479c-8c6a-d9329c023baf",
+    "id": "prms_153ac0b7-c2dd-43f9-96e3-c61fd2e85509",
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
     "ownerDisplayName": "Nyx",
-    "name": "permission-user-gallery",
+    "name": "permission-profile-pic-override",
+    "data": {}
+  },
+  {
+    "id": "prms_0d9549db-d30a-48f3-a6b8-6741ce5a4283",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-invite-photos",
     "data": {}
   },
   {
@@ -227,16 +227,6 @@ Response schema mismatch:
     "ownerId": "usr_17f19d1e-fd48-493b-a8ad-807a3d8bdd1b",
     "ownerDisplayName": "Arctor",
     "name": "permission-queue-impostors-on-create",
-    "data": {}
-  },
-  {
-    "id": "prms_7ee8f7a4-c17a-4aa0-9696-24931e711677",
-    "ownerId": "usr_23643ec7-e88a-4acc-acb7-17f3964e9cf9",
-    "ownerDisplayName": "Nifty255",
-    "name": "permission-beta-group-permissions",
-    "displayName": "",
-    "description": "",
-    "type": "system",
     "data": {}
   },
   {
