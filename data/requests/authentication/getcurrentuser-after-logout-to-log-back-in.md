@@ -63,14 +63,14 @@ Response schema mismatch:
       "updatedAt": "2025-07-17T01:18:49.553Z"
     },
     {
-      "assignedAt": "2025-03-22T20:22:36.532Z",
-      "badgeDescription": "Awarded for subscribing to VRC+ (6 Months)",
-      "badgeId": "bdg_db6d5d75-ab64-4740-989d-b832c836802f",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/2f/bdgai_d827250f-9cba-472b-92af-b8cbb816ed2c.png",
-      "badgeName": "VRC+ Subscriber (6 Months)",
+      "assignedAt": "2025-07-23T01:20:00.282Z",
+      "badgeDescription": "Awarded for subscribing to VRC+ (1 Year)",
+      "badgeId": "bdg_d394e05f-0d34-4c91-b003-253a910951fc",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/fc/bdgai_e96d4061-aa7e-407a-b120-475ba9ffde63.png",
+      "badgeName": "VRC+ Subscriber (1 Year)",
       "hidden": false,
       "showcased": true,
-      "updatedAt": "2025-03-22T20:22:36.532Z"
+      "updatedAt": "2025-07-23T01:20:00.282Z"
     }
   ],
   "bio": "",
