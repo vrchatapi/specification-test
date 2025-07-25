@@ -8,11 +8,11 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
+* Invalid type at ``#/1/startDate``,
+* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
@@ -31,11 +31,16 @@ Response schema mismatch:
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
+* Invalid type at ``#/6/startDate``,
+* Invalid type at ``#/6/endDate``,
+* Unexpected property at ``#/6/regions``,
+* Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Invalid type at ``#/7/startDate``,
-* Invalid type at ``#/7/endDate``,
-* Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
+* Invalid type at ``#/8/startDate``,
+* Invalid type at ``#/8/endDate``,
+* Unexpected property at ``#/8/regions``,
+* Unexpected property at ``#/8/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -90,6 +95,32 @@ Response schema mismatch:
       "platform-pc-desktop"
     ],
     "updatedAt": "2025-07-21T18:55:28.910Z"
+  },
+  {
+    "createdAt": "2025-07-23T23:09:49.160Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_11457c2a-12dc-4241-8c06-939175451e93.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_5cbae0d5-b644-46c8-8e52-95eeb96a1c43"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_summer-sticker-packbb73-5d5868e2331e",
+    "id": "ips_summer-sticker-packbb73-5d5868e2331e",
+    "isEnabled": true,
+    "priority": 623,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-07-24T19:00:02.233Z"
   },
   {
     "createdAt": "2025-07-09T21:46:45.850Z",
