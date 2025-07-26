@@ -69,6 +69,32 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2025-07-23T23:09:49.160Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_11457c2a-12dc-4241-8c06-939175451e93.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_5cbae0d5-b644-46c8-8e52-95eeb96a1c43"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_summer-sticker-packbb73-5d5868e2331e",
+    "id": "ips_summer-sticker-packbb73-5d5868e2331e",
+    "isEnabled": true,
+    "priority": 619,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-07-25T21:50:50.585Z"
+  },
+  {
     "createdAt": "2025-07-16T01:58:10.772Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_42d99cd3-26ab-46be-bf81-7a331d861902.png",
@@ -95,32 +121,6 @@ Response schema mismatch:
       "platform-pc-desktop"
     ],
     "updatedAt": "2025-07-21T18:55:28.910Z"
-  },
-  {
-    "createdAt": "2025-07-23T23:09:49.160Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_11457c2a-12dc-4241-8c06-939175451e93.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_5cbae0d5-b644-46c8-8e52-95eeb96a1c43"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_summer-sticker-packbb73-5d5868e2331e",
-    "id": "ips_summer-sticker-packbb73-5d5868e2331e",
-    "isEnabled": true,
-    "priority": 623,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-07-24T19:00:02.233Z"
   },
   {
     "createdAt": "2025-07-09T21:46:45.850Z",
