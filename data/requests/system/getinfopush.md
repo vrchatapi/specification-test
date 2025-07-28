@@ -13,6 +13,8 @@ Response schema mismatch:
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
+* Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
@@ -31,16 +33,11 @@ Response schema mismatch:
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Invalid type at ``#/6/startDate``,
-* Invalid type at ``#/6/endDate``,
-* Unexpected property at ``#/6/regions``,
-* Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
-* Invalid type at ``#/8/startDate``,
-* Invalid type at ``#/8/endDate``,
-* Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``.
+* Invalid type at ``#/7/startDate``,
+* Invalid type at ``#/7/endDate``,
+* Unexpected property at ``#/7/regions``,
+* Unexpected property at ``#/7/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -121,32 +118,6 @@ Response schema mismatch:
       "platform-pc-desktop"
     ],
     "updatedAt": "2025-07-21T18:55:28.910Z"
-  },
-  {
-    "createdAt": "2025-07-09T21:46:45.850Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_de2068d6-d115-45d9-8d39-4e5e12c4c6ca.png",
-      "onPressed": {
-        "command": "OpenWorldsMenu",
-        "parameters": [
-          "ips_c405df4d-02c6-401b-95c0-e03fe4dbfea0"
-        ]
-      }
-    },
-    "endDate": "2025-07-27T02:00:00.000Z",
-    "hash": "ips_vket-2025-summer7f-8a98-63a3a5c3bd59",
-    "id": "ips_vket-2025-summer7f-8a98-63a3a5c3bd59",
-    "isEnabled": true,
-    "priority": 624,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-07-12T01:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-07-21T18:57:39.708Z"
   },
   {
     "createdAt": "2025-07-11T16:29:55.821Z",

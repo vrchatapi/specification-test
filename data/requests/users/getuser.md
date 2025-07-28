@@ -43,7 +43,7 @@
       "badgeId": "bdg_13c0e040-e6e6-4b7a-8187-93872fe81d89",
       "badgeImageUrl": "https://assets.vrchat.com/badges/89/bdgai_0c7585f3-cb4b-40a4-ad7c-cb6da4d50ea6.png",
       "badgeName": "VRC+ Subscriber (4 Years)",
-      "showcased": true
+      "showcased": false
     },
     {
       "badgeDescription": "Joined VRChat 8 years ago",
@@ -78,7 +78,7 @@
       "badgeId": "bdg_b8bef28d-277c-4d37-8168-f879362ba9cc",
       "badgeImageUrl": "https://assets.vrchat.com/badges/cc/bdgai_1ccb7ae1-d09e-4a3f-8cc4-e08c0cd48cd1.png",
       "badgeName": "Pride Supporter",
-      "showcased": false
+      "showcased": true
     },
     {
       "badgeDescription": "Awarded to those who completed all Hero challenges on mobile",
