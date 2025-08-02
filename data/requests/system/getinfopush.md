@@ -28,16 +28,11 @@ Response schema mismatch:
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Invalid type at ``#/5/startDate``,
-* Invalid type at ``#/5/endDate``,
-* Unexpected property at ``#/5/regions``,
-* Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Invalid type at ``#/7/startDate``,
-* Invalid type at ``#/7/endDate``,
-* Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``.
+* Invalid type at ``#/6/startDate``,
+* Invalid type at ``#/6/endDate``,
+* Unexpected property at ``#/6/regions``,
+* Unexpected property at ``#/6/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -66,9 +61,35 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2025-07-16T01:58:10.772Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_42d99cd3-26ab-46be-bf81-7a331d861902.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_1c00687d-06d7-45df-acbb-dd56713a3865"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_bigscreen-beyond-2e-vrc-0ed381e92299",
+    "id": "ips_bigscreen-beyond-2e-vrc-0ed381e92299",
+    "isEnabled": true,
+    "priority": 618,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-08-02T01:12:41.688Z"
+  },
+  {
     "createdAt": "2025-07-23T23:09:49.160Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_11457c2a-12dc-4241-8c06-939175451e93.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4d13af1f-7e12-4b25-9696-bcc8c8633f07.png",
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
@@ -89,61 +110,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-07-25T21:50:50.585Z"
-  },
-  {
-    "createdAt": "2025-07-16T01:58:10.772Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_42d99cd3-26ab-46be-bf81-7a331d861902.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_1c00687d-06d7-45df-acbb-dd56713a3865"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_bigscreen-beyond-2e-vrc-0ed381e92299",
-    "id": "ips_bigscreen-beyond-2e-vrc-0ed381e92299",
-    "isEnabled": true,
-    "priority": 620,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "platform-pc",
-      "platform-pc-vr",
-      "platform-pc-desktop"
-    ],
-    "updatedAt": "2025-07-21T18:55:28.910Z"
-  },
-  {
-    "createdAt": "2025-07-11T16:29:55.821Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_68a20032-2e48-4ce6-8bf2-9c5df413df88.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_1ab44443-dc6f-4ccf-b75c-895e318cf99b"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_holonatsu-paradise-bd06-e89dca59d42c",
-    "id": "ips_holonatsu-paradise-bd06-e89dca59d42c",
-    "isEnabled": true,
-    "priority": 625,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-07-14T14:26:53.176Z"
+    "updatedAt": "2025-08-01T15:47:38.367Z"
   },
   {
     "createdAt": "2025-06-24T17:53:34.810Z",
