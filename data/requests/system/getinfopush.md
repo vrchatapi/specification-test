@@ -2,9 +2,6 @@
 
 ## Issues
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
@@ -28,11 +25,16 @@ Response schema mismatch:
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
+* Invalid type at ``#/5/startDate``,
+* Invalid type at ``#/5/endDate``,
+* Unexpected property at ``#/5/regions``,
+* Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Invalid type at ``#/6/startDate``,
-* Invalid type at ``#/6/endDate``,
-* Unexpected property at ``#/6/regions``,
-* Unexpected property at ``#/6/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
+* Invalid type at ``#/7/startDate``,
+* Invalid type at ``#/7/endDate``,
+* Unexpected property at ``#/7/regions``,
+* Unexpected property at ``#/7/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -60,6 +62,32 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2025-08-02T01:15:52.868Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b017c96c-cad3-481d-990e-2dfa92f3736e.png",
+      "onPressed": {
+        "command": "OpenURL",
+        "parameters": [
+          "https://ask.vrchat.com/t/film-jam-2025-august-4-september-1-2025/45595"
+        ]
+      }
+    },
+    "endDate": "2025-08-18T07:00:00.000Z",
+    "hash": "ips_film-jam-2025-4bea-a005-8f7fa6af6fab",
+    "id": "ips_film-jam-2025-4bea-a005-8f7fa6af6fab",
+    "isEnabled": true,
+    "priority": 615,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2025-08-04T07:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-08-02T01:15:52.868Z"
+  },
   {
     "createdAt": "2025-07-16T01:58:10.772Z",
     "data": {
