@@ -416,7 +416,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/minPrice``,
 * Unexpected property at ``#/0data/contentList/params``,
 
-*1295 issues truncated.*
+*1291 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
