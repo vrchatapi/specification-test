@@ -412,11 +412,11 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
 Response schema mismatch:
+* Unexpected property at ``#/0data/contentList/anyStyle``,
+* Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
-* Unexpected property at ``#/0data/contentList/minPrice``,
-* Unexpected property at ``#/0data/contentList/params``,
 
-*1291 issues truncated.*
+*1294 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -432,7 +432,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*35 issues truncated.*
+*30 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
