@@ -2,11 +2,11 @@
 
 ## Issues
 Response schema mismatch:
+* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
+* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
@@ -63,6 +63,32 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2025-07-23T23:09:49.160Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4d13af1f-7e12-4b25-9696-bcc8c8633f07.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_5cbae0d5-b644-46c8-8e52-95eeb96a1c43"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_summer-sticker-packbb73-5d5868e2331e",
+    "id": "ips_summer-sticker-packbb73-5d5868e2331e",
+    "isEnabled": true,
+    "priority": 614,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-08-08T13:12:33.900Z"
+  },
+  {
     "createdAt": "2025-08-02T01:15:52.868Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b017c96c-cad3-481d-990e-2dfa92f3736e.png",
@@ -113,32 +139,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2025-08-02T01:12:41.688Z"
-  },
-  {
-    "createdAt": "2025-07-23T23:09:49.160Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4d13af1f-7e12-4b25-9696-bcc8c8633f07.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_5cbae0d5-b644-46c8-8e52-95eeb96a1c43"
-        ]
-      }
-    },
-    "endDate": null,
-    "hash": "ips_summer-sticker-packbb73-5d5868e2331e",
-    "id": "ips_summer-sticker-packbb73-5d5868e2331e",
-    "isEnabled": true,
-    "priority": 619,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-08-01T15:47:38.367Z"
   },
   {
     "createdAt": "2025-01-27T21:09:40.711Z",
