@@ -143,7 +143,7 @@ Response schema mismatch:
   {
     "createdAt": "2025-01-27T21:09:40.711Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_0cadc6f6-29c1-45d6-ba45-8f32767279ca.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_0cadc6f6-29c1-45d6-ba45-8f3276<unstable>ca.png",
       "onPressed": {
         "command": "OpenHelpArticle",
         "parameters": [
