@@ -81,6 +81,13 @@
       "showcased": true
     },
     {
+      "badgeDescription": "Granted for being a proud owner of a Bigscreen Beyond 2e: VRChat Edition",
+      "badgeId": "bdg_fc0d7c16-1bf3-400f-acf1-333ecde7fd1a",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/1a/bdgai_64cc423a-b687-42e4-9857-8878a24a7182.png",
+      "badgeName": "Bigscreen Beyond 2e: VRChat Edition Badge",
+      "showcased": false
+    },
+    {
       "badgeDescription": "Awarded to those who completed all Hero challenges on mobile",
       "badgeId": "bdg_ffd998b1-c454-4a90-a14b-5d19ccd04513",
       "badgeImageUrl": "https://assets.vrchat.com/badges/13/bdgai_a41c63c9-eb0b-42d6-8aaf-15fcb0da3714.png",
