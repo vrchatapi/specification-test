@@ -50,7 +50,7 @@
       "badgeId": "bdg_4708a50c-2a2f-4204-98be-f844b2f247eb",
       "badgeImageUrl": "https://assets.vrchat.com/badges/eb/bdgai_47e5526e-de82-46d7-9f85-323cc7ed1d4a.png",
       "badgeName": "8 Years",
-      "showcased": true
+      "showcased": false
     },
     {
       "badgeDescription": "Awarded for gifting VRC+ (10 Months)",
@@ -84,8 +84,8 @@
       "badgeDescription": "Granted for being a proud owner of a Bigscreen Beyond 2e: VRChat Edition",
       "badgeId": "bdg_fc0d7c16-1bf3-400f-acf1-333ecde7fd1a",
       "badgeImageUrl": "https://assets.vrchat.com/badges/1a/bdgai_64cc423a-b687-42e4-9857-8878a24a7182.png",
-      "badgeName": "Bigscreen Beyond 2e: VRChat Edition Badge",
-      "showcased": false
+      "badgeName": "Bigscreen Beyond 2e: VRChat Edition Owner",
+      "showcased": true
     },
     {
       "badgeDescription": "Awarded to those who completed all Hero challenges on mobile",
