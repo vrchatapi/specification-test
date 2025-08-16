@@ -33,7 +33,7 @@ Response schema mismatch:
   "acceptedTOSVersion": 11,
   "accountDeletionDate": null,
   "accountDeletionLog": null,
-  "ageVerificationStatus": "verified",
+  "ageVerificationStatus": "hidden",
   "ageVerified": true,
   "allowAvatarCopying": true,
   "bio": "",

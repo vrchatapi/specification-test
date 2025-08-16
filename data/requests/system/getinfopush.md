@@ -5,13 +5,14 @@ Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
+* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
+* Invalid type at ``#/1/startDate``,
+* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
@@ -30,11 +31,16 @@ Response schema mismatch:
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
+* Invalid type at ``#/6/startDate``,
+* Invalid type at ``#/6/endDate``,
+* Unexpected property at ``#/6/regions``,
+* Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Invalid type at ``#/7/startDate``,
-* Invalid type at ``#/7/endDate``,
-* Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
+* Invalid type at ``#/8/startDate``,
+* Invalid type at ``#/8/endDate``,
+* Unexpected property at ``#/8/regions``,
+* Unexpected property at ``#/8/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -62,6 +68,36 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2025-06-23T19:20:53.097Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_6121cfcd-7e1a-43ba-9cfa-99a1cff460f8.png",
+      "onPressed": {
+        "command": "OpenAvatarsMenu",
+        "parameters": [
+          "Explore"
+        ]
+      }
+    },
+    "endDate": null,
+    "experiment": {
+      "key": "ips-banner-avm",
+      "variant": "cute"
+    },
+    "hash": "ips_avmcutetest2f-408b-bd36-4475d16e9197",
+    "id": "ips_avmcutetest2f-408b-bd36-4475d16e9197",
+    "isEnabled": true,
+    "priority": 499,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-08-15T13:13:19.581Z"
+  },
   {
     "createdAt": "2025-07-23T23:09:49.160Z",
     "data": {

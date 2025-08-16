@@ -38,7 +38,7 @@ Response schema mismatch:
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "activeFriends": [],
-  "ageVerificationStatus": "verified",
+  "ageVerificationStatus": "hidden",
   "ageVerified": true,
   "allowAvatarCopying": true,
   "badges": [
