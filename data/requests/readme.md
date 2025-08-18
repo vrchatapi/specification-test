@@ -86,7 +86,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0unityPackages/1/created_at``,
 * Unexpected property at ``#/0unityPackages/2/created_at``,
 
-*85 issues truncated.*
+*83 issues truncated.*
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 Response schema mismatch:
@@ -442,7 +442,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*34 issues truncated.*
+*35 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
