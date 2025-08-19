@@ -171,6 +171,52 @@ Response schema mismatch:
 
 
 
+## [Calendar](/data/requests/calendar)
+
+#### [deleteGroupCalendarEvent](/data/requests/calendar/deletegroupcalendarevent.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/error``.
+
+#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
+
+Response schema mismatch:
+* Missing property at ``#/id``,
+* Missing property at ``#/title``,
+* Missing property at ``#/accessType``,
+
+*2 issues truncated.*
+#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
+
+Response schema mismatch:
+* Missing property at ``#/id``,
+* Missing property at ``#/title``,
+* Missing property at ``#/accessType``,
+
+*2 issues truncated.*
+#### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
+
+
+#### [getCalendarEvents](/data/requests/calendar/getcalendarevents.md)
+
+
+#### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
+
+
+#### [getFollowedCalendarEvents](/data/requests/calendar/getfollowedcalendarevents.md)
+
+
+#### [getGroupCalendarEvents](/data/requests/calendar/getgroupcalendarevents.md)
+
+
+#### [updateGroupCalendarEvent](/data/requests/calendar/updategroupcalendarevent.md)
+
+
+#### [getGroupCalendarEventICS](/data/requests/calendar/getgroupcalendareventics.md)
+
+
+
+
 ## [Economy](/data/requests/economy)
 
 #### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
@@ -442,7 +488,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*31 issues truncated.*
+*32 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

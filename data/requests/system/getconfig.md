@@ -32,6 +32,7 @@ Response schema mismatch:
 * Unexpected property at ``#/propComponentList``,
 * Unexpected property at ``#/questMinimumLowMemoryThreshold``,
 * Unexpected property at ``#/readValueTemporalGroup``,
+* Unexpected property at ``#/ryeRotation``,
 * Unexpected property at ``#/timezoneMarkerPaste``,
 * Unexpected property at ``#/toolboxSandwichVrchatRotationRoom``,
 * Unexpected property at ``#/totalHash``,

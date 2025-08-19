@@ -30,7 +30,7 @@ Response schema mismatch:
 ```jsonc
 {
   "acceptedPrivacyVersion": 1,
-  "acceptedTOSVersion": 11,
+  "acceptedTOSVersion": 12,
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "ageVerificationStatus": "hidden",

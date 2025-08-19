@@ -31,7 +31,7 @@ Response schema mismatch:
 ```jsonc
 {
   "acceptedPrivacyVersion": 1,
-  "acceptedTOSVersion": 11,
+  "acceptedTOSVersion": 12,
   "accountDeletionDate": null,
   "accountDeletionLog": null,
   "activeFriends": [],
@@ -113,14 +113,20 @@ Response schema mismatch:
   "picoId": "",
   "platform_history": "<unstable: empty array>",
   "presence": {
+    "avatarThumbnail": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+    "currentAvatarTags": "admin_featured_legacy,admin_content_reviewed",
+    "debugflag": "1",
+    "displayName": "8cf3def6b8cea",
     "groups": [],
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "instance": "offline",
     "instanceType": "",
-    "platform": "",
-    "status": "offline",
+    "platform": "web",
+    "profilePicOverride": "",
+    "status": "active",
     "travelingToInstance": "offline",
     "travelingToWorld": "offline",
+    "userIcon": "",
     "world": "offline"
   },
   "profilePicOverride": "",
