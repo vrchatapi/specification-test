@@ -83,7 +83,7 @@
     {
       "badgeDescription": "Granted for being a proud owner of a Bigscreen Beyond 2e: VRChat Edition",
       "badgeId": "bdg_fc0d7c16-1bf3-400f-acf1-333ecde7fd1a",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/1a/bdgai_64cc423a-b687-42e4-9857-8878a24a7182.png",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/1a/bdgai_b44f44c5-a253-4ada-8670-bf016b34c48b.png",
       "badgeName": "Bigscreen Beyond 2e: VRChat Edition Owner",
       "showcased": true
     },

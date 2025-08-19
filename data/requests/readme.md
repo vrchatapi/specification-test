@@ -86,7 +86,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0unityPackages/1/created_at``,
 * Unexpected property at ``#/0unityPackages/2/created_at``,
 
-*83 issues truncated.*
+*85 issues truncated.*
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 Response schema mismatch:
@@ -426,7 +426,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1300 issues truncated.*
+*1308 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -434,7 +434,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Invalid type at ``#/0/endDate``,
 
-*36 issues truncated.*
+*34 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -442,7 +442,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*35 issues truncated.*
+*31 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
