@@ -114,7 +114,7 @@ Response schema mismatch:
   "platform_history": "<unstable: empty array>",
   "presence": {
     "avatarThumbnail": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-    "currentAvatarTags": "admin_featured_legacy,admin_content_reviewed",
+    "currentAvatarTags": "admin_content_reviewed,admin_featured_legacy",
     "debugflag": "1",
     "displayName": "8cf3def6b8cea",
     "groups": [

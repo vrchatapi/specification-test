@@ -173,27 +173,6 @@ Response schema mismatch:
 
 ## [Calendar](/data/requests/calendar)
 
-#### [deleteGroupCalendarEvent](/data/requests/calendar/deletegroupcalendarevent.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/error``.
-
-#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
-
-Response schema mismatch:
-* Missing property at ``#/id``,
-* Missing property at ``#/title``,
-* Missing property at ``#/accessType``,
-
-*2 issues truncated.*
-#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
-
-Response schema mismatch:
-* Missing property at ``#/id``,
-* Missing property at ``#/title``,
-* Missing property at ``#/accessType``,
-
-*2 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 
@@ -203,16 +182,25 @@ Response schema mismatch:
 #### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
 
 
+#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
+
+
 #### [getFollowedCalendarEvents](/data/requests/calendar/getfollowedcalendarevents.md)
 
 
 #### [getGroupCalendarEvents](/data/requests/calendar/getgroupcalendarevents.md)
 
 
+#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
+
+
 #### [updateGroupCalendarEvent](/data/requests/calendar/updategroupcalendarevent.md)
 
 
 #### [getGroupCalendarEventICS](/data/requests/calendar/getgroupcalendareventics.md)
+
+
+#### [deleteGroupCalendarEvent](/data/requests/calendar/deletegroupcalendarevent.md)
 
 
 

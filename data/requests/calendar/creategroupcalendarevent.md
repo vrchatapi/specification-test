@@ -1,7 +1,7 @@
 # createGroupCalendarEvent
 
 ## Request
-`POST https://api.vrchat.cloud/api/1/calendar/undefined/event`
+`POST https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e/event`
 
 | Header | Value |
 | ------ | ----- |
@@ -23,7 +23,7 @@
 
 
 ## Response
-`403 Forbidden`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
@@ -39,9 +39,29 @@
 
 ```jsonc
 {
-  "error": {
-    "message": "Can't create calendar entries for that owner ID․",
-    "status_code": 403
-  }
+  "accessType": "group",
+  "category": "other",
+  "closeInstanceAfterEndMinutes": 5,
+  "createdAt": "<unstable: string>",
+  "deletedAt": null,
+  "description": "Test Description",
+  "endsAt": "<unstable: string>",
+  "featured": false,
+  "guestEarlyJoinMinutes": 5,
+  "hostEarlyJoinMinutes": 60,
+  "id": "<unstable: string>",
+  "imageId": null,
+  "interestedUserCount": 0,
+  "isDraft": true,
+  "languages": [],
+  "ownerId": "grp_ac985944-255d-4375-9cc3-5223aa5afe8e",
+  "platforms": [],
+  "roleIds": [],
+  "startsAt": "<unstable: string>",
+  "tags": [],
+  "title": "Test Event",
+  "type": "event",
+  "updatedAt": "<unstable: string>",
+  "usesInstanceOverflow": false
 }
 ```

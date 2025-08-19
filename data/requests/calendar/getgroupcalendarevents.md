@@ -1,7 +1,7 @@
 # getGroupCalendarEvents
 
 ## Request
-`GET https://api.vrchat.cloud/api/1/calendar/undefined`
+`GET https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e`
 
 | Header | Value |
 | ------ | ----- |
@@ -14,15 +14,14 @@
 
 | Header | Value |
 | ------ | ----- |
-| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `45` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 

@@ -1,10 +1,7 @@
 # deleteGroupCalendarEvent
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/error``.
 ## Request
-`DELETE https://api.vrchat.cloud/api/1/calendar/undefined/undefined`
+`DELETE https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e/<unstable>`
 
 | Header | Value |
 | ------ | ----- |
@@ -13,7 +10,7 @@ Response schema mismatch:
 
 
 ## Response
-`404 Not Found`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
@@ -29,9 +26,9 @@ Response schema mismatch:
 
 ```jsonc
 {
-  "error": {
-    "message": "Calendar Entry not foundǃ",
-    "status_code": 404
+  "success": {
+    "message": "Calendar Entry deleted!",
+    "status_code": 200
   }
 }
 ```

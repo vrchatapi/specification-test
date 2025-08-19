@@ -1,7 +1,7 @@
 # updateGroupCalendarEvent
 
 ## Request
-`PUT https://api.vrchat.cloud/api/1/calendar/undefined/undefined/event`
+`PUT https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e/<unstable>/event`
 
 | Header | Value |
 | ------ | ----- |
@@ -17,7 +17,7 @@
 
 
 ## Response
-`404 Not Found`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
@@ -33,9 +33,29 @@
 
 ```jsonc
 {
-  "error": {
-    "message": "Calendar Entry not foundǃ",
-    "status_code": 404
-  }
+  "accessType": "group",
+  "category": "other",
+  "closeInstanceAfterEndMinutes": 5,
+  "createdAt": "<unstable: string>",
+  "deletedAt": null,
+  "description": "Test Description",
+  "endsAt": "<unstable: string>",
+  "featured": false,
+  "guestEarlyJoinMinutes": 5,
+  "hostEarlyJoinMinutes": 60,
+  "id": "<unstable: string>",
+  "imageId": null,
+  "interestedUserCount": 1,
+  "isDraft": true,
+  "languages": [],
+  "ownerId": "grp_ac985944-255d-4375-9cc3-5223aa5afe8e",
+  "platforms": [],
+  "roleIds": [],
+  "startsAt": "<unstable: string>",
+  "tags": [],
+  "title": "Updated Event Title",
+  "type": "event",
+  "updatedAt": "<unstable: string>",
+  "usesInstanceOverflow": false
 }
 ```

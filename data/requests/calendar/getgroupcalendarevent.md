@@ -1,14 +1,7 @@
 # getGroupCalendarEvent
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/id``,
-* Missing property at ``#/title``,
-* Missing property at ``#/accessType``,
-* Missing property at ``#/createdAt``,
-* Unexpected property at ``#/error``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/calendar/undefined/undefined`
+`GET https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e/<unstable>`
 
 | Header | Value |
 | ------ | ----- |
@@ -17,7 +10,7 @@ Response schema mismatch:
 
 
 ## Response
-`404 Not Found`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
@@ -25,6 +18,7 @@ Response schema mismatch:
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
@@ -33,9 +27,34 @@ Response schema mismatch:
 
 ```jsonc
 {
-  "error": {
-    "message": "Calendar Entry not foundǃ",
-    "status_code": 404
-  }
+  "accessType": "group",
+  "category": "other",
+  "closeInstanceAfterEndMinutes": 5,
+  "createdAt": "<unstable: string>",
+  "deletedAt": null,
+  "description": "Test Description",
+  "endsAt": "<unstable: string>",
+  "featured": false,
+  "guestEarlyJoinMinutes": 5,
+  "hostEarlyJoinMinutes": 60,
+  "id": "<unstable: string>",
+  "imageId": null,
+  "interestedUserCount": 1,
+  "isDraft": true,
+  "languages": [],
+  "ownerId": "grp_ac985944-255d-4375-9cc3-5223aa5afe8e",
+  "platforms": [],
+  "roleIds": [],
+  "startsAt": "<unstable: string>",
+  "tags": [],
+  "title": "Test Event",
+  "type": "event",
+  "updatedAt": "<unstable: string>",
+  "userInterest": {
+    "createdAt": "<unstable: string>",
+    "isFollowing": true,
+    "updatedAt": "<unstable: string>"
+  },
+  "usesInstanceOverflow": false
 }
 ```

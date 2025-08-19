@@ -1,7 +1,7 @@
 # getGroupCalendarEventICS
 
 ## Request
-`GET https://api.vrchat.cloud/api/1/calendar/undefined/cal_00000000-0000-0000-0000-000000000000.ics`
+`GET https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e/cal_00000000-0000-0000-0000-000000000000.ics`
 
 | Header | Value |
 | ------ | ----- |
