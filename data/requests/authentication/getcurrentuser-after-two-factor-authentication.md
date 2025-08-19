@@ -117,7 +117,9 @@ Response schema mismatch:
     "currentAvatarTags": "admin_featured_legacy,admin_content_reviewed",
     "debugflag": "1",
     "displayName": "8cf3def6b8cea",
-    "groups": [],
+    "groups": [
+      "grp_ac985944-255d-4375-9cc3-5223aa5afe8e"
+    ],
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "instance": "offline",
     "instanceType": "",
