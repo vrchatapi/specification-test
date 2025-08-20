@@ -29,7 +29,7 @@
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "badges": [
     {
       "badgeDescription": "Granted to members of the official VRChat Development Team",
@@ -83,7 +83,7 @@
     {
       "badgeDescription": "Granted for being a proud owner of a Bigscreen Beyond 2e: VRChat Edition",
       "badgeId": "bdg_fc0d7c16-1bf3-400f-acf1-333ecde7fd1a",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/1a/bdgai_b44f44c5-a253-4ada-8670-bf016b34c48b.png",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/1a/bdgai_88fb9053-f77e-48a2-be5d-f87131e054de.png",
       "badgeName": "Bigscreen Beyond 2e: VRChat Edition Owner",
       "showcased": true
     },
@@ -114,7 +114,7 @@
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "standalonewindows",
+  "last_platform": "android",
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
