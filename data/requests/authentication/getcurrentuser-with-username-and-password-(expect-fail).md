@@ -63,7 +63,6 @@ Response schema mismatch:
 
 | Header | Value |
 | ------ | ----- |
-| accept-ranges | `bytes` |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
