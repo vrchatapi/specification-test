@@ -3,14 +3,12 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
-* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Invalid type at ``#/1/startDate``,
 * Invalid type at ``#/1/endDate``,
+* Unexpected property at ``#/1/experiment``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
@@ -29,11 +27,16 @@ Response schema mismatch:
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
+* Invalid type at ``#/5/startDate``,
+* Invalid type at ``#/5/endDate``,
+* Unexpected property at ``#/5/regions``,
+* Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Invalid type at ``#/6/startDate``,
-* Invalid type at ``#/6/endDate``,
-* Unexpected property at ``#/6/regions``,
-* Unexpected property at ``#/6/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
+* Invalid type at ``#/7/startDate``,
+* Invalid type at ``#/7/endDate``,
+* Unexpected property at ``#/7/regions``,
+* Unexpected property at ``#/7/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -61,6 +64,32 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2025-08-21T22:48:41.133Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_30f0426b-9962-47c1-ba5b-f24cd51b4d62.png",
+      "onPressed": {
+        "command": "OpenWorldsMenu",
+        "parameters": [
+          "ips_f3380ce2-5a39-40f7-a886-3ea9d2da4ee3"
+        ]
+      }
+    },
+    "endDate": "2025-09-07T07:00:00.000Z",
+    "hash": "ips_venice-immersive-worlds-84ee8371b16c",
+    "id": "ips_venice-immersive-worlds-84ee8371b16c",
+    "isEnabled": true,
+    "priority": 450,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2025-08-27T07:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-08-27T08:14:49.683Z"
+  },
   {
     "createdAt": "2025-06-23T19:20:53.097Z",
     "data": {
