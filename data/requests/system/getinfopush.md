@@ -3,17 +3,16 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
-* Unexpected property at ``#/1/experiment``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/startDate``,
 * Invalid type at ``#/2/endDate``,
+* Unexpected property at ``#/2/experiment``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
@@ -32,11 +31,16 @@ Response schema mismatch:
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
+* Invalid type at ``#/6/startDate``,
+* Invalid type at ``#/6/endDate``,
+* Unexpected property at ``#/6/regions``,
+* Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Invalid type at ``#/7/startDate``,
-* Invalid type at ``#/7/endDate``,
-* Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
+* Invalid type at ``#/8/startDate``,
+* Invalid type at ``#/8/endDate``,
+* Unexpected property at ``#/8/regions``,
+* Unexpected property at ``#/8/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -65,6 +69,32 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2025-08-22T20:46:34.231Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4f44ba4a-55a9-4864-9514-f9f7cbf01dda.png",
+      "onPressed": {
+        "command": "OpenInventoryMenu",
+        "parameters": [
+          "invt_9a4b6ffe-8429-4807-8e57-8788905bf86c"
+        ]
+      }
+    },
+    "endDate": "2025-09-25T19:00:00.000Z",
+    "hash": "ips_trace-drone-aug-content-27d50f48681f",
+    "id": "ips_trace-drone-aug-content-27d50f48681f",
+    "isEnabled": true,
+    "priority": 445,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-08-28T22:58:29.660Z"
+  },
+  {
     "createdAt": "2025-08-21T22:48:41.133Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_30f0426b-9962-47c1-ba5b-f24cd51b4d62.png",
@@ -91,9 +121,9 @@ Response schema mismatch:
     "updatedAt": "2025-08-27T08:14:49.683Z"
   },
   {
-    "createdAt": "2025-06-23T19:20:53.097Z",
+    "createdAt": "2025-07-14T21:51:37.569Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_6121cfcd-7e1a-43ba-9cfa-99a1cff460f8.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_7634b755-8e1c-4214-af21-af6c8452768f.png",
       "onPressed": {
         "command": "OpenAvatarsMenu",
         "parameters": [
@@ -103,11 +133,11 @@ Response schema mismatch:
     },
     "endDate": null,
     "experiment": {
-      "key": "ips-banner-avm",
-      "variant": "cute"
+      "key": "",
+      "variant": ""
     },
-    "hash": "ips_avmcutetest2f-408b-bd36-4475d16e9197",
-    "id": "ips_avmcutetest2f-408b-bd36-4475d16e9197",
+    "hash": "ips_avmcontroltest4ac0-bf9d-d25478455864",
+    "id": "ips_avmcontroltest4ac0-bf9d-d25478455864",
     "isEnabled": true,
     "priority": 499,
     "regions": [],
@@ -118,7 +148,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-08-15T13:13:19.581Z"
+    "updatedAt": "2025-08-28T20:32:11.460Z"
   },
   {
     "createdAt": "2025-07-16T01:58:10.772Z",

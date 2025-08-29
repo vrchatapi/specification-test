@@ -95,7 +95,7 @@
       "showcased": false
     }
   ],
-  "bio": "VRChat Head of Community․\n\nabove all else‚ be kind․",
+  "bio": "VRChat Head of Community․\n\nabove all else‚ be kind․\n\nI sometimes remove people I haven't seen in a while․ Feel free to ask to re-add next time we run into each otherǃ",
   "bioLinks": [
     "https://vrchat.com/",
     "https://bsky.app/profile/dtupper.com",
