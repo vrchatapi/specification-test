@@ -15,12 +15,14 @@ Response schema mismatch:
 * Missing property at ``#/0hydratedProducts/0/archived``,
 * Missing property at ``#/0hydratedProducts/0/created``,
 * Missing property at ``#/0hydratedProducts/0/updated``,
+* Unexpected property at ``#/0hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/0hydratedProducts/0/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/0/listingType``,
 * Unexpected property at ``#/0products/0/description``,
 * Unexpected property at ``#/0products/0/displayName``,
 * Unexpected property at ``#/0products/0/id``,
 * Unexpected property at ``#/0products/0/imageId``,
+* Unexpected property at ``#/0products/0/imageUrl``,
 * Unexpected property at ``#/0products/0/parentListings``,
 * Unexpected property at ``#/0products/0/productType``,
 * Unexpected property at ``#/0products/0/productTypeLabel``,
@@ -30,6 +32,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0products/0/useForSubscriberList``,
 * Unexpected property at ``#/0/hasAvatar``,
 * Unexpected property at ``#/0/hasUdon``,
+* Unexpected property at ``#/0/imageUrl``,
 * Missing property at ``#/1/archived``,
 * Missing property at ``#/1/created``,
 * Missing property at ``#/1/instant``,
@@ -38,10 +41,12 @@ Response schema mismatch:
 * Missing property at ``#/1hydratedProducts/0/archived``,
 * Missing property at ``#/1hydratedProducts/0/created``,
 * Missing property at ``#/1hydratedProducts/0/updated``,
+* Unexpected property at ``#/1hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/1hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/1hydratedProducts/1/archived``,
 * Missing property at ``#/1hydratedProducts/1/created``,
 * Missing property at ``#/1hydratedProducts/1/updated``,
+* Unexpected property at ``#/1hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/1hydratedProducts/1/productTypeLabel``,
 * Unexpected property at ``#/1products/0/description``,
 * Unexpected property at ``#/1products/0/displayName``,
@@ -51,6 +56,7 @@ Response schema mismatch:
 * Unexpected property at ``#/1products/0/groupRoleId``,
 * Unexpected property at ``#/1products/0/id``,
 * Unexpected property at ``#/1products/0/imageId``,
+* Unexpected property at ``#/1products/0/imageUrl``,
 * Unexpected property at ``#/1products/0/parentListings``,
 * Unexpected property at ``#/1products/0/productType``,
 * Unexpected property at ``#/1products/0/productTypeLabel``,
@@ -61,6 +67,7 @@ Response schema mismatch:
 * Unexpected property at ``#/1products/1/displayName``,
 * Unexpected property at ``#/1products/1/id``,
 * Unexpected property at ``#/1products/1/imageId``,
+* Unexpected property at ``#/1products/1/imageUrl``,
 * Unexpected property at ``#/1products/1/parentListings``,
 * Unexpected property at ``#/1products/1/productType``,
 * Unexpected property at ``#/1products/1/productTypeLabel``,
@@ -70,6 +77,7 @@ Response schema mismatch:
 * Unexpected property at ``#/1products/1/useForSubscriberList``,
 * Unexpected property at ``#/1/hasAvatar``,
 * Unexpected property at ``#/1/hasUdon``,
+* Unexpected property at ``#/1/imageUrl``,
 * Missing property at ``#/2/archived``,
 * Missing property at ``#/2/created``,
 * Missing property at ``#/2/instant``,
@@ -78,10 +86,12 @@ Response schema mismatch:
 * Missing property at ``#/2hydratedProducts/0/archived``,
 * Missing property at ``#/2hydratedProducts/0/created``,
 * Missing property at ``#/2hydratedProducts/0/updated``,
+* Unexpected property at ``#/2hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/2hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/2hydratedProducts/1/archived``,
 * Missing property at ``#/2hydratedProducts/1/created``,
 * Missing property at ``#/2hydratedProducts/1/updated``,
+* Unexpected property at ``#/2hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/2hydratedProducts/1/productTypeLabel``,
 * Unexpected property at ``#/2products/0/description``,
 * Unexpected property at ``#/2products/0/displayName``,
@@ -91,6 +101,7 @@ Response schema mismatch:
 * Unexpected property at ``#/2products/0/groupRoleId``,
 * Unexpected property at ``#/2products/0/id``,
 * Unexpected property at ``#/2products/0/imageId``,
+* Unexpected property at ``#/2products/0/imageUrl``,
 * Unexpected property at ``#/2products/0/parentListings``,
 * Unexpected property at ``#/2products/0/productType``,
 * Unexpected property at ``#/2products/0/productTypeLabel``,
@@ -101,6 +112,7 @@ Response schema mismatch:
 * Unexpected property at ``#/2products/1/displayName``,
 * Unexpected property at ``#/2products/1/id``,
 * Unexpected property at ``#/2products/1/imageId``,
+* Unexpected property at ``#/2products/1/imageUrl``,
 * Unexpected property at ``#/2products/1/parentListings``,
 * Unexpected property at ``#/2products/1/productType``,
 * Unexpected property at ``#/2products/1/productTypeLabel``,
@@ -110,6 +122,7 @@ Response schema mismatch:
 * Unexpected property at ``#/2products/1/useForSubscriberList``,
 * Unexpected property at ``#/2/hasAvatar``,
 * Unexpected property at ``#/2/hasUdon``,
+* Unexpected property at ``#/2/imageUrl``,
 * Missing property at ``#/3/archived``,
 * Missing property at ``#/3/created``,
 * Missing property at ``#/3/instant``,
@@ -118,54 +131,67 @@ Response schema mismatch:
 * Missing property at ``#/3hydratedProducts/0/archived``,
 * Missing property at ``#/3hydratedProducts/0/created``,
 * Missing property at ``#/3hydratedProducts/0/updated``,
+* Unexpected property at ``#/3hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/1/archived``,
 * Missing property at ``#/3hydratedProducts/1/created``,
 * Missing property at ``#/3hydratedProducts/1/updated``,
+* Unexpected property at ``#/3hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/2/archived``,
 * Missing property at ``#/3hydratedProducts/2/created``,
 * Missing property at ``#/3hydratedProducts/2/updated``,
+* Unexpected property at ``#/3hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/2/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/3/archived``,
 * Missing property at ``#/3hydratedProducts/3/created``,
 * Missing property at ``#/3hydratedProducts/3/updated``,
+* Unexpected property at ``#/3hydratedProducts/3/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/3/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/4/archived``,
 * Missing property at ``#/3hydratedProducts/4/created``,
 * Missing property at ``#/3hydratedProducts/4/updated``,
+* Unexpected property at ``#/3hydratedProducts/4/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/4/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/5/archived``,
 * Missing property at ``#/3hydratedProducts/5/created``,
 * Missing property at ``#/3hydratedProducts/5/updated``,
+* Unexpected property at ``#/3hydratedProducts/5/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/5/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/6/archived``,
 * Missing property at ``#/3hydratedProducts/6/created``,
 * Missing property at ``#/3hydratedProducts/6/updated``,
+* Unexpected property at ``#/3hydratedProducts/6/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/6/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/7/archived``,
 * Missing property at ``#/3hydratedProducts/7/created``,
 * Missing property at ``#/3hydratedProducts/7/updated``,
+* Unexpected property at ``#/3hydratedProducts/7/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/7/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/8/archived``,
 * Missing property at ``#/3hydratedProducts/8/created``,
 * Missing property at ``#/3hydratedProducts/8/updated``,
+* Unexpected property at ``#/3hydratedProducts/8/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/8/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/9/archived``,
 * Missing property at ``#/3hydratedProducts/9/created``,
 * Missing property at ``#/3hydratedProducts/9/updated``,
+* Unexpected property at ``#/3hydratedProducts/9/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/9/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/10/archived``,
 * Missing property at ``#/3hydratedProducts/10/created``,
 * Missing property at ``#/3hydratedProducts/10/updated``,
+* Unexpected property at ``#/3hydratedProducts/10/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/10/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/11/archived``,
 * Missing property at ``#/3hydratedProducts/11/created``,
 * Missing property at ``#/3hydratedProducts/11/updated``,
+* Unexpected property at ``#/3hydratedProducts/11/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/11/productTypeLabel``,
 * Missing property at ``#/3hydratedProducts/12/archived``,
 * Missing property at ``#/3hydratedProducts/12/created``,
 * Missing property at ``#/3hydratedProducts/12/updated``,
+* Unexpected property at ``#/3hydratedProducts/12/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/12/productTypeLabel``,
 * Invalid type at ``#/3listingVariants/0/unitPriceTokens``,
 * Invalid type at ``#/3listingVariants/1/unitPriceTokens``,
@@ -174,6 +200,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/0/displayName``,
 * Unexpected property at ``#/3products/0/id``,
 * Unexpected property at ``#/3products/0/imageId``,
+* Unexpected property at ``#/3products/0/imageUrl``,
 * Unexpected property at ``#/3products/0/parentListings``,
 * Unexpected property at ``#/3products/0/productType``,
 * Unexpected property at ``#/3products/0/productTypeLabel``,
@@ -189,6 +216,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/1/groupRoleId``,
 * Unexpected property at ``#/3products/1/id``,
 * Unexpected property at ``#/3products/1/imageId``,
+* Unexpected property at ``#/3products/1/imageUrl``,
 * Unexpected property at ``#/3products/1/parentListings``,
 * Unexpected property at ``#/3products/1/productType``,
 * Unexpected property at ``#/3products/1/productTypeLabel``,
@@ -199,6 +227,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/2/displayName``,
 * Unexpected property at ``#/3products/2/id``,
 * Unexpected property at ``#/3products/2/imageId``,
+* Unexpected property at ``#/3products/2/imageUrl``,
 * Unexpected property at ``#/3products/2/parentListings``,
 * Unexpected property at ``#/3products/2/productType``,
 * Unexpected property at ``#/3products/2/productTypeLabel``,
@@ -210,6 +239,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/3/displayName``,
 * Unexpected property at ``#/3products/3/id``,
 * Unexpected property at ``#/3products/3/imageId``,
+* Unexpected property at ``#/3products/3/imageUrl``,
 * Unexpected property at ``#/3products/3/parentListings``,
 * Unexpected property at ``#/3products/3/productType``,
 * Unexpected property at ``#/3products/3/productTypeLabel``,
@@ -221,6 +251,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/4/displayName``,
 * Unexpected property at ``#/3products/4/id``,
 * Unexpected property at ``#/3products/4/imageId``,
+* Unexpected property at ``#/3products/4/imageUrl``,
 * Unexpected property at ``#/3products/4/parentListings``,
 * Unexpected property at ``#/3products/4/productType``,
 * Unexpected property at ``#/3products/4/productTypeLabel``,
@@ -232,6 +263,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/5/displayName``,
 * Unexpected property at ``#/3products/5/id``,
 * Unexpected property at ``#/3products/5/imageId``,
+* Unexpected property at ``#/3products/5/imageUrl``,
 * Unexpected property at ``#/3products/5/parentListings``,
 * Unexpected property at ``#/3products/5/productType``,
 * Unexpected property at ``#/3products/5/productTypeLabel``,
@@ -243,6 +275,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/6/displayName``,
 * Unexpected property at ``#/3products/6/id``,
 * Unexpected property at ``#/3products/6/imageId``,
+* Unexpected property at ``#/3products/6/imageUrl``,
 * Unexpected property at ``#/3products/6/parentListings``,
 * Unexpected property at ``#/3products/6/productType``,
 * Unexpected property at ``#/3products/6/productTypeLabel``,
@@ -254,6 +287,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/7/displayName``,
 * Unexpected property at ``#/3products/7/id``,
 * Unexpected property at ``#/3products/7/imageId``,
+* Unexpected property at ``#/3products/7/imageUrl``,
 * Unexpected property at ``#/3products/7/parentListings``,
 * Unexpected property at ``#/3products/7/productType``,
 * Unexpected property at ``#/3products/7/productTypeLabel``,
@@ -265,6 +299,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/8/displayName``,
 * Unexpected property at ``#/3products/8/id``,
 * Unexpected property at ``#/3products/8/imageId``,
+* Unexpected property at ``#/3products/8/imageUrl``,
 * Unexpected property at ``#/3products/8/parentListings``,
 * Unexpected property at ``#/3products/8/productType``,
 * Unexpected property at ``#/3products/8/productTypeLabel``,
@@ -276,6 +311,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/9/displayName``,
 * Unexpected property at ``#/3products/9/id``,
 * Unexpected property at ``#/3products/9/imageId``,
+* Unexpected property at ``#/3products/9/imageUrl``,
 * Unexpected property at ``#/3products/9/parentListings``,
 * Unexpected property at ``#/3products/9/productType``,
 * Unexpected property at ``#/3products/9/productTypeLabel``,
@@ -287,6 +323,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/10/displayName``,
 * Unexpected property at ``#/3products/10/id``,
 * Unexpected property at ``#/3products/10/imageId``,
+* Unexpected property at ``#/3products/10/imageUrl``,
 * Unexpected property at ``#/3products/10/parentListings``,
 * Unexpected property at ``#/3products/10/productType``,
 * Unexpected property at ``#/3products/10/productTypeLabel``,
@@ -298,6 +335,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/11/displayName``,
 * Unexpected property at ``#/3products/11/id``,
 * Unexpected property at ``#/3products/11/imageId``,
+* Unexpected property at ``#/3products/11/imageUrl``,
 * Unexpected property at ``#/3products/11/parentListings``,
 * Unexpected property at ``#/3products/11/productType``,
 * Unexpected property at ``#/3products/11/productTypeLabel``,
@@ -309,6 +347,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/12/displayName``,
 * Unexpected property at ``#/3products/12/id``,
 * Unexpected property at ``#/3products/12/imageId``,
+* Unexpected property at ``#/3products/12/imageUrl``,
 * Unexpected property at ``#/3products/12/parentListings``,
 * Unexpected property at ``#/3products/12/productType``,
 * Unexpected property at ``#/3products/12/productTypeLabel``,
@@ -318,6 +357,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/12/useForSubscriberList``,
 * Unexpected property at ``#/3/hasAvatar``,
 * Unexpected property at ``#/3/hasUdon``,
+* Unexpected property at ``#/3/imageUrl``,
 * Missing property at ``#/4/archived``,
 * Missing property at ``#/4/created``,
 * Missing property at ``#/4/groupIcon``,
@@ -331,12 +371,14 @@ Response schema mismatch:
 * Missing property at ``#/4hydratedProducts/0/archived``,
 * Missing property at ``#/4hydratedProducts/0/created``,
 * Missing property at ``#/4hydratedProducts/0/updated``,
+* Unexpected property at ``#/4hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/4hydratedProducts/0/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/4/listingType``,
 * Unexpected property at ``#/4products/0/description``,
 * Unexpected property at ``#/4products/0/displayName``,
 * Unexpected property at ``#/4products/0/id``,
 * Unexpected property at ``#/4products/0/imageId``,
+* Unexpected property at ``#/4products/0/imageUrl``,
 * Unexpected property at ``#/4products/0/parentListings``,
 * Unexpected property at ``#/4products/0/productType``,
 * Unexpected property at ``#/4products/0/productTypeLabel``,
@@ -346,6 +388,7 @@ Response schema mismatch:
 * Unexpected property at ``#/4products/0/useForSubscriberList``,
 * Unexpected property at ``#/4/hasAvatar``,
 * Unexpected property at ``#/4/hasUdon``,
+* Unexpected property at ``#/4/imageUrl``,
 * Missing property at ``#/5/archived``,
 * Missing property at ``#/5/created``,
 * Missing property at ``#/5/groupIcon``,
@@ -359,12 +402,14 @@ Response schema mismatch:
 * Missing property at ``#/5hydratedProducts/0/archived``,
 * Missing property at ``#/5hydratedProducts/0/created``,
 * Missing property at ``#/5hydratedProducts/0/updated``,
+* Unexpected property at ``#/5hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/5hydratedProducts/0/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/5/listingType``,
 * Unexpected property at ``#/5products/0/description``,
 * Unexpected property at ``#/5products/0/displayName``,
 * Unexpected property at ``#/5products/0/id``,
 * Unexpected property at ``#/5products/0/imageId``,
+* Unexpected property at ``#/5products/0/imageUrl``,
 * Unexpected property at ``#/5products/0/parentListings``,
 * Unexpected property at ``#/5products/0/productType``,
 * Unexpected property at ``#/5products/0/productTypeLabel``,
@@ -374,6 +419,7 @@ Response schema mismatch:
 * Unexpected property at ``#/5products/0/useForSubscriberList``,
 * Unexpected property at ``#/5/hasAvatar``,
 * Unexpected property at ``#/5/hasUdon``,
+* Unexpected property at ``#/5/imageUrl``,
 * Missing property at ``#/6/archived``,
 * Missing property at ``#/6/created``,
 * Missing property at ``#/6/groupIcon``,
@@ -387,16 +433,19 @@ Response schema mismatch:
 * Missing property at ``#/6hydratedProducts/0/archived``,
 * Missing property at ``#/6hydratedProducts/0/created``,
 * Missing property at ``#/6hydratedProducts/0/updated``,
+* Unexpected property at ``#/6hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/6hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/6hydratedProducts/1/archived``,
 * Missing property at ``#/6hydratedProducts/1/created``,
 * Missing property at ``#/6hydratedProducts/1/updated``,
+* Unexpected property at ``#/6hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/6hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/6/listingType``,
 * Unexpected property at ``#/6products/0/description``,
 * Unexpected property at ``#/6products/0/displayName``,
 * Unexpected property at ``#/6products/0/id``,
 * Unexpected property at ``#/6products/0/imageId``,
+* Unexpected property at ``#/6products/0/imageUrl``,
 * Unexpected property at ``#/6products/0/parentListings``,
 * Unexpected property at ``#/6products/0/productType``,
 * Unexpected property at ``#/6products/0/productTypeLabel``,
@@ -408,6 +457,7 @@ Response schema mismatch:
 * Unexpected property at ``#/6products/1/displayName``,
 * Unexpected property at ``#/6products/1/id``,
 * Unexpected property at ``#/6products/1/imageId``,
+* Unexpected property at ``#/6products/1/imageUrl``,
 * Unexpected property at ``#/6products/1/parentListings``,
 * Unexpected property at ``#/6products/1/productType``,
 * Unexpected property at ``#/6products/1/productTypeLabel``,
@@ -417,6 +467,7 @@ Response schema mismatch:
 * Unexpected property at ``#/6products/1/useForSubscriberList``,
 * Unexpected property at ``#/6/hasAvatar``,
 * Unexpected property at ``#/6/hasUdon``,
+* Unexpected property at ``#/6/imageUrl``,
 * Missing property at ``#/7/archived``,
 * Missing property at ``#/7/created``,
 * Missing property at ``#/7/groupIcon``,
@@ -432,12 +483,14 @@ Response schema mismatch:
 * Missing property at ``#/7hydratedProducts/0/archived``,
 * Missing property at ``#/7hydratedProducts/0/created``,
 * Missing property at ``#/7hydratedProducts/0/updated``,
+* Unexpected property at ``#/7hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/7hydratedProducts/0/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/7/listingType``,
 * Unexpected property at ``#/7products/0/description``,
 * Unexpected property at ``#/7products/0/displayName``,
 * Unexpected property at ``#/7products/0/id``,
 * Unexpected property at ``#/7products/0/imageId``,
+* Unexpected property at ``#/7products/0/imageUrl``,
 * Unexpected property at ``#/7products/0/parentListings``,
 * Unexpected property at ``#/7products/0/productType``,
 * Unexpected property at ``#/7products/0/productTypeLabel``,
@@ -447,6 +500,7 @@ Response schema mismatch:
 * Unexpected property at ``#/7products/0/useForSubscriberList``,
 * Unexpected property at ``#/7/hasAvatar``,
 * Unexpected property at ``#/7/hasUdon``,
+* Unexpected property at ``#/7/imageUrl``,
 * Missing property at ``#/8/archived``,
 * Missing property at ``#/8/created``,
 * Missing property at ``#/8/groupIcon``,
@@ -462,12 +516,14 @@ Response schema mismatch:
 * Missing property at ``#/8hydratedProducts/0/archived``,
 * Missing property at ``#/8hydratedProducts/0/created``,
 * Missing property at ``#/8hydratedProducts/0/updated``,
+* Unexpected property at ``#/8hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/8hydratedProducts/0/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/8/listingType``,
 * Unexpected property at ``#/8products/0/description``,
 * Unexpected property at ``#/8products/0/displayName``,
 * Unexpected property at ``#/8products/0/id``,
 * Unexpected property at ``#/8products/0/imageId``,
+* Unexpected property at ``#/8products/0/imageUrl``,
 * Unexpected property at ``#/8products/0/parentListings``,
 * Unexpected property at ``#/8products/0/productType``,
 * Unexpected property at ``#/8products/0/productTypeLabel``,
@@ -477,6 +533,7 @@ Response schema mismatch:
 * Unexpected property at ``#/8products/0/useForSubscriberList``,
 * Unexpected property at ``#/8/hasAvatar``,
 * Unexpected property at ``#/8/hasUdon``,
+* Unexpected property at ``#/8/imageUrl``,
 * Missing property at ``#/9/archived``,
 * Missing property at ``#/9/created``,
 * Missing property at ``#/9/groupIcon``,
@@ -492,12 +549,14 @@ Response schema mismatch:
 * Missing property at ``#/9hydratedProducts/0/archived``,
 * Missing property at ``#/9hydratedProducts/0/created``,
 * Missing property at ``#/9hydratedProducts/0/updated``,
+* Unexpected property at ``#/9hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/9hydratedProducts/0/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/9/listingType``,
 * Unexpected property at ``#/9products/0/description``,
 * Unexpected property at ``#/9products/0/displayName``,
 * Unexpected property at ``#/9products/0/id``,
 * Unexpected property at ``#/9products/0/imageId``,
+* Unexpected property at ``#/9products/0/imageUrl``,
 * Unexpected property at ``#/9products/0/parentListings``,
 * Unexpected property at ``#/9products/0/productType``,
 * Unexpected property at ``#/9products/0/productTypeLabel``,
@@ -507,6 +566,7 @@ Response schema mismatch:
 * Unexpected property at ``#/9products/0/useForSubscriberList``,
 * Unexpected property at ``#/9/hasAvatar``,
 * Unexpected property at ``#/9/hasUdon``,
+* Unexpected property at ``#/9/imageUrl``,
 * Missing property at ``#/10/archived``,
 * Missing property at ``#/10/created``,
 * Missing property at ``#/10/groupIcon``,
@@ -522,16 +582,19 @@ Response schema mismatch:
 * Missing property at ``#/10hydratedProducts/0/archived``,
 * Missing property at ``#/10hydratedProducts/0/created``,
 * Missing property at ``#/10hydratedProducts/0/updated``,
+* Unexpected property at ``#/10hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/10hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/10hydratedProducts/1/archived``,
 * Missing property at ``#/10hydratedProducts/1/created``,
 * Missing property at ``#/10hydratedProducts/1/updated``,
+* Unexpected property at ``#/10hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/10hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/10/listingType``,
 * Unexpected property at ``#/10products/0/description``,
 * Unexpected property at ``#/10products/0/displayName``,
 * Unexpected property at ``#/10products/0/id``,
 * Unexpected property at ``#/10products/0/imageId``,
+* Unexpected property at ``#/10products/0/imageUrl``,
 * Unexpected property at ``#/10products/0/parentListings``,
 * Unexpected property at ``#/10products/0/productType``,
 * Unexpected property at ``#/10products/0/productTypeLabel``,
@@ -543,6 +606,7 @@ Response schema mismatch:
 * Unexpected property at ``#/10products/1/displayName``,
 * Unexpected property at ``#/10products/1/id``,
 * Unexpected property at ``#/10products/1/imageId``,
+* Unexpected property at ``#/10products/1/imageUrl``,
 * Unexpected property at ``#/10products/1/parentListings``,
 * Unexpected property at ``#/10products/1/productType``,
 * Unexpected property at ``#/10products/1/productTypeLabel``,
@@ -552,6 +616,7 @@ Response schema mismatch:
 * Unexpected property at ``#/10products/1/useForSubscriberList``,
 * Unexpected property at ``#/10/hasAvatar``,
 * Unexpected property at ``#/10/hasUdon``,
+* Unexpected property at ``#/10/imageUrl``,
 * Missing property at ``#/11/archived``,
 * Missing property at ``#/11/created``,
 * Missing property at ``#/11/groupIcon``,
@@ -567,16 +632,19 @@ Response schema mismatch:
 * Missing property at ``#/11hydratedProducts/0/archived``,
 * Missing property at ``#/11hydratedProducts/0/created``,
 * Missing property at ``#/11hydratedProducts/0/updated``,
+* Unexpected property at ``#/11hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/11hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/11hydratedProducts/1/archived``,
 * Missing property at ``#/11hydratedProducts/1/created``,
 * Missing property at ``#/11hydratedProducts/1/updated``,
+* Unexpected property at ``#/11hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/11hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/11/listingType``,
 * Unexpected property at ``#/11products/0/description``,
 * Unexpected property at ``#/11products/0/displayName``,
 * Unexpected property at ``#/11products/0/id``,
 * Unexpected property at ``#/11products/0/imageId``,
+* Unexpected property at ``#/11products/0/imageUrl``,
 * Unexpected property at ``#/11products/0/parentListings``,
 * Unexpected property at ``#/11products/0/productType``,
 * Unexpected property at ``#/11products/0/productTypeLabel``,
@@ -588,6 +656,7 @@ Response schema mismatch:
 * Unexpected property at ``#/11products/1/displayName``,
 * Unexpected property at ``#/11products/1/id``,
 * Unexpected property at ``#/11products/1/imageId``,
+* Unexpected property at ``#/11products/1/imageUrl``,
 * Unexpected property at ``#/11products/1/parentListings``,
 * Unexpected property at ``#/11products/1/productType``,
 * Unexpected property at ``#/11products/1/productTypeLabel``,
@@ -597,6 +666,7 @@ Response schema mismatch:
 * Unexpected property at ``#/11products/1/useForSubscriberList``,
 * Unexpected property at ``#/11/hasAvatar``,
 * Unexpected property at ``#/11/hasUdon``,
+* Unexpected property at ``#/11/imageUrl``,
 * Missing property at ``#/12/archived``,
 * Missing property at ``#/12/created``,
 * Missing property at ``#/12/groupIcon``,
@@ -612,16 +682,19 @@ Response schema mismatch:
 * Missing property at ``#/12hydratedProducts/0/archived``,
 * Missing property at ``#/12hydratedProducts/0/created``,
 * Missing property at ``#/12hydratedProducts/0/updated``,
+* Unexpected property at ``#/12hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/12hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/12hydratedProducts/1/archived``,
 * Missing property at ``#/12hydratedProducts/1/created``,
 * Missing property at ``#/12hydratedProducts/1/updated``,
+* Unexpected property at ``#/12hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/12hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/12/listingType``,
 * Unexpected property at ``#/12products/0/description``,
 * Unexpected property at ``#/12products/0/displayName``,
 * Unexpected property at ``#/12products/0/id``,
 * Unexpected property at ``#/12products/0/imageId``,
+* Unexpected property at ``#/12products/0/imageUrl``,
 * Unexpected property at ``#/12products/0/parentListings``,
 * Unexpected property at ``#/12products/0/productType``,
 * Unexpected property at ``#/12products/0/productTypeLabel``,
@@ -633,6 +706,7 @@ Response schema mismatch:
 * Unexpected property at ``#/12products/1/displayName``,
 * Unexpected property at ``#/12products/1/id``,
 * Unexpected property at ``#/12products/1/imageId``,
+* Unexpected property at ``#/12products/1/imageUrl``,
 * Unexpected property at ``#/12products/1/parentListings``,
 * Unexpected property at ``#/12products/1/productType``,
 * Unexpected property at ``#/12products/1/productTypeLabel``,
@@ -642,6 +716,7 @@ Response schema mismatch:
 * Unexpected property at ``#/12products/1/useForSubscriberList``,
 * Unexpected property at ``#/12/hasAvatar``,
 * Unexpected property at ``#/12/hasUdon``,
+* Unexpected property at ``#/12/imageUrl``,
 * Missing property at ``#/13/archived``,
 * Missing property at ``#/13/created``,
 * Missing property at ``#/13/groupIcon``,
@@ -657,16 +732,19 @@ Response schema mismatch:
 * Missing property at ``#/13hydratedProducts/0/archived``,
 * Missing property at ``#/13hydratedProducts/0/created``,
 * Missing property at ``#/13hydratedProducts/0/updated``,
+* Unexpected property at ``#/13hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/13hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/13hydratedProducts/1/archived``,
 * Missing property at ``#/13hydratedProducts/1/created``,
 * Missing property at ``#/13hydratedProducts/1/updated``,
+* Unexpected property at ``#/13hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/13hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/13/listingType``,
 * Unexpected property at ``#/13products/0/description``,
 * Unexpected property at ``#/13products/0/displayName``,
 * Unexpected property at ``#/13products/0/id``,
 * Unexpected property at ``#/13products/0/imageId``,
+* Unexpected property at ``#/13products/0/imageUrl``,
 * Unexpected property at ``#/13products/0/parentListings``,
 * Unexpected property at ``#/13products/0/productType``,
 * Unexpected property at ``#/13products/0/productTypeLabel``,
@@ -678,6 +756,7 @@ Response schema mismatch:
 * Unexpected property at ``#/13products/1/displayName``,
 * Unexpected property at ``#/13products/1/id``,
 * Unexpected property at ``#/13products/1/imageId``,
+* Unexpected property at ``#/13products/1/imageUrl``,
 * Unexpected property at ``#/13products/1/parentListings``,
 * Unexpected property at ``#/13products/1/productType``,
 * Unexpected property at ``#/13products/1/productTypeLabel``,
@@ -687,6 +766,7 @@ Response schema mismatch:
 * Unexpected property at ``#/13products/1/useForSubscriberList``,
 * Unexpected property at ``#/13/hasAvatar``,
 * Unexpected property at ``#/13/hasUdon``,
+* Unexpected property at ``#/13/imageUrl``,
 * Missing property at ``#/14/archived``,
 * Missing property at ``#/14/created``,
 * Missing property at ``#/14/groupIcon``,
@@ -702,16 +782,19 @@ Response schema mismatch:
 * Missing property at ``#/14hydratedProducts/0/archived``,
 * Missing property at ``#/14hydratedProducts/0/created``,
 * Missing property at ``#/14hydratedProducts/0/updated``,
+* Unexpected property at ``#/14hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/14hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/14hydratedProducts/1/archived``,
 * Missing property at ``#/14hydratedProducts/1/created``,
 * Missing property at ``#/14hydratedProducts/1/updated``,
+* Unexpected property at ``#/14hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/14hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/14/listingType``,
 * Unexpected property at ``#/14products/0/description``,
 * Unexpected property at ``#/14products/0/displayName``,
 * Unexpected property at ``#/14products/0/id``,
 * Unexpected property at ``#/14products/0/imageId``,
+* Unexpected property at ``#/14products/0/imageUrl``,
 * Unexpected property at ``#/14products/0/parentListings``,
 * Unexpected property at ``#/14products/0/productType``,
 * Unexpected property at ``#/14products/0/productTypeLabel``,
@@ -723,6 +806,7 @@ Response schema mismatch:
 * Unexpected property at ``#/14products/1/displayName``,
 * Unexpected property at ``#/14products/1/id``,
 * Unexpected property at ``#/14products/1/imageId``,
+* Unexpected property at ``#/14products/1/imageUrl``,
 * Unexpected property at ``#/14products/1/parentListings``,
 * Unexpected property at ``#/14products/1/productType``,
 * Unexpected property at ``#/14products/1/productTypeLabel``,
@@ -732,6 +816,7 @@ Response schema mismatch:
 * Unexpected property at ``#/14products/1/useForSubscriberList``,
 * Unexpected property at ``#/14/hasAvatar``,
 * Unexpected property at ``#/14/hasUdon``,
+* Unexpected property at ``#/14/imageUrl``,
 * Missing property at ``#/15/archived``,
 * Missing property at ``#/15/created``,
 * Missing property at ``#/15/groupIcon``,
@@ -747,16 +832,19 @@ Response schema mismatch:
 * Missing property at ``#/15hydratedProducts/0/archived``,
 * Missing property at ``#/15hydratedProducts/0/created``,
 * Missing property at ``#/15hydratedProducts/0/updated``,
+* Unexpected property at ``#/15hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/15hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/15hydratedProducts/1/archived``,
 * Missing property at ``#/15hydratedProducts/1/created``,
 * Missing property at ``#/15hydratedProducts/1/updated``,
+* Unexpected property at ``#/15hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/15hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/15/listingType``,
 * Unexpected property at ``#/15products/0/description``,
 * Unexpected property at ``#/15products/0/displayName``,
 * Unexpected property at ``#/15products/0/id``,
 * Unexpected property at ``#/15products/0/imageId``,
+* Unexpected property at ``#/15products/0/imageUrl``,
 * Unexpected property at ``#/15products/0/parentListings``,
 * Unexpected property at ``#/15products/0/productType``,
 * Unexpected property at ``#/15products/0/productTypeLabel``,
@@ -768,6 +856,7 @@ Response schema mismatch:
 * Unexpected property at ``#/15products/1/displayName``,
 * Unexpected property at ``#/15products/1/id``,
 * Unexpected property at ``#/15products/1/imageId``,
+* Unexpected property at ``#/15products/1/imageUrl``,
 * Unexpected property at ``#/15products/1/parentListings``,
 * Unexpected property at ``#/15products/1/productType``,
 * Unexpected property at ``#/15products/1/productTypeLabel``,
@@ -777,6 +866,7 @@ Response schema mismatch:
 * Unexpected property at ``#/15products/1/useForSubscriberList``,
 * Unexpected property at ``#/15/hasAvatar``,
 * Unexpected property at ``#/15/hasUdon``,
+* Unexpected property at ``#/15/imageUrl``,
 * Missing property at ``#/16/archived``,
 * Missing property at ``#/16/created``,
 * Missing property at ``#/16/groupIcon``,
@@ -792,16 +882,19 @@ Response schema mismatch:
 * Missing property at ``#/16hydratedProducts/0/archived``,
 * Missing property at ``#/16hydratedProducts/0/created``,
 * Missing property at ``#/16hydratedProducts/0/updated``,
+* Unexpected property at ``#/16hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/16hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/16hydratedProducts/1/archived``,
 * Missing property at ``#/16hydratedProducts/1/created``,
 * Missing property at ``#/16hydratedProducts/1/updated``,
+* Unexpected property at ``#/16hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/16hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/16/listingType``,
 * Unexpected property at ``#/16products/0/description``,
 * Unexpected property at ``#/16products/0/displayName``,
 * Unexpected property at ``#/16products/0/id``,
 * Unexpected property at ``#/16products/0/imageId``,
+* Unexpected property at ``#/16products/0/imageUrl``,
 * Unexpected property at ``#/16products/0/parentListings``,
 * Unexpected property at ``#/16products/0/productType``,
 * Unexpected property at ``#/16products/0/productTypeLabel``,
@@ -813,6 +906,7 @@ Response schema mismatch:
 * Unexpected property at ``#/16products/1/displayName``,
 * Unexpected property at ``#/16products/1/id``,
 * Unexpected property at ``#/16products/1/imageId``,
+* Unexpected property at ``#/16products/1/imageUrl``,
 * Unexpected property at ``#/16products/1/parentListings``,
 * Unexpected property at ``#/16products/1/productType``,
 * Unexpected property at ``#/16products/1/productTypeLabel``,
@@ -822,6 +916,7 @@ Response schema mismatch:
 * Unexpected property at ``#/16products/1/useForSubscriberList``,
 * Unexpected property at ``#/16/hasAvatar``,
 * Unexpected property at ``#/16/hasUdon``,
+* Unexpected property at ``#/16/imageUrl``,
 * Missing property at ``#/17/archived``,
 * Missing property at ``#/17/created``,
 * Missing property at ``#/17/groupIcon``,
@@ -837,16 +932,19 @@ Response schema mismatch:
 * Missing property at ``#/17hydratedProducts/0/archived``,
 * Missing property at ``#/17hydratedProducts/0/created``,
 * Missing property at ``#/17hydratedProducts/0/updated``,
+* Unexpected property at ``#/17hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/17hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/17hydratedProducts/1/archived``,
 * Missing property at ``#/17hydratedProducts/1/created``,
 * Missing property at ``#/17hydratedProducts/1/updated``,
+* Unexpected property at ``#/17hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/17hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/17/listingType``,
 * Unexpected property at ``#/17products/0/description``,
 * Unexpected property at ``#/17products/0/displayName``,
 * Unexpected property at ``#/17products/0/id``,
 * Unexpected property at ``#/17products/0/imageId``,
+* Unexpected property at ``#/17products/0/imageUrl``,
 * Unexpected property at ``#/17products/0/parentListings``,
 * Unexpected property at ``#/17products/0/productType``,
 * Unexpected property at ``#/17products/0/productTypeLabel``,
@@ -858,6 +956,7 @@ Response schema mismatch:
 * Unexpected property at ``#/17products/1/displayName``,
 * Unexpected property at ``#/17products/1/id``,
 * Unexpected property at ``#/17products/1/imageId``,
+* Unexpected property at ``#/17products/1/imageUrl``,
 * Unexpected property at ``#/17products/1/parentListings``,
 * Unexpected property at ``#/17products/1/productType``,
 * Unexpected property at ``#/17products/1/productTypeLabel``,
@@ -867,6 +966,7 @@ Response schema mismatch:
 * Unexpected property at ``#/17products/1/useForSubscriberList``,
 * Unexpected property at ``#/17/hasAvatar``,
 * Unexpected property at ``#/17/hasUdon``,
+* Unexpected property at ``#/17/imageUrl``,
 * Missing property at ``#/18/archived``,
 * Missing property at ``#/18/created``,
 * Missing property at ``#/18/groupIcon``,
@@ -882,16 +982,19 @@ Response schema mismatch:
 * Missing property at ``#/18hydratedProducts/0/archived``,
 * Missing property at ``#/18hydratedProducts/0/created``,
 * Missing property at ``#/18hydratedProducts/0/updated``,
+* Unexpected property at ``#/18hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/18hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/18hydratedProducts/1/archived``,
 * Missing property at ``#/18hydratedProducts/1/created``,
 * Missing property at ``#/18hydratedProducts/1/updated``,
+* Unexpected property at ``#/18hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/18hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/18/listingType``,
 * Unexpected property at ``#/18products/0/description``,
 * Unexpected property at ``#/18products/0/displayName``,
 * Unexpected property at ``#/18products/0/id``,
 * Unexpected property at ``#/18products/0/imageId``,
+* Unexpected property at ``#/18products/0/imageUrl``,
 * Unexpected property at ``#/18products/0/parentListings``,
 * Unexpected property at ``#/18products/0/productType``,
 * Unexpected property at ``#/18products/0/productTypeLabel``,
@@ -903,6 +1006,7 @@ Response schema mismatch:
 * Unexpected property at ``#/18products/1/displayName``,
 * Unexpected property at ``#/18products/1/id``,
 * Unexpected property at ``#/18products/1/imageId``,
+* Unexpected property at ``#/18products/1/imageUrl``,
 * Unexpected property at ``#/18products/1/parentListings``,
 * Unexpected property at ``#/18products/1/productType``,
 * Unexpected property at ``#/18products/1/productTypeLabel``,
@@ -912,6 +1016,7 @@ Response schema mismatch:
 * Unexpected property at ``#/18products/1/useForSubscriberList``,
 * Unexpected property at ``#/18/hasAvatar``,
 * Unexpected property at ``#/18/hasUdon``,
+* Unexpected property at ``#/18/imageUrl``,
 * Missing property at ``#/19/archived``,
 * Missing property at ``#/19/created``,
 * Missing property at ``#/19/groupIcon``,
@@ -927,16 +1032,19 @@ Response schema mismatch:
 * Missing property at ``#/19hydratedProducts/0/archived``,
 * Missing property at ``#/19hydratedProducts/0/created``,
 * Missing property at ``#/19hydratedProducts/0/updated``,
+* Unexpected property at ``#/19hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/19hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/19hydratedProducts/1/archived``,
 * Missing property at ``#/19hydratedProducts/1/created``,
 * Missing property at ``#/19hydratedProducts/1/updated``,
+* Unexpected property at ``#/19hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/19hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/19/listingType``,
 * Unexpected property at ``#/19products/0/description``,
 * Unexpected property at ``#/19products/0/displayName``,
 * Unexpected property at ``#/19products/0/id``,
 * Unexpected property at ``#/19products/0/imageId``,
+* Unexpected property at ``#/19products/0/imageUrl``,
 * Unexpected property at ``#/19products/0/parentListings``,
 * Unexpected property at ``#/19products/0/productType``,
 * Unexpected property at ``#/19products/0/productTypeLabel``,
@@ -948,6 +1056,7 @@ Response schema mismatch:
 * Unexpected property at ``#/19products/1/displayName``,
 * Unexpected property at ``#/19products/1/id``,
 * Unexpected property at ``#/19products/1/imageId``,
+* Unexpected property at ``#/19products/1/imageUrl``,
 * Unexpected property at ``#/19products/1/parentListings``,
 * Unexpected property at ``#/19products/1/productType``,
 * Unexpected property at ``#/19products/1/productTypeLabel``,
@@ -957,6 +1066,7 @@ Response schema mismatch:
 * Unexpected property at ``#/19products/1/useForSubscriberList``,
 * Unexpected property at ``#/19/hasAvatar``,
 * Unexpected property at ``#/19/hasUdon``,
+* Unexpected property at ``#/19/imageUrl``,
 * Missing property at ``#/20/archived``,
 * Missing property at ``#/20/created``,
 * Missing property at ``#/20/groupIcon``,
@@ -971,20 +1081,24 @@ Response schema mismatch:
 * Missing property at ``#/20hydratedProducts/0/archived``,
 * Missing property at ``#/20hydratedProducts/0/created``,
 * Missing property at ``#/20hydratedProducts/0/updated``,
+* Unexpected property at ``#/20hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/20hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/20hydratedProducts/1/archived``,
 * Missing property at ``#/20hydratedProducts/1/created``,
 * Missing property at ``#/20hydratedProducts/1/updated``,
+* Unexpected property at ``#/20hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/20hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/20hydratedProducts/2/archived``,
 * Missing property at ``#/20hydratedProducts/2/created``,
 * Missing property at ``#/20hydratedProducts/2/updated``,
+* Unexpected property at ``#/20hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/20hydratedProducts/2/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/20/listingType``,
 * Unexpected property at ``#/20products/0/description``,
 * Unexpected property at ``#/20products/0/displayName``,
 * Unexpected property at ``#/20products/0/id``,
 * Unexpected property at ``#/20products/0/imageId``,
+* Unexpected property at ``#/20products/0/imageUrl``,
 * Unexpected property at ``#/20products/0/parentListings``,
 * Unexpected property at ``#/20products/0/productType``,
 * Unexpected property at ``#/20products/0/productTypeLabel``,
@@ -996,6 +1110,7 @@ Response schema mismatch:
 * Unexpected property at ``#/20products/1/displayName``,
 * Unexpected property at ``#/20products/1/id``,
 * Unexpected property at ``#/20products/1/imageId``,
+* Unexpected property at ``#/20products/1/imageUrl``,
 * Unexpected property at ``#/20products/1/parentListings``,
 * Unexpected property at ``#/20products/1/productType``,
 * Unexpected property at ``#/20products/1/productTypeLabel``,
@@ -1007,6 +1122,7 @@ Response schema mismatch:
 * Unexpected property at ``#/20products/2/displayName``,
 * Unexpected property at ``#/20products/2/id``,
 * Unexpected property at ``#/20products/2/imageId``,
+* Unexpected property at ``#/20products/2/imageUrl``,
 * Unexpected property at ``#/20products/2/parentListings``,
 * Unexpected property at ``#/20products/2/productType``,
 * Unexpected property at ``#/20products/2/productTypeLabel``,
@@ -1016,6 +1132,7 @@ Response schema mismatch:
 * Unexpected property at ``#/20products/2/useForSubscriberList``,
 * Unexpected property at ``#/20/hasAvatar``,
 * Unexpected property at ``#/20/hasUdon``,
+* Unexpected property at ``#/20/imageUrl``,
 * Missing property at ``#/21/archived``,
 * Missing property at ``#/21/created``,
 * Missing property at ``#/21/groupIcon``,
@@ -1030,20 +1147,24 @@ Response schema mismatch:
 * Missing property at ``#/21hydratedProducts/0/archived``,
 * Missing property at ``#/21hydratedProducts/0/created``,
 * Missing property at ``#/21hydratedProducts/0/updated``,
+* Unexpected property at ``#/21hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/21hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/21hydratedProducts/1/archived``,
 * Missing property at ``#/21hydratedProducts/1/created``,
 * Missing property at ``#/21hydratedProducts/1/updated``,
+* Unexpected property at ``#/21hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/21hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/21hydratedProducts/2/archived``,
 * Missing property at ``#/21hydratedProducts/2/created``,
 * Missing property at ``#/21hydratedProducts/2/updated``,
+* Unexpected property at ``#/21hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/21hydratedProducts/2/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/21/listingType``,
 * Unexpected property at ``#/21products/0/description``,
 * Unexpected property at ``#/21products/0/displayName``,
 * Unexpected property at ``#/21products/0/id``,
 * Unexpected property at ``#/21products/0/imageId``,
+* Unexpected property at ``#/21products/0/imageUrl``,
 * Unexpected property at ``#/21products/0/parentListings``,
 * Unexpected property at ``#/21products/0/productType``,
 * Unexpected property at ``#/21products/0/productTypeLabel``,
@@ -1055,6 +1176,7 @@ Response schema mismatch:
 * Unexpected property at ``#/21products/1/displayName``,
 * Unexpected property at ``#/21products/1/id``,
 * Unexpected property at ``#/21products/1/imageId``,
+* Unexpected property at ``#/21products/1/imageUrl``,
 * Unexpected property at ``#/21products/1/parentListings``,
 * Unexpected property at ``#/21products/1/productType``,
 * Unexpected property at ``#/21products/1/productTypeLabel``,
@@ -1066,6 +1188,7 @@ Response schema mismatch:
 * Unexpected property at ``#/21products/2/displayName``,
 * Unexpected property at ``#/21products/2/id``,
 * Unexpected property at ``#/21products/2/imageId``,
+* Unexpected property at ``#/21products/2/imageUrl``,
 * Unexpected property at ``#/21products/2/parentListings``,
 * Unexpected property at ``#/21products/2/productType``,
 * Unexpected property at ``#/21products/2/productTypeLabel``,
@@ -1075,6 +1198,7 @@ Response schema mismatch:
 * Unexpected property at ``#/21products/2/useForSubscriberList``,
 * Unexpected property at ``#/21/hasAvatar``,
 * Unexpected property at ``#/21/hasUdon``,
+* Unexpected property at ``#/21/imageUrl``,
 * Missing property at ``#/22/archived``,
 * Missing property at ``#/22/created``,
 * Missing property at ``#/22/groupIcon``,
@@ -1089,20 +1213,24 @@ Response schema mismatch:
 * Missing property at ``#/22hydratedProducts/0/archived``,
 * Missing property at ``#/22hydratedProducts/0/created``,
 * Missing property at ``#/22hydratedProducts/0/updated``,
+* Unexpected property at ``#/22hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/22hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/22hydratedProducts/1/archived``,
 * Missing property at ``#/22hydratedProducts/1/created``,
 * Missing property at ``#/22hydratedProducts/1/updated``,
+* Unexpected property at ``#/22hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/22hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/22hydratedProducts/2/archived``,
 * Missing property at ``#/22hydratedProducts/2/created``,
 * Missing property at ``#/22hydratedProducts/2/updated``,
+* Unexpected property at ``#/22hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/22hydratedProducts/2/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/22/listingType``,
 * Unexpected property at ``#/22products/0/description``,
 * Unexpected property at ``#/22products/0/displayName``,
 * Unexpected property at ``#/22products/0/id``,
 * Unexpected property at ``#/22products/0/imageId``,
+* Unexpected property at ``#/22products/0/imageUrl``,
 * Unexpected property at ``#/22products/0/parentListings``,
 * Unexpected property at ``#/22products/0/productType``,
 * Unexpected property at ``#/22products/0/productTypeLabel``,
@@ -1114,6 +1242,7 @@ Response schema mismatch:
 * Unexpected property at ``#/22products/1/displayName``,
 * Unexpected property at ``#/22products/1/id``,
 * Unexpected property at ``#/22products/1/imageId``,
+* Unexpected property at ``#/22products/1/imageUrl``,
 * Unexpected property at ``#/22products/1/parentListings``,
 * Unexpected property at ``#/22products/1/productType``,
 * Unexpected property at ``#/22products/1/productTypeLabel``,
@@ -1125,6 +1254,7 @@ Response schema mismatch:
 * Unexpected property at ``#/22products/2/displayName``,
 * Unexpected property at ``#/22products/2/id``,
 * Unexpected property at ``#/22products/2/imageId``,
+* Unexpected property at ``#/22products/2/imageUrl``,
 * Unexpected property at ``#/22products/2/parentListings``,
 * Unexpected property at ``#/22products/2/productType``,
 * Unexpected property at ``#/22products/2/productTypeLabel``,
@@ -1134,6 +1264,7 @@ Response schema mismatch:
 * Unexpected property at ``#/22products/2/useForSubscriberList``,
 * Unexpected property at ``#/22/hasAvatar``,
 * Unexpected property at ``#/22/hasUdon``,
+* Unexpected property at ``#/22/imageUrl``,
 * Missing property at ``#/23/archived``,
 * Missing property at ``#/23/created``,
 * Missing property at ``#/23/groupIcon``,
@@ -1149,16 +1280,19 @@ Response schema mismatch:
 * Missing property at ``#/23hydratedProducts/0/archived``,
 * Missing property at ``#/23hydratedProducts/0/created``,
 * Missing property at ``#/23hydratedProducts/0/updated``,
+* Unexpected property at ``#/23hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/23hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/23hydratedProducts/1/archived``,
 * Missing property at ``#/23hydratedProducts/1/created``,
 * Missing property at ``#/23hydratedProducts/1/updated``,
+* Unexpected property at ``#/23hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/23hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/23/listingType``,
 * Unexpected property at ``#/23products/0/description``,
 * Unexpected property at ``#/23products/0/displayName``,
 * Unexpected property at ``#/23products/0/id``,
 * Unexpected property at ``#/23products/0/imageId``,
+* Unexpected property at ``#/23products/0/imageUrl``,
 * Unexpected property at ``#/23products/0/parentListings``,
 * Unexpected property at ``#/23products/0/productType``,
 * Unexpected property at ``#/23products/0/productTypeLabel``,
@@ -1170,6 +1304,7 @@ Response schema mismatch:
 * Unexpected property at ``#/23products/1/displayName``,
 * Unexpected property at ``#/23products/1/id``,
 * Unexpected property at ``#/23products/1/imageId``,
+* Unexpected property at ``#/23products/1/imageUrl``,
 * Unexpected property at ``#/23products/1/parentListings``,
 * Unexpected property at ``#/23products/1/productType``,
 * Unexpected property at ``#/23products/1/productTypeLabel``,
@@ -1179,6 +1314,7 @@ Response schema mismatch:
 * Unexpected property at ``#/23products/1/useForSubscriberList``,
 * Unexpected property at ``#/23/hasAvatar``,
 * Unexpected property at ``#/23/hasUdon``,
+* Unexpected property at ``#/23/imageUrl``,
 * Missing property at ``#/24/archived``,
 * Missing property at ``#/24/created``,
 * Missing property at ``#/24/instant``,
@@ -1187,19 +1323,23 @@ Response schema mismatch:
 * Missing property at ``#/24hydratedProducts/0/archived``,
 * Missing property at ``#/24hydratedProducts/0/created``,
 * Missing property at ``#/24hydratedProducts/0/updated``,
+* Unexpected property at ``#/24hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/24hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/24hydratedProducts/1/archived``,
 * Missing property at ``#/24hydratedProducts/1/created``,
 * Missing property at ``#/24hydratedProducts/1/updated``,
+* Unexpected property at ``#/24hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/24hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/24hydratedProducts/2/archived``,
 * Missing property at ``#/24hydratedProducts/2/created``,
 * Missing property at ``#/24hydratedProducts/2/updated``,
+* Unexpected property at ``#/24hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/24hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/24products/0/description``,
 * Unexpected property at ``#/24products/0/displayName``,
 * Unexpected property at ``#/24products/0/id``,
 * Unexpected property at ``#/24products/0/imageId``,
+* Unexpected property at ``#/24products/0/imageUrl``,
 * Unexpected property at ``#/24products/0/parentListings``,
 * Unexpected property at ``#/24products/0/productType``,
 * Unexpected property at ``#/24products/0/productTypeLabel``,
@@ -1215,6 +1355,7 @@ Response schema mismatch:
 * Unexpected property at ``#/24products/1/groupRoleId``,
 * Unexpected property at ``#/24products/1/id``,
 * Unexpected property at ``#/24products/1/imageId``,
+* Unexpected property at ``#/24products/1/imageUrl``,
 * Unexpected property at ``#/24products/1/parentListings``,
 * Unexpected property at ``#/24products/1/productType``,
 * Unexpected property at ``#/24products/1/productTypeLabel``,
@@ -1225,6 +1366,7 @@ Response schema mismatch:
 * Unexpected property at ``#/24products/2/displayName``,
 * Unexpected property at ``#/24products/2/id``,
 * Unexpected property at ``#/24products/2/imageId``,
+* Unexpected property at ``#/24products/2/imageUrl``,
 * Unexpected property at ``#/24products/2/parentListings``,
 * Unexpected property at ``#/24products/2/productType``,
 * Unexpected property at ``#/24products/2/productTypeLabel``,
@@ -1234,6 +1376,7 @@ Response schema mismatch:
 * Unexpected property at ``#/24products/2/useForSubscriberList``,
 * Unexpected property at ``#/24/hasAvatar``,
 * Unexpected property at ``#/24/hasUdon``,
+* Unexpected property at ``#/24/imageUrl``,
 * Missing property at ``#/25/archived``,
 * Missing property at ``#/25/created``,
 * Missing property at ``#/25/instant``,
@@ -1242,14 +1385,17 @@ Response schema mismatch:
 * Missing property at ``#/25hydratedProducts/0/archived``,
 * Missing property at ``#/25hydratedProducts/0/created``,
 * Missing property at ``#/25hydratedProducts/0/updated``,
+* Unexpected property at ``#/25hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/25hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/25hydratedProducts/1/archived``,
 * Missing property at ``#/25hydratedProducts/1/created``,
 * Missing property at ``#/25hydratedProducts/1/updated``,
+* Unexpected property at ``#/25hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/25hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/25hydratedProducts/2/archived``,
 * Missing property at ``#/25hydratedProducts/2/created``,
 * Missing property at ``#/25hydratedProducts/2/updated``,
+* Unexpected property at ``#/25hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/25hydratedProducts/2/productTypeLabel``,
 * Invalid type at ``#/25listingVariants/0/unitPriceTokens``,
 * Invalid type at ``#/25listingVariants/1/unitPriceTokens``,
@@ -1262,6 +1408,7 @@ Response schema mismatch:
 * Unexpected property at ``#/25products/0/groupRoleId``,
 * Unexpected property at ``#/25products/0/id``,
 * Unexpected property at ``#/25products/0/imageId``,
+* Unexpected property at ``#/25products/0/imageUrl``,
 * Unexpected property at ``#/25products/0/parentListings``,
 * Unexpected property at ``#/25products/0/productType``,
 * Unexpected property at ``#/25products/0/productTypeLabel``,
@@ -1272,6 +1419,7 @@ Response schema mismatch:
 * Unexpected property at ``#/25products/1/displayName``,
 * Unexpected property at ``#/25products/1/id``,
 * Unexpected property at ``#/25products/1/imageId``,
+* Unexpected property at ``#/25products/1/imageUrl``,
 * Unexpected property at ``#/25products/1/parentListings``,
 * Unexpected property at ``#/25products/1/productType``,
 * Unexpected property at ``#/25products/1/productTypeLabel``,
@@ -1283,6 +1431,7 @@ Response schema mismatch:
 * Unexpected property at ``#/25products/2/displayName``,
 * Unexpected property at ``#/25products/2/id``,
 * Unexpected property at ``#/25products/2/imageId``,
+* Unexpected property at ``#/25products/2/imageUrl``,
 * Unexpected property at ``#/25products/2/parentListings``,
 * Unexpected property at ``#/25products/2/productType``,
 * Unexpected property at ``#/25products/2/productTypeLabel``,
@@ -1292,6 +1441,7 @@ Response schema mismatch:
 * Unexpected property at ``#/25products/2/useForSubscriberList``,
 * Unexpected property at ``#/25/hasAvatar``,
 * Unexpected property at ``#/25/hasUdon``,
+* Unexpected property at ``#/25/imageUrl``,
 * Missing property at ``#/26/archived``,
 * Missing property at ``#/26/created``,
 * Missing property at ``#/26/groupIcon``,
@@ -1307,16 +1457,19 @@ Response schema mismatch:
 * Missing property at ``#/26hydratedProducts/0/archived``,
 * Missing property at ``#/26hydratedProducts/0/created``,
 * Missing property at ``#/26hydratedProducts/0/updated``,
+* Unexpected property at ``#/26hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/26hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/26hydratedProducts/1/archived``,
 * Missing property at ``#/26hydratedProducts/1/created``,
 * Missing property at ``#/26hydratedProducts/1/updated``,
+* Unexpected property at ``#/26hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/26hydratedProducts/1/productTypeLabel``,
 * Cannot fit value in explicit enum at ``#/26/listingType``,
 * Unexpected property at ``#/26products/0/description``,
 * Unexpected property at ``#/26products/0/displayName``,
 * Unexpected property at ``#/26products/0/id``,
 * Unexpected property at ``#/26products/0/imageId``,
+* Unexpected property at ``#/26products/0/imageUrl``,
 * Unexpected property at ``#/26products/0/parentListings``,
 * Unexpected property at ``#/26products/0/productType``,
 * Unexpected property at ``#/26products/0/productTypeLabel``,
@@ -1328,6 +1481,7 @@ Response schema mismatch:
 * Unexpected property at ``#/26products/1/displayName``,
 * Unexpected property at ``#/26products/1/id``,
 * Unexpected property at ``#/26products/1/imageId``,
+* Unexpected property at ``#/26products/1/imageUrl``,
 * Unexpected property at ``#/26products/1/parentListings``,
 * Unexpected property at ``#/26products/1/productType``,
 * Unexpected property at ``#/26products/1/productTypeLabel``,
@@ -1337,6 +1491,7 @@ Response schema mismatch:
 * Unexpected property at ``#/26products/1/useForSubscriberList``,
 * Unexpected property at ``#/26/hasAvatar``,
 * Unexpected property at ``#/26/hasUdon``,
+* Unexpected property at ``#/26/imageUrl``,
 * Missing property at ``#/27/archived``,
 * Missing property at ``#/27/created``,
 * Missing property at ``#/27/instant``,
@@ -1345,19 +1500,23 @@ Response schema mismatch:
 * Missing property at ``#/27hydratedProducts/0/archived``,
 * Missing property at ``#/27hydratedProducts/0/created``,
 * Missing property at ``#/27hydratedProducts/0/updated``,
+* Unexpected property at ``#/27hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/27hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/27hydratedProducts/1/archived``,
 * Missing property at ``#/27hydratedProducts/1/created``,
 * Missing property at ``#/27hydratedProducts/1/updated``,
+* Unexpected property at ``#/27hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/27hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/27hydratedProducts/2/archived``,
 * Missing property at ``#/27hydratedProducts/2/created``,
 * Missing property at ``#/27hydratedProducts/2/updated``,
+* Unexpected property at ``#/27hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/27hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/27products/0/description``,
 * Unexpected property at ``#/27products/0/displayName``,
 * Unexpected property at ``#/27products/0/id``,
 * Unexpected property at ``#/27products/0/imageId``,
+* Unexpected property at ``#/27products/0/imageUrl``,
 * Unexpected property at ``#/27products/0/parentListings``,
 * Unexpected property at ``#/27products/0/productType``,
 * Unexpected property at ``#/27products/0/productTypeLabel``,
@@ -1373,6 +1532,7 @@ Response schema mismatch:
 * Unexpected property at ``#/27products/1/groupRoleId``,
 * Unexpected property at ``#/27products/1/id``,
 * Unexpected property at ``#/27products/1/imageId``,
+* Unexpected property at ``#/27products/1/imageUrl``,
 * Unexpected property at ``#/27products/1/parentListings``,
 * Unexpected property at ``#/27products/1/productType``,
 * Unexpected property at ``#/27products/1/productTypeLabel``,
@@ -1383,6 +1543,7 @@ Response schema mismatch:
 * Unexpected property at ``#/27products/2/displayName``,
 * Unexpected property at ``#/27products/2/id``,
 * Unexpected property at ``#/27products/2/imageId``,
+* Unexpected property at ``#/27products/2/imageUrl``,
 * Unexpected property at ``#/27products/2/parentListings``,
 * Unexpected property at ``#/27products/2/productType``,
 * Unexpected property at ``#/27products/2/productTypeLabel``,
@@ -1392,6 +1553,7 @@ Response schema mismatch:
 * Unexpected property at ``#/27products/2/useForSubscriberList``,
 * Unexpected property at ``#/27/hasAvatar``,
 * Unexpected property at ``#/27/hasUdon``,
+* Unexpected property at ``#/27/imageUrl``,
 * Missing property at ``#/28/archived``,
 * Missing property at ``#/28/created``,
 * Missing property at ``#/28/instant``,
@@ -1400,19 +1562,23 @@ Response schema mismatch:
 * Missing property at ``#/28hydratedProducts/0/archived``,
 * Missing property at ``#/28hydratedProducts/0/created``,
 * Missing property at ``#/28hydratedProducts/0/updated``,
+* Unexpected property at ``#/28hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/28hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/28hydratedProducts/1/archived``,
 * Missing property at ``#/28hydratedProducts/1/created``,
 * Missing property at ``#/28hydratedProducts/1/updated``,
+* Unexpected property at ``#/28hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/28hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/28hydratedProducts/2/archived``,
 * Missing property at ``#/28hydratedProducts/2/created``,
 * Missing property at ``#/28hydratedProducts/2/updated``,
+* Unexpected property at ``#/28hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/28hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/28products/0/description``,
 * Unexpected property at ``#/28products/0/displayName``,
 * Unexpected property at ``#/28products/0/id``,
 * Unexpected property at ``#/28products/0/imageId``,
+* Unexpected property at ``#/28products/0/imageUrl``,
 * Unexpected property at ``#/28products/0/parentListings``,
 * Unexpected property at ``#/28products/0/productType``,
 * Unexpected property at ``#/28products/0/productTypeLabel``,
@@ -1428,6 +1594,7 @@ Response schema mismatch:
 * Unexpected property at ``#/28products/1/groupRoleId``,
 * Unexpected property at ``#/28products/1/id``,
 * Unexpected property at ``#/28products/1/imageId``,
+* Unexpected property at ``#/28products/1/imageUrl``,
 * Unexpected property at ``#/28products/1/parentListings``,
 * Unexpected property at ``#/28products/1/productType``,
 * Unexpected property at ``#/28products/1/productTypeLabel``,
@@ -1438,6 +1605,7 @@ Response schema mismatch:
 * Unexpected property at ``#/28products/2/displayName``,
 * Unexpected property at ``#/28products/2/id``,
 * Unexpected property at ``#/28products/2/imageId``,
+* Unexpected property at ``#/28products/2/imageUrl``,
 * Unexpected property at ``#/28products/2/parentListings``,
 * Unexpected property at ``#/28products/2/productType``,
 * Unexpected property at ``#/28products/2/productTypeLabel``,
@@ -1447,6 +1615,7 @@ Response schema mismatch:
 * Unexpected property at ``#/28products/2/useForSubscriberList``,
 * Unexpected property at ``#/28/hasAvatar``,
 * Unexpected property at ``#/28/hasUdon``,
+* Unexpected property at ``#/28/imageUrl``,
 * Missing property at ``#/29/archived``,
 * Missing property at ``#/29/created``,
 * Missing property at ``#/29/instant``,
@@ -1455,42 +1624,52 @@ Response schema mismatch:
 * Missing property at ``#/29hydratedProducts/0/archived``,
 * Missing property at ``#/29hydratedProducts/0/created``,
 * Missing property at ``#/29hydratedProducts/0/updated``,
+* Unexpected property at ``#/29hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/29hydratedProducts/1/archived``,
 * Missing property at ``#/29hydratedProducts/1/created``,
 * Missing property at ``#/29hydratedProducts/1/updated``,
+* Unexpected property at ``#/29hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/29hydratedProducts/2/archived``,
 * Missing property at ``#/29hydratedProducts/2/created``,
 * Missing property at ``#/29hydratedProducts/2/updated``,
+* Unexpected property at ``#/29hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/2/productTypeLabel``,
 * Missing property at ``#/29hydratedProducts/3/archived``,
 * Missing property at ``#/29hydratedProducts/3/created``,
 * Missing property at ``#/29hydratedProducts/3/updated``,
+* Unexpected property at ``#/29hydratedProducts/3/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/3/productTypeLabel``,
 * Missing property at ``#/29hydratedProducts/4/archived``,
 * Missing property at ``#/29hydratedProducts/4/created``,
 * Missing property at ``#/29hydratedProducts/4/updated``,
+* Unexpected property at ``#/29hydratedProducts/4/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/4/productTypeLabel``,
 * Missing property at ``#/29hydratedProducts/5/archived``,
 * Missing property at ``#/29hydratedProducts/5/created``,
 * Missing property at ``#/29hydratedProducts/5/updated``,
+* Unexpected property at ``#/29hydratedProducts/5/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/5/productTypeLabel``,
 * Missing property at ``#/29hydratedProducts/6/archived``,
 * Missing property at ``#/29hydratedProducts/6/created``,
 * Missing property at ``#/29hydratedProducts/6/updated``,
+* Unexpected property at ``#/29hydratedProducts/6/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/6/productTypeLabel``,
 * Missing property at ``#/29hydratedProducts/7/archived``,
 * Missing property at ``#/29hydratedProducts/7/created``,
 * Missing property at ``#/29hydratedProducts/7/updated``,
+* Unexpected property at ``#/29hydratedProducts/7/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/7/productTypeLabel``,
 * Missing property at ``#/29hydratedProducts/8/archived``,
 * Missing property at ``#/29hydratedProducts/8/created``,
 * Missing property at ``#/29hydratedProducts/8/updated``,
+* Unexpected property at ``#/29hydratedProducts/8/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/8/productTypeLabel``,
 * Missing property at ``#/29hydratedProducts/9/archived``,
 * Missing property at ``#/29hydratedProducts/9/created``,
 * Missing property at ``#/29hydratedProducts/9/updated``,
+* Unexpected property at ``#/29hydratedProducts/9/imageUrl``,
 * Unexpected property at ``#/29hydratedProducts/9/productTypeLabel``,
 * Unexpected property at ``#/29products/0/description``,
 * Unexpected property at ``#/29products/0/displayName``,
@@ -1500,6 +1679,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/0/groupRoleId``,
 * Unexpected property at ``#/29products/0/id``,
 * Unexpected property at ``#/29products/0/imageId``,
+* Unexpected property at ``#/29products/0/imageUrl``,
 * Unexpected property at ``#/29products/0/parentListings``,
 * Unexpected property at ``#/29products/0/productType``,
 * Unexpected property at ``#/29products/0/productTypeLabel``,
@@ -1510,6 +1690,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/1/displayName``,
 * Unexpected property at ``#/29products/1/id``,
 * Unexpected property at ``#/29products/1/imageId``,
+* Unexpected property at ``#/29products/1/imageUrl``,
 * Unexpected property at ``#/29products/1/parentListings``,
 * Unexpected property at ``#/29products/1/productType``,
 * Unexpected property at ``#/29products/1/productTypeLabel``,
@@ -1521,6 +1702,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/2/displayName``,
 * Unexpected property at ``#/29products/2/id``,
 * Unexpected property at ``#/29products/2/imageId``,
+* Unexpected property at ``#/29products/2/imageUrl``,
 * Unexpected property at ``#/29products/2/parentListings``,
 * Unexpected property at ``#/29products/2/productType``,
 * Unexpected property at ``#/29products/2/productTypeLabel``,
@@ -1532,6 +1714,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/3/displayName``,
 * Unexpected property at ``#/29products/3/id``,
 * Unexpected property at ``#/29products/3/imageId``,
+* Unexpected property at ``#/29products/3/imageUrl``,
 * Unexpected property at ``#/29products/3/parentListings``,
 * Unexpected property at ``#/29products/3/productType``,
 * Unexpected property at ``#/29products/3/productTypeLabel``,
@@ -1543,6 +1726,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/4/displayName``,
 * Unexpected property at ``#/29products/4/id``,
 * Unexpected property at ``#/29products/4/imageId``,
+* Unexpected property at ``#/29products/4/imageUrl``,
 * Unexpected property at ``#/29products/4/parentListings``,
 * Unexpected property at ``#/29products/4/productType``,
 * Unexpected property at ``#/29products/4/productTypeLabel``,
@@ -1554,6 +1738,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/5/displayName``,
 * Unexpected property at ``#/29products/5/id``,
 * Unexpected property at ``#/29products/5/imageId``,
+* Unexpected property at ``#/29products/5/imageUrl``,
 * Unexpected property at ``#/29products/5/parentListings``,
 * Unexpected property at ``#/29products/5/productType``,
 * Unexpected property at ``#/29products/5/productTypeLabel``,
@@ -1565,6 +1750,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/6/displayName``,
 * Unexpected property at ``#/29products/6/id``,
 * Unexpected property at ``#/29products/6/imageId``,
+* Unexpected property at ``#/29products/6/imageUrl``,
 * Unexpected property at ``#/29products/6/parentListings``,
 * Unexpected property at ``#/29products/6/productType``,
 * Unexpected property at ``#/29products/6/productTypeLabel``,
@@ -1576,6 +1762,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/7/displayName``,
 * Unexpected property at ``#/29products/7/id``,
 * Unexpected property at ``#/29products/7/imageId``,
+* Unexpected property at ``#/29products/7/imageUrl``,
 * Unexpected property at ``#/29products/7/parentListings``,
 * Unexpected property at ``#/29products/7/productType``,
 * Unexpected property at ``#/29products/7/productTypeLabel``,
@@ -1587,6 +1774,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/8/displayName``,
 * Unexpected property at ``#/29products/8/id``,
 * Unexpected property at ``#/29products/8/imageId``,
+* Unexpected property at ``#/29products/8/imageUrl``,
 * Unexpected property at ``#/29products/8/parentListings``,
 * Unexpected property at ``#/29products/8/productType``,
 * Unexpected property at ``#/29products/8/productTypeLabel``,
@@ -1598,6 +1786,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/9/displayName``,
 * Unexpected property at ``#/29products/9/id``,
 * Unexpected property at ``#/29products/9/imageId``,
+* Unexpected property at ``#/29products/9/imageUrl``,
 * Unexpected property at ``#/29products/9/parentListings``,
 * Unexpected property at ``#/29products/9/productType``,
 * Unexpected property at ``#/29products/9/productTypeLabel``,
@@ -1607,6 +1796,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/9/useForSubscriberList``,
 * Unexpected property at ``#/29/hasAvatar``,
 * Unexpected property at ``#/29/hasUdon``,
+* Unexpected property at ``#/29/imageUrl``,
 * Missing property at ``#/30/archived``,
 * Missing property at ``#/30/created``,
 * Missing property at ``#/30/instant``,
@@ -1615,34 +1805,42 @@ Response schema mismatch:
 * Missing property at ``#/30hydratedProducts/0/archived``,
 * Missing property at ``#/30hydratedProducts/0/created``,
 * Missing property at ``#/30hydratedProducts/0/updated``,
+* Unexpected property at ``#/30hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/30hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/30hydratedProducts/1/archived``,
 * Missing property at ``#/30hydratedProducts/1/created``,
 * Missing property at ``#/30hydratedProducts/1/updated``,
+* Unexpected property at ``#/30hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/30hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/30hydratedProducts/2/archived``,
 * Missing property at ``#/30hydratedProducts/2/created``,
 * Missing property at ``#/30hydratedProducts/2/updated``,
+* Unexpected property at ``#/30hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/30hydratedProducts/2/productTypeLabel``,
 * Missing property at ``#/30hydratedProducts/3/archived``,
 * Missing property at ``#/30hydratedProducts/3/created``,
 * Missing property at ``#/30hydratedProducts/3/updated``,
+* Unexpected property at ``#/30hydratedProducts/3/imageUrl``,
 * Unexpected property at ``#/30hydratedProducts/3/productTypeLabel``,
 * Missing property at ``#/30hydratedProducts/4/archived``,
 * Missing property at ``#/30hydratedProducts/4/created``,
 * Missing property at ``#/30hydratedProducts/4/updated``,
+* Unexpected property at ``#/30hydratedProducts/4/imageUrl``,
 * Unexpected property at ``#/30hydratedProducts/4/productTypeLabel``,
 * Missing property at ``#/30hydratedProducts/5/archived``,
 * Missing property at ``#/30hydratedProducts/5/created``,
 * Missing property at ``#/30hydratedProducts/5/updated``,
+* Unexpected property at ``#/30hydratedProducts/5/imageUrl``,
 * Unexpected property at ``#/30hydratedProducts/5/productTypeLabel``,
 * Missing property at ``#/30hydratedProducts/6/archived``,
 * Missing property at ``#/30hydratedProducts/6/created``,
 * Missing property at ``#/30hydratedProducts/6/updated``,
+* Unexpected property at ``#/30hydratedProducts/6/imageUrl``,
 * Unexpected property at ``#/30hydratedProducts/6/productTypeLabel``,
 * Missing property at ``#/30hydratedProducts/7/archived``,
 * Missing property at ``#/30hydratedProducts/7/created``,
 * Missing property at ``#/30hydratedProducts/7/updated``,
+* Unexpected property at ``#/30hydratedProducts/7/imageUrl``,
 * Unexpected property at ``#/30hydratedProducts/7/productTypeLabel``,
 * Unexpected property at ``#/30products/0/description``,
 * Unexpected property at ``#/30products/0/displayName``,
@@ -1652,6 +1850,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/0/groupRoleId``,
 * Unexpected property at ``#/30products/0/id``,
 * Unexpected property at ``#/30products/0/imageId``,
+* Unexpected property at ``#/30products/0/imageUrl``,
 * Unexpected property at ``#/30products/0/parentListings``,
 * Unexpected property at ``#/30products/0/productType``,
 * Unexpected property at ``#/30products/0/productTypeLabel``,
@@ -1662,6 +1861,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/1/displayName``,
 * Unexpected property at ``#/30products/1/id``,
 * Unexpected property at ``#/30products/1/imageId``,
+* Unexpected property at ``#/30products/1/imageUrl``,
 * Unexpected property at ``#/30products/1/parentListings``,
 * Unexpected property at ``#/30products/1/productType``,
 * Unexpected property at ``#/30products/1/productTypeLabel``,
@@ -1673,6 +1873,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/2/displayName``,
 * Unexpected property at ``#/30products/2/id``,
 * Unexpected property at ``#/30products/2/imageId``,
+* Unexpected property at ``#/30products/2/imageUrl``,
 * Unexpected property at ``#/30products/2/parentListings``,
 * Unexpected property at ``#/30products/2/productType``,
 * Unexpected property at ``#/30products/2/productTypeLabel``,
@@ -1684,6 +1885,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/3/displayName``,
 * Unexpected property at ``#/30products/3/id``,
 * Unexpected property at ``#/30products/3/imageId``,
+* Unexpected property at ``#/30products/3/imageUrl``,
 * Unexpected property at ``#/30products/3/parentListings``,
 * Unexpected property at ``#/30products/3/productType``,
 * Unexpected property at ``#/30products/3/productTypeLabel``,
@@ -1695,6 +1897,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/4/displayName``,
 * Unexpected property at ``#/30products/4/id``,
 * Unexpected property at ``#/30products/4/imageId``,
+* Unexpected property at ``#/30products/4/imageUrl``,
 * Unexpected property at ``#/30products/4/parentListings``,
 * Unexpected property at ``#/30products/4/productType``,
 * Unexpected property at ``#/30products/4/productTypeLabel``,
@@ -1706,6 +1909,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/5/displayName``,
 * Unexpected property at ``#/30products/5/id``,
 * Unexpected property at ``#/30products/5/imageId``,
+* Unexpected property at ``#/30products/5/imageUrl``,
 * Unexpected property at ``#/30products/5/parentListings``,
 * Unexpected property at ``#/30products/5/productType``,
 * Unexpected property at ``#/30products/5/productTypeLabel``,
@@ -1717,6 +1921,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/6/displayName``,
 * Unexpected property at ``#/30products/6/id``,
 * Unexpected property at ``#/30products/6/imageId``,
+* Unexpected property at ``#/30products/6/imageUrl``,
 * Unexpected property at ``#/30products/6/parentListings``,
 * Unexpected property at ``#/30products/6/productType``,
 * Unexpected property at ``#/30products/6/productTypeLabel``,
@@ -1728,6 +1933,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/7/displayName``,
 * Unexpected property at ``#/30products/7/id``,
 * Unexpected property at ``#/30products/7/imageId``,
+* Unexpected property at ``#/30products/7/imageUrl``,
 * Unexpected property at ``#/30products/7/parentListings``,
 * Unexpected property at ``#/30products/7/productType``,
 * Unexpected property at ``#/30products/7/productTypeLabel``,
@@ -1737,6 +1943,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/7/useForSubscriberList``,
 * Unexpected property at ``#/30/hasAvatar``,
 * Unexpected property at ``#/30/hasUdon``,
+* Unexpected property at ``#/30/imageUrl``,
 * Missing property at ``#/31/archived``,
 * Missing property at ``#/31/created``,
 * Missing property at ``#/31/instant``,
@@ -1745,18 +1952,22 @@ Response schema mismatch:
 * Missing property at ``#/31hydratedProducts/0/archived``,
 * Missing property at ``#/31hydratedProducts/0/created``,
 * Missing property at ``#/31hydratedProducts/0/updated``,
+* Unexpected property at ``#/31hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/31hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/31hydratedProducts/1/archived``,
 * Missing property at ``#/31hydratedProducts/1/created``,
 * Missing property at ``#/31hydratedProducts/1/updated``,
+* Unexpected property at ``#/31hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/31hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/31hydratedProducts/2/archived``,
 * Missing property at ``#/31hydratedProducts/2/created``,
 * Missing property at ``#/31hydratedProducts/2/updated``,
+* Unexpected property at ``#/31hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/31hydratedProducts/2/productTypeLabel``,
 * Missing property at ``#/31hydratedProducts/3/archived``,
 * Missing property at ``#/31hydratedProducts/3/created``,
 * Missing property at ``#/31hydratedProducts/3/updated``,
+* Unexpected property at ``#/31hydratedProducts/3/imageUrl``,
 * Unexpected property at ``#/31hydratedProducts/3/productTypeLabel``,
 * Unexpected property at ``#/31products/0/description``,
 * Unexpected property at ``#/31products/0/displayName``,
@@ -1766,6 +1977,7 @@ Response schema mismatch:
 * Unexpected property at ``#/31products/0/groupRoleId``,
 * Unexpected property at ``#/31products/0/id``,
 * Unexpected property at ``#/31products/0/imageId``,
+* Unexpected property at ``#/31products/0/imageUrl``,
 * Unexpected property at ``#/31products/0/parentListings``,
 * Unexpected property at ``#/31products/0/productType``,
 * Unexpected property at ``#/31products/0/productTypeLabel``,
@@ -1776,6 +1988,7 @@ Response schema mismatch:
 * Unexpected property at ``#/31products/1/displayName``,
 * Unexpected property at ``#/31products/1/id``,
 * Unexpected property at ``#/31products/1/imageId``,
+* Unexpected property at ``#/31products/1/imageUrl``,
 * Unexpected property at ``#/31products/1/parentListings``,
 * Unexpected property at ``#/31products/1/productType``,
 * Unexpected property at ``#/31products/1/productTypeLabel``,
@@ -1787,6 +2000,7 @@ Response schema mismatch:
 * Unexpected property at ``#/31products/2/displayName``,
 * Unexpected property at ``#/31products/2/id``,
 * Unexpected property at ``#/31products/2/imageId``,
+* Unexpected property at ``#/31products/2/imageUrl``,
 * Unexpected property at ``#/31products/2/parentListings``,
 * Unexpected property at ``#/31products/2/productType``,
 * Unexpected property at ``#/31products/2/productTypeLabel``,
@@ -1798,6 +2012,7 @@ Response schema mismatch:
 * Unexpected property at ``#/31products/3/displayName``,
 * Unexpected property at ``#/31products/3/id``,
 * Unexpected property at ``#/31products/3/imageId``,
+* Unexpected property at ``#/31products/3/imageUrl``,
 * Unexpected property at ``#/31products/3/parentListings``,
 * Unexpected property at ``#/31products/3/productType``,
 * Unexpected property at ``#/31products/3/productTypeLabel``,
@@ -1807,6 +2022,7 @@ Response schema mismatch:
 * Unexpected property at ``#/31products/3/useForSubscriberList``,
 * Unexpected property at ``#/31/hasAvatar``,
 * Unexpected property at ``#/31/hasUdon``,
+* Unexpected property at ``#/31/imageUrl``,
 * Missing property at ``#/32/archived``,
 * Missing property at ``#/32/created``,
 * Missing property at ``#/32/instant``,
@@ -1815,27 +2031,33 @@ Response schema mismatch:
 * Missing property at ``#/32hydratedProducts/0/archived``,
 * Missing property at ``#/32hydratedProducts/0/created``,
 * Missing property at ``#/32hydratedProducts/0/updated``,
+* Unexpected property at ``#/32hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/32hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/32hydratedProducts/1/archived``,
 * Missing property at ``#/32hydratedProducts/1/created``,
 * Missing property at ``#/32hydratedProducts/1/updated``,
+* Unexpected property at ``#/32hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/32hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/32hydratedProducts/2/archived``,
 * Missing property at ``#/32hydratedProducts/2/created``,
 * Missing property at ``#/32hydratedProducts/2/updated``,
+* Unexpected property at ``#/32hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/32hydratedProducts/2/productTypeLabel``,
 * Missing property at ``#/32hydratedProducts/3/archived``,
 * Missing property at ``#/32hydratedProducts/3/created``,
 * Missing property at ``#/32hydratedProducts/3/updated``,
+* Unexpected property at ``#/32hydratedProducts/3/imageUrl``,
 * Unexpected property at ``#/32hydratedProducts/3/productTypeLabel``,
 * Missing property at ``#/32hydratedProducts/4/archived``,
 * Missing property at ``#/32hydratedProducts/4/created``,
 * Missing property at ``#/32hydratedProducts/4/updated``,
+* Unexpected property at ``#/32hydratedProducts/4/imageUrl``,
 * Unexpected property at ``#/32hydratedProducts/4/productTypeLabel``,
 * Unexpected property at ``#/32products/0/description``,
 * Unexpected property at ``#/32products/0/displayName``,
 * Unexpected property at ``#/32products/0/id``,
 * Unexpected property at ``#/32products/0/imageId``,
+* Unexpected property at ``#/32products/0/imageUrl``,
 * Unexpected property at ``#/32products/0/parentListings``,
 * Unexpected property at ``#/32products/0/productType``,
 * Unexpected property at ``#/32products/0/productTypeLabel``,
@@ -1847,6 +2069,7 @@ Response schema mismatch:
 * Unexpected property at ``#/32products/1/displayName``,
 * Unexpected property at ``#/32products/1/id``,
 * Unexpected property at ``#/32products/1/imageId``,
+* Unexpected property at ``#/32products/1/imageUrl``,
 * Unexpected property at ``#/32products/1/parentListings``,
 * Unexpected property at ``#/32products/1/productType``,
 * Unexpected property at ``#/32products/1/productTypeLabel``,
@@ -1862,6 +2085,7 @@ Response schema mismatch:
 * Unexpected property at ``#/32products/2/groupRoleId``,
 * Unexpected property at ``#/32products/2/id``,
 * Unexpected property at ``#/32products/2/imageId``,
+* Unexpected property at ``#/32products/2/imageUrl``,
 * Unexpected property at ``#/32products/2/parentListings``,
 * Unexpected property at ``#/32products/2/productType``,
 * Unexpected property at ``#/32products/2/productTypeLabel``,
@@ -1872,6 +2096,7 @@ Response schema mismatch:
 * Unexpected property at ``#/32products/3/displayName``,
 * Unexpected property at ``#/32products/3/id``,
 * Unexpected property at ``#/32products/3/imageId``,
+* Unexpected property at ``#/32products/3/imageUrl``,
 * Unexpected property at ``#/32products/3/parentListings``,
 * Unexpected property at ``#/32products/3/productType``,
 * Unexpected property at ``#/32products/3/productTypeLabel``,
@@ -1883,6 +2108,7 @@ Response schema mismatch:
 * Unexpected property at ``#/32products/4/displayName``,
 * Unexpected property at ``#/32products/4/id``,
 * Unexpected property at ``#/32products/4/imageId``,
+* Unexpected property at ``#/32products/4/imageUrl``,
 * Unexpected property at ``#/32products/4/parentListings``,
 * Unexpected property at ``#/32products/4/productType``,
 * Unexpected property at ``#/32products/4/productTypeLabel``,
@@ -1892,6 +2118,7 @@ Response schema mismatch:
 * Unexpected property at ``#/32products/4/useForSubscriberList``,
 * Unexpected property at ``#/32/hasAvatar``,
 * Unexpected property at ``#/32/hasUdon``,
+* Unexpected property at ``#/32/imageUrl``,
 * Missing property at ``#/33/archived``,
 * Missing property at ``#/33/created``,
 * Missing property at ``#/33/instant``,
@@ -1900,23 +2127,28 @@ Response schema mismatch:
 * Missing property at ``#/33hydratedProducts/0/archived``,
 * Missing property at ``#/33hydratedProducts/0/created``,
 * Missing property at ``#/33hydratedProducts/0/updated``,
+* Unexpected property at ``#/33hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/33hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/33hydratedProducts/1/archived``,
 * Missing property at ``#/33hydratedProducts/1/created``,
 * Missing property at ``#/33hydratedProducts/1/updated``,
+* Unexpected property at ``#/33hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/33hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/33hydratedProducts/2/archived``,
 * Missing property at ``#/33hydratedProducts/2/created``,
 * Missing property at ``#/33hydratedProducts/2/updated``,
+* Unexpected property at ``#/33hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/33hydratedProducts/2/productTypeLabel``,
 * Missing property at ``#/33hydratedProducts/3/archived``,
 * Missing property at ``#/33hydratedProducts/3/created``,
 * Missing property at ``#/33hydratedProducts/3/updated``,
+* Unexpected property at ``#/33hydratedProducts/3/imageUrl``,
 * Unexpected property at ``#/33hydratedProducts/3/productTypeLabel``,
 * Unexpected property at ``#/33products/0/description``,
 * Unexpected property at ``#/33products/0/displayName``,
 * Unexpected property at ``#/33products/0/id``,
 * Unexpected property at ``#/33products/0/imageId``,
+* Unexpected property at ``#/33products/0/imageUrl``,
 * Unexpected property at ``#/33products/0/parentListings``,
 * Unexpected property at ``#/33products/0/productType``,
 * Unexpected property at ``#/33products/0/productTypeLabel``,
@@ -1932,6 +2164,7 @@ Response schema mismatch:
 * Unexpected property at ``#/33products/1/groupRoleId``,
 * Unexpected property at ``#/33products/1/id``,
 * Unexpected property at ``#/33products/1/imageId``,
+* Unexpected property at ``#/33products/1/imageUrl``,
 * Unexpected property at ``#/33products/1/parentListings``,
 * Unexpected property at ``#/33products/1/productType``,
 * Unexpected property at ``#/33products/1/productTypeLabel``,
@@ -1942,6 +2175,7 @@ Response schema mismatch:
 * Unexpected property at ``#/33products/2/displayName``,
 * Unexpected property at ``#/33products/2/id``,
 * Unexpected property at ``#/33products/2/imageId``,
+* Unexpected property at ``#/33products/2/imageUrl``,
 * Unexpected property at ``#/33products/2/parentListings``,
 * Unexpected property at ``#/33products/2/productType``,
 * Unexpected property at ``#/33products/2/productTypeLabel``,
@@ -1953,6 +2187,7 @@ Response schema mismatch:
 * Unexpected property at ``#/33products/3/displayName``,
 * Unexpected property at ``#/33products/3/id``,
 * Unexpected property at ``#/33products/3/imageId``,
+* Unexpected property at ``#/33products/3/imageUrl``,
 * Unexpected property at ``#/33products/3/parentListings``,
 * Unexpected property at ``#/33products/3/productType``,
 * Unexpected property at ``#/33products/3/productTypeLabel``,
@@ -1962,6 +2197,7 @@ Response schema mismatch:
 * Unexpected property at ``#/33products/3/useForSubscriberList``,
 * Unexpected property at ``#/33/hasAvatar``,
 * Unexpected property at ``#/33/hasUdon``,
+* Unexpected property at ``#/33/imageUrl``,
 * Missing property at ``#/34/archived``,
 * Missing property at ``#/34/created``,
 * Missing property at ``#/34/instant``,
@@ -1970,19 +2206,23 @@ Response schema mismatch:
 * Missing property at ``#/34hydratedProducts/0/archived``,
 * Missing property at ``#/34hydratedProducts/0/created``,
 * Missing property at ``#/34hydratedProducts/0/updated``,
+* Unexpected property at ``#/34hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/34hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/34hydratedProducts/1/archived``,
 * Missing property at ``#/34hydratedProducts/1/created``,
 * Missing property at ``#/34hydratedProducts/1/updated``,
+* Unexpected property at ``#/34hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/34hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/34hydratedProducts/2/archived``,
 * Missing property at ``#/34hydratedProducts/2/created``,
 * Missing property at ``#/34hydratedProducts/2/updated``,
+* Unexpected property at ``#/34hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/34hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/34products/0/description``,
 * Unexpected property at ``#/34products/0/displayName``,
 * Unexpected property at ``#/34products/0/id``,
 * Unexpected property at ``#/34products/0/imageId``,
+* Unexpected property at ``#/34products/0/imageUrl``,
 * Unexpected property at ``#/34products/0/parentListings``,
 * Unexpected property at ``#/34products/0/productType``,
 * Unexpected property at ``#/34products/0/productTypeLabel``,
@@ -1998,6 +2238,7 @@ Response schema mismatch:
 * Unexpected property at ``#/34products/1/groupRoleId``,
 * Unexpected property at ``#/34products/1/id``,
 * Unexpected property at ``#/34products/1/imageId``,
+* Unexpected property at ``#/34products/1/imageUrl``,
 * Unexpected property at ``#/34products/1/parentListings``,
 * Unexpected property at ``#/34products/1/productType``,
 * Unexpected property at ``#/34products/1/productTypeLabel``,
@@ -2008,6 +2249,7 @@ Response schema mismatch:
 * Unexpected property at ``#/34products/2/displayName``,
 * Unexpected property at ``#/34products/2/id``,
 * Unexpected property at ``#/34products/2/imageId``,
+* Unexpected property at ``#/34products/2/imageUrl``,
 * Unexpected property at ``#/34products/2/parentListings``,
 * Unexpected property at ``#/34products/2/productType``,
 * Unexpected property at ``#/34products/2/productTypeLabel``,
@@ -2017,6 +2259,7 @@ Response schema mismatch:
 * Unexpected property at ``#/34products/2/useForSubscriberList``,
 * Unexpected property at ``#/34/hasAvatar``,
 * Unexpected property at ``#/34/hasUdon``,
+* Unexpected property at ``#/34/imageUrl``,
 * Missing property at ``#/35/archived``,
 * Missing property at ``#/35/created``,
 * Missing property at ``#/35/instant``,
@@ -2025,14 +2268,17 @@ Response schema mismatch:
 * Missing property at ``#/35hydratedProducts/0/archived``,
 * Missing property at ``#/35hydratedProducts/0/created``,
 * Missing property at ``#/35hydratedProducts/0/updated``,
+* Unexpected property at ``#/35hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/35hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/35hydratedProducts/1/archived``,
 * Missing property at ``#/35hydratedProducts/1/created``,
 * Missing property at ``#/35hydratedProducts/1/updated``,
+* Unexpected property at ``#/35hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/35hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/35hydratedProducts/2/archived``,
 * Missing property at ``#/35hydratedProducts/2/created``,
 * Missing property at ``#/35hydratedProducts/2/updated``,
+* Unexpected property at ``#/35hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/35hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/35products/0/description``,
 * Unexpected property at ``#/35products/0/displayName``,
@@ -2042,6 +2288,7 @@ Response schema mismatch:
 * Unexpected property at ``#/35products/0/groupRoleId``,
 * Unexpected property at ``#/35products/0/id``,
 * Unexpected property at ``#/35products/0/imageId``,
+* Unexpected property at ``#/35products/0/imageUrl``,
 * Unexpected property at ``#/35products/0/parentListings``,
 * Unexpected property at ``#/35products/0/productType``,
 * Unexpected property at ``#/35products/0/productTypeLabel``,
@@ -2052,6 +2299,7 @@ Response schema mismatch:
 * Unexpected property at ``#/35products/1/displayName``,
 * Unexpected property at ``#/35products/1/id``,
 * Unexpected property at ``#/35products/1/imageId``,
+* Unexpected property at ``#/35products/1/imageUrl``,
 * Unexpected property at ``#/35products/1/parentListings``,
 * Unexpected property at ``#/35products/1/productType``,
 * Unexpected property at ``#/35products/1/productTypeLabel``,
@@ -2063,6 +2311,7 @@ Response schema mismatch:
 * Unexpected property at ``#/35products/2/displayName``,
 * Unexpected property at ``#/35products/2/id``,
 * Unexpected property at ``#/35products/2/imageId``,
+* Unexpected property at ``#/35products/2/imageUrl``,
 * Unexpected property at ``#/35products/2/parentListings``,
 * Unexpected property at ``#/35products/2/productType``,
 * Unexpected property at ``#/35products/2/productTypeLabel``,
@@ -2072,6 +2321,7 @@ Response schema mismatch:
 * Unexpected property at ``#/35products/2/useForSubscriberList``,
 * Unexpected property at ``#/35/hasAvatar``,
 * Unexpected property at ``#/35/hasUdon``,
+* Unexpected property at ``#/35/imageUrl``,
 * Missing property at ``#/36/archived``,
 * Missing property at ``#/36/created``,
 * Missing property at ``#/36/instant``,
@@ -2080,19 +2330,23 @@ Response schema mismatch:
 * Missing property at ``#/36hydratedProducts/0/archived``,
 * Missing property at ``#/36hydratedProducts/0/created``,
 * Missing property at ``#/36hydratedProducts/0/updated``,
+* Unexpected property at ``#/36hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/36hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/36hydratedProducts/1/archived``,
 * Missing property at ``#/36hydratedProducts/1/created``,
 * Missing property at ``#/36hydratedProducts/1/updated``,
+* Unexpected property at ``#/36hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/36hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/36hydratedProducts/2/archived``,
 * Missing property at ``#/36hydratedProducts/2/created``,
 * Missing property at ``#/36hydratedProducts/2/updated``,
+* Unexpected property at ``#/36hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/36hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/36products/0/description``,
 * Unexpected property at ``#/36products/0/displayName``,
 * Unexpected property at ``#/36products/0/id``,
 * Unexpected property at ``#/36products/0/imageId``,
+* Unexpected property at ``#/36products/0/imageUrl``,
 * Unexpected property at ``#/36products/0/parentListings``,
 * Unexpected property at ``#/36products/0/productType``,
 * Unexpected property at ``#/36products/0/productTypeLabel``,
@@ -2108,6 +2362,7 @@ Response schema mismatch:
 * Unexpected property at ``#/36products/1/groupRoleId``,
 * Unexpected property at ``#/36products/1/id``,
 * Unexpected property at ``#/36products/1/imageId``,
+* Unexpected property at ``#/36products/1/imageUrl``,
 * Unexpected property at ``#/36products/1/parentListings``,
 * Unexpected property at ``#/36products/1/productType``,
 * Unexpected property at ``#/36products/1/productTypeLabel``,
@@ -2118,6 +2373,7 @@ Response schema mismatch:
 * Unexpected property at ``#/36products/2/displayName``,
 * Unexpected property at ``#/36products/2/id``,
 * Unexpected property at ``#/36products/2/imageId``,
+* Unexpected property at ``#/36products/2/imageUrl``,
 * Unexpected property at ``#/36products/2/parentListings``,
 * Unexpected property at ``#/36products/2/productType``,
 * Unexpected property at ``#/36products/2/productTypeLabel``,
@@ -2127,6 +2383,7 @@ Response schema mismatch:
 * Unexpected property at ``#/36products/2/useForSubscriberList``,
 * Unexpected property at ``#/36/hasAvatar``,
 * Unexpected property at ``#/36/hasUdon``,
+* Unexpected property at ``#/36/imageUrl``,
 * Missing property at ``#/37/archived``,
 * Missing property at ``#/37/created``,
 * Missing property at ``#/37/instant``,
@@ -2135,19 +2392,23 @@ Response schema mismatch:
 * Missing property at ``#/37hydratedProducts/0/archived``,
 * Missing property at ``#/37hydratedProducts/0/created``,
 * Missing property at ``#/37hydratedProducts/0/updated``,
+* Unexpected property at ``#/37hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/37hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/37hydratedProducts/1/archived``,
 * Missing property at ``#/37hydratedProducts/1/created``,
 * Missing property at ``#/37hydratedProducts/1/updated``,
+* Unexpected property at ``#/37hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/37hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/37hydratedProducts/2/archived``,
 * Missing property at ``#/37hydratedProducts/2/created``,
 * Missing property at ``#/37hydratedProducts/2/updated``,
+* Unexpected property at ``#/37hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/37hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/37products/0/description``,
 * Unexpected property at ``#/37products/0/displayName``,
 * Unexpected property at ``#/37products/0/id``,
 * Unexpected property at ``#/37products/0/imageId``,
+* Unexpected property at ``#/37products/0/imageUrl``,
 * Unexpected property at ``#/37products/0/parentListings``,
 * Unexpected property at ``#/37products/0/productType``,
 * Unexpected property at ``#/37products/0/productTypeLabel``,
@@ -2163,6 +2424,7 @@ Response schema mismatch:
 * Unexpected property at ``#/37products/1/groupRoleId``,
 * Unexpected property at ``#/37products/1/id``,
 * Unexpected property at ``#/37products/1/imageId``,
+* Unexpected property at ``#/37products/1/imageUrl``,
 * Unexpected property at ``#/37products/1/parentListings``,
 * Unexpected property at ``#/37products/1/productType``,
 * Unexpected property at ``#/37products/1/productTypeLabel``,
@@ -2173,6 +2435,7 @@ Response schema mismatch:
 * Unexpected property at ``#/37products/2/displayName``,
 * Unexpected property at ``#/37products/2/id``,
 * Unexpected property at ``#/37products/2/imageId``,
+* Unexpected property at ``#/37products/2/imageUrl``,
 * Unexpected property at ``#/37products/2/parentListings``,
 * Unexpected property at ``#/37products/2/productType``,
 * Unexpected property at ``#/37products/2/productTypeLabel``,
@@ -2182,6 +2445,7 @@ Response schema mismatch:
 * Unexpected property at ``#/37products/2/useForSubscriberList``,
 * Unexpected property at ``#/37/hasAvatar``,
 * Unexpected property at ``#/37/hasUdon``,
+* Unexpected property at ``#/37/imageUrl``,
 * Missing property at ``#/38/archived``,
 * Missing property at ``#/38/created``,
 * Missing property at ``#/38/instant``,
@@ -2190,19 +2454,23 @@ Response schema mismatch:
 * Missing property at ``#/38hydratedProducts/0/archived``,
 * Missing property at ``#/38hydratedProducts/0/created``,
 * Missing property at ``#/38hydratedProducts/0/updated``,
+* Unexpected property at ``#/38hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/38hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/38hydratedProducts/1/archived``,
 * Missing property at ``#/38hydratedProducts/1/created``,
 * Missing property at ``#/38hydratedProducts/1/updated``,
+* Unexpected property at ``#/38hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/38hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/38hydratedProducts/2/archived``,
 * Missing property at ``#/38hydratedProducts/2/created``,
 * Missing property at ``#/38hydratedProducts/2/updated``,
+* Unexpected property at ``#/38hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/38hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/38products/0/description``,
 * Unexpected property at ``#/38products/0/displayName``,
 * Unexpected property at ``#/38products/0/id``,
 * Unexpected property at ``#/38products/0/imageId``,
+* Unexpected property at ``#/38products/0/imageUrl``,
 * Unexpected property at ``#/38products/0/parentListings``,
 * Unexpected property at ``#/38products/0/productType``,
 * Unexpected property at ``#/38products/0/productTypeLabel``,
@@ -2218,6 +2486,7 @@ Response schema mismatch:
 * Unexpected property at ``#/38products/1/groupRoleId``,
 * Unexpected property at ``#/38products/1/id``,
 * Unexpected property at ``#/38products/1/imageId``,
+* Unexpected property at ``#/38products/1/imageUrl``,
 * Unexpected property at ``#/38products/1/parentListings``,
 * Unexpected property at ``#/38products/1/productType``,
 * Unexpected property at ``#/38products/1/productTypeLabel``,
@@ -2228,6 +2497,7 @@ Response schema mismatch:
 * Unexpected property at ``#/38products/2/displayName``,
 * Unexpected property at ``#/38products/2/id``,
 * Unexpected property at ``#/38products/2/imageId``,
+* Unexpected property at ``#/38products/2/imageUrl``,
 * Unexpected property at ``#/38products/2/parentListings``,
 * Unexpected property at ``#/38products/2/productType``,
 * Unexpected property at ``#/38products/2/productTypeLabel``,
@@ -2237,6 +2507,7 @@ Response schema mismatch:
 * Unexpected property at ``#/38products/2/useForSubscriberList``,
 * Unexpected property at ``#/38/hasAvatar``,
 * Unexpected property at ``#/38/hasUdon``,
+* Unexpected property at ``#/38/imageUrl``,
 * Missing property at ``#/39/archived``,
 * Missing property at ``#/39/created``,
 * Missing property at ``#/39/instant``,
@@ -2245,19 +2516,23 @@ Response schema mismatch:
 * Missing property at ``#/39hydratedProducts/0/archived``,
 * Missing property at ``#/39hydratedProducts/0/created``,
 * Missing property at ``#/39hydratedProducts/0/updated``,
+* Unexpected property at ``#/39hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/39hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/39hydratedProducts/1/archived``,
 * Missing property at ``#/39hydratedProducts/1/created``,
 * Missing property at ``#/39hydratedProducts/1/updated``,
+* Unexpected property at ``#/39hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/39hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/39hydratedProducts/2/archived``,
 * Missing property at ``#/39hydratedProducts/2/created``,
 * Missing property at ``#/39hydratedProducts/2/updated``,
+* Unexpected property at ``#/39hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/39hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/39products/0/description``,
 * Unexpected property at ``#/39products/0/displayName``,
 * Unexpected property at ``#/39products/0/id``,
 * Unexpected property at ``#/39products/0/imageId``,
+* Unexpected property at ``#/39products/0/imageUrl``,
 * Unexpected property at ``#/39products/0/parentListings``,
 * Unexpected property at ``#/39products/0/productType``,
 * Unexpected property at ``#/39products/0/productTypeLabel``,
@@ -2273,6 +2548,7 @@ Response schema mismatch:
 * Unexpected property at ``#/39products/1/groupRoleId``,
 * Unexpected property at ``#/39products/1/id``,
 * Unexpected property at ``#/39products/1/imageId``,
+* Unexpected property at ``#/39products/1/imageUrl``,
 * Unexpected property at ``#/39products/1/parentListings``,
 * Unexpected property at ``#/39products/1/productType``,
 * Unexpected property at ``#/39products/1/productTypeLabel``,
@@ -2283,6 +2559,7 @@ Response schema mismatch:
 * Unexpected property at ``#/39products/2/displayName``,
 * Unexpected property at ``#/39products/2/id``,
 * Unexpected property at ``#/39products/2/imageId``,
+* Unexpected property at ``#/39products/2/imageUrl``,
 * Unexpected property at ``#/39products/2/parentListings``,
 * Unexpected property at ``#/39products/2/productType``,
 * Unexpected property at ``#/39products/2/productTypeLabel``,
@@ -2292,6 +2569,7 @@ Response schema mismatch:
 * Unexpected property at ``#/39products/2/useForSubscriberList``,
 * Unexpected property at ``#/39/hasAvatar``,
 * Unexpected property at ``#/39/hasUdon``,
+* Unexpected property at ``#/39/imageUrl``,
 * Missing property at ``#/40/archived``,
 * Missing property at ``#/40/created``,
 * Missing property at ``#/40/instant``,
@@ -2300,19 +2578,23 @@ Response schema mismatch:
 * Missing property at ``#/40hydratedProducts/0/archived``,
 * Missing property at ``#/40hydratedProducts/0/created``,
 * Missing property at ``#/40hydratedProducts/0/updated``,
+* Unexpected property at ``#/40hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/40hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/40hydratedProducts/1/archived``,
 * Missing property at ``#/40hydratedProducts/1/created``,
 * Missing property at ``#/40hydratedProducts/1/updated``,
+* Unexpected property at ``#/40hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/40hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/40hydratedProducts/2/archived``,
 * Missing property at ``#/40hydratedProducts/2/created``,
 * Missing property at ``#/40hydratedProducts/2/updated``,
+* Unexpected property at ``#/40hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/40hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/40products/0/description``,
 * Unexpected property at ``#/40products/0/displayName``,
 * Unexpected property at ``#/40products/0/id``,
 * Unexpected property at ``#/40products/0/imageId``,
+* Unexpected property at ``#/40products/0/imageUrl``,
 * Unexpected property at ``#/40products/0/parentListings``,
 * Unexpected property at ``#/40products/0/productType``,
 * Unexpected property at ``#/40products/0/productTypeLabel``,
@@ -2328,6 +2610,7 @@ Response schema mismatch:
 * Unexpected property at ``#/40products/1/groupRoleId``,
 * Unexpected property at ``#/40products/1/id``,
 * Unexpected property at ``#/40products/1/imageId``,
+* Unexpected property at ``#/40products/1/imageUrl``,
 * Unexpected property at ``#/40products/1/parentListings``,
 * Unexpected property at ``#/40products/1/productType``,
 * Unexpected property at ``#/40products/1/productTypeLabel``,
@@ -2338,6 +2621,7 @@ Response schema mismatch:
 * Unexpected property at ``#/40products/2/displayName``,
 * Unexpected property at ``#/40products/2/id``,
 * Unexpected property at ``#/40products/2/imageId``,
+* Unexpected property at ``#/40products/2/imageUrl``,
 * Unexpected property at ``#/40products/2/parentListings``,
 * Unexpected property at ``#/40products/2/productType``,
 * Unexpected property at ``#/40products/2/productTypeLabel``,
@@ -2347,6 +2631,7 @@ Response schema mismatch:
 * Unexpected property at ``#/40products/2/useForSubscriberList``,
 * Unexpected property at ``#/40/hasAvatar``,
 * Unexpected property at ``#/40/hasUdon``,
+* Unexpected property at ``#/40/imageUrl``,
 * Missing property at ``#/41/archived``,
 * Missing property at ``#/41/created``,
 * Missing property at ``#/41/instant``,
@@ -2355,14 +2640,17 @@ Response schema mismatch:
 * Missing property at ``#/41hydratedProducts/0/archived``,
 * Missing property at ``#/41hydratedProducts/0/created``,
 * Missing property at ``#/41hydratedProducts/0/updated``,
+* Unexpected property at ``#/41hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/41hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/41hydratedProducts/1/archived``,
 * Missing property at ``#/41hydratedProducts/1/created``,
 * Missing property at ``#/41hydratedProducts/1/updated``,
+* Unexpected property at ``#/41hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/41hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/41hydratedProducts/2/archived``,
 * Missing property at ``#/41hydratedProducts/2/created``,
 * Missing property at ``#/41hydratedProducts/2/updated``,
+* Unexpected property at ``#/41hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/41hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/41products/0/description``,
 * Unexpected property at ``#/41products/0/displayName``,
@@ -2372,6 +2660,7 @@ Response schema mismatch:
 * Unexpected property at ``#/41products/0/groupRoleId``,
 * Unexpected property at ``#/41products/0/id``,
 * Unexpected property at ``#/41products/0/imageId``,
+* Unexpected property at ``#/41products/0/imageUrl``,
 * Unexpected property at ``#/41products/0/parentListings``,
 * Unexpected property at ``#/41products/0/productType``,
 * Unexpected property at ``#/41products/0/productTypeLabel``,
@@ -2382,6 +2671,7 @@ Response schema mismatch:
 * Unexpected property at ``#/41products/1/displayName``,
 * Unexpected property at ``#/41products/1/id``,
 * Unexpected property at ``#/41products/1/imageId``,
+* Unexpected property at ``#/41products/1/imageUrl``,
 * Unexpected property at ``#/41products/1/parentListings``,
 * Unexpected property at ``#/41products/1/productType``,
 * Unexpected property at ``#/41products/1/productTypeLabel``,
@@ -2393,6 +2683,7 @@ Response schema mismatch:
 * Unexpected property at ``#/41products/2/displayName``,
 * Unexpected property at ``#/41products/2/id``,
 * Unexpected property at ``#/41products/2/imageId``,
+* Unexpected property at ``#/41products/2/imageUrl``,
 * Unexpected property at ``#/41products/2/parentListings``,
 * Unexpected property at ``#/41products/2/productType``,
 * Unexpected property at ``#/41products/2/productTypeLabel``,
@@ -2402,6 +2693,7 @@ Response schema mismatch:
 * Unexpected property at ``#/41products/2/useForSubscriberList``,
 * Unexpected property at ``#/41/hasAvatar``,
 * Unexpected property at ``#/41/hasUdon``,
+* Unexpected property at ``#/41/imageUrl``,
 * Missing property at ``#/42/archived``,
 * Missing property at ``#/42/created``,
 * Missing property at ``#/42/instant``,
@@ -2410,14 +2702,17 @@ Response schema mismatch:
 * Missing property at ``#/42hydratedProducts/0/archived``,
 * Missing property at ``#/42hydratedProducts/0/created``,
 * Missing property at ``#/42hydratedProducts/0/updated``,
+* Unexpected property at ``#/42hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/42hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/42hydratedProducts/1/archived``,
 * Missing property at ``#/42hydratedProducts/1/created``,
 * Missing property at ``#/42hydratedProducts/1/updated``,
+* Unexpected property at ``#/42hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/42hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/42hydratedProducts/2/archived``,
 * Missing property at ``#/42hydratedProducts/2/created``,
 * Missing property at ``#/42hydratedProducts/2/updated``,
+* Unexpected property at ``#/42hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/42hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/42products/0/description``,
 * Unexpected property at ``#/42products/0/displayName``,
@@ -2427,6 +2722,7 @@ Response schema mismatch:
 * Unexpected property at ``#/42products/0/groupRoleId``,
 * Unexpected property at ``#/42products/0/id``,
 * Unexpected property at ``#/42products/0/imageId``,
+* Unexpected property at ``#/42products/0/imageUrl``,
 * Unexpected property at ``#/42products/0/parentListings``,
 * Unexpected property at ``#/42products/0/productType``,
 * Unexpected property at ``#/42products/0/productTypeLabel``,
@@ -2437,6 +2733,7 @@ Response schema mismatch:
 * Unexpected property at ``#/42products/1/displayName``,
 * Unexpected property at ``#/42products/1/id``,
 * Unexpected property at ``#/42products/1/imageId``,
+* Unexpected property at ``#/42products/1/imageUrl``,
 * Unexpected property at ``#/42products/1/parentListings``,
 * Unexpected property at ``#/42products/1/productType``,
 * Unexpected property at ``#/42products/1/productTypeLabel``,
@@ -2448,6 +2745,7 @@ Response schema mismatch:
 * Unexpected property at ``#/42products/2/displayName``,
 * Unexpected property at ``#/42products/2/id``,
 * Unexpected property at ``#/42products/2/imageId``,
+* Unexpected property at ``#/42products/2/imageUrl``,
 * Unexpected property at ``#/42products/2/parentListings``,
 * Unexpected property at ``#/42products/2/productType``,
 * Unexpected property at ``#/42products/2/productTypeLabel``,
@@ -2457,6 +2755,7 @@ Response schema mismatch:
 * Unexpected property at ``#/42products/2/useForSubscriberList``,
 * Unexpected property at ``#/42/hasAvatar``,
 * Unexpected property at ``#/42/hasUdon``,
+* Unexpected property at ``#/42/imageUrl``,
 * Missing property at ``#/43/archived``,
 * Missing property at ``#/43/created``,
 * Missing property at ``#/43/instant``,
@@ -2465,14 +2764,17 @@ Response schema mismatch:
 * Missing property at ``#/43hydratedProducts/0/archived``,
 * Missing property at ``#/43hydratedProducts/0/created``,
 * Missing property at ``#/43hydratedProducts/0/updated``,
+* Unexpected property at ``#/43hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/43hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/43hydratedProducts/1/archived``,
 * Missing property at ``#/43hydratedProducts/1/created``,
 * Missing property at ``#/43hydratedProducts/1/updated``,
+* Unexpected property at ``#/43hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/43hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/43hydratedProducts/2/archived``,
 * Missing property at ``#/43hydratedProducts/2/created``,
 * Missing property at ``#/43hydratedProducts/2/updated``,
+* Unexpected property at ``#/43hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/43hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/43products/0/description``,
 * Unexpected property at ``#/43products/0/displayName``,
@@ -2482,6 +2784,7 @@ Response schema mismatch:
 * Unexpected property at ``#/43products/0/groupRoleId``,
 * Unexpected property at ``#/43products/0/id``,
 * Unexpected property at ``#/43products/0/imageId``,
+* Unexpected property at ``#/43products/0/imageUrl``,
 * Unexpected property at ``#/43products/0/parentListings``,
 * Unexpected property at ``#/43products/0/productType``,
 * Unexpected property at ``#/43products/0/productTypeLabel``,
@@ -2492,6 +2795,7 @@ Response schema mismatch:
 * Unexpected property at ``#/43products/1/displayName``,
 * Unexpected property at ``#/43products/1/id``,
 * Unexpected property at ``#/43products/1/imageId``,
+* Unexpected property at ``#/43products/1/imageUrl``,
 * Unexpected property at ``#/43products/1/parentListings``,
 * Unexpected property at ``#/43products/1/productType``,
 * Unexpected property at ``#/43products/1/productTypeLabel``,
@@ -2503,6 +2807,7 @@ Response schema mismatch:
 * Unexpected property at ``#/43products/2/displayName``,
 * Unexpected property at ``#/43products/2/id``,
 * Unexpected property at ``#/43products/2/imageId``,
+* Unexpected property at ``#/43products/2/imageUrl``,
 * Unexpected property at ``#/43products/2/parentListings``,
 * Unexpected property at ``#/43products/2/productType``,
 * Unexpected property at ``#/43products/2/productTypeLabel``,
@@ -2512,6 +2817,7 @@ Response schema mismatch:
 * Unexpected property at ``#/43products/2/useForSubscriberList``,
 * Unexpected property at ``#/43/hasAvatar``,
 * Unexpected property at ``#/43/hasUdon``,
+* Unexpected property at ``#/43/imageUrl``,
 * Missing property at ``#/44/archived``,
 * Missing property at ``#/44/created``,
 * Missing property at ``#/44/instant``,
@@ -2520,14 +2826,17 @@ Response schema mismatch:
 * Missing property at ``#/44hydratedProducts/0/archived``,
 * Missing property at ``#/44hydratedProducts/0/created``,
 * Missing property at ``#/44hydratedProducts/0/updated``,
+* Unexpected property at ``#/44hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/44hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/44hydratedProducts/1/archived``,
 * Missing property at ``#/44hydratedProducts/1/created``,
 * Missing property at ``#/44hydratedProducts/1/updated``,
+* Unexpected property at ``#/44hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/44hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/44hydratedProducts/2/archived``,
 * Missing property at ``#/44hydratedProducts/2/created``,
 * Missing property at ``#/44hydratedProducts/2/updated``,
+* Unexpected property at ``#/44hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/44hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/44products/0/description``,
 * Unexpected property at ``#/44products/0/displayName``,
@@ -2537,6 +2846,7 @@ Response schema mismatch:
 * Unexpected property at ``#/44products/0/groupRoleId``,
 * Unexpected property at ``#/44products/0/id``,
 * Unexpected property at ``#/44products/0/imageId``,
+* Unexpected property at ``#/44products/0/imageUrl``,
 * Unexpected property at ``#/44products/0/parentListings``,
 * Unexpected property at ``#/44products/0/productType``,
 * Unexpected property at ``#/44products/0/productTypeLabel``,
@@ -2547,6 +2857,7 @@ Response schema mismatch:
 * Unexpected property at ``#/44products/1/displayName``,
 * Unexpected property at ``#/44products/1/id``,
 * Unexpected property at ``#/44products/1/imageId``,
+* Unexpected property at ``#/44products/1/imageUrl``,
 * Unexpected property at ``#/44products/1/parentListings``,
 * Unexpected property at ``#/44products/1/productType``,
 * Unexpected property at ``#/44products/1/productTypeLabel``,
@@ -2558,6 +2869,7 @@ Response schema mismatch:
 * Unexpected property at ``#/44products/2/displayName``,
 * Unexpected property at ``#/44products/2/id``,
 * Unexpected property at ``#/44products/2/imageId``,
+* Unexpected property at ``#/44products/2/imageUrl``,
 * Unexpected property at ``#/44products/2/parentListings``,
 * Unexpected property at ``#/44products/2/productType``,
 * Unexpected property at ``#/44products/2/productTypeLabel``,
@@ -2567,6 +2879,7 @@ Response schema mismatch:
 * Unexpected property at ``#/44products/2/useForSubscriberList``,
 * Unexpected property at ``#/44/hasAvatar``,
 * Unexpected property at ``#/44/hasUdon``,
+* Unexpected property at ``#/44/imageUrl``,
 * Missing property at ``#/45/archived``,
 * Missing property at ``#/45/created``,
 * Missing property at ``#/45/instant``,
@@ -2575,14 +2888,17 @@ Response schema mismatch:
 * Missing property at ``#/45hydratedProducts/0/archived``,
 * Missing property at ``#/45hydratedProducts/0/created``,
 * Missing property at ``#/45hydratedProducts/0/updated``,
+* Unexpected property at ``#/45hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/45hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/45hydratedProducts/1/archived``,
 * Missing property at ``#/45hydratedProducts/1/created``,
 * Missing property at ``#/45hydratedProducts/1/updated``,
+* Unexpected property at ``#/45hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/45hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/45hydratedProducts/2/archived``,
 * Missing property at ``#/45hydratedProducts/2/created``,
 * Missing property at ``#/45hydratedProducts/2/updated``,
+* Unexpected property at ``#/45hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/45hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/45products/0/description``,
 * Unexpected property at ``#/45products/0/displayName``,
@@ -2592,6 +2908,7 @@ Response schema mismatch:
 * Unexpected property at ``#/45products/0/groupRoleId``,
 * Unexpected property at ``#/45products/0/id``,
 * Unexpected property at ``#/45products/0/imageId``,
+* Unexpected property at ``#/45products/0/imageUrl``,
 * Unexpected property at ``#/45products/0/parentListings``,
 * Unexpected property at ``#/45products/0/productType``,
 * Unexpected property at ``#/45products/0/productTypeLabel``,
@@ -2602,6 +2919,7 @@ Response schema mismatch:
 * Unexpected property at ``#/45products/1/displayName``,
 * Unexpected property at ``#/45products/1/id``,
 * Unexpected property at ``#/45products/1/imageId``,
+* Unexpected property at ``#/45products/1/imageUrl``,
 * Unexpected property at ``#/45products/1/parentListings``,
 * Unexpected property at ``#/45products/1/productType``,
 * Unexpected property at ``#/45products/1/productTypeLabel``,
@@ -2613,6 +2931,7 @@ Response schema mismatch:
 * Unexpected property at ``#/45products/2/displayName``,
 * Unexpected property at ``#/45products/2/id``,
 * Unexpected property at ``#/45products/2/imageId``,
+* Unexpected property at ``#/45products/2/imageUrl``,
 * Unexpected property at ``#/45products/2/parentListings``,
 * Unexpected property at ``#/45products/2/productType``,
 * Unexpected property at ``#/45products/2/productTypeLabel``,
@@ -2622,6 +2941,7 @@ Response schema mismatch:
 * Unexpected property at ``#/45products/2/useForSubscriberList``,
 * Unexpected property at ``#/45/hasAvatar``,
 * Unexpected property at ``#/45/hasUdon``,
+* Unexpected property at ``#/45/imageUrl``,
 * Missing property at ``#/46/archived``,
 * Missing property at ``#/46/created``,
 * Missing property at ``#/46/instant``,
@@ -2630,14 +2950,17 @@ Response schema mismatch:
 * Missing property at ``#/46hydratedProducts/0/archived``,
 * Missing property at ``#/46hydratedProducts/0/created``,
 * Missing property at ``#/46hydratedProducts/0/updated``,
+* Unexpected property at ``#/46hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/46hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/46hydratedProducts/1/archived``,
 * Missing property at ``#/46hydratedProducts/1/created``,
 * Missing property at ``#/46hydratedProducts/1/updated``,
+* Unexpected property at ``#/46hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/46hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/46hydratedProducts/2/archived``,
 * Missing property at ``#/46hydratedProducts/2/created``,
 * Missing property at ``#/46hydratedProducts/2/updated``,
+* Unexpected property at ``#/46hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/46hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/46products/0/description``,
 * Unexpected property at ``#/46products/0/displayName``,
@@ -2647,6 +2970,7 @@ Response schema mismatch:
 * Unexpected property at ``#/46products/0/groupRoleId``,
 * Unexpected property at ``#/46products/0/id``,
 * Unexpected property at ``#/46products/0/imageId``,
+* Unexpected property at ``#/46products/0/imageUrl``,
 * Unexpected property at ``#/46products/0/parentListings``,
 * Unexpected property at ``#/46products/0/productType``,
 * Unexpected property at ``#/46products/0/productTypeLabel``,
@@ -2657,6 +2981,7 @@ Response schema mismatch:
 * Unexpected property at ``#/46products/1/displayName``,
 * Unexpected property at ``#/46products/1/id``,
 * Unexpected property at ``#/46products/1/imageId``,
+* Unexpected property at ``#/46products/1/imageUrl``,
 * Unexpected property at ``#/46products/1/parentListings``,
 * Unexpected property at ``#/46products/1/productType``,
 * Unexpected property at ``#/46products/1/productTypeLabel``,
@@ -2668,6 +2993,7 @@ Response schema mismatch:
 * Unexpected property at ``#/46products/2/displayName``,
 * Unexpected property at ``#/46products/2/id``,
 * Unexpected property at ``#/46products/2/imageId``,
+* Unexpected property at ``#/46products/2/imageUrl``,
 * Unexpected property at ``#/46products/2/parentListings``,
 * Unexpected property at ``#/46products/2/productType``,
 * Unexpected property at ``#/46products/2/productTypeLabel``,
@@ -2677,6 +3003,7 @@ Response schema mismatch:
 * Unexpected property at ``#/46products/2/useForSubscriberList``,
 * Unexpected property at ``#/46/hasAvatar``,
 * Unexpected property at ``#/46/hasUdon``,
+* Unexpected property at ``#/46/imageUrl``,
 * Missing property at ``#/47/archived``,
 * Missing property at ``#/47/created``,
 * Missing property at ``#/47/instant``,
@@ -2685,14 +3012,17 @@ Response schema mismatch:
 * Missing property at ``#/47hydratedProducts/0/archived``,
 * Missing property at ``#/47hydratedProducts/0/created``,
 * Missing property at ``#/47hydratedProducts/0/updated``,
+* Unexpected property at ``#/47hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/47hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/47hydratedProducts/1/archived``,
 * Missing property at ``#/47hydratedProducts/1/created``,
 * Missing property at ``#/47hydratedProducts/1/updated``,
+* Unexpected property at ``#/47hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/47hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/47hydratedProducts/2/archived``,
 * Missing property at ``#/47hydratedProducts/2/created``,
 * Missing property at ``#/47hydratedProducts/2/updated``,
+* Unexpected property at ``#/47hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/47hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/47products/0/description``,
 * Unexpected property at ``#/47products/0/displayName``,
@@ -2702,6 +3032,7 @@ Response schema mismatch:
 * Unexpected property at ``#/47products/0/groupRoleId``,
 * Unexpected property at ``#/47products/0/id``,
 * Unexpected property at ``#/47products/0/imageId``,
+* Unexpected property at ``#/47products/0/imageUrl``,
 * Unexpected property at ``#/47products/0/parentListings``,
 * Unexpected property at ``#/47products/0/productType``,
 * Unexpected property at ``#/47products/0/productTypeLabel``,
@@ -2712,6 +3043,7 @@ Response schema mismatch:
 * Unexpected property at ``#/47products/1/displayName``,
 * Unexpected property at ``#/47products/1/id``,
 * Unexpected property at ``#/47products/1/imageId``,
+* Unexpected property at ``#/47products/1/imageUrl``,
 * Unexpected property at ``#/47products/1/parentListings``,
 * Unexpected property at ``#/47products/1/productType``,
 * Unexpected property at ``#/47products/1/productTypeLabel``,
@@ -2723,6 +3055,7 @@ Response schema mismatch:
 * Unexpected property at ``#/47products/2/displayName``,
 * Unexpected property at ``#/47products/2/id``,
 * Unexpected property at ``#/47products/2/imageId``,
+* Unexpected property at ``#/47products/2/imageUrl``,
 * Unexpected property at ``#/47products/2/parentListings``,
 * Unexpected property at ``#/47products/2/productType``,
 * Unexpected property at ``#/47products/2/productTypeLabel``,
@@ -2732,6 +3065,7 @@ Response schema mismatch:
 * Unexpected property at ``#/47products/2/useForSubscriberList``,
 * Unexpected property at ``#/47/hasAvatar``,
 * Unexpected property at ``#/47/hasUdon``,
+* Unexpected property at ``#/47/imageUrl``,
 * Missing property at ``#/48/archived``,
 * Missing property at ``#/48/created``,
 * Missing property at ``#/48/instant``,
@@ -2740,14 +3074,17 @@ Response schema mismatch:
 * Missing property at ``#/48hydratedProducts/0/archived``,
 * Missing property at ``#/48hydratedProducts/0/created``,
 * Missing property at ``#/48hydratedProducts/0/updated``,
+* Unexpected property at ``#/48hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/48hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/48hydratedProducts/1/archived``,
 * Missing property at ``#/48hydratedProducts/1/created``,
 * Missing property at ``#/48hydratedProducts/1/updated``,
+* Unexpected property at ``#/48hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/48hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/48hydratedProducts/2/archived``,
 * Missing property at ``#/48hydratedProducts/2/created``,
 * Missing property at ``#/48hydratedProducts/2/updated``,
+* Unexpected property at ``#/48hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/48hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/48products/0/description``,
 * Unexpected property at ``#/48products/0/displayName``,
@@ -2757,6 +3094,7 @@ Response schema mismatch:
 * Unexpected property at ``#/48products/0/groupRoleId``,
 * Unexpected property at ``#/48products/0/id``,
 * Unexpected property at ``#/48products/0/imageId``,
+* Unexpected property at ``#/48products/0/imageUrl``,
 * Unexpected property at ``#/48products/0/parentListings``,
 * Unexpected property at ``#/48products/0/productType``,
 * Unexpected property at ``#/48products/0/productTypeLabel``,
@@ -2767,6 +3105,7 @@ Response schema mismatch:
 * Unexpected property at ``#/48products/1/displayName``,
 * Unexpected property at ``#/48products/1/id``,
 * Unexpected property at ``#/48products/1/imageId``,
+* Unexpected property at ``#/48products/1/imageUrl``,
 * Unexpected property at ``#/48products/1/parentListings``,
 * Unexpected property at ``#/48products/1/productType``,
 * Unexpected property at ``#/48products/1/productTypeLabel``,
@@ -2778,6 +3117,7 @@ Response schema mismatch:
 * Unexpected property at ``#/48products/2/displayName``,
 * Unexpected property at ``#/48products/2/id``,
 * Unexpected property at ``#/48products/2/imageId``,
+* Unexpected property at ``#/48products/2/imageUrl``,
 * Unexpected property at ``#/48products/2/parentListings``,
 * Unexpected property at ``#/48products/2/productType``,
 * Unexpected property at ``#/48products/2/productTypeLabel``,
@@ -2787,6 +3127,7 @@ Response schema mismatch:
 * Unexpected property at ``#/48products/2/useForSubscriberList``,
 * Unexpected property at ``#/48/hasAvatar``,
 * Unexpected property at ``#/48/hasUdon``,
+* Unexpected property at ``#/48/imageUrl``,
 * Missing property at ``#/49/archived``,
 * Missing property at ``#/49/created``,
 * Missing property at ``#/49/instant``,
@@ -2795,14 +3136,17 @@ Response schema mismatch:
 * Missing property at ``#/49hydratedProducts/0/archived``,
 * Missing property at ``#/49hydratedProducts/0/created``,
 * Missing property at ``#/49hydratedProducts/0/updated``,
+* Unexpected property at ``#/49hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/49hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/49hydratedProducts/1/archived``,
 * Missing property at ``#/49hydratedProducts/1/created``,
 * Missing property at ``#/49hydratedProducts/1/updated``,
+* Unexpected property at ``#/49hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/49hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/49hydratedProducts/2/archived``,
 * Missing property at ``#/49hydratedProducts/2/created``,
 * Missing property at ``#/49hydratedProducts/2/updated``,
+* Unexpected property at ``#/49hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/49hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/49products/0/description``,
 * Unexpected property at ``#/49products/0/displayName``,
@@ -2812,6 +3156,7 @@ Response schema mismatch:
 * Unexpected property at ``#/49products/0/groupRoleId``,
 * Unexpected property at ``#/49products/0/id``,
 * Unexpected property at ``#/49products/0/imageId``,
+* Unexpected property at ``#/49products/0/imageUrl``,
 * Unexpected property at ``#/49products/0/parentListings``,
 * Unexpected property at ``#/49products/0/productType``,
 * Unexpected property at ``#/49products/0/productTypeLabel``,
@@ -2822,6 +3167,7 @@ Response schema mismatch:
 * Unexpected property at ``#/49products/1/displayName``,
 * Unexpected property at ``#/49products/1/id``,
 * Unexpected property at ``#/49products/1/imageId``,
+* Unexpected property at ``#/49products/1/imageUrl``,
 * Unexpected property at ``#/49products/1/parentListings``,
 * Unexpected property at ``#/49products/1/productType``,
 * Unexpected property at ``#/49products/1/productTypeLabel``,
@@ -2833,6 +3179,7 @@ Response schema mismatch:
 * Unexpected property at ``#/49products/2/displayName``,
 * Unexpected property at ``#/49products/2/id``,
 * Unexpected property at ``#/49products/2/imageId``,
+* Unexpected property at ``#/49products/2/imageUrl``,
 * Unexpected property at ``#/49products/2/parentListings``,
 * Unexpected property at ``#/49products/2/productType``,
 * Unexpected property at ``#/49products/2/productTypeLabel``,
@@ -2842,6 +3189,7 @@ Response schema mismatch:
 * Unexpected property at ``#/49products/2/useForSubscriberList``,
 * Unexpected property at ``#/49/hasAvatar``,
 * Unexpected property at ``#/49/hasUdon``,
+* Unexpected property at ``#/49/imageUrl``,
 * Missing property at ``#/50/archived``,
 * Missing property at ``#/50/created``,
 * Missing property at ``#/50/instant``,
@@ -2850,14 +3198,17 @@ Response schema mismatch:
 * Missing property at ``#/50hydratedProducts/0/archived``,
 * Missing property at ``#/50hydratedProducts/0/created``,
 * Missing property at ``#/50hydratedProducts/0/updated``,
+* Unexpected property at ``#/50hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/50hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/50hydratedProducts/1/archived``,
 * Missing property at ``#/50hydratedProducts/1/created``,
 * Missing property at ``#/50hydratedProducts/1/updated``,
+* Unexpected property at ``#/50hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/50hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/50hydratedProducts/2/archived``,
 * Missing property at ``#/50hydratedProducts/2/created``,
 * Missing property at ``#/50hydratedProducts/2/updated``,
+* Unexpected property at ``#/50hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/50hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/50products/0/description``,
 * Unexpected property at ``#/50products/0/displayName``,
@@ -2867,6 +3218,7 @@ Response schema mismatch:
 * Unexpected property at ``#/50products/0/groupRoleId``,
 * Unexpected property at ``#/50products/0/id``,
 * Unexpected property at ``#/50products/0/imageId``,
+* Unexpected property at ``#/50products/0/imageUrl``,
 * Unexpected property at ``#/50products/0/parentListings``,
 * Unexpected property at ``#/50products/0/productType``,
 * Unexpected property at ``#/50products/0/productTypeLabel``,
@@ -2877,6 +3229,7 @@ Response schema mismatch:
 * Unexpected property at ``#/50products/1/displayName``,
 * Unexpected property at ``#/50products/1/id``,
 * Unexpected property at ``#/50products/1/imageId``,
+* Unexpected property at ``#/50products/1/imageUrl``,
 * Unexpected property at ``#/50products/1/parentListings``,
 * Unexpected property at ``#/50products/1/productType``,
 * Unexpected property at ``#/50products/1/productTypeLabel``,
@@ -2888,6 +3241,7 @@ Response schema mismatch:
 * Unexpected property at ``#/50products/2/displayName``,
 * Unexpected property at ``#/50products/2/id``,
 * Unexpected property at ``#/50products/2/imageId``,
+* Unexpected property at ``#/50products/2/imageUrl``,
 * Unexpected property at ``#/50products/2/parentListings``,
 * Unexpected property at ``#/50products/2/productType``,
 * Unexpected property at ``#/50products/2/productTypeLabel``,
@@ -2897,6 +3251,7 @@ Response schema mismatch:
 * Unexpected property at ``#/50products/2/useForSubscriberList``,
 * Unexpected property at ``#/50/hasAvatar``,
 * Unexpected property at ``#/50/hasUdon``,
+* Unexpected property at ``#/50/imageUrl``,
 * Missing property at ``#/51/archived``,
 * Missing property at ``#/51/created``,
 * Missing property at ``#/51/instant``,
@@ -2905,14 +3260,17 @@ Response schema mismatch:
 * Missing property at ``#/51hydratedProducts/0/archived``,
 * Missing property at ``#/51hydratedProducts/0/created``,
 * Missing property at ``#/51hydratedProducts/0/updated``,
+* Unexpected property at ``#/51hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/51hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/51hydratedProducts/1/archived``,
 * Missing property at ``#/51hydratedProducts/1/created``,
 * Missing property at ``#/51hydratedProducts/1/updated``,
+* Unexpected property at ``#/51hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/51hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/51hydratedProducts/2/archived``,
 * Missing property at ``#/51hydratedProducts/2/created``,
 * Missing property at ``#/51hydratedProducts/2/updated``,
+* Unexpected property at ``#/51hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/51hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/51products/0/description``,
 * Unexpected property at ``#/51products/0/displayName``,
@@ -2922,6 +3280,7 @@ Response schema mismatch:
 * Unexpected property at ``#/51products/0/groupRoleId``,
 * Unexpected property at ``#/51products/0/id``,
 * Unexpected property at ``#/51products/0/imageId``,
+* Unexpected property at ``#/51products/0/imageUrl``,
 * Unexpected property at ``#/51products/0/parentListings``,
 * Unexpected property at ``#/51products/0/productType``,
 * Unexpected property at ``#/51products/0/productTypeLabel``,
@@ -2932,6 +3291,7 @@ Response schema mismatch:
 * Unexpected property at ``#/51products/1/displayName``,
 * Unexpected property at ``#/51products/1/id``,
 * Unexpected property at ``#/51products/1/imageId``,
+* Unexpected property at ``#/51products/1/imageUrl``,
 * Unexpected property at ``#/51products/1/parentListings``,
 * Unexpected property at ``#/51products/1/productType``,
 * Unexpected property at ``#/51products/1/productTypeLabel``,
@@ -2943,6 +3303,7 @@ Response schema mismatch:
 * Unexpected property at ``#/51products/2/displayName``,
 * Unexpected property at ``#/51products/2/id``,
 * Unexpected property at ``#/51products/2/imageId``,
+* Unexpected property at ``#/51products/2/imageUrl``,
 * Unexpected property at ``#/51products/2/parentListings``,
 * Unexpected property at ``#/51products/2/productType``,
 * Unexpected property at ``#/51products/2/productTypeLabel``,
@@ -2952,6 +3313,7 @@ Response schema mismatch:
 * Unexpected property at ``#/51products/2/useForSubscriberList``,
 * Unexpected property at ``#/51/hasAvatar``,
 * Unexpected property at ``#/51/hasUdon``,
+* Unexpected property at ``#/51/imageUrl``,
 * Missing property at ``#/52/archived``,
 * Missing property at ``#/52/created``,
 * Missing property at ``#/52/instant``,
@@ -2960,14 +3322,17 @@ Response schema mismatch:
 * Missing property at ``#/52hydratedProducts/0/archived``,
 * Missing property at ``#/52hydratedProducts/0/created``,
 * Missing property at ``#/52hydratedProducts/0/updated``,
+* Unexpected property at ``#/52hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/52hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/52hydratedProducts/1/archived``,
 * Missing property at ``#/52hydratedProducts/1/created``,
 * Missing property at ``#/52hydratedProducts/1/updated``,
+* Unexpected property at ``#/52hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/52hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/52hydratedProducts/2/archived``,
 * Missing property at ``#/52hydratedProducts/2/created``,
 * Missing property at ``#/52hydratedProducts/2/updated``,
+* Unexpected property at ``#/52hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/52hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/52products/0/description``,
 * Unexpected property at ``#/52products/0/displayName``,
@@ -2977,6 +3342,7 @@ Response schema mismatch:
 * Unexpected property at ``#/52products/0/groupRoleId``,
 * Unexpected property at ``#/52products/0/id``,
 * Unexpected property at ``#/52products/0/imageId``,
+* Unexpected property at ``#/52products/0/imageUrl``,
 * Unexpected property at ``#/52products/0/parentListings``,
 * Unexpected property at ``#/52products/0/productType``,
 * Unexpected property at ``#/52products/0/productTypeLabel``,
@@ -2987,6 +3353,7 @@ Response schema mismatch:
 * Unexpected property at ``#/52products/1/displayName``,
 * Unexpected property at ``#/52products/1/id``,
 * Unexpected property at ``#/52products/1/imageId``,
+* Unexpected property at ``#/52products/1/imageUrl``,
 * Unexpected property at ``#/52products/1/parentListings``,
 * Unexpected property at ``#/52products/1/productType``,
 * Unexpected property at ``#/52products/1/productTypeLabel``,
@@ -2998,6 +3365,7 @@ Response schema mismatch:
 * Unexpected property at ``#/52products/2/displayName``,
 * Unexpected property at ``#/52products/2/id``,
 * Unexpected property at ``#/52products/2/imageId``,
+* Unexpected property at ``#/52products/2/imageUrl``,
 * Unexpected property at ``#/52products/2/parentListings``,
 * Unexpected property at ``#/52products/2/productType``,
 * Unexpected property at ``#/52products/2/productTypeLabel``,
@@ -3007,6 +3375,7 @@ Response schema mismatch:
 * Unexpected property at ``#/52products/2/useForSubscriberList``,
 * Unexpected property at ``#/52/hasAvatar``,
 * Unexpected property at ``#/52/hasUdon``,
+* Unexpected property at ``#/52/imageUrl``,
 * Missing property at ``#/53/archived``,
 * Missing property at ``#/53/created``,
 * Missing property at ``#/53/instant``,
@@ -3015,14 +3384,17 @@ Response schema mismatch:
 * Missing property at ``#/53hydratedProducts/0/archived``,
 * Missing property at ``#/53hydratedProducts/0/created``,
 * Missing property at ``#/53hydratedProducts/0/updated``,
+* Unexpected property at ``#/53hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/53hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/53hydratedProducts/1/archived``,
 * Missing property at ``#/53hydratedProducts/1/created``,
 * Missing property at ``#/53hydratedProducts/1/updated``,
+* Unexpected property at ``#/53hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/53hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/53hydratedProducts/2/archived``,
 * Missing property at ``#/53hydratedProducts/2/created``,
 * Missing property at ``#/53hydratedProducts/2/updated``,
+* Unexpected property at ``#/53hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/53hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/53products/0/description``,
 * Unexpected property at ``#/53products/0/displayName``,
@@ -3032,6 +3404,7 @@ Response schema mismatch:
 * Unexpected property at ``#/53products/0/groupRoleId``,
 * Unexpected property at ``#/53products/0/id``,
 * Unexpected property at ``#/53products/0/imageId``,
+* Unexpected property at ``#/53products/0/imageUrl``,
 * Unexpected property at ``#/53products/0/parentListings``,
 * Unexpected property at ``#/53products/0/productType``,
 * Unexpected property at ``#/53products/0/productTypeLabel``,
@@ -3042,6 +3415,7 @@ Response schema mismatch:
 * Unexpected property at ``#/53products/1/displayName``,
 * Unexpected property at ``#/53products/1/id``,
 * Unexpected property at ``#/53products/1/imageId``,
+* Unexpected property at ``#/53products/1/imageUrl``,
 * Unexpected property at ``#/53products/1/parentListings``,
 * Unexpected property at ``#/53products/1/productType``,
 * Unexpected property at ``#/53products/1/productTypeLabel``,
@@ -3053,6 +3427,7 @@ Response schema mismatch:
 * Unexpected property at ``#/53products/2/displayName``,
 * Unexpected property at ``#/53products/2/id``,
 * Unexpected property at ``#/53products/2/imageId``,
+* Unexpected property at ``#/53products/2/imageUrl``,
 * Unexpected property at ``#/53products/2/parentListings``,
 * Unexpected property at ``#/53products/2/productType``,
 * Unexpected property at ``#/53products/2/productTypeLabel``,
@@ -3062,6 +3437,7 @@ Response schema mismatch:
 * Unexpected property at ``#/53products/2/useForSubscriberList``,
 * Unexpected property at ``#/53/hasAvatar``,
 * Unexpected property at ``#/53/hasUdon``,
+* Unexpected property at ``#/53/imageUrl``,
 * Missing property at ``#/54/archived``,
 * Missing property at ``#/54/created``,
 * Missing property at ``#/54/instant``,
@@ -3070,14 +3446,17 @@ Response schema mismatch:
 * Missing property at ``#/54hydratedProducts/0/archived``,
 * Missing property at ``#/54hydratedProducts/0/created``,
 * Missing property at ``#/54hydratedProducts/0/updated``,
+* Unexpected property at ``#/54hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/54hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/54hydratedProducts/1/archived``,
 * Missing property at ``#/54hydratedProducts/1/created``,
 * Missing property at ``#/54hydratedProducts/1/updated``,
+* Unexpected property at ``#/54hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/54hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/54hydratedProducts/2/archived``,
 * Missing property at ``#/54hydratedProducts/2/created``,
 * Missing property at ``#/54hydratedProducts/2/updated``,
+* Unexpected property at ``#/54hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/54hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/54products/0/description``,
 * Unexpected property at ``#/54products/0/displayName``,
@@ -3087,6 +3466,7 @@ Response schema mismatch:
 * Unexpected property at ``#/54products/0/groupRoleId``,
 * Unexpected property at ``#/54products/0/id``,
 * Unexpected property at ``#/54products/0/imageId``,
+* Unexpected property at ``#/54products/0/imageUrl``,
 * Unexpected property at ``#/54products/0/parentListings``,
 * Unexpected property at ``#/54products/0/productType``,
 * Unexpected property at ``#/54products/0/productTypeLabel``,
@@ -3097,6 +3477,7 @@ Response schema mismatch:
 * Unexpected property at ``#/54products/1/displayName``,
 * Unexpected property at ``#/54products/1/id``,
 * Unexpected property at ``#/54products/1/imageId``,
+* Unexpected property at ``#/54products/1/imageUrl``,
 * Unexpected property at ``#/54products/1/parentListings``,
 * Unexpected property at ``#/54products/1/productType``,
 * Unexpected property at ``#/54products/1/productTypeLabel``,
@@ -3108,6 +3489,7 @@ Response schema mismatch:
 * Unexpected property at ``#/54products/2/displayName``,
 * Unexpected property at ``#/54products/2/id``,
 * Unexpected property at ``#/54products/2/imageId``,
+* Unexpected property at ``#/54products/2/imageUrl``,
 * Unexpected property at ``#/54products/2/parentListings``,
 * Unexpected property at ``#/54products/2/productType``,
 * Unexpected property at ``#/54products/2/productTypeLabel``,
@@ -3117,6 +3499,7 @@ Response schema mismatch:
 * Unexpected property at ``#/54products/2/useForSubscriberList``,
 * Unexpected property at ``#/54/hasAvatar``,
 * Unexpected property at ``#/54/hasUdon``,
+* Unexpected property at ``#/54/imageUrl``,
 * Missing property at ``#/55/archived``,
 * Missing property at ``#/55/created``,
 * Missing property at ``#/55/instant``,
@@ -3125,14 +3508,17 @@ Response schema mismatch:
 * Missing property at ``#/55hydratedProducts/0/archived``,
 * Missing property at ``#/55hydratedProducts/0/created``,
 * Missing property at ``#/55hydratedProducts/0/updated``,
+* Unexpected property at ``#/55hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/55hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/55hydratedProducts/1/archived``,
 * Missing property at ``#/55hydratedProducts/1/created``,
 * Missing property at ``#/55hydratedProducts/1/updated``,
+* Unexpected property at ``#/55hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/55hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/55hydratedProducts/2/archived``,
 * Missing property at ``#/55hydratedProducts/2/created``,
 * Missing property at ``#/55hydratedProducts/2/updated``,
+* Unexpected property at ``#/55hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/55hydratedProducts/2/productTypeLabel``,
 * Unexpected property at ``#/55products/0/description``,
 * Unexpected property at ``#/55products/0/displayName``,
@@ -3142,6 +3528,7 @@ Response schema mismatch:
 * Unexpected property at ``#/55products/0/groupRoleId``,
 * Unexpected property at ``#/55products/0/id``,
 * Unexpected property at ``#/55products/0/imageId``,
+* Unexpected property at ``#/55products/0/imageUrl``,
 * Unexpected property at ``#/55products/0/parentListings``,
 * Unexpected property at ``#/55products/0/productType``,
 * Unexpected property at ``#/55products/0/productTypeLabel``,
@@ -3152,6 +3539,7 @@ Response schema mismatch:
 * Unexpected property at ``#/55products/1/displayName``,
 * Unexpected property at ``#/55products/1/id``,
 * Unexpected property at ``#/55products/1/imageId``,
+* Unexpected property at ``#/55products/1/imageUrl``,
 * Unexpected property at ``#/55products/1/parentListings``,
 * Unexpected property at ``#/55products/1/productType``,
 * Unexpected property at ``#/55products/1/productTypeLabel``,
@@ -3163,6 +3551,7 @@ Response schema mismatch:
 * Unexpected property at ``#/55products/2/displayName``,
 * Unexpected property at ``#/55products/2/id``,
 * Unexpected property at ``#/55products/2/imageId``,
+* Unexpected property at ``#/55products/2/imageUrl``,
 * Unexpected property at ``#/55products/2/parentListings``,
 * Unexpected property at ``#/55products/2/productType``,
 * Unexpected property at ``#/55products/2/productTypeLabel``,
@@ -3172,6 +3561,7 @@ Response schema mismatch:
 * Unexpected property at ``#/55products/2/useForSubscriberList``,
 * Unexpected property at ``#/55/hasAvatar``,
 * Unexpected property at ``#/55/hasUdon``,
+* Unexpected property at ``#/55/imageUrl``,
 * Missing property at ``#/56/archived``,
 * Missing property at ``#/56/created``,
 * Missing property at ``#/56/instant``,
@@ -3180,47 +3570,58 @@ Response schema mismatch:
 * Missing property at ``#/56hydratedProducts/0/archived``,
 * Missing property at ``#/56hydratedProducts/0/created``,
 * Missing property at ``#/56hydratedProducts/0/updated``,
+* Unexpected property at ``#/56hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/56hydratedProducts/1/archived``,
 * Missing property at ``#/56hydratedProducts/1/created``,
 * Missing property at ``#/56hydratedProducts/1/updated``,
+* Unexpected property at ``#/56hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/56hydratedProducts/2/archived``,
 * Missing property at ``#/56hydratedProducts/2/created``,
 * Missing property at ``#/56hydratedProducts/2/updated``,
+* Unexpected property at ``#/56hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/2/productTypeLabel``,
 * Missing property at ``#/56hydratedProducts/3/archived``,
 * Missing property at ``#/56hydratedProducts/3/created``,
 * Missing property at ``#/56hydratedProducts/3/updated``,
+* Unexpected property at ``#/56hydratedProducts/3/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/3/productTypeLabel``,
 * Missing property at ``#/56hydratedProducts/4/archived``,
 * Missing property at ``#/56hydratedProducts/4/created``,
 * Missing property at ``#/56hydratedProducts/4/updated``,
+* Unexpected property at ``#/56hydratedProducts/4/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/4/productTypeLabel``,
 * Missing property at ``#/56hydratedProducts/5/archived``,
 * Missing property at ``#/56hydratedProducts/5/created``,
 * Missing property at ``#/56hydratedProducts/5/updated``,
+* Unexpected property at ``#/56hydratedProducts/5/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/5/productTypeLabel``,
 * Missing property at ``#/56hydratedProducts/6/archived``,
 * Missing property at ``#/56hydratedProducts/6/created``,
 * Missing property at ``#/56hydratedProducts/6/updated``,
+* Unexpected property at ``#/56hydratedProducts/6/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/6/productTypeLabel``,
 * Missing property at ``#/56hydratedProducts/7/archived``,
 * Missing property at ``#/56hydratedProducts/7/created``,
 * Missing property at ``#/56hydratedProducts/7/updated``,
+* Unexpected property at ``#/56hydratedProducts/7/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/7/productTypeLabel``,
 * Missing property at ``#/56hydratedProducts/8/archived``,
 * Missing property at ``#/56hydratedProducts/8/created``,
 * Missing property at ``#/56hydratedProducts/8/updated``,
+* Unexpected property at ``#/56hydratedProducts/8/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/8/productTypeLabel``,
 * Missing property at ``#/56hydratedProducts/9/archived``,
 * Missing property at ``#/56hydratedProducts/9/created``,
 * Missing property at ``#/56hydratedProducts/9/updated``,
+* Unexpected property at ``#/56hydratedProducts/9/imageUrl``,
 * Unexpected property at ``#/56hydratedProducts/9/productTypeLabel``,
 * Unexpected property at ``#/56products/0/description``,
 * Unexpected property at ``#/56products/0/displayName``,
 * Unexpected property at ``#/56products/0/id``,
 * Unexpected property at ``#/56products/0/imageId``,
+* Unexpected property at ``#/56products/0/imageUrl``,
 * Unexpected property at ``#/56products/0/parentListings``,
 * Unexpected property at ``#/56products/0/productType``,
 * Unexpected property at ``#/56products/0/productTypeLabel``,
@@ -3232,6 +3633,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/1/displayName``,
 * Unexpected property at ``#/56products/1/id``,
 * Unexpected property at ``#/56products/1/imageId``,
+* Unexpected property at ``#/56products/1/imageUrl``,
 * Unexpected property at ``#/56products/1/parentListings``,
 * Unexpected property at ``#/56products/1/productType``,
 * Unexpected property at ``#/56products/1/productTypeLabel``,
@@ -3247,6 +3649,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/2/groupRoleId``,
 * Unexpected property at ``#/56products/2/id``,
 * Unexpected property at ``#/56products/2/imageId``,
+* Unexpected property at ``#/56products/2/imageUrl``,
 * Unexpected property at ``#/56products/2/parentListings``,
 * Unexpected property at ``#/56products/2/productType``,
 * Unexpected property at ``#/56products/2/productTypeLabel``,
@@ -3257,6 +3660,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/3/displayName``,
 * Unexpected property at ``#/56products/3/id``,
 * Unexpected property at ``#/56products/3/imageId``,
+* Unexpected property at ``#/56products/3/imageUrl``,
 * Unexpected property at ``#/56products/3/parentListings``,
 * Unexpected property at ``#/56products/3/productType``,
 * Unexpected property at ``#/56products/3/productTypeLabel``,
@@ -3268,6 +3672,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/4/displayName``,
 * Unexpected property at ``#/56products/4/id``,
 * Unexpected property at ``#/56products/4/imageId``,
+* Unexpected property at ``#/56products/4/imageUrl``,
 * Unexpected property at ``#/56products/4/parentListings``,
 * Unexpected property at ``#/56products/4/productType``,
 * Unexpected property at ``#/56products/4/productTypeLabel``,
@@ -3279,6 +3684,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/5/displayName``,
 * Unexpected property at ``#/56products/5/id``,
 * Unexpected property at ``#/56products/5/imageId``,
+* Unexpected property at ``#/56products/5/imageUrl``,
 * Unexpected property at ``#/56products/5/parentListings``,
 * Unexpected property at ``#/56products/5/productType``,
 * Unexpected property at ``#/56products/5/productTypeLabel``,
@@ -3290,6 +3696,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/6/displayName``,
 * Unexpected property at ``#/56products/6/id``,
 * Unexpected property at ``#/56products/6/imageId``,
+* Unexpected property at ``#/56products/6/imageUrl``,
 * Unexpected property at ``#/56products/6/parentListings``,
 * Unexpected property at ``#/56products/6/productType``,
 * Unexpected property at ``#/56products/6/productTypeLabel``,
@@ -3301,6 +3708,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/7/displayName``,
 * Unexpected property at ``#/56products/7/id``,
 * Unexpected property at ``#/56products/7/imageId``,
+* Unexpected property at ``#/56products/7/imageUrl``,
 * Unexpected property at ``#/56products/7/parentListings``,
 * Unexpected property at ``#/56products/7/productType``,
 * Unexpected property at ``#/56products/7/productTypeLabel``,
@@ -3312,6 +3720,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/8/displayName``,
 * Unexpected property at ``#/56products/8/id``,
 * Unexpected property at ``#/56products/8/imageId``,
+* Unexpected property at ``#/56products/8/imageUrl``,
 * Unexpected property at ``#/56products/8/parentListings``,
 * Unexpected property at ``#/56products/8/productType``,
 * Unexpected property at ``#/56products/8/productTypeLabel``,
@@ -3323,6 +3732,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/9/displayName``,
 * Unexpected property at ``#/56products/9/id``,
 * Unexpected property at ``#/56products/9/imageId``,
+* Unexpected property at ``#/56products/9/imageUrl``,
 * Unexpected property at ``#/56products/9/parentListings``,
 * Unexpected property at ``#/56products/9/productType``,
 * Unexpected property at ``#/56products/9/productTypeLabel``,
@@ -3332,6 +3742,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/9/useForSubscriberList``,
 * Unexpected property at ``#/56/hasAvatar``,
 * Unexpected property at ``#/56/hasUdon``,
+* Unexpected property at ``#/56/imageUrl``,
 * Missing property at ``#/57/archived``,
 * Missing property at ``#/57/created``,
 * Missing property at ``#/57/instant``,
@@ -3340,18 +3751,22 @@ Response schema mismatch:
 * Missing property at ``#/57hydratedProducts/0/archived``,
 * Missing property at ``#/57hydratedProducts/0/created``,
 * Missing property at ``#/57hydratedProducts/0/updated``,
+* Unexpected property at ``#/57hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/57hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/57hydratedProducts/1/archived``,
 * Missing property at ``#/57hydratedProducts/1/created``,
 * Missing property at ``#/57hydratedProducts/1/updated``,
+* Unexpected property at ``#/57hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/57hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/57hydratedProducts/2/archived``,
 * Missing property at ``#/57hydratedProducts/2/created``,
 * Missing property at ``#/57hydratedProducts/2/updated``,
+* Unexpected property at ``#/57hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/57hydratedProducts/2/productTypeLabel``,
 * Missing property at ``#/57hydratedProducts/3/archived``,
 * Missing property at ``#/57hydratedProducts/3/created``,
 * Missing property at ``#/57hydratedProducts/3/updated``,
+* Unexpected property at ``#/57hydratedProducts/3/imageUrl``,
 * Unexpected property at ``#/57hydratedProducts/3/productTypeLabel``,
 * Unexpected property at ``#/57products/0/description``,
 * Unexpected property at ``#/57products/0/displayName``,
@@ -3361,6 +3776,7 @@ Response schema mismatch:
 * Unexpected property at ``#/57products/0/groupRoleId``,
 * Unexpected property at ``#/57products/0/id``,
 * Unexpected property at ``#/57products/0/imageId``,
+* Unexpected property at ``#/57products/0/imageUrl``,
 * Unexpected property at ``#/57products/0/parentListings``,
 * Unexpected property at ``#/57products/0/productType``,
 * Unexpected property at ``#/57products/0/productTypeLabel``,
@@ -3371,6 +3787,7 @@ Response schema mismatch:
 * Unexpected property at ``#/57products/1/displayName``,
 * Unexpected property at ``#/57products/1/id``,
 * Unexpected property at ``#/57products/1/imageId``,
+* Unexpected property at ``#/57products/1/imageUrl``,
 * Unexpected property at ``#/57products/1/parentListings``,
 * Unexpected property at ``#/57products/1/productType``,
 * Unexpected property at ``#/57products/1/productTypeLabel``,
@@ -3382,6 +3799,7 @@ Response schema mismatch:
 * Unexpected property at ``#/57products/2/displayName``,
 * Unexpected property at ``#/57products/2/id``,
 * Unexpected property at ``#/57products/2/imageId``,
+* Unexpected property at ``#/57products/2/imageUrl``,
 * Unexpected property at ``#/57products/2/parentListings``,
 * Unexpected property at ``#/57products/2/productType``,
 * Unexpected property at ``#/57products/2/productTypeLabel``,
@@ -3393,6 +3811,7 @@ Response schema mismatch:
 * Unexpected property at ``#/57products/3/displayName``,
 * Unexpected property at ``#/57products/3/id``,
 * Unexpected property at ``#/57products/3/imageId``,
+* Unexpected property at ``#/57products/3/imageUrl``,
 * Unexpected property at ``#/57products/3/parentListings``,
 * Unexpected property at ``#/57products/3/productType``,
 * Unexpected property at ``#/57products/3/productTypeLabel``,
@@ -3402,6 +3821,7 @@ Response schema mismatch:
 * Unexpected property at ``#/57products/3/useForSubscriberList``,
 * Unexpected property at ``#/57/hasAvatar``,
 * Unexpected property at ``#/57/hasUdon``,
+* Unexpected property at ``#/57/imageUrl``,
 * Missing property at ``#/58/archived``,
 * Missing property at ``#/58/created``,
 * Missing property at ``#/58/instant``,
@@ -3410,35 +3830,43 @@ Response schema mismatch:
 * Missing property at ``#/58hydratedProducts/0/archived``,
 * Missing property at ``#/58hydratedProducts/0/created``,
 * Missing property at ``#/58hydratedProducts/0/updated``,
+* Unexpected property at ``#/58hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/58hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/58hydratedProducts/1/archived``,
 * Missing property at ``#/58hydratedProducts/1/created``,
 * Missing property at ``#/58hydratedProducts/1/updated``,
+* Unexpected property at ``#/58hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/58hydratedProducts/1/productTypeLabel``,
 * Missing property at ``#/58hydratedProducts/2/archived``,
 * Missing property at ``#/58hydratedProducts/2/created``,
 * Missing property at ``#/58hydratedProducts/2/updated``,
+* Unexpected property at ``#/58hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/58hydratedProducts/2/productTypeLabel``,
 * Missing property at ``#/58hydratedProducts/3/archived``,
 * Missing property at ``#/58hydratedProducts/3/created``,
 * Missing property at ``#/58hydratedProducts/3/updated``,
+* Unexpected property at ``#/58hydratedProducts/3/imageUrl``,
 * Unexpected property at ``#/58hydratedProducts/3/productTypeLabel``,
 * Missing property at ``#/58hydratedProducts/4/archived``,
 * Missing property at ``#/58hydratedProducts/4/created``,
 * Missing property at ``#/58hydratedProducts/4/updated``,
+* Unexpected property at ``#/58hydratedProducts/4/imageUrl``,
 * Unexpected property at ``#/58hydratedProducts/4/productTypeLabel``,
 * Missing property at ``#/58hydratedProducts/5/archived``,
 * Missing property at ``#/58hydratedProducts/5/created``,
 * Missing property at ``#/58hydratedProducts/5/updated``,
+* Unexpected property at ``#/58hydratedProducts/5/imageUrl``,
 * Unexpected property at ``#/58hydratedProducts/5/productTypeLabel``,
 * Missing property at ``#/58hydratedProducts/6/archived``,
 * Missing property at ``#/58hydratedProducts/6/created``,
 * Missing property at ``#/58hydratedProducts/6/updated``,
+* Unexpected property at ``#/58hydratedProducts/6/imageUrl``,
 * Unexpected property at ``#/58hydratedProducts/6/productTypeLabel``,
 * Unexpected property at ``#/58products/0/description``,
 * Unexpected property at ``#/58products/0/displayName``,
 * Unexpected property at ``#/58products/0/id``,
 * Unexpected property at ``#/58products/0/imageId``,
+* Unexpected property at ``#/58products/0/imageUrl``,
 * Unexpected property at ``#/58products/0/parentListings``,
 * Unexpected property at ``#/58products/0/productType``,
 * Unexpected property at ``#/58products/0/productTypeLabel``,
@@ -3450,6 +3878,7 @@ Response schema mismatch:
 * Unexpected property at ``#/58products/1/displayName``,
 * Unexpected property at ``#/58products/1/id``,
 * Unexpected property at ``#/58products/1/imageId``,
+* Unexpected property at ``#/58products/1/imageUrl``,
 * Unexpected property at ``#/58products/1/parentListings``,
 * Unexpected property at ``#/58products/1/productType``,
 * Unexpected property at ``#/58products/1/productTypeLabel``,
@@ -3465,6 +3894,7 @@ Response schema mismatch:
 * Unexpected property at ``#/58products/2/groupRoleId``,
 * Unexpected property at ``#/58products/2/id``,
 * Unexpected property at ``#/58products/2/imageId``,
+* Unexpected property at ``#/58products/2/imageUrl``,
 * Unexpected property at ``#/58products/2/parentListings``,
 * Unexpected property at ``#/58products/2/productType``,
 * Unexpected property at ``#/58products/2/productTypeLabel``,
@@ -3475,6 +3905,7 @@ Response schema mismatch:
 * Unexpected property at ``#/58products/3/displayName``,
 * Unexpected property at ``#/58products/3/id``,
 * Unexpected property at ``#/58products/3/imageId``,
+* Unexpected property at ``#/58products/3/imageUrl``,
 * Unexpected property at ``#/58products/3/parentListings``,
 * Unexpected property at ``#/58products/3/productType``,
 * Unexpected property at ``#/58products/3/productTypeLabel``,
@@ -3486,6 +3917,7 @@ Response schema mismatch:
 * Unexpected property at ``#/58products/4/displayName``,
 * Unexpected property at ``#/58products/4/id``,
 * Unexpected property at ``#/58products/4/imageId``,
+* Unexpected property at ``#/58products/4/imageUrl``,
 * Unexpected property at ``#/58products/4/parentListings``,
 * Unexpected property at ``#/58products/4/productType``,
 * Unexpected property at ``#/58products/4/productTypeLabel``,
@@ -3497,6 +3929,7 @@ Response schema mismatch:
 * Unexpected property at ``#/58products/5/displayName``,
 * Unexpected property at ``#/58products/5/id``,
 * Unexpected property at ``#/58products/5/imageId``,
+* Unexpected property at ``#/58products/5/imageUrl``,
 * Unexpected property at ``#/58products/5/parentListings``,
 * Unexpected property at ``#/58products/5/productType``,
 * Unexpected property at ``#/58products/5/productTypeLabel``,
@@ -3508,6 +3941,7 @@ Response schema mismatch:
 * Unexpected property at ``#/58products/6/displayName``,
 * Unexpected property at ``#/58products/6/id``,
 * Unexpected property at ``#/58products/6/imageId``,
+* Unexpected property at ``#/58products/6/imageUrl``,
 * Unexpected property at ``#/58products/6/parentListings``,
 * Unexpected property at ``#/58products/6/productType``,
 * Unexpected property at ``#/58products/6/productTypeLabel``,
@@ -3517,6 +3951,7 @@ Response schema mismatch:
 * Unexpected property at ``#/58products/6/useForSubscriberList``,
 * Unexpected property at ``#/58/hasAvatar``,
 * Unexpected property at ``#/58/hasUdon``,
+* Unexpected property at ``#/58/imageUrl``,
 * Missing property at ``#/59/archived``,
 * Missing property at ``#/59/created``,
 * Missing property at ``#/59/instant``,
@@ -3525,10 +3960,12 @@ Response schema mismatch:
 * Missing property at ``#/59hydratedProducts/0/archived``,
 * Missing property at ``#/59hydratedProducts/0/created``,
 * Missing property at ``#/59hydratedProducts/0/updated``,
+* Unexpected property at ``#/59hydratedProducts/0/imageUrl``,
 * Unexpected property at ``#/59hydratedProducts/0/productTypeLabel``,
 * Missing property at ``#/59hydratedProducts/1/archived``,
 * Missing property at ``#/59hydratedProducts/1/created``,
 * Missing property at ``#/59hydratedProducts/1/updated``,
+* Unexpected property at ``#/59hydratedProducts/1/imageUrl``,
 * Unexpected property at ``#/59hydratedProducts/1/productTypeLabel``,
 * Unexpected property at ``#/59products/0/description``,
 * Unexpected property at ``#/59products/0/displayName``,
@@ -3538,6 +3975,7 @@ Response schema mismatch:
 * Unexpected property at ``#/59products/0/groupRoleId``,
 * Unexpected property at ``#/59products/0/id``,
 * Unexpected property at ``#/59products/0/imageId``,
+* Unexpected property at ``#/59products/0/imageUrl``,
 * Unexpected property at ``#/59products/0/parentListings``,
 * Unexpected property at ``#/59products/0/productType``,
 * Unexpected property at ``#/59products/0/productTypeLabel``,
@@ -3548,6 +3986,7 @@ Response schema mismatch:
 * Unexpected property at ``#/59products/1/displayName``,
 * Unexpected property at ``#/59products/1/id``,
 * Unexpected property at ``#/59products/1/imageId``,
+* Unexpected property at ``#/59products/1/imageUrl``,
 * Unexpected property at ``#/59products/1/parentListings``,
 * Unexpected property at ``#/59products/1/productType``,
 * Unexpected property at ``#/59products/1/productTypeLabel``,
@@ -3556,7 +3995,8 @@ Response schema mismatch:
 * Unexpected property at ``#/59products/1/tags``,
 * Unexpected property at ``#/59products/1/useForSubscriberList``,
 * Unexpected property at ``#/59/hasAvatar``,
-* Unexpected property at ``#/59/hasUdon``.
+* Unexpected property at ``#/59/hasUdon``,
+* Unexpected property at ``#/59/imageUrl``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/user/usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20/listings?hydrate=true`
 
@@ -3599,6 +4039,7 @@ Response schema mismatch:
         "displayName": "All Goose 24 Hour Bonus",
         "id": "prod_910def7e-19ac-4777-a295-c4bfe88a3e79",
         "imageId": "file_c76330a8-46ed-417c-85c7-396f95c12ba2",
+        "imageUrl": null,
         "parentListings": [
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3",
           "prod_2e14c714-6d57-46ee-b7da-3148721f6726"
@@ -3613,6 +4054,7 @@ Response schema mismatch:
     ],
     "id": "prod_2e14c714-6d57-46ee-b7da-3148721f6726",
     "imageId": "file_8d5d4b41-96fc-4ffb-b311-c1d53fee85b1",
+    "imageUrl": null,
     "listingType": "duration",
     "priceTokens": 100,
     "productIds": [
@@ -3625,6 +4067,7 @@ Response schema mismatch:
         "displayName": "All Goose 24 Hour Bonus",
         "id": "prod_910def7e-19ac-4777-a295-c4bfe88a3e79",
         "imageId": "file_c76330a8-46ed-417c-85c7-396f95c12ba2",
+        "imageUrl": null,
         "parentListings": [
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3",
           "prod_2e14c714-6d57-46ee-b7da-3148721f6726"
@@ -3669,6 +4112,7 @@ Response schema mismatch:
         "groupRoleId": "grol_1aa4dace-36dc-450c-a1c4-2d9a6b4c5d65",
         "id": "prod_ceb5d881-3e3f-436d-b5c5-937eeb6a9c54",
         "imageId": "file_c1bf5b45-7b21-48c2-9de3-7b9d1aa752bc",
+        "imageUrl": null,
         "parentListings": [
           "prod_3a4831c3-022c-4a03-b581-26eb6e4a7fa6"
         ],
@@ -3683,6 +4127,7 @@ Response schema mismatch:
         "displayName": "Goose Gold Chain",
         "id": "prod_bab6d489-c712-4f39-bfa9-45c8843884d9",
         "imageId": "file_e8a1d98d-25f9-466b-af10-650ca72089c7",
+        "imageUrl": null,
         "parentListings": [
           "prod_3a4831c3-022c-4a03-b581-26eb6e4a7fa6"
         ],
@@ -3696,6 +4141,7 @@ Response schema mismatch:
     ],
     "id": "prod_3a4831c3-022c-4a03-b581-26eb6e4a7fa6",
     "imageId": "file_81a530cd-6fd2-4510-b946-dd1beda2f0ec",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -3736,6 +4182,7 @@ Response schema mismatch:
         "groupRoleId": "grol_1aa4dace-36dc-450c-a1c4-2d9a6b4c5d65",
         "id": "prod_ceb5d881-3e3f-436d-b5c5-937eeb6a9c54",
         "imageId": "file_c1bf5b45-7b21-48c2-9de3-7b9d1aa752bc",
+        "imageUrl": null,
         "parentListings": [
           "prod_3a4831c3-022c-4a03-b581-26eb6e4a7fa6"
         ],
@@ -3750,6 +4197,7 @@ Response schema mismatch:
         "displayName": "Goose Gold Chain",
         "id": "prod_bab6d489-c712-4f39-bfa9-45c8843884d9",
         "imageId": "file_e8a1d98d-25f9-466b-af10-650ca72089c7",
+        "imageUrl": null,
         "parentListings": [
           "prod_3a4831c3-022c-4a03-b581-26eb6e4a7fa6"
         ],
@@ -3794,6 +4242,7 @@ Response schema mismatch:
         "groupRoleId": "grol_df5342d0-8b57-409d-a98d-9b8c38e2604b",
         "id": "prod_33b5bffd-d004-4f01-98b6-4890dfa46fad",
         "imageId": "file_71031b15-4ddf-4b71-a130-7e9f1b59e3d5",
+        "imageUrl": null,
         "parentListings": [
           "prod_1f396794-534d-4e17-9103-1c40b8eacc58"
         ],
@@ -3808,6 +4257,7 @@ Response schema mismatch:
         "displayName": "Goose Gold",
         "id": "prod_b4de276b-2992-4e4a-87dc-a78ad1bf2b63",
         "imageId": "file_6b871576-11b7-498d-948e-70e134ea0adc",
+        "imageUrl": null,
         "parentListings": [
           "prod_1f396794-534d-4e17-9103-1c40b8eacc58"
         ],
@@ -3821,6 +4271,7 @@ Response schema mismatch:
     ],
     "id": "prod_1f396794-534d-4e17-9103-1c40b8eacc58",
     "imageId": "file_0cbf86f1-927a-4180-b815-12060442248c",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -3861,6 +4312,7 @@ Response schema mismatch:
         "groupRoleId": "grol_df5342d0-8b57-409d-a98d-9b8c38e2604b",
         "id": "prod_33b5bffd-d004-4f01-98b6-4890dfa46fad",
         "imageId": "file_71031b15-4ddf-4b71-a130-7e9f1b59e3d5",
+        "imageUrl": null,
         "parentListings": [
           "prod_1f396794-534d-4e17-9103-1c40b8eacc58"
         ],
@@ -3875,6 +4327,7 @@ Response schema mismatch:
         "displayName": "Goose Gold",
         "id": "prod_b4de276b-2992-4e4a-87dc-a78ad1bf2b63",
         "imageId": "file_6b871576-11b7-498d-948e-70e134ea0adc",
+        "imageUrl": null,
         "parentListings": [
           "prod_1f396794-534d-4e17-9103-1c40b8eacc58"
         ],
@@ -3915,6 +4368,7 @@ Response schema mismatch:
         "displayName": "All Goose 24 Hour Bonus",
         "id": "prod_910def7e-19ac-4777-a295-c4bfe88a3e79",
         "imageId": "file_c76330a8-46ed-417c-85c7-396f95c12ba2",
+        "imageUrl": null,
         "parentListings": [
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3",
           "prod_2e14c714-6d57-46ee-b7da-3148721f6726"
@@ -3935,6 +4389,7 @@ Response schema mismatch:
         "groupRoleId": "grol_6fc0e04d-f114-45f2-9ebe-54dab8e4c6ed",
         "id": "prod_64c3aaca-5bc2-4d16-9475-c2db8d831410",
         "imageId": "file_a6579d14-fd65-4ecd-94a0-15b8f0541b3a",
+        "imageUrl": null,
         "parentListings": [
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
         ],
@@ -3949,6 +4404,7 @@ Response schema mismatch:
         "displayName": "Tier 4 BONUSES",
         "id": "prod_4cef4378-ca4c-480b-a875-1e05df334ca8",
         "imageId": "file_9766d002-c7b7-41b1-8e1a-dc195ad9aafd",
+        "imageUrl": null,
         "parentListings": [
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
         ],
@@ -3964,6 +4420,7 @@ Response schema mismatch:
         "displayName": "All Decor 24 Hour Bonus",
         "id": "prod_6ff0d8c9-4453-4d99-b502-e46edecc3377",
         "imageId": "file_bd19dea6-f12d-4ddb-bfd7-7031a302cb1f",
+        "imageUrl": null,
         "parentListings": [
           "prod_242146f8-7bd8-45da-a0e7-ad0a6ee3598a",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -3980,6 +4437,7 @@ Response schema mismatch:
         "displayName": "The Black Cat Secret Areas",
         "id": "prod_7db1ae14-d4c3-43cd-adcd-917c17d6dddb",
         "imageId": "file_b797aa7a-46d0-46f6-b5bd-a68ae3b0c5eb",
+        "imageUrl": null,
         "parentListings": [
           "prod_bbb1be04-17a8-4c83-8af1-e6f8da7c4c7e",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -3996,6 +4454,7 @@ Response schema mismatch:
         "displayName": "Fly No Clip",
         "id": "prod_18378a96-7358-48a9-beb3-b3041b92185e",
         "imageId": "file_78a48d94-17ff-4cb7-9570-0b611683926d",
+        "imageUrl": null,
         "parentListings": [
           "prod_fa64c9c4-e082-42ff-a72a-e533f0b2b056",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4012,6 +4471,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -4031,6 +4491,7 @@ Response schema mismatch:
         "displayName": "Decorations Complete",
         "id": "prod_950db306-aad8-4026-b5a3-2409d0aa21a9",
         "imageId": null,
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_8745681b-e41f-471f-8f01-8da42f539054",
@@ -4049,6 +4510,7 @@ Response schema mismatch:
         "displayName": "Video Player",
         "id": "prod_1dbb5caf-8ab4-4c78-afec-95ba50bca814",
         "imageId": "file_c8621de0-7693-4821-b338-fbada6e61fc5",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_88fe9d00-1303-4c5f-9cac-39d2262ad05c",
@@ -4067,6 +4529,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -4137,6 +4600,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -4161,6 +4625,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -4185,6 +4650,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -4209,6 +4675,7 @@ Response schema mismatch:
     ],
     "id": "prod_e19da743-0298-46aa-be1d-5e142b80afd3",
     "imageId": "file_da976128-2a58-4fc1-b555-d4e0ba090239",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -4259,6 +4726,7 @@ Response schema mismatch:
         "displayName": "All Goose 24 Hour Bonus",
         "id": "prod_910def7e-19ac-4777-a295-c4bfe88a3e79",
         "imageId": "file_c76330a8-46ed-417c-85c7-396f95c12ba2",
+        "imageUrl": null,
         "parentListings": [
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3",
           "prod_2e14c714-6d57-46ee-b7da-3148721f6726"
@@ -4279,6 +4747,7 @@ Response schema mismatch:
         "groupRoleId": "grol_6fc0e04d-f114-45f2-9ebe-54dab8e4c6ed",
         "id": "prod_64c3aaca-5bc2-4d16-9475-c2db8d831410",
         "imageId": "file_a6579d14-fd65-4ecd-94a0-15b8f0541b3a",
+        "imageUrl": null,
         "parentListings": [
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
         ],
@@ -4293,6 +4762,7 @@ Response schema mismatch:
         "displayName": "Tier 4 BONUSES",
         "id": "prod_4cef4378-ca4c-480b-a875-1e05df334ca8",
         "imageId": "file_9766d002-c7b7-41b1-8e1a-dc195ad9aafd",
+        "imageUrl": null,
         "parentListings": [
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
         ],
@@ -4308,6 +4778,7 @@ Response schema mismatch:
         "displayName": "All Decor 24 Hour Bonus",
         "id": "prod_6ff0d8c9-4453-4d99-b502-e46edecc3377",
         "imageId": "file_bd19dea6-f12d-4ddb-bfd7-7031a302cb1f",
+        "imageUrl": null,
         "parentListings": [
           "prod_242146f8-7bd8-45da-a0e7-ad0a6ee3598a",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4324,6 +4795,7 @@ Response schema mismatch:
         "displayName": "The Black Cat Secret Areas",
         "id": "prod_7db1ae14-d4c3-43cd-adcd-917c17d6dddb",
         "imageId": "file_b797aa7a-46d0-46f6-b5bd-a68ae3b0c5eb",
+        "imageUrl": null,
         "parentListings": [
           "prod_bbb1be04-17a8-4c83-8af1-e6f8da7c4c7e",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4340,6 +4812,7 @@ Response schema mismatch:
         "displayName": "Fly No Clip",
         "id": "prod_18378a96-7358-48a9-beb3-b3041b92185e",
         "imageId": "file_78a48d94-17ff-4cb7-9570-0b611683926d",
+        "imageUrl": null,
         "parentListings": [
           "prod_fa64c9c4-e082-42ff-a72a-e533f0b2b056",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4356,6 +4829,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -4375,6 +4849,7 @@ Response schema mismatch:
         "displayName": "Decorations Complete",
         "id": "prod_950db306-aad8-4026-b5a3-2409d0aa21a9",
         "imageId": null,
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_8745681b-e41f-471f-8f01-8da42f539054",
@@ -4393,6 +4868,7 @@ Response schema mismatch:
         "displayName": "Video Player",
         "id": "prod_1dbb5caf-8ab4-4c78-afec-95ba50bca814",
         "imageId": "file_c8621de0-7693-4821-b338-fbada6e61fc5",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_88fe9d00-1303-4c5f-9cac-39d2262ad05c",
@@ -4411,6 +4887,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -4481,6 +4958,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -4505,6 +4983,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -4529,6 +5008,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -4577,6 +5057,7 @@ Response schema mismatch:
         "displayName": "Fly No Clip",
         "id": "prod_18378a96-7358-48a9-beb3-b3041b92185e",
         "imageId": "file_78a48d94-17ff-4cb7-9570-0b611683926d",
+        "imageUrl": null,
         "parentListings": [
           "prod_fa64c9c4-e082-42ff-a72a-e533f0b2b056",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4591,6 +5072,7 @@ Response schema mismatch:
     ],
     "id": "prod_fa64c9c4-e082-42ff-a72a-e533f0b2b056",
     "imageId": "file_81a88296-61b9-4307-a9b9-82eda9fe5ed0",
+    "imageUrl": null,
     "listingType": "duration",
     "priceTokens": 100,
     "productIds": [
@@ -4603,6 +5085,7 @@ Response schema mismatch:
         "displayName": "Fly No Clip",
         "id": "prod_18378a96-7358-48a9-beb3-b3041b92185e",
         "imageId": "file_78a48d94-17ff-4cb7-9570-0b611683926d",
+        "imageUrl": null,
         "parentListings": [
           "prod_fa64c9c4-e082-42ff-a72a-e533f0b2b056",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4640,6 +5123,7 @@ Response schema mismatch:
         "displayName": "The Black Cat Secret Areas",
         "id": "prod_7db1ae14-d4c3-43cd-adcd-917c17d6dddb",
         "imageId": "file_b797aa7a-46d0-46f6-b5bd-a68ae3b0c5eb",
+        "imageUrl": null,
         "parentListings": [
           "prod_bbb1be04-17a8-4c83-8af1-e6f8da7c4c7e",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4654,6 +5138,7 @@ Response schema mismatch:
     ],
     "id": "prod_bbb1be04-17a8-4c83-8af1-e6f8da7c4c7e",
     "imageId": "file_b661396b-7414-42e6-9371-478bf8dd489b",
+    "imageUrl": null,
     "listingType": "duration",
     "priceTokens": 100,
     "productIds": [
@@ -4666,6 +5151,7 @@ Response schema mismatch:
         "displayName": "The Black Cat Secret Areas",
         "id": "prod_7db1ae14-d4c3-43cd-adcd-917c17d6dddb",
         "imageId": "file_b797aa7a-46d0-46f6-b5bd-a68ae3b0c5eb",
+        "imageUrl": null,
         "parentListings": [
           "prod_bbb1be04-17a8-4c83-8af1-e6f8da7c4c7e",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4703,6 +5189,7 @@ Response schema mismatch:
         "displayName": "All Decor 24 Hour Bonus",
         "id": "prod_6ff0d8c9-4453-4d99-b502-e46edecc3377",
         "imageId": "file_bd19dea6-f12d-4ddb-bfd7-7031a302cb1f",
+        "imageUrl": null,
         "parentListings": [
           "prod_242146f8-7bd8-45da-a0e7-ad0a6ee3598a",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4719,6 +5206,7 @@ Response schema mismatch:
         "displayName": "Decorations Complete",
         "id": "prod_950db306-aad8-4026-b5a3-2409d0aa21a9",
         "imageId": null,
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_8745681b-e41f-471f-8f01-8da42f539054",
@@ -4735,6 +5223,7 @@ Response schema mismatch:
     ],
     "id": "prod_242146f8-7bd8-45da-a0e7-ad0a6ee3598a",
     "imageId": "file_e4dbe1ee-0b2e-4ba7-b77f-6e7bff768031",
+    "imageUrl": null,
     "listingType": "duration",
     "priceTokens": 100,
     "productIds": [
@@ -4748,6 +5237,7 @@ Response schema mismatch:
         "displayName": "All Decor 24 Hour Bonus",
         "id": "prod_6ff0d8c9-4453-4d99-b502-e46edecc3377",
         "imageId": "file_bd19dea6-f12d-4ddb-bfd7-7031a302cb1f",
+        "imageUrl": null,
         "parentListings": [
           "prod_242146f8-7bd8-45da-a0e7-ad0a6ee3598a",
           "prod_e19da743-0298-46aa-be1d-5e142b80afd3"
@@ -4764,6 +5254,7 @@ Response schema mismatch:
         "displayName": "Decorations Complete",
         "id": "prod_950db306-aad8-4026-b5a3-2409d0aa21a9",
         "imageId": null,
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_8745681b-e41f-471f-8f01-8da42f539054",
@@ -4803,6 +5294,7 @@ Response schema mismatch:
         "displayName": "Flair Raining Money",
         "id": "prod_a5b33ca4-7fa8-4888-a448-5b5c48d3f194",
         "imageId": "file_e1bdc844-6f98-45b7-b07e-04b0ef6c90dc",
+        "imageUrl": null,
         "parentListings": [
           "prod_9b0deef5-1dc9-4a7e-9825-e027d6709382"
         ],
@@ -4816,6 +5308,7 @@ Response schema mismatch:
     ],
     "id": "prod_9b0deef5-1dc9-4a7e-9825-e027d6709382",
     "imageId": "file_3ea02b20-c0af-40e4-80b7-e817ef0a514a",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 500,
     "productIds": [
@@ -4828,6 +5321,7 @@ Response schema mismatch:
         "displayName": "Flair Raining Money",
         "id": "prod_a5b33ca4-7fa8-4888-a448-5b5c48d3f194",
         "imageId": "file_e1bdc844-6f98-45b7-b07e-04b0ef6c90dc",
+        "imageUrl": null,
         "parentListings": [
           "prod_9b0deef5-1dc9-4a7e-9825-e027d6709382"
         ],
@@ -4864,6 +5358,7 @@ Response schema mismatch:
         "displayName": "Flair Old Dog",
         "id": "prod_2815828e-ec91-4abc-89b5-3dc566ba6551",
         "imageId": "file_6141cf7c-20fd-4b2f-9ee8-c4a1dcbf5d04",
+        "imageUrl": null,
         "parentListings": [
           "prod_be208a36-7718-4870-b674-14dbb0ba61af"
         ],
@@ -4877,6 +5372,7 @@ Response schema mismatch:
     ],
     "id": "prod_be208a36-7718-4870-b674-14dbb0ba61af",
     "imageId": "file_74508e66-50b5-4413-b48d-d1f73992b3c1",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 500,
     "productIds": [
@@ -4889,6 +5385,7 @@ Response schema mismatch:
         "displayName": "Flair Old Dog",
         "id": "prod_2815828e-ec91-4abc-89b5-3dc566ba6551",
         "imageId": "file_6141cf7c-20fd-4b2f-9ee8-c4a1dcbf5d04",
+        "imageUrl": null,
         "parentListings": [
           "prod_be208a36-7718-4870-b674-14dbb0ba61af"
         ],
@@ -4925,6 +5422,7 @@ Response schema mismatch:
         "displayName": "Flair Starry Night",
         "id": "prod_6eb12627-363d-4749-b537-83e74bfd92b2",
         "imageId": "file_6d59435b-69ec-45a0-ae94-af8dfd78898b",
+        "imageUrl": null,
         "parentListings": [
           "prod_54faae6e-a47c-43b8-9295-e91b379efdaa"
         ],
@@ -4938,6 +5436,7 @@ Response schema mismatch:
     ],
     "id": "prod_54faae6e-a47c-43b8-9295-e91b379efdaa",
     "imageId": "file_996159e6-f7e7-4995-bd47-763212b6f081",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 500,
     "productIds": [
@@ -4950,6 +5449,7 @@ Response schema mismatch:
         "displayName": "Flair Starry Night",
         "id": "prod_6eb12627-363d-4749-b537-83e74bfd92b2",
         "imageId": "file_6d59435b-69ec-45a0-ae94-af8dfd78898b",
+        "imageUrl": null,
         "parentListings": [
           "prod_54faae6e-a47c-43b8-9295-e91b379efdaa"
         ],
@@ -4986,6 +5486,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -5005,6 +5506,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -5073,6 +5575,7 @@ Response schema mismatch:
     ],
     "id": "prod_0e67a46e-0c6d-4cca-9f1d-fcc4b59152cf",
     "imageId": "file_eec6d5e0-4b17-4ade-90fe-4697b5af488a",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -5086,6 +5589,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -5105,6 +5609,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -5196,6 +5701,7 @@ Response schema mismatch:
         "displayName": "Flair UFO",
         "id": "prod_31db5e5d-c9ca-4e86-ae3a-5d40f7cd72d0",
         "imageId": "file_f62b009d-e5c0-4336-9b8a-82e1e581c98c",
+        "imageUrl": null,
         "parentListings": [
           "prod_c98a473d-6a09-4b42-b0b7-4c41c11e35c3",
           "prod_22a416eb-609c-4e4a-a74a-d392cea8cff9"
@@ -5212,6 +5718,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -5280,6 +5787,7 @@ Response schema mismatch:
     ],
     "id": "prod_22a416eb-609c-4e4a-a74a-d392cea8cff9",
     "imageId": "file_a06b932a-43d7-4eec-8239-de8126eb1862",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -5293,6 +5801,7 @@ Response schema mismatch:
         "displayName": "Flair UFO",
         "id": "prod_31db5e5d-c9ca-4e86-ae3a-5d40f7cd72d0",
         "imageId": "file_f62b009d-e5c0-4336-9b8a-82e1e581c98c",
+        "imageUrl": null,
         "parentListings": [
           "prod_c98a473d-6a09-4b42-b0b7-4c41c11e35c3",
           "prod_22a416eb-609c-4e4a-a74a-d392cea8cff9"
@@ -5309,6 +5818,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -5400,6 +5910,7 @@ Response schema mismatch:
         "displayName": "Flair Thunderstorm",
         "id": "prod_03a0b1d4-304e-4d24-b865-edcd849393e7",
         "imageId": "file_b7dd8454-a466-4ceb-b47c-9bc2b7514244",
+        "imageUrl": null,
         "parentListings": [
           "prod_baff9245-3638-4846-b0f3-97637e640a0d",
           "prod_8529cfb6-341a-4a69-8c51-17267f8144cf"
@@ -5416,6 +5927,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -5484,6 +5996,7 @@ Response schema mismatch:
     ],
     "id": "prod_8529cfb6-341a-4a69-8c51-17267f8144cf",
     "imageId": "file_db8406f1-9833-4518-bc47-8bd6ad146d4c",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -5497,6 +6010,7 @@ Response schema mismatch:
         "displayName": "Flair Thunderstorm",
         "id": "prod_03a0b1d4-304e-4d24-b865-edcd849393e7",
         "imageId": "file_b7dd8454-a466-4ceb-b47c-9bc2b7514244",
+        "imageUrl": null,
         "parentListings": [
           "prod_baff9245-3638-4846-b0f3-97637e640a0d",
           "prod_8529cfb6-341a-4a69-8c51-17267f8144cf"
@@ -5513,6 +6027,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -5604,6 +6119,7 @@ Response schema mismatch:
         "displayName": "Flair Dizzy Particles",
         "id": "prod_4f7574dd-5668-41ca-bb2c-0bacc84e1220",
         "imageId": "file_98faf08c-f435-4f9d-98a9-f5aac698d36e",
+        "imageUrl": null,
         "parentListings": [
           "prod_76b12da2-3b15-4c9c-b4d9-55155ce48613",
           "prod_dc3fd03c-eafb-4e8d-9571-dbefac5c9edc"
@@ -5620,6 +6136,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -5688,6 +6205,7 @@ Response schema mismatch:
     ],
     "id": "prod_dc3fd03c-eafb-4e8d-9571-dbefac5c9edc",
     "imageId": "file_550b7559-815a-41be-92d2-211e161804c7",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -5701,6 +6219,7 @@ Response schema mismatch:
         "displayName": "Flair Dizzy Particles",
         "id": "prod_4f7574dd-5668-41ca-bb2c-0bacc84e1220",
         "imageId": "file_98faf08c-f435-4f9d-98a9-f5aac698d36e",
+        "imageUrl": null,
         "parentListings": [
           "prod_76b12da2-3b15-4c9c-b4d9-55155ce48613",
           "prod_dc3fd03c-eafb-4e8d-9571-dbefac5c9edc"
@@ -5717,6 +6236,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -5808,6 +6328,7 @@ Response schema mismatch:
         "displayName": "Flair Error",
         "id": "prod_6f23bede-2019-4712-9435-f1b253274ece",
         "imageId": "file_b40cfb2f-1d41-4df6-ae47-ebbc7d5b2d85",
+        "imageUrl": null,
         "parentListings": [
           "prod_c72c91ec-c3c5-4bcc-88a8-49b274668111",
           "prod_0a2117e2-d801-40c6-b332-4c2a1ea3c6a8"
@@ -5824,6 +6345,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -5892,6 +6414,7 @@ Response schema mismatch:
     ],
     "id": "prod_0a2117e2-d801-40c6-b332-4c2a1ea3c6a8",
     "imageId": "file_5bc50ba2-9b5e-4caa-8f41-e12fd02e22a8",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -5905,6 +6428,7 @@ Response schema mismatch:
         "displayName": "Flair Error",
         "id": "prod_6f23bede-2019-4712-9435-f1b253274ece",
         "imageId": "file_b40cfb2f-1d41-4df6-ae47-ebbc7d5b2d85",
+        "imageUrl": null,
         "parentListings": [
           "prod_c72c91ec-c3c5-4bcc-88a8-49b274668111",
           "prod_0a2117e2-d801-40c6-b332-4c2a1ea3c6a8"
@@ -5921,6 +6445,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6012,6 +6537,7 @@ Response schema mismatch:
         "displayName": "Flair Fire",
         "id": "prod_226b5392-3b93-4905-960c-345588d6116e",
         "imageId": "file_adaec0c9-8599-410e-89cc-50c5c50cf63a",
+        "imageUrl": null,
         "parentListings": [
           "prod_d1c1cb29-b979-48ae-b2bb-1fc2d28cd672",
           "prod_759318a5-8ea3-4aa6-9de2-1b95b26cd3d5"
@@ -6028,6 +6554,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6096,6 +6623,7 @@ Response schema mismatch:
     ],
     "id": "prod_759318a5-8ea3-4aa6-9de2-1b95b26cd3d5",
     "imageId": "file_8130800c-0630-4a04-96a8-4cdb9c0dbc4b",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 100,
     "productIds": [
@@ -6109,6 +6637,7 @@ Response schema mismatch:
         "displayName": "Flair Fire",
         "id": "prod_226b5392-3b93-4905-960c-345588d6116e",
         "imageId": "file_adaec0c9-8599-410e-89cc-50c5c50cf63a",
+        "imageUrl": null,
         "parentListings": [
           "prod_d1c1cb29-b979-48ae-b2bb-1fc2d28cd672",
           "prod_759318a5-8ea3-4aa6-9de2-1b95b26cd3d5"
@@ -6125,6 +6654,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6216,6 +6746,7 @@ Response schema mismatch:
         "displayName": "Flair Marijuana Leaf",
         "id": "prod_aab9c81d-72b7-4308-afbb-87b38eb3de7a",
         "imageId": "file_c2d15c12-504c-4797-baac-e07f1fa25c76",
+        "imageUrl": null,
         "parentListings": [
           "prod_b156d54f-a9ca-424d-ae76-66eba25ce58f",
           "prod_4eddd049-9359-4bb0-980a-b52a77e14491"
@@ -6232,6 +6763,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6300,6 +6832,7 @@ Response schema mismatch:
     ],
     "id": "prod_4eddd049-9359-4bb0-980a-b52a77e14491",
     "imageId": "file_d9045b62-f865-4922-baf1-03463d1d39e5",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -6313,6 +6846,7 @@ Response schema mismatch:
         "displayName": "Flair Marijuana Leaf",
         "id": "prod_aab9c81d-72b7-4308-afbb-87b38eb3de7a",
         "imageId": "file_c2d15c12-504c-4797-baac-e07f1fa25c76",
+        "imageUrl": null,
         "parentListings": [
           "prod_b156d54f-a9ca-424d-ae76-66eba25ce58f",
           "prod_4eddd049-9359-4bb0-980a-b52a77e14491"
@@ -6329,6 +6863,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6420,6 +6955,7 @@ Response schema mismatch:
         "displayName": "Flair Sakura Tree",
         "id": "prod_ceb879d0-51c9-412b-b903-26a684e37158",
         "imageId": "file_270d6b51-8cd6-4918-b28a-5f37a686b684",
+        "imageUrl": null,
         "parentListings": [
           "prod_d9b9a177-441f-4a8d-a77e-503c02efa642",
           "prod_f338cb87-bc5c-455e-9932-10238c4e02aa"
@@ -6436,6 +6972,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6504,6 +7041,7 @@ Response schema mismatch:
     ],
     "id": "prod_f338cb87-bc5c-455e-9932-10238c4e02aa",
     "imageId": "file_ae98302d-0e21-46b0-91ec-6d2b813406dd",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -6517,6 +7055,7 @@ Response schema mismatch:
         "displayName": "Flair Sakura Tree",
         "id": "prod_ceb879d0-51c9-412b-b903-26a684e37158",
         "imageId": "file_270d6b51-8cd6-4918-b28a-5f37a686b684",
+        "imageUrl": null,
         "parentListings": [
           "prod_d9b9a177-441f-4a8d-a77e-503c02efa642",
           "prod_f338cb87-bc5c-455e-9932-10238c4e02aa"
@@ -6533,6 +7072,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6624,6 +7164,7 @@ Response schema mismatch:
         "displayName": "Flair Goose",
         "id": "prod_efdda3e1-a7fb-45ae-bee4-73b15b25e8c3",
         "imageId": "file_06af4507-2d8a-46e8-af01-eb9fd066d2c0",
+        "imageUrl": null,
         "parentListings": [
           "prod_dbd6bff3-9f53-404f-bce7-433b7c04ac7a"
         ],
@@ -6639,6 +7180,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6707,6 +7249,7 @@ Response schema mismatch:
     ],
     "id": "prod_dbd6bff3-9f53-404f-bce7-433b7c04ac7a",
     "imageId": "file_35e373ef-2636-471a-bcfb-26407ffc0ee5",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -6720,6 +7263,7 @@ Response schema mismatch:
         "displayName": "Flair Goose",
         "id": "prod_efdda3e1-a7fb-45ae-bee4-73b15b25e8c3",
         "imageId": "file_06af4507-2d8a-46e8-af01-eb9fd066d2c0",
+        "imageUrl": null,
         "parentListings": [
           "prod_dbd6bff3-9f53-404f-bce7-433b7c04ac7a"
         ],
@@ -6735,6 +7279,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6826,6 +7371,7 @@ Response schema mismatch:
         "displayName": "Flair Mirror UI",
         "id": "prod_213ba905-9aa2-4f4b-9c42-074d32076fc8",
         "imageId": "file_9c6793cf-7631-42c9-a66b-f72b06f651b3",
+        "imageUrl": null,
         "parentListings": [
           "prod_a3fd95f0-6106-45b2-b253-6d76b873cb7f"
         ],
@@ -6841,6 +7387,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -6909,6 +7456,7 @@ Response schema mismatch:
     ],
     "id": "prod_a3fd95f0-6106-45b2-b253-6d76b873cb7f",
     "imageId": "file_b6c8033e-7c15-44bc-a10e-ad3287b1c3ae",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -6922,6 +7470,7 @@ Response schema mismatch:
         "displayName": "Flair Mirror UI",
         "id": "prod_213ba905-9aa2-4f4b-9c42-074d32076fc8",
         "imageId": "file_9c6793cf-7631-42c9-a66b-f72b06f651b3",
+        "imageUrl": null,
         "parentListings": [
           "prod_a3fd95f0-6106-45b2-b253-6d76b873cb7f"
         ],
@@ -6937,6 +7486,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -7028,6 +7578,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -7047,6 +7598,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -7066,6 +7618,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -7133,6 +7686,7 @@ Response schema mismatch:
       }
     ],
     "id": "prod_424d1299-d87b-4cee-b93e-ecd7bc722e4c",
+    "imageUrl": null,
     "listingType": "duration",
     "priceTokens": 1000,
     "productIds": [
@@ -7147,6 +7701,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -7166,6 +7721,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -7185,6 +7741,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -7274,6 +7831,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -7293,6 +7851,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -7312,6 +7871,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -7379,6 +7939,7 @@ Response schema mismatch:
       }
     ],
     "id": "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
+    "imageUrl": null,
     "listingType": "duration",
     "priceTokens": 500,
     "productIds": [
@@ -7393,6 +7954,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -7412,6 +7974,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -7431,6 +7994,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -7520,6 +8084,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -7539,6 +8104,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -7558,6 +8124,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -7625,6 +8192,7 @@ Response schema mismatch:
       }
     ],
     "id": "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
+    "imageUrl": null,
     "listingType": "duration",
     "priceTokens": 100,
     "productIds": [
@@ -7639,6 +8207,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -7658,6 +8227,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -7677,6 +8247,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -7766,6 +8337,7 @@ Response schema mismatch:
         "displayName": "Flair Eggplant",
         "id": "prod_4c79c58a-dd3a-41a1-ae8c-5a16f835923b",
         "imageId": "file_792e4e17-7387-4ed7-828e-2928d6ad1691",
+        "imageUrl": null,
         "parentListings": [
           "prod_34974cac-71b1-4be8-9b8d-1b1b3066fb9b"
         ],
@@ -7781,6 +8353,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -7849,6 +8422,7 @@ Response schema mismatch:
     ],
     "id": "prod_34974cac-71b1-4be8-9b8d-1b1b3066fb9b",
     "imageId": "file_9f336ad7-fb47-4ce6-b688-bdfc19445d6a",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 200,
     "productIds": [
@@ -7862,6 +8436,7 @@ Response schema mismatch:
         "displayName": "Flair Eggplant",
         "id": "prod_4c79c58a-dd3a-41a1-ae8c-5a16f835923b",
         "imageId": "file_792e4e17-7387-4ed7-828e-2928d6ad1691",
+        "imageUrl": null,
         "parentListings": [
           "prod_34974cac-71b1-4be8-9b8d-1b1b3066fb9b"
         ],
@@ -7877,6 +8452,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -7971,6 +8547,7 @@ Response schema mismatch:
         "displayName": "Flair Error",
         "id": "prod_6f23bede-2019-4712-9435-f1b253274ece",
         "imageId": "file_b40cfb2f-1d41-4df6-ae47-ebbc7d5b2d85",
+        "imageUrl": null,
         "parentListings": [
           "prod_c72c91ec-c3c5-4bcc-88a8-49b274668111",
           "prod_0a2117e2-d801-40c6-b332-4c2a1ea3c6a8"
@@ -7991,6 +8568,7 @@ Response schema mismatch:
         "groupRoleId": "grol_7b03663b-86d2-48d2-98a3-8bd3170bb271",
         "id": "prod_7e6d3853-c455-4c68-b18e-42a9903db082",
         "imageId": "file_347205f6-f538-44b6-9ac7-9ca06b4b2605",
+        "imageUrl": null,
         "parentListings": [
           "prod_c72c91ec-c3c5-4bcc-88a8-49b274668111"
         ],
@@ -8005,6 +8583,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -8073,6 +8652,7 @@ Response schema mismatch:
     ],
     "id": "prod_c72c91ec-c3c5-4bcc-88a8-49b274668111",
     "imageId": "file_68c47fee-62c5-440c-bcd3-77061d2282f4",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -8113,6 +8693,7 @@ Response schema mismatch:
         "displayName": "Flair Error",
         "id": "prod_6f23bede-2019-4712-9435-f1b253274ece",
         "imageId": "file_b40cfb2f-1d41-4df6-ae47-ebbc7d5b2d85",
+        "imageUrl": null,
         "parentListings": [
           "prod_c72c91ec-c3c5-4bcc-88a8-49b274668111",
           "prod_0a2117e2-d801-40c6-b332-4c2a1ea3c6a8"
@@ -8133,6 +8714,7 @@ Response schema mismatch:
         "groupRoleId": "grol_7b03663b-86d2-48d2-98a3-8bd3170bb271",
         "id": "prod_7e6d3853-c455-4c68-b18e-42a9903db082",
         "imageId": "file_347205f6-f538-44b6-9ac7-9ca06b4b2605",
+        "imageUrl": null,
         "parentListings": [
           "prod_c72c91ec-c3c5-4bcc-88a8-49b274668111"
         ],
@@ -8147,6 +8729,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -8246,6 +8829,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0b242436-2b5a-4f71-a4d3-4f4f7d99fefe",
         "id": "prod_3996672a-1e52-4607-974e-6bfdc90effcc",
         "imageId": "file_5f1426f8-d02c-4bfc-aee8-f0f8658fb5b6",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f"
         ],
@@ -8260,6 +8844,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -8279,6 +8864,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -8347,6 +8933,7 @@ Response schema mismatch:
     ],
     "id": "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
     "imageId": "file_903f8a87-98ed-430c-bcc0-9782bab6157c",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -8391,6 +8978,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0b242436-2b5a-4f71-a4d3-4f4f7d99fefe",
         "id": "prod_3996672a-1e52-4607-974e-6bfdc90effcc",
         "imageId": "file_5f1426f8-d02c-4bfc-aee8-f0f8658fb5b6",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f"
         ],
@@ -8405,6 +8993,7 @@ Response schema mismatch:
         "displayName": "Flair Disco Ball",
         "id": "prod_bc5914a2-ff4b-4533-a428-8d2995110da7",
         "imageId": "file_02c8eb22-cf0f-47ab-92f6-afc3021d7515",
+        "imageUrl": null,
         "parentListings": [
           "prod_a2f40b70-6e45-4319-95f3-264d046eb66f",
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
@@ -8424,6 +9013,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -8516,6 +9106,7 @@ Response schema mismatch:
         "displayName": "Flair Christmas Train",
         "id": "prod_f90cc08c-ab3e-477d-8099-b4ae032b4fce",
         "imageId": "file_7b1c24b5-ebd7-400e-976a-9de02a5bada9",
+        "imageUrl": null,
         "parentListings": [
           "prod_c92c1396-53ca-4981-82c6-2b46b53cb82f"
         ],
@@ -8531,6 +9122,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -8599,6 +9191,7 @@ Response schema mismatch:
     ],
     "id": "prod_c92c1396-53ca-4981-82c6-2b46b53cb82f",
     "imageId": "file_eecc9910-0a6d-4aad-a9c0-04584ff4b3aa",
+    "imageUrl": null,
     "listingType": "permanent",
     "priceTokens": 500,
     "productIds": [
@@ -8612,6 +9205,7 @@ Response schema mismatch:
         "displayName": "Flair Christmas Train",
         "id": "prod_f90cc08c-ab3e-477d-8099-b4ae032b4fce",
         "imageId": "file_7b1c24b5-ebd7-400e-976a-9de02a5bada9",
+        "imageUrl": null,
         "parentListings": [
           "prod_c92c1396-53ca-4981-82c6-2b46b53cb82f"
         ],
@@ -8627,6 +9221,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -8721,6 +9316,7 @@ Response schema mismatch:
         "displayName": "Flair UFO",
         "id": "prod_31db5e5d-c9ca-4e86-ae3a-5d40f7cd72d0",
         "imageId": "file_f62b009d-e5c0-4336-9b8a-82e1e581c98c",
+        "imageUrl": null,
         "parentListings": [
           "prod_c98a473d-6a09-4b42-b0b7-4c41c11e35c3",
           "prod_22a416eb-609c-4e4a-a74a-d392cea8cff9"
@@ -8741,6 +9337,7 @@ Response schema mismatch:
         "groupRoleId": "grol_8c545a99-5323-4705-bdff-2c5834f31c73",
         "id": "prod_6a3eeda3-6b25-45b9-be68-2c5b5ff23915",
         "imageId": "file_f3929e3a-5958-4645-a9c5-4de8eb8e1e89",
+        "imageUrl": null,
         "parentListings": [
           "prod_c98a473d-6a09-4b42-b0b7-4c41c11e35c3"
         ],
@@ -8755,6 +9352,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -8823,6 +9421,7 @@ Response schema mismatch:
     ],
     "id": "prod_c98a473d-6a09-4b42-b0b7-4c41c11e35c3",
     "imageId": "file_496d618f-76d8-4649-b851-19f9dd8c302f",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -8860,6 +9459,7 @@ Response schema mismatch:
         "displayName": "Flair UFO",
         "id": "prod_31db5e5d-c9ca-4e86-ae3a-5d40f7cd72d0",
         "imageId": "file_f62b009d-e5c0-4336-9b8a-82e1e581c98c",
+        "imageUrl": null,
         "parentListings": [
           "prod_c98a473d-6a09-4b42-b0b7-4c41c11e35c3",
           "prod_22a416eb-609c-4e4a-a74a-d392cea8cff9"
@@ -8880,6 +9480,7 @@ Response schema mismatch:
         "groupRoleId": "grol_8c545a99-5323-4705-bdff-2c5834f31c73",
         "id": "prod_6a3eeda3-6b25-45b9-be68-2c5b5ff23915",
         "imageId": "file_f3929e3a-5958-4645-a9c5-4de8eb8e1e89",
+        "imageUrl": null,
         "parentListings": [
           "prod_c98a473d-6a09-4b42-b0b7-4c41c11e35c3"
         ],
@@ -8894,6 +9495,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -8989,6 +9591,7 @@ Response schema mismatch:
         "displayName": "Dark Mode Decor",
         "id": "prod_5d31fc08-603e-4445-a488-073653118982",
         "imageId": "file_2e60e7ae-ac00-4adf-9ee3-cb1ee2a2a9a1",
+        "imageUrl": null,
         "parentListings": [
           "prod_dcb5c0d2-b304-46bf-937a-b99afe26bc66"
         ],
@@ -9008,6 +9611,7 @@ Response schema mismatch:
         "groupRoleId": "grol_8825f7b8-0131-43ce-94a7-b501e6fa856a",
         "id": "prod_11278721-d52b-482c-a80e-a01b7a50628f",
         "imageId": "file_36eb4f0e-21a5-41aa-bfc1-7f54a6be17b3",
+        "imageUrl": null,
         "parentListings": [
           "prod_dcb5c0d2-b304-46bf-937a-b99afe26bc66"
         ],
@@ -9022,6 +9626,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -9090,6 +9695,7 @@ Response schema mismatch:
     ],
     "id": "prod_dcb5c0d2-b304-46bf-937a-b99afe26bc66",
     "imageId": "file_f0a786d8-9f47-41e0-9b1e-e8442a3b5eb9",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -9130,6 +9736,7 @@ Response schema mismatch:
         "displayName": "Dark Mode Decor",
         "id": "prod_5d31fc08-603e-4445-a488-073653118982",
         "imageId": "file_2e60e7ae-ac00-4adf-9ee3-cb1ee2a2a9a1",
+        "imageUrl": null,
         "parentListings": [
           "prod_dcb5c0d2-b304-46bf-937a-b99afe26bc66"
         ],
@@ -9149,6 +9756,7 @@ Response schema mismatch:
         "groupRoleId": "grol_8825f7b8-0131-43ce-94a7-b501e6fa856a",
         "id": "prod_11278721-d52b-482c-a80e-a01b7a50628f",
         "imageId": "file_36eb4f0e-21a5-41aa-bfc1-7f54a6be17b3",
+        "imageUrl": null,
         "parentListings": [
           "prod_dcb5c0d2-b304-46bf-937a-b99afe26bc66"
         ],
@@ -9163,6 +9771,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -9262,6 +9871,7 @@ Response schema mismatch:
         "groupRoleId": "grol_10c0e8b8-0877-4a0a-8ca1-21dde0ac2ea4",
         "id": "prod_e42a6f54-4283-45d4-83f6-8d31d4423152",
         "imageId": "file_9b5ee56f-aeff-4e78-b344-1fadc7864d1f",
+        "imageUrl": null,
         "parentListings": [
           "prod_8745681b-e41f-471f-8f01-8da42f539054"
         ],
@@ -9276,6 +9886,7 @@ Response schema mismatch:
         "displayName": "Tier 1 McMansion",
         "id": "prod_d8012762-f0ad-4bf3-ad3e-c237dbba6262",
         "imageId": "file_2683498a-9702-43e3-83e0-bbe1ef738a2a",
+        "imageUrl": null,
         "parentListings": [
           "prod_7878962e-984c-4605-9416-1ef552dd47ab",
           "prod_8745681b-e41f-471f-8f01-8da42f539054"
@@ -9292,6 +9903,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -9312,6 +9924,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -9332,6 +9945,7 @@ Response schema mismatch:
         "displayName": "Decorations Complete",
         "id": "prod_950db306-aad8-4026-b5a3-2409d0aa21a9",
         "imageId": null,
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_8745681b-e41f-471f-8f01-8da42f539054",
@@ -9350,6 +9964,7 @@ Response schema mismatch:
         "displayName": "Video Player",
         "id": "prod_1dbb5caf-8ab4-4c78-afec-95ba50bca814",
         "imageId": "file_c8621de0-7693-4821-b338-fbada6e61fc5",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_88fe9d00-1303-4c5f-9cac-39d2262ad05c",
@@ -9368,6 +9983,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -9438,6 +10054,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -9462,6 +10079,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -9486,6 +10104,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -9510,6 +10129,7 @@ Response schema mismatch:
     ],
     "id": "prod_8745681b-e41f-471f-8f01-8da42f539054",
     "imageId": "file_b2c83667-ee3f-4eaf-be8c-429e11458480",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -9561,6 +10181,7 @@ Response schema mismatch:
         "groupRoleId": "grol_10c0e8b8-0877-4a0a-8ca1-21dde0ac2ea4",
         "id": "prod_e42a6f54-4283-45d4-83f6-8d31d4423152",
         "imageId": "file_9b5ee56f-aeff-4e78-b344-1fadc7864d1f",
+        "imageUrl": null,
         "parentListings": [
           "prod_8745681b-e41f-471f-8f01-8da42f539054"
         ],
@@ -9575,6 +10196,7 @@ Response schema mismatch:
         "displayName": "Tier 1 McMansion",
         "id": "prod_d8012762-f0ad-4bf3-ad3e-c237dbba6262",
         "imageId": "file_2683498a-9702-43e3-83e0-bbe1ef738a2a",
+        "imageUrl": null,
         "parentListings": [
           "prod_7878962e-984c-4605-9416-1ef552dd47ab",
           "prod_8745681b-e41f-471f-8f01-8da42f539054"
@@ -9591,6 +10213,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -9611,6 +10234,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -9631,6 +10255,7 @@ Response schema mismatch:
         "displayName": "Decorations Complete",
         "id": "prod_950db306-aad8-4026-b5a3-2409d0aa21a9",
         "imageId": null,
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_8745681b-e41f-471f-8f01-8da42f539054",
@@ -9649,6 +10274,7 @@ Response schema mismatch:
         "displayName": "Video Player",
         "id": "prod_1dbb5caf-8ab4-4c78-afec-95ba50bca814",
         "imageId": "file_c8621de0-7693-4821-b338-fbada6e61fc5",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_88fe9d00-1303-4c5f-9cac-39d2262ad05c",
@@ -9667,6 +10293,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -9737,6 +10364,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -9761,6 +10389,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -9785,6 +10414,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -9840,6 +10470,7 @@ Response schema mismatch:
         "groupRoleId": "grol_77daef66-bdd3-4fef-83cf-b0255b1decd5",
         "id": "prod_3050b187-e573-4c11-817f-b837b77caeb6",
         "imageId": "file_e5f7e5ca-351c-4fd4-adbd-ffe365796be9",
+        "imageUrl": null,
         "parentListings": [
           "prod_7878962e-984c-4605-9416-1ef552dd47ab"
         ],
@@ -9854,6 +10485,7 @@ Response schema mismatch:
         "displayName": "Tier 1 McMansion",
         "id": "prod_d8012762-f0ad-4bf3-ad3e-c237dbba6262",
         "imageId": "file_2683498a-9702-43e3-83e0-bbe1ef738a2a",
+        "imageUrl": null,
         "parentListings": [
           "prod_7878962e-984c-4605-9416-1ef552dd47ab",
           "prod_8745681b-e41f-471f-8f01-8da42f539054"
@@ -9870,6 +10502,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -9890,6 +10523,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -9910,6 +10544,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -9980,6 +10615,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -10004,6 +10640,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -10028,6 +10665,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -10052,6 +10690,7 @@ Response schema mismatch:
     ],
     "id": "prod_7878962e-984c-4605-9416-1ef552dd47ab",
     "imageId": "file_d9c1c29c-acc8-4a31-b6b0-2c2620684d1b",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -10101,6 +10740,7 @@ Response schema mismatch:
         "groupRoleId": "grol_77daef66-bdd3-4fef-83cf-b0255b1decd5",
         "id": "prod_3050b187-e573-4c11-817f-b837b77caeb6",
         "imageId": "file_e5f7e5ca-351c-4fd4-adbd-ffe365796be9",
+        "imageUrl": null,
         "parentListings": [
           "prod_7878962e-984c-4605-9416-1ef552dd47ab"
         ],
@@ -10115,6 +10755,7 @@ Response schema mismatch:
         "displayName": "Tier 1 McMansion",
         "id": "prod_d8012762-f0ad-4bf3-ad3e-c237dbba6262",
         "imageId": "file_2683498a-9702-43e3-83e0-bbe1ef738a2a",
+        "imageUrl": null,
         "parentListings": [
           "prod_7878962e-984c-4605-9416-1ef552dd47ab",
           "prod_8745681b-e41f-471f-8f01-8da42f539054"
@@ -10131,6 +10772,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -10151,6 +10793,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -10171,6 +10814,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -10241,6 +10885,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -10265,6 +10910,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -10289,6 +10935,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -10344,6 +10991,7 @@ Response schema mismatch:
         "groupRoleId": "grol_45af26ee-07b6-4434-9b57-13551582091c",
         "id": "prod_77d06bb6-3b29-4ffd-81e2-0e6aad967ca4",
         "imageId": "file_7cf8ee0e-dfc2-4dc9-9ce5-42b7259bb7d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_9cea2c5e-de68-4c87-ab48-bd89c33b13d8"
         ],
@@ -10358,6 +11006,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -10428,6 +11077,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -10452,6 +11102,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -10476,6 +11127,7 @@ Response schema mismatch:
     ],
     "id": "prod_9cea2c5e-de68-4c87-ab48-bd89c33b13d8",
     "imageId": "file_a8b60a49-4bf5-48fe-b863-8087a58720d3",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -10518,6 +11170,7 @@ Response schema mismatch:
         "groupRoleId": "grol_45af26ee-07b6-4434-9b57-13551582091c",
         "id": "prod_77d06bb6-3b29-4ffd-81e2-0e6aad967ca4",
         "imageId": "file_7cf8ee0e-dfc2-4dc9-9ce5-42b7259bb7d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_9cea2c5e-de68-4c87-ab48-bd89c33b13d8"
         ],
@@ -10532,6 +11185,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -10602,6 +11256,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -10626,6 +11281,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -10677,6 +11333,7 @@ Response schema mismatch:
         "displayName": "1000 Tip",
         "id": "prod_e2aaebfa-d9c3-459a-aa23-944f4698468c",
         "imageId": "file_c4d9e64a-3949-4794-a2cb-c75cafaa053f",
+        "imageUrl": null,
         "parentListings": [
           "prod_85606c39-9737-404d-931f-2d1473b93fa3"
         ],
@@ -10692,6 +11349,7 @@ Response schema mismatch:
         "displayName": "500 Tip",
         "id": "prod_8706e1f1-2bec-46ec-9450-792841687c3d",
         "imageId": "file_04f8241e-501f-4259-87ba-5f5cf98c412f",
+        "imageUrl": null,
         "parentListings": [
           "prod_85606c39-9737-404d-931f-2d1473b93fa3",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303"
@@ -10712,6 +11370,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0ef9835e-9b40-44d4-894f-e36d2065fd92",
         "id": "prod_d271c3c4-c777-4130-87b2-4dd1f7a390b3",
         "imageId": "file_a8869da0-2d30-4c5e-aae8-3a337f64f819",
+        "imageUrl": null,
         "parentListings": [
           "prod_85606c39-9737-404d-931f-2d1473b93fa3"
         ],
@@ -10726,6 +11385,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -10746,6 +11406,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -10764,6 +11425,7 @@ Response schema mismatch:
     ],
     "id": "prod_85606c39-9737-404d-931f-2d1473b93fa3",
     "imageId": "file_a06935af-6da6-4103-b631-2be11e8dd705",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -10803,6 +11465,7 @@ Response schema mismatch:
         "displayName": "1000 Tip",
         "id": "prod_e2aaebfa-d9c3-459a-aa23-944f4698468c",
         "imageId": "file_c4d9e64a-3949-4794-a2cb-c75cafaa053f",
+        "imageUrl": null,
         "parentListings": [
           "prod_85606c39-9737-404d-931f-2d1473b93fa3"
         ],
@@ -10818,6 +11481,7 @@ Response schema mismatch:
         "displayName": "500 Tip",
         "id": "prod_8706e1f1-2bec-46ec-9450-792841687c3d",
         "imageId": "file_04f8241e-501f-4259-87ba-5f5cf98c412f",
+        "imageUrl": null,
         "parentListings": [
           "prod_85606c39-9737-404d-931f-2d1473b93fa3",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303"
@@ -10838,6 +11502,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0ef9835e-9b40-44d4-894f-e36d2065fd92",
         "id": "prod_d271c3c4-c777-4130-87b2-4dd1f7a390b3",
         "imageId": "file_a8869da0-2d30-4c5e-aae8-3a337f64f819",
+        "imageUrl": null,
         "parentListings": [
           "prod_85606c39-9737-404d-931f-2d1473b93fa3"
         ],
@@ -10852,6 +11517,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -10872,6 +11538,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -10917,6 +11584,7 @@ Response schema mismatch:
         "displayName": "500 Tip",
         "id": "prod_8706e1f1-2bec-46ec-9450-792841687c3d",
         "imageId": "file_04f8241e-501f-4259-87ba-5f5cf98c412f",
+        "imageUrl": null,
         "parentListings": [
           "prod_85606c39-9737-404d-931f-2d1473b93fa3",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303"
@@ -10937,6 +11605,7 @@ Response schema mismatch:
         "groupRoleId": "grol_fed299a7-58f6-41e5-977d-bc1c53c2f851",
         "id": "prod_96786c52-4e13-44d6-84e2-b84c4dbacea6",
         "imageId": "file_4ac0a8f4-1c5f-4420-8894-0446012c1ef2",
+        "imageUrl": null,
         "parentListings": [
           "prod_b3e63c7c-d578-4496-804f-f792b4740303"
         ],
@@ -10951,6 +11620,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -10971,6 +11641,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -10989,6 +11660,7 @@ Response schema mismatch:
     ],
     "id": "prod_b3e63c7c-d578-4496-804f-f792b4740303",
     "imageId": "file_44f8142e-fab3-4889-bf19-fb879c40ad91",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -11027,6 +11699,7 @@ Response schema mismatch:
         "displayName": "500 Tip",
         "id": "prod_8706e1f1-2bec-46ec-9450-792841687c3d",
         "imageId": "file_04f8241e-501f-4259-87ba-5f5cf98c412f",
+        "imageUrl": null,
         "parentListings": [
           "prod_85606c39-9737-404d-931f-2d1473b93fa3",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303"
@@ -11047,6 +11720,7 @@ Response schema mismatch:
         "groupRoleId": "grol_fed299a7-58f6-41e5-977d-bc1c53c2f851",
         "id": "prod_96786c52-4e13-44d6-84e2-b84c4dbacea6",
         "imageId": "file_4ac0a8f4-1c5f-4420-8894-0446012c1ef2",
+        "imageUrl": null,
         "parentListings": [
           "prod_b3e63c7c-d578-4496-804f-f792b4740303"
         ],
@@ -11061,6 +11735,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -11081,6 +11756,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -11126,6 +11802,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -11150,6 +11827,7 @@ Response schema mismatch:
         "groupRoleId": "grol_41a9352a-8c64-4ea5-a176-13a3a85857f6",
         "id": "prod_00697bdf-dfe8-41e3-a307-1d3d14652756",
         "imageId": "file_12e841cb-2ceb-4e50-b5ce-2251081c6114",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec"
         ],
@@ -11164,6 +11842,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -11232,6 +11911,7 @@ Response schema mismatch:
     ],
     "id": "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
     "imageId": "file_b1e23d28-532f-4f2d-a9ef-fa76ddc485bb",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -11269,6 +11949,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -11293,6 +11974,7 @@ Response schema mismatch:
         "groupRoleId": "grol_41a9352a-8c64-4ea5-a176-13a3a85857f6",
         "id": "prod_00697bdf-dfe8-41e3-a307-1d3d14652756",
         "imageId": "file_12e841cb-2ceb-4e50-b5ce-2251081c6114",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec"
         ],
@@ -11307,6 +11989,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -11406,6 +12089,7 @@ Response schema mismatch:
         "groupRoleId": "grol_74673d67-b7e4-41b5-941c-10715690c8b9",
         "id": "prod_2204c299-1524-4560-9118-d2a7151a0f00",
         "imageId": "file_b8201fc8-99ca-4c55-8862-95159861e2a7",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0"
         ],
@@ -11420,6 +12104,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -11440,6 +12125,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -11508,6 +12194,7 @@ Response schema mismatch:
     ],
     "id": "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
     "imageId": "file_154c7beb-6cd9-437f-a658-ce833e73a3cf",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -11549,6 +12236,7 @@ Response schema mismatch:
         "groupRoleId": "grol_74673d67-b7e4-41b5-941c-10715690c8b9",
         "id": "prod_2204c299-1524-4560-9118-d2a7151a0f00",
         "imageId": "file_b8201fc8-99ca-4c55-8862-95159861e2a7",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0"
         ],
@@ -11563,6 +12251,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -11583,6 +12272,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -11678,6 +12368,7 @@ Response schema mismatch:
         "displayName": "Flair Dizzy Particles",
         "id": "prod_4f7574dd-5668-41ca-bb2c-0bacc84e1220",
         "imageId": "file_98faf08c-f435-4f9d-98a9-f5aac698d36e",
+        "imageUrl": null,
         "parentListings": [
           "prod_76b12da2-3b15-4c9c-b4d9-55155ce48613",
           "prod_dc3fd03c-eafb-4e8d-9571-dbefac5c9edc"
@@ -11698,6 +12389,7 @@ Response schema mismatch:
         "groupRoleId": "grol_bb904994-38d3-4baa-ad1b-8cab73dd2008",
         "id": "prod_72538de1-a2cc-4901-9017-38d6e0a02d1d",
         "imageId": "file_9a874a80-f9b6-4300-9124-f00feb6d7443",
+        "imageUrl": null,
         "parentListings": [
           "prod_76b12da2-3b15-4c9c-b4d9-55155ce48613"
         ],
@@ -11712,6 +12404,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -11780,6 +12473,7 @@ Response schema mismatch:
     ],
     "id": "prod_76b12da2-3b15-4c9c-b4d9-55155ce48613",
     "imageId": "file_97624775-25fa-4bad-b357-d169e80fd060",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -11817,6 +12511,7 @@ Response schema mismatch:
         "displayName": "Flair Dizzy Particles",
         "id": "prod_4f7574dd-5668-41ca-bb2c-0bacc84e1220",
         "imageId": "file_98faf08c-f435-4f9d-98a9-f5aac698d36e",
+        "imageUrl": null,
         "parentListings": [
           "prod_76b12da2-3b15-4c9c-b4d9-55155ce48613",
           "prod_dc3fd03c-eafb-4e8d-9571-dbefac5c9edc"
@@ -11837,6 +12532,7 @@ Response schema mismatch:
         "groupRoleId": "grol_bb904994-38d3-4baa-ad1b-8cab73dd2008",
         "id": "prod_72538de1-a2cc-4901-9017-38d6e0a02d1d",
         "imageId": "file_9a874a80-f9b6-4300-9124-f00feb6d7443",
+        "imageUrl": null,
         "parentListings": [
           "prod_76b12da2-3b15-4c9c-b4d9-55155ce48613"
         ],
@@ -11851,6 +12547,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -11946,6 +12643,7 @@ Response schema mismatch:
         "displayName": "Flair Thunderstorm",
         "id": "prod_03a0b1d4-304e-4d24-b865-edcd849393e7",
         "imageId": "file_b7dd8454-a466-4ceb-b47c-9bc2b7514244",
+        "imageUrl": null,
         "parentListings": [
           "prod_baff9245-3638-4846-b0f3-97637e640a0d",
           "prod_8529cfb6-341a-4a69-8c51-17267f8144cf"
@@ -11966,6 +12664,7 @@ Response schema mismatch:
         "groupRoleId": "grol_a33abd35-17e5-40d8-bca6-c58b38538c71",
         "id": "prod_4c5068f0-45a9-4e7f-bd99-e78fcafa5fca",
         "imageId": "file_ae2353ae-4fdc-41e6-ac64-262bccbc7004",
+        "imageUrl": null,
         "parentListings": [
           "prod_baff9245-3638-4846-b0f3-97637e640a0d"
         ],
@@ -11980,6 +12679,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -12048,6 +12748,7 @@ Response schema mismatch:
     ],
     "id": "prod_baff9245-3638-4846-b0f3-97637e640a0d",
     "imageId": "file_49d2bfc3-062a-4b81-921f-df49357fff3c",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -12085,6 +12786,7 @@ Response schema mismatch:
         "displayName": "Flair Thunderstorm",
         "id": "prod_03a0b1d4-304e-4d24-b865-edcd849393e7",
         "imageId": "file_b7dd8454-a466-4ceb-b47c-9bc2b7514244",
+        "imageUrl": null,
         "parentListings": [
           "prod_baff9245-3638-4846-b0f3-97637e640a0d",
           "prod_8529cfb6-341a-4a69-8c51-17267f8144cf"
@@ -12105,6 +12807,7 @@ Response schema mismatch:
         "groupRoleId": "grol_a33abd35-17e5-40d8-bca6-c58b38538c71",
         "id": "prod_4c5068f0-45a9-4e7f-bd99-e78fcafa5fca",
         "imageId": "file_ae2353ae-4fdc-41e6-ac64-262bccbc7004",
+        "imageUrl": null,
         "parentListings": [
           "prod_baff9245-3638-4846-b0f3-97637e640a0d"
         ],
@@ -12119,6 +12822,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -12214,6 +12918,7 @@ Response schema mismatch:
         "displayName": "Flair Fire",
         "id": "prod_226b5392-3b93-4905-960c-345588d6116e",
         "imageId": "file_adaec0c9-8599-410e-89cc-50c5c50cf63a",
+        "imageUrl": null,
         "parentListings": [
           "prod_d1c1cb29-b979-48ae-b2bb-1fc2d28cd672",
           "prod_759318a5-8ea3-4aa6-9de2-1b95b26cd3d5"
@@ -12234,6 +12939,7 @@ Response schema mismatch:
         "groupRoleId": "grol_ee03127e-1bff-43fa-a795-580176b59376",
         "id": "prod_01c59291-0aaf-4219-8959-6e3be4ff9bcd",
         "imageId": "file_95078802-7104-4caf-b247-f9c68bd78519",
+        "imageUrl": null,
         "parentListings": [
           "prod_d1c1cb29-b979-48ae-b2bb-1fc2d28cd672"
         ],
@@ -12248,6 +12954,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -12316,6 +13023,7 @@ Response schema mismatch:
     ],
     "id": "prod_d1c1cb29-b979-48ae-b2bb-1fc2d28cd672",
     "imageId": "file_cf455265-db9c-4612-b9d1-7faaa77eacdd",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -12353,6 +13061,7 @@ Response schema mismatch:
         "displayName": "Flair Fire",
         "id": "prod_226b5392-3b93-4905-960c-345588d6116e",
         "imageId": "file_adaec0c9-8599-410e-89cc-50c5c50cf63a",
+        "imageUrl": null,
         "parentListings": [
           "prod_d1c1cb29-b979-48ae-b2bb-1fc2d28cd672",
           "prod_759318a5-8ea3-4aa6-9de2-1b95b26cd3d5"
@@ -12373,6 +13082,7 @@ Response schema mismatch:
         "groupRoleId": "grol_ee03127e-1bff-43fa-a795-580176b59376",
         "id": "prod_01c59291-0aaf-4219-8959-6e3be4ff9bcd",
         "imageId": "file_95078802-7104-4caf-b247-f9c68bd78519",
+        "imageUrl": null,
         "parentListings": [
           "prod_d1c1cb29-b979-48ae-b2bb-1fc2d28cd672"
         ],
@@ -12387,6 +13097,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -12482,6 +13193,7 @@ Response schema mismatch:
         "displayName": "Goose Astronaut",
         "id": "prod_5af877c2-2c34-4f60-8b6c-d37ebf9b726d",
         "imageId": "file_8c126416-6e81-403f-8ea7-8ed7845095c1",
+        "imageUrl": null,
         "parentListings": [
           "prod_4f2ddf12-71d5-4c50-852e-d3e35773dbc6"
         ],
@@ -12501,6 +13213,7 @@ Response schema mismatch:
         "groupRoleId": "grol_fd3f4406-b6ac-462f-86e6-92cadf4d856c",
         "id": "prod_516f2141-6568-4f3b-9b97-94de81d74fee",
         "imageId": "file_ccd8cd48-109c-4902-be3b-115ad1e7e738",
+        "imageUrl": null,
         "parentListings": [
           "prod_4f2ddf12-71d5-4c50-852e-d3e35773dbc6"
         ],
@@ -12515,6 +13228,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -12583,6 +13297,7 @@ Response schema mismatch:
     ],
     "id": "prod_4f2ddf12-71d5-4c50-852e-d3e35773dbc6",
     "imageId": "file_db669020-6acd-4b7b-a00d-5c32f028a6a0",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -12620,6 +13335,7 @@ Response schema mismatch:
         "displayName": "Goose Astronaut",
         "id": "prod_5af877c2-2c34-4f60-8b6c-d37ebf9b726d",
         "imageId": "file_8c126416-6e81-403f-8ea7-8ed7845095c1",
+        "imageUrl": null,
         "parentListings": [
           "prod_4f2ddf12-71d5-4c50-852e-d3e35773dbc6"
         ],
@@ -12639,6 +13355,7 @@ Response schema mismatch:
         "groupRoleId": "grol_fd3f4406-b6ac-462f-86e6-92cadf4d856c",
         "id": "prod_516f2141-6568-4f3b-9b97-94de81d74fee",
         "imageId": "file_ccd8cd48-109c-4902-be3b-115ad1e7e738",
+        "imageUrl": null,
         "parentListings": [
           "prod_4f2ddf12-71d5-4c50-852e-d3e35773dbc6"
         ],
@@ -12653,6 +13370,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -12748,6 +13466,7 @@ Response schema mismatch:
         "displayName": "Goose Bread",
         "id": "prod_c98cb604-cc9f-4183-b35b-3742fec5347d",
         "imageId": "file_c75b6acb-dc33-42d3-b1be-becc1826bf7f",
+        "imageUrl": null,
         "parentListings": [
           "prod_f31de564-1a57-4048-8b2f-28ea0a131acc"
         ],
@@ -12767,6 +13486,7 @@ Response schema mismatch:
         "groupRoleId": "grol_328d4c97-547a-4ef2-bb16-5d2bbc54b955",
         "id": "prod_71791c8b-3fc5-4b18-b530-febd40e25720",
         "imageId": "file_7db9a758-7b80-46f6-9cc0-ae5dd257df3f",
+        "imageUrl": null,
         "parentListings": [
           "prod_f31de564-1a57-4048-8b2f-28ea0a131acc"
         ],
@@ -12781,6 +13501,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -12849,6 +13570,7 @@ Response schema mismatch:
     ],
     "id": "prod_f31de564-1a57-4048-8b2f-28ea0a131acc",
     "imageId": "file_20110f1a-a92a-41c4-8960-8cbf7d5a3850",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -12886,6 +13608,7 @@ Response schema mismatch:
         "displayName": "Goose Bread",
         "id": "prod_c98cb604-cc9f-4183-b35b-3742fec5347d",
         "imageId": "file_c75b6acb-dc33-42d3-b1be-becc1826bf7f",
+        "imageUrl": null,
         "parentListings": [
           "prod_f31de564-1a57-4048-8b2f-28ea0a131acc"
         ],
@@ -12905,6 +13628,7 @@ Response schema mismatch:
         "groupRoleId": "grol_328d4c97-547a-4ef2-bb16-5d2bbc54b955",
         "id": "prod_71791c8b-3fc5-4b18-b530-febd40e25720",
         "imageId": "file_7db9a758-7b80-46f6-9cc0-ae5dd257df3f",
+        "imageUrl": null,
         "parentListings": [
           "prod_f31de564-1a57-4048-8b2f-28ea0a131acc"
         ],
@@ -12919,6 +13643,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -13018,6 +13743,7 @@ Response schema mismatch:
         "groupRoleId": "grol_3bac5603-e77a-445f-baf7-95c35e1fc56d",
         "id": "prod_cdcf072d-580b-43ca-a725-b535503aa48a",
         "imageId": "file_d2d4f865-de87-4ae1-b109-08352d8065e0",
+        "imageUrl": null,
         "parentListings": [
           "prod_b156d54f-a9ca-424d-ae76-66eba25ce58f"
         ],
@@ -13032,6 +13758,7 @@ Response schema mismatch:
         "displayName": "Flair Marijuana Leaf",
         "id": "prod_aab9c81d-72b7-4308-afbb-87b38eb3de7a",
         "imageId": "file_c2d15c12-504c-4797-baac-e07f1fa25c76",
+        "imageUrl": null,
         "parentListings": [
           "prod_b156d54f-a9ca-424d-ae76-66eba25ce58f",
           "prod_4eddd049-9359-4bb0-980a-b52a77e14491"
@@ -13048,6 +13775,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -13116,6 +13844,7 @@ Response schema mismatch:
     ],
     "id": "prod_b156d54f-a9ca-424d-ae76-66eba25ce58f",
     "imageId": "file_3c65eff4-f194-4b70-b925-5d1e56a5acde",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -13160,6 +13889,7 @@ Response schema mismatch:
         "groupRoleId": "grol_3bac5603-e77a-445f-baf7-95c35e1fc56d",
         "id": "prod_cdcf072d-580b-43ca-a725-b535503aa48a",
         "imageId": "file_d2d4f865-de87-4ae1-b109-08352d8065e0",
+        "imageUrl": null,
         "parentListings": [
           "prod_b156d54f-a9ca-424d-ae76-66eba25ce58f"
         ],
@@ -13174,6 +13904,7 @@ Response schema mismatch:
         "displayName": "Flair Marijuana Leaf",
         "id": "prod_aab9c81d-72b7-4308-afbb-87b38eb3de7a",
         "imageId": "file_c2d15c12-504c-4797-baac-e07f1fa25c76",
+        "imageUrl": null,
         "parentListings": [
           "prod_b156d54f-a9ca-424d-ae76-66eba25ce58f",
           "prod_4eddd049-9359-4bb0-980a-b52a77e14491"
@@ -13190,6 +13921,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -13288,6 +14020,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0218a5f2-82b9-4070-aee0-6da7a4f895e6",
         "id": "prod_a891086e-0864-4d4d-ad95-0d3f6ec04cd2",
         "imageId": "file_d83c3a4b-2f38-4326-8902-468ddfe1b370",
+        "imageUrl": null,
         "parentListings": [
           "prod_d9b9a177-441f-4a8d-a77e-503c02efa642"
         ],
@@ -13302,6 +14035,7 @@ Response schema mismatch:
         "displayName": "Flair Sakura Tree",
         "id": "prod_ceb879d0-51c9-412b-b903-26a684e37158",
         "imageId": "file_270d6b51-8cd6-4918-b28a-5f37a686b684",
+        "imageUrl": null,
         "parentListings": [
           "prod_d9b9a177-441f-4a8d-a77e-503c02efa642",
           "prod_f338cb87-bc5c-455e-9932-10238c4e02aa"
@@ -13318,6 +14052,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -13386,6 +14121,7 @@ Response schema mismatch:
     ],
     "id": "prod_d9b9a177-441f-4a8d-a77e-503c02efa642",
     "imageId": "file_51d1a267-273c-410f-94cd-102b6c0812eb",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -13430,6 +14166,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0218a5f2-82b9-4070-aee0-6da7a4f895e6",
         "id": "prod_a891086e-0864-4d4d-ad95-0d3f6ec04cd2",
         "imageId": "file_d83c3a4b-2f38-4326-8902-468ddfe1b370",
+        "imageUrl": null,
         "parentListings": [
           "prod_d9b9a177-441f-4a8d-a77e-503c02efa642"
         ],
@@ -13444,6 +14181,7 @@ Response schema mismatch:
         "displayName": "Flair Sakura Tree",
         "id": "prod_ceb879d0-51c9-412b-b903-26a684e37158",
         "imageId": "file_270d6b51-8cd6-4918-b28a-5f37a686b684",
+        "imageUrl": null,
         "parentListings": [
           "prod_d9b9a177-441f-4a8d-a77e-503c02efa642",
           "prod_f338cb87-bc5c-455e-9932-10238c4e02aa"
@@ -13460,6 +14198,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -13558,6 +14297,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0b25c603-06fe-49f2-896e-5b568da8552f",
         "id": "prod_49cc24ae-dde1-49d9-a2f1-c466e7bfd900",
         "imageId": "file_4f1ae042-cd79-4472-8b39-e5396c8873a7",
+        "imageUrl": null,
         "parentListings": [
           "prod_67626a8e-ad0e-4221-8403-0bcfd0f13818"
         ],
@@ -13572,6 +14312,7 @@ Response schema mismatch:
         "displayName": "Goose Hazmat",
         "id": "prod_ddbfd226-9788-4379-9203-5247925e3037",
         "imageId": "file_ffe19397-6f83-4fb1-88a2-ec8b2e40936b",
+        "imageUrl": null,
         "parentListings": [
           "prod_67626a8e-ad0e-4221-8403-0bcfd0f13818"
         ],
@@ -13587,6 +14328,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -13655,6 +14397,7 @@ Response schema mismatch:
     ],
     "id": "prod_67626a8e-ad0e-4221-8403-0bcfd0f13818",
     "imageId": "file_d0de43c7-f6bf-4787-aa3f-5237b7ea3a8e",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -13696,6 +14439,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0b25c603-06fe-49f2-896e-5b568da8552f",
         "id": "prod_49cc24ae-dde1-49d9-a2f1-c466e7bfd900",
         "imageId": "file_4f1ae042-cd79-4472-8b39-e5396c8873a7",
+        "imageUrl": null,
         "parentListings": [
           "prod_67626a8e-ad0e-4221-8403-0bcfd0f13818"
         ],
@@ -13710,6 +14454,7 @@ Response schema mismatch:
         "displayName": "Goose Hazmat",
         "id": "prod_ddbfd226-9788-4379-9203-5247925e3037",
         "imageId": "file_ffe19397-6f83-4fb1-88a2-ec8b2e40936b",
+        "imageUrl": null,
         "parentListings": [
           "prod_67626a8e-ad0e-4221-8403-0bcfd0f13818"
         ],
@@ -13725,6 +14470,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -13823,6 +14569,7 @@ Response schema mismatch:
         "groupRoleId": "grol_c157108b-9c70-42c7-ab4b-0fc291e5fbae",
         "id": "prod_b82529cc-6c7f-4396-94be-5ee96d8eba00",
         "imageId": "file_1f25f44c-3ab5-488c-a73d-0c4f09b2ed5c",
+        "imageUrl": null,
         "parentListings": [
           "prod_8e87e339-eee9-40d3-8482-c21c39d65999"
         ],
@@ -13837,6 +14584,7 @@ Response schema mismatch:
         "displayName": "Goose Long Neck",
         "id": "prod_b07efe0d-08a4-49a1-be2e-3ef085788bab",
         "imageId": "file_ab99ac04-f5a7-4893-8624-2307d9e96584",
+        "imageUrl": null,
         "parentListings": [
           "prod_8e87e339-eee9-40d3-8482-c21c39d65999"
         ],
@@ -13852,6 +14600,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -13920,6 +14669,7 @@ Response schema mismatch:
     ],
     "id": "prod_8e87e339-eee9-40d3-8482-c21c39d65999",
     "imageId": "file_704ccf09-a422-4609-92bb-47fa3a8cb5a6",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -13961,6 +14711,7 @@ Response schema mismatch:
         "groupRoleId": "grol_c157108b-9c70-42c7-ab4b-0fc291e5fbae",
         "id": "prod_b82529cc-6c7f-4396-94be-5ee96d8eba00",
         "imageId": "file_1f25f44c-3ab5-488c-a73d-0c4f09b2ed5c",
+        "imageUrl": null,
         "parentListings": [
           "prod_8e87e339-eee9-40d3-8482-c21c39d65999"
         ],
@@ -13975,6 +14726,7 @@ Response schema mismatch:
         "displayName": "Goose Long Neck",
         "id": "prod_b07efe0d-08a4-49a1-be2e-3ef085788bab",
         "imageId": "file_ab99ac04-f5a7-4893-8624-2307d9e96584",
+        "imageUrl": null,
         "parentListings": [
           "prod_8e87e339-eee9-40d3-8482-c21c39d65999"
         ],
@@ -13990,6 +14742,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -14088,6 +14841,7 @@ Response schema mismatch:
         "groupRoleId": "grol_caf17321-bc09-4e47-8725-8986240caa57",
         "id": "prod_9883bc28-8607-476a-a44c-e3754feed8a4",
         "imageId": "file_40807836-617f-4544-a98b-bce3295422e6",
+        "imageUrl": null,
         "parentListings": [
           "prod_e0290752-53f7-4be9-9cc6-d06d4d16fe91"
         ],
@@ -14102,6 +14856,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -14172,6 +14927,7 @@ Response schema mismatch:
         "displayName": "Robot Goose",
         "id": "prod_2e552283-5c44-4347-96be-11631de17d0a",
         "imageId": "file_3ecd7737-af7d-4814-98f3-a3399f76dd4d",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_e0290752-53f7-4be9-9cc6-d06d4d16fe91"
@@ -14186,6 +14942,7 @@ Response schema mismatch:
     ],
     "id": "prod_e0290752-53f7-4be9-9cc6-d06d4d16fe91",
     "imageId": "file_2af4c0e7-28ea-408c-850d-da15b5b1f2d4",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -14227,6 +14984,7 @@ Response schema mismatch:
         "groupRoleId": "grol_caf17321-bc09-4e47-8725-8986240caa57",
         "id": "prod_9883bc28-8607-476a-a44c-e3754feed8a4",
         "imageId": "file_40807836-617f-4544-a98b-bce3295422e6",
+        "imageUrl": null,
         "parentListings": [
           "prod_e0290752-53f7-4be9-9cc6-d06d4d16fe91"
         ],
@@ -14241,6 +14999,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -14311,6 +15070,7 @@ Response schema mismatch:
         "displayName": "Robot Goose",
         "id": "prod_2e552283-5c44-4347-96be-11631de17d0a",
         "imageId": "file_3ecd7737-af7d-4814-98f3-a3399f76dd4d",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_e0290752-53f7-4be9-9cc6-d06d4d16fe91"
@@ -14355,6 +15115,7 @@ Response schema mismatch:
         "groupRoleId": "grol_34aa574f-9bd5-44d2-87c2-785c6ce04f15",
         "id": "prod_21e4f8b2-fd2e-4c95-a684-357b197cbb74",
         "imageId": "file_05b3468c-a2bd-4bad-8f82-21b1384062f8",
+        "imageUrl": null,
         "parentListings": [
           "prod_270c8262-4a15-4d23-93bd-4866e4b43974"
         ],
@@ -14369,6 +15130,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -14439,6 +15201,7 @@ Response schema mismatch:
         "displayName": "Beauty Pageant Goose",
         "id": "prod_b691bae3-0120-4f15-bfed-0fc571292940",
         "imageId": "file_7925e93b-d695-472b-8e82-4e979b969df1",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_270c8262-4a15-4d23-93bd-4866e4b43974"
@@ -14453,6 +15216,7 @@ Response schema mismatch:
     ],
     "id": "prod_270c8262-4a15-4d23-93bd-4866e4b43974",
     "imageId": "file_c9d60104-a36c-473a-85a3-3a2bc429cb56",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -14494,6 +15258,7 @@ Response schema mismatch:
         "groupRoleId": "grol_34aa574f-9bd5-44d2-87c2-785c6ce04f15",
         "id": "prod_21e4f8b2-fd2e-4c95-a684-357b197cbb74",
         "imageId": "file_05b3468c-a2bd-4bad-8f82-21b1384062f8",
+        "imageUrl": null,
         "parentListings": [
           "prod_270c8262-4a15-4d23-93bd-4866e4b43974"
         ],
@@ -14508,6 +15273,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -14578,6 +15344,7 @@ Response schema mismatch:
         "displayName": "Beauty Pageant Goose",
         "id": "prod_b691bae3-0120-4f15-bfed-0fc571292940",
         "imageId": "file_7925e93b-d695-472b-8e82-4e979b969df1",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_270c8262-4a15-4d23-93bd-4866e4b43974"
@@ -14622,6 +15389,7 @@ Response schema mismatch:
         "groupRoleId": "grol_b4a004c3-a03b-463c-8ba8-a6dd2f361dde",
         "id": "prod_6b953ec0-095f-41f8-9997-5b78d8f8d49c",
         "imageId": "file_dae21472-1375-4fd9-b7bf-893ddc000b68",
+        "imageUrl": null,
         "parentListings": [
           "prod_903dee21-8524-4a3e-95f8-73b7fcbcad3c"
         ],
@@ -14636,6 +15404,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -14706,6 +15475,7 @@ Response schema mismatch:
         "displayName": "King Goose",
         "id": "prod_8a027235-c374-416f-ac4a-a9f6d9c23ee0",
         "imageId": "file_10acd24f-b527-4898-a740-6b979f60702e",
+        "imageUrl": null,
         "parentListings": [
           "prod_464871c9-4f9b-46af-a143-8ea4263e6092",
           "prod_903dee21-8524-4a3e-95f8-73b7fcbcad3c"
@@ -14720,6 +15490,7 @@ Response schema mismatch:
     ],
     "id": "prod_903dee21-8524-4a3e-95f8-73b7fcbcad3c",
     "imageId": "file_11193d9f-13a6-45aa-ac5c-6f71d83374ab",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -14761,6 +15532,7 @@ Response schema mismatch:
         "groupRoleId": "grol_b4a004c3-a03b-463c-8ba8-a6dd2f361dde",
         "id": "prod_6b953ec0-095f-41f8-9997-5b78d8f8d49c",
         "imageId": "file_dae21472-1375-4fd9-b7bf-893ddc000b68",
+        "imageUrl": null,
         "parentListings": [
           "prod_903dee21-8524-4a3e-95f8-73b7fcbcad3c"
         ],
@@ -14775,6 +15547,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -14845,6 +15618,7 @@ Response schema mismatch:
         "displayName": "King Goose",
         "id": "prod_8a027235-c374-416f-ac4a-a9f6d9c23ee0",
         "imageId": "file_10acd24f-b527-4898-a740-6b979f60702e",
+        "imageUrl": null,
         "parentListings": [
           "prod_464871c9-4f9b-46af-a143-8ea4263e6092",
           "prod_903dee21-8524-4a3e-95f8-73b7fcbcad3c"
@@ -14889,6 +15663,7 @@ Response schema mismatch:
         "groupRoleId": "grol_6584683d-c4a6-4adc-aae5-b0de8bb7c209",
         "id": "prod_786952e3-8844-4321-8b84-47143e753c50",
         "imageId": "file_ea82d231-b538-49f9-ba11-090784c94058",
+        "imageUrl": null,
         "parentListings": [
           "prod_1a1d3a1c-304d-41f3-8077-d891f93cebd6"
         ],
@@ -14903,6 +15678,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -14973,6 +15749,7 @@ Response schema mismatch:
         "displayName": "Horse Goose",
         "id": "prod_33d8a850-9e3c-46a3-8e1e-685f21756b74",
         "imageId": "file_aa156733-af3d-4655-81ad-8030c324f823",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_1a1d3a1c-304d-41f3-8077-d891f93cebd6"
@@ -14987,6 +15764,7 @@ Response schema mismatch:
     ],
     "id": "prod_1a1d3a1c-304d-41f3-8077-d891f93cebd6",
     "imageId": "file_f3762a52-0837-4dfe-8e19-f19cdf326a3c",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -15028,6 +15806,7 @@ Response schema mismatch:
         "groupRoleId": "grol_6584683d-c4a6-4adc-aae5-b0de8bb7c209",
         "id": "prod_786952e3-8844-4321-8b84-47143e753c50",
         "imageId": "file_ea82d231-b538-49f9-ba11-090784c94058",
+        "imageUrl": null,
         "parentListings": [
           "prod_1a1d3a1c-304d-41f3-8077-d891f93cebd6"
         ],
@@ -15042,6 +15821,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -15112,6 +15892,7 @@ Response schema mismatch:
         "displayName": "Horse Goose",
         "id": "prod_33d8a850-9e3c-46a3-8e1e-685f21756b74",
         "imageId": "file_aa156733-af3d-4655-81ad-8030c324f823",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_1a1d3a1c-304d-41f3-8077-d891f93cebd6"
@@ -15156,6 +15937,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0fa2cdb2-7460-4446-8bdb-ca183f65d254",
         "id": "prod_5506e666-77cb-46f7-bf75-8f1e80582fc0",
         "imageId": "file_8b5b663d-a279-4ffe-b2c5-f848aba7cadf",
+        "imageUrl": null,
         "parentListings": [
           "prod_32aeb186-17a5-445d-81e4-f2af026009e8"
         ],
@@ -15170,6 +15952,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -15240,6 +16023,7 @@ Response schema mismatch:
         "displayName": "Disco Goose",
         "id": "prod_c0dde8b1-95d8-477d-8e12-1408c43fa9bd",
         "imageId": "file_e417cdf3-137d-46ea-ade8-b3dad703f6e4",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_32aeb186-17a5-445d-81e4-f2af026009e8"
@@ -15254,6 +16038,7 @@ Response schema mismatch:
     ],
     "id": "prod_32aeb186-17a5-445d-81e4-f2af026009e8",
     "imageId": "file_de4f1894-2b61-4413-9af4-3cfa9af1236d",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -15295,6 +16080,7 @@ Response schema mismatch:
         "groupRoleId": "grol_0fa2cdb2-7460-4446-8bdb-ca183f65d254",
         "id": "prod_5506e666-77cb-46f7-bf75-8f1e80582fc0",
         "imageId": "file_8b5b663d-a279-4ffe-b2c5-f848aba7cadf",
+        "imageUrl": null,
         "parentListings": [
           "prod_32aeb186-17a5-445d-81e4-f2af026009e8"
         ],
@@ -15309,6 +16095,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -15379,6 +16166,7 @@ Response schema mismatch:
         "displayName": "Disco Goose",
         "id": "prod_c0dde8b1-95d8-477d-8e12-1408c43fa9bd",
         "imageId": "file_e417cdf3-137d-46ea-ade8-b3dad703f6e4",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_32aeb186-17a5-445d-81e4-f2af026009e8"
@@ -15423,6 +16211,7 @@ Response schema mismatch:
         "groupRoleId": "grol_7fba13c8-5772-440f-a3a6-09eaaaffcd92",
         "id": "prod_82e74f93-d0f7-4f1f-bf85-d6fe7898fd88",
         "imageId": "file_d310d523-8df8-45b3-afbb-97d8143e1ca9",
+        "imageUrl": null,
         "parentListings": [
           "prod_66f8062f-781b-4751-8058-46c9e2a43871"
         ],
@@ -15437,6 +16226,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -15507,6 +16297,7 @@ Response schema mismatch:
         "displayName": "Dino Goose",
         "id": "prod_ac810a17-6c2c-443b-8a57-c3d69742c7d3",
         "imageId": "file_272539d4-6ffd-4cb6-85fb-3ceee2803afa",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_66f8062f-781b-4751-8058-46c9e2a43871"
@@ -15521,6 +16312,7 @@ Response schema mismatch:
     ],
     "id": "prod_66f8062f-781b-4751-8058-46c9e2a43871",
     "imageId": "file_0c1e0000-d8d2-4740-91b4-6d7f783f709f",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -15562,6 +16354,7 @@ Response schema mismatch:
         "groupRoleId": "grol_7fba13c8-5772-440f-a3a6-09eaaaffcd92",
         "id": "prod_82e74f93-d0f7-4f1f-bf85-d6fe7898fd88",
         "imageId": "file_d310d523-8df8-45b3-afbb-97d8143e1ca9",
+        "imageUrl": null,
         "parentListings": [
           "prod_66f8062f-781b-4751-8058-46c9e2a43871"
         ],
@@ -15576,6 +16369,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -15646,6 +16440,7 @@ Response schema mismatch:
         "displayName": "Dino Goose",
         "id": "prod_ac810a17-6c2c-443b-8a57-c3d69742c7d3",
         "imageId": "file_272539d4-6ffd-4cb6-85fb-3ceee2803afa",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_66f8062f-781b-4751-8058-46c9e2a43871"
@@ -15690,6 +16485,7 @@ Response schema mismatch:
         "groupRoleId": "grol_7b8214d8-0d66-4446-aec2-e8516ee69f89",
         "id": "prod_8c5f192d-3e8b-4df5-ab7f-26657769dfa2",
         "imageId": "file_4f60e534-328c-4103-b09f-fce95f00c56b",
+        "imageUrl": null,
         "parentListings": [
           "prod_d6d283a2-c881-467e-9704-d2bf2013d413"
         ],
@@ -15704,6 +16500,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -15774,6 +16571,7 @@ Response schema mismatch:
         "displayName": "Delivery Guy Goose",
         "id": "prod_e10ee05f-2442-4a01-adcf-fd9a7757b8d6",
         "imageId": "file_5fea771c-d88c-4c43-84d0-17864892b53b",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_d6d283a2-c881-467e-9704-d2bf2013d413"
@@ -15788,6 +16586,7 @@ Response schema mismatch:
     ],
     "id": "prod_d6d283a2-c881-467e-9704-d2bf2013d413",
     "imageId": "file_78ea4fca-5095-46c7-8833-93d9500c8609",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -15829,6 +16628,7 @@ Response schema mismatch:
         "groupRoleId": "grol_7b8214d8-0d66-4446-aec2-e8516ee69f89",
         "id": "prod_8c5f192d-3e8b-4df5-ab7f-26657769dfa2",
         "imageId": "file_4f60e534-328c-4103-b09f-fce95f00c56b",
+        "imageUrl": null,
         "parentListings": [
           "prod_d6d283a2-c881-467e-9704-d2bf2013d413"
         ],
@@ -15843,6 +16643,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -15913,6 +16714,7 @@ Response schema mismatch:
         "displayName": "Delivery Guy Goose",
         "id": "prod_e10ee05f-2442-4a01-adcf-fd9a7757b8d6",
         "imageId": "file_5fea771c-d88c-4c43-84d0-17864892b53b",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_d6d283a2-c881-467e-9704-d2bf2013d413"
@@ -15957,6 +16759,7 @@ Response schema mismatch:
         "groupRoleId": "grol_8b9df93c-a098-4bc5-9093-9e96831f6ca9",
         "id": "prod_774392a8-6234-4f2f-b9ad-8c50748aad6b",
         "imageId": "file_8871ea6e-91aa-4d4c-98a0-a581cc80a188",
+        "imageUrl": null,
         "parentListings": [
           "prod_7926ed73-5163-4100-8aa2-62220a3ca1bc"
         ],
@@ -15971,6 +16774,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -16041,6 +16845,7 @@ Response schema mismatch:
         "displayName": "Party Hat Goose",
         "id": "prod_e966072f-73fd-4e18-abd0-927af11cf4e3",
         "imageId": "file_612585fe-c6f0-4f01-b4db-0f5e999d7289",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_7926ed73-5163-4100-8aa2-62220a3ca1bc"
@@ -16055,6 +16860,7 @@ Response schema mismatch:
     ],
     "id": "prod_7926ed73-5163-4100-8aa2-62220a3ca1bc",
     "imageId": "file_b2357954-57f5-4dbd-8aa0-01ac7015720e",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -16096,6 +16902,7 @@ Response schema mismatch:
         "groupRoleId": "grol_8b9df93c-a098-4bc5-9093-9e96831f6ca9",
         "id": "prod_774392a8-6234-4f2f-b9ad-8c50748aad6b",
         "imageId": "file_8871ea6e-91aa-4d4c-98a0-a581cc80a188",
+        "imageUrl": null,
         "parentListings": [
           "prod_7926ed73-5163-4100-8aa2-62220a3ca1bc"
         ],
@@ -16110,6 +16917,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -16180,6 +16988,7 @@ Response schema mismatch:
         "displayName": "Party Hat Goose",
         "id": "prod_e966072f-73fd-4e18-abd0-927af11cf4e3",
         "imageId": "file_612585fe-c6f0-4f01-b4db-0f5e999d7289",
+        "imageUrl": null,
         "parentListings": [
           "prod_3de3cc27-e0fd-4eef-b2be-08bb3a54960c",
           "prod_7926ed73-5163-4100-8aa2-62220a3ca1bc"
@@ -16224,6 +17033,7 @@ Response schema mismatch:
         "groupRoleId": "grol_8d471df5-2c8e-45eb-b693-89fdd7ef1c7f",
         "id": "prod_d6db45a4-b22b-42ee-923c-429d18a27cab",
         "imageId": "file_baec80b1-efd9-4f89-8adb-afdad20b77f0",
+        "imageUrl": null,
         "parentListings": [
           "prod_59d996f5-2e63-424d-aad9-d351dad0657a"
         ],
@@ -16238,6 +17048,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -16308,6 +17119,7 @@ Response schema mismatch:
         "displayName": "Chef Goose",
         "id": "prod_106b4615-2f3c-428c-9bec-3318d14752fe",
         "imageId": "file_40263402-e560-4ad2-b2e3-3c35e2f1112e",
+        "imageUrl": null,
         "parentListings": [
           "prod_464871c9-4f9b-46af-a143-8ea4263e6092",
           "prod_59d996f5-2e63-424d-aad9-d351dad0657a"
@@ -16322,6 +17134,7 @@ Response schema mismatch:
     ],
     "id": "prod_59d996f5-2e63-424d-aad9-d351dad0657a",
     "imageId": "file_b9ec3c5a-77d5-4129-91a9-78f4abd9c22f",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -16363,6 +17176,7 @@ Response schema mismatch:
         "groupRoleId": "grol_8d471df5-2c8e-45eb-b693-89fdd7ef1c7f",
         "id": "prod_d6db45a4-b22b-42ee-923c-429d18a27cab",
         "imageId": "file_baec80b1-efd9-4f89-8adb-afdad20b77f0",
+        "imageUrl": null,
         "parentListings": [
           "prod_59d996f5-2e63-424d-aad9-d351dad0657a"
         ],
@@ -16377,6 +17191,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -16447,6 +17262,7 @@ Response schema mismatch:
         "displayName": "Chef Goose",
         "id": "prod_106b4615-2f3c-428c-9bec-3318d14752fe",
         "imageId": "file_40263402-e560-4ad2-b2e3-3c35e2f1112e",
+        "imageUrl": null,
         "parentListings": [
           "prod_464871c9-4f9b-46af-a143-8ea4263e6092",
           "prod_59d996f5-2e63-424d-aad9-d351dad0657a"
@@ -16491,6 +17307,7 @@ Response schema mismatch:
         "groupRoleId": "grol_b6aa3a3b-288c-4730-a8f0-3c99ee3456aa",
         "id": "prod_2a0889cb-708e-4476-a042-1f5092c23c18",
         "imageId": "file_bb2ec766-2682-4fa0-9114-9f5522c91576",
+        "imageUrl": null,
         "parentListings": [
           "prod_2da1d2e1-c5fd-4189-a292-ec7e36d8121e"
         ],
@@ -16505,6 +17322,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -16575,6 +17393,7 @@ Response schema mismatch:
         "displayName": "Cat Goose",
         "id": "prod_1867fa37-2073-475c-8355-3a72b9eabf08",
         "imageId": "file_4bb44b34-7316-4aa5-bb3b-50902f89b79a",
+        "imageUrl": null,
         "parentListings": [
           "prod_464871c9-4f9b-46af-a143-8ea4263e6092",
           "prod_2da1d2e1-c5fd-4189-a292-ec7e36d8121e"
@@ -16589,6 +17408,7 @@ Response schema mismatch:
     ],
     "id": "prod_2da1d2e1-c5fd-4189-a292-ec7e36d8121e",
     "imageId": "file_b4cd499a-a1d1-4dd2-b5fc-b208b62bfc7b",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -16630,6 +17450,7 @@ Response schema mismatch:
         "groupRoleId": "grol_b6aa3a3b-288c-4730-a8f0-3c99ee3456aa",
         "id": "prod_2a0889cb-708e-4476-a042-1f5092c23c18",
         "imageId": "file_bb2ec766-2682-4fa0-9114-9f5522c91576",
+        "imageUrl": null,
         "parentListings": [
           "prod_2da1d2e1-c5fd-4189-a292-ec7e36d8121e"
         ],
@@ -16644,6 +17465,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -16714,6 +17536,7 @@ Response schema mismatch:
         "displayName": "Cat Goose",
         "id": "prod_1867fa37-2073-475c-8355-3a72b9eabf08",
         "imageId": "file_4bb44b34-7316-4aa5-bb3b-50902f89b79a",
+        "imageUrl": null,
         "parentListings": [
           "prod_464871c9-4f9b-46af-a143-8ea4263e6092",
           "prod_2da1d2e1-c5fd-4189-a292-ec7e36d8121e"
@@ -16758,6 +17581,7 @@ Response schema mismatch:
         "groupRoleId": "grol_699abefc-3a01-42c7-8473-16973126d9c5",
         "id": "prod_67f1dcfe-fcab-4ddd-848d-85d141c56567",
         "imageId": "file_96392fee-2b33-4ce2-ba4d-84f02576d709",
+        "imageUrl": null,
         "parentListings": [
           "prod_d49ab0f7-3f6f-49ed-a4e4-8156e7db56c4"
         ],
@@ -16772,6 +17596,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -16842,6 +17667,7 @@ Response schema mismatch:
         "displayName": "Cheeseburger Goose",
         "id": "prod_603bd4de-c8aa-4bf3-8a32-fa5d756946d4",
         "imageId": "file_3a6ad343-9fad-485a-8714-aba4bed51e88",
+        "imageUrl": null,
         "parentListings": [
           "prod_464871c9-4f9b-46af-a143-8ea4263e6092",
           "prod_d49ab0f7-3f6f-49ed-a4e4-8156e7db56c4"
@@ -16856,6 +17682,7 @@ Response schema mismatch:
     ],
     "id": "prod_d49ab0f7-3f6f-49ed-a4e4-8156e7db56c4",
     "imageId": "file_edace780-0246-4b4a-8772-34c2a9f29346",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -16897,6 +17724,7 @@ Response schema mismatch:
         "groupRoleId": "grol_699abefc-3a01-42c7-8473-16973126d9c5",
         "id": "prod_67f1dcfe-fcab-4ddd-848d-85d141c56567",
         "imageId": "file_96392fee-2b33-4ce2-ba4d-84f02576d709",
+        "imageUrl": null,
         "parentListings": [
           "prod_d49ab0f7-3f6f-49ed-a4e4-8156e7db56c4"
         ],
@@ -16911,6 +17739,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -16981,6 +17810,7 @@ Response schema mismatch:
         "displayName": "Cheeseburger Goose",
         "id": "prod_603bd4de-c8aa-4bf3-8a32-fa5d756946d4",
         "imageId": "file_3a6ad343-9fad-485a-8714-aba4bed51e88",
+        "imageUrl": null,
         "parentListings": [
           "prod_464871c9-4f9b-46af-a143-8ea4263e6092",
           "prod_d49ab0f7-3f6f-49ed-a4e4-8156e7db56c4"
@@ -17021,6 +17851,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -17040,6 +17871,7 @@ Response schema mismatch:
         "displayName": "Decorations Complete",
         "id": "prod_950db306-aad8-4026-b5a3-2409d0aa21a9",
         "imageId": null,
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_8745681b-e41f-471f-8f01-8da42f539054",
@@ -17062,6 +17894,7 @@ Response schema mismatch:
         "groupRoleId": "grol_1d3f006c-3956-424b-905e-af2bc282aacb",
         "id": "prod_ba9ed49e-155e-4560-968e-0400b23049b8",
         "imageId": "file_b5cac285-2a33-4b6f-91e5-5799ed964fc4",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910"
         ],
@@ -17076,6 +17909,7 @@ Response schema mismatch:
         "displayName": "Wedding Decorations",
         "id": "prod_2f76612c-7358-4b19-9097-2dd0d4e5dd4c",
         "imageId": "file_b5d70c65-46fb-4b14-a0f8-91c050e1ae2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_332409bf-5ecf-4fb2-8e89-a8ee6b4b850c"
@@ -17092,6 +17926,7 @@ Response schema mismatch:
         "displayName": "Birthday Decorations",
         "id": "prod_aac28b54-75d8-4c30-a0a2-da3f5ede0baf",
         "imageId": "file_f24c02dc-bf44-46f3-8149-0ec1d63e47e4",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_0bfca6e0-b470-4ce0-b3aa-ffc1adf38d60"
@@ -17108,6 +17943,7 @@ Response schema mismatch:
         "displayName": "Video Player",
         "id": "prod_1dbb5caf-8ab4-4c78-afec-95ba50bca814",
         "imageId": "file_c8621de0-7693-4821-b338-fbada6e61fc5",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_88fe9d00-1303-4c5f-9cac-39d2262ad05c",
@@ -17126,6 +17962,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -17196,6 +18033,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -17220,6 +18058,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -17244,6 +18083,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -17268,6 +18108,7 @@ Response schema mismatch:
     ],
     "id": "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
     "imageId": "file_a04721c3-f7b2-4943-b70f-dc6c340d5430",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -17315,6 +18156,7 @@ Response schema mismatch:
         "displayName": "Event Tip",
         "id": "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1",
         "imageId": "file_24fca19f-b631-409e-be3b-7ff22504c57b",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9b466c8-0022-4801-ba1d-550caa2facbe",
           "prod_0d0f1929-62a8-4755-8350-1187802aa18e",
@@ -17334,6 +18176,7 @@ Response schema mismatch:
         "displayName": "Decorations Complete",
         "id": "prod_950db306-aad8-4026-b5a3-2409d0aa21a9",
         "imageId": null,
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_8745681b-e41f-471f-8f01-8da42f539054",
@@ -17356,6 +18199,7 @@ Response schema mismatch:
         "groupRoleId": "grol_1d3f006c-3956-424b-905e-af2bc282aacb",
         "id": "prod_ba9ed49e-155e-4560-968e-0400b23049b8",
         "imageId": "file_b5cac285-2a33-4b6f-91e5-5799ed964fc4",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910"
         ],
@@ -17370,6 +18214,7 @@ Response schema mismatch:
         "displayName": "Wedding Decorations",
         "id": "prod_2f76612c-7358-4b19-9097-2dd0d4e5dd4c",
         "imageId": "file_b5d70c65-46fb-4b14-a0f8-91c050e1ae2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_332409bf-5ecf-4fb2-8e89-a8ee6b4b850c"
@@ -17386,6 +18231,7 @@ Response schema mismatch:
         "displayName": "Birthday Decorations",
         "id": "prod_aac28b54-75d8-4c30-a0a2-da3f5ede0baf",
         "imageId": "file_f24c02dc-bf44-46f3-8149-0ec1d63e47e4",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_0bfca6e0-b470-4ce0-b3aa-ffc1adf38d60"
@@ -17402,6 +18248,7 @@ Response schema mismatch:
         "displayName": "Video Player",
         "id": "prod_1dbb5caf-8ab4-4c78-afec-95ba50bca814",
         "imageId": "file_c8621de0-7693-4821-b338-fbada6e61fc5",
+        "imageUrl": null,
         "parentListings": [
           "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
           "prod_88fe9d00-1303-4c5f-9cac-39d2262ad05c",
@@ -17420,6 +18267,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -17490,6 +18338,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -17514,6 +18363,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -17538,6 +18388,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -17592,6 +18443,7 @@ Response schema mismatch:
         "groupRoleId": "grol_9a97c07b-e014-4a6f-a1b0-d53cab6078b5",
         "id": "prod_ac99fd5a-ff5d-445c-9ed2-ae5f320c559a",
         "imageId": "file_4ee06684-9468-4a26-9093-46a9cad252fa",
+        "imageUrl": null,
         "parentListings": [
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5"
         ],
@@ -17606,6 +18458,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -17676,6 +18529,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -17700,6 +18554,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -17724,6 +18579,7 @@ Response schema mismatch:
     ],
     "id": "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
     "imageId": "file_6435489d-c9cc-475b-9f5b-822dcc4d8eb2",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -17769,6 +18625,7 @@ Response schema mismatch:
         "groupRoleId": "grol_9a97c07b-e014-4a6f-a1b0-d53cab6078b5",
         "id": "prod_ac99fd5a-ff5d-445c-9ed2-ae5f320c559a",
         "imageId": "file_4ee06684-9468-4a26-9093-46a9cad252fa",
+        "imageUrl": null,
         "parentListings": [
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5"
         ],
@@ -17783,6 +18640,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -17853,6 +18711,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -17877,6 +18736,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -17927,6 +18787,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -17947,6 +18808,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -17971,6 +18833,7 @@ Response schema mismatch:
         "groupRoleId": "grol_ad331f86-abba-41a9-a119-5cc7c8145598",
         "id": "prod_a7f7b03a-71e0-4203-9e43-aa2f3dc2203f",
         "imageId": "file_965010bf-e59a-4034-8236-3ff18bf8aa32",
+        "imageUrl": null,
         "parentListings": [
           "prod_9c471749-cb8a-4cf4-99c9-aa7db54642ef"
         ],
@@ -17985,6 +18848,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -18055,6 +18919,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -18079,6 +18944,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -18103,6 +18969,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -18127,6 +18994,7 @@ Response schema mismatch:
     ],
     "id": "prod_9c471749-cb8a-4cf4-99c9-aa7db54642ef",
     "imageId": "file_f440700d-0cad-41e4-9dcc-b55092cc45ba",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -18171,6 +19039,7 @@ Response schema mismatch:
         "displayName": "Awesome World Tip",
         "id": "prod_5ce7f610-2f5b-4d9a-a36b-2ef3d05ed47a",
         "imageId": "file_f6cbf654-8a0f-4daf-9b62-28a31ac63fd3",
+        "imageUrl": null,
         "parentListings": [
           "prod_7aa1a220-e5fc-4889-8c5d-f9df87607bec",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -18191,6 +19060,7 @@ Response schema mismatch:
         "displayName": "Stinky World Tip",
         "id": "prod_d5f694fb-c555-4d09-af5e-c59c98fbbd79",
         "imageId": "file_30b12282-86ab-4066-a926-1749b3329c44",
+        "imageUrl": null,
         "parentListings": [
           "prod_5f01aac9-64ef-43f9-bfe8-79e85eaa2da0",
           "prod_b3e63c7c-d578-4496-804f-f792b4740303",
@@ -18215,6 +19085,7 @@ Response schema mismatch:
         "groupRoleId": "grol_ad331f86-abba-41a9-a119-5cc7c8145598",
         "id": "prod_a7f7b03a-71e0-4203-9e43-aa2f3dc2203f",
         "imageId": "file_965010bf-e59a-4034-8236-3ff18bf8aa32",
+        "imageUrl": null,
         "parentListings": [
           "prod_9c471749-cb8a-4cf4-99c9-aa7db54642ef"
         ],
@@ -18229,6 +19100,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -18299,6 +19171,7 @@ Response schema mismatch:
         "displayName": "Black Cat Doors",
         "id": "prod_a6ce09ae-1636-4dc5-86e6-26cf2db220e4",
         "imageId": "file_6ff27d9e-2ce3-445e-b1a0-0c0d48f5db2d",
+        "imageUrl": null,
         "parentListings": [
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
           "prod_ef1b39a1-35d2-45f7-8a0c-7f0709ac8697",
@@ -18323,6 +19196,7 @@ Response schema mismatch:
         "displayName": "Black Cat Movement",
         "id": "prod_aa9cfcd6-5a19-4c1c-9073-6b21c550fd53",
         "imageId": "file_a4b5fb48-8ad2-4be4-b8a4-e58b870e60d1",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -18347,6 +19221,7 @@ Response schema mismatch:
         "displayName": "Silly Mirrors",
         "id": "prod_06f126c3-0767-4f6f-b6e3-3413f28a3d50",
         "imageId": "file_2948d9b7-5258-48cd-9e1f-7a474b23326b",
+        "imageUrl": null,
         "parentListings": [
           "prod_606e451e-61e8-41ed-84dd-7df5c2fe6e0e",
           "prod_04a06277-bb10-4c38-b1e8-7b39626d8a10",
@@ -18401,6 +19276,7 @@ Response schema mismatch:
         "groupRoleId": "grol_86b387e8-8cbd-44fc-bba9-10c27b22c324",
         "id": "prod_dcfe2587-8f5b-4f93-ad5b-61ecd22746d5",
         "imageId": "file_274ae139-c9e0-4c84-87e5-bf585a20a711",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357"
         ],
@@ -18415,6 +19291,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
@@ -18483,6 +19360,7 @@ Response schema mismatch:
     ],
     "id": "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
     "imageId": "file_b0525fc2-1528-46d1-ac91-660f007ecb1b",
+    "imageUrl": null,
     "listingType": "subscription",
     "listingVariants": [
       {
@@ -18523,6 +19401,7 @@ Response schema mismatch:
         "groupRoleId": "grol_86b387e8-8cbd-44fc-bba9-10c27b22c324",
         "id": "prod_dcfe2587-8f5b-4f93-ad5b-61ecd22746d5",
         "imageId": "file_274ae139-c9e0-4c84-87e5-bf585a20a711",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357"
         ],
@@ -18537,6 +19416,7 @@ Response schema mismatch:
         "displayName": "Black Cat Subscriber",
         "id": "prod_c8701344-5395-40ad-850d-63983a764cc6",
         "imageId": "file_abf64a9a-878d-493e-9771-57c0d68aefd8",
+        "imageUrl": null,
         "parentListings": [
           "prod_4a76a053-b49a-4c0f-a834-0ed1edde0357",
           "prod_f990b9f6-b457-41fa-8ca6-b40b39677ca5",
