@@ -37,8 +37,8 @@ Response schema mismatch:
     "boneCount": 13,
     "bounds": [
       0.2818719,
-      0.36067107,
-      0.29582077
+      0.360671,
+      0.2958207
     ],
     "cameraCount": 0,
     "clothCount": 0,
@@ -80,9 +80,9 @@ Response schema mismatch:
     "trailRendererCount": 0,
     "writeDefaultsUsed": true
   },
-  "created_at": "2025-08-09T02:07:15.854Z",
-  "encryptionKey": "TEnRsEgBdnK9h/fVhqx9UmZ7ORzSumjUq5XPbvDkjZQ=",
-  "fileSize": 82123,
+  "created_at": "2025-08-30T02:07:53.698Z",
+  "encryptionKey": "nEY0JXO8hoilU5iZRBxpQLGw8DOsuScj79KL3Dio6t8=",
+  "fileSize": 82128,
   "performanceRating": "Excellent",
   "success": true,
   "uncompressedSize": 388972

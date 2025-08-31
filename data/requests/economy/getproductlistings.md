@@ -4094,7 +4094,7 @@ Response schema mismatch:
     "active": true,
     "buyerRefundable": true,
     "description": "Gold chain and blue hat costume for the gooseǃ",
-    "displayName": "Goose Chain Costime",
+    "displayName": "Goose Chain Costume",
     "duration": 1,
     "durationType": "months",
     "groupIcon": "file_c899745b-b846-43f6-afd6-945931b66be8",
