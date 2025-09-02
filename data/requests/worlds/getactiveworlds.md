@@ -53,6 +53,12 @@ Response schema mismatch:
 * Unexpected property at ``#/3unityPackages/7/created_at``,
 * Unexpected property at ``#/4unityPackages/0/created_at``,
 * Unexpected property at ``#/4unityPackages/1/created_at``,
+* Unexpected property at ``#/4unityPackages/2/created_at``,
+* Unexpected property at ``#/4unityPackages/3/created_at``,
+* Unexpected property at ``#/4unityPackages/4/created_at``,
+* Unexpected property at ``#/4unityPackages/5/created_at``,
+* Unexpected property at ``#/4unityPackages/6/created_at``,
+* Unexpected property at ``#/4unityPackages/7/created_at``,
 * Unexpected property at ``#/5unityPackages/0/created_at``,
 * Unexpected property at ``#/5unityPackages/1/created_at``,
 * Unexpected property at ``#/5unityPackages/2/created_at``,
@@ -82,14 +88,8 @@ Response schema mismatch:
 * Unexpected property at ``#/8unityPackages/4/created_at``,
 * Unexpected property at ``#/8unityPackages/5/created_at``,
 * Unexpected property at ``#/8unityPackages/6/created_at``,
-* Unexpected property at ``#/8unityPackages/7/created_at``,
 * Unexpected property at ``#/9unityPackages/0/created_at``,
-* Unexpected property at ``#/9unityPackages/1/created_at``,
-* Unexpected property at ``#/9unityPackages/2/created_at``,
-* Unexpected property at ``#/9unityPackages/3/created_at``,
-* Unexpected property at ``#/9unityPackages/4/created_at``,
-* Unexpected property at ``#/9unityPackages/5/created_at``,
-* Unexpected property at ``#/9unityPackages/6/created_at``.
+* Unexpected property at ``#/9unityPackages/1/created_at``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/active`
 
