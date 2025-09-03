@@ -2,11 +2,6 @@
 
 ## Issues
 Response schema mismatch:
-* Missing property at ``#/archived``,
-* Missing property at ``#/created``,
-* Missing property at ``#/instant``,
-* Missing property at ``#/permanent``,
-* Missing property at ``#/updated``,
 * Invalid type at ``#/products/0``,
 * Invalid type at ``#/products/1``,
 * Invalid type at ``#/products/2``,
@@ -16,10 +11,7 @@ Response schema mismatch:
 * Invalid type at ``#/products/6``,
 * Invalid type at ``#/products/7``,
 * Invalid type at ``#/products/8``,
-* Invalid type at ``#/products/9``,
-* Unexpected property at ``#/hasAvatar``,
-* Unexpected property at ``#/hasUdon``,
-* Unexpected property at ``#/imageUrl``.
+* Invalid type at ``#/products/9``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/listing/prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910`
 

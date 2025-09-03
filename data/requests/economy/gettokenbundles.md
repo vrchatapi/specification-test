@@ -1,15 +1,5 @@
 # getTokenBundles
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/0/appleProductId``,
-* Unexpected property at ``#/1/appleProductId``,
-* Unexpected property at ``#/2/appleProductId``,
-* Unexpected property at ``#/3/appleProductId``,
-* Unexpected property at ``#/4/appleProductId``,
-* Unexpected property at ``#/5/appleProductId``,
-* Unexpected property at ``#/6/appleProductId``,
-* Unexpected property at ``#/7/appleProductId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/tokenBundles`
 

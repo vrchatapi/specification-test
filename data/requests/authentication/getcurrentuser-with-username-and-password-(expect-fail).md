@@ -10,6 +10,7 @@ Response schema mismatch:
 * Missing property at ``#/profilePicOverride``,
 * Missing property at ``#/profilePicOverrideThumbnail``,
 * Missing property at ``#/pronouns``,
+* Missing property at ``#/pronounsHistory``,
 * Missing property at ``#/statusDescription``,
 * Missing property at ``#/pastDisplayNames``,
 * Missing property at ``#/hasEmail``,

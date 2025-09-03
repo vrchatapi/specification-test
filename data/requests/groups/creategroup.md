@@ -1,8 +1,5 @@
 # createGroup
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/myMember/isSubscribedToEventAnnouncements``.
 ## Request
 `POST https://api.vrchat.cloud/api/1/groups`
 

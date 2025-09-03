@@ -2,8 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Invalid type at ``#/agreement``,
-* Invalid type at ``#/error``.
+* Invalid type at ``#/agreement``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/Steam/transactions/txn_e163ccc8-56eb-4320-8140-7bbcb1815b44`
 

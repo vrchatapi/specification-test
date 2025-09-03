@@ -1,8 +1,5 @@
 # updateGroup
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/myMember/isSubscribedToEventAnnouncements``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/groups/<unstable>`
 

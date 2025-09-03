@@ -2,16 +2,6 @@
 
 ## [Authentication](/data/requests/authentication)
 
-#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/pronounsHistory``.
-
-#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/pronounsHistory``.
-
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -19,7 +9,7 @@ Response schema mismatch:
 * Missing property at ``#/displayName``,
 * Missing property at ``#/userIcon``,
 
-*44 issues truncated.*
+*45 issues truncated.*
 #### [getCurrentUser while missing credentials](/data/requests/authentication/getcurrentuser-while-missing-credentials.md)
 
 
@@ -30,6 +20,9 @@ Response schema mismatch:
 
 
 #### [verifyAuthToken](/data/requests/authentication/verifyauthtoken.md)
+
+
+#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 
 #### [checkUserExists with zero parameters](/data/requests/authentication/checkuserexists-with-zero-parameters.md)
@@ -45,6 +38,9 @@ Response schema mismatch:
 
 
 #### [logout logout](/data/requests/authentication/logout-logout.md)
+
+
+#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
 
 
 
@@ -79,22 +75,12 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0unityPackages/0/created_at``,
-* Unexpected property at ``#/0unityPackages/1/created_at``,
-* Unexpected property at ``#/0unityPackages/2/created_at``,
-
-*85 issues truncated.*
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0unityPackages/0/created_at``,
-* Unexpected property at ``#/0unityPackages/1/created_at``,
-* Unexpected property at ``#/0unityPackages/2/created_at``,
 
-*93 issues truncated.*
+#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+
+
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -127,43 +113,28 @@ Response schema mismatch:
 
 ## [Avatars](/data/requests/avatars)
 
-#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/pronounsHistory``.
-
-#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/pronounsHistory``.
-
-#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/pronounsHistory``.
-
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/listingDate``.
-
-#### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/listingDate``,
-* Unexpected property at ``#/1/listingDate``,
-* Unexpected property at ``#/2/listingDate``,
-
-*7 issues truncated.*
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/listingDate``.
 
 #### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
 
 
+#### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
+
+
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+
+
+#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
+
+
+#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
+
+
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
+
+
+#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
 
 
 #### [getFavoritedAvatars with zero parameters](/data/requests/avatars/getfavoritedavatars-with-zero-parameters.md)
@@ -207,44 +178,34 @@ Response schema mismatch:
 
 ## [Economy](/data/requests/economy)
 
-#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/appleProductId``,
-* Unexpected property at ``#/1/appleProductId``,
-* Unexpected property at ``#/2/appleProductId``,
-
-*5 issues truncated.*
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
-* Missing property at ``#/0/archived``,
-* Missing property at ``#/0/created``,
-* Missing property at ``#/0/groupIcon``,
+* Missing property at ``#/0hydratedProducts/0/archived``,
+* Missing property at ``#/0hydratedProducts/0/created``,
+* Missing property at ``#/0hydratedProducts/0/updated``,
 
-*3992 issues truncated.*
+*3369 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
-* Missing property at ``#/archived``,
-* Missing property at ``#/created``,
-* Missing property at ``#/instant``,
+* Invalid type at ``#/products/0``,
+* Invalid type at ``#/products/1``,
+* Invalid type at ``#/products/2``,
 
-*15 issues truncated.*
+*7 issues truncated.*
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
-* Invalid type at ``#/agreement``,
-* Invalid type at ``#/error``.
+* Invalid type at ``#/agreement``.
 
 #### [getSteamTransactions](/data/requests/economy/getsteamtransactions.md)
 
 Response schema mismatch:
 * Invalid type at ``#/0/agreement``,
-* Invalid type at ``#/0/error``,
 * Invalid type at ``#/1/agreement``,
+* Invalid type at ``#/2/agreement``.
 
-*3 issues truncated.*
 #### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
 
 
@@ -252,6 +213,9 @@ Response schema mismatch:
 
 
 #### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
+
+
+#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
 
 
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
@@ -295,21 +259,6 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/avatarStats/constraintDepth``.
-
-#### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/avatarStats/constraintDepth``.
-
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/avatarStats/constraintDepth``.
-
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -332,6 +281,15 @@ Response schema mismatch:
 
 
 #### [deleteFile](/data/requests/files/deletefile.md)
+
+
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+
+#### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
+
+
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -360,30 +318,22 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
-#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
+#### [createGroup](/data/requests/groups/creategroup.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/isSubscribedToEventAnnouncements``.
-
-#### [updateGroup](/data/requests/groups/updategroup.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/myMember/isSubscribedToEventAnnouncements``.
 
 #### [getGroup](/data/requests/groups/getgroup.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/myMember/isSubscribedToEventAnnouncements``.
-
-#### [createGroup](/data/requests/groups/creategroup.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/myMember/isSubscribedToEventAnnouncements``.
 
 #### [getGroupMembers](/data/requests/groups/getgroupmembers.md)
 
 
+#### [updateGroup](/data/requests/groups/updategroup.md)
+
+
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
+
+
+#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 
 #### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
@@ -476,7 +426,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*35 issues truncated.*
+*29 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
