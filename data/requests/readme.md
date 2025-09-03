@@ -465,8 +465,8 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
+* Unexpected property at ``#/0/requireClientTags``,
 
 *36 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
@@ -476,7 +476,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*32 issues truncated.*
+*35 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
