@@ -2,17 +2,17 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/1data/max``,
 * Unexpected property at ``#/2data/max``,
 * Unexpected property at ``#/3data/max``,
 * Unexpected property at ``#/4data/max``,
 * Unexpected property at ``#/5data/max``,
-* Unexpected property at ``#/8data/max``,
-* Unexpected property at ``#/12data/maxFavoritesPerGroup``,
-* Unexpected property at ``#/12data/maxFavoriteGroups``,
-* Unexpected property at ``#/13data/tags``,
-* Unexpected property at ``#/13data/badges``,
-* Unexpected property at ``#/19data/max``.
+* Unexpected property at ``#/6data/max``,
+* Unexpected property at ``#/9data/max``,
+* Unexpected property at ``#/13data/maxFavoritesPerGroup``,
+* Unexpected property at ``#/13data/maxFavoriteGroups``,
+* Unexpected property at ``#/14data/tags``,
+* Unexpected property at ``#/14data/badges``,
+* Unexpected property at ``#/20data/max``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/permissions`
 
@@ -40,6 +40,16 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "id": "prms_54d62dfd-b151-42b1-b528-c5800d54f6b1",
+    "ownerId": "usr_ff2bbd81-6863-434a-8c15-9a6f9607e222",
+    "ownerDisplayName": "Server_Stuff",
+    "name": "permission-instance-naming",
+    "displayName": "",
+    "description": "allows users to name instances",
+    "type": "system",
+    "data": {}
+  },
   {
     "id": "prms_4cd435c5-f91d-4916-8195-3c2c7e2ae540",
     "ownerId": "usr_f717a1d7-3329-4def-8f51-b0c82f72d4d0",

@@ -126,6 +126,12 @@
       "forType": "permission",
       "forName": "permission-age-verification",
       "forAction": "have"
+    },
+    {
+      "forId": "prms_54d62dfd-b151-42b1-b528-c5800d54f6b1",
+      "forType": "permission",
+      "forName": "permission-instance-naming",
+      "forAction": "have"
     }
   ]
 }

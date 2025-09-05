@@ -259,6 +259,22 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
+
+Response schema mismatch:
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
+
+*2 issues truncated.*
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+Response schema mismatch:
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
+
+*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -283,13 +299,7 @@ Response schema mismatch:
 #### [deleteFile](/data/requests/files/deletefile.md)
 
 
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
-
-
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -365,9 +375,9 @@ Response schema mismatch:
 #### [getAssignedPermissions](/data/requests/permissions/getassignedpermissions.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/1data/max``,
 * Unexpected property at ``#/2data/max``,
 * Unexpected property at ``#/3data/max``,
+* Unexpected property at ``#/4data/max``,
 
 *8 issues truncated.*
 #### [getPermission](/data/requests/permissions/getpermission.md)
@@ -426,7 +436,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*29 issues truncated.*
+*31 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
