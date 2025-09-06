@@ -259,22 +259,6 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -299,7 +283,13 @@ Response schema mismatch:
 #### [deleteFile](/data/requests/files/deletefile.md)
 
 
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
+
+
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -425,8 +415,8 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
 *36 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
@@ -436,7 +426,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*31 issues truncated.*
+*33 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

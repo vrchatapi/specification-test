@@ -3,10 +3,10 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Invalid type at ``#/1/startDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
@@ -69,32 +69,6 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-08-21T22:48:41.133Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_30f0426b-9962-47c1-ba5b-f24cd51b4d62.png",
-      "onPressed": {
-        "command": "OpenWorldsMenu",
-        "parameters": [
-          "ips_f3380ce2-5a39-40f7-a886-3ea9d2da4ee3"
-        ]
-      }
-    },
-    "endDate": "2025-09-07T07:00:00.000Z",
-    "hash": "ips_venice-immersive-worlds-84ee8371b16c",
-    "id": "ips_venice-immersive-worlds-84ee8371b16c",
-    "isEnabled": true,
-    "priority": 400,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-08-27T07:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-09-02T17:39:49.949Z"
-  },
-  {
     "createdAt": "2025-08-22T20:46:34.231Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4f44ba4a-55a9-4864-9514-f9f7cbf01dda.png",
@@ -109,7 +83,7 @@ Response schema mismatch:
     "hash": "ips_trace-drone-aug-content-27d50f48681f",
     "id": "ips_trace-drone-aug-content-27d50f48681f",
     "isEnabled": true,
-    "priority": 450,
+    "priority": 425,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -118,7 +92,33 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-09-02T17:40:31.468Z"
+    "updatedAt": "2025-09-05T19:40:20.871Z"
+  },
+  {
+    "createdAt": "2025-08-21T22:48:41.133Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_30f0426b-9962-47c1-ba5b-f24cd51b4d62.png",
+      "onPressed": {
+        "command": "OpenWorldsMenu",
+        "parameters": [
+          "ips_f3380ce2-5a39-40f7-a886-3ea9d2da4ee3"
+        ]
+      }
+    },
+    "endDate": "2025-09-07T07:00:00.000Z",
+    "hash": "ips_venice-immersive-worlds-84ee8371b16c",
+    "id": "ips_venice-immersive-worlds-84ee8371b16c",
+    "isEnabled": true,
+    "priority": 450,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2025-08-27T07:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-09-05T19:40:45.178Z"
   },
   {
     "createdAt": "2025-07-14T21:51:37.569Z",
