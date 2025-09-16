@@ -410,7 +410,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1317 issues truncated.*
+*1338 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -418,7 +418,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*36 issues truncated.*
+*43 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -426,7 +426,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*28 issues truncated.*
+*35 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

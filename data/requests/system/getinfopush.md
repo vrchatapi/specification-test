@@ -6,23 +6,20 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Invalid type at ``#/1/startDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
-* Unexpected property at ``#/2/experiment``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Invalid type at ``#/3/startDate``,
-* Invalid type at ``#/3/endDate``,
+* Unexpected property at ``#/3/experiment``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/startDate``,
 * Invalid type at ``#/4/endDate``,
+* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
@@ -36,11 +33,21 @@ Response schema mismatch:
 * Unexpected property at ``#/6/regions``,
 * Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
+* Invalid type at ``#/7/startDate``,
+* Invalid type at ``#/7/endDate``,
+* Unexpected property at ``#/7/regions``,
+* Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
 * Invalid type at ``#/8/startDate``,
 * Invalid type at ``#/8/endDate``,
 * Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``.
+* Unexpected property at ``#/8/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
+* Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
+* Invalid type at ``#/10/startDate``,
+* Invalid type at ``#/10/endDate``,
+* Unexpected property at ``#/10/regions``,
+* Unexpected property at ``#/10/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -68,6 +75,32 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2025-09-15T19:42:07.325Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_e825859d-749d-4a00-bea0-5dd7b1566b7f.png",
+      "onPressed": {
+        "command": "OpenInventoryMenu",
+        "parameters": [
+          "invd_04d98edd-79db-4c4e-a156-7e07510aee10"
+        ]
+      }
+    },
+    "endDate": "2025-10-31T20:00:00.000Z",
+    "hash": "ips_septcontentdropcampfire-6ebef4ec1f93",
+    "id": "ips_septcontentdropcampfire-6ebef4ec1f93",
+    "isEnabled": true,
+    "priority": 390,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2025-09-15T20:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-09-15T19:42:07.325Z"
+  },
   {
     "createdAt": "2025-09-10T13:48:28.877Z",
     "data": {
@@ -119,6 +152,36 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2025-09-05T19:40:20.871Z"
+  },
+  {
+    "createdAt": "2025-08-26T19:58:32.794Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_fb23b36c-3946-446e-9232-d1862a203377.png",
+      "onPressed": {
+        "command": "OpenWorldDetails",
+        "parameters": [
+          "wrld_69c41e95-1539-426a-a321-34412e0b021e"
+        ]
+      }
+    },
+    "endDate": "2025-09-22T04:00:00.000Z",
+    "experiment": {
+      "key": "",
+      "variant": ""
+    },
+    "hash": "ips_gigas2025-featurea-9c6c-708a4f12c000",
+    "id": "ips_gigas2025-featurea-9c6c-708a4f12c000",
+    "isEnabled": true,
+    "priority": 448,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2025-09-01T04:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-09-15T23:06:01.191Z"
   },
   {
     "createdAt": "2025-07-14T21:51:37.569Z",
