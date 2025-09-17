@@ -29,7 +29,7 @@
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "badges": [
     {
       "badgeDescription": "Granted to members of the official VRChat Development Team",
@@ -37,13 +37,6 @@
       "badgeImageUrl": "https://assets.vrchat.com/badges/69/bdgai_ad914c8b-8b9c-42c8-957a-40fde888009a.png",
       "badgeName": "VRChat Developer",
       "showcased": true
-    },
-    {
-      "badgeDescription": "Awarded for subscribing to VRC+ (4 Years)",
-      "badgeId": "bdg_13c0e040-e6e6-4b7a-8187-93872fe81d89",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/89/bdgai_0c7585f3-cb4b-40a4-ad7c-cb6da4d50ea6.png",
-      "badgeName": "VRC+ Subscriber (4 Years)",
-      "showcased": false
     },
     {
       "badgeDescription": "Joined VRChat 8 years ago",
@@ -64,6 +57,13 @@
       "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
       "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_583f6b13-91ab-4e1b-974e-ab91600b06cb.png",
       "badgeName": "Supporter",
+      "showcased": false
+    },
+    {
+      "badgeDescription": "Awarded for subscribing to VRC+ (5 Years)",
+      "badgeId": "bdg_8b44605b-d7dd-4254-8d22-ba2f84ed104e",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/4e/bdgai_4d00e67a-eb62-40df-8f34-9f580ae8725b.png",
+      "badgeName": "VRC+ Subscriber (5 Years)",
       "showcased": false
     },
     {
@@ -114,7 +114,7 @@
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "android",
+  "last_platform": "standalonewindows",
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
