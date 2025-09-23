@@ -13,13 +13,14 @@ Response schema mismatch:
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
+* Invalid type at ``#/3/startDate``,
+* Invalid type at ``#/3/endDate``,
 * Unexpected property at ``#/3/experiment``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/startDate``,
 * Invalid type at ``#/4/endDate``,
-* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
@@ -38,16 +39,11 @@ Response schema mismatch:
 * Unexpected property at ``#/7/regions``,
 * Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
-* Invalid type at ``#/8/startDate``,
-* Invalid type at ``#/8/endDate``,
-* Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
-* Invalid type at ``#/10/startDate``,
-* Invalid type at ``#/10/endDate``,
-* Unexpected property at ``#/10/regions``,
-* Unexpected property at ``#/10/requireClientTags``.
+* Invalid type at ``#/9/startDate``,
+* Invalid type at ``#/9/endDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -76,6 +72,32 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2025-09-18T20:16:59.268Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_ff6df628-6b35-4d95-a409-1b23b212b21f.png",
+      "onPressed": {
+        "command": "OpenWorldsMenu",
+        "parameters": [
+          "ips_5dd97684-2932-4ead-84dd-51c08c5fc9b9"
+        ]
+      }
+    },
+    "endDate": "2025-09-28T14:59:00.000Z",
+    "hash": "ips_sanrio-vfes-2025-summer-a184a2289bed",
+    "id": "ips_sanrio-vfes-2025-summer-a184a2289bed",
+    "isEnabled": true,
+    "priority": 358,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2025-09-19T09:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-09-22T13:37:58.283Z"
+  },
+  {
     "createdAt": "2025-09-15T19:42:07.325Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_e825859d-749d-4a00-bea0-5dd7b1566b7f.png",
@@ -102,32 +124,6 @@ Response schema mismatch:
     "updatedAt": "2025-09-15T19:42:07.325Z"
   },
   {
-    "createdAt": "2025-09-18T20:16:59.268Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_ff6df628-6b35-4d95-a409-1b23b212b21f.png",
-      "onPressed": {
-        "command": "OpenWorldsMenu",
-        "parameters": [
-          "ips_5dd97684-2932-4ead-84dd-51c08c5fc9b9"
-        ]
-      }
-    },
-    "endDate": "2025-09-28T14:59:00.000Z",
-    "hash": "ips_sanrio-vfes-2025-summer-a184a2289bed",
-    "id": "ips_sanrio-vfes-2025-summer-a184a2289bed",
-    "isEnabled": true,
-    "priority": 395,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-09-19T09:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-09-19T09:25:21.224Z"
-  },
-  {
     "createdAt": "2025-08-22T20:46:34.231Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4f44ba4a-55a9-4864-9514-f9f7cbf01dda.png",
@@ -152,36 +148,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2025-09-05T19:40:20.871Z"
-  },
-  {
-    "createdAt": "2025-08-26T19:58:32.794Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_fb23b36c-3946-446e-9232-d1862a203377.png",
-      "onPressed": {
-        "command": "OpenWorldDetails",
-        "parameters": [
-          "wrld_69c41e95-1539-426a-a321-34412e0b021e"
-        ]
-      }
-    },
-    "endDate": "2025-09-22T04:00:00.000Z",
-    "experiment": {
-      "key": "",
-      "variant": ""
-    },
-    "hash": "ips_gigas2025-featurea-9c6c-708a4f12c000",
-    "id": "ips_gigas2025-featurea-9c6c-708a4f12c000",
-    "isEnabled": true,
-    "priority": 448,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-09-01T04:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-09-15T23:06:01.191Z"
   },
   {
     "createdAt": "2025-07-14T21:51:37.569Z",
