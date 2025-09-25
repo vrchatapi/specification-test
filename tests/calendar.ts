@@ -142,3 +142,11 @@ test.serial(testOperation, "deleteGroupCalendarEvent", () => ({
 	statusCode: 200,
 	unstable: unstableCalendarKeys
 }));
+
+test.serial(testOperation, "searchCalendarEvents", {
+    parameters: {
+        calendarSearchTerm: "game"
+    },
+	statusCode: 200,
+	unstable: unstableCalendarKeys
+});
