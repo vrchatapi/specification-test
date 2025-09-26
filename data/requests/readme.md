@@ -73,44 +73,6 @@ Response schema mismatch:
 
 
 
-## [Worlds](/data/requests/worlds)
-
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-
-#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
-
-
-#### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
-
-
-#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
-
-
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
-
-
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
-
-
-#### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
-
-
-#### [getWorldPublishStatus by id](/data/requests/worlds/getworldpublishstatus-by-id.md)
-
-
-
-
-## [Instances](/data/requests/instances)
-
-#### [getInstance](/data/requests/instances/getinstance.md)
-
-
-#### [getShortName](/data/requests/instances/getshortname.md)
-
-
-
-
 ## [Avatars](/data/requests/avatars)
 
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
@@ -353,6 +315,20 @@ Response schema mismatch:
 
 
 
+## [Inventory](/data/requests/inventory)
+
+#### [getInventoryTemplate](/data/requests/inventory/getinventorytemplate.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/defaultAttributes``,
+* Unexpected property at ``#/equipSlots``,
+* Unexpected property at ``#/validateUserAttributes``.
+
+#### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
+
+
+
+
 ## [Notifications](/data/requests/notifications)
 
 #### [getNotifications](/data/requests/notifications/getnotifications.md)
@@ -426,7 +402,7 @@ Response schema mismatch:
 * Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
 * Unexpected property at ``#/reportCategories/image/groupOrder``,
 
-*34 issues truncated.*
+*29 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

@@ -12,6 +12,10 @@ Get a list of a featured calendar events for the month in ?date
 Get a list of a followed calendar events for the month in ?date
 
 * [getFollowedCalendarEvents](./getfollowedcalendarevents.md)
+## Search for calendar events
+Get a list of calendar events by search terms
+
+> Missing coverage.
 ## List a group's calendar events
 Get a list of a group's calendar events
 
