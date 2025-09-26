@@ -50,7 +50,7 @@ test(
 	}
 );
 
-test(
+test.serial(
 	"by id",
 	testOperation,
 	"getWorld",
@@ -68,6 +68,23 @@ test(
 			"Should have the correct world id"
 		);
 		state.set("blackcat-world", t.context.body);
+	}
+);
+
+test.serial(
+	"first listed instance",
+	testOperation,
+	"getWorldInstance",
+	() -> ({
+		parameters: {
+			worldId: blackCatWorldId,
+			instanceId: state.get("blackcat-world").instances[0][0]
+		},
+		statusCode: 200,
+		unstable: true
+	}),
+	(t) => {
+		state.set("blackcat-first-instance", t.context.body);
 	}
 );
 
@@ -111,4 +128,3 @@ test.todo("Delete World");
 test.todo("Get World Publish Status");
 test.todo("Publish World");
 test.todo("Unpublish World");
-test.todo("Get World Instance");
