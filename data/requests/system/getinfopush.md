@@ -10,12 +10,13 @@ Response schema mismatch:
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
+* Unexpected property at ``#/2/experiment``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Invalid type at ``#/3/startDate``,
 * Invalid type at ``#/3/endDate``,
-* Unexpected property at ``#/3/experiment``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
@@ -34,16 +35,11 @@ Response schema mismatch:
 * Unexpected property at ``#/6/regions``,
 * Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
-* Invalid type at ``#/7/startDate``,
-* Invalid type at ``#/7/endDate``,
-* Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
-* Invalid type at ``#/9/startDate``,
-* Invalid type at ``#/9/endDate``,
-* Unexpected property at ``#/9/regions``,
-* Unexpected property at ``#/9/requireClientTags``.
+* Invalid type at ``#/8/startDate``,
+* Invalid type at ``#/8/endDate``,
+* Unexpected property at ``#/8/regions``,
+* Unexpected property at ``#/8/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -122,32 +118,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2025-09-15T19:42:07.325Z"
-  },
-  {
-    "createdAt": "2025-08-22T20:46:34.231Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4f44ba4a-55a9-4864-9514-f9f7cbf01dda.png",
-      "onPressed": {
-        "command": "OpenInventoryMenu",
-        "parameters": [
-          "invt_9a4b6ffe-8429-4807-8e57-8788905bf86c"
-        ]
-      }
-    },
-    "endDate": "2025-09-25T19:00:00.000Z",
-    "hash": "ips_trace-drone-aug-content-27d50f48681f",
-    "id": "ips_trace-drone-aug-content-27d50f48681f",
-    "isEnabled": true,
-    "priority": 425,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-09-05T19:40:20.871Z"
   },
   {
     "createdAt": "2025-07-14T21:51:37.569Z",
