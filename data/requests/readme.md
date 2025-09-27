@@ -399,10 +399,10 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Unexpected property at ``#/events/useDirectPlayerSerialization``,
-* Unexpected property at ``#/reportCategories/groupstore/groupOrder``,
-* Unexpected property at ``#/reportCategories/image/groupOrder``,
+* Missing property at ``#/reportCategories/environment``,
+* Missing property at ``#/reportCategories/warnings``,
 
-*29 issues truncated.*
+*76 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
