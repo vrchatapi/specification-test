@@ -1,3 +1,4 @@
+import { state } from "./_cache.js";
 import { failUnauthenticated, test } from "./_utilities.js";
 
 test.before(failUnauthenticated);

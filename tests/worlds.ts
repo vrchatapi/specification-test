@@ -75,7 +75,7 @@ test.serial(
 	"first listed instance",
 	testOperation,
 	"getWorldInstance",
-	() -> ({
+	() => ({
 		parameters: {
 			worldId: blackCatWorldId,
 			instanceId: state.get("blackcat-world").instances[0][0]

@@ -6,7 +6,9 @@ test.before(failUnauthenticated);
 const currentUserId = state.get("current-user").id;
 const blackCatWorld = state.get("blackcat-world");
 const blackCatWorldId = blackCatWorld.id;
-const blackCatFirstInstanceId = blackCatWorld.instances[0][0];
+const blackCatFirstInstance = blackCatWorld.instances[0][0];
+const blackCatFirstInstanceId = blackCatFirstInstance.instanceId;
+const customInstanceName = "Test Instance " + blackCatFirstInstance.secureName;
 unstableValues.add(blackCatFirstInstanceId);
 
 test(testOperation, "getInstance", {

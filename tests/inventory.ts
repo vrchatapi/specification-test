@@ -19,7 +19,7 @@ test.serial(
 		statusCode: 200,
 		unstable: false
 	},
-	() => {
+	(t) => {
 		const { body } = t.context;
 		
 		t.is(
@@ -69,13 +69,13 @@ test(
 test(
 	testOperation,
 	"spawnInventoryItem",
-	() => ({
+	{
 		parameters: {
 			inventorySpawnItemId: "default_money"
 		},
 		statusCode: 200,
 		unstable: [ "token", "version" ]
-	})
+	}
 );
 
 test.todo("Update Inventory Item");
