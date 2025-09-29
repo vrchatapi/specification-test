@@ -78,5 +78,7 @@ test(
 	}
 );
 
+test.todo("Share Inventory Item by Pedestal");
+test.todo("Share Inventory Item Direct");
 test.todo("Update Inventory Item");
 test.todo("Consume Inventory Item");
