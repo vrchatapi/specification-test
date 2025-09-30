@@ -66,7 +66,7 @@ test(
 	{
 		requestBody: {
 			worldId: blackCatWorldId,
-			type: "invite",
+			type: "friends",
 			region: "use",
 			ownerId: currentUserId,
 			canRequestInvite: true,
