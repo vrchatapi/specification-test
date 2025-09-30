@@ -1,12 +1,7 @@
-# getInstance
+# getWorldInstance first listed instance
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/instancePersistenceEnabled``,
-* Invalid type at ``#/gameServerVersion``,
-* Unexpected property at ``#/creatorId``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:undefined`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/84864~group(grp_b2d7591b-3431-403d-af84-fad79fea9f0e)~groupAccessType(public)~ageGate~region(us)`
 
 | Header | Value |
 | ------ | ----- |

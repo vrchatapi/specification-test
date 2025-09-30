@@ -73,6 +73,59 @@ Response schema mismatch:
 
 
 
+## [Worlds](/data/requests/worlds)
+
+#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+
+
+#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
+
+
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
+
+
+#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+
+
+#### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
+
+
+#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
+
+
+#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
+
+
+#### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
+
+
+#### [getWorldPublishStatus by id](/data/requests/worlds/getworldpublishstatus-by-id.md)
+
+
+
+
+## [Instances](/data/requests/instances)
+
+#### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
+
+Response schema mismatch:
+* Missing property at ``#/active``,
+* Missing property at ``#/canRequestInvite``,
+* Missing property at ``#/capacity``,
+
+*26 issues truncated.*
+#### [getInstance](/data/requests/instances/getinstance.md)
+
+Response schema mismatch:
+* Missing property at ``#/instancePersistenceEnabled``,
+* Invalid type at ``#/gameServerVersion``,
+* Unexpected property at ``#/creatorId``.
+
+#### [getShortName](/data/requests/instances/getshortname.md)
+
+
+
+
 ## [Avatars](/data/requests/avatars)
 
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
@@ -402,7 +455,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*71 issues truncated.*
+*75 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
