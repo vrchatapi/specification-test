@@ -117,8 +117,6 @@ Response schema mismatch:
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
-* Missing property at ``#/instancePersistenceEnabled``,
-* Invalid type at ``#/gameServerVersion``,
 * Unexpected property at ``#/creatorId``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
@@ -455,7 +453,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*75 issues truncated.*
+*73 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
