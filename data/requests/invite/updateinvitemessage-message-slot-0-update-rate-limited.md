@@ -1,30 +1,41 @@
-# getCalendarEvents
+# updateInviteMessage message slot 0 update rate limited
 
 ## Request
-`GET https://api.vrchat.cloud/api/1/calendar`
+`PUT https://api.vrchat.cloud/api/1/message/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/message/0`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
+| content-type | `application/json` |
 | cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
+
+```json
+{
+  "message": "I am speed!"
+}
+```
 
 
 ## Response
-`200 OK`
+`429 Too Many Requests`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `44` |
+| content-length | `92` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
-<unstable>
+{
+  "error": {
+    "message": "Please wait 59 more minutes until you try again․",
+    "status_code": 429
+  }
+}
 ```

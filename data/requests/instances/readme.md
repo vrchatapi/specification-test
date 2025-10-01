@@ -3,7 +3,7 @@
 ## Create Instance
 Create an instance
 
-> Missing coverage.
+* [createInstance](./createinstance.md)
 ## Close Instance
 Close an instance or update the closedAt time when it will be closed.
 

@@ -122,6 +122,9 @@ Response schema mismatch:
 #### [getShortName](/data/requests/instances/getshortname.md)
 
 
+#### [createInstance](/data/requests/instances/createinstance.md)
+
+
 
 
 ## [Avatars](/data/requests/avatars)
@@ -380,6 +383,34 @@ Response schema mismatch:
 
 
 
+## [Invite](/data/requests/invite)
+
+#### [inviteMyselfTo](/data/requests/invite/invitemyselfto.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/details/worldId``,
+* Unexpected property at ``#/details/worldName``.
+
+#### [getInviteMessage](/data/requests/invite/getinvitemessage.md)
+
+
+#### [resetInviteMessage message slot 0 reset](/data/requests/invite/resetinvitemessage-message-slot-0-reset.md)
+
+
+#### [resetInviteMessage message slot 0 reset rate limited](/data/requests/invite/resetinvitemessage-message-slot-0-reset-rate-limited.md)
+
+
+#### [updateInviteMessage message slot 0 update](/data/requests/invite/updateinvitemessage-message-slot-0-update.md)
+
+
+#### [updateInviteMessage message slot 0 update rate limited](/data/requests/invite/updateinvitemessage-message-slot-0-update-rate-limited.md)
+
+
+#### [getInviteMessages](/data/requests/invite/getinvitemessages.md)
+
+
+
+
 ## [Notifications](/data/requests/notifications)
 
 #### [getNotifications](/data/requests/notifications/getnotifications.md)
@@ -453,7 +484,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*73 issues truncated.*
+*72 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
