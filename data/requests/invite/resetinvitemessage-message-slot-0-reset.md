@@ -10,7 +10,7 @@
 
 
 ## Response
-`404 Not Found`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |

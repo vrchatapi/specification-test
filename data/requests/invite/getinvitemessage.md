@@ -28,8 +28,8 @@
 ```jsonc
 {
   "canBeUpdated": true,
-  "id": "default",
-  "message": "Come hang out with me!",
+  "id": "invm_b88ca70f-ff92-4dc3-a570-7e6caa58a8c2",
+  "message": "Hello‚ Worldǃ",
   "messageType": "message",
   "remainingCooldownMinutes": 0,
   "slot": 0,
