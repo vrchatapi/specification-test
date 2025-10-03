@@ -4,6 +4,10 @@
 Create an instance
 
 * [createInstance](./createinstance.md)
+## List Recent Locations
+Returns a list of recently visited locations.
+
+> Missing coverage.
 ## Close Instance
 Close an instance or update the closedAt time when it will be closed.
 
