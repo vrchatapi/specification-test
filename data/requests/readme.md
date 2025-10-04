@@ -81,10 +81,12 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
-
-
 #### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/calendarEntryId``.
+
+#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
@@ -499,7 +501,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*73 issues truncated.*
+*74 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
