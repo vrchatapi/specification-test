@@ -79,7 +79,7 @@ Response schema mismatch:
     "hash": "ips_septcontentdropcampfire-6ebef4ec1f93",
     "id": "ips_septcontentdropcampfire-6ebef4ec1f93",
     "isEnabled": true,
-    "priority": 390,
+    "priority": 450,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -88,7 +88,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-09-15T19:42:07.325Z"
+    "updatedAt": "2025-10-07T19:14:50.143Z"
   },
   {
     "createdAt": "2025-07-14T21:51:37.569Z",
