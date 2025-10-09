@@ -177,28 +177,43 @@ Response schema mismatch:
 
 ## [Calendar](/data/requests/calendar)
 
+#### [updateGroupCalendarEvent](/data/requests/calendar/updategroupcalendarevent.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/durationInMs``.
+
+#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/durationInMs``.
+
+#### [getGroupCalendarEvents](/data/requests/calendar/getgroupcalendarevents.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/results/0/durationInMs``.
+
+#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/durationInMs``.
+
+#### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/results/0/durationInMs``,
+* Unexpected property at ``#/results/1/durationInMs``,
+* Unexpected property at ``#/results/2/durationInMs``,
+
+*5 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/durationInMs``.
 
 #### [getCalendarEvents](/data/requests/calendar/getcalendarevents.md)
 
 
-#### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
-
-
-#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
-
-
 #### [getFollowedCalendarEvents](/data/requests/calendar/getfollowedcalendarevents.md)
-
-
-#### [getGroupCalendarEvents](/data/requests/calendar/getgroupcalendarevents.md)
-
-
-#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
-
-
-#### [updateGroupCalendarEvent](/data/requests/calendar/updategroupcalendarevent.md)
 
 
 #### [getGroupCalendarEventICS](/data/requests/calendar/getgroupcalendareventics.md)
@@ -501,7 +516,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*74 issues truncated.*
+*76 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

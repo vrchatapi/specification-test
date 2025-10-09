@@ -1,5 +1,15 @@
 # getFeaturedCalendarEvents
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/results/0/durationInMs``,
+* Unexpected property at ``#/results/1/durationInMs``,
+* Unexpected property at ``#/results/2/durationInMs``,
+* Unexpected property at ``#/results/3/durationInMs``,
+* Unexpected property at ``#/results/4/durationInMs``,
+* Unexpected property at ``#/results/5/durationInMs``,
+* Unexpected property at ``#/results/6/durationInMs``,
+* Unexpected property at ``#/results/7/durationInMs``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/calendar/featured`
 
