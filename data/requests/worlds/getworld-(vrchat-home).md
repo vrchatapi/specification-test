@@ -165,7 +165,7 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/315/variant/security?v=1758569287",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/315/variant/security?v=1760383696",
       "assetVersion": 4,
       "created_at": "2025-09-22T19:27:57.801Z",
       "id": "unp_04985991-b0a3-4c91-8256-8d5277358a39",
@@ -206,7 +206,7 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/47/variant/security?v=1758570009",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/47/variant/security?v=1760384431",
       "assetVersion": 4,
       "created_at": "2025-09-22T19:39:55.381Z",
       "id": "unp_b32d1ad4-241a-4063-996c-63e97876a3e4",
@@ -319,7 +319,7 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/314/variant/security?v=1758568945",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/314/variant/security?v=1760383355",
       "assetVersion": 4,
       "created_at": "2025-09-22T19:22:16.241Z",
       "id": "unp_98e109f6-7f60-40af-8f56-afc3caedbb09",
