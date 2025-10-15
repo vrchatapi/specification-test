@@ -3,22 +3,20 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/experiment``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Invalid type at ``#/3/startDate``,
 * Invalid type at ``#/3/endDate``,
+* Unexpected property at ``#/3/experiment``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
@@ -32,11 +30,21 @@ Response schema mismatch:
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
+* Invalid type at ``#/6/startDate``,
+* Invalid type at ``#/6/endDate``,
+* Unexpected property at ``#/6/regions``,
+* Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
 * Invalid type at ``#/7/startDate``,
 * Invalid type at ``#/7/endDate``,
 * Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``.
+* Unexpected property at ``#/7/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
+* Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
+* Invalid type at ``#/9/startDate``,
+* Invalid type at ``#/9/endDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -64,6 +72,66 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2025-10-07T19:16:10.947Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_9e0729a8-ed2e-4436-8252-dad634bc8d91.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_a939b579-c972-4429-9a58-c9ed00108011"
+        ]
+      }
+    },
+    "endDate": "2025-11-06T22:00:00.000Z",
+    "experiment": {
+      "key": "",
+      "variant": ""
+    },
+    "hash": "ips_spookalitybundle2025hel-a701dcd2e86c",
+    "id": "ips_spookalitybundle2025hel-a701dcd2e86c",
+    "isEnabled": true,
+    "priority": 390,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2025-10-09T04:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-10-14T18:12:20.238Z"
+  },
+  {
+    "createdAt": "2025-10-09T16:03:57.991Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_eb566a3b-56ec-4b54-ac9f-c9dd46222c65.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_a939b579-c972-4429-9a58-c9ed00108011"
+        ]
+      }
+    },
+    "endDate": "2025-11-06T22:00:00.000Z",
+    "experiment": {
+      "key": "candy-quest-ips",
+      "variant": "article"
+    },
+    "hash": "ips_abtesthelparticle9-be07-cf41438b9db0",
+    "id": "ips_abtesthelparticle9-be07-cf41438b9db0",
+    "isEnabled": true,
+    "priority": 402,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2025-10-09T04:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-10-14T18:11:53.121Z"
+  },
   {
     "createdAt": "2025-09-15T19:42:07.325Z",
     "data": {
