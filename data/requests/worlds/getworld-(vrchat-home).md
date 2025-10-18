@@ -68,8 +68,7 @@
     "admin_hide_broad",
     "admin_AllowInternal_PrideCampaign",
     "admin_AllowInternal_OpenMenu",
-    "admin_ios_category",
-    "system_updated_recently"
+    "admin_ios_category"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",
