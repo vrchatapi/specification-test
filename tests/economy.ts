@@ -1,5 +1,6 @@
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 import { state } from "./_cache.js";
+import { vrchatOfficialStoreId } from "./_consts.js";
 
 const prominentListingId = "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910";
 const prominentSellerUserId = "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20";
@@ -49,6 +50,13 @@ test(
 	}
 );
 
+test(testOperation, "getUserSubscriptionEligible", {
+	parameters: {
+		userId: state.get("current-user").id
+	},
+	statusCode: 200
+});
+
 test(testOperation, "getSubscriptions", {
 	statusCode: 200
 });
@@ -93,6 +101,42 @@ test(testOperation, "getTiliaTos", {
 test(testOperation, "getBalance", {
 	parameters: {
 		userId: state.get("current-user").id
+	},
+	statusCode: 200
+});
+
+test(testOperation, "getBalanceEarnings", {
+	parameters: {
+		userId: state.get("current-user").id
+	},
+	statusCode: 200
+});
+
+test(testOperation, "getEconomyAccount", {
+	parameters: {
+		userId: state.get("current-user").id
+	},
+	statusCode: 200
+});
+
+test(testOperation, "getActiveLicenses", {
+	statusCode: 200
+});
+
+test(testOperation, "getStore", {
+	parameters: {
+		storeId: vrchatOfficialStoreId,
+        hydrateListings: true,
+        hydrateProducts: true
+	},
+	statusCode: 200
+});
+
+test(testOperation, "getStoreShelves", {
+	parameters: {
+		storeId: vrchatOfficialStoreId,
+        hydrateListings: true,
+        storeView: "all"
 	},
 	statusCode: 200
 });
