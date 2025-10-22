@@ -3,7 +3,8 @@
 ## Issues
 Response schema mismatch:
 * Unexpected property at ``#/discordDetails``,
-* Unexpected property at ``#/discordId``.
+* Unexpected property at ``#/discordId``,
+* Unexpected property at ``#/usesGeneratedPassword``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
@@ -118,6 +119,7 @@ Response schema mismatch:
   "userLanguage": null,
   "userLanguageCode": "en",
   "username": "8cf3def6b8cea",
+  "usesGeneratedPassword": false,
   "viveId": ""
 }
 ```

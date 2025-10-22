@@ -3,7 +3,8 @@
 ## Issues
 Response schema mismatch:
 * Unexpected property at ``#/discordDetails``,
-* Unexpected property at ``#/discordId``.
+* Unexpected property at ``#/discordId``,
+* Unexpected property at ``#/usesGeneratedPassword``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -170,6 +171,7 @@ Response schema mismatch:
   "userLanguage": null,
   "userLanguageCode": "en",
   "username": "8cf3def6b8cea",
+  "usesGeneratedPassword": false,
   "viveId": ""
 }
 ```
