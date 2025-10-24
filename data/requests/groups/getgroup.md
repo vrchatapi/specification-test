@@ -1,5 +1,8 @@
 # getGroup
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/allowGroupJoinPrompt``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/groups/<unstable>`
 
@@ -27,6 +30,7 @@
 
 ```jsonc
 {
+  "allowGroupJoinPrompt": true,
   "badges": [],
   "bannerId": null,
   "bannerUrl": "https://assets.vrchat.com/www/groups/default_banner.png",

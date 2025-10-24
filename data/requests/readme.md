@@ -209,7 +209,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/1/durationInMs``,
 * Unexpected property at ``#/results/2/durationInMs``,
 
-*86 issues truncated.*
+*97 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -371,16 +371,22 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
-#### [createGroup](/data/requests/groups/creategroup.md)
+#### [updateGroup](/data/requests/groups/updategroup.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/allowGroupJoinPrompt``.
 
 #### [getGroup](/data/requests/groups/getgroup.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/allowGroupJoinPrompt``.
+
+#### [createGroup](/data/requests/groups/creategroup.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/allowGroupJoinPrompt``.
 
 #### [getGroupMembers](/data/requests/groups/getgroupmembers.md)
-
-
-#### [updateGroup](/data/requests/groups/updategroup.md)
 
 
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
@@ -505,7 +511,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1434 issues truncated.*
+*1441 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -521,7 +527,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*76 issues truncated.*
+*74 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
