@@ -209,7 +209,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/1/durationInMs``,
 * Unexpected property at ``#/results/2/durationInMs``,
 
-*51 issues truncated.*
+*41 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -511,15 +511,15 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1460 issues truncated.*
+*1441 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
-*46 issues truncated.*
+*40 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -527,7 +527,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*76 issues truncated.*
+*73 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
