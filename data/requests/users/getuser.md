@@ -121,7 +121,7 @@
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "android",
+  "last_platform": "standalonewindows",
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",

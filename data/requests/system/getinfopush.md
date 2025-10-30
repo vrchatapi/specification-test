@@ -2,8 +2,8 @@
 
 ## Issues
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Unexpected property at ``#/0/experiment``,
+* Invalid type at ``#/0/startDate``,
+* Invalid type at ``#/0/endDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
@@ -11,17 +11,16 @@ Response schema mismatch:
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
+* Unexpected property at ``#/2/experiment``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Invalid type at ``#/3/startDate``,
-* Invalid type at ``#/3/endDate``,
-* Unexpected property at ``#/3/experiment``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/startDate``,
 * Invalid type at ``#/4/endDate``,
+* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
@@ -40,11 +39,16 @@ Response schema mismatch:
 * Unexpected property at ``#/7/regions``,
 * Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
+* Invalid type at ``#/8/startDate``,
+* Invalid type at ``#/8/endDate``,
+* Unexpected property at ``#/8/regions``,
+* Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
-* Invalid type at ``#/9/startDate``,
-* Invalid type at ``#/9/endDate``,
-* Unexpected property at ``#/9/regions``,
-* Unexpected property at ``#/9/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
+* Invalid type at ``#/10/startDate``,
+* Invalid type at ``#/10/endDate``,
+* Unexpected property at ``#/10/regions``,
+* Unexpected property at ``#/10/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -72,6 +76,32 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2025-10-29T17:23:05.366Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_71c1f269-689d-44ae-9903-ecd0e3bc3a65.png",
+      "onPressed": {
+        "command": "OpenURL",
+        "parameters": [
+          "https://apps.apple.com/us/app/vrchat/id6448578770"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_ioslaunchoct20253a-82dd-1753b8109562",
+    "id": "ips_ioslaunchoct20253a-82dd-1753b8109562",
+    "isEnabled": true,
+    "priority": 350,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-10-29T18:02:18.279Z"
+  },
   {
     "createdAt": "2025-10-07T19:16:10.947Z",
     "data": {
@@ -103,25 +133,25 @@ Response schema mismatch:
     "updatedAt": "2025-10-14T18:12:20.238Z"
   },
   {
-    "createdAt": "2025-10-09T16:03:57.991Z",
+    "createdAt": "2025-10-07T15:21:41.609Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_eb566a3b-56ec-4b54-ac9f-c9dd46222c65.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_d35adbff-0239-4378-85bf-56db5ebd99ff.png",
       "onPressed": {
-        "command": "OpenHelpArticle",
+        "command": "OpenVRChatStore",
         "parameters": [
-          "ips_a939b579-c972-4429-9a58-c9ed00108011"
+          "vrchat"
         ]
       }
     },
     "endDate": "2025-11-06T22:00:00.000Z",
     "experiment": {
       "key": "candy-quest-ips",
-      "variant": "article"
+      "variant": "store"
     },
-    "hash": "ips_abtesthelparticle9-be07-cf41438b9db0",
-    "id": "ips_abtesthelparticle9-be07-cf41438b9db0",
+    "hash": "ips_shoplivespookalitybundl-7bd982e267fb",
+    "id": "ips_shoplivespookalitybundl-7bd982e267fb",
     "isEnabled": true,
-    "priority": 402,
+    "priority": 400,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -130,7 +160,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-10-14T18:11:53.121Z"
+    "updatedAt": "2025-10-14T18:12:07.664Z"
   },
   {
     "createdAt": "2025-09-15T19:42:07.325Z",
