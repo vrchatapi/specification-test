@@ -29,7 +29,7 @@
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "badges": [
     {
       "badgeDescription": "Granted to members of the official VRChat Development Team",
@@ -125,8 +125,8 @@
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
-  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1",
-  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/512",
+  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_9524d24e-35ea-4395-9447-1353cf0a4282/1/",
+  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_9524d24e-35ea-4395-9447-1353cf0a4282/1/512",
   "pronouns": "he/him",
   "state": "offline",
   "status": "ask me",

@@ -4,7 +4,7 @@
 Response schema mismatch:
 * Invalid type at ``#/agreement``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/Steam/transactions/txn_e163ccc8-56eb-4320-8140-7bbcb1815b44`
+`GET https://api.vrchat.cloud/api/1/Steam/transactions/txn_7b85e372-51b5-4445-b6e1-0e0d3f59aa8a`
 
 | Header | Value |
 | ------ | ----- |
@@ -30,20 +30,20 @@ Response schema mismatch:
 
 ```jsonc
 {
-  "id": "txn_e163ccc8-56eb-4320-8140-7bbcb1815b44",
+  "id": "txn_7b85e372-51b5-4445-b6e1-0e0d3f59aa8a",
   "userId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "userDisplayName": "8cf3def6b8cea",
   "steam": {
     "walletInfo": {
-      "state": "",
+      "state": "AB",
       "country": "CA",
       "currency": "CAD",
       "status": "Active"
     },
     "steamId": "76561199512069969",
-    "orderId": "1685842827012",
+    "orderId": "1685845973834",
     "steamUrl": "",
-    "transId": "3254460074228293216"
+    "transId": "3254460074228531644"
   },
   "agreement": "",
   "status": "failed",
@@ -57,8 +57,8 @@ Response schema mismatch:
     "period": "month",
     "tier": 5
   },
-  "created_at": "2023-06-04T01:40:26.991Z",
-  "updated_at": "2023-06-04T01:47:17.384Z",
+  "created_at": "2023-06-04T02:32:53.809Z",
+  "updated_at": "2023-06-04T03:37:17.439Z",
   "error": null,
   "isGift": false,
   "isTokens": false
