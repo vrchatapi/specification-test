@@ -17,7 +17,7 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `45` |
+| content-length | `44` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |

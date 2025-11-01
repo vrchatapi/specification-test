@@ -50,27 +50,6 @@
   },
   {
     "authorId": "usr_cd1b4a36-29ac-4bc9-aa5a-76b180338768",
-    "created_at": "2025-09-15T19:21:58.680Z",
-    "dropExpiryDate": "2025-10-31T20:00:00.000Z",
-    "endDropDate": "2025-10-31T20:00:00.000Z",
-    "id": "invd_04d98edd-79db-4c4e-a156-7e07510aee10",
-    "name": "September VRC+ Content Drop",
-    "notificationDetails": {
-      "body": "Thanks for subscribing to VRC+! You’ve unlocked the Campfire and Marshmallow on a Stick. Claim them in your inventory before October 31, 2025, 1:00PM PST!",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_8e505bdc-08ac-4f94-ad3e-304ca4476dd1/1/file",
-      "title": "September VRC+ Content Drop!"
-    },
-    "startDropDate": "2025-09-15T20:00:00.000Z",
-    "status": "active",
-    "tags": [],
-    "targetGroup": "vrc+",
-    "templateIds": [
-      "invt_8eb37473-6c95-4d40-ba5c-65c65a200e10"
-    ],
-    "updated_at": "2025-09-15T19:21:58.680Z"
-  },
-  {
-    "authorId": "usr_cd1b4a36-29ac-4bc9-aa5a-76b180338768",
     "created_at": "2025-10-16T22:38:11.784Z",
     "dropExpiryDate": "2025-11-14T00:00:00.000Z",
     "endDropDate": "2025-11-14T00:00:00.000Z",

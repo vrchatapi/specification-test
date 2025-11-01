@@ -5,15 +5,15 @@
 #### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/discordDetails``,
-* Unexpected property at ``#/discordId``,
+* Missing property at ``#/discordDetails/global_name``,
+* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/discordDetails``,
-* Unexpected property at ``#/discordId``,
+* Missing property at ``#/discordDetails/global_name``,
+* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
@@ -142,22 +142,22 @@ Response schema mismatch:
 #### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/discordDetails``,
-* Unexpected property at ``#/discordId``,
+* Missing property at ``#/discordDetails/global_name``,
+* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/discordDetails``,
-* Unexpected property at ``#/discordId``,
+* Missing property at ``#/discordDetails/global_name``,
+* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/discordDetails``,
-* Unexpected property at ``#/discordId``,
+* Missing property at ``#/discordDetails/global_name``,
+* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
@@ -209,7 +209,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/1/durationInMs``,
 * Unexpected property at ``#/results/2/durationInMs``,
 
-*34 issues truncated.*
+*97 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -511,13 +511,13 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1445 issues truncated.*
+*1456 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
-* Invalid type at ``#/0/startDate``,
-* Invalid type at ``#/0/endDate``,
+* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Unexpected property at ``#/0/regions``,
+* Unexpected property at ``#/0/requireClientTags``,
 
 *44 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
@@ -527,7 +527,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*78 issues truncated.*
+*79 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

@@ -2,8 +2,8 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/discordDetails``,
-* Unexpected property at ``#/discordId``,
+* Missing property at ``#/discordDetails/global_name``,
+* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
