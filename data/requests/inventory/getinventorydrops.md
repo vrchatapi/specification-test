@@ -50,24 +50,24 @@
   },
   {
     "authorId": "usr_cd1b4a36-29ac-4bc9-aa5a-76b180338768",
-    "created_at": "2025-10-16T22:38:11.784Z",
-    "dropExpiryDate": "2025-11-14T00:00:00.000Z",
-    "endDropDate": "2025-11-14T00:00:00.000Z",
-    "id": "invd_cec78b4b-abd0-4d81-afbd-7d29a59cab63",
-    "name": "Reference Cube Warp Effect Test",
+    "created_at": "2025-11-06T20:09:05.122Z",
+    "dropExpiryDate": "2025-12-04T21:00:00.000Z",
+    "endDropDate": "2025-12-04T21:00:00.000Z",
+    "id": "invd_b206bdd1-64a5-4d70-be2d-00327c9e8171",
+    "name": "November VRC+ Content Drop",
     "notificationDetails": {
-      "body": "The new Reference Cube Warp Effect is now available for Open Beta participants!\nTest it out and share your feedback — this item will be removed before the 2025.4.1 Open Beta ends.",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_f26855ef-09cb-472e-a1a3-21ee2f13096c/1/file",
-      "title": "Test out our new Warp Effect!"
+      "body": "Thanks for subscribing to VRC+! You've unlocked the Groan Tube. Claim it in your inventory before December 04, 2025, 1:00PM PT!",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_1c2ca4af-f78a-45b2-9b86-bd05c9ed2bb5/1/file",
+      "title": "November VRC+ Content Drop!"
     },
-    "startDropDate": "2025-10-16T15:00:00.000Z",
+    "startDropDate": "2025-11-06T20:30:00.000Z",
     "status": "active",
     "tags": [],
-    "targetGroup": "everyone",
+    "targetGroup": "vrc+",
     "templateIds": [
-      "invt_08e50f24-8807-4ec2-a0f9-9e008371280b"
+      "invt_e1169457-ee24-4897-944a-dc6bed7840b7"
     ],
-    "updated_at": "2025-10-16T22:38:11.784Z"
+    "updated_at": "2025-11-06T20:09:05.122Z"
   }
 ]
 ```

@@ -5,15 +5,11 @@
 #### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
 
 Response schema mismatch:
-* Missing property at ``#/discordDetails/global_name``,
-* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 Response schema mismatch:
-* Missing property at ``#/discordDetails/global_name``,
-* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
@@ -123,7 +119,7 @@ Response schema mismatch:
 * Missing property at ``#/canRequestInvite``,
 * Missing property at ``#/capacity``,
 
-*26 issues truncated.*
+*22 issues truncated.*
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
@@ -142,22 +138,16 @@ Response schema mismatch:
 #### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
 
 Response schema mismatch:
-* Missing property at ``#/discordDetails/global_name``,
-* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
 
 Response schema mismatch:
-* Missing property at ``#/discordDetails/global_name``,
-* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
 
 Response schema mismatch:
-* Missing property at ``#/discordDetails/global_name``,
-* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
@@ -209,7 +199,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/1/durationInMs``,
 * Unexpected property at ``#/results/2/durationInMs``,
 
-*97 issues truncated.*
+*92 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -230,6 +220,11 @@ Response schema mismatch:
 
 
 ## [Economy](/data/requests/economy)
+
+#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
+
+Response schema mismatch:
+* Missing property at ``#/3/appleProductId``.
 
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
@@ -266,9 +261,6 @@ Response schema mismatch:
 
 
 #### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
-
-
-#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
 
 
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
@@ -312,6 +304,22 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
+
+Response schema mismatch:
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
+
+*2 issues truncated.*
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+Response schema mismatch:
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
+
+*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -336,13 +344,7 @@ Response schema mismatch:
 #### [deleteFile](/data/requests/files/deletefile.md)
 
 
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
-
-
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -511,15 +513,15 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1456 issues truncated.*
+*1418 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
+* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
-*44 issues truncated.*
+*47 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -527,7 +529,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*79 issues truncated.*
+*75 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

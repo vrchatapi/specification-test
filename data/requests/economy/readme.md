@@ -8,6 +8,14 @@ Get all own Steam transactions.
 Get a single Steam transactions by ID. This returns the exact same information as `getSteamTransactions`, so no point in using this endpoint.
 
 * [getSteamTransaction](./getsteamtransaction.md)
+## Get Admin Transactions
+Get all own Admin transactions.
+
+> Missing coverage.
+## Get Admin Transactions
+Get a single Admin transactions by ID. This returns the exact same information as `getAdminTransactions`, so no point in using this endpoint.
+
+> Missing coverage.
 ## Get Current Subscriptions
 Get a list of all current user subscriptions.
 

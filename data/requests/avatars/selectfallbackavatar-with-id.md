@@ -2,8 +2,6 @@
 
 ## Issues
 Response schema mismatch:
-* Missing property at ``#/discordDetails/global_name``,
-* Missing property at ``#/discordDetails/id``,
 * Unexpected property at ``#/usesGeneratedPassword``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`

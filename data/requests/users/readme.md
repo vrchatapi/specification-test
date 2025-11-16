@@ -6,6 +6,10 @@ Search and list any users by text query
 * [searchUsers without parameters](./searchusers-without-parameters.md)
 * [searchUsers](./searchusers.md)
 * [searchUsers with limit](./searchusers-with-limit.md)
+## Search Active Users
+**REQUIRES ADMIN CREDENTIALS**. Search and list any Active users by text query.
+
+> Missing coverage.
 ## Get User by Username
 ~~Get public user information about a specific user using their name.~~
 

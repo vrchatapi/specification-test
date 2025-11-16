@@ -1,5 +1,8 @@
 # getTokenBundles
 
+## Issues
+Response schema mismatch:
+* Missing property at ``#/3/appleProductId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/tokenBundles`
 
@@ -59,6 +62,16 @@
     "description": "2400 VRChat Credits",
     "tokens": 2400,
     "imageUrl": "https://assets.vrchat.com/www/images/credits/CreditBundle_2400.png"
+  },
+  {
+    "id": "vrchat-credit-bundle-3000",
+    "steamItemId": "6009",
+    "oculusSku": "vrchat-credits-3000",
+    "googleProductId": "vrchat.credit.googleplay.3000",
+    "amount": 2499,
+    "description": "3000 VRChat Credits",
+    "tokens": 3000,
+    "imageUrl": "https://assets.vrchat.com/www/images/credits/CreditBundle_3000.png"
   },
   {
     "id": "vrchat-credit-bundle-3600",

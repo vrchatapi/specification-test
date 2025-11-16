@@ -2,19 +2,22 @@
 
 ## Issues
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
+* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Invalid type at ``#/1/startDate``,
 * Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Unexpected property at ``#/2/experiment``,
+* Invalid type at ``#/2/startDate``,
+* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Unexpected property at ``#/3/experiment``,
+* Invalid type at ``#/3/startDate``,
+* Invalid type at ``#/3/endDate``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
@@ -77,30 +80,86 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-10-30T21:58:02.888Z",
+    "createdAt": "2025-11-12T17:41:52.274Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f40d39fc-5195-4bf0-9264-ec1bcb87ee0d.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_47f07063-dce4-4ec4-8cc7-dcff34f9ffff.png",
       "onPressed": {
-        "command": "OpenWorldsMenu",
+        "command": "OpenURL",
         "parameters": [
-          "ips_f51da97e-7146-4dfd-8cf5-861e9c33bfb8"
+          "https://vr-charity-event.com/"
         ]
       }
     },
-    "endDate": "2025-11-09T15:00:00.000Z",
-    "hash": "ips_metafes-20254-46e8-9c04-90bec92cd802",
-    "id": "ips_metafes-20254-46e8-9c04-90bec92cd802",
+    "endDate": "2025-11-17T03:00:00.000Z",
+    "experiment": {
+      "key": "ips-banner-charity-event",
+      "variant": "treatment"
+    },
+    "hash": "ips_novcharityevent202587f5-4710fb38bf73",
+    "id": "ips_novcharityevent202587f5-4710fb38bf73",
     "isEnabled": true,
-    "priority": 345,
+    "priority": 290,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": "2025-10-31T15:00:00.000Z",
+    "startDate": null,
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-10-30T21:58:02.888Z"
+    "updatedAt": "2025-11-14T16:37:39.968Z"
+  },
+  {
+    "createdAt": "2025-11-06T17:22:48.847Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f866bdc6-3efc-4467-bb65-213db3425205.png",
+      "onPressed": {
+        "command": "OpenVRChatStore",
+        "parameters": [
+          "vrchat"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_november-shop-2025-ba8c-f4177d779e84",
+    "id": "ips_november-shop-2025-ba8c-f4177d779e84",
+    "isEnabled": true,
+    "priority": 300,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-11-06T21:01:52.068Z"
+  },
+  {
+    "createdAt": "2025-11-06T17:30:43.228Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_015d450e-8a4c-4bcf-8fe2-734f97299225.png",
+      "onPressed": {
+        "command": "OpenInventoryMenu",
+        "parameters": [
+          "invd_71bb3c1e-4d87-451a-a783-ad1f7551dbb0"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_november-drop-4731-80d2-04cc66d1fdda",
+    "id": "ips_november-drop-4731-80d2-04cc66d1fdda",
+    "isEnabled": true,
+    "priority": 305,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-11-06T20:40:18.060Z"
   },
   {
     "createdAt": "2025-10-29T17:23:05.366Z",
@@ -127,66 +186,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2025-10-29T18:02:18.279Z"
-  },
-  {
-    "createdAt": "2025-10-07T19:16:10.947Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_9e0729a8-ed2e-4436-8252-dad634bc8d91.png",
-      "onPressed": {
-        "command": "OpenHelpArticle",
-        "parameters": [
-          "ips_a939b579-c972-4429-9a58-c9ed00108011"
-        ]
-      }
-    },
-    "endDate": "2025-11-06T22:00:00.000Z",
-    "experiment": {
-      "key": "",
-      "variant": ""
-    },
-    "hash": "ips_spookalitybundle2025hel-a701dcd2e86c",
-    "id": "ips_spookalitybundle2025hel-a701dcd2e86c",
-    "isEnabled": true,
-    "priority": 390,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-10-09T04:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-10-14T18:12:20.238Z"
-  },
-  {
-    "createdAt": "2025-10-07T15:21:41.609Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_d35adbff-0239-4378-85bf-56db5ebd99ff.png",
-      "onPressed": {
-        "command": "OpenVRChatStore",
-        "parameters": [
-          "vrchat"
-        ]
-      }
-    },
-    "endDate": "2025-11-06T22:00:00.000Z",
-    "experiment": {
-      "key": "candy-quest-ips",
-      "variant": "store"
-    },
-    "hash": "ips_shoplivespookalitybundl-7bd982e267fb",
-    "id": "ips_shoplivespookalitybundl-7bd982e267fb",
-    "isEnabled": true,
-    "priority": 400,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-10-09T04:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-10-14T18:12:07.664Z"
   },
   {
     "createdAt": "2025-07-14T21:51:37.569Z",
