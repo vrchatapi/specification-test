@@ -304,22 +304,6 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -344,7 +328,13 @@ Response schema mismatch:
 #### [deleteFile](/data/requests/files/deletefile.md)
 
 
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
+
+
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -529,7 +519,7 @@ Response schema mismatch:
 * Missing property at ``#/reportCategories/environment``,
 * Missing property at ``#/reportCategories/warnings``,
 
-*75 issues truncated.*
+*77 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
