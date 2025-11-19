@@ -67,7 +67,12 @@ Response schema mismatch:
     "mRoleIds": [],
     "membershipStatus": "member",
     "permissions": [
-      "*"
+      "*",
+      "group-instance-join",
+      "group-instance-open-create",
+      "group-instance-plus-create",
+      "group-instance-public-create",
+      "group-members-viewall"
     ],
     "roleIds": "<unstable: array of strings>",
     "userId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
