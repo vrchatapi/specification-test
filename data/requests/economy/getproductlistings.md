@@ -159,9 +159,6 @@ Response schema mismatch:
 * Missing property at ``#/3hydratedProducts/12/updated``,
 * Unexpected property at ``#/3hydratedProducts/12/imageUrl``,
 * Unexpected property at ``#/3hydratedProducts/12/productTypeLabel``,
-* Invalid type at ``#/3listingVariants/0/unitPriceTokens``,
-* Invalid type at ``#/3listingVariants/1/unitPriceTokens``,
-* Invalid type at ``#/3listingVariants/2/unitPriceTokens``,
 * Unexpected property at ``#/3products/0/description``,
 * Unexpected property at ``#/3products/0/displayName``,
 * Unexpected property at ``#/3products/0/groupAccess``,
@@ -1056,9 +1053,6 @@ Response schema mismatch:
 * Missing property at ``#/25hydratedProducts/2/updated``,
 * Unexpected property at ``#/25hydratedProducts/2/imageUrl``,
 * Unexpected property at ``#/25hydratedProducts/2/productTypeLabel``,
-* Invalid type at ``#/25listingVariants/0/unitPriceTokens``,
-* Invalid type at ``#/25listingVariants/1/unitPriceTokens``,
-* Invalid type at ``#/25listingVariants/2/unitPriceTokens``,
 * Unexpected property at ``#/25products/0/description``,
 * Unexpected property at ``#/25products/0/displayName``,
 * Unexpected property at ``#/25products/0/groupAccess``,
@@ -4061,7 +4055,7 @@ Response schema mismatch:
         "nonRefundable": false,
         "quantity": 3,
         "sellerVariant": true,
-        "unitPriceTokens": "3300"
+        "unitPriceTokens": 3300
       },
       {
         "effectiveFrom": "2025-08-13T11:05:55.368Z",
@@ -4069,7 +4063,7 @@ Response schema mismatch:
         "nonRefundable": false,
         "quantity": 6,
         "sellerVariant": true,
-        "unitPriceTokens": "3000"
+        "unitPriceTokens": 3000
       },
       {
         "effectiveFrom": "2025-08-13T11:05:55.368Z",
@@ -4077,7 +4071,7 @@ Response schema mismatch:
         "nonRefundable": false,
         "quantity": 12,
         "sellerVariant": true,
-        "unitPriceTokens": "2750"
+        "unitPriceTokens": 2750
       }
     ],
     "priceTokens": 3500,
@@ -8319,7 +8313,7 @@ Response schema mismatch:
         "nonRefundable": false,
         "quantity": 3,
         "sellerVariant": true,
-        "unitPriceTokens": "175"
+        "unitPriceTokens": 175
       },
       {
         "effectiveFrom": "2024-11-26T12:13:10.573Z",
@@ -8327,7 +8321,7 @@ Response schema mismatch:
         "nonRefundable": false,
         "quantity": 6,
         "sellerVariant": true,
-        "unitPriceTokens": "150"
+        "unitPriceTokens": 150
       },
       {
         "effectiveFrom": "2024-11-26T12:13:10.573Z",
@@ -8335,7 +8329,7 @@ Response schema mismatch:
         "nonRefundable": false,
         "quantity": 12,
         "sellerVariant": true,
-        "unitPriceTokens": "100"
+        "unitPriceTokens": 100
       }
     ],
     "priceTokens": 200,
