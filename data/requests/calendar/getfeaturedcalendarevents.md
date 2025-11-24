@@ -78,18 +78,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/73/durationInMs``,
 * Unexpected property at ``#/results/74/durationInMs``,
 * Unexpected property at ``#/results/75/durationInMs``,
-* Unexpected property at ``#/results/76/durationInMs``,
-* Unexpected property at ``#/results/77/durationInMs``,
-* Unexpected property at ``#/results/78/durationInMs``,
-* Unexpected property at ``#/results/79/durationInMs``,
-* Unexpected property at ``#/results/80/durationInMs``,
-* Unexpected property at ``#/results/81/durationInMs``,
-* Unexpected property at ``#/results/82/durationInMs``,
-* Unexpected property at ``#/results/83/durationInMs``,
-* Unexpected property at ``#/results/84/durationInMs``,
-* Unexpected property at ``#/results/85/durationInMs``,
-* Unexpected property at ``#/results/86/durationInMs``,
-* Unexpected property at ``#/results/87/durationInMs``.
+* Unexpected property at ``#/results/76/durationInMs``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/calendar/featured`
 
