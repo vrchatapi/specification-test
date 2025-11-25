@@ -2,7 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Unexpected property at ``#/0/experiment``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
@@ -79,30 +79,36 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-11-20T23:03:42.206Z",
+    "createdAt": "2025-11-24T16:14:56.379Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_45e928a3-5fa2-486e-bc52-1cf3db5cbf68.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_0edf2302-d45c-4a05-82ed-ba011f9cb10b.png",
       "onPressed": {
-        "command": "OpenMainMenuTab",
-        "parameters": [
-          "MainMenuLiveNow"
-        ]
+        "command": "OpenVRCPlusMenu"
       }
     },
-    "endDate": "2025-11-24T05:00:00.000Z",
-    "hash": "ips_groupfairnov20254b-b4a9-f1823857325d",
-    "id": "ips_groupfairnov20254b-b4a9-f1823857325d",
+    "endDate": "2025-12-01T08:00:00.000Z",
+    "experiment": {
+      "key": "ips-banner-black-friday",
+      "variant": "groan-promo"
+    },
+    "hash": "ips_blackfridaygroantube4ac-6d348be3724a",
+    "id": "ips_blackfridaygroantube4ac-6d348be3724a",
     "isEnabled": true,
-    "priority": 250,
+    "priority": 300,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": "2025-11-21T05:00:00.000Z",
+    "startDate": "2025-11-24T21:00:00.000Z",
     "tags": [
       "quick-menu-banner",
-      "user-all"
+      "platform-pc-desktop",
+      "platform-pc",
+      "platform-pc-vr",
+      "platform-store-steam",
+      "user-no-vrcplus",
+      "platform-mobile-android"
     ],
-    "updatedAt": "2025-11-20T23:03:42.206Z"
+    "updatedAt": "2025-11-25T01:09:09.158Z"
   },
   {
     "createdAt": "2025-11-06T17:22:48.847Z",
@@ -119,7 +125,7 @@ Response schema mismatch:
     "hash": "ips_november-shop-2025-ba8c-f4177d779e84",
     "id": "ips_november-shop-2025-ba8c-f4177d779e84",
     "isEnabled": true,
-    "priority": 300,
+    "priority": 302,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -128,7 +134,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-11-06T21:01:52.068Z"
+    "updatedAt": "2025-11-24T16:17:20.371Z"
   },
   {
     "createdAt": "2025-11-06T17:30:43.228Z",
