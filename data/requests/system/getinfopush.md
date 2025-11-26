@@ -7,12 +7,10 @@ Response schema mismatch:
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Invalid type at ``#/1/startDate``,
-* Invalid type at ``#/1/endDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/startDate``,
-* Invalid type at ``#/2/endDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
 * Invalid type at ``#/3/startDate``,
@@ -121,7 +119,7 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": null,
+    "endDate": "2025-12-02T21:00:00.000Z",
     "hash": "ips_november-shop-2025-ba8c-f4177d779e84",
     "id": "ips_november-shop-2025-ba8c-f4177d779e84",
     "isEnabled": true,
@@ -134,7 +132,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-11-24T16:17:20.371Z"
+    "updatedAt": "2025-11-25T19:25:19.921Z"
   },
   {
     "createdAt": "2025-11-06T17:30:43.228Z",
@@ -147,7 +145,7 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": null,
+    "endDate": "2025-12-04T21:00:00.000Z",
     "hash": "ips_november-drop-4731-80d2-04cc66d1fdda",
     "id": "ips_november-drop-4731-80d2-04cc66d1fdda",
     "isEnabled": true,
@@ -160,7 +158,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-11-06T20:40:18.060Z"
+    "updatedAt": "2025-11-25T19:25:53.091Z"
   },
   {
     "createdAt": "2025-10-29T17:23:05.366Z",
