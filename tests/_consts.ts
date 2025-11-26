@@ -32,3 +32,4 @@ export const defaultAvatarId = "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11";
 export const vrchatHomeWorldId = "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd";
 export const favoriteId = "fvrt_6d1580a7-2670-414b-b197-d4adea72467a";
 export const vrcWikiTeamGroupId = "grp_0f1d4450-822e-45d5-b5aa-6a0ea8402053";
+export const vrchatOfficialStoreId = "esto_00000000-0000-0000-0000-000000000000";
