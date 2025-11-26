@@ -1,5 +1,8 @@
 # selectAvatar with id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/usesGeneratedPassword``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/select`
 
@@ -41,6 +44,8 @@
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_04a70244-6e90-4f49-b81e-5478fe90d056/6/256",
   "date_joined": "2023-04-11",
   "developerType": "none",
+  "discordDetails": {},
+  "discordId": "",
   "displayName": "8cf3def6b8cea",
   "emailVerified": true,
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
@@ -112,6 +117,7 @@
   "userLanguage": null,
   "userLanguageCode": "en",
   "username": "8cf3def6b8cea",
+  "usesGeneratedPassword": false,
   "viveId": ""
 }
 ```

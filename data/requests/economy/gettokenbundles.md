@@ -61,6 +61,17 @@
     "imageUrl": "https://assets.vrchat.com/www/images/credits/CreditBundle_2400.png"
   },
   {
+    "id": "vrchat-credit-bundle-3000",
+    "steamItemId": "6009",
+    "oculusSku": "vrchat-credits-3000",
+    "googleProductId": "vrchat.credit.googleplay.3000",
+    "appleProductId": "vrchat.credits.3000",
+    "amount": 2499,
+    "description": "3000 VRChat Credits",
+    "tokens": 3000,
+    "imageUrl": "https://assets.vrchat.com/www/images/credits/CreditBundle_3000.png"
+  },
+  {
     "id": "vrchat-credit-bundle-3600",
     "steamItemId": "6006",
     "oculusSku": "vrchat-credits-3600",

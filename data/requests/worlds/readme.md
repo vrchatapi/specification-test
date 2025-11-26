@@ -61,5 +61,5 @@ Publish a world. You can only publish one world per week.
 ## Get World Instance
 Returns a worlds instance.
 
-> Missing coverage.
+* [getWorldInstance first listed instance](./getworldinstance-first-listed-instance.md)
 	

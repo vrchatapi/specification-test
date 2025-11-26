@@ -93,4 +93,8 @@ Confirms the email address for a user
 Verifies a login attempt for a user
 
 > Missing coverage.
+## Get Global Avatar Moderations
+Returns list of globally blocked avatars.
+
+> Missing coverage.
 	

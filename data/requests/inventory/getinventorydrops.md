@@ -50,24 +50,24 @@
   },
   {
     "authorId": "usr_cd1b4a36-29ac-4bc9-aa5a-76b180338768",
-    "created_at": "2025-09-15T19:21:58.680Z",
-    "dropExpiryDate": "2025-10-31T20:00:00.000Z",
-    "endDropDate": "2025-10-31T20:00:00.000Z",
-    "id": "invd_04d98edd-79db-4c4e-a156-7e07510aee10",
-    "name": "September VRC+ Content Drop",
+    "created_at": "2025-11-06T20:09:05.122Z",
+    "dropExpiryDate": "2025-12-04T21:00:00.000Z",
+    "endDropDate": "2025-12-04T21:00:00.000Z",
+    "id": "invd_b206bdd1-64a5-4d70-be2d-00327c9e8171",
+    "name": "November VRC+ Content Drop",
     "notificationDetails": {
-      "body": "Thanks for subscribing to VRC+! You’ve unlocked the Campfire and Marshmallow on a Stick. Claim them in your inventory before October 31, 2025, 1:00PM PST!",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_8e505bdc-08ac-4f94-ad3e-304ca4476dd1/1/file",
-      "title": "September VRC+ Content Drop!"
+      "body": "Thanks for subscribing to VRC+! You've unlocked the Groan Tube. Claim it in your inventory before December 04, 2025, 1:00PM PT!",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_1c2ca4af-f78a-45b2-9b86-bd05c9ed2bb5/1/file",
+      "title": "November VRC+ Content Drop!"
     },
-    "startDropDate": "2025-09-15T20:00:00.000Z",
+    "startDropDate": "2025-11-06T20:30:00.000Z",
     "status": "active",
     "tags": [],
     "targetGroup": "vrc+",
     "templateIds": [
-      "invt_8eb37473-6c95-4d40-ba5c-65c65a200e10"
+      "invt_e1169457-ee24-4897-944a-dc6bed7840b7"
     ],
-    "updated_at": "2025-09-15T19:21:58.680Z"
+    "updated_at": "2025-11-06T20:09:05.122Z"
   }
 ]
 ```

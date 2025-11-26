@@ -1,7 +1,10 @@
 # getInstance
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/creatorId``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>`
+`GET https://api.vrchat.cloud/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:undefined`
 
 | Header | Value |
 | ------ | ----- |

@@ -1,5 +1,8 @@
 # getCurrentUser after two-factor authentication
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/usesGeneratedPassword``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -75,6 +78,8 @@
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "date_joined": "2023-04-11",
   "developerType": "none",
+  "discordDetails": {},
+  "discordId": "",
   "displayName": "8cf3def6b8cea",
   "emailVerified": true,
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
@@ -161,6 +166,7 @@
   "userLanguage": null,
   "userLanguageCode": "en",
   "username": "8cf3def6b8cea",
+  "usesGeneratedPassword": false,
   "viveId": ""
 }
 ```

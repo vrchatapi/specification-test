@@ -43,7 +43,7 @@
       "badgeId": "bdg_4708a50c-2a2f-4204-98be-f844b2f247eb",
       "badgeImageUrl": "https://assets.vrchat.com/badges/eb/bdgai_47e5526e-de82-46d7-9f85-323cc7ed1d4a.png",
       "badgeName": "8 Years",
-      "showcased": false
+      "showcased": true
     },
     {
       "badgeDescription": "Awarded for gifting VRC+ (10 Months)",
@@ -78,7 +78,14 @@
       "badgeId": "bdg_b8bef28d-277c-4d37-8168-f879362ba9cc",
       "badgeImageUrl": "https://assets.vrchat.com/badges/cc/bdgai_1ccb7ae1-d09e-4a3f-8cc4-e08c0cd48cd1.png",
       "badgeName": "Pride Supporter",
-      "showcased": true
+      "showcased": false
+    },
+    {
+      "badgeDescription": "Awarded to those that were able to complete their Candy Codex during Spookality 2025",
+      "badgeId": "bdg_cfb5a125-b406-48d7-b2d8-f26131dd7a6b",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/6b/bdgai_dee1245d-7bdd-4f33-8604-59f66279f502.png",
+      "badgeName": "Candy Codex Completionist",
+      "showcased": false
     },
     {
       "badgeDescription": "Granted for being a proud owner of a Bigscreen Beyond 2e: VRChat Edition",
@@ -118,8 +125,8 @@
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
-  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/",
-  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_4bd7c5fd-08f4-4fe6-9c91-6965f4654cd0/1/512",
+  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_6394eb90-5859-4949-97b7-4e8381c8f37d/1",
+  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_6394eb90-5859-4949-97b7-4e8381c8f37d/1/512",
   "pronouns": "he/him",
   "state": "offline",
   "status": "ask me",

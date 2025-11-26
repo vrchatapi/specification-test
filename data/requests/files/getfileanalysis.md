@@ -35,7 +35,7 @@
     "bounds": [
       0.2818719,
       0.360671,
-      0.2958207
+      0.29582074
     ],
     "cameraCount": 0,
     "clothCount": 0,
@@ -77,8 +77,8 @@
     "trailRendererCount": 0,
     "writeDefaultsUsed": true
   },
-  "created_at": "2025-09-05T01:06:50.719Z",
-  "encryptionKey": "MXcYjXp6LXcBGThvopkgPR95ptHo2j5o/62VbW6qwSo=",
+  "created_at": "2025-11-16T21:32:16.995Z",
+  "encryptionKey": "A92XLjpEOtcxIspayd1pVvkmM7QOT1eWWVcUXH8Lrxo=",
   "fileSize": 81988,
   "performanceRating": "Excellent",
   "success": true,

@@ -8,10 +8,22 @@ Get all own Steam transactions.
 Get a single Steam transactions by ID. This returns the exact same information as `getSteamTransactions`, so no point in using this endpoint.
 
 * [getSteamTransaction](./getsteamtransaction.md)
+## Get Admin Transactions
+Get all own Admin transactions.
+
+> Missing coverage.
+## Get Admin Transactions
+Get a single Admin transactions by ID. This returns the exact same information as `getAdminTransactions`, so no point in using this endpoint.
+
+> Missing coverage.
 ## Get Current Subscriptions
 Get a list of all current user subscriptions.
 
 * [getCurrentSubscriptions](./getcurrentsubscriptions.md)
+## Get User Subscription Eligiblity
+Get the user's eligibility status for subscriptions.
+
+> Missing coverage.
 ## List Subscriptions
 List all existing Subscriptions. For example, "vrchatplus-monthly" and "vrchatplus-yearly".
 
@@ -44,4 +56,24 @@ Gets the status of the agreement of a user to the Tilia TOS
 Gets the balance of a user
 
 * [getBalance](./getbalance.md)
+## Get Balance Earnings
+Gets the balance of a user from earnings
+
+> Missing coverage.
+## Get Economy Account
+Gets the economy account of a user
+
+> Missing coverage.
+## Get Active Licenses
+Gets active licenses
+
+> Missing coverage.
+## Get Store
+Gets a store
+
+> Missing coverage.
+## Get Store Shelves
+Gets the shelves for a store
+
+> Missing coverage.
 	
