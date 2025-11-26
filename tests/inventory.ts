@@ -14,7 +14,7 @@ test.serial(
 			n: 100,
 			offset: 0,
 			order: "oldest",
-			inventoryItemTypes: "prop"
+			types: "prop"
 		},
 		statusCode: 200,
 		unstable: false
