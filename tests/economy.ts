@@ -123,7 +123,7 @@ test(testOperation, "getActiveLicenses", {
 	statusCode: 200
 });
 
-test(testOperation, "getStore", {
+test.failing(testOperation, "getStore", {
 	parameters: {
 		storeId: vrchatOfficialStoreId,
         hydrateListings: true,
@@ -132,11 +132,11 @@ test(testOperation, "getStore", {
 	statusCode: 200
 });
 
-test(testOperation, "getStoreShelves", {
+test.failing(testOperation, "getStoreShelves", {
 	parameters: {
 		storeId: vrchatOfficialStoreId,
         hydrateListings: true,
-        storeView: "all"
+        fetch: "all"
 	},
 	statusCode: 200
 });

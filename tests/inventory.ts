@@ -11,9 +11,9 @@ test.serial(
 	"getInventory",
 	{
 		parameters: {
-			number: 100,
+			n: 100,
 			offset: 0,
-			inventorySortOrder: "oldest",
+			order: "oldest",
 			inventoryItemTypes: "prop"
 		},
 		statusCode: 200,
@@ -71,7 +71,7 @@ test(
 	"spawnInventoryItem",
 	{
 		parameters: {
-			inventorySpawnItemId: "default_money"
+			id: "default_money"
 		},
 		statusCode: 200,
 		unstable: [ "token", "version" ]
