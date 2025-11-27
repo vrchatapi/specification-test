@@ -15,9 +15,9 @@ Response schema mismatch:
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
-* Missing property at ``#/id``,
-* Missing property at ``#/displayName``,
-* Missing property at ``#/userIcon``,
+* Missing property at ``#/acceptedTOSVersion``,
+* Missing property at ``#/ageVerificationStatus``,
+* Missing property at ``#/ageVerified``,
 
 *45 issues truncated.*
 #### [getCurrentUser while missing credentials](/data/requests/authentication/getcurrentuser-while-missing-credentials.md)
@@ -199,7 +199,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/1/durationInMs``,
 * Unexpected property at ``#/results/2/durationInMs``,
 
-*63 issues truncated.*
+*61 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -217,9 +217,27 @@ Response schema mismatch:
 #### [deleteGroupCalendarEvent](/data/requests/calendar/deletegroupcalendarevent.md)
 
 
+#### [searchCalendarEvents](/data/requests/calendar/searchcalendarevents.md)
+
+
 
 
 ## [Economy](/data/requests/economy)
+
+#### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
+
+Response schema mismatch:
+Unrecognized format used: "data-time" at #/items/properties/updatedAt.
+
+#### [getStore](/data/requests/economy/getstore.md)
+
+Response schema mismatch:
+Unrecognized format used: "data-time" at #/properties/shelves/items/properties/updatedAt.
+
+#### [getEconomyAccount](/data/requests/economy/geteconomyaccount.md)
+
+Response schema mismatch:
+* Invalid type at ``#``.
 
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
@@ -252,6 +270,9 @@ Response schema mismatch:
 #### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
 
 
+#### [getUserSubscriptionEligible](/data/requests/economy/getusersubscriptioneligible.md)
+
+
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
 
 
@@ -268,6 +289,12 @@ Response schema mismatch:
 
 
 #### [getBalance](/data/requests/economy/getbalance.md)
+
+
+#### [getBalanceEarnings](/data/requests/economy/getbalanceearnings.md)
+
+
+#### [getActiveLicenses](/data/requests/economy/getactivelicenses.md)
 
 
 
@@ -411,7 +438,13 @@ Response schema mismatch:
 * Unexpected property at ``#/equipSlots``,
 * Unexpected property at ``#/validateUserAttributes``.
 
+#### [getInventory](/data/requests/inventory/getinventory.md)
+
+
 #### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
+
+
+#### [spawnInventoryItem](/data/requests/inventory/spawninventoryitem.md)
 
 
 
@@ -517,7 +550,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*78 issues truncated.*
+*82 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

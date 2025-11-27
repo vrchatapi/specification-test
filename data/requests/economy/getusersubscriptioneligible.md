@@ -1,7 +1,7 @@
-# getInviteMessage
+# getUserSubscriptionEligible
 
 ## Request
-`GET https://api.vrchat.cloud/api/1/message/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/message/0`
+`GET https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/subscription/eligible`
 
 | Header | Value |
 | ------ | ----- |
@@ -27,12 +27,11 @@
 
 ```jsonc
 {
-  "canBeUpdated": true,
-  "id": "invm_30b422a0-3231-47af-8362-8b3e0bf00d25",
-  "message": "Hello‚ Worldǃ",
-  "messageType": "message",
-  "remainingCooldownMinutes": 0,
-  "slot": 0,
-  "updatedAt": "<unstable: string>"
+  "activeCancelledSubscription": false,
+  "giftEligible": true,
+  "nonExtendVendorWillLoseGiftTime": false,
+  "purchaseEligible": true,
+  "subscriptionEligible": true,
+  "subscriptionOnAltAccount": false
 }
 ```

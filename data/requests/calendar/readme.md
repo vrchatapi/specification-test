@@ -15,7 +15,7 @@ Get a list of a followed calendar events for the month in ?date
 ## Search for calendar events
 Get a list of calendar events by search terms
 
-> Missing coverage.
+* [searchCalendarEvents](./searchcalendarevents.md)
 ## List a group's calendar events
 Get a list of a group's calendar events
 

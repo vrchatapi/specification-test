@@ -1,14 +1,29 @@
 # Files
 
-## List Files
-Returns a list of files
+## Get AdminAssetBundle
+Returns an AdminAssetBundle
 
-* [getFiles without data](./getfiles-without-data.md)
-* [getFiles](./getfiles.md)
+> Missing coverage.
+## Get File Version Analysis
+Get the performance analysis for the uploaded assets of an avatar
+
+* [getFileAnalysis](./getfileanalysis.md)
+## Get File Version Analysis Security
+Get the security performance analysis for the uploaded assets of an avatar
+
+* [getFileAnalysisSecurity](./getfileanalysissecurity.md)
+## Get File Version Analysis Standard
+Get the standard performance analysis for the uploaded assets of an avatar
+
+* [getFileAnalysisStandard](./getfileanalysisstandard.md)
 ## Create File
 Creates a new File object
 
 * [createFile](./createfile.md)
+## Upload gallery image, icon, emoji or sticker
+Upload an image, which can be an icon, gallery image, sticker or emoji
+
+> Missing coverage.
 ## Delete File
 Deletes a File object.
 
@@ -47,32 +62,17 @@ Starts an upload of a specific FilePart. This endpoint will return an AWS URL wh
 Retrieves the upload status for file upload. Can currently only be accessed when `status` is `waiting`. Trying to access it on a file version already uploaded currently times out.
 
 > Missing coverage.
-## Get File Version Analysis
-Get the performance analysis for the uploaded assets of an avatar
+## List Files
+Returns a list of files
 
-* [getFileAnalysis](./getfileanalysis.md)
-## Get File Version Analysis Security
-Get the security performance analysis for the uploaded assets of an avatar
-
-* [getFileAnalysisSecurity](./getfileanalysissecurity.md)
-## Get File Version Analysis Standard
-Get the standard performance analysis for the uploaded assets of an avatar
-
-* [getFileAnalysisStandard](./getfileanalysisstandard.md)
-## Upload gallery image, icon, emoji or sticker
-Upload an image, which can be an icon, gallery image, sticker or emoji
-
-> Missing coverage.
-## Upload icon
-Upload an icon
-
-> Missing coverage.
+* [getFiles without data](./getfiles-without-data.md)
+* [getFiles](./getfiles.md)
 ## Upload gallery image
 Upload a gallery image
 
 > Missing coverage.
-## Get AdminAssetBundle
-Returns an AdminAssetBundle
+## Upload icon
+Upload an icon
 
 > Missing coverage.
 	

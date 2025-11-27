@@ -4,6 +4,10 @@
 List information about friends.
 
 * [getFriends](./getfriends.md)
+## Unfriend
+Unfriend a user by ID.
+
+> Missing coverage.
 ## Delete Friend Request
 Deletes an outgoing pending friend request to another user. To delete an incoming friend request, use the `deleteNotification` endpoint instead.
 
@@ -18,8 +22,4 @@ Retrieve if the user is currently a friend with a given user, if they have an ou
 * [getFriendStatus prior to friend request](./getfriendstatus-prior-to-friend-request.md)
 * [getFriendStatus after friend request](./getfriendstatus-after-friend-request.md)
 * [getFriendStatus after deleting friend request](./getfriendstatus-after-deleting-friend-request.md)
-## Unfriend
-Unfriend a user by ID.
-
-> Missing coverage.
 	

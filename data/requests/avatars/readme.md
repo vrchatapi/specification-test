@@ -1,9 +1,9 @@
 # Avatars
 
-## Get Own Avatar
-Get the current avatar for the user. This will return an error for any other user than the one logged in.
+## Get Avatar Styles
+List avatar styles.
 
-* [getOwnAvatar](./getownavatar.md)
+> Missing coverage.
 ## Search Avatars
 Search and list avatars by query filters. You can only search your own or featured avatars. It is not possible as a normal user to search other peoples avatars.
 
@@ -13,8 +13,16 @@ Search and list avatars by query filters. You can only search your own or featur
 Create an avatar. It's possible to optionally specify a ID if you want a custom one. Attempting to create an Avatar with an already claimed ID will result in a DB error.
 
 > Missing coverage.
-## Get Avatar Styles
-List avatar styles.
+## List Favorited Avatars
+Search and list favorited avatars by query filters.
+
+* [getFavoritedAvatars with zero parameters](./getfavoritedavatars-with-zero-parameters.md)
+## Get Impostor Queue Stats
+Gets service stats for queued impostor.
+
+> Missing coverage.
+## List Licensed Avatars
+List licensed avatars.
 
 > Missing coverage.
 ## Delete Avatar
@@ -29,6 +37,14 @@ Get information about a specific Avatar.
 Update information about a specific avatar.
 
 > Missing coverage.
+## Delete generated Impostor
+Delete generated Impostor for that avatar.
+
+> Missing coverage.
+## Enqueue Impostor generation
+Enqueue Impostor generation for that avatar.
+
+> Missing coverage.
 ## Select Avatar
 Switches into that avatar.
 
@@ -39,24 +55,8 @@ Switches into that avatar as your fallback avatar.
 
 * [selectFallbackAvatar with id (not quest fallback)](./selectfallbackavatar-with-id-(not-quest-fallback).md)
 * [selectFallbackAvatar with id](./selectfallbackavatar-with-id.md)
-## List Favorited Avatars
-Search and list favorited avatars by query filters.
+## Get Own Avatar
+Get the current avatar for the user. This will return an error for any other user than the one logged in.
 
-* [getFavoritedAvatars with zero parameters](./getfavoritedavatars-with-zero-parameters.md)
-## List Licensed Avatars
-List licensed avatars.
-
-> Missing coverage.
-## Enqueue Impostor generation
-Enqueue Impostor generation for that avatar.
-
-> Missing coverage.
-## Get Impostor Queue Stats
-Gets service stats for queued impostor.
-
-> Missing coverage.
-## Delete generated Impostor
-Delete generated Impostor for that avatar.
-
-> Missing coverage.
+* [getOwnAvatar](./getownavatar.md)
 	

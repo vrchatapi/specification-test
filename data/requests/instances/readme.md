@@ -8,6 +8,10 @@ Create an instance
 Returns a list of recently visited locations.
 
 > Missing coverage.
+## Get Instance By Short Name
+Returns an instance. Please read [Instances Tutorial](https://vrchatapi.github.io/tutorials/instances/) for more information on Instances.
+
+* [getInstanceByShortName secure name is a valid short name](./getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 ## Close Instance
 Close an instance or update the closedAt time when it will be closed.
 
@@ -24,8 +28,4 @@ If an invalid instanceId is provided, this endpoint will simply return "null"!
 Returns an instance short name.
 
 * [getShortName](./getshortname.md)
-## Get Instance By Short Name
-Returns an instance. Please read [Instances Tutorial](https://vrchatapi.github.io/tutorials/instances/) for more information on Instances.
-
-* [getInstanceByShortName secure name is a valid short name](./getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 	

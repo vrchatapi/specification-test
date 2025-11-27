@@ -1,5 +1,25 @@
 # Favorites
 
+## Get Favorite Limits
+Return information about a specific Favorite.
+
+* [getFavoriteLimits](./getfavoritelimits.md)
+## Clear Favorite Group
+Clear ALL contents of a specific favorite group.
+
+> Missing coverage.
+## Show Favorite Group
+Fetch information about a specific favorite group.
+
+* [getFavoriteGroup](./getfavoritegroup.md)
+## Update Favorite Group
+Update information about a specific favorite group.
+
+* [updateFavoriteGroup](./updatefavoritegroup.md)
+## List Favorite Groups
+Return a list of favorite groups owned by a user. Returns the same information as `getFavoriteGroups`.
+
+* [getFavoriteGroups](./getfavoritegroups.md)
 ## List Favorites
 Returns a list of favorites.
 
@@ -17,24 +37,4 @@ You cannot add people whom you are not friends with to your friends list. Destro
 Remove a favorite from your favorites list.
 
 * [removeFavorite](./removefavorite.md)
-## List Favorite Groups
-Return a list of favorite groups owned by a user. Returns the same information as `getFavoriteGroups`.
-
-* [getFavoriteGroups](./getfavoritegroups.md)
-## Clear Favorite Group
-Clear ALL contents of a specific favorite group.
-
-> Missing coverage.
-## Show Favorite Group
-Fetch information about a specific favorite group.
-
-* [getFavoriteGroup](./getfavoritegroup.md)
-## Update Favorite Group
-Update information about a specific favorite group.
-
-* [updateFavoriteGroup](./updatefavoritegroup.md)
-## Get Favorite Limits
-Return information about a specific Favorite.
-
-* [getFavoriteLimits](./getfavoritelimits.md)
 	

@@ -15,17 +15,17 @@ Response schema mismatch:
 * Missing property at ``#/permanent``,
 * Missing property at ``#/photonRegion``,
 * Missing property at ``#/platforms``,
-* Missing property at ``#/region``,
-* Missing property at ``#/secureName``,
-* Missing property at ``#/tags``,
-* Missing property at ``#/type``,
-* Missing property at ``#/worldId``,
 * Missing property at ``#/queueEnabled``,
 * Missing property at ``#/queueSize``,
 * Missing property at ``#/recommendedCapacity``,
+* Missing property at ``#/region``,
+* Missing property at ``#/secureName``,
 * Missing property at ``#/strict``,
+* Missing property at ``#/tags``,
+* Missing property at ``#/type``,
 * Missing property at ``#/userCount``,
 * Missing property at ``#/world``,
+* Missing property at ``#/worldId``,
 * Unexpected property at ``#/error``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/instances/s/undefined`

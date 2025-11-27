@@ -1,25 +1,9 @@
 # Invite
 
-## Invite User
-Sends an invite to a user. Returns the Notification of type `invite` that was sent.
-
-> Missing coverage.
-## Invite User with photo
-Sends an photo invite to a user. Returns the Notification of type `invite` that was sent.
-
-> Missing coverage.
 ## Invite Myself To Instance
 Sends self an invite to an instance
 
 * [inviteMyselfTo](./invitemyselfto.md)
-## Request Invite
-Requests an invite from a user. Returns the Notification of type `requestInvite` that was sent.
-
-> Missing coverage.
-## Request Invite with photo
-Requests with photo an invite from a user. Returns the Notification of type `requestInvite` that was sent.
-
-> Missing coverage.
 ## Respond Invite
 Respond to an invite or invite request without accepting it. `:notificationId` is the ID of the requesting notification.
 
@@ -32,6 +16,14 @@ Respond with photo to an invite or invite request without accepting it. `:notifi
 
 In case the notification being replied to is an invite, the `responseSlot` refers to a response message from the the `message` collection.
 In case the notification is an invite request, it will refer to one from the `requestResponse` collection instead.'
+
+> Missing coverage.
+## Invite User
+Sends an invite to a user. Returns the Notification of type `invite` that was sent.
+
+> Missing coverage.
+## Invite User with photo
+Sends an photo invite to a user. Returns the Notification of type `invite` that was sent.
 
 > Missing coverage.
 ## List Invite Messages
@@ -90,4 +82,12 @@ Message type refers to a different collection of messages, used during different
 
 * [updateInviteMessage message slot 0 update](./updateinvitemessage-message-slot-0-update.md)
 * [updateInviteMessage message slot 0 update rate limited](./updateinvitemessage-message-slot-0-update-rate-limited.md)
+## Request Invite
+Requests an invite from a user. Returns the Notification of type `requestInvite` that was sent.
+
+> Missing coverage.
+## Request Invite with photo
+Requests with photo an invite from a user. Returns the Notification of type `requestInvite` that was sent.
+
+> Missing coverage.
 	

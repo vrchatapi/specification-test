@@ -1,7 +1,7 @@
-# getInviteMessage
+# getInventory
 
 ## Request
-`GET https://api.vrchat.cloud/api/1/message/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/message/0`
+`GET https://api.vrchat.cloud/api/1/inventory?n=100&offset=0&order=oldest&types=prop`
 
 | Header | Value |
 | ------ | ----- |
@@ -17,22 +17,17 @@
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `26` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "canBeUpdated": true,
-  "id": "invm_30b422a0-3231-47af-8362-8b3e0bf00d25",
-  "message": "Hello‚ Worldǃ",
-  "messageType": "message",
-  "remainingCooldownMinutes": 0,
-  "slot": 0,
-  "updatedAt": "<unstable: string>"
+  "data": [],
+  "totalCount": 0
 }
 ```

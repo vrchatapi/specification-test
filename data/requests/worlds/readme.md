@@ -1,11 +1,11 @@
 # Worlds
 
-## Check User Persistence Exists
-Checks whether the user has persistence data for a given world
-
-> Missing coverage.
 ## Delete User Persistence
 Deletes the user's persistence data for a given world
+
+> Missing coverage.
+## Check User Persistence Exists
+Checks whether the user has persistence data for a given world
 
 > Missing coverage.
 ## Search All Worlds
