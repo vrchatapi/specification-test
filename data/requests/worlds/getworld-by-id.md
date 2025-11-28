@@ -50,6 +50,7 @@
   "publicationDate": "2021-04-18T23:17:33.390Z",
   "recommendedCapacity": 24,
   "releaseStatus": "public",
+  "storeId": "esto_751c416f-350b-4876-b518-7ba0dd8e9746",
   "tags": [
     "author_tag_bar",
     "author_tag_quest",
@@ -60,7 +61,8 @@
     "system_approved",
     "system_monetized_world",
     "admin_filter_UrlLauncher",
-    "admin_vrrat_community_takeover"
+    "admin_vrrat_community_takeover",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: array of strings>",

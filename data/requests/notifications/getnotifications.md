@@ -38,14 +38,14 @@
     "created_at": "2025-06-19T01:15:55.323Z"
   },
   {
-    "id": "not_e0558209-e299-49c4-a9a2-17c5d8a35807",
+    "id": "not_32f0bc80-5cc4-494e-86ec-120bfac7686d",
     "senderUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "senderUsername": "8cf3def6b8cea",
     "type": "invite",
     "message": "This is a generated invite to The Black Cat",
     "details": "{\"worldId\":\"wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:undefined\",\"worldName\":\"The Black Cat\"}",
     "seen": false,
-    "created_at": "2025-11-27T01:15:30.737Z"
+    "created_at": "2025-11-28T01:14:41.459Z"
   }
 ]
 ```
