@@ -27,24 +27,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/22/durationInMs``,
 * Unexpected property at ``#/results/23/durationInMs``,
 * Unexpected property at ``#/results/24/durationInMs``,
-* Unexpected property at ``#/results/25/durationInMs``,
-* Unexpected property at ``#/results/26/durationInMs``,
-* Unexpected property at ``#/results/27/durationInMs``,
-* Unexpected property at ``#/results/28/durationInMs``,
-* Unexpected property at ``#/results/29/durationInMs``,
-* Unexpected property at ``#/results/30/durationInMs``,
-* Unexpected property at ``#/results/31/durationInMs``,
-* Unexpected property at ``#/results/32/durationInMs``,
-* Unexpected property at ``#/results/33/durationInMs``,
-* Unexpected property at ``#/results/34/durationInMs``,
-* Unexpected property at ``#/results/35/durationInMs``,
-* Unexpected property at ``#/results/36/durationInMs``,
-* Unexpected property at ``#/results/37/durationInMs``,
-* Unexpected property at ``#/results/38/durationInMs``,
-* Unexpected property at ``#/results/39/durationInMs``,
-* Unexpected property at ``#/results/40/durationInMs``,
-* Unexpected property at ``#/results/41/durationInMs``,
-* Unexpected property at ``#/results/42/durationInMs``.
+* Unexpected property at ``#/results/25/durationInMs``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/calendar/featured`
 

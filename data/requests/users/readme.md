@@ -3,23 +3,25 @@
 ## Get User Notes
 Get recently updated user notes
 
-> Missing coverage.
+* [getUserNotes](./getusernotes.md)
 ## Update User Note
 Updates the currently authenticated user's note on a user
 
-> Missing coverage.
+* [updateUserNote](./updateusernote.md)
 ## Get User Note
 Get a particular user note
 
-> Missing coverage.
+* [getUserNote](./getusernote.md)
 ## Search All Users
 Search and list any users by text query
 
-> Missing coverage.
+* [searchUsers without parameters](./searchusers-without-parameters.md)
+* [searchUsers](./searchusers.md)
+* [searchUsers with limit](./searchusers-with-limit.md)
 ## Get User by ID
 Get public user information about a specific user using their ID.
 
-> Missing coverage.
+* [getUser](./getuser.md)
 ## Update User Info
 Update a users information such as the email and birthday.
 
@@ -35,7 +37,7 @@ Updates a user's badge
 ## Get User Feedback
 Get user's submitted feedback
 
-> Missing coverage.
+* [getUserFeedback](./getuserfeedback.md)
 ## Get User Groups
 Get user's public groups
 

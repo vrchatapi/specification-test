@@ -7,19 +7,19 @@ Returns an AdminAssetBundle
 ## Get File Version Analysis
 Get the performance analysis for the uploaded assets of an avatar
 
-> Missing coverage.
+* [getFileAnalysis](./getfileanalysis.md)
 ## Get File Version Analysis Security
 Get the security performance analysis for the uploaded assets of an avatar
 
-> Missing coverage.
+* [getFileAnalysisSecurity](./getfileanalysissecurity.md)
 ## Get File Version Analysis Standard
 Get the standard performance analysis for the uploaded assets of an avatar
 
-> Missing coverage.
+* [getFileAnalysisStandard](./getfileanalysisstandard.md)
 ## Create File
 Creates a new File object
 
-> Missing coverage.
+* [createFile](./createfile.md)
 ## Upload gallery image, icon, emoji or sticker
 Upload an image, which can be an icon, gallery image, sticker or emoji
 
@@ -27,19 +27,19 @@ Upload an image, which can be an icon, gallery image, sticker or emoji
 ## Delete File
 Deletes a File object.
 
-> Missing coverage.
+* [deleteFile](./deletefile.md)
 ## Show File
 Shows general information about the "File" object. Each File can have several "Version"'s, and each Version can have multiple real files or "Data" blobs.
 
-> Missing coverage.
+* [getFile](./getfile.md)
 ## Create File Version
 Creates a new FileVersion. Once a Version has been created, proceed to the `/file/{fileId}/{versionId}/file/start` endpoint to start a file upload.
 
-> Missing coverage.
+* [createFileVersion](./createfileversion.md)
 ## Delete File Version
 Delete a specific version of a file. You can only delete the latest version.
 
-> Missing coverage.
+* [deleteFileVersion](./deletefileversion.md)
 ## Download File Version
 Downloads the file with the provided version number.
 
@@ -47,7 +47,7 @@ Downloads the file with the provided version number.
 
 **Extension Note:** Files are not guaranteed to have a file extensions. UnityPackage files tends to have it, images through this endpoint do not. You are responsible for appending file extension from the `extension` field when neccesary.
 
-> Missing coverage.
+* [downloadFileVersion](./downloadfileversion.md)
 ## Finish FileData Upload
 Finish an upload of a FileData. This will mark it as "complete". After uploading the `file` for Avatars and Worlds you then have to upload a `signature` file.
 
@@ -65,7 +65,8 @@ Retrieves the upload status for file upload. Can currently only be accessed when
 ## List Files
 Returns a list of files
 
-> Missing coverage.
+* [getFiles without data](./getfiles-without-data.md)
+* [getFiles](./getfiles.md)
 ## Upload gallery image
 Upload a gallery image
 

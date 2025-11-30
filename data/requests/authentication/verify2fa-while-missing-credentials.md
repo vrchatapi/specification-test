@@ -1,9 +1,5 @@
 # verify2FA while missing credentials
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/error/waf_code``,
-* Unexpected property at ``#/error/waf_list``.
 ## Request
 `POST https://api.vrchat.cloud/api/1/auth/twofactorauth/totp/verify`
 
@@ -13,25 +9,25 @@ Response schema mismatch:
 
 
 ## Response
-`403 Forbidden`
+`401 Unauthorized`
 
 | Header | Value |
 | ------ | ----- |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/json` |
+| content-length | `65` |
+| content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Accept-Encoding` |
+| vary | `Authorization, Accept-Encoding` |
+| x-frame-options | `deny` |
 
 ```jsonc
 {
   "error": {
-    "message": "\"the IP address or network you're trying to connect from is blacklisted (abuseipdb list). if you're using a vpn or proxy, try disabling it first. if you believe to have gotten this message in error, please contact support at help.vrchat.com\"",
-    "status_code": 403,
-    "waf_code": 42860,
-    "waf_list": "abuseipdb"
+    "message": "\"Missing Credentials\"",
+    "status_code": 401
   }
 }
 ```
