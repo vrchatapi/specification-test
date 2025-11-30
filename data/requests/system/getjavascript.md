@@ -1,8 +1,7 @@
 # getJavaScript
 
 ## Issues
-Response schema mismatch:
-Unexpected token '/', "/*! For li"... is not valid JSON.
+Response media type ``application/json`` not expected.
 ## Request
 `GET https://api.vrchat.cloud/api/1/js/app.js`
 
@@ -12,16 +11,17 @@ Unexpected token '/', "/*! For li"... is not valid JSON.
 
 
 ## Response
-`200 OK`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/javascript` |
-| etag | `<redacted>` |
-| server | `CloudFront` |
+| content-type | `application/json` |
+| pragma | `no-cache` |
+| server | `cloudflare` |
 | transfer-encoding | `chunked` |
-| vary | `accept-encoding, Origin` |
+| vary | `Accept-Encoding` |
 
 ```jsonc
 <unstable>

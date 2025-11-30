@@ -49,7 +49,7 @@ Response schema mismatch:
 * Missing property at ``#/twoFactorAuthEnabled``,
 * Missing property at ``#/unsubscribe``,
 * Missing property at ``#/userIcon``,
-* Unexpected property at ``#/requiresTwoFactorAuth``.
+* Unexpected property at ``#/error``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -60,27 +60,25 @@ Response schema mismatch:
 
 
 ## Response
-`200 OK`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
-| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `40` |
-| content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
+| content-type | `application/json` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| set-cookie | `<redacted>` |
-| vary | `Authorization, Accept-Encoding` |
-| x-frame-options | `deny` |
+| transfer-encoding | `chunked` |
+| vary | `Accept-Encoding` |
 
 ```jsonc
 {
-  "requiresTwoFactorAuth": [
-    "totp",
-    "otp"
-  ]
+  "error": {
+    "message": "\"the IP address or network you're trying to connect from is blacklisted (abuseipdb list). if you're using a vpn or proxy, try disabling it first. if you believe to have gotten this message in error, please contact support at help.vrchat.com\"",
+    "status_code": 403,
+    "waf_code": 42860,
+    "waf_list": "abuseipdb"
+  }
 }
 ```

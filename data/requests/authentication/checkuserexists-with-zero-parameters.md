@@ -1,34 +1,37 @@
 # checkUserExists with zero parameters
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/error/waf_code``,
+* Unexpected property at ``#/error/waf_list``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/exists`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
-`400 Bad Request`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
-| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `86` |
-| content-type | `application/json; charset=utf-8` |
+| content-type | `application/json` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Origin, Accept-Encoding` |
-| x-frame-options | `deny` |
+| transfer-encoding | `chunked` |
+| vary | `Accept-Encoding` |
 
 ```jsonc
 {
   "error": {
-    "message": "\"username, email, or displayName required\"",
-    "status_code": 400
+    "message": "\"the IP address or network you're trying to connect from is blacklisted (abuseipdb list). if you're using a vpn or proxy, try disabling it first. if you believe to have gotten this message in error, please contact support at help.vrchat.com\"",
+    "status_code": 403,
+    "waf_code": 42860,
+    "waf_list": "abuseipdb"
   }
 }
 ```

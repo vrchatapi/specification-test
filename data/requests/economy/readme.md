@@ -3,47 +3,47 @@
 ## List Steam Transactions
 Get all own Steam transactions.
 
-* [getSteamTransactions](./getsteamtransactions.md)
+> Missing coverage.
 ## Get Steam Transaction
 Get a single Steam transactions by ID. This returns the exact same information as `getSteamTransactions`, so no point in using this endpoint.
 
-* [getSteamTransaction](./getsteamtransaction.md)
+> Missing coverage.
 ## Get Current Subscriptions
 Get a list of all current user subscriptions.
 
-* [getCurrentSubscriptions](./getcurrentsubscriptions.md)
+> Missing coverage.
 ## Get Active Licenses
 Gets active licenses
 
-* [getActiveLicenses](./getactivelicenses.md)
+> Missing coverage.
 ## Get Store
 Gets a store
 
-* [getStore](./getstore.md)
+> Missing coverage.
 ## Get Store Shelves
 Gets the shelves for a store
 
-* [getStoreShelves](./getstoreshelves.md)
+> Missing coverage.
 ## Get License Group
 Get a single License Group by given ID.
 
-* [getLicenseGroup](./getlicensegroup.md)
+> Missing coverage.
 ## Get Product Listing
 Gets a product listing
 
-* [getProductListing](./getproductlisting.md)
+> Missing coverage.
 ## List Subscriptions
 List all existing Subscriptions. For example, "vrchatplus-monthly" and "vrchatplus-yearly".
 
-* [getSubscriptions](./getsubscriptions.md)
+> Missing coverage.
 ## Get Tilia Status
 Gets the status of Tilia integration
 
-* [getTiliaStatus](./gettiliastatus.md)
+> Missing coverage.
 ## List Token Bundles
 Gets the list of token bundles
 
-* [getTokenBundles](./gettokenbundles.md)
+> Missing coverage.
 ## Get Bulk Gift Purchases
 Get bulk gift purchases made by the user.
 
@@ -55,23 +55,23 @@ Get the most recent user subscription.
 ## Get Balance
 Gets the balance of a user
 
-* [getBalance](./getbalance.md)
+> Missing coverage.
 ## Get Balance Earnings
 Gets the balance of a user from earnings
 
-* [getBalanceEarnings](./getbalanceearnings.md)
+> Missing coverage.
 ## Get Economy Account
 Gets the economy account of a user
 
-* [getEconomyAccount](./geteconomyaccount.md)
+> Missing coverage.
 ## Get User Product Listings
 Gets the product listings of a given user
 
-* [getProductListings](./getproductlistings.md)
+> Missing coverage.
 ## Get Tilia TOS Agreement Status
 Gets the status of the agreement of a user to the Tilia TOS
 
-* [getTiliaTos](./gettiliatos.md)
+> Missing coverage.
 ## Update Tilia TOS Agreement Status
 Updates the status of the agreement of a user to the Tilia TOS
 
@@ -83,5 +83,5 @@ Get the user's eligibility status for subscriptions based on available credits.
 ## Get User Subscription Eligiblity
 Get the user's eligibility status for subscriptions.
 
-* [getUserSubscriptionEligible](./getusersubscriptioneligible.md)
+> Missing coverage.
 	

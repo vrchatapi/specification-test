@@ -1,8 +1,7 @@
 # getCSS
 
 ## Issues
-Response schema mismatch:
-Unexpected token ':', ":root{--st"... is not valid JSON.
+Response media type ``application/json`` not expected.
 ## Request
 `GET https://api.vrchat.cloud/api/1/css/app.css`
 
@@ -12,16 +11,17 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 
 
 ## Response
-`200 OK`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
+| cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `text/css` |
-| etag | `<redacted>` |
-| server | `CloudFront` |
+| content-type | `application/json` |
+| pragma | `no-cache` |
+| server | `cloudflare` |
 | transfer-encoding | `chunked` |
-| vary | `accept-encoding, Origin` |
+| vary | `Accept-Encoding` |
 
 ```jsonc
 <unstable>

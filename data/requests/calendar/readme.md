@@ -3,45 +3,45 @@
 ## List calendar events
 Get a list of a user's calendar events for the month in ?date
 
-* [getCalendarEvents](./getcalendarevents.md)
+> Missing coverage.
 ## List featured calendar events
 Get a list of a featured calendar events for the month in ?date
 
-* [getFeaturedCalendarEvents](./getfeaturedcalendarevents.md)
+> Missing coverage.
 ## List followed calendar events
 Get a list of a followed calendar events for the month in ?date
 
-* [getFollowedCalendarEvents](./getfollowedcalendarevents.md)
+> Missing coverage.
 ## Search for calendar events
 Get a list of calendar events by search terms
 
-* [searchCalendarEvents](./searchcalendarevents.md)
+> Missing coverage.
 ## List a group's calendar events
 Get a list of a group's calendar events
 
-* [getGroupCalendarEvents](./getgroupcalendarevents.md)
+> Missing coverage.
 ## Create a calendar event
 Creates an event for a group on the calendar
 
-* [createGroupCalendarEvent](./creategroupcalendarevent.md)
+> Missing coverage.
 ## Delete a calendar event
 Delete a group calendar event
 
-* [deleteGroupCalendarEvent](./deletegroupcalendarevent.md)
+> Missing coverage.
 ## Get a calendar event
 Get a group calendar event
 
-* [getGroupCalendarEvent](./getgroupcalendarevent.md)
+> Missing coverage.
 ## Download calendar event as ICS
 Returns the specified calendar in iCalendar (ICS) format.
 
-* [getGroupCalendarEventICS](./getgroupcalendareventics.md)
+> Missing coverage.
 ## Update a calendar event
 Updates an event for a group on the calendar
 
-* [updateGroupCalendarEvent](./updategroupcalendarevent.md)
+> Missing coverage.
 ## Follow a calendar event
 Follow or unfollow an event on a group's calendar
 
-* [followGroupCalendarEvent](./followgroupcalendarevent.md)
+> Missing coverage.
 	
