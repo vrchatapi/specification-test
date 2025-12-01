@@ -4,7 +4,7 @@
 Response schema mismatch:
 * Unexpected property at ``#/calendarEntryId``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/64267~group(grp_b2336ada-250d-43d2-8821-b7334d269cf8)~groupAccessType(public)~region(us)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/87484~group(grp_d1a7bc43-7906-48d9-b4fc-705f8fa040c5)~groupAccessType(public)~region(us)`
 
 | Header | Value |
 | ------ | ----- |
