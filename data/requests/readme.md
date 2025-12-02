@@ -550,7 +550,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*77 issues truncated.*
+*79 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

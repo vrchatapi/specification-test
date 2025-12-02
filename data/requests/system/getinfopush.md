@@ -77,36 +77,36 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-11-24T16:14:56.379Z",
+    "createdAt": "2025-11-19T15:31:51.418Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_0edf2302-d45c-4a05-82ed-ba011f9cb10b.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b3c22d42-c011-4a74-8655-802a2110569e.png",
       "onPressed": {
         "command": "OpenVRCPlusMenu"
       }
     },
-    "endDate": "2025-12-01T08:00:00.000Z",
+    "endDate": "2025-12-02T08:00:00.000Z",
     "experiment": {
-      "key": "ips-banner-black-friday",
-      "variant": "groan-promo"
+      "key": "",
+      "variant": ""
     },
-    "hash": "ips_blackfridaygroantube4ac-6d348be3724a",
-    "id": "ips_blackfridaygroantube4ac-6d348be3724a",
+    "hash": "ips_cybermonday20250e6-a6c8-d34c8fd21833",
+    "id": "ips_cybermonday20250e6-a6c8-d34c8fd21833",
     "isEnabled": true,
-    "priority": 300,
+    "priority": 290,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": "2025-11-24T21:00:00.000Z",
+    "startDate": "2025-12-01T08:00:00.000Z",
     "tags": [
       "quick-menu-banner",
+      "user-no-vrcplus",
       "platform-pc-desktop",
       "platform-pc",
       "platform-pc-vr",
       "platform-store-steam",
-      "user-no-vrcplus",
       "platform-mobile-android"
     ],
-    "updatedAt": "2025-11-25T01:09:09.158Z"
+    "updatedAt": "2025-12-01T17:24:07.352Z"
   },
   {
     "createdAt": "2025-11-06T17:22:48.847Z",
