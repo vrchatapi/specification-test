@@ -2,25 +2,26 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/0/experiment``,
+* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Invalid type at ``#/1/startDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
+* Invalid type at ``#/2/endDate``,
 * Invalid type at ``#/2/startDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Invalid type at ``#/3/endDate``,
 * Invalid type at ``#/3/startDate``,
+* Unexpected property at ``#/3/experiment``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/endDate``,
 * Invalid type at ``#/4/startDate``,
-* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
@@ -39,16 +40,11 @@ Response schema mismatch:
 * Unexpected property at ``#/7/regions``,
 * Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
-* Invalid type at ``#/8/endDate``,
-* Invalid type at ``#/8/startDate``,
-* Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
-* Invalid type at ``#/10/endDate``,
-* Invalid type at ``#/10/startDate``,
-* Unexpected property at ``#/10/regions``,
-* Unexpected property at ``#/10/requireClientTags``.
+* Invalid type at ``#/9/endDate``,
+* Invalid type at ``#/9/startDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -77,41 +73,9 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-11-19T15:31:51.418Z",
+    "createdAt": "2025-11-25T20:37:33.451Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b3c22d42-c011-4a74-8655-802a2110569e.png",
-      "onPressed": {
-        "command": "OpenVRCPlusMenu"
-      }
-    },
-    "endDate": "2025-12-02T08:00:00.000Z",
-    "experiment": {
-      "key": "",
-      "variant": ""
-    },
-    "hash": "ips_cybermonday20250e6-a6c8-d34c8fd21833",
-    "id": "ips_cybermonday20250e6-a6c8-d34c8fd21833",
-    "isEnabled": true,
-    "priority": 290,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-12-01T08:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-no-vrcplus",
-      "platform-pc-desktop",
-      "platform-pc",
-      "platform-pc-vr",
-      "platform-store-steam",
-      "platform-mobile-android"
-    ],
-    "updatedAt": "2025-12-01T17:24:07.352Z"
-  },
-  {
-    "createdAt": "2025-11-06T17:22:48.847Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f866bdc6-3efc-4467-bb65-213db3425205.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_97ede6d1-55d1-48f2-a83b-3543e021405b.png",
       "onPressed": {
         "command": "OpenVRChatStore",
         "parameters": [
@@ -119,20 +83,20 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": "2025-12-02T21:00:00.000Z",
-    "hash": "ips_november-shop-2025-ba8c-f4177d779e84",
-    "id": "ips_november-shop-2025-ba8c-f4177d779e84",
+    "endDate": "2025-12-04T21:00:00.000Z",
+    "hash": "ips_novlastchancemagbundlee-4dbe2cdfd3de",
+    "id": "ips_novlastchancemagbundlee-4dbe2cdfd3de",
     "isEnabled": true,
-    "priority": 302,
+    "priority": 295,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": null,
+    "startDate": "2025-12-02T21:00:00.000Z",
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2025-11-25T19:25:19.921Z"
+    "updatedAt": "2025-12-01T17:24:35.511Z"
   },
   {
     "createdAt": "2025-11-06T17:30:43.228Z",
