@@ -314,53 +314,6 @@ Unrecognized format used: "data-time" at #/items/properties/updatedAt.
     "shelfLayout": "highlightLeft",
     "shelfTitle": "November 2025",
     "updatedAt": "2025-11-06T17:43:24.565Z"
-  },
-  {
-    "id": "ess_b49da2d7-3224-40ba-82ac-b55ab7b2679b",
-    "listingIds": [
-      "prod_40bee8e4-939c-4db7-a4b2-db6037d5ff66"
-    ],
-    "listings": [
-      {
-        "active": true,
-        "buyerRefundable": false,
-        "description": "This Reference Cube seems unstable․ When placed in a world and activated‚ it is permanently destroyed․",
-        "displayName": "Unstable Reference Cube",
-        "duration": 1,
-        "durationType": "days",
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_40bee8e4-939c-4db7-a4b2-db6037d5ff66",
-        "imageId": "file_5a54544c-ec7f-403c-a4e1-89f213498948",
-        "imageUrl": null,
-        "listingType": "duration",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_885c362b-a8a2-4e88-9e1a-48b3043ed724"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_885c362b-a8a2-4e88-9e1a-48b3043ed724"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Item",
-        "vrcPlusDiscountPrice": 0,
-        "whenToExpire": null
-      }
-    ],
-    "shelfDescription": "",
-    "shelfLayout": "col5",
-    "shelfTitle": "{\"MinVersion\":1761} Beta",
-    "updatedAt": "2025-11-11T00:28:32.458Z"
   }
 ]
 ```
