@@ -534,7 +534,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1503 issues truncated.*
+*1499 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -542,7 +542,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*40 issues truncated.*
+*36 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -550,7 +550,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*78 issues truncated.*
+*76 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
