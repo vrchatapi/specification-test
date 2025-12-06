@@ -80,7 +80,7 @@ Unrecognized format used: "data-time" at #/items/properties/updatedAt.
       ],
       "subtitle": "Bundle",
       "vrcPlusDiscountPrice": 2700,
-      "whenToExpire": "2025-12-05T21:00:00.000Z"
+      "whenToExpire": "2025-12-08T22:00:00.000Z"
     },
     "highlightListingId": "prod_7d12437a-a64b-4d90-99e3-3556a93cea90",
     "id": "ess_0bb34b5a-eec8-4cd1-88a7-b2b2ee1260ec",
@@ -126,7 +126,7 @@ Unrecognized format used: "data-time" at #/items/properties/updatedAt.
         ],
         "subtitle": "Portal",
         "vrcPlusDiscountPrice": 810,
-        "whenToExpire": "2025-12-05T21:00:00.000Z"
+        "whenToExpire": "2025-12-08T22:00:00.000Z"
       },
       {
         "active": true,
@@ -161,7 +161,7 @@ Unrecognized format used: "data-time" at #/items/properties/updatedAt.
         ],
         "subtitle": "Warp Effect",
         "vrcPlusDiscountPrice": 720,
-        "whenToExpire": "2025-12-05T21:00:00.000Z"
+        "whenToExpire": "2025-12-08T22:00:00.000Z"
       },
       {
         "active": true,
@@ -196,7 +196,7 @@ Unrecognized format used: "data-time" at #/items/properties/updatedAt.
         ],
         "subtitle": "Item",
         "vrcPlusDiscountPrice": 810,
-        "whenToExpire": "2025-12-05T21:00:00.000Z"
+        "whenToExpire": "2025-12-08T22:00:00.000Z"
       },
       {
         "active": true,
@@ -233,7 +233,7 @@ Unrecognized format used: "data-time" at #/items/properties/updatedAt.
         ],
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 360,
-        "whenToExpire": "2025-12-05T21:00:00.000Z"
+        "whenToExpire": "2025-12-08T22:00:00.000Z"
       },
       {
         "active": true,
@@ -272,7 +272,7 @@ Unrecognized format used: "data-time" at #/items/properties/updatedAt.
         ],
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 180,
-        "whenToExpire": "2025-12-05T21:00:00.000Z"
+        "whenToExpire": "2025-12-08T22:00:00.000Z"
       },
       {
         "active": true,
@@ -307,7 +307,7 @@ Unrecognized format used: "data-time" at #/items/properties/updatedAt.
         ],
         "subtitle": "Item",
         "vrcPlusDiscountPrice": 720,
-        "whenToExpire": "2025-12-05T21:00:00.000Z"
+        "whenToExpire": "2025-12-08T22:00:00.000Z"
       }
     ],
     "shelfDescription": "",

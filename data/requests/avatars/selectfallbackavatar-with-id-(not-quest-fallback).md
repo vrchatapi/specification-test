@@ -27,7 +27,7 @@
 ```jsonc
 {
   "error": {
-    "message": "This avatar isn't tagged as a quest fallback avatar․",
+    "message": "This avatar is unavailableǃ",
     "status_code": 403
   }
 }

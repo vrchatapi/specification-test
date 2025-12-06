@@ -69,7 +69,8 @@
     "admin_AllowInternal_PrideCampaign",
     "admin_AllowInternal_OpenMenu",
     "admin_ios_category",
-    "admin_AllowInternal_Experiments"
+    "admin_AllowInternal_Experiments",
+    "system_updated_recently"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",
@@ -320,26 +321,26 @@
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/320/variant/security?v=1764033459",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/322/variant/security?v=1764982980",
       "assetVersion": 4,
-      "created_at": "2025-11-25T01:17:22.102Z",
-      "id": "unp_87ca46b9-2c70-4485-ac7b-dc54d4c8d6e3",
+      "created_at": "2025-12-06T01:02:50.414Z",
+      "id": "unp_f7b217d1-718f-4f6a-9bea-65cf11f2da9c",
       "platform": "standalonewindows",
       "scanStatus": "passed",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
       "variant": "security",
-      "worldSignature": "AGnH3xoHk5pGPkFd7ZIk9O91H6pEMeJuStmEoB/OBFvfrHL+eQ=="
+      "worldSignature": "AL5af77L2dwPgL/+FKA6K/ePsdTW3bZS3pHu9qtq26PKeFqLIQ=="
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/320/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/322/file",
       "assetVersion": 4,
-      "created_at": "2025-11-25T01:17:22.102Z",
-      "id": "unp_87ca46b9-2c70-4485-ac7b-dc54d4c8d6e3",
+      "created_at": "2025-12-06T01:02:50.414Z",
+      "id": "unp_f7b217d1-718f-4f6a-9bea-65cf11f2da9c",
       "platform": "standalonewindows",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
-      "worldSignature": "AGnH3xoHk5pGPkFd7ZIk9O91H6pEMeJuStmEoB/OBFvfrHL+eQ=="
+      "worldSignature": "AL5af77L2dwPgL/+FKA6K/ePsdTW3bZS3pHu9qtq26PKeFqLIQ=="
     }
   ],
   "updated_at": "<unstable: string>",

@@ -148,8 +148,19 @@ Response schema mismatch:
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/usesGeneratedPassword``.
+* Missing property at ``#/acceptedTOSVersion``,
+* Missing property at ``#/ageVerificationStatus``,
+* Missing property at ``#/ageVerified``,
 
+*45 issues truncated.*
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+
+Response schema mismatch:
+* Missing property at ``#/authorId``,
+* Missing property at ``#/authorName``,
+* Missing property at ``#/created_at``,
+
+*17 issues truncated.*
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
 
@@ -157,9 +168,6 @@ Response schema mismatch:
 
 
 #### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
-
-
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
@@ -199,7 +207,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/1/durationInMs``,
 * Unexpected property at ``#/results/2/durationInMs``,
 
-*89 issues truncated.*
+*88 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -534,7 +542,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1499 issues truncated.*
+*1515 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -542,7 +550,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*36 issues truncated.*
+*39 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -550,7 +558,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*76 issues truncated.*
+*78 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
