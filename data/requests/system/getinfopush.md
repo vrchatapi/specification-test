@@ -72,32 +72,6 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-11-25T20:37:33.451Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_766c2900-2244-4d24-8e59-dbed43f0c761.png",
-      "onPressed": {
-        "command": "OpenVRChatStore",
-        "parameters": [
-          "vrchat"
-        ]
-      }
-    },
-    "endDate": "2025-12-08T22:00:00.000Z",
-    "hash": "ips_novlastchancemagbundlee-4dbe2cdfd3de",
-    "id": "ips_novlastchancemagbundlee-4dbe2cdfd3de",
-    "isEnabled": true,
-    "priority": 295,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-12-02T21:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2025-12-05T19:51:26.008Z"
-  },
-  {
     "createdAt": "2025-12-03T19:51:35.783Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_eb53f171-1ff8-4bf6-8d54-5b7bf5adf3d8.png",
@@ -122,6 +96,32 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2025-12-05T21:03:33.332Z"
+  },
+  {
+    "createdAt": "2025-11-25T20:37:33.451Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_766c2900-2244-4d24-8e59-dbed43f0c761.png",
+      "onPressed": {
+        "command": "OpenVRChatStore",
+        "parameters": [
+          "vrchat"
+        ]
+      }
+    },
+    "endDate": "2025-12-08T22:00:00.000Z",
+    "hash": "ips_novlastchancemagbundlee-4dbe2cdfd3de",
+    "id": "ips_novlastchancemagbundlee-4dbe2cdfd3de",
+    "isEnabled": true,
+    "priority": 325,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2025-12-02T21:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2025-12-06T01:52:09.008Z"
   },
   {
     "createdAt": "2025-10-29T17:23:05.366Z",
