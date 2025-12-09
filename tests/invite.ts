@@ -7,6 +7,7 @@ const blackCatWorldId = state.get("blackcat-world").id;
 const blackCatCustomInstanceId = state.get("blackcat-custom-instance").instanceId;
 const currentUserId = state.get("current-user").id;
 const messageContents = "Hello, World!";
+const messageContentsRateLimited = "I am speed!";
 
 test.todo("Invite User");
 
@@ -138,3 +139,20 @@ test.serial(
 	}
 );
 
+test.serial(
+	"message slot 0 update rate limited",
+	testOperation,
+	"updateInviteMessage",
+	{
+		requestBody: {
+			message: messageContentsRateLimited
+		},
+		parameters: {
+			userId: currentUserId,
+			messageType: "message",
+			slot: 0
+		},
+		statusCode: 429,
+		unstable: false
+	}
+);
