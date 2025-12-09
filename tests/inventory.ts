@@ -1,8 +1,8 @@
 import { state, unstableValues } from "./_cache.js";
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 
-const prominentPropId = "prop_829ba6f6-b837-49d9-b9a9-056b82103b58";
-const prominentTemplateId = "invt_642a8113-3798-4761-98e9-dc2c84adc960";
+const prominentPropId = "prop_49fec698-f0cb-475c-9bc3-8f24e1bcc4eb";
+const prominentTemplateId = "invt_1f11aa73-8f05-4d50-a1a8-c59074d03ce2";
 
 test.before(failUnauthenticated);
 

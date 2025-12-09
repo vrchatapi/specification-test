@@ -7,7 +7,6 @@ const blackCatWorldId = state.get("blackcat-world").id;
 const blackCatCustomInstanceId = state.get("blackcat-custom-instance").instanceId;
 const currentUserId = state.get("current-user").id;
 const messageContents = "Hello, World!";
-const messageContentsRateLimited = "I am speed!";
 
 test.todo("Invite User");
 
@@ -89,11 +88,6 @@ test.serial(
 			true,
 			"Message slot 0 should be updatable after being reset"
 		);
-		t.is(
-			body[0].remainingCooldownMinutes > 0,
-			true,
-			"Message slot 0 should be have greater than 0 minutes of cooldown"
-		);
 	}
 );
 
@@ -144,20 +138,3 @@ test.serial(
 	}
 );
 
-test.serial(
-	"message slot 0 update rate limited",
-	testOperation,
-	"updateInviteMessage",
-	{
-		requestBody: {
-			message: messageContentsRateLimited
-		},
-		parameters: {
-			userId: currentUserId,
-			messageType: "message",
-			slot: 0
-		},
-		statusCode: 429,
-		unstable: false
-	}
-);

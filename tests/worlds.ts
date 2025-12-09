@@ -68,6 +68,7 @@ test.serial(
 			"Should have the correct world id"
 		);
 		state.set("blackcat-world", t.context.body);
+		state.set("blackcat-instance-id", t.context.body.instances[0][0]);
 	}
 );
 
@@ -78,13 +79,17 @@ test.serial(
 	() => ({
 		parameters: {
 			worldId: blackCatWorldId,
-			instanceId: state.get("blackcat-world").instances[0][0]
+			instanceId: state.get("blackcat-instance-id")
 		},
 		statusCode: 200,
 		unstable: true
 	}),
 	(t) => {
 		state.set("blackcat-first-instance", t.context.body);
+		state.set(
+			"blackcat-instance-secure-name",
+			t.context.body.secureName
+		);
 	}
 );
 
