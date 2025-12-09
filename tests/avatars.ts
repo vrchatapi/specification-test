@@ -3,7 +3,7 @@ import { unstableUserKeys } from "./_users.js";
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 import { defaultAvatarId } from "./_consts.js";
 
-const publicAvatarId = "avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0";
+const publicAvatarId = "avtr_26187637-0c30-4a09-86e1-bc928c07309e";
 const fallbackAvatarId = "avtr_07917a03-5e0b-48e9-b041-e94086bc658f";
 
 test.before(failUnauthenticated);
