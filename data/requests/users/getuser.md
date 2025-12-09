@@ -29,7 +29,7 @@
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "badges": [
     {
       "badgeDescription": "Granted to members of the official VRChat Development Team",
@@ -64,6 +64,13 @@
       "badgeId": "bdg_8b44605b-d7dd-4254-8d22-ba2f84ed104e",
       "badgeImageUrl": "https://assets.vrchat.com/badges/4e/bdgai_4d00e67a-eb62-40df-8f34-9f580ae8725b.png",
       "badgeName": "VRC+ Subscriber (5 Years)",
+      "showcased": false
+    },
+    {
+      "badgeDescription": "Awarded to those that participated in the VRChat Holiday Event 2025",
+      "badgeId": "bdg_9b456eb7-9213-40b2-99c0-cf58e38b3c27",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/27/bdgai_7e49608b-1cc7-49e6-b750-0e0c6c22a73a.png",
+      "badgeName": "Keeper of the Spirit",
       "showcased": false
     },
     {
@@ -121,7 +128,7 @@
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "standalonewindows",
+  "last_platform": "android",
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
