@@ -36,7 +36,7 @@ Unrecognized format used: "data-time" at #/properties/shelves/items/properties/u
   "sellerDisplayName": "VRChat",
   "sellerId": "usr_00000000-0000-0000-0000-000000000011",
   "shelfIds": [
-    "ess_0bb34b5a-eec8-4cd1-88a7-b2b2ee1260ec",
+    "ess_eefead70-e13b-4aa5-a9bd-d6478f9ebfe1",
     "ess_802b6c13-890a-4a2d-82fe-bd567c6b4d06"
   ],
   "shelves": [
@@ -44,39 +44,39 @@ Unrecognized format used: "data-time" at #/properties/shelves/items/properties/u
       "highlightListing": {
         "active": true,
         "buyerRefundable": false,
-        "description": "Contains all of the enchanted creations released in November ‘25, including: Sigil of Teleportation Warp Effect, Runic Gateway Portal, Flask of Effervescence item, Emoji Grimoire Pack, Wizard Sticker Pack and VRChat Penlight.\n\nThe Council warned us to never put this much magic in one place again. We didn’t listen.",
-        "displayName": "A Magician’s Bundle",
+        "description": "Contains all of the frostbitten creations released during the December 2025 Content Drop! Includes Frosted Scribe, Portable Winterizer, Frost’s Bite, Glacial Construct, Winter Emoji Pack, and Cozy Snowman Pack.\n\nWe enter winter once again…\n",
+        "displayName": "Winter’s Blessing",
         "duration": null,
         "durationType": null,
         "hasAvatar": false,
         "hasUdon": false,
-        "id": "prod_7d12437a-a64b-4d90-99e3-3556a93cea90",
-        "imageId": "file_1add9132-f44b-4a51-8eb5-be03e54511bd",
+        "id": "prod_e9177cb3-53fd-4a48-b7c4-f840521adaae",
+        "imageId": "file_a73a0610-ee17-4c53-95f4-ecf6a7611b9e",
         "imageUrl": null,
         "listingType": "permanent",
         "priceTokens": 3000,
         "productIds": [
-          "prod_f85b6c7f-3755-4aa1-b1bd-0b8df732a87a",
-          "prod_38926b01-9639-4088-9097-99d8461066a5",
-          "prod_44ec43f4-9909-40ca-9a29-cf854647aa7e",
-          "prod_cfc2cbc5-d262-4b7f-96b1-187ef845df70",
-          "prod_3b15feff-516c-48e5-9bb3-49f9d4f7933e",
-          "prod_be2c9504-2b54-4003-abbf-0feb3b1899fc",
-          "prod_aa9f6488-b496-462f-a948-7c99b01d3c24",
-          "prod_5d311799-3e5a-4123-99de-d2b6c9081629",
-          "prod_7f8e0d21-a60c-4378-ab12-90010a45d1cd"
+          "prod_f2f47540-a3a8-4246-8daf-54a828be2aa6",
+          "prod_762f38e3-e54a-4714-8567-a1f092799bf3",
+          "prod_c9b96e99-7c39-49ce-9ba1-e686f9a28824",
+          "prod_b64dffd2-8447-4c69-8934-8e18e682819d",
+          "prod_2213cdc4-7e63-4487-ae74-1fa7aa1926a4",
+          "prod_356931bc-354a-48c9-bf43-d744336bd599",
+          "prod_08309e3f-9307-4563-89c5-e26bcdc62b4e",
+          "prod_1b1619d7-a8f5-42be-ab90-8636e50c369c",
+          "prod_279b691d-6350-4046-8322-6ad08d2283ce"
         ],
         "productType": "listing",
         "products": [
-          "prod_f85b6c7f-3755-4aa1-b1bd-0b8df732a87a",
-          "prod_38926b01-9639-4088-9097-99d8461066a5",
-          "prod_44ec43f4-9909-40ca-9a29-cf854647aa7e",
-          "prod_cfc2cbc5-d262-4b7f-96b1-187ef845df70",
-          "prod_3b15feff-516c-48e5-9bb3-49f9d4f7933e",
-          "prod_be2c9504-2b54-4003-abbf-0feb3b1899fc",
-          "prod_aa9f6488-b496-462f-a948-7c99b01d3c24",
-          "prod_5d311799-3e5a-4123-99de-d2b6c9081629",
-          "prod_7f8e0d21-a60c-4378-ab12-90010a45d1cd"
+          "prod_f2f47540-a3a8-4246-8daf-54a828be2aa6",
+          "prod_762f38e3-e54a-4714-8567-a1f092799bf3",
+          "prod_c9b96e99-7c39-49ce-9ba1-e686f9a28824",
+          "prod_b64dffd2-8447-4c69-8934-8e18e682819d",
+          "prod_2213cdc4-7e63-4487-ae74-1fa7aa1926a4",
+          "prod_356931bc-354a-48c9-bf43-d744336bd599",
+          "prod_08309e3f-9307-4563-89c5-e26bcdc62b4e",
+          "prod_1b1619d7-a8f5-42be-ab90-8636e50c369c",
+          "prod_279b691d-6350-4046-8322-6ad08d2283ce"
         ],
         "quantifiable": false,
         "recurrable": false,
@@ -90,39 +90,74 @@ Unrecognized format used: "data-time" at #/properties/shelves/items/properties/u
         ],
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 2700,
-        "whenToExpire": "2025-12-08T22:00:00.000Z"
+        "whenToExpire": "2026-02-05T21:00:00.000Z"
       },
-      "highlightListingId": "prod_7d12437a-a64b-4d90-99e3-3556a93cea90",
-      "id": "ess_0bb34b5a-eec8-4cd1-88a7-b2b2ee1260ec",
+      "highlightListingId": "prod_e9177cb3-53fd-4a48-b7c4-f840521adaae",
+      "id": "ess_eefead70-e13b-4aa5-a9bd-d6478f9ebfe1",
       "listingIds": [
-        "prod_f074226d-8031-471e-a0c9-bd38fa52e04c",
-        "prod_58016885-5aa1-4a25-8bf3-5b45d817f740",
-        "prod_36d0d520-ae1c-48e1-869f-3c7f85be2995",
-        "prod_b44d9014-3e53-4385-8903-e6b5d7ac0154",
-        "prod_49af3bfe-2870-4b9d-bf50-20dd74c11780",
-        "prod_47028480-5214-4e2a-9ddd-3a08950fc419"
+        "prod_a30099ff-72af-4d7a-a3e1-99fa0deded3e",
+        "prod_52e12dbd-2052-4f2f-adfd-f51e2ca91ec2",
+        "prod_81e0541b-862c-41c0-b8b0-0a2e2c6c4892",
+        "prod_dcffbebb-cf86-4d09-93a8-c364dd3c95bb",
+        "prod_85e487d3-b66e-448d-85a5-59decea3f4e0",
+        "prod_b4d3d7bf-4f39-461b-b624-315f22df2750"
       ],
       "listings": [
         {
           "active": true,
           "buyerRefundable": false,
-          "description": "Replaces the default VRChat Portal with a magical Runic Gateway, featuring new animations and sound effects.\n\nEvery rune is hewn into stone with great precision – lest the gateway becomes a two-way door.",
-          "displayName": "Runic Gateway",
+          "description": "An enchanted, permanently frozen icicle. When used, it leaves a trail of snow behind that fades over time.\n\nPlease don’t try to eat the enchanted snow.",
+          "displayName": "Frosted Scribe",
           "duration": null,
           "durationType": null,
           "hasAvatar": false,
           "hasUdon": false,
-          "id": "prod_f074226d-8031-471e-a0c9-bd38fa52e04c",
-          "imageId": "file_ebec8432-4676-4038-93c4-1d9908efad53",
+          "id": "prod_a30099ff-72af-4d7a-a3e1-99fa0deded3e",
+          "imageId": "file_60d24507-1fae-45d0-b8de-f655b89a4dab",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_b64dffd2-8447-4c69-8934-8e18e682819d"
+          ],
+          "productType": "listing",
+          "products": [
+            "prod_b64dffd2-8447-4c69-8934-8e18e682819d"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Item",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-02-05T21:00:00.000Z"
+        },
+        {
+          "active": true,
+          "buyerRefundable": false,
+          "description": "Replaces the default VRChat Portal, turning it into a construct of ice crystals. Features new animations and sound effects.\n\nDo not lick the Glacial Construct. I mean, don’t lick any portal, but especially not this one.",
+          "displayName": "Glacial Construct",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasUdon": false,
+          "id": "prod_52e12dbd-2052-4f2f-adfd-f51e2ca91ec2",
+          "imageId": "file_32936732-8641-40c6-a079-20f1616aaf7e",
           "imageUrl": null,
           "listingType": "permanent",
           "priceTokens": 900,
           "productIds": [
-            "prod_f85b6c7f-3755-4aa1-b1bd-0b8df732a87a"
+            "prod_356931bc-354a-48c9-bf43-d744336bd599"
           ],
           "productType": "listing",
           "products": [
-            "prod_f85b6c7f-3755-4aa1-b1bd-0b8df732a87a"
+            "prod_356931bc-354a-48c9-bf43-d744336bd599"
           ],
           "quantifiable": false,
           "recurrable": false,
@@ -136,28 +171,28 @@ Unrecognized format used: "data-time" at #/properties/shelves/items/properties/u
           ],
           "subtitle": "Portal",
           "vrcPlusDiscountPrice": 810,
-          "whenToExpire": "2025-12-08T22:00:00.000Z"
+          "whenToExpire": "2026-02-05T21:00:00.000Z"
         },
         {
           "active": true,
           "buyerRefundable": false,
-          "description": "Enchants your avatar with a custom warp effect. When entering or leaving an instance, a glowing circle of elegant, arcane sigils appears on the ground under your avatar, a soft light enveloping you as you phase through reality.\n\nA wizard knows how to make an entrance.",
-          "displayName": "Sigil of Teleportation",
+          "description": "Changes the warp effect on your avatar. When entering or leaving an instance, a pillar of ice erupts from the ground, encapsulating you and freezing your avatar as you shift between worlds.\n\nVRChat freezing while moving between instances? Working as intended.",
+          "displayName": "Frost’s Bite",
           "duration": null,
           "durationType": null,
           "hasAvatar": false,
           "hasUdon": false,
-          "id": "prod_58016885-5aa1-4a25-8bf3-5b45d817f740",
-          "imageId": "file_6f3f49cb-485a-4d2a-afb9-e18f354ff1f4",
+          "id": "prod_81e0541b-862c-41c0-b8b0-0a2e2c6c4892",
+          "imageId": "file_d1744786-50f0-44d6-a8a4-f38da11d129d",
           "imageUrl": null,
           "listingType": "permanent",
-          "priceTokens": 800,
+          "priceTokens": 900,
           "productIds": [
-            "prod_38926b01-9639-4088-9097-99d8461066a5"
+            "prod_2213cdc4-7e63-4487-ae74-1fa7aa1926a4"
           ],
           "productType": "listing",
           "products": [
-            "prod_38926b01-9639-4088-9097-99d8461066a5"
+            "prod_2213cdc4-7e63-4487-ae74-1fa7aa1926a4"
           ],
           "quantifiable": false,
           "recurrable": false,
@@ -170,29 +205,30 @@ Unrecognized format used: "data-time" at #/properties/shelves/items/properties/u
             "esto_00000000-0000-0000-0000-000000000000"
           ],
           "subtitle": "Warp Effect",
-          "vrcPlusDiscountPrice": 720,
-          "whenToExpire": "2025-12-08T22:00:00.000Z"
+          "vrcPlusDiscountPrice": 810,
+          "whenToExpire": "2026-02-05T21:00:00.000Z"
         },
         {
           "active": true,
           "buyerRefundable": false,
-          "description": "A swirling, magical concoction contained in an ornate bottle. When the Flask of Effervescence is used, you gain a temporary glowing aura. Can be used once every ten seconds.\n\nFour great flavors, one great bottle! May contain trace amounts of mana.",
-          "displayName": "Flask of Effervescence",
+          "description": "When activated, the Portable Winterizer generates snow, roughly centered around its location for 3 minutes. This is a consumable item that has 5 charges. Spawning and activating this item consumes 1 charge. Once all charges are used, it will be removed from your inventory.",
+          "displayName": "Portable Winterizer",
           "duration": null,
           "durationType": null,
           "hasAvatar": false,
           "hasUdon": false,
-          "id": "prod_36d0d520-ae1c-48e1-869f-3c7f85be2995",
-          "imageId": "file_a2c44337-cdbd-418e-a8f7-bd588bbb7edc",
+          "id": "prod_dcffbebb-cf86-4d09-93a8-c364dd3c95bb",
+          "imageId": "file_68048921-65e1-4d4d-907e-e3aab798a6ff",
           "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 900,
+          "listingType": "instant",
+          "listingVariants": [],
+          "priceTokens": 500,
           "productIds": [
-            "prod_44ec43f4-9909-40ca-9a29-cf854647aa7e"
+            "prod_c9b96e99-7c39-49ce-9ba1-e686f9a28824"
           ],
           "productType": "listing",
           "products": [
-            "prod_44ec43f4-9909-40ca-9a29-cf854647aa7e"
+            "prod_c9b96e99-7c39-49ce-9ba1-e686f9a28824"
           ],
           "quantifiable": false,
           "recurrable": false,
@@ -205,31 +241,31 @@ Unrecognized format used: "data-time" at #/properties/shelves/items/properties/u
             "esto_00000000-0000-0000-0000-000000000000"
           ],
           "subtitle": "Item",
-          "vrcPlusDiscountPrice": 810,
-          "whenToExpire": "2025-12-08T22:00:00.000Z"
+          "vrcPlusDiscountPrice": 450,
+          "whenToExpire": "2026-02-05T21:00:00.000Z"
         },
         {
           "active": true,
           "buyerRefundable": false,
-          "description": "Contains two magic-spell-themed Emoji: Fireball, and Magic Missile. Now you can cast spells… and never run out of mana!\n\nBehold! The darkness! What do you cast?",
-          "displayName": "Emoji Grimoire Pack",
+          "description": "Contains two winter-themed Emoji: Icy Vortex and Snowball. Best when kept frozen.\n\nAll the snow, none of the frostbite.\n",
+          "displayName": "Winter Emoji Pack",
           "duration": null,
           "durationType": null,
           "hasAvatar": false,
           "hasUdon": false,
-          "id": "prod_b44d9014-3e53-4385-8903-e6b5d7ac0154",
-          "imageId": "file_167a1e1a-46d1-4535-a703-6416c040e4dd",
+          "id": "prod_85e487d3-b66e-448d-85a5-59decea3f4e0",
+          "imageId": "file_087ad12e-c5e6-46bb-858d-717ca27e3c95",
           "imageUrl": null,
           "listingType": "permanent",
-          "priceTokens": 400,
+          "priceTokens": 500,
           "productIds": [
-            "prod_cfc2cbc5-d262-4b7f-96b1-187ef845df70",
-            "prod_3b15feff-516c-48e5-9bb3-49f9d4f7933e"
+            "prod_f2f47540-a3a8-4246-8daf-54a828be2aa6",
+            "prod_762f38e3-e54a-4714-8567-a1f092799bf3"
           ],
           "productType": "listing",
           "products": [
-            "prod_cfc2cbc5-d262-4b7f-96b1-187ef845df70",
-            "prod_3b15feff-516c-48e5-9bb3-49f9d4f7933e"
+            "prod_f2f47540-a3a8-4246-8daf-54a828be2aa6",
+            "prod_762f38e3-e54a-4714-8567-a1f092799bf3"
           ],
           "quantifiable": false,
           "recurrable": false,
@@ -242,33 +278,33 @@ Unrecognized format used: "data-time" at #/properties/shelves/items/properties/u
             "esto_00000000-0000-0000-0000-000000000000"
           ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 360,
-          "whenToExpire": "2025-12-08T22:00:00.000Z"
+          "vrcPlusDiscountPrice": 450,
+          "whenToExpire": "2026-02-05T21:00:00.000Z"
         },
         {
           "active": true,
           "buyerRefundable": false,
-          "description": "Contains three premium stickers, featuring the Wizard. He loves casting spells. You can place them on any object with a collider. Art by Shyaong.\n\nArrives precisely when you want them to.",
-          "displayName": "Wizard Sticker Pack",
+          "description": "Contains three Cozy Snowman Stickers: SNOWBALL FIGHT!, Thawing Out! and … Too Much Thawing.",
+          "displayName": "Cozy Snowman Pack",
           "duration": null,
           "durationType": null,
           "hasAvatar": false,
           "hasUdon": false,
-          "id": "prod_49af3bfe-2870-4b9d-bf50-20dd74c11780",
-          "imageId": "file_ac130f8e-71a3-499b-9515-aedf1456e9fb",
+          "id": "prod_b4d3d7bf-4f39-461b-b624-315f22df2750",
+          "imageId": "file_225ace66-aa1f-432e-85b3-5f16f833beb1",
           "imageUrl": null,
           "listingType": "permanent",
           "priceTokens": 200,
           "productIds": [
-            "prod_5d311799-3e5a-4123-99de-d2b6c9081629",
-            "prod_be2c9504-2b54-4003-abbf-0feb3b1899fc",
-            "prod_aa9f6488-b496-462f-a948-7c99b01d3c24"
+            "prod_08309e3f-9307-4563-89c5-e26bcdc62b4e",
+            "prod_1b1619d7-a8f5-42be-ab90-8636e50c369c",
+            "prod_279b691d-6350-4046-8322-6ad08d2283ce"
           ],
           "productType": "listing",
           "products": [
-            "prod_5d311799-3e5a-4123-99de-d2b6c9081629",
-            "prod_be2c9504-2b54-4003-abbf-0feb3b1899fc",
-            "prod_aa9f6488-b496-462f-a948-7c99b01d3c24"
+            "prod_08309e3f-9307-4563-89c5-e26bcdc62b4e",
+            "prod_1b1619d7-a8f5-42be-ab90-8636e50c369c",
+            "prod_279b691d-6350-4046-8322-6ad08d2283ce"
           ],
           "quantifiable": false,
           "recurrable": false,
@@ -282,48 +318,13 @@ Unrecognized format used: "data-time" at #/properties/shelves/items/properties/u
           ],
           "subtitle": "Bundle",
           "vrcPlusDiscountPrice": 180,
-          "whenToExpire": "2025-12-08T22:00:00.000Z"
-        },
-        {
-          "active": true,
-          "buyerRefundable": false,
-          "description": "A color-changing penlight. You can cycle through multiple colors.\n\nUsed for cheering on your favorite idol, casting kawaii nyan-nyan heart, and/or managing aircraft movement on the tarmac.",
-          "displayName": "VRChat Penlight",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasUdon": false,
-          "id": "prod_47028480-5214-4e2a-9ddd-3a08950fc419",
-          "imageId": "file_e06f45b8-aef5-4b22-b553-5b8e216baf2d",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 800,
-          "productIds": [
-            "prod_7f8e0d21-a60c-4378-ab12-90010a45d1cd"
-          ],
-          "productType": "listing",
-          "products": [
-            "prod_7f8e0d21-a60c-4378-ab12-90010a45d1cd"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Item",
-          "vrcPlusDiscountPrice": 720,
-          "whenToExpire": "2025-12-08T22:00:00.000Z"
+          "whenToExpire": "2026-02-05T21:00:00.000Z"
         }
       ],
       "shelfDescription": "",
       "shelfLayout": "highlightLeft",
-      "shelfTitle": "November 2025",
-      "updatedAt": "2025-11-06T17:43:24.565Z"
+      "shelfTitle": "December 2025",
+      "updatedAt": "2025-12-08T23:39:06.295Z"
     },
     {
       "highlightListing": {

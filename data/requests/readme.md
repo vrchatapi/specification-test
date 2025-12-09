@@ -207,7 +207,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/1/durationInMs``,
 * Unexpected property at ``#/results/2/durationInMs``,
 
-*84 issues truncated.*
+*83 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -446,10 +446,12 @@ Response schema mismatch:
 * Unexpected property at ``#/equipSlots``,
 * Unexpected property at ``#/validateUserAttributes``.
 
-#### [getInventory](/data/requests/inventory/getinventory.md)
-
-
 #### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/isDisabled``.
+
+#### [getInventory](/data/requests/inventory/getinventory.md)
 
 
 #### [spawnInventoryItem](/data/requests/inventory/spawninventoryitem.md)
@@ -542,15 +544,15 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1515 issues truncated.*
+*1517 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 
-*39 issues truncated.*
+*41 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -558,7 +560,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*79 issues truncated.*
+*78 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
