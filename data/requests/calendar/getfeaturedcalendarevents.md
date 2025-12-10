@@ -1,30 +1,5 @@
 # getFeaturedCalendarEvents
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/results/0/durationInMs``,
-* Unexpected property at ``#/results/1/durationInMs``,
-* Unexpected property at ``#/results/2/durationInMs``,
-* Unexpected property at ``#/results/3/durationInMs``,
-* Unexpected property at ``#/results/4/durationInMs``,
-* Unexpected property at ``#/results/5/durationInMs``,
-* Unexpected property at ``#/results/6/durationInMs``,
-* Unexpected property at ``#/results/7/durationInMs``,
-* Unexpected property at ``#/results/8/durationInMs``,
-* Unexpected property at ``#/results/9/durationInMs``,
-* Unexpected property at ``#/results/10/durationInMs``,
-* Unexpected property at ``#/results/11/durationInMs``,
-* Unexpected property at ``#/results/12/durationInMs``,
-* Unexpected property at ``#/results/13/durationInMs``,
-* Unexpected property at ``#/results/14/durationInMs``,
-* Unexpected property at ``#/results/15/durationInMs``,
-* Unexpected property at ``#/results/16/durationInMs``,
-* Unexpected property at ``#/results/17/durationInMs``,
-* Unexpected property at ``#/results/18/durationInMs``,
-* Unexpected property at ``#/results/19/durationInMs``,
-* Unexpected property at ``#/results/20/durationInMs``,
-* Unexpected property at ``#/results/21/durationInMs``,
-* Unexpected property at ``#/results/22/durationInMs``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/calendar/featured`
 

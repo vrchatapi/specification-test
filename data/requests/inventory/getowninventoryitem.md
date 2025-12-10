@@ -1,8 +1,5 @@
 # getOwnInventoryItem
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/quantifiable``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory/inv_729dd5a0-ebe4-48b7-b587-21e5652efa3a`
 

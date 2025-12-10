@@ -97,6 +97,18 @@ Verifies a login attempt for a user
 Invalidates the login session.
 
 * [logout logout](./logout-logout.md)
+## Get Moderation Reports
+Get submitted moderation reports
+
+> Missing coverage.
+## Submit Moderation Report
+Submit a moderation report
+
+> Missing coverage.
+## Delete Moderation Report
+Delete a moderation report
+
+> Missing coverage.
 ## Delete User
 Deletes the account with given ID. Normal users only have permission to delete their own account. Account deletion is 14 days from this request, and will be cancelled if you do an authenticated request with the account afterwards.
 

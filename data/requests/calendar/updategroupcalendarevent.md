@@ -1,8 +1,5 @@
 # updateGroupCalendarEvent
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/durationInMs``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e/<unstable>/event`
 

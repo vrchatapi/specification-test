@@ -1,10 +1,5 @@
 # createInstance
 
-## Issues
-Response schema mismatch:
-* Invalid type at ``#/gameServerVersion``,
-* Unexpected property at ``#/calendarEntryId``,
-* Unexpected property at ``#/creatorId``.
 ## Request
 `POST https://api.vrchat.cloud/api/1/instances`
 
@@ -21,7 +16,7 @@ Response schema mismatch:
   "region": "use",
   "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "canRequestInvite": true,
-  "displayName": "8jmwqd9h",
+  "displayName": "ygefu4x3",
   "contentSettings": {
     "drones": false,
     "props": true

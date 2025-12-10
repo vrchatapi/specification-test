@@ -1,10 +1,5 @@
 # getInventoryTemplate
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/defaultAttributes``,
-* Unexpected property at ``#/equipSlots``,
-* Unexpected property at ``#/validateUserAttributes``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory/template/invt_1f11aa73-8f05-4d50-a1a8-c59074d03ce2`
 

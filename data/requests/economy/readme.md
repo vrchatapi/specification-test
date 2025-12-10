@@ -1,5 +1,13 @@
 # Economy
 
+## Get Admin Transactions
+Get all own Admin transactions.
+
+> Missing coverage.
+## Get Admin Transactions
+Get a single Admin transactions by ID. This returns the exact same information as `getAdminTransactions`, so no point in using this endpoint.
+
+> Missing coverage.
 ## List Steam Transactions
 Get all own Steam transactions.
 
@@ -16,6 +24,14 @@ Get a list of all current user subscriptions.
 Gets active licenses
 
 * [getActiveLicenses](./getactivelicenses.md)
+## Purchase Product Listing
+Purchases a product listing
+
+> Missing coverage.
+## Get Product Purchases
+Gets product purchases
+
+> Missing coverage.
 ## Get Store
 Gets a store
 
@@ -32,6 +48,10 @@ Get a single License Group by given ID.
 Gets a product listing
 
 * [getProductListing](./getproductlisting.md)
+## Get Product Listing (alternate)
+Gets a product listing
+
+> Missing coverage.
 ## List Subscriptions
 List all existing Subscriptions. For example, "vrchatplus-monthly" and "vrchatplus-yearly".
 

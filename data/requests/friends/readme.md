@@ -22,4 +22,8 @@ Retrieve if the user is currently a friend with a given user, if they have an ou
 * [getFriendStatus prior to friend request](./getfriendstatus-prior-to-friend-request.md)
 * [getFriendStatus after friend request](./getfriendstatus-after-friend-request.md)
 * [getFriendStatus after deleting friend request](./getfriendstatus-after-deleting-friend-request.md)
+## Send Boop
+Send a boop to another user.
+
+> Missing coverage.
 	

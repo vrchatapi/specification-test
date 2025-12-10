@@ -56,24 +56,6 @@
       "category": "gaming",
       "deletedAt": null,
       "description": "Please join us for a Pheonix Haven Game Nightǃ Remember to follow TOS‚ our personal Group rules‚ and to be respectful of others as you have an amazingly fun time at our game night event․",
-      "endsAt": "2026-01-20T03:00:00.000Z",
-      "featured": true,
-      "id": "cal_e1b0060a-dd66-4b4e-917a-203da53157c3",
-      "imageId": null,
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_533aebc5-884f-4631-bb59-7559a988d2a1",
-      "platforms": [],
-      "startsAt": "2026-01-20T01:00:00.000Z",
-      "tags": [],
-      "title": "Game Night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Please join us for a Pheonix Haven Game Nightǃ Remember to follow TOS‚ our personal Group rules‚ and to be respectful of others as you have an amazingly fun time at our game night event․",
       "endsAt": "2026-01-06T03:00:00.000Z",
       "featured": true,
       "id": "cal_f09ae4a4-fa49-4a7b-b124-14b46760fef6",
@@ -83,6 +65,24 @@
       "ownerId": "grp_533aebc5-884f-4631-bb59-7559a988d2a1",
       "platforms": [],
       "startsAt": "2026-01-06T01:00:00.000Z",
+      "tags": [],
+      "title": "Game Night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Please join us for a Pheonix Haven Game Nightǃ Remember to follow TOS‚ our personal Group rules‚ and to be respectful of others as you have an amazingly fun time at our game night event․",
+      "endsAt": "2026-01-20T03:00:00.000Z",
+      "featured": true,
+      "id": "cal_e1b0060a-dd66-4b4e-917a-203da53157c3",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_533aebc5-884f-4631-bb59-7559a988d2a1",
+      "platforms": [],
+      "startsAt": "2026-01-20T01:00:00.000Z",
       "tags": [],
       "title": "Game Night",
       "type": "event"
@@ -125,6 +125,25 @@
         "ios"
       ],
       "startsAt": "2025-12-20T20:30:00.000Z",
+      "tags": [],
+      "title": "Game Nightǃ",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "2 Hours of gaming with friendsǃ Some drinking as well․",
+      "endsAt": "2025-12-13T06:00:00.000Z",
+      "featured": false,
+      "id": "cal_577f5367-f6b7-4393-ae85-b578a71effbb",
+      "imageId": "file_06fbb2a5-296f-4f7d-b49b-efa227626dac",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_06fbb2a5-296f-4f7d-b49b-efa227626dac/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_00274557-e762-4d0c-b1b4-874ea138a98e",
+      "platforms": [],
+      "startsAt": "2025-12-13T04:00:00.000Z",
       "tags": [],
       "title": "Game Nightǃ",
       "type": "event"
@@ -281,25 +300,6 @@
     },
     {
       "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Gremlin․Inc daily Game nightǃ",
-      "endsAt": "2025-12-10T03:00:00.000Z",
-      "featured": false,
-      "id": "cal_a16982e8-ec80-43e6-96d6-33f04ff2a383",
-      "imageId": "file_cf250ad1-a114-4145-ae9a-37c091e7c24b",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_cf250ad1-a114-4145-ae9a-37c091e7c24b/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_edd305cd-346e-4717-a9d2-4b4901cb5696",
-      "platforms": [],
-      "startsAt": "2025-12-10T00:00:00.000Z",
-      "tags": [],
-      "title": "Game night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
       "category": "hangout",
       "deletedAt": null,
       "description": "Check group posts for info",
@@ -315,6 +315,25 @@
       "startsAt": "2025-12-14T03:00:00.000Z",
       "tags": [],
       "title": "Game and liquor",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Were having a game night Ill host the pre-lobby will go on a game and we will have fun․ Its a chill week for the summer break of some school",
+      "endsAt": "2025-12-14T05:59:00.000Z",
+      "featured": false,
+      "id": "cal_b7d1f176-6030-4ad1-85d4-438ab46cf23c",
+      "imageId": "file_0628def6-4d83-4533-80c7-5e46cea5a692",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0628def6-4d83-4533-80c7-5e46cea5a692/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_d8180fe0-4637-423c-9bc2-4e7630821582",
+      "platforms": [],
+      "startsAt": "2025-12-14T02:00:00.000Z",
+      "tags": [],
+      "title": "Game Night",
       "type": "event"
     },
     {
@@ -466,25 +485,6 @@
     },
     {
       "accessType": "public",
-      "category": "other",
-      "deletedAt": null,
-      "description": "Come play something funǃ",
-      "endsAt": "2025-12-10T02:00:00.000Z",
-      "featured": false,
-      "id": "cal_7ef0aefa-9416-4ac1-8d66-26ca2e2bbf54",
-      "imageId": "file_cbb20bb3-6a42-474c-a54f-81753ba4ef38",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_cbb20bb3-6a42-474c-a54f-81753ba4ef38/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_d879611a-95ae-45cc-b3af-19d5685aedd1",
-      "platforms": [],
-      "startsAt": "2025-12-10T01:00:00.000Z",
-      "tags": [],
-      "title": "GAME NIGHT",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
       "description": "Come join the Sonic VRChat RP community for some Battle Discs fun‚ hosted by ＠SuperiorSnoc․",
@@ -551,6 +551,6 @@
       "type": "event"
     }
   ],
-  "totalCount": 68
+  "totalCount": 70
 }
 ```

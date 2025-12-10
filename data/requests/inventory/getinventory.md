@@ -1,9 +1,5 @@
 # getInventory
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/data/0/quantifiable``,
-* Unexpected property at ``#/data/1/quantifiable``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory?n=100&offset=0&order=oldest&types=prop`
 

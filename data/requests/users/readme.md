@@ -18,6 +18,10 @@ Search and list any users by text query
 * [searchUsers without parameters](./searchusers-without-parameters.md)
 * [searchUsers](./searchusers.md)
 * [searchUsers with limit](./searchusers-with-limit.md)
+## Search Active Users
+**REQUIRES ADMIN CREDENTIALS**. Search and list any Active users by text query.
+
+> Missing coverage.
 ## Get User by ID
 Get public user information about a specific user using their ID.
 
@@ -56,6 +60,18 @@ Returns a list of group instances for a user
 > Missing coverage.
 ## Get User Group Instances for a specific Group
 Returns a list of a group's instances for a user
+
+> Missing coverage.
+## Get User Mutuals
+Gets the counts of mutuals between the logged in user and the specified user
+
+> Missing coverage.
+## Get User Mutual Friends
+Gets a list of mutual friends between the logged in user and the specified user
+
+> Missing coverage.
+## Get User Mutual Groups
+Gets a list of mutual groups between the logged in user and the specified user
 
 > Missing coverage.
 ## Remove User Tags

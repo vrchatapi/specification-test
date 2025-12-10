@@ -12,6 +12,10 @@ Share content directly with other users.
 Returns an InventorySpawn object.
 
 > Missing coverage.
+## List Inventory Collections
+Returns a list of collection names.
+
+> Missing coverage.
 ## List Inventory Drops
 Returns a list of InventoryDrop objects.
 
@@ -34,6 +38,22 @@ Returns an InventoryItem object held by the currently logged in user.
 * [getOwnInventoryItem](./getowninventoryitem.md)
 ## Update Own Inventory Item
 Returns the modified InventoryItem object as held by the currently logged in user.
+
+> Missing coverage.
+## Consume Own Inventory Item
+Returns the modified InventoryItem object as held by the currently logged in user.
+
+> Missing coverage.
+## Unequip Own Inventory Slot
+Unequips the InventoryItem in the given slot of the inventory of the currently logged in user.
+
+> Missing coverage.
+## Equip Own Inventory Item
+Returns the modified InventoryItem object as held by the currently logged in user.
+
+> Missing coverage.
+## Get User Inventory Item
+Returns an InventoryItem object held by the given user.
 
 > Missing coverage.
 	

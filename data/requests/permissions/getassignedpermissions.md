@@ -2,17 +2,10 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/2data/max``,
-* Unexpected property at ``#/3data/max``,
-* Unexpected property at ``#/4data/max``,
-* Unexpected property at ``#/5data/max``,
-* Unexpected property at ``#/6data/max``,
-* Unexpected property at ``#/9data/max``,
 * Unexpected property at ``#/13data/maxFavoritesPerGroup``,
 * Unexpected property at ``#/13data/maxFavoriteGroups``,
 * Unexpected property at ``#/14data/tags``,
-* Unexpected property at ``#/14data/badges``,
-* Unexpected property at ``#/20data/max``.
+* Unexpected property at ``#/14data/badges``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/permissions`
 

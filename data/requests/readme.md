@@ -2,16 +2,6 @@
 
 ## [Authentication](/data/requests/authentication)
 
-#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/usesGeneratedPassword``.
-
-#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/usesGeneratedPassword``.
-
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -19,7 +9,7 @@ Response schema mismatch:
 * Missing property at ``#/ageVerificationStatus``,
 * Missing property at ``#/ageVerified``,
 
-*45 issues truncated.*
+*46 issues truncated.*
 #### [getCurrentUser while missing credentials](/data/requests/authentication/getcurrentuser-while-missing-credentials.md)
 
 
@@ -30,6 +20,9 @@ Response schema mismatch:
 
 
 #### [verifyAuthToken](/data/requests/authentication/verifyauthtoken.md)
+
+
+#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 
 #### [checkUserExists with zero parameters](/data/requests/authentication/checkuserexists-with-zero-parameters.md)
@@ -45,6 +38,9 @@ Response schema mismatch:
 
 
 #### [logout logout](/data/requests/authentication/logout-logout.md)
+
+
+#### [getCurrentUser after logout to log back in](/data/requests/authentication/getcurrentuser-after-logout-to-log-back-in.md)
 
 
 
@@ -79,12 +75,10 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/calendarEntryId``.
-
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+
+
+#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
 
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
@@ -112,44 +106,21 @@ Response schema mismatch:
 
 ## [Instances](/data/requests/instances)
 
-#### [createInstance](/data/requests/instances/createinstance.md)
+#### [getInstance](/data/requests/instances/getinstance.md)
 
-Response schema mismatch:
-* Invalid type at ``#/gameServerVersion``,
-* Unexpected property at ``#/calendarEntryId``,
-* Unexpected property at ``#/creatorId``.
+
+#### [getShortName](/data/requests/instances/getshortname.md)
+
 
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/calendarEntryId``.
 
-#### [getInstance](/data/requests/instances/getinstance.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/calendarEntryId``.
-
-#### [getShortName](/data/requests/instances/getshortname.md)
+#### [createInstance](/data/requests/instances/createinstance.md)
 
 
 
 
 ## [Avatars](/data/requests/avatars)
-
-#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/usesGeneratedPassword``.
-
-#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/usesGeneratedPassword``.
-
-#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/usesGeneratedPassword``.
 
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
@@ -163,7 +134,16 @@ Response schema mismatch:
 #### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 
+#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
+
+
+#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
+
+
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
+
+
+#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
 
 
 #### [getFavoritedAvatars with zero parameters](/data/requests/avatars/getfavoritedavatars-with-zero-parameters.md)
@@ -173,43 +153,28 @@ Response schema mismatch:
 
 ## [Calendar](/data/requests/calendar)
 
-#### [updateGroupCalendarEvent](/data/requests/calendar/updategroupcalendarevent.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/durationInMs``.
-
-#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/durationInMs``.
-
-#### [getGroupCalendarEvents](/data/requests/calendar/getgroupcalendarevents.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/results/0/durationInMs``.
-
-#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/durationInMs``.
-
-#### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/results/0/durationInMs``,
-* Unexpected property at ``#/results/1/durationInMs``,
-* Unexpected property at ``#/results/2/durationInMs``,
-
-*20 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/durationInMs``.
 
 #### [getCalendarEvents](/data/requests/calendar/getcalendarevents.md)
 
 
+#### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
+
+
+#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
+
+
 #### [getFollowedCalendarEvents](/data/requests/calendar/getfollowedcalendarevents.md)
+
+
+#### [getGroupCalendarEvents](/data/requests/calendar/getgroupcalendarevents.md)
+
+
+#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
+
+
+#### [updateGroupCalendarEvent](/data/requests/calendar/updategroupcalendarevent.md)
 
 
 #### [getGroupCalendarEventICS](/data/requests/calendar/getgroupcalendareventics.md)
@@ -228,26 +193,27 @@ Response schema mismatch:
 #### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
 
 Response schema mismatch:
-Unrecognized format used: "data-time" at #/items/properties/updatedAt.
+* Invalid type at ``#/0highlightListing/products/0``,
+* Invalid type at ``#/0highlightListing/products/1``,
+* Invalid type at ``#/0highlightListing/products/2``,
 
+*68 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
-Unrecognized format used: "data-time" at #/properties/shelves/items/properties/updatedAt.
+* Invalid type at ``#/shelves/0highlightListing/products/0``,
+* Invalid type at ``#/shelves/0highlightListing/products/1``,
+* Invalid type at ``#/shelves/0highlightListing/products/2``,
 
-#### [getEconomyAccount](/data/requests/economy/geteconomyaccount.md)
-
-Response schema mismatch:
-* Invalid type at ``#``.
-
+*68 issues truncated.*
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
-* Missing property at ``#/0hydratedProducts/0/archived``,
-* Missing property at ``#/0hydratedProducts/0/created``,
-* Missing property at ``#/0hydratedProducts/0/updated``,
+* Unexpected property at ``#/0hydratedProducts/0/imageUrl``,
+* Unexpected property at ``#/0hydratedProducts/0/productTypeLabel``,
+* Unexpected property at ``#/0hydratedProducts/1/imageUrl``,
 
-*3826 issues truncated.*
+*3149 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -293,6 +259,9 @@ Response schema mismatch:
 
 
 #### [getBalanceEarnings](/data/requests/economy/getbalanceearnings.md)
+
+
+#### [getEconomyAccount](/data/requests/economy/geteconomyaccount.md)
 
 
 #### [getActiveLicenses](/data/requests/economy/getactivelicenses.md)
@@ -389,22 +358,16 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
-#### [updateGroup](/data/requests/groups/updategroup.md)
+#### [createGroup](/data/requests/groups/creategroup.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/allowGroupJoinPrompt``.
 
 #### [getGroup](/data/requests/groups/getgroup.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/allowGroupJoinPrompt``.
-
-#### [createGroup](/data/requests/groups/creategroup.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/allowGroupJoinPrompt``.
 
 #### [getGroupMembers](/data/requests/groups/getgroupmembers.md)
+
+
+#### [updateGroup](/data/requests/groups/updategroup.md)
 
 
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
@@ -432,28 +395,17 @@ Response schema mismatch:
 
 ## [Inventory](/data/requests/inventory)
 
-#### [getInventoryTemplate](/data/requests/inventory/getinventorytemplate.md)
+#### [getInventory](/data/requests/inventory/getinventory.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/defaultAttributes``,
-* Unexpected property at ``#/equipSlots``,
-* Unexpected property at ``#/validateUserAttributes``.
-
-#### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/isDisabled``.
 
 #### [getOwnInventoryItem](/data/requests/inventory/getowninventoryitem.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/quantifiable``.
 
-#### [getInventory](/data/requests/inventory/getinventory.md)
+#### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/data/0/quantifiable``,
-* Unexpected property at ``#/data/1/quantifiable``.
+
+#### [getInventoryTemplate](/data/requests/inventory/getinventorytemplate.md)
+
 
 #### [spawnInventoryItem](/data/requests/inventory/spawninventoryitem.md)
 
@@ -500,11 +452,11 @@ Response schema mismatch:
 #### [getAssignedPermissions](/data/requests/permissions/getassignedpermissions.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/2data/max``,
-* Unexpected property at ``#/3data/max``,
-* Unexpected property at ``#/4data/max``,
+* Unexpected property at ``#/13data/maxFavoritesPerGroup``,
+* Unexpected property at ``#/13data/maxFavoriteGroups``,
+* Unexpected property at ``#/14data/tags``,
 
-*8 issues truncated.*
+*1 issues truncated.*
 #### [getPermission](/data/requests/permissions/getpermission.md)
 
 
@@ -561,7 +513,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*83 issues truncated.*
+*82 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

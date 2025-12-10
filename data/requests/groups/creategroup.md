@@ -1,8 +1,5 @@
 # createGroup
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/allowGroupJoinPrompt``.
 ## Request
 `POST https://api.vrchat.cloud/api/1/groups`
 

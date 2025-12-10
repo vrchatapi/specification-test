@@ -1,10 +1,7 @@
 # getInstanceByShortName secure name is a valid short name
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/calendarEntryId``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/8jmwqd9h`
+`GET https://api.vrchat.cloud/api/1/instances/s/ygefu4x3`
 
 | Header | Value |
 | ------ | ----- |

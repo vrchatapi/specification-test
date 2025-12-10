@@ -49,6 +49,7 @@ Response schema mismatch:
 * Missing property at ``#/twoFactorAuthEnabled``,
 * Missing property at ``#/unsubscribe``,
 * Missing property at ``#/userIcon``,
+* Missing property at ``#/usesGeneratedPassword``,
 * Unexpected property at ``#/requiresTwoFactorAuth``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
