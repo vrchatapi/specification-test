@@ -53,7 +53,6 @@ Response schema mismatch:
 * Unexpected property at ``#/CampaignStatus``,
 * Unexpected property at ``#/CaptchaGitRoom``,
 * Unexpected property at ``#/DisableBackgroundPreloads``,
-* Unexpected property at ``#/ExecuteAvatarLimit``,
 * Unexpected property at ``#/ImpostorGroupFavorite``,
 * Unexpected property at ``#/LocationGiftingNonSubPrioEnabled``,
 * Unexpected property at ``#/audioConfig``,
