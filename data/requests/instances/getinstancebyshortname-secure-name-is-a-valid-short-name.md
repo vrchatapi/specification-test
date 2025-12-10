@@ -2,33 +2,9 @@
 
 ## Issues
 Response schema mismatch:
-* Missing property at ``#/active``,
-* Missing property at ``#/canRequestInvite``,
-* Missing property at ``#/capacity``,
-* Missing property at ``#/clientNumber``,
-* Missing property at ``#/full``,
-* Missing property at ``#/id``,
-* Missing property at ``#/instanceId``,
-* Missing property at ``#/location``,
-* Missing property at ``#/n_users``,
-* Missing property at ``#/name``,
-* Missing property at ``#/permanent``,
-* Missing property at ``#/photonRegion``,
-* Missing property at ``#/platforms``,
-* Missing property at ``#/queueEnabled``,
-* Missing property at ``#/queueSize``,
-* Missing property at ``#/recommendedCapacity``,
-* Missing property at ``#/region``,
-* Missing property at ``#/secureName``,
-* Missing property at ``#/strict``,
-* Missing property at ``#/tags``,
-* Missing property at ``#/type``,
-* Missing property at ``#/userCount``,
-* Missing property at ``#/world``,
-* Missing property at ``#/worldId``,
-* Unexpected property at ``#/error``.
+* Unexpected property at ``#/calendarEntryId``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/undefined`
+`GET https://api.vrchat.cloud/api/1/instances/s/8jmwqd9h`
 
 | Header | Value |
 | ------ | ----- |
@@ -37,7 +13,7 @@ Response schema mismatch:
 
 
 ## Response
-`404 Not Found`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
@@ -45,6 +21,7 @@ Response schema mismatch:
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |

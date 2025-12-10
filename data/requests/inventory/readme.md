@@ -31,7 +31,7 @@ Deletes an InventoryItem from the inventory of the currently logged in user.
 ## Get Own Inventory Item
 Returns an InventoryItem object held by the currently logged in user.
 
-> Missing coverage.
+* [getOwnInventoryItem](./getowninventoryitem.md)
 ## Update Own Inventory Item
 Returns the modified InventoryItem object as held by the currently logged in user.
 

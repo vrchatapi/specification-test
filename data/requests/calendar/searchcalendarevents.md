@@ -339,35 +339,6 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "Come join the Sonic VRChat RP community for some Battle Discs fun‚ hosted by ＠SuperiorSnoc․",
-      "endsAt": "2025-12-12T03:00:00.000Z",
-      "featured": false,
-      "id": "cal_4d95fb88-c076-4b66-bc61-0509915da13c",
-      "imageId": null,
-      "isDraft": false,
-      "languages": [
-        "eng"
-      ],
-      "ownerId": "grp_65042a73-0eb7-4114-97a7-449b2cfcb545",
-      "platforms": [
-        "standalonewindows",
-        "android"
-      ],
-      "startsAt": "2025-12-12T01:00:00.000Z",
-      "tags": [
-        "sonic",
-        "game night",
-        "game",
-        "battle discs",
-        "chill"
-      ],
-      "title": "Game Night ~ Battle Discs R4",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
       "description": "You voted․ You chose․ Now you must live with the consequences․ Join the Holian Society for our weekly game night‚ where we play the one game the majority decided was ＂fun․＂ For the 49％ who voted for something else‚ consider it a lesson in political science․ Let the democratically-enforced good times rollǃ",
       "endsAt": "2025-12-28T22:00:00.000Z",
       "featured": false,
@@ -516,18 +487,29 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "Going back to OG times here‚we are going to be doing a game night where we switch from game to game a few timesǃ",
-      "endsAt": "2025-12-10T01:00:00.000Z",
+      "description": "Come join the Sonic VRChat RP community for some Battle Discs fun‚ hosted by ＠SuperiorSnoc․",
+      "endsAt": "2025-12-12T03:00:00.000Z",
       "featured": false,
-      "id": "cal_d95b7ba3-218d-4a84-81d6-34b4b686fee2",
+      "id": "cal_4d95fb88-c076-4b66-bc61-0509915da13c",
       "imageId": null,
       "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_308ed5e0-c20d-484b-9583-0b2111486398",
-      "platforms": [],
-      "startsAt": "2025-12-09T23:00:00.000Z",
-      "tags": [],
-      "title": "Game Night （15＋）",
+      "languages": [
+        "eng"
+      ],
+      "ownerId": "grp_65042a73-0eb7-4114-97a7-449b2cfcb545",
+      "platforms": [
+        "standalonewindows",
+        "android"
+      ],
+      "startsAt": "2025-12-12T01:00:00.000Z",
+      "tags": [
+        "sonic",
+        "game night",
+        "game",
+        "battle discs",
+        "chill"
+      ],
+      "title": "Game Night ~ Battle Discs R4",
       "type": "event"
     },
     {
@@ -547,6 +529,25 @@
       "startsAt": "2025-12-11T05:00:00.000Z",
       "tags": [],
       "title": "Winning Game of the Year․",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Weekly Game Eventǃ\n\nRules˸\nStay SFW\nCommon sense",
+      "endsAt": "2025-12-18T19:00:00.000Z",
+      "featured": false,
+      "id": "cal_5b599c0a-a6ba-4b06-9afe-5b3471626a0f",
+      "imageId": "file_d9aea3ca-8d01-4f5d-98fb-4521a7d23c38",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_d9aea3ca-8d01-4f5d-98fb-4521a7d23c38/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_bd467d1f-7989-461b-9d30-10abfcc58fc2",
+      "platforms": [],
+      "startsAt": "2025-12-18T18:00:00.000Z",
+      "tags": [],
+      "title": "Weekly Game Event",
       "type": "event"
     }
   ],

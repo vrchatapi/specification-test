@@ -1,5 +1,10 @@
 # createInstance
 
+## Issues
+Response schema mismatch:
+* Invalid type at ``#/gameServerVersion``,
+* Unexpected property at ``#/calendarEntryId``,
+* Unexpected property at ``#/creatorId``.
 ## Request
 `POST https://api.vrchat.cloud/api/1/instances`
 
@@ -12,11 +17,11 @@
 ```json
 {
   "worldId": "wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b",
-  "type": "friends",
+  "type": "private",
   "region": "use",
   "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "canRequestInvite": true,
-  "displayName": "Test Instance undefined",
+  "displayName": "8jmwqd9h",
   "contentSettings": {
     "drones": false,
     "props": true
@@ -26,17 +31,17 @@
 
 
 ## Response
-`400 Bad Request`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `97` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 

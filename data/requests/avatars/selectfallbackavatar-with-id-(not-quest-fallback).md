@@ -1,7 +1,7 @@
 # selectFallbackAvatar with id (not quest fallback)
 
 ## Request
-`PUT https://api.vrchat.cloud/api/1/avatars/avtr_0d9470d2-d2c5-42f4-9e9a-bfdc7f04aff0/selectFallback`
+`PUT https://api.vrchat.cloud/api/1/avatars/avtr_26187637-0c30-4a09-86e1-bc928c07309e/selectFallback`
 
 | Header | Value |
 | ------ | ----- |
@@ -27,7 +27,7 @@
 ```jsonc
 {
   "error": {
-    "message": "This avatar is unavailableǃ",
+    "message": "This avatar isn't tagged as a quest fallback avatar․",
     "status_code": 403
   }
 }

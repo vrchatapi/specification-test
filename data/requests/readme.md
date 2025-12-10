@@ -112,23 +112,24 @@ Response schema mismatch:
 
 ## [Instances](/data/requests/instances)
 
+#### [createInstance](/data/requests/instances/createinstance.md)
+
+Response schema mismatch:
+* Invalid type at ``#/gameServerVersion``,
+* Unexpected property at ``#/calendarEntryId``,
+* Unexpected property at ``#/creatorId``.
+
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
 Response schema mismatch:
-* Missing property at ``#/active``,
-* Missing property at ``#/canRequestInvite``,
-* Missing property at ``#/capacity``,
+* Unexpected property at ``#/calendarEntryId``.
 
-*22 issues truncated.*
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/creatorId``.
+* Unexpected property at ``#/calendarEntryId``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
-
-
-#### [createInstance](/data/requests/instances/createinstance.md)
 
 
 
@@ -148,19 +149,8 @@ Response schema mismatch:
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
 
 Response schema mismatch:
-* Missing property at ``#/acceptedTOSVersion``,
-* Missing property at ``#/ageVerificationStatus``,
-* Missing property at ``#/ageVerified``,
+* Unexpected property at ``#/usesGeneratedPassword``.
 
-*45 issues truncated.*
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
-
-Response schema mismatch:
-* Missing property at ``#/authorId``,
-* Missing property at ``#/authorName``,
-* Missing property at ``#/created_at``,
-
-*17 issues truncated.*
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
 
@@ -168,6 +158,9 @@ Response schema mismatch:
 
 
 #### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
+
+
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
@@ -451,8 +444,16 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/0/isDisabled``.
 
+#### [getOwnInventoryItem](/data/requests/inventory/getowninventoryitem.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/quantifiable``.
+
 #### [getInventory](/data/requests/inventory/getinventory.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/data/0/quantifiable``,
+* Unexpected property at ``#/data/1/quantifiable``.
 
 #### [spawnInventoryItem](/data/requests/inventory/spawninventoryitem.md)
 
@@ -544,7 +545,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1517 issues truncated.*
+*1524 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -560,7 +561,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*80 issues truncated.*
+*83 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
