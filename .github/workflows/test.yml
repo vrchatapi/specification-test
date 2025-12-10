@@ -23,12 +23,17 @@ jobs:
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install
+        run: |
+          pnpm install
+          sudo apt-get install -y jq
 
       - name: Test
         run: |
-          curl https://raw.githubusercontent.com/vrchatapi/specification/gh-pages/openapi.yaml -o openapi.yaml
-
+          curl -L -o openapi.yaml "$(curl -s https://api.github.com/repos/vrchatapi/specification/releases \
+            | jq -r '.[] | select(.prerelease) | .assets[] | select(.name=="openapi-internal+legacy.yaml").browser_download_url' \
+            | head -n 1)"
+  
+  
           rm data/state -rf
 
           ./node_modules/.bin/ava reset-cache
