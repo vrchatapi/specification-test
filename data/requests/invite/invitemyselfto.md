@@ -5,7 +5,7 @@ Response schema mismatch:
 * Unexpected property at ``#/details/worldId``,
 * Unexpected property at ``#/details/worldName``.
 ## Request
-`POST https://api.vrchat.cloud/api/1/invite/myself/to/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:09575~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)`
+`POST https://api.vrchat.cloud/api/1/invite/myself/to/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:89115~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)`
 
 | Header | Value |
 | ------ | ----- |
