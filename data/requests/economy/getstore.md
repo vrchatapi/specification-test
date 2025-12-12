@@ -472,7 +472,7 @@ Response schema mismatch:
         ],
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 1080,
-        "whenToExpire": null
+        "whenToExpire": "2025-12-22T03:00:00.000Z"
       },
       "highlightListingId": "prod_678ec13a-beae-4bb5-931b-9258872dd48f",
       "id": "ess_802b6c13-890a-4a2d-82fe-bd567c6b4d06",
@@ -517,7 +517,7 @@ Response schema mismatch:
           ],
           "subtitle": "Item",
           "vrcPlusDiscountPrice": 630,
-          "whenToExpire": null
+          "whenToExpire": "2025-12-22T03:00:00.000Z"
         },
         {
           "active": true,
@@ -580,7 +580,7 @@ Response schema mismatch:
           ],
           "subtitle": "Bundle",
           "vrcPlusDiscountPrice": 360,
-          "whenToExpire": null
+          "whenToExpire": "2025-12-22T03:00:00.000Z"
         },
         {
           "active": true,
@@ -629,7 +629,7 @@ Response schema mismatch:
           ],
           "subtitle": "Bundle",
           "vrcPlusDiscountPrice": 180,
-          "whenToExpire": null
+          "whenToExpire": "2025-12-22T03:00:00.000Z"
         }
       ],
       "shelfDescription": "",
