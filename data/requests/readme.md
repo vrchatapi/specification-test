@@ -271,6 +271,12 @@ Response schema mismatch:
 
 ## [Favorites](/data/requests/favorites)
 
+#### [getFavoriteLimits](/data/requests/favorites/getfavoritelimits.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/maxFavoriteGroups/vrcPlusWorld``,
+* Unexpected property at ``#/maxFavoritesPerGroup/vrcPlusWorld``.
+
 #### [getFavorites](/data/requests/favorites/getfavorites.md)
 
 
@@ -290,9 +296,6 @@ Response schema mismatch:
 
 
 #### [updateFavoriteGroup](/data/requests/favorites/updatefavoritegroup.md)
-
-
-#### [getFavoriteLimits](/data/requests/favorites/getfavoritelimits.md)
 
 
 
@@ -513,7 +516,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*83 issues truncated.*
+*86 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

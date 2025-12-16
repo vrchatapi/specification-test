@@ -1,5 +1,9 @@
 # getFavoriteLimits
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/maxFavoriteGroups/vrcPlusWorld``,
+* Unexpected property at ``#/maxFavoritesPerGroup/vrcPlusWorld``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user/favoritelimits`
 
@@ -32,11 +36,13 @@
   "maxFavoriteGroups": {
     "avatar": 6,
     "friend": 3,
+    "vrcPlusWorld": 4,
     "world": 4
   },
   "maxFavoritesPerGroup": {
     "avatar": 50,
     "friend": 150,
+    "vrcPlusWorld": 100,
     "world": 100
   }
 }
