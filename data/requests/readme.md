@@ -153,28 +153,52 @@ Response schema mismatch:
 
 ## [Calendar](/data/requests/calendar)
 
+#### [updateGroupCalendarEvent](/data/requests/calendar/updategroupcalendarevent.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/occurrenceKind``,
+* Unexpected property at ``#/recurrence``,
+* Unexpected property at ``#/seriesId``.
+
+#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/occurrenceKind``,
+* Unexpected property at ``#/recurrence``,
+* Unexpected property at ``#/seriesId``.
+
+#### [getGroupCalendarEvents](/data/requests/calendar/getgroupcalendarevents.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/results/0/occurrenceKind``,
+* Unexpected property at ``#/results/0/recurrence``,
+* Unexpected property at ``#/results/0/seriesId``.
+
+#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/occurrenceKind``,
+* Unexpected property at ``#/recurrence``,
+* Unexpected property at ``#/seriesId``.
+
+#### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/results/10/occurrenceKind``,
+* Unexpected property at ``#/results/10/recurrence``,
+* Unexpected property at ``#/results/10/seriesId``.
+
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/occurrenceKind``,
+* Unexpected property at ``#/recurrence``,
+* Unexpected property at ``#/seriesId``.
 
 #### [getCalendarEvents](/data/requests/calendar/getcalendarevents.md)
 
 
-#### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
-
-
-#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
-
-
 #### [getFollowedCalendarEvents](/data/requests/calendar/getfollowedcalendarevents.md)
-
-
-#### [getGroupCalendarEvents](/data/requests/calendar/getgroupcalendarevents.md)
-
-
-#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
-
-
-#### [updateGroupCalendarEvent](/data/requests/calendar/updategroupcalendarevent.md)
 
 
 #### [getGroupCalendarEventICS](/data/requests/calendar/getgroupcalendareventics.md)
@@ -516,7 +540,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*80 issues truncated.*
+*82 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

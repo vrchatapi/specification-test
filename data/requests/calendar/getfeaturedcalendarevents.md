@@ -1,5 +1,10 @@
 # getFeaturedCalendarEvents
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/results/10/occurrenceKind``,
+* Unexpected property at ``#/results/10/recurrence``,
+* Unexpected property at ``#/results/10/seriesId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/calendar/featured`
 
