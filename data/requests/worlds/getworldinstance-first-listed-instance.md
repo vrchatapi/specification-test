@@ -1,7 +1,7 @@
 # getWorldInstance first listed instance
 
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/97417~group(grp_181b6cb1-26c1-4b05-9376-44c34f573508)~groupAccessType(public)~region(use)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/36402~group(grp_caa7796b-ee39-41fd-aff1-873cfc66e0b6)~groupAccessType(public)~region(us)`
 
 | Header | Value |
 | ------ | ----- |

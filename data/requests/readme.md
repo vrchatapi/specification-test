@@ -184,9 +184,9 @@ Response schema mismatch:
 #### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/results/10/occurrenceKind``,
-* Unexpected property at ``#/results/10/recurrence``,
-* Unexpected property at ``#/results/10/seriesId``.
+* Unexpected property at ``#/results/9/occurrenceKind``,
+* Unexpected property at ``#/results/9/recurrence``,
+* Unexpected property at ``#/results/9/seriesId``.
 
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
@@ -540,7 +540,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*82 issues truncated.*
+*79 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
