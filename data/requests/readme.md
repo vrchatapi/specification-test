@@ -184,11 +184,11 @@ Response schema mismatch:
 #### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/results/0/occurrenceKind``,
-* Unexpected property at ``#/results/0/recurrence``,
-* Unexpected property at ``#/results/0/seriesId``,
+* Unexpected property at ``#/results/2/occurrenceKind``,
+* Unexpected property at ``#/results/2/recurrence``,
+* Unexpected property at ``#/results/2/seriesId``,
 
-*9 issues truncated.*
+*6 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -327,6 +327,22 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
+
+Response schema mismatch:
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
+
+*2 issues truncated.*
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+Response schema mismatch:
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
+
+*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -351,13 +367,7 @@ Response schema mismatch:
 #### [deleteFile](/data/requests/files/deletefile.md)
 
 
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
-
-
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -525,7 +535,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1528 issues truncated.*
+*1515 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -533,7 +543,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 
-*41 issues truncated.*
+*38 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -541,7 +551,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*81 issues truncated.*
+*87 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
