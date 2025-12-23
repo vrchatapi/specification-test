@@ -184,11 +184,11 @@ Response schema mismatch:
 #### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/results/2/occurrenceKind``,
-* Unexpected property at ``#/results/2/recurrence``,
-* Unexpected property at ``#/results/2/seriesId``,
+* Unexpected property at ``#/results/0/occurrenceKind``,
+* Unexpected property at ``#/results/0/recurrence``,
+* Unexpected property at ``#/results/0/seriesId``,
 
-*6 issues truncated.*
+*15 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -222,7 +222,7 @@ Response schema mismatch:
 * Invalid type at ``#/0highlightListing/products/1``,
 * Invalid type at ``#/0highlightListing/products/2``,
 
-*67 issues truncated.*
+*15 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -230,7 +230,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0highlightListing/products/1``,
 * Invalid type at ``#/shelves/0highlightListing/products/2``,
 
-*67 issues truncated.*
+*15 issues truncated.*
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
@@ -327,22 +327,6 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -367,7 +351,13 @@ Response schema mismatch:
 #### [deleteFile](/data/requests/files/deletefile.md)
 
 
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
+
+
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -551,7 +541,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*87 issues truncated.*
+*81 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
