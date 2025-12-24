@@ -188,7 +188,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/0/recurrence``,
 * Unexpected property at ``#/results/0/seriesId``,
 
-*15 issues truncated.*
+*9 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
