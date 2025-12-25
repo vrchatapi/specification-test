@@ -188,7 +188,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/0/recurrence``,
 * Unexpected property at ``#/results/0/seriesId``,
 
-*9 issues truncated.*
+*18 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -541,7 +541,7 @@ Response schema mismatch:
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 * Missing property at ``#/reportCategories/environment``,
 
-*81 issues truncated.*
+*77 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
