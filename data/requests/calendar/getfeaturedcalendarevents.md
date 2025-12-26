@@ -17,12 +17,9 @@ Response schema mismatch:
 * Unexpected property at ``#/results/4/occurrenceKind``,
 * Unexpected property at ``#/results/4/recurrence``,
 * Unexpected property at ``#/results/4/seriesId``,
-* Unexpected property at ``#/results/6/occurrenceKind``,
-* Unexpected property at ``#/results/6/recurrence``,
-* Unexpected property at ``#/results/6/seriesId``,
-* Unexpected property at ``#/results/8/occurrenceKind``,
-* Unexpected property at ``#/results/8/recurrence``,
-* Unexpected property at ``#/results/8/seriesId``.
+* Unexpected property at ``#/results/5/occurrenceKind``,
+* Unexpected property at ``#/results/5/recurrence``,
+* Unexpected property at ``#/results/5/seriesId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/calendar/featured`
 
