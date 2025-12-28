@@ -184,11 +184,11 @@ Response schema mismatch:
 #### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/results/0/occurrenceKind``,
-* Unexpected property at ``#/results/0/recurrence``,
-* Unexpected property at ``#/results/0/seriesId``,
+* Unexpected property at ``#/results/1/occurrenceKind``,
+* Unexpected property at ``#/results/1/recurrence``,
+* Unexpected property at ``#/results/1/seriesId``,
 
-*6 issues truncated.*
+*9 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
@@ -296,12 +296,6 @@ Response schema mismatch:
 
 ## [Favorites](/data/requests/favorites)
 
-#### [getFavoriteLimits](/data/requests/favorites/getfavoritelimits.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/maxFavoriteGroups/vrcPlusWorld``,
-* Unexpected property at ``#/maxFavoritesPerGroup/vrcPlusWorld``.
-
 #### [getFavorites](/data/requests/favorites/getfavorites.md)
 
 
@@ -321,6 +315,9 @@ Response schema mismatch:
 
 
 #### [updateFavoriteGroup](/data/requests/favorites/updatefavoritegroup.md)
+
+
+#### [getFavoriteLimits](/data/requests/favorites/getfavoritelimits.md)
 
 
 
@@ -442,12 +439,6 @@ Response schema mismatch:
 
 ## [Invite](/data/requests/invite)
 
-#### [inviteMyselfTo](/data/requests/invite/invitemyselfto.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/details/worldId``,
-* Unexpected property at ``#/details/worldName``.
-
 #### [getInviteMessage](/data/requests/invite/getinvitemessage.md)
 
 
@@ -461,6 +452,9 @@ Response schema mismatch:
 
 
 #### [updateInviteMessage message slot 0 update rate limited](/data/requests/invite/updateinvitemessage-message-slot-0-update-rate-limited.md)
+
+
+#### [inviteMyselfTo](/data/requests/invite/invitemyselfto.md)
 
 
 #### [getInviteMessages](/data/requests/invite/getinvitemessages.md)
@@ -479,12 +473,7 @@ Response schema mismatch:
 
 #### [getAssignedPermissions](/data/requests/permissions/getassignedpermissions.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/13data/maxFavoritesPerGroup``,
-* Unexpected property at ``#/13data/maxFavoriteGroups``,
-* Unexpected property at ``#/14data/tags``,
 
-*1 issues truncated.*
 #### [getPermission](/data/requests/permissions/getpermission.md)
 
 
@@ -537,11 +526,11 @@ Response schema mismatch:
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/events/useDirectPlayerSerialization``,
+* Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
+* Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
-* Missing property at ``#/reportCategories/environment``,
 
-*81 issues truncated.*
+*23 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

@@ -4,6 +4,14 @@
 Returns an AdminAssetBundle
 
 > Missing coverage.
+## Get Content Agreement Status
+Returns the agreement status of the currently authenticated user for the given agreementCode, contentId, and version.
+
+> Missing coverage.
+## Submit Content Agreement
+Returns the agreement of the currently authenticated user for the given agreementCode, contentId, and version.
+
+> Missing coverage.
 ## Get File Version Analysis
 Get the performance analysis for the uploaded assets of an avatar
 
@@ -16,6 +24,10 @@ Get the security performance analysis for the uploaded assets of an avatar
 Get the standard performance analysis for the uploaded assets of an avatar
 
 * [getFileAnalysisStandard](./getfileanalysisstandard.md)
+## Update Asset Review Notes
+Update notes regarding an asset review.
+
+> Missing coverage.
 ## Create File
 Creates a new File object
 
@@ -67,6 +79,10 @@ Returns a list of files
 
 * [getFiles without data](./getfiles-without-data.md)
 * [getFiles](./getfiles.md)
+## Set Group Gallery File Order
+Set the order of the files in a group gallery
+
+> Missing coverage.
 ## Upload gallery image
 Upload a gallery image
 

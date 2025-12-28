@@ -46,12 +46,24 @@ Get user's submitted feedback
 Get user's public groups
 
 > Missing coverage.
+## Get User Group Invited
+Returns a list of Groups the user has been invited to.
+
+> Missing coverage.
+## Get user's permissions for all joined groups.
+Returns a mapping of GroupIDs to arrays of GroupPermissions.
+
+> Missing coverage.
 ## Get user's current represented group
 Returns the current group that the user is currently representing
 
 > Missing coverage.
 ## Get User Group Requests
 Returns a list of Groups the user has requested to be invited into.
+
+> Missing coverage.
+## Get User Group Blocks
+Returns a list of Groups the user has blocked.
 
 > Missing coverage.
 ## Get User Group Instances
@@ -72,6 +84,10 @@ Gets a list of mutual friends between the logged in user and the specified user
 > Missing coverage.
 ## Get User Mutual Groups
 Gets a list of mutual groups between the logged in user and the specified user
+
+> Missing coverage.
+## Delete All User Persistence Data
+Deletes all of the user's persistence data for every world.
 
 > Missing coverage.
 ## Remove User Tags

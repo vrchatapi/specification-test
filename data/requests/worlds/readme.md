@@ -1,5 +1,9 @@
 # Worlds
 
+## Delete All User Persistence Data
+Deletes all of the user's persistence data for every world.
+
+> Missing coverage.
 ## Delete User Persistence
 Deletes the user's persistence data for a given world
 

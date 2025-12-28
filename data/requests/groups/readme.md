@@ -38,6 +38,10 @@ If an announcement exists, then it will always return all fields except `imageId
 Creates an Announcement for a Group. Warning: This will also remove all announcements. To make proper announcements, use the posts endpoint instead
 
 > Missing coverage.
+## Get Group Audit Log Entry Types
+Returns a list of audit log entry types for which the group has entries.
+
+> Missing coverage.
 ## Get Group Audit Logs
 Returns a list of audit logs for a Group.
 
@@ -52,6 +56,10 @@ Bans a user from a Group.
 > Missing coverage.
 ## Unban Group Member
 Unbans a user from a Group.
+
+> Missing coverage.
+## Block Group
+Blocks a Group for the current user. To unblock a group, call kickGroupMember (DELETE /groups/{groupId}/members/{userId}).
 
 > Missing coverage.
 ## Create Group Gallery
@@ -90,6 +98,10 @@ Returns a list of members that have been invited to the Group.
 Sends an invite to a user to join the group.
 
 * [createGroupInvite](./creategroupinvite.md)
+## Decline Invite from Group
+Declines an invite to the user from a group.
+
+> Missing coverage.
 ## Delete User Invite
 Deletes an Group invite sent to a User
 
@@ -107,8 +119,12 @@ Returns a List of all **other** Group Members. This endpoint will never return t
 Information about the user calling the endpoint must be found in the `myMember` field of the Group object.
 
 * [getGroupMembers](./getgroupmembers.md)
+## Search Group Members
+Search for members in the group by displayName.
+
+> Missing coverage.
 ## Kick Group Member
-Kicks a Group Member from the Group. The current user must have the "Remove Group Members" permission.
+Kicks a Group Member from the Group. The current user must have the "Remove Group Members" permission. Also used for unblocking groups.
 
 > Missing coverage.
 ## Get Group Member
@@ -181,6 +197,18 @@ Deletes a Group Role by ID and returns the remaining roles.
 > Missing coverage.
 ## Update Group Role
 Updates a group role by ID.
+
+> Missing coverage.
+## Cancel Group Transfer
+Cancel a Group Transfer.
+
+> Missing coverage.
+## Get Group Transferability
+Returns the transferability of the group to a given user.
+
+> Missing coverage.
+## Initiate or Accept Group Transfer
+To initiate, must be logged in as the current owner and specify the transferTargetId in the body. To accept, must be logged in as the user targetted by a pending transfer, no body is required.
 
 > Missing coverage.
 	
