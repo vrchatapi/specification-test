@@ -11,15 +11,38 @@ Response schema mismatch:
 * Invalid type at ``#/0highlightListing/products/6``,
 * Invalid type at ``#/0highlightListing/products/7``,
 * Invalid type at ``#/0highlightListing/products/8``,
+* Invalid type at ``#/0highlightListing/products/9``,
+* Invalid type at ``#/0highlightListing/products/10``,
+* Invalid type at ``#/0highlightListing/products/11``,
 * Invalid type at ``#/0listings/0products/0``,
 * Invalid type at ``#/0listings/1products/0``,
 * Invalid type at ``#/0listings/2products/0``,
 * Invalid type at ``#/0listings/3products/0``,
-* Invalid type at ``#/0listings/3products/1``,
 * Invalid type at ``#/0listings/4products/0``,
-* Invalid type at ``#/0listings/4products/1``,
-* Invalid type at ``#/0listings/4products/2``,
-* Invalid type at ``#/0listings/5products/0``.
+* Invalid type at ``#/0listings/5products/0``,
+* Invalid type at ``#/0listings/6products/0``,
+* Invalid type at ``#/0listings/6products/1``,
+* Invalid type at ``#/0listings/7products/0``,
+* Invalid type at ``#/0listings/7products/1``,
+* Invalid type at ``#/0listings/7products/2``,
+* Invalid type at ``#/1highlightListing/products/0``,
+* Invalid type at ``#/1highlightListing/products/1``,
+* Invalid type at ``#/1highlightListing/products/2``,
+* Invalid type at ``#/1highlightListing/products/3``,
+* Invalid type at ``#/1highlightListing/products/4``,
+* Invalid type at ``#/1highlightListing/products/5``,
+* Invalid type at ``#/1highlightListing/products/6``,
+* Invalid type at ``#/1highlightListing/products/7``,
+* Invalid type at ``#/1highlightListing/products/8``,
+* Invalid type at ``#/1listings/0products/0``,
+* Invalid type at ``#/1listings/1products/0``,
+* Invalid type at ``#/1listings/2products/0``,
+* Invalid type at ``#/1listings/3products/0``,
+* Invalid type at ``#/1listings/3products/1``,
+* Invalid type at ``#/1listings/4products/0``,
+* Invalid type at ``#/1listings/4products/1``,
+* Invalid type at ``#/1listings/4products/2``,
+* Invalid type at ``#/1listings/5products/0``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store/shelves?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&fetch=all`
 
@@ -47,6 +70,369 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "highlightListing": {
+      "active": true,
+      "buyerRefundable": false,
+      "description": "A massive bundle to celebrate New Year’s Eve! Contains the Gold-plated Lighter, Blazing Sparkler, Roman Candle, Wooden Fortune Box, Fiery Sky Fireworks Show, Blow Up Warp Effect, Ring of Fire Portal, the Celebration Emoji Pack, and the New Year’s Sticker Pack.\n\nWe wanted you to have a Happy New Year, so we put a lot of stuff in here.",
+      "displayName": "NYE Celebratory Bundle",
+      "duration": null,
+      "durationType": null,
+      "hasAvatar": false,
+      "hasUdon": false,
+      "id": "prod_6abe9222-a7a6-47f0-9278-271a330585d6",
+      "imageId": "file_04d0a9c6-6b52-441d-bd2f-7390d3450d51",
+      "imageUrl": null,
+      "listingType": "permanent",
+      "priceTokens": 3000,
+      "productIds": [
+        "prod_372b0474-ba8a-4d31-88e7-77f558f9fa44",
+        "prod_218ab6e6-67cd-4fca-9438-b37bf5712184",
+        "prod_2dcd3b2f-a0d0-43fb-9acf-5f94ac969c01",
+        "prod_4f9299d1-da78-47a1-b34d-dd35916b8056",
+        "prod_e5d19d5d-f882-4cd7-8968-853fd1240a6f",
+        "prod_f2c39274-1935-4eed-97b3-c70ef107d837",
+        "prod_f18a5f63-ec5a-4d86-8588-61c5deaf078f",
+        "prod_8271a1f9-d3ad-4d88-87a3-c0ee3e68ff9a",
+        "prod_16d3c02e-0066-44e8-855c-a1cfdbf2810a",
+        "prod_b35bf90a-4b9f-43b0-bec3-6c655cea6797",
+        "prod_ccd69891-2acb-4757-bc90-f9993e01e036",
+        "prod_b464ff1e-89fb-40ea-8f42-fee675f64e20"
+      ],
+      "productType": "listing",
+      "products": [
+        "prod_372b0474-ba8a-4d31-88e7-77f558f9fa44",
+        "prod_218ab6e6-67cd-4fca-9438-b37bf5712184",
+        "prod_2dcd3b2f-a0d0-43fb-9acf-5f94ac969c01",
+        "prod_4f9299d1-da78-47a1-b34d-dd35916b8056",
+        "prod_e5d19d5d-f882-4cd7-8968-853fd1240a6f",
+        "prod_f2c39274-1935-4eed-97b3-c70ef107d837",
+        "prod_f18a5f63-ec5a-4d86-8588-61c5deaf078f",
+        "prod_8271a1f9-d3ad-4d88-87a3-c0ee3e68ff9a",
+        "prod_16d3c02e-0066-44e8-855c-a1cfdbf2810a",
+        "prod_b35bf90a-4b9f-43b0-bec3-6c655cea6797",
+        "prod_ccd69891-2acb-4757-bc90-f9993e01e036",
+        "prod_b464ff1e-89fb-40ea-8f42-fee675f64e20"
+      ],
+      "quantifiable": false,
+      "recurrable": false,
+      "refundable": true,
+      "sellerDisplayName": "VRChat Store",
+      "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+      "soldByVrc": true,
+      "stackable": false,
+      "storeIds": [
+        "esto_00000000-0000-0000-0000-000000000000"
+      ],
+      "subtitle": "Bundle",
+      "vrcPlusDiscountPrice": 2700,
+      "whenToExpire": "2026-02-05T21:00:00.000Z"
+    },
+    "highlightListingId": "prod_6abe9222-a7a6-47f0-9278-271a330585d6",
+    "id": "ess_a0223769-30cd-4bf5-a74a-ee68faf05485",
+    "listingIds": [
+      "prod_1e77232d-bbbd-400f-ba0a-00d7e726973e",
+      "prod_c1c04228-db83-49c4-84d2-d2bdc7122da2",
+      "prod_7b8282e5-5f2e-431c-8819-daae9cc55691",
+      "prod_3527633d-542b-45f4-8e0d-d1ccda7e29fd",
+      "prod_6bd8e979-5410-4315-a670-851dbf57b682",
+      "prod_7300ac1c-afa5-474f-a19f-4dd6f9006d6e",
+      "prod_edb21c50-8ae7-4d0f-b490-36343cc0374a",
+      "prod_8f6ad7d5-1b1e-4330-a242-28f175ba1045"
+    ],
+    "listings": [
+      {
+        "active": true,
+        "buyerRefundable": false,
+        "description": "Replaces the default VRChat Portal, turning it into a blazing, pyrotechnic-infused gateway. Features new animations and sound effects.\n\nProbably won’t catch you on fire. Probably.",
+        "displayName": "Ring of Fire",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_1e77232d-bbbd-400f-ba0a-00d7e726973e",
+        "imageId": "file_3b9d71fc-ba11-435d-8c62-f1d12e47d82e",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_372b0474-ba8a-4d31-88e7-77f558f9fa44"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_372b0474-ba8a-4d31-88e7-77f558f9fa44"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Portal",
+        "vrcPlusDiscountPrice": 810,
+        "whenToExpire": "2026-02-05T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "buyerRefundable": false,
+        "description": "A flip-style lighter, for pyrotechnical ignition… or anything else you could use a flame for. Interacts with flame-sensitive Contacts.\n\nLight ‘em up.",
+        "displayName": "Gold-plated Lighter",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_c1c04228-db83-49c4-84d2-d2bdc7122da2",
+        "imageId": "file_d375517e-c09e-4680-a0a8-99a4c9144889",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 700,
+        "productIds": [
+          "prod_f2c39274-1935-4eed-97b3-c70ef107d837"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_f2c39274-1935-4eed-97b3-c70ef107d837"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Item",
+        "vrcPlusDiscountPrice": 630,
+        "whenToExpire": "2026-02-05T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "buyerRefundable": false,
+        "description": "Radiates sparkles everywhere as it burns awayǃ Lasts about 45 Seconds before it burns out․ Can be activated via interaction or by using a fire source‚ like the Gold-plated Lighter․\n\nHot to the touchǃ I mean‚ if it was real․",
+        "displayName": "Blazing Sparkler",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_7b8282e5-5f2e-431c-8819-daae9cc55691",
+        "imageId": "file_3e286b75-b45b-42e8-b298-b9d2838a679b",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 400,
+        "productIds": [
+          "prod_2dcd3b2f-a0d0-43fb-9acf-5f94ac969c01"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_2dcd3b2f-a0d0-43fb-9acf-5f94ac969c01"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Item",
+        "vrcPlusDiscountPrice": 360,
+        "whenToExpire": "2026-02-05T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "buyerRefundable": false,
+        "description": "Blasts fireballs into the distance! Can be activated via interaction… or by using a fire source, like the Gold-plated Lighter.\n\nDon’t point it at your friends. Only your enemies.",
+        "displayName": "Roman Candle",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_3527633d-542b-45f4-8e0d-d1ccda7e29fd",
+        "imageId": "file_c8d954d0-8a93-448b-b632-ed7cae537fdf",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_218ab6e6-67cd-4fca-9438-b37bf5712184"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_218ab6e6-67cd-4fca-9438-b37bf5712184"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Item",
+        "vrcPlusDiscountPrice": 810,
+        "whenToExpire": "2026-02-05T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "buyerRefundable": false,
+        "description": "A Japanese wooden omikuji! When activated, it produces a random fortune for you… or anyone else who wants to know what’s in their future.\n\nYou won’t have to burn any of these.",
+        "displayName": "Wooden Fortune Box",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_6bd8e979-5410-4315-a670-851dbf57b682",
+        "imageId": "file_f46414ed-e36e-4669-b229-6ba36f1abfed",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 600,
+        "productIds": [
+          "prod_e5d19d5d-f882-4cd7-8968-853fd1240a6f"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_e5d19d5d-f882-4cd7-8968-853fd1240a6f"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Item",
+        "vrcPlusDiscountPrice": 540,
+        "whenToExpire": "2026-02-05T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "buyerRefundable": false,
+        "description": "Changes the warp effect on your avatar. When entering or leaving an instance, you blow up… into a small fireworks display.\n\nDoesn’t hurt as much as you’d think.",
+        "displayName": "Blow Up",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_7300ac1c-afa5-474f-a19f-4dd6f9006d6e",
+        "imageId": "file_a0780c79-7adc-4b44-9187-9975a948ef28",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_8271a1f9-d3ad-4d88-87a3-c0ee3e68ff9a"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_8271a1f9-d3ad-4d88-87a3-c0ee3e68ff9a"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Warp Effect",
+        "vrcPlusDiscountPrice": 810,
+        "whenToExpire": "2026-02-05T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "buyerRefundable": false,
+        "description": "Contains two Premium Emoji: BALLOONS!!! and Countdown! Perfect for throwing a celebration with your friends.\n\nA party in a box. Or, well, in a Premium Emoji Pack.",
+        "displayName": "Celebration Emoji Pack",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_edb21c50-8ae7-4d0f-b490-36343cc0374a",
+        "imageId": "file_19355120-63f9-450f-837f-8e301dd66aa3",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 500,
+        "productIds": [
+          "prod_f18a5f63-ec5a-4d86-8588-61c5deaf078f",
+          "prod_16d3c02e-0066-44e8-855c-a1cfdbf2810a"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_f18a5f63-ec5a-4d86-8588-61c5deaf078f",
+          "prod_16d3c02e-0066-44e8-855c-a1cfdbf2810a"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 450,
+        "whenToExpire": "2026-02-05T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "buyerRefundable": false,
+        "description": "A pack of three Premium Stickers, all of which celebrate the New Year! Contains the Happy New Year!, Resolution Frame, and NYE 2026 Premium Stickers.\n",
+        "displayName": "New Year’s Sticker Pack",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_8f6ad7d5-1b1e-4330-a242-28f175ba1045",
+        "imageId": "file_5997433c-4069-4d39-9af2-563097128fb8",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 200,
+        "productIds": [
+          "prod_b35bf90a-4b9f-43b0-bec3-6c655cea6797",
+          "prod_ccd69891-2acb-4757-bc90-f9993e01e036",
+          "prod_b464ff1e-89fb-40ea-8f42-fee675f64e20"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_b35bf90a-4b9f-43b0-bec3-6c655cea6797",
+          "prod_ccd69891-2acb-4757-bc90-f9993e01e036",
+          "prod_b464ff1e-89fb-40ea-8f42-fee675f64e20"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 180,
+        "whenToExpire": "2026-02-05T21:00:00.000Z"
+      }
+    ],
+    "shelfDescription": "",
+    "shelfLayout": "highlightLeft",
+    "shelfTitle": "New Year's Celebration",
+    "updatedAt": "2025-12-29T21:00:26.048Z"
+  },
   {
     "highlightListing": {
       "active": true,
