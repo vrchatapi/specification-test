@@ -184,10 +184,11 @@ Response schema mismatch:
 #### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/results/2/occurrenceKind``,
-* Unexpected property at ``#/results/2/recurrence``,
-* Unexpected property at ``#/results/2/seriesId``.
+* Unexpected property at ``#/results/0/occurrenceKind``,
+* Unexpected property at ``#/results/0/recurrence``,
+* Unexpected property at ``#/results/0/seriesId``,
 
+*3 issues truncated.*
 #### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
 
 Response schema mismatch:
