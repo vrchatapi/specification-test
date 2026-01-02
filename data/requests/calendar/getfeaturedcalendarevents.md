@@ -2,6 +2,9 @@
 
 ## Issues
 Response schema mismatch:
+* Unexpected property at ``#/results/0/occurrenceKind``,
+* Unexpected property at ``#/results/0/recurrence``,
+* Unexpected property at ``#/results/0/seriesId``,
 * Unexpected property at ``#/results/1/occurrenceKind``,
 * Unexpected property at ``#/results/1/recurrence``,
 * Unexpected property at ``#/results/1/seriesId``,
@@ -44,12 +47,9 @@ Response schema mismatch:
 * Unexpected property at ``#/results/15/occurrenceKind``,
 * Unexpected property at ``#/results/15/recurrence``,
 * Unexpected property at ``#/results/15/seriesId``,
-* Unexpected property at ``#/results/16/occurrenceKind``,
-* Unexpected property at ``#/results/16/recurrence``,
-* Unexpected property at ``#/results/16/seriesId``,
-* Unexpected property at ``#/results/17/occurrenceKind``,
-* Unexpected property at ``#/results/17/recurrence``,
-* Unexpected property at ``#/results/17/seriesId``,
+* Unexpected property at ``#/results/18/occurrenceKind``,
+* Unexpected property at ``#/results/18/recurrence``,
+* Unexpected property at ``#/results/18/seriesId``,
 * Unexpected property at ``#/results/19/occurrenceKind``,
 * Unexpected property at ``#/results/19/recurrence``,
 * Unexpected property at ``#/results/19/seriesId``,
@@ -62,6 +62,12 @@ Response schema mismatch:
 * Unexpected property at ``#/results/22/occurrenceKind``,
 * Unexpected property at ``#/results/22/recurrence``,
 * Unexpected property at ``#/results/22/seriesId``,
+* Unexpected property at ``#/results/23/occurrenceKind``,
+* Unexpected property at ``#/results/23/recurrence``,
+* Unexpected property at ``#/results/23/seriesId``,
+* Unexpected property at ``#/results/24/occurrenceKind``,
+* Unexpected property at ``#/results/24/recurrence``,
+* Unexpected property at ``#/results/24/seriesId``,
 * Unexpected property at ``#/results/25/occurrenceKind``,
 * Unexpected property at ``#/results/25/recurrence``,
 * Unexpected property at ``#/results/25/seriesId``,
@@ -73,10 +79,7 @@ Response schema mismatch:
 * Unexpected property at ``#/results/27/seriesId``,
 * Unexpected property at ``#/results/28/occurrenceKind``,
 * Unexpected property at ``#/results/28/recurrence``,
-* Unexpected property at ``#/results/28/seriesId``,
-* Unexpected property at ``#/results/29/occurrenceKind``,
-* Unexpected property at ``#/results/29/recurrence``,
-* Unexpected property at ``#/results/29/seriesId``.
+* Unexpected property at ``#/results/28/seriesId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/calendar/featured`
 
