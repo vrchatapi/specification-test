@@ -113,86 +113,6 @@
     },
     {
       "accessType": "public",
-      "category": "roleplaying",
-      "deletedAt": null,
-      "description": "Run by me （storm） and starts at 1 pm for me \n2pm small willow spring \n1pm storm \nWe will play different game depending and what everyone is feeling",
-      "endsAt": "2026-01-17T23:00:00.000Z",
-      "featured": false,
-      "id": "cal_ba1802b9-8541-40f3-9433-73464171e094",
-      "imageId": null,
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_ccf199b6-b0df-4f8e-b038-8f7de07c7b50",
-      "platforms": [],
-      "startsAt": "2026-01-17T19:00:00.000Z",
-      "tags": [],
-      "title": "Game day",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Come Join Us For Game Night‚ Bring your friends‚ Lets all Laugh and have good time ˸3",
-      "endsAt": "2026-01-09T04:45:00.000Z",
-      "featured": true,
-      "id": "cal_afedcca8-828a-4955-8e86-bb4b2c2fda05",
-      "imageId": "file_6ccce6ca-50f8-4f81-961f-ce4a2c603ae1",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_6ccce6ca-50f8-4f81-961f-ce4a2c603ae1/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_4718c059-c5e6-46a5-8edc-0927d6d0d844",
-      "platforms": [
-        "standalonewindows",
-        "android"
-      ],
-      "startsAt": "2026-01-09T02:00:00.000Z",
-      "tags": [
-        "Games",
-        "Friendly"
-      ],
-      "title": "Game Nightǃǃ",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "simple game night",
-      "endsAt": "2026-01-08T02:00:00.000Z",
-      "featured": false,
-      "id": "cal_29a3f07b-49cb-4c9e-8de7-68e3baaf05da",
-      "imageId": null,
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_23266204-4065-42ca-b30c-fe9a84abc908",
-      "platforms": [],
-      "startsAt": "2026-01-07T23:00:00.000Z",
-      "tags": [],
-      "title": "game night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Hi Starsǃ\n\nGet ready for a night of laughter‚ games‚ and fun - its time for another Game ＆ Hangǃ Well jump into a few VRChat game worlds for a chill night of games and good company․ \n\nOne of the games we play will be chosen by youǃ Well play whichever game ranks ＃1 in the poll‚ along with a few surprise picks․ Head over to the polls channel in the Discord to cast your vote․ \n\nIf you have any game world suggestions for this or future events‚ share them in the worlds thread in the serverǃ",
-      "endsAt": "2026-01-12T01:00:00.000Z",
-      "featured": false,
-      "id": "cal_263725cc-0d25-4651-9711-4315ffa5da0d",
-      "imageId": "file_df276aa6-97ab-45db-a4e6-a87c09c9d000",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_df276aa6-97ab-45db-a4e6-a87c09c9d000/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_5e28e820-01e2-47c2-8695-3eb7d578ab22",
-      "platforms": [],
-      "startsAt": "2026-01-11T23:30:00.000Z",
-      "tags": [],
-      "title": "Game ＆ Hang",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
       "description": "Presented by the AuraKingdom",
@@ -269,6 +189,86 @@
       "startsAt": "2026-01-08T01:59:00.000Z",
       "tags": [],
       "title": "Game Night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "roleplaying",
+      "deletedAt": null,
+      "description": "Run by me （storm） and starts at 1 pm for me \n2pm small willow spring \n1pm storm \nWe will play different game depending and what everyone is feeling",
+      "endsAt": "2026-01-17T23:00:00.000Z",
+      "featured": false,
+      "id": "cal_ba1802b9-8541-40f3-9433-73464171e094",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_ccf199b6-b0df-4f8e-b038-8f7de07c7b50",
+      "platforms": [],
+      "startsAt": "2026-01-17T19:00:00.000Z",
+      "tags": [],
+      "title": "Game day",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Come Join Us For Game Night‚ Bring your friends‚ Lets all Laugh and have good time ˸3",
+      "endsAt": "2026-01-09T04:45:00.000Z",
+      "featured": true,
+      "id": "cal_afedcca8-828a-4955-8e86-bb4b2c2fda05",
+      "imageId": "file_6ccce6ca-50f8-4f81-961f-ce4a2c603ae1",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_6ccce6ca-50f8-4f81-961f-ce4a2c603ae1/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_4718c059-c5e6-46a5-8edc-0927d6d0d844",
+      "platforms": [
+        "standalonewindows",
+        "android"
+      ],
+      "startsAt": "2026-01-09T02:00:00.000Z",
+      "tags": [
+        "Games",
+        "Friendly"
+      ],
+      "title": "Game Nightǃǃ",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "simple game night",
+      "endsAt": "2026-01-08T02:00:00.000Z",
+      "featured": false,
+      "id": "cal_29a3f07b-49cb-4c9e-8de7-68e3baaf05da",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_23266204-4065-42ca-b30c-fe9a84abc908",
+      "platforms": [],
+      "startsAt": "2026-01-07T23:00:00.000Z",
+      "tags": [],
+      "title": "game night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Hi Starsǃ\n\nGet ready for a night of laughter‚ games‚ and fun - its time for another Game ＆ Hangǃ Well jump into a few VRChat game worlds for a chill night of games and good company․ \n\nOne of the games we play will be chosen by youǃ Well play whichever game ranks ＃1 in the poll‚ along with a few surprise picks․ Head over to the polls channel in the Discord to cast your vote․ \n\nIf you have any game world suggestions for this or future events‚ share them in the worlds thread in the serverǃ",
+      "endsAt": "2026-01-12T01:00:00.000Z",
+      "featured": false,
+      "id": "cal_263725cc-0d25-4651-9711-4315ffa5da0d",
+      "imageId": "file_df276aa6-97ab-45db-a4e6-a87c09c9d000",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_df276aa6-97ab-45db-a4e6-a87c09c9d000/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_5e28e820-01e2-47c2-8695-3eb7d578ab22",
+      "platforms": [],
+      "startsAt": "2026-01-11T23:30:00.000Z",
+      "tags": [],
+      "title": "Game ＆ Hang",
       "type": "event"
     },
     {
@@ -581,6 +581,6 @@
       "type": "event"
     }
   ],
-  "totalCount": 74
+  "totalCount": 72
 }
 ```

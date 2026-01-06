@@ -1,7 +1,7 @@
 # getInstanceByShortName secure name is a valid short name
 
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/xveqap39`
+`GET https://api.vrchat.cloud/api/1/instances/s/zh5vd02m`
 
 | Header | Value |
 | ------ | ----- |

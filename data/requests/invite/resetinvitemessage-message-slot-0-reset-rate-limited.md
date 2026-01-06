@@ -10,25 +10,25 @@
 
 
 ## Response
-`429 Too Many Requests`
+`404 Not Found`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `92` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
   "error": {
-    "message": "Please wait 48 more minutes until you try again․",
-    "status_code": 429
+    "message": "There's no entry for that slot․",
+    "status_code": 404
   }
 }
 ```

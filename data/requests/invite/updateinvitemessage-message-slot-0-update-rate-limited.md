@@ -34,7 +34,7 @@
 ```jsonc
 {
   "error": {
-    "message": "Please wait 41 more minutes until you try again․",
+    "message": "Please wait 59 more minutes until you try again․",
     "status_code": 429
   }
 }

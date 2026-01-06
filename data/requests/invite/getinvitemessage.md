@@ -27,11 +27,11 @@
 
 ```jsonc
 {
-  "canBeUpdated": false,
+  "canBeUpdated": true,
   "id": "invm_a1f1f9d7-44da-4a7b-9083-1fad6de30bd6",
   "message": "Hello‚ Worldǃ",
   "messageType": "message",
-  "remainingCooldownMinutes": 53,
+  "remainingCooldownMinutes": 0,
   "slot": 0,
   "updatedAt": "<unstable: string>"
 }
