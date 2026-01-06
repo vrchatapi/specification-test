@@ -48,6 +48,28 @@
       "invt_b0dc9369-5edf-425f-aff6-f929b8c17e7b"
     ],
     "updated_at": "2025-12-17T01:10:40.708Z"
+  },
+  {
+    "authorId": "usr_cd1b4a36-29ac-4bc9-aa5a-76b180338768",
+    "created_at": "2026-01-05T19:54:24.792Z",
+    "dropExpiryDate": "2026-02-05T21:00:00.000Z",
+    "endDropDate": "2026-02-05T21:00:00.000Z",
+    "id": "invd_9009f4f5-7a5b-4f7f-b581-9e55e8de1552",
+    "isDisabled": false,
+    "name": "Community Spirit Reward",
+    "notificationDetails": {
+      "body": "Check your inventory to claim your new items.",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_d80c2d65-a997-4647-a578-4ea7d3ce9a39/1/file",
+      "title": "You have a new bundle to open!"
+    },
+    "startDropDate": "2026-01-05T20:00:00.000Z",
+    "status": "active",
+    "tags": [],
+    "targetGroup": "everyone",
+    "templateIds": [
+      "invt_5eec4895-0e03-46d4-95da-f13c25e68689"
+    ],
+    "updated_at": "2026-01-05T19:54:24.792Z"
   }
 ]
 ```
