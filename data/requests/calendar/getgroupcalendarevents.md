@@ -1,10 +1,5 @@
 # getGroupCalendarEvents
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/results/0/occurrenceKind``,
-* Unexpected property at ``#/results/0/recurrence``,
-* Unexpected property at ``#/results/0/seriesId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e`
 

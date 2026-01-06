@@ -96,24 +96,6 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "Please join us for a Pheonix Haven Game Nightǃ Remember to follow TOS‚ our personal Group rules‚ and to be respectful of others as you have an amazingly fun time at our game night event․",
-      "endsAt": "2026-01-06T03:00:00.000Z",
-      "featured": true,
-      "id": "cal_f09ae4a4-fa49-4a7b-b124-14b46760fef6",
-      "imageId": null,
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_533aebc5-884f-4631-bb59-7559a988d2a1",
-      "platforms": [],
-      "startsAt": "2026-01-06T01:00:00.000Z",
-      "tags": [],
-      "title": "Game Night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
       "description": "You voted․ You chose․ Now you must live with the consequences․ Join the Holian Society for our weekly game night‚ where we play the one game the majority decided was ＂fun․＂ For the 49％ who voted for something else‚ consider it a lesson in political science․ Let the democratically-enforced good times rollǃ",
       "endsAt": "2026-01-11T22:00:00.000Z",
       "featured": false,
@@ -273,6 +255,24 @@
     },
     {
       "accessType": "public",
+      "category": "other",
+      "deletedAt": null,
+      "description": "Come help us growǃ",
+      "endsAt": "2026-01-08T02:59:00.000Z",
+      "featured": false,
+      "id": "cal_36a260d5-13ad-4485-a492-5034a70f849a",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_8670ecf0-bd53-46f6-a8e3-235a0775801b",
+      "platforms": [],
+      "startsAt": "2026-01-08T01:59:00.000Z",
+      "tags": [],
+      "title": "Game Night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
       "description": "Please join us for a Pheonix Haven Game Nightǃ Remember to follow TOS‚ our personal Group rules‚ and to be respectful of others as you have an amazingly fun time at our game night event․",
@@ -287,25 +287,6 @@
       "startsAt": "2026-01-20T01:00:00.000Z",
       "tags": [],
       "title": "Game Night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "To all my lovely members who deserve happiness and enjoyment Im going to do a game night with a bunch of different games and maybe a bunch of TF2 photos of you guys in it if youd like to be a part of that",
-      "endsAt": "2026-01-06T01:40:00.000Z",
-      "featured": false,
-      "id": "cal_3ff29702-f0a1-4179-8664-1ef1b4c425ac",
-      "imageId": "file_76479476-83db-46d1-ae69-1c7acabd0a29",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_76479476-83db-46d1-ae69-1c7acabd0a29/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_5b9819b7-b55f-4b49-b231-8907523182f1",
-      "platforms": [],
-      "startsAt": "2026-01-05T19:05:00.000Z",
-      "tags": [],
-      "title": "Game night",
       "type": "event"
     },
     {
@@ -423,55 +404,6 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "Come and get to know one another but fighting it out in a minigameǃ",
-      "endsAt": "2026-01-13T02:00:00.000Z",
-      "featured": false,
-      "id": "cal_1e599c9a-b49b-4466-9b14-997f6816620e",
-      "imageId": "file_5f92fd48-a659-444b-b4cc-d5baf593b5dd",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_5f92fd48-a659-444b-b4cc-d5baf593b5dd/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_ec88e047-b462-48d2-be44-da17ec455abf",
-      "platforms": [],
-      "startsAt": "2026-01-12T23:00:00.000Z",
-      "tags": [],
-      "title": "Mini Game night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Waiting lobby opens˸ 20˸00\nEvent starts˸ 20˸30\n\nWhat˸ A game meetup with several fun party games․ New people are welcome to join․\n\nGames we will play˸\n GeoGuessr You will be dropped in a random location and try to guess where you are in the world․\n Trash Compactor One player controls a cannon and tries to push everyone else into the shredder․\n Prison Escape Players are divided into Guards and Prisoners․ Prisoners must escape while Guards try to stop them․\n\nWe will move between games during the event and keep things friendly and relaxed․\n\nIf you have any questions‚ contact me -≻ VRC˸ orishelle1 ⁄ Discord˸ ori_meir\nHope to see you there․",
-      "endsAt": "2026-01-08T22:00:00.000Z",
-      "featured": false,
-      "id": "cal_defb66c3-7dd6-46d0-b93e-b991553e5b75",
-      "imageId": "file_9fa4ce50-c93f-40bd-8a58-95d228b6f9c2",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_9fa4ce50-c93f-40bd-8a58-95d228b6f9c2/1/file",
-      "isDraft": false,
-      "languages": [
-        "heb",
-        "eng"
-      ],
-      "ownerId": "grp_c2baa80d-0e93-49f8-bba6-f72126358073",
-      "platforms": [
-        "ios",
-        "android",
-        "standalonewindows"
-      ],
-      "startsAt": "2026-01-08T18:00:00.000Z",
-      "tags": [
-        "Israel",
-        "Games",
-        "Fun"
-      ],
-      "title": "THURSDAY GAME MEETUP",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
       "description": "You voted․ You chose․ Now you must live with the consequences․ Join the Holian Society for our weekly game night‚ where we play the one game the majority decided was ＂fun․＂ For the 49％ who voted for something else‚ consider it a lesson in political science․ Let the democratically-enforced good times rollǃ",
       "endsAt": "2026-01-18T22:00:00.000Z",
       "featured": false,
@@ -580,8 +512,75 @@
       "tags": [],
       "title": "Game night",
       "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "other",
+      "deletedAt": null,
+      "description": "Come hangout and have some funǃ",
+      "endsAt": "2026-01-15T02:02:00.000Z",
+      "featured": false,
+      "id": "cal_0b261435-f596-491f-baf5-4e163e49ff13",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_8670ecf0-bd53-46f6-a8e3-235a0775801b",
+      "platforms": [],
+      "startsAt": "2026-01-15T01:02:00.000Z",
+      "tags": [],
+      "title": "Game Night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Come and get to know one another but fighting it out in a minigameǃ",
+      "endsAt": "2026-01-13T02:00:00.000Z",
+      "featured": false,
+      "id": "cal_1e599c9a-b49b-4466-9b14-997f6816620e",
+      "imageId": "file_5f92fd48-a659-444b-b4cc-d5baf593b5dd",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_5f92fd48-a659-444b-b4cc-d5baf593b5dd/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_ec88e047-b462-48d2-be44-da17ec455abf",
+      "platforms": [],
+      "startsAt": "2026-01-12T23:00:00.000Z",
+      "tags": [],
+      "title": "Mini Game night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Waiting lobby opens˸ 20˸00\nEvent starts˸ 20˸30\n\nWhat˸ A game meetup with several fun party games․ New people are welcome to join․\n\nGames we will play˸\n GeoGuessr You will be dropped in a random location and try to guess where you are in the world․\n Trash Compactor One player controls a cannon and tries to push everyone else into the shredder․\n Prison Escape Players are divided into Guards and Prisoners․ Prisoners must escape while Guards try to stop them․\n\nWe will move between games during the event and keep things friendly and relaxed․\n\nIf you have any questions‚ contact me -≻ VRC˸ orishelle1 ⁄ Discord˸ ori_meir\nHope to see you there․",
+      "endsAt": "2026-01-08T22:00:00.000Z",
+      "featured": false,
+      "id": "cal_defb66c3-7dd6-46d0-b93e-b991553e5b75",
+      "imageId": "file_9fa4ce50-c93f-40bd-8a58-95d228b6f9c2",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_9fa4ce50-c93f-40bd-8a58-95d228b6f9c2/1/file",
+      "isDraft": false,
+      "languages": [
+        "heb",
+        "eng"
+      ],
+      "ownerId": "grp_c2baa80d-0e93-49f8-bba6-f72126358073",
+      "platforms": [
+        "ios",
+        "android",
+        "standalonewindows"
+      ],
+      "startsAt": "2026-01-08T18:00:00.000Z",
+      "tags": [
+        "Israel",
+        "Games",
+        "Fun"
+      ],
+      "title": "THURSDAY GAME MEETUP",
+      "type": "event"
     }
   ],
-  "totalCount": 73
+  "totalCount": 74
 }
 ```
