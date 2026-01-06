@@ -11,7 +11,7 @@ const messageContentsRateLimited = "I am speed!";
 
 test.todo("Invite User");
 
-test.failing( //Notification uses OneOf
+test(
 	testOperation,
 	"inviteMyselfTo",
 	{
