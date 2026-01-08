@@ -485,11 +485,11 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
 Response schema mismatch:
-* Invalid type at ``#/0/data/contentList/name``,
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
+* Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1515 issues truncated.*
+*1531 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:

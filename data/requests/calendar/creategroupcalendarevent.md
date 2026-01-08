@@ -45,7 +45,7 @@
   "createdAt": "<unstable: string>",
   "deletedAt": null,
   "description": "Test Description",
-  "durationInMs": 3600000,
+  "durationInMs": 3600001,
   "endsAt": "<unstable: string>",
   "featured": false,
   "guestEarlyJoinMinutes": 5,
