@@ -128,7 +128,7 @@ Kicks a Group Member from the Group. The current user must have the "Remove Grou
 
 > Missing coverage.
 ## Get Group Member
-Returns a LimitedGroup Member.
+Returns a GroupMember.
 
 > Missing coverage.
 ## Update Group Member
