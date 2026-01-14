@@ -28,6 +28,13 @@
 ```jsonc
 [
   {
+    "id": "prms_f61f68cb-d793-48fe-9d10-72718d1ce284",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-vrcplus-world-groups",
+    "data": {}
+  },
+  {
     "id": "prms_54d62dfd-b151-42b1-b528-c5800d54f6b1",
     "ownerId": "usr_ff2bbd81-6863-434a-8c15-9a6f9607e222",
     "ownerDisplayName": "Server_Stuff",

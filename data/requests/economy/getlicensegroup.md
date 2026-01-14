@@ -38,6 +38,12 @@
       "forAction": "have"
     },
     {
+      "forId": "prms_f61f68cb-d793-48fe-9d10-72718d1ce284",
+      "forType": "permission",
+      "forName": "permission-vrcplus-world-groups",
+      "forAction": "have"
+    },
+    {
       "forId": "prms_f3ca998c-6e10-4b9e-b05f-9c06abf3ce32",
       "forType": "permission",
       "forName": "permission-user-prints-upload",
