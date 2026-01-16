@@ -1,5 +1,8 @@
 # getWorld (VRChat Home)
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/disabledCategories``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
 
@@ -33,6 +36,7 @@
   "created_at": "2019-02-22T17:33:03.865Z",
   "defaultContentSettings": {},
   "description": "Whether you're new or returning‚ this space offers a cozy starting point to customize your avatar‚ explore the menus‚ and prepare for adventures across VRChatǃ",
+  "disabledCategories": [],
   "favorites": "<unstable: number>",
   "featured": false,
   "heat": "<unstable: number>",

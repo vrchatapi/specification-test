@@ -1,7 +1,10 @@
 # getWorldInstance first listed instance
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/world/disabledCategories``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/73749~group(grp_7867ad99-779f-4236-a984-0654956e4daa)~groupAccessType(public)~region(us)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/94693~group(grp_05540945-a261-43c6-9a4c-381c9bdb80c2)~groupAccessType(public)~ageGate~region(us)`
 
 | Header | Value |
 | ------ | ----- |

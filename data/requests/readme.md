@@ -75,25 +75,43 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
-
-#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
-
-
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-
-#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
-
-
-#### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
-
+Response schema mismatch:
+* Unexpected property at ``#/disabledCategories``.
 
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/0/disabledCategories``.
 
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
+#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/disabledCategories``,
+* Unexpected property at ``#/1/disabledCategories``,
+* Unexpected property at ``#/2/disabledCategories``,
+
+*7 issues truncated.*
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/disabledCategories``,
+* Unexpected property at ``#/1/disabledCategories``,
+* Unexpected property at ``#/2/disabledCategories``,
+
+*7 issues truncated.*
+#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/world/disabledCategories``.
+
+#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/disabledCategories``.
+
+#### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
 #### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
@@ -106,16 +124,22 @@ Response schema mismatch:
 
 ## [Instances](/data/requests/instances)
 
-#### [getInstance](/data/requests/instances/getinstance.md)
+#### [createInstance](/data/requests/instances/createinstance.md)
 
-
-#### [getShortName](/data/requests/instances/getshortname.md)
-
+Response schema mismatch:
+* Unexpected property at ``#/world/disabledCategories``.
 
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/world/disabledCategories``.
 
-#### [createInstance](/data/requests/instances/createinstance.md)
+#### [getInstance](/data/requests/instances/getinstance.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/world/disabledCategories``.
+
+#### [getShortName](/data/requests/instances/getshortname.md)
 
 
 
@@ -505,7 +529,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*24 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

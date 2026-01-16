@@ -1,5 +1,8 @@
 # createInstance
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/world/disabledCategories``.
 ## Request
 `POST https://api.vrchat.cloud/api/1/instances`
 
@@ -16,7 +19,7 @@
   "region": "use",
   "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "canRequestInvite": true,
-  "displayName": "seetqhby",
+  "displayName": "ced28wgr",
   "contentSettings": {
     "drones": false,
     "props": true
