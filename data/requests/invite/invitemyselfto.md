@@ -1,7 +1,7 @@
 # inviteMyselfTo
 
 ## Request
-`POST https://api.vrchat.cloud/api/1/invite/myself/to/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:66512~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)`
+`POST https://api.vrchat.cloud/api/1/invite/myself/to/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:85684~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)`
 
 | Header | Value |
 | ------ | ----- |

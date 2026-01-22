@@ -1,5 +1,9 @@
 # getCurrentUser after two-factor authentication
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/appleDetails``,
+* Unexpected property at ``#/appleId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -35,6 +39,8 @@
   "ageVerificationStatus": "hidden",
   "ageVerified": true,
   "allowAvatarCopying": true,
+  "appleDetails": {},
+  "appleId": "",
   "badges": [
     {
       "assignedAt": "2024-07-21T22:28:04.790Z",

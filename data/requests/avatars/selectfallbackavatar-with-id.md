@@ -1,5 +1,9 @@
 # selectFallbackAvatar with id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/appleDetails``,
+* Unexpected property at ``#/appleId``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
 
@@ -33,6 +37,8 @@
   "ageVerificationStatus": "hidden",
   "ageVerified": true,
   "allowAvatarCopying": true,
+  "appleDetails": {},
+  "appleId": "",
   "bio": "",
   "bioLinks": [],
   "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",

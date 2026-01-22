@@ -1,5 +1,9 @@
 # selectAvatar with id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/appleDetails``,
+* Unexpected property at ``#/appleId``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_26187637-0c30-4a09-86e1-bc928c07309e/select`
 
@@ -33,6 +37,8 @@
   "ageVerificationStatus": "hidden",
   "ageVerified": true,
   "allowAvatarCopying": true,
+  "appleDetails": {},
+  "appleId": "",
   "bio": "",
   "bioLinks": [],
   "currentAvatar": "avtr_26187637-0c30-4a09-86e1-bc928c07309e",
