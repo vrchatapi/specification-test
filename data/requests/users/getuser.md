@@ -115,9 +115,12 @@
     "https://bsky.app/profile/dtupper.com",
     "https://dtupper.com/"
   ],
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "currentAvatarTags": [],
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_7185e34a-6545-4219-ac4e-43675ff16161/2/file",
+  "currentAvatarTags": [
+    "author_tag_runa",
+    "author_tag_robot"
+  ],
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_7185e34a-6545-4219-ac4e-43675ff16161/2/256",
   "date_joined": "2017-07-12",
   "developerType": "none",
   "displayName": "tupper",
@@ -132,8 +135,8 @@
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
-  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_6394eb90-5859-4949-97b7-4e8381c8f37d/1",
-  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_6394eb90-5859-4949-97b7-4e8381c8f37d/1/512",
+  "profilePicOverride": "",
+  "profilePicOverrideThumbnail": "",
   "pronouns": "he/him",
   "state": "offline",
   "status": "ask me",
