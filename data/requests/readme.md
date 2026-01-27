@@ -84,38 +84,38 @@ Response schema mismatch:
 #### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
 Response schema mismatch:
-* Unexpected property at ``#/disabledCategories``.
+* Unexpected property at ``#/disabledPropAbilities``.
 
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0/disabledCategories``.
+* Unexpected property at ``#/0/disabledPropAbilities``.
 
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0/disabledCategories``,
-* Unexpected property at ``#/1/disabledCategories``,
-* Unexpected property at ``#/2/disabledCategories``,
+* Unexpected property at ``#/0/disabledPropAbilities``,
+* Unexpected property at ``#/1/disabledPropAbilities``,
+* Unexpected property at ``#/2/disabledPropAbilities``,
 
 *7 issues truncated.*
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0/disabledCategories``,
-* Unexpected property at ``#/1/disabledCategories``,
-* Unexpected property at ``#/2/disabledCategories``,
+* Unexpected property at ``#/0/disabledPropAbilities``,
+* Unexpected property at ``#/1/disabledPropAbilities``,
+* Unexpected property at ``#/2/disabledPropAbilities``,
 
 *7 issues truncated.*
 #### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/world/disabledCategories``.
+* Unexpected property at ``#/world/disabledPropAbilities``.
 
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/disabledCategories``.
+* Unexpected property at ``#/disabledPropAbilities``.
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
@@ -133,17 +133,17 @@ Response schema mismatch:
 #### [createInstance](/data/requests/instances/createinstance.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/world/disabledCategories``.
+* Unexpected property at ``#/world/disabledPropAbilities``.
 
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/world/disabledCategories``.
+* Unexpected property at ``#/world/disabledPropAbilities``.
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/world/disabledCategories``.
+* Unexpected property at ``#/world/disabledPropAbilities``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
 
@@ -341,22 +341,6 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
-
-*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -381,7 +365,13 @@ Response schema mismatch:
 #### [deleteFile](/data/requests/files/deletefile.md)
 
 
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
+
+
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -557,7 +547,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*20 issues truncated.*
+*24 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

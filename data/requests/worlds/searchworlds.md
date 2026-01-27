@@ -2,16 +2,16 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/0/disabledCategories``,
-* Unexpected property at ``#/1/disabledCategories``,
-* Unexpected property at ``#/2/disabledCategories``,
-* Unexpected property at ``#/3/disabledCategories``,
-* Unexpected property at ``#/4/disabledCategories``,
-* Unexpected property at ``#/5/disabledCategories``,
-* Unexpected property at ``#/6/disabledCategories``,
-* Unexpected property at ``#/7/disabledCategories``,
-* Unexpected property at ``#/8/disabledCategories``,
-* Unexpected property at ``#/9/disabledCategories``.
+* Unexpected property at ``#/0/disabledPropAbilities``,
+* Unexpected property at ``#/1/disabledPropAbilities``,
+* Unexpected property at ``#/2/disabledPropAbilities``,
+* Unexpected property at ``#/3/disabledPropAbilities``,
+* Unexpected property at ``#/4/disabledPropAbilities``,
+* Unexpected property at ``#/5/disabledPropAbilities``,
+* Unexpected property at ``#/6/disabledPropAbilities``,
+* Unexpected property at ``#/7/disabledPropAbilities``,
+* Unexpected property at ``#/8/disabledPropAbilities``,
+* Unexpected property at ``#/9/disabledPropAbilities``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds`
 

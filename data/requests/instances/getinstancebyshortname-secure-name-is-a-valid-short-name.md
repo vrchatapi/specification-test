@@ -2,9 +2,9 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/world/disabledCategories``.
+* Unexpected property at ``#/world/disabledPropAbilities``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/w2p6wdhh`
+`GET https://api.vrchat.cloud/api/1/instances/s/5dgg3erb`
 
 | Header | Value |
 | ------ | ----- |

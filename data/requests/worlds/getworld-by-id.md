@@ -2,7 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/disabledCategories``.
+* Unexpected property at ``#/disabledPropAbilities``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b`
 
@@ -36,7 +36,7 @@ Response schema mismatch:
   "created_at": "2019-05-01T01:19:43.477Z",
   "defaultContentSettings": {},
   "description": "The Black Cat is a simple mirror world․ Come hangout‚ meet new friends‚ eat pancakes‚ and stare at yourself․ Everyone is welcomed at The Black Catǃ",
-  "disabledCategories": [],
+  "disabledPropAbilities": [],
   "favorites": "<unstable: number>",
   "featured": false,
   "heat": "<unstable: number>",
