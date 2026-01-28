@@ -35,6 +35,13 @@
     "data": {}
   },
   {
+    "id": "prms_462ebb1f-0fbc-479d-b2c6-782a0cc801da",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-reduced-name-change-cooldown",
+    "data": {}
+  },
+  {
     "id": "prms_54d62dfd-b151-42b1-b528-c5800d54f6b1",
     "ownerId": "usr_ff2bbd81-6863-434a-8c15-9a6f9607e222",
     "ownerDisplayName": "Server_Stuff",
@@ -64,21 +71,21 @@
     }
   },
   {
-    "id": "prms_f3639e26-cacf-4d42-a23d-7f6dca329fd6",
-    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
-    "ownerDisplayName": "Nyx",
-    "name": "permission-user-prints-gallery-free",
-    "data": {
-      "max": 60
-    }
-  },
-  {
     "id": "prms_6d2096bc-22c4-4f7e-a4e6-7f46b18bb2fc",
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
     "ownerDisplayName": "Nyx",
     "name": "permission-user-prints",
     "data": {
       "max": 64
+    }
+  },
+  {
+    "id": "prms_f3639e26-cacf-4d42-a23d-7f6dca329fd6",
+    "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
+    "ownerDisplayName": "Nyx",
+    "name": "permission-user-prints-gallery-free",
+    "data": {
+      "max": 60
     }
   },
   {

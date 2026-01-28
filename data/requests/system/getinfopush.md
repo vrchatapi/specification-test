@@ -2,27 +2,24 @@
 
 ## Issues
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
-* Invalid type at ``#/3/endDate``,
-* Invalid type at ``#/3/startDate``,
+* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/endDate``,
 * Invalid type at ``#/4/startDate``,
-* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
 * Invalid type at ``#/5/endDate``,
 * Invalid type at ``#/5/startDate``,
+* Unexpected property at ``#/5/experiment``,
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
@@ -41,11 +38,16 @@ Response schema mismatch:
 * Unexpected property at ``#/8/regions``,
 * Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
+* Invalid type at ``#/9/endDate``,
+* Invalid type at ``#/9/startDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
-* Invalid type at ``#/10/endDate``,
-* Invalid type at ``#/10/startDate``,
-* Unexpected property at ``#/10/regions``,
-* Unexpected property at ``#/10/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/11/data/onPressed/command``,
+* Invalid type at ``#/11/endDate``,
+* Invalid type at ``#/11/startDate``,
+* Unexpected property at ``#/11/regions``,
+* Unexpected property at ``#/11/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -73,6 +75,29 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "createdAt": "2026-01-27T23:11:17.573Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4bad82e9-6dea-457f-832e-97c2cc02b780.jpg",
+      "onPressed": {
+        "command": "OpenVRCPlusMenu"
+      }
+    },
+    "endDate": "2026-02-04T21:00:00.000Z",
+    "hash": "ips_vrc400worldfavs6de-a6d7-710b0d943996",
+    "id": "ips_vrc400worldfavs6de-a6d7-710b0d943996",
+    "isEnabled": true,
+    "priority": 199,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-01-27T23:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-01-27T23:11:17.573Z"
+  },
   {
     "createdAt": "2025-12-20T01:15:12.267Z",
     "data": {

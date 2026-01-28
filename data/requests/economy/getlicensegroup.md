@@ -38,6 +38,12 @@
       "forAction": "have"
     },
     {
+      "forId": "prms_462ebb1f-0fbc-479d-b2c6-782a0cc801da",
+      "forType": "permission",
+      "forName": "permission-reduced-name-change-cooldown",
+      "forAction": "have"
+    },
+    {
       "forId": "prms_f61f68cb-d793-48fe-9d10-72718d1ce284",
       "forType": "permission",
       "forName": "permission-vrcplus-world-groups",

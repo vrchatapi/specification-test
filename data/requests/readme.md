@@ -531,15 +531,15 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1522 issues truncated.*
+*1524 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 
-*41 issues truncated.*
+*43 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -547,7 +547,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*24 issues truncated.*
+*22 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
