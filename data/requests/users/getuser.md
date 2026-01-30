@@ -117,8 +117,8 @@
   ],
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_7185e34a-6545-4219-ac4e-43675ff16161/2/file",
   "currentAvatarTags": [
-    "author_tag_runa",
-    "author_tag_robot"
+    "author_tag_robot",
+    "author_tag_runa"
   ],
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_7185e34a-6545-4219-ac4e-43675ff16161/2/256",
   "date_joined": "2017-07-12",
