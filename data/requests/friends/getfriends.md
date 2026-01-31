@@ -1,5 +1,8 @@
 # getFriends
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0/discordId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user/friends?offline=true`
 
@@ -34,6 +37,7 @@
     "currentAvatarTags": [],
     "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "developerType": "none",
+    "discordId": "",
     "displayName": "VRChatWiki",
     "friendKey": "",
     "id": "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a",

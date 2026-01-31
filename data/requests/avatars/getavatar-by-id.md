@@ -1,5 +1,8 @@
 # getAvatar by id
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/attribution``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/avatars/avtr_26187637-0c30-4a09-86e1-bc928c07309e`
 
@@ -28,6 +31,7 @@
 ```jsonc
 {
   "acknowledgements": "",
+  "attribution": null,
   "authorId": "usr_005507fe-9c05-47d5-af02-a21b4f552596",
   "authorName": "Creator Support",
   "created_at": "2023-04-07T00:04:38.907Z",

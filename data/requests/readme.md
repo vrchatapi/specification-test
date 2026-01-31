@@ -170,16 +170,25 @@ Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
 * Unexpected property at ``#/appleId``.
 
-#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
+#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
-
-#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
-
+Response schema mismatch:
+* Unexpected property at ``#/attribution``.
 
 #### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/0/attribution``,
+* Unexpected property at ``#/1/attribution``,
+* Unexpected property at ``#/2/attribution``,
 
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
+*7 issues truncated.*
+#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/attribution``.
+
+#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
 
 
 #### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
@@ -380,6 +389,8 @@ Response schema mismatch:
 
 #### [getFriends](/data/requests/friends/getfriends.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/0/discordId``.
 
 #### [getFriendStatus prior to friend request](/data/requests/friends/getfriendstatus-prior-to-friend-request.md)
 
@@ -547,7 +558,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*24 issues truncated.*
+*23 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

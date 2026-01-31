@@ -1,5 +1,17 @@
 # searchAvatars with admin_featured_legacy tag
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0/attribution``,
+* Unexpected property at ``#/1/attribution``,
+* Unexpected property at ``#/2/attribution``,
+* Unexpected property at ``#/3/attribution``,
+* Unexpected property at ``#/4/attribution``,
+* Unexpected property at ``#/5/attribution``,
+* Unexpected property at ``#/6/attribution``,
+* Unexpected property at ``#/7/attribution``,
+* Unexpected property at ``#/8/attribution``,
+* Unexpected property at ``#/9/attribution``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/avatars?tag=admin_featured_legacy`
 
