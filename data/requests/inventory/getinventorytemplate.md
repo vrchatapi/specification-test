@@ -1,5 +1,8 @@
 # getInventoryTemplate
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/attribution``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory/template/invt_1f11aa73-8f05-4d50-a1a8-c59074d03ce2`
 
@@ -27,6 +30,7 @@
 
 ```jsonc
 {
+  "attribution": null,
   "authorId": "usr_ef110430-35b9-42ec-b606-ae4e51e1ac62",
   "collections": [],
   "created_at": "2025-09-15T18:15:23.074Z",

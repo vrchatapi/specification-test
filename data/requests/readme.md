@@ -448,16 +448,23 @@ Response schema mismatch:
 
 ## [Inventory](/data/requests/inventory)
 
-#### [getInventory](/data/requests/inventory/getinventory.md)
+#### [getInventoryTemplate](/data/requests/inventory/getinventorytemplate.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/attribution``.
 
 #### [getOwnInventoryItem](/data/requests/inventory/getowninventoryitem.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/attribution``.
+
+#### [getInventory](/data/requests/inventory/getinventory.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/data/0/attribution``,
+* Unexpected property at ``#/data/1/attribution``.
 
 #### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
-
-
-#### [getInventoryTemplate](/data/requests/inventory/getinventorytemplate.md)
 
 
 #### [spawnInventoryItem](/data/requests/inventory/spawninventoryitem.md)
@@ -542,15 +549,15 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1531 issues truncated.*
+*1529 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
+* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 
-*43 issues truncated.*
+*41 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -558,7 +565,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*26 issues truncated.*
+*27 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
