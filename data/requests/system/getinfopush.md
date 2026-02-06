@@ -5,19 +5,22 @@ Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
+* Invalid type at ``#/2/endDate``,
+* Invalid type at ``#/2/startDate``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Invalid type at ``#/3/endDate``,
 * Invalid type at ``#/3/startDate``,
+* Unexpected property at ``#/3/experiment``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/endDate``,
 * Invalid type at ``#/4/startDate``,
-* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
@@ -36,16 +39,11 @@ Response schema mismatch:
 * Unexpected property at ``#/7/regions``,
 * Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
-* Invalid type at ``#/8/endDate``,
-* Invalid type at ``#/8/startDate``,
-* Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
-* Invalid type at ``#/10/endDate``,
-* Invalid type at ``#/10/startDate``,
-* Unexpected property at ``#/10/regions``,
-* Unexpected property at ``#/10/requireClientTags``.
+* Invalid type at ``#/9/endDate``,
+* Invalid type at ``#/9/startDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -74,9 +72,9 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2025-12-20T01:15:12.267Z",
+    "createdAt": "2026-02-02T16:20:10.741Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_c376ebb1-c2ef-498e-968f-e972d7b2f5b5.jpg",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f4796bd5-02d2-4e46-aaaa-e96fe36b6d9e.jpg",
       "onPressed": {
         "command": "OpenVRChatStore",
         "parameters": [
@@ -84,69 +82,46 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": "2026-02-05T21:00:00.000Z",
-    "hash": "ips_nye2026celebratorybundl-e6344edb4aad",
-    "id": "ips_nye2026celebratorybundl-e6344edb4aad",
+    "endDate": "2026-02-28T21:00:00.000Z",
+    "hash": "ips_valentinesday20267-8ac3-7de3a0c5740b",
+    "id": "ips_valentinesday20267-8ac3-7de3a0c5740b",
     "isEnabled": true,
-    "priority": 200,
+    "priority": 197,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": "2025-12-29T21:00:00.000Z",
+    "startDate": "2026-02-05T21:00:00.000Z",
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-01-11T03:59:38.567Z"
+    "updatedAt": "2026-02-02T16:20:10.741Z"
   },
   {
-    "createdAt": "2025-12-20T00:01:27.976Z",
+    "createdAt": "2026-02-02T16:38:04.056Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_cf0a1b54-d08e-4815-8e9a-70e79fb6d372.jpg",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_54cf92da-90df-472d-900d-525f03f45ecd.jpg",
       "onPressed": {
-        "command": "OpenVRCPlusMenu"
-      }
-    },
-    "endDate": "2026-02-05T21:00:00.000Z",
-    "hash": "ips_nye2026vrccontent1-a11d-88c95e304ba4",
-    "id": "ips_nye2026vrccontent1-a11d-88c95e304ba4",
-    "isEnabled": true,
-    "priority": 225,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2025-12-29T21:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-01-11T04:07:00.970Z"
-  },
-  {
-    "createdAt": "2025-12-04T16:12:48.178Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_99f536ac-baaf-4117-ad37-3a217b60d35e.jpg",
-      "onPressed": {
-        "command": "OpenVRChatStore",
+        "command": "OpenInventoryMenu",
         "parameters": [
-          "vrchat"
+          "invt_f10b839f-313b-4194-a350-d3263c0c594e"
         ]
       }
     },
-    "endDate": "2026-02-05T21:00:00.000Z",
-    "hash": "ips_wintersblessing2025bb7b-79614135ae5b",
-    "id": "ips_wintersblessing2025bb7b-79614135ae5b",
+    "endDate": "2026-02-28T21:00:00.000Z",
+    "hash": "ips_valentinesdaydaisy2026a-920521f05c8a",
+    "id": "ips_valentinesdaydaisy2026a-920521f05c8a",
     "isEnabled": true,
-    "priority": 285,
+    "priority": 198,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": "2025-12-08T23:37:00.000Z",
+    "startDate": "2026-02-05T21:00:00.000Z",
     "tags": [
       "quick-menu-banner",
-      "user-all"
+      "user-no-vrcplus"
     ],
-    "updatedAt": "2026-01-11T04:08:26.864Z"
+    "updatedAt": "2026-02-02T16:44:36.342Z"
   },
   {
     "createdAt": "2025-10-29T17:23:05.366Z",

@@ -2,7 +2,9 @@
 
 ## Issues
 Response schema mismatch:
+* Unexpected property at ``#/data/0/acquisition``,
 * Unexpected property at ``#/data/0/attribution``,
+* Unexpected property at ``#/data/1/acquisition``,
 * Unexpected property at ``#/data/1/attribution``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory?n=100&offset=0&order=oldest&types=prop`
@@ -33,6 +35,7 @@ Response schema mismatch:
 {
   "data": [
     {
+      "acquisition": "unknown",
       "attribution": null,
       "collections": [],
       "created_at": "2025-12-09T22:21:49.336Z",
@@ -71,6 +74,7 @@ Response schema mismatch:
       "validateUserAttributes": false
     },
     {
+      "acquisition": "unknown",
       "attribution": null,
       "collections": [],
       "created_at": "2025-12-09T22:21:49.350Z",

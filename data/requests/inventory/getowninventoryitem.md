@@ -2,6 +2,7 @@
 
 ## Issues
 Response schema mismatch:
+* Unexpected property at ``#/acquisition``,
 * Unexpected property at ``#/attribution``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory/inv_729dd5a0-ebe4-48b7-b587-21e5652efa3a`
@@ -30,6 +31,7 @@ Response schema mismatch:
 
 ```jsonc
 {
+  "acquisition": "unknown",
   "attribution": null,
   "collections": [],
   "created_at": "2025-12-09T22:21:49.336Z",
