@@ -258,49 +258,6 @@
       "category": "other",
       "deletedAt": null,
       "description": "Gameshow˸ Match Game",
-      "endsAt": "2026-03-08T21:00:00.000Z",
-      "featured": false,
-      "id": "cal_a031bb6f-ed88-4d57-9669-66945258818b",
-      "imageId": "file_c09ba657-247d-472f-aa9c-acaba8dd22ee",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_c09ba657-247d-472f-aa9c-acaba8dd22ee/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_af7f4cbd-7e55-4f41-bbd3-aa41bae4450b",
-      "platforms": [],
-      "startsAt": "2026-03-08T19:00:00.000Z",
-      "tags": [],
-      "title": "Match Game",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Join us for February's Game Nightǃ\nSaturday February 14‚ starting at 8pm ET․\n\nThe games we will be playing in order are˸\nTrash Compactor\nGhost\nBlackout\nGigas\nThen around 11pm ET‚ we will swap to Audience Anarchy․\n\nAs always this will be Group＋‚ so join off the group or friendsǃ",
-      "endsAt": "2026-02-15T06:00:00.000Z",
-      "featured": false,
-      "id": "cal_0f0aa805-97c5-4c77-9c9c-e613d73a6902",
-      "imageId": "file_a871df16-c4f0-4279-9de2-20aae3d746b9",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_a871df16-c4f0-4279-9de2-20aae3d746b9/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_76b899ec-6850-47ca-bb66-0502d6a0b2d9",
-      "platforms": [],
-      "startsAt": "2026-02-15T01:00:00.000Z",
-      "tags": [
-        "game",
-        "games",
-        "gaming",
-        "chill"
-      ],
-      "title": "RadNerds February Game Night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "other",
-      "deletedAt": null,
-      "description": "Gameshow˸ Match Game",
       "endsAt": "2026-03-22T21:00:00.000Z",
       "featured": false,
       "id": "cal_86028b29-ce74-4004-acde-759e1a112cc7",
@@ -406,6 +363,25 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
+      "description": "Start˸ 21˸00 Uhr\n\nHeute gehts los mit Game Rush in VRChatǃ\nPräsentiert von Furryheaven‚\ndeiner deutschen Furry-Community in VRChat \n\nFreu dich auf spannende Games‚ Spaß in der Gruppe und jede Menge gute Vibes․\nKomm vorbei und zock mit unsǃ",
+      "endsAt": "2026-02-24T22:59:00.000Z",
+      "featured": false,
+      "id": "cal_aab4c4f3-8984-4af7-9e2d-87db92c4f559",
+      "imageId": "file_4cadb4fb-4b24-433a-a842-cec49d378292",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_4cadb4fb-4b24-433a-a842-cec49d378292/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_537413d2-1d27-4fa1-aa80-b85a0f09d0eb",
+      "platforms": [],
+      "startsAt": "2026-02-24T19:55:00.000Z",
+      "tags": [],
+      "title": "Game Rush",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
       "description": "Welcome to our Game nightǃ The hangout instance is open and we are gathering players now․\nWe have no plan․ We will determine the game on the spot based entirely on who is currently in the instance․ If you want to influence the evening‚ you have to be here to do it․\nIf you are not in the instance‚ you are not part of the equation․\nJoin us․",
       "endsAt": "2026-02-11T22:00:00.000Z",
       "featured": false,
@@ -419,6 +395,30 @@
       "startsAt": "2026-02-11T19:00:00.000Z",
       "tags": [],
       "title": "Game Night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Join us for February's Game Nightǃ\nSaturday February 14‚ starting at 8pm ET․\n\nThe games we will be playing in order are˸\nTrash Compactor\nGhost\nBlackout\nGigas\nThen around 11pm ET‚ we will swap to Audience Anarchy․\n\nAs always this will be Group＋‚ so join off the group or friendsǃ",
+      "endsAt": "2026-02-15T06:00:00.000Z",
+      "featured": false,
+      "id": "cal_0f0aa805-97c5-4c77-9c9c-e613d73a6902",
+      "imageId": "file_a871df16-c4f0-4279-9de2-20aae3d746b9",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_a871df16-c4f0-4279-9de2-20aae3d746b9/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_76b899ec-6850-47ca-bb66-0502d6a0b2d9",
+      "platforms": [],
+      "startsAt": "2026-02-15T01:00:00.000Z",
+      "tags": [
+        "game",
+        "games",
+        "gaming",
+        "chill"
+      ],
+      "title": "RadNerds February Game Night",
       "type": "event"
     },
     {
@@ -565,6 +565,6 @@
       "type": "event"
     }
   ],
-  "totalCount": 108
+  "totalCount": 116
 }
 ```

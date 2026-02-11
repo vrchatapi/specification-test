@@ -257,8 +257,7 @@ Response schema mismatch:
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/ledgerMode``,
-* Unexpected property at ``#/shadowBreaker``.
+* Unexpected property at ``#/ledgerMode``.
 
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
@@ -568,7 +567,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*28 issues truncated.*
+*21 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
