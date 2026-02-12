@@ -2,7 +2,8 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/ledgerMode``.
+* Unexpected property at ``#/ledgerMode``,
+* Unexpected property at ``#/shadowBreaker``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/tilia/status`
 
@@ -32,6 +33,7 @@ Response schema mismatch:
 {
   "economyOnline": true,
   "economyState": 1,
-  "ledgerMode": "internal"
+  "ledgerMode": "internal",
+  "shadowBreaker": "ok"
 }
 ```
