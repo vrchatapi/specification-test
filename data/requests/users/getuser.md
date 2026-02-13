@@ -115,9 +115,12 @@
     "https://bsky.app/profile/dtupper.com",
     "https://dtupper.com/"
   ],
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_a6bb709a-abdb-4156-9a6e-4f274426f8de/2/file",
-  "currentAvatarTags": [],
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_a6bb709a-abdb-4156-9a6e-4f274426f8de/2/256",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_7185e34a-6545-4219-ac4e-43675ff16161/2/file",
+  "currentAvatarTags": [
+    "author_tag_robot",
+    "author_tag_runa"
+  ],
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_7185e34a-6545-4219-ac4e-43675ff16161/2/256",
   "date_joined": "2017-07-12",
   "developerType": "none",
   "displayName": "tupper",
