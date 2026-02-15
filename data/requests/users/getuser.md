@@ -115,12 +115,17 @@
     "https://bsky.app/profile/dtupper.com",
     "https://dtupper.com/"
   ],
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_7185e34a-6545-4219-ac4e-43675ff16161/2/file",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_a6bb709a-abdb-4156-9a6e-4f274426f8de/2/file",
   "currentAvatarTags": [
-    "author_tag_robot",
-    "author_tag_runa"
+    "author_tag_ame",
+    "author_tag_amechan",
+    "author_tag_ngo",
+    "author_tag_needy_streamer_overload",
+    "author_tag_needy_girl_overdose",
+    "author_tag_nso",
+    "author_tag_kangel"
   ],
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_7185e34a-6545-4219-ac4e-43675ff16161/2/256",
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_a6bb709a-abdb-4156-9a6e-4f274426f8de/2/256",
   "date_joined": "2017-07-12",
   "developerType": "none",
   "displayName": "tupper",
