@@ -4,7 +4,7 @@
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/31054~group(grp_f8e1b768-f596-414d-a353-9db58332e3c9)~groupAccessType(public)~ageGate~region(us)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/41021~group(grp_73821299-38ed-4a14-b0c6-8f7acd1fc290)~groupAccessType(public)~region(us)`
 
 | Header | Value |
 | ------ | ----- |
