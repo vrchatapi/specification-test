@@ -245,7 +245,7 @@ Response schema mismatch:
 * Invalid type at ``#/0highlightListing/products/1``,
 * Invalid type at ``#/0highlightListing/products/2``,
 
-*17 issues truncated.*
+*37 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -253,7 +253,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0highlightListing/products/1``,
 * Invalid type at ``#/shelves/0highlightListing/products/2``,
 
-*17 issues truncated.*
+*37 issues truncated.*
 #### [getTiliaTos](/data/requests/economy/gettiliatos.md)
 
 Response schema mismatch:
@@ -459,16 +459,17 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Unexpected property at ``#/acquisition``,
-* Unexpected property at ``#/attribution``.
+* Unexpected property at ``#/attribution``,
+* Unexpected property at ``#/last_equipped``.
 
 #### [getInventory](/data/requests/inventory/getinventory.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/data/0/acquisition``,
 * Unexpected property at ``#/data/0/attribution``,
-* Unexpected property at ``#/data/1/acquisition``,
+* Unexpected property at ``#/data/0/last_equipped``,
 
-*1 issues truncated.*
+*3 issues truncated.*
 #### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
 
 
@@ -554,7 +555,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1566 issues truncated.*
+*1569 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -562,7 +563,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*42 issues truncated.*
+*45 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -570,7 +571,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*27 issues truncated.*
+*30 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

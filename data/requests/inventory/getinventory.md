@@ -4,8 +4,10 @@
 Response schema mismatch:
 * Unexpected property at ``#/data/0/acquisition``,
 * Unexpected property at ``#/data/0/attribution``,
+* Unexpected property at ``#/data/0/last_equipped``,
 * Unexpected property at ``#/data/1/acquisition``,
-* Unexpected property at ``#/data/1/attribution``.
+* Unexpected property at ``#/data/1/attribution``,
+* Unexpected property at ``#/data/1/last_equipped``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory?n=100&offset=0&order=oldest&types=prop`
 
@@ -56,6 +58,7 @@ Response schema mismatch:
       "isSeen": false,
       "itemType": "prop",
       "itemTypeLabel": "Prop",
+      "last_equipped": {},
       "metadata": {
         "animated": false,
         "imageUrl": "https://api.vrchat.cloud/api/1/file/file_10880ad6-dd90-411f-a7e5-6c7c19710551/1/file",
@@ -95,6 +98,7 @@ Response schema mismatch:
       "isSeen": false,
       "itemType": "prop",
       "itemTypeLabel": "Prop",
+      "last_equipped": {},
       "metadata": {
         "animated": false,
         "imageUrl": "https://api.vrchat.cloud/api/1/file/file_e9a8b13b-f31d-4af7-b5a5-a89305b103ac/1/file",
