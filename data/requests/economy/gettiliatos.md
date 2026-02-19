@@ -1,8 +1,5 @@
 # getTiliaTos
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/accepted``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/user/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/tilia/tos`
 
@@ -20,7 +17,7 @@ Response schema mismatch:
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `35` |
+| content-length | `20` |
 | content-type | `application/json; charset=utf-8` |
 | etag | `<redacted>` |
 | pragma | `no-cache` |
@@ -30,7 +27,6 @@ Response schema mismatch:
 
 ```jsonc
 {
-  "accepted": true,
-  "signed_tos": true
+  "signed_tos": false
 }
 ```

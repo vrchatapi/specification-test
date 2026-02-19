@@ -13,15 +13,17 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0highlightListing/products/8``,
 * Invalid type at ``#/shelves/0highlightListing/products/9``,
 * Invalid type at ``#/shelves/0listings/0products/0``,
+* Unexpected property at ``#/shelves/0listings/0/subscriberExclusive``,
 * Invalid type at ``#/shelves/0listings/1products/0``,
 * Invalid type at ``#/shelves/0listings/2products/0``,
 * Invalid type at ``#/shelves/0listings/3products/0``,
 * Invalid type at ``#/shelves/0listings/4products/0``,
 * Invalid type at ``#/shelves/0listings/5products/0``,
-* Invalid type at ``#/shelves/0listings/5products/1``,
 * Invalid type at ``#/shelves/0listings/6products/0``,
 * Invalid type at ``#/shelves/0listings/6products/1``,
-* Invalid type at ``#/shelves/0listings/6products/2``,
+* Invalid type at ``#/shelves/0listings/7products/0``,
+* Invalid type at ``#/shelves/0listings/7products/1``,
+* Invalid type at ``#/shelves/0listings/7products/2``,
 * Invalid type at ``#/shelves/1highlightListing/products/0``,
 * Invalid type at ``#/shelves/1highlightListing/products/1``,
 * Invalid type at ``#/shelves/1highlightListing/products/2``,
@@ -136,6 +138,7 @@ Response schema mismatch:
       "highlightListingId": "prod_308db9f3-6ca3-4d9e-84dc-391238392ced",
       "id": "ess_0d4bf809-084c-4d67-b7ef-f9d727c8dad0",
       "listingIds": [
+        "prod_692afee8-c2e4-466f-b1c8-ecd6c276d307",
         "prod_86710d97-c260-4eeb-af9e-5165ae6c91be",
         "prod_18f6713d-1a0d-4181-931e-be403f370f0a",
         "prod_2bdb6a6f-0973-43e2-a9a7-b7d6d7924ee8",
@@ -145,6 +148,42 @@ Response schema mismatch:
         "prod_e3bea13a-87ae-4965-871d-8156282b575a"
       ],
       "listings": [
+        {
+          "active": true,
+          "buyerRefundable": false,
+          "description": "Free for VRC+ subscribers! Claim your Lucky Red Envelope for a special gift.\n\nVRCat got one, so you get one, too.\n",
+          "displayName": "Lucky Red Envelope",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasUdon": false,
+          "id": "prod_692afee8-c2e4-466f-b1c8-ecd6c276d307",
+          "imageId": "file_26d46325-abe2-4795-b717-bbb4e1ea62f1",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 0,
+          "productIds": [
+            "prod_c37cfbb7-aa3a-419a-af9d-ad534c419693"
+          ],
+          "productType": "listing",
+          "products": [
+            "prod_c37cfbb7-aa3a-419a-af9d-ad534c419693"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subscriberExclusive": true,
+          "subtitle": "Credit Bundle",
+          "vrcPlusDiscountPrice": 0,
+          "whenToExpire": "2026-04-01T21:00:00.000Z"
+        },
         {
           "active": true,
           "buyerRefundable": false,
@@ -400,7 +439,7 @@ Response schema mismatch:
       "shelfDescription": "",
       "shelfLayout": "highlightLeft",
       "shelfTitle": "Lunar New Year",
-      "updatedAt": "2026-02-17T21:01:21.432Z"
+      "updatedAt": "2026-02-19T00:17:42.761Z"
     },
     {
       "highlightListing": {
