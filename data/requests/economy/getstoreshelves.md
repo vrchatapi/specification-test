@@ -24,6 +24,9 @@ Response schema mismatch:
 * Invalid type at ``#/0listings/7products/0``,
 * Invalid type at ``#/0listings/7products/1``,
 * Invalid type at ``#/0listings/7products/2``,
+* Unexpected property at ``#/0/shelfBackgroundImageId``,
+* Unexpected property at ``#/0/shelfIconImageId``,
+* Unexpected property at ``#/0/shelfTabBackgroundImageId``,
 * Invalid type at ``#/1highlightListing/products/0``,
 * Invalid type at ``#/1highlightListing/products/1``,
 * Invalid type at ``#/1highlightListing/products/2``,
@@ -43,7 +46,10 @@ Response schema mismatch:
 * Invalid type at ``#/1listings/5products/1``,
 * Invalid type at ``#/1listings/6products/0``,
 * Invalid type at ``#/1listings/6products/1``,
-* Invalid type at ``#/1listings/6products/2``.
+* Invalid type at ``#/1listings/6products/2``,
+* Unexpected property at ``#/1/shelfBackgroundImageId``,
+* Unexpected property at ``#/1/shelfIconImageId``,
+* Unexpected property at ``#/1/shelfTabBackgroundImageId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store/shelves?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&fetch=all`
 
@@ -426,8 +432,11 @@ Response schema mismatch:
         "whenToExpire": "2026-04-01T21:00:00.000Z"
       }
     ],
+    "shelfBackgroundImageId": "",
     "shelfDescription": "",
+    "shelfIconImageId": "",
     "shelfLayout": "highlightLeft",
+    "shelfTabBackgroundImageId": "",
     "shelfTitle": "Lunar New Year",
     "updatedAt": "2026-02-19T00:17:42.761Z"
   },
@@ -749,8 +758,11 @@ Response schema mismatch:
         "whenToExpire": "2026-02-28T21:00:00.000Z"
       }
     ],
+    "shelfBackgroundImageId": "",
     "shelfDescription": "",
+    "shelfIconImageId": "",
     "shelfLayout": "highlightLeft",
+    "shelfTabBackgroundImageId": "",
     "shelfTitle": "Valentines",
     "updatedAt": "2026-02-05T20:21:30.185Z"
   }
