@@ -4,7 +4,7 @@
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/2bddft6b`
+`GET https://api.vrchat.cloud/api/1/instances/s/x55h0kgy`
 
 | Header | Value |
 | ------ | ----- |
