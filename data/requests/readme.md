@@ -350,6 +350,22 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
+#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
+
+Response schema mismatch:
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
+
+*2 issues truncated.*
+#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
+
+Response schema mismatch:
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
+
+*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -374,13 +390,7 @@ Response schema mismatch:
 #### [deleteFile](/data/requests/files/deletefile.md)
 
 
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
-
-
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
@@ -553,7 +563,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1546 issues truncated.*
+*1528 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -569,7 +579,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*23 issues truncated.*
+*30 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
