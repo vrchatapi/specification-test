@@ -26,10 +26,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0listings/7products/2``,
 * Unexpected property at ``#/shelves/0/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/0/shelfIconImageId``,
-* Unexpected property at ``#/shelves/0/shelfTabBackgroundImageId``,
-* Unexpected property at ``#/shelves/1/shelfBackgroundImageId``,
-* Unexpected property at ``#/shelves/1/shelfIconImageId``,
-* Unexpected property at ``#/shelves/1/shelfTabBackgroundImageId``.
+* Unexpected property at ``#/shelves/0/shelfTabBackgroundImageId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&hydrateProducts=true`
 
@@ -63,8 +60,7 @@ Response schema mismatch:
   "sellerDisplayName": "VRChat",
   "sellerId": "usr_00000000-0000-0000-0000-000000000011",
   "shelfIds": [
-    "ess_0d4bf809-084c-4d67-b7ef-f9d727c8dad0",
-    "ess_01ba1a22-6edb-4b1e-9f4e-53446dcd699d"
+    "ess_0d4bf809-084c-4d67-b7ef-f9d727c8dad0"
   ],
   "shelves": [
     {
@@ -429,18 +425,6 @@ Response schema mismatch:
       "shelfTabBackgroundImageId": "",
       "shelfTitle": "Lunar New Year",
       "updatedAt": "2026-02-19T00:17:42.761Z"
-    },
-    {
-      "id": "ess_01ba1a22-6edb-4b1e-9f4e-53446dcd699d",
-      "listingIds": [],
-      "listings": [],
-      "shelfBackgroundImageId": "",
-      "shelfDescription": "",
-      "shelfIconImageId": "",
-      "shelfLayout": "highlightLeft",
-      "shelfTabBackgroundImageId": "",
-      "shelfTitle": "Valentines",
-      "updatedAt": "2026-02-05T20:21:30.185Z"
     }
   ],
   "storeId": "esto_00000000-0000-0000-0000-000000000000",
