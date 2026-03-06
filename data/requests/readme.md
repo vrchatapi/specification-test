@@ -245,7 +245,7 @@ Response schema mismatch:
 * Invalid type at ``#/0highlightListing/products/1``,
 * Invalid type at ``#/0highlightListing/products/2``,
 
-*22 issues truncated.*
+*70 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -253,7 +253,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0highlightListing/products/1``,
 * Invalid type at ``#/shelves/0highlightListing/products/2``,
 
-*22 issues truncated.*
+*70 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -549,11 +549,11 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
 Response schema mismatch:
+* Invalid type at ``#/0/data/contentList/name``,
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
-* Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1521 issues truncated.*
+*1538 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -569,7 +569,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*26 issues truncated.*
+*28 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

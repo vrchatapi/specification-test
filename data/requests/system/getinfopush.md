@@ -75,41 +75,30 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2026-02-26T22:40:16.953Z",
+    "createdAt": "2026-03-03T23:00:01.408Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_1f82efb3-c54d-4ef1-b846-c132c372e217.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_709f6961-2e4f-4bbc-9985-ee9c06c34418.png",
       "onPressed": {
-        "command": "OpenWorldDetails",
+        "command": "OpenVRChatStore",
         "parameters": [
-          "wrld_ae001ea3-ed05-42f0-adf2-3d47efd10a77"
+          "vrchat"
         ]
       }
     },
-    "endDate": "2026-03-05T21:00:00.000Z",
-    "hash": "ips_fish-launch20265dc-a308-e1a914d95d7c",
-    "id": "ips_fish-launch20265dc-a308-e1a914d95d7c",
+    "endDate": "2026-04-01T20:00:00.000Z",
+    "hash": "ips_rabbids2026d1-4d2d-bf82-a97bb7f46c66",
+    "id": "ips_rabbids2026d1-4d2d-bf82-a97bb7f46c66",
     "isEnabled": true,
-    "priority": 192,
+    "priority": 191,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": "2026-02-27T18:22:00.000Z",
+    "startDate": "2026-03-05T21:00:00.000Z",
     "tags": [
       "quick-menu-banner",
-      "platform-pc-desktop",
-      "platform-pico",
-      "platform-store-oculus",
-      "platform-pc",
-      "platform-oculus-quest",
-      "platform-mobile-android",
-      "platform-store-htc",
-      "platform-pc-vr",
-      "platform-focus",
-      "platform-mobile-desktop",
-      "platform-store-steam",
-      "platform-mobile-feed-android"
+      "user-all"
     ],
-    "updatedAt": "2026-02-27T18:22:06.876Z"
+    "updatedAt": "2026-03-03T23:00:16.238Z"
   },
   {
     "createdAt": "2026-02-17T18:16:56.060Z",
