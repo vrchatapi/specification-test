@@ -505,13 +505,13 @@ Response schema mismatch:
           "whenToExpire": "2026-04-01T21:00:00.000Z"
         }
       ],
-      "shelfBackgroundImageId": "",
+      "shelfBackgroundImageId": "file_af2ef9a2-8338-4e0b-9821-dd298dc78d8e",
       "shelfDescription": "",
-      "shelfIconImageId": "",
+      "shelfIconImageId": "file_7b072458-2d3a-4f41-ac6d-f993d283bfb2",
       "shelfLayout": "highlightLeft",
-      "shelfTabBackgroundImageId": "",
+      "shelfTabBackgroundImageId": "file_b3559a69-fff3-42c8-a254-738e962417fc",
       "shelfTitle": "Rabbids x VRChat",
-      "updatedAt": "2026-03-05T21:00:13.043Z"
+      "updatedAt": "2026-03-06T19:59:29.897Z"
     },
     {
       "highlightListing": {
@@ -868,13 +868,13 @@ Response schema mismatch:
           "whenToExpire": "2026-04-01T21:00:00.000Z"
         }
       ],
-      "shelfBackgroundImageId": "",
+      "shelfBackgroundImageId": "file_8603505c-afe1-47d7-9d5b-256c766b15bb",
       "shelfDescription": "",
-      "shelfIconImageId": "",
+      "shelfIconImageId": "file_8af46a59-db7c-40a8-b9d3-bbe852f1cba8",
       "shelfLayout": "highlightLeft",
-      "shelfTabBackgroundImageId": "",
+      "shelfTabBackgroundImageId": "file_5e51bb3c-b941-422b-bae1-c9bc9938f904",
       "shelfTitle": "Lunar New Year",
-      "updatedAt": "2026-02-19T00:17:42.761Z"
+      "updatedAt": "2026-03-06T21:32:44.114Z"
     }
   ],
   "storeId": "esto_00000000-0000-0000-0000-000000000000",
