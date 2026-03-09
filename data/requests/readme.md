@@ -553,7 +553,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1538 issues truncated.*
+*1524 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -561,7 +561,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 
-*42 issues truncated.*
+*39 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -569,7 +569,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*31 issues truncated.*
+*25 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
