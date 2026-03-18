@@ -249,7 +249,7 @@ Response schema mismatch:
 * Invalid type at ``#/0highlightListing/products/1``,
 * Invalid type at ``#/0highlightListing/products/2``,
 
-*70 issues truncated.*
+*82 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -257,7 +257,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0highlightListing/products/1``,
 * Invalid type at ``#/shelves/0highlightListing/products/2``,
 
-*70 issues truncated.*
+*82 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -557,7 +557,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1543 issues truncated.*
+*1564 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -573,7 +573,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*25 issues truncated.*
+*28 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
