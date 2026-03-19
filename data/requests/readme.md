@@ -111,6 +111,7 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
+* Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
@@ -135,18 +136,21 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
+* Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
+* Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
+* Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 
 #### [getShortName](/data/requests/instances/getshortname.md)
@@ -573,7 +577,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*28 issues truncated.*
+*26 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
