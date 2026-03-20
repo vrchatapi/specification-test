@@ -28,6 +28,16 @@
 ```jsonc
 [
   {
+    "id": "frq_5b0739b5-fb36-4e62-8ec6-f88e11524cde",
+    "senderUserId": "usr_edd6866e-2ce1-4893-98cc-7db744c6465b",
+    "senderUsername": "stop screaming",
+    "type": "friendRequest",
+    "message": "",
+    "details": "{}",
+    "seen": false,
+    "created_at": "2026-03-20T01:46:10.095Z"
+  },
+  {
     "id": "frq_ba7bf9e6-5071-4b35-b684-fd7b1047cce9",
     "senderUserId": "usr_94ace1cd-92f7-4f2a-af56-28faf8c51ff2",
     "senderUsername": "evil linux thug",
@@ -38,14 +48,14 @@
     "created_at": "2025-06-19T01:15:55.323Z"
   },
   {
-    "id": "not_53d8d330-0d3a-408c-9d90-ff1e068ae4d5",
+    "id": "not_ebee8570-2f49-456a-bf4b-ee082a7c10de",
     "senderUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "senderUsername": "8cf3def6b8cea",
     "type": "invite",
     "message": "This is a generated invite to The Black Cat",
-    "details": "{\"worldId\":\"wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:77404~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)\",\"worldName\":\"The Black Cat\"}",
+    "details": "{\"worldId\":\"wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:11985~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)\",\"worldName\":\"The Black Cat\"}",
     "seen": false,
-    "created_at": "2026-03-19T01:55:21.927Z"
+    "created_at": "2026-03-20T01:50:07.145Z"
   }
 ]
 ```
