@@ -13,19 +13,17 @@ Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
-* Invalid type at ``#/3/endDate``,
-* Invalid type at ``#/3/startDate``,
+* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/endDate``,
 * Invalid type at ``#/4/startDate``,
-* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
 * Invalid type at ``#/5/endDate``,
 * Invalid type at ``#/5/startDate``,
+* Unexpected property at ``#/5/experiment``,
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
@@ -44,11 +42,16 @@ Response schema mismatch:
 * Unexpected property at ``#/8/regions``,
 * Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
+* Invalid type at ``#/9/endDate``,
+* Invalid type at ``#/9/startDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
-* Invalid type at ``#/10/endDate``,
-* Invalid type at ``#/10/startDate``,
-* Unexpected property at ``#/10/regions``,
-* Unexpected property at ``#/10/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/11/data/onPressed/command``,
+* Invalid type at ``#/11/endDate``,
+* Invalid type at ``#/11/startDate``,
+* Unexpected property at ``#/11/regions``,
+* Unexpected property at ``#/11/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -127,6 +130,32 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2026-03-16T20:01:19.985Z"
+  },
+  {
+    "createdAt": "2026-03-19T14:59:59.190Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b640a4cf-91d4-4ca8-a97f-1f92f1bc03a5.png",
+      "onPressed": {
+        "command": "OpenWorldDetails",
+        "parameters": [
+          "wrld_d86df516-7fb5-4015-bbd4-0481cf0ba861"
+        ]
+      }
+    },
+    "endDate": "2026-04-06T01:00:00.000Z",
+    "hash": "ips_e2429568-6df3-4b89-9dbe-aa8479b2b359",
+    "id": "ips_e2429568-6df3-4b89-9dbe-aa8479b2b359",
+    "isEnabled": true,
+    "priority": 193,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-03-20T03:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-03-19T14:59:59.191Z"
   },
   {
     "createdAt": "2026-02-17T18:16:56.060Z",
