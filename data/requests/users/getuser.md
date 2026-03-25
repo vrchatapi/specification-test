@@ -109,7 +109,7 @@
       "showcased": false
     }
   ],
-  "bio": "VRChat Head of Community․\n\nabove all else‚ be kind․\n\nI sometimes remove people I haven't seen in a while․ Feel free to ask to re-add next time we run into each otherǃ",
+  "bio": "VRChat Head of Community․\n\nabove all else‚ be kind․\n\nicon by mush - banner by cashrat",
   "bioLinks": [
     "https://vrchat.com/",
     "https://bsky.app/profile/dtupper.com",
@@ -132,8 +132,8 @@
   "location": "offline",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
-  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_38ea2ec3-c7a1-47b0-8693-7d7c3feaafdd/1",
-  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_38ea2ec3-c7a1-47b0-8693-7d7c3feaafdd/1/512",
+  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_1996b8ca-323c-49e0-a1c8-7c8ad8c3e045/1",
+  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_1996b8ca-323c-49e0-a1c8-7c8ad8c3e045/1/512",
   "pronouns": "he/him",
   "state": "offline",
   "status": "ask me",

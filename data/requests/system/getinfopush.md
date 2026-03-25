@@ -82,7 +82,7 @@ Response schema mismatch:
   {
     "createdAt": "2026-03-03T23:00:01.408Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_709f6961-2e4f-4bbc-9985-ee9c06c34418.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_fc7fb43f-af08-4714-a544-efbc42be2cfc.png",
       "onPressed": {
         "command": "OpenVRChatStore",
         "parameters": [
@@ -90,11 +90,11 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": "2026-04-01T20:00:00.000Z",
+    "endDate": "2026-04-14T20:00:00.000Z",
     "hash": "ips_rabbids2026d1-4d2d-bf82-a97bb7f46c66",
     "id": "ips_rabbids2026d1-4d2d-bf82-a97bb7f46c66",
     "isEnabled": true,
-    "priority": 191,
+    "priority": 180,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -103,7 +103,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-03-03T23:00:16.238Z"
+    "updatedAt": "2026-03-24T19:28:56.412Z"
   },
   {
     "createdAt": "2026-03-14T23:01:38.229Z",

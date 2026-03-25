@@ -74,19 +74,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/1listings/7products/2``,
 * Unexpected property at ``#/shelves/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/1/shelfIconImageId``,
-* Unexpected property at ``#/shelves/1/shelfTabBackgroundImageId``,
-* Invalid type at ``#/shelves/2listings/0products/0``,
-* Unexpected property at ``#/shelves/2listings/0/attribution``,
-* Unexpected property at ``#/shelves/2listings/0/collabUserId``,
-* Invalid type at ``#/shelves/2listings/1products/0``,
-* Unexpected property at ``#/shelves/2listings/1/attribution``,
-* Unexpected property at ``#/shelves/2listings/1/collabUserId``,
-* Invalid type at ``#/shelves/2listings/2products/0``,
-* Unexpected property at ``#/shelves/2listings/2/attribution``,
-* Unexpected property at ``#/shelves/2listings/2/collabUserId``,
-* Unexpected property at ``#/shelves/2/shelfBackgroundImageId``,
-* Unexpected property at ``#/shelves/2/shelfIconImageId``,
-* Unexpected property at ``#/shelves/2/shelfTabBackgroundImageId``.
+* Unexpected property at ``#/shelves/1/shelfTabBackgroundImageId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&hydrateProducts=true`
 
@@ -121,8 +109,7 @@ Response schema mismatch:
   "sellerId": "usr_00000000-0000-0000-0000-000000000011",
   "shelfIds": [
     "ess_82f9ba66-35a8-4173-91fb-736d662fda8c",
-    "ess_0d4bf809-084c-4d67-b7ef-f9d727c8dad0",
-    "ess_f27165e9-a49d-4010-9f94-8cf89531c249"
+    "ess_0d4bf809-084c-4d67-b7ef-f9d727c8dad0"
   ],
   "shelves": [
     {
@@ -194,7 +181,7 @@ Response schema mismatch:
         ],
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 4320,
-        "whenToExpire": "2026-04-01T21:00:00.000Z"
+        "whenToExpire": "2026-04-14T21:00:00.000Z"
       },
       "highlightListingId": "prod_ffa3be63-50bb-4dc8-b240-a889bcdf24b7",
       "id": "ess_82f9ba66-35a8-4173-91fb-736d662fda8c",
@@ -243,7 +230,7 @@ Response schema mismatch:
           ],
           "subtitle": "Avatar",
           "vrcPlusDiscountPrice": 1620,
-          "whenToExpire": "2026-04-01T21:00:00.000Z"
+          "whenToExpire": "2026-04-14T21:00:00.000Z"
         },
         {
           "active": true,
@@ -279,7 +266,7 @@ Response schema mismatch:
           ],
           "subtitle": "Portal",
           "vrcPlusDiscountPrice": 900,
-          "whenToExpire": "2026-04-01T21:00:00.000Z"
+          "whenToExpire": "2026-04-14T21:00:00.000Z"
         },
         {
           "active": true,
@@ -315,7 +302,7 @@ Response schema mismatch:
           ],
           "subtitle": "Warp Effect",
           "vrcPlusDiscountPrice": 810,
-          "whenToExpire": "2026-04-01T21:00:00.000Z"
+          "whenToExpire": "2026-04-14T21:00:00.000Z"
         },
         {
           "active": true,
@@ -351,7 +338,7 @@ Response schema mismatch:
           ],
           "subtitle": "Item",
           "vrcPlusDiscountPrice": 1080,
-          "whenToExpire": "2026-04-01T21:00:00.000Z"
+          "whenToExpire": "2026-04-14T21:00:00.000Z"
         },
         {
           "active": true,
@@ -387,7 +374,7 @@ Response schema mismatch:
           ],
           "subtitle": "Item",
           "vrcPlusDiscountPrice": 900,
-          "whenToExpire": "2026-04-01T21:00:00.000Z"
+          "whenToExpire": "2026-04-14T21:00:00.000Z"
         },
         {
           "active": true,
@@ -423,7 +410,7 @@ Response schema mismatch:
           ],
           "subtitle": "Item",
           "vrcPlusDiscountPrice": 720,
-          "whenToExpire": "2026-04-01T21:00:00.000Z"
+          "whenToExpire": "2026-04-14T21:00:00.000Z"
         },
         {
           "active": true,
@@ -473,7 +460,7 @@ Response schema mismatch:
           ],
           "subtitle": "Bundle",
           "vrcPlusDiscountPrice": 450,
-          "whenToExpire": "2026-04-01T21:00:00.000Z"
+          "whenToExpire": "2026-04-14T21:00:00.000Z"
         },
         {
           "active": true,
@@ -515,7 +502,7 @@ Response schema mismatch:
           ],
           "subtitle": "Bundle",
           "vrcPlusDiscountPrice": 180,
-          "whenToExpire": "2026-04-01T21:00:00.000Z"
+          "whenToExpire": "2026-04-14T21:00:00.000Z"
         }
       ],
       "shelfBackgroundImageId": "file_af2ef9a2-8338-4e0b-9821-dd298dc78d8e",
@@ -524,7 +511,7 @@ Response schema mismatch:
       "shelfLayout": "highlightLeft",
       "shelfTabBackgroundImageId": "file_b3559a69-fff3-42c8-a254-738e962417fc",
       "shelfTitle": "Rabbids x VRChat",
-      "updatedAt": "2026-03-06T19:59:29.897Z"
+      "updatedAt": "2026-03-24T23:05:58.214Z"
     },
     {
       "highlightListing": {
@@ -888,153 +875,6 @@ Response schema mismatch:
       "shelfTabBackgroundImageId": "file_5e51bb3c-b941-422b-bae1-c9bc9938f904",
       "shelfTitle": "Lunar New Year",
       "updatedAt": "2026-03-06T21:32:44.114Z"
-    },
-    {
-      "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
-      "listingIds": [
-        "prod_1c38e3bc-7d64-4416-907e-c839a1c7393f",
-        "prod_77d6da3b-2485-4685-b033-14480e372e2b",
-        "prod_5412946a-88e1-419d-9a8a-2e7de5b38a04"
-      ],
-      "listings": [
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "Nae the Loud",
-              "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c",
-          "description": "A pair of Googly Eyes! They jiggle a bit. You can change their color, toggle eyelashes, and even adjust the distance between each eye. \n\nEye tracking? Sorry, we heard eye tacking.\n",
-          "displayName": "Googly Eyes",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasUdon": false,
-          "id": "prod_1c38e3bc-7d64-4416-907e-c839a1c7393f",
-          "imageId": "file_c1bfcc6d-f6d2-4c09-93a9-31faa8dde18c",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 0,
-          "productIds": [
-            "prod_474cdeea-bfb7-45ae-871c-b4e30afae566"
-          ],
-          "productType": "listing",
-          "products": [
-            "prod_474cdeea-bfb7-45ae-871c-b4e30afae566"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": null
-        },
-        {
-          "active": true,
-          "attribution": {
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "A basic, non-descript sphere. You can change the Basic Sphere’s color. \n\nNo relation to the REFERENCE CUBE. \n",
-          "displayName": "Basic Sphere",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasUdon": false,
-          "id": "prod_77d6da3b-2485-4685-b033-14480e372e2b",
-          "imageId": "file_0c0a6f45-ac8b-4615-9d9f-2143eae0bb86",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 0,
-          "productIds": [
-            "prod_991ec8a3-08e5-4b3c-b307-b8129c36e386"
-          ],
-          "productType": "listing",
-          "products": [
-            "prod_991ec8a3-08e5-4b3c-b307-b8129c36e386"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": null
-        },
-        {
-          "active": true,
-          "attribution": {
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "A basic, non-descript cube. You can change the Basic Cube’s color. \n\nNo relation to the REFERENCE SPHERE. What? Stop asking questions.\n",
-          "displayName": "Basic Cube",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasUdon": false,
-          "id": "prod_5412946a-88e1-419d-9a8a-2e7de5b38a04",
-          "imageId": "file_d3383e0d-8ae6-4be3-845c-7826c1d48480",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 0,
-          "productIds": [
-            "prod_cf79cdcd-3014-4e4f-b184-278e60e5ca80"
-          ],
-          "productType": "listing",
-          "products": [
-            "prod_cf79cdcd-3014-4e4f-b184-278e60e5ca80"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": null
-        }
-      ],
-      "shelfBackgroundImageId": "file_5838a550-7c6a-4d44-8f95-99302eb6cbf1",
-      "shelfDescription": "",
-      "shelfIconImageId": "file_91290183-b8e4-4626-8aa4-710518d7fb84",
-      "shelfLayout": "col5",
-      "shelfTabBackgroundImageId": "file_7e344cf9-a279-4ab3-b039-4d4b2adb9c25",
-      "shelfTitle": "{\"MinVersion\":1814} New Accessories",
-      "updatedAt": "2026-03-18T00:37:12.400Z"
     }
   ],
   "storeId": "esto_00000000-0000-0000-0000-000000000000",
