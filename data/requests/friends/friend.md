@@ -26,13 +26,13 @@
 
 ```jsonc
 {
+  "created_at": "<unstable: string>",
+  "details": "{}",
   "id": "<unstable: string>",
+  "message": "",
+  "seen": false,
   "senderUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "senderUsername": "8cf3def6b8cea",
-  "type": "friendRequest",
-  "message": "",
-  "details": "{}",
-  "seen": false,
-  "created_at": "<unstable: string>"
+  "type": "friendRequest"
 }
 ```

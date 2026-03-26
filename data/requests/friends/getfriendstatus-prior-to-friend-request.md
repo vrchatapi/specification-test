@@ -27,8 +27,8 @@
 
 ```jsonc
 {
+  "incomingRequest": false,
   "isFriend": false,
-  "outgoingRequest": false,
-  "incomingRequest": false
+  "outgoingRequest": false
 }
 ```
