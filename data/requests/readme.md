@@ -577,7 +577,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*23 issues truncated.*
+*27 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
