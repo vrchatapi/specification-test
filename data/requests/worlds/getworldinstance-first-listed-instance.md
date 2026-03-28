@@ -6,7 +6,7 @@ Response schema mismatch:
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/84728~group(grp_323f55bf-13e0-480d-a6a6-eb20c1dbf93e)~groupAccessType(public)~region(us)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/75336~group(grp_88e0e29c-f671-479a-bf18-9959de9d5848)~groupAccessType(public)~region(us)`
 
 | Header | Value |
 | ------ | ----- |
