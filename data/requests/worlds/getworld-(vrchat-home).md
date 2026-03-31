@@ -2,7 +2,13 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/disabledPropAbilities``.
+* undefined at ``#/instances/0``,
+* undefined at ``#/instances/1``,
+* undefined at ``#/instances/2``,
+* undefined at ``#/instances/3``,
+* undefined at ``#/instances/4``,
+* Unexpected property at ``#/disabledPropAbilities``,
+* Unexpected property at ``#/slimInstances``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
 
@@ -54,6 +60,54 @@ Response schema mismatch:
   "publicationDate": "2022-10-01T02:55:15.725Z",
   "recommendedCapacity": 8,
   "releaseStatus": "public",
+  "slimInstances": [
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "68198~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
+      "languageRatio": {
+        "en": 0.75,
+        "es": 0.14,
+        "ja": 0.06,
+        "zh-CN": 0.06
+      },
+      "n_users": 4
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "11~group(grp_1c6601a3-b2ce-45c3-946e-f12094a97ce4)~groupAccessType(public)~region(us)",
+      "languageRatio": {
+        "en": 0.75,
+        "ko": 0.25
+      },
+      "n_users": 3
+    },
+    {
+      "instanceId": "43960~region(use)",
+      "languageRatio": {
+        "en": 0.8,
+        "zh-CN": 0.2
+      },
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "00822~region(us)",
+      "languageRatio": {
+        "en": 1
+      },
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "98843~region(us)",
+      "languageRatio": {
+        "en": 0.33,
+        "es": 0.33,
+        "pt-BR": 0.33
+      },
+      "n_users": 1
+    }
+  ],
   "tags": [
     "admin_approved",
     "system_approved",
