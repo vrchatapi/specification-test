@@ -6,7 +6,6 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
-* undefined at ``#/instances/4``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -63,49 +62,45 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": 1626,
-      "instanceId": "68198~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
-      "languageRatio": {
-        "en": 0.75,
-        "es": 0.14,
-        "ja": 0.06,
-        "zh-CN": 0.06
-      },
-      "n_users": 4
-    },
-    {
-      "gameServerVersion": 1626,
       "instanceId": "11~group(grp_1c6601a3-b2ce-45c3-946e-f12094a97ce4)~groupAccessType(public)~region(us)",
       "languageRatio": {
-        "en": 0.75,
-        "ko": 0.25
-      },
-      "n_users": 3
-    },
-    {
-      "instanceId": "43960~region(use)",
-      "languageRatio": {
-        "en": 0.8,
-        "zh-CN": 0.2
+        "en": 0.67,
+        "ja": 0.22,
+        "pt-BR": 0.11
       },
       "n_users": 5
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "00822~region(us)",
+      "instanceId": "99120~group(grp_6ca9200f-d38d-456a-b8f4-8b33122f13a9)~groupAccessType(public)~region(us)",
       "languageRatio": {
-        "en": 1
+        "en": 0.69,
+        "es": 0.06,
+        "fr": 0.06,
+        "ja": 0.06,
+        "pt-BR": 0.06,
+        "zh-CN": 0.06
+      },
+      "n_users": 2
+    },
+    {
+      "instanceId": "91903~region(us)",
+      "languageRatio": {
+        "ko": 0.5,
+        "zh-CN": 0.5
       },
       "n_users": 2
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "98843~region(us)",
+      "instanceId": "16215~region(use)",
       "languageRatio": {
-        "en": 0.33,
-        "es": 0.33,
-        "pt-BR": 0.33
+        "en": 0.6,
+        "fr": 0.2,
+        "ja": 0.1,
+        "zh-CN": 0.1
       },
-      "n_users": 1
+      "n_users": 7
     }
   ],
   "tags": [
