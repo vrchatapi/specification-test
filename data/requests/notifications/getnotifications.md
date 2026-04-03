@@ -48,9 +48,9 @@
     "type": "friendRequest"
   },
   {
-    "created_at": "2026-04-02T01:57:59.537Z",
-    "details": "{\"worldId\":\"wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:07025~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)\",\"worldName\":\"The Black Cat\"}",
-    "id": "not_276fff19-8fe5-4fa9-820c-b92ca60560e1",
+    "created_at": "2026-04-03T01:59:13.877Z",
+    "details": "{\"worldId\":\"wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:11558~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)\",\"worldName\":\"The Black Cat\"}",
+    "id": "not_62003a55-57b9-4b23-b003-fd24bcfcc214",
     "message": "This is a generated invite to The Black Cat",
     "seen": false,
     "senderUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
