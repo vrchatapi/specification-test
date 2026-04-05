@@ -4,11 +4,9 @@
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/dominantLanguage``,
-* Unexpected property at ``#/languageRatio``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/50070~group(grp_9eec7640-2883-4073-b11b-7dd35bf412a4)~groupAccessType(public)~region(use)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/69596~group(grp_3051d53c-cf8b-4ef3-86f6-d9f3be214ed7)~groupAccessType(public)~ageGate~region(use)`
 
 | Header | Value |
 | ------ | ----- |

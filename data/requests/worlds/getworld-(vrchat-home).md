@@ -2,18 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* undefined at ``#/instances/0``,
-* undefined at ``#/instances/1``,
-* undefined at ``#/instances/2``,
-* undefined at ``#/instances/3``,
-* undefined at ``#/instances/4``,
-* undefined at ``#/instances/5``,
-* undefined at ``#/instances/6``,
-* undefined at ``#/instances/7``,
-* undefined at ``#/instances/8``,
-* undefined at ``#/instances/9``,
-* Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/slimInstances``.
+* Unexpected property at ``#/disabledPropAbilities``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
 
@@ -65,97 +54,6 @@ Response schema mismatch:
   "publicationDate": "2022-10-01T02:55:15.725Z",
   "recommendedCapacity": 8,
   "releaseStatus": "public",
-  "slimInstances": [
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "88771~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
-      "languageRatio": {
-        "en": 0.83,
-        "es": 0.04,
-        "pt-BR": 0.09,
-        "zh-CN": 0.04
-      },
-      "n_users": 7
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "11~group(grp_1c6601a3-b2ce-45c3-946e-f12094a97ce4)~groupAccessType(public)~region(us)",
-      "languageRatio": {
-        "en": 0.75,
-        "es": 0.25
-      },
-      "n_users": 4
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "56074~group(grp_d2d3750a-4d17-446a-bee8-ee961c76f516)~groupAccessType(public)~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 1
-    },
-    {
-      "instanceId": "83618~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "46532~region(us)",
-      "languageRatio": {
-        "de": 0.11,
-        "en": 0.67,
-        "es": 0.11,
-        "pt-BR": 0.11
-      },
-      "n_users": 7
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "88142~region(us)",
-      "languageRatio": {
-        "en": 0.78,
-        "fr": 0.22
-      },
-      "n_users": 4
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "e5c6c7cd5d~region(us)",
-      "languageRatio": {
-        "en": 0.6,
-        "es": 0.4
-      },
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "57227~region(us)",
-      "languageRatio": {
-        "en": 0.75,
-        "es": 0.25
-      },
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "90163~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 1
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "90048~region(us)",
-      "languageRatio": {
-        "es": 1
-      },
-      "n_users": 1
-    }
-  ],
   "tags": [
     "admin_approved",
     "system_approved",

@@ -94,6 +94,10 @@ Deletes all of the user's persistence data for every world.
 Removes tags from the user's profile
 
 > Missing coverage.
+## Get User Tutorial Status
+Gets the status of completed or outstanding tutorials for the specified user.
+
+> Missing coverage.
 ## Delete User Persistence
 Deletes the user's persistence data for a given world
 

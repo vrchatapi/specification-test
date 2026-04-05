@@ -46,10 +46,18 @@ Works unauthenticated but when so will always return `0` for certain fields.
 Update information about a specific World.
 
 > Missing coverage.
+## Add World Tags
+Adds tags to the world's profile
+
+> Missing coverage.
 ## Get World Metadata
 Return a worlds custom metadata. This is currently believed to be unused. Metadata can be set with `updateWorld` and can be any arbitrary object.
 
 * [getWorldMetadata by id](./getworldmetadata-by-id.md)
+## Delete World Platform
+Deletes a world platform.
+
+> Missing coverage.
 ## Unpublish World
 Unpublish a world.
 
@@ -60,6 +68,10 @@ Returns a worlds publish status.
 * [getWorldPublishStatus by id](./getworldpublishstatus-by-id.md)
 ## Publish World
 Publish a world. You can only publish one world per week.
+
+> Missing coverage.
+## Remove World Tags
+Removes tags from the world's profile
 
 > Missing coverage.
 ## Get World Instance

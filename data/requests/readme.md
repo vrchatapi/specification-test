@@ -84,11 +84,8 @@ Response schema mismatch:
 #### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
 Response schema mismatch:
-* undefined at ``#/instances/0``,
-* undefined at ``#/instances/1``,
-* undefined at ``#/instances/2``,
+* Unexpected property at ``#/disabledPropAbilities``.
 
-*9 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -115,17 +112,13 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/dominantLanguage``,
+* Unexpected property at ``#/minimumAvatarPerformance``.
 
-*2 issues truncated.*
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
 Response schema mismatch:
-* undefined at ``#/instances/0``,
-* undefined at ``#/instances/1``,
-* undefined at ``#/instances/2``,
+* Unexpected property at ``#/disabledPropAbilities``.
 
-*19 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -144,25 +137,22 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/dominantLanguage``,
+* Unexpected property at ``#/minimumAvatarPerformance``.
 
-*2 issues truncated.*
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/dominantLanguage``,
+* Unexpected property at ``#/minimumAvatarPerformance``.
 
-*2 issues truncated.*
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/dominantLanguage``,
+* Unexpected property at ``#/minimumAvatarPerformance``.
 
-*2 issues truncated.*
 #### [getShortName](/data/requests/instances/getshortname.md)
 
 
@@ -281,11 +271,11 @@ Response schema mismatch:
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0hydratedProducts/0/imageUrl``,
-* Unexpected property at ``#/0hydratedProducts/0/productTypeLabel``,
-* Unexpected property at ``#/0hydratedProducts/1/imageUrl``,
+* Unexpected property at ``#/0products/0/description``,
+* Unexpected property at ``#/0products/0/displayName``,
+* Unexpected property at ``#/0products/0/id``,
 
-*3149 issues truncated.*
+*2715 issues truncated.*
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
@@ -571,7 +561,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1580 issues truncated.*
+*1584 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -587,7 +577,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*23 issues truncated.*
+*30 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

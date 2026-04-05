@@ -52,6 +52,10 @@ Unequips the InventoryItem in the given slot of the inventory of the currently l
 Returns the modified InventoryItem object as held by the currently logged in user.
 
 > Missing coverage.
+## Redeem Reward
+Redeem a reward for the currently logged in user.
+
+> Missing coverage.
 ## Get User Inventory Item
 Returns an InventoryItem object held by the given user.
 
