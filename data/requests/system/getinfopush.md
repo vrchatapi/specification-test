@@ -6,6 +6,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
+* Invalid type at ``#/1/startDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
@@ -104,6 +105,32 @@ Response schema mismatch:
     "updatedAt": "2026-04-03T00:56:09.631Z"
   },
   {
+    "createdAt": "2026-04-05T18:38:33.106Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_c836385a-6e31-466f-b970-4b2727b285d6.png",
+      "onPressed": {
+        "command": "OpenWorldDetails",
+        "parameters": [
+          "wrld_ae001ea3-ed05-42f0-adf2-3d47efd10a77"
+        ]
+      }
+    },
+    "endDate": "2026-04-19T17:00:00.000Z",
+    "hash": "ips_fisheasterevent20268aac-7fbae7dd6e25",
+    "id": "ips_fisheasterevent20268aac-7fbae7dd6e25",
+    "isEnabled": true,
+    "priority": 165,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-04-05T18:42:45.099Z"
+  },
+  {
     "createdAt": "2026-03-31T00:06:38.159Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_3d2ee567-3866-4716-849b-bc5b5d2e3ad3.png",
@@ -154,32 +181,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2026-03-24T19:28:56.412Z"
-  },
-  {
-    "createdAt": "2026-03-19T14:59:59.190Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_b640a4cf-91d4-4ca8-a97f-1f92f1bc03a5.png",
-      "onPressed": {
-        "command": "OpenWorldDetails",
-        "parameters": [
-          "wrld_d86df516-7fb5-4015-bbd4-0481cf0ba861"
-        ]
-      }
-    },
-    "endDate": "2026-04-06T01:00:00.000Z",
-    "hash": "ips_e2429568-6df3-4b89-9dbe-aa8479b2b359",
-    "id": "ips_e2429568-6df3-4b89-9dbe-aa8479b2b359",
-    "isEnabled": true,
-    "priority": 193,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2026-03-20T03:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-03-19T14:59:59.191Z"
   },
   {
     "createdAt": "2025-10-29T17:23:05.366Z",

@@ -6,7 +6,7 @@ Response schema mismatch:
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/2gbda033`
+`GET https://api.vrchat.cloud/api/1/instances/s/4nd0686u`
 
 | Header | Value |
 | ------ | ----- |
