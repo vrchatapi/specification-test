@@ -84,8 +84,11 @@ Response schema mismatch:
 #### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
 Response schema mismatch:
-* Unexpected property at ``#/disabledPropAbilities``.
+* undefined at ``#/instances/0``,
+* undefined at ``#/instances/1``,
+* undefined at ``#/instances/2``,
 
+*6 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -112,13 +115,17 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/minimumAvatarPerformance``.
+* Unexpected property at ``#/dominantLanguage``,
 
+*2 issues truncated.*
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/disabledPropAbilities``.
+* undefined at ``#/instances/0``,
+* undefined at ``#/instances/1``,
+* undefined at ``#/instances/2``,
 
+*20 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -137,22 +144,25 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/minimumAvatarPerformance``.
+* Unexpected property at ``#/dominantLanguage``,
 
+*2 issues truncated.*
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/minimumAvatarPerformance``.
+* Unexpected property at ``#/dominantLanguage``,
 
+*2 issues truncated.*
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/minimumAvatarPerformance``.
+* Unexpected property at ``#/dominantLanguage``,
 
+*2 issues truncated.*
 #### [getShortName](/data/requests/instances/getshortname.md)
 
 
@@ -561,15 +571,15 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1594 issues truncated.*
+*1584 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
+* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
 
-*46 issues truncated.*
+*44 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:

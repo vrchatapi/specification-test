@@ -4,6 +4,8 @@
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
+* Unexpected property at ``#/dominantLanguage``,
+* Unexpected property at ``#/languageRatio``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 ## Request
 `POST https://api.vrchat.cloud/api/1/instances`
@@ -21,7 +23,7 @@ Response schema mismatch:
   "region": "use",
   "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "canRequestInvite": true,
-  "displayName": "a7b2ea9g",
+  "displayName": "suhp78dm",
   "contentSettings": {
     "drones": false,
     "props": true
