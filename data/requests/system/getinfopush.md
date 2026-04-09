@@ -91,7 +91,7 @@ Response schema mismatch:
     "hash": "ips_enonlyhanamibundle2026c-655e6cff739f",
     "id": "ips_enonlyhanamibundle2026c-655e6cff739f",
     "isEnabled": true,
-    "priority": 155,
+    "priority": 163,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -100,7 +100,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-04-07T23:15:08.700Z"
+    "updatedAt": "2026-04-08T19:41:10.294Z"
   },
   {
     "createdAt": "2026-04-05T18:38:33.106Z",
