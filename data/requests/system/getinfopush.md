@@ -100,7 +100,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-04-08T19:41:10.294Z"
+    "updatedAt": "2026-04-09T19:59:03.138Z"
   },
   {
     "createdAt": "2026-04-05T18:38:33.106Z",
