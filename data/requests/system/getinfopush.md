@@ -79,7 +79,7 @@ Response schema mismatch:
   {
     "createdAt": "2026-04-07T23:14:34.133Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_2583335e-1c19-401d-975a-47d5debd8626.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_28399b8b-bcfa-4355-a295-6251c47ee730.png",
       "onPressed": {
         "command": "OpenVRChatStore",
         "parameters": [
@@ -100,7 +100,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-04-09T19:59:03.138Z"
+    "updatedAt": "2026-04-10T17:40:25.609Z"
   },
   {
     "createdAt": "2026-04-05T18:38:33.106Z",

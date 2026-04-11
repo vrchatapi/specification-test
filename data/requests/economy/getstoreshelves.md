@@ -167,7 +167,7 @@ Response schema mismatch:
       ],
       "subtitle": "Bundle",
       "vrcPlusDiscountPrice": 2700,
-      "whenToExpire": "2026-05-01T21:00:00.000Z"
+      "whenToExpire": "2026-06-01T21:00:00.000Z"
     },
     "highlightListingId": "prod_12716737-c6ce-457d-b1bd-706eb2d3597d",
     "id": "ess_41f2ed39-00fe-42d3-ba93-d959a0b676f6",
@@ -221,7 +221,7 @@ Response schema mismatch:
         ],
         "subtitle": "Portal",
         "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-05-01T21:00:00.000Z"
+        "whenToExpire": "2026-06-01T21:00:00.000Z"
       },
       {
         "active": true,
@@ -263,7 +263,7 @@ Response schema mismatch:
         ],
         "subtitle": "Warp Effect",
         "vrcPlusDiscountPrice": 810,
-        "whenToExpire": "2026-05-01T21:00:00.000Z"
+        "whenToExpire": "2026-06-01T21:00:00.000Z"
       },
       {
         "active": true,
@@ -305,7 +305,7 @@ Response schema mismatch:
         ],
         "subtitle": "Item",
         "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-05-01T21:00:00.000Z"
+        "whenToExpire": "2026-06-01T21:00:00.000Z"
       },
       {
         "active": true,
@@ -347,7 +347,7 @@ Response schema mismatch:
         ],
         "subtitle": "Item",
         "vrcPlusDiscountPrice": 720,
-        "whenToExpire": "2026-05-01T21:00:00.000Z"
+        "whenToExpire": "2026-06-01T21:00:00.000Z"
       },
       {
         "active": true,
@@ -389,7 +389,7 @@ Response schema mismatch:
         ],
         "subtitle": "Item",
         "vrcPlusDiscountPrice": 540,
-        "whenToExpire": "2026-05-01T21:00:00.000Z"
+        "whenToExpire": "2026-06-01T21:00:00.000Z"
       },
       {
         "active": true,
@@ -433,7 +433,7 @@ Response schema mismatch:
         ],
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 450,
-        "whenToExpire": "2026-05-01T21:00:00.000Z"
+        "whenToExpire": "2026-06-01T21:00:00.000Z"
       },
       {
         "active": true,
@@ -475,7 +475,7 @@ Response schema mismatch:
         ],
         "subtitle": "Sticker",
         "vrcPlusDiscountPrice": 180,
-        "whenToExpire": "2026-05-01T21:00:00.000Z"
+        "whenToExpire": "2026-06-01T21:00:00.000Z"
       }
     ],
     "shelfBackgroundImageId": "file_a88af487-16d0-4912-8f66-4c840e35d82c",

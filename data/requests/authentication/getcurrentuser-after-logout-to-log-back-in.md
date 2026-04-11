@@ -56,14 +56,14 @@ Response schema mismatch:
       "updatedAt": "2024-07-21T22:28:04.790Z"
     },
     {
-      "assignedAt": "2025-07-17T01:18:49.553Z",
-      "badgeDescription": "Joined VRChat 2 years ago",
-      "badgeId": "bdg_8f102075-4ac4-4367-aa46-f9c0ca90acac",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/ac/bdgai_e0d294a5-401d-4048-a569-4e3b92d2aed7.png",
-      "badgeName": "2 Years",
+      "assignedAt": "2026-04-11T01:52:12.320Z",
+      "badgeDescription": "Joined VRChat 3 years ago",
+      "badgeId": "bdg_b4251f62-86c9-4af7-a188-ad5f478402e8",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/e8/bdgai_6749e6cd-9cfa-41fb-8e8a-8f5691256a46.png",
+      "badgeName": "3 Years",
       "hidden": false,
       "showcased": true,
-      "updatedAt": "2025-07-17T01:18:49.553Z"
+      "updatedAt": "2026-04-11T01:52:12.320Z"
     },
     {
       "assignedAt": "2025-07-23T01:20:00.282Z",
