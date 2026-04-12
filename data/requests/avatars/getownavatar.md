@@ -1,8 +1,5 @@
 # getOwnAvatar
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/attribution``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 
@@ -30,35 +27,35 @@ Response schema mismatch:
 
 ```jsonc
 {
+  "acknowledgements": "",
   "attribution": null,
-  "authorId": "8JoV9XEdpo",
-  "authorName": "vrchat",
-  "created_at": "2016-11-30T03:47:35.000Z",
-  "description": "Beep Boop",
-  "featured": false,
-  "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "authorId": "usr_005507fe-9c05-47d5-af02-a21b4f552596",
+  "authorName": "Creator Support",
+  "created_at": "2023-04-07T00:04:38.907Z",
+  "description": "VRRat",
+  "featured": true,
+  "id": "avtr_26187637-0c30-4a09-86e1-bc928c07309e",
+  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/file",
   "listingDate": null,
-  "name": "Robot",
+  "name": "VRRat",
   "performance": {
-    "android": "Medium",
-    "android-sort": 3,
-    "ios": "Medium",
-    "ios-sort": 3,
+    "android": "Excellent",
+    "android-sort": 5,
+    "ios": "Excellent",
+    "ios-sort": 5,
     "standalonewindows": "Excellent",
     "standalonewindows-sort": 5
   },
   "releaseStatus": "public",
   "searchable": false,
   "styles": {
-    "primary": null,
-    "secondary": null
+    "primary": "Animal",
+    "secondary": "Pop Culture"
   },
   "tags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
+    "admin_featured_quest"
   ],
-  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/256",
   "unityPackageUrl": "",
   "unityPackageUrlObject": {},
   "unityPackages": "<unstable: array of objects>",

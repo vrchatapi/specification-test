@@ -53,14 +53,14 @@ Response schema mismatch:
       "updatedAt": "2024-07-21T22:28:04.790Z"
     },
     {
-      "assignedAt": "2025-07-17T01:18:49.553Z",
-      "badgeDescription": "Joined VRChat 2 years ago",
-      "badgeId": "bdg_8f102075-4ac4-4367-aa46-f9c0ca90acac",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/ac/bdgai_e0d294a5-401d-4048-a569-4e3b92d2aed7.png",
-      "badgeName": "2 Years",
+      "assignedAt": "2026-04-11T01:52:12.320Z",
+      "badgeDescription": "Joined VRChat 3 years ago",
+      "badgeId": "bdg_b4251f62-86c9-4af7-a188-ad5f478402e8",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/e8/bdgai_6749e6cd-9cfa-41fb-8e8a-8f5691256a46.png",
+      "badgeName": "3 Years",
       "hidden": false,
       "showcased": true,
-      "updatedAt": "2025-07-17T01:18:49.553Z"
+      "updatedAt": "2026-04-11T01:52:12.320Z"
     },
     {
       "assignedAt": "2025-07-23T01:20:00.282Z",
@@ -75,10 +75,10 @@ Response schema mismatch:
   ],
   "bio": "",
   "bioLinks": [],
-  "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "currentAvatar": "avtr_26187637-0c30-4a09-86e1-bc928c07309e",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/file",
   "currentAvatarTags": "<unstable: array of strings>",
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/256",
   "date_joined": "2023-04-11",
   "developerType": "none",
   "discordDetails": {},
