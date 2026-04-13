@@ -88,7 +88,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*5 issues truncated.*
+*2 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -125,7 +125,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*19 issues truncated.*
+*14 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -203,6 +203,8 @@ Response schema mismatch:
 *7 issues truncated.*
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/attribution``.
 
 #### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
 
@@ -569,7 +571,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1702 issues truncated.*
+*1693 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -585,7 +587,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*35 issues truncated.*
+*32 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
