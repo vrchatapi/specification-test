@@ -33,38 +33,6 @@
       "category": "gaming",
       "deletedAt": null,
       "description": "Hello my lovely angelsǃ Lets have some fun with game night at The Synapseǃ We typically do Prison Break or Jetski Rush but we may change it up every once in awhileǃ Invite your friends to hang out‚ have a laugh and create some memoriesǃ",
-      "endsAt": "2026-04-13T03:00:00.000Z",
-      "featured": true,
-      "id": "cal_ce6479f8-82b6-479b-83e5-92dee9b2d1db",
-      "imageId": "file_ffd4824e-a466-4425-8cd7-fcd25213d4d1",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_ffd4824e-a466-4425-8cd7-fcd25213d4d1/1/file",
-      "isDraft": false,
-      "languages": [
-        "eng",
-        "pol"
-      ],
-      "ownerId": "grp_f3518074-c206-4dc1-b17d-0864d46f8c98",
-      "platforms": [
-        "standalonewindows",
-        "android"
-      ],
-      "startsAt": "2026-04-13T01:00:00.000Z",
-      "tags": [
-        "angels",
-        "game",
-        "games",
-        "fun",
-        "social",
-        "vrc_event_group_fair"
-      ],
-      "title": "Game Nightǃ",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Hello my lovely angelsǃ Lets have some fun with game night at The Synapseǃ We typically do Prison Break or Jetski Rush but we may change it up every once in awhileǃ Invite your friends to hang out‚ have a laugh and create some memoriesǃ",
       "endsAt": "2026-06-29T03:00:00.000Z",
       "featured": true,
       "id": "cal_407b9f18-f8ff-4961-b1ee-a8660a18e032",
@@ -324,25 +292,6 @@
     },
     {
       "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Game Nightǃ （Game To be Announced）",
-      "endsAt": "2026-04-30T04:00:00.000Z",
-      "featured": false,
-      "id": "cal_85b75575-f32d-418c-8240-314d688a14ee",
-      "imageId": "file_6438390f-0cfd-4307-bd2f-9b073c7b49ad",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_6438390f-0cfd-4307-bd2f-9b073c7b49ad/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_a1beb220-afc5-4390-a510-546db027778d",
-      "platforms": [],
-      "startsAt": "2026-04-30T02:00:00.000Z",
-      "tags": [],
-      "title": "Game Nightǃ （Game To be Announced）",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
       "category": "other",
       "deletedAt": null,
       "description": "i hosted game night for hunted asylum 2ǃǃ please don't cheatǃ‚ hope to see you thereǃǃǃ",
@@ -358,6 +307,25 @@
       "startsAt": "2026-05-29T23:35:00.000Z",
       "tags": [],
       "title": "game night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Game Nightǃ （Game To be Announced）",
+      "endsAt": "2026-04-30T04:00:00.000Z",
+      "featured": false,
+      "id": "cal_85b75575-f32d-418c-8240-314d688a14ee",
+      "imageId": "file_6438390f-0cfd-4307-bd2f-9b073c7b49ad",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_6438390f-0cfd-4307-bd2f-9b073c7b49ad/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_a1beb220-afc5-4390-a510-546db027778d",
+      "platforms": [],
+      "startsAt": "2026-04-30T02:00:00.000Z",
+      "tags": [],
+      "title": "Game Nightǃ （Game To be Announced）",
       "type": "event"
     },
     {
@@ -432,25 +400,6 @@
       "startsAt": "2026-04-15T18:00:00.000Z",
       "tags": [],
       "title": "Game Night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Game night with puppy and kitty",
-      "endsAt": "2026-04-13T04:30:00.000Z",
-      "featured": false,
-      "id": "cal_6e15d825-a52a-4c37-b1cd-8a8fc666bc99",
-      "imageId": "file_d34bdbad-7669-4bf6-b1ec-5cd34aa6ea2f",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_d34bdbad-7669-4bf6-b1ec-5cd34aa6ea2f/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_dcb0affa-4b5c-4202-b220-7f714ebb144c",
-      "platforms": [],
-      "startsAt": "2026-04-13T00:40:00.000Z",
-      "tags": [],
-      "title": "Game Nightǃ",
       "type": "event"
     },
     {
@@ -613,8 +562,44 @@
       "tags": [],
       "title": "game night",
       "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "If you want a specific game dont be afraid to ask․",
+      "endsAt": "2026-04-24T02:00:00.000Z",
+      "featured": false,
+      "id": "cal_8ba7333d-3a4a-45ca-88fe-cc8deb606d8d",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_b1df6a38-6e41-4e9b-8698-b97d3d842ee1",
+      "platforms": [],
+      "startsAt": "2026-04-23T23:00:00.000Z",
+      "tags": [],
+      "title": "Game night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "other",
+      "deletedAt": null,
+      "description": "Game Night with the homies",
+      "endsAt": "2026-04-20T03:30:00.000Z",
+      "featured": false,
+      "id": "cal_266a95ed-60eb-4b1a-bcd9-7154bff9f89d",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_074f5da9-29cf-428e-b834-f269bb63b192",
+      "platforms": [],
+      "startsAt": "2026-04-20T01:30:00.000Z",
+      "tags": [],
+      "title": "Game Night",
+      "type": "event"
     }
   ],
-  "totalCount": 100
+  "totalCount": 104
 }
 ```
