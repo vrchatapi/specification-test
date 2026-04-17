@@ -3,9 +3,6 @@
 ## Issues
 Response schema mismatch:
 * undefined at ``#/instances/0``,
-* undefined at ``#/instances/1``,
-* undefined at ``#/instances/2``,
-* undefined at ``#/instances/3``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -61,38 +58,11 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "gameServerVersion": 1626,
-      "instanceId": "80192~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
-      "languageRatio": {
-        "en": 0.77,
-        "es": 0.23
-      },
-      "n_users": 6
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "11~group(grp_1c6601a3-b2ce-45c3-946e-f12094a97ce4)~groupAccessType(public)~region(us)",
+      "instanceId": "84336~region(us)",
       "languageRatio": {
         "en": 1
       },
-      "n_users": 3
-    },
-    {
-      "instanceId": "27311~region(eu)",
-      "languageRatio": {
-        "en": 0.75,
-        "es": 0.25
-      },
-      "n_users": 4
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "86969~region(us)",
-      "languageRatio": {
-        "en": 0.5,
-        "ru": 0.5
-      },
-      "n_users": 2
+      "n_users": 6
     }
   ],
   "tags": [
@@ -114,8 +84,7 @@ Response schema mismatch:
     "admin_AllowInternal_PrideCampaign",
     "admin_AllowInternal_OpenMenu",
     "admin_ios_category",
-    "admin_AllowInternal_Experiments",
-    "system_updated_recently"
+    "admin_AllowInternal_Experiments"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",
