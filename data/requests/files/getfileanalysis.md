@@ -78,6 +78,7 @@
     "writeDefaultsUsed": true
   },
   "created_at": "2026-04-06T02:02:37.616Z",
+  "encryptionKey": "cgzDg2tpw+4u/h6dJQ4s31aDENUwHxWRCjbXBFj1MX8=",
   "fileSize": 81988,
   "performanceRating": "Excellent",
   "success": true,
