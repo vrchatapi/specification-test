@@ -137,7 +137,7 @@
   "pronouns": "he/him",
   "state": "offline",
   "status": "ask me",
-  "statusDescription": "adventure",
+  "statusDescription": "hewwo․",
   "tags": [
     "system_trust_trusted",
     "system_world_access",
