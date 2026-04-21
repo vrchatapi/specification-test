@@ -3,20 +3,17 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
-* Invalid type at ``#/1/endDate``,
+* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
 * Invalid type at ``#/1/startDate``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Invalid type at ``#/2/endDate``,
 * Invalid type at ``#/2/startDate``,
-* Unexpected property at ``#/2/experiment``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Invalid type at ``#/3/endDate``,
 * Invalid type at ``#/3/startDate``,
 * Unexpected property at ``#/3/regions``,
@@ -24,6 +21,7 @@ Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/endDate``,
 * Invalid type at ``#/4/startDate``,
+* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
@@ -37,11 +35,21 @@ Response schema mismatch:
 * Unexpected property at ``#/6/regions``,
 * Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
+* Invalid type at ``#/7/endDate``,
+* Invalid type at ``#/7/startDate``,
+* Unexpected property at ``#/7/regions``,
+* Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
 * Invalid type at ``#/8/endDate``,
 * Invalid type at ``#/8/startDate``,
 * Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``.
+* Unexpected property at ``#/8/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
+* Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
+* Invalid type at ``#/10/endDate``,
+* Invalid type at ``#/10/startDate``,
+* Unexpected property at ``#/10/regions``,
+* Unexpected property at ``#/10/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -70,6 +78,32 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "createdAt": "2026-04-21T01:03:21.662Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_ee0230ec-6ff1-4cc9-a020-1e9962fa43ec.png",
+      "onPressed": {
+        "command": "OpenWorldDetails",
+        "parameters": [
+          "wrld_9907d48d-47e6-4139-b859-297396ed0f13"
+        ]
+      }
+    },
+    "endDate": "2026-04-27T04:00:00.000Z",
+    "hash": "ips_a-game-about-cratesb0b3-bcce9bf5b618",
+    "id": "ips_a-game-about-cratesb0b3-bcce9bf5b618",
+    "isEnabled": true,
+    "priority": 150,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-04-21T01:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-04-21T01:03:21.662Z"
+  },
+  {
     "createdAt": "2026-04-07T23:14:34.133Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_28399b8b-bcfa-4355-a295-6251c47ee730.png",
@@ -94,6 +128,32 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2026-04-10T17:40:25.609Z"
+  },
+  {
+    "createdAt": "2026-04-20T15:37:42.332Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_41456448-e210-4b81-8cdf-edc69f4a87b1.png",
+      "onPressed": {
+        "command": "OpenWorldsMenu",
+        "parameters": [
+          "ips_fd54ab7f-fbf3-4d25-a0bb-77753af7788f"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_space-jam-3-winners9805-539002c66e04",
+    "id": "ips_space-jam-3-winners9805-539002c66e04",
+    "isEnabled": true,
+    "priority": 300,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": null,
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-04-21T00:41:06.736Z"
   },
   {
     "createdAt": "2025-10-29T17:23:05.366Z",
