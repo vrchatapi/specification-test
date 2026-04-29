@@ -125,7 +125,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*18 issues truncated.*
+*15 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -259,19 +259,19 @@ Response schema mismatch:
 #### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
 
 Response schema mismatch:
-* Invalid type at ``#/0highlightListing/products/0``,
-* Invalid type at ``#/0highlightListing/products/1``,
-* Invalid type at ``#/0highlightListing/products/2``,
+* Invalid type at ``#/0listings/0products/0``,
+* Invalid type at ``#/0listings/0products/1``,
+* Invalid type at ``#/0listings/0products/2``,
 
-*32 issues truncated.*
+*87 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
-* Invalid type at ``#/shelves/0highlightListing/products/0``,
-* Invalid type at ``#/shelves/0highlightListing/products/1``,
-* Invalid type at ``#/shelves/0highlightListing/products/2``,
+* Invalid type at ``#/shelves/0listings/0products/0``,
+* Invalid type at ``#/shelves/0listings/0products/1``,
+* Invalid type at ``#/shelves/0listings/0products/2``,
 
-*32 issues truncated.*
+*87 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -571,7 +571,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1654 issues truncated.*
+*1680 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -579,7 +579,7 @@ Response schema mismatch:
 * Invalid type at ``#/0/startDate``,
 * Unexpected property at ``#/0/regions``,
 
-*42 issues truncated.*
+*46 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -587,7 +587,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*29 issues truncated.*
+*26 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
