@@ -34,6 +34,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0listings/7/collabUserId``,
 * Invalid type at ``#/0listings/8products/0``,
 * Unexpected property at ``#/0listings/8/attribution``,
+* Unexpected property at ``#/0listings/8/collabUserDisplayName``,
 * Unexpected property at ``#/0listings/8/collabUserId``,
 * Invalid type at ``#/0listings/9products/0``,
 * Unexpected property at ``#/0listings/9/attribution``,
@@ -496,6 +497,7 @@ Response schema mismatch:
           }
         },
         "buyerRefundable": false,
+        "collabUserDisplayName": "VRChat",
         "collabUserId": "8JoV9XEdpo",
         "description": "A Collar! Used for animals. And fashionable humans. You can adjust its color, emissivity, and visible charm. This is an Avatar Accessory – you can attach it to any avatar!\n\nYou, too, can be a puppy.\n",
         "displayName": "Collar",

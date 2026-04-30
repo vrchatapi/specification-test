@@ -5,7 +5,6 @@ Response schema mismatch:
 * undefined at ``#/instances/0``,
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
-* undefined at ``#/instances/3``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -62,29 +61,21 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": null,
+      "instanceId": "89464~group(grp_fd1e968e-347d-4a9f-a6dd-c74a3a19d77a)~groupAccessType(public)~region(us)",
+      "languageRatio": {},
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": null,
       "instanceId": "99820~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
-      "instanceId": "870009ae60~region(us)",
-      "languageRatio": {
-        "en": 0.83,
-        "ja": 0.17
-      },
-      "n_users": 6
-    },
-    {
       "gameServerVersion": null,
       "instanceId": "38026~region(us)",
       "languageRatio": {},
-      "n_users": 4
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "41866~region(use)",
-      "languageRatio": {},
-      "n_users": 3
+      "n_users": 2
     }
   ],
   "tags": [
