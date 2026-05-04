@@ -7,9 +7,6 @@ Response schema mismatch:
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
 * undefined at ``#/instances/4``,
-* undefined at ``#/instances/5``,
-* undefined at ``#/instances/6``,
-* undefined at ``#/instances/7``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -68,50 +65,33 @@ Response schema mismatch:
       "gameServerVersion": null,
       "instanceId": "81002~group(grp_7a68ad78-0156-4364-9fe8-f5ba688fdab9)~groupAccessType(public)~region(us)",
       "languageRatio": {},
-      "n_users": 6
+      "n_users": 7
     },
     {
       "gameServerVersion": null,
       "instanceId": "11~group(grp_1c6601a3-b2ce-45c3-946e-f12094a97ce4)~groupAccessType(public)~region(us)",
       "languageRatio": {},
-      "n_users": 2
+      "n_users": 3
     },
     {
-      "instanceId": "34614~region(us)",
+      "gameServerVersion": null,
+      "instanceId": "91701~group(grp_fd1e968e-347d-4a9f-a6dd-c74a3a19d77a)~groupAccessType(public)~region(us)",
+      "languageRatio": {},
+      "n_users": 1
+    },
+    {
+      "instanceId": "552c602bd1~region(us)",
       "languageRatio": {
-        "en": 1
+        "en": 0.5,
+        "zh-HK": 0.5
       },
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "97456~region(us)",
-      "languageRatio": {},
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "66218~region(us)",
-      "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "64305~region(jp)",
+      "instanceId": "78899~region(us)",
       "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "98446~region(eu)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "67002~region(us)",
-      "languageRatio": {},
-      "n_users": 1
+      "n_users": 3
     }
   ],
   "tags": [
