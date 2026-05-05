@@ -6,13 +6,15 @@
 
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
-* Unexpected property at ``#/appleId``.
+* Unexpected property at ``#/appleId``,
+* Unexpected property at ``#/completedTutorials``.
 
 #### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
-* Unexpected property at ``#/appleId``.
+* Unexpected property at ``#/appleId``,
+* Unexpected property at ``#/completedTutorials``.
 
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
@@ -125,7 +127,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*19 issues truncated.*
+*18 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -174,19 +176,22 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
-* Unexpected property at ``#/appleId``.
+* Unexpected property at ``#/appleId``,
+* Unexpected property at ``#/completedTutorials``.
 
 #### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
-* Unexpected property at ``#/appleId``.
+* Unexpected property at ``#/appleId``,
+* Unexpected property at ``#/completedTutorials``.
 
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
-* Unexpected property at ``#/appleId``.
+* Unexpected property at ``#/appleId``,
+* Unexpected property at ``#/completedTutorials``.
 
 #### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
@@ -263,7 +268,7 @@ Response schema mismatch:
 * Invalid type at ``#/0listings/0products/1``,
 * Invalid type at ``#/0listings/0products/2``,
 
-*94 issues truncated.*
+*88 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -271,7 +276,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0listings/0products/1``,
 * Invalid type at ``#/shelves/0listings/0products/2``,
 
-*94 issues truncated.*
+*88 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -587,7 +592,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*29 issues truncated.*
+*35 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

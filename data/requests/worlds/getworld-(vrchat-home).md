@@ -63,35 +63,35 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": null,
-      "instanceId": "81002~group(grp_7a68ad78-0156-4364-9fe8-f5ba688fdab9)~groupAccessType(public)~region(us)",
+      "instanceId": "91701~group(grp_fd1e968e-347d-4a9f-a6dd-c74a3a19d77a)~groupAccessType(public)~region(us)",
       "languageRatio": {},
       "n_users": 7
     },
     {
       "gameServerVersion": null,
-      "instanceId": "11~group(grp_1c6601a3-b2ce-45c3-946e-f12094a97ce4)~groupAccessType(public)~region(us)",
+      "instanceId": "81002~group(grp_7a68ad78-0156-4364-9fe8-f5ba688fdab9)~groupAccessType(public)~region(us)",
       "languageRatio": {},
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "91701~group(grp_fd1e968e-347d-4a9f-a6dd-c74a3a19d77a)~groupAccessType(public)~region(us)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "instanceId": "552c602bd1~region(us)",
-      "languageRatio": {
-        "en": 0.5,
-        "zh-HK": 0.5
-      },
       "n_users": 2
     },
     {
+      "instanceId": "84848~region(us)",
+      "languageRatio": {
+        "en": 0.75,
+        "ja": 0.25
+      },
+      "n_users": 4
+    },
+    {
       "gameServerVersion": null,
-      "instanceId": "78899~region(us)",
+      "instanceId": "3670~region(usw)",
       "languageRatio": {},
       "n_users": 3
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "35340~region(us)",
+      "languageRatio": {},
+      "n_users": 2
     }
   ],
   "tags": [
@@ -113,8 +113,7 @@ Response schema mismatch:
     "admin_AllowInternal_PrideCampaign",
     "admin_AllowInternal_OpenMenu",
     "admin_ios_category",
-    "admin_AllowInternal_Experiments",
-    "system_updated_recently"
+    "admin_AllowInternal_Experiments"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",

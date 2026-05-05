@@ -90,12 +90,6 @@ Response schema mismatch:
 * Invalid type at ``#/1listings/6products/0``,
 * Unexpected property at ``#/1listings/6/attribution``,
 * Unexpected property at ``#/1listings/6/collabUserId``,
-* Invalid type at ``#/1listings/7products/0``,
-* Unexpected property at ``#/1listings/7/attribution``,
-* Unexpected property at ``#/1listings/7/collabUserId``,
-* Invalid type at ``#/1listings/8products/0``,
-* Unexpected property at ``#/1listings/8/attribution``,
-* Unexpected property at ``#/1listings/8/collabUserId``,
 * Unexpected property at ``#/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/1/shelfIconImageId``,
 * Unexpected property at ``#/1/shelfTabBackgroundImageId``.
@@ -869,9 +863,7 @@ Response schema mismatch:
       "prod_8170fecf-7c7c-4dce-8799-315140096843",
       "prod_dfb2915d-e444-4190-9bfc-781bdf52aa1a",
       "prod_72649acb-d5c9-40c0-a2d4-9c14362bda1c",
-      "prod_bb4f6bbf-fce5-48f3-9c7e-5bd92174c7fb",
-      "prod_e31317c6-dc57-4635-bd41-9f723480bb1c",
-      "prod_80797cc2-9dbf-4137-9aab-acf980a9fe3b"
+      "prod_bb4f6bbf-fce5-48f3-9c7e-5bd92174c7fb"
     ],
     "listings": [
       {
@@ -1169,90 +1161,6 @@ Response schema mismatch:
         "subtitle": "Sticker",
         "vrcPlusDiscountPrice": 180,
         "whenToExpire": "2026-06-01T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A crown… of flowers! You can change their color. This is an Avatar Accessory – you can attach it to any avatar!\n\nNo, they don’t continuously shift. What are they, gamer flowers?\n",
-        "displayName": "Flower Crown",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_e31317c6-dc57-4635-bd41-9f723480bb1c",
-        "imageId": "file_a5e4ea5e-d475-49c8-82f8-c4b8e5e9a7f7",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 900,
-        "productIds": [
-          "prod_3bdeb913-a1b1-445a-b2cf-6be0a31c50b7"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_3bdeb913-a1b1-445a-b2cf-6be0a31c50b7"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 810,
-        "whenToExpire": "2026-06-01T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A Sakura-themed Hair Pin! You can change its collar and toggle on/off the dangling ornaments. This is an Avatar Accessory – you can attach it to any avatar!\n\nYou don’t have to pin it to your hair.\n",
-        "displayName": "Sakura Hair Pin",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_80797cc2-9dbf-4137-9aab-acf980a9fe3b",
-        "imageId": "file_93167422-1451-49b2-9b7c-aed826a2c194",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_7b08e63f-572d-4005-b821-cbe418a743bd"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_7b08e63f-572d-4005-b821-cbe418a743bd"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 1080,
-        "whenToExpire": "2026-06-01T21:00:00.000Z"
       }
     ],
     "shelfBackgroundImageId": "file_a88af487-16d0-4912-8f66-4c840e35d82c",
@@ -1261,7 +1169,7 @@ Response schema mismatch:
     "shelfLayout": "highlightLeft",
     "shelfTabBackgroundImageId": "file_6be09fcb-1d0e-452f-ab75-4488225a3352",
     "shelfTitle": "Hanami Festival",
-    "updatedAt": "2026-05-01T16:41:59.918Z"
+    "updatedAt": "2026-05-04T21:49:06.113Z"
   }
 ]
 ```

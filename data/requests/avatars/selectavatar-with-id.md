@@ -3,7 +3,8 @@
 ## Issues
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
-* Unexpected property at ``#/appleId``.
+* Unexpected property at ``#/appleId``,
+* Unexpected property at ``#/completedTutorials``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_26187637-0c30-4a09-86e1-bc928c07309e/select`
 
@@ -41,6 +42,9 @@ Response schema mismatch:
   "appleId": "",
   "bio": "",
   "bioLinks": [],
+  "completedTutorials": [
+    "standalonewindows:steam:v1"
+  ],
   "currentAvatar": "avtr_26187637-0c30-4a09-86e1-bc928c07309e",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/file",
   "currentAvatarTags": "<unstable: array of strings>",
