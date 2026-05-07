@@ -8,7 +8,7 @@ Response schema mismatch:
 * Unexpected property at ``#/languageRatio``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/76866~group(grp_f46fb744-7985-47b2-a2a0-858bf2569672)~groupAccessType(public)~ageGate~region(us)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/89248~group(grp_309a52bb-ecf2-44d1-9b56-734c5e620259)~groupAccessType(public)~region(us)`
 
 | Header | Value |
 | ------ | ----- |

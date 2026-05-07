@@ -583,7 +583,7 @@ Response schema mismatch:
         },
         "buyerRefundable": false,
         "collabUserId": "8JoV9XEdpo",
-        "description": "A Sakura-themed Hair Pin! You can change its collar and toggle on/off the dangling ornaments. This is an Avatar Accessory – you can attach it to any avatar!\n\nYou don’t have to pin it to your hair.\n",
+        "description": "A Sakura-themed Hair Pinǃ You can change its color and toggle on⁄off the dangling ornaments․ This is an Avatar Accessory you can attach it to any avatarǃ\n\nYou dont have to pin it to your hair․",
         "displayName": "Sakura Hair Pin",
         "duration": null,
         "durationType": null,
