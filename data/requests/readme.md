@@ -88,9 +88,9 @@ Response schema mismatch:
 Response schema mismatch:
 * undefined at ``#/instances/0``,
 * undefined at ``#/instances/1``,
-* undefined at ``#/instances/2``,
+* Unexpected property at ``#/disabledPropAbilities``,
 
-*3 issues truncated.*
+*1 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -127,7 +127,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*19 issues truncated.*
+*17 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -264,19 +264,19 @@ Response schema mismatch:
 #### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
 
 Response schema mismatch:
-* Invalid type at ``#/0listings/0products/0``,
-* Invalid type at ``#/0listings/0products/1``,
-* Invalid type at ``#/0listings/0products/2``,
+* Unexpected property at ``#/0/shelfBackgroundImageId``,
+* Unexpected property at ``#/0/shelfIconImageId``,
+* Unexpected property at ``#/0/shelfTabBackgroundImageId``,
 
-*88 issues truncated.*
+*91 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
-* Invalid type at ``#/shelves/0listings/0products/0``,
-* Invalid type at ``#/shelves/0listings/0products/1``,
-* Invalid type at ``#/shelves/0listings/0products/2``,
+* Unexpected property at ``#/shelves/0/shelfBackgroundImageId``,
+* Unexpected property at ``#/shelves/0/shelfIconImageId``,
+* Unexpected property at ``#/shelves/0/shelfTabBackgroundImageId``,
 
-*88 issues truncated.*
+*91 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -572,11 +572,11 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/endDate``,
-* Invalid type at ``#/0/startDate``,
+* Invalid type at ``#/0/data/contentList/name``,
+* Unexpected property at ``#/0data/contentList/anyStyle``,
+* Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1694 issues truncated.*
+*1697 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -592,7 +592,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*30 issues truncated.*
+*26 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
