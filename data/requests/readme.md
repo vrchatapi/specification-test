@@ -88,9 +88,9 @@ Response schema mismatch:
 Response schema mismatch:
 * undefined at ``#/instances/0``,
 * undefined at ``#/instances/1``,
-* Unexpected property at ``#/disabledPropAbilities``,
+* undefined at ``#/instances/2``,
 
-*1 issues truncated.*
+*6 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -127,7 +127,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*17 issues truncated.*
+*19 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -208,8 +208,6 @@ Response schema mismatch:
 *7 issues truncated.*
 #### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/attribution``.
 
 #### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
 
@@ -264,19 +262,19 @@ Response schema mismatch:
 #### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0/shelfBackgroundImageId``,
-* Unexpected property at ``#/0/shelfIconImageId``,
-* Unexpected property at ``#/0/shelfTabBackgroundImageId``,
+* Invalid type at ``#/0highlightListing/products/0``,
+* Invalid type at ``#/0highlightListing/products/1``,
+* Invalid type at ``#/0highlightListing/products/2``,
 
-*91 issues truncated.*
+*127 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/shelves/0/shelfBackgroundImageId``,
-* Unexpected property at ``#/shelves/0/shelfIconImageId``,
-* Unexpected property at ``#/shelves/0/shelfTabBackgroundImageId``,
+* Invalid type at ``#/shelves/0highlightListing/products/0``,
+* Invalid type at ``#/shelves/0highlightListing/products/1``,
+* Invalid type at ``#/shelves/0highlightListing/products/2``,
 
-*91 issues truncated.*
+*127 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -373,6 +371,11 @@ Response schema mismatch:
 
 ## [Files](/data/requests/files)
 
+#### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/avatarStats/raycastCount``.
+
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -398,9 +401,6 @@ Response schema mismatch:
 
 
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-
-#### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
@@ -576,12 +576,12 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1697 issues truncated.*
+*1706 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
+* Unexpected property at ``#/0/clientMinVersion``,
 * Unexpected property at ``#/0/regions``,
 
 *42 issues truncated.*
@@ -592,7 +592,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*26 issues truncated.*
+*32 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

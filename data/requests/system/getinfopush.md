@@ -3,7 +3,7 @@
 ## Issues
 Response schema mismatch:
 * Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Invalid type at ``#/0/startDate``,
+* Unexpected property at ``#/0/clientMinVersion``,
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
@@ -75,30 +75,31 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "createdAt": "2026-04-20T19:33:08.937Z",
+    "clientMinVersion": null,
+    "createdAt": "2026-05-07T16:44:36.469Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_66a5ec10-1df1-42a8-8236-e8e11dfb6445.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_88109634-81f1-4880-8963-3cefc411d049.png",
       "onPressed": {
         "command": "OpenVRChatStore",
         "parameters": [
-          "accessories"
+          "vrchat"
         ]
       }
     },
-    "endDate": "2026-05-08T21:00:00.000Z",
-    "hash": "ips_avataraccessorieslaunch-d1ea5fee9379",
-    "id": "ips_avataraccessorieslaunch-d1ea5fee9379",
+    "endDate": "2026-07-03T21:00:00.000Z",
+    "hash": "ips_may26cosmicsurvivalkit4-6b9bd2de3ef3",
+    "id": "ips_may26cosmicsurvivalkit4-6b9bd2de3ef3",
     "isEnabled": true,
-    "priority": 150,
+    "priority": 140,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": null,
+    "startDate": "2026-05-08T21:00:00.000Z",
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-04-28T22:04:49.958Z"
+    "updatedAt": "2026-05-08T15:10:36.603Z"
   },
   {
     "createdAt": "2026-04-20T15:37:42.332Z",

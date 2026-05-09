@@ -1,8 +1,5 @@
 # getOwnAvatar
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/attribution``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/avatar`
 
@@ -13,56 +10,17 @@ Response schema mismatch:
 
 
 ## Response
-`200 OK`
+`502 Bad Gateway`
 
 | Header | Value |
 | ------ | ----- |
-| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
+| content-length | `122` |
+| content-type | `text/html` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Authorization, Accept-Encoding` |
-| x-frame-options | `deny` |
 
 ```jsonc
-{
-  "attribution": null,
-  "authorId": "8JoV9XEdpo",
-  "authorName": "vrchat",
-  "created_at": "2016-11-30T03:47:35.000Z",
-  "description": "Beep Boop",
-  "featured": false,
-  "id": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "imageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "listingDate": null,
-  "name": "Robot",
-  "performance": {
-    "android": "Medium",
-    "android-sort": 3,
-    "ios": "Medium",
-    "ios-sort": 3,
-    "standalonewindows": "Excellent",
-    "standalonewindows-sort": 5
-  },
-  "releaseStatus": "public",
-  "searchable": false,
-  "styles": {
-    "primary": null,
-    "secondary": null
-  },
-  "tags": [
-    "admin_featured_legacy",
-    "admin_content_reviewed"
-  ],
-  "thumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-  "unityPackageUrl": "",
-  "unityPackageUrlObject": {},
-  "unityPackages": "<unstable: array of objects>",
-  "updated_at": "<unstable: string>",
-  "version": "<unstable: number>"
-}
+"<html>\r\n<head><title>502 Bad Gateway</title></head>\r\n<body>\r\n<center><h1>502 Bad Gateway</h1></center>\r\n</body>\r\n</html>\r\n"
 ```

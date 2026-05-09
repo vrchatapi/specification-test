@@ -4,6 +4,11 @@
 Response schema mismatch:
 * undefined at ``#/instances/0``,
 * undefined at ``#/instances/1``,
+* undefined at ``#/instances/2``,
+* undefined at ``#/instances/3``,
+* undefined at ``#/instances/4``,
+* undefined at ``#/instances/5``,
+* undefined at ``#/instances/6``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -59,19 +64,55 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "instanceId": "98619~region(us)",
+      "gameServerVersion": 1626,
+      "instanceId": "11~group(grp_1c6601a3-b2ce-45c3-946e-f12094a97ce4)~groupAccessType(public)~region(us)",
       "languageRatio": {
-        "en": 0.6,
-        "ja": 0.2,
-        "ru": 0.2
+        "en": 0.9,
+        "es": 0.1
       },
-      "n_users": 5
+      "n_users": 7
     },
     {
       "gameServerVersion": null,
-      "instanceId": "42359~region(us)",
+      "instanceId": "82275~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "81002~group(grp_7a68ad78-0156-4364-9fe8-f5ba688fdab9)~groupAccessType(public)~region(us)",
       "languageRatio": {},
       "n_users": 1
+    },
+    {
+      "instanceId": "513~region(usw)",
+      "languageRatio": {
+        "en": 0.75,
+        "zh-CN": 0.25
+      },
+      "n_users": 4
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "68667~region(jp)",
+      "languageRatio": {
+        "en": 0.5,
+        "th": 0.1,
+        "zh-CN": 0.4
+      },
+      "n_users": 4
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "95251~region(us)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "50cfea0d7a~region(us)",
+      "languageRatio": {},
+      "n_users": 2
     }
   ],
   "tags": [
@@ -93,8 +134,7 @@ Response schema mismatch:
     "admin_AllowInternal_PrideCampaign",
     "admin_AllowInternal_OpenMenu",
     "admin_ios_category",
-    "admin_AllowInternal_Experiments",
-    "system_updated_recently"
+    "admin_AllowInternal_Experiments"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",

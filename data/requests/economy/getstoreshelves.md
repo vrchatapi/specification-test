@@ -2,19 +2,59 @@
 
 ## Issues
 Response schema mismatch:
+* Invalid type at ``#/0highlightListing/products/0``,
+* Invalid type at ``#/0highlightListing/products/1``,
+* Invalid type at ``#/0highlightListing/products/2``,
+* Invalid type at ``#/0highlightListing/products/3``,
+* Invalid type at ``#/0highlightListing/products/4``,
+* Invalid type at ``#/0highlightListing/products/5``,
+* Invalid type at ``#/0highlightListing/products/6``,
+* Invalid type at ``#/0highlightListing/products/7``,
+* Invalid type at ``#/0highlightListing/products/8``,
+* Invalid type at ``#/0highlightListing/products/9``,
+* Unexpected property at ``#/0highlightListing/attribution``,
+* Unexpected property at ``#/0highlightListing/collabUserId``,
+* Invalid type at ``#/0listings/0products/0``,
+* Unexpected property at ``#/0listings/0/attribution``,
+* Unexpected property at ``#/0listings/0/collabUserId``,
+* Invalid type at ``#/0listings/1products/0``,
+* Unexpected property at ``#/0listings/1/attribution``,
+* Unexpected property at ``#/0listings/1/collabUserId``,
+* Invalid type at ``#/0listings/2products/0``,
+* Unexpected property at ``#/0listings/2/attribution``,
+* Unexpected property at ``#/0listings/2/collabUserId``,
+* Invalid type at ``#/0listings/3products/0``,
+* Unexpected property at ``#/0listings/3/attribution``,
+* Unexpected property at ``#/0listings/3/collabUserId``,
+* Invalid type at ``#/0listings/4products/0``,
+* Unexpected property at ``#/0listings/4/attribution``,
+* Unexpected property at ``#/0listings/4/collabUserId``,
+* Invalid type at ``#/0listings/5products/0``,
+* Unexpected property at ``#/0listings/5/attribution``,
+* Unexpected property at ``#/0listings/5/collabUserId``,
+* Invalid type at ``#/0listings/6products/0``,
+* Unexpected property at ``#/0listings/6/attribution``,
+* Unexpected property at ``#/0listings/6/collabUserId``,
+* Invalid type at ``#/0listings/7products/0``,
+* Invalid type at ``#/0listings/7products/1``,
+* Unexpected property at ``#/0listings/7/attribution``,
+* Unexpected property at ``#/0listings/7/collabUserId``,
+* Invalid type at ``#/0listings/8products/0``,
+* Unexpected property at ``#/0listings/8/attribution``,
+* Unexpected property at ``#/0listings/8/collabUserId``,
 * Unexpected property at ``#/0/shelfBackgroundImageId``,
 * Unexpected property at ``#/0/shelfIconImageId``,
 * Unexpected property at ``#/0/shelfTabBackgroundImageId``,
 * Invalid type at ``#/1listings/0products/0``,
-* Invalid type at ``#/1listings/0products/1``,
-* Invalid type at ``#/1listings/0products/2``,
-* Invalid type at ``#/1listings/0products/3``,
 * Unexpected property at ``#/1listings/0/attribution``,
 * Unexpected property at ``#/1listings/0/collabUserId``,
 * Invalid type at ``#/1listings/1products/0``,
 * Unexpected property at ``#/1listings/1/attribution``,
 * Unexpected property at ``#/1listings/1/collabUserId``,
 * Invalid type at ``#/1listings/2products/0``,
+* Invalid type at ``#/1listings/2products/1``,
+* Invalid type at ``#/1listings/2products/2``,
+* Invalid type at ``#/1listings/2products/3``,
 * Unexpected property at ``#/1listings/2/attribution``,
 * Unexpected property at ``#/1listings/2/collabUserId``,
 * Invalid type at ``#/1listings/3products/0``,
@@ -24,40 +64,36 @@ Response schema mismatch:
 * Unexpected property at ``#/1listings/4/attribution``,
 * Unexpected property at ``#/1listings/4/collabUserId``,
 * Invalid type at ``#/1listings/5products/0``,
-* Invalid type at ``#/1listings/5products/1``,
-* Invalid type at ``#/1listings/5products/2``,
-* Invalid type at ``#/1listings/5products/3``,
 * Unexpected property at ``#/1listings/5/attribution``,
 * Unexpected property at ``#/1listings/5/collabUserId``,
 * Invalid type at ``#/1listings/6products/0``,
 * Unexpected property at ``#/1listings/6/attribution``,
 * Unexpected property at ``#/1listings/6/collabUserId``,
 * Invalid type at ``#/1listings/7products/0``,
+* Invalid type at ``#/1listings/7products/1``,
+* Invalid type at ``#/1listings/7products/2``,
+* Invalid type at ``#/1listings/7products/3``,
 * Unexpected property at ``#/1listings/7/attribution``,
 * Unexpected property at ``#/1listings/7/collabUserId``,
 * Invalid type at ``#/1listings/8products/0``,
 * Unexpected property at ``#/1listings/8/attribution``,
-* Unexpected property at ``#/1listings/8/collabUserDisplayName``,
 * Unexpected property at ``#/1listings/8/collabUserId``,
 * Invalid type at ``#/1listings/9products/0``,
 * Unexpected property at ``#/1listings/9/attribution``,
 * Unexpected property at ``#/1listings/9/collabUserId``,
 * Invalid type at ``#/1listings/10products/0``,
 * Unexpected property at ``#/1listings/10/attribution``,
+* Unexpected property at ``#/1listings/10/collabUserDisplayName``,
 * Unexpected property at ``#/1listings/10/collabUserId``,
 * Invalid type at ``#/1listings/11products/0``,
 * Unexpected property at ``#/1listings/11/attribution``,
 * Unexpected property at ``#/1listings/11/collabUserId``,
 * Invalid type at ``#/1listings/12products/0``,
 * Unexpected property at ``#/1listings/12/attribution``,
-* Unexpected property at ``#/1listings/12/collabUserDisplayName``,
 * Unexpected property at ``#/1listings/12/collabUserId``,
 * Invalid type at ``#/1listings/13products/0``,
 * Unexpected property at ``#/1listings/13/attribution``,
 * Unexpected property at ``#/1listings/13/collabUserId``,
-* Invalid type at ``#/1listings/14products/0``,
-* Unexpected property at ``#/1listings/14/attribution``,
-* Unexpected property at ``#/1listings/14/collabUserId``,
 * Unexpected property at ``#/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/1/shelfIconImageId``,
 * Unexpected property at ``#/1/shelfTabBackgroundImageId``,
@@ -124,20 +160,478 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "highlightListing": {
+      "active": true,
+      "attribution": {
+        "creator": {
+          "customName": "VRChat",
+          "userId": "8JoV9XEdpo"
+        }
+      },
+      "buyerRefundable": false,
+      "collabUserId": "8JoV9XEdpo",
+      "description": "Contains a handful of useful objects, ideal for surviving the furthest reaches of human exploration. Includes Orbital Drift Loading Screen, C4-T Uplink \"EAR\", Lightweight IVA Mask, Miniature Black Hole Warp Effect, SC-4N Reader, Photonic Slicer, To the Moon! Animated Sticker, Starshower & Portable Pulsar Premium Emoji and Stellar Conduit Portal.\n\nCenturies of scientific research contained in a budget-friendly capsule.\n",
+      "displayName": "Cosmic Survival Kit",
+      "duration": null,
+      "durationType": null,
+      "hasAvatar": false,
+      "hasUdon": false,
+      "id": "prod_0864f02b-5589-4318-a244-150ebf5d4585",
+      "imageId": "file_b0d4c61c-4eba-4062-93b4-6607bdaddca4",
+      "imageUrl": null,
+      "listingType": "permanent",
+      "priceTokens": 4800,
+      "productIds": [
+        "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8",
+        "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371",
+        "prod_57e0970c-ec7e-44de-8054-23433d555e80",
+        "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7",
+        "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee",
+        "prod_5cddd474-b0c8-4973-9373-adfc804eac81",
+        "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503",
+        "prod_4847436f-ead9-48cc-9538-81a0a99d8ff9",
+        "prod_e5075309-a328-4d5e-b035-67b96f669d81",
+        "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
+      ],
+      "productType": "listing",
+      "products": [
+        "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8",
+        "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371",
+        "prod_57e0970c-ec7e-44de-8054-23433d555e80",
+        "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7",
+        "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee",
+        "prod_5cddd474-b0c8-4973-9373-adfc804eac81",
+        "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503",
+        "prod_4847436f-ead9-48cc-9538-81a0a99d8ff9",
+        "prod_e5075309-a328-4d5e-b035-67b96f669d81",
+        "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
+      ],
+      "quantifiable": false,
+      "recurrable": false,
+      "refundable": true,
+      "sellerDisplayName": "VRChat Store",
+      "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+      "soldByVrc": true,
+      "stackable": false,
+      "storeIds": [
+        "esto_00000000-0000-0000-0000-000000000000"
+      ],
+      "subtitle": "Bundle",
+      "vrcPlusDiscountPrice": 4320,
+      "whenToExpire": "2026-07-03T21:00:00.000Z"
+    },
+    "highlightListingId": "prod_0864f02b-5589-4318-a244-150ebf5d4585",
     "id": "ess_0d4ad1e9-d2e9-470d-b3b1-5e8dce9c00f2",
-    "listingIds": [],
-    "listings": [],
+    "listingIds": [
+      "prod_79e94e22-a75f-4a4e-8c52-40a0e6d488e0",
+      "prod_398c9e29-4ac4-44fb-ab13-2d5c72a09beb",
+      "prod_9dc3a45f-9c18-4d32-9310-be867fb7ff3c",
+      "prod_0a4a38d8-ee74-4b64-80ca-da224bbe3cff",
+      "prod_3b097c94-bc8c-46cf-9895-b67fa9fd1af4",
+      "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
+      "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
+      "prod_5b67ca9e-dc6c-4b07-90e6-ee7ca9a1aa57",
+      "prod_74ff20c9-be78-42db-9f68-ef239c384709"
+    ],
+    "listings": [
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Designed to create atomic-level flat surfaces in real time. Portable. Handheld. Cuts may be imperceptible to the human eye. The wavelength of emitted photons can be set by the user. \n\nA tool in the right hands. A weapon in the wrong ones.\n",
+        "displayName": "Photonic Slicer",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_79e94e22-a75f-4a4e-8c52-40a0e6d488e0",
+        "imageId": "file_54700687-b897-4ff0-a7b5-42237259e4be",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_5cddd474-b0c8-4973-9373-adfc804eac81"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_5cddd474-b0c8-4973-9373-adfc804eac81"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Item",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Building meaning through reading molecular structures. Enables the user to scan objects, person(s), and creatures. Information retrieved is of dubious quality. \n\nWARNING: Objects scanned may be closer than they appear.\n",
+        "displayName": "SC-4N Reader",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_398c9e29-4ac4-44fb-ab13-2d5c72a09beb",
+        "imageId": "file_3064ab1d-0ae2-4893-980a-75cd35c6fd38",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 700,
+        "productIds": [
+          "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Item",
+        "vrcPlusDiscountPrice": 630,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Replaces the default VRChat Portal with a Stellar Conduit. Compressed plasma churns against unknown, dense alloys at incredible speed, twisting the fabric of space. Features new animations and sound effects.\n\nConstructed from blueprints provided by Dr. Aimil Fades-Mazier. \n",
+        "displayName": "Stellar Conduit",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_9dc3a45f-9c18-4d32-9310-be867fb7ff3c",
+        "imageId": "file_908ceeeb-2f8c-4d76-bca5-34f0a13ede8d",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Portal",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Float within a belt of captured asteroids, circling around an unknown planet. Replaces the Loading Screen. \n\nThe Conduit malfunctioned, and for a moment, I found myself gazing into a desolate world…\n",
+        "displayName": "Orbital Drift",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_0a4a38d8-ee74-4b64-80ca-da224bbe3cff",
+        "imageId": "file_94231dcc-2e8f-4213-8910-e466e4cd6e81",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 600,
+        "productIds": [
+          "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Loadingscreen",
+        "vrcPlusDiscountPrice": 540,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Changes the warp effect on your avatar, enabling the user to rip through the fabric of spacetime. The gravitational compression generated by your meddling forms a temporary black hole that swallows you. Or spits you out, depending on your perspective of the procession of time.\n\nHer research was never meant to be used this way…\n",
+        "displayName": "Miniature Black Hole",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_3b097c94-bc8c-46cf-9895-b67fa9fd1af4",
+        "imageId": "file_65573639-d3bf-443f-9f88-d0aa804011e1",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Warp Effect",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Jaw protection. Oxygen delivery. Cleared for most intra-vehicular activities. Color customizable. This is an Avatar Accessory – you can attach it to any avatar!\n\nNanomachine scrubbing technology keeps you safe. Theoretically.\n",
+        "displayName": "Lightweight IVA Mask",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
+        "imageId": "file_0ffdcb55-e1fc-4995-9f9b-986b795c63a8",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1200,
+        "productIds": [
+          "prod_57e0970c-ec7e-44de-8054-23433d555e80"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_57e0970c-ec7e-44de-8054-23433d555e80"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 1080,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Robotic‚ cat-type antenna․ Decorative only․ Does not actually give you satellite uplink capability․ Color customizable․ This is an Avatar Accessory you can attach it to any avatarǃ\n\nIf your cat doesnt have an antenna‚ they probably dont have advanced strike capabilities․",
+        "displayName": "C4-T Uplink “EAR”",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
+        "imageId": "file_a9cfa683-8413-43d6-9c3e-b3e6bd0b4cfb",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 810,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Contains the Portable Pulsar and Starshower Premium Emoji. Generate incredible, three-dimensional celestial displays, no matter where you are.\n\nTry not to get a quasar in your eye. Or, well, anywhere else.\n",
+        "displayName": "Celestial Emoji Pack",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_5b67ca9e-dc6c-4b07-90e6-ee7ca9a1aa57",
+        "imageId": "file_2dee8293-9603-4860-b9fa-d8ceb27b1a6f",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 500,
+        "productIds": [
+          "prod_4847436f-ead9-48cc-9538-81a0a99d8ff9",
+          "prod_e5075309-a328-4d5e-b035-67b96f669d81"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_4847436f-ead9-48cc-9538-81a0a99d8ff9",
+          "prod_e5075309-a328-4d5e-b035-67b96f669d81"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 450,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Shyaong",
+            "userId": "usr_957186b2-2d99-4e1d-8271-d191554466a1"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_957186b2-2d99-4e1d-8271-d191554466a1",
+        "description": "An Animated Sticker of VRRat in a spaceship going to the moon! At least he thinks he’s going to the moon. To be honest, we aren’t sure where he’s going. Probably somewhere with a lot of cheese.\n\nHe doesn’t know he isn’t the first rat in space.\n",
+        "displayName": "To the Moon!",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_74ff20c9-be78-42db-9f68-ef239c384709",
+        "imageId": "file_c48f5b77-1262-4c04-b1f4-22aebe42c5f2",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 200,
+        "productIds": [
+          "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Sticker",
+        "vrcPlusDiscountPrice": 180,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      }
+    ],
     "shelfBackgroundImageId": "file_bc778a83-8400-449c-9d40-c566b23e366e",
     "shelfDescription": "",
     "shelfIconImageId": "file_43747c99-e4c5-46c3-8ff1-f563dde1b43a",
     "shelfLayout": "highlightLeft",
     "shelfTabBackgroundImageId": "file_74e885cf-5feb-4e26-9c24-fac83cc73322",
     "shelfTitle": "Cosmic Journey",
-    "updatedAt": "2026-05-07T18:26:05.932Z"
+    "updatedAt": "2026-05-08T21:00:30.785Z"
   },
   {
     "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
     "listingIds": [
+      "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
+      "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
       "prod_bf4b5a74-7a6b-4ed3-b7bc-7f67319814f5",
       "prod_3c61072b-43d3-47bf-a6bf-bff444612d0b",
       "prod_153aae8a-be90-473e-9879-dfdaf729ff41",
@@ -149,12 +643,93 @@ Response schema mismatch:
       "prod_736f0cba-da62-4243-a224-eca71f859d4e",
       "prod_b14d09a8-81d1-4aa5-af49-205fef308064",
       "prod_80797cc2-9dbf-4137-9aab-acf980a9fe3b",
-      "prod_e31317c6-dc57-4635-bd41-9f723480bb1c",
-      "prod_1c38e3bc-7d64-4416-907e-c839a1c7393f",
-      "prod_77d6da3b-2485-4685-b033-14480e372e2b",
-      "prod_5412946a-88e1-419d-9a8a-2e7de5b38a04"
+      "prod_e31317c6-dc57-4635-bd41-9f723480bb1c"
     ],
     "listings": [
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Jaw protection. Oxygen delivery. Cleared for most intra-vehicular activities. Color customizable. This is an Avatar Accessory – you can attach it to any avatar!\n\nNanomachine scrubbing technology keeps you safe. Theoretically.\n",
+        "displayName": "Lightweight IVA Mask",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
+        "imageId": "file_0ffdcb55-e1fc-4995-9f9b-986b795c63a8",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1200,
+        "productIds": [
+          "prod_57e0970c-ec7e-44de-8054-23433d555e80"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_57e0970c-ec7e-44de-8054-23433d555e80"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 1080,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Robotic‚ cat-type antenna․ Decorative only․ Does not actually give you satellite uplink capability․ Color customizable․ This is an Avatar Accessory you can attach it to any avatarǃ\n\nIf your cat doesnt have an antenna‚ they probably dont have advanced strike capabilities․",
+        "displayName": "C4-T Uplink “EAR”",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
+        "imageId": "file_a9cfa683-8413-43d6-9c3e-b3e6bd0b4cfb",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 810,
+        "whenToExpire": "2026-07-03T21:00:00.000Z"
+      },
       {
         "active": true,
         "attribution": {
@@ -671,137 +1246,6 @@ Response schema mismatch:
         "subtitle": "Accessory",
         "vrcPlusDiscountPrice": 810,
         "whenToExpire": "2026-06-01T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Nae the Loud",
-            "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserDisplayName": "VRChat",
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A pair of Googly Eyes! They jiggle a bit. You can change their color, toggle eyelashes, and even adjust the distance between each eye. \n\nEye tracking? Sorry, we heard eye tacking.\n",
-        "displayName": "Googly Eyes",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_1c38e3bc-7d64-4416-907e-c839a1c7393f",
-        "imageId": "file_c1bfcc6d-f6d2-4c09-93a9-31faa8dde18c",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_474cdeea-bfb7-45ae-871c-b4e30afae566"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_474cdeea-bfb7-45ae-871c-b4e30afae566"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 0,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A basic, non-descript sphere. You can change the Basic Sphere’s color. \n\nNo relation to the REFERENCE CUBE. \n",
-        "displayName": "Basic Sphere",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_77d6da3b-2485-4685-b033-14480e372e2b",
-        "imageId": "file_0c0a6f45-ac8b-4615-9d9f-2143eae0bb86",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_991ec8a3-08e5-4b3c-b307-b8129c36e386"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_991ec8a3-08e5-4b3c-b307-b8129c36e386"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 0,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A basic, non-descript cube. You can change the Basic Cube’s color. \n\nNo relation to the REFERENCE SPHERE. What? Stop asking questions.\n",
-        "displayName": "Basic Cube",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_5412946a-88e1-419d-9a8a-2e7de5b38a04",
-        "imageId": "file_d3383e0d-8ae6-4be3-845c-7826c1d48480",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_cf79cdcd-3014-4e4f-b184-278e60e5ca80"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_cf79cdcd-3014-4e4f-b184-278e60e5ca80"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 0,
-        "whenToExpire": null
       }
     ],
     "shelfBackgroundImageId": "file_5570c214-553d-4488-8647-0de574a09004",
@@ -810,7 +1254,7 @@ Response schema mismatch:
     "shelfLayout": "col5",
     "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
     "shelfTitle": "{\"MinVersion\":1835} New Accessories",
-    "updatedAt": "2026-04-28T21:54:16.810Z"
+    "updatedAt": "2026-05-08T23:01:21.230Z"
   },
   {
     "highlightListing": {

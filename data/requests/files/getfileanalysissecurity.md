@@ -1,5 +1,8 @@
 # getFileAnalysisSecurity
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/avatarStats/raycastCount``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/analysis/file_989feccd-3e6d-41f6-bf87-a8b3ece88438/1/security`
 
@@ -64,6 +67,7 @@
     "physBoneTransformCount": 6,
     "physicsColliders": 0,
     "physicsRigidbodies": 0,
+    "raycastCount": 0,
     "skinnedMeshCount": 1,
     "skinnedMeshIndices": 3078,
     "skinnedMeshPolygons": 1026,
@@ -77,9 +81,9 @@
     "trailRendererCount": 0,
     "writeDefaultsUsed": true
   },
-  "created_at": "2026-04-18T02:09:59.397Z",
-  "encryptionKey": "zXLCYqXkZiiG+XLbce9Wcz4cuOCuZMf4A+FCro+Xku4=",
-  "fileSize": 82122,
+  "created_at": "2026-05-09T02:11:29.739Z",
+  "encryptionKey": "/4ReeX2xOmAZYGuEswAAtEo3ORBuaSa2nRNhl1Ft8Tc=",
+  "fileSize": 82123,
   "performanceRating": "Excellent",
   "success": true,
   "uncompressedSize": 388972
