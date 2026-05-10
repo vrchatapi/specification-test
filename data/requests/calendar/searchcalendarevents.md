@@ -106,6 +106,51 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
+      "description": "Feline will be hosting a Game Night‚ Every Saturday․ Join and may the best person win",
+      "endsAt": "2027-05-09T03:30:00.000Z",
+      "featured": true,
+      "id": "cal_f3798766-991a-4a50-beb6-cfcf2392b616",
+      "imageId": "file_f34b8f80-47cb-48b8-b773-f3c9397ef952",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_f34b8f80-47cb-48b8-b773-f3c9397ef952/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_548b8449-2fc6-48b8-bbdf-b380401d9b66",
+      "platforms": [
+        "standalonewindows",
+        "android"
+      ],
+      "startsAt": "2027-05-09T01:30:00.000Z",
+      "tags": [
+        "Gaming",
+        "Fun",
+        "LGBTQ"
+      ],
+      "title": "Game Night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Come join our growing group of goobers for a night of gamesǃ We have a few go-tos‚ but with the goal of catering to as many preferences as possible‚ games are chosen during the night and constantly rotatingǃ Hope to see you thereǃ",
+      "endsAt": "2027-05-09T10:00:00.000Z",
+      "featured": false,
+      "id": "cal_403b1d84-066b-487d-99ee-cda3b97f2d05",
+      "imageId": "file_8991c56e-133a-43ff-aad5-4ae05764d60e",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_8991c56e-133a-43ff-aad5-4ae05764d60e/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_0e620f72-f3ef-43e4-ae02-4c16041bdc64",
+      "platforms": [],
+      "startsAt": "2027-05-09T05:45:00.000Z",
+      "tags": [],
+      "title": "Game Nightǃ",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
       "description": "The Oasis Game Night \nWelcome to The Oasis‚ where the competition is friendly and the vibes stay high․ Tonight is all about games‚ laughs‚ and unforgettable moments with the squad․\n\nWhether you're here to win it all‚ mess around‚ or just hang out and watch the chaos unfold‚ theres a spot for you․ From intense matches to hilarious fails‚ its all part of the fun․\n\nBring your energy‚ your best （or worst ） skills‚ and get ready for a night of good times and great company․\n\nLet the games begin․",
       "endsAt": "2027-05-09T05:00:00.000Z",
       "featured": false,
@@ -444,44 +489,6 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "Just some casual game night‚ it'll end at a random time",
-      "endsAt": "2027-05-08T04:58:00.000Z",
-      "featured": false,
-      "id": "cal_09ded7c6-3b95-4e03-874b-0029879cd12c",
-      "imageId": "file_1373de7b-1679-4500-aa97-1192f66f30e0",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_1373de7b-1679-4500-aa97-1192f66f30e0/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_384909d0-e2a0-4deb-a1be-5ad8cd5a1295",
-      "platforms": [],
-      "startsAt": "2027-05-08T01:04:00.000Z",
-      "tags": [],
-      "title": "Game Night yay",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Just some casual game night‚ it'll end at a random time",
-      "endsAt": "2027-05-07T04:58:00.000Z",
-      "featured": false,
-      "id": "cal_980aa8d4-f8f6-46b8-86b8-bc704eecbf9e",
-      "imageId": "file_1373de7b-1679-4500-aa97-1192f66f30e0",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_1373de7b-1679-4500-aa97-1192f66f30e0/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_384909d0-e2a0-4deb-a1be-5ad8cd5a1295",
-      "platforms": [],
-      "startsAt": "2027-05-07T01:04:00.000Z",
-      "tags": [],
-      "title": "Game Night yay",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
       "description": "Community game night Hosted and Moderated by the Greater Maldrood‚ Join for fun games‚ good vibes‚ and expanding the communityǃ",
       "endsAt": "2027-05-07T23:00:00.000Z",
       "featured": false,
@@ -498,6 +505,6 @@
       "type": "event"
     }
   ],
-  "totalCount": 3061
+  "totalCount": 2862
 }
 ```
