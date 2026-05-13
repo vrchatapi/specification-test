@@ -90,7 +90,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*3 issues truncated.*
+*4 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -127,7 +127,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*16 issues truncated.*
+*13 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -598,7 +598,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*29 issues truncated.*
+*30 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

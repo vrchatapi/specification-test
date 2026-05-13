@@ -198,25 +198,6 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "The Oasis Game Night \nWelcome to The Oasis‚ where the competition is friendly and the vibes stay high․ Tonight is all about games‚ laughs‚ and unforgettable moments with the squad․\n\nWhether you're here to win it all‚ mess around‚ or just hang out and watch the chaos unfold‚ theres a spot for you․ From intense matches to hilarious fails‚ its all part of the fun․\n\nBring your energy‚ your best （or worst ） skills‚ and get ready for a night of good times and great company․\n\nLet the games begin․",
-      "endsAt": "2027-05-09T05:00:00.000Z",
-      "featured": false,
-      "id": "cal_97c1fdc4-392b-4189-9c60-a4f716fd4c4c",
-      "imageId": "file_99306404-e54b-4c35-8684-3ef2acbc4357",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_99306404-e54b-4c35-8684-3ef2acbc4357/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_affecc40-7ebf-4840-a24d-85cd04b6e619",
-      "platforms": [],
-      "startsAt": "2027-05-08T17:00:00.000Z",
-      "tags": [],
-      "title": "game night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
       "description": "Feline will be hosting a Game Night‚ Every Saturday․ Join and may the best person win",
       "endsAt": "2027-05-09T03:30:00.000Z",
       "featured": true,
@@ -256,6 +237,25 @@
       "startsAt": "2027-05-09T05:45:00.000Z",
       "tags": [],
       "title": "Game Nightǃ",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "The Oasis Game Night \nWelcome to The Oasis‚ where the competition is friendly and the vibes stay high․ Tonight is all about games‚ laughs‚ and unforgettable moments with the squad․\n\nWhether you're here to win it all‚ mess around‚ or just hang out and watch the chaos unfold‚ theres a spot for you․ From intense matches to hilarious fails‚ its all part of the fun․\n\nBring your energy‚ your best （or worst ） skills‚ and get ready for a night of good times and great company․\n\nLet the games begin․",
+      "endsAt": "2027-05-09T05:00:00.000Z",
+      "featured": false,
+      "id": "cal_97c1fdc4-392b-4189-9c60-a4f716fd4c4c",
+      "imageId": "file_99306404-e54b-4c35-8684-3ef2acbc4357",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_99306404-e54b-4c35-8684-3ef2acbc4357/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_affecc40-7ebf-4840-a24d-85cd04b6e619",
+      "platforms": [],
+      "startsAt": "2027-05-08T17:00:00.000Z",
+      "tags": [],
+      "title": "game night",
       "type": "event"
     },
     {
@@ -356,18 +356,26 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "Playing games",
-      "endsAt": "2027-05-29T08:18:00.000Z",
-      "featured": false,
-      "id": "cal_b736afd6-de63-48ee-97e9-2c0f5a250396",
-      "imageId": null,
+      "description": "Feline will be hosting a Game Night‚ Every Saturday․ Join and may the best person win",
+      "endsAt": "2027-05-02T03:30:00.000Z",
+      "featured": true,
+      "id": "cal_7408a572-c8fa-4de1-bd37-b976e8241e8d",
+      "imageId": "file_f34b8f80-47cb-48b8-b773-f3c9397ef952",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_f34b8f80-47cb-48b8-b773-f3c9397ef952/1/file",
       "isDraft": false,
       "languages": [],
-      "ownerId": "grp_d31b6169-b058-4531-a07c-71b81e371bdb",
-      "platforms": [],
-      "startsAt": "2027-05-02T06:18:00.000Z",
-      "tags": [],
-      "title": "game nights",
+      "ownerId": "grp_548b8449-2fc6-48b8-bbdf-b380401d9b66",
+      "platforms": [
+        "standalonewindows",
+        "android"
+      ],
+      "startsAt": "2027-05-02T01:30:00.000Z",
+      "tags": [
+        "Gaming",
+        "Fun",
+        "LGBTQ"
+      ],
+      "title": "Game Night",
       "type": "event"
     },
     {
@@ -410,26 +418,18 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "Feline will be hosting a Game Night‚ Every Saturday․ Join and may the best person win",
-      "endsAt": "2027-05-02T03:30:00.000Z",
-      "featured": true,
-      "id": "cal_7408a572-c8fa-4de1-bd37-b976e8241e8d",
-      "imageId": "file_f34b8f80-47cb-48b8-b773-f3c9397ef952",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_f34b8f80-47cb-48b8-b773-f3c9397ef952/1/file",
+      "description": "Playing games",
+      "endsAt": "2027-05-29T08:18:00.000Z",
+      "featured": false,
+      "id": "cal_b736afd6-de63-48ee-97e9-2c0f5a250396",
+      "imageId": null,
       "isDraft": false,
       "languages": [],
-      "ownerId": "grp_548b8449-2fc6-48b8-bbdf-b380401d9b66",
-      "platforms": [
-        "standalonewindows",
-        "android"
-      ],
-      "startsAt": "2027-05-02T01:30:00.000Z",
-      "tags": [
-        "Gaming",
-        "Fun",
-        "LGBTQ"
-      ],
-      "title": "Game Night",
+      "ownerId": "grp_d31b6169-b058-4531-a07c-71b81e371bdb",
+      "platforms": [],
+      "startsAt": "2027-05-02T06:18:00.000Z",
+      "tags": [],
+      "title": "game nights",
       "type": "event"
     },
     {
@@ -506,6 +506,6 @@
       "type": "event"
     }
   ],
-  "totalCount": 3065
+  "totalCount": 3143
 }
 ```
