@@ -32,6 +32,102 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
+      "description": "Hello my lovely angelsǃ Lets have some fun with game night at The Synapseǃ We typically do Prison Break or Jetski Rush but we may change it up every once in awhileǃ Invite your friends to hang out‚ have a laugh and create some memoriesǃ",
+      "endsAt": "2027-05-03T03:00:00.000Z",
+      "featured": true,
+      "id": "cal_3c80f060-323c-4c23-b009-5dbc39c0c8ad",
+      "imageId": "file_ffd4824e-a466-4425-8cd7-fcd25213d4d1",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_ffd4824e-a466-4425-8cd7-fcd25213d4d1/1/file",
+      "isDraft": false,
+      "languages": [
+        "eng",
+        "pol"
+      ],
+      "ownerId": "grp_f3518074-c206-4dc1-b17d-0864d46f8c98",
+      "platforms": [
+        "standalonewindows",
+        "android"
+      ],
+      "startsAt": "2027-05-03T01:00:00.000Z",
+      "tags": [
+        "angels",
+        "game",
+        "games",
+        "fun",
+        "social",
+        "vrc_event_group_fair"
+      ],
+      "title": "Game Nightǃ",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Hello my lovely angelsǃ Lets have some fun with game night at The Synapseǃ We typically do Prison Break or Jetski Rush but we may change it up every once in awhileǃ Invite your friends to hang out‚ have a laugh and create some memoriesǃ",
+      "endsAt": "2027-05-10T03:00:00.000Z",
+      "featured": true,
+      "id": "cal_cb3beaa6-b391-4530-a316-35b500e5c867",
+      "imageId": "file_ffd4824e-a466-4425-8cd7-fcd25213d4d1",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_ffd4824e-a466-4425-8cd7-fcd25213d4d1/1/file",
+      "isDraft": false,
+      "languages": [
+        "eng",
+        "pol"
+      ],
+      "ownerId": "grp_f3518074-c206-4dc1-b17d-0864d46f8c98",
+      "platforms": [
+        "standalonewindows",
+        "android"
+      ],
+      "startsAt": "2027-05-10T01:00:00.000Z",
+      "tags": [
+        "angels",
+        "game",
+        "games",
+        "fun",
+        "social",
+        "vrc_event_group_fair"
+      ],
+      "title": "Game Nightǃ",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Hello my lovely angelsǃ Lets have some fun with game night at The Synapseǃ We typically do Prison Break or Jetski Rush but we may change it up every once in awhileǃ Invite your friends to hang out‚ have a laugh and create some memoriesǃ",
+      "endsAt": "2027-05-17T03:00:00.000Z",
+      "featured": true,
+      "id": "cal_1c782245-1889-43b1-aae9-7e62ec00db4f",
+      "imageId": "file_ffd4824e-a466-4425-8cd7-fcd25213d4d1",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_ffd4824e-a466-4425-8cd7-fcd25213d4d1/1/file",
+      "isDraft": false,
+      "languages": [
+        "eng",
+        "pol"
+      ],
+      "ownerId": "grp_f3518074-c206-4dc1-b17d-0864d46f8c98",
+      "platforms": [
+        "standalonewindows",
+        "android"
+      ],
+      "startsAt": "2027-05-17T01:00:00.000Z",
+      "tags": [
+        "angels",
+        "game",
+        "games",
+        "fun",
+        "social",
+        "vrc_event_group_fair"
+      ],
+      "title": "Game Nightǃ",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
       "description": "Come join our growing group of goobers for a night of gamesǃ We have a few go-tos‚ but with the goal of catering to as many preferences as possible‚ games are chosen during the night and constantly rotatingǃ Hope to see you thereǃ",
       "endsAt": "2027-05-02T10:00:00.000Z",
       "featured": false,
@@ -105,24 +201,6 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "We be gaming",
-      "endsAt": "2027-05-10T01:00:00.000Z",
-      "featured": false,
-      "id": "cal_4a2aefda-3961-476d-b3c7-7219e1f80f12",
-      "imageId": null,
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_806a8e40-ed73-4bf5-8300-845c913f0f1c",
-      "platforms": [],
-      "startsAt": "2027-05-09T23:00:00.000Z",
-      "tags": [],
-      "title": "GAME NIGHT",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
       "description": "Start˸ 21˸00 Uhr\n\nHeute gehts los mit Game Rush in VRChatǃ\nPräsentiert von Furryheaven‚\ndeiner deutschen Furry-Community in VRChat \n\nFreu dich auf spannende Games‚ Spaß in der Gruppe und jede Menge gute Vibes․\nKomm vorbei und zock mit unsǃ",
       "endsAt": "2027-05-11T21:59:00.000Z",
       "featured": false,
@@ -136,6 +214,24 @@
       "startsAt": "2027-05-11T19:00:00.000Z",
       "tags": [],
       "title": "Game Rush",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "We be gaming",
+      "endsAt": "2027-05-10T01:00:00.000Z",
+      "featured": false,
+      "id": "cal_4a2aefda-3961-476d-b3c7-7219e1f80f12",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_806a8e40-ed73-4bf5-8300-845c913f0f1c",
+      "platforms": [],
+      "startsAt": "2027-05-09T23:00:00.000Z",
+      "tags": [],
+      "title": "GAME NIGHT",
       "type": "event"
     },
     {
@@ -451,65 +547,8 @@
       "tags": [],
       "title": "Game Nightǃ",
       "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "come play some games with us while we try to bring our group back to life",
-      "endsAt": "2027-05-10T04:00:00.000Z",
-      "featured": false,
-      "id": "cal_d459f32f-6db9-438a-8ee1-ada6afecff06",
-      "imageId": "file_b8eba687-fdc2-470b-92dc-244cd4799203",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_b8eba687-fdc2-470b-92dc-244cd4799203/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_36e7d48a-13a8-4016-ac88-ca9317447aa1",
-      "platforms": [],
-      "startsAt": "2027-05-09T20:30:00.000Z",
-      "tags": [],
-      "title": "game night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "anything game",
-      "endsAt": "2027-05-14T21:30:00.000Z",
-      "featured": false,
-      "id": "cal_12c322e9-19ba-4d25-b97c-903c5d520680",
-      "imageId": "file_20717455-42fb-4444-9188-8dca113bf921",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_20717455-42fb-4444-9188-8dca113bf921/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_51230143-34d6-401e-9fbf-4deab029ca29",
-      "platforms": [],
-      "startsAt": "2027-05-14T17:30:00.000Z",
-      "tags": [],
-      "title": "Game day",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Weekly game night with Scarlett's Vicesǃ",
-      "endsAt": "2027-05-14T07:00:00.000Z",
-      "featured": false,
-      "id": "cal_6db20b25-6f55-4254-920b-aea6f5b37328",
-      "imageId": "file_290a44f9-9937-476d-af6a-9cec2c8f58d4",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_290a44f9-9937-476d-af6a-9cec2c8f58d4/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_1964dfe7-478a-44b0-9e36-76183c3d1a0a",
-      "platforms": [],
-      "startsAt": "2027-05-14T03:00:00.000Z",
-      "tags": [],
-      "title": "Game Nightǃ",
-      "type": "event"
     }
   ],
-  "totalCount": 3856
+  "totalCount": 4077
 }
 ```
