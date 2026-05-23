@@ -32,7 +32,7 @@ Response schema mismatch:
 {
   "attribution": null,
   "authorId": "8JoV9XEdpo",
-  "authorName": "vrchat",
+  "authorName": "VRChat",
   "created_at": "2016-11-30T03:47:35.000Z",
   "description": "Beep Boop",
   "featured": false,

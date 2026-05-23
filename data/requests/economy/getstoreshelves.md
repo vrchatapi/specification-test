@@ -46,15 +46,18 @@ Response schema mismatch:
 * Unexpected property at ``#/0/shelfIconImageId``,
 * Unexpected property at ``#/0/shelfTabBackgroundImageId``,
 * Invalid type at ``#/1listings/0products/0``,
+* Invalid type at ``#/1listings/0products/1``,
+* Invalid type at ``#/1listings/0products/2``,
+* Invalid type at ``#/1listings/0products/3``,
 * Unexpected property at ``#/1listings/0/attribution``,
 * Unexpected property at ``#/1listings/0/collabUserId``,
 * Invalid type at ``#/1listings/1products/0``,
+* Invalid type at ``#/1listings/1products/1``,
+* Invalid type at ``#/1listings/1products/2``,
+* Invalid type at ``#/1listings/1products/3``,
 * Unexpected property at ``#/1listings/1/attribution``,
 * Unexpected property at ``#/1listings/1/collabUserId``,
 * Invalid type at ``#/1listings/2products/0``,
-* Invalid type at ``#/1listings/2products/1``,
-* Invalid type at ``#/1listings/2products/2``,
-* Invalid type at ``#/1listings/2products/3``,
 * Unexpected property at ``#/1listings/2/attribution``,
 * Unexpected property at ``#/1listings/2/collabUserId``,
 * Invalid type at ``#/1listings/3products/0``,
@@ -70,9 +73,6 @@ Response schema mismatch:
 * Unexpected property at ``#/1listings/6/attribution``,
 * Unexpected property at ``#/1listings/6/collabUserId``,
 * Invalid type at ``#/1listings/7products/0``,
-* Invalid type at ``#/1listings/7products/1``,
-* Invalid type at ``#/1listings/7products/2``,
-* Invalid type at ``#/1listings/7products/3``,
 * Unexpected property at ``#/1listings/7/attribution``,
 * Unexpected property at ``#/1listings/7/collabUserId``,
 * Invalid type at ``#/1listings/8products/0``,
@@ -83,7 +83,6 @@ Response schema mismatch:
 * Unexpected property at ``#/1listings/9/collabUserId``,
 * Invalid type at ``#/1listings/10products/0``,
 * Unexpected property at ``#/1listings/10/attribution``,
-* Unexpected property at ``#/1listings/10/collabUserDisplayName``,
 * Unexpected property at ``#/1listings/10/collabUserId``,
 * Invalid type at ``#/1listings/11products/0``,
 * Unexpected property at ``#/1listings/11/attribution``,
@@ -630,22 +629,494 @@ Response schema mismatch:
   {
     "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
     "listingIds": [
+      "prod_84285ff2-6bfb-416f-84d6-371bb6a19349",
+      "prod_787b6819-6e4d-469a-8bdb-37951af5367c",
+      "prod_171a3ca5-23d6-48ca-8543-9fd561840cab",
+      "prod_6856b2c9-435a-48fe-946c-24cbe381f361",
+      "prod_690265fc-6874-430b-bd25-3773fbd57fb6",
+      "prod_b4ce0e30-2ea2-4576-90b7-6be4f84819ce",
+      "prod_fe2f7714-1ca4-43cc-9be0-48b47ff94174",
+      "prod_ff52042c-b835-4a90-9e92-31f9c01830be",
+      "prod_17c8d489-9094-4754-83db-1e7d1483620f",
+      "prod_2ed0ef3a-2418-4086-8ed9-3a7e824db8f1",
       "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
       "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
-      "prod_bf4b5a74-7a6b-4ed3-b7bc-7f67319814f5",
-      "prod_3c61072b-43d3-47bf-a6bf-bff444612d0b",
-      "prod_153aae8a-be90-473e-9879-dfdaf729ff41",
-      "prod_12d98b70-e3ec-4861-a6c9-d4b28de9d223",
-      "prod_3d041bca-d6e6-4d49-a63a-2324254e4b12",
-      "prod_73419d85-ef97-4f67-b076-a9ab54aa239e",
-      "prod_8e0b1b06-daa1-46ab-9175-066c8534356b",
-      "prod_64b8a3a0-8f59-4fb9-ac6c-20ea7d5a4f5e",
-      "prod_736f0cba-da62-4243-a224-eca71f859d4e",
-      "prod_b14d09a8-81d1-4aa5-af49-205fef308064",
       "prod_80797cc2-9dbf-4137-9aab-acf980a9fe3b",
       "prod_e31317c6-dc57-4635-bd41-9f723480bb1c"
     ],
     "listings": [
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "ZinPia",
+            "userId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a",
+        "description": "Yeah? You got a problem with that? This Accessory bundle comes with the Circular Piercing, Studded Belt, Spiked Cuff, and Garter.\n\nIt’s all killer, no filler. \n",
+        "displayName": "Punk Bundle",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_84285ff2-6bfb-416f-84d6-371bb6a19349",
+        "imageId": "file_fb55b295-083a-44fe-b46f-bca42a559b5b",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 3000,
+        "productIds": [
+          "prod_67e3a5d3-f570-4096-83af-e7f190e1aad0",
+          "prod_780867a2-6078-40c9-a501-13eb19b26e79",
+          "prod_c488398f-8dbe-43ad-93a5-063d4bbf4f85",
+          "prod_b02329b1-bd2b-4c85-983c-75b481c45a91"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_67e3a5d3-f570-4096-83af-e7f190e1aad0",
+          "prod_780867a2-6078-40c9-a501-13eb19b26e79",
+          "prod_c488398f-8dbe-43ad-93a5-063d4bbf4f85",
+          "prod_b02329b1-bd2b-4c85-983c-75b481c45a91"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 2700,
+        "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Nae the Loud",
+            "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c",
+        "description": "LIYou gotta put a bow on it. It’ll make it cuter. You can adjust the bow’s color! You can put a bow on everything.\n\nSeriously. Everything. Try it.\n",
+        "displayName": "Harajuku Bundle",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_787b6819-6e4d-469a-8bdb-37951af5367c",
+        "imageId": "file_56668286-bd70-4b41-99cb-2a908de4b790",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 3000,
+        "productIds": [
+          "prod_45da2861-7747-499e-8e94-9fe4712b2380",
+          "prod_21cdfc8c-5109-4ea1-99a8-054771a19067",
+          "prod_085c623f-1245-4785-a492-77034206a41b",
+          "prod_d182ddc8-555c-4deb-a5c8-7df6e8043571"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_45da2861-7747-499e-8e94-9fe4712b2380",
+          "prod_21cdfc8c-5109-4ea1-99a8-054771a19067",
+          "prod_085c623f-1245-4785-a492-77034206a41b",
+          "prod_d182ddc8-555c-4deb-a5c8-7df6e8043571"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 2700,
+        "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Nae the Loud",
+            "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c",
+        "description": "What’s a maid without their cuffs? Customize the ruffles and ribbons to your taste – including their color!\n\nJust don’t get them dirty, okay?\n",
+        "displayName": "Ruffled Wrist Cuff",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_171a3ca5-23d6-48ca-8543-9fd561840cab",
+        "imageId": "file_44d2e02b-18fb-4e66-8003-61c8370c8eb7",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1100,
+        "productIds": [
+          "prod_45da2861-7747-499e-8e94-9fe4712b2380"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_45da2861-7747-499e-8e94-9fe4712b2380"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 990,
+        "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Nae the Loud",
+            "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c",
+        "description": "Sweet, gothic, or …dangerous? You can be any type of maid you’d like with this headdress! Customize the ruffles and ribbons to your liking – including their color!\n\nTime to clean is time to preen.\n",
+        "displayName": "Maid-style Headdress",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_6856b2c9-435a-48fe-946c-24cbe381f361",
+        "imageId": "file_66c7108c-6da7-4e6d-a6c4-071da70ca02a",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1200,
+        "productIds": [
+          "prod_085c623f-1245-4785-a492-77034206a41b"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_085c623f-1245-4785-a492-77034206a41b"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 1080,
+        "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Nae the Loud",
+            "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c",
+        "description": "You gotta put a bow on it. It’ll make it cuter. You can adjust the bow’s color! You can put a bow on everything.\n\nSeriously. Everything. Try it.\n",
+        "displayName": "Lace Bow",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_690265fc-6874-430b-bd25-3773fbd57fb6",
+        "imageId": "file_7c21b94d-cea1-4b4c-829c-1c497af7e59c",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_d182ddc8-555c-4deb-a5c8-7df6e8043571"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_d182ddc8-555c-4deb-a5c8-7df6e8043571"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 810,
+        "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Nae the Loud",
+            "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c",
+        "description": "A little charm, for your hair… or anywhere! You can customize the charm and the hairpin. You can even change the charm’s entire shape!\n\nYou’re not cute unless you have the proper accessories, right?\n",
+        "displayName": "Charm Barrette",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_b4ce0e30-2ea2-4576-90b7-6be4f84819ce",
+        "imageId": "file_ae75b609-5870-4738-af63-9d9448f72cd8",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 800,
+        "productIds": [
+          "prod_21cdfc8c-5109-4ea1-99a8-054771a19067"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_21cdfc8c-5109-4ea1-99a8-054771a19067"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 720,
+        "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "ZinPia",
+            "userId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a",
+        "description": "A customizable garter! You can change the metal connector to a variety of shapes! You can also change its color and emissivity. It’s on your leg by default, but it makes a decent choker, too, if you want to go back to the 2000s.\n\nEdgy, but cute. \n",
+        "displayName": "Garter",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_fe2f7714-1ca4-43cc-9be0-48b47ff94174",
+        "imageId": "file_64be5247-4e0e-440d-b0b5-7c7d0500ac4b",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1100,
+        "productIds": [
+          "prod_b02329b1-bd2b-4c85-983c-75b481c45a91"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_b02329b1-bd2b-4c85-983c-75b481c45a91"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 990,
+        "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "ZinPia",
+            "userId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a",
+        "description": "A leather belt, covered with studs. You can customize their color, emissivity, and the studs' appearance. Don’t worry, the spikes aren’t that sharp. I mean, unless you make them that way.\n\nIt’s NOT a PHASE, OKAY?\n",
+        "displayName": "Studded Belt",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_ff52042c-b835-4a90-9e92-31f9c01830be",
+        "imageId": "file_dec2271f-43c0-45ae-82e6-ee6a4ea86676",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1200,
+        "productIds": [
+          "prod_c488398f-8dbe-43ad-93a5-063d4bbf4f85"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_c488398f-8dbe-43ad-93a5-063d4bbf4f85"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 1080,
+        "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "ZinPia",
+            "userId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a",
+        "description": "A leather bracelet, covered with studs. You can customize their color, emissivity, and the studs' appearance. Goes on your right wrist by default. You could wear two, but asymmetry is metal.\n\nHeavy metal. Well, more like relatively lightweight metal\n",
+        "displayName": "Spiked Cuff",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_17c8d489-9094-4754-83db-1e7d1483620f",
+        "imageId": "file_137ff7eb-696a-41a4-85ab-4e7938629cff",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_67e3a5d3-f570-4096-83af-e7f190e1aad0"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_67e3a5d3-f570-4096-83af-e7f190e1aad0"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 810,
+        "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "ZinPia",
+            "userId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_1d6d95c9-dfc7-4fac-abb0-4174b608ee4a",
+        "description": "A customizable, circular piercing. You can change how the ends look! You can also change its color. It can glow? Sure, that’s safe. Made out of surgical steel… polygons. \n\nAdd a piercing anywhere… with no pain!\n",
+        "displayName": "Circular Piercing",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasUdon": false,
+        "id": "prod_2ed0ef3a-2418-4086-8ed9-3a7e824db8f1",
+        "imageId": "file_0e3a09ab-f482-4615-a8e5-62ac02ef2303",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 800,
+        "productIds": [
+          "prod_780867a2-6078-40c9-a501-13eb19b26e79"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_780867a2-6078-40c9-a501-13eb19b26e79"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 720,
+        "whenToExpire": null
+      },
       {
         "active": true,
         "attribution": {
@@ -740,439 +1211,6 @@ Response schema mismatch:
         },
         "buyerRefundable": false,
         "collabUserId": "8JoV9XEdpo",
-        "description": "ANGELS․ DEMONS․ The forces of good and evil clash on the battlefield of your wardrobe․ Will you represent the side of good? Evil? Both? Ah‚ the chaos option․ The choice is yours․ As long as you buy the bundle‚ that isǃ Contains the Angel Wings‚ Halo‚ Bat Wings‚ and Devil Horns Accessories․\n\nYou can place the Devil Horns on your eyeballs․ You shouldnt․ But‚ like‚ you can․",
-        "displayName": "Good & Evil Bundle",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_bf4b5a74-7a6b-4ed3-b7bc-7f67319814f5",
-        "imageId": "file_05c23ca2-928c-4685-9930-e9ee372e94fe",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 3000,
-        "productIds": [
-          "prod_88498d3d-ba0a-424d-b395-5eff04e0287a",
-          "prod_9764433e-94f1-4d0c-ad06-d864c4d4baa3",
-          "prod_d071145a-fe7c-421e-97c7-ac06749b545a",
-          "prod_40a1d188-734a-4775-830e-693bdf65ab6d"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_88498d3d-ba0a-424d-b395-5eff04e0287a",
-          "prod_9764433e-94f1-4d0c-ad06-d864c4d4baa3",
-          "prod_d071145a-fe7c-421e-97c7-ac06749b545a",
-          "prod_40a1d188-734a-4775-830e-693bdf65ab6d"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 2700,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "What angel is complete without a halo? You can adjust its thickness, color, emissivity, and particle effects. This is an Avatar Accessory – you can attach it to any avatar!\n\nYou’re not allowed to grab it.\n",
-        "displayName": "Halo",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_3c61072b-43d3-47bf-a6bf-bff444612d0b",
-        "imageId": "file_fdd2de4d-cdd2-4e2d-866a-6b0405b9ae4f",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 750,
-        "productIds": [
-          "prod_40a1d188-734a-4775-830e-693bdf65ab6d"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_40a1d188-734a-4775-830e-693bdf65ab6d"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 675,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Now you, too, can be an angel – with wings! You can adjust their color, emissivity, and particle effects. This is an Avatar Accessory – you can attach it to any avatar!\n\nDoes not grant the user flight.\n",
-        "displayName": "Angel Wings",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_153aae8a-be90-473e-9879-dfdaf729ff41",
-        "imageId": "file_84a8c18f-fabe-47ef-ba39-c12ece5226ba",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_9764433e-94f1-4d0c-ad06-d864c4d4baa3"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_9764433e-94f1-4d0c-ad06-d864c4d4baa3"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 1080,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Some Devil Horns, if you’re feeling a little mischievous. You can adjust their shape and color. This is an Avatar Accessory – you can attach it to any avatar!\n\ni can be ur angle or ur devil…\n",
-        "displayName": "Devil Horns",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_12d98b70-e3ec-4861-a6c9-d4b28de9d223",
-        "imageId": "file_e7cbf0f6-ecc6-4ab1-80c4-2f8d9a7b5e62",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 750,
-        "productIds": [
-          "prod_88498d3d-ba0a-424d-b395-5eff04e0287a"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_88498d3d-ba0a-424d-b395-5eff04e0287a"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 675,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Webbed wings, for your back… or anywhere else! You can adjust their color. This is an Avatar Accessory – you can attach it to any avatar!\n\nTwo! Two wings… Ah ah ah…\n",
-        "displayName": "Bat Wings",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_3d041bca-d6e6-4d49-a63a-2324254e4b12",
-        "imageId": "file_a4464c5d-438e-4dec-bc9c-b38eefcb3217",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_d071145a-fe7c-421e-97c7-ac06749b545a"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_d071145a-fe7c-421e-97c7-ac06749b545a"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 1080,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Are you a fan of the softer things in life? Fancy a cozy bear? Enjoy the timeless aesthetics of a cat tail? No‚ I dont know what I mean by that․ Anyway․ Its one of our first-ever Accessory bundlesǃ Contains the Cat Tail‚ Bear Plushie‚ Collar‚ and Cat Ears Accessories․\n\nIts the fluffy bundle‚ not the furry bundle․ Nothing is going to awaken in you․ Unless",
-        "displayName": "Fluffy Bundle",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_73419d85-ef97-4f67-b076-a9ab54aa239e",
-        "imageId": "file_dce4fd0d-0423-4c43-99c0-d2094183e9bd",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 2400,
-        "productIds": [
-          "prod_692be1a0-1655-45f3-b8a2-f6242d2e8c73",
-          "prod_c850591b-56ee-41fb-9dfb-df3fc8960bd5",
-          "prod_9e7f65b6-b800-48c0-a275-84b282037468",
-          "prod_313150b2-199e-49f5-abaf-4a423e1b30a5"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_692be1a0-1655-45f3-b8a2-f6242d2e8c73",
-          "prod_c850591b-56ee-41fb-9dfb-df3fc8960bd5",
-          "prod_9e7f65b6-b800-48c0-a275-84b282037468",
-          "prod_313150b2-199e-49f5-abaf-4a423e1b30a5"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 2160,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Cat Ears! Nekomimi in a can, basically. You can adjust their shape, fluff amount (that’s the technical term), color, and pattern. This is an Avatar Accessory – you can attach it to any avatar!\n\nnyaaaaaa~\n",
-        "displayName": "Cat Ears",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_8e0b1b06-daa1-46ab-9175-066c8534356b",
-        "imageId": "file_586e093f-987a-4c90-9b66-cb4a82d2fa31",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 750,
-        "productIds": [
-          "prod_c850591b-56ee-41fb-9dfb-df3fc8960bd5"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_c850591b-56ee-41fb-9dfb-df3fc8960bd5"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 675,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "It’s a Cat Tail! It’s slightly fluffy. You can adjust its shape, bushiness, color, and pattern. This is an Avatar Accessory – you can attach it to any avatar!\n\nThe feline kind. Not a plant.\n",
-        "displayName": "Cat Tail",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_64b8a3a0-8f59-4fb9-ac6c-20ea7d5a4f5e",
-        "imageId": "file_14074ec0-0cd1-4eab-93eb-cab03dd4c4b0",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 900,
-        "productIds": [
-          "prod_692be1a0-1655-45f3-b8a2-f6242d2e8c73"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_692be1a0-1655-45f3-b8a2-f6242d2e8c73"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 810,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserDisplayName": "VRChat",
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A Collar! Used for animals. And fashionable humans. You can adjust its color, emissivity, and visible charm. This is an Avatar Accessory – you can attach it to any avatar!\n\nYou, too, can be a puppy.\n",
-        "displayName": "Collar",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_736f0cba-da62-4243-a224-eca71f859d4e",
-        "imageId": "file_9bca0fb1-6d33-4288-9cb7-83c580cf8899",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 900,
-        "productIds": [
-          "prod_9e7f65b6-b800-48c0-a275-84b282037468"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_9e7f65b6-b800-48c0-a275-84b282037468"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 810,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A Bear Plushie! It’s pretty cute. You can adjust its color… you can also make it hug you (or your arm). This is an Avatar Accessory – you can attach it to any avatar!\n\nHis name is Steve, by the way.\n",
-        "displayName": "Bear Plushie",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasUdon": false,
-        "id": "prod_b14d09a8-81d1-4aa5-af49-205fef308064",
-        "imageId": "file_82ed9033-6e2a-43ec-9dbe-4f0ab08b15e0",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 750,
-        "productIds": [
-          "prod_313150b2-199e-49f5-abaf-4a423e1b30a5"
-        ],
-        "productType": "listing",
-        "products": [
-          "prod_313150b2-199e-49f5-abaf-4a423e1b30a5"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 675,
-        "whenToExpire": null
-      },
-      {
-        "active": true,
-        "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
         "description": "A Sakura-themed Hair Pinǃ You can change its color and toggle on⁄off the dangling ornaments․ This is an Avatar Accessory you can attach it to any avatarǃ\n\nYou dont have to pin it to your hair․",
         "displayName": "Sakura Hair Pin",
         "duration": null,
@@ -1254,7 +1292,7 @@ Response schema mismatch:
     "shelfLayout": "col5",
     "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
     "shelfTitle": "New Accessories",
-    "updatedAt": "2026-05-20T17:34:40.094Z"
+    "updatedAt": "2026-05-22T21:03:30.093Z"
   },
   {
     "highlightListing": {

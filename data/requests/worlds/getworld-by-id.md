@@ -14,6 +14,9 @@ Response schema mismatch:
 * undefined at ``#/instances/9``,
 * undefined at ``#/instances/10``,
 * undefined at ``#/instances/11``,
+* undefined at ``#/instances/12``,
+* undefined at ``#/instances/13``,
+* undefined at ``#/instances/14``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -70,7 +73,32 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": 1626,
-      "instanceId": "12973~group(grp_6bc1e832-1e81-4ff2-9b2c-72856a19f5cb)~groupAccessType(public)~ageGate~region(use)",
+      "instanceId": "69191~group(grp_bf5b9b5a-cf09-4a35-89c2-bedcd06e6893)~groupAccessType(public)~ageGate~region(use)",
+      "languageRatio": {
+        "en": 1
+      },
+      "n_users": 23
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "02692~group(grp_fea92e6b-f7df-4173-a4dd-58b4a0aa0358)~groupAccessType(public)~ageGate~region(us)",
+      "languageRatio": {
+        "en": 1
+      },
+      "n_users": 23
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "75767~group(grp_be2d2477-4b55-481e-bc8e-81e810583434)~groupAccessType(public)~region(eu)",
+      "languageRatio": {
+        "en": 0.94,
+        "fr": 0.06
+      },
+      "n_users": 21
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "56734~group(grp_7bd11cf8-714d-4808-ab43-e523f5ade98a)~groupAccessType(public)~region(use)",
       "languageRatio": {
         "en": 1
       },
@@ -78,15 +106,68 @@ Response schema mismatch:
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "94857~group(grp_078bd7ba-732b-4dd1-922e-6d8ca2cffc4b)~groupAccessType(public)~region(us)",
+      "instanceId": "75683~group(grp_e34b5711-5af2-475f-85e1-87eaabc00576)~groupAccessType(public)~ageGate~region(use)",
       "languageRatio": {
         "en": 1
       },
-      "n_users": 14
+      "n_users": 15
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "00329~group(grp_06c098c5-216f-4750-a9f1-80c2eb3b01e8)~groupAccessType(public)~ageGate~region(use)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "00098~group(grp_f1695c55-63d8-4be2-8d2f-fd241dbda7df)~groupAccessType(public)~ageGate~region(us)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "80733~group(grp_0c3f5474-b14c-47de-ba7a-9e31ff00a9eb)~groupAccessType(public)~region(us)",
+      "languageRatio": {},
+      "n_users": 1
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "28975~group(grp_5dd1f90a-c6fa-4793-8a7e-cb824be8bd4c)~groupAccessType(public)~region(us)",
+      "languageRatio": {},
+      "n_users": 1
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "02043~group(grp_8aa4d1bf-b442-423c-a398-8f11918322f4)~groupAccessType(public)~ageGate~region(us)",
+      "languageRatio": {},
+      "n_users": 1
+    },
+    {
+      "instanceId": "4f9baa31fc~region(us)",
+      "languageRatio": {
+        "en": 1
+      },
+      "n_users": 18
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "42662~group(grp_3262898a-5474-4a44-8835-76ee660db506)~groupAccessType(public)~ageGate~region(use)",
+      "instanceId": "444675051d~region(us)",
+      "languageRatio": {
+        "en": 1
+      },
+      "n_users": 22
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "2b3d641511~region(us)",
+      "languageRatio": {
+        "en": 1
+      },
+      "n_users": 21
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "89746f377c~region(us)",
       "languageRatio": {
         "en": 1
       },
@@ -94,66 +175,12 @@ Response schema mismatch:
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "46859~group(grp_6e9e9c07-81e6-47a6-b10a-40b1a5ac26b6)~groupAccessType(public)~ageGate~region(use)",
+      "instanceId": "4c304557d7~region(us)",
       "languageRatio": {
-        "en": 1
+        "en": 0.8,
+        "ja": 0.2
       },
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "44995~group(grp_aac9916b-305b-493c-ba87-2e609b5c3e65)~groupAccessType(public)~ageGate~region(use)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "16296~group(grp_150bdda7-681b-44b7-9617-e116456c0a02)~groupAccessType(public)~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "09938~group(grp_cbd09233-846a-4f27-a50a-07a3fa376b46)~groupAccessType(public)~ageGate~region(us)",
-      "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "62413~group(grp_93975f17-2fbc-4e8f-9e0e-6754ce6563dc)~groupAccessType(public)~ageGate~region(use)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "38824~group(grp_58442a02-08fe-4911-bbca-26263fe26633)~groupAccessType(public)~ageGate~region(us)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "35711~group(grp_2a036b01-25e3-46fa-8fb5-e46ed7f8c1b3)~groupAccessType(public)~ageGate~region(us)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "instanceId": "df85b1c29d~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "b765d05ce6~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 23
+      "n_users": 4
     }
   ],
   "storeId": "esto_751c416f-350b-4876-b518-7ba0dd8e9746",
