@@ -7,7 +7,7 @@ Searches Groups by name or shortCode
 ## Create Group
 Creates a Group and returns a Group object. **Requires VRC+ Subscription.**
 
-* [createGroup](./creategroup.md)
+> Missing coverage.
 ## Get Group Role Templates
 Obtain predefined templates for group roles
 
@@ -15,15 +15,15 @@ Obtain predefined templates for group roles
 ## Delete Group
 Deletes a Group.
 
-* [deleteGroup](./deletegroup.md)
+> Missing coverage.
 ## Get Group by ID
 Returns a single Group by ID.
 
-* [getGroup](./getgroup.md)
+> Missing coverage.
 ## Update Group
 Updates a Group and returns it.
 
-* [updateGroup](./updategroup.md)
+> Missing coverage.
 ## Delete Group Announcement
 Deletes the announcement for a Group.
 
@@ -93,11 +93,11 @@ Returns a list of group instances
 ## Get Group Invites Sent
 Returns a list of members that have been invited to the Group.
 
-* [getGroupInvites](./getgroupinvites.md)
+> Missing coverage.
 ## Invite User to Group
 Sends an invite to a user to join the group.
 
-* [createGroupInvite](./creategroupinvite.md)
+> Missing coverage.
 ## Decline Invite from Group
 Declines an invite to the user from a group.
 
@@ -105,7 +105,7 @@ Declines an invite to the user from a group.
 ## Delete User Invite
 Deletes an Group invite sent to a User
 
-* [deleteGroupInvite](./deletegroupinvite.md)
+> Missing coverage.
 ## Join Group
 Join a Group by ID and returns the member object.
 
@@ -118,7 +118,7 @@ Leave a group by ID.
 Returns a List of all **other** Group Members. This endpoint will never return the user calling the endpoint.
 Information about the user calling the endpoint must be found in the `myMember` field of the Group object.
 
-* [getGroupMembers](./getgroupmembers.md)
+> Missing coverage.
 ## Search Group Members
 Search for members in the group by displayName.
 
@@ -168,9 +168,7 @@ Updates whether the user is representing the group.
 
 When `isRepresenting` is set to `true`, this flag will be set to `false` for all other groups
 
-* [updateGroupRepresentation](./updategrouprepresentation.md)
-* [updateGroupRepresentation with group user is not a member of](./updategrouprepresentation-with-group-user-is-not-a-member-of.md)
-* [updateGroupRepresentation with invalid group](./updategrouprepresentation-with-invalid-group.md)
+> Missing coverage.
 ## Cancel Group Join Request
 Cancels a request sent to join the group.
 

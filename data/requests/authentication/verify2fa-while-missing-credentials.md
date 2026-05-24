@@ -9,25 +9,22 @@
 
 
 ## Response
-`401 Unauthorized`
+`503 Service Unavailable`
 
 | Header | Value |
 | ------ | ----- |
-| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `65` |
+| content-length | `136` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Authorization, Accept-Encoding` |
-| x-frame-options | `deny` |
 
 ```jsonc
 {
   "error": {
-    "message": "\"Missing Credentials\"",
-    "status_code": 401
+    "message": "\"VRChat API services are currently unavailable. Please check status.vrchat.com for updates!\"",
+    "status_code": 503
   }
 }
 ```
