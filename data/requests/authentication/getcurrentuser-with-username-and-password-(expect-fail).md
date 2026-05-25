@@ -50,7 +50,7 @@ Response schema mismatch:
 * Missing property at ``#/unsubscribe``,
 * Missing property at ``#/userIcon``,
 * Missing property at ``#/usesGeneratedPassword``,
-* Unexpected property at ``#/error``.
+* Unexpected property at ``#/requiresTwoFactorAuth``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -61,22 +61,27 @@ Response schema mismatch:
 
 
 ## Response
-`503 Service Unavailable`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `136` |
+| content-length | `40` |
 | content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| set-cookie | `<redacted>` |
+| vary | `Authorization, Accept-Encoding` |
+| x-frame-options | `deny` |
 
 ```jsonc
 {
-  "error": {
-    "message": "\"VRChat API services are currently unavailable. Please check status.vrchat.com for updates!\"",
-    "status_code": 503
-  }
+  "requiresTwoFactorAuth": [
+    "totp",
+    "otp"
+  ]
 }
 ```

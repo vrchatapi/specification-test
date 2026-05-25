@@ -1,9 +1,5 @@
 # verify2FA
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/verified``,
-* Unexpected property at ``#/error``.
 ## Request
 `POST https://api.vrchat.cloud/api/1/auth/twofactorauth/totp/verify`
 
@@ -11,6 +7,7 @@ Response schema mismatch:
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
 | content-type | `application/json` |
+| cookie | `auth=<redacted>` |
 
 ```json
 {
@@ -20,22 +17,23 @@ Response schema mismatch:
 
 
 ## Response
-`503 Service Unavailable`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `136` |
+| content-length | `17` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| set-cookie | `<redacted>` |
+| vary | `Authorization, Accept-Encoding` |
+| x-frame-options | `deny` |
 
 ```jsonc
 {
-  "error": {
-    "message": "\"VRChat API services are currently unavailable. Please check status.vrchat.com for updates!\"",
-    "status_code": 503
-  }
+  "verified": true
 }
 ```

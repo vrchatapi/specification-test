@@ -36,7 +36,7 @@
       "badgeId": "bdg_11f41e60-d24e-4358-b7ad-06e2b9d23569",
       "badgeImageUrl": "https://assets.vrchat.com/badges/69/bdgai_ad914c8b-8b9c-42c8-957a-40fde888009a.png",
       "badgeName": "VRChat Developer",
-      "showcased": true
+      "showcased": false
     },
     {
       "badgeDescription": "Joined VRChat 8 years ago",
@@ -67,13 +67,6 @@
       "showcased": false
     },
     {
-      "badgeDescription": "Awarded to those that participated in the VRChat Holiday Event 2025",
-      "badgeId": "bdg_9b456eb7-9213-40b2-99c0-cf58e38b3c27",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/27/bdgai_7e49608b-1cc7-49e6-b750-0e0c6c22a73a.png",
-      "badgeName": "Keeper of the Spirit",
-      "showcased": false
-    },
-    {
       "badgeDescription": "Supported VRChat through VRC+ when it first launched",
       "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
       "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_108f0981-f29b-4563-8a3f-f9c0d49f8132.png",
@@ -88,31 +81,15 @@
       "showcased": false
     },
     {
-      "badgeDescription": "Awarded to those that were able to complete their Candy Codex during Spookality 2025",
-      "badgeId": "bdg_cfb5a125-b406-48d7-b2d8-f26131dd7a6b",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/6b/bdgai_dee1245d-7bdd-4f33-8604-59f66279f502.png",
-      "badgeName": "Candy Codex Completionist",
-      "showcased": false
-    },
-    {
       "badgeDescription": "Granted for being a proud owner of a Bigscreen Beyond 2e: VRChat Edition",
       "badgeId": "bdg_fc0d7c16-1bf3-400f-acf1-333ecde7fd1a",
       "badgeImageUrl": "https://assets.vrchat.com/badges/1a/bdgai_88fb9053-f77e-48a2-be5d-f87131e054de.png",
       "badgeName": "Bigscreen Beyond 2e: VRChat Edition Owner",
-      "showcased": true
-    },
-    {
-      "badgeDescription": "Awarded to those who completed all Hero challenges on mobile",
-      "badgeId": "bdg_ffd998b1-c454-4a90-a14b-5d19ccd04513",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/13/bdgai_a41c63c9-eb0b-42d6-8aaf-15fcb0da3714.png",
-      "badgeName": "Mobile Hero",
       "showcased": false
     }
   ],
-  "bio": "VRChat Head of Community․\n\nabove all else‚ be kind․\n\nicon by mush - banner by cashrat",
+  "bio": "above all else‚ be kind․",
   "bioLinks": [
-    "https://vrchat.com/",
-    "https://bsky.app/profile/dtupper.com",
     "https://dtupper.com/"
   ],
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",

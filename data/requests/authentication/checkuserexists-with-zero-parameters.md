@@ -6,25 +6,29 @@
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
+| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
-`503 Service Unavailable`
+`400 Bad Request`
 
 | Header | Value |
 | ------ | ----- |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `136` |
+| content-length | `86` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| vary | `Origin, Accept-Encoding` |
+| x-frame-options | `deny` |
 
 ```jsonc
 {
   "error": {
-    "message": "\"VRChat API services are currently unavailable. Please check status.vrchat.com for updates!\"",
-    "status_code": 503
+    "message": "\"username, email, or displayName required\"",
+    "status_code": 400
   }
 }
 ```

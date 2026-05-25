@@ -11,19 +11,19 @@ Get a single Admin transactions by ID. This returns the exact same information a
 ## List Steam Transactions
 Get all own Steam transactions.
 
-> Missing coverage.
+* [getSteamTransactions](./getsteamtransactions.md)
 ## Get Steam Transaction
 Get a single Steam transactions by ID. This returns the exact same information as `getSteamTransactions`, so no point in using this endpoint.
 
-> Missing coverage.
+* [getSteamTransaction](./getsteamtransaction.md)
 ## Get Current Subscriptions
 Get a list of all current user subscriptions.
 
-> Missing coverage.
+* [getCurrentSubscriptions](./getcurrentsubscriptions.md)
 ## Get Active Licenses
 Gets active licenses
 
-> Missing coverage.
+* [getActiveLicenses](./getactivelicenses.md)
 ## Get Earnings Metrics
 Gets earnings totals and breakdown metrics for the currently authenticated user.
 
@@ -51,11 +51,11 @@ Get the eligibility of the currently authenticated user to become a seller
 ## Get Store
 Gets a store
 
-> Missing coverage.
+* [getStore](./getstore.md)
 ## Get Store Shelves
 Gets the shelves for a store
 
-> Missing coverage.
+* [getStoreShelves](./getstoreshelves.md)
 ## List Stores
 Lists stores, optionally filtered to a seller and adjusted for management views.
 
@@ -63,7 +63,7 @@ Lists stores, optionally filtered to a seller and adjusted for management views.
 ## Get License Group
 Get a single License Group by given ID.
 
-> Missing coverage.
+* [getLicenseGroup](./getlicensegroup.md)
 ## Create Product Listing
 Creates a listing and returns the new ProductListing object. The request body is based on observed fields and may be incomplete.
 
@@ -75,7 +75,7 @@ Deletes a listing.
 ## Get Product Listing
 Gets a product listing
 
-> Missing coverage.
+* [getProductListing](./getproductlisting.md)
 ## Update Product Listing
 Updates the active state of a listing. Setting `active` to `true` publishes the listing, while `false` unpublishes it.
 
@@ -99,15 +99,15 @@ Updates a product and returns the updated Product object.
 ## List Subscriptions
 List all existing Subscriptions. For example, "vrchatplus-monthly" and "vrchatplus-yearly".
 
-> Missing coverage.
+* [getSubscriptions](./getsubscriptions.md)
 ## Get Tilia Status
 Gets the status of Tilia integration
 
-> Missing coverage.
+* [getTiliaStatus](./gettiliastatus.md)
 ## List Token Bundles
 Gets the list of token bundles
 
-> Missing coverage.
+* [getTokenBundles](./gettokenbundles.md)
 ## Get Bulk Gift Purchases
 Get bulk gift purchases made by the user.
 
@@ -119,15 +119,15 @@ Get the most recent user subscription.
 ## Get Balance
 Gets the balance of a user
 
-> Missing coverage.
+* [getBalance](./getbalance.md)
 ## Get Balance Earnings
 Gets the balance of a user from earnings
 
-> Missing coverage.
+* [getBalanceEarnings](./getbalanceearnings.md)
 ## Get Economy Account
 Gets the economy account of a user
 
-> Missing coverage.
+* [getEconomyAccount](./geteconomyaccount.md)
 ## Get Economy Balances
 Gets the combined balances for a user.
 
@@ -147,7 +147,7 @@ Gets a history of product purchases
 ## Get User Product Listings
 Gets the product listings of a given user
 
-> Missing coverage.
+* [getProductListings](./getproductlistings.md)
 ## List User Products
 Gets the products of a given user.
 
@@ -159,7 +159,7 @@ Gets KYC status details for a user's Tilia account.
 ## Get Tilia TOS Agreement Status
 Gets the status of the agreement of a user to the Tilia TOS
 
-> Missing coverage.
+* [getTiliaTos](./gettiliatos.md)
 ## Update Tilia TOS Agreement Status
 Updates the status of the agreement of a user to the Tilia TOS
 
@@ -171,5 +171,5 @@ Get the user's eligibility status for subscriptions based on available credits.
 ## Get User Subscription Eligiblity
 Get the user's eligibility status for subscriptions.
 
-> Missing coverage.
+* [getUserSubscriptionEligible](./getusersubscriptioneligible.md)
 	
