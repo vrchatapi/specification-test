@@ -434,6 +434,42 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
+      "description": "Just a fun night to play some gamesǃǃǃ",
+      "endsAt": "2027-05-24T00:30:00.000Z",
+      "featured": false,
+      "id": "cal_3ecaa257-6b5e-4321-b6a8-1ccadeef8508",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_67345297-2c69-44e9-a887-5fbadb92ab13",
+      "platforms": [],
+      "startsAt": "2027-05-23T19:00:00.000Z",
+      "tags": [],
+      "title": "Game night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Just a fun night to play some gamesǃǃǃ",
+      "endsAt": "2027-05-16T00:30:00.000Z",
+      "featured": false,
+      "id": "cal_3cc60a3d-9dbd-4cb5-a4a3-f394b93b44a6",
+      "imageId": null,
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_67345297-2c69-44e9-a887-5fbadb92ab13",
+      "platforms": [],
+      "startsAt": "2027-05-15T19:00:00.000Z",
+      "tags": [],
+      "title": "Game night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
       "description": "Start˸ 21˸00 Uhr\n\nHeute gehts los mit Game Rush in VRChatǃ\nPräsentiert von Furryheaven‚\ndeiner deutschen Furry-Community in VRChat \n\nFreu dich auf spannende Games‚ Spaß in der Gruppe und jede Menge gute Vibes․\nKomm vorbei und zock mit unsǃ",
       "endsAt": "2027-05-11T21:59:00.000Z",
       "featured": false,
@@ -505,53 +541,8 @@
       "tags": [],
       "title": "Game day",
       "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "come play some games with us while we try to bring our group back to life",
-      "endsAt": "2027-05-24T04:00:00.000Z",
-      "featured": false,
-      "id": "cal_6dae8b4d-5d8a-42ec-b6c1-576bb9441d2c",
-      "imageId": "file_b8eba687-fdc2-470b-92dc-244cd4799203",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_b8eba687-fdc2-470b-92dc-244cd4799203/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_36e7d48a-13a8-4016-ac88-ca9317447aa1",
-      "platforms": [],
-      "startsAt": "2027-05-23T20:30:00.000Z",
-      "tags": [],
-      "title": "game night",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "Feline will be hosting a Game Night‚ Every Saturday․ Join and may the best person win",
-      "endsAt": "2027-05-23T03:30:00.000Z",
-      "featured": true,
-      "id": "cal_0025b60b-8f8c-419d-921d-0233da4c47a6",
-      "imageId": "file_f34b8f80-47cb-48b8-b773-f3c9397ef952",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_f34b8f80-47cb-48b8-b773-f3c9397ef952/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_548b8449-2fc6-48b8-bbdf-b380401d9b66",
-      "platforms": [
-        "standalonewindows",
-        "android"
-      ],
-      "startsAt": "2027-05-23T01:30:00.000Z",
-      "tags": [
-        "Gaming",
-        "Fun",
-        "LGBTQ"
-      ],
-      "title": "Game Night",
-      "type": "event"
     }
   ],
-  "totalCount": 6380
+  "totalCount": 6539
 }
 ```
