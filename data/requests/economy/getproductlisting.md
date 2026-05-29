@@ -11,7 +11,8 @@ Response schema mismatch:
 * Invalid type at ``#/products/6``,
 * Invalid type at ``#/products/7``,
 * Invalid type at ``#/products/8``,
-* Invalid type at ``#/products/9``.
+* Invalid type at ``#/products/9``,
+* Unexpected property at ``#/hasCompanion``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/listing/prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910`
 
@@ -49,6 +50,7 @@ Response schema mismatch:
   "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
   "groupName": "The Black Cat",
   "hasAvatar": false,
+  "hasCompanion": false,
   "hasUdon": true,
   "id": "prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910",
   "imageId": "file_a04721c3-f7b2-4943-b70f-dc6c340d5430",

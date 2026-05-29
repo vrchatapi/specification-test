@@ -134,6 +134,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0products/10/sellerId``,
 * Unexpected property at ``#/0products/10/tags``,
 * Unexpected property at ``#/0products/10/useForSubscriberList``,
+* Unexpected property at ``#/0/hasCompanion``,
 * Unexpected property at ``#/1products/0/description``,
 * Unexpected property at ``#/1products/0/displayName``,
 * Unexpected property at ``#/1products/0/id``,
@@ -218,6 +219,7 @@ Response schema mismatch:
 * Unexpected property at ``#/1products/6/sellerId``,
 * Unexpected property at ``#/1products/6/tags``,
 * Unexpected property at ``#/1products/6/useForSubscriberList``,
+* Unexpected property at ``#/1/hasCompanion``,
 * Unexpected property at ``#/2products/0/description``,
 * Unexpected property at ``#/2products/0/displayName``,
 * Unexpected property at ``#/2products/0/id``,
@@ -290,6 +292,7 @@ Response schema mismatch:
 * Unexpected property at ``#/2products/5/sellerId``,
 * Unexpected property at ``#/2products/5/tags``,
 * Unexpected property at ``#/2products/5/useForSubscriberList``,
+* Unexpected property at ``#/2/hasCompanion``,
 * Unexpected property at ``#/3products/0/description``,
 * Unexpected property at ``#/3products/0/displayName``,
 * Unexpected property at ``#/3products/0/id``,
@@ -326,6 +329,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3products/2/sellerId``,
 * Unexpected property at ``#/3products/2/tags``,
 * Unexpected property at ``#/3products/2/useForSubscriberList``,
+* Unexpected property at ``#/3/hasCompanion``,
 * Unexpected property at ``#/4products/0/description``,
 * Unexpected property at ``#/4products/0/displayName``,
 * Unexpected property at ``#/4products/0/id``,
@@ -338,6 +342,7 @@ Response schema mismatch:
 * Unexpected property at ``#/4products/0/sellerId``,
 * Unexpected property at ``#/4products/0/tags``,
 * Unexpected property at ``#/4products/0/useForSubscriberList``,
+* Unexpected property at ``#/4/hasCompanion``,
 * Unexpected property at ``#/5products/0/description``,
 * Unexpected property at ``#/5products/0/displayName``,
 * Unexpected property at ``#/5products/0/groupAccess``,
@@ -365,6 +370,7 @@ Response schema mismatch:
 * Unexpected property at ``#/5products/1/sellerId``,
 * Unexpected property at ``#/5products/1/tags``,
 * Unexpected property at ``#/5products/1/useForSubscriberList``,
+* Unexpected property at ``#/5/hasCompanion``,
 * Unexpected property at ``#/6products/0/description``,
 * Unexpected property at ``#/6products/0/displayName``,
 * Unexpected property at ``#/6products/0/groupAccess``,
@@ -392,6 +398,7 @@ Response schema mismatch:
 * Unexpected property at ``#/6products/1/sellerId``,
 * Unexpected property at ``#/6products/1/tags``,
 * Unexpected property at ``#/6products/1/useForSubscriberList``,
+* Unexpected property at ``#/6/hasCompanion``,
 * Unexpected property at ``#/7products/0/description``,
 * Unexpected property at ``#/7products/0/displayName``,
 * Unexpected property at ``#/7products/0/groupAccess``,
@@ -551,6 +558,7 @@ Response schema mismatch:
 * Unexpected property at ``#/7products/12/sellerId``,
 * Unexpected property at ``#/7products/12/tags``,
 * Unexpected property at ``#/7products/12/useForSubscriberList``,
+* Unexpected property at ``#/7/hasCompanion``,
 * Unexpected property at ``#/8products/0/description``,
 * Unexpected property at ``#/8products/0/displayName``,
 * Unexpected property at ``#/8products/0/id``,
@@ -563,6 +571,7 @@ Response schema mismatch:
 * Unexpected property at ``#/8products/0/sellerId``,
 * Unexpected property at ``#/8products/0/tags``,
 * Unexpected property at ``#/8products/0/useForSubscriberList``,
+* Unexpected property at ``#/8/hasCompanion``,
 * Unexpected property at ``#/9products/0/description``,
 * Unexpected property at ``#/9products/0/displayName``,
 * Unexpected property at ``#/9products/0/id``,
@@ -575,6 +584,7 @@ Response schema mismatch:
 * Unexpected property at ``#/9products/0/sellerId``,
 * Unexpected property at ``#/9products/0/tags``,
 * Unexpected property at ``#/9products/0/useForSubscriberList``,
+* Unexpected property at ``#/9/hasCompanion``,
 * Unexpected property at ``#/10products/0/description``,
 * Unexpected property at ``#/10products/0/displayName``,
 * Unexpected property at ``#/10products/0/id``,
@@ -599,6 +609,7 @@ Response schema mismatch:
 * Unexpected property at ``#/10products/1/sellerId``,
 * Unexpected property at ``#/10products/1/tags``,
 * Unexpected property at ``#/10products/1/useForSubscriberList``,
+* Unexpected property at ``#/10/hasCompanion``,
 * Unexpected property at ``#/11products/0/description``,
 * Unexpected property at ``#/11products/0/displayName``,
 * Unexpected property at ``#/11products/0/id``,
@@ -611,6 +622,7 @@ Response schema mismatch:
 * Unexpected property at ``#/11products/0/sellerId``,
 * Unexpected property at ``#/11products/0/tags``,
 * Unexpected property at ``#/11products/0/useForSubscriberList``,
+* Unexpected property at ``#/11/hasCompanion``,
 * Unexpected property at ``#/12products/0/description``,
 * Unexpected property at ``#/12products/0/displayName``,
 * Unexpected property at ``#/12products/0/id``,
@@ -623,6 +635,7 @@ Response schema mismatch:
 * Unexpected property at ``#/12products/0/sellerId``,
 * Unexpected property at ``#/12products/0/tags``,
 * Unexpected property at ``#/12products/0/useForSubscriberList``,
+* Unexpected property at ``#/12/hasCompanion``,
 * Unexpected property at ``#/13products/0/description``,
 * Unexpected property at ``#/13products/0/displayName``,
 * Unexpected property at ``#/13products/0/id``,
@@ -635,6 +648,7 @@ Response schema mismatch:
 * Unexpected property at ``#/13products/0/sellerId``,
 * Unexpected property at ``#/13products/0/tags``,
 * Unexpected property at ``#/13products/0/useForSubscriberList``,
+* Unexpected property at ``#/13/hasCompanion``,
 * Unexpected property at ``#/14products/0/description``,
 * Unexpected property at ``#/14products/0/displayName``,
 * Unexpected property at ``#/14products/0/id``,
@@ -659,6 +673,7 @@ Response schema mismatch:
 * Unexpected property at ``#/14products/1/sellerId``,
 * Unexpected property at ``#/14products/1/tags``,
 * Unexpected property at ``#/14products/1/useForSubscriberList``,
+* Unexpected property at ``#/14/hasCompanion``,
 * Unexpected property at ``#/15products/0/description``,
 * Unexpected property at ``#/15products/0/displayName``,
 * Unexpected property at ``#/15products/0/id``,
@@ -683,6 +698,7 @@ Response schema mismatch:
 * Unexpected property at ``#/15products/1/sellerId``,
 * Unexpected property at ``#/15products/1/tags``,
 * Unexpected property at ``#/15products/1/useForSubscriberList``,
+* Unexpected property at ``#/15/hasCompanion``,
 * Unexpected property at ``#/16products/0/description``,
 * Unexpected property at ``#/16products/0/displayName``,
 * Unexpected property at ``#/16products/0/id``,
@@ -707,6 +723,7 @@ Response schema mismatch:
 * Unexpected property at ``#/16products/1/sellerId``,
 * Unexpected property at ``#/16products/1/tags``,
 * Unexpected property at ``#/16products/1/useForSubscriberList``,
+* Unexpected property at ``#/16/hasCompanion``,
 * Unexpected property at ``#/17products/0/description``,
 * Unexpected property at ``#/17products/0/displayName``,
 * Unexpected property at ``#/17products/0/id``,
@@ -731,6 +748,7 @@ Response schema mismatch:
 * Unexpected property at ``#/17products/1/sellerId``,
 * Unexpected property at ``#/17products/1/tags``,
 * Unexpected property at ``#/17products/1/useForSubscriberList``,
+* Unexpected property at ``#/17/hasCompanion``,
 * Unexpected property at ``#/18products/0/description``,
 * Unexpected property at ``#/18products/0/displayName``,
 * Unexpected property at ``#/18products/0/id``,
@@ -755,6 +773,7 @@ Response schema mismatch:
 * Unexpected property at ``#/18products/1/sellerId``,
 * Unexpected property at ``#/18products/1/tags``,
 * Unexpected property at ``#/18products/1/useForSubscriberList``,
+* Unexpected property at ``#/18/hasCompanion``,
 * Unexpected property at ``#/19products/0/description``,
 * Unexpected property at ``#/19products/0/displayName``,
 * Unexpected property at ``#/19products/0/id``,
@@ -779,6 +798,7 @@ Response schema mismatch:
 * Unexpected property at ``#/19products/1/sellerId``,
 * Unexpected property at ``#/19products/1/tags``,
 * Unexpected property at ``#/19products/1/useForSubscriberList``,
+* Unexpected property at ``#/19/hasCompanion``,
 * Unexpected property at ``#/20products/0/description``,
 * Unexpected property at ``#/20products/0/displayName``,
 * Unexpected property at ``#/20products/0/id``,
@@ -803,6 +823,7 @@ Response schema mismatch:
 * Unexpected property at ``#/20products/1/sellerId``,
 * Unexpected property at ``#/20products/1/tags``,
 * Unexpected property at ``#/20products/1/useForSubscriberList``,
+* Unexpected property at ``#/20/hasCompanion``,
 * Unexpected property at ``#/21products/0/description``,
 * Unexpected property at ``#/21products/0/displayName``,
 * Unexpected property at ``#/21products/0/id``,
@@ -827,6 +848,7 @@ Response schema mismatch:
 * Unexpected property at ``#/21products/1/sellerId``,
 * Unexpected property at ``#/21products/1/tags``,
 * Unexpected property at ``#/21products/1/useForSubscriberList``,
+* Unexpected property at ``#/21/hasCompanion``,
 * Unexpected property at ``#/22products/0/description``,
 * Unexpected property at ``#/22products/0/displayName``,
 * Unexpected property at ``#/22products/0/id``,
@@ -851,6 +873,7 @@ Response schema mismatch:
 * Unexpected property at ``#/22products/1/sellerId``,
 * Unexpected property at ``#/22products/1/tags``,
 * Unexpected property at ``#/22products/1/useForSubscriberList``,
+* Unexpected property at ``#/22/hasCompanion``,
 * Unexpected property at ``#/23products/0/description``,
 * Unexpected property at ``#/23products/0/displayName``,
 * Unexpected property at ``#/23products/0/id``,
@@ -875,6 +898,7 @@ Response schema mismatch:
 * Unexpected property at ``#/23products/1/sellerId``,
 * Unexpected property at ``#/23products/1/tags``,
 * Unexpected property at ``#/23products/1/useForSubscriberList``,
+* Unexpected property at ``#/23/hasCompanion``,
 * Unexpected property at ``#/24products/0/description``,
 * Unexpected property at ``#/24products/0/displayName``,
 * Unexpected property at ``#/24products/0/id``,
@@ -911,6 +935,7 @@ Response schema mismatch:
 * Unexpected property at ``#/24products/2/sellerId``,
 * Unexpected property at ``#/24products/2/tags``,
 * Unexpected property at ``#/24products/2/useForSubscriberList``,
+* Unexpected property at ``#/24/hasCompanion``,
 * Unexpected property at ``#/25products/0/description``,
 * Unexpected property at ``#/25products/0/displayName``,
 * Unexpected property at ``#/25products/0/id``,
@@ -947,6 +972,7 @@ Response schema mismatch:
 * Unexpected property at ``#/25products/2/sellerId``,
 * Unexpected property at ``#/25products/2/tags``,
 * Unexpected property at ``#/25products/2/useForSubscriberList``,
+* Unexpected property at ``#/25/hasCompanion``,
 * Unexpected property at ``#/26products/0/description``,
 * Unexpected property at ``#/26products/0/displayName``,
 * Unexpected property at ``#/26products/0/id``,
@@ -983,6 +1009,7 @@ Response schema mismatch:
 * Unexpected property at ``#/26products/2/sellerId``,
 * Unexpected property at ``#/26products/2/tags``,
 * Unexpected property at ``#/26products/2/useForSubscriberList``,
+* Unexpected property at ``#/26/hasCompanion``,
 * Unexpected property at ``#/27products/0/description``,
 * Unexpected property at ``#/27products/0/displayName``,
 * Unexpected property at ``#/27products/0/id``,
@@ -1007,6 +1034,7 @@ Response schema mismatch:
 * Unexpected property at ``#/27products/1/sellerId``,
 * Unexpected property at ``#/27products/1/tags``,
 * Unexpected property at ``#/27products/1/useForSubscriberList``,
+* Unexpected property at ``#/27/hasCompanion``,
 * Unexpected property at ``#/28products/0/description``,
 * Unexpected property at ``#/28products/0/displayName``,
 * Unexpected property at ``#/28products/0/groupAccess``,
@@ -1046,6 +1074,7 @@ Response schema mismatch:
 * Unexpected property at ``#/28products/2/sellerId``,
 * Unexpected property at ``#/28products/2/tags``,
 * Unexpected property at ``#/28products/2/useForSubscriberList``,
+* Unexpected property at ``#/28/hasCompanion``,
 * Unexpected property at ``#/29products/0/description``,
 * Unexpected property at ``#/29products/0/displayName``,
 * Unexpected property at ``#/29products/0/groupAccess``,
@@ -1085,6 +1114,7 @@ Response schema mismatch:
 * Unexpected property at ``#/29products/2/sellerId``,
 * Unexpected property at ``#/29products/2/tags``,
 * Unexpected property at ``#/29products/2/useForSubscriberList``,
+* Unexpected property at ``#/29/hasCompanion``,
 * Unexpected property at ``#/30products/0/description``,
 * Unexpected property at ``#/30products/0/displayName``,
 * Unexpected property at ``#/30products/0/id``,
@@ -1109,6 +1139,7 @@ Response schema mismatch:
 * Unexpected property at ``#/30products/1/sellerId``,
 * Unexpected property at ``#/30products/1/tags``,
 * Unexpected property at ``#/30products/1/useForSubscriberList``,
+* Unexpected property at ``#/30/hasCompanion``,
 * Unexpected property at ``#/31products/0/description``,
 * Unexpected property at ``#/31products/0/displayName``,
 * Unexpected property at ``#/31products/0/groupAccess``,
@@ -1148,6 +1179,7 @@ Response schema mismatch:
 * Unexpected property at ``#/31products/2/sellerId``,
 * Unexpected property at ``#/31products/2/tags``,
 * Unexpected property at ``#/31products/2/useForSubscriberList``,
+* Unexpected property at ``#/31/hasCompanion``,
 * Unexpected property at ``#/32products/0/description``,
 * Unexpected property at ``#/32products/0/displayName``,
 * Unexpected property at ``#/32products/0/groupAccess``,
@@ -1187,6 +1219,7 @@ Response schema mismatch:
 * Unexpected property at ``#/32products/2/sellerId``,
 * Unexpected property at ``#/32products/2/tags``,
 * Unexpected property at ``#/32products/2/useForSubscriberList``,
+* Unexpected property at ``#/32/hasCompanion``,
 * Unexpected property at ``#/33products/0/description``,
 * Unexpected property at ``#/33products/0/displayName``,
 * Unexpected property at ``#/33products/0/groupAccess``,
@@ -1310,6 +1343,7 @@ Response schema mismatch:
 * Unexpected property at ``#/33products/9/sellerId``,
 * Unexpected property at ``#/33products/9/tags``,
 * Unexpected property at ``#/33products/9/useForSubscriberList``,
+* Unexpected property at ``#/33/hasCompanion``,
 * Unexpected property at ``#/34products/0/description``,
 * Unexpected property at ``#/34products/0/displayName``,
 * Unexpected property at ``#/34products/0/groupAccess``,
@@ -1409,6 +1443,7 @@ Response schema mismatch:
 * Unexpected property at ``#/34products/7/sellerId``,
 * Unexpected property at ``#/34products/7/tags``,
 * Unexpected property at ``#/34products/7/useForSubscriberList``,
+* Unexpected property at ``#/34/hasCompanion``,
 * Unexpected property at ``#/35products/0/description``,
 * Unexpected property at ``#/35products/0/displayName``,
 * Unexpected property at ``#/35products/0/groupAccess``,
@@ -1460,6 +1495,7 @@ Response schema mismatch:
 * Unexpected property at ``#/35products/3/sellerId``,
 * Unexpected property at ``#/35products/3/tags``,
 * Unexpected property at ``#/35products/3/useForSubscriberList``,
+* Unexpected property at ``#/35/hasCompanion``,
 * Unexpected property at ``#/36products/0/description``,
 * Unexpected property at ``#/36products/0/displayName``,
 * Unexpected property at ``#/36products/0/groupAccess``,
@@ -1523,6 +1559,7 @@ Response schema mismatch:
 * Unexpected property at ``#/36products/4/sellerId``,
 * Unexpected property at ``#/36products/4/tags``,
 * Unexpected property at ``#/36products/4/useForSubscriberList``,
+* Unexpected property at ``#/36/hasCompanion``,
 * Unexpected property at ``#/37products/0/description``,
 * Unexpected property at ``#/37products/0/displayName``,
 * Unexpected property at ``#/37products/0/groupAccess``,
@@ -1574,6 +1611,7 @@ Response schema mismatch:
 * Unexpected property at ``#/37products/3/sellerId``,
 * Unexpected property at ``#/37products/3/tags``,
 * Unexpected property at ``#/37products/3/useForSubscriberList``,
+* Unexpected property at ``#/37/hasCompanion``,
 * Unexpected property at ``#/38products/0/description``,
 * Unexpected property at ``#/38products/0/displayName``,
 * Unexpected property at ``#/38products/0/groupAccess``,
@@ -1613,6 +1651,7 @@ Response schema mismatch:
 * Unexpected property at ``#/38products/2/sellerId``,
 * Unexpected property at ``#/38products/2/tags``,
 * Unexpected property at ``#/38products/2/useForSubscriberList``,
+* Unexpected property at ``#/38/hasCompanion``,
 * Unexpected property at ``#/39products/0/description``,
 * Unexpected property at ``#/39products/0/displayName``,
 * Unexpected property at ``#/39products/0/groupAccess``,
@@ -1652,6 +1691,7 @@ Response schema mismatch:
 * Unexpected property at ``#/39products/2/sellerId``,
 * Unexpected property at ``#/39products/2/tags``,
 * Unexpected property at ``#/39products/2/useForSubscriberList``,
+* Unexpected property at ``#/39/hasCompanion``,
 * Unexpected property at ``#/40products/0/description``,
 * Unexpected property at ``#/40products/0/displayName``,
 * Unexpected property at ``#/40products/0/groupAccess``,
@@ -1691,6 +1731,7 @@ Response schema mismatch:
 * Unexpected property at ``#/40products/2/sellerId``,
 * Unexpected property at ``#/40products/2/tags``,
 * Unexpected property at ``#/40products/2/useForSubscriberList``,
+* Unexpected property at ``#/40/hasCompanion``,
 * Unexpected property at ``#/41products/0/description``,
 * Unexpected property at ``#/41products/0/displayName``,
 * Unexpected property at ``#/41products/0/groupAccess``,
@@ -1730,6 +1771,7 @@ Response schema mismatch:
 * Unexpected property at ``#/41products/2/sellerId``,
 * Unexpected property at ``#/41products/2/tags``,
 * Unexpected property at ``#/41products/2/useForSubscriberList``,
+* Unexpected property at ``#/41/hasCompanion``,
 * Unexpected property at ``#/42products/0/description``,
 * Unexpected property at ``#/42products/0/displayName``,
 * Unexpected property at ``#/42products/0/groupAccess``,
@@ -1769,6 +1811,7 @@ Response schema mismatch:
 * Unexpected property at ``#/42products/2/sellerId``,
 * Unexpected property at ``#/42products/2/tags``,
 * Unexpected property at ``#/42products/2/useForSubscriberList``,
+* Unexpected property at ``#/42/hasCompanion``,
 * Unexpected property at ``#/43products/0/description``,
 * Unexpected property at ``#/43products/0/displayName``,
 * Unexpected property at ``#/43products/0/groupAccess``,
@@ -1808,6 +1851,7 @@ Response schema mismatch:
 * Unexpected property at ``#/43products/2/sellerId``,
 * Unexpected property at ``#/43products/2/tags``,
 * Unexpected property at ``#/43products/2/useForSubscriberList``,
+* Unexpected property at ``#/43/hasCompanion``,
 * Unexpected property at ``#/44products/0/description``,
 * Unexpected property at ``#/44products/0/displayName``,
 * Unexpected property at ``#/44products/0/groupAccess``,
@@ -1847,6 +1891,7 @@ Response schema mismatch:
 * Unexpected property at ``#/44products/2/sellerId``,
 * Unexpected property at ``#/44products/2/tags``,
 * Unexpected property at ``#/44products/2/useForSubscriberList``,
+* Unexpected property at ``#/44/hasCompanion``,
 * Unexpected property at ``#/45products/0/description``,
 * Unexpected property at ``#/45products/0/displayName``,
 * Unexpected property at ``#/45products/0/groupAccess``,
@@ -1886,6 +1931,7 @@ Response schema mismatch:
 * Unexpected property at ``#/45products/2/sellerId``,
 * Unexpected property at ``#/45products/2/tags``,
 * Unexpected property at ``#/45products/2/useForSubscriberList``,
+* Unexpected property at ``#/45/hasCompanion``,
 * Unexpected property at ``#/46products/0/description``,
 * Unexpected property at ``#/46products/0/displayName``,
 * Unexpected property at ``#/46products/0/groupAccess``,
@@ -1925,6 +1971,7 @@ Response schema mismatch:
 * Unexpected property at ``#/46products/2/sellerId``,
 * Unexpected property at ``#/46products/2/tags``,
 * Unexpected property at ``#/46products/2/useForSubscriberList``,
+* Unexpected property at ``#/46/hasCompanion``,
 * Unexpected property at ``#/47products/0/description``,
 * Unexpected property at ``#/47products/0/displayName``,
 * Unexpected property at ``#/47products/0/groupAccess``,
@@ -1964,6 +2011,7 @@ Response schema mismatch:
 * Unexpected property at ``#/47products/2/sellerId``,
 * Unexpected property at ``#/47products/2/tags``,
 * Unexpected property at ``#/47products/2/useForSubscriberList``,
+* Unexpected property at ``#/47/hasCompanion``,
 * Unexpected property at ``#/48products/0/description``,
 * Unexpected property at ``#/48products/0/displayName``,
 * Unexpected property at ``#/48products/0/groupAccess``,
@@ -2003,6 +2051,7 @@ Response schema mismatch:
 * Unexpected property at ``#/48products/2/sellerId``,
 * Unexpected property at ``#/48products/2/tags``,
 * Unexpected property at ``#/48products/2/useForSubscriberList``,
+* Unexpected property at ``#/48/hasCompanion``,
 * Unexpected property at ``#/49products/0/description``,
 * Unexpected property at ``#/49products/0/displayName``,
 * Unexpected property at ``#/49products/0/groupAccess``,
@@ -2042,6 +2091,7 @@ Response schema mismatch:
 * Unexpected property at ``#/49products/2/sellerId``,
 * Unexpected property at ``#/49products/2/tags``,
 * Unexpected property at ``#/49products/2/useForSubscriberList``,
+* Unexpected property at ``#/49/hasCompanion``,
 * Unexpected property at ``#/50products/0/description``,
 * Unexpected property at ``#/50products/0/displayName``,
 * Unexpected property at ``#/50products/0/groupAccess``,
@@ -2081,6 +2131,7 @@ Response schema mismatch:
 * Unexpected property at ``#/50products/2/sellerId``,
 * Unexpected property at ``#/50products/2/tags``,
 * Unexpected property at ``#/50products/2/useForSubscriberList``,
+* Unexpected property at ``#/50/hasCompanion``,
 * Unexpected property at ``#/51products/0/description``,
 * Unexpected property at ``#/51products/0/displayName``,
 * Unexpected property at ``#/51products/0/groupAccess``,
@@ -2120,6 +2171,7 @@ Response schema mismatch:
 * Unexpected property at ``#/51products/2/sellerId``,
 * Unexpected property at ``#/51products/2/tags``,
 * Unexpected property at ``#/51products/2/useForSubscriberList``,
+* Unexpected property at ``#/51/hasCompanion``,
 * Unexpected property at ``#/52products/0/description``,
 * Unexpected property at ``#/52products/0/displayName``,
 * Unexpected property at ``#/52products/0/groupAccess``,
@@ -2159,6 +2211,7 @@ Response schema mismatch:
 * Unexpected property at ``#/52products/2/sellerId``,
 * Unexpected property at ``#/52products/2/tags``,
 * Unexpected property at ``#/52products/2/useForSubscriberList``,
+* Unexpected property at ``#/52/hasCompanion``,
 * Unexpected property at ``#/53products/0/description``,
 * Unexpected property at ``#/53products/0/displayName``,
 * Unexpected property at ``#/53products/0/groupAccess``,
@@ -2198,6 +2251,7 @@ Response schema mismatch:
 * Unexpected property at ``#/53products/2/sellerId``,
 * Unexpected property at ``#/53products/2/tags``,
 * Unexpected property at ``#/53products/2/useForSubscriberList``,
+* Unexpected property at ``#/53/hasCompanion``,
 * Unexpected property at ``#/54products/0/description``,
 * Unexpected property at ``#/54products/0/displayName``,
 * Unexpected property at ``#/54products/0/groupAccess``,
@@ -2237,6 +2291,7 @@ Response schema mismatch:
 * Unexpected property at ``#/54products/2/sellerId``,
 * Unexpected property at ``#/54products/2/tags``,
 * Unexpected property at ``#/54products/2/useForSubscriberList``,
+* Unexpected property at ``#/54/hasCompanion``,
 * Unexpected property at ``#/55products/0/description``,
 * Unexpected property at ``#/55products/0/displayName``,
 * Unexpected property at ``#/55products/0/groupAccess``,
@@ -2276,6 +2331,7 @@ Response schema mismatch:
 * Unexpected property at ``#/55products/2/sellerId``,
 * Unexpected property at ``#/55products/2/tags``,
 * Unexpected property at ``#/55products/2/useForSubscriberList``,
+* Unexpected property at ``#/55/hasCompanion``,
 * Unexpected property at ``#/56products/0/description``,
 * Unexpected property at ``#/56products/0/displayName``,
 * Unexpected property at ``#/56products/0/groupAccess``,
@@ -2315,6 +2371,7 @@ Response schema mismatch:
 * Unexpected property at ``#/56products/2/sellerId``,
 * Unexpected property at ``#/56products/2/tags``,
 * Unexpected property at ``#/56products/2/useForSubscriberList``,
+* Unexpected property at ``#/56/hasCompanion``,
 * Unexpected property at ``#/57products/0/description``,
 * Unexpected property at ``#/57products/0/displayName``,
 * Unexpected property at ``#/57products/0/groupAccess``,
@@ -2354,6 +2411,7 @@ Response schema mismatch:
 * Unexpected property at ``#/57products/2/sellerId``,
 * Unexpected property at ``#/57products/2/tags``,
 * Unexpected property at ``#/57products/2/useForSubscriberList``,
+* Unexpected property at ``#/57/hasCompanion``,
 * Unexpected property at ``#/58products/0/description``,
 * Unexpected property at ``#/58products/0/displayName``,
 * Unexpected property at ``#/58products/0/groupAccess``,
@@ -2393,6 +2451,7 @@ Response schema mismatch:
 * Unexpected property at ``#/58products/2/sellerId``,
 * Unexpected property at ``#/58products/2/tags``,
 * Unexpected property at ``#/58products/2/useForSubscriberList``,
+* Unexpected property at ``#/58/hasCompanion``,
 * Unexpected property at ``#/59products/0/description``,
 * Unexpected property at ``#/59products/0/displayName``,
 * Unexpected property at ``#/59products/0/groupAccess``,
@@ -2432,6 +2491,7 @@ Response schema mismatch:
 * Unexpected property at ``#/59products/2/sellerId``,
 * Unexpected property at ``#/59products/2/tags``,
 * Unexpected property at ``#/59products/2/useForSubscriberList``,
+* Unexpected property at ``#/59/hasCompanion``,
 * Unexpected property at ``#/60products/0/description``,
 * Unexpected property at ``#/60products/0/displayName``,
 * Unexpected property at ``#/60products/0/groupAccess``,
@@ -2555,6 +2615,7 @@ Response schema mismatch:
 * Unexpected property at ``#/60products/9/sellerId``,
 * Unexpected property at ``#/60products/9/tags``,
 * Unexpected property at ``#/60products/9/useForSubscriberList``,
+* Unexpected property at ``#/60/hasCompanion``,
 * Unexpected property at ``#/61products/0/description``,
 * Unexpected property at ``#/61products/0/displayName``,
 * Unexpected property at ``#/61products/0/groupAccess``,
@@ -2606,6 +2667,7 @@ Response schema mismatch:
 * Unexpected property at ``#/61products/3/sellerId``,
 * Unexpected property at ``#/61products/3/tags``,
 * Unexpected property at ``#/61products/3/useForSubscriberList``,
+* Unexpected property at ``#/61/hasCompanion``,
 * Unexpected property at ``#/62products/0/description``,
 * Unexpected property at ``#/62products/0/displayName``,
 * Unexpected property at ``#/62products/0/groupAccess``,
@@ -2693,6 +2755,7 @@ Response schema mismatch:
 * Unexpected property at ``#/62products/6/sellerId``,
 * Unexpected property at ``#/62products/6/tags``,
 * Unexpected property at ``#/62products/6/useForSubscriberList``,
+* Unexpected property at ``#/62/hasCompanion``,
 * Unexpected property at ``#/63products/0/description``,
 * Unexpected property at ``#/63products/0/displayName``,
 * Unexpected property at ``#/63products/0/groupAccess``,
@@ -2719,7 +2782,8 @@ Response schema mismatch:
 * Unexpected property at ``#/63products/1/sellerDisplayName``,
 * Unexpected property at ``#/63products/1/sellerId``,
 * Unexpected property at ``#/63products/1/tags``,
-* Unexpected property at ``#/63products/1/useForSubscriberList``.
+* Unexpected property at ``#/63products/1/useForSubscriberList``,
+* Unexpected property at ``#/63/hasCompanion``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/user/usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20/listings?hydrate=true`
 
@@ -2755,6 +2819,7 @@ Response schema mismatch:
     "duration": 30,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -3393,6 +3458,7 @@ Response schema mismatch:
     "duration": 30,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -3885,6 +3951,7 @@ Response schema mismatch:
     "duration": 30,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -4336,6 +4403,7 @@ Response schema mismatch:
     "duration": 30,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -4640,6 +4708,7 @@ Response schema mismatch:
     "duration": 1,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -4711,6 +4780,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -4841,6 +4911,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -4971,6 +5042,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -5710,6 +5782,7 @@ Response schema mismatch:
     "duration": 1,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -5778,6 +5851,7 @@ Response schema mismatch:
     "duration": 1,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -5844,6 +5918,7 @@ Response schema mismatch:
     "duration": 1,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -5955,6 +6030,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -6019,6 +6095,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -6083,6 +6160,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -6147,6 +6225,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -6370,6 +6449,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -6587,6 +6667,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -6804,6 +6885,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -7021,6 +7103,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -7238,6 +7321,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -7455,6 +7539,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -7672,6 +7757,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -7889,6 +7975,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -8104,6 +8191,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -8319,6 +8407,7 @@ Response schema mismatch:
     "duration": 3,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -8584,6 +8673,7 @@ Response schema mismatch:
     "duration": 3,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -8849,6 +8939,7 @@ Response schema mismatch:
     "duration": 3,
     "durationType": "days",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -9114,6 +9205,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -9332,6 +9424,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -9618,6 +9711,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -9907,6 +10001,7 @@ Response schema mismatch:
     "duration": null,
     "durationType": null,
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -10125,6 +10220,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -10408,6 +10504,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -10692,6 +10789,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -11333,6 +11431,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -11888,6 +11987,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -12258,6 +12358,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -12513,6 +12614,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -12735,6 +12837,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -13028,6 +13131,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -13321,6 +13425,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -13604,6 +13709,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -13887,6 +13993,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -14170,6 +14277,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -14451,6 +14559,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -14732,6 +14841,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -15017,6 +15127,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -15302,6 +15413,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -15582,6 +15694,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -15862,6 +15975,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -16144,6 +16258,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -16426,6 +16541,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -16708,6 +16824,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -16990,6 +17107,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -17272,6 +17390,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -17554,6 +17673,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -17836,6 +17956,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -18118,6 +18239,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -18400,6 +18522,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -18682,6 +18805,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -18964,6 +19088,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -19594,6 +19719,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -19966,6 +20092,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {
@@ -20485,6 +20612,7 @@ Response schema mismatch:
     "groupId": "grp_cccacf11-d0f5-47be-8e2c-8f5ed2d2edd6",
     "groupName": "The Black Cat",
     "hasAvatar": false,
+    "hasCompanion": false,
     "hasUdon": true,
     "hydratedProducts": [
       {

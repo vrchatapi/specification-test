@@ -61,35 +61,35 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "instanceId": "94921~region(jp)",
-      "languageRatio": {
-        "en": 0.75,
-        "es": 0.25
-      },
-      "n_users": 4
-    },
-    {
       "gameServerVersion": 1626,
-      "instanceId": "57639~region(us)",
-      "languageRatio": {
-        "en": 0.75,
-        "es": 0.25
-      },
-      "n_users": 4
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "36148~region(us)",
+      "instanceId": "86899~group(grp_ead0f53f-330b-41c1-a149-73afc6922b1e)~groupAccessType(public)~region(eu)",
       "languageRatio": {
         "en": 1
       },
       "n_users": 4
     },
     {
+      "instanceId": "6666~region(eu)",
+      "languageRatio": {
+        "en": 0.8,
+        "ru": 0.2
+      },
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "76208~region(us)",
+      "languageRatio": {
+        "en": 0.9,
+        "pt-BR": 0.1
+      },
+      "n_users": 3
+    },
+    {
       "gameServerVersion": null,
-      "instanceId": "fc0d215408~region(us)",
+      "instanceId": "30545~region(us)",
       "languageRatio": {},
-      "n_users": 1
+      "n_users": 2
     }
   ],
   "tags": [
