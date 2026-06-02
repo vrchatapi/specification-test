@@ -209,6 +209,16 @@
     "data": {}
   },
   {
+    "id": "prms_c074eea3-9797-4a8e-903b-655caadfd94c",
+    "ownerId": "usr_ff2bbd81-6863-434a-8c15-9a6f9607e222",
+    "ownerDisplayName": "Server_Stuff",
+    "name": "permission-hype-train",
+    "displayName": "",
+    "description": "allows user to participate in hype trains",
+    "type": "system",
+    "data": {}
+  },
+  {
     "id": "prms_253e6b4d-07f5-4ebf-b07f-99990ded6a7d",
     "ownerId": "usr_bc012e97-a292-4abc-b4e6-f9edcc8c0d2b",
     "ownerDisplayName": "Nyx",

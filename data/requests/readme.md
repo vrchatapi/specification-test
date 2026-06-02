@@ -119,7 +119,7 @@ Response schema mismatch:
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/dominantLanguage``,
 
-*2 issues truncated.*
+*3 issues truncated.*
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
 Response schema mismatch:
@@ -127,7 +127,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*16 issues truncated.*
+*18 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -164,7 +164,7 @@ Response schema mismatch:
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/dominantLanguage``,
 
-*2 issues truncated.*
+*3 issues truncated.*
 #### [getShortName](/data/requests/instances/getshortname.md)
 
 
@@ -268,7 +268,7 @@ Response schema mismatch:
 * Invalid type at ``#/0highlightListing/products/1``,
 * Invalid type at ``#/0highlightListing/products/2``,
 
-*158 issues truncated.*
+*110 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -276,7 +276,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0highlightListing/products/1``,
 * Invalid type at ``#/shelves/0highlightListing/products/2``,
 
-*158 issues truncated.*
+*110 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -582,7 +582,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1781 issues truncated.*
+*1803 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -590,7 +590,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/clientMinVersion``,
 * Unexpected property at ``#/0/regions``,
 
-*41 issues truncated.*
+*51 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -598,7 +598,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Missing property at ``#/minSupportedClientBuildNumber/QuestAppLab``,
 
-*35 issues truncated.*
+*36 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

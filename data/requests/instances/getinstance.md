@@ -5,6 +5,7 @@ Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/dominantLanguage``,
+* Unexpected property at ``#/hypeTrain``,
 * Unexpected property at ``#/languageRatio``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 ## Request
