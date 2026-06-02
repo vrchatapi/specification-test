@@ -7,7 +7,8 @@
   "scripts": {
     "test": "ava --serial",
     "fast-fail": "ava --serial --fail-fast",
-    "tsimp:clear": "tsimp --clear"
+    "type-check": "tsc --noEmit",
+    "test:clean": "pwsh ./scripts/clean.ps1"
   },
   "keywords": [],
   "author": "",
@@ -34,7 +35,7 @@
     "totp-generator": "^2.0.1",
     "tough-cookie": "^6.0.1",
     "ts-node": "^10.9.2",
-    "tsimp": "^2.0.12",
+    "tsx": "^4.22.4",
     "typescript": "^6.0.3",
     "vrchat": "^2.21.7",
     "yaml": "^2.9.0"
