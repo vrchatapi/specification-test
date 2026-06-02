@@ -31,8 +31,8 @@ test.serial.failing(
 	})
 );
 
-test.serial(testOperation, "verify2FA", () => {
-	const { otp: code } = TOTP.generate(vrchatTotpSecret);
+test.serial(testOperation, "verify2FA", async () => {
+	const { otp: code } = await TOTP.generate(vrchatTotpSecret);
 	unstableValues.add(code);
 
 	return {
