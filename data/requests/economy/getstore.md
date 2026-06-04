@@ -111,10 +111,7 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/1listings/11/hasCompanion``,
 * Unexpected property at ``#/shelves/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/1/shelfIconImageId``,
-* Unexpected property at ``#/shelves/1/shelfTabBackgroundImageId``,
-* Unexpected property at ``#/shelves/2/shelfBackgroundImageId``,
-* Unexpected property at ``#/shelves/2/shelfIconImageId``,
-* Unexpected property at ``#/shelves/2/shelfTabBackgroundImageId``.
+* Unexpected property at ``#/shelves/1/shelfTabBackgroundImageId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&hydrateProducts=true`
 
@@ -149,8 +146,7 @@ Response schema mismatch:
   "sellerId": "usr_00000000-0000-0000-0000-000000000011",
   "shelfIds": [
     "ess_0d4ad1e9-d2e9-470d-b3b1-5e8dce9c00f2",
-    "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
-    "ess_41f2ed39-00fe-42d3-ba93-d959a0b676f6"
+    "ess_f27165e9-a49d-4010-9f94-8cf89531c249"
   ],
   "shelves": [
     {
@@ -1224,18 +1220,6 @@ Response schema mismatch:
       "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
       "shelfTitle": "New Accessories",
       "updatedAt": "2026-05-22T21:03:30.093Z"
-    },
-    {
-      "id": "ess_41f2ed39-00fe-42d3-ba93-d959a0b676f6",
-      "listingIds": [],
-      "listings": [],
-      "shelfBackgroundImageId": "file_a88af487-16d0-4912-8f66-4c840e35d82c",
-      "shelfDescription": "",
-      "shelfIconImageId": "file_5846c7f0-58ce-4dc3-8257-52cf53f784ed",
-      "shelfLayout": "highlightLeft",
-      "shelfTabBackgroundImageId": "file_6be09fcb-1d0e-452f-ab75-4488225a3352",
-      "shelfTitle": "Hanami Festival",
-      "updatedAt": "2026-05-04T21:49:06.113Z"
     }
   ],
   "storeId": "esto_00000000-0000-0000-0000-000000000000",

@@ -111,10 +111,7 @@ Response schema mismatch:
 * Unexpected property at ``#/1listings/11/hasCompanion``,
 * Unexpected property at ``#/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/1/shelfIconImageId``,
-* Unexpected property at ``#/1/shelfTabBackgroundImageId``,
-* Unexpected property at ``#/2/shelfBackgroundImageId``,
-* Unexpected property at ``#/2/shelfIconImageId``,
-* Unexpected property at ``#/2/shelfTabBackgroundImageId``.
+* Unexpected property at ``#/1/shelfTabBackgroundImageId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store/shelves?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&fetch=all`
 
@@ -1213,18 +1210,6 @@ Response schema mismatch:
     "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
     "shelfTitle": "New Accessories",
     "updatedAt": "2026-05-22T21:03:30.093Z"
-  },
-  {
-    "id": "ess_41f2ed39-00fe-42d3-ba93-d959a0b676f6",
-    "listingIds": [],
-    "listings": [],
-    "shelfBackgroundImageId": "file_a88af487-16d0-4912-8f66-4c840e35d82c",
-    "shelfDescription": "",
-    "shelfIconImageId": "file_5846c7f0-58ce-4dc3-8257-52cf53f784ed",
-    "shelfLayout": "highlightLeft",
-    "shelfTabBackgroundImageId": "file_6be09fcb-1d0e-452f-ab75-4488225a3352",
-    "shelfTitle": "Hanami Festival",
-    "updatedAt": "2026-05-04T21:49:06.113Z"
   }
 ]
 ```
