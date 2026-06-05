@@ -108,13 +108,13 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-06-01T20:26:39.350Z"
+    "updatedAt": "2026-06-04T19:23:30.868Z"
   },
   {
     "clientMinVersion": null,
-    "createdAt": "2026-06-01T19:49:22.848Z",
+    "createdAt": "2026-06-01T19:50:17.211Z",
     "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_3ce68a9b-8636-40c3-a90e-c0d420e55e2e.png",
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_ef9d6652-0268-45bb-8ac4-9b98476d14b6.png",
       "onPressed": {
         "command": "OpenURL",
         "parameters": [
@@ -122,20 +122,20 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": "2026-06-04T20:00:00.000Z",
-    "hash": "ips_furality-registration-2-2252a2ecf710",
-    "id": "ips_furality-registration-2-2252a2ecf710",
+    "endDate": "2026-06-08T04:00:00.000Z",
+    "hash": "ips_furality-26-happening-n-d7f5fba7846d",
+    "id": "ips_furality-26-happening-n-d7f5fba7846d",
     "isEnabled": true,
     "priority": 500,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
-    "startDate": "2026-06-01T20:00:00.000Z",
+    "startDate": "2026-06-04T20:00:00.000Z",
     "tags": [
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-06-01T19:49:22.848Z"
+    "updatedAt": "2026-06-01T21:40:56.049Z"
   },
   {
     "clientMinVersion": null,
