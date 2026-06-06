@@ -394,6 +394,25 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
+      "description": "Come join us for our weekly game nightǃ",
+      "endsAt": "2027-05-10T02:00:00.000Z",
+      "featured": false,
+      "id": "cal_04c7a44d-04c3-4788-9097-76bd82240d2c",
+      "imageId": "file_681e62ef-84e9-404d-87f5-5ef5ac5fed91",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_681e62ef-84e9-404d-87f5-5ef5ac5fed91/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_d2c84992-1ffc-4479-9a6d-4853d033a892",
+      "platforms": [],
+      "startsAt": "2027-05-09T22:00:00.000Z",
+      "tags": [],
+      "title": "Game Night",
+      "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
       "description": "Horror game night come hang with us․ New ceo welcome to a group",
       "endsAt": "2027-05-04T00:20:00.000Z",
       "featured": false,
@@ -537,27 +556,8 @@
       "tags": [],
       "title": "DND Game",
       "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
-      "description": "GAMES GAMES GAMESǃǃǃǃǃ",
-      "endsAt": "2027-05-14T03:00:00.000Z",
-      "featured": false,
-      "id": "cal_f58cbcd4-9ea3-44bc-b874-2062aba67c96",
-      "imageId": "file_08db7953-f76a-4ecd-8374-2fa9633e79ff",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_08db7953-f76a-4ecd-8374-2fa9633e79ff/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_015e4b7b-34b8-4931-94b0-0078e96ba4cc",
-      "platforms": [],
-      "startsAt": "2027-05-13T23:00:00.000Z",
-      "tags": [],
-      "title": "Game Night",
-      "type": "event"
     }
   ],
-  "totalCount": 6527
+  "totalCount": 6693
 }
 ```

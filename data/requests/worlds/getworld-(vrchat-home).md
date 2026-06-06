@@ -5,10 +5,6 @@ Response schema mismatch:
 * undefined at ``#/instances/0``,
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
-* undefined at ``#/instances/3``,
-* undefined at ``#/instances/4``,
-* undefined at ``#/instances/5``,
-* undefined at ``#/instances/6``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -64,58 +60,23 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "gameServerVersion": 1626,
-      "instanceId": "11~group(grp_1c6601a3-b2ce-45c3-946e-f12094a97ce4)~groupAccessType(public)~region(us)",
-      "languageRatio": {
-        "en": 0.83,
-        "es": 0.17
-      },
-      "n_users": 6
-    },
-    {
-      "instanceId": "ec021cd2a3~region(us)",
+      "instanceId": "719~region(use)",
       "languageRatio": {
         "en": 1
       },
-      "n_users": 7
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "10820~region(us)",
-      "languageRatio": {
-        "en": 0.86,
-        "es": 0.14
-      },
-      "n_users": 6
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "0~region(eu)",
-      "languageRatio": {
-        "en": 0.83,
-        "ru": 0.17
-      },
-      "n_users": 6
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "0d1cf63f87~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 3
+      "n_users": 1
     },
     {
       "gameServerVersion": null,
-      "instanceId": "55782~region(us)",
+      "instanceId": "8ce7d72bf4~region(us)",
       "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "46722~region(us)",
+      "instanceId": "78feceffa4~region(us)",
       "languageRatio": {},
-      "n_users": 2
+      "n_users": 1
     }
   ],
   "tags": [
@@ -137,8 +98,7 @@ Response schema mismatch:
     "admin_AllowInternal_PrideCampaign",
     "admin_AllowInternal_OpenMenu",
     "admin_ios_category",
-    "admin_AllowInternal_Experiments",
-    "system_updated_recently"
+    "admin_AllowInternal_Experiments"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",
