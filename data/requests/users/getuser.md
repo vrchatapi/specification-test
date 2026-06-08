@@ -1,5 +1,8 @@
 # getUser
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/badges/3/isQuantifiable``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 
@@ -39,6 +42,13 @@
       "showcased": false
     },
     {
+      "badgeDescription": "Awarded for gifting VRC+ (60 Months)",
+      "badgeId": "bdg_367f3109-6e1f-48e0-a3ac-edf25f8d83a5",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/a5/bdgai_8c61a2e9-4d36-4c3a-b16c-698ac623bf10.png",
+      "badgeName": "Gift (60 Months)",
+      "showcased": true
+    },
+    {
       "badgeDescription": "Joined VRChat 8 years ago",
       "badgeId": "bdg_4708a50c-2a2f-4204-98be-f844b2f247eb",
       "badgeImageUrl": "https://assets.vrchat.com/badges/eb/bdgai_47e5526e-de82-46d7-9f85-323cc7ed1d4a.png",
@@ -46,11 +56,12 @@
       "showcased": true
     },
     {
-      "badgeDescription": "Awarded for gifting VRC+ (10 Months)",
-      "badgeId": "bdg_66096bcd-1c5f-477b-803a-82a2af7ab675",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/75/bdgai_8c3d61a5-feb9-4440-9760-ead1c9137077.png",
-      "badgeName": "Gift (10 Months)",
-      "showcased": false
+      "badgeDescription": "Awarded to those who donated to the VRChat 2026 Pride Month Charity Event",
+      "badgeId": "bdg_4dfa4d6b-a164-4f20-ab60-e7ee4d4d43dd",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/dd/bdgai_85661807-9f97-4703-a735-fc5a1ccc1518.png",
+      "badgeName": "Pride Supporter 2026",
+      "isQuantifiable": false,
+      "showcased": true
     },
     {
       "badgeDescription": "Supports VRChat through VRC+",

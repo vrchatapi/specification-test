@@ -55,6 +55,11 @@ Response schema mismatch:
 
 ## [Users](/data/requests/users)
 
+#### [getUser](/data/requests/users/getuser.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/badges/3/isQuantifiable``.
+
 #### [updateUserNote](/data/requests/users/updateusernote.md)
 
 
@@ -68,9 +73,6 @@ Response schema mismatch:
 
 
 #### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
-
-
-#### [getUser](/data/requests/users/getuser.md)
 
 
 #### [getUserFeedback](/data/requests/users/getuserfeedback.md)
@@ -127,7 +129,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*18 issues truncated.*
+*19 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -595,7 +597,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 * Unexpected property at ``#/events/useSparseRotationForPlayerSerialization``,
 
-*38 issues truncated.*
+*42 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
