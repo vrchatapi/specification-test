@@ -10,9 +10,11 @@ Response schema mismatch:
 * Unexpected property at ``#/1/clientMinVersion``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
 * Unexpected property at ``#/2/clientMinVersion``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
 * Unexpected property at ``#/3/clientMinVersion``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
@@ -20,26 +22,27 @@ Response schema mismatch:
 * Unexpected property at ``#/4/clientMinVersion``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
+* Invalid type at ``#/5/endDate``,
+* Invalid type at ``#/5/startDate``,
 * Unexpected property at ``#/5/clientMinVersion``,
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
 * Invalid type at ``#/6/endDate``,
 * Invalid type at ``#/6/startDate``,
 * Unexpected property at ``#/6/clientMinVersion``,
+* Unexpected property at ``#/6/experiment``,
 * Unexpected property at ``#/6/regions``,
 * Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
 * Invalid type at ``#/7/endDate``,
 * Invalid type at ``#/7/startDate``,
 * Unexpected property at ``#/7/clientMinVersion``,
-* Unexpected property at ``#/7/experiment``,
 * Unexpected property at ``#/7/regions``,
 * Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
 * Invalid type at ``#/8/endDate``,
 * Invalid type at ``#/8/startDate``,
-* Unexpected property at ``#/8/clientMinVersion``,
 * Unexpected property at ``#/8/regions``,
 * Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
@@ -53,16 +56,11 @@ Response schema mismatch:
 * Unexpected property at ``#/10/regions``,
 * Unexpected property at ``#/10/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/11/data/onPressed/command``,
-* Invalid type at ``#/11/endDate``,
-* Invalid type at ``#/11/startDate``,
-* Unexpected property at ``#/11/regions``,
-* Unexpected property at ``#/11/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/12/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/13/data/onPressed/command``,
-* Invalid type at ``#/13/endDate``,
-* Invalid type at ``#/13/startDate``,
-* Unexpected property at ``#/13/regions``,
-* Unexpected property at ``#/13/requireClientTags``.
+* Invalid type at ``#/12/endDate``,
+* Invalid type at ``#/12/startDate``,
+* Unexpected property at ``#/12/regions``,
+* Unexpected property at ``#/12/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -150,7 +148,10 @@ Response schema mismatch:
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_faa8f85e-f795-4be0-8eb5-f81ea9ec0dcb.jpg",
       "onPressed": {
-        "command": "OpenVRCPlusMenu"
+        "command": "OpenInventoryMenu",
+        "parameters": [
+          "invt_3ce3c30a-27ea-4cff-b32b-4d4e493b8432"
+        ]
       }
     },
     "endDate": "2026-07-01T21:00:00.000Z",
@@ -166,34 +167,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-06-04T19:19:41.005Z"
-  },
-  {
-    "clientMinVersion": null,
-    "createdAt": "2026-06-01T19:50:17.211Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_ef9d6652-0268-45bb-8ac4-9b98476d14b6.png",
-      "onPressed": {
-        "command": "OpenURL",
-        "parameters": [
-          "https://furality.org/register"
-        ]
-      }
-    },
-    "endDate": "2026-06-08T04:00:00.000Z",
-    "hash": "ips_furality-26-happening-n-d7f5fba7846d",
-    "id": "ips_furality-26-happening-n-d7f5fba7846d",
-    "isEnabled": true,
-    "priority": 500,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2026-06-04T20:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-06-01T21:40:56.049Z"
+    "updatedAt": "2026-06-08T18:43:42.555Z"
   },
   {
     "clientMinVersion": null,

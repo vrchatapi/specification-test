@@ -109,24 +109,24 @@ Response schema mismatch:
 * Unexpected property at ``#/1/shelfIconImageId``,
 * Unexpected property at ``#/1/shelfTabBackgroundImageId``,
 * Invalid type at ``#/2listings/0products/0``,
-* Invalid type at ``#/2listings/0products/1``,
-* Invalid type at ``#/2listings/0products/2``,
-* Invalid type at ``#/2listings/0products/3``,
 * Unexpected property at ``#/2listings/0/attribution``,
 * Unexpected property at ``#/2listings/0/collabUserId``,
 * Unexpected property at ``#/2listings/0/hasCompanion``,
 * Invalid type at ``#/2listings/1products/0``,
-* Invalid type at ``#/2listings/1products/1``,
-* Invalid type at ``#/2listings/1products/2``,
-* Invalid type at ``#/2listings/1products/3``,
 * Unexpected property at ``#/2listings/1/attribution``,
 * Unexpected property at ``#/2listings/1/collabUserId``,
 * Unexpected property at ``#/2listings/1/hasCompanion``,
 * Invalid type at ``#/2listings/2products/0``,
+* Invalid type at ``#/2listings/2products/1``,
+* Invalid type at ``#/2listings/2products/2``,
+* Invalid type at ``#/2listings/2products/3``,
 * Unexpected property at ``#/2listings/2/attribution``,
 * Unexpected property at ``#/2listings/2/collabUserId``,
 * Unexpected property at ``#/2listings/2/hasCompanion``,
 * Invalid type at ``#/2listings/3products/0``,
+* Invalid type at ``#/2listings/3products/1``,
+* Invalid type at ``#/2listings/3products/2``,
+* Invalid type at ``#/2listings/3products/3``,
 * Unexpected property at ``#/2listings/3/attribution``,
 * Unexpected property at ``#/2listings/3/collabUserId``,
 * Unexpected property at ``#/2listings/3/hasCompanion``,
@@ -162,6 +162,14 @@ Response schema mismatch:
 * Unexpected property at ``#/2listings/11/attribution``,
 * Unexpected property at ``#/2listings/11/collabUserId``,
 * Unexpected property at ``#/2listings/11/hasCompanion``,
+* Invalid type at ``#/2listings/12products/0``,
+* Unexpected property at ``#/2listings/12/attribution``,
+* Unexpected property at ``#/2listings/12/collabUserId``,
+* Unexpected property at ``#/2listings/12/hasCompanion``,
+* Invalid type at ``#/2listings/13products/0``,
+* Unexpected property at ``#/2listings/13/attribution``,
+* Unexpected property at ``#/2listings/13/collabUserId``,
+* Unexpected property at ``#/2listings/13/hasCompanion``,
 * Unexpected property at ``#/2/shelfBackgroundImageId``,
 * Unexpected property at ``#/2/shelfIconImageId``,
 * Unexpected property at ``#/2/shelfTabBackgroundImageId``.
@@ -1159,6 +1167,8 @@ Response schema mismatch:
   {
     "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
     "listingIds": [
+      "prod_52730c7d-d9d8-4e3f-abcb-f3c9996d2ef8",
+      "prod_3e844138-523c-4477-820f-c49dcc9eb950",
       "prod_84285ff2-6bfb-416f-84d6-371bb6a19349",
       "prod_787b6819-6e4d-469a-8bdb-37951af5367c",
       "prod_171a3ca5-23d6-48ca-8543-9fd561840cab",
@@ -1173,6 +1183,100 @@ Response schema mismatch:
       "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4"
     ],
     "listings": [
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Nae the Loud",
+            "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "It’s a big ol’ vinyl tube. It’ll keep you buoyant. Swimming? Nah, too much effort. It’s time to float. This is an Accessory! You can customize it by adjusting its size and style. Wear it around your waist… or anywhere else.\n\nIt looks like a donut, but that doesn’t mean you should try to stick it in your mouth. Steve. I saw what you did. \n",
+        "displayName": "Pool Tube",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasUdon": false,
+        "id": "prod_52730c7d-d9d8-4e3f-abcb-f3c9996d2ef8",
+        "imageId": "file_3eb24f43-4fc0-408b-9a98-51a61921d7ae",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 800,
+        "productIds": [
+          "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 720,
+        "whenToExpire": "2026-08-07T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Nae the Loud",
+            "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "It’s big. It’s floppy. It provides some degree of UV protection. What beach trip is complete without someone slapping on a hat that’s five times the size of their head? This is an Accessory! You can customize it by adjusting its size and style. You can even add a ribbon.\n\nSo floppy, no one can see your eyes.\n",
+        "displayName": "Big ol’ Floppy Beach Hat",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasUdon": false,
+        "id": "prod_3e844138-523c-4477-820f-c49dcc9eb950",
+        "imageId": "file_6ccc54d3-b4c2-4138-b08a-f06a1d7d7b58",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1200,
+        "productIds": [
+          "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
+        ],
+        "productType": "listing",
+        "products": [
+          "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 1080,
+        "whenToExpire": "2026-08-07T21:00:00.000Z"
+      },
       {
         "active": true,
         "attribution": {
@@ -1748,7 +1852,7 @@ Response schema mismatch:
     "shelfLayout": "col5",
     "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
     "shelfTitle": "New Accessories",
-    "updatedAt": "2026-05-22T21:03:30.093Z"
+    "updatedAt": "2026-06-08T20:01:49.758Z"
   }
 ]
 ```
