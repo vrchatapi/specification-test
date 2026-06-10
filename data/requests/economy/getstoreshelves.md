@@ -50,6 +50,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0listings/7/hasCompanion``,
 * Invalid type at ``#/0listings/8products/0``,
 * Unexpected property at ``#/0listings/8/attribution``,
+* Unexpected property at ``#/0listings/8/collabUserDisplayName``,
 * Unexpected property at ``#/0listings/8/collabUserId``,
 * Unexpected property at ``#/0listings/8/hasCompanion``,
 * Unexpected property at ``#/0/shelfBackgroundImageId``,
@@ -643,7 +644,8 @@ Response schema mismatch:
           }
         },
         "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
+        "collabUserDisplayName": "Shyaong",
+        "collabUserId": "usr_957186b2-2d99-4e1d-8271-d191554466a1",
         "description": "This crustacean is having a good time. He’s happy. You could say, uh, he’s raving. Maybe. Do crabs rave? I’m not really sure, but there’s only one way to find out. This is an Animated Sticker! \n\nVRCrab when????????\n",
         "displayName": "Party Crab",
         "duration": null,
