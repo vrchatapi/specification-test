@@ -5,10 +5,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "ava --serial",
-    "fast-fail": "ava --serial --fail-fast",
+    "test": "ava",
+    "fast-fail": "ava --fail-fast",
     "type-check": "tsc --noEmit",
-    "test:clean": "pwsh ./scripts/clean.ps1"
+    "test:clean": "pwsh ./scripts/clean.ps1",
+    "get-spec": "pwsh ./scripts/get-spec.ps1"
   },
   "keywords": [],
   "author": "",
