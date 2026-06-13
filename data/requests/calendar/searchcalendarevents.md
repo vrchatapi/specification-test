@@ -263,24 +263,6 @@
     },
     {
       "accessType": "public",
-      "category": "other",
-      "deletedAt": null,
-      "description": "Come join‚ meet new friends‚ and enjoy the vibesǃ Each game will be chosen by you all‚ so your picks drive the funǃ See you tonightǃ",
-      "endsAt": "2027-05-20T12:00:00.000Z",
-      "featured": false,
-      "id": "cal_4cbef374-232f-4e6c-bf28-3042719f3a62",
-      "imageId": null,
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_0d81bcd5-c7cb-4fc4-9f5f-fc36eb48e292",
-      "platforms": [],
-      "startsAt": "2027-05-20T01:00:00.000Z",
-      "tags": [],
-      "title": "Game Nights",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
       "description": "Come join for chill games and fun",
@@ -556,8 +538,27 @@
       "tags": [],
       "title": "DND Game",
       "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "GAMES GAMES GAMESǃǃǃǃǃ",
+      "endsAt": "2027-05-14T03:00:00.000Z",
+      "featured": false,
+      "id": "cal_f58cbcd4-9ea3-44bc-b874-2062aba67c96",
+      "imageId": "file_08db7953-f76a-4ecd-8374-2fa9633e79ff",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_08db7953-f76a-4ecd-8374-2fa9633e79ff/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_015e4b7b-34b8-4931-94b0-0078e96ba4cc",
+      "platforms": [],
+      "startsAt": "2027-05-13T23:00:00.000Z",
+      "tags": [],
+      "title": "Game Night",
+      "type": "event"
     }
   ],
-  "totalCount": 7250
+  "totalCount": 7256
 }
 ```

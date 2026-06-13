@@ -57,7 +57,7 @@ Response schema mismatch:
       "isArchived": false,
       "isSeen": false,
       "itemType": "prop",
-      "itemTypeLabel": "Prop",
+      "itemTypeLabel": "Item",
       "last_equipped": {},
       "metadata": {
         "animated": false,
@@ -97,7 +97,7 @@ Response schema mismatch:
       "isArchived": false,
       "isSeen": false,
       "itemType": "prop",
-      "itemTypeLabel": "Prop",
+      "itemTypeLabel": "Item",
       "last_equipped": {},
       "metadata": {
         "animated": false,

@@ -1,5 +1,9 @@
 # getGroupInvites
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0user/currentAvatarImageUrl``,
+* Unexpected property at ``#/0user/userIcon``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/groups/<unstable>/invites`
 
@@ -45,12 +49,14 @@
     "membershipStatus": "invited",
     "roleIds": [],
     "user": {
+      "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
       "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
       "displayName": "b9ce75b4dc299",
       "iconUrl": "",
       "id": "usr_9e10ea3e-8115-4b51-9076-b1792215d57e",
       "profilePicOverride": "",
-      "thumbnailUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256"
+      "thumbnailUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+      "userIcon": ""
     },
     "userId": "usr_9e10ea3e-8115-4b51-9076-b1792215d57e",
     "visibility": "visible"

@@ -1,5 +1,13 @@
 # getInventoryDrops
 
+## Issues
+Response schema mismatch:
+* Missing property at ``#/0/status``,
+* Unexpected property at ``#/0/dropStatus``,
+* Missing property at ``#/1/status``,
+* Unexpected property at ``#/1/dropStatus``,
+* Missing property at ``#/2/status``,
+* Unexpected property at ``#/2/dropStatus``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory/drops`
 
@@ -31,6 +39,7 @@
     "authorId": "usr_cd1b4a36-29ac-4bc9-aa5a-76b180338768",
     "created_at": "2026-05-29T16:02:44.922Z",
     "dropExpiryDate": "2026-07-01T07:00:00.000Z",
+    "dropStatus": "active",
     "endDropDate": "2026-07-01T07:00:00.000Z",
     "id": "invd_1c7ed750-a4e4-45a4-b25d-746a05adcda8",
     "isDisabled": false,
@@ -41,7 +50,6 @@
       "title": "You have a new bundle to open!"
     },
     "startDropDate": "2026-06-01T20:00:00.000Z",
-    "status": "active",
     "tags": [],
     "targetGroup": "everyone",
     "templateIds": [
@@ -53,6 +61,7 @@
     "authorId": "usr_cd1b4a36-29ac-4bc9-aa5a-76b180338768",
     "created_at": "2026-05-29T16:32:38.202Z",
     "dropExpiryDate": "2026-08-01T07:00:00.000Z",
+    "dropStatus": "active",
     "endDropDate": "2026-08-01T07:00:00.000Z",
     "id": "invd_278236c5-22c9-4254-83c8-989e41a10c8b",
     "isDisabled": false,
@@ -63,7 +72,6 @@
       "title": "You have a new bundle to open!"
     },
     "startDropDate": "2026-06-01T20:00:00.000Z",
-    "status": "active",
     "tags": [],
     "targetGroup": "everyone",
     "templateIds": [
@@ -75,6 +83,7 @@
     "authorId": "usr_cd1b4a36-29ac-4bc9-aa5a-76b180338768",
     "created_at": "2026-06-04T19:28:45.305Z",
     "dropExpiryDate": "2026-07-01T21:00:00.000Z",
+    "dropStatus": "active",
     "endDropDate": "2026-07-01T21:00:00.000Z",
     "id": "invd_51d7ea8b-e075-47ef-86b9-db73ee81b88e",
     "isDisabled": false,
@@ -85,7 +94,6 @@
       "title": "June VRC+ Content Drop!"
     },
     "startDropDate": "2026-06-05T21:00:00.000Z",
-    "status": "active",
     "tags": [],
     "targetGroup": "vrc+",
     "templateIds": [

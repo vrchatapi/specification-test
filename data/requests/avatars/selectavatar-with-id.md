@@ -4,7 +4,14 @@
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
 * Unexpected property at ``#/appleId``,
-* Unexpected property at ``#/completedTutorials``.
+* Unexpected property at ``#/bannerColor``,
+* Unexpected property at ``#/bannerType``,
+* Unexpected property at ``#/completedTutorials``,
+* Unexpected property at ``#/iconFrame``,
+* Unexpected property at ``#/iconUrl``,
+* Unexpected property at ``#/isEconomyCreator``,
+* Unexpected property at ``#/nameplateEffect``,
+* Unexpected property at ``#/profileEffect``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_26187637-0c30-4a09-86e1-bc928c07309e/select`
 
@@ -40,6 +47,8 @@ Response schema mismatch:
   "allowAvatarCopying": true,
   "appleDetails": {},
   "appleId": "",
+  "bannerColor": "c9c92c",
+  "bannerType": "color",
   "bio": "",
   "bioLinks": [],
   "completedTutorials": [
@@ -69,20 +78,25 @@ Response schema mismatch:
   "hasPendingEmail": false,
   "hideContentFilterSettings": false,
   "homeLocation": "",
+  "iconFrame": "",
+  "iconUrl": "https://api.vrchat.cloud/api/1/image/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/256",
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "isAdult": true,
   "isBoopingEnabled": true,
+  "isEconomyCreator": false,
   "isFriend": false,
   "last_activity": "<unstable: string>",
   "last_login": "<unstable: string>",
   "last_mobile": null,
   "last_platform": "standalonewindows",
+  "nameplateEffect": "",
   "obfuscatedEmail": "<redacted>",
   "obfuscatedPendingEmail": "",
   "oculusId": "",
   "pastDisplayNames": [],
   "picoId": "",
   "platform_history": "<unstable: empty array>",
+  "profileEffect": "",
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",

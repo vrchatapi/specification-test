@@ -4,7 +4,14 @@
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
 * Unexpected property at ``#/appleId``,
-* Unexpected property at ``#/completedTutorials``.
+* Unexpected property at ``#/bannerColor``,
+* Unexpected property at ``#/bannerType``,
+* Unexpected property at ``#/completedTutorials``,
+* Unexpected property at ``#/iconFrame``,
+* Unexpected property at ``#/iconUrl``,
+* Unexpected property at ``#/isEconomyCreator``,
+* Unexpected property at ``#/nameplateEffect``,
+* Unexpected property at ``#/profileEffect``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -77,6 +84,8 @@ Response schema mismatch:
       "updatedAt": "2025-07-23T01:20:00.282Z"
     }
   ],
+  "bannerColor": "c9c92c",
+  "bannerType": "color",
   "bio": "",
   "bioLinks": [],
   "completedTutorials": [
@@ -106,14 +115,18 @@ Response schema mismatch:
   "hasPendingEmail": false,
   "hideContentFilterSettings": false,
   "homeLocation": "",
+  "iconFrame": "",
+  "iconUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "isAdult": true,
   "isBoopingEnabled": true,
+  "isEconomyCreator": false,
   "isFriend": false,
   "last_activity": "<unstable: string>",
   "last_login": "<unstable: string>",
   "last_mobile": null,
   "last_platform": "standalonewindows",
+  "nameplateEffect": "",
   "obfuscatedEmail": "<redacted>",
   "obfuscatedPendingEmail": "",
   "oculusId": "",
@@ -135,6 +148,7 @@ Response schema mismatch:
     "travelingToWorld": "offline",
     "world": "offline"
   },
+  "profileEffect": "",
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",

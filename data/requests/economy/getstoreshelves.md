@@ -15,44 +15,64 @@ Response schema mismatch:
 * Unexpected property at ``#/0highlightListing/attribution``,
 * Unexpected property at ``#/0highlightListing/collabUserId``,
 * Unexpected property at ``#/0highlightListing/hasCompanion``,
+* Unexpected property at ``#/0highlightListing/hasInventory``,
+* Unexpected property at ``#/0highlightListing/productTypes``,
 * Invalid type at ``#/0listings/0products/0``,
 * Unexpected property at ``#/0listings/0/attribution``,
 * Unexpected property at ``#/0listings/0/collabUserId``,
 * Unexpected property at ``#/0listings/0/hasCompanion``,
+* Unexpected property at ``#/0listings/0/hasInventory``,
+* Unexpected property at ``#/0listings/0/productTypes``,
 * Invalid type at ``#/0listings/1products/0``,
 * Unexpected property at ``#/0listings/1/attribution``,
 * Unexpected property at ``#/0listings/1/collabUserId``,
 * Unexpected property at ``#/0listings/1/hasCompanion``,
+* Unexpected property at ``#/0listings/1/hasInventory``,
+* Unexpected property at ``#/0listings/1/productTypes``,
 * Invalid type at ``#/0listings/2products/0``,
 * Unexpected property at ``#/0listings/2/attribution``,
 * Unexpected property at ``#/0listings/2/collabUserId``,
 * Unexpected property at ``#/0listings/2/hasCompanion``,
+* Unexpected property at ``#/0listings/2/hasInventory``,
+* Unexpected property at ``#/0listings/2/productTypes``,
 * Invalid type at ``#/0listings/3products/0``,
 * Unexpected property at ``#/0listings/3/attribution``,
 * Unexpected property at ``#/0listings/3/collabUserId``,
 * Unexpected property at ``#/0listings/3/hasCompanion``,
+* Unexpected property at ``#/0listings/3/hasInventory``,
+* Unexpected property at ``#/0listings/3/productTypes``,
 * Invalid type at ``#/0listings/4products/0``,
 * Unexpected property at ``#/0listings/4/attribution``,
 * Unexpected property at ``#/0listings/4/collabUserId``,
 * Unexpected property at ``#/0listings/4/hasCompanion``,
+* Unexpected property at ``#/0listings/4/hasInventory``,
+* Unexpected property at ``#/0listings/4/productTypes``,
 * Invalid type at ``#/0listings/5products/0``,
 * Unexpected property at ``#/0listings/5/attribution``,
 * Unexpected property at ``#/0listings/5/collabUserId``,
 * Unexpected property at ``#/0listings/5/hasCompanion``,
+* Unexpected property at ``#/0listings/5/hasInventory``,
+* Unexpected property at ``#/0listings/5/productTypes``,
 * Invalid type at ``#/0listings/6products/0``,
 * Unexpected property at ``#/0listings/6/attribution``,
 * Unexpected property at ``#/0listings/6/collabUserId``,
 * Unexpected property at ``#/0listings/6/hasCompanion``,
+* Unexpected property at ``#/0listings/6/hasInventory``,
+* Unexpected property at ``#/0listings/6/productTypes``,
 * Invalid type at ``#/0listings/7products/0``,
 * Invalid type at ``#/0listings/7products/1``,
 * Unexpected property at ``#/0listings/7/attribution``,
 * Unexpected property at ``#/0listings/7/collabUserId``,
 * Unexpected property at ``#/0listings/7/hasCompanion``,
+* Unexpected property at ``#/0listings/7/hasInventory``,
+* Unexpected property at ``#/0listings/7/productTypes``,
 * Invalid type at ``#/0listings/8products/0``,
 * Unexpected property at ``#/0listings/8/attribution``,
 * Unexpected property at ``#/0listings/8/collabUserDisplayName``,
 * Unexpected property at ``#/0listings/8/collabUserId``,
 * Unexpected property at ``#/0listings/8/hasCompanion``,
+* Unexpected property at ``#/0listings/8/hasInventory``,
+* Unexpected property at ``#/0listings/8/productTypes``,
 * Unexpected property at ``#/0/shelfBackgroundImageId``,
 * Unexpected property at ``#/0/shelfIconImageId``,
 * Unexpected property at ``#/0/shelfTabBackgroundImageId``,
@@ -69,43 +89,63 @@ Response schema mismatch:
 * Unexpected property at ``#/1highlightListing/attribution``,
 * Unexpected property at ``#/1highlightListing/collabUserId``,
 * Unexpected property at ``#/1highlightListing/hasCompanion``,
+* Unexpected property at ``#/1highlightListing/hasInventory``,
+* Unexpected property at ``#/1highlightListing/productTypes``,
 * Invalid type at ``#/1listings/0products/0``,
 * Unexpected property at ``#/1listings/0/attribution``,
 * Unexpected property at ``#/1listings/0/collabUserId``,
 * Unexpected property at ``#/1listings/0/hasCompanion``,
+* Unexpected property at ``#/1listings/0/hasInventory``,
+* Unexpected property at ``#/1listings/0/productTypes``,
 * Invalid type at ``#/1listings/1products/0``,
 * Unexpected property at ``#/1listings/1/attribution``,
 * Unexpected property at ``#/1listings/1/collabUserId``,
 * Unexpected property at ``#/1listings/1/hasCompanion``,
+* Unexpected property at ``#/1listings/1/hasInventory``,
+* Unexpected property at ``#/1listings/1/productTypes``,
 * Invalid type at ``#/1listings/2products/0``,
 * Unexpected property at ``#/1listings/2/attribution``,
 * Unexpected property at ``#/1listings/2/collabUserId``,
 * Unexpected property at ``#/1listings/2/hasCompanion``,
+* Unexpected property at ``#/1listings/2/hasInventory``,
+* Unexpected property at ``#/1listings/2/productTypes``,
 * Invalid type at ``#/1listings/3products/0``,
 * Unexpected property at ``#/1listings/3/attribution``,
 * Unexpected property at ``#/1listings/3/collabUserId``,
 * Unexpected property at ``#/1listings/3/hasCompanion``,
+* Unexpected property at ``#/1listings/3/hasInventory``,
+* Unexpected property at ``#/1listings/3/productTypes``,
 * Invalid type at ``#/1listings/4products/0``,
 * Unexpected property at ``#/1listings/4/attribution``,
 * Unexpected property at ``#/1listings/4/collabUserId``,
 * Unexpected property at ``#/1listings/4/hasCompanion``,
+* Unexpected property at ``#/1listings/4/hasInventory``,
+* Unexpected property at ``#/1listings/4/productTypes``,
 * Invalid type at ``#/1listings/5products/0``,
 * Unexpected property at ``#/1listings/5/attribution``,
 * Unexpected property at ``#/1listings/5/collabUserId``,
 * Unexpected property at ``#/1listings/5/hasCompanion``,
+* Unexpected property at ``#/1listings/5/hasInventory``,
+* Unexpected property at ``#/1listings/5/productTypes``,
 * Invalid type at ``#/1listings/6products/0``,
 * Unexpected property at ``#/1listings/6/attribution``,
 * Unexpected property at ``#/1listings/6/collabUserId``,
 * Unexpected property at ``#/1listings/6/hasCompanion``,
+* Unexpected property at ``#/1listings/6/hasInventory``,
+* Unexpected property at ``#/1listings/6/productTypes``,
 * Invalid type at ``#/1listings/7products/0``,
 * Invalid type at ``#/1listings/7products/1``,
 * Unexpected property at ``#/1listings/7/attribution``,
 * Unexpected property at ``#/1listings/7/collabUserId``,
 * Unexpected property at ``#/1listings/7/hasCompanion``,
+* Unexpected property at ``#/1listings/7/hasInventory``,
+* Unexpected property at ``#/1listings/7/productTypes``,
 * Invalid type at ``#/1listings/8products/0``,
 * Unexpected property at ``#/1listings/8/attribution``,
 * Unexpected property at ``#/1listings/8/collabUserId``,
 * Unexpected property at ``#/1listings/8/hasCompanion``,
+* Unexpected property at ``#/1listings/8/hasInventory``,
+* Unexpected property at ``#/1listings/8/productTypes``,
 * Unexpected property at ``#/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/1/shelfIconImageId``,
 * Unexpected property at ``#/1/shelfTabBackgroundImageId``,
@@ -113,10 +153,14 @@ Response schema mismatch:
 * Unexpected property at ``#/2listings/0/attribution``,
 * Unexpected property at ``#/2listings/0/collabUserId``,
 * Unexpected property at ``#/2listings/0/hasCompanion``,
+* Unexpected property at ``#/2listings/0/hasInventory``,
+* Unexpected property at ``#/2listings/0/productTypes``,
 * Invalid type at ``#/2listings/1products/0``,
 * Unexpected property at ``#/2listings/1/attribution``,
 * Unexpected property at ``#/2listings/1/collabUserId``,
 * Unexpected property at ``#/2listings/1/hasCompanion``,
+* Unexpected property at ``#/2listings/1/hasInventory``,
+* Unexpected property at ``#/2listings/1/productTypes``,
 * Invalid type at ``#/2listings/2products/0``,
 * Invalid type at ``#/2listings/2products/1``,
 * Invalid type at ``#/2listings/2products/2``,
@@ -124,6 +168,8 @@ Response schema mismatch:
 * Unexpected property at ``#/2listings/2/attribution``,
 * Unexpected property at ``#/2listings/2/collabUserId``,
 * Unexpected property at ``#/2listings/2/hasCompanion``,
+* Unexpected property at ``#/2listings/2/hasInventory``,
+* Unexpected property at ``#/2listings/2/productTypes``,
 * Invalid type at ``#/2listings/3products/0``,
 * Invalid type at ``#/2listings/3products/1``,
 * Invalid type at ``#/2listings/3products/2``,
@@ -131,46 +177,68 @@ Response schema mismatch:
 * Unexpected property at ``#/2listings/3/attribution``,
 * Unexpected property at ``#/2listings/3/collabUserId``,
 * Unexpected property at ``#/2listings/3/hasCompanion``,
+* Unexpected property at ``#/2listings/3/hasInventory``,
+* Unexpected property at ``#/2listings/3/productTypes``,
 * Invalid type at ``#/2listings/4products/0``,
 * Unexpected property at ``#/2listings/4/attribution``,
 * Unexpected property at ``#/2listings/4/collabUserId``,
 * Unexpected property at ``#/2listings/4/hasCompanion``,
+* Unexpected property at ``#/2listings/4/hasInventory``,
+* Unexpected property at ``#/2listings/4/productTypes``,
 * Invalid type at ``#/2listings/5products/0``,
 * Unexpected property at ``#/2listings/5/attribution``,
 * Unexpected property at ``#/2listings/5/collabUserId``,
 * Unexpected property at ``#/2listings/5/hasCompanion``,
+* Unexpected property at ``#/2listings/5/hasInventory``,
+* Unexpected property at ``#/2listings/5/productTypes``,
 * Invalid type at ``#/2listings/6products/0``,
 * Unexpected property at ``#/2listings/6/attribution``,
 * Unexpected property at ``#/2listings/6/collabUserId``,
 * Unexpected property at ``#/2listings/6/hasCompanion``,
+* Unexpected property at ``#/2listings/6/hasInventory``,
+* Unexpected property at ``#/2listings/6/productTypes``,
 * Invalid type at ``#/2listings/7products/0``,
 * Unexpected property at ``#/2listings/7/attribution``,
 * Unexpected property at ``#/2listings/7/collabUserId``,
 * Unexpected property at ``#/2listings/7/hasCompanion``,
+* Unexpected property at ``#/2listings/7/hasInventory``,
+* Unexpected property at ``#/2listings/7/productTypes``,
 * Invalid type at ``#/2listings/8products/0``,
 * Unexpected property at ``#/2listings/8/attribution``,
 * Unexpected property at ``#/2listings/8/collabUserId``,
 * Unexpected property at ``#/2listings/8/hasCompanion``,
+* Unexpected property at ``#/2listings/8/hasInventory``,
+* Unexpected property at ``#/2listings/8/productTypes``,
 * Invalid type at ``#/2listings/9products/0``,
 * Unexpected property at ``#/2listings/9/attribution``,
 * Unexpected property at ``#/2listings/9/collabUserId``,
 * Unexpected property at ``#/2listings/9/hasCompanion``,
+* Unexpected property at ``#/2listings/9/hasInventory``,
+* Unexpected property at ``#/2listings/9/productTypes``,
 * Invalid type at ``#/2listings/10products/0``,
 * Unexpected property at ``#/2listings/10/attribution``,
 * Unexpected property at ``#/2listings/10/collabUserId``,
 * Unexpected property at ``#/2listings/10/hasCompanion``,
+* Unexpected property at ``#/2listings/10/hasInventory``,
+* Unexpected property at ``#/2listings/10/productTypes``,
 * Invalid type at ``#/2listings/11products/0``,
 * Unexpected property at ``#/2listings/11/attribution``,
 * Unexpected property at ``#/2listings/11/collabUserId``,
 * Unexpected property at ``#/2listings/11/hasCompanion``,
+* Unexpected property at ``#/2listings/11/hasInventory``,
+* Unexpected property at ``#/2listings/11/productTypes``,
 * Invalid type at ``#/2listings/12products/0``,
 * Unexpected property at ``#/2listings/12/attribution``,
 * Unexpected property at ``#/2listings/12/collabUserId``,
 * Unexpected property at ``#/2listings/12/hasCompanion``,
+* Unexpected property at ``#/2listings/12/hasInventory``,
+* Unexpected property at ``#/2listings/12/productTypes``,
 * Invalid type at ``#/2listings/13products/0``,
 * Unexpected property at ``#/2listings/13/attribution``,
 * Unexpected property at ``#/2listings/13/collabUserId``,
 * Unexpected property at ``#/2listings/13/hasCompanion``,
+* Unexpected property at ``#/2listings/13/hasInventory``,
+* Unexpected property at ``#/2listings/13/productTypes``,
 * Unexpected property at ``#/2/shelfBackgroundImageId``,
 * Unexpected property at ``#/2/shelfIconImageId``,
 * Unexpected property at ``#/2/shelfTabBackgroundImageId``.
@@ -218,6 +286,7 @@ Response schema mismatch:
       "durationType": null,
       "hasAvatar": false,
       "hasCompanion": false,
+      "hasInventory": true,
       "hasUdon": false,
       "id": "prod_9d973a59-4a90-4fbf-bb42-febd4708c898",
       "imageId": "file_27978058-abfc-40b8-ba1a-f71ec8d47f7a",
@@ -237,6 +306,16 @@ Response schema mismatch:
         "prod_2e9e03b2-9090-44fc-b027-ca41ad9d3bfa"
       ],
       "productType": "listing",
+      "productTypes": [
+        "inventory",
+        "portalskin",
+        "warpeffect",
+        "loadingscreen",
+        "prop",
+        "accessory",
+        "emoji",
+        "sticker"
+      ],
       "products": [
         "prod_99efff72-23e7-43b4-8e70-00ee70f43909",
         "prod_960b3726-c164-45fb-ae65-66cd5658c6bc",
@@ -293,6 +372,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_38aca527-66f5-4b58-be34-f872b65d59db",
         "imageId": "file_465b77bb-4d7a-466f-860b-27ee202f0eb0",
@@ -303,6 +383,10 @@ Response schema mismatch:
           "prod_99efff72-23e7-43b4-8e70-00ee70f43909"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "portalskin"
+        ],
         "products": [
           "prod_99efff72-23e7-43b4-8e70-00ee70f43909"
         ],
@@ -336,6 +420,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_bef711ff-9811-4499-a5cf-603a1cfb2499",
         "imageId": "file_93ce496f-f558-4c29-91be-b2c244b18eae",
@@ -346,6 +431,10 @@ Response schema mismatch:
           "prod_d14e9971-1ee8-464a-9abc-1c8662c21f0e"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "loadingscreen"
+        ],
         "products": [
           "prod_d14e9971-1ee8-464a-9abc-1c8662c21f0e"
         ],
@@ -379,6 +468,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_9af6098e-53b7-4aaa-984c-3df94e5383d6",
         "imageId": "file_86c744bb-01ca-48b8-bf0c-64c1d7d331e2",
@@ -389,6 +479,10 @@ Response schema mismatch:
           "prod_960b3726-c164-45fb-ae65-66cd5658c6bc"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "warpeffect"
+        ],
         "products": [
           "prod_960b3726-c164-45fb-ae65-66cd5658c6bc"
         ],
@@ -426,6 +520,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_3e844138-523c-4477-820f-c49dcc9eb950",
         "imageId": "file_6ccc54d3-b4c2-4138-b08a-f06a1d7d7b58",
@@ -436,6 +531,10 @@ Response schema mismatch:
           "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
         ],
@@ -473,6 +572,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_52730c7d-d9d8-4e3f-abcb-f3c9996d2ef8",
         "imageId": "file_3eb24f43-4fc0-408b-9a98-51a61921d7ae",
@@ -483,6 +583,10 @@ Response schema mismatch:
           "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
         ],
@@ -516,6 +620,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_3c6671a5-aa8c-4e4a-b775-da7bb3b8c5e7",
         "imageId": "file_20bc75b1-b0f8-4707-967d-8de1ed98c2c9",
@@ -526,6 +631,10 @@ Response schema mismatch:
           "prod_11653d0d-ef5a-4d85-a0cf-7271541c2835"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
         "products": [
           "prod_11653d0d-ef5a-4d85-a0cf-7271541c2835"
         ],
@@ -559,6 +668,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_d294d63a-7470-4c1d-bd7d-3692cc823d70",
         "imageId": "file_08177550-3249-4288-b59a-d59069d2bc3e",
@@ -569,6 +679,10 @@ Response schema mismatch:
           "prod_70d4e263-bfc5-45bd-8c04-5cbc1ad81e99"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
         "products": [
           "prod_70d4e263-bfc5-45bd-8c04-5cbc1ad81e99"
         ],
@@ -602,6 +716,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_81013f25-5771-492e-b2f0-d75f25b3e6f1",
         "imageId": "file_509ef94d-3b50-4f52-bf13-310cc03c328d",
@@ -613,6 +728,10 @@ Response schema mismatch:
           "prod_169fb94a-4fce-46f3-9378-ad51bfc674ec"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "emoji"
+        ],
         "products": [
           "prod_2e9e03b2-9090-44fc-b027-ca41ad9d3bfa",
           "prod_169fb94a-4fce-46f3-9378-ad51bfc674ec"
@@ -652,6 +771,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_27b0f5e3-d113-4720-9efd-92b01b7bf14c",
         "imageId": "file_bac25eb3-dae8-4b0a-a47a-e08049334896",
@@ -662,6 +782,10 @@ Response schema mismatch:
           "prod_257c9f7a-9750-42d2-ae9d-d9b69dd342db"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "sticker"
+        ],
         "products": [
           "prod_257c9f7a-9750-42d2-ae9d-d9b69dd342db"
         ],
@@ -705,6 +829,7 @@ Response schema mismatch:
       "durationType": null,
       "hasAvatar": false,
       "hasCompanion": false,
+      "hasInventory": true,
       "hasUdon": false,
       "id": "prod_0864f02b-5589-4318-a244-150ebf5d4585",
       "imageId": "file_b0d4c61c-4eba-4062-93b4-6607bdaddca4",
@@ -724,6 +849,16 @@ Response schema mismatch:
         "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
       ],
       "productType": "listing",
+      "productTypes": [
+        "inventory",
+        "loadingscreen",
+        "accessory",
+        "warpeffect",
+        "prop",
+        "sticker",
+        "emoji",
+        "portalskin"
+      ],
       "products": [
         "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8",
         "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371",
@@ -780,6 +915,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_79e94e22-a75f-4a4e-8c52-40a0e6d488e0",
         "imageId": "file_54700687-b897-4ff0-a7b5-42237259e4be",
@@ -790,6 +926,10 @@ Response schema mismatch:
           "prod_5cddd474-b0c8-4973-9373-adfc804eac81"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
         "products": [
           "prod_5cddd474-b0c8-4973-9373-adfc804eac81"
         ],
@@ -823,6 +963,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_398c9e29-4ac4-44fb-ab13-2d5c72a09beb",
         "imageId": "file_3064ab1d-0ae2-4893-980a-75cd35c6fd38",
@@ -833,6 +974,10 @@ Response schema mismatch:
           "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
         "products": [
           "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee"
         ],
@@ -866,6 +1011,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_9dc3a45f-9c18-4d32-9310-be867fb7ff3c",
         "imageId": "file_908ceeeb-2f8c-4d76-bca5-34f0a13ede8d",
@@ -876,6 +1022,10 @@ Response schema mismatch:
           "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "portalskin"
+        ],
         "products": [
           "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
         ],
@@ -909,6 +1059,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_0a4a38d8-ee74-4b64-80ca-da224bbe3cff",
         "imageId": "file_94231dcc-2e8f-4213-8910-e466e4cd6e81",
@@ -919,6 +1070,10 @@ Response schema mismatch:
           "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "loadingscreen"
+        ],
         "products": [
           "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8"
         ],
@@ -952,6 +1107,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_3b097c94-bc8c-46cf-9895-b67fa9fd1af4",
         "imageId": "file_65573639-d3bf-443f-9f88-d0aa804011e1",
@@ -962,6 +1118,10 @@ Response schema mismatch:
           "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "warpeffect"
+        ],
         "products": [
           "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7"
         ],
@@ -995,6 +1155,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
         "imageId": "file_0ffdcb55-e1fc-4995-9f9b-986b795c63a8",
@@ -1005,6 +1166,10 @@ Response schema mismatch:
           "prod_57e0970c-ec7e-44de-8054-23433d555e80"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_57e0970c-ec7e-44de-8054-23433d555e80"
         ],
@@ -1038,6 +1203,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
         "imageId": "file_a9cfa683-8413-43d6-9c3e-b3e6bd0b4cfb",
@@ -1048,6 +1214,10 @@ Response schema mismatch:
           "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
         ],
@@ -1081,6 +1251,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_5b67ca9e-dc6c-4b07-90e6-ee7ca9a1aa57",
         "imageId": "file_2dee8293-9603-4860-b9fa-d8ceb27b1a6f",
@@ -1092,6 +1263,10 @@ Response schema mismatch:
           "prod_e5075309-a328-4d5e-b035-67b96f669d81"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "emoji"
+        ],
         "products": [
           "prod_4847436f-ead9-48cc-9538-81a0a99d8ff9",
           "prod_e5075309-a328-4d5e-b035-67b96f669d81"
@@ -1130,6 +1305,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_74ff20c9-be78-42db-9f68-ef239c384709",
         "imageId": "file_c48f5b77-1262-4c04-b1f4-22aebe42c5f2",
@@ -1140,6 +1316,10 @@ Response schema mismatch:
           "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "sticker"
+        ],
         "products": [
           "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503"
         ],
@@ -1205,6 +1385,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_52730c7d-d9d8-4e3f-abcb-f3c9996d2ef8",
         "imageId": "file_3eb24f43-4fc0-408b-9a98-51a61921d7ae",
@@ -1215,6 +1396,10 @@ Response schema mismatch:
           "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
         ],
@@ -1252,6 +1437,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_3e844138-523c-4477-820f-c49dcc9eb950",
         "imageId": "file_6ccc54d3-b4c2-4138-b08a-f06a1d7d7b58",
@@ -1262,6 +1448,10 @@ Response schema mismatch:
           "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
         ],
@@ -1299,6 +1489,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_84285ff2-6bfb-416f-84d6-371bb6a19349",
         "imageId": "file_fb55b295-083a-44fe-b46f-bca42a559b5b",
@@ -1312,6 +1503,10 @@ Response schema mismatch:
           "prod_b02329b1-bd2b-4c85-983c-75b481c45a91"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_67e3a5d3-f570-4096-83af-e7f190e1aad0",
           "prod_780867a2-6078-40c9-a501-13eb19b26e79",
@@ -1352,6 +1547,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_787b6819-6e4d-469a-8bdb-37951af5367c",
         "imageId": "file_56668286-bd70-4b41-99cb-2a908de4b790",
@@ -1365,6 +1561,10 @@ Response schema mismatch:
           "prod_d182ddc8-555c-4deb-a5c8-7df6e8043571"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_45da2861-7747-499e-8e94-9fe4712b2380",
           "prod_21cdfc8c-5109-4ea1-99a8-054771a19067",
@@ -1405,6 +1605,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_171a3ca5-23d6-48ca-8543-9fd561840cab",
         "imageId": "file_44d2e02b-18fb-4e66-8003-61c8370c8eb7",
@@ -1415,6 +1616,10 @@ Response schema mismatch:
           "prod_45da2861-7747-499e-8e94-9fe4712b2380"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_45da2861-7747-499e-8e94-9fe4712b2380"
         ],
@@ -1452,6 +1657,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_6856b2c9-435a-48fe-946c-24cbe381f361",
         "imageId": "file_66c7108c-6da7-4e6d-a6c4-071da70ca02a",
@@ -1462,6 +1668,10 @@ Response schema mismatch:
           "prod_085c623f-1245-4785-a492-77034206a41b"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_085c623f-1245-4785-a492-77034206a41b"
         ],
@@ -1499,6 +1709,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_690265fc-6874-430b-bd25-3773fbd57fb6",
         "imageId": "file_7c21b94d-cea1-4b4c-829c-1c497af7e59c",
@@ -1509,6 +1720,10 @@ Response schema mismatch:
           "prod_d182ddc8-555c-4deb-a5c8-7df6e8043571"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_d182ddc8-555c-4deb-a5c8-7df6e8043571"
         ],
@@ -1546,6 +1761,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_b4ce0e30-2ea2-4576-90b7-6be4f84819ce",
         "imageId": "file_ae75b609-5870-4738-af63-9d9448f72cd8",
@@ -1556,6 +1772,10 @@ Response schema mismatch:
           "prod_21cdfc8c-5109-4ea1-99a8-054771a19067"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_21cdfc8c-5109-4ea1-99a8-054771a19067"
         ],
@@ -1593,6 +1813,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_fe2f7714-1ca4-43cc-9be0-48b47ff94174",
         "imageId": "file_64be5247-4e0e-440d-b0b5-7c7d0500ac4b",
@@ -1603,6 +1824,10 @@ Response schema mismatch:
           "prod_b02329b1-bd2b-4c85-983c-75b481c45a91"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_b02329b1-bd2b-4c85-983c-75b481c45a91"
         ],
@@ -1640,6 +1865,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_ff52042c-b835-4a90-9e92-31f9c01830be",
         "imageId": "file_dec2271f-43c0-45ae-82e6-ee6a4ea86676",
@@ -1650,6 +1876,10 @@ Response schema mismatch:
           "prod_c488398f-8dbe-43ad-93a5-063d4bbf4f85"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_c488398f-8dbe-43ad-93a5-063d4bbf4f85"
         ],
@@ -1687,6 +1917,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_17c8d489-9094-4754-83db-1e7d1483620f",
         "imageId": "file_137ff7eb-696a-41a4-85ab-4e7938629cff",
@@ -1697,6 +1928,10 @@ Response schema mismatch:
           "prod_67e3a5d3-f570-4096-83af-e7f190e1aad0"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_67e3a5d3-f570-4096-83af-e7f190e1aad0"
         ],
@@ -1734,6 +1969,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_2ed0ef3a-2418-4086-8ed9-3a7e824db8f1",
         "imageId": "file_0e3a09ab-f482-4615-a8e5-62ac02ef2303",
@@ -1744,6 +1980,10 @@ Response schema mismatch:
           "prod_780867a2-6078-40c9-a501-13eb19b26e79"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_780867a2-6078-40c9-a501-13eb19b26e79"
         ],
@@ -1777,6 +2017,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
         "imageId": "file_0ffdcb55-e1fc-4995-9f9b-986b795c63a8",
@@ -1787,6 +2028,10 @@ Response schema mismatch:
           "prod_57e0970c-ec7e-44de-8054-23433d555e80"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_57e0970c-ec7e-44de-8054-23433d555e80"
         ],
@@ -1820,6 +2065,7 @@ Response schema mismatch:
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
+        "hasInventory": true,
         "hasUdon": false,
         "id": "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
         "imageId": "file_a9cfa683-8413-43d6-9c3e-b3e6bd0b4cfb",
@@ -1830,6 +2076,10 @@ Response schema mismatch:
           "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
         ],
         "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
         "products": [
           "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
         ],

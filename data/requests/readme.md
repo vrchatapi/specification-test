@@ -7,15 +7,17 @@
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
 * Unexpected property at ``#/appleId``,
-* Unexpected property at ``#/completedTutorials``.
+* Unexpected property at ``#/bannerColor``,
 
+*7 issues truncated.*
 #### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
 * Unexpected property at ``#/appleId``,
-* Unexpected property at ``#/completedTutorials``.
+* Unexpected property at ``#/bannerColor``,
 
+*7 issues truncated.*
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -58,8 +60,27 @@ Response schema mismatch:
 #### [getUser](/data/requests/users/getuser.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/badges/3/isQuantifiable``.
+* Unexpected property at ``#/badges/3/isQuantifiable``,
+* Unexpected property at ``#/bannerType``,
+* Unexpected property at ``#/bannerUrl``,
 
+*5 issues truncated.*
+#### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/bannerColor``,
+* Unexpected property at ``#/0/bannerType``,
+* Unexpected property at ``#/0/iconFrame``,
+
+*27 issues truncated.*
+#### [searchUsers](/data/requests/users/searchusers.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/bannerType``,
+* Unexpected property at ``#/0/bannerUrl``,
+* Unexpected property at ``#/0/iconFrame``,
+
+*57 issues truncated.*
 #### [updateUserNote](/data/requests/users/updateusernote.md)
 
 
@@ -67,12 +88,6 @@ Response schema mismatch:
 
 
 #### [searchUsers without parameters](/data/requests/users/searchusers-without-parameters.md)
-
-
-#### [searchUsers](/data/requests/users/searchusers.md)
-
-
-#### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
 
 
 #### [getUserFeedback](/data/requests/users/getuserfeedback.md)
@@ -92,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*6 issues truncated.*
+*4 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -129,7 +144,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*15 issues truncated.*
+*16 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -179,22 +194,25 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
 * Unexpected property at ``#/appleId``,
-* Unexpected property at ``#/completedTutorials``.
+* Unexpected property at ``#/bannerColor``,
 
+*7 issues truncated.*
 #### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
 * Unexpected property at ``#/appleId``,
-* Unexpected property at ``#/completedTutorials``.
+* Unexpected property at ``#/bannerColor``,
 
+*7 issues truncated.*
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/appleDetails``,
 * Unexpected property at ``#/appleId``,
-* Unexpected property at ``#/completedTutorials``.
+* Unexpected property at ``#/bannerColor``,
 
+*7 issues truncated.*
 #### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 Response schema mismatch:
@@ -270,7 +288,7 @@ Response schema mismatch:
 * Invalid type at ``#/0highlightListing/products/1``,
 * Invalid type at ``#/0highlightListing/products/2``,
 
-*169 issues truncated.*
+*237 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -278,7 +296,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0highlightListing/products/1``,
 * Invalid type at ``#/shelves/0highlightListing/products/2``,
 
-*169 issues truncated.*
+*237 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -297,7 +315,7 @@ Response schema mismatch:
 * Invalid type at ``#/products/1``,
 * Invalid type at ``#/products/2``,
 
-*8 issues truncated.*
+*10 issues truncated.*
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -418,8 +436,11 @@ Response schema mismatch:
 #### [getFriends](/data/requests/friends/getfriends.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0/discordId``.
+* Unexpected property at ``#/0/bannerColor``,
+* Unexpected property at ``#/0/bannerType``,
+* Unexpected property at ``#/0/discordId``,
 
+*4 issues truncated.*
 #### [getFriendStatus prior to friend request](/data/requests/friends/getfriendstatus-prior-to-friend-request.md)
 
 
@@ -439,6 +460,12 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
+#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0user/currentAvatarImageUrl``,
+* Unexpected property at ``#/0user/userIcon``.
+
 #### [createGroup](/data/requests/groups/creategroup.md)
 
 
@@ -452,9 +479,6 @@ Response schema mismatch:
 
 
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
-
-
-#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 
 #### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
@@ -479,8 +503,18 @@ Response schema mismatch:
 #### [getInventoryTemplate](/data/requests/inventory/getinventorytemplate.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/attribution``.
+* Missing property at ``#/status``,
+* Unexpected property at ``#/attribution``,
+* Unexpected property at ``#/dropStatus``.
 
+#### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
+
+Response schema mismatch:
+* Missing property at ``#/0/status``,
+* Unexpected property at ``#/0/dropStatus``,
+* Missing property at ``#/1/status``,
+
+*3 issues truncated.*
 #### [getOwnInventoryItem](/data/requests/inventory/getowninventoryitem.md)
 
 Response schema mismatch:
@@ -496,9 +530,6 @@ Response schema mismatch:
 * Unexpected property at ``#/data/0/last_equipped``,
 
 *3 issues truncated.*
-#### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
-
-
 #### [spawnInventoryItem](/data/requests/inventory/spawninventoryitem.md)
 
 
@@ -581,7 +612,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1732 issues truncated.*
+*1723 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -589,7 +620,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/clientMinVersion``,
 * Unexpected property at ``#/0/regions``,
 
-*56 issues truncated.*
+*52 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -597,7 +628,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*40 issues truncated.*
+*34 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

@@ -2,7 +2,14 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/badges/3/isQuantifiable``.
+* Unexpected property at ``#/badges/3/isQuantifiable``,
+* Unexpected property at ``#/bannerType``,
+* Unexpected property at ``#/bannerUrl``,
+* Unexpected property at ``#/iconFrame``,
+* Unexpected property at ``#/iconUrl``,
+* Unexpected property at ``#/isEconomyCreator``,
+* Unexpected property at ``#/nameplateEffect``,
+* Unexpected property at ``#/profileEffect``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 
@@ -99,6 +106,8 @@ Response schema mismatch:
       "showcased": false
     }
   ],
+  "bannerType": "customImage",
+  "bannerUrl": "https://api.vrchat.cloud/api/1/file/file_5c2c2065-bd85-412b-9cfe-f39ea522f846/1",
   "bio": "above all else‚ be kind․",
   "bioLinks": [
     "https://dtupper.com/"
@@ -111,15 +120,20 @@ Response schema mismatch:
   "displayName": "tupper",
   "friendKey": "",
   "friendRequestStatus": "null",
+  "iconFrame": "",
+  "iconUrl": "https://api.vrchat.cloud/api/1/image/file_b7566f5c-6e96-4394-a588-5199420e25e5/1/256",
   "id": "usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469",
   "instanceId": "offline",
+  "isEconomyCreator": false,
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
   "last_platform": "standalonewindows",
   "location": "offline",
+  "nameplateEffect": "",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
+  "profileEffect": "",
   "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_5c2c2065-bd85-412b-9cfe-f39ea522f846/1",
   "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_5c2c2065-bd85-412b-9cfe-f39ea522f846/1/512",
   "pronouns": "he/him",

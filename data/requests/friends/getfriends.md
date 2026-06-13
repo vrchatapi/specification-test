@@ -2,7 +2,13 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/0/discordId``.
+* Unexpected property at ``#/0/bannerColor``,
+* Unexpected property at ``#/0/bannerType``,
+* Unexpected property at ``#/0/discordId``,
+* Unexpected property at ``#/0/iconFrame``,
+* Unexpected property at ``#/0/iconUrl``,
+* Unexpected property at ``#/0/nameplateEffect``,
+* Unexpected property at ``#/0/profileEffect``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user/friends?offline=true`
 
@@ -31,6 +37,8 @@ Response schema mismatch:
 ```jsonc
 [
   {
+    "bannerColor": "3cc92c",
+    "bannerType": "color",
     "bio": "",
     "bioLinks": [],
     "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
@@ -40,15 +48,19 @@ Response schema mismatch:
     "discordId": "",
     "displayName": "VRChatWiki",
     "friendKey": "",
+    "iconFrame": "",
+    "iconUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "id": "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a",
     "imageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "isFriend": true,
-    "last_activity": "2026-06-11T23:20:04.752Z",
-    "last_login": "2026-06-11T23:20:04.752Z",
+    "last_activity": "2026-06-12T21:42:21.271Z",
+    "last_login": "2026-06-12T21:42:21.271Z",
     "last_mobile": null,
     "last_platform": "standalonewindows",
     "location": "offline",
+    "nameplateEffect": "",
     "platform": "",
+    "profileEffect": "",
     "profilePicOverride": "",
     "profilePicOverrideThumbnail": "",
     "status": "offline",

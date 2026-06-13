@@ -2,7 +2,9 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/attribution``.
+* Missing property at ``#/status``,
+* Unexpected property at ``#/attribution``,
+* Unexpected property at ``#/dropStatus``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory/template/invt_1f11aa73-8f05-4d50-a1a8-c59074d03ce2`
 
@@ -36,6 +38,7 @@ Response schema mismatch:
   "created_at": "2025-09-15T18:15:23.074Z",
   "defaultAttributes": {},
   "description": "Get toasty.",
+  "dropStatus": "scheduled",
   "equipSlots": [],
   "flags": [
     "instantiatable",
@@ -52,7 +55,6 @@ Response schema mismatch:
     "propId": "prop_49fec698-f0cb-475c-9bc3-8f24e1bcc4eb"
   },
   "name": "Campfire",
-  "status": "live",
   "tags": [
     "August 2025"
   ],
