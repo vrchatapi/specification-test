@@ -19,7 +19,7 @@ import {
 	type ValidationError
 } from "@exodus/schemasafe";
 import ms from "ms";
-import { Cookie, type CookieJar } from "tough-cookie";
+import { Cookie, CookieJar, type SerializedCookie } from "tough-cookie";
 import objectPath from "object-path";
 import jsonpointer from "jsonpointer";
 
@@ -275,11 +275,11 @@ test.before(async (t) => {
 		`Running tests against: ${version}, using specification version: ${specification.info.version}.`
 	);
 
-	const cookieJar = new withCookie.toughCookie.CookieJar();
+	const cookieJar = new CookieJar();
 	const fetchWithCookie = withCookie(globalThis.fetch, cookieJar);
 
 	const cookies = Object.values(
-		(state.get("cookies") ?? []) as Record<string, Cookie.Properties>
+		(state.get("cookies") ?? []) as Record<string, SerializedCookie>
 	);
 	for (const cookie of cookies) {
 		await cookieJar.setCookie(
@@ -423,20 +423,22 @@ type TestOperationArguments = [
 	operationId: string,
 	options:
 		| TestOperationOptions
-		| ((t: ExecutionContext<TestContext>) => TestOperationOptions),
+		| ((
+				t: ExecutionContext<TestContext>
+		  ) => TestOperationOptions | Promise<TestOperationOptions>),
 	fn?: ImplementationFn<[], Required<TestContext>>
 ];
 
 export const failUnauthenticated = (t: ExecutionContext<TestContext>) => {
-	const cookies = t.context.cookieJar.serializeSync().cookies;
+	const cookies = t.context.cookieJar.serializeSync()?.cookies ?? [];
 	if (!state.get("current-user") || cookies.length === 0)
 		t.fail("Missing authenticated user");
 };
-const resolveOptions = (
+const resolveOptions = async (
 	t: ExecutionContext<TestContext>,
 	options:
 		| TestOperationOptions
-		| ((t: ExecutionContext<TestContext>) => TestOperationOptions)
+		| ((t: ExecutionContext<TestContext>) => TestOperationOptions | Promise<TestOperationOptions>)
 ) => {
 	return Object.assign(
 		{
@@ -445,7 +447,7 @@ const resolveOptions = (
 			security: {},
 			unstable: false
 		},
-		typeof options === "function" ? options(t) : options
+		await (typeof options === "function" ? options(t) : options)
 	);
 };
 
@@ -597,7 +599,7 @@ export async function fetchOperation(
 
 export const testOperation = test.macro<TestOperationArguments>({
 	async exec(t, operationId, _options, function_ = noop) {
-		const options = resolveOptions(t, _options);
+		const options = await resolveOptions(t, _options);
 		const { operations } = t.context;
 
 		const operation = operations[operationId];
