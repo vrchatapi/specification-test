@@ -107,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*5 issues truncated.*
+*6 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -136,7 +136,7 @@ Response schema mismatch:
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/dominantLanguage``,
 
-*2 issues truncated.*
+*3 issues truncated.*
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
 Response schema mismatch:
@@ -144,7 +144,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*19 issues truncated.*
+*18 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -181,7 +181,7 @@ Response schema mismatch:
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/dominantLanguage``,
 
-*2 issues truncated.*
+*3 issues truncated.*
 #### [getShortName](/data/requests/instances/getshortname.md)
 
 
@@ -393,8 +393,11 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/avatarStats/raycastCount``.
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
 
+*2 issues truncated.*
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
@@ -403,8 +406,11 @@ Response schema mismatch:
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/avatarStats/raycastCount``.
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
 
+*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -628,7 +634,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*38 issues truncated.*
+*36 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
