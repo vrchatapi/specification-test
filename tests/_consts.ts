@@ -2,12 +2,14 @@ import "dotenv/config";
 
 export const debug = process.env.DEBUG === "1";
 
-export const vrchatEmail = process.env.VRCHAT_EMAIL!;
-export const vrchatUsername = process.env.VRCHAT_USERNAME!;
-export const vrchatPassword = process.env.VRCHAT_PASSWORD!;
-export const vrchatTotpSecret = process.env.VRCHAT_TOTP_SECRET!;
-export const vrchatFriendId = process.env.VRCHAT_FRIEND_ID!;
-export const vrchatGroupId = process.env.VRCHAT_GROUP_ID!;
+function fail(msg: string): never { throw new Error(msg); };
+
+export const vrchatEmail = process.env.VRCHAT_EMAIL || fail("VRCHAT_EMAIL environment variable is not set");
+export const vrchatUsername = process.env.VRCHAT_USERNAME ?? fail("VRCHAT_USERNAME environment variable is not set");
+export const vrchatPassword = process.env.VRCHAT_PASSWORD ?? fail("VRCHAT_PASSWORD environment variable is not set");
+export const vrchatTotpSecret = process.env.VRCHAT_TOTP_SECRET ?? fail("VRCHAT_TOTP_SECRET environment variable is not set");
+export const vrchatFriendId = process.env.VRCHAT_FRIEND_ID ?? fail("VRCHAT_FRIEND_ID environment variable is not set");
+export const vrchatGroupId = process.env.VRCHAT_GROUP_ID ?? fail("VRCHAT_GROUP_ID environment variable is not set");
 
 export const githubSha = process.env.GITHUB_SHA ?? null;
 export const version = githubSha ? githubSha.slice(0, 8) : "local";

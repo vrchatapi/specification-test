@@ -10,14 +10,12 @@ testOrder = Object.fromEntries(
 );
 
 export default {
-	cache: false,
+	cache: true,
+	serial: true,
 	concurrency: 0,
-	extensions: {
-		ts: "module"
-	},
+	extensions: ["js", "ts"],
 	files: ["tests/**/*"],
-	nodeArguments: ["--import=tsimp"],
-	// sortTestFiles: (file1, file2) => testData[file1].order - testData[file2].order,
+	nodeArguments: ["--import=tsx", "--trace-deprecation"],
 	sortTestFiles: (a, b) => {
 		a = path.relative(import.meta.dirname, a);
 		const aOrder = testOrder[a] || Infinity;

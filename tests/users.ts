@@ -2,7 +2,7 @@ import { tupperUserId } from "./_consts.js";
 import { failUnauthenticated, test, testOperation } from "./_utilities.js";
 import { state, unstableValues } from "./_cache.js";
 
-import type { LimitedUser } from "vrchat";
+import type { LimitedUserSearch } from "vrchat";
 
 test.before(failUnauthenticated);
 
@@ -33,7 +33,7 @@ test(
 		const { context } = t;
 
 		t.assert(
-			(context.body as Array<LimitedUser>).some(
+			(context.body as Array<LimitedUserSearch>).some(
 				(user) => user.id === tupperUserId
 			),
 			"Should contain Tupper"
