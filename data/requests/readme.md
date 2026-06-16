@@ -107,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*6 issues truncated.*
+*4 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -144,7 +144,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*18 issues truncated.*
+*20 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -393,11 +393,8 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
+* Unexpected property at ``#/avatarStats/raycastCount``.
 
-*2 issues truncated.*
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
@@ -406,11 +403,8 @@ Response schema mismatch:
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
+* Unexpected property at ``#/avatarStats/raycastCount``.
 
-*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -634,7 +628,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*36 issues truncated.*
+*38 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
