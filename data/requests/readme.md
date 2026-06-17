@@ -107,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*4 issues truncated.*
+*6 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -144,7 +144,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*17 issues truncated.*
+*15 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -158,6 +158,14 @@ Response schema mismatch:
 
 ## [Instances](/data/requests/instances)
 
+#### [createInstance](/data/requests/instances/createinstance.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/world/disabledPropAbilities``,
+* Unexpected property at ``#/disabledPropAbilities``,
+* Unexpected property at ``#/dominantLanguage``,
+
+*2 issues truncated.*
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
 Response schema mismatch:
@@ -175,9 +183,6 @@ Response schema mismatch:
 
 *2 issues truncated.*
 #### [getShortName](/data/requests/instances/getshortname.md)
-
-
-#### [createInstance](/data/requests/instances/createinstance.md)
 
 
 
@@ -623,7 +628,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*37 issues truncated.*
+*39 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
