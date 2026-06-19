@@ -28,11 +28,10 @@
 ```jsonc
 [
   {
-    "id": "vrchatplus-open-beta",
-    "steamItemId": "1234",
-    "oculusSku": "vrchat-plus-oculus-monthly",
-    "amount": 999,
-    "description": "VRChat Plus (Open Beta)",
+    "id": "vrchat-community-testers",
+    "steamItemId": "-10",
+    "amount": 99999999,
+    "description": "VRChat Pre-Release Features For Testers",
     "period": "month",
     "tier": 5
   },
@@ -45,10 +44,24 @@
     "tier": 5
   },
   {
-    "id": "vrchat-community-testers",
-    "steamItemId": "-10",
-    "amount": 99999999,
-    "description": "VRChat Pre-Release Features For Testers",
+    "id": "vrchatplus-monthly",
+    "steamItemId": "4000",
+    "oculusSku": "vrchat-plus-oculus-monthly",
+    "googleProductId": "vrchat.plus.googleplay.monthly",
+    "googlePlanId": "monthly",
+    "picoSku": "vrchat_plus_pico_monthly",
+    "appleProductId": "vrchat.plus.apple.monthly",
+    "amount": 999,
+    "description": "VRChat+ (Monthly)",
+    "period": "month",
+    "tier": 5
+  },
+  {
+    "id": "vrchatplus-open-beta",
+    "steamItemId": "1234",
+    "oculusSku": "vrchat-plus-oculus-monthly",
+    "amount": 999,
+    "description": "VRChat Plus (Open Beta)",
     "period": "month",
     "tier": 5
   },
@@ -63,19 +76,6 @@
     "amount": 9999,
     "description": "VRChat+ (Yearly)",
     "period": "year",
-    "tier": 5
-  },
-  {
-    "id": "vrchatplus-monthly",
-    "steamItemId": "4000",
-    "oculusSku": "vrchat-plus-oculus-monthly",
-    "googleProductId": "vrchat.plus.googleplay.monthly",
-    "googlePlanId": "monthly",
-    "picoSku": "vrchat_plus_pico_monthly",
-    "appleProductId": "vrchat.plus.apple.monthly",
-    "amount": 999,
-    "description": "VRChat+ (Monthly)",
-    "period": "month",
     "tier": 5
   }
 ]

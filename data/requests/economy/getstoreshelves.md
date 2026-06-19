@@ -2104,7 +2104,7 @@ Response schema mismatch:
     "shelfLayout": "col5",
     "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
     "shelfTitle": "New Accessories",
-    "updatedAt": "2026-06-08T20:01:49.758Z"
+    "updatedAt": "2026-06-18T17:09:51.437Z"
   }
 ]
 ```

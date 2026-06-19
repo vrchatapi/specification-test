@@ -39,7 +39,7 @@ Response schema mismatch:
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "badges": [
     {
       "badgeDescription": "Granted to members of the official VRChat Development Team",
@@ -128,7 +128,7 @@ Response schema mismatch:
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "android",
+  "last_platform": "standalonewindows",
   "location": "offline",
   "nameplateEffect": "",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
