@@ -81,9 +81,9 @@ Response schema mismatch:
     "trailRendererCount": 0,
     "writeDefaultsUsed": true
   },
-  "created_at": "2026-05-30T02:12:35.133Z",
-  "encryptionKey": "CZ4FkIq7HWz8NSE0u1vDrp7n3NhxHz4/TKJlaZQwZ+E=",
-  "fileSize": 82122,
+  "created_at": "2026-06-20T02:12:57.985Z",
+  "encryptionKey": "eFtD7QY5zCwCv32y+fYQPtQfa8ECyaF4QWN9XnDzSvg=",
+  "fileSize": 82090,
   "performanceRating": "Excellent",
   "success": true,
   "uncompressedSize": 388972
