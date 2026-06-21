@@ -204,6 +204,7 @@ Response schema mismatch:
 * Unexpected property at ``#/2listings/7/productTypes``,
 * Invalid type at ``#/2listings/8products/0``,
 * Unexpected property at ``#/2listings/8/attribution``,
+* Unexpected property at ``#/2listings/8/collabUserDisplayName``,
 * Unexpected property at ``#/2listings/8/collabUserId``,
 * Unexpected property at ``#/2listings/8/hasCompanion``,
 * Unexpected property at ``#/2listings/8/hasInventory``,
@@ -1803,7 +1804,8 @@ Response schema mismatch:
           }
         },
         "buyerRefundable": false,
-        "collabUserId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314",
+        "collabUserDisplayName": "Lod'sGalaxy",
+        "collabUserId": "usr_322c2161-3384-4729-aa20-27f61f637e97",
         "description": "The right spectacles for seeing those fine, precise lines. Whatever your medium, these will let everyone know that you’ve got that gift for putting a little magic into whatever it is you’re creating. You can customize their lens size, lens distance, frame thickness, and frame width. You can also customize the lenses' appearance.\n\nClassy, and a little avant-garde.\n",
         "displayName": "Artist's Specs",
         "duration": null,
