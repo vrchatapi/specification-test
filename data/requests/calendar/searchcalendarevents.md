@@ -376,25 +376,6 @@
       "accessType": "public",
       "category": "gaming",
       "deletedAt": null,
-      "description": "fun gamesǃ",
-      "endsAt": "2027-05-18T00:20:00.000Z",
-      "featured": false,
-      "id": "cal_66eb39e2-f146-4a8e-ad91-963c791ca9da",
-      "imageId": "file_202bfc17-aade-40d1-a2b9-51852b9757c4",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_202bfc17-aade-40d1-a2b9-51852b9757c4/1/file",
-      "isDraft": false,
-      "languages": [],
-      "ownerId": "grp_6b008794-d458-4998-ba19-2da3b0b00ed6",
-      "platforms": [],
-      "startsAt": "2027-05-17T19:20:00.000Z",
-      "tags": [],
-      "title": "Game Yuh",
-      "type": "event"
-    },
-    {
-      "accessType": "public",
-      "category": "gaming",
-      "deletedAt": null,
       "description": "Weekly game night with Scarlett's Vicesǃ",
       "endsAt": "2027-05-07T07:00:00.000Z",
       "featured": false,
@@ -577,8 +558,27 @@
       "tags": [],
       "title": "Game Nightǃǃǃ",
       "type": "event"
+    },
+    {
+      "accessType": "public",
+      "category": "gaming",
+      "deletedAt": null,
+      "description": "Sorry for having had the wrong date set this is the right one cone and have funǃ",
+      "endsAt": "2027-05-31T03:30:00.000Z",
+      "featured": false,
+      "id": "cal_2602ec66-b9cd-48fb-9934-7b73658050c0",
+      "imageId": "file_82c5aa28-ff3a-4327-8470-8152fc8e3fc7",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_82c5aa28-ff3a-4327-8470-8152fc8e3fc7/1/file",
+      "isDraft": false,
+      "languages": [],
+      "ownerId": "grp_9466b462-4dff-4442-89af-d7dc0d397c2e",
+      "platforms": [],
+      "startsAt": "2027-05-29T18:00:00.000Z",
+      "tags": [],
+      "title": "Game night",
+      "type": "event"
     }
   ],
-  "totalCount": 7786
+  "totalCount": 7685
 }
 ```
