@@ -107,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*3 issues truncated.*
+*5 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -144,7 +144,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*16 issues truncated.*
+*20 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -504,9 +504,10 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Missing property at ``#/status``,
+* Unexpected property at ``#/metadata/propKind``,
 * Unexpected property at ``#/attribution``,
-* Unexpected property at ``#/dropStatus``.
 
+*1 issues truncated.*
 #### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
 
 Response schema mismatch:

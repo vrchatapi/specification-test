@@ -6,6 +6,8 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
+* undefined at ``#/instances/4``,
+* undefined at ``#/instances/5``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -61,33 +63,49 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
+      "gameServerVersion": 1626,
+      "instanceId": "97236~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
+      "languageRatio": {
+        "en": 0.65,
+        "es": 0.12,
+        "ko": 0.06,
+        "pt-BR": 0.12,
+        "ru": 0.06
+      },
+      "n_users": 6
+    },
+    {
       "gameServerVersion": null,
-      "instanceId": "82071~group(grp_ead0f53f-330b-41c1-a149-73afc6922b1e)~groupAccessType(public)~region(us)",
+      "instanceId": "99038~group(grp_233edfa4-e3b9-4c9a-aeb2-b90f11a324e8)~groupAccessType(public)~region(us)",
       "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "97236~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
+      "instanceId": "86499~group(grp_d4f119a4-a18f-46f0-aed0-c8942041509d)~groupAccessType(public)~region(eu)",
       "languageRatio": {},
-      "n_users": 1
+      "n_users": 2
     },
     {
-      "instanceId": "742fdcbab2~region(us)",
+      "instanceId": "74188~region(jp)",
+      "languageRatio": {
+        "en": 1
+      },
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "71761~region(us)",
       "languageRatio": {
         "en": 1
       },
       "n_users": 4
     },
     {
-      "gameServerVersion": 1626,
-      "instanceId": "52514~region(use)",
-      "languageRatio": {
-        "en": 0.44,
-        "ja": 0.11,
-        "zh-CN": 0.44
-      },
-      "n_users": 6
+      "gameServerVersion": null,
+      "instanceId": "85169~region(us)",
+      "languageRatio": {},
+      "n_users": 2
     }
   ],
   "tags": [

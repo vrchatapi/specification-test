@@ -3,6 +3,7 @@
 ## Issues
 Response schema mismatch:
 * Missing property at ``#/status``,
+* Unexpected property at ``#/metadata/propKind``,
 * Unexpected property at ``#/attribution``,
 * Unexpected property at ``#/dropStatus``.
 ## Request
@@ -48,11 +49,12 @@ Response schema mismatch:
   "id": "invt_1f11aa73-8f05-4d50-a1a8-c59074d03ce2",
   "imageUrl": "https://api.vrchat.cloud/api/1/image/file_10880ad6-dd90-411f-a7e5-6c7c19710551/1/256",
   "itemType": "prop",
-  "itemTypeLabel": "Item",
+  "itemTypeLabel": "Prop",
   "metadata": {
     "animated": false,
     "imageUrl": "https://api.vrchat.cloud/api/1/file/file_10880ad6-dd90-411f-a7e5-6c7c19710551/1/file",
-    "propId": "prop_49fec698-f0cb-475c-9bc3-8f24e1bcc4eb"
+    "propId": "prop_49fec698-f0cb-475c-9bc3-8f24e1bcc4eb",
+    "propKind": 0
   },
   "name": "Campfire",
   "tags": [
