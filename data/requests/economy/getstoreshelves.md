@@ -448,7 +448,7 @@ Response schema mismatch:
         "storeIds": [
           "esto_00000000-0000-0000-0000-000000000000"
         ],
-        "subtitle": "Loadingscreen",
+        "subtitle": "Loading Screen",
         "vrcPlusDiscountPrice": 540,
         "whenToExpire": "2026-08-07T21:00:00.000Z"
       },
@@ -2103,7 +2103,7 @@ Response schema mismatch:
     "shelfLayout": "col5",
     "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
     "shelfTitle": "New Accessories",
-    "updatedAt": "2026-06-19T21:01:49.099Z"
+    "updatedAt": "2026-06-25T23:15:21.969Z"
   }
 ]
 ```
