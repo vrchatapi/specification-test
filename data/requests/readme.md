@@ -107,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*3 issues truncated.*
+*4 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -144,7 +144,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*19 issues truncated.*
+*18 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -284,19 +284,19 @@ Response schema mismatch:
 #### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
 
 Response schema mismatch:
-* Invalid type at ``#/0highlightListing/products/0``,
-* Invalid type at ``#/0highlightListing/products/1``,
-* Invalid type at ``#/0highlightListing/products/2``,
+* Invalid type at ``#/0listings/0products/0``,
+* Unexpected property at ``#/0listings/0/hasCompanion``,
+* Unexpected property at ``#/0listings/0/hasInventory``,
 
-*237 issues truncated.*
+*251 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
-* Invalid type at ``#/shelves/0highlightListing/products/0``,
-* Invalid type at ``#/shelves/0highlightListing/products/1``,
-* Invalid type at ``#/shelves/0highlightListing/products/2``,
+* Invalid type at ``#/shelves/0listings/0products/0``,
+* Unexpected property at ``#/shelves/0listings/0/hasCompanion``,
+* Unexpected property at ``#/shelves/0listings/0/hasInventory``,
 
-*237 issues truncated.*
+*251 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -519,18 +519,19 @@ Response schema mismatch:
 #### [getOwnInventoryItem](/data/requests/inventory/getowninventoryitem.md)
 
 Response schema mismatch:
+* Unexpected property at ``#/metadata/propKind``,
 * Unexpected property at ``#/acquisition``,
 * Unexpected property at ``#/attribution``,
-* Unexpected property at ``#/last_equipped``.
 
+*1 issues truncated.*
 #### [getInventory](/data/requests/inventory/getinventory.md)
 
 Response schema mismatch:
+* Unexpected property at ``#/data/0metadata/propKind``,
 * Unexpected property at ``#/data/0/acquisition``,
 * Unexpected property at ``#/data/0/attribution``,
-* Unexpected property at ``#/data/0/last_equipped``,
 
-*3 issues truncated.*
+*5 issues truncated.*
 #### [spawnInventoryItem](/data/requests/inventory/spawninventoryitem.md)
 
 
@@ -613,7 +614,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1806 issues truncated.*
+*1830 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -621,7 +622,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/clientMinVersion``,
 * Unexpected property at ``#/0/regions``,
 
-*56 issues truncated.*
+*60 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -629,7 +630,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*41 issues truncated.*
+*40 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

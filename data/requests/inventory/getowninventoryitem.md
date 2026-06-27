@@ -2,6 +2,7 @@
 
 ## Issues
 Response schema mismatch:
+* Unexpected property at ``#/metadata/propKind``,
 * Unexpected property at ``#/acquisition``,
 * Unexpected property at ``#/attribution``,
 * Unexpected property at ``#/last_equipped``.
@@ -57,7 +58,8 @@ Response schema mismatch:
   "metadata": {
     "animated": false,
     "imageUrl": "https://api.vrchat.cloud/api/1/file/file_10880ad6-dd90-411f-a7e5-6c7c19710551/1/file",
-    "propId": "prop_49fec698-f0cb-475c-9bc3-8f24e1bcc4eb"
+    "propId": "prop_49fec698-f0cb-475c-9bc3-8f24e1bcc4eb",
+    "propKind": 0
   },
   "name": "Campfire",
   "quantifiable": false,

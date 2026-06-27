@@ -2,9 +2,11 @@
 
 ## Issues
 Response schema mismatch:
+* Unexpected property at ``#/data/0metadata/propKind``,
 * Unexpected property at ``#/data/0/acquisition``,
 * Unexpected property at ``#/data/0/attribution``,
 * Unexpected property at ``#/data/0/last_equipped``,
+* Unexpected property at ``#/data/1metadata/propKind``,
 * Unexpected property at ``#/data/1/acquisition``,
 * Unexpected property at ``#/data/1/attribution``,
 * Unexpected property at ``#/data/1/last_equipped``.
@@ -62,7 +64,8 @@ Response schema mismatch:
       "metadata": {
         "animated": false,
         "imageUrl": "https://api.vrchat.cloud/api/1/file/file_10880ad6-dd90-411f-a7e5-6c7c19710551/1/file",
-        "propId": "prop_49fec698-f0cb-475c-9bc3-8f24e1bcc4eb"
+        "propId": "prop_49fec698-f0cb-475c-9bc3-8f24e1bcc4eb",
+        "propKind": 0
       },
       "name": "Campfire",
       "quantifiable": false,
@@ -102,7 +105,8 @@ Response schema mismatch:
       "metadata": {
         "animated": false,
         "imageUrl": "https://api.vrchat.cloud/api/1/file/file_e9a8b13b-f31d-4af7-b5a5-a89305b103ac/1/file",
-        "propId": "prop_fb4e6b9e-ddd2-464c-8e44-cdba7f77eb5d"
+        "propId": "prop_fb4e6b9e-ddd2-464c-8e44-cdba7f77eb5d",
+        "propKind": 0
       },
       "name": "Marshmallow on a Stick",
       "quantifiable": false,
