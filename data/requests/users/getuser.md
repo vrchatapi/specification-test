@@ -2,7 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/badges/3/isQuantifiable``,
+* Unexpected property at ``#/badges/1/isQuantifiable``,
 * Unexpected property at ``#/bannerType``,
 * Unexpected property at ``#/bannerUrl``,
 * Unexpected property at ``#/iconFrame``,
@@ -42,20 +42,6 @@ Response schema mismatch:
   "allowAvatarCopying": false,
   "badges": [
     {
-      "badgeDescription": "Granted to members of the official VRChat Development Team",
-      "badgeId": "bdg_11f41e60-d24e-4358-b7ad-06e2b9d23569",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/69/bdgai_ad914c8b-8b9c-42c8-957a-40fde888009a.png",
-      "badgeName": "VRChat Developer",
-      "showcased": false
-    },
-    {
-      "badgeDescription": "Awarded for gifting VRC+ (60 Months)",
-      "badgeId": "bdg_367f3109-6e1f-48e0-a3ac-edf25f8d83a5",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/a5/bdgai_8c61a2e9-4d36-4c3a-b16c-698ac623bf10.png",
-      "badgeName": "Gift (60 Months)",
-      "showcased": true
-    },
-    {
       "badgeDescription": "Joined VRChat 8 years ago",
       "badgeId": "bdg_4708a50c-2a2f-4204-98be-f844b2f247eb",
       "badgeImageUrl": "https://assets.vrchat.com/badges/eb/bdgai_47e5526e-de82-46d7-9f85-323cc7ed1d4a.png",
@@ -71,13 +57,6 @@ Response schema mismatch:
       "showcased": true
     },
     {
-      "badgeDescription": "Supports VRChat through VRC+",
-      "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_583f6b13-91ab-4e1b-974e-ab91600b06cb.png",
-      "badgeName": "Supporter",
-      "showcased": false
-    },
-    {
       "badgeDescription": "Awarded for subscribing to VRC+ (5 Years)",
       "badgeId": "bdg_8b44605b-d7dd-4254-8d22-ba2f84ed104e",
       "badgeImageUrl": "https://assets.vrchat.com/badges/4e/bdgai_4d00e67a-eb62-40df-8f34-9f580ae8725b.png",
@@ -85,24 +64,10 @@ Response schema mismatch:
       "showcased": false
     },
     {
-      "badgeDescription": "Supported VRChat through VRC+ when it first launched",
-      "badgeId": "bdg_a60e514a-8cb7-4702-8f24-2786992be1a8",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/a8/bdgai_108f0981-f29b-4563-8a3f-f9c0d49f8132.png",
-      "badgeName": "Early Supporter",
-      "showcased": false
-    },
-    {
       "badgeDescription": "Awarded to those who donated to the VRChat 2025 Pride Month Charity Event",
       "badgeId": "bdg_b8bef28d-277c-4d37-8168-f879362ba9cc",
       "badgeImageUrl": "https://assets.vrchat.com/badges/cc/bdgai_1ccb7ae1-d09e-4a3f-8cc4-e08c0cd48cd1.png",
       "badgeName": "Pride Supporter",
-      "showcased": false
-    },
-    {
-      "badgeDescription": "Granted for being a proud owner of a Bigscreen Beyond 2e: VRChat Edition",
-      "badgeId": "bdg_fc0d7c16-1bf3-400f-acf1-333ecde7fd1a",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/1a/bdgai_88fb9053-f77e-48a2-be5d-f87131e054de.png",
-      "badgeName": "Bigscreen Beyond 2e: VRChat Edition Owner",
       "showcased": false
     }
   ],
@@ -134,11 +99,11 @@ Response schema mismatch:
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
   "profileEffect": "",
-  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_5c2c2065-bd85-412b-9cfe-f39ea522f846/1",
-  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_5c2c2065-bd85-412b-9cfe-f39ea522f846/1/512",
+  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4fcf103d-a268-4cd9-8f81-a5894c0a590f/1",
+  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_4fcf103d-a268-4cd9-8f81-a5894c0a590f/1/512",
   "pronouns": "he/him",
   "state": "offline",
-  "status": "ask me",
+  "status": "offline",
   "statusDescription": "hewwo․",
   "tags": [
     "system_trust_trusted",

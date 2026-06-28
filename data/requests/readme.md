@@ -60,7 +60,7 @@ Response schema mismatch:
 #### [getUser](/data/requests/users/getuser.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/badges/3/isQuantifiable``,
+* Unexpected property at ``#/badges/1/isQuantifiable``,
 * Unexpected property at ``#/bannerType``,
 * Unexpected property at ``#/bannerUrl``,
 
@@ -107,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*4 issues truncated.*
+*5 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -144,7 +144,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*18 issues truncated.*
+*17 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -630,7 +630,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*40 issues truncated.*
+*41 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
