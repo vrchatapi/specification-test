@@ -39,7 +39,7 @@ Response schema mismatch:
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "badges": [
     {
       "badgeDescription": "Joined VRChat 8 years ago",
@@ -74,9 +74,7 @@ Response schema mismatch:
   "bannerType": "customImage",
   "bannerUrl": "https://api.vrchat.cloud/api/1/file/file_5c2c2065-bd85-412b-9cfe-f39ea522f846/1",
   "bio": "above all else‚ be kind․",
-  "bioLinks": [
-    "https://dtupper.com/"
-  ],
+  "bioLinks": [],
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
   "currentAvatarTags": [],
   "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
@@ -93,7 +91,7 @@ Response schema mismatch:
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "android",
+  "last_platform": "standalonewindows",
   "location": "offline",
   "nameplateEffect": "",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
