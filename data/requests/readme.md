@@ -512,10 +512,8 @@ Response schema mismatch:
 
 Response schema mismatch:
 * Missing property at ``#/0/status``,
-* Unexpected property at ``#/0/dropStatus``,
-* Missing property at ``#/1/status``,
+* Unexpected property at ``#/0/dropStatus``.
 
-*3 issues truncated.*
 #### [getOwnInventoryItem](/data/requests/inventory/getowninventoryitem.md)
 
 Response schema mismatch:
@@ -614,7 +612,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1809 issues truncated.*
+*1767 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -622,7 +620,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/clientMinVersion``,
 * Unexpected property at ``#/0/regions``,
 
-*60 issues truncated.*
+*52 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -630,7 +628,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*43 issues truncated.*
+*34 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
