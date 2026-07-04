@@ -14,26 +14,27 @@ Response schema mismatch:
 * Unexpected property at ``#/2/clientMinVersion``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
+* Invalid type at ``#/3/endDate``,
+* Invalid type at ``#/3/startDate``,
 * Unexpected property at ``#/3/clientMinVersion``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
+* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Invalid type at ``#/4/endDate``,
 * Invalid type at ``#/4/startDate``,
 * Unexpected property at ``#/4/clientMinVersion``,
+* Unexpected property at ``#/4/experiment``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
 * Invalid type at ``#/5/endDate``,
 * Invalid type at ``#/5/startDate``,
 * Unexpected property at ``#/5/clientMinVersion``,
-* Unexpected property at ``#/5/experiment``,
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
 * Invalid type at ``#/6/endDate``,
 * Invalid type at ``#/6/startDate``,
-* Unexpected property at ``#/6/clientMinVersion``,
 * Unexpected property at ``#/6/regions``,
 * Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
@@ -47,16 +48,11 @@ Response schema mismatch:
 * Unexpected property at ``#/8/regions``,
 * Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
-* Invalid type at ``#/9/endDate``,
-* Invalid type at ``#/9/startDate``,
-* Unexpected property at ``#/9/regions``,
-* Unexpected property at ``#/9/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/11/data/onPressed/command``,
-* Invalid type at ``#/11/endDate``,
-* Invalid type at ``#/11/startDate``,
-* Unexpected property at ``#/11/regions``,
-* Unexpected property at ``#/11/requireClientTags``.
+* Invalid type at ``#/10/endDate``,
+* Invalid type at ``#/10/startDate``,
+* Unexpected property at ``#/10/regions``,
+* Unexpected property at ``#/10/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -86,6 +82,33 @@ Response schema mismatch:
 [
   {
     "clientMinVersion": null,
+    "createdAt": "2026-06-25T23:07:19.500Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_c889a21f-32d9-406e-ae7e-70dfcd50b700.jpg",
+      "onPressed": {
+        "command": "OpenVRChatStore",
+        "parameters": [
+          "vrchat"
+        ]
+      }
+    },
+    "endDate": "2026-09-04T21:00:00.000Z",
+    "hash": "ips_tanabatacontenten6-a479-3a58f9c9edd4",
+    "id": "ips_tanabatacontenten6-a479-3a58f9c9edd4",
+    "isEnabled": true,
+    "priority": 400,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-07-03T21:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-06-25T23:07:19.500Z"
+  },
+  {
+    "clientMinVersion": null,
     "createdAt": "2026-06-25T23:10:48.002Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4334424a-88c6-48a1-8958-99e2bc128cc5.jpg",
@@ -113,33 +136,6 @@ Response schema mismatch:
   },
   {
     "clientMinVersion": null,
-    "createdAt": "2026-06-18T23:55:11.504Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_8904cae1-2644-4ab8-8fb0-591e2344e7b0.jpg",
-      "onPressed": {
-        "command": "OpenVRChatStore",
-        "parameters": [
-          "accessories"
-        ]
-      }
-    },
-    "endDate": "2026-07-03T21:00:00.000Z",
-    "hash": "ips_vision-bundle-hat-pack--ceb5ef723937",
-    "id": "ips_vision-bundle-hat-pack--ceb5ef723937",
-    "isEnabled": true,
-    "priority": 424,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2026-06-19T21:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-06-18T23:55:11.504Z"
-  },
-  {
-    "clientMinVersion": null,
     "createdAt": "2026-06-04T19:22:25.960Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_e202fcf5-27ba-4a04-ad05-b487c4848d3f.jpg",
@@ -164,33 +160,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2026-06-04T19:23:41.626Z"
-  },
-  {
-    "clientMinVersion": null,
-    "createdAt": "2026-05-07T16:44:36.469Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_88109634-81f1-4880-8963-3cefc411d049.png",
-      "onPressed": {
-        "command": "OpenVRChatStore",
-        "parameters": [
-          "vrchat"
-        ]
-      }
-    },
-    "endDate": "2026-07-03T21:00:00.000Z",
-    "hash": "ips_may26cosmicsurvivalkit4-6b9bd2de3ef3",
-    "id": "ips_may26cosmicsurvivalkit4-6b9bd2de3ef3",
-    "isEnabled": true,
-    "priority": 650,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2026-05-08T21:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-06-01T17:32:12.113Z"
   },
   {
     "clientMinVersion": null,

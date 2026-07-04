@@ -6,6 +6,9 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
+* undefined at ``#/instances/4``,
+* undefined at ``#/instances/5``,
+* undefined at ``#/instances/6``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -62,29 +65,57 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": 1626,
+      "instanceId": "82981~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
+      "languageRatio": {
+        "en": 0.83,
+        "zh-CN": 0.17
+      },
+      "n_users": 4
+    },
+    {
+      "gameServerVersion": 1626,
       "instanceId": "99038~group(grp_233edfa4-e3b9-4c9a-aeb2-b90f11a324e8)~groupAccessType(public)~region(us)",
       "languageRatio": {
-        "en": 0.88,
-        "zh-CN": 0.13
+        "en": 1
       },
-      "n_users": 6
+      "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "71995~group(grp_f6494d5e-d07f-4db6-b512-2a345eb2d1ce)~groupAccessType(public)~region(us)",
+      "instanceId": "71306~group(grp_3fdbf50a-5466-4d2d-b63d-7e781ca7419a)~groupAccessType(public)~region(us)",
       "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "instanceId": "36763~region(us)",
-      "languageRatio": {
-        "zh-CN": 1
-      },
       "n_users": 1
     },
     {
+      "instanceId": "83011~region(us)",
+      "languageRatio": {
+        "en": 0.75,
+        "zh-CN": 0.25
+      },
+      "n_users": 4
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "17fc9db495~region(us)",
+      "languageRatio": {
+        "en": 0.9,
+        "es": 0.1
+      },
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "53960~region(jp)",
+      "languageRatio": {
+        "en": 0.33,
+        "ru": 0.33,
+        "zh-CN": 0.33
+      },
+      "n_users": 3
+    },
+    {
       "gameServerVersion": null,
-      "instanceId": "88326~region(jp)",
+      "instanceId": "44487~region(us)",
       "languageRatio": {},
       "n_users": 2
     }

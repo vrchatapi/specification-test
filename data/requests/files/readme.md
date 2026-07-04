@@ -57,7 +57,7 @@ Downloads the file with the provided version number.
 
 **Version Note:** Version 0 is always when the file was created. The real data is usually always located in version 1 and up.
 
-**Extension Note:** Files are not guaranteed to have a file extensions. UnityPackage files tends to have it, images through this endpoint do not. You are responsible for appending file extension from the `extension` field when neccesary.
+**Extension Note:** Files are not guaranteed to have a file extensions. UnityPackage files tends to have it, images through this endpoint do not. You are responsible for appending file extension from the `extension` field when necessary.
 
 * [downloadFileVersion](./downloadfileversion.md)
 ## Finish FileData Upload

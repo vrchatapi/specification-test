@@ -2,35 +2,168 @@
 
 ## Issues
 Response schema mismatch:
+* Invalid type at ``#/0highlightListing/products/0``,
+* Unexpected property at ``#/0highlightListing/hasCompanion``,
+* Unexpected property at ``#/0highlightListing/hasInventory``,
+* Unexpected property at ``#/0highlightListing/productTypes``,
+* Unexpected property at ``#/0highlightListing/subscriberExclusive``,
 * Invalid type at ``#/0listings/0products/0``,
+* Invalid type at ``#/0listings/0products/1``,
+* Invalid type at ``#/0listings/0products/2``,
+* Invalid type at ``#/0listings/0products/3``,
+* Invalid type at ``#/0listings/0products/4``,
+* Invalid type at ``#/0listings/0products/5``,
+* Invalid type at ``#/0listings/0products/6``,
+* Invalid type at ``#/0listings/0products/7``,
+* Invalid type at ``#/0listings/0products/8``,
+* Invalid type at ``#/0listings/0products/9``,
+* Invalid type at ``#/0listings/0products/10``,
+* Unexpected property at ``#/0listings/0/attribution``,
+* Unexpected property at ``#/0listings/0/collabUserId``,
 * Unexpected property at ``#/0listings/0/hasCompanion``,
 * Unexpected property at ``#/0listings/0/hasInventory``,
 * Unexpected property at ``#/0listings/0/productTypes``,
-* Unexpected property at ``#/0listings/0/subscriberExclusive``,
+* Invalid type at ``#/0listings/1products/0``,
+* Unexpected property at ``#/0listings/1/attribution``,
+* Unexpected property at ``#/0listings/1/collabUserId``,
+* Unexpected property at ``#/0listings/1/hasCompanion``,
+* Unexpected property at ``#/0listings/1/hasInventory``,
+* Unexpected property at ``#/0listings/1/productTypes``,
+* Invalid type at ``#/0listings/2products/0``,
+* Unexpected property at ``#/0listings/2/attribution``,
+* Unexpected property at ``#/0listings/2/collabUserId``,
+* Unexpected property at ``#/0listings/2/hasCompanion``,
+* Unexpected property at ``#/0listings/2/hasInventory``,
+* Unexpected property at ``#/0listings/2/productTypes``,
+* Invalid type at ``#/0listings/3products/0``,
+* Unexpected property at ``#/0listings/3/attribution``,
+* Unexpected property at ``#/0listings/3/collabUserId``,
+* Unexpected property at ``#/0listings/3/hasCompanion``,
+* Unexpected property at ``#/0listings/3/hasInventory``,
+* Unexpected property at ``#/0listings/3/productTypes``,
+* Invalid type at ``#/0listings/4products/0``,
+* Unexpected property at ``#/0listings/4/attribution``,
+* Unexpected property at ``#/0listings/4/collabUserId``,
+* Unexpected property at ``#/0listings/4/hasCompanion``,
+* Unexpected property at ``#/0listings/4/hasInventory``,
+* Unexpected property at ``#/0listings/4/productTypes``,
+* Invalid type at ``#/0listings/5products/0``,
+* Unexpected property at ``#/0listings/5/attribution``,
+* Unexpected property at ``#/0listings/5/collabUserId``,
+* Unexpected property at ``#/0listings/5/hasCompanion``,
+* Unexpected property at ``#/0listings/5/hasInventory``,
+* Unexpected property at ``#/0listings/5/productTypes``,
+* Invalid type at ``#/0listings/6products/0``,
+* Unexpected property at ``#/0listings/6/attribution``,
+* Unexpected property at ``#/0listings/6/collabUserId``,
+* Unexpected property at ``#/0listings/6/hasCompanion``,
+* Unexpected property at ``#/0listings/6/hasInventory``,
+* Unexpected property at ``#/0listings/6/productTypes``,
+* Invalid type at ``#/0listings/7products/0``,
+* Unexpected property at ``#/0listings/7/attribution``,
+* Unexpected property at ``#/0listings/7/collabUserId``,
+* Unexpected property at ``#/0listings/7/hasCompanion``,
+* Unexpected property at ``#/0listings/7/hasInventory``,
+* Unexpected property at ``#/0listings/7/productTypes``,
+* Invalid type at ``#/0listings/8products/0``,
+* Unexpected property at ``#/0listings/8/attribution``,
+* Unexpected property at ``#/0listings/8/collabUserId``,
+* Unexpected property at ``#/0listings/8/hasCompanion``,
+* Unexpected property at ``#/0listings/8/hasInventory``,
+* Unexpected property at ``#/0listings/8/productTypes``,
+* Invalid type at ``#/0listings/9products/0``,
+* Invalid type at ``#/0listings/9products/1``,
+* Unexpected property at ``#/0listings/9/attribution``,
+* Unexpected property at ``#/0listings/9/collabUserId``,
+* Unexpected property at ``#/0listings/9/hasCompanion``,
+* Unexpected property at ``#/0listings/9/hasInventory``,
+* Unexpected property at ``#/0listings/9/productTypes``,
+* Invalid type at ``#/0listings/10products/0``,
+* Unexpected property at ``#/0listings/10/attribution``,
+* Unexpected property at ``#/0listings/10/collabUserId``,
+* Unexpected property at ``#/0listings/10/hasCompanion``,
+* Unexpected property at ``#/0listings/10/hasInventory``,
+* Unexpected property at ``#/0listings/10/productTypes``,
 * Unexpected property at ``#/0/shelfBackgroundImageId``,
 * Unexpected property at ``#/0/shelfIconImageId``,
 * Unexpected property at ``#/0/shelfTabBackgroundImageId``,
 * Unexpected property at ``#/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/1/shelfIconImageId``,
 * Unexpected property at ``#/1/shelfTabBackgroundImageId``,
+* Invalid type at ``#/2highlightListing/products/0``,
+* Invalid type at ``#/2highlightListing/products/1``,
+* Invalid type at ``#/2highlightListing/products/2``,
+* Invalid type at ``#/2highlightListing/products/3``,
+* Invalid type at ``#/2highlightListing/products/4``,
+* Invalid type at ``#/2highlightListing/products/5``,
+* Invalid type at ``#/2highlightListing/products/6``,
+* Invalid type at ``#/2highlightListing/products/7``,
+* Invalid type at ``#/2highlightListing/products/8``,
+* Invalid type at ``#/2highlightListing/products/9``,
+* Unexpected property at ``#/2highlightListing/attribution``,
+* Unexpected property at ``#/2highlightListing/collabUserId``,
+* Unexpected property at ``#/2highlightListing/hasCompanion``,
+* Unexpected property at ``#/2highlightListing/hasInventory``,
+* Unexpected property at ``#/2highlightListing/productTypes``,
+* Invalid type at ``#/2listings/0products/0``,
+* Unexpected property at ``#/2listings/0/attribution``,
+* Unexpected property at ``#/2listings/0/collabUserId``,
+* Unexpected property at ``#/2listings/0/hasCompanion``,
+* Unexpected property at ``#/2listings/0/hasInventory``,
+* Unexpected property at ``#/2listings/0/productTypes``,
+* Invalid type at ``#/2listings/1products/0``,
+* Unexpected property at ``#/2listings/1/attribution``,
+* Unexpected property at ``#/2listings/1/collabUserId``,
+* Unexpected property at ``#/2listings/1/hasCompanion``,
+* Unexpected property at ``#/2listings/1/hasInventory``,
+* Unexpected property at ``#/2listings/1/productTypes``,
+* Invalid type at ``#/2listings/2products/0``,
+* Unexpected property at ``#/2listings/2/attribution``,
+* Unexpected property at ``#/2listings/2/collabUserId``,
+* Unexpected property at ``#/2listings/2/hasCompanion``,
+* Unexpected property at ``#/2listings/2/hasInventory``,
+* Unexpected property at ``#/2listings/2/productTypes``,
+* Invalid type at ``#/2listings/3products/0``,
+* Unexpected property at ``#/2listings/3/attribution``,
+* Unexpected property at ``#/2listings/3/collabUserId``,
+* Unexpected property at ``#/2listings/3/hasCompanion``,
+* Unexpected property at ``#/2listings/3/hasInventory``,
+* Unexpected property at ``#/2listings/3/productTypes``,
+* Invalid type at ``#/2listings/4products/0``,
+* Unexpected property at ``#/2listings/4/attribution``,
+* Unexpected property at ``#/2listings/4/collabUserId``,
+* Unexpected property at ``#/2listings/4/hasCompanion``,
+* Unexpected property at ``#/2listings/4/hasInventory``,
+* Unexpected property at ``#/2listings/4/productTypes``,
+* Invalid type at ``#/2listings/5products/0``,
+* Unexpected property at ``#/2listings/5/attribution``,
+* Unexpected property at ``#/2listings/5/collabUserId``,
+* Unexpected property at ``#/2listings/5/hasCompanion``,
+* Unexpected property at ``#/2listings/5/hasInventory``,
+* Unexpected property at ``#/2listings/5/productTypes``,
+* Invalid type at ``#/2listings/6products/0``,
+* Unexpected property at ``#/2listings/6/attribution``,
+* Unexpected property at ``#/2listings/6/collabUserId``,
+* Unexpected property at ``#/2listings/6/hasCompanion``,
+* Unexpected property at ``#/2listings/6/hasInventory``,
+* Unexpected property at ``#/2listings/6/productTypes``,
+* Invalid type at ``#/2listings/7products/0``,
+* Invalid type at ``#/2listings/7products/1``,
+* Unexpected property at ``#/2listings/7/attribution``,
+* Unexpected property at ``#/2listings/7/collabUserId``,
+* Unexpected property at ``#/2listings/7/hasCompanion``,
+* Unexpected property at ``#/2listings/7/hasInventory``,
+* Unexpected property at ``#/2listings/7/productTypes``,
+* Invalid type at ``#/2listings/8products/0``,
+* Unexpected property at ``#/2listings/8/attribution``,
+* Unexpected property at ``#/2listings/8/collabUserDisplayName``,
+* Unexpected property at ``#/2listings/8/collabUserId``,
+* Unexpected property at ``#/2listings/8/hasCompanion``,
+* Unexpected property at ``#/2listings/8/hasInventory``,
+* Unexpected property at ``#/2listings/8/productTypes``,
 * Unexpected property at ``#/2/shelfBackgroundImageId``,
 * Unexpected property at ``#/2/shelfIconImageId``,
 * Unexpected property at ``#/2/shelfTabBackgroundImageId``,
-* Invalid type at ``#/3highlightListing/products/0``,
-* Invalid type at ``#/3highlightListing/products/1``,
-* Invalid type at ``#/3highlightListing/products/2``,
-* Invalid type at ``#/3highlightListing/products/3``,
-* Invalid type at ``#/3highlightListing/products/4``,
-* Invalid type at ``#/3highlightListing/products/5``,
-* Invalid type at ``#/3highlightListing/products/6``,
-* Invalid type at ``#/3highlightListing/products/7``,
-* Invalid type at ``#/3highlightListing/products/8``,
-* Invalid type at ``#/3highlightListing/products/9``,
-* Unexpected property at ``#/3highlightListing/attribution``,
-* Unexpected property at ``#/3highlightListing/collabUserId``,
-* Unexpected property at ``#/3highlightListing/hasCompanion``,
-* Unexpected property at ``#/3highlightListing/hasInventory``,
-* Unexpected property at ``#/3highlightListing/productTypes``,
 * Invalid type at ``#/3listings/0products/0``,
 * Unexpected property at ``#/3listings/0/attribution``,
 * Unexpected property at ``#/3listings/0/collabUserId``,
@@ -44,6 +177,9 @@ Response schema mismatch:
 * Unexpected property at ``#/3listings/1/hasInventory``,
 * Unexpected property at ``#/3listings/1/productTypes``,
 * Invalid type at ``#/3listings/2products/0``,
+* Invalid type at ``#/3listings/2products/1``,
+* Invalid type at ``#/3listings/2products/2``,
+* Invalid type at ``#/3listings/2products/3``,
 * Unexpected property at ``#/3listings/2/attribution``,
 * Unexpected property at ``#/3listings/2/collabUserId``,
 * Unexpected property at ``#/3listings/2/hasCompanion``,
@@ -75,6 +211,7 @@ Response schema mismatch:
 * Unexpected property at ``#/3listings/6/productTypes``,
 * Invalid type at ``#/3listings/7products/0``,
 * Invalid type at ``#/3listings/7products/1``,
+* Invalid type at ``#/3listings/7products/2``,
 * Unexpected property at ``#/3listings/7/attribution``,
 * Unexpected property at ``#/3listings/7/collabUserId``,
 * Unexpected property at ``#/3listings/7/hasCompanion``,
@@ -82,180 +219,44 @@ Response schema mismatch:
 * Unexpected property at ``#/3listings/7/productTypes``,
 * Invalid type at ``#/3listings/8products/0``,
 * Unexpected property at ``#/3listings/8/attribution``,
-* Unexpected property at ``#/3listings/8/collabUserDisplayName``,
 * Unexpected property at ``#/3listings/8/collabUserId``,
 * Unexpected property at ``#/3listings/8/hasCompanion``,
 * Unexpected property at ``#/3listings/8/hasInventory``,
 * Unexpected property at ``#/3listings/8/productTypes``,
+* Invalid type at ``#/3listings/9products/0``,
+* Unexpected property at ``#/3listings/9/attribution``,
+* Unexpected property at ``#/3listings/9/collabUserId``,
+* Unexpected property at ``#/3listings/9/hasCompanion``,
+* Unexpected property at ``#/3listings/9/hasInventory``,
+* Unexpected property at ``#/3listings/9/productTypes``,
+* Invalid type at ``#/3listings/10products/0``,
+* Unexpected property at ``#/3listings/10/attribution``,
+* Unexpected property at ``#/3listings/10/collabUserDisplayName``,
+* Unexpected property at ``#/3listings/10/collabUserId``,
+* Unexpected property at ``#/3listings/10/hasCompanion``,
+* Unexpected property at ``#/3listings/10/hasInventory``,
+* Unexpected property at ``#/3listings/10/productTypes``,
+* Invalid type at ``#/3listings/11products/0``,
+* Unexpected property at ``#/3listings/11/attribution``,
+* Unexpected property at ``#/3listings/11/collabUserId``,
+* Unexpected property at ``#/3listings/11/hasCompanion``,
+* Unexpected property at ``#/3listings/11/hasInventory``,
+* Unexpected property at ``#/3listings/11/productTypes``,
+* Invalid type at ``#/3listings/12products/0``,
+* Unexpected property at ``#/3listings/12/attribution``,
+* Unexpected property at ``#/3listings/12/collabUserId``,
+* Unexpected property at ``#/3listings/12/hasCompanion``,
+* Unexpected property at ``#/3listings/12/hasInventory``,
+* Unexpected property at ``#/3listings/12/productTypes``,
+* Invalid type at ``#/3listings/13products/0``,
+* Unexpected property at ``#/3listings/13/attribution``,
+* Unexpected property at ``#/3listings/13/collabUserId``,
+* Unexpected property at ``#/3listings/13/hasCompanion``,
+* Unexpected property at ``#/3listings/13/hasInventory``,
+* Unexpected property at ``#/3listings/13/productTypes``,
 * Unexpected property at ``#/3/shelfBackgroundImageId``,
 * Unexpected property at ``#/3/shelfIconImageId``,
-* Unexpected property at ``#/3/shelfTabBackgroundImageId``,
-* Invalid type at ``#/4highlightListing/products/0``,
-* Invalid type at ``#/4highlightListing/products/1``,
-* Invalid type at ``#/4highlightListing/products/2``,
-* Invalid type at ``#/4highlightListing/products/3``,
-* Invalid type at ``#/4highlightListing/products/4``,
-* Invalid type at ``#/4highlightListing/products/5``,
-* Invalid type at ``#/4highlightListing/products/6``,
-* Invalid type at ``#/4highlightListing/products/7``,
-* Invalid type at ``#/4highlightListing/products/8``,
-* Invalid type at ``#/4highlightListing/products/9``,
-* Unexpected property at ``#/4highlightListing/attribution``,
-* Unexpected property at ``#/4highlightListing/collabUserId``,
-* Unexpected property at ``#/4highlightListing/hasCompanion``,
-* Unexpected property at ``#/4highlightListing/hasInventory``,
-* Unexpected property at ``#/4highlightListing/productTypes``,
-* Invalid type at ``#/4listings/0products/0``,
-* Unexpected property at ``#/4listings/0/attribution``,
-* Unexpected property at ``#/4listings/0/collabUserId``,
-* Unexpected property at ``#/4listings/0/hasCompanion``,
-* Unexpected property at ``#/4listings/0/hasInventory``,
-* Unexpected property at ``#/4listings/0/productTypes``,
-* Invalid type at ``#/4listings/1products/0``,
-* Unexpected property at ``#/4listings/1/attribution``,
-* Unexpected property at ``#/4listings/1/collabUserId``,
-* Unexpected property at ``#/4listings/1/hasCompanion``,
-* Unexpected property at ``#/4listings/1/hasInventory``,
-* Unexpected property at ``#/4listings/1/productTypes``,
-* Invalid type at ``#/4listings/2products/0``,
-* Unexpected property at ``#/4listings/2/attribution``,
-* Unexpected property at ``#/4listings/2/collabUserId``,
-* Unexpected property at ``#/4listings/2/hasCompanion``,
-* Unexpected property at ``#/4listings/2/hasInventory``,
-* Unexpected property at ``#/4listings/2/productTypes``,
-* Invalid type at ``#/4listings/3products/0``,
-* Unexpected property at ``#/4listings/3/attribution``,
-* Unexpected property at ``#/4listings/3/collabUserId``,
-* Unexpected property at ``#/4listings/3/hasCompanion``,
-* Unexpected property at ``#/4listings/3/hasInventory``,
-* Unexpected property at ``#/4listings/3/productTypes``,
-* Invalid type at ``#/4listings/4products/0``,
-* Unexpected property at ``#/4listings/4/attribution``,
-* Unexpected property at ``#/4listings/4/collabUserId``,
-* Unexpected property at ``#/4listings/4/hasCompanion``,
-* Unexpected property at ``#/4listings/4/hasInventory``,
-* Unexpected property at ``#/4listings/4/productTypes``,
-* Invalid type at ``#/4listings/5products/0``,
-* Unexpected property at ``#/4listings/5/attribution``,
-* Unexpected property at ``#/4listings/5/collabUserId``,
-* Unexpected property at ``#/4listings/5/hasCompanion``,
-* Unexpected property at ``#/4listings/5/hasInventory``,
-* Unexpected property at ``#/4listings/5/productTypes``,
-* Invalid type at ``#/4listings/6products/0``,
-* Unexpected property at ``#/4listings/6/attribution``,
-* Unexpected property at ``#/4listings/6/collabUserId``,
-* Unexpected property at ``#/4listings/6/hasCompanion``,
-* Unexpected property at ``#/4listings/6/hasInventory``,
-* Unexpected property at ``#/4listings/6/productTypes``,
-* Invalid type at ``#/4listings/7products/0``,
-* Invalid type at ``#/4listings/7products/1``,
-* Unexpected property at ``#/4listings/7/attribution``,
-* Unexpected property at ``#/4listings/7/collabUserId``,
-* Unexpected property at ``#/4listings/7/hasCompanion``,
-* Unexpected property at ``#/4listings/7/hasInventory``,
-* Unexpected property at ``#/4listings/7/productTypes``,
-* Invalid type at ``#/4listings/8products/0``,
-* Unexpected property at ``#/4listings/8/attribution``,
-* Unexpected property at ``#/4listings/8/collabUserId``,
-* Unexpected property at ``#/4listings/8/hasCompanion``,
-* Unexpected property at ``#/4listings/8/hasInventory``,
-* Unexpected property at ``#/4listings/8/productTypes``,
-* Unexpected property at ``#/4/shelfBackgroundImageId``,
-* Unexpected property at ``#/4/shelfIconImageId``,
-* Unexpected property at ``#/4/shelfTabBackgroundImageId``,
-* Invalid type at ``#/5listings/0products/0``,
-* Invalid type at ``#/5listings/0products/1``,
-* Invalid type at ``#/5listings/0products/2``,
-* Invalid type at ``#/5listings/0products/3``,
-* Unexpected property at ``#/5listings/0/attribution``,
-* Unexpected property at ``#/5listings/0/collabUserId``,
-* Unexpected property at ``#/5listings/0/hasCompanion``,
-* Unexpected property at ``#/5listings/0/hasInventory``,
-* Unexpected property at ``#/5listings/0/productTypes``,
-* Invalid type at ``#/5listings/1products/0``,
-* Unexpected property at ``#/5listings/1/attribution``,
-* Unexpected property at ``#/5listings/1/collabUserId``,
-* Unexpected property at ``#/5listings/1/hasCompanion``,
-* Unexpected property at ``#/5listings/1/hasInventory``,
-* Unexpected property at ``#/5listings/1/productTypes``,
-* Invalid type at ``#/5listings/2products/0``,
-* Unexpected property at ``#/5listings/2/attribution``,
-* Unexpected property at ``#/5listings/2/collabUserId``,
-* Unexpected property at ``#/5listings/2/hasCompanion``,
-* Unexpected property at ``#/5listings/2/hasInventory``,
-* Unexpected property at ``#/5listings/2/productTypes``,
-* Invalid type at ``#/5listings/3products/0``,
-* Unexpected property at ``#/5listings/3/attribution``,
-* Unexpected property at ``#/5listings/3/collabUserId``,
-* Unexpected property at ``#/5listings/3/hasCompanion``,
-* Unexpected property at ``#/5listings/3/hasInventory``,
-* Unexpected property at ``#/5listings/3/productTypes``,
-* Invalid type at ``#/5listings/4products/0``,
-* Unexpected property at ``#/5listings/4/attribution``,
-* Unexpected property at ``#/5listings/4/collabUserId``,
-* Unexpected property at ``#/5listings/4/hasCompanion``,
-* Unexpected property at ``#/5listings/4/hasInventory``,
-* Unexpected property at ``#/5listings/4/productTypes``,
-* Invalid type at ``#/5listings/5products/0``,
-* Invalid type at ``#/5listings/5products/1``,
-* Invalid type at ``#/5listings/5products/2``,
-* Unexpected property at ``#/5listings/5/attribution``,
-* Unexpected property at ``#/5listings/5/collabUserId``,
-* Unexpected property at ``#/5listings/5/hasCompanion``,
-* Unexpected property at ``#/5listings/5/hasInventory``,
-* Unexpected property at ``#/5listings/5/productTypes``,
-* Invalid type at ``#/5listings/6products/0``,
-* Unexpected property at ``#/5listings/6/attribution``,
-* Unexpected property at ``#/5listings/6/collabUserId``,
-* Unexpected property at ``#/5listings/6/hasCompanion``,
-* Unexpected property at ``#/5listings/6/hasInventory``,
-* Unexpected property at ``#/5listings/6/productTypes``,
-* Invalid type at ``#/5listings/7products/0``,
-* Unexpected property at ``#/5listings/7/attribution``,
-* Unexpected property at ``#/5listings/7/collabUserId``,
-* Unexpected property at ``#/5listings/7/hasCompanion``,
-* Unexpected property at ``#/5listings/7/hasInventory``,
-* Unexpected property at ``#/5listings/7/productTypes``,
-* Invalid type at ``#/5listings/8products/0``,
-* Unexpected property at ``#/5listings/8/attribution``,
-* Unexpected property at ``#/5listings/8/collabUserDisplayName``,
-* Unexpected property at ``#/5listings/8/collabUserId``,
-* Unexpected property at ``#/5listings/8/hasCompanion``,
-* Unexpected property at ``#/5listings/8/hasInventory``,
-* Unexpected property at ``#/5listings/8/productTypes``,
-* Invalid type at ``#/5listings/9products/0``,
-* Unexpected property at ``#/5listings/9/attribution``,
-* Unexpected property at ``#/5listings/9/collabUserId``,
-* Unexpected property at ``#/5listings/9/hasCompanion``,
-* Unexpected property at ``#/5listings/9/hasInventory``,
-* Unexpected property at ``#/5listings/9/productTypes``,
-* Invalid type at ``#/5listings/10products/0``,
-* Unexpected property at ``#/5listings/10/attribution``,
-* Unexpected property at ``#/5listings/10/collabUserId``,
-* Unexpected property at ``#/5listings/10/hasCompanion``,
-* Unexpected property at ``#/5listings/10/hasInventory``,
-* Unexpected property at ``#/5listings/10/productTypes``,
-* Invalid type at ``#/5listings/11products/0``,
-* Unexpected property at ``#/5listings/11/attribution``,
-* Unexpected property at ``#/5listings/11/collabUserId``,
-* Unexpected property at ``#/5listings/11/hasCompanion``,
-* Unexpected property at ``#/5listings/11/hasInventory``,
-* Unexpected property at ``#/5listings/11/productTypes``,
-* Invalid type at ``#/5listings/12products/0``,
-* Unexpected property at ``#/5listings/12/attribution``,
-* Unexpected property at ``#/5listings/12/collabUserId``,
-* Unexpected property at ``#/5listings/12/hasCompanion``,
-* Unexpected property at ``#/5listings/12/hasInventory``,
-* Unexpected property at ``#/5listings/12/productTypes``,
-* Invalid type at ``#/5listings/13products/0``,
-* Unexpected property at ``#/5listings/13/attribution``,
-* Unexpected property at ``#/5listings/13/collabUserId``,
-* Unexpected property at ``#/5listings/13/hasCompanion``,
-* Unexpected property at ``#/5listings/13/hasInventory``,
-* Unexpected property at ``#/5listings/13/productTypes``,
-* Unexpected property at ``#/5/shelfBackgroundImageId``,
-* Unexpected property at ``#/5/shelfIconImageId``,
-* Unexpected property at ``#/5/shelfTabBackgroundImageId``.
+* Unexpected property at ``#/3/shelfTabBackgroundImageId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store/shelves?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&fetch=all`
 
@@ -284,36 +285,122 @@ Response schema mismatch:
 ```jsonc
 [
   {
-    "id": "ess_0744fa96-728e-40c9-abe8-b97ebb4ffa22",
+    "highlightListing": {
+      "active": true,
+      "buyerRefundable": false,
+      "description": "Free for VRC+ subscribers! Claim your 350 Credits!",
+      "displayName": "VRC+ Credit Drop",
+      "duration": null,
+      "durationType": null,
+      "hasAvatar": false,
+      "hasCompanion": false,
+      "hasInventory": false,
+      "hasUdon": false,
+      "id": "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35",
+      "imageId": "file_fac6addf-4928-4bcb-bbeb-22a4f3906344",
+      "imageUrl": null,
+      "listingType": "permanent",
+      "priceTokens": 0,
+      "productIds": [
+        "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
+      ],
+      "productType": "listing",
+      "productTypes": [
+        "credit"
+      ],
+      "products": [
+        "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
+      ],
+      "quantifiable": false,
+      "recurrable": false,
+      "refundable": true,
+      "sellerDisplayName": "VRChat Store",
+      "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+      "soldByVrc": true,
+      "stackable": false,
+      "storeIds": [
+        "esto_00000000-0000-0000-0000-000000000000"
+      ],
+      "subscriberExclusive": true,
+      "subtitle": "Credit Bundle",
+      "vrcPlusDiscountPrice": 0,
+      "whenToExpire": "2026-07-30T21:00:00.000Z"
+    },
+    "highlightListingId": "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35",
+    "id": "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
     "listingIds": [
-      "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35"
+      "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
+      "prod_0d58046b-de95-4309-89f9-044a32df72d5",
+      "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
+      "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
+      "prod_1fd57fd1-a36d-4aba-8a03-f922a09d7200",
+      "prod_5c4df980-38e6-48b3-b4fc-d89bd25870a0",
+      "prod_038701e9-322f-4623-ba9f-bfd3774ee6b9",
+      "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
+      "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
+      "prod_fedc3478-c600-4340-a0cd-89377fed4573",
+      "prod_429eaa74-962a-4001-ba3d-020623c5fb51"
     ],
     "listings": [
       {
         "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
         "buyerRefundable": false,
-        "description": "Free for VRC+ subscribers! Claim your 350 Credits!",
-        "displayName": "VRC+ Credit Drop",
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Its Tanabataǃ Celebrate with the Hoshimatsuri Bundle‚ which includes Across The Milkyway Loading Screen‚ Fluttering Tanzaku Animated Sticker‚ Hikoboshis Gate‚ Portal‚ Taiyaki Ice Cream‚ Wish-strung Bamboo‚ Altairs Horns‚ Vegas Tiara‚ A Magpies Gift Warp Effect‚ Tanabata Fukanagashi and Tanabata Emoji Pack․ Dont forget to make a wish before its overǃ\n\nDont forget to visit the Tanabata worldǃ",
+        "displayName": "Hoshimatsuri Bundle",
         "duration": null,
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
-        "hasInventory": false,
+        "hasInventory": true,
         "hasUdon": false,
-        "id": "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35",
-        "imageId": "file_fac6addf-4928-4bcb-bbeb-22a4f3906344",
+        "id": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
+        "imageId": "file_6ed759bb-789f-4a33-9275-991b709f07fe",
         "imageUrl": null,
         "listingType": "permanent",
-        "priceTokens": 0,
+        "priceTokens": 4800,
         "productIds": [
-          "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
+          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
+          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
+          "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
+          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
+          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
+          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
+          "prod_a96a2252-8486-416e-8207-92e74f096aa9",
+          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
+          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
+          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
         ],
         "productType": "listing",
         "productTypes": [
-          "credit"
+          "inventory",
+          "prop",
+          "emoji",
+          "warpeffect",
+          "accessory",
+          "portalskin",
+          "sticker",
+          "loadingscreen"
         ],
         "products": [
-          "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
+          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
+          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
+          "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
+          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
+          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
+          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
+          "prod_a96a2252-8486-416e-8207-92e74f096aa9",
+          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
+          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
+          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
         ],
         "quantifiable": false,
         "recurrable": false,
@@ -325,31 +412,500 @@ Response schema mismatch:
         "storeIds": [
           "esto_00000000-0000-0000-0000-000000000000"
         ],
-        "subscriberExclusive": true,
-        "subtitle": "Credit Bundle",
-        "vrcPlusDiscountPrice": 0,
-        "whenToExpire": "2026-07-30T21:00:00.000Z"
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 4320,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "On the seventh day of the seventh month of the Japanese lunisolar calendar, Orihime and Hikoboshi are allowed to meet – crossing the Milky Way to do so. Luckily, in VRChat, we don’t need a special bridge to cross immense distances… just a Portal.\n\nMaybe your Orihime is behind the next Portal?\n",
+        "displayName": "Hikoboshi’s Gate",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_0d58046b-de95-4309-89f9-044a32df72d5",
+        "imageId": "file_7f43969d-157d-470a-8582-119e67befdf7",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "portalskin"
+        ],
+        "products": [
+          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Portal",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Cross the Milky Way, with the help of a few magpies. As they guide you to your next instance, the constellations of Lyra, Cygnus, and Aquila appear around you. You must be going quite far…\n\nYou don’t even have to cry to get them to help you.\n",
+        "displayName": "A Magpie’s Gift",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
+        "imageId": "file_f6ab2276-4c2e-4a4d-b947-9509d15e35f7",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_40803185-ac3a-424f-a579-aa3dc37fa432"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "warpeffect"
+        ],
+        "products": [
+          "prod_40803185-ac3a-424f-a579-aa3dc37fa432"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Warp Effect",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "A celestial scene celebrating Tanabata, all on your Loading Screen, featuring a few very specific constellations separated by the Milky Way. Will they be able to cross it this year?\n\nWe hope it doesn’t rain…\n",
+        "displayName": "Across the Milky Way",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
+        "imageId": "file_12471895-4734-48e9-9d24-d95c2f3171de",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 600,
+        "productIds": [
+          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "loadingscreen"
+        ],
+        "products": [
+          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Loading Screen",
+        "vrcPlusDiscountPrice": 540,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "It’s a fish-shaped cake, filled with ice cream! You can eat it. What flavor is the ice cream? It’s whatever you want it to be! By that, I mean you can change its color. Mmm, purple flavor. \n\nJust remember: if your ice cream is vanilla, you need to try harder.\n",
+        "displayName": "Taiyaki Ice Cream",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_1fd57fd1-a36d-4aba-8a03-f922a09d7200",
+        "imageId": "file_5b40e391-6758-4708-8bfa-4afb32bb4b83",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
+        "products": [
+          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Prop",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Fukinagashi are colorful windsocks that are crafted to represent the threads of yarn Orihime used in weaving her tapestries. Rumor has it that this one might’ve been crafted by someone special…\n\nIntricately constructed, flowing with the wind.\n",
+        "displayName": "Tanabata Fukinagashi",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_5c4df980-38e6-48b3-b4fc-d89bd25870a0",
+        "imageId": "file_48177c96-d1c7-45bd-a866-ae763db6ff02",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 700,
+        "productIds": [
+          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
+        "products": [
+          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Prop",
+        "vrcPlusDiscountPrice": 630,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "A tall bunch of bamboo‚ strung up with tanzaku alongside a few other origami decorations․ Its bending from the weight of the wishesǃ \n\nHang your wish high the closer to the stars‚ the better․",
+        "displayName": "Wish-strung Bamboo",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_038701e9-322f-4623-ba9f-bfd3774ee6b9",
+        "imageId": "file_ed60b43b-631d-477c-883c-39fe8b590e72",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 800,
+        "productIds": [
+          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
+        "products": [
+          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Prop",
+        "vrcPlusDiscountPrice": 720,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "A tiara made of stars – with Vega at the center. Throughout history, Vega has been one of the most cherished stars. I’m sure Hikoboshi feels the same way.\n\nSurely, you are someone’s Orihime.\n",
+        "displayName": "Vega’s Tiara",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
+        "imageId": "file_4c3e4bce-b62b-4cf2-8517-a92b49918058",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Celestial horns, in the shape of a steer. Celebrate Tanabata by making your avatar have a small homage to Hikoboshi.\n\nSurely, you are someone’s Hikoboshi.\n",
+        "displayName": "Altair’s Horns",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
+        "imageId": "file_5863e2ff-07b3-4fda-86e3-e8a1d46df15f",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 850,
+        "productIds": [
+          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 765,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Contains two Premium Emoji: Magpie Bridge plus Vega and Altair. Maybe you can help them meet this year?\n\nYou can always try again next year…\n",
+        "displayName": "Tanabata Emoji Pack ",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_fedc3478-c600-4340-a0cd-89377fed4573",
+        "imageId": "file_29a3d0eb-5565-42bc-9119-c6dc19b52ad1",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 500,
+        "productIds": [
+          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "emoji"
+        ],
+        "products": [
+          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 450,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Tanzaku flutter on strands of bamboo what wishes do you think they hold?\n\nYou didnt forget to write yours down‚ did you?",
+        "displayName": "Fluttering Tanzaku",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_429eaa74-962a-4001-ba3d-020623c5fb51",
+        "imageId": "file_afa8c7ab-db8c-44ad-ba99-250516633a84",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 200,
+        "productIds": [
+          "prod_a96a2252-8486-416e-8207-92e74f096aa9"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "sticker"
+        ],
+        "products": [
+          "prod_a96a2252-8486-416e-8207-92e74f096aa9"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Sticker",
+        "vrcPlusDiscountPrice": 180,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
       }
     ],
-    "shelfBackgroundImageId": "file_6868bc67-2dea-4b82-9cbd-5a964eb962f4",
-    "shelfDescription": "",
-    "shelfIconImageId": "file_c16e99e2-a671-4a7f-b5cc-67e28918649c",
-    "shelfLayout": "col5",
-    "shelfTabBackgroundImageId": "file_675a5247-e849-4ecd-a4d9-63c2d91d6f99",
-    "shelfTitle": "VRC+ Free Credits",
-    "updatedAt": "2026-06-26T21:02:19.219Z"
-  },
-  {
-    "id": "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
-    "listingIds": [],
-    "listings": [],
     "shelfBackgroundImageId": "file_3560afbd-3a09-4587-8e93-e071ec9ab37a",
     "shelfDescription": "",
     "shelfIconImageId": "file_68c3a22b-47d4-41ba-b387-cdec6b2e0c94",
     "shelfLayout": "highlightLeft",
     "shelfTabBackgroundImageId": "file_c80cd09f-41a3-438a-a68c-4b9eae427b0d",
     "shelfTitle": "Celebrate Tanabata!",
-    "updatedAt": "2026-06-26T19:28:41.103Z"
+    "updatedAt": "2026-07-03T21:01:23.357Z"
   },
   {
     "id": "ess_c439e8eb-e0cc-4f95-8627-db49eda76992",
@@ -907,542 +1463,10 @@ Response schema mismatch:
     "updatedAt": "2026-06-05T21:00:13.056Z"
   },
   {
-    "highlightListing": {
-      "active": true,
-      "attribution": {
-        "creator": {
-          "customName": "VRChat",
-          "userId": "8JoV9XEdpo"
-        }
-      },
-      "buyerRefundable": false,
-      "collabUserId": "8JoV9XEdpo",
-      "description": "Contains a handful of useful objects, ideal for surviving the furthest reaches of human exploration. Includes Orbital Drift Loading Screen, C4-T Uplink \"EAR\", Lightweight IVA Mask, Miniature Black Hole Warp Effect, SC-4N Reader, Photonic Slicer, To the Moon! Animated Sticker, Starshower & Portable Pulsar Premium Emoji and Stellar Conduit Portal.\n\nCenturies of scientific research contained in a budget-friendly capsule.\n",
-      "displayName": "Cosmic Survival Kit",
-      "duration": null,
-      "durationType": null,
-      "hasAvatar": false,
-      "hasCompanion": false,
-      "hasInventory": true,
-      "hasUdon": false,
-      "id": "prod_0864f02b-5589-4318-a244-150ebf5d4585",
-      "imageId": "file_b0d4c61c-4eba-4062-93b4-6607bdaddca4",
-      "imageUrl": null,
-      "listingType": "permanent",
-      "priceTokens": 4800,
-      "productIds": [
-        "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8",
-        "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371",
-        "prod_57e0970c-ec7e-44de-8054-23433d555e80",
-        "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7",
-        "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee",
-        "prod_5cddd474-b0c8-4973-9373-adfc804eac81",
-        "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503",
-        "prod_4847436f-ead9-48cc-9538-81a0a99d8ff9",
-        "prod_e5075309-a328-4d5e-b035-67b96f669d81",
-        "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
-      ],
-      "productType": "listing",
-      "productTypes": [
-        "inventory",
-        "loadingscreen",
-        "accessory",
-        "warpeffect",
-        "prop",
-        "sticker",
-        "emoji",
-        "portalskin"
-      ],
-      "products": [
-        "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8",
-        "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371",
-        "prod_57e0970c-ec7e-44de-8054-23433d555e80",
-        "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7",
-        "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee",
-        "prod_5cddd474-b0c8-4973-9373-adfc804eac81",
-        "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503",
-        "prod_4847436f-ead9-48cc-9538-81a0a99d8ff9",
-        "prod_e5075309-a328-4d5e-b035-67b96f669d81",
-        "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
-      ],
-      "quantifiable": false,
-      "recurrable": false,
-      "refundable": true,
-      "sellerDisplayName": "VRChat Store",
-      "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-      "soldByVrc": true,
-      "stackable": false,
-      "storeIds": [
-        "esto_00000000-0000-0000-0000-000000000000"
-      ],
-      "subtitle": "Bundle",
-      "vrcPlusDiscountPrice": 4320,
-      "whenToExpire": "2026-07-03T21:00:00.000Z"
-    },
-    "highlightListingId": "prod_0864f02b-5589-4318-a244-150ebf5d4585",
-    "id": "ess_0d4ad1e9-d2e9-470d-b3b1-5e8dce9c00f2",
-    "listingIds": [
-      "prod_79e94e22-a75f-4a4e-8c52-40a0e6d488e0",
-      "prod_398c9e29-4ac4-44fb-ab13-2d5c72a09beb",
-      "prod_9dc3a45f-9c18-4d32-9310-be867fb7ff3c",
-      "prod_0a4a38d8-ee74-4b64-80ca-da224bbe3cff",
-      "prod_3b097c94-bc8c-46cf-9895-b67fa9fd1af4",
-      "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
-      "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
-      "prod_5b67ca9e-dc6c-4b07-90e6-ee7ca9a1aa57",
-      "prod_74ff20c9-be78-42db-9f68-ef239c384709"
-    ],
-    "listings": [
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Designed to create atomic-level flat surfaces in real time. Portable. Handheld. Cuts may be imperceptible to the human eye. The wavelength of emitted photons can be set by the user. \n\nA tool in the right hands. A weapon in the wrong ones.\n",
-        "displayName": "Photonic Slicer",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_79e94e22-a75f-4a4e-8c52-40a0e6d488e0",
-        "imageId": "file_54700687-b897-4ff0-a7b5-42237259e4be",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_5cddd474-b0c8-4973-9373-adfc804eac81"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "prop"
-        ],
-        "products": [
-          "prod_5cddd474-b0c8-4973-9373-adfc804eac81"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Item",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Building meaning through reading molecular structures. Enables the user to scan objects, person(s), and creatures. Information retrieved is of dubious quality. \n\nWARNING: Objects scanned may be closer than they appear.\n",
-        "displayName": "SC-4N Reader",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_398c9e29-4ac4-44fb-ab13-2d5c72a09beb",
-        "imageId": "file_3064ab1d-0ae2-4893-980a-75cd35c6fd38",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 700,
-        "productIds": [
-          "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "prop"
-        ],
-        "products": [
-          "prod_b366d01d-dbf0-4f06-9f75-a66814bd42ee"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Item",
-        "vrcPlusDiscountPrice": 630,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Replaces the default VRChat Portal with a Stellar Conduit. Compressed plasma churns against unknown, dense alloys at incredible speed, twisting the fabric of space. Features new animations and sound effects.\n\nConstructed from blueprints provided by Dr. Aimil Fades-Mazier. \n",
-        "displayName": "Stellar Conduit",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_9dc3a45f-9c18-4d32-9310-be867fb7ff3c",
-        "imageId": "file_908ceeeb-2f8c-4d76-bca5-34f0a13ede8d",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "portalskin"
-        ],
-        "products": [
-          "prod_78ad8397-41a6-4faa-81b7-64bc4cbd3b15"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Portal",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Float within a belt of captured asteroids, circling around an unknown planet. Replaces the Loading Screen. \n\nThe Conduit malfunctioned, and for a moment, I found myself gazing into a desolate world…\n",
-        "displayName": "Orbital Drift",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_0a4a38d8-ee74-4b64-80ca-da224bbe3cff",
-        "imageId": "file_94231dcc-2e8f-4213-8910-e466e4cd6e81",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 600,
-        "productIds": [
-          "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "loadingscreen"
-        ],
-        "products": [
-          "prod_e1ccca65-2203-44f3-8c1e-2b5678f4a2c8"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Loadingscreen",
-        "vrcPlusDiscountPrice": 540,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Changes the warp effect on your avatar, enabling the user to rip through the fabric of spacetime. The gravitational compression generated by your meddling forms a temporary black hole that swallows you. Or spits you out, depending on your perspective of the procession of time.\n\nHer research was never meant to be used this way…\n",
-        "displayName": "Miniature Black Hole",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_3b097c94-bc8c-46cf-9895-b67fa9fd1af4",
-        "imageId": "file_65573639-d3bf-443f-9f88-d0aa804011e1",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "warpeffect"
-        ],
-        "products": [
-          "prod_54373bd3-d6d2-4ee1-ad60-82809df061f7"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Warp Effect",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Jaw protection. Oxygen delivery. Cleared for most intra-vehicular activities. Color customizable. This is an Avatar Accessory – you can attach it to any avatar!\n\nNanomachine scrubbing technology keeps you safe. Theoretically.\n",
-        "displayName": "Lightweight IVA Mask",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
-        "imageId": "file_0ffdcb55-e1fc-4995-9f9b-986b795c63a8",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_57e0970c-ec7e-44de-8054-23433d555e80"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_57e0970c-ec7e-44de-8054-23433d555e80"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 1080,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Robotic‚ cat-type antenna․ Decorative only․ Does not actually give you satellite uplink capability․ Color customizable․ This is an Avatar Accessory you can attach it to any avatarǃ\n\nIf your cat doesnt have an antenna‚ they probably dont have advanced strike capabilities․",
-        "displayName": "C4-T Uplink “EAR”",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
-        "imageId": "file_a9cfa683-8413-43d6-9c3e-b3e6bd0b4cfb",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 900,
-        "productIds": [
-          "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 810,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Contains the Portable Pulsar and Starshower Premium Emoji. Generate incredible, three-dimensional celestial displays, no matter where you are.\n\nTry not to get a quasar in your eye. Or, well, anywhere else.\n",
-        "displayName": "Celestial Emoji Pack",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_5b67ca9e-dc6c-4b07-90e6-ee7ca9a1aa57",
-        "imageId": "file_2dee8293-9603-4860-b9fa-d8ceb27b1a6f",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 500,
-        "productIds": [
-          "prod_4847436f-ead9-48cc-9538-81a0a99d8ff9",
-          "prod_e5075309-a328-4d5e-b035-67b96f669d81"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "emoji"
-        ],
-        "products": [
-          "prod_4847436f-ead9-48cc-9538-81a0a99d8ff9",
-          "prod_e5075309-a328-4d5e-b035-67b96f669d81"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 450,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Shyaong",
-            "userId": "usr_957186b2-2d99-4e1d-8271-d191554466a1"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_957186b2-2d99-4e1d-8271-d191554466a1",
-        "description": "An Animated Sticker of VRRat in a spaceship going to the moon! At least he thinks he’s going to the moon. To be honest, we aren’t sure where he’s going. Probably somewhere with a lot of cheese.\n\nHe doesn’t know he isn’t the first rat in space.\n",
-        "displayName": "To the Moon!",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_74ff20c9-be78-42db-9f68-ef239c384709",
-        "imageId": "file_c48f5b77-1262-4c04-b1f4-22aebe42c5f2",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 200,
-        "productIds": [
-          "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "sticker"
-        ],
-        "products": [
-          "prod_3b6c5e70-18e9-4865-9c33-4ef16dc99503"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Sticker",
-        "vrcPlusDiscountPrice": 180,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      }
-    ],
-    "shelfBackgroundImageId": "file_bc778a83-8400-449c-9d40-c566b23e366e",
-    "shelfDescription": "",
-    "shelfIconImageId": "file_43747c99-e4c5-46c3-8ff1-f563dde1b43a",
-    "shelfLayout": "highlightLeft",
-    "shelfTabBackgroundImageId": "file_74e885cf-5feb-4e26-9c24-fac83cc73322",
-    "shelfTitle": "Cosmic Journey",
-    "updatedAt": "2026-05-08T21:00:30.785Z"
-  },
-  {
     "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
     "listingIds": [
+      "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
+      "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
       "prod_fe4f77da-7fad-4f33-97aa-470e85d6700a",
       "prod_3eb80bc1-8811-4433-9497-4365c6243574",
       "prod_2c460c3f-26c5-4034-aecd-d439234596be",
@@ -1454,11 +1478,105 @@ Response schema mismatch:
       "prod_66e23e6b-9b1d-4991-9da0-b3668645f3c9",
       "prod_2b6dd6e2-0fd5-43f2-b31f-a64a16f8f4b6",
       "prod_52730c7d-d9d8-4e3f-abcb-f3c9996d2ef8",
-      "prod_3e844138-523c-4477-820f-c49dcc9eb950",
-      "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
-      "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4"
+      "prod_3e844138-523c-4477-820f-c49dcc9eb950"
     ],
     "listings": [
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "A tiara made of stars – with Vega at the center. Throughout history, Vega has been one of the most cherished stars. I’m sure Hikoboshi feels the same way.\n\nSurely, you are someone’s Orihime.\n",
+        "displayName": "Vega’s Tiara",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
+        "imageId": "file_4c3e4bce-b62b-4cf2-8517-a92b49918058",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Celestial horns, in the shape of a steer. Celebrate Tanabata by making your avatar have a small homage to Hikoboshi.\n\nSurely, you are someone’s Hikoboshi.\n",
+        "displayName": "Altair’s Horns",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
+        "imageId": "file_5863e2ff-07b3-4fda-86e3-e8a1d46df15f",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 850,
+        "productIds": [
+          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 765,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
       {
         "active": true,
         "attribution": {
@@ -2093,102 +2211,6 @@ Response schema mismatch:
         "subtitle": "Accessory",
         "vrcPlusDiscountPrice": 1080,
         "whenToExpire": "2026-08-07T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Jaw protection. Oxygen delivery. Cleared for most intra-vehicular activities. Color customizable. This is an Avatar Accessory – you can attach it to any avatar!\n\nNanomachine scrubbing technology keeps you safe. Theoretically.\n",
-        "displayName": "Lightweight IVA Mask",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_ca3bc880-01d3-4510-9d4a-aed005603d13",
-        "imageId": "file_0ffdcb55-e1fc-4995-9f9b-986b795c63a8",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_57e0970c-ec7e-44de-8054-23433d555e80"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_57e0970c-ec7e-44de-8054-23433d555e80"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 1080,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Robotic‚ cat-type antenna․ Decorative only․ Does not actually give you satellite uplink capability․ Color customizable․ This is an Avatar Accessory you can attach it to any avatarǃ\n\nIf your cat doesnt have an antenna‚ they probably dont have advanced strike capabilities․",
-        "displayName": "C4-T Uplink “EAR”",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_494fbffa-a3e0-4eff-a702-1580a19bf4a4",
-        "imageId": "file_a9cfa683-8413-43d6-9c3e-b3e6bd0b4cfb",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 900,
-        "productIds": [
-          "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_604e9ca2-38fc-4e9e-82f3-0d6ebe727371"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 810,
-        "whenToExpire": "2026-07-03T21:00:00.000Z"
       }
     ],
     "shelfBackgroundImageId": "file_5570c214-553d-4488-8647-0de574a09004",
@@ -2197,7 +2219,7 @@ Response schema mismatch:
     "shelfLayout": "col5",
     "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
     "shelfTitle": "New Accessories",
-    "updatedAt": "2026-06-25T23:15:21.969Z"
+    "updatedAt": "2026-07-03T21:13:12.991Z"
   }
 ]
 ```

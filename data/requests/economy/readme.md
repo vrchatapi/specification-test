@@ -164,11 +164,11 @@ Gets the status of the agreement of a user to the Tilia TOS
 Updates the status of the agreement of a user to the Tilia TOS
 
 > Missing coverage.
-## Get User Credits Eligiblity
+## Get User Credits Eligibility
 Get the user's eligibility status for subscriptions based on available credits.
 
 > Missing coverage.
-## Get User Subscription Eligiblity
+## Get User Subscription Eligibility
 Get the user's eligibility status for subscriptions.
 
 * [getUserSubscriptionEligible](./getusersubscriptioneligible.md)
