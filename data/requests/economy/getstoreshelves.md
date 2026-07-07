@@ -3,26 +3,26 @@
 ## Issues
 Response schema mismatch:
 * Invalid type at ``#/0highlightListing/products/0``,
+* Invalid type at ``#/0highlightListing/products/1``,
+* Invalid type at ``#/0highlightListing/products/2``,
+* Invalid type at ``#/0highlightListing/products/3``,
+* Invalid type at ``#/0highlightListing/products/4``,
+* Invalid type at ``#/0highlightListing/products/5``,
+* Invalid type at ``#/0highlightListing/products/6``,
+* Invalid type at ``#/0highlightListing/products/7``,
+* Invalid type at ``#/0highlightListing/products/8``,
+* Invalid type at ``#/0highlightListing/products/9``,
+* Invalid type at ``#/0highlightListing/products/10``,
+* Unexpected property at ``#/0highlightListing/attribution``,
+* Unexpected property at ``#/0highlightListing/collabUserId``,
 * Unexpected property at ``#/0highlightListing/hasCompanion``,
 * Unexpected property at ``#/0highlightListing/hasInventory``,
 * Unexpected property at ``#/0highlightListing/productTypes``,
-* Unexpected property at ``#/0highlightListing/subscriberExclusive``,
 * Invalid type at ``#/0listings/0products/0``,
-* Invalid type at ``#/0listings/0products/1``,
-* Invalid type at ``#/0listings/0products/2``,
-* Invalid type at ``#/0listings/0products/3``,
-* Invalid type at ``#/0listings/0products/4``,
-* Invalid type at ``#/0listings/0products/5``,
-* Invalid type at ``#/0listings/0products/6``,
-* Invalid type at ``#/0listings/0products/7``,
-* Invalid type at ``#/0listings/0products/8``,
-* Invalid type at ``#/0listings/0products/9``,
-* Invalid type at ``#/0listings/0products/10``,
-* Unexpected property at ``#/0listings/0/attribution``,
-* Unexpected property at ``#/0listings/0/collabUserId``,
 * Unexpected property at ``#/0listings/0/hasCompanion``,
 * Unexpected property at ``#/0listings/0/hasInventory``,
 * Unexpected property at ``#/0listings/0/productTypes``,
+* Unexpected property at ``#/0listings/0/subscriberExclusive``,
 * Invalid type at ``#/0listings/1products/0``,
 * Unexpected property at ``#/0listings/1/attribution``,
 * Unexpected property at ``#/0listings/1/collabUserId``,
@@ -287,29 +287,63 @@ Response schema mismatch:
   {
     "highlightListing": {
       "active": true,
+      "attribution": {
+        "creator": {
+          "customName": "VRChat",
+          "userId": "8JoV9XEdpo"
+        }
+      },
       "buyerRefundable": false,
-      "description": "Free for VRC+ subscribers! Claim your 350 Credits!",
-      "displayName": "VRC+ Credit Drop",
+      "collabUserId": "8JoV9XEdpo",
+      "description": "Its Tanabataǃ Celebrate with the Hoshimatsuri Bundle‚ which includes Across The Milkyway Loading Screen‚ Fluttering Tanzaku Animated Sticker‚ Hikoboshis Gate‚ Portal‚ Taiyaki Ice Cream‚ Wish-strung Bamboo‚ Altairs Horns‚ Vegas Tiara‚ A Magpies Gift Warp Effect‚ Tanabata Fukanagashi and Tanabata Emoji Pack․ Dont forget to make a wish before its overǃ\n\nDont forget to visit the Tanabata worldǃ",
+      "displayName": "Hoshimatsuri Bundle",
       "duration": null,
       "durationType": null,
       "hasAvatar": false,
       "hasCompanion": false,
-      "hasInventory": false,
+      "hasInventory": true,
       "hasUdon": false,
-      "id": "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35",
-      "imageId": "file_fac6addf-4928-4bcb-bbeb-22a4f3906344",
+      "id": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
+      "imageId": "file_6ed759bb-789f-4a33-9275-991b709f07fe",
       "imageUrl": null,
       "listingType": "permanent",
-      "priceTokens": 0,
+      "priceTokens": 4800,
       "productIds": [
-        "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
+        "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
+        "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+        "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
+        "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
+        "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
+        "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
+        "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
+        "prod_a96a2252-8486-416e-8207-92e74f096aa9",
+        "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
+        "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
+        "prod_519734ed-b18a-45f8-b504-7a1295945a65"
       ],
       "productType": "listing",
       "productTypes": [
-        "credit"
+        "inventory",
+        "prop",
+        "emoji",
+        "warpeffect",
+        "accessory",
+        "portalskin",
+        "sticker",
+        "loadingscreen"
       ],
       "products": [
-        "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
+        "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
+        "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+        "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
+        "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
+        "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
+        "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
+        "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
+        "prod_a96a2252-8486-416e-8207-92e74f096aa9",
+        "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
+        "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
+        "prod_519734ed-b18a-45f8-b504-7a1295945a65"
       ],
       "quantifiable": false,
       "recurrable": false,
@@ -321,15 +355,14 @@ Response schema mismatch:
       "storeIds": [
         "esto_00000000-0000-0000-0000-000000000000"
       ],
-      "subscriberExclusive": true,
-      "subtitle": "Credit Bundle",
-      "vrcPlusDiscountPrice": 0,
-      "whenToExpire": "2026-07-30T21:00:00.000Z"
+      "subtitle": "Bundle",
+      "vrcPlusDiscountPrice": 4320,
+      "whenToExpire": "2026-09-04T21:00:00.000Z"
     },
-    "highlightListingId": "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35",
+    "highlightListingId": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
     "id": "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
     "listingIds": [
-      "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
+      "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35",
       "prod_0d58046b-de95-4309-89f9-044a32df72d5",
       "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
       "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
@@ -344,63 +377,29 @@ Response schema mismatch:
     "listings": [
       {
         "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
         "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Its Tanabataǃ Celebrate with the Hoshimatsuri Bundle‚ which includes Across The Milkyway Loading Screen‚ Fluttering Tanzaku Animated Sticker‚ Hikoboshis Gate‚ Portal‚ Taiyaki Ice Cream‚ Wish-strung Bamboo‚ Altairs Horns‚ Vegas Tiara‚ A Magpies Gift Warp Effect‚ Tanabata Fukanagashi and Tanabata Emoji Pack․ Dont forget to make a wish before its overǃ\n\nDont forget to visit the Tanabata worldǃ",
-        "displayName": "Hoshimatsuri Bundle",
+        "description": "Free for VRC+ subscribers! Claim your 350 Credits!",
+        "displayName": "VRC+ Credit Drop",
         "duration": null,
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
-        "hasInventory": true,
+        "hasInventory": false,
         "hasUdon": false,
-        "id": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
-        "imageId": "file_6ed759bb-789f-4a33-9275-991b709f07fe",
+        "id": "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35",
+        "imageId": "file_fac6addf-4928-4bcb-bbeb-22a4f3906344",
         "imageUrl": null,
         "listingType": "permanent",
-        "priceTokens": 4800,
+        "priceTokens": 0,
         "productIds": [
-          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
-          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
-          "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
-          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
-          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
-          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
-          "prod_a96a2252-8486-416e-8207-92e74f096aa9",
-          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
-          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
-          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+          "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
         ],
         "productType": "listing",
         "productTypes": [
-          "inventory",
-          "prop",
-          "emoji",
-          "warpeffect",
-          "accessory",
-          "portalskin",
-          "sticker",
-          "loadingscreen"
+          "credit"
         ],
         "products": [
-          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
-          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
-          "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
-          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
-          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
-          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
-          "prod_a96a2252-8486-416e-8207-92e74f096aa9",
-          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
-          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
-          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+          "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
         ],
         "quantifiable": false,
         "recurrable": false,
@@ -412,9 +411,10 @@ Response schema mismatch:
         "storeIds": [
           "esto_00000000-0000-0000-0000-000000000000"
         ],
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 4320,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
+        "subscriberExclusive": true,
+        "subtitle": "Credit Bundle",
+        "vrcPlusDiscountPrice": 0,
+        "whenToExpire": "2026-07-30T21:00:00.000Z"
       },
       {
         "active": true,
@@ -905,7 +905,7 @@ Response schema mismatch:
     "shelfLayout": "highlightLeft",
     "shelfTabBackgroundImageId": "file_c80cd09f-41a3-438a-a68c-4b9eae427b0d",
     "shelfTitle": "Celebrate Tanabata!",
-    "updatedAt": "2026-07-03T21:01:23.357Z"
+    "updatedAt": "2026-07-06T16:26:33.555Z"
   },
   {
     "id": "ess_c439e8eb-e0cc-4f95-8627-db49eda76992",
