@@ -10,8 +10,10 @@ Response schema mismatch:
 * Unexpected property at ``#/iconFrame``,
 * Unexpected property at ``#/iconUrl``,
 * Unexpected property at ``#/isEconomyCreator``,
+* Unexpected property at ``#/isTemporary``,
 * Unexpected property at ``#/nameplateEffect``,
-* Unexpected property at ``#/profileEffect``.
+* Unexpected property at ``#/profileEffect``,
+* Unexpected property at ``#/temporaryExpiryDate``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
@@ -85,6 +87,7 @@ Response schema mismatch:
   "isBoopingEnabled": true,
   "isEconomyCreator": false,
   "isFriend": false,
+  "isTemporary": false,
   "last_activity": "<unstable: string>",
   "last_login": "<unstable: string>",
   "last_mobile": null,
@@ -130,6 +133,7 @@ Response schema mismatch:
     "system_trust_known",
     "system_feedback_access"
   ],
+  "temporaryExpiryDate": null,
   "twoFactorAuthEnabled": true,
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
   "unsubscribe": true,
