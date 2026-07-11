@@ -42,10 +42,10 @@ Response schema mismatch:
   "allowAvatarCopying": false,
   "badges": [
     {
-      "badgeDescription": "Joined VRChat 8 years ago",
-      "badgeId": "bdg_4708a50c-2a2f-4204-98be-f844b2f247eb",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/eb/bdgai_47e5526e-de82-46d7-9f85-323cc7ed1d4a.png",
-      "badgeName": "8 Years",
+      "badgeDescription": "Joined VRChat 9 years ago",
+      "badgeId": "bdg_013b8f53-724a-43f1-92d1-76d05f8350a7",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/a7/bdgai_a2b3925d-53ec-4eed-bce2-c03760c038a0.png",
+      "badgeName": "9 Years",
       "showcased": true
     },
     {

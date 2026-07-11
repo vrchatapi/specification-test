@@ -7,6 +7,8 @@ Response schema mismatch:
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
 * undefined at ``#/instances/4``,
+* undefined at ``#/instances/5``,
+* undefined at ``#/instances/6``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -62,39 +64,58 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "instanceId": "26922~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 1
-    },
-    {
       "gameServerVersion": 1626,
-      "instanceId": "40618~region(us)",
+      "instanceId": "31423~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
       "languageRatio": {
         "en": 0.78,
-        "zh-CN": 0.22
+        "ko": 0.11,
+        "pt-BR": 0.11
       },
-      "n_users": 5
+      "n_users": 6
+    },
+    {
+      "instanceId": "32281~region(jp)",
+      "languageRatio": {
+        "en": 0.25,
+        "ja": 0.25,
+        "zh-CN": 0.5
+      },
+      "n_users": 4
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "93665~region(eu)",
+      "instanceId": "14005~region(us)",
       "languageRatio": {
-        "en": 0.8,
-        "zh-CN": 0.2
+        "de": 0.29,
+        "en": 0.57,
+        "zh-CN": 0.14
       },
-      "n_users": 3
+      "n_users": 7
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "4b92c0f7d5~region(us)",
+      "languageRatio": {
+        "en": 0.86,
+        "pt-BR": 0.14
+      },
+      "n_users": 4
     },
     {
       "gameServerVersion": null,
-      "instanceId": "97883~region(jp)",
+      "instanceId": "290009b0be~region(us)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "63cc2ebe86~region(us)",
       "languageRatio": {},
       "n_users": 1
     },
     {
       "gameServerVersion": null,
-      "instanceId": "81013~region(us)",
+      "instanceId": "60076~region(us)",
       "languageRatio": {},
       "n_users": 1
     }
@@ -118,8 +139,7 @@ Response schema mismatch:
     "admin_AllowInternal_OpenMenu",
     "admin_ios_category",
     "admin_AllowInternal_Experiments",
-    "admin_tanabata2026",
-    "system_updated_recently"
+    "admin_tanabata2026"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",

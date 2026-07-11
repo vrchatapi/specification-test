@@ -87,6 +87,51 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/0/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/0/shelfIconImageId``,
 * Unexpected property at ``#/shelves/0/shelfTabBackgroundImageId``,
+* Invalid type at ``#/shelves/1highlightListing/products/0``,
+* Invalid type at ``#/shelves/1highlightListing/products/1``,
+* Invalid type at ``#/shelves/1highlightListing/products/2``,
+* Invalid type at ``#/shelves/1highlightListing/products/3``,
+* Invalid type at ``#/shelves/1highlightListing/products/4``,
+* Invalid type at ``#/shelves/1highlightListing/products/5``,
+* Invalid type at ``#/shelves/1highlightListing/products/6``,
+* Invalid type at ``#/shelves/1highlightListing/products/7``,
+* Invalid type at ``#/shelves/1highlightListing/products/8``,
+* Invalid type at ``#/shelves/1highlightListing/products/9``,
+* Unexpected property at ``#/shelves/1highlightListing/attribution``,
+* Unexpected property at ``#/shelves/1highlightListing/collabUserId``,
+* Unexpected property at ``#/shelves/1highlightListing/hasCompanion``,
+* Unexpected property at ``#/shelves/1highlightListing/hasInventory``,
+* Unexpected property at ``#/shelves/1highlightListing/productTypes``,
+* Invalid type at ``#/shelves/1listings/0products/0``,
+* Unexpected property at ``#/shelves/1listings/0/attribution``,
+* Unexpected property at ``#/shelves/1listings/0/collabUserId``,
+* Unexpected property at ``#/shelves/1listings/0/hasCompanion``,
+* Unexpected property at ``#/shelves/1listings/0/hasInventory``,
+* Unexpected property at ``#/shelves/1listings/0/productTypes``,
+* Invalid type at ``#/shelves/1listings/1products/0``,
+* Unexpected property at ``#/shelves/1listings/1/attribution``,
+* Unexpected property at ``#/shelves/1listings/1/collabUserId``,
+* Unexpected property at ``#/shelves/1listings/1/hasCompanion``,
+* Unexpected property at ``#/shelves/1listings/1/hasInventory``,
+* Unexpected property at ``#/shelves/1listings/1/productTypes``,
+* Invalid type at ``#/shelves/1listings/2products/0``,
+* Unexpected property at ``#/shelves/1listings/2/attribution``,
+* Unexpected property at ``#/shelves/1listings/2/collabUserId``,
+* Unexpected property at ``#/shelves/1listings/2/hasCompanion``,
+* Unexpected property at ``#/shelves/1listings/2/hasInventory``,
+* Unexpected property at ``#/shelves/1listings/2/productTypes``,
+* Invalid type at ``#/shelves/1listings/3products/0``,
+* Invalid type at ``#/shelves/1listings/3products/1``,
+* Invalid type at ``#/shelves/1listings/3products/2``,
+* Invalid type at ``#/shelves/1listings/3products/3``,
+* Invalid type at ``#/shelves/1listings/3products/4``,
+* Invalid type at ``#/shelves/1listings/3products/5``,
+* Invalid type at ``#/shelves/1listings/3products/6``,
+* Unexpected property at ``#/shelves/1listings/3/attribution``,
+* Unexpected property at ``#/shelves/1listings/3/collabUserId``,
+* Unexpected property at ``#/shelves/1listings/3/hasCompanion``,
+* Unexpected property at ``#/shelves/1listings/3/hasInventory``,
+* Unexpected property at ``#/shelves/1listings/3/productTypes``,
 * Unexpected property at ``#/shelves/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/1/shelfIconImageId``,
 * Unexpected property at ``#/shelves/1/shelfTabBackgroundImageId``,
@@ -920,9 +965,309 @@ Response schema mismatch:
       "updatedAt": "2026-07-06T16:26:33.555Z"
     },
     {
+      "highlightListing": {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Virtual Market",
+            "userId": null
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "An assortment of Vket-themed items to enrich your journey through the Vket 2026 Summer worlds, including Vket Ignition Warp effect, Vket Ignition Portal, VketChan 01 Beret, and VketChan Sticker pack. 25% discount for Bundle purchase!",
+        "displayName": "Vket Complete Bundle 2026S",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_ab08caf2-8fc9-4c52-9d61-daecb4acfd2a",
+        "imageId": "file_1977d9fc-251d-431e-b90f-e939384656c6",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 2400,
+        "productIds": [
+          "prod_89436711-9cb3-4a9c-b8b9-a84cf1082464",
+          "prod_d706dca9-06f4-46a4-9ad8-a3d31a7b7da5",
+          "prod_e6fec85a-70da-45dd-bc4b-a445d5347c92",
+          "prod_4d077f04-dfd8-46e4-af50-62859861234a",
+          "prod_f81eb102-7186-45fd-8ef1-dbf3af81bf32",
+          "prod_f11ee73c-99e3-48ed-ac02-80c156ec9ab1",
+          "prod_6fb0a0b5-6adb-4d56-b871-0634aecfd8e2",
+          "prod_72477521-f993-43ad-bf7c-a6424cc3fbb2",
+          "prod_4c485485-f352-4401-b020-9008de23cc8f",
+          "prod_09121bf6-904c-4673-9074-4174db1e34fc"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "warpeffect",
+          "portalskin",
+          "accessory",
+          "sticker"
+        ],
+        "products": [
+          "prod_89436711-9cb3-4a9c-b8b9-a84cf1082464",
+          "prod_d706dca9-06f4-46a4-9ad8-a3d31a7b7da5",
+          "prod_e6fec85a-70da-45dd-bc4b-a445d5347c92",
+          "prod_4d077f04-dfd8-46e4-af50-62859861234a",
+          "prod_f81eb102-7186-45fd-8ef1-dbf3af81bf32",
+          "prod_f11ee73c-99e3-48ed-ac02-80c156ec9ab1",
+          "prod_6fb0a0b5-6adb-4d56-b871-0634aecfd8e2",
+          "prod_72477521-f993-43ad-bf7c-a6424cc3fbb2",
+          "prod_4c485485-f352-4401-b020-9008de23cc8f",
+          "prod_09121bf6-904c-4673-9074-4174db1e34fc"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 2160,
+        "whenToExpire": "2026-07-26T14:00:00.000Z"
+      },
+      "highlightListingId": "prod_ab08caf2-8fc9-4c52-9d61-daecb4acfd2a",
       "id": "ess_c439e8eb-e0cc-4f95-8627-db49eda76992",
-      "listingIds": [],
-      "listings": [],
+      "listingIds": [
+        "prod_c17677f9-8026-49de-957d-5d4c79f17a0e",
+        "prod_bf7b274b-d81b-4ab0-9b2f-3f21140cc892",
+        "prod_3a9796d9-c8a6-42fd-96f2-3673d9fd8fa2",
+        "prod_13eb07a9-2bff-4566-aeea-c037d721178a"
+      ],
+      "listings": [
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Virtual Market",
+              "userId": null
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "Fiery warp effect blazing with rainbow flames. This is where your passion ignites your explorative instinct. Find your favorite avatars and assets in this limited-time event!",
+          "displayName": "Vket Ignition Warp",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_c17677f9-8026-49de-957d-5d4c79f17a0e",
+          "imageId": "file_a64bfeb7-c1a3-4a6b-b10d-7a9f252cc736",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_89436711-9cb3-4a9c-b8b9-a84cf1082464"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "warpeffect"
+          ],
+          "products": [
+            "prod_89436711-9cb3-4a9c-b8b9-a84cf1082464"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Warp Effect",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-07-26T14:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Virtual Market",
+              "userId": null
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "The mechanical portal features an electric discharge effect that ignites your travel. The gate looks similar to the world gates in the Vket Entrance World. With 23 worlds waiting to be explored, a special Vket-themed portal will surely come in handy.",
+          "displayName": "Vket Ignition Portal",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_bf7b274b-d81b-4ab0-9b2f-3f21140cc892",
+          "imageId": "file_21c4f130-faa1-4b59-8ffa-11f1b777493e",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_d706dca9-06f4-46a4-9ad8-a3d31a7b7da5"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "portalskin"
+          ],
+          "products": [
+            "prod_d706dca9-06f4-46a4-9ad8-a3d31a7b7da5"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Portal",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-07-26T14:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Virtual Market",
+              "userId": null
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "Replicated Beret cap worn by VketChan 01. You can become a VketChan!",
+          "displayName": "VketChan 01 Beret",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_3a9796d9-c8a6-42fd-96f2-3673d9fd8fa2",
+          "imageId": "file_bd7a69ed-aea7-4fbc-85fb-1da8be81a7bb",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_e6fec85a-70da-45dd-bc4b-a445d5347c92"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_e6fec85a-70da-45dd-bc4b-a445d5347c92"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 720,
+          "whenToExpire": "2026-07-26T14:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Virtual Market",
+              "userId": null
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "7 Holographic stickers of Virtual Market characters, including VketChan01, VketChan02, Vketnyan, KARACO, and Muy. Take photographs with VketChan! Some of the illustrations may look familiar, as they also appear on the VketReal event in Akihabara!",
+          "displayName": "VketChan Sticker Pack",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_13eb07a9-2bff-4566-aeea-c037d721178a",
+          "imageId": "file_f37739d1-18e0-4124-8dea-b1f446537801",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 400,
+          "productIds": [
+            "prod_4d077f04-dfd8-46e4-af50-62859861234a",
+            "prod_f81eb102-7186-45fd-8ef1-dbf3af81bf32",
+            "prod_f11ee73c-99e3-48ed-ac02-80c156ec9ab1",
+            "prod_6fb0a0b5-6adb-4d56-b871-0634aecfd8e2",
+            "prod_72477521-f993-43ad-bf7c-a6424cc3fbb2",
+            "prod_4c485485-f352-4401-b020-9008de23cc8f",
+            "prod_09121bf6-904c-4673-9074-4174db1e34fc"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "sticker"
+          ],
+          "products": [
+            "prod_4d077f04-dfd8-46e4-af50-62859861234a",
+            "prod_f81eb102-7186-45fd-8ef1-dbf3af81bf32",
+            "prod_f11ee73c-99e3-48ed-ac02-80c156ec9ab1",
+            "prod_6fb0a0b5-6adb-4d56-b871-0634aecfd8e2",
+            "prod_72477521-f993-43ad-bf7c-a6424cc3fbb2",
+            "prod_4c485485-f352-4401-b020-9008de23cc8f",
+            "prod_09121bf6-904c-4673-9074-4174db1e34fc"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Bundle",
+          "vrcPlusDiscountPrice": 360,
+          "whenToExpire": "2026-07-26T14:00:00.000Z"
+        }
+      ],
       "shelfBackgroundImageId": "file_b115d784-ef5d-4151-8500-3e7e71915c6d",
       "shelfDescription": "",
       "shelfIconImageId": "file_e2e4d302-f77a-4224-8654-61fe561b6591",
