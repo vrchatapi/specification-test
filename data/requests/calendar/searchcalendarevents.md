@@ -564,24 +564,24 @@
     },
     {
       "accessType": "public",
-      "category": "gaming",
+      "category": "hangout",
       "deletedAt": null,
-      "description": "come join up your sɛxy creaturesǃǃ First game of the night spooky em upǃǃ",
-      "endsAt": "2027-05-29T02:48:00.000Z",
+      "description": "Come have fun and join us to celebrate a special members birthday ǃǃǃ",
+      "endsAt": "2027-05-21T03:59:00.000Z",
       "featured": false,
-      "id": "cal_c9a0779f-eed7-4fc8-a0d2-acae2b25a4bc",
-      "imageId": "file_dd53daa0-af09-48e0-aacb-32dcb5da7dea",
-      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_dd53daa0-af09-48e0-aacb-32dcb5da7dea/1/file",
+      "id": "cal_725b27ba-f10a-47d6-896f-a725df95c13e",
+      "imageId": "file_1461f7e0-ffab-4379-9bd8-dfc0c7e806ba",
+      "imageUrl": "https://api.vrchat.cloud/api/1/file/file_1461f7e0-ffab-4379-9bd8-dfc0c7e806ba/1/file",
       "isDraft": false,
       "languages": [],
-      "ownerId": "grp_e32e5e03-458e-4a80-8793-96b689453f41",
+      "ownerId": "grp_90c4b892-7fe2-41e3-ba8f-4da8b968c9a0",
       "platforms": [],
-      "startsAt": "2027-05-29T00:48:00.000Z",
+      "startsAt": "2027-05-21T00:30:00.000Z",
       "tags": [],
       "title": "Game nightǃ",
       "type": "event"
     }
   ],
-  "totalCount": 8351
+  "totalCount": 8988
 }
 ```

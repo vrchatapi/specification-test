@@ -1261,8 +1261,8 @@ Response schema mismatch:
     "shelfIconImageId": "file_e2e4d302-f77a-4224-8654-61fe561b6591",
     "shelfLayout": "highlightLeft",
     "shelfTabBackgroundImageId": "file_11b09fc7-c953-4c59-8406-730af0ac7c48",
-    "shelfTitle": "Vket Summer 2026",
-    "updatedAt": "2026-06-26T19:28:51.323Z"
+    "shelfTitle": "Vket 2026 Summer",
+    "updatedAt": "2026-07-12T17:35:04.618Z"
   },
   {
     "highlightListing": {
