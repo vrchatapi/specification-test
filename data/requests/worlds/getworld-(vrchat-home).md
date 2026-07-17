@@ -7,7 +7,6 @@ Response schema mismatch:
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
 * undefined at ``#/instances/4``,
-* undefined at ``#/instances/5``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -63,51 +62,44 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "gameServerVersion": 1626,
-      "instanceId": "31423~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
+      "instanceId": "f0b0f75bc8~region(jp)",
       "languageRatio": {
-        "de": 0.11,
-        "en": 0.89
+        "en": 0.5,
+        "zh-CN": 0.5
       },
-      "n_users": 6
-    },
-    {
-      "instanceId": "f866a2b446~region(us)",
-      "languageRatio": {
-        "ja": 1
-      },
-      "n_users": 1
+      "n_users": 4
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "15870~region(jp)",
+      "instanceId": "71193~region(jp)",
       "languageRatio": {
-        "en": 0.91,
-        "zh-CN": 0.09
+        "en": 0.2,
+        "es": 0.3,
+        "zh-CN": 0.5
+      },
+      "n_users": 7
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "97356~region(us)",
+      "languageRatio": {
+        "en": 0.78,
+        "es": 0.11,
+        "zh-CN": 0.11
       },
       "n_users": 5
     },
     {
-      "gameServerVersion": 1626,
-      "instanceId": "f0b0f75bc8~region(jp)",
-      "languageRatio": {
-        "de": 0.29,
-        "en": 0.57,
-        "zh-CN": 0.14
-      },
-      "n_users": 3
+      "gameServerVersion": null,
+      "instanceId": "9a1379cdf1~region(us)",
+      "languageRatio": {},
+      "n_users": 1
     },
     {
       "gameServerVersion": null,
-      "instanceId": "57372~region(eu)",
+      "instanceId": "4d2a20643d~region(us)",
       "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "49741~region(us)",
-      "languageRatio": {},
-      "n_users": 2
+      "n_users": 1
     }
   ],
   "tags": [
@@ -129,8 +121,7 @@ Response schema mismatch:
     "admin_AllowInternal_OpenMenu",
     "admin_ios_category",
     "admin_AllowInternal_Experiments",
-    "admin_tanabata2026",
-    "system_updated_recently"
+    "admin_tanabata2026"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",

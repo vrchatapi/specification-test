@@ -107,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*5 issues truncated.*
+*4 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -144,7 +144,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*16 issues truncated.*
+*15 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -460,12 +460,6 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
-#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0user/currentAvatarImageUrl``,
-* Unexpected property at ``#/0user/userIcon``.
-
 #### [createGroup](/data/requests/groups/creategroup.md)
 
 
@@ -479,6 +473,9 @@ Response schema mismatch:
 
 
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
+
+
+#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 
 #### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
@@ -628,7 +625,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*45 issues truncated.*
+*40 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

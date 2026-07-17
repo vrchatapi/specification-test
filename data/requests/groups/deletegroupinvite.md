@@ -10,7 +10,7 @@
 
 
 ## Response
-`200 OK`
+`403 Forbidden`
 
 | Header | Value |
 | ------ | ----- |
@@ -26,9 +26,9 @@
 
 ```jsonc
 {
-  "success": {
-    "message": "b9ce75b4dc299 has been uninvited.",
-    "status_code": 200
+  "error": {
+    "message": "You don't have permission․",
+    "status_code": 403
   }
 }
 ```
