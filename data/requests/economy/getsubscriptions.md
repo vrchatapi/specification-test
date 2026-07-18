@@ -28,6 +28,14 @@
 ```jsonc
 [
   {
+    "id": "vrchat-community-testers",
+    "steamItemId": "-10",
+    "amount": 99999999,
+    "description": "VRChat Pre-Release Features For Testers",
+    "period": "month",
+    "tier": 5
+  },
+  {
     "id": "vrchat-internal-beta",
     "steamItemId": "-1",
     "amount": 99999999,
@@ -68,14 +76,6 @@
     "amount": 9999,
     "description": "VRChat+ (Yearly)",
     "period": "year",
-    "tier": 5
-  },
-  {
-    "id": "vrchat-community-testers",
-    "steamItemId": "-10",
-    "amount": 99999999,
-    "description": "VRChat Pre-Release Features For Testers",
-    "period": "month",
     "tier": 5
   }
 ]

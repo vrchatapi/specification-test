@@ -107,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*4 issues truncated.*
+*3 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -144,7 +144,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*15 issues truncated.*
+*17 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -460,6 +460,12 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
+#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0user/currentAvatarImageUrl``,
+* Unexpected property at ``#/0user/userIcon``.
+
 #### [createGroup](/data/requests/groups/creategroup.md)
 
 
@@ -473,9 +479,6 @@ Response schema mismatch:
 
 
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
-
-
-#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 
 #### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
@@ -609,7 +612,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyTag``,
 * Unexpected property at ``#/0data/contentList/marketplace``,
 
-*1781 issues truncated.*
+*1785 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -617,7 +620,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/clientMinVersion``,
 * Unexpected property at ``#/0/regions``,
 
-*52 issues truncated.*
+*56 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -625,7 +628,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*40 issues truncated.*
+*38 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

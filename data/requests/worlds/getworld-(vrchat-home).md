@@ -6,7 +6,6 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
-* undefined at ``#/instances/4``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -62,44 +61,36 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "instanceId": "f0b0f75bc8~region(jp)",
+      "instanceId": "a2ee68c974~region(us)",
       "languageRatio": {
-        "en": 0.5,
-        "zh-CN": 0.5
+        "en": 0.8,
+        "pt-BR": 0.2
       },
-      "n_users": 4
+      "n_users": 5
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "71193~region(jp)",
-      "languageRatio": {
-        "en": 0.2,
-        "es": 0.3,
-        "zh-CN": 0.5
-      },
-      "n_users": 7
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "97356~region(us)",
+      "instanceId": "8a2d67702c~region(us)",
       "languageRatio": {
         "en": 0.78,
-        "es": 0.11,
-        "zh-CN": 0.11
+        "ja": 0.22
+      },
+      "n_users": 6
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "f0b0f75bc8~region(jp)",
+      "languageRatio": {
+        "en": 0.87,
+        "zh-CN": 0.13
       },
       "n_users": 5
     },
     {
       "gameServerVersion": null,
-      "instanceId": "9a1379cdf1~region(us)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "gameServerVersion": null,
       "instanceId": "4d2a20643d~region(us)",
       "languageRatio": {},
-      "n_users": 1
+      "n_users": 2
     }
   ],
   "tags": [
