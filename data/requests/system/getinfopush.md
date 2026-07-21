@@ -90,33 +90,6 @@ Response schema mismatch:
 [
   {
     "clientMinVersion": null,
-    "createdAt": "2026-07-16T16:55:13.745Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_79419d14-31aa-47e8-b555-21746a576674.jpg",
-      "onPressed": {
-        "command": "OpenWorldDetails",
-        "parameters": [
-          "wrld_ae001ea3-ed05-42f0-adf2-3d47efd10a77"
-        ]
-      }
-    },
-    "endDate": "2026-07-27T18:00:00.000Z",
-    "hash": "ips_fish-leviathan-update17-b7fd466e9379",
-    "id": "ips_fish-leviathan-update17-b7fd466e9379",
-    "isEnabled": true,
-    "priority": 390,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2026-07-17T18:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-07-16T20:21:07.949Z"
-  },
-  {
-    "clientMinVersion": null,
     "createdAt": "2026-07-06T15:27:30.834Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_16f7b0ad-bece-4512-afd8-4a34422b1605.png",
@@ -141,6 +114,33 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2026-07-06T15:27:30.834Z"
+  },
+  {
+    "clientMinVersion": null,
+    "createdAt": "2026-07-16T16:55:13.745Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_79419d14-31aa-47e8-b555-21746a576674.jpg",
+      "onPressed": {
+        "command": "OpenWorldDetails",
+        "parameters": [
+          "wrld_ae001ea3-ed05-42f0-adf2-3d47efd10a77"
+        ]
+      }
+    },
+    "endDate": "2026-07-27T18:00:00.000Z",
+    "hash": "ips_fish-leviathan-update17-b7fd466e9379",
+    "id": "ips_fish-leviathan-update17-b7fd466e9379",
+    "isEnabled": true,
+    "priority": 397,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-07-17T18:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-07-20T18:15:17.690Z"
   },
   {
     "clientMinVersion": null,

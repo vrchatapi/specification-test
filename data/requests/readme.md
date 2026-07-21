@@ -107,7 +107,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*3 issues truncated.*
+*4 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -393,8 +393,11 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/avatarStats/raycastCount``.
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
 
+*2 issues truncated.*
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
@@ -403,8 +406,11 @@ Response schema mismatch:
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/avatarStats/raycastCount``.
+* Missing property at ``#/avatarStats``,
+* Missing property at ``#/fileSize``,
+* Missing property at ``#/success``,
 
+*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -608,9 +614,9 @@ Unexpected token ':', ":root{--st"... is not valid JSON.
 #### [getInfoPush with user-all](/data/requests/system/getinfopush-with-user-all.md)
 
 Response schema mismatch:
+* Invalid type at ``#/0/data/contentList/name``,
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
-* Unexpected property at ``#/0data/contentList/marketplace``,
 
 *1785 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
@@ -628,7 +634,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*34 issues truncated.*
+*39 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
