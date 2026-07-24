@@ -13,7 +13,9 @@ Response schema mismatch:
 * Unexpected property at ``#/isTemporary``,
 * Unexpected property at ``#/nameplateEffect``,
 * Unexpected property at ``#/profileEffect``,
-* Unexpected property at ``#/temporaryExpiryDate``.
+* Unexpected property at ``#/temporaryExpiryDate``,
+* Unexpected property at ``#/twitchDetails``,
+* Unexpected property at ``#/twitchId``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_07917a03-5e0b-48e9-b041-e94086bc658f/selectFallback`
 
@@ -134,6 +136,8 @@ Response schema mismatch:
     "system_feedback_access"
   ],
   "temporaryExpiryDate": null,
+  "twitchDetails": {},
+  "twitchId": "",
   "twoFactorAuthEnabled": true,
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
   "unsubscribe": true,

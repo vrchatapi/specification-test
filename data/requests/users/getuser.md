@@ -101,7 +101,7 @@ Response schema mismatch:
   "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_4fcf103d-a268-4cd9-8f81-a5894c0a590f/1/512",
   "pronouns": "he/him",
   "state": "offline",
-  "status": "offline",
+  "status": "ask me",
   "statusDescription": "hewwo․",
   "tags": [
     "system_trust_trusted",
