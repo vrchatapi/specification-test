@@ -100,7 +100,7 @@ Response schema mismatch:
         ]
       }
     },
-    "endDate": "2026-07-26T14:00:00.000Z",
+    "endDate": "2026-07-27T14:00:00.000Z",
     "hash": "ips_vket-2026-summer33-9aef-ef41e18f9f8a",
     "id": "ips_vket-2026-summer33-9aef-ef41e18f9f8a",
     "isEnabled": true,
@@ -113,7 +113,7 @@ Response schema mismatch:
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-07-06T15:27:30.834Z"
+    "updatedAt": "2026-07-24T13:07:20.352Z"
   },
   {
     "clientMinVersion": null,

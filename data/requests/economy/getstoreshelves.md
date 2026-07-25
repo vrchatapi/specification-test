@@ -351,64 +351,10 @@ Response schema mismatch:
   {
     "id": "ess_30ad6919-a887-4072-af61-389c5ec5d88f",
     "listingIds": [
-      "prod_dad6c635-d1e3-4a1d-83c0-6dec512c5a97",
-      "prod_86bb1eb6-2500-4fac-9d03-a82c055184c6"
+      "prod_f144b46a-c046-4dbf-bdba-40537d7f305a",
+      "prod_69ca7bc8-eb14-488a-b832-a7b6e7ed4a2f"
     ],
     "listings": [
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Hey, where did those Reference Cubes come from? Why are they floating around… you? Or, well, your profile… you. And your nameplate. And your icon. Neat. Free for Open Beta testers. You’ll keep this Decoration Set after the Open Beta period ends.\n\nThey won’t hurt you. We’re pretty sure.\n",
-        "displayName": "Reference Cube Purple",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_dad6c635-d1e3-4a1d-83c0-6dec512c5a97",
-        "imageId": "file_6e427157-87b1-40f1-abed-695dd43ab025",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_75acf44e-9d62-4302-a59b-ed923d9fba93",
-          "prod_6bcfc621-acb0-4dff-8acd-6f9efd08b32a",
-          "prod_0d16fd77-d42c-42b5-b1bc-fcb867567222"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_75acf44e-9d62-4302-a59b-ed923d9fba93",
-          "prod_6bcfc621-acb0-4dff-8acd-6f9efd08b32a",
-          "prod_0d16fd77-d42c-42b5-b1bc-fcb867567222"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 0,
-        "whenToExpire": null
-      },
       {
         "active": true,
         "attribution": {
@@ -427,8 +373,8 @@ Response schema mismatch:
         "hasCompanion": false,
         "hasInventory": true,
         "hasUdon": false,
-        "id": "prod_86bb1eb6-2500-4fac-9d03-a82c055184c6",
-        "imageId": "file_14d1b5ea-d0f1-4f9f-9d30-b324a004c157",
+        "id": "prod_f144b46a-c046-4dbf-bdba-40537d7f305a",
+        "imageId": "file_c487f808-e2e3-402b-a579-9d646b606fb1",
         "imageUrl": null,
         "listingType": "permanent",
         "priceTokens": 0,
@@ -462,6 +408,60 @@ Response schema mismatch:
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 0,
         "whenToExpire": null
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Hey, where did those Reference Cubes come from? Why are they floating around… you? Or, well, your profile… you. And your nameplate. And your icon. Neat. Free for Open Beta testers. You’ll keep this Decoration Set after the Open Beta period ends.\n\nThey won’t hurt you. We’re pretty sure.\n",
+        "displayName": "Reference Cube Purple",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_69ca7bc8-eb14-488a-b832-a7b6e7ed4a2f",
+        "imageId": "file_71ccd5ec-ddd4-4037-9c8d-3c7a2e1edf5f",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 0,
+        "productIds": [
+          "prod_75acf44e-9d62-4302-a59b-ed923d9fba93",
+          "prod_6bcfc621-acb0-4dff-8acd-6f9efd08b32a",
+          "prod_0d16fd77-d42c-42b5-b1bc-fcb867567222"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_75acf44e-9d62-4302-a59b-ed923d9fba93",
+          "prod_6bcfc621-acb0-4dff-8acd-6f9efd08b32a",
+          "prod_0d16fd77-d42c-42b5-b1bc-fcb867567222"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 0,
+        "whenToExpire": null
       }
     ],
     "shelfBackgroundImageId": "",
@@ -470,7 +470,7 @@ Response schema mismatch:
     "shelfLayout": "col3",
     "shelfTabBackgroundImageId": "",
     "shelfTitle": "{\"MinVersion\":1878} Open Beta Profile Decorations",
-    "updatedAt": "2026-07-22T23:04:42.998Z"
+    "updatedAt": "2026-07-24T21:45:50.219Z"
   },
   {
     "highlightListing": {

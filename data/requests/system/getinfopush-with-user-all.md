@@ -633,7 +633,6 @@ Response schema mismatch:
 * Unexpected property at ``#/140/clientMinVersion``,
 * Unexpected property at ``#/140/regions``,
 * Unexpected property at ``#/140/requireClientTags``,
-* Unexpected property at ``#/141data/contentList/avatarSpecific``,
 * Unexpected property at ``#/141data/contentList/bannersTag``,
 * Unexpected property at ``#/141data/contentList/shortName``,
 * Unexpected property at ``#/141data/hoverToJoin``,
