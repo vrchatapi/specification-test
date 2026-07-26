@@ -57,30 +57,6 @@ Response schema mismatch:
 
 ## [Users](/data/requests/users)
 
-#### [getUser](/data/requests/users/getuser.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/badges/1/isQuantifiable``,
-* Unexpected property at ``#/bannerType``,
-* Unexpected property at ``#/bannerUrl``,
-
-*5 issues truncated.*
-#### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/bannerColor``,
-* Unexpected property at ``#/0/bannerType``,
-* Unexpected property at ``#/0/iconFrame``,
-
-*27 issues truncated.*
-#### [searchUsers](/data/requests/users/searchusers.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/bannerType``,
-* Unexpected property at ``#/0/bannerUrl``,
-* Unexpected property at ``#/0/iconFrame``,
-
-*57 issues truncated.*
 #### [updateUserNote](/data/requests/users/updateusernote.md)
 
 
@@ -88,6 +64,15 @@ Response schema mismatch:
 
 
 #### [searchUsers without parameters](/data/requests/users/searchusers-without-parameters.md)
+
+
+#### [searchUsers](/data/requests/users/searchusers.md)
+
+
+#### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
+
+
+#### [getUser](/data/requests/users/getuser.md)
 
 
 #### [getUserFeedback](/data/requests/users/getuserfeedback.md)
@@ -144,7 +129,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*18 issues truncated.*
+*14 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -628,7 +613,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*40 issues truncated.*
+*37 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

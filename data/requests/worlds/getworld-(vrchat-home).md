@@ -68,52 +68,60 @@ Response schema mismatch:
       "instanceId": "89676~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
       "languageRatio": {
         "en": 0.88,
-        "fr": 0.06,
-        "pt-BR": 0.06
+        "uk": 0.13
       },
-      "n_users": 7
+      "n_users": 5
+    },
+    {
+      "instanceId": "68258~region(eu)",
+      "languageRatio": {
+        "ru": 1
+      },
+      "n_users": 1
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "31423~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
+      "instanceId": "07226~region(us)",
       "languageRatio": {
-        "en": 0.67,
-        "ru": 0.11,
-        "zh-CN": 0.22
+        "de": 0.17,
+        "en": 0.75,
+        "pt-BR": 0.08
       },
-      "n_users": 3
+      "n_users": 5
     },
     {
-      "instanceId": "6666~region(eu)",
+      "gameServerVersion": 1626,
+      "instanceId": "933405af35~region(us)",
       "languageRatio": {
         "en": 1
       },
-      "n_users": 3
+      "n_users": 4
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "1265~region(jp)",
+      "languageRatio": {
+        "en": 0.25,
+        "ja": 0.25,
+        "ko": 0.13,
+        "pt-BR": 0.13,
+        "zh-CN": 0.25
+      },
+      "n_users": 4
     },
     {
       "gameServerVersion": 1626,
       "instanceId": "66958~region(us)",
       "languageRatio": {
-        "en": 0.25,
-        "zh-CN": 0.75
+        "en": 0.5,
+        "pt-BR": 0.25,
+        "zh-CN": 0.25
       },
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "00050~region(jp)",
-      "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "b6cead2ae2~region(us)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "538c54fa56~region(us)",
+      "instanceId": "a7a44c56f7~region(us)",
       "languageRatio": {},
       "n_users": 1
     }

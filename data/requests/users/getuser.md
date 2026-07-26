@@ -1,15 +1,5 @@
 # getUser
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/badges/1/isQuantifiable``,
-* Unexpected property at ``#/bannerType``,
-* Unexpected property at ``#/bannerUrl``,
-* Unexpected property at ``#/iconFrame``,
-* Unexpected property at ``#/iconUrl``,
-* Unexpected property at ``#/isEconomyCreator``,
-* Unexpected property at ``#/nameplateEffect``,
-* Unexpected property at ``#/profileEffect``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 

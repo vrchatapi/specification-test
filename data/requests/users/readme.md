@@ -1,5 +1,13 @@
 # Users
 
+## Get Public Profile
+Get a user's public profile information.
+
+> Missing coverage.
+## Get Private Profile
+Get profile information visible to the currently authenticated user.
+
+> Missing coverage.
 ## Get User Notes
 Get recently updated user notes
 
