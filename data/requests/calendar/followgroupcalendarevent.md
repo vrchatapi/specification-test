@@ -60,6 +60,11 @@
   "title": "Test Event",
   "type": "event",
   "updatedAt": "<unstable: string>",
+  "userInterest": {
+    "createdAt": "<unstable: string>",
+    "isFollowing": true,
+    "updatedAt": "<unstable: string>"
+  },
   "usesInstanceOverflow": false
 }
 ```

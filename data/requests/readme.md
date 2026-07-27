@@ -92,7 +92,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*6 issues truncated.*
+*7 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -129,7 +129,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*14 issues truncated.*
+*15 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -273,7 +273,7 @@ Response schema mismatch:
 * Invalid type at ``#/0listings/0products/1``,
 * Invalid type at ``#/0listings/0products/2``,
 
-*316 issues truncated.*
+*271 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -281,7 +281,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/0listings/0products/1``,
 * Invalid type at ``#/shelves/0listings/0products/2``,
 
-*316 issues truncated.*
+*271 issues truncated.*
 #### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
 
 Response schema mismatch:
@@ -613,7 +613,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*37 issues truncated.*
+*38 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
