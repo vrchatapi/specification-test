@@ -3,7 +3,7 @@
 ## Get Inventory
 Returns an Inventory object.
 
-* [getInventory](./getinventory.md)
+> Missing coverage.
 ## Share Inventory Item Direct
 Share content directly with other users.
 
@@ -19,15 +19,15 @@ Returns a list of collection names.
 ## List Inventory Drops
 Returns a list of InventoryDrop objects.
 
-* [getInventoryDrops](./getinventorydrops.md)
+> Missing coverage.
 ## Spawn Inventory Item
 Returns an InventorySpawn object.
 
-* [spawnInventoryItem](./spawninventoryitem.md)
+> Missing coverage.
 ## Get Inventory Template
 Returns an InventoryTemplate object.
 
-* [getInventoryTemplate](./getinventorytemplate.md)
+> Missing coverage.
 ## Delete Own Inventory Item
 Deletes an InventoryItem from the inventory of the currently logged in user.
 
@@ -35,7 +35,7 @@ Deletes an InventoryItem from the inventory of the currently logged in user.
 ## Get Own Inventory Item
 Returns an InventoryItem object held by the currently logged in user.
 
-* [getOwnInventoryItem](./getowninventoryitem.md)
+> Missing coverage.
 ## Update Own Inventory Item
 Returns the modified InventoryItem object as held by the currently logged in user.
 

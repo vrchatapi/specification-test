@@ -15,7 +15,7 @@ Checks whether the user has persistence data for a given world
 ## Search All Worlds
 Search and list any worlds by query filters.
 
-* [searchWorlds](./searchworlds.md)
+> Missing coverage.
 ## Create World
 Create a new world. This endpoint requires `assetUrl` to be a valid File object with `.vrcw` file extension, and `imageUrl` to be a valid File object with an image file extension.
 
@@ -23,15 +23,15 @@ Create a new world. This endpoint requires `assetUrl` to be a valid File object 
 ## List Active Worlds
 Search and list currently Active worlds by query filters.
 
-* [getActiveWorlds](./getactiveworlds.md)
+> Missing coverage.
 ## List Favorited Worlds
 Search and list favorited worlds by query filters.
 
-* [getFavoritedWorlds](./getfavoritedworlds.md)
+> Missing coverage.
 ## List Recent Worlds
 Search and list recently visited worlds by query filters.
 
-* [getRecentWorlds](./getrecentworlds.md)
+> Missing coverage.
 ## Delete World
 Delete a world. Notice a world is never fully "deleted", only its ReleaseStatus is set to "hidden" and the linked Files are deleted. The WorldID is permanently reserved.
 
@@ -40,8 +40,7 @@ Delete a world. Notice a world is never fully "deleted", only its ReleaseStatus 
 Get information about a specific World.
 Works unauthenticated but when so will always return `0` for certain fields.
 
-* [getWorld by id](./getworld-by-id.md)
-* [getWorld (VRChat Home)](./getworld-(vrchat-home).md)
+> Missing coverage.
 ## Update World
 Update information about a specific World.
 
@@ -53,7 +52,7 @@ Adds tags to the world's profile
 ## Get World Metadata
 Return a worlds custom metadata. This is currently believed to be unused. Metadata can be set with `updateWorld` and can be any arbitrary object.
 
-* [getWorldMetadata by id](./getworldmetadata-by-id.md)
+> Missing coverage.
 ## Delete World Platform
 Deletes a world platform.
 
@@ -65,7 +64,7 @@ Unpublish a world.
 ## Get World Publish Status
 Returns a worlds publish status.
 
-* [getWorldPublishStatus by id](./getworldpublishstatus-by-id.md)
+> Missing coverage.
 ## Publish World
 Publish a world. You can only publish one world per week.
 
@@ -77,5 +76,5 @@ Removes tags from the world's profile
 ## Get World Instance
 Returns a worlds instance.
 
-* [getWorldInstance first listed instance](./getworldinstance-first-listed-instance.md)
+> Missing coverage.
 	
