@@ -2,8 +2,9 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/ledgerMode``,
-* Unexpected property at ``#/shadowBreaker``.
+* Missing property at ``#/economyOnline``,
+* Unexpected property at ``#/error``,
+* Unexpected property at ``#/status_code``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/tilia/status`
 
@@ -14,7 +15,7 @@ Response schema mismatch:
 
 
 ## Response
-`200 OK`
+`404 Not Found`
 
 | Header | Value |
 | ------ | ----- |
@@ -22,7 +23,6 @@ Response schema mismatch:
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
@@ -31,9 +31,7 @@ Response schema mismatch:
 
 ```jsonc
 {
-  "economyOnline": true,
-  "economyState": 1,
-  "ledgerMode": "internal",
-  "shadowBreaker": "ok"
+  "error": "The endpoint you're looking for is not implemented by our system.",
+  "status_code": 404
 }
 ```

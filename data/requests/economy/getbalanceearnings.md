@@ -1,5 +1,10 @@
 # getBalanceEarnings
 
+## Issues
+Response schema mismatch:
+* Missing property at ``#/balance``,
+* Unexpected property at ``#/error``,
+* Unexpected property at ``#/status_code``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/user/usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701/balance/earnings`
 
@@ -10,23 +15,23 @@
 
 
 ## Response
-`200 OK`
+`404 Not Found`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `13` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Authorization, Accept-Encoding` |
+| transfer-encoding | `chunked` |
+| vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "balance": 0
+  "error": "The endpoint you're looking for is not implemented by our system.",
+  "status_code": 404
 }
 ```

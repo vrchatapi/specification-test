@@ -27,7 +27,7 @@
 ```jsonc
 {
   "error": {
-    "message": "Calendar Entry not foundǃ",
+    "message": "Group not foundǃ",
     "status_code": 404
   }
 }

@@ -1,7 +1,17 @@
 # getGroupCalendarEvent
 
+## Issues
+Response schema mismatch:
+* Missing property at ``#/accessType``,
+* Missing property at ``#/category``,
+* Missing property at ``#/description``,
+* Missing property at ``#/endsAt``,
+* Missing property at ``#/id``,
+* Missing property at ``#/startsAt``,
+* Missing property at ``#/title``,
+* Unexpected property at ``#/error``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e/<unstable>`
+`GET https://api.vrchat.cloud/api/1/calendar/grp_ac985944-255d-4375-9cc3-5223aa5afe8e/undefined`
 
 | Header | Value |
 | ------ | ----- |
@@ -10,7 +20,7 @@
 
 
 ## Response
-`200 OK`
+`404 Not Found`
 
 | Header | Value |
 | ------ | ----- |
@@ -18,7 +28,6 @@
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
@@ -27,38 +36,9 @@
 
 ```jsonc
 {
-  "accessType": "group",
-  "category": "other",
-  "closeInstanceAfterEndMinutes": 5,
-  "createdAt": "<unstable: string>",
-  "deletedAt": null,
-  "description": "Test Description",
-  "durationInMs": 3600000,
-  "endsAt": "<unstable: string>",
-  "featured": false,
-  "guestEarlyJoinMinutes": 5,
-  "hostEarlyJoinMinutes": 60,
-  "id": "<unstable: string>",
-  "imageId": null,
-  "interestedUserCount": 1,
-  "isDraft": true,
-  "languages": [],
-  "occurrenceKind": "single",
-  "ownerId": "grp_ac985944-255d-4375-9cc3-5223aa5afe8e",
-  "platforms": [],
-  "recurrence": null,
-  "roleIds": [],
-  "seriesId": null,
-  "startsAt": "<unstable: string>",
-  "tags": [],
-  "title": "Test Event",
-  "type": "event",
-  "updatedAt": "<unstable: string>",
-  "userInterest": {
-    "createdAt": "<unstable: string>",
-    "isFollowing": true,
-    "updatedAt": "<unstable: string>"
-  },
-  "usesInstanceOverflow": false
+  "error": {
+    "message": "Group not foundǃ",
+    "status_code": 404
+  }
 }
 ```

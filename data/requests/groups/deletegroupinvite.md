@@ -1,7 +1,7 @@
 # deleteGroupInvite
 
 ## Request
-`DELETE https://api.vrchat.cloud/api/1/groups/<unstable>/invites/usr_9e10ea3e-8115-4b51-9076-b1792215d57e`
+`DELETE https://api.vrchat.cloud/api/1/groups/undefined/invites/usr_9e10ea3e-8115-4b51-9076-b1792215d57e`
 
 | Header | Value |
 | ------ | ----- |
@@ -10,25 +10,25 @@
 
 
 ## Response
-`200 OK`
+`400 Bad Request`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `77` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Authorization, Accept-Encoding` |
+| vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "success": {
-    "message": "b9ce75b4dc299 has been uninvited.",
-    "status_code": 200
+  "error": {
+    "message": "groupId must be an ID˸ 'undefined'",
+    "status_code": 400
   }
 }
 ```

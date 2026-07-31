@@ -2,55 +2,16 @@
 
 ## Issues
 Response schema mismatch:
-* Missing property at ``#/acceptedTOSVersion``,
-* Missing property at ``#/ageVerificationStatus``,
-* Missing property at ``#/ageVerified``,
-* Missing property at ``#/allowAvatarCopying``,
-* Missing property at ``#/bio``,
-* Missing property at ``#/bioLinks``,
-* Missing property at ``#/currentAvatar``,
-* Missing property at ``#/currentAvatarImageUrl``,
-* Missing property at ``#/currentAvatarTags``,
-* Missing property at ``#/currentAvatarThumbnailImageUrl``,
-* Missing property at ``#/date_joined``,
-* Missing property at ``#/developerType``,
-* Missing property at ``#/displayName``,
-* Missing property at ``#/emailVerified``,
-* Missing property at ``#/friendGroupNames``,
-* Missing property at ``#/friendKey``,
-* Missing property at ``#/friends``,
-* Missing property at ``#/hasBirthday``,
-* Missing property at ``#/hasEmail``,
-* Missing property at ``#/hasLoggedInFromClient``,
-* Missing property at ``#/hasPendingEmail``,
-* Missing property at ``#/homeLocation``,
-* Missing property at ``#/id``,
-* Missing property at ``#/isAdult``,
-* Missing property at ``#/isFriend``,
-* Missing property at ``#/last_login``,
-* Missing property at ``#/last_mobile``,
-* Missing property at ``#/last_platform``,
-* Missing property at ``#/obfuscatedEmail``,
-* Missing property at ``#/obfuscatedPendingEmail``,
-* Missing property at ``#/oculusId``,
-* Missing property at ``#/pastDisplayNames``,
-* Missing property at ``#/profilePicOverride``,
-* Missing property at ``#/profilePicOverrideThumbnail``,
-* Missing property at ``#/pronouns``,
-* Missing property at ``#/pronounsHistory``,
-* Missing property at ``#/state``,
-* Missing property at ``#/status``,
-* Missing property at ``#/statusDescription``,
-* Missing property at ``#/statusFirstTime``,
-* Missing property at ``#/statusHistory``,
-* Missing property at ``#/steamDetails``,
-* Missing property at ``#/steamId``,
-* Missing property at ``#/tags``,
-* Missing property at ``#/twoFactorAuthEnabled``,
-* Missing property at ``#/unsubscribe``,
-* Missing property at ``#/userIcon``,
-* Missing property at ``#/usesGeneratedPassword``,
-* Unexpected property at ``#/error``.
+* Unexpected property at ``#/bannerColor``,
+* Unexpected property at ``#/bannerType``,
+* Unexpected property at ``#/completedTutorials``,
+* Unexpected property at ``#/iconFrame``,
+* Unexpected property at ``#/iconUrl``,
+* Unexpected property at ``#/isEconomyCreator``,
+* Unexpected property at ``#/isTemporary``,
+* Unexpected property at ``#/nameplateEffect``,
+* Unexpected property at ``#/profileEffect``,
+* Unexpected property at ``#/temporaryExpiryDate``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
@@ -58,29 +19,184 @@ Response schema mismatch:
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
 | authorization | `Basic <redacted>` |
+| cookie | `twoFactorAuth=<redacted>` |
 
 
 ## Response
-`401 Unauthorized`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
+| access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `80` |
-| content-type | `application/json` |
-| expires | `Thu, 01 Jan 1970 00:00:01 GMT` |
+| content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
-| referrer-policy | `same-origin` |
-| retry-after | `300` |
 | server | `cloudflare` |
-| x-frame-options | `SAMEORIGIN` |
+| set-cookie | `<redacted>` |
+| set-cookie | `<redacted>` |
+| transfer-encoding | `chunked` |
+| vary | `Authorization, Accept-Encoding` |
+| x-frame-options | `deny` |
 
 ```jsonc
 {
-  "error": {
-    "message": "\"Invalid Username/Email or Password\"",
-    "status_code": 401
-  }
+  "acceptedPrivacyVersion": 1,
+  "acceptedTOSVersion": 12,
+  "accountDeletionDate": null,
+  "accountDeletionLog": null,
+  "activeFriends": [],
+  "ageVerificationStatus": "hidden",
+  "ageVerified": true,
+  "allowAvatarCopying": true,
+  "appleDetails": {},
+  "appleId": "",
+  "badges": [
+    {
+      "assignedAt": "2024-07-21T22:28:04.790Z",
+      "badgeDescription": "Supports VRChat through VRC+",
+      "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_583f6b13-91ab-4e1b-974e-ab91600b06cb.png",
+      "badgeName": "Supporter",
+      "hidden": false,
+      "showcased": true,
+      "updatedAt": "2024-07-21T22:28:04.790Z"
+    },
+    {
+      "assignedAt": "2026-04-11T01:52:12.320Z",
+      "badgeDescription": "Joined VRChat 3 years ago",
+      "badgeId": "bdg_b4251f62-86c9-4af7-a188-ad5f478402e8",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/e8/bdgai_6749e6cd-9cfa-41fb-8e8a-8f5691256a46.png",
+      "badgeName": "3 Years",
+      "hidden": false,
+      "showcased": true,
+      "updatedAt": "2026-04-11T01:52:12.320Z"
+    },
+    {
+      "assignedAt": "2026-07-29T02:05:41.885Z",
+      "badgeDescription": "Awarded for subscribing to VRC+ (2 Years)",
+      "badgeId": "bdg_ee0fd1cf-77a2-439b-b116-0d9891cbfac6",
+      "badgeImageUrl": "https://assets.vrchat.com/badges/c6/bdgai_c0fa1e18-8a60-4789-9d26-e1e4eb1fdaef.png",
+      "badgeName": "VRC+ Subscriber (2 Years)",
+      "hidden": false,
+      "showcased": true,
+      "updatedAt": "2026-07-29T02:05:41.885Z"
+    }
+  ],
+  "bannerColor": "c9c92c",
+  "bannerType": "color",
+  "bio": "",
+  "bioLinks": [],
+  "completedTutorials": [
+    "standalonewindows:steam:v1"
+  ],
+  "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "currentAvatarTags": "<unstable: array of strings>",
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "date_joined": "2023-04-11",
+  "developerType": "none",
+  "discordDetails": {},
+  "discordId": "",
+  "displayName": "8cf3def6b8cea",
+  "emailVerified": true,
+  "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
+  "friendGroupNames": [],
+  "friendKey": "0fa860aec70cc1e191e3c9427f6beed3",
+  "friends": [
+    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
+  ],
+  "googleDetails": {},
+  "googleId": "",
+  "hasBirthday": true,
+  "hasEmail": true,
+  "hasLoggedInFromClient": false,
+  "hasPendingEmail": false,
+  "hideContentFilterSettings": false,
+  "homeLocation": "",
+  "iconFrame": "",
+  "iconUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  "isAdult": true,
+  "isBoopingEnabled": true,
+  "isEconomyCreator": false,
+  "isFriend": false,
+  "isTemporary": false,
+  "last_activity": "<unstable: string>",
+  "last_login": "<unstable: string>",
+  "last_mobile": null,
+  "last_platform": "standalonewindows",
+  "nameplateEffect": "",
+  "obfuscatedEmail": "<redacted>",
+  "obfuscatedPendingEmail": "",
+  "oculusId": "",
+  "offlineFriends": [
+    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
+  ],
+  "onlineFriends": [],
+  "pastDisplayNames": [],
+  "picoId": "",
+  "platform_history": "<unstable: empty array>",
+  "presence": {
+    "groups": [],
+    "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+    "instance": "offline",
+    "instanceType": "",
+    "platform": "",
+    "status": "offline",
+    "travelingToInstance": "offline",
+    "travelingToWorld": "offline",
+    "world": "offline"
+  },
+  "profileEffect": "",
+  "profilePicOverride": "",
+  "profilePicOverrideThumbnail": "",
+  "pronouns": "",
+  "pronounsHistory": [
+    "they/them"
+  ],
+  "receiveMobileInvitations": true,
+  "state": "offline",
+  "status": "active",
+  "statusDescription": "",
+  "statusFirstTime": false,
+  "statusHistory": [
+    "ccde90f85b5e",
+    "48bd1f588dae",
+    "1b3f36d3c5e7",
+    "94b0f8f43bdd",
+    "427bb10179a0",
+    "58b11b5a811e",
+    "ef62ff8052f6",
+    "93671c7998a1",
+    "791e2421ddd9",
+    "c1e9232a5f07"
+  ],
+  "steamDetails": {},
+  "steamId": "",
+  "tags": [
+    "system_no_captcha",
+    "language_eng",
+    "system_supporter",
+    "system_avatar_access",
+    "system_trust_basic",
+    "system_world_access",
+    "system_trust_known",
+    "system_feedback_access"
+  ],
+  "temporaryExpiryDate": null,
+  "twitchDetails": {},
+  "twitchId": "",
+  "twoFactorAuthEnabled": true,
+  "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
+  "unsubscribe": true,
+  "updated_at": "<unstable: string>",
+  "userIcon": "",
+  "userLanguage": null,
+  "userLanguageCode": "en",
+  "username": "8cf3def6b8cea",
+  "usesGeneratedPassword": false,
+  "viveId": ""
 }
 ```

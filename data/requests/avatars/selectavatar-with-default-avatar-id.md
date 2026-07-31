@@ -2,8 +2,6 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/appleDetails``,
-* Unexpected property at ``#/appleId``,
 * Unexpected property at ``#/bannerColor``,
 * Unexpected property at ``#/bannerType``,
 * Unexpected property at ``#/completedTutorials``,
@@ -13,9 +11,7 @@ Response schema mismatch:
 * Unexpected property at ``#/isTemporary``,
 * Unexpected property at ``#/nameplateEffect``,
 * Unexpected property at ``#/profileEffect``,
-* Unexpected property at ``#/temporaryExpiryDate``,
-* Unexpected property at ``#/twitchDetails``,
-* Unexpected property at ``#/twitchId``.
+* Unexpected property at ``#/temporaryExpiryDate``.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
@@ -105,23 +101,25 @@ Response schema mismatch:
   "profilePicOverride": "",
   "profilePicOverrideThumbnail": "",
   "pronouns": "",
-  "pronounsHistory": [],
+  "pronounsHistory": [
+    "they/them"
+  ],
   "receiveMobileInvitations": true,
   "state": "offline",
   "status": "active",
   "statusDescription": "",
-  "statusFirstTime": true,
+  "statusFirstTime": false,
   "statusHistory": [
-    "Looking to make new friends",
-    "Ask me about ․․․",
-    "Let's partyǃ",
-    "I'm AFK right now",
-    "I'm streaming on Twitch",
-    "My mic is muted",
-    "I'm here but busy",
-    "I speak ［English］",
-    "I create ․․․",
-    "My discord is ․․․‚"
+    "ccde90f85b5e",
+    "48bd1f588dae",
+    "1b3f36d3c5e7",
+    "94b0f8f43bdd",
+    "427bb10179a0",
+    "58b11b5a811e",
+    "ef62ff8052f6",
+    "93671c7998a1",
+    "791e2421ddd9",
+    "c1e9232a5f07"
   ],
   "steamDetails": {},
   "steamId": "",

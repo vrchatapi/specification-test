@@ -38,10 +38,11 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/1highlightListing/hasInventory``,
 * Unexpected property at ``#/shelves/1highlightListing/productTypes``,
 * Invalid type at ``#/shelves/1listings/0products/0``,
+* Unexpected property at ``#/shelves/1listings/0/attribution``,
+* Unexpected property at ``#/shelves/1listings/0/collabUserId``,
 * Unexpected property at ``#/shelves/1listings/0/hasCompanion``,
 * Unexpected property at ``#/shelves/1listings/0/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/0/productTypes``,
-* Unexpected property at ``#/shelves/1listings/0/subscriberExclusive``,
 * Invalid type at ``#/shelves/1listings/1products/0``,
 * Unexpected property at ``#/shelves/1listings/1/attribution``,
 * Unexpected property at ``#/shelves/1listings/1/collabUserId``,
@@ -85,24 +86,18 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/1listings/7/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/7/productTypes``,
 * Invalid type at ``#/shelves/1listings/8products/0``,
+* Invalid type at ``#/shelves/1listings/8products/1``,
 * Unexpected property at ``#/shelves/1listings/8/attribution``,
 * Unexpected property at ``#/shelves/1listings/8/collabUserId``,
 * Unexpected property at ``#/shelves/1listings/8/hasCompanion``,
 * Unexpected property at ``#/shelves/1listings/8/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/8/productTypes``,
 * Invalid type at ``#/shelves/1listings/9products/0``,
-* Invalid type at ``#/shelves/1listings/9products/1``,
 * Unexpected property at ``#/shelves/1listings/9/attribution``,
 * Unexpected property at ``#/shelves/1listings/9/collabUserId``,
 * Unexpected property at ``#/shelves/1listings/9/hasCompanion``,
 * Unexpected property at ``#/shelves/1listings/9/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/9/productTypes``,
-* Invalid type at ``#/shelves/1listings/10products/0``,
-* Unexpected property at ``#/shelves/1listings/10/attribution``,
-* Unexpected property at ``#/shelves/1listings/10/collabUserId``,
-* Unexpected property at ``#/shelves/1listings/10/hasCompanion``,
-* Unexpected property at ``#/shelves/1listings/10/hasInventory``,
-* Unexpected property at ``#/shelves/1listings/10/productTypes``,
 * Unexpected property at ``#/shelves/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/1/shelfIconImageId``,
 * Unexpected property at ``#/shelves/1/shelfTabBackgroundImageId``,
@@ -428,13 +423,13 @@ Response schema mismatch:
           "whenToExpire": null
         }
       ],
-      "shelfBackgroundImageId": "",
+      "shelfBackgroundImageId": "file_f9c091aa-ba41-40b8-8b80-2ff12c0aa3ca",
       "shelfDescription": "",
-      "shelfIconImageId": "",
+      "shelfIconImageId": "file_0d04dd74-8199-4f3a-a73a-76dd6cb57b0c",
       "shelfLayout": "col3",
-      "shelfTabBackgroundImageId": "",
+      "shelfTabBackgroundImageId": "file_134cca76-c601-459f-b74b-d3fe29d986c5",
       "shelfTitle": "{\"MinVersion\":1878} Open Beta Profile Decorations",
-      "updatedAt": "2026-07-24T21:45:50.219Z"
+      "updatedAt": "2026-07-29T19:24:19.216Z"
     },
     {
       "highlightListing": {
@@ -514,7 +509,6 @@ Response schema mismatch:
       "highlightListingId": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
       "id": "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
       "listingIds": [
-        "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35",
         "prod_0d58046b-de95-4309-89f9-044a32df72d5",
         "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
         "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
@@ -527,47 +521,6 @@ Response schema mismatch:
         "prod_429eaa74-962a-4001-ba3d-020623c5fb51"
       ],
       "listings": [
-        {
-          "active": true,
-          "buyerRefundable": false,
-          "description": "Free for VRC+ subscribers! Claim your 350 Credits!",
-          "displayName": "VRC+ Credit Drop",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": false,
-          "hasUdon": false,
-          "id": "prod_71ff701a-2ae2-45d2-8300-2e71601eaa35",
-          "imageId": "file_fac6addf-4928-4bcb-bbeb-22a4f3906344",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 0,
-          "productIds": [
-            "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "credit"
-          ],
-          "products": [
-            "prod_e34ec703-ff70-4ce7-8495-540b254cc7fb"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subscriberExclusive": true,
-          "subtitle": "Credit Bundle",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": "2026-07-30T21:00:00.000Z"
-        },
         {
           "active": true,
           "attribution": {

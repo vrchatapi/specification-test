@@ -1,7 +1,10 @@
 # updateGroupRepresentation
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/error``.
 ## Request
-`PUT https://api.vrchat.cloud/api/1/groups/<unstable>/representation`
+`PUT https://api.vrchat.cloud/api/1/groups/undefined/representation`
 
 | Header | Value |
 | ------ | ----- |
@@ -17,25 +20,25 @@
 
 
 ## Response
-`200 OK`
+`400 Bad Request`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `77` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
-| vary | `Authorization, Accept-Encoding` |
+| vary | `Origin, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "success": {
-    "message": "Group representation updated!",
-    "status_code": 200
+  "error": {
+    "message": "groupId must be an ID˸ 'undefined'",
+    "status_code": 400
   }
 }
 ```

@@ -1,7 +1,10 @@
 # deleteGroup
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/error``.
 ## Request
-`DELETE https://api.vrchat.cloud/api/1/groups/<unstable>`
+`DELETE https://api.vrchat.cloud/api/1/groups/undefined`
 
 | Header | Value |
 | ------ | ----- |
@@ -10,7 +13,7 @@
 
 
 ## Response
-`200 OK`
+`404 Not Found`
 
 | Header | Value |
 | ------ | ----- |
@@ -26,9 +29,9 @@
 
 ```jsonc
 {
-  "success": {
-    "message": "Group deleted!",
-    "status_code": 200
+  "error": {
+    "message": "Group not foundǃ",
+    "status_code": 404
   }
 }
 ```
