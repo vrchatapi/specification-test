@@ -9,7 +9,7 @@ Response schema mismatch:
 * Unexpected property at ``#/bannerType``,
 * Unexpected property at ``#/completedTutorials``,
 
-*7 issues truncated.*
+*8 issues truncated.*
 #### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 Response schema mismatch:
@@ -17,7 +17,7 @@ Response schema mismatch:
 * Unexpected property at ``#/bannerType``,
 * Unexpected property at ``#/completedTutorials``,
 
-*7 issues truncated.*
+*8 issues truncated.*
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -92,7 +92,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*4 issues truncated.*
+*7 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -129,7 +129,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*15 issues truncated.*
+*19 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -181,7 +181,7 @@ Response schema mismatch:
 * Unexpected property at ``#/bannerType``,
 * Unexpected property at ``#/completedTutorials``,
 
-*7 issues truncated.*
+*8 issues truncated.*
 #### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
 
 Response schema mismatch:
@@ -189,7 +189,7 @@ Response schema mismatch:
 * Unexpected property at ``#/bannerType``,
 * Unexpected property at ``#/completedTutorials``,
 
-*7 issues truncated.*
+*8 issues truncated.*
 #### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
 
 Response schema mismatch:
@@ -197,7 +197,7 @@ Response schema mismatch:
 * Unexpected property at ``#/bannerType``,
 * Unexpected property at ``#/completedTutorials``,
 
-*7 issues truncated.*
+*8 issues truncated.*
 #### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
 
 Response schema mismatch:
@@ -641,7 +641,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*36 issues truncated.*
+*38 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

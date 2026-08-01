@@ -10,6 +10,7 @@ Response schema mismatch:
 * Unexpected property at ``#/isEconomyCreator``,
 * Unexpected property at ``#/isTemporary``,
 * Unexpected property at ``#/nameplateEffect``,
+* Unexpected property at ``#/personalizationOptOut``,
 * Unexpected property at ``#/profileEffect``,
 * Unexpected property at ``#/temporaryExpiryDate``.
 ## Request
@@ -136,6 +137,7 @@ Response schema mismatch:
   ],
   "onlineFriends": [],
   "pastDisplayNames": [],
+  "personalizationOptOut": false,
   "picoId": "",
   "platform_history": "<unstable: empty array>",
   "presence": {
@@ -162,16 +164,16 @@ Response schema mismatch:
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
-    "ccde90f85b5e",
-    "48bd1f588dae",
-    "1b3f36d3c5e7",
-    "94b0f8f43bdd",
-    "427bb10179a0",
-    "58b11b5a811e",
-    "ef62ff8052f6",
-    "93671c7998a1",
-    "791e2421ddd9",
-    "c1e9232a5f07"
+    "d67fa9f1a367",
+    "ad1cef156d93",
+    "3600e2474db6",
+    "25ee938c902c",
+    "3793c4377d37",
+    "f1675f22bf63",
+    "0b10b92e12a4",
+    "856ad62a6990",
+    "021fd5cf351e",
+    "b88e343e842a"
   ],
   "steamDetails": {},
   "steamId": "",
