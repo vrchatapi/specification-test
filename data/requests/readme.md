@@ -129,7 +129,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*19 issues truncated.*
+*15 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -521,12 +521,6 @@ Response schema mismatch:
 * Unexpected property at ``#/attribution``,
 
 *1 issues truncated.*
-#### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
-
-Response schema mismatch:
-* Missing property at ``#/0/status``,
-* Unexpected property at ``#/0/dropStatus``.
-
 #### [getOwnInventoryItem](/data/requests/inventory/getowninventoryitem.md)
 
 Response schema mismatch:
@@ -543,6 +537,9 @@ Response schema mismatch:
 * Unexpected property at ``#/data/0/attribution``,
 
 *5 issues truncated.*
+#### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
+
+
 #### [spawnInventoryItem](/data/requests/inventory/spawninventoryitem.md)
 
 
@@ -641,7 +638,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*38 issues truncated.*
+*40 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

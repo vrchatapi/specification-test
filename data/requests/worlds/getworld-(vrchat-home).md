@@ -65,61 +65,62 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "instanceId": "b2d7afc104~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 1
-    },
-    {
       "gameServerVersion": 1626,
-      "instanceId": "47369~region(jp)",
+      "instanceId": "31423~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
       "languageRatio": {
-        "en": 0.38,
-        "ja": 0.13,
-        "pt-BR": 0.38,
-        "zh-CN": 0.13
-      },
-      "n_users": 5
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "89734~region(jp)",
-      "languageRatio": {
-        "en": 0.9,
-        "pt-BR": 0.1
+        "en": 0.77,
+        "es": 0.15,
+        "ko": 0.08
       },
       "n_users": 4
     },
     {
-      "gameServerVersion": 1626,
-      "instanceId": "6b45c454cf~region(us)",
+      "instanceId": "4368~region(jp)",
       "languageRatio": {
-        "en": 1
+        "en": 0.5,
+        "zh-CN": 0.5
       },
-      "n_users": 4
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "59a6d525ba~region(us)",
+      "languageRatio": {
+        "de": 0.25,
+        "en": 0.75
+      },
+      "n_users": 7
+    },
+    {
+      "gameServerVersion": 1626,
+      "instanceId": "1584b51c7c~region(us)",
+      "languageRatio": {
+        "en": 0.67,
+        "ja": 0.33
+      },
+      "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "81616~region(us)",
+      "instanceId": "9e94f1997d~region(us)",
       "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "72ebc328d3~region(us)",
+      "instanceId": "79345~region(use)",
       "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "47809~region(use)",
+      "instanceId": "0aca658d3e~region(us)",
       "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "69334~region(us)",
+      "instanceId": "da84f3369f~region(us)",
       "languageRatio": {},
       "n_users": 1
     }

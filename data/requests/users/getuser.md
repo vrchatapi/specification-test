@@ -92,7 +92,7 @@
   "pronouns": "he/him",
   "state": "offline",
   "status": "ask me",
-  "statusDescription": "hewwo․",
+  "statusDescription": "",
   "tags": [
     "system_trust_trusted",
     "system_world_access",

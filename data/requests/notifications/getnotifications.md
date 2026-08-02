@@ -48,19 +48,9 @@
     "type": "friendRequest"
   },
   {
-    "created_at": "2026-08-01T02:24:56.855Z",
-    "details": "{\"worldId\":\"wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:46843~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)\",\"worldName\":\"The Black Cat\"}",
-    "id": "not_ce239502-ee9a-4382-adac-e6b8e7f5ad06",
-    "message": "This is a generated invite to The Black Cat",
-    "seen": false,
-    "senderUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
-    "senderUsername": "8cf3def6b8cea",
-    "type": "invite"
-  },
-  {
-    "created_at": "2026-08-01T02:25:34.403Z",
-    "details": "{\"worldId\":\"wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:31247~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)\",\"worldName\":\"The Black Cat\"}",
-    "id": "not_93dd0793-7168-4156-9842-3960d7aa6228",
+    "created_at": "2026-08-02T02:17:11.397Z",
+    "details": "{\"worldId\":\"wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:46464~private(usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701)~canRequestInvite~region(use)\",\"worldName\":\"The Black Cat\"}",
+    "id": "not_ea35ecfc-ca9f-4ed6-9b0a-f6e6e385e665",
     "message": "This is a generated invite to The Black Cat",
     "seen": false,
     "senderUserId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
