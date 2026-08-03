@@ -13,11 +13,11 @@ Response schema mismatch:
 #### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/bannerColor``,
-* Unexpected property at ``#/bannerType``,
-* Unexpected property at ``#/completedTutorials``,
+* Unexpected property at ``#/presence/avatarImageUrl``,
+* Unexpected property at ``#/presence/banner``,
+* Unexpected property at ``#/presence/iconFrame``,
 
-*8 issues truncated.*
+*13 issues truncated.*
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -92,7 +92,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*7 issues truncated.*
+*6 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -129,7 +129,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*15 issues truncated.*
+*16 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -622,7 +622,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1819 issues truncated.*
+*1828 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -638,7 +638,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*40 issues truncated.*
+*38 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
