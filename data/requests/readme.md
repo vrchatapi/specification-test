@@ -13,11 +13,11 @@ Response schema mismatch:
 #### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/presence/avatarImageUrl``,
-* Unexpected property at ``#/presence/banner``,
-* Unexpected property at ``#/presence/iconFrame``,
+* Unexpected property at ``#/bannerColor``,
+* Unexpected property at ``#/bannerType``,
+* Unexpected property at ``#/completedTutorials``,
 
-*13 issues truncated.*
+*8 issues truncated.*
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
 Response schema mismatch:
@@ -92,7 +92,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*6 issues truncated.*
+*5 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -129,7 +129,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*16 issues truncated.*
+*17 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -622,7 +622,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1828 issues truncated.*
+*1824 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -630,7 +630,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/clientMinVersion``,
 * Unexpected property at ``#/0/regions``,
 
-*48 issues truncated.*
+*44 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -638,7 +638,7 @@ Response schema mismatch:
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 * Unexpected property at ``#/audioConfig/useLegacyILDNudging``,
 
-*38 issues truncated.*
+*36 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

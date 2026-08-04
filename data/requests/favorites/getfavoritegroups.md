@@ -38,7 +38,7 @@
     "visibility": "private"
   },
   {
-    "displayName": "newName",
+    "displayName": "avatars2",
     "id": "fvgrp_e303b9a5-4534-496f-bfbd-2a18b0976f5c",
     "name": "avatars2",
     "ownerDisplayName": "8cf3def6b8cea",

@@ -2,11 +2,6 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/presence/avatarImageUrl``,
-* Unexpected property at ``#/presence/banner``,
-* Unexpected property at ``#/presence/iconFrame``,
-* Unexpected property at ``#/presence/nameplateEffect``,
-* Unexpected property at ``#/presence/profileEffect``,
 * Unexpected property at ``#/bannerColor``,
 * Unexpected property at ``#/bannerType``,
 * Unexpected property at ``#/completedTutorials``,
@@ -143,34 +138,14 @@ Response schema mismatch:
   "picoId": "",
   "platform_history": "<unstable: empty array>",
   "presence": {
-    "avatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-    "banner": "c9c92c",
-    "currentAvatarTags": [
-      "admin_featured_legacy",
-      "admin_content_reviewed"
-    ],
-    "debugflag": "1",
-    "displayName": "8cf3def6b8cea",
-    "groups": [
-      "grp_37ed68dc-5128-4470-af8c-32f9d4f60b3a",
-      "grp_52c61c62-9aff-44ed-a8ae-2595dd4745ca",
-      "grp_52ed39b8-0847-43d3-83e0-34eddc0a314f",
-      "grp_648f7066-bf9f-44b0-90aa-a5a8c7718137",
-      "grp_8afde832-b4a1-41b2-bffb-c7d19f348760",
-      "grp_e4a54f62-0013-45fe-a0f0-d27087ef46ba"
-    ],
-    "iconFrame": "",
+    "groups": [],
     "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
     "instance": "offline",
     "instanceType": "",
-    "nameplateEffect": "",
-    "platform": "web",
-    "profileEffect": "",
-    "profilePicOverride": "",
-    "status": "active",
+    "platform": "",
+    "status": "offline",
     "travelingToInstance": "offline",
     "travelingToWorld": "offline",
-    "userIcon": "",
     "world": "offline"
   },
   "profileEffect": "",
@@ -186,6 +161,7 @@ Response schema mismatch:
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "15dac65a2f1c",
     "be9a684ee002",
     "972387f7e822",
     "599ced7a6008",
@@ -194,8 +170,7 @@ Response schema mismatch:
     "2579ded5191c",
     "d67fa9f1a367",
     "ad1cef156d93",
-    "3600e2474db6",
-    "25ee938c902c"
+    "3600e2474db6"
   ],
   "steamDetails": {},
   "steamId": "",

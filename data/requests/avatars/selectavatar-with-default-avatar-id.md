@@ -112,6 +112,7 @@ Response schema mismatch:
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "15dac65a2f1c",
     "be9a684ee002",
     "972387f7e822",
     "599ced7a6008",
@@ -120,8 +121,7 @@ Response schema mismatch:
     "2579ded5191c",
     "d67fa9f1a367",
     "ad1cef156d93",
-    "3600e2474db6",
-    "25ee938c902c"
+    "3600e2474db6"
   ],
   "steamDetails": {},
   "steamId": "",
