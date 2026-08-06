@@ -423,13 +423,13 @@ Response schema mismatch:
           "whenToExpire": null
         }
       ],
-      "shelfBackgroundImageId": "file_f9c091aa-ba41-40b8-8b80-2ff12c0aa3ca",
+      "shelfBackgroundImageId": "file_3a9e212e-3ea6-4855-94b7-86961f505a25",
       "shelfDescription": "",
       "shelfIconImageId": "file_0d04dd74-8199-4f3a-a73a-76dd6cb57b0c",
       "shelfLayout": "col3",
-      "shelfTabBackgroundImageId": "file_134cca76-c601-459f-b74b-d3fe29d986c5",
+      "shelfTabBackgroundImageId": "file_2a806b03-33f0-4491-96ea-41577bfdc33b",
       "shelfTitle": "{\"MinVersion\":1878} Open Beta Profile Decorations",
-      "updatedAt": "2026-07-29T19:24:19.216Z"
+      "updatedAt": "2026-08-05T15:10:15.076Z"
     },
     {
       "highlightListing": {
