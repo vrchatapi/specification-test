@@ -2,102 +2,95 @@
 
 ## Issues
 Response schema mismatch:
+* Invalid type at ``#/shelves/0highlightListing/products/0``,
+* Invalid type at ``#/shelves/0highlightListing/products/1``,
+* Invalid type at ``#/shelves/0highlightListing/products/2``,
+* Invalid type at ``#/shelves/0highlightListing/products/3``,
+* Invalid type at ``#/shelves/0highlightListing/products/4``,
+* Invalid type at ``#/shelves/0highlightListing/products/5``,
+* Invalid type at ``#/shelves/0highlightListing/products/6``,
+* Invalid type at ``#/shelves/0highlightListing/products/7``,
+* Invalid type at ``#/shelves/0highlightListing/products/8``,
+* Invalid type at ``#/shelves/0highlightListing/products/9``,
+* Unexpected property at ``#/shelves/0highlightListing/attribution``,
+* Unexpected property at ``#/shelves/0highlightListing/collabUserId``,
+* Unexpected property at ``#/shelves/0highlightListing/hasCompanion``,
+* Unexpected property at ``#/shelves/0highlightListing/hasInventory``,
+* Unexpected property at ``#/shelves/0highlightListing/productTypes``,
 * Invalid type at ``#/shelves/0listings/0products/0``,
-* Invalid type at ``#/shelves/0listings/0products/1``,
-* Invalid type at ``#/shelves/0listings/0products/2``,
 * Unexpected property at ``#/shelves/0listings/0/attribution``,
 * Unexpected property at ``#/shelves/0listings/0/collabUserId``,
 * Unexpected property at ``#/shelves/0listings/0/hasCompanion``,
 * Unexpected property at ``#/shelves/0listings/0/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/0/productTypes``,
 * Invalid type at ``#/shelves/0listings/1products/0``,
-* Invalid type at ``#/shelves/0listings/1products/1``,
-* Invalid type at ``#/shelves/0listings/1products/2``,
 * Unexpected property at ``#/shelves/0listings/1/attribution``,
 * Unexpected property at ``#/shelves/0listings/1/collabUserId``,
 * Unexpected property at ``#/shelves/0listings/1/hasCompanion``,
 * Unexpected property at ``#/shelves/0listings/1/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/1/productTypes``,
+* Invalid type at ``#/shelves/0listings/2products/0``,
+* Unexpected property at ``#/shelves/0listings/2/attribution``,
+* Unexpected property at ``#/shelves/0listings/2/collabUserId``,
+* Unexpected property at ``#/shelves/0listings/2/hasCompanion``,
+* Unexpected property at ``#/shelves/0listings/2/hasInventory``,
+* Unexpected property at ``#/shelves/0listings/2/productTypes``,
+* Invalid type at ``#/shelves/0listings/3products/0``,
+* Unexpected property at ``#/shelves/0listings/3/attribution``,
+* Unexpected property at ``#/shelves/0listings/3/collabUserId``,
+* Unexpected property at ``#/shelves/0listings/3/hasCompanion``,
+* Unexpected property at ``#/shelves/0listings/3/hasInventory``,
+* Unexpected property at ``#/shelves/0listings/3/productTypes``,
+* Invalid type at ``#/shelves/0listings/4products/0``,
+* Unexpected property at ``#/shelves/0listings/4/attribution``,
+* Unexpected property at ``#/shelves/0listings/4/collabUserId``,
+* Unexpected property at ``#/shelves/0listings/4/hasCompanion``,
+* Unexpected property at ``#/shelves/0listings/4/hasInventory``,
+* Unexpected property at ``#/shelves/0listings/4/productTypes``,
+* Invalid type at ``#/shelves/0listings/5products/0``,
+* Unexpected property at ``#/shelves/0listings/5/attribution``,
+* Unexpected property at ``#/shelves/0listings/5/collabUserId``,
+* Unexpected property at ``#/shelves/0listings/5/hasCompanion``,
+* Unexpected property at ``#/shelves/0listings/5/hasInventory``,
+* Unexpected property at ``#/shelves/0listings/5/productTypes``,
+* Invalid type at ``#/shelves/0listings/6products/0``,
+* Unexpected property at ``#/shelves/0listings/6/attribution``,
+* Unexpected property at ``#/shelves/0listings/6/collabUserId``,
+* Unexpected property at ``#/shelves/0listings/6/hasCompanion``,
+* Unexpected property at ``#/shelves/0listings/6/hasInventory``,
+* Unexpected property at ``#/shelves/0listings/6/productTypes``,
+* Invalid type at ``#/shelves/0listings/7products/0``,
+* Invalid type at ``#/shelves/0listings/7products/1``,
+* Unexpected property at ``#/shelves/0listings/7/attribution``,
+* Unexpected property at ``#/shelves/0listings/7/collabUserId``,
+* Unexpected property at ``#/shelves/0listings/7/hasCompanion``,
+* Unexpected property at ``#/shelves/0listings/7/hasInventory``,
+* Unexpected property at ``#/shelves/0listings/7/productTypes``,
+* Invalid type at ``#/shelves/0listings/8products/0``,
+* Unexpected property at ``#/shelves/0listings/8/attribution``,
+* Unexpected property at ``#/shelves/0listings/8/collabUserId``,
+* Unexpected property at ``#/shelves/0listings/8/hasCompanion``,
+* Unexpected property at ``#/shelves/0listings/8/hasInventory``,
+* Unexpected property at ``#/shelves/0listings/8/productTypes``,
 * Unexpected property at ``#/shelves/0/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/0/shelfIconImageId``,
 * Unexpected property at ``#/shelves/0/shelfTabBackgroundImageId``,
-* Invalid type at ``#/shelves/1highlightListing/products/0``,
-* Invalid type at ``#/shelves/1highlightListing/products/1``,
-* Invalid type at ``#/shelves/1highlightListing/products/2``,
-* Invalid type at ``#/shelves/1highlightListing/products/3``,
-* Invalid type at ``#/shelves/1highlightListing/products/4``,
-* Invalid type at ``#/shelves/1highlightListing/products/5``,
-* Invalid type at ``#/shelves/1highlightListing/products/6``,
-* Invalid type at ``#/shelves/1highlightListing/products/7``,
-* Invalid type at ``#/shelves/1highlightListing/products/8``,
-* Invalid type at ``#/shelves/1highlightListing/products/9``,
-* Invalid type at ``#/shelves/1highlightListing/products/10``,
-* Unexpected property at ``#/shelves/1highlightListing/attribution``,
-* Unexpected property at ``#/shelves/1highlightListing/collabUserId``,
-* Unexpected property at ``#/shelves/1highlightListing/hasCompanion``,
-* Unexpected property at ``#/shelves/1highlightListing/hasInventory``,
-* Unexpected property at ``#/shelves/1highlightListing/productTypes``,
 * Invalid type at ``#/shelves/1listings/0products/0``,
+* Invalid type at ``#/shelves/1listings/0products/1``,
+* Invalid type at ``#/shelves/1listings/0products/2``,
 * Unexpected property at ``#/shelves/1listings/0/attribution``,
 * Unexpected property at ``#/shelves/1listings/0/collabUserId``,
 * Unexpected property at ``#/shelves/1listings/0/hasCompanion``,
 * Unexpected property at ``#/shelves/1listings/0/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/0/productTypes``,
 * Invalid type at ``#/shelves/1listings/1products/0``,
+* Invalid type at ``#/shelves/1listings/1products/1``,
+* Invalid type at ``#/shelves/1listings/1products/2``,
 * Unexpected property at ``#/shelves/1listings/1/attribution``,
 * Unexpected property at ``#/shelves/1listings/1/collabUserId``,
 * Unexpected property at ``#/shelves/1listings/1/hasCompanion``,
 * Unexpected property at ``#/shelves/1listings/1/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/1/productTypes``,
-* Invalid type at ``#/shelves/1listings/2products/0``,
-* Unexpected property at ``#/shelves/1listings/2/attribution``,
-* Unexpected property at ``#/shelves/1listings/2/collabUserId``,
-* Unexpected property at ``#/shelves/1listings/2/hasCompanion``,
-* Unexpected property at ``#/shelves/1listings/2/hasInventory``,
-* Unexpected property at ``#/shelves/1listings/2/productTypes``,
-* Invalid type at ``#/shelves/1listings/3products/0``,
-* Unexpected property at ``#/shelves/1listings/3/attribution``,
-* Unexpected property at ``#/shelves/1listings/3/collabUserId``,
-* Unexpected property at ``#/shelves/1listings/3/hasCompanion``,
-* Unexpected property at ``#/shelves/1listings/3/hasInventory``,
-* Unexpected property at ``#/shelves/1listings/3/productTypes``,
-* Invalid type at ``#/shelves/1listings/4products/0``,
-* Unexpected property at ``#/shelves/1listings/4/attribution``,
-* Unexpected property at ``#/shelves/1listings/4/collabUserId``,
-* Unexpected property at ``#/shelves/1listings/4/hasCompanion``,
-* Unexpected property at ``#/shelves/1listings/4/hasInventory``,
-* Unexpected property at ``#/shelves/1listings/4/productTypes``,
-* Invalid type at ``#/shelves/1listings/5products/0``,
-* Unexpected property at ``#/shelves/1listings/5/attribution``,
-* Unexpected property at ``#/shelves/1listings/5/collabUserId``,
-* Unexpected property at ``#/shelves/1listings/5/hasCompanion``,
-* Unexpected property at ``#/shelves/1listings/5/hasInventory``,
-* Unexpected property at ``#/shelves/1listings/5/productTypes``,
-* Invalid type at ``#/shelves/1listings/6products/0``,
-* Unexpected property at ``#/shelves/1listings/6/attribution``,
-* Unexpected property at ``#/shelves/1listings/6/collabUserId``,
-* Unexpected property at ``#/shelves/1listings/6/hasCompanion``,
-* Unexpected property at ``#/shelves/1listings/6/hasInventory``,
-* Unexpected property at ``#/shelves/1listings/6/productTypes``,
-* Invalid type at ``#/shelves/1listings/7products/0``,
-* Unexpected property at ``#/shelves/1listings/7/attribution``,
-* Unexpected property at ``#/shelves/1listings/7/collabUserId``,
-* Unexpected property at ``#/shelves/1listings/7/hasCompanion``,
-* Unexpected property at ``#/shelves/1listings/7/hasInventory``,
-* Unexpected property at ``#/shelves/1listings/7/productTypes``,
-* Invalid type at ``#/shelves/1listings/8products/0``,
-* Invalid type at ``#/shelves/1listings/8products/1``,
-* Unexpected property at ``#/shelves/1listings/8/attribution``,
-* Unexpected property at ``#/shelves/1listings/8/collabUserId``,
-* Unexpected property at ``#/shelves/1listings/8/hasCompanion``,
-* Unexpected property at ``#/shelves/1listings/8/hasInventory``,
-* Unexpected property at ``#/shelves/1listings/8/productTypes``,
-* Invalid type at ``#/shelves/1listings/9products/0``,
-* Unexpected property at ``#/shelves/1listings/9/attribution``,
-* Unexpected property at ``#/shelves/1listings/9/collabUserId``,
-* Unexpected property at ``#/shelves/1listings/9/hasCompanion``,
-* Unexpected property at ``#/shelves/1listings/9/hasInventory``,
-* Unexpected property at ``#/shelves/1listings/9/productTypes``,
 * Unexpected property at ``#/shelves/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/1/shelfIconImageId``,
 * Unexpected property at ``#/shelves/1/shelfTabBackgroundImageId``,
@@ -111,6 +104,7 @@ Response schema mismatch:
 * Invalid type at ``#/shelves/2highlightListing/products/7``,
 * Invalid type at ``#/shelves/2highlightListing/products/8``,
 * Invalid type at ``#/shelves/2highlightListing/products/9``,
+* Invalid type at ``#/shelves/2highlightListing/products/10``,
 * Unexpected property at ``#/shelves/2highlightListing/attribution``,
 * Unexpected property at ``#/shelves/2highlightListing/collabUserId``,
 * Unexpected property at ``#/shelves/2highlightListing/hasCompanion``,
@@ -159,19 +153,24 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/6/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/6/productTypes``,
 * Invalid type at ``#/shelves/2listings/7products/0``,
-* Invalid type at ``#/shelves/2listings/7products/1``,
 * Unexpected property at ``#/shelves/2listings/7/attribution``,
 * Unexpected property at ``#/shelves/2listings/7/collabUserId``,
 * Unexpected property at ``#/shelves/2listings/7/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/7/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/7/productTypes``,
 * Invalid type at ``#/shelves/2listings/8products/0``,
+* Invalid type at ``#/shelves/2listings/8products/1``,
 * Unexpected property at ``#/shelves/2listings/8/attribution``,
-* Unexpected property at ``#/shelves/2listings/8/collabUserDisplayName``,
 * Unexpected property at ``#/shelves/2listings/8/collabUserId``,
 * Unexpected property at ``#/shelves/2listings/8/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/8/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/8/productTypes``,
+* Invalid type at ``#/shelves/2listings/9products/0``,
+* Unexpected property at ``#/shelves/2listings/9/attribution``,
+* Unexpected property at ``#/shelves/2listings/9/collabUserId``,
+* Unexpected property at ``#/shelves/2listings/9/hasCompanion``,
+* Unexpected property at ``#/shelves/2listings/9/hasInventory``,
+* Unexpected property at ``#/shelves/2listings/9/productTypes``,
 * Unexpected property at ``#/shelves/2/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/2/shelfIconImageId``,
 * Unexpected property at ``#/shelves/2/shelfTabBackgroundImageId``,
@@ -188,9 +187,6 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3listings/1/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/1/productTypes``,
 * Invalid type at ``#/shelves/3listings/2products/0``,
-* Invalid type at ``#/shelves/3listings/2products/1``,
-* Invalid type at ``#/shelves/3listings/2products/2``,
-* Invalid type at ``#/shelves/3listings/2products/3``,
 * Unexpected property at ``#/shelves/3listings/2/attribution``,
 * Unexpected property at ``#/shelves/3listings/2/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/2/hasCompanion``,
@@ -203,6 +199,9 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3listings/3/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/3/productTypes``,
 * Invalid type at ``#/shelves/3listings/4products/0``,
+* Invalid type at ``#/shelves/3listings/4products/1``,
+* Invalid type at ``#/shelves/3listings/4products/2``,
+* Invalid type at ``#/shelves/3listings/4products/3``,
 * Unexpected property at ``#/shelves/3listings/4/attribution``,
 * Unexpected property at ``#/shelves/3listings/4/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/4/hasCompanion``,
@@ -221,8 +220,6 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3listings/6/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/6/productTypes``,
 * Invalid type at ``#/shelves/3listings/7products/0``,
-* Invalid type at ``#/shelves/3listings/7products/1``,
-* Invalid type at ``#/shelves/3listings/7products/2``,
 * Unexpected property at ``#/shelves/3listings/7/attribution``,
 * Unexpected property at ``#/shelves/3listings/7/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/7/hasCompanion``,
@@ -235,6 +232,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3listings/8/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/8/productTypes``,
 * Invalid type at ``#/shelves/3listings/9products/0``,
+* Invalid type at ``#/shelves/3listings/9products/1``,
+* Invalid type at ``#/shelves/3listings/9products/2``,
 * Unexpected property at ``#/shelves/3listings/9/attribution``,
 * Unexpected property at ``#/shelves/3listings/9/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/9/hasCompanion``,
@@ -242,7 +241,6 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3listings/9/productTypes``,
 * Invalid type at ``#/shelves/3listings/10products/0``,
 * Unexpected property at ``#/shelves/3listings/10/attribution``,
-* Unexpected property at ``#/shelves/3listings/10/collabUserDisplayName``,
 * Unexpected property at ``#/shelves/3listings/10/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/10/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/10/hasInventory``,
@@ -255,6 +253,7 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3listings/11/productTypes``,
 * Invalid type at ``#/shelves/3listings/12products/0``,
 * Unexpected property at ``#/shelves/3listings/12/attribution``,
+* Unexpected property at ``#/shelves/3listings/12/collabUserDisplayName``,
 * Unexpected property at ``#/shelves/3listings/12/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/12/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/12/hasInventory``,
@@ -301,12 +300,542 @@ Response schema mismatch:
   "sellerDisplayName": "VRChat",
   "sellerId": "usr_00000000-0000-0000-0000-000000000011",
   "shelfIds": [
+    "ess_7e4ed8fc-1248-433a-baf8-70575cfcbc60",
     "ess_30ad6919-a887-4072-af61-389c5ec5d88f",
     "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
-    "ess_24e21177-8507-4ffa-8f3b-f88dbf7fec52",
     "ess_f27165e9-a49d-4010-9f94-8cf89531c249"
   ],
   "shelves": [
+    {
+      "highlightListing": {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "It’s festival season, and we’ve got everything you need to throw your own party. Or, at the very least, enjoy some upbeat energy with a few friends. Contains the Glowstick, Feel the Drop Loading Screen, Max EQ Warp Effect, The Dub Sub Portal, Glowy Necklace & Festival Glasses Accessories, VDJ-8000, VRCatJam Animated Sticker and Instant Laser Show & String Confettig Emoji.\n\nIncludes your recommended daily dose of drum and bass.\n",
+        "displayName": "EDM Bundle",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_41b386db-d887-46ad-84a0-bc7d59115aed",
+        "imageId": "file_8064c876-6dc8-4e4a-a97a-a5e6c6ac632c",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 4800,
+        "productIds": [
+          "prod_c630102c-b7f8-4d43-9938-7f67836242bf",
+          "prod_7e642fb8-ed7e-4095-9f11-e0398341df9d",
+          "prod_e4fd5009-d3ba-441d-bd2e-2a27a5e389d1",
+          "prod_7104a5b6-1298-4b11-bafb-5f51bfc1ce92",
+          "prod_dfbf0748-9c22-4fba-aa9b-6acfa605c1d2",
+          "prod_049f106c-16df-4e20-b343-b04910de5894",
+          "prod_cb3a2ca1-167c-41b7-b7d8-c5fc8af520ba",
+          "prod_dc6675b0-4ef5-414a-9f94-91a4d46c095d",
+          "prod_ff413150-f453-48f5-8d8a-ca9b369347ba",
+          "prod_984628bd-dc1c-48ae-b139-6c416c3fe945"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop",
+          "loadingscreen",
+          "warpeffect",
+          "portalskin",
+          "accessory",
+          "sticker",
+          "emoji"
+        ],
+        "products": [
+          "prod_c630102c-b7f8-4d43-9938-7f67836242bf",
+          "prod_7e642fb8-ed7e-4095-9f11-e0398341df9d",
+          "prod_e4fd5009-d3ba-441d-bd2e-2a27a5e389d1",
+          "prod_7104a5b6-1298-4b11-bafb-5f51bfc1ce92",
+          "prod_dfbf0748-9c22-4fba-aa9b-6acfa605c1d2",
+          "prod_049f106c-16df-4e20-b343-b04910de5894",
+          "prod_cb3a2ca1-167c-41b7-b7d8-c5fc8af520ba",
+          "prod_dc6675b0-4ef5-414a-9f94-91a4d46c095d",
+          "prod_ff413150-f453-48f5-8d8a-ca9b369347ba",
+          "prod_984628bd-dc1c-48ae-b139-6c416c3fe945"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "refundable": true,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "storeIds": [
+          "esto_00000000-0000-0000-0000-000000000000"
+        ],
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 4320,
+        "whenToExpire": "2026-10-09T21:00:00.000Z"
+      },
+      "highlightListingId": "prod_41b386db-d887-46ad-84a0-bc7d59115aed",
+      "id": "ess_7e4ed8fc-1248-433a-baf8-70575cfcbc60",
+      "listingIds": [
+        "prod_81f2e7fd-1bbc-42fc-9e9a-6a3a2c66d320",
+        "prod_8abb08ff-5c4d-4392-97af-01b4442edc86",
+        "prod_403d0e7b-94db-4646-b7f4-0cfa2a91331b",
+        "prod_cc626627-3d07-4dfe-b7b6-612807c98c0e",
+        "prod_91ac5bcc-29dc-4e3a-922f-a49cb411b0a1",
+        "prod_43be5c87-94b4-4747-9a18-2e64a5cb23dd",
+        "prod_4fdb3da4-b281-49b3-ac69-f4f3d0d1c39a",
+        "prod_ad93222a-f61a-4704-893b-7a1e2317ea86",
+        "prod_a4eae089-3c91-4dac-9cd3-9fa613a6ff49"
+      ],
+      "listings": [
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "It’s called the Dub Sub because it has two subwoofers. In virtual reality, that just means that it’s twice as loud. It also means you can walk through the speaker and enter an entirely different world. Thump so loud, you’re entering new dimensions. And it won’t even damage your hearing!\n\nI SAID IT WON’T EVEN DAMAGE YOUR HEARING.\n",
+          "displayName": "The Dub Sub",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_81f2e7fd-1bbc-42fc-9e9a-6a3a2c66d320",
+          "imageId": "file_88b15d05-e1ac-4f4b-b785-43a104477f5c",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_7104a5b6-1298-4b11-bafb-5f51bfc1ce92"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "portalskin"
+          ],
+          "products": [
+            "prod_7104a5b6-1298-4b11-bafb-5f51bfc1ce92"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Portal",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "Low end? High end? Mids? You’re bringing them all with you whenever you enter an instance. Features a swirling, pumping EQ, announcing to everyone that you’re about to turn it up.\n\nIt’s okay. Your downstairs neighbors gave their approval.\n",
+          "displayName": "Max EQ",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_8abb08ff-5c4d-4392-97af-01b4442edc86",
+          "imageId": "file_5e9cd713-86dc-47e3-a9ef-28761457167e",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_e4fd5009-d3ba-441d-bd2e-2a27a5e389d1"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "warpeffect"
+          ],
+          "products": [
+            "prod_e4fd5009-d3ba-441d-bd2e-2a27a5e389d1"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Warp Effect",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "Solving one of VRChat’s biggest problems: a dire lack of DJ decks. Loudly announce to the instance that big things are coming, drop the VDJ-8000, and then proceed to play the set of your life. Turns any instance into a proper party.\n\nVRDJ Top Tip: Always dance to your own sets.\n",
+          "displayName": "VDJ-8000",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_403d0e7b-94db-4646-b7f4-0cfa2a91331b",
+          "imageId": "file_79a217f9-82cd-4344-9d9d-d9e5fd011d17",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_cb3a2ca1-167c-41b7-b7d8-c5fc8af520ba"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "prop"
+          ],
+          "products": [
+            "prod_cb3a2ca1-167c-41b7-b7d8-c5fc8af520ba"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Prop",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "Crack it open and light up the night! Wave it around – it leaves a trail wherever you go! Just, uh, don’t eat it. Do NOT eat it. Yes, “eat” also means drink. Do not consume. STOP. I KNOW YOU PEOPLE. IT’S NOT A POTION. YOU WILL NOT GLOW.\n\nWhy are you asking what it tastes like?\n",
+          "displayName": "Glowstick",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_cc626627-3d07-4dfe-b7b6-612807c98c0e",
+          "imageId": "file_121a67a7-1661-4dd1-8b2b-c9f822d848a6",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_c630102c-b7f8-4d43-9938-7f67836242bf"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "prop"
+          ],
+          "products": [
+            "prod_c630102c-b7f8-4d43-9938-7f67836242bf"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Prop",
+          "vrcPlusDiscountPrice": 720,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "A bright loop of color-changing glowie goodness. Is it a necklace? A bracelet? It’s whatever you want it to be: just like real life! You don’t even have to walk up to a person covered in six thousand of them to buy one. See? Convenience. \n\nWho doesn’t want to glow? A real jerk. That’s right. I said it.\n",
+          "displayName": "Glowy Necklace",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_91ac5bcc-29dc-4e3a-922f-a49cb411b0a1",
+          "imageId": "file_371265e7-36a0-4a40-b77e-f47229561052",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_dfbf0748-9c22-4fba-aa9b-6acfa605c1d2"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_dfbf0748-9c22-4fba-aa9b-6acfa605c1d2"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 720,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "Big, bright, bold… circular? They won’t fix your vision, but they’ll give you vision, man. Sorry, I might’ve spent too much time staring up at the main stage. \n\nI see so many colors…\n",
+          "displayName": "Festival Glasses",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_43be5c87-94b4-4747-9a18-2e64a5cb23dd",
+          "imageId": "file_b1a94baf-ed61-4646-90c2-e499ca2efe3a",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_049f106c-16df-4e20-b343-b04910de5894"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_049f106c-16df-4e20-b343-b04910de5894"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 720,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "Wait for it… wait for it… your next world loading? No, silly, we’re getting hyped up for the drop – and now you can, too! Jump up on the dancefloor while you’re waiting for the next world to load. Just, uh, be warned: finger guns do not make the bar move any faster. Or so they say. \n\nNot now, chief, I’m in the zone.\n",
+          "displayName": "Feel the Drop",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_4fdb3da4-b281-49b3-ac69-f4f3d0d1c39a",
+          "imageId": "file_f0e983f0-8185-4b12-a8f6-851f934b54a1",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 600,
+          "productIds": [
+            "prod_7e642fb8-ed7e-4095-9f11-e0398341df9d"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "loadingscreen"
+          ],
+          "products": [
+            "prod_7e642fb8-ed7e-4095-9f11-e0398341df9d"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Loadingscreen",
+          "vrcPlusDiscountPrice": 540,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "Can you really say you have a party going if you don’t have Confetti and Lasers? You can? Pfft, whatever you say. Your party is boring. You need to make it less boring. Hence, Confetti and Lasers. With the Bring the Party bundle, you get both of them… as Premium Emoji.\n\nConfetti and Lasers: or, the things you should NOT put in your eyes pack.\n",
+          "displayName": "Bring the Party",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_ad93222a-f61a-4704-893b-7a1e2317ea86",
+          "imageId": "file_efd8bae7-1b9d-419e-bda7-6d42f751a38d",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 500,
+          "productIds": [
+            "prod_ff413150-f453-48f5-8d8a-ca9b369347ba",
+            "prod_984628bd-dc1c-48ae-b139-6c416c3fe945"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "emoji"
+          ],
+          "products": [
+            "prod_ff413150-f453-48f5-8d8a-ca9b369347ba",
+            "prod_984628bd-dc1c-48ae-b139-6c416c3fe945"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Bundle",
+          "vrcPlusDiscountPrice": 450,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "Ooh, look at him go. See how he’s getting down? That should be you at every event you ever go to. Hit the floor. Move your body. Feel the music. Be more like VRCat.\n\nYou’ll never regret letting the music move you!\n",
+          "displayName": "VRCatJam",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_a4eae089-3c91-4dac-9cd3-9fa613a6ff49",
+          "imageId": "file_6a2fbe15-ed38-42da-92d8-9aac645ff7ce",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 200,
+          "productIds": [
+            "prod_dc6675b0-4ef5-414a-9f94-91a4d46c095d"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "sticker"
+          ],
+          "products": [
+            "prod_dc6675b0-4ef5-414a-9f94-91a4d46c095d"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "refundable": true,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "storeIds": [
+            "esto_00000000-0000-0000-0000-000000000000"
+          ],
+          "subtitle": "Sticker",
+          "vrcPlusDiscountPrice": 180,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
+        }
+      ],
+      "shelfBackgroundImageId": "file_6cf7631b-d348-4645-8c09-262d763df4e4",
+      "shelfDescription": "",
+      "shelfIconImageId": "file_25f84991-90e8-40bd-a9e3-19ea5f7e2ea6",
+      "shelfLayout": "highlightLeft",
+      "shelfTabBackgroundImageId": "file_0aeab07c-f39d-4926-8f28-08c1a09d4de1",
+      "shelfTitle": "EDM",
+      "updatedAt": "2026-08-07T21:01:44.401Z"
+    },
     {
       "id": "ess_30ad6919-a887-4072-af61-389c5ec5d88f",
       "listingIds": [
@@ -1013,90 +1542,22 @@ Response schema mismatch:
       "updatedAt": "2026-07-06T16:26:33.555Z"
     },
     {
-      "highlightListing": {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Summers here and its spicy out there․ You gotta Beat the Heat with this Bundleǃ Includes everything you need to keep cool this Summer‚ including the Bamboo Palms Portal‚ Make a Splash Warp effect‚ Tropical Breeze Loading Screen‚ MEGABLASTER XTREME 1000‚ Inflatable Pool‚ Pool Tube‚ Big ol' Floppy Beach Hat‚ Party Crab Animated Sticker‚ Water Balloon Toss ＆ Sunshineǃ Premium Emoji․\n\nYou gotta provide your own sunscreen‚ though․",
-        "displayName": "Beat the Heat Bundle",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_9d973a59-4a90-4fbf-bb42-febd4708c898",
-        "imageId": "file_27978058-abfc-40b8-ba1a-f71ec8d47f7a",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 4800,
-        "productIds": [
-          "prod_99efff72-23e7-43b4-8e70-00ee70f43909",
-          "prod_960b3726-c164-45fb-ae65-66cd5658c6bc",
-          "prod_d14e9971-1ee8-464a-9abc-1c8662c21f0e",
-          "prod_70d4e263-bfc5-45bd-8c04-5cbc1ad81e99",
-          "prod_11653d0d-ef5a-4d85-a0cf-7271541c2835",
-          "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de",
-          "prod_169fb94a-4fce-46f3-9378-ad51bfc674ec",
-          "prod_257c9f7a-9750-42d2-ae9d-d9b69dd342db",
-          "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3",
-          "prod_2e9e03b2-9090-44fc-b027-ca41ad9d3bfa"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "portalskin",
-          "warpeffect",
-          "loadingscreen",
-          "prop",
-          "accessory",
-          "emoji",
-          "sticker"
-        ],
-        "products": [
-          "prod_99efff72-23e7-43b4-8e70-00ee70f43909",
-          "prod_960b3726-c164-45fb-ae65-66cd5658c6bc",
-          "prod_d14e9971-1ee8-464a-9abc-1c8662c21f0e",
-          "prod_70d4e263-bfc5-45bd-8c04-5cbc1ad81e99",
-          "prod_11653d0d-ef5a-4d85-a0cf-7271541c2835",
-          "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de",
-          "prod_169fb94a-4fce-46f3-9378-ad51bfc674ec",
-          "prod_257c9f7a-9750-42d2-ae9d-d9b69dd342db",
-          "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3",
-          "prod_2e9e03b2-9090-44fc-b027-ca41ad9d3bfa"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "refundable": true,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 4320,
-        "whenToExpire": "2026-08-07T21:00:00.000Z"
-      },
-      "highlightListingId": "prod_9d973a59-4a90-4fbf-bb42-febd4708c898",
-      "id": "ess_24e21177-8507-4ffa-8f3b-f88dbf7fec52",
+      "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
       "listingIds": [
-        "prod_38aca527-66f5-4b58-be34-f872b65d59db",
-        "prod_bef711ff-9811-4499-a5cf-603a1cfb2499",
-        "prod_9af6098e-53b7-4aaa-984c-3df94e5383d6",
-        "prod_3e844138-523c-4477-820f-c49dcc9eb950",
-        "prod_52730c7d-d9d8-4e3f-abcb-f3c9996d2ef8",
-        "prod_3c6671a5-aa8c-4e4a-b775-da7bb3b8c5e7",
-        "prod_d294d63a-7470-4c1d-bd7d-3692cc823d70",
-        "prod_81013f25-5771-492e-b2f0-d75f25b3e6f1",
-        "prod_27b0f5e3-d113-4720-9efd-92b01b7bf14c"
+        "prod_91ac5bcc-29dc-4e3a-922f-a49cb411b0a1",
+        "prod_43be5c87-94b4-4747-9a18-2e64a5cb23dd",
+        "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
+        "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
+        "prod_fe4f77da-7fad-4f33-97aa-470e85d6700a",
+        "prod_3eb80bc1-8811-4433-9497-4365c6243574",
+        "prod_2c460c3f-26c5-4034-aecd-d439234596be",
+        "prod_6aee8f57-5ff0-4bff-87c1-b6bbb2ac123d",
+        "prod_5ba7acfb-d413-442f-ac87-e5e3d62e72a2",
+        "prod_f945c617-5f51-4aa1-ae6d-d2ed312b5d10",
+        "prod_2e16fa77-4b43-4eba-8c76-3e99c6b2b70d",
+        "prod_12140ca7-f54f-4f0f-8f06-0f9fbcd289ac",
+        "prod_66e23e6b-9b1d-4991-9da0-b3668645f3c9",
+        "prod_2b6dd6e2-0fd5-43f2-b31f-a64a16f8f4b6"
       ],
       "listings": [
         {
@@ -1109,221 +1570,21 @@ Response schema mismatch:
           },
           "buyerRefundable": false,
           "collabUserId": "8JoV9XEdpo",
-          "description": "Built out of the finest bamboo, palm, and a few tiki torches. As it opens, you can smell the saltwater, feel the breeze, and probably really wish you had a coconut-flavored drink. Or two. Features new animations and sound effects.\n\nWe decided it was best not to have this Portal cover you in sand when you go through it.\n",
-          "displayName": "Bamboo Palms",
+          "description": "A bright loop of color-changing glowie goodness. Is it a necklace? A bracelet? It’s whatever you want it to be: just like real life! You don’t even have to walk up to a person covered in six thousand of them to buy one. See? Convenience. \n\nWho doesn’t want to glow? A real jerk. That’s right. I said it.\n",
+          "displayName": "Glowy Necklace",
           "duration": null,
           "durationType": null,
           "hasAvatar": false,
           "hasCompanion": false,
           "hasInventory": true,
           "hasUdon": false,
-          "id": "prod_38aca527-66f5-4b58-be34-f872b65d59db",
-          "imageId": "file_465b77bb-4d7a-466f-860b-27ee202f0eb0",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 1000,
-          "productIds": [
-            "prod_99efff72-23e7-43b4-8e70-00ee70f43909"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "portalskin"
-          ],
-          "products": [
-            "prod_99efff72-23e7-43b4-8e70-00ee70f43909"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Portal",
-          "vrcPlusDiscountPrice": 900,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "Wouldn’t it be nice to take a little breather on a tropical island every time you were loading between worlds? Well, now you can. Chill out in your own little paradise, complete with the sounds of gentle, lapping waves against the shore.\n\nI’m stranded on a desert island? No one is around for miles? Oh no, how horrible…\n",
-          "displayName": "Tropical Breeze",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_bef711ff-9811-4499-a5cf-603a1cfb2499",
-          "imageId": "file_93ce496f-f558-4c29-91be-b2c244b18eae",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 600,
-          "productIds": [
-            "prod_d14e9971-1ee8-464a-9abc-1c8662c21f0e"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "loadingscreen"
-          ],
-          "products": [
-            "prod_d14e9971-1ee8-464a-9abc-1c8662c21f0e"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Loading Screen",
-          "vrcPlusDiscountPrice": 540,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "Announce your presence by getting everyone really wet. Surely, people will appreciate being cooled down by you splashing them with water. Changes the warp effect on your avatar.\n\nEveryone’s a little soggy.\n",
-          "displayName": "Make a Splash",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_9af6098e-53b7-4aaa-984c-3df94e5383d6",
-          "imageId": "file_86c744bb-01ca-48b8-bf0c-64c1d7d331e2",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 1000,
-          "productIds": [
-            "prod_960b3726-c164-45fb-ae65-66cd5658c6bc"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "warpeffect"
-          ],
-          "products": [
-            "prod_960b3726-c164-45fb-ae65-66cd5658c6bc"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Warp Effect",
-          "vrcPlusDiscountPrice": 900,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "Nae the Loud",
-              "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "It’s big. It’s floppy. It provides some degree of UV protection. What beach trip is complete without someone slapping on a hat that’s five times the size of their head? This is an Accessory! You can customize it by adjusting its size and style. You can even add a ribbon.\n\nSo floppy, no one can see your eyes.\n",
-          "displayName": "Big ol’ Floppy Beach Hat",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_3e844138-523c-4477-820f-c49dcc9eb950",
-          "imageId": "file_6ccc54d3-b4c2-4138-b08a-f06a1d7d7b58",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 1200,
-          "productIds": [
-            "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "accessory"
-          ],
-          "products": [
-            "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 1080,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "Nae the Loud",
-              "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "It’s a big ol’ vinyl tube. It’ll keep you buoyant. Swimming? Nah, too much effort. It’s time to float. This is an Accessory! You can customize it by adjusting its size and style. Wear it around your waist… or anywhere else.\n\nIt looks like a donut, but that doesn’t mean you should try to stick it in your mouth. Steve. I saw what you did. \n",
-          "displayName": "Pool Tube",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_52730c7d-d9d8-4e3f-abcb-f3c9996d2ef8",
-          "imageId": "file_3eb24f43-4fc0-408b-9a98-51a61921d7ae",
+          "id": "prod_91ac5bcc-29dc-4e3a-922f-a49cb411b0a1",
+          "imageId": "file_371265e7-36a0-4a40-b77e-f47229561052",
           "imageUrl": null,
           "listingType": "permanent",
           "priceTokens": 800,
           "productIds": [
-            "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
+            "prod_dfbf0748-9c22-4fba-aa9b-6acfa605c1d2"
           ],
           "productType": "listing",
           "productTypes": [
@@ -1331,7 +1592,7 @@ Response schema mismatch:
             "accessory"
           ],
           "products": [
-            "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
+            "prod_dfbf0748-9c22-4fba-aa9b-6acfa605c1d2"
           ],
           "quantifiable": false,
           "recurrable": false,
@@ -1345,7 +1606,7 @@ Response schema mismatch:
           ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 720,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
         },
         {
           "active": true,
@@ -1357,29 +1618,29 @@ Response schema mismatch:
           },
           "buyerRefundable": false,
           "collabUserId": "8JoV9XEdpo",
-          "description": "Comes pre-filled with a thousand gallons of purified, magical, temperature-controlled H2O. Hop in, the water’s perfect. You don’t even have to drag out your hose.\n\nDo not drink the water. Yes, even if you are a dog. Especially so, actually.\n",
-          "displayName": "Inflatable Pool",
+          "description": "Big, bright, bold… circular? They won’t fix your vision, but they’ll give you vision, man. Sorry, I might’ve spent too much time staring up at the main stage. \n\nI see so many colors…\n",
+          "displayName": "Festival Glasses",
           "duration": null,
           "durationType": null,
           "hasAvatar": false,
           "hasCompanion": false,
           "hasInventory": true,
           "hasUdon": false,
-          "id": "prod_3c6671a5-aa8c-4e4a-b775-da7bb3b8c5e7",
-          "imageId": "file_20bc75b1-b0f8-4707-967d-8de1ed98c2c9",
+          "id": "prod_43be5c87-94b4-4747-9a18-2e64a5cb23dd",
+          "imageId": "file_b1a94baf-ed61-4646-90c2-e499ca2efe3a",
           "imageUrl": null,
           "listingType": "permanent",
-          "priceTokens": 700,
+          "priceTokens": 800,
           "productIds": [
-            "prod_11653d0d-ef5a-4d85-a0cf-7271541c2835"
+            "prod_049f106c-16df-4e20-b343-b04910de5894"
           ],
           "productType": "listing",
           "productTypes": [
             "inventory",
-            "prop"
+            "accessory"
           ],
           "products": [
-            "prod_11653d0d-ef5a-4d85-a0cf-7271541c2835"
+            "prod_049f106c-16df-4e20-b343-b04910de5894"
           ],
           "quantifiable": false,
           "recurrable": false,
@@ -1391,189 +1652,10 @@ Response schema mismatch:
           "storeIds": [
             "esto_00000000-0000-0000-0000-000000000000"
           ],
-          "subtitle": "Item",
-          "vrcPlusDiscountPrice": 630,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 720,
+          "whenToExpire": "2026-10-09T21:00:00.000Z"
         },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "As you pick up this powerful MEGABLASTER, you can hear them whisper your nickname around the darkest corners of the cul-de-sac: the walking typhoon. Own the neighborhood. Pump action. Point, click, spray. Stay hydrated.\n\nSo much power, every trigger pull raises the humidity by 10 percent. \n",
-          "displayName": "MEGABLASTER XTREME 1000",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_d294d63a-7470-4c1d-bd7d-3692cc823d70",
-          "imageId": "file_08177550-3249-4288-b59a-d59069d2bc3e",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 1000,
-          "productIds": [
-            "prod_70d4e263-bfc5-45bd-8c04-5cbc1ad81e99"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "prop"
-          ],
-          "products": [
-            "prod_70d4e263-bfc5-45bd-8c04-5cbc1ad81e99"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Item",
-          "vrcPlusDiscountPrice": 900,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "Contains the Sunshine! and Water Balloon Toss Premium Emoji. ",
-          "displayName": "Beat the Heat Emoji Pack",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_81013f25-5771-492e-b2f0-d75f25b3e6f1",
-          "imageId": "file_509ef94d-3b50-4f52-bf13-310cc03c328d",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 500,
-          "productIds": [
-            "prod_2e9e03b2-9090-44fc-b027-ca41ad9d3bfa",
-            "prod_169fb94a-4fce-46f3-9378-ad51bfc674ec"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "emoji"
-          ],
-          "products": [
-            "prod_2e9e03b2-9090-44fc-b027-ca41ad9d3bfa",
-            "prod_169fb94a-4fce-46f3-9378-ad51bfc674ec"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 450,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserDisplayName": "Shyaong",
-          "collabUserId": "usr_957186b2-2d99-4e1d-8271-d191554466a1",
-          "description": "This crustacean is having a good time. He’s happy. You could say, uh, he’s raving. Maybe. Do crabs rave? I’m not really sure, but there’s only one way to find out. This is an Animated Sticker! \n\nVRCrab when????????\n",
-          "displayName": "Party Crab",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_27b0f5e3-d113-4720-9efd-92b01b7bf14c",
-          "imageId": "file_bac25eb3-dae8-4b0a-a47a-e08049334896",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 200,
-          "productIds": [
-            "prod_257c9f7a-9750-42d2-ae9d-d9b69dd342db"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "sticker"
-          ],
-          "products": [
-            "prod_257c9f7a-9750-42d2-ae9d-d9b69dd342db"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Sticker",
-          "vrcPlusDiscountPrice": 180,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
-        }
-      ],
-      "shelfBackgroundImageId": "file_1482736b-a9fd-4749-92bd-bbd3f3a0fd98",
-      "shelfDescription": "",
-      "shelfIconImageId": "file_d1707c99-661c-4332-a940-3e9977a799ff",
-      "shelfLayout": "highlightLeft",
-      "shelfTabBackgroundImageId": "file_80bcb80f-acae-4413-a80a-ea395201de5e",
-      "shelfTitle": "Beat the Heat!",
-      "updatedAt": "2026-06-05T21:00:13.056Z"
-    },
-    {
-      "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
-      "listingIds": [
-        "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
-        "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
-        "prod_fe4f77da-7fad-4f33-97aa-470e85d6700a",
-        "prod_3eb80bc1-8811-4433-9497-4365c6243574",
-        "prod_2c460c3f-26c5-4034-aecd-d439234596be",
-        "prod_6aee8f57-5ff0-4bff-87c1-b6bbb2ac123d",
-        "prod_5ba7acfb-d413-442f-ac87-e5e3d62e72a2",
-        "prod_f945c617-5f51-4aa1-ae6d-d2ed312b5d10",
-        "prod_2e16fa77-4b43-4eba-8c76-3e99c6b2b70d",
-        "prod_12140ca7-f54f-4f0f-8f06-0f9fbcd289ac",
-        "prod_66e23e6b-9b1d-4991-9da0-b3668645f3c9",
-        "prod_2b6dd6e2-0fd5-43f2-b31f-a64a16f8f4b6",
-        "prod_52730c7d-d9d8-4e3f-abcb-f3c9996d2ef8",
-        "prod_3e844138-523c-4477-820f-c49dcc9eb950"
-      ],
-      "listings": [
         {
           "active": true,
           "attribution": {
@@ -2200,110 +2282,6 @@ Response schema mismatch:
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 0,
           "whenToExpire": null
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "Nae the Loud",
-              "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "It’s a big ol’ vinyl tube. It’ll keep you buoyant. Swimming? Nah, too much effort. It’s time to float. This is an Accessory! You can customize it by adjusting its size and style. Wear it around your waist… or anywhere else.\n\nIt looks like a donut, but that doesn’t mean you should try to stick it in your mouth. Steve. I saw what you did. \n",
-          "displayName": "Pool Tube",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_52730c7d-d9d8-4e3f-abcb-f3c9996d2ef8",
-          "imageId": "file_3eb24f43-4fc0-408b-9a98-51a61921d7ae",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 800,
-          "productIds": [
-            "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "accessory"
-          ],
-          "products": [
-            "prod_b3ee6bd3-c896-4f78-a99a-95797d69f2de"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 720,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "Nae the Loud",
-              "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "8JoV9XEdpo",
-          "description": "It’s big. It’s floppy. It provides some degree of UV protection. What beach trip is complete without someone slapping on a hat that’s five times the size of their head? This is an Accessory! You can customize it by adjusting its size and style. You can even add a ribbon.\n\nSo floppy, no one can see your eyes.\n",
-          "displayName": "Big ol’ Floppy Beach Hat",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_3e844138-523c-4477-820f-c49dcc9eb950",
-          "imageId": "file_6ccc54d3-b4c2-4138-b08a-f06a1d7d7b58",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 1200,
-          "productIds": [
-            "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "accessory"
-          ],
-          "products": [
-            "prod_17cce7d8-de92-40e1-b1a7-8ba073d880b3"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "refundable": true,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
-          "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 1080,
-          "whenToExpire": "2026-08-07T21:00:00.000Z"
         }
       ],
       "shelfBackgroundImageId": "file_5570c214-553d-4488-8647-0de574a09004",
@@ -2312,7 +2290,7 @@ Response schema mismatch:
       "shelfLayout": "col5",
       "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
       "shelfTitle": "New Accessories",
-      "updatedAt": "2026-07-03T21:13:12.991Z"
+      "updatedAt": "2026-08-07T21:08:22.875Z"
     }
   ],
   "storeId": "esto_00000000-0000-0000-0000-000000000000",

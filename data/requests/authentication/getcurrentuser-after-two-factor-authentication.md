@@ -101,7 +101,7 @@ Response schema mismatch:
   "emailVerified": true,
   "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
   "friendGroupNames": [],
-  "friendKey": "0fa860aec70cc1e191e3c9427f6beed3",
+  "friendKey": "",
   "friends": [
     "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
   ],

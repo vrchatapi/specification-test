@@ -7,9 +7,6 @@ Response schema mismatch:
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
 * undefined at ``#/instances/4``,
-* undefined at ``#/instances/5``,
-* undefined at ``#/instances/6``,
-* undefined at ``#/instances/7``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -66,66 +63,40 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": 1626,
-      "instanceId": "89676~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
+      "instanceId": "58879~group(grp_8de665e3-4f74-4074-938e-f95d70c1eb7f)~groupAccessType(public)~region(us)",
       "languageRatio": {
-        "en": 0.75,
-        "pt-BR": 0.17,
-        "ru": 0.08
+        "en": 0.71,
+        "it": 0.14,
+        "pt-BR": 0.14
       },
       "n_users": 7
     },
     {
       "gameServerVersion": 1626,
-      "instanceId": "31423~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
-      "languageRatio": {
-        "en": 0.14,
-        "es": 0.43,
-        "zh-CN": 0.43
-      },
-      "n_users": 5
-    },
-    {
-      "gameServerVersion": 1626,
       "instanceId": "42689~group(grp_72a38a2b-8ce5-4d44-89e1-147c8194b01f)~groupAccessType(public)~region(us)",
       "languageRatio": {
-        "de": 0.11,
-        "en": 0.56,
-        "es": 0.11,
-        "fr": 0.11,
-        "zh-CN": 0.11
-      },
-      "n_users": 4
-    },
-    {
-      "gameServerVersion": 1626,
-      "instanceId": "79235~group(grp_17c132b5-f48c-48dc-839c-32cbb3167ded)~groupAccessType(public)~region(us)",
-      "languageRatio": {
         "en": 1
       },
-      "n_users": 3
+      "n_users": 7
     },
     {
-      "instanceId": "adc03816ac~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": null,
       "instanceId": "90251~region(jp)",
+      "languageRatio": {
+        "en": 0.43,
+        "fr": 0.14,
+        "zh-CN": 0.43
+      },
+      "n_users": 7
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "26f596bdff~region(us)",
       "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "281b0942c9~region(us)",
-      "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "87e834bee5~region(us)",
+      "instanceId": "513~region(usw)",
       "languageRatio": {},
       "n_users": 1
     }
@@ -261,26 +232,26 @@ Response schema mismatch:
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/382/variant/security?v=1785826233",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/385/variant/security?v=1786145944",
       "assetVersion": 4,
-      "created_at": "2026-08-04T06:50:25.558Z",
-      "id": "unp_37cd2ad0-11bc-4e4a-bdfa-6f8eef06b82b",
+      "created_at": "2026-08-07T23:38:54.870Z",
+      "id": "unp_ce38565e-5b2f-4c9b-b18e-a277627c6591",
       "platform": "android",
       "scanStatus": "passed",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
       "variant": "security",
-      "worldSignature": "APn5KEgmVOVa2RGe+UbeNgFadmzzHR9NyJcxA6KnAdaqg4Kwcw=="
+      "worldSignature": "ANpK6yQS5ORx8RlhBJ3NWMaW5013saAJT/X3FES1HegJw96GPg=="
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/382/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/385/file",
       "assetVersion": 4,
-      "created_at": "2026-08-04T06:50:25.558Z",
-      "id": "unp_37cd2ad0-11bc-4e4a-bdfa-6f8eef06b82b",
+      "created_at": "2026-08-07T23:38:54.870Z",
+      "id": "unp_ce38565e-5b2f-4c9b-b18e-a277627c6591",
       "platform": "android",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
-      "worldSignature": "APn5KEgmVOVa2RGe+UbeNgFadmzzHR9NyJcxA6KnAdaqg4Kwcw=="
+      "worldSignature": "ANpK6yQS5ORx8RlhBJ3NWMaW5013saAJT/X3FES1HegJw96GPg=="
     },
     {
       "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/1/variant/security?v=1785978893",
@@ -314,26 +285,26 @@ Response schema mismatch:
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/76/variant/security?v=1785826372",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/77/variant/security?v=1786146108",
       "assetVersion": 4,
-      "created_at": "2026-08-04T06:52:45.075Z",
-      "id": "unp_23106f93-79a2-4826-bdc7-4c26ac1ed2bc",
+      "created_at": "2026-08-07T23:41:36.241Z",
+      "id": "unp_70639785-9371-4aa8-a572-77053af11ecc",
       "platform": "ios",
       "scanStatus": "passed",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
       "variant": "security",
-      "worldSignature": "ADXcv/m0hzGsavZgdYQxf68pHbMSysHjh7qaw23n3Uvtm3W4/A=="
+      "worldSignature": "AITypR57lUAj+rjkXj6PI1aWytxAiyCCZEkUc35N3HTYjmfPcg=="
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/76/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/77/file",
       "assetVersion": 4,
-      "created_at": "2026-08-04T06:52:45.075Z",
-      "id": "unp_23106f93-79a2-4826-bdc7-4c26ac1ed2bc",
+      "created_at": "2026-08-07T23:41:36.241Z",
+      "id": "unp_70639785-9371-4aa8-a572-77053af11ecc",
       "platform": "ios",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
-      "worldSignature": "ADXcv/m0hzGsavZgdYQxf68pHbMSysHjh7qaw23n3Uvtm3W4/A=="
+      "worldSignature": "AITypR57lUAj+rjkXj6PI1aWytxAiyCCZEkUc35N3HTYjmfPcg=="
     },
     {
       "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/44/variant/security?v=1785978889",
@@ -441,26 +412,26 @@ Response schema mismatch:
       "unityVersion": "2022.3.6f1"
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/383/variant/security?v=1785826811",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/384/variant/security?v=1786145611",
       "assetVersion": 4,
-      "created_at": "2026-08-04T07:00:00.965Z",
-      "id": "unp_32d64e83-81b4-4609-aa5a-f20d52f656ea",
+      "created_at": "2026-08-07T23:33:20.770Z",
+      "id": "unp_deb9f2d8-4af3-4554-a2b1-8a3b9cc95c2d",
       "platform": "standalonewindows",
       "scanStatus": "passed",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
       "variant": "security",
-      "worldSignature": "ABu7IrTtyZrn/vSf6erKFb6EeObzfaBb06F+F/LkAA4Ylqlrxg=="
+      "worldSignature": "AE0qlLuU4ESrogcHp1Td/RPetqj3JibDmU+bnPsrf9kuyuAMUw=="
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/383/file",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/384/file",
       "assetVersion": 4,
-      "created_at": "2026-08-04T07:00:00.965Z",
-      "id": "unp_32d64e83-81b4-4609-aa5a-f20d52f656ea",
+      "created_at": "2026-08-07T23:33:20.770Z",
+      "id": "unp_deb9f2d8-4af3-4554-a2b1-8a3b9cc95c2d",
       "platform": "standalonewindows",
       "unitySortNumber": 20220322000,
       "unityVersion": "2022.3.22f1",
-      "worldSignature": "ABu7IrTtyZrn/vSf6erKFb6EeObzfaBb06F+F/LkAA4Ylqlrxg=="
+      "worldSignature": "AE0qlLuU4ESrogcHp1Td/RPetqj3JibDmU+bnPsrf9kuyuAMUw=="
     }
   ],
   "updated_at": "<unstable: string>",

@@ -92,7 +92,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*7 issues truncated.*
+*4 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -129,7 +129,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*16 issues truncated.*
+*15 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -283,19 +283,19 @@ Response schema mismatch:
 #### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
 
 Response schema mismatch:
-* Invalid type at ``#/0listings/0products/0``,
-* Invalid type at ``#/0listings/0products/1``,
-* Invalid type at ``#/0listings/0products/2``,
+* Invalid type at ``#/0highlightListing/products/0``,
+* Invalid type at ``#/0highlightListing/products/1``,
+* Invalid type at ``#/0highlightListing/products/2``,
 
-*263 issues truncated.*
+*262 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
-* Invalid type at ``#/shelves/0listings/0products/0``,
-* Invalid type at ``#/shelves/0listings/0products/1``,
-* Invalid type at ``#/shelves/0listings/0products/2``,
+* Invalid type at ``#/shelves/0highlightListing/products/0``,
+* Invalid type at ``#/shelves/0highlightListing/products/1``,
+* Invalid type at ``#/shelves/0highlightListing/products/2``,
 
-*263 issues truncated.*
+*262 issues truncated.*
 #### [getBalanceEarnings](/data/requests/economy/getbalanceearnings.md)
 
 Response schema mismatch:
@@ -622,7 +622,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1820 issues truncated.*
+*1823 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -630,7 +630,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0/clientMinVersion``,
 * Unexpected property at ``#/0/regions``,
 
-*40 issues truncated.*
+*39 issues truncated.*
 #### [getConfig](/data/requests/system/getconfig.md)
 
 Response schema mismatch:
@@ -638,7 +638,7 @@ Response schema mismatch:
 * Missing property at ``#/economyLedgerMigrationStop``,
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 
-*41 issues truncated.*
+*42 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
