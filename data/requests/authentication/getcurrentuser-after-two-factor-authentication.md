@@ -161,16 +161,16 @@ Response schema mismatch:
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "265291ec997a",
+    "c9ac625fbde0",
+    "dba2ecce5cbe",
+    "041b825adb18",
+    "768650317069",
+    "75b34108762d",
     "15dac65a2f1c",
     "be9a684ee002",
     "972387f7e822",
-    "599ced7a6008",
-    "abf191fcbf90",
-    "d716f910517b",
-    "2579ded5191c",
-    "d67fa9f1a367",
-    "ad1cef156d93",
-    "3600e2474db6"
+    "599ced7a6008"
   ],
   "steamDetails": {},
   "steamId": "",
