@@ -92,7 +92,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*5 issues truncated.*
+*7 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -622,7 +622,7 @@ Response schema mismatch:
 * Unexpected property at ``#/0data/contentList/anyStyle``,
 * Unexpected property at ``#/0data/contentList/anyTag``,
 
-*1823 issues truncated.*
+*1810 issues truncated.*
 #### [getInfoPush](/data/requests/system/getinfopush.md)
 
 Response schema mismatch:
@@ -638,7 +638,7 @@ Response schema mismatch:
 * Missing property at ``#/economyLedgerMigrationStop``,
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 
-*39 issues truncated.*
+*35 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 
