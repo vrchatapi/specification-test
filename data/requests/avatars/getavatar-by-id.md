@@ -93,7 +93,7 @@ Response schema mismatch:
       "variant": "security"
     }
   ],
-  "updated_at": "2025-09-23T18:34:47.677Z",
-  "version": 58
+  "updated_at": "2026-08-11T16:59:26.410Z",
+  "version": 59
 }
 ```
