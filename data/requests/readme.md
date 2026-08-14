@@ -92,7 +92,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*5 issues truncated.*
+*6 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -285,17 +285,17 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/0/shelfBackgroundImageId``,
 * Unexpected property at ``#/0/shelfIconImageId``,
-* Unexpected property at ``#/0/shelfTabBackgroundImageId``,
+* Unexpected property at ``#/0/shelfMobileHeroBannerImageId``,
 
-*337 issues truncated.*
+*352 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/shelves/0/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/0/shelfIconImageId``,
-* Unexpected property at ``#/shelves/0/shelfTabBackgroundImageId``,
+* Unexpected property at ``#/shelves/0/shelfMobileHeroBannerImageId``,
 
-*337 issues truncated.*
+*352 issues truncated.*
 #### [getBalanceEarnings](/data/requests/economy/getbalanceearnings.md)
 
 Response schema mismatch:
@@ -638,7 +638,7 @@ Response schema mismatch:
 * Missing property at ``#/economyLedgerMigrationStop``,
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 
-*44 issues truncated.*
+*42 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

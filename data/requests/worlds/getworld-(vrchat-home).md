@@ -8,6 +8,7 @@ Response schema mismatch:
 * undefined at ``#/instances/3``,
 * undefined at ``#/instances/4``,
 * undefined at ``#/instances/5``,
+* undefined at ``#/instances/6``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -64,40 +65,46 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": null,
-      "instanceId": "89676~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
+      "instanceId": "78973~group(grp_f78c5a34-166a-4f48-99e6-7525c80b4883)~groupAccessType(public)~region(us)",
       "languageRatio": {},
       "n_users": 7
     },
     {
       "gameServerVersion": null,
-      "instanceId": "31423~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
+      "instanceId": "72717~group(grp_55c324cd-27b9-49e9-8fb0-a97b09ce0e21)~groupAccessType(public)~region(us)",
       "languageRatio": {},
-      "n_users": 2
+      "n_users": 7
     },
     {
-      "instanceId": "714caf817c~region(us)",
+      "gameServerVersion": null,
+      "instanceId": "51828~group(grp_87a62f2d-3b34-4395-9be1-bcfec5e029ec)~groupAccessType(public)~region(us)",
+      "languageRatio": {},
+      "n_users": 4
+    },
+    {
+      "instanceId": "5138d7b6e4~region(us)",
       "languageRatio": {
         "en": 1
       },
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "6e3f954a9c~region(us)",
+      "languageRatio": {},
+      "n_users": 6
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "86796~region(jp)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "63~region(eu)",
+      "languageRatio": {},
       "n_users": 1
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "43083~region(use)",
-      "languageRatio": {},
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "7b38893cf9~region(us)",
-      "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "63bc682cb2~region(us)",
-      "languageRatio": {},
-      "n_users": 2
     }
   ],
   "tags": [
