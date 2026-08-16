@@ -7,6 +7,10 @@ Response schema mismatch:
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
 * undefined at ``#/instances/4``,
+* undefined at ``#/instances/5``,
+* undefined at ``#/instances/6``,
+* undefined at ``#/instances/7``,
+* undefined at ``#/instances/8``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -62,35 +66,58 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "instanceId": "d1d58b00da~region(us)",
+      "instanceId": "00323~region(jp)",
       "languageRatio": {
-        "en": 0.71,
-        "es": 0.14,
-        "zh-CN": 0.14
+        "en": 0.67,
+        "zh-CN": 0.33
       },
-      "n_users": 7
+      "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "00323~region(jp)",
+      "instanceId": "762c86a0c2~region(us)",
+      "languageRatio": {},
+      "n_users": 6
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "f0e5a7386f~region(us)",
+      "languageRatio": {},
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "9ad4f89191~region(us)",
+      "languageRatio": {},
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "2878~region(usw)",
+      "languageRatio": {},
+      "n_users": 4
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "85e0c4c015~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "84a05349e2~region(us)",
+      "instanceId": "cca9a5efb3~region(us)",
       "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "c8fd3a492d~region(us)",
+      "instanceId": "7c7969fbc4~region(us)",
       "languageRatio": {},
       "n_users": 1
     },
     {
       "gameServerVersion": null,
-      "instanceId": "57533~region(eu)",
+      "instanceId": "569d6adc2e~region(jp)",
       "languageRatio": {},
       "n_users": 1
     }

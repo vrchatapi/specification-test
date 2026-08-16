@@ -8,7 +8,7 @@ Response schema mismatch:
 * Unexpected property at ``#/languageRatio``,
 * Unexpected property at ``#/minimumAvatarPerformance``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/xq2ngzed`
+`GET https://api.vrchat.cloud/api/1/instances/s/s7tzsx7c`
 
 | Header | Value |
 | ------ | ----- |
