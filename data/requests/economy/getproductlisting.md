@@ -44,7 +44,7 @@ Response schema mismatch:
 {
   "active": true,
   "buyerRefundable": true,
-  "description": "Become a Tier 3 Supporterǃ You'll get everything in the previous tiers in addition to all the decoration toggles and access to the Video Playerǃ Additional video UI and screens at some mirror locations․",
+  "description": "Become a Tier 3 Supporterǃ You'll get everything in the previous tiers in addition to all decoration options‚ Fly No Clip‚ and Global Enable Games․",
   "displayName": "Tier 3 Supporter",
   "duration": 1,
   "durationType": "months",
