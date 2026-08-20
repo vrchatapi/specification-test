@@ -3,6 +3,7 @@
 ## Issues
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
+* Unexpected property at ``#/categoryId``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/dominantLanguage``,
 * Unexpected property at ``#/languageRatio``,
@@ -23,7 +24,7 @@ Response schema mismatch:
   "region": "use",
   "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "canRequestInvite": true,
-  "displayName": "fyxk27b5",
+  "displayName": "43tj4cn9",
   "contentSettings": {
     "drones": false,
     "props": true
