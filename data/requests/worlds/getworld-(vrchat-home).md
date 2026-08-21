@@ -8,7 +8,6 @@ Response schema mismatch:
 * undefined at ``#/instances/3``,
 * undefined at ``#/instances/4``,
 * undefined at ``#/instances/5``,
-* undefined at ``#/instances/6``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -64,48 +63,42 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "gameServerVersion": null,
-      "instanceId": "89676~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
-      "languageRatio": {},
+      "instanceId": "60260~region(us)",
+      "languageRatio": {
+        "en": 0.83,
+        "zh-CN": 0.17
+      },
       "n_users": 6
     },
     {
-      "instanceId": "60260~region(us)",
-      "languageRatio": {
-        "en": 0.86,
-        "zh-CN": 0.14
-      },
+      "gameServerVersion": null,
+      "instanceId": "90075~region(jp)",
+      "languageRatio": {},
       "n_users": 7
     },
     {
       "gameServerVersion": null,
-      "instanceId": "a4d99ed677~region(us)",
+      "instanceId": "906d08bef9~region(us)",
+      "languageRatio": {},
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "417ba02b3b~region(us)",
+      "languageRatio": {},
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "3660d09012~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "3471c0968b~region(us)",
-      "languageRatio": {},
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "6746912e00~region(us)",
+      "instanceId": "1041cd4945~region(us)",
       "languageRatio": {},
       "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "8f119353e7~region(us)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "8b614af279~region(jp)",
-      "languageRatio": {},
-      "n_users": 1
     }
   ],
   "tags": [

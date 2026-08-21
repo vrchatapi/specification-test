@@ -92,7 +92,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*6 issues truncated.*
+*5 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -119,9 +119,9 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/disabledPropAbilities``,
+* Unexpected property at ``#/description``,
 
-*3 issues truncated.*
+*5 issues truncated.*
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
 Response schema mismatch:
@@ -148,25 +148,25 @@ Response schema mismatch:
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/disabledPropAbilities``,
+* Unexpected property at ``#/description``,
 
-*3 issues truncated.*
+*5 issues truncated.*
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/disabledPropAbilities``,
+* Unexpected property at ``#/description``,
 
-*3 issues truncated.*
+*5 issues truncated.*
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
 * Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/disabledPropAbilities``,
+* Unexpected property at ``#/description``,
 
-*3 issues truncated.*
+*5 issues truncated.*
 #### [getShortName](/data/requests/instances/getshortname.md)
 
 
