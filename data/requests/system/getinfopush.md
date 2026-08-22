@@ -7,11 +7,11 @@ Response schema mismatch:
 * Unexpected property at ``#/0/regions``,
 * Unexpected property at ``#/0/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Invalid type at ``#/1/startDate``,
 * Unexpected property at ``#/1/clientMinVersion``,
 * Unexpected property at ``#/1/regions``,
 * Unexpected property at ``#/1/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
+* Invalid type at ``#/2/startDate``,
 * Unexpected property at ``#/2/clientMinVersion``,
 * Unexpected property at ``#/2/regions``,
 * Unexpected property at ``#/2/requireClientTags``,
@@ -19,27 +19,26 @@ Response schema mismatch:
 * Unexpected property at ``#/3/clientMinVersion``,
 * Unexpected property at ``#/3/regions``,
 * Unexpected property at ``#/3/requireClientTags``,
-* Invalid type at ``#/4/endDate``,
-* Invalid type at ``#/4/startDate``,
+* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
 * Unexpected property at ``#/4/clientMinVersion``,
 * Unexpected property at ``#/4/regions``,
 * Unexpected property at ``#/4/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
 * Invalid type at ``#/5/endDate``,
 * Invalid type at ``#/5/startDate``,
 * Unexpected property at ``#/5/clientMinVersion``,
-* Unexpected property at ``#/5/experiment``,
 * Unexpected property at ``#/5/regions``,
 * Unexpected property at ``#/5/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
 * Invalid type at ``#/6/endDate``,
 * Invalid type at ``#/6/startDate``,
 * Unexpected property at ``#/6/clientMinVersion``,
+* Unexpected property at ``#/6/experiment``,
 * Unexpected property at ``#/6/regions``,
 * Unexpected property at ``#/6/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/7/data/onPressed/command``,
 * Invalid type at ``#/7/endDate``,
 * Invalid type at ``#/7/startDate``,
+* Unexpected property at ``#/7/clientMinVersion``,
 * Unexpected property at ``#/7/regions``,
 * Unexpected property at ``#/7/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
@@ -48,11 +47,16 @@ Response schema mismatch:
 * Unexpected property at ``#/8/regions``,
 * Unexpected property at ``#/8/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
+* Invalid type at ``#/9/endDate``,
+* Invalid type at ``#/9/startDate``,
+* Unexpected property at ``#/9/regions``,
+* Unexpected property at ``#/9/requireClientTags``,
 * Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
-* Invalid type at ``#/10/endDate``,
-* Invalid type at ``#/10/startDate``,
-* Unexpected property at ``#/10/regions``,
-* Unexpected property at ``#/10/requireClientTags``.
+* Cannot fit value in explicit enum at ``#/11/data/onPressed/command``,
+* Invalid type at ``#/11/endDate``,
+* Invalid type at ``#/11/startDate``,
+* Unexpected property at ``#/11/regions``,
+* Unexpected property at ``#/11/requireClientTags``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -80,6 +84,33 @@ Response schema mismatch:
 
 ```jsonc
 [
+  {
+    "clientMinVersion": null,
+    "createdAt": "2026-08-18T19:33:55.983Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_15aed861-125c-42eb-b2cb-42941b87095f.jpg",
+      "onPressed": {
+        "command": "scrollToShelf",
+        "parameters": [
+          "ess_798cfeeb-7625-408e-9a82-bad1ace374c1"
+        ]
+      }
+    },
+    "endDate": "2026-09-21T09:00:00.000Z",
+    "hash": "ips_casio20263880-4dd2-acf5-e12dd284771d",
+    "id": "ips_casio20263880-4dd2-acf5-e12dd284771d",
+    "isEnabled": true,
+    "priority": 320,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-08-21T09:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-08-18T19:33:55.983Z"
+  },
   {
     "clientMinVersion": null,
     "createdAt": "2026-08-07T15:22:13.490Z",
