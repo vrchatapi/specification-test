@@ -2,48 +2,64 @@
 
 ## Issues
 Response schema mismatch:
+* Missing property at ``#/shelves/0listings/0/refundable``,
+* Missing property at ``#/shelves/0listings/0/storeIds``,
 * Invalid type at ``#/shelves/0listings/0products/0``,
 * Unexpected property at ``#/shelves/0listings/0/attribution``,
 * Unexpected property at ``#/shelves/0listings/0/collabUserId``,
 * Unexpected property at ``#/shelves/0listings/0/hasCompanion``,
 * Unexpected property at ``#/shelves/0listings/0/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/0/productTypes``,
+* Missing property at ``#/shelves/0listings/1/refundable``,
+* Missing property at ``#/shelves/0listings/1/storeIds``,
 * Invalid type at ``#/shelves/0listings/1products/0``,
 * Unexpected property at ``#/shelves/0listings/1/attribution``,
 * Unexpected property at ``#/shelves/0listings/1/collabUserId``,
 * Unexpected property at ``#/shelves/0listings/1/hasCompanion``,
 * Unexpected property at ``#/shelves/0listings/1/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/1/productTypes``,
+* Missing property at ``#/shelves/0listings/2/refundable``,
+* Missing property at ``#/shelves/0listings/2/storeIds``,
 * Invalid type at ``#/shelves/0listings/2products/0``,
 * Unexpected property at ``#/shelves/0listings/2/attribution``,
 * Unexpected property at ``#/shelves/0listings/2/collabUserId``,
 * Unexpected property at ``#/shelves/0listings/2/hasCompanion``,
 * Unexpected property at ``#/shelves/0listings/2/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/2/productTypes``,
+* Missing property at ``#/shelves/0listings/3/refundable``,
+* Missing property at ``#/shelves/0listings/3/storeIds``,
 * Invalid type at ``#/shelves/0listings/3products/0``,
 * Unexpected property at ``#/shelves/0listings/3/attribution``,
 * Unexpected property at ``#/shelves/0listings/3/collabUserId``,
 * Unexpected property at ``#/shelves/0listings/3/hasCompanion``,
 * Unexpected property at ``#/shelves/0listings/3/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/3/productTypes``,
+* Missing property at ``#/shelves/0listings/4/refundable``,
+* Missing property at ``#/shelves/0listings/4/storeIds``,
 * Invalid type at ``#/shelves/0listings/4products/0``,
 * Unexpected property at ``#/shelves/0listings/4/attribution``,
 * Unexpected property at ``#/shelves/0listings/4/collabUserId``,
 * Unexpected property at ``#/shelves/0listings/4/hasCompanion``,
 * Unexpected property at ``#/shelves/0listings/4/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/4/productTypes``,
+* Missing property at ``#/shelves/0listings/5/refundable``,
+* Missing property at ``#/shelves/0listings/5/storeIds``,
 * Invalid type at ``#/shelves/0listings/5products/0``,
 * Unexpected property at ``#/shelves/0listings/5/attribution``,
 * Unexpected property at ``#/shelves/0listings/5/collabUserId``,
 * Unexpected property at ``#/shelves/0listings/5/hasCompanion``,
 * Unexpected property at ``#/shelves/0listings/5/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/5/productTypes``,
+* Missing property at ``#/shelves/0listings/6/refundable``,
+* Missing property at ``#/shelves/0listings/6/storeIds``,
 * Invalid type at ``#/shelves/0listings/6products/0``,
 * Unexpected property at ``#/shelves/0listings/6/attribution``,
 * Unexpected property at ``#/shelves/0listings/6/collabUserId``,
 * Unexpected property at ``#/shelves/0listings/6/hasCompanion``,
 * Unexpected property at ``#/shelves/0listings/6/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/6/productTypes``,
+* Missing property at ``#/shelves/0listings/7/refundable``,
+* Missing property at ``#/shelves/0listings/7/storeIds``,
 * Invalid type at ``#/shelves/0listings/7products/0``,
 * Unexpected property at ``#/shelves/0listings/7/attribution``,
 * Unexpected property at ``#/shelves/0listings/7/collabUserId``,
@@ -51,11 +67,14 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/0listings/7/hasInventory``,
 * Unexpected property at ``#/shelves/0listings/7/productTypes``,
 * Unexpected property at ``#/shelves/0/shelfBackgroundImageId``,
+* Unexpected property at ``#/shelves/0/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/0/shelfIconImageId``,
 * Unexpected property at ``#/shelves/0/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/0/shelfMobileLogoImageId``,
 * Unexpected property at ``#/shelves/0/shelfMobileSecondaryBannerImageId``,
 * Unexpected property at ``#/shelves/0/shelfTabBackgroundImageId``,
+* Missing property at ``#/shelves/1/highlightListing/refundable``,
+* Missing property at ``#/shelves/1/highlightListing/storeIds``,
 * Invalid type at ``#/shelves/1highlightListing/products/0``,
 * Invalid type at ``#/shelves/1highlightListing/products/1``,
 * Invalid type at ``#/shelves/1highlightListing/products/2``,
@@ -67,30 +86,40 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/1highlightListing/hasCompanion``,
 * Unexpected property at ``#/shelves/1highlightListing/hasInventory``,
 * Unexpected property at ``#/shelves/1highlightListing/productTypes``,
+* Missing property at ``#/shelves/1listings/0/refundable``,
+* Missing property at ``#/shelves/1listings/0/storeIds``,
 * Invalid type at ``#/shelves/1listings/0products/0``,
 * Unexpected property at ``#/shelves/1listings/0/attribution``,
 * Unexpected property at ``#/shelves/1listings/0/collabUserId``,
 * Unexpected property at ``#/shelves/1listings/0/hasCompanion``,
 * Unexpected property at ``#/shelves/1listings/0/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/0/productTypes``,
+* Missing property at ``#/shelves/1listings/1/refundable``,
+* Missing property at ``#/shelves/1listings/1/storeIds``,
 * Invalid type at ``#/shelves/1listings/1products/0``,
 * Unexpected property at ``#/shelves/1listings/1/attribution``,
 * Unexpected property at ``#/shelves/1listings/1/collabUserId``,
 * Unexpected property at ``#/shelves/1listings/1/hasCompanion``,
 * Unexpected property at ``#/shelves/1listings/1/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/1/productTypes``,
+* Missing property at ``#/shelves/1listings/2/refundable``,
+* Missing property at ``#/shelves/1listings/2/storeIds``,
 * Invalid type at ``#/shelves/1listings/2products/0``,
 * Unexpected property at ``#/shelves/1listings/2/attribution``,
 * Unexpected property at ``#/shelves/1listings/2/collabUserId``,
 * Unexpected property at ``#/shelves/1listings/2/hasCompanion``,
 * Unexpected property at ``#/shelves/1listings/2/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/2/productTypes``,
+* Missing property at ``#/shelves/1listings/3/refundable``,
+* Missing property at ``#/shelves/1listings/3/storeIds``,
 * Invalid type at ``#/shelves/1listings/3products/0``,
 * Unexpected property at ``#/shelves/1listings/3/attribution``,
 * Unexpected property at ``#/shelves/1listings/3/collabUserId``,
 * Unexpected property at ``#/shelves/1listings/3/hasCompanion``,
 * Unexpected property at ``#/shelves/1listings/3/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/3/productTypes``,
+* Missing property at ``#/shelves/1listings/4/refundable``,
+* Missing property at ``#/shelves/1listings/4/storeIds``,
 * Invalid type at ``#/shelves/1listings/4products/0``,
 * Invalid type at ``#/shelves/1listings/4products/1``,
 * Unexpected property at ``#/shelves/1listings/4/attribution``,
@@ -99,11 +128,14 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/1listings/4/hasInventory``,
 * Unexpected property at ``#/shelves/1listings/4/productTypes``,
 * Unexpected property at ``#/shelves/1/shelfBackgroundImageId``,
+* Unexpected property at ``#/shelves/1/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/1/shelfIconImageId``,
 * Unexpected property at ``#/shelves/1/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/1/shelfMobileLogoImageId``,
 * Unexpected property at ``#/shelves/1/shelfMobileSecondaryBannerImageId``,
 * Unexpected property at ``#/shelves/1/shelfTabBackgroundImageId``,
+* Missing property at ``#/shelves/2listings/0/refundable``,
+* Missing property at ``#/shelves/2listings/0/storeIds``,
 * Invalid type at ``#/shelves/2listings/0products/0``,
 * Invalid type at ``#/shelves/2listings/0products/1``,
 * Invalid type at ``#/shelves/2listings/0products/2``,
@@ -112,6 +144,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/0/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/0/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/0/productTypes``,
+* Missing property at ``#/shelves/2listings/1/refundable``,
+* Missing property at ``#/shelves/2listings/1/storeIds``,
 * Invalid type at ``#/shelves/2listings/1products/0``,
 * Invalid type at ``#/shelves/2listings/1products/1``,
 * Invalid type at ``#/shelves/2listings/1products/2``,
@@ -120,6 +154,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/1/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/1/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/1/productTypes``,
+* Missing property at ``#/shelves/2listings/2/refundable``,
+* Missing property at ``#/shelves/2listings/2/storeIds``,
 * Invalid type at ``#/shelves/2listings/2products/0``,
 * Invalid type at ``#/shelves/2listings/2products/1``,
 * Invalid type at ``#/shelves/2listings/2products/2``,
@@ -128,6 +164,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/2/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/2/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/2/productTypes``,
+* Missing property at ``#/shelves/2listings/3/refundable``,
+* Missing property at ``#/shelves/2listings/3/storeIds``,
 * Invalid type at ``#/shelves/2listings/3products/0``,
 * Invalid type at ``#/shelves/2listings/3products/1``,
 * Invalid type at ``#/shelves/2listings/3products/2``,
@@ -136,6 +174,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/3/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/3/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/3/productTypes``,
+* Missing property at ``#/shelves/2listings/4/refundable``,
+* Missing property at ``#/shelves/2listings/4/storeIds``,
 * Invalid type at ``#/shelves/2listings/4products/0``,
 * Invalid type at ``#/shelves/2listings/4products/1``,
 * Invalid type at ``#/shelves/2listings/4products/2``,
@@ -144,6 +184,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/4/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/4/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/4/productTypes``,
+* Missing property at ``#/shelves/2listings/5/refundable``,
+* Missing property at ``#/shelves/2listings/5/storeIds``,
 * Invalid type at ``#/shelves/2listings/5products/0``,
 * Invalid type at ``#/shelves/2listings/5products/1``,
 * Invalid type at ``#/shelves/2listings/5products/2``,
@@ -152,6 +194,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/5/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/5/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/5/productTypes``,
+* Missing property at ``#/shelves/2listings/6/refundable``,
+* Missing property at ``#/shelves/2listings/6/storeIds``,
 * Invalid type at ``#/shelves/2listings/6products/0``,
 * Invalid type at ``#/shelves/2listings/6products/1``,
 * Invalid type at ``#/shelves/2listings/6products/2``,
@@ -160,6 +204,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/6/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/6/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/6/productTypes``,
+* Missing property at ``#/shelves/2listings/7/refundable``,
+* Missing property at ``#/shelves/2listings/7/storeIds``,
 * Invalid type at ``#/shelves/2listings/7products/0``,
 * Invalid type at ``#/shelves/2listings/7products/1``,
 * Invalid type at ``#/shelves/2listings/7products/2``,
@@ -168,6 +214,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/7/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/7/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/7/productTypes``,
+* Missing property at ``#/shelves/2listings/8/refundable``,
+* Missing property at ``#/shelves/2listings/8/storeIds``,
 * Invalid type at ``#/shelves/2listings/8products/0``,
 * Invalid type at ``#/shelves/2listings/8products/1``,
 * Invalid type at ``#/shelves/2listings/8products/2``,
@@ -176,6 +224,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/8/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/8/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/8/productTypes``,
+* Missing property at ``#/shelves/2listings/9/refundable``,
+* Missing property at ``#/shelves/2listings/9/storeIds``,
 * Invalid type at ``#/shelves/2listings/9products/0``,
 * Invalid type at ``#/shelves/2listings/9products/1``,
 * Invalid type at ``#/shelves/2listings/9products/2``,
@@ -184,6 +234,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/9/hasCompanion``,
 * Unexpected property at ``#/shelves/2listings/9/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/9/productTypes``,
+* Missing property at ``#/shelves/2listings/10/refundable``,
+* Missing property at ``#/shelves/2listings/10/storeIds``,
 * Invalid type at ``#/shelves/2listings/10products/0``,
 * Invalid type at ``#/shelves/2listings/10products/1``,
 * Invalid type at ``#/shelves/2listings/10products/2``,
@@ -193,11 +245,14 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/2listings/10/hasInventory``,
 * Unexpected property at ``#/shelves/2listings/10/productTypes``,
 * Unexpected property at ``#/shelves/2/shelfBackgroundImageId``,
+* Unexpected property at ``#/shelves/2/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/2/shelfIconImageId``,
 * Unexpected property at ``#/shelves/2/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/2/shelfMobileLogoImageId``,
 * Unexpected property at ``#/shelves/2/shelfMobileSecondaryBannerImageId``,
 * Unexpected property at ``#/shelves/2/shelfTabBackgroundImageId``,
+* Missing property at ``#/shelves/3/highlightListing/refundable``,
+* Missing property at ``#/shelves/3/highlightListing/storeIds``,
 * Invalid type at ``#/shelves/3highlightListing/products/0``,
 * Invalid type at ``#/shelves/3highlightListing/products/1``,
 * Invalid type at ``#/shelves/3highlightListing/products/2``,
@@ -213,48 +268,64 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3highlightListing/hasCompanion``,
 * Unexpected property at ``#/shelves/3highlightListing/hasInventory``,
 * Unexpected property at ``#/shelves/3highlightListing/productTypes``,
+* Missing property at ``#/shelves/3listings/0/refundable``,
+* Missing property at ``#/shelves/3listings/0/storeIds``,
 * Invalid type at ``#/shelves/3listings/0products/0``,
 * Unexpected property at ``#/shelves/3listings/0/attribution``,
 * Unexpected property at ``#/shelves/3listings/0/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/0/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/0/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/0/productTypes``,
+* Missing property at ``#/shelves/3listings/1/refundable``,
+* Missing property at ``#/shelves/3listings/1/storeIds``,
 * Invalid type at ``#/shelves/3listings/1products/0``,
 * Unexpected property at ``#/shelves/3listings/1/attribution``,
 * Unexpected property at ``#/shelves/3listings/1/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/1/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/1/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/1/productTypes``,
+* Missing property at ``#/shelves/3listings/2/refundable``,
+* Missing property at ``#/shelves/3listings/2/storeIds``,
 * Invalid type at ``#/shelves/3listings/2products/0``,
 * Unexpected property at ``#/shelves/3listings/2/attribution``,
 * Unexpected property at ``#/shelves/3listings/2/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/2/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/2/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/2/productTypes``,
+* Missing property at ``#/shelves/3listings/3/refundable``,
+* Missing property at ``#/shelves/3listings/3/storeIds``,
 * Invalid type at ``#/shelves/3listings/3products/0``,
 * Unexpected property at ``#/shelves/3listings/3/attribution``,
 * Unexpected property at ``#/shelves/3listings/3/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/3/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/3/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/3/productTypes``,
+* Missing property at ``#/shelves/3listings/4/refundable``,
+* Missing property at ``#/shelves/3listings/4/storeIds``,
 * Invalid type at ``#/shelves/3listings/4products/0``,
 * Unexpected property at ``#/shelves/3listings/4/attribution``,
 * Unexpected property at ``#/shelves/3listings/4/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/4/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/4/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/4/productTypes``,
+* Missing property at ``#/shelves/3listings/5/refundable``,
+* Missing property at ``#/shelves/3listings/5/storeIds``,
 * Invalid type at ``#/shelves/3listings/5products/0``,
 * Unexpected property at ``#/shelves/3listings/5/attribution``,
 * Unexpected property at ``#/shelves/3listings/5/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/5/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/5/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/5/productTypes``,
+* Missing property at ``#/shelves/3listings/6/refundable``,
+* Missing property at ``#/shelves/3listings/6/storeIds``,
 * Invalid type at ``#/shelves/3listings/6products/0``,
 * Unexpected property at ``#/shelves/3listings/6/attribution``,
 * Unexpected property at ``#/shelves/3listings/6/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/6/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/6/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/6/productTypes``,
+* Missing property at ``#/shelves/3listings/7/refundable``,
+* Missing property at ``#/shelves/3listings/7/storeIds``,
 * Invalid type at ``#/shelves/3listings/7products/0``,
 * Invalid type at ``#/shelves/3listings/7products/1``,
 * Unexpected property at ``#/shelves/3listings/7/attribution``,
@@ -262,6 +333,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3listings/7/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/7/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/7/productTypes``,
+* Missing property at ``#/shelves/3listings/8/refundable``,
+* Missing property at ``#/shelves/3listings/8/storeIds``,
 * Invalid type at ``#/shelves/3listings/8products/0``,
 * Unexpected property at ``#/shelves/3listings/8/attribution``,
 * Unexpected property at ``#/shelves/3listings/8/collabUserId``,
@@ -269,11 +342,14 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3listings/8/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/8/productTypes``,
 * Unexpected property at ``#/shelves/3/shelfBackgroundImageId``,
+* Unexpected property at ``#/shelves/3/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/3/shelfIconImageId``,
 * Unexpected property at ``#/shelves/3/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/3/shelfMobileLogoImageId``,
 * Unexpected property at ``#/shelves/3/shelfMobileSecondaryBannerImageId``,
 * Unexpected property at ``#/shelves/3/shelfTabBackgroundImageId``,
+* Missing property at ``#/shelves/4/highlightListing/refundable``,
+* Missing property at ``#/shelves/4/highlightListing/storeIds``,
 * Invalid type at ``#/shelves/4highlightListing/products/0``,
 * Invalid type at ``#/shelves/4highlightListing/products/1``,
 * Invalid type at ``#/shelves/4highlightListing/products/2``,
@@ -290,54 +366,72 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/4highlightListing/hasCompanion``,
 * Unexpected property at ``#/shelves/4highlightListing/hasInventory``,
 * Unexpected property at ``#/shelves/4highlightListing/productTypes``,
+* Missing property at ``#/shelves/4listings/0/refundable``,
+* Missing property at ``#/shelves/4listings/0/storeIds``,
 * Invalid type at ``#/shelves/4listings/0products/0``,
 * Unexpected property at ``#/shelves/4listings/0/attribution``,
 * Unexpected property at ``#/shelves/4listings/0/collabUserId``,
 * Unexpected property at ``#/shelves/4listings/0/hasCompanion``,
 * Unexpected property at ``#/shelves/4listings/0/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/0/productTypes``,
+* Missing property at ``#/shelves/4listings/1/refundable``,
+* Missing property at ``#/shelves/4listings/1/storeIds``,
 * Invalid type at ``#/shelves/4listings/1products/0``,
 * Unexpected property at ``#/shelves/4listings/1/attribution``,
 * Unexpected property at ``#/shelves/4listings/1/collabUserId``,
 * Unexpected property at ``#/shelves/4listings/1/hasCompanion``,
 * Unexpected property at ``#/shelves/4listings/1/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/1/productTypes``,
+* Missing property at ``#/shelves/4listings/2/refundable``,
+* Missing property at ``#/shelves/4listings/2/storeIds``,
 * Invalid type at ``#/shelves/4listings/2products/0``,
 * Unexpected property at ``#/shelves/4listings/2/attribution``,
 * Unexpected property at ``#/shelves/4listings/2/collabUserId``,
 * Unexpected property at ``#/shelves/4listings/2/hasCompanion``,
 * Unexpected property at ``#/shelves/4listings/2/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/2/productTypes``,
+* Missing property at ``#/shelves/4listings/3/refundable``,
+* Missing property at ``#/shelves/4listings/3/storeIds``,
 * Invalid type at ``#/shelves/4listings/3products/0``,
 * Unexpected property at ``#/shelves/4listings/3/attribution``,
 * Unexpected property at ``#/shelves/4listings/3/collabUserId``,
 * Unexpected property at ``#/shelves/4listings/3/hasCompanion``,
 * Unexpected property at ``#/shelves/4listings/3/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/3/productTypes``,
+* Missing property at ``#/shelves/4listings/4/refundable``,
+* Missing property at ``#/shelves/4listings/4/storeIds``,
 * Invalid type at ``#/shelves/4listings/4products/0``,
 * Unexpected property at ``#/shelves/4listings/4/attribution``,
 * Unexpected property at ``#/shelves/4listings/4/collabUserId``,
 * Unexpected property at ``#/shelves/4listings/4/hasCompanion``,
 * Unexpected property at ``#/shelves/4listings/4/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/4/productTypes``,
+* Missing property at ``#/shelves/4listings/5/refundable``,
+* Missing property at ``#/shelves/4listings/5/storeIds``,
 * Invalid type at ``#/shelves/4listings/5products/0``,
 * Unexpected property at ``#/shelves/4listings/5/attribution``,
 * Unexpected property at ``#/shelves/4listings/5/collabUserId``,
 * Unexpected property at ``#/shelves/4listings/5/hasCompanion``,
 * Unexpected property at ``#/shelves/4listings/5/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/5/productTypes``,
+* Missing property at ``#/shelves/4listings/6/refundable``,
+* Missing property at ``#/shelves/4listings/6/storeIds``,
 * Invalid type at ``#/shelves/4listings/6products/0``,
 * Unexpected property at ``#/shelves/4listings/6/attribution``,
 * Unexpected property at ``#/shelves/4listings/6/collabUserId``,
 * Unexpected property at ``#/shelves/4listings/6/hasCompanion``,
 * Unexpected property at ``#/shelves/4listings/6/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/6/productTypes``,
+* Missing property at ``#/shelves/4listings/7/refundable``,
+* Missing property at ``#/shelves/4listings/7/storeIds``,
 * Invalid type at ``#/shelves/4listings/7products/0``,
 * Unexpected property at ``#/shelves/4listings/7/attribution``,
 * Unexpected property at ``#/shelves/4listings/7/collabUserId``,
 * Unexpected property at ``#/shelves/4listings/7/hasCompanion``,
 * Unexpected property at ``#/shelves/4listings/7/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/7/productTypes``,
+* Missing property at ``#/shelves/4listings/8/refundable``,
+* Missing property at ``#/shelves/4listings/8/storeIds``,
 * Invalid type at ``#/shelves/4listings/8products/0``,
 * Invalid type at ``#/shelves/4listings/8products/1``,
 * Unexpected property at ``#/shelves/4listings/8/attribution``,
@@ -345,6 +439,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/4listings/8/hasCompanion``,
 * Unexpected property at ``#/shelves/4listings/8/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/8/productTypes``,
+* Missing property at ``#/shelves/4listings/9/refundable``,
+* Missing property at ``#/shelves/4listings/9/storeIds``,
 * Invalid type at ``#/shelves/4listings/9products/0``,
 * Unexpected property at ``#/shelves/4listings/9/attribution``,
 * Unexpected property at ``#/shelves/4listings/9/collabUserId``,
@@ -352,35 +448,46 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/4listings/9/hasInventory``,
 * Unexpected property at ``#/shelves/4listings/9/productTypes``,
 * Unexpected property at ``#/shelves/4/shelfBackgroundImageId``,
+* Unexpected property at ``#/shelves/4/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/4/shelfIconImageId``,
 * Unexpected property at ``#/shelves/4/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/4/shelfMobileLogoImageId``,
 * Unexpected property at ``#/shelves/4/shelfMobileSecondaryBannerImageId``,
 * Unexpected property at ``#/shelves/4/shelfTabBackgroundImageId``,
+* Missing property at ``#/shelves/5listings/0/refundable``,
+* Missing property at ``#/shelves/5listings/0/storeIds``,
 * Invalid type at ``#/shelves/5listings/0products/0``,
 * Unexpected property at ``#/shelves/5listings/0/attribution``,
 * Unexpected property at ``#/shelves/5listings/0/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/0/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/0/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/0/productTypes``,
+* Missing property at ``#/shelves/5listings/1/refundable``,
+* Missing property at ``#/shelves/5listings/1/storeIds``,
 * Invalid type at ``#/shelves/5listings/1products/0``,
 * Unexpected property at ``#/shelves/5listings/1/attribution``,
 * Unexpected property at ``#/shelves/5listings/1/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/1/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/1/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/1/productTypes``,
+* Missing property at ``#/shelves/5listings/2/refundable``,
+* Missing property at ``#/shelves/5listings/2/storeIds``,
 * Invalid type at ``#/shelves/5listings/2products/0``,
 * Unexpected property at ``#/shelves/5listings/2/attribution``,
 * Unexpected property at ``#/shelves/5listings/2/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/2/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/2/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/2/productTypes``,
+* Missing property at ``#/shelves/5listings/3/refundable``,
+* Missing property at ``#/shelves/5listings/3/storeIds``,
 * Invalid type at ``#/shelves/5listings/3products/0``,
 * Unexpected property at ``#/shelves/5listings/3/attribution``,
 * Unexpected property at ``#/shelves/5listings/3/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/3/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/3/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/3/productTypes``,
+* Missing property at ``#/shelves/5listings/4/refundable``,
+* Missing property at ``#/shelves/5listings/4/storeIds``,
 * Invalid type at ``#/shelves/5listings/4products/0``,
 * Invalid type at ``#/shelves/5listings/4products/1``,
 * Invalid type at ``#/shelves/5listings/4products/2``,
@@ -390,30 +497,40 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/5listings/4/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/4/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/4/productTypes``,
+* Missing property at ``#/shelves/5listings/5/refundable``,
+* Missing property at ``#/shelves/5listings/5/storeIds``,
 * Invalid type at ``#/shelves/5listings/5products/0``,
 * Unexpected property at ``#/shelves/5listings/5/attribution``,
 * Unexpected property at ``#/shelves/5listings/5/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/5/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/5/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/5/productTypes``,
+* Missing property at ``#/shelves/5listings/6/refundable``,
+* Missing property at ``#/shelves/5listings/6/storeIds``,
 * Invalid type at ``#/shelves/5listings/6products/0``,
 * Unexpected property at ``#/shelves/5listings/6/attribution``,
 * Unexpected property at ``#/shelves/5listings/6/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/6/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/6/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/6/productTypes``,
+* Missing property at ``#/shelves/5listings/7/refundable``,
+* Missing property at ``#/shelves/5listings/7/storeIds``,
 * Invalid type at ``#/shelves/5listings/7products/0``,
 * Unexpected property at ``#/shelves/5listings/7/attribution``,
 * Unexpected property at ``#/shelves/5listings/7/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/7/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/7/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/7/productTypes``,
+* Missing property at ``#/shelves/5listings/8/refundable``,
+* Missing property at ``#/shelves/5listings/8/storeIds``,
 * Invalid type at ``#/shelves/5listings/8products/0``,
 * Unexpected property at ``#/shelves/5listings/8/attribution``,
 * Unexpected property at ``#/shelves/5listings/8/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/8/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/8/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/8/productTypes``,
+* Missing property at ``#/shelves/5listings/9/refundable``,
+* Missing property at ``#/shelves/5listings/9/storeIds``,
 * Invalid type at ``#/shelves/5listings/9products/0``,
 * Invalid type at ``#/shelves/5listings/9products/1``,
 * Invalid type at ``#/shelves/5listings/9products/2``,
@@ -422,18 +539,24 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/5listings/9/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/9/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/9/productTypes``,
+* Missing property at ``#/shelves/5listings/10/refundable``,
+* Missing property at ``#/shelves/5listings/10/storeIds``,
 * Invalid type at ``#/shelves/5listings/10products/0``,
 * Unexpected property at ``#/shelves/5listings/10/attribution``,
 * Unexpected property at ``#/shelves/5listings/10/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/10/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/10/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/10/productTypes``,
+* Missing property at ``#/shelves/5listings/11/refundable``,
+* Missing property at ``#/shelves/5listings/11/storeIds``,
 * Invalid type at ``#/shelves/5listings/11products/0``,
 * Unexpected property at ``#/shelves/5listings/11/attribution``,
 * Unexpected property at ``#/shelves/5listings/11/collabUserId``,
 * Unexpected property at ``#/shelves/5listings/11/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/11/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/11/productTypes``,
+* Missing property at ``#/shelves/5listings/12/refundable``,
+* Missing property at ``#/shelves/5listings/12/storeIds``,
 * Invalid type at ``#/shelves/5listings/12products/0``,
 * Unexpected property at ``#/shelves/5listings/12/attribution``,
 * Unexpected property at ``#/shelves/5listings/12/collabUserDisplayName``,
@@ -441,6 +564,8 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/5listings/12/hasCompanion``,
 * Unexpected property at ``#/shelves/5listings/12/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/12/productTypes``,
+* Missing property at ``#/shelves/5listings/13/refundable``,
+* Missing property at ``#/shelves/5listings/13/storeIds``,
 * Invalid type at ``#/shelves/5listings/13products/0``,
 * Unexpected property at ``#/shelves/5listings/13/attribution``,
 * Unexpected property at ``#/shelves/5listings/13/collabUserId``,
@@ -448,6 +573,7 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/5listings/13/hasInventory``,
 * Unexpected property at ``#/shelves/5listings/13/productTypes``,
 * Unexpected property at ``#/shelves/5/shelfBackgroundImageId``,
+* Unexpected property at ``#/shelves/5/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/5/shelfIconImageId``,
 * Unexpected property at ``#/shelves/5/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/5/shelfMobileLogoImageId``,
@@ -543,14 +669,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-21T09:00:00.000Z"
@@ -591,14 +713,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-21T09:00:00.000Z"
@@ -639,14 +757,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-21T09:00:00.000Z"
@@ -687,14 +801,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-21T09:00:00.000Z"
@@ -735,14 +845,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-21T09:00:00.000Z"
@@ -783,14 +889,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-21T09:00:00.000Z"
@@ -831,14 +933,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-21T09:00:00.000Z"
@@ -879,20 +977,17 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-21T09:00:00.000Z"
         }
       ],
       "shelfBackgroundImageId": "file_9e9016e4-6bf6-4dd3-861a-9890d535226f",
+      "shelfClientBannerImageId": "",
       "shelfDescription": "",
       "shelfIconImageId": "file_5b430e8c-489f-45e0-a58b-70c807694837",
       "shelfLayout": "col4",
@@ -958,14 +1053,10 @@ Response schema mismatch:
         ],
         "quantifiable": false,
         "recurrable": false,
-        "refundable": true,
         "sellerDisplayName": "VRChat Store",
         "sellerId": "usr_00000000-0000-0000-0000-000000000011",
         "soldByVrc": true,
         "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 2700,
         "whenToExpire": "2026-09-14T09:00:00.000Z"
@@ -1020,14 +1111,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Portal",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-14T09:00:00.000Z"
@@ -1072,14 +1159,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 810,
           "whenToExpire": "2026-09-14T09:00:00.000Z"
@@ -1125,14 +1208,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Warp Effect",
           "vrcPlusDiscountPrice": 810,
           "whenToExpire": "2026-09-14T09:00:00.000Z"
@@ -1178,14 +1257,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Prop",
           "vrcPlusDiscountPrice": 720,
           "whenToExpire": "2026-09-14T09:00:00.000Z"
@@ -1232,20 +1307,17 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
           "vrcPlusDiscountPrice": 270,
           "whenToExpire": "2026-09-14T09:00:00.000Z"
         }
       ],
       "shelfBackgroundImageId": "file_a6793b16-8060-4c65-8ec7-6cd3cb5b64e9",
+      "shelfClientBannerImageId": "",
       "shelfDescription": "",
       "shelfIconImageId": "file_39927e95-eb5f-4e98-8caa-dddfa33f25b5",
       "shelfLayout": "highlightLeft",
@@ -1253,8 +1325,8 @@ Response schema mismatch:
       "shelfMobileLogoImageId": "",
       "shelfMobileSecondaryBannerImageId": "",
       "shelfTabBackgroundImageId": "file_62e931d6-1e51-4763-9b00-7d48084ce1c3",
-      "shelfTitle": "Virtual Hiroshima Station u.2",
-      "updatedAt": "2026-08-12T22:33:10.354Z"
+      "shelfTitle": "Virtual Hiroshima Station 2.u",
+      "updatedAt": "2026-08-25T00:18:40.832Z"
     },
     {
       "id": "ess_66c639e6-88da-4d5a-a4dd-95a1e2e947e6",
@@ -1314,17 +1386,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 1080,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 1080
         },
         {
           "active": true,
@@ -1368,17 +1435,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 1080,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 1080
         },
         {
           "active": true,
@@ -1422,17 +1484,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 1080,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 1080
         },
         {
           "active": true,
@@ -1476,17 +1533,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 1080,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 1080
         },
         {
           "active": true,
@@ -1530,17 +1582,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 1080,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 1080
         },
         {
           "active": true,
@@ -1584,17 +1631,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 1080,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 1080
         },
         {
           "active": true,
@@ -1638,17 +1680,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 0
         },
         {
           "active": true,
@@ -1692,17 +1729,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 0
         },
         {
           "active": true,
@@ -1746,17 +1778,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 0
         },
         {
           "active": true,
@@ -1800,17 +1827,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 0
         },
         {
           "active": true,
@@ -1854,20 +1876,16 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 0
         }
       ],
       "shelfBackgroundImageId": "file_3b3a8a91-46de-4252-8b0e-d68a20337f44",
+      "shelfClientBannerImageId": "",
       "shelfDescription": "",
       "shelfIconImageId": "file_6a5b49cd-3caa-4f1a-8712-3526df6f4b89",
       "shelfLayout": "col4",
@@ -1939,14 +1957,10 @@ Response schema mismatch:
         ],
         "quantifiable": false,
         "recurrable": false,
-        "refundable": true,
         "sellerDisplayName": "VRChat Store",
         "sellerId": "usr_00000000-0000-0000-0000-000000000011",
         "soldByVrc": true,
         "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 4320,
         "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -2001,14 +2015,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Portal",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -2049,14 +2059,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Warp Effect",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -2097,14 +2103,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Prop",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -2145,14 +2147,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Prop",
           "vrcPlusDiscountPrice": 720,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -2193,14 +2191,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 720,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -2241,14 +2235,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 720,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -2289,14 +2279,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Loadingscreen",
           "vrcPlusDiscountPrice": 540,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -2339,14 +2325,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
           "vrcPlusDiscountPrice": 450,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -2387,20 +2369,17 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Sticker",
           "vrcPlusDiscountPrice": 180,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
         }
       ],
       "shelfBackgroundImageId": "file_6cf7631b-d348-4645-8c09-262d763df4e4",
+      "shelfClientBannerImageId": "",
       "shelfDescription": "",
       "shelfIconImageId": "file_25f84991-90e8-40bd-a9e3-19ea5f7e2ea6",
       "shelfLayout": "highlightLeft",
@@ -2474,14 +2453,10 @@ Response schema mismatch:
         ],
         "quantifiable": false,
         "recurrable": false,
-        "refundable": true,
         "sellerDisplayName": "VRChat Store",
         "sellerId": "usr_00000000-0000-0000-0000-000000000011",
         "soldByVrc": true,
         "stackable": false,
-        "storeIds": [
-          "esto_00000000-0000-0000-0000-000000000000"
-        ],
         "subtitle": "Bundle",
         "vrcPlusDiscountPrice": 4320,
         "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2537,14 +2512,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Portal",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2585,14 +2556,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Warp Effect",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2633,14 +2600,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Loading Screen",
           "vrcPlusDiscountPrice": 540,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2681,14 +2644,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Prop",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2729,14 +2688,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Prop",
           "vrcPlusDiscountPrice": 630,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2777,14 +2732,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Prop",
           "vrcPlusDiscountPrice": 720,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2825,14 +2776,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2873,14 +2820,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 765,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2923,14 +2866,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
           "vrcPlusDiscountPrice": 450,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -2971,20 +2910,17 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Sticker",
           "vrcPlusDiscountPrice": 180,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
         }
       ],
       "shelfBackgroundImageId": "file_3560afbd-3a09-4587-8e93-e071ec9ab37a",
+      "shelfClientBannerImageId": "",
       "shelfDescription": "",
       "shelfIconImageId": "file_68c3a22b-47d4-41ba-b387-cdec6b2e0c94",
       "shelfLayout": "highlightLeft",
@@ -3050,14 +2986,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 720,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -3098,14 +3030,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 720,
           "whenToExpire": "2026-10-09T21:00:00.000Z"
@@ -3146,14 +3074,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 900,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -3194,14 +3118,10 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
           "vrcPlusDiscountPrice": 765,
           "whenToExpire": "2026-09-04T21:00:00.000Z"
@@ -3252,17 +3172,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 2160,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 2160
         },
         {
           "active": true,
@@ -3304,17 +3219,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 810,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 810
         },
         {
           "active": true,
@@ -3356,17 +3266,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 810,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 810
         },
         {
           "active": true,
@@ -3408,17 +3313,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 540,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 540
         },
         {
           "active": true,
@@ -3460,17 +3360,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 675,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 675
         },
         {
           "active": true,
@@ -3516,17 +3411,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 1620,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 1620
         },
         {
           "active": true,
@@ -3568,17 +3458,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 675,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 675
         },
         {
           "active": true,
@@ -3620,17 +3505,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 675,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 675
         },
         {
           "active": true,
@@ -3673,17 +3553,12 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 675,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 675
         },
         {
           "active": true,
@@ -3725,20 +3600,16 @@ Response schema mismatch:
           ],
           "quantifiable": false,
           "recurrable": false,
-          "refundable": true,
           "sellerDisplayName": "VRChat Store",
           "sellerId": "usr_00000000-0000-0000-0000-000000000011",
           "soldByVrc": true,
           "stackable": false,
-          "storeIds": [
-            "esto_00000000-0000-0000-0000-000000000000"
-          ],
           "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 0,
-          "whenToExpire": null
+          "vrcPlusDiscountPrice": 0
         }
       ],
       "shelfBackgroundImageId": "file_5570c214-553d-4488-8647-0de574a09004",
+      "shelfClientBannerImageId": "",
       "shelfDescription": "",
       "shelfIconImageId": "file_194d63ca-0bd2-426e-9bf3-e4262e721fdd",
       "shelfLayout": "col5",

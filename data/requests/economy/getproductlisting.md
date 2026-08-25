@@ -2,6 +2,8 @@
 
 ## Issues
 Response schema mismatch:
+* Missing property at ``#/refundable``,
+* Missing property at ``#/storeIds``,
 * Invalid type at ``#/products/0``,
 * Invalid type at ``#/products/1``,
 * Invalid type at ``#/products/2``,
@@ -116,13 +118,9 @@ Response schema mismatch:
     "prod_d18fa3a5-5b3a-4dd4-a00e-58436fa48df1"
   ],
   "recurrable": false,
-  "refundable": true,
   "sellerDisplayName": "spookyghostboo",
   "sellerId": "usr_3d10ca69-6586-40a3-aa1b-a0c9e38a0d20",
   "stackable": true,
-  "storeIds": [
-    "esto_58413a17-1ea8-42cc-aca3-366acad5494d"
-  ],
   "tags": []
 }
 ```

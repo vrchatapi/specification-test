@@ -92,7 +92,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*6 issues truncated.*
+*4 issues truncated.*
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
 Response schema mismatch:
@@ -129,7 +129,7 @@ Response schema mismatch:
 * undefined at ``#/instances/1``,
 * undefined at ``#/instances/2``,
 
-*19 issues truncated.*
+*16 issues truncated.*
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
@@ -283,19 +283,19 @@ Response schema mismatch:
 #### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
 
 Response schema mismatch:
+* Missing property at ``#/0listings/0/refundable``,
+* Missing property at ``#/0listings/0/storeIds``,
 * Invalid type at ``#/0listings/0products/0``,
-* Unexpected property at ``#/0listings/0/attribution``,
-* Unexpected property at ``#/0listings/0/collabUserId``,
 
-*448 issues truncated.*
+*574 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
+* Missing property at ``#/shelves/0listings/0/refundable``,
+* Missing property at ``#/shelves/0listings/0/storeIds``,
 * Invalid type at ``#/shelves/0listings/0products/0``,
-* Unexpected property at ``#/shelves/0listings/0/attribution``,
-* Unexpected property at ``#/shelves/0listings/0/collabUserId``,
 
-*448 issues truncated.*
+*574 issues truncated.*
 #### [getBalanceEarnings](/data/requests/economy/getbalanceearnings.md)
 
 Response schema mismatch:
@@ -325,11 +325,11 @@ Response schema mismatch:
 #### [getProductListing](/data/requests/economy/getproductlisting.md)
 
 Response schema mismatch:
+* Missing property at ``#/refundable``,
+* Missing property at ``#/storeIds``,
 * Invalid type at ``#/products/0``,
-* Invalid type at ``#/products/1``,
-* Invalid type at ``#/products/2``,
 
-*10 issues truncated.*
+*12 issues truncated.*
 #### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
 
 Response schema mismatch:
@@ -638,7 +638,7 @@ Response schema mismatch:
 * Missing property at ``#/economyLedgerMigrationStop``,
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 
-*44 issues truncated.*
+*38 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

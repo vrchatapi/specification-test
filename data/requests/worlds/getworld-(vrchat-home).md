@@ -7,8 +7,6 @@ Response schema mismatch:
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
 * undefined at ``#/instances/4``,
-* undefined at ``#/instances/5``,
-* undefined at ``#/instances/6``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -67,7 +65,7 @@ Response schema mismatch:
       "gameServerVersion": null,
       "instanceId": "94997~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
       "languageRatio": {},
-      "n_users": 7
+      "n_users": 5
     },
     {
       "gameServerVersion": null,
@@ -76,37 +74,24 @@ Response schema mismatch:
       "n_users": 5
     },
     {
-      "gameServerVersion": null,
-      "instanceId": "97277~group(grp_e53d63ae-5dcc-4255-bdcb-784c2d70388f)~groupAccessType(public)~region(eu)",
-      "languageRatio": {},
-      "n_users": 4
+      "instanceId": "04945~region(use)",
+      "languageRatio": {
+        "en": 0.6,
+        "zh-CN": 0.4
+      },
+      "n_users": 5
     },
     {
-      "instanceId": "fcd91a78c5~region(us)",
-      "languageRatio": {
-        "en": 0.71,
-        "es": 0.14,
-        "ja": 0.14
-      },
+      "gameServerVersion": null,
+      "instanceId": "f291fcc9aa~region(us)",
+      "languageRatio": {},
       "n_users": 7
     },
     {
       "gameServerVersion": null,
-      "instanceId": "c27f63909f~region(us)",
+      "instanceId": "28d87bcf7f~region(us)",
       "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "c8031460b4~region(us)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "a59ec30f12~region(us)",
-      "languageRatio": {},
-      "n_users": 1
+      "n_users": 4
     }
   ],
   "tags": [
@@ -128,8 +113,7 @@ Response schema mismatch:
     "admin_AllowInternal_OpenMenu",
     "admin_ios_category",
     "admin_AllowInternal_Experiments",
-    "admin_tanabata2026",
-    "system_updated_recently"
+    "admin_tanabata2026"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",
