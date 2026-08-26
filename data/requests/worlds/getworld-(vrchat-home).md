@@ -7,6 +7,7 @@ Response schema mismatch:
 * undefined at ``#/instances/2``,
 * undefined at ``#/instances/3``,
 * undefined at ``#/instances/4``,
+* undefined at ``#/instances/5``,
 * Unexpected property at ``#/disabledPropAbilities``,
 * Unexpected property at ``#/slimInstances``.
 ## Request
@@ -63,35 +64,41 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": null,
-      "instanceId": "94997~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
-      "languageRatio": {},
-      "n_users": 5
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "89676~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
-      "languageRatio": {},
-      "n_users": 5
-    },
-    {
-      "instanceId": "04945~region(use)",
-      "languageRatio": {
-        "en": 0.6,
-        "zh-CN": 0.4
-      },
-      "n_users": 5
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "f291fcc9aa~region(us)",
+      "instanceId": "97277~group(grp_e53d63ae-5dcc-4255-bdcb-784c2d70388f)~groupAccessType(public)~region(eu)",
       "languageRatio": {},
       "n_users": 7
     },
     {
       "gameServerVersion": null,
-      "instanceId": "28d87bcf7f~region(us)",
+      "instanceId": "94997~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
       "languageRatio": {},
       "n_users": 4
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "84866~group(grp_587131d8-e10d-4569-879b-a42f7b7db645)~groupAccessType(public)~region(use)",
+      "languageRatio": {},
+      "n_users": 4
+    },
+    {
+      "instanceId": "1262d69583~region(us)",
+      "languageRatio": {
+        "en": 0.83,
+        "zh-CN": 0.17
+      },
+      "n_users": 6
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "34518~region(us)",
+      "languageRatio": {},
+      "n_users": 3
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "86882~region(jp)",
+      "languageRatio": {},
+      "n_users": 1
     }
   ],
   "tags": [
