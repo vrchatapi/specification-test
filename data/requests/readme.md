@@ -401,11 +401,8 @@ Response schema mismatch:
 #### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
+* Unexpected property at ``#/avatarStats/raycastCount``.
 
-*2 issues truncated.*
 #### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
 
 Response schema mismatch:
@@ -414,11 +411,8 @@ Response schema mismatch:
 #### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
 
 Response schema mismatch:
-* Missing property at ``#/avatarStats``,
-* Missing property at ``#/fileSize``,
-* Missing property at ``#/success``,
+* Unexpected property at ``#/avatarStats/raycastCount``.
 
-*2 issues truncated.*
 #### [getFiles without data](/data/requests/files/getfiles-without-data.md)
 
 
@@ -526,7 +520,7 @@ Response schema mismatch:
 * Unexpected property at ``#/metadata/propKind``,
 * Unexpected property at ``#/attribution``,
 
-*1 issues truncated.*
+*2 issues truncated.*
 #### [getOwnInventoryItem](/data/requests/inventory/getowninventoryitem.md)
 
 Response schema mismatch:
@@ -644,7 +638,7 @@ Response schema mismatch:
 * Missing property at ``#/economyLedgerMigrationStop``,
 * Unexpected property at ``#/audioConfig/nearFieldILDNudgeEarTranslate``,
 
-*46 issues truncated.*
+*37 issues truncated.*
 #### [getCurrentOnlineUsers](/data/requests/system/getcurrentonlineusers.md)
 
 

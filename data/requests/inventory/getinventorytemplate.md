@@ -5,7 +5,8 @@ Response schema mismatch:
 * Missing property at ``#/status``,
 * Unexpected property at ``#/metadata/propKind``,
 * Unexpected property at ``#/attribution``,
-* Unexpected property at ``#/dropStatus``.
+* Unexpected property at ``#/dropStatus``,
+* Unexpected property at ``#/initialToggleState``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory/template/invt_1f11aa73-8f05-4d50-a1a8-c59074d03ce2`
 
@@ -48,6 +49,7 @@ Response schema mismatch:
   ],
   "id": "invt_1f11aa73-8f05-4d50-a1a8-c59074d03ce2",
   "imageUrl": "https://api.vrchat.cloud/api/1/image/file_10880ad6-dd90-411f-a7e5-6c7c19710551/1/256",
+  "initialToggleState": false,
   "itemType": "prop",
   "itemTypeLabel": "Prop",
   "metadata": {
