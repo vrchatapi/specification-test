@@ -2,6 +2,23 @@
 
 ## Issues
 Response schema mismatch:
+* Missing property at ``#/0/highlightListing/refundable``,
+* Missing property at ``#/0/highlightListing/storeIds``,
+* Invalid type at ``#/0highlightListing/products/0``,
+* Invalid type at ``#/0highlightListing/products/1``,
+* Invalid type at ``#/0highlightListing/products/2``,
+* Invalid type at ``#/0highlightListing/products/3``,
+* Invalid type at ``#/0highlightListing/products/4``,
+* Invalid type at ``#/0highlightListing/products/5``,
+* Invalid type at ``#/0highlightListing/products/6``,
+* Invalid type at ``#/0highlightListing/products/7``,
+* Invalid type at ``#/0highlightListing/products/8``,
+* Invalid type at ``#/0highlightListing/products/9``,
+* Unexpected property at ``#/0highlightListing/attribution``,
+* Unexpected property at ``#/0highlightListing/collabUserId``,
+* Unexpected property at ``#/0highlightListing/hasCompanion``,
+* Unexpected property at ``#/0highlightListing/hasInventory``,
+* Unexpected property at ``#/0highlightListing/productTypes``,
 * Missing property at ``#/0listings/0/refundable``,
 * Missing property at ``#/0listings/0/storeIds``,
 * Invalid type at ``#/0listings/0products/0``,
@@ -61,11 +78,20 @@ Response schema mismatch:
 * Missing property at ``#/0listings/7/refundable``,
 * Missing property at ``#/0listings/7/storeIds``,
 * Invalid type at ``#/0listings/7products/0``,
+* Invalid type at ``#/0listings/7products/1``,
 * Unexpected property at ``#/0listings/7/attribution``,
 * Unexpected property at ``#/0listings/7/collabUserId``,
 * Unexpected property at ``#/0listings/7/hasCompanion``,
 * Unexpected property at ``#/0listings/7/hasInventory``,
 * Unexpected property at ``#/0listings/7/productTypes``,
+* Missing property at ``#/0listings/8/refundable``,
+* Missing property at ``#/0listings/8/storeIds``,
+* Invalid type at ``#/0listings/8products/0``,
+* Unexpected property at ``#/0listings/8/attribution``,
+* Unexpected property at ``#/0listings/8/collabUserId``,
+* Unexpected property at ``#/0listings/8/hasCompanion``,
+* Unexpected property at ``#/0listings/8/hasInventory``,
+* Unexpected property at ``#/0listings/8/productTypes``,
 * Unexpected property at ``#/0/shelfBackgroundImageId``,
 * Unexpected property at ``#/0/shelfClientBannerImageId``,
 * Unexpected property at ``#/0/shelfIconImageId``,
@@ -73,22 +99,11 @@ Response schema mismatch:
 * Unexpected property at ``#/0/shelfMobileLogoImageId``,
 * Unexpected property at ``#/0/shelfMobileSecondaryBannerImageId``,
 * Unexpected property at ``#/0/shelfTabBackgroundImageId``,
-* Missing property at ``#/1/highlightListing/refundable``,
-* Missing property at ``#/1/highlightListing/storeIds``,
-* Invalid type at ``#/1highlightListing/products/0``,
-* Invalid type at ``#/1highlightListing/products/1``,
-* Invalid type at ``#/1highlightListing/products/2``,
-* Invalid type at ``#/1highlightListing/products/3``,
-* Invalid type at ``#/1highlightListing/products/4``,
-* Invalid type at ``#/1highlightListing/products/5``,
-* Unexpected property at ``#/1highlightListing/attribution``,
-* Unexpected property at ``#/1highlightListing/collabUserId``,
-* Unexpected property at ``#/1highlightListing/hasCompanion``,
-* Unexpected property at ``#/1highlightListing/hasInventory``,
-* Unexpected property at ``#/1highlightListing/productTypes``,
 * Missing property at ``#/1listings/0/refundable``,
 * Missing property at ``#/1listings/0/storeIds``,
 * Invalid type at ``#/1listings/0products/0``,
+* Invalid type at ``#/1listings/0products/1``,
+* Invalid type at ``#/1listings/0products/2``,
 * Unexpected property at ``#/1listings/0/attribution``,
 * Unexpected property at ``#/1listings/0/collabUserId``,
 * Unexpected property at ``#/1listings/0/hasCompanion``,
@@ -97,6 +112,8 @@ Response schema mismatch:
 * Missing property at ``#/1listings/1/refundable``,
 * Missing property at ``#/1listings/1/storeIds``,
 * Invalid type at ``#/1listings/1products/0``,
+* Invalid type at ``#/1listings/1products/1``,
+* Invalid type at ``#/1listings/1products/2``,
 * Unexpected property at ``#/1listings/1/attribution``,
 * Unexpected property at ``#/1listings/1/collabUserId``,
 * Unexpected property at ``#/1listings/1/hasCompanion``,
@@ -105,6 +122,8 @@ Response schema mismatch:
 * Missing property at ``#/1listings/2/refundable``,
 * Missing property at ``#/1listings/2/storeIds``,
 * Invalid type at ``#/1listings/2products/0``,
+* Invalid type at ``#/1listings/2products/1``,
+* Invalid type at ``#/1listings/2products/2``,
 * Unexpected property at ``#/1listings/2/attribution``,
 * Unexpected property at ``#/1listings/2/collabUserId``,
 * Unexpected property at ``#/1listings/2/hasCompanion``,
@@ -113,6 +132,8 @@ Response schema mismatch:
 * Missing property at ``#/1listings/3/refundable``,
 * Missing property at ``#/1listings/3/storeIds``,
 * Invalid type at ``#/1listings/3products/0``,
+* Invalid type at ``#/1listings/3products/1``,
+* Invalid type at ``#/1listings/3products/2``,
 * Unexpected property at ``#/1listings/3/attribution``,
 * Unexpected property at ``#/1listings/3/collabUserId``,
 * Unexpected property at ``#/1listings/3/hasCompanion``,
@@ -122,11 +143,72 @@ Response schema mismatch:
 * Missing property at ``#/1listings/4/storeIds``,
 * Invalid type at ``#/1listings/4products/0``,
 * Invalid type at ``#/1listings/4products/1``,
+* Invalid type at ``#/1listings/4products/2``,
 * Unexpected property at ``#/1listings/4/attribution``,
 * Unexpected property at ``#/1listings/4/collabUserId``,
 * Unexpected property at ``#/1listings/4/hasCompanion``,
 * Unexpected property at ``#/1listings/4/hasInventory``,
 * Unexpected property at ``#/1listings/4/productTypes``,
+* Missing property at ``#/1listings/5/refundable``,
+* Missing property at ``#/1listings/5/storeIds``,
+* Invalid type at ``#/1listings/5products/0``,
+* Invalid type at ``#/1listings/5products/1``,
+* Invalid type at ``#/1listings/5products/2``,
+* Unexpected property at ``#/1listings/5/attribution``,
+* Unexpected property at ``#/1listings/5/collabUserId``,
+* Unexpected property at ``#/1listings/5/hasCompanion``,
+* Unexpected property at ``#/1listings/5/hasInventory``,
+* Unexpected property at ``#/1listings/5/productTypes``,
+* Missing property at ``#/1listings/6/refundable``,
+* Missing property at ``#/1listings/6/storeIds``,
+* Invalid type at ``#/1listings/6products/0``,
+* Invalid type at ``#/1listings/6products/1``,
+* Invalid type at ``#/1listings/6products/2``,
+* Unexpected property at ``#/1listings/6/attribution``,
+* Unexpected property at ``#/1listings/6/collabUserId``,
+* Unexpected property at ``#/1listings/6/hasCompanion``,
+* Unexpected property at ``#/1listings/6/hasInventory``,
+* Unexpected property at ``#/1listings/6/productTypes``,
+* Missing property at ``#/1listings/7/refundable``,
+* Missing property at ``#/1listings/7/storeIds``,
+* Invalid type at ``#/1listings/7products/0``,
+* Invalid type at ``#/1listings/7products/1``,
+* Invalid type at ``#/1listings/7products/2``,
+* Unexpected property at ``#/1listings/7/attribution``,
+* Unexpected property at ``#/1listings/7/collabUserId``,
+* Unexpected property at ``#/1listings/7/hasCompanion``,
+* Unexpected property at ``#/1listings/7/hasInventory``,
+* Unexpected property at ``#/1listings/7/productTypes``,
+* Missing property at ``#/1listings/8/refundable``,
+* Missing property at ``#/1listings/8/storeIds``,
+* Invalid type at ``#/1listings/8products/0``,
+* Invalid type at ``#/1listings/8products/1``,
+* Invalid type at ``#/1listings/8products/2``,
+* Unexpected property at ``#/1listings/8/attribution``,
+* Unexpected property at ``#/1listings/8/collabUserId``,
+* Unexpected property at ``#/1listings/8/hasCompanion``,
+* Unexpected property at ``#/1listings/8/hasInventory``,
+* Unexpected property at ``#/1listings/8/productTypes``,
+* Missing property at ``#/1listings/9/refundable``,
+* Missing property at ``#/1listings/9/storeIds``,
+* Invalid type at ``#/1listings/9products/0``,
+* Invalid type at ``#/1listings/9products/1``,
+* Invalid type at ``#/1listings/9products/2``,
+* Unexpected property at ``#/1listings/9/attribution``,
+* Unexpected property at ``#/1listings/9/collabUserId``,
+* Unexpected property at ``#/1listings/9/hasCompanion``,
+* Unexpected property at ``#/1listings/9/hasInventory``,
+* Unexpected property at ``#/1listings/9/productTypes``,
+* Missing property at ``#/1listings/10/refundable``,
+* Missing property at ``#/1listings/10/storeIds``,
+* Invalid type at ``#/1listings/10products/0``,
+* Invalid type at ``#/1listings/10products/1``,
+* Invalid type at ``#/1listings/10products/2``,
+* Unexpected property at ``#/1listings/10/attribution``,
+* Unexpected property at ``#/1listings/10/collabUserId``,
+* Unexpected property at ``#/1listings/10/hasCompanion``,
+* Unexpected property at ``#/1listings/10/hasInventory``,
+* Unexpected property at ``#/1listings/10/productTypes``,
 * Unexpected property at ``#/1/shelfBackgroundImageId``,
 * Unexpected property at ``#/1/shelfClientBannerImageId``,
 * Unexpected property at ``#/1/shelfIconImageId``,
@@ -137,8 +219,6 @@ Response schema mismatch:
 * Missing property at ``#/2listings/0/refundable``,
 * Missing property at ``#/2listings/0/storeIds``,
 * Invalid type at ``#/2listings/0products/0``,
-* Invalid type at ``#/2listings/0products/1``,
-* Invalid type at ``#/2listings/0products/2``,
 * Unexpected property at ``#/2listings/0/attribution``,
 * Unexpected property at ``#/2listings/0/collabUserId``,
 * Unexpected property at ``#/2listings/0/hasCompanion``,
@@ -147,8 +227,6 @@ Response schema mismatch:
 * Missing property at ``#/2listings/1/refundable``,
 * Missing property at ``#/2listings/1/storeIds``,
 * Invalid type at ``#/2listings/1products/0``,
-* Invalid type at ``#/2listings/1products/1``,
-* Invalid type at ``#/2listings/1products/2``,
 * Unexpected property at ``#/2listings/1/attribution``,
 * Unexpected property at ``#/2listings/1/collabUserId``,
 * Unexpected property at ``#/2listings/1/hasCompanion``,
@@ -157,8 +235,6 @@ Response schema mismatch:
 * Missing property at ``#/2listings/2/refundable``,
 * Missing property at ``#/2listings/2/storeIds``,
 * Invalid type at ``#/2listings/2products/0``,
-* Invalid type at ``#/2listings/2products/1``,
-* Invalid type at ``#/2listings/2products/2``,
 * Unexpected property at ``#/2listings/2/attribution``,
 * Unexpected property at ``#/2listings/2/collabUserId``,
 * Unexpected property at ``#/2listings/2/hasCompanion``,
@@ -167,8 +243,6 @@ Response schema mismatch:
 * Missing property at ``#/2listings/3/refundable``,
 * Missing property at ``#/2listings/3/storeIds``,
 * Invalid type at ``#/2listings/3products/0``,
-* Invalid type at ``#/2listings/3products/1``,
-* Invalid type at ``#/2listings/3products/2``,
 * Unexpected property at ``#/2listings/3/attribution``,
 * Unexpected property at ``#/2listings/3/collabUserId``,
 * Unexpected property at ``#/2listings/3/hasCompanion``,
@@ -177,8 +251,6 @@ Response schema mismatch:
 * Missing property at ``#/2listings/4/refundable``,
 * Missing property at ``#/2listings/4/storeIds``,
 * Invalid type at ``#/2listings/4products/0``,
-* Invalid type at ``#/2listings/4products/1``,
-* Invalid type at ``#/2listings/4products/2``,
 * Unexpected property at ``#/2listings/4/attribution``,
 * Unexpected property at ``#/2listings/4/collabUserId``,
 * Unexpected property at ``#/2listings/4/hasCompanion``,
@@ -187,8 +259,6 @@ Response schema mismatch:
 * Missing property at ``#/2listings/5/refundable``,
 * Missing property at ``#/2listings/5/storeIds``,
 * Invalid type at ``#/2listings/5products/0``,
-* Invalid type at ``#/2listings/5products/1``,
-* Invalid type at ``#/2listings/5products/2``,
 * Unexpected property at ``#/2listings/5/attribution``,
 * Unexpected property at ``#/2listings/5/collabUserId``,
 * Unexpected property at ``#/2listings/5/hasCompanion``,
@@ -197,8 +267,6 @@ Response schema mismatch:
 * Missing property at ``#/2listings/6/refundable``,
 * Missing property at ``#/2listings/6/storeIds``,
 * Invalid type at ``#/2listings/6products/0``,
-* Invalid type at ``#/2listings/6products/1``,
-* Invalid type at ``#/2listings/6products/2``,
 * Unexpected property at ``#/2listings/6/attribution``,
 * Unexpected property at ``#/2listings/6/collabUserId``,
 * Unexpected property at ``#/2listings/6/hasCompanion``,
@@ -207,43 +275,11 @@ Response schema mismatch:
 * Missing property at ``#/2listings/7/refundable``,
 * Missing property at ``#/2listings/7/storeIds``,
 * Invalid type at ``#/2listings/7products/0``,
-* Invalid type at ``#/2listings/7products/1``,
-* Invalid type at ``#/2listings/7products/2``,
 * Unexpected property at ``#/2listings/7/attribution``,
 * Unexpected property at ``#/2listings/7/collabUserId``,
 * Unexpected property at ``#/2listings/7/hasCompanion``,
 * Unexpected property at ``#/2listings/7/hasInventory``,
 * Unexpected property at ``#/2listings/7/productTypes``,
-* Missing property at ``#/2listings/8/refundable``,
-* Missing property at ``#/2listings/8/storeIds``,
-* Invalid type at ``#/2listings/8products/0``,
-* Invalid type at ``#/2listings/8products/1``,
-* Invalid type at ``#/2listings/8products/2``,
-* Unexpected property at ``#/2listings/8/attribution``,
-* Unexpected property at ``#/2listings/8/collabUserId``,
-* Unexpected property at ``#/2listings/8/hasCompanion``,
-* Unexpected property at ``#/2listings/8/hasInventory``,
-* Unexpected property at ``#/2listings/8/productTypes``,
-* Missing property at ``#/2listings/9/refundable``,
-* Missing property at ``#/2listings/9/storeIds``,
-* Invalid type at ``#/2listings/9products/0``,
-* Invalid type at ``#/2listings/9products/1``,
-* Invalid type at ``#/2listings/9products/2``,
-* Unexpected property at ``#/2listings/9/attribution``,
-* Unexpected property at ``#/2listings/9/collabUserId``,
-* Unexpected property at ``#/2listings/9/hasCompanion``,
-* Unexpected property at ``#/2listings/9/hasInventory``,
-* Unexpected property at ``#/2listings/9/productTypes``,
-* Missing property at ``#/2listings/10/refundable``,
-* Missing property at ``#/2listings/10/storeIds``,
-* Invalid type at ``#/2listings/10products/0``,
-* Invalid type at ``#/2listings/10products/1``,
-* Invalid type at ``#/2listings/10products/2``,
-* Unexpected property at ``#/2listings/10/attribution``,
-* Unexpected property at ``#/2listings/10/collabUserId``,
-* Unexpected property at ``#/2listings/10/hasCompanion``,
-* Unexpected property at ``#/2listings/10/hasInventory``,
-* Unexpected property at ``#/2listings/10/productTypes``,
 * Unexpected property at ``#/2/shelfBackgroundImageId``,
 * Unexpected property at ``#/2/shelfClientBannerImageId``,
 * Unexpected property at ``#/2/shelfIconImageId``,
@@ -251,23 +287,6 @@ Response schema mismatch:
 * Unexpected property at ``#/2/shelfMobileLogoImageId``,
 * Unexpected property at ``#/2/shelfMobileSecondaryBannerImageId``,
 * Unexpected property at ``#/2/shelfTabBackgroundImageId``,
-* Missing property at ``#/3/highlightListing/refundable``,
-* Missing property at ``#/3/highlightListing/storeIds``,
-* Invalid type at ``#/3highlightListing/products/0``,
-* Invalid type at ``#/3highlightListing/products/1``,
-* Invalid type at ``#/3highlightListing/products/2``,
-* Invalid type at ``#/3highlightListing/products/3``,
-* Invalid type at ``#/3highlightListing/products/4``,
-* Invalid type at ``#/3highlightListing/products/5``,
-* Invalid type at ``#/3highlightListing/products/6``,
-* Invalid type at ``#/3highlightListing/products/7``,
-* Invalid type at ``#/3highlightListing/products/8``,
-* Invalid type at ``#/3highlightListing/products/9``,
-* Unexpected property at ``#/3highlightListing/attribution``,
-* Unexpected property at ``#/3highlightListing/collabUserId``,
-* Unexpected property at ``#/3highlightListing/hasCompanion``,
-* Unexpected property at ``#/3highlightListing/hasInventory``,
-* Unexpected property at ``#/3highlightListing/productTypes``,
 * Missing property at ``#/3listings/0/refundable``,
 * Missing property at ``#/3listings/0/storeIds``,
 * Invalid type at ``#/3listings/0products/0``,
@@ -303,6 +322,9 @@ Response schema mismatch:
 * Missing property at ``#/3listings/4/refundable``,
 * Missing property at ``#/3listings/4/storeIds``,
 * Invalid type at ``#/3listings/4products/0``,
+* Invalid type at ``#/3listings/4products/1``,
+* Invalid type at ``#/3listings/4products/2``,
+* Invalid type at ``#/3listings/4products/3``,
 * Unexpected property at ``#/3listings/4/attribution``,
 * Unexpected property at ``#/3listings/4/collabUserId``,
 * Unexpected property at ``#/3listings/4/hasCompanion``,
@@ -327,7 +349,6 @@ Response schema mismatch:
 * Missing property at ``#/3listings/7/refundable``,
 * Missing property at ``#/3listings/7/storeIds``,
 * Invalid type at ``#/3listings/7products/0``,
-* Invalid type at ``#/3listings/7products/1``,
 * Unexpected property at ``#/3listings/7/attribution``,
 * Unexpected property at ``#/3listings/7/collabUserId``,
 * Unexpected property at ``#/3listings/7/hasCompanion``,
@@ -341,6 +362,49 @@ Response schema mismatch:
 * Unexpected property at ``#/3listings/8/hasCompanion``,
 * Unexpected property at ``#/3listings/8/hasInventory``,
 * Unexpected property at ``#/3listings/8/productTypes``,
+* Missing property at ``#/3listings/9/refundable``,
+* Missing property at ``#/3listings/9/storeIds``,
+* Invalid type at ``#/3listings/9products/0``,
+* Invalid type at ``#/3listings/9products/1``,
+* Invalid type at ``#/3listings/9products/2``,
+* Unexpected property at ``#/3listings/9/attribution``,
+* Unexpected property at ``#/3listings/9/collabUserId``,
+* Unexpected property at ``#/3listings/9/hasCompanion``,
+* Unexpected property at ``#/3listings/9/hasInventory``,
+* Unexpected property at ``#/3listings/9/productTypes``,
+* Missing property at ``#/3listings/10/refundable``,
+* Missing property at ``#/3listings/10/storeIds``,
+* Invalid type at ``#/3listings/10products/0``,
+* Unexpected property at ``#/3listings/10/attribution``,
+* Unexpected property at ``#/3listings/10/collabUserId``,
+* Unexpected property at ``#/3listings/10/hasCompanion``,
+* Unexpected property at ``#/3listings/10/hasInventory``,
+* Unexpected property at ``#/3listings/10/productTypes``,
+* Missing property at ``#/3listings/11/refundable``,
+* Missing property at ``#/3listings/11/storeIds``,
+* Invalid type at ``#/3listings/11products/0``,
+* Unexpected property at ``#/3listings/11/attribution``,
+* Unexpected property at ``#/3listings/11/collabUserId``,
+* Unexpected property at ``#/3listings/11/hasCompanion``,
+* Unexpected property at ``#/3listings/11/hasInventory``,
+* Unexpected property at ``#/3listings/11/productTypes``,
+* Missing property at ``#/3listings/12/refundable``,
+* Missing property at ``#/3listings/12/storeIds``,
+* Invalid type at ``#/3listings/12products/0``,
+* Unexpected property at ``#/3listings/12/attribution``,
+* Unexpected property at ``#/3listings/12/collabUserDisplayName``,
+* Unexpected property at ``#/3listings/12/collabUserId``,
+* Unexpected property at ``#/3listings/12/hasCompanion``,
+* Unexpected property at ``#/3listings/12/hasInventory``,
+* Unexpected property at ``#/3listings/12/productTypes``,
+* Missing property at ``#/3listings/13/refundable``,
+* Missing property at ``#/3listings/13/storeIds``,
+* Invalid type at ``#/3listings/13products/0``,
+* Unexpected property at ``#/3listings/13/attribution``,
+* Unexpected property at ``#/3listings/13/collabUserId``,
+* Unexpected property at ``#/3listings/13/hasCompanion``,
+* Unexpected property at ``#/3listings/13/hasInventory``,
+* Unexpected property at ``#/3listings/13/productTypes``,
 * Unexpected property at ``#/3/shelfBackgroundImageId``,
 * Unexpected property at ``#/3/shelfClientBannerImageId``,
 * Unexpected property at ``#/3/shelfIconImageId``,
@@ -356,11 +420,6 @@ Response schema mismatch:
 * Invalid type at ``#/4highlightListing/products/3``,
 * Invalid type at ``#/4highlightListing/products/4``,
 * Invalid type at ``#/4highlightListing/products/5``,
-* Invalid type at ``#/4highlightListing/products/6``,
-* Invalid type at ``#/4highlightListing/products/7``,
-* Invalid type at ``#/4highlightListing/products/8``,
-* Invalid type at ``#/4highlightListing/products/9``,
-* Invalid type at ``#/4highlightListing/products/10``,
 * Unexpected property at ``#/4highlightListing/attribution``,
 * Unexpected property at ``#/4highlightListing/collabUserId``,
 * Unexpected property at ``#/4highlightListing/hasCompanion``,
@@ -401,52 +460,12 @@ Response schema mismatch:
 * Missing property at ``#/4listings/4/refundable``,
 * Missing property at ``#/4listings/4/storeIds``,
 * Invalid type at ``#/4listings/4products/0``,
+* Invalid type at ``#/4listings/4products/1``,
 * Unexpected property at ``#/4listings/4/attribution``,
 * Unexpected property at ``#/4listings/4/collabUserId``,
 * Unexpected property at ``#/4listings/4/hasCompanion``,
 * Unexpected property at ``#/4listings/4/hasInventory``,
 * Unexpected property at ``#/4listings/4/productTypes``,
-* Missing property at ``#/4listings/5/refundable``,
-* Missing property at ``#/4listings/5/storeIds``,
-* Invalid type at ``#/4listings/5products/0``,
-* Unexpected property at ``#/4listings/5/attribution``,
-* Unexpected property at ``#/4listings/5/collabUserId``,
-* Unexpected property at ``#/4listings/5/hasCompanion``,
-* Unexpected property at ``#/4listings/5/hasInventory``,
-* Unexpected property at ``#/4listings/5/productTypes``,
-* Missing property at ``#/4listings/6/refundable``,
-* Missing property at ``#/4listings/6/storeIds``,
-* Invalid type at ``#/4listings/6products/0``,
-* Unexpected property at ``#/4listings/6/attribution``,
-* Unexpected property at ``#/4listings/6/collabUserId``,
-* Unexpected property at ``#/4listings/6/hasCompanion``,
-* Unexpected property at ``#/4listings/6/hasInventory``,
-* Unexpected property at ``#/4listings/6/productTypes``,
-* Missing property at ``#/4listings/7/refundable``,
-* Missing property at ``#/4listings/7/storeIds``,
-* Invalid type at ``#/4listings/7products/0``,
-* Unexpected property at ``#/4listings/7/attribution``,
-* Unexpected property at ``#/4listings/7/collabUserId``,
-* Unexpected property at ``#/4listings/7/hasCompanion``,
-* Unexpected property at ``#/4listings/7/hasInventory``,
-* Unexpected property at ``#/4listings/7/productTypes``,
-* Missing property at ``#/4listings/8/refundable``,
-* Missing property at ``#/4listings/8/storeIds``,
-* Invalid type at ``#/4listings/8products/0``,
-* Invalid type at ``#/4listings/8products/1``,
-* Unexpected property at ``#/4listings/8/attribution``,
-* Unexpected property at ``#/4listings/8/collabUserId``,
-* Unexpected property at ``#/4listings/8/hasCompanion``,
-* Unexpected property at ``#/4listings/8/hasInventory``,
-* Unexpected property at ``#/4listings/8/productTypes``,
-* Missing property at ``#/4listings/9/refundable``,
-* Missing property at ``#/4listings/9/storeIds``,
-* Invalid type at ``#/4listings/9products/0``,
-* Unexpected property at ``#/4listings/9/attribution``,
-* Unexpected property at ``#/4listings/9/collabUserId``,
-* Unexpected property at ``#/4listings/9/hasCompanion``,
-* Unexpected property at ``#/4listings/9/hasInventory``,
-* Unexpected property at ``#/4listings/9/productTypes``,
 * Unexpected property at ``#/4/shelfBackgroundImageId``,
 * Unexpected property at ``#/4/shelfClientBannerImageId``,
 * Unexpected property at ``#/4/shelfIconImageId``,
@@ -454,6 +473,24 @@ Response schema mismatch:
 * Unexpected property at ``#/4/shelfMobileLogoImageId``,
 * Unexpected property at ``#/4/shelfMobileSecondaryBannerImageId``,
 * Unexpected property at ``#/4/shelfTabBackgroundImageId``,
+* Missing property at ``#/5/highlightListing/refundable``,
+* Missing property at ``#/5/highlightListing/storeIds``,
+* Invalid type at ``#/5highlightListing/products/0``,
+* Invalid type at ``#/5highlightListing/products/1``,
+* Invalid type at ``#/5highlightListing/products/2``,
+* Invalid type at ``#/5highlightListing/products/3``,
+* Invalid type at ``#/5highlightListing/products/4``,
+* Invalid type at ``#/5highlightListing/products/5``,
+* Invalid type at ``#/5highlightListing/products/6``,
+* Invalid type at ``#/5highlightListing/products/7``,
+* Invalid type at ``#/5highlightListing/products/8``,
+* Invalid type at ``#/5highlightListing/products/9``,
+* Invalid type at ``#/5highlightListing/products/10``,
+* Unexpected property at ``#/5highlightListing/attribution``,
+* Unexpected property at ``#/5highlightListing/collabUserId``,
+* Unexpected property at ``#/5highlightListing/hasCompanion``,
+* Unexpected property at ``#/5highlightListing/hasInventory``,
+* Unexpected property at ``#/5highlightListing/productTypes``,
 * Missing property at ``#/5listings/0/refundable``,
 * Missing property at ``#/5listings/0/storeIds``,
 * Invalid type at ``#/5listings/0products/0``,
@@ -489,9 +526,6 @@ Response schema mismatch:
 * Missing property at ``#/5listings/4/refundable``,
 * Missing property at ``#/5listings/4/storeIds``,
 * Invalid type at ``#/5listings/4products/0``,
-* Invalid type at ``#/5listings/4products/1``,
-* Invalid type at ``#/5listings/4products/2``,
-* Invalid type at ``#/5listings/4products/3``,
 * Unexpected property at ``#/5listings/4/attribution``,
 * Unexpected property at ``#/5listings/4/collabUserId``,
 * Unexpected property at ``#/5listings/4/hasCompanion``,
@@ -524,6 +558,7 @@ Response schema mismatch:
 * Missing property at ``#/5listings/8/refundable``,
 * Missing property at ``#/5listings/8/storeIds``,
 * Invalid type at ``#/5listings/8products/0``,
+* Invalid type at ``#/5listings/8products/1``,
 * Unexpected property at ``#/5listings/8/attribution``,
 * Unexpected property at ``#/5listings/8/collabUserId``,
 * Unexpected property at ``#/5listings/8/hasCompanion``,
@@ -532,46 +567,11 @@ Response schema mismatch:
 * Missing property at ``#/5listings/9/refundable``,
 * Missing property at ``#/5listings/9/storeIds``,
 * Invalid type at ``#/5listings/9products/0``,
-* Invalid type at ``#/5listings/9products/1``,
-* Invalid type at ``#/5listings/9products/2``,
 * Unexpected property at ``#/5listings/9/attribution``,
 * Unexpected property at ``#/5listings/9/collabUserId``,
 * Unexpected property at ``#/5listings/9/hasCompanion``,
 * Unexpected property at ``#/5listings/9/hasInventory``,
 * Unexpected property at ``#/5listings/9/productTypes``,
-* Missing property at ``#/5listings/10/refundable``,
-* Missing property at ``#/5listings/10/storeIds``,
-* Invalid type at ``#/5listings/10products/0``,
-* Unexpected property at ``#/5listings/10/attribution``,
-* Unexpected property at ``#/5listings/10/collabUserId``,
-* Unexpected property at ``#/5listings/10/hasCompanion``,
-* Unexpected property at ``#/5listings/10/hasInventory``,
-* Unexpected property at ``#/5listings/10/productTypes``,
-* Missing property at ``#/5listings/11/refundable``,
-* Missing property at ``#/5listings/11/storeIds``,
-* Invalid type at ``#/5listings/11products/0``,
-* Unexpected property at ``#/5listings/11/attribution``,
-* Unexpected property at ``#/5listings/11/collabUserId``,
-* Unexpected property at ``#/5listings/11/hasCompanion``,
-* Unexpected property at ``#/5listings/11/hasInventory``,
-* Unexpected property at ``#/5listings/11/productTypes``,
-* Missing property at ``#/5listings/12/refundable``,
-* Missing property at ``#/5listings/12/storeIds``,
-* Invalid type at ``#/5listings/12products/0``,
-* Unexpected property at ``#/5listings/12/attribution``,
-* Unexpected property at ``#/5listings/12/collabUserDisplayName``,
-* Unexpected property at ``#/5listings/12/collabUserId``,
-* Unexpected property at ``#/5listings/12/hasCompanion``,
-* Unexpected property at ``#/5listings/12/hasInventory``,
-* Unexpected property at ``#/5listings/12/productTypes``,
-* Missing property at ``#/5listings/13/refundable``,
-* Missing property at ``#/5listings/13/storeIds``,
-* Invalid type at ``#/5listings/13products/0``,
-* Unexpected property at ``#/5listings/13/attribution``,
-* Unexpected property at ``#/5listings/13/collabUserId``,
-* Unexpected property at ``#/5listings/13/hasCompanion``,
-* Unexpected property at ``#/5listings/13/hasInventory``,
-* Unexpected property at ``#/5listings/13/productTypes``,
 * Unexpected property at ``#/5/shelfBackgroundImageId``,
 * Unexpected property at ``#/5/shelfClientBannerImageId``,
 * Unexpected property at ``#/5/shelfIconImageId``,
@@ -606,1282 +606,6 @@ Response schema mismatch:
 
 ```jsonc
 [
-  {
-    "id": "ess_798cfeeb-7625-408e-9a82-bad1ace374c1",
-    "listingIds": [
-      "prod_c21d331c-1750-4774-aa5e-4672fc6d38d1",
-      "prod_5c374ccc-4990-4663-af2d-2bdd3e9b2958",
-      "prod_84d51b4c-4c11-4505-90f9-421988545a3a",
-      "prod_009e8b99-3d4c-444f-a1f2-a81b46557c65",
-      "prod_4cc30088-a3c5-4691-ac87-d58d1e1983b4",
-      "prod_a342c638-a6d7-4d8a-a3ca-8e5712a5cf79",
-      "prod_2330b213-fbc4-4cc9-8803-d4aba278ff13",
-      "prod_50560b2c-e6a8-4437-b498-5b53bdb2db52"
-    ],
-    "listings": [
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
-        "displayName": "G-SHOCK DW5600 Yellow",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_c21d331c-1750-4774-aa5e-4672fc6d38d1",
-        "imageId": "file_851f7758-1e48-43ff-bc20-b9eaf3e08103",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_c694226f-44c8-4980-b9f8-17ecd21a30b8"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_c694226f-44c8-4980-b9f8-17ecd21a30b8"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-21T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
-        "displayName": "G-SHOCK DW5600 Black",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_5c374ccc-4990-4663-af2d-2bdd3e9b2958",
-        "imageId": "file_9e23f7e0-cbc9-464c-9345-a8257c7e9f63",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_a50b5abe-ffb6-4312-9321-27a021fb1a64"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_a50b5abe-ffb6-4312-9321-27a021fb1a64"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-21T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
-        "displayName": "G-SHOCK DW5600 Red",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_84d51b4c-4c11-4505-90f9-421988545a3a",
-        "imageId": "file_1b77d438-5870-4c36-9bfb-c6506d386b54",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_2d2d930f-5e74-46c6-84e6-6c1026036e51"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_2d2d930f-5e74-46c6-84e6-6c1026036e51"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-21T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
-        "displayName": "G-SHOCK DW5600 Octarine",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_009e8b99-3d4c-444f-a1f2-a81b46557c65",
-        "imageId": "file_8a475d26-7166-409f-b8b2-ca920851c312",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_97c41c33-6eb1-4eda-8283-c9c2dc859a59"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_97c41c33-6eb1-4eda-8283-c9c2dc859a59"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-21T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
-        "displayName": "G-SHOCK DW5600 Aura",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_4cc30088-a3c5-4691-ac87-d58d1e1983b4",
-        "imageId": "file_a8526668-38f5-49c0-a531-553f5d3096bb",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_f70e5488-2355-48a9-a01c-2ed620302f95"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_f70e5488-2355-48a9-a01c-2ed620302f95"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-21T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
-        "displayName": "G-SHOCK DW5600 Iris",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_a342c638-a6d7-4d8a-a3ca-8e5712a5cf79",
-        "imageId": "file_68d05906-e4fc-43e8-ba24-9c9b17ab7cf0",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_25d9afd2-e582-4124-b349-144fd7761e35"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_25d9afd2-e582-4124-b349-144fd7761e35"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-21T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
-        "displayName": "G-SHOCK DW5600 Blue",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_2330b213-fbc4-4cc9-8803-d4aba278ff13",
-        "imageId": "file_60d19574-5812-4a35-8330-376b1bfa22d8",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_24f87775-180f-43a5-ab78-ca49478650f2"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_24f87775-180f-43a5-ab78-ca49478650f2"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-21T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
-        "displayName": "G-SHOCK DW5600 White",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_50560b2c-e6a8-4437-b498-5b53bdb2db52",
-        "imageId": "file_df636af3-dfc2-4fcf-80a3-d38079520e63",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_e3bccf86-05f2-48e4-930d-aed605f74372"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_e3bccf86-05f2-48e4-930d-aed605f74372"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-21T09:00:00.000Z"
-      }
-    ],
-    "shelfBackgroundImageId": "file_9e9016e4-6bf6-4dd3-861a-9890d535226f",
-    "shelfClientBannerImageId": "",
-    "shelfDescription": "",
-    "shelfIconImageId": "file_5b430e8c-489f-45e0-a58b-70c807694837",
-    "shelfLayout": "col4",
-    "shelfMobileHeroBannerImageId": "",
-    "shelfMobileLogoImageId": "",
-    "shelfMobileSecondaryBannerImageId": "",
-    "shelfTabBackgroundImageId": "file_c8883c24-9713-4a77-b268-e790fc381bf5",
-    "shelfTitle": "G-SHOCK x VRChat",
-    "updatedAt": "2026-08-21T01:40:00.896Z"
-  },
-  {
-    "highlightListing": {
-      "active": true,
-      "attribution": {
-        "creator": {
-          "customName": "Gugenka",
-          "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-        },
-        "publisher": {
-          "customName": "VRChat",
-          "userId": "8JoV9XEdpo"
-        }
-      },
-      "buyerRefundable": false,
-      "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
-      "description": "The Virtual HIROSHIMA Station 2.u × Mamehinata Bundle unites JR-WEST railways with the beloved avatar Mamehinata. \n\nIt includes the JR-WEST Ticket Gate Portal, the 227 Series Train Plushie with glowing headlights, the Mamehinata x Kipfel Warp Effect, the 227 Series Train x Mamehinata Sticker Pack, and the JR-WEST Cap with Mamehinata Ears with swaying ears. \n\nBring JR-WEST style and Mamehinata charm to your avatars and worlds.",
-      "displayName": "Virtual HIROSHIMA Station 2.u × Mamehinata Bundle",
-      "duration": null,
-      "durationType": null,
-      "hasAvatar": false,
-      "hasCompanion": false,
-      "hasInventory": true,
-      "hasUdon": false,
-      "id": "prod_0641bb46-be2b-41a4-9f54-8b3e1e5415b1",
-      "imageId": "file_b02914c1-625e-4a8c-9229-3e492eb96c2c",
-      "imageUrl": null,
-      "listingType": "permanent",
-      "priceTokens": 3000,
-      "productIds": [
-        "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb",
-        "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70",
-        "prod_497f89ec-7334-4799-bc02-03256a34270c",
-        "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2",
-        "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0",
-        "prod_20ac6349-2944-43a5-a70e-92db1a448685"
-      ],
-      "productType": "listing",
-      "productTypes": [
-        "inventory",
-        "portalskin",
-        "accessory",
-        "sticker",
-        "warpeffect",
-        "prop"
-      ],
-      "products": [
-        "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb",
-        "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70",
-        "prod_497f89ec-7334-4799-bc02-03256a34270c",
-        "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2",
-        "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0",
-        "prod_20ac6349-2944-43a5-a70e-92db1a448685"
-      ],
-      "quantifiable": false,
-      "recurrable": false,
-      "sellerDisplayName": "VRChat Store",
-      "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-      "soldByVrc": true,
-      "stackable": false,
-      "subtitle": "Bundle",
-      "vrcPlusDiscountPrice": 2700,
-      "whenToExpire": "2026-09-14T09:00:00.000Z"
-    },
-    "highlightListingId": "prod_0641bb46-be2b-41a4-9f54-8b3e1e5415b1",
-    "id": "ess_6c855b33-8269-4937-99b8-f51f493fd326",
-    "listingIds": [
-      "prod_723d9b76-f341-4521-8746-33f0e66236ef",
-      "prod_92f63f9c-d7df-4d76-9356-cbd43d10400f",
-      "prod_0077bc23-f880-4cb7-9e5f-88f99dbbfd2f",
-      "prod_50c37a52-3d4d-4e2d-a390-b33afe6392dc",
-      "prod_bcf5a73e-0fdb-47a1-a0bf-188765c719ab"
-    ],
-    "listings": [
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Gugenka",
-            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
-        "description": "A recreation of a JR-WEST Shinkansen ticket gate! Make traveling between worlds feel like a real journey.",
-        "displayName": "JR-WEST Ticket Gate",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_723d9b76-f341-4521-8746-33f0e66236ef",
-        "imageId": "file_1f43ac71-9aa7-4c55-b8fb-c43785ae6e53",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "portalskin"
-        ],
-        "products": [
-          "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Portal",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-14T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Gugenka",
-            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
-        "description": "Mamehinata’s ears sway as you move! A JR-WEST uniform cap is now available as an avatar accessory.",
-        "displayName": "JR-WEST Cap with Mamehinata Ears",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_92f63f9c-d7df-4d76-9356-cbd43d10400f",
-        "imageId": "file_090a035a-1978-4577-8f76-5c232099ab68",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 900,
-        "productIds": [
-          "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 810,
-        "whenToExpire": "2026-09-14T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "collaborationId": "GugenkaVH",
-          "creator": {
-            "customName": "Gugenka",
-            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "GugenkaVH",
-        "description": "Mamehinata and Kipfel, dressed in JR-WEST uniforms, circle around you. Experience an adorable warp effect!",
-        "displayName": "Mamehinata x Kipfel",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_0077bc23-f880-4cb7-9e5f-88f99dbbfd2f",
-        "imageId": "file_eefac456-8bea-4657-a953-e3871a722448",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 900,
-        "productIds": [
-          "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "warpeffect"
-        ],
-        "products": [
-          "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Warp Effect",
-        "vrcPlusDiscountPrice": 810,
-        "whenToExpire": "2026-09-14T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "collaborationId": "GugenkaVH",
-          "creator": {
-            "customName": "Gugenka",
-            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "GugenkaVH",
-        "description": "A plushie of the 227 Series train whose headlights light up adorably when you grab it.",
-        "displayName": "227 Series Train Plushie",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_50c37a52-3d4d-4e2d-a390-b33afe6392dc",
-        "imageId": "file_3736c7a3-9b3c-4bd5-a881-db566017ceee",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 800,
-        "productIds": [
-          "prod_20ac6349-2944-43a5-a70e-92db1a448685"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "prop"
-        ],
-        "products": [
-          "prod_20ac6349-2944-43a5-a70e-92db1a448685"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Prop",
-        "vrcPlusDiscountPrice": 720,
-        "whenToExpire": "2026-09-14T09:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Gugenka",
-            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
-        "description": "An adorable sticker pack featuring the 227 Series train and Mamehinata!",
-        "displayName": "227 Series Train x Mamehinata Sticker Pack",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_bcf5a73e-0fdb-47a1-a0bf-188765c719ab",
-        "imageId": "file_2177586e-5516-4355-a933-c751c04ca42f",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 300,
-        "productIds": [
-          "prod_497f89ec-7334-4799-bc02-03256a34270c",
-          "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "sticker"
-        ],
-        "products": [
-          "prod_497f89ec-7334-4799-bc02-03256a34270c",
-          "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 270,
-        "whenToExpire": "2026-09-14T09:00:00.000Z"
-      }
-    ],
-    "shelfBackgroundImageId": "file_a6793b16-8060-4c65-8ec7-6cd3cb5b64e9",
-    "shelfClientBannerImageId": "",
-    "shelfDescription": "",
-    "shelfIconImageId": "file_39927e95-eb5f-4e98-8caa-dddfa33f25b5",
-    "shelfLayout": "highlightLeft",
-    "shelfMobileHeroBannerImageId": "",
-    "shelfMobileLogoImageId": "",
-    "shelfMobileSecondaryBannerImageId": "",
-    "shelfTabBackgroundImageId": "file_62e931d6-1e51-4763-9b00-7d48084ce1c3",
-    "shelfTitle": "Virtual Hiroshima Station 2.u",
-    "updatedAt": "2026-08-25T00:18:40.832Z"
-  },
-  {
-    "id": "ess_66c639e6-88da-4d5a-a4dd-95a1e2e947e6",
-    "listingIds": [
-      "prod_9102db82-07a4-4418-b668-2f08e118e6ea",
-      "prod_65328312-12cd-488b-8103-84ad5faf8fc1",
-      "prod_d182fe0a-c125-424c-b923-31f9cfc3fb15",
-      "prod_fc535393-8774-454e-b2af-e9024e7cec94",
-      "prod_6954ffe7-6470-4737-993d-ca359a977ceb",
-      "prod_8e4524fb-5a21-4ac5-b34a-7ab61b0490ef",
-      "prod_2cdd265e-cd4f-420b-ad5f-081b2d71e473",
-      "prod_f86a5c5e-7b49-47ab-ab3f-f5c8b35d0e5e",
-      "prod_fef547e7-b86c-4254-88fc-20e7224f0831",
-      "prod_b18f68fa-666e-4e8b-a64b-c66ec6fcdf99",
-      "prod_aff1efad-0e67-4d88-99ab-29395f621327"
-    ],
-    "listings": [
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A storm of bright meteors streaks across the sky… and your profile, apparently. Modifies your Nameplate, Icon, and Profile.\n\nMake a wish.\n",
-        "displayName": "Meteor Shower",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_9102db82-07a4-4418-b668-2f08e118e6ea",
-        "imageId": "file_4cedcd2c-f4ae-4cf1-920c-72eb999d132a",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_b2f559a4-9551-4584-bb7f-df06aaf0b727",
-          "prod_0444ce2b-a416-469f-a134-85349682f7ba",
-          "prod_3f086e64-b471-4ece-b93c-3f93dab12abb"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_b2f559a4-9551-4584-bb7f-df06aaf0b727",
-          "prod_0444ce2b-a416-469f-a134-85349682f7ba",
-          "prod_3f086e64-b471-4ece-b93c-3f93dab12abb"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 1080
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "The shadow of a giant cosmic body tracks across your profile, shading what lies below. Modifies your Nameplate, Icon, and Profile.\n\nAs it passes over, you can swear it got a lot cooler…\n",
-        "displayName": "Eclipse",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_65328312-12cd-488b-8103-84ad5faf8fc1",
-        "imageId": "file_adf03827-acc5-4569-8d9b-8ee53ef76b6b",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_a9b1d4cc-699d-4e18-8456-60206443ee8a",
-          "prod_16fc320c-0509-4b16-a627-873d69071663",
-          "prod_ba9ad215-276b-421a-99b6-260400c599ae"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_a9b1d4cc-699d-4e18-8456-60206443ee8a",
-          "prod_16fc320c-0509-4b16-a627-873d69071663",
-          "prod_ba9ad215-276b-421a-99b6-260400c599ae"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 1080
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A supermassive black hole sits within the confines of your profile‚ absorbing everything in its path․ Well‚ except anyone who might be reading through it․ Or seeing your nameplate․ Its probably safe․ Modifies your Nameplate‚ Icon‚ and Profile․\n\nDont get near the event horizon",
-        "displayName": "Singularity",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_d182fe0a-c125-424c-b923-31f9cfc3fb15",
-        "imageId": "file_f38bfd44-ff0a-4fe2-bc6d-b582bd9c125f",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_0e00819e-be77-40af-85fb-580cfa5f6d91",
-          "prod_db98bc8a-f6ef-4e59-9c1c-ba2898614166",
-          "prod_be158c16-9dc2-4b19-9401-b9ef5663ecf2"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_0e00819e-be77-40af-85fb-580cfa5f6d91",
-          "prod_db98bc8a-f6ef-4e59-9c1c-ba2898614166",
-          "prod_be158c16-9dc2-4b19-9401-b9ef5663ecf2"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 1080
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Glowing, multi-colored streaks fall over your Nameplate, Icon, and Profile, illuminating it. \n\nI don’t think Noble Gases are supposed to work like that.\n",
-        "displayName": "Neon Rain",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_fc535393-8774-454e-b2af-e9024e7cec94",
-        "imageId": "file_cccaca98-37f0-41f8-9469-651f74aaf26c",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_4cd3f694-8905-4dfb-8464-f9b72f69d75b",
-          "prod_22081fe3-f75a-4ff5-8de2-c4a2f2bfaaf8",
-          "prod_e427db4a-9f2d-47ea-9a4b-3d1465c8671e"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_4cd3f694-8905-4dfb-8464-f9b72f69d75b",
-          "prod_22081fe3-f75a-4ff5-8de2-c4a2f2bfaaf8",
-          "prod_e427db4a-9f2d-47ea-9a4b-3d1465c8671e"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 1080
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Covers your Nameplate, Icon, and Profile with a pixel splattering of a retro shade of cyan and purple. \n\nI’ve seen that lighting somewhere…\n",
-        "displayName": "Afterglow",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_6954ffe7-6470-4737-993d-ca359a977ceb",
-        "imageId": "file_b573c05a-925e-459f-b561-4b925d42aa68",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_14f9bff0-f699-4d28-8a68-838888c8f12b",
-          "prod_f022f908-e098-4052-85db-0155dfb89758",
-          "prod_93a1167f-0cef-4cbd-84bb-4c736c4e11d4"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_14f9bff0-f699-4d28-8a68-838888c8f12b",
-          "prod_f022f908-e098-4052-85db-0155dfb89758",
-          "prod_93a1167f-0cef-4cbd-84bb-4c736c4e11d4"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 1080
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A soft‚ pinkish electric neon glow envelops your Nameplate‚ Icon‚ and Profile․\n\nYou can feel the pulse of the nightlife",
-        "displayName": "Electric Pulse",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_8e4524fb-5a21-4ac5-b34a-7ab61b0490ef",
-        "imageId": "file_9ba0fd13-0af6-4340-87ff-6ee39bbece44",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1200,
-        "productIds": [
-          "prod_81d45ef1-cf03-4883-ad79-fe8d9418a634",
-          "prod_6dbc6db1-7a90-47d6-a0c9-b0ecc5e0ea29",
-          "prod_6edb88df-b8b3-46b3-802f-8ba457f2a414"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_81d45ef1-cf03-4883-ad79-fe8d9418a634",
-          "prod_6dbc6db1-7a90-47d6-a0c9-b0ecc5e0ea29",
-          "prod_6edb88df-b8b3-46b3-802f-8ba457f2a414"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 1080
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "The essence of air․ Represented by a swirling‚ white twirling fog around your Nameplate‚ Icon‚ and Profile․\n\nTake a breath․",
-        "displayName": "Constant Gale",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_2cdd265e-cd4f-420b-ad5f-081b2d71e473",
-        "imageId": "file_0261d95a-7047-44bb-a094-63febba504a3",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_cd88ef07-d306-4aa7-b689-84912b163cdd",
-          "prod_2f2efddb-9668-4969-93cf-0f65fb5fae5d",
-          "prod_681b61d6-c2e2-494b-8d83-452f326c4fe8"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_cd88ef07-d306-4aa7-b689-84912b163cdd",
-          "prod_2f2efddb-9668-4969-93cf-0f65fb5fae5d",
-          "prod_681b61d6-c2e2-494b-8d83-452f326c4fe8"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 0
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "The essence of water. Represented by the blueish reflection of light upon the sea around your Nameplate, Icon, and Profile.\n\nFlow, like the sea.\n",
-        "displayName": "Oceans Blessing",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_f86a5c5e-7b49-47ab-ab3f-f5c8b35d0e5e",
-        "imageId": "file_8743d8c0-af84-4311-9613-bcf2cdce2f5e",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_d9062d58-3fca-4aaf-aef7-6cfd8d490cea",
-          "prod_d1640b55-cf85-4564-afae-29f639d08b3e",
-          "prod_935aea5f-ffe4-4a8e-b093-8555ed93b1d0"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_d9062d58-3fca-4aaf-aef7-6cfd8d490cea",
-          "prod_d1640b55-cf85-4564-afae-29f639d08b3e",
-          "prod_935aea5f-ffe4-4a8e-b093-8555ed93b1d0"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 0
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "The essence of earth. Represented by lush, green grass and blooming flowers around your Nameplate, Icon, and Profile.\n\nGrounded and steady.\n",
-        "displayName": "Earth’s Embrace",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_fef547e7-b86c-4254-88fc-20e7224f0831",
-        "imageId": "file_9d16c2af-714b-4fad-8661-2f08a62d14dc",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_466e40fb-01b4-487f-af13-a68f03311995",
-          "prod_8688c903-c024-4bd7-bc6a-280d5bf0b150",
-          "prod_72d86d8d-4ed7-49ac-a160-1439abe4d8d1"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_466e40fb-01b4-487f-af13-a68f03311995",
-          "prod_8688c903-c024-4bd7-bc6a-280d5bf0b150",
-          "prod_72d86d8d-4ed7-49ac-a160-1439abe4d8d1"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 0
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "The essence of electricity․ Represented by arcing‚ purple lightning‚ snapping and twisting around your Nameplate‚ Icon‚ and Profile․\n\nChaotic․ Energetic․ Always moving․",
-        "displayName": "Storm's Embrace",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_b18f68fa-666e-4e8b-a64b-c66ec6fcdf99",
-        "imageId": "file_ef8fdd87-1641-4329-b152-9600796b2e1b",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_6ec8f69b-4d27-4860-9ab2-a2c370e5df81",
-          "prod_6ef6b583-5ab9-45d0-ba95-ebc92bfc4987",
-          "prod_75acd400-7aa4-4638-bbba-b90fdf4f0964"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_6ec8f69b-4d27-4860-9ab2-a2c370e5df81",
-          "prod_6ef6b583-5ab9-45d0-ba95-ebc92bfc4987",
-          "prod_75acd400-7aa4-4638-bbba-b90fdf4f0964"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 0
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "The essence of fire. Represented by molten lava and charred embers singing the edges of your Nameplate, Icon, and Profile. \n\nPassionate. Fiery. Dangerous.\n",
-        "displayName": "Fire’s Touch",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_aff1efad-0e67-4d88-99ab-29395f621327",
-        "imageId": "file_aa72531d-2811-40be-a221-485d63df68c2",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_3f347773-bad9-44dd-8a22-57c25952b01c",
-          "prod_189d0bc0-936c-4867-abc0-0775bb6883b8",
-          "prod_f44fdc07-4198-4940-bb58-91ca5c4ada21"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "iconFrame",
-          "profileEffect",
-          "nameplateEffect"
-        ],
-        "products": [
-          "prod_3f347773-bad9-44dd-8a22-57c25952b01c",
-          "prod_189d0bc0-936c-4867-abc0-0775bb6883b8",
-          "prod_f44fdc07-4198-4940-bb58-91ca5c4ada21"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 0
-      }
-    ],
-    "shelfBackgroundImageId": "file_3b3a8a91-46de-4252-8b0e-d68a20337f44",
-    "shelfClientBannerImageId": "",
-    "shelfDescription": "",
-    "shelfIconImageId": "file_6a5b49cd-3caa-4f1a-8712-3526df6f4b89",
-    "shelfLayout": "col4",
-    "shelfMobileHeroBannerImageId": "",
-    "shelfMobileLogoImageId": "",
-    "shelfMobileSecondaryBannerImageId": "",
-    "shelfTabBackgroundImageId": "file_b4e0161b-1087-41fd-adc5-2aeeecbe69d8",
-    "shelfTitle": "Profile Decorations",
-    "updatedAt": "2026-08-12T22:45:45.352Z"
-  },
   {
     "highlightListing": {
       "active": true,
@@ -2377,89 +1101,19 @@ Response schema mismatch:
     "updatedAt": "2026-08-07T21:01:44.401Z"
   },
   {
-    "highlightListing": {
-      "active": true,
-      "attribution": {
-        "creator": {
-          "customName": "VRChat",
-          "userId": "8JoV9XEdpo"
-        }
-      },
-      "buyerRefundable": false,
-      "collabUserId": "8JoV9XEdpo",
-      "description": "Its Tanabataǃ Celebrate with the Hoshimatsuri Bundle‚ which includes Across The Milkyway Loading Screen‚ Fluttering Tanzaku Animated Sticker‚ Hikoboshis Gate‚ Portal‚ Taiyaki Ice Cream‚ Wish-strung Bamboo‚ Altairs Horns‚ Vegas Tiara‚ A Magpies Gift Warp Effect‚ Tanabata Fukanagashi and Tanabata Emoji Pack․ Dont forget to make a wish before its overǃ\n\nDont forget to visit the Tanabata worldǃ",
-      "displayName": "Hoshimatsuri Bundle",
-      "duration": null,
-      "durationType": null,
-      "hasAvatar": false,
-      "hasCompanion": false,
-      "hasInventory": true,
-      "hasUdon": false,
-      "id": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
-      "imageId": "file_6ed759bb-789f-4a33-9275-991b709f07fe",
-      "imageUrl": null,
-      "listingType": "permanent",
-      "priceTokens": 4800,
-      "productIds": [
-        "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
-        "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-        "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
-        "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
-        "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
-        "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
-        "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
-        "prod_a96a2252-8486-416e-8207-92e74f096aa9",
-        "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
-        "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
-        "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-      ],
-      "productType": "listing",
-      "productTypes": [
-        "inventory",
-        "prop",
-        "emoji",
-        "warpeffect",
-        "accessory",
-        "portalskin",
-        "sticker",
-        "loadingscreen"
-      ],
-      "products": [
-        "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
-        "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-        "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
-        "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
-        "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
-        "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
-        "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
-        "prod_a96a2252-8486-416e-8207-92e74f096aa9",
-        "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
-        "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
-        "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-      ],
-      "quantifiable": false,
-      "recurrable": false,
-      "sellerDisplayName": "VRChat Store",
-      "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-      "soldByVrc": true,
-      "stackable": false,
-      "subtitle": "Bundle",
-      "vrcPlusDiscountPrice": 4320,
-      "whenToExpire": "2026-09-04T21:00:00.000Z"
-    },
-    "highlightListingId": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
-    "id": "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
+    "id": "ess_66c639e6-88da-4d5a-a4dd-95a1e2e947e6",
     "listingIds": [
-      "prod_0d58046b-de95-4309-89f9-044a32df72d5",
-      "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
-      "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
-      "prod_1fd57fd1-a36d-4aba-8a03-f922a09d7200",
-      "prod_5c4df980-38e6-48b3-b4fc-d89bd25870a0",
-      "prod_038701e9-322f-4623-ba9f-bfd3774ee6b9",
-      "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
-      "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
-      "prod_fedc3478-c600-4340-a0cd-89377fed4573",
-      "prod_429eaa74-962a-4001-ba3d-020623c5fb51"
+      "prod_9102db82-07a4-4418-b668-2f08e118e6ea",
+      "prod_65328312-12cd-488b-8103-84ad5faf8fc1",
+      "prod_d182fe0a-c125-424c-b923-31f9cfc3fb15",
+      "prod_fc535393-8774-454e-b2af-e9024e7cec94",
+      "prod_6954ffe7-6470-4737-993d-ca359a977ceb",
+      "prod_8e4524fb-5a21-4ac5-b34a-7ab61b0490ef",
+      "prod_2cdd265e-cd4f-420b-ad5f-081b2d71e473",
+      "prod_f86a5c5e-7b49-47ab-ab3f-f5c8b35d0e5e",
+      "prod_fef547e7-b86c-4254-88fc-20e7224f0831",
+      "prod_b18f68fa-666e-4e8b-a64b-c66ec6fcdf99",
+      "prod_aff1efad-0e67-4d88-99ab-29395f621327"
     ],
     "listings": [
       {
@@ -2472,383 +1126,35 @@ Response schema mismatch:
         },
         "buyerRefundable": false,
         "collabUserId": "8JoV9XEdpo",
-        "description": "On the seventh day of the seventh month of the Japanese lunisolar calendar, Orihime and Hikoboshi are allowed to meet – crossing the Milky Way to do so. Luckily, in VRChat, we don’t need a special bridge to cross immense distances… just a Portal.\n\nMaybe your Orihime is behind the next Portal?\n",
-        "displayName": "Hikoboshi’s Gate",
+        "description": "A storm of bright meteors streaks across the sky… and your profile, apparently. Modifies your Nameplate, Icon, and Profile.\n\nMake a wish.\n",
+        "displayName": "Meteor Shower",
         "duration": null,
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
         "hasInventory": true,
         "hasUdon": false,
-        "id": "prod_0d58046b-de95-4309-89f9-044a32df72d5",
-        "imageId": "file_7f43969d-157d-470a-8582-119e67befdf7",
+        "id": "prod_9102db82-07a4-4418-b668-2f08e118e6ea",
+        "imageId": "file_4cedcd2c-f4ae-4cf1-920c-72eb999d132a",
         "imageUrl": null,
         "listingType": "permanent",
-        "priceTokens": 1000,
+        "priceTokens": 1200,
         "productIds": [
-          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7"
+          "prod_b2f559a4-9551-4584-bb7f-df06aaf0b727",
+          "prod_0444ce2b-a416-469f-a134-85349682f7ba",
+          "prod_3f086e64-b471-4ece-b93c-3f93dab12abb"
         ],
         "productType": "listing",
         "productTypes": [
           "inventory",
-          "portalskin"
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
         ],
         "products": [
-          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Portal",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Cross the Milky Way, with the help of a few magpies. As they guide you to your next instance, the constellations of Lyra, Cygnus, and Aquila appear around you. You must be going quite far…\n\nYou don’t even have to cry to get them to help you.\n",
-        "displayName": "A Magpie’s Gift",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
-        "imageId": "file_f6ab2276-4c2e-4a4d-b947-9509d15e35f7",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_40803185-ac3a-424f-a579-aa3dc37fa432"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "warpeffect"
-        ],
-        "products": [
-          "prod_40803185-ac3a-424f-a579-aa3dc37fa432"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Warp Effect",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A celestial scene celebrating Tanabata, all on your Loading Screen, featuring a few very specific constellations separated by the Milky Way. Will they be able to cross it this year?\n\nWe hope it doesn’t rain…\n",
-        "displayName": "Across the Milky Way",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
-        "imageId": "file_12471895-4734-48e9-9d24-d95c2f3171de",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 600,
-        "productIds": [
-          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "loadingscreen"
-        ],
-        "products": [
-          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Loading Screen",
-        "vrcPlusDiscountPrice": 540,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "It’s a fish-shaped cake, filled with ice cream! You can eat it. What flavor is the ice cream? It’s whatever you want it to be! By that, I mean you can change its color. Mmm, purple flavor. \n\nJust remember: if your ice cream is vanilla, you need to try harder.\n",
-        "displayName": "Taiyaki Ice Cream",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_1fd57fd1-a36d-4aba-8a03-f922a09d7200",
-        "imageId": "file_5b40e391-6758-4708-8bfa-4afb32bb4b83",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "prop"
-        ],
-        "products": [
-          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Prop",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Fukinagashi are colorful windsocks that are crafted to represent the threads of yarn Orihime used in weaving her tapestries. Rumor has it that this one might’ve been crafted by someone special…\n\nIntricately constructed, flowing with the wind.\n",
-        "displayName": "Tanabata Fukinagashi",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_5c4df980-38e6-48b3-b4fc-d89bd25870a0",
-        "imageId": "file_48177c96-d1c7-45bd-a866-ae763db6ff02",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 700,
-        "productIds": [
-          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "prop"
-        ],
-        "products": [
-          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Prop",
-        "vrcPlusDiscountPrice": 630,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A tall bunch of bamboo‚ strung up with tanzaku alongside a few other origami decorations․ Its bending from the weight of the wishesǃ \n\nHang your wish high the closer to the stars‚ the better․",
-        "displayName": "Wish-strung Bamboo",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_038701e9-322f-4623-ba9f-bfd3774ee6b9",
-        "imageId": "file_ed60b43b-631d-477c-883c-39fe8b590e72",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 800,
-        "productIds": [
-          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "prop"
-        ],
-        "products": [
-          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Prop",
-        "vrcPlusDiscountPrice": 720,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A tiara made of stars – with Vega at the center. Throughout history, Vega has been one of the most cherished stars. I’m sure Hikoboshi feels the same way.\n\nSurely, you are someone’s Orihime.\n",
-        "displayName": "Vega’s Tiara",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
-        "imageId": "file_4c3e4bce-b62b-4cf2-8517-a92b49918058",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Celestial horns, in the shape of a steer. Celebrate Tanabata by making your avatar have a small homage to Hikoboshi.\n\nSurely, you are someone’s Hikoboshi.\n",
-        "displayName": "Altair’s Horns",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
-        "imageId": "file_5863e2ff-07b3-4fda-86e3-e8a1d46df15f",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 850,
-        "productIds": [
-          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 765,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Contains two Premium Emoji: Magpie Bridge plus Vega and Altair. Maybe you can help them meet this year?\n\nYou can always try again next year…\n",
-        "displayName": "Tanabata Emoji Pack ",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_fedc3478-c600-4340-a0cd-89377fed4573",
-        "imageId": "file_29a3d0eb-5565-42bc-9119-c6dc19b52ad1",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 500,
-        "productIds": [
-          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "emoji"
-        ],
-        "products": [
-          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d"
+          "prod_b2f559a4-9551-4584-bb7f-df06aaf0b727",
+          "prod_0444ce2b-a416-469f-a134-85349682f7ba",
+          "prod_3f086e64-b471-4ece-b93c-3f93dab12abb"
         ],
         "quantifiable": false,
         "recurrable": false,
@@ -2857,8 +1163,7 @@ Response schema mismatch:
         "soldByVrc": true,
         "stackable": false,
         "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 450,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
+        "vrcPlusDiscountPrice": 1080
       },
       {
         "active": true,
@@ -2870,29 +1175,35 @@ Response schema mismatch:
         },
         "buyerRefundable": false,
         "collabUserId": "8JoV9XEdpo",
-        "description": "Tanzaku flutter on strands of bamboo what wishes do you think they hold?\n\nYou didnt forget to write yours down‚ did you?",
-        "displayName": "Fluttering Tanzaku",
+        "description": "The shadow of a giant cosmic body tracks across your profile, shading what lies below. Modifies your Nameplate, Icon, and Profile.\n\nAs it passes over, you can swear it got a lot cooler…\n",
+        "displayName": "Eclipse",
         "duration": null,
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
         "hasInventory": true,
         "hasUdon": false,
-        "id": "prod_429eaa74-962a-4001-ba3d-020623c5fb51",
-        "imageId": "file_afa8c7ab-db8c-44ad-ba99-250516633a84",
+        "id": "prod_65328312-12cd-488b-8103-84ad5faf8fc1",
+        "imageId": "file_adf03827-acc5-4569-8d9b-8ee53ef76b6b",
         "imageUrl": null,
         "listingType": "permanent",
-        "priceTokens": 200,
+        "priceTokens": 1200,
         "productIds": [
-          "prod_a96a2252-8486-416e-8207-92e74f096aa9"
+          "prod_a9b1d4cc-699d-4e18-8456-60206443ee8a",
+          "prod_16fc320c-0509-4b16-a627-873d69071663",
+          "prod_ba9ad215-276b-421a-99b6-260400c599ae"
         ],
         "productType": "listing",
         "productTypes": [
           "inventory",
-          "sticker"
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
         ],
         "products": [
-          "prod_a96a2252-8486-416e-8207-92e74f096aa9"
+          "prod_a9b1d4cc-699d-4e18-8456-60206443ee8a",
+          "prod_16fc320c-0509-4b16-a627-873d69071663",
+          "prod_ba9ad215-276b-421a-99b6-260400c599ae"
         ],
         "quantifiable": false,
         "recurrable": false,
@@ -2900,22 +1211,840 @@ Response schema mismatch:
         "sellerId": "usr_00000000-0000-0000-0000-000000000011",
         "soldByVrc": true,
         "stackable": false,
-        "subtitle": "Sticker",
-        "vrcPlusDiscountPrice": 180,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 1080
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "A supermassive black hole sits within the confines of your profile‚ absorbing everything in its path․ Well‚ except anyone who might be reading through it․ Or seeing your nameplate․ Its probably safe․ Modifies your Nameplate‚ Icon‚ and Profile․\n\nDont get near the event horizon",
+        "displayName": "Singularity",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_d182fe0a-c125-424c-b923-31f9cfc3fb15",
+        "imageId": "file_f38bfd44-ff0a-4fe2-bc6d-b582bd9c125f",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1200,
+        "productIds": [
+          "prod_0e00819e-be77-40af-85fb-580cfa5f6d91",
+          "prod_db98bc8a-f6ef-4e59-9c1c-ba2898614166",
+          "prod_be158c16-9dc2-4b19-9401-b9ef5663ecf2"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_0e00819e-be77-40af-85fb-580cfa5f6d91",
+          "prod_db98bc8a-f6ef-4e59-9c1c-ba2898614166",
+          "prod_be158c16-9dc2-4b19-9401-b9ef5663ecf2"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 1080
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Glowing, multi-colored streaks fall over your Nameplate, Icon, and Profile, illuminating it. \n\nI don’t think Noble Gases are supposed to work like that.\n",
+        "displayName": "Neon Rain",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_fc535393-8774-454e-b2af-e9024e7cec94",
+        "imageId": "file_cccaca98-37f0-41f8-9469-651f74aaf26c",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1200,
+        "productIds": [
+          "prod_4cd3f694-8905-4dfb-8464-f9b72f69d75b",
+          "prod_22081fe3-f75a-4ff5-8de2-c4a2f2bfaaf8",
+          "prod_e427db4a-9f2d-47ea-9a4b-3d1465c8671e"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_4cd3f694-8905-4dfb-8464-f9b72f69d75b",
+          "prod_22081fe3-f75a-4ff5-8de2-c4a2f2bfaaf8",
+          "prod_e427db4a-9f2d-47ea-9a4b-3d1465c8671e"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 1080
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Covers your Nameplate, Icon, and Profile with a pixel splattering of a retro shade of cyan and purple. \n\nI’ve seen that lighting somewhere…\n",
+        "displayName": "Afterglow",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_6954ffe7-6470-4737-993d-ca359a977ceb",
+        "imageId": "file_b573c05a-925e-459f-b561-4b925d42aa68",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1200,
+        "productIds": [
+          "prod_14f9bff0-f699-4d28-8a68-838888c8f12b",
+          "prod_f022f908-e098-4052-85db-0155dfb89758",
+          "prod_93a1167f-0cef-4cbd-84bb-4c736c4e11d4"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_14f9bff0-f699-4d28-8a68-838888c8f12b",
+          "prod_f022f908-e098-4052-85db-0155dfb89758",
+          "prod_93a1167f-0cef-4cbd-84bb-4c736c4e11d4"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 1080
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "A soft‚ pinkish electric neon glow envelops your Nameplate‚ Icon‚ and Profile․\n\nYou can feel the pulse of the nightlife",
+        "displayName": "Electric Pulse",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_8e4524fb-5a21-4ac5-b34a-7ab61b0490ef",
+        "imageId": "file_9ba0fd13-0af6-4340-87ff-6ee39bbece44",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1200,
+        "productIds": [
+          "prod_81d45ef1-cf03-4883-ad79-fe8d9418a634",
+          "prod_6dbc6db1-7a90-47d6-a0c9-b0ecc5e0ea29",
+          "prod_6edb88df-b8b3-46b3-802f-8ba457f2a414"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_81d45ef1-cf03-4883-ad79-fe8d9418a634",
+          "prod_6dbc6db1-7a90-47d6-a0c9-b0ecc5e0ea29",
+          "prod_6edb88df-b8b3-46b3-802f-8ba457f2a414"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 1080
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "The essence of air․ Represented by a swirling‚ white twirling fog around your Nameplate‚ Icon‚ and Profile․\n\nTake a breath․",
+        "displayName": "Constant Gale",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_2cdd265e-cd4f-420b-ad5f-081b2d71e473",
+        "imageId": "file_0261d95a-7047-44bb-a094-63febba504a3",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 0,
+        "productIds": [
+          "prod_cd88ef07-d306-4aa7-b689-84912b163cdd",
+          "prod_2f2efddb-9668-4969-93cf-0f65fb5fae5d",
+          "prod_681b61d6-c2e2-494b-8d83-452f326c4fe8"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_cd88ef07-d306-4aa7-b689-84912b163cdd",
+          "prod_2f2efddb-9668-4969-93cf-0f65fb5fae5d",
+          "prod_681b61d6-c2e2-494b-8d83-452f326c4fe8"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 0
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "The essence of water. Represented by the blueish reflection of light upon the sea around your Nameplate, Icon, and Profile.\n\nFlow, like the sea.\n",
+        "displayName": "Ocean's Blessing",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_f86a5c5e-7b49-47ab-ab3f-f5c8b35d0e5e",
+        "imageId": "file_8743d8c0-af84-4311-9613-bcf2cdce2f5e",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 0,
+        "productIds": [
+          "prod_d9062d58-3fca-4aaf-aef7-6cfd8d490cea",
+          "prod_d1640b55-cf85-4564-afae-29f639d08b3e",
+          "prod_935aea5f-ffe4-4a8e-b093-8555ed93b1d0"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_d9062d58-3fca-4aaf-aef7-6cfd8d490cea",
+          "prod_d1640b55-cf85-4564-afae-29f639d08b3e",
+          "prod_935aea5f-ffe4-4a8e-b093-8555ed93b1d0"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 0
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "The essence of earth. Represented by lush, green grass and blooming flowers around your Nameplate, Icon, and Profile.\n\nGrounded and steady.\n",
+        "displayName": "Earth’s Embrace",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_fef547e7-b86c-4254-88fc-20e7224f0831",
+        "imageId": "file_9d16c2af-714b-4fad-8661-2f08a62d14dc",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 0,
+        "productIds": [
+          "prod_466e40fb-01b4-487f-af13-a68f03311995",
+          "prod_8688c903-c024-4bd7-bc6a-280d5bf0b150",
+          "prod_72d86d8d-4ed7-49ac-a160-1439abe4d8d1"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_466e40fb-01b4-487f-af13-a68f03311995",
+          "prod_8688c903-c024-4bd7-bc6a-280d5bf0b150",
+          "prod_72d86d8d-4ed7-49ac-a160-1439abe4d8d1"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 0
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "The essence of electricity․ Represented by arcing‚ purple lightning‚ snapping and twisting around your Nameplate‚ Icon‚ and Profile․\n\nChaotic․ Energetic․ Always moving․",
+        "displayName": "Storm's Embrace",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_b18f68fa-666e-4e8b-a64b-c66ec6fcdf99",
+        "imageId": "file_ef8fdd87-1641-4329-b152-9600796b2e1b",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 0,
+        "productIds": [
+          "prod_6ec8f69b-4d27-4860-9ab2-a2c370e5df81",
+          "prod_6ef6b583-5ab9-45d0-ba95-ebc92bfc4987",
+          "prod_75acd400-7aa4-4638-bbba-b90fdf4f0964"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_6ec8f69b-4d27-4860-9ab2-a2c370e5df81",
+          "prod_6ef6b583-5ab9-45d0-ba95-ebc92bfc4987",
+          "prod_75acd400-7aa4-4638-bbba-b90fdf4f0964"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 0
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "The essence of fire. Represented by molten lava and charred embers singing the edges of your Nameplate, Icon, and Profile. \n\nPassionate. Fiery. Dangerous.\n",
+        "displayName": "Fire’s Touch",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_aff1efad-0e67-4d88-99ab-29395f621327",
+        "imageId": "file_aa72531d-2811-40be-a221-485d63df68c2",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 0,
+        "productIds": [
+          "prod_3f347773-bad9-44dd-8a22-57c25952b01c",
+          "prod_189d0bc0-936c-4867-abc0-0775bb6883b8",
+          "prod_f44fdc07-4198-4940-bb58-91ca5c4ada21"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "iconFrame",
+          "profileEffect",
+          "nameplateEffect"
+        ],
+        "products": [
+          "prod_3f347773-bad9-44dd-8a22-57c25952b01c",
+          "prod_189d0bc0-936c-4867-abc0-0775bb6883b8",
+          "prod_f44fdc07-4198-4940-bb58-91ca5c4ada21"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 0
       }
     ],
-    "shelfBackgroundImageId": "file_3560afbd-3a09-4587-8e93-e071ec9ab37a",
+    "shelfBackgroundImageId": "file_3b3a8a91-46de-4252-8b0e-d68a20337f44",
     "shelfClientBannerImageId": "",
     "shelfDescription": "",
-    "shelfIconImageId": "file_68c3a22b-47d4-41ba-b387-cdec6b2e0c94",
-    "shelfLayout": "highlightLeft",
+    "shelfIconImageId": "file_6a5b49cd-3caa-4f1a-8712-3526df6f4b89",
+    "shelfLayout": "col4",
     "shelfMobileHeroBannerImageId": "",
     "shelfMobileLogoImageId": "",
     "shelfMobileSecondaryBannerImageId": "",
-    "shelfTabBackgroundImageId": "file_c80cd09f-41a3-438a-a68c-4b9eae427b0d",
-    "shelfTitle": "Celebrate Tanabata!",
-    "updatedAt": "2026-07-06T16:26:33.555Z"
+    "shelfTabBackgroundImageId": "file_b4e0161b-1087-41fd-adc5-2aeeecbe69d8",
+    "shelfTitle": "Profile Decorations",
+    "updatedAt": "2026-08-12T22:45:45.352Z"
+  },
+  {
+    "id": "ess_798cfeeb-7625-408e-9a82-bad1ace374c1",
+    "listingIds": [
+      "prod_c21d331c-1750-4774-aa5e-4672fc6d38d1",
+      "prod_5c374ccc-4990-4663-af2d-2bdd3e9b2958",
+      "prod_84d51b4c-4c11-4505-90f9-421988545a3a",
+      "prod_009e8b99-3d4c-444f-a1f2-a81b46557c65",
+      "prod_4cc30088-a3c5-4691-ac87-d58d1e1983b4",
+      "prod_a342c638-a6d7-4d8a-a3ca-8e5712a5cf79",
+      "prod_2330b213-fbc4-4cc9-8803-d4aba278ff13",
+      "prod_50560b2c-e6a8-4437-b498-5b53bdb2db52"
+    ],
+    "listings": [
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
+        "displayName": "G-SHOCK DW5600 Yellow",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_c21d331c-1750-4774-aa5e-4672fc6d38d1",
+        "imageId": "file_851f7758-1e48-43ff-bc20-b9eaf3e08103",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_c694226f-44c8-4980-b9f8-17ecd21a30b8"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_c694226f-44c8-4980-b9f8-17ecd21a30b8"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-21T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
+        "displayName": "G-SHOCK DW5600 Black",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_5c374ccc-4990-4663-af2d-2bdd3e9b2958",
+        "imageId": "file_9e23f7e0-cbc9-464c-9345-a8257c7e9f63",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_a50b5abe-ffb6-4312-9321-27a021fb1a64"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_a50b5abe-ffb6-4312-9321-27a021fb1a64"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-21T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
+        "displayName": "G-SHOCK DW5600 Red",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_84d51b4c-4c11-4505-90f9-421988545a3a",
+        "imageId": "file_1b77d438-5870-4c36-9bfb-c6506d386b54",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_2d2d930f-5e74-46c6-84e6-6c1026036e51"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_2d2d930f-5e74-46c6-84e6-6c1026036e51"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-21T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
+        "displayName": "G-SHOCK DW5600 Octarine",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_009e8b99-3d4c-444f-a1f2-a81b46557c65",
+        "imageId": "file_8a475d26-7166-409f-b8b2-ca920851c312",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_97c41c33-6eb1-4eda-8283-c9c2dc859a59"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_97c41c33-6eb1-4eda-8283-c9c2dc859a59"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-21T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
+        "displayName": "G-SHOCK DW5600 Aura",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_4cc30088-a3c5-4691-ac87-d58d1e1983b4",
+        "imageId": "file_a8526668-38f5-49c0-a531-553f5d3096bb",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_f70e5488-2355-48a9-a01c-2ed620302f95"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_f70e5488-2355-48a9-a01c-2ed620302f95"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-21T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
+        "displayName": "G-SHOCK DW5600 Iris",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_a342c638-a6d7-4d8a-a3ca-8e5712a5cf79",
+        "imageId": "file_68d05906-e4fc-43e8-ba24-9c9b17ab7cf0",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_25d9afd2-e582-4124-b349-144fd7761e35"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_25d9afd2-e582-4124-b349-144fd7761e35"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-21T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
+        "displayName": "G-SHOCK DW5600 Blue",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_2330b213-fbc4-4cc9-8803-d4aba278ff13",
+        "imageId": "file_60d19574-5812-4a35-8330-376b1bfa22d8",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_24f87775-180f-43a5-ab78-ca49478650f2"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_24f87775-180f-43a5-ab78-ca49478650f2"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-21T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "In VRChat‚ you never know what you'll experience․ It's enough to make you lose track of time․ Or‚ was․ With the G-SHOCK DW5600 VRChat Edition‚ you can --virtually-- wear the legendary‚ shock-resistant watch on your avatar․ Never lose track of time again no matter the conditions․ \n\nYes‚ it actually tells the time․",
+        "displayName": "G-SHOCK DW5600 White",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_50560b2c-e6a8-4437-b498-5b53bdb2db52",
+        "imageId": "file_df636af3-dfc2-4fcf-80a3-d38079520e63",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_e3bccf86-05f2-48e4-930d-aed605f74372"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_e3bccf86-05f2-48e4-930d-aed605f74372"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-21T09:00:00.000Z"
+      }
+    ],
+    "shelfBackgroundImageId": "file_9e9016e4-6bf6-4dd3-861a-9890d535226f",
+    "shelfClientBannerImageId": "",
+    "shelfDescription": "",
+    "shelfIconImageId": "file_5b430e8c-489f-45e0-a58b-70c807694837",
+    "shelfLayout": "col4",
+    "shelfMobileHeroBannerImageId": "",
+    "shelfMobileLogoImageId": "",
+    "shelfMobileSecondaryBannerImageId": "",
+    "shelfTabBackgroundImageId": "file_c8883c24-9713-4a77-b268-e790fc381bf5",
+    "shelfTitle": "G-SHOCK x VRChat",
+    "updatedAt": "2026-08-21T01:40:00.896Z"
   },
   {
     "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
@@ -3605,6 +2734,877 @@ Response schema mismatch:
     "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
     "shelfTitle": "New Accessories",
     "updatedAt": "2026-08-07T21:08:22.875Z"
+  },
+  {
+    "highlightListing": {
+      "active": true,
+      "attribution": {
+        "creator": {
+          "customName": "Gugenka",
+          "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+        },
+        "publisher": {
+          "customName": "VRChat",
+          "userId": "8JoV9XEdpo"
+        }
+      },
+      "buyerRefundable": false,
+      "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+      "description": "The Virtual HIROSHIMA Station 2.u × Mamehinata Bundle unites JR-WEST railways with the beloved avatar Mamehinata. \n\nIt includes the JR-WEST Ticket Gate Portal, the 227 Series Train Plushie with glowing headlights, the Mamehinata x Kipfel Warp Effect, the 227 Series Train x Mamehinata Sticker Pack, and the JR-WEST Cap with Mamehinata Ears with swaying ears. \n\nBring JR-WEST style and Mamehinata charm to your avatars and worlds.",
+      "displayName": "Virtual HIROSHIMA Station 2.u × Mamehinata Bundle",
+      "duration": null,
+      "durationType": null,
+      "hasAvatar": false,
+      "hasCompanion": false,
+      "hasInventory": true,
+      "hasUdon": false,
+      "id": "prod_0641bb46-be2b-41a4-9f54-8b3e1e5415b1",
+      "imageId": "file_b02914c1-625e-4a8c-9229-3e492eb96c2c",
+      "imageUrl": null,
+      "listingType": "permanent",
+      "priceTokens": 3000,
+      "productIds": [
+        "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb",
+        "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70",
+        "prod_497f89ec-7334-4799-bc02-03256a34270c",
+        "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2",
+        "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0",
+        "prod_20ac6349-2944-43a5-a70e-92db1a448685"
+      ],
+      "productType": "listing",
+      "productTypes": [
+        "inventory",
+        "portalskin",
+        "accessory",
+        "sticker",
+        "warpeffect",
+        "prop"
+      ],
+      "products": [
+        "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb",
+        "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70",
+        "prod_497f89ec-7334-4799-bc02-03256a34270c",
+        "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2",
+        "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0",
+        "prod_20ac6349-2944-43a5-a70e-92db1a448685"
+      ],
+      "quantifiable": false,
+      "recurrable": false,
+      "sellerDisplayName": "VRChat Store",
+      "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+      "soldByVrc": true,
+      "stackable": false,
+      "subtitle": "Bundle",
+      "vrcPlusDiscountPrice": 2700,
+      "whenToExpire": "2026-09-14T09:00:00.000Z"
+    },
+    "highlightListingId": "prod_0641bb46-be2b-41a4-9f54-8b3e1e5415b1",
+    "id": "ess_6c855b33-8269-4937-99b8-f51f493fd326",
+    "listingIds": [
+      "prod_723d9b76-f341-4521-8746-33f0e66236ef",
+      "prod_92f63f9c-d7df-4d76-9356-cbd43d10400f",
+      "prod_0077bc23-f880-4cb7-9e5f-88f99dbbfd2f",
+      "prod_50c37a52-3d4d-4e2d-a390-b33afe6392dc",
+      "prod_bcf5a73e-0fdb-47a1-a0bf-188765c719ab"
+    ],
+    "listings": [
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Gugenka",
+            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+        "description": "A recreation of a JR-WEST Shinkansen ticket gate! Make traveling between worlds feel like a real journey.",
+        "displayName": "JR-WEST Ticket Gate",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_723d9b76-f341-4521-8746-33f0e66236ef",
+        "imageId": "file_1f43ac71-9aa7-4c55-b8fb-c43785ae6e53",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "portalskin"
+        ],
+        "products": [
+          "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Portal",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-14T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Gugenka",
+            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+        "description": "Mamehinata’s ears sway as you move! A JR-WEST uniform cap is now available as an avatar accessory.",
+        "displayName": "JR-WEST Cap with Mamehinata Ears",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_92f63f9c-d7df-4d76-9356-cbd43d10400f",
+        "imageId": "file_090a035a-1978-4577-8f76-5c232099ab68",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 810,
+        "whenToExpire": "2026-09-14T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "collaborationId": "GugenkaVH",
+          "creator": {
+            "customName": "Gugenka",
+            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "GugenkaVH",
+        "description": "Mamehinata and Kipfel, dressed in JR-WEST uniforms, circle around you. Experience an adorable warp effect!",
+        "displayName": "Mamehinata x Kipfel",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_0077bc23-f880-4cb7-9e5f-88f99dbbfd2f",
+        "imageId": "file_eefac456-8bea-4657-a953-e3871a722448",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "warpeffect"
+        ],
+        "products": [
+          "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Warp Effect",
+        "vrcPlusDiscountPrice": 810,
+        "whenToExpire": "2026-09-14T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "collaborationId": "GugenkaVH",
+          "creator": {
+            "customName": "Gugenka",
+            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "GugenkaVH",
+        "description": "A plushie of the 227 Series train whose headlights light up adorably when you grab it.",
+        "displayName": "227 Series Train Plushie",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_50c37a52-3d4d-4e2d-a390-b33afe6392dc",
+        "imageId": "file_3736c7a3-9b3c-4bd5-a881-db566017ceee",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 800,
+        "productIds": [
+          "prod_20ac6349-2944-43a5-a70e-92db1a448685"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
+        "products": [
+          "prod_20ac6349-2944-43a5-a70e-92db1a448685"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Prop",
+        "vrcPlusDiscountPrice": 720,
+        "whenToExpire": "2026-09-14T09:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Gugenka",
+            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+        "description": "An adorable sticker pack featuring the 227 Series train and Mamehinata!",
+        "displayName": "227 Series Train x Mamehinata Sticker Pack",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_bcf5a73e-0fdb-47a1-a0bf-188765c719ab",
+        "imageId": "file_2177586e-5516-4355-a933-c751c04ca42f",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 300,
+        "productIds": [
+          "prod_497f89ec-7334-4799-bc02-03256a34270c",
+          "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "sticker"
+        ],
+        "products": [
+          "prod_497f89ec-7334-4799-bc02-03256a34270c",
+          "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 270,
+        "whenToExpire": "2026-09-14T09:00:00.000Z"
+      }
+    ],
+    "shelfBackgroundImageId": "file_a6793b16-8060-4c65-8ec7-6cd3cb5b64e9",
+    "shelfClientBannerImageId": "",
+    "shelfDescription": "",
+    "shelfIconImageId": "file_39927e95-eb5f-4e98-8caa-dddfa33f25b5",
+    "shelfLayout": "highlightLeft",
+    "shelfMobileHeroBannerImageId": "",
+    "shelfMobileLogoImageId": "",
+    "shelfMobileSecondaryBannerImageId": "",
+    "shelfTabBackgroundImageId": "file_62e931d6-1e51-4763-9b00-7d48084ce1c3",
+    "shelfTitle": "Virtual Hiroshima Station 2.u",
+    "updatedAt": "2026-08-25T00:18:40.832Z"
+  },
+  {
+    "highlightListing": {
+      "active": true,
+      "attribution": {
+        "creator": {
+          "customName": "VRChat",
+          "userId": "8JoV9XEdpo"
+        }
+      },
+      "buyerRefundable": false,
+      "collabUserId": "8JoV9XEdpo",
+      "description": "Its Tanabataǃ Celebrate with the Hoshimatsuri Bundle‚ which includes Across The Milkyway Loading Screen‚ Fluttering Tanzaku Animated Sticker‚ Hikoboshis Gate‚ Portal‚ Taiyaki Ice Cream‚ Wish-strung Bamboo‚ Altairs Horns‚ Vegas Tiara‚ A Magpies Gift Warp Effect‚ Tanabata Fukanagashi and Tanabata Emoji Pack․ Dont forget to make a wish before its overǃ\n\nDont forget to visit the Tanabata worldǃ",
+      "displayName": "Hoshimatsuri Bundle",
+      "duration": null,
+      "durationType": null,
+      "hasAvatar": false,
+      "hasCompanion": false,
+      "hasInventory": true,
+      "hasUdon": false,
+      "id": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
+      "imageId": "file_6ed759bb-789f-4a33-9275-991b709f07fe",
+      "imageUrl": null,
+      "listingType": "permanent",
+      "priceTokens": 4800,
+      "productIds": [
+        "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
+        "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+        "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
+        "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
+        "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
+        "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
+        "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
+        "prod_a96a2252-8486-416e-8207-92e74f096aa9",
+        "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
+        "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
+        "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+      ],
+      "productType": "listing",
+      "productTypes": [
+        "inventory",
+        "prop",
+        "emoji",
+        "warpeffect",
+        "accessory",
+        "portalskin",
+        "sticker",
+        "loadingscreen"
+      ],
+      "products": [
+        "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
+        "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+        "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
+        "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
+        "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
+        "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
+        "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
+        "prod_a96a2252-8486-416e-8207-92e74f096aa9",
+        "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
+        "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
+        "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+      ],
+      "quantifiable": false,
+      "recurrable": false,
+      "sellerDisplayName": "VRChat Store",
+      "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+      "soldByVrc": true,
+      "stackable": false,
+      "subtitle": "Bundle",
+      "vrcPlusDiscountPrice": 4320,
+      "whenToExpire": "2026-09-04T21:00:00.000Z"
+    },
+    "highlightListingId": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
+    "id": "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
+    "listingIds": [
+      "prod_0d58046b-de95-4309-89f9-044a32df72d5",
+      "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
+      "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
+      "prod_1fd57fd1-a36d-4aba-8a03-f922a09d7200",
+      "prod_5c4df980-38e6-48b3-b4fc-d89bd25870a0",
+      "prod_038701e9-322f-4623-ba9f-bfd3774ee6b9",
+      "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
+      "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
+      "prod_fedc3478-c600-4340-a0cd-89377fed4573",
+      "prod_429eaa74-962a-4001-ba3d-020623c5fb51"
+    ],
+    "listings": [
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "On the seventh day of the seventh month of the Japanese lunisolar calendar, Orihime and Hikoboshi are allowed to meet – crossing the Milky Way to do so. Luckily, in VRChat, we don’t need a special bridge to cross immense distances… just a Portal.\n\nMaybe your Orihime is behind the next Portal?\n",
+        "displayName": "Hikoboshi’s Gate",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_0d58046b-de95-4309-89f9-044a32df72d5",
+        "imageId": "file_7f43969d-157d-470a-8582-119e67befdf7",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "portalskin"
+        ],
+        "products": [
+          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Portal",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Cross the Milky Way, with the help of a few magpies. As they guide you to your next instance, the constellations of Lyra, Cygnus, and Aquila appear around you. You must be going quite far…\n\nYou don’t even have to cry to get them to help you.\n",
+        "displayName": "A Magpie’s Gift",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
+        "imageId": "file_f6ab2276-4c2e-4a4d-b947-9509d15e35f7",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_40803185-ac3a-424f-a579-aa3dc37fa432"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "warpeffect"
+        ],
+        "products": [
+          "prod_40803185-ac3a-424f-a579-aa3dc37fa432"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Warp Effect",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "A celestial scene celebrating Tanabata, all on your Loading Screen, featuring a few very specific constellations separated by the Milky Way. Will they be able to cross it this year?\n\nWe hope it doesn’t rain…\n",
+        "displayName": "Across the Milky Way",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
+        "imageId": "file_12471895-4734-48e9-9d24-d95c2f3171de",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 600,
+        "productIds": [
+          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "loadingscreen"
+        ],
+        "products": [
+          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Loading Screen",
+        "vrcPlusDiscountPrice": 540,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "It’s a fish-shaped cake, filled with ice cream! You can eat it. What flavor is the ice cream? It’s whatever you want it to be! By that, I mean you can change its color. Mmm, purple flavor. \n\nJust remember: if your ice cream is vanilla, you need to try harder.\n",
+        "displayName": "Taiyaki Ice Cream",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_1fd57fd1-a36d-4aba-8a03-f922a09d7200",
+        "imageId": "file_5b40e391-6758-4708-8bfa-4afb32bb4b83",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
+        "products": [
+          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Prop",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Fukinagashi are colorful windsocks that are crafted to represent the threads of yarn Orihime used in weaving her tapestries. Rumor has it that this one might’ve been crafted by someone special…\n\nIntricately constructed, flowing with the wind.\n",
+        "displayName": "Tanabata Fukinagashi",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_5c4df980-38e6-48b3-b4fc-d89bd25870a0",
+        "imageId": "file_48177c96-d1c7-45bd-a866-ae763db6ff02",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 700,
+        "productIds": [
+          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
+        "products": [
+          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Prop",
+        "vrcPlusDiscountPrice": 630,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "A tall bunch of bamboo‚ strung up with tanzaku alongside a few other origami decorations․ Its bending from the weight of the wishesǃ \n\nHang your wish high the closer to the stars‚ the better․",
+        "displayName": "Wish-strung Bamboo",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_038701e9-322f-4623-ba9f-bfd3774ee6b9",
+        "imageId": "file_ed60b43b-631d-477c-883c-39fe8b590e72",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 800,
+        "productIds": [
+          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "prop"
+        ],
+        "products": [
+          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Prop",
+        "vrcPlusDiscountPrice": 720,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "A tiara made of stars – with Vega at the center. Throughout history, Vega has been one of the most cherished stars. I’m sure Hikoboshi feels the same way.\n\nSurely, you are someone’s Orihime.\n",
+        "displayName": "Vega’s Tiara",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
+        "imageId": "file_4c3e4bce-b62b-4cf2-8517-a92b49918058",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1000,
+        "productIds": [
+          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 900,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Celestial horns, in the shape of a steer. Celebrate Tanabata by making your avatar have a small homage to Hikoboshi.\n\nSurely, you are someone’s Hikoboshi.\n",
+        "displayName": "Altair’s Horns",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
+        "imageId": "file_5863e2ff-07b3-4fda-86e3-e8a1d46df15f",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 850,
+        "productIds": [
+          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 765,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Contains two Premium Emoji: Magpie Bridge plus Vega and Altair. Maybe you can help them meet this year?\n\nYou can always try again next year…\n",
+        "displayName": "Tanabata Emoji Pack ",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_fedc3478-c600-4340-a0cd-89377fed4573",
+        "imageId": "file_29a3d0eb-5565-42bc-9119-c6dc19b52ad1",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 500,
+        "productIds": [
+          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "emoji"
+        ],
+        "products": [
+          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
+          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 450,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Tanzaku flutter on strands of bamboo what wishes do you think they hold?\n\nYou didnt forget to write yours down‚ did you?",
+        "displayName": "Fluttering Tanzaku",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_429eaa74-962a-4001-ba3d-020623c5fb51",
+        "imageId": "file_afa8c7ab-db8c-44ad-ba99-250516633a84",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 200,
+        "productIds": [
+          "prod_a96a2252-8486-416e-8207-92e74f096aa9"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "sticker"
+        ],
+        "products": [
+          "prod_a96a2252-8486-416e-8207-92e74f096aa9"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Sticker",
+        "vrcPlusDiscountPrice": 180,
+        "whenToExpire": "2026-09-04T21:00:00.000Z"
+      }
+    ],
+    "shelfBackgroundImageId": "file_3560afbd-3a09-4587-8e93-e071ec9ab37a",
+    "shelfClientBannerImageId": "",
+    "shelfDescription": "",
+    "shelfIconImageId": "file_68c3a22b-47d4-41ba-b387-cdec6b2e0c94",
+    "shelfLayout": "highlightLeft",
+    "shelfMobileHeroBannerImageId": "",
+    "shelfMobileLogoImageId": "",
+    "shelfMobileSecondaryBannerImageId": "",
+    "shelfTabBackgroundImageId": "file_c80cd09f-41a3-438a-a68c-4b9eae427b0d",
+    "shelfTitle": "Celebrate Tanabata!",
+    "updatedAt": "2026-07-06T16:26:33.555Z"
   }
 ]
 ```
