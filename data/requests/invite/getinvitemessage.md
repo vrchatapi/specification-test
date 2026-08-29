@@ -28,7 +28,7 @@
 ```jsonc
 {
   "canBeUpdated": true,
-  "id": "invm_1fde0309-b78d-4564-b968-2bd11c066008",
+  "id": "invm_5d1517df-57c1-44a0-ada8-1ba597ea8947",
   "message": "Hello‚ Worldǃ",
   "messageType": "message",
   "remainingCooldownMinutes": 0,

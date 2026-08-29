@@ -14,7 +14,7 @@ Response schema mismatch:
 * Unexpected property at ``#/minimumAvatarPerformance``,
 * Unexpected property at ``#/vibeIds``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/yjajreyb`
+`GET https://api.vrchat.cloud/api/1/instances/s/wufq04sq`
 
 | Header | Value |
 | ------ | ----- |

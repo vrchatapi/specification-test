@@ -290,6 +290,9 @@ Response schema mismatch:
 * Missing property at ``#/shelves/3listings/0/refundable``,
 * Missing property at ``#/shelves/3listings/0/storeIds``,
 * Invalid type at ``#/shelves/3listings/0products/0``,
+* Invalid type at ``#/shelves/3listings/0products/1``,
+* Invalid type at ``#/shelves/3listings/0products/2``,
+* Invalid type at ``#/shelves/3listings/0products/3``,
 * Unexpected property at ``#/shelves/3listings/0/attribution``,
 * Unexpected property at ``#/shelves/3listings/0/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/0/hasCompanion``,
@@ -322,9 +325,6 @@ Response schema mismatch:
 * Missing property at ``#/shelves/3listings/4/refundable``,
 * Missing property at ``#/shelves/3listings/4/storeIds``,
 * Invalid type at ``#/shelves/3listings/4products/0``,
-* Invalid type at ``#/shelves/3listings/4products/1``,
-* Invalid type at ``#/shelves/3listings/4products/2``,
-* Invalid type at ``#/shelves/3listings/4products/3``,
 * Unexpected property at ``#/shelves/3listings/4/attribution``,
 * Unexpected property at ``#/shelves/3listings/4/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/4/hasCompanion``,
@@ -333,6 +333,9 @@ Response schema mismatch:
 * Missing property at ``#/shelves/3listings/5/refundable``,
 * Missing property at ``#/shelves/3listings/5/storeIds``,
 * Invalid type at ``#/shelves/3listings/5products/0``,
+* Invalid type at ``#/shelves/3listings/5products/1``,
+* Invalid type at ``#/shelves/3listings/5products/2``,
+* Invalid type at ``#/shelves/3listings/5products/3``,
 * Unexpected property at ``#/shelves/3listings/5/attribution``,
 * Unexpected property at ``#/shelves/3listings/5/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/5/hasCompanion``,
@@ -365,8 +368,6 @@ Response schema mismatch:
 * Missing property at ``#/shelves/3listings/9/refundable``,
 * Missing property at ``#/shelves/3listings/9/storeIds``,
 * Invalid type at ``#/shelves/3listings/9products/0``,
-* Invalid type at ``#/shelves/3listings/9products/1``,
-* Invalid type at ``#/shelves/3listings/9products/2``,
 * Unexpected property at ``#/shelves/3listings/9/attribution``,
 * Unexpected property at ``#/shelves/3listings/9/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/9/hasCompanion``,
@@ -392,7 +393,6 @@ Response schema mismatch:
 * Missing property at ``#/shelves/3listings/12/storeIds``,
 * Invalid type at ``#/shelves/3listings/12products/0``,
 * Unexpected property at ``#/shelves/3listings/12/attribution``,
-* Unexpected property at ``#/shelves/3listings/12/collabUserDisplayName``,
 * Unexpected property at ``#/shelves/3listings/12/collabUserId``,
 * Unexpected property at ``#/shelves/3listings/12/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/12/hasInventory``,
@@ -405,6 +405,100 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3listings/13/hasCompanion``,
 * Unexpected property at ``#/shelves/3listings/13/hasInventory``,
 * Unexpected property at ``#/shelves/3listings/13/productTypes``,
+* Missing property at ``#/shelves/3listings/14/refundable``,
+* Missing property at ``#/shelves/3listings/14/storeIds``,
+* Invalid type at ``#/shelves/3listings/14products/0``,
+* Unexpected property at ``#/shelves/3listings/14/attribution``,
+* Unexpected property at ``#/shelves/3listings/14/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/14/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/14/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/14/productTypes``,
+* Missing property at ``#/shelves/3listings/15/refundable``,
+* Missing property at ``#/shelves/3listings/15/storeIds``,
+* Invalid type at ``#/shelves/3listings/15products/0``,
+* Invalid type at ``#/shelves/3listings/15products/1``,
+* Invalid type at ``#/shelves/3listings/15products/2``,
+* Invalid type at ``#/shelves/3listings/15products/3``,
+* Unexpected property at ``#/shelves/3listings/15/attribution``,
+* Unexpected property at ``#/shelves/3listings/15/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/15/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/15/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/15/productTypes``,
+* Missing property at ``#/shelves/3listings/16/refundable``,
+* Missing property at ``#/shelves/3listings/16/storeIds``,
+* Invalid type at ``#/shelves/3listings/16products/0``,
+* Unexpected property at ``#/shelves/3listings/16/attribution``,
+* Unexpected property at ``#/shelves/3listings/16/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/16/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/16/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/16/productTypes``,
+* Missing property at ``#/shelves/3listings/17/refundable``,
+* Missing property at ``#/shelves/3listings/17/storeIds``,
+* Invalid type at ``#/shelves/3listings/17products/0``,
+* Unexpected property at ``#/shelves/3listings/17/attribution``,
+* Unexpected property at ``#/shelves/3listings/17/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/17/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/17/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/17/productTypes``,
+* Missing property at ``#/shelves/3listings/18/refundable``,
+* Missing property at ``#/shelves/3listings/18/storeIds``,
+* Invalid type at ``#/shelves/3listings/18products/0``,
+* Unexpected property at ``#/shelves/3listings/18/attribution``,
+* Unexpected property at ``#/shelves/3listings/18/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/18/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/18/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/18/productTypes``,
+* Missing property at ``#/shelves/3listings/19/refundable``,
+* Missing property at ``#/shelves/3listings/19/storeIds``,
+* Invalid type at ``#/shelves/3listings/19products/0``,
+* Unexpected property at ``#/shelves/3listings/19/attribution``,
+* Unexpected property at ``#/shelves/3listings/19/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/19/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/19/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/19/productTypes``,
+* Missing property at ``#/shelves/3listings/20/refundable``,
+* Missing property at ``#/shelves/3listings/20/storeIds``,
+* Invalid type at ``#/shelves/3listings/20products/0``,
+* Invalid type at ``#/shelves/3listings/20products/1``,
+* Invalid type at ``#/shelves/3listings/20products/2``,
+* Unexpected property at ``#/shelves/3listings/20/attribution``,
+* Unexpected property at ``#/shelves/3listings/20/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/20/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/20/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/20/productTypes``,
+* Missing property at ``#/shelves/3listings/21/refundable``,
+* Missing property at ``#/shelves/3listings/21/storeIds``,
+* Invalid type at ``#/shelves/3listings/21products/0``,
+* Unexpected property at ``#/shelves/3listings/21/attribution``,
+* Unexpected property at ``#/shelves/3listings/21/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/21/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/21/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/21/productTypes``,
+* Missing property at ``#/shelves/3listings/22/refundable``,
+* Missing property at ``#/shelves/3listings/22/storeIds``,
+* Invalid type at ``#/shelves/3listings/22products/0``,
+* Unexpected property at ``#/shelves/3listings/22/attribution``,
+* Unexpected property at ``#/shelves/3listings/22/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/22/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/22/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/22/productTypes``,
+* Missing property at ``#/shelves/3listings/23/refundable``,
+* Missing property at ``#/shelves/3listings/23/storeIds``,
+* Invalid type at ``#/shelves/3listings/23products/0``,
+* Unexpected property at ``#/shelves/3listings/23/attribution``,
+* Unexpected property at ``#/shelves/3listings/23/collabUserDisplayName``,
+* Unexpected property at ``#/shelves/3listings/23/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/23/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/23/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/23/productTypes``,
+* Missing property at ``#/shelves/3listings/24/refundable``,
+* Missing property at ``#/shelves/3listings/24/storeIds``,
+* Invalid type at ``#/shelves/3listings/24products/0``,
+* Unexpected property at ``#/shelves/3listings/24/attribution``,
+* Unexpected property at ``#/shelves/3listings/24/collabUserId``,
+* Unexpected property at ``#/shelves/3listings/24/hasCompanion``,
+* Unexpected property at ``#/shelves/3listings/24/hasInventory``,
+* Unexpected property at ``#/shelves/3listings/24/productTypes``,
 * Unexpected property at ``#/shelves/3/shelfBackgroundImageId``,
 * Unexpected property at ``#/shelves/3/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/3/shelfIconImageId``,
@@ -2063,6 +2157,17 @@ Response schema mismatch:
     {
       "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
       "listingIds": [
+        "prod_0a44f34f-4bd0-48f6-943e-2608a85097b2",
+        "prod_f39a1a08-e690-4f0f-b4f6-84e4619a08ee",
+        "prod_3c417948-e07a-4519-9495-7ed20757a642",
+        "prod_5305b6a3-ba79-4313-bfda-aaed02813933",
+        "prod_0d9fdb0c-d386-48b6-88ec-a7d09019f13f",
+        "prod_94cbf508-c804-460c-834c-bafcc0c6984d",
+        "prod_43a87621-a05d-4deb-abfd-a13c44cb0e09",
+        "prod_570e2b0a-3d57-4f57-80ac-b1b3015fcc3a",
+        "prod_c8e76347-f9ab-4f1c-ba9e-7cc0f13bcae0",
+        "prod_e0a5347f-9968-40fd-8867-f6f722eedb84",
+        "prod_943eef38-c23d-4f30-9a7d-43fd42f6a6fd",
         "prod_91ac5bcc-29dc-4e3a-922f-a49cb411b0a1",
         "prod_43be5c87-94b4-4747-9a18-2e64a5cb23dd",
         "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
@@ -2079,6 +2184,531 @@ Response schema mismatch:
         "prod_2b6dd6e2-0fd5-43f2-b31f-a64a16f8f4b6"
       ],
       "listings": [
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Nae the Loud",
+              "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c",
+          "description": "Become a fairyǃ Or‚ at the very least‚ some sort of glowy‚ sparkly‚ nature-loving creature․ Contains the Fairy Wing Headdress‚ Whimsical Wings‚ Glowing Stickers and Nature Pal Accessories․ Every Accessory in this bundle works with AudioLinkǃ That means‚ if the world supports it‚ theyre audio reactiveǃ\n\nIf youve ever covered your bedroom in those tiny lights or have reposted a picture of a deer sleeping in a meadow with the caption me‚ then this is your bundle․",
+          "displayName": "Whimsy Bundle",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_0a44f34f-4bd0-48f6-943e-2608a85097b2",
+          "imageId": "file_1d5690fc-fc43-49cd-9265-ba48e8d993f2",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 2400,
+          "productIds": [
+            "prod_87d1475d-8171-422e-8f0b-8ad0799de28e",
+            "prod_96dc361d-c56f-44d4-9040-37969c23ff56",
+            "prod_3e106178-5f4c-4ed3-89f9-04f5940830e3",
+            "prod_6026fb94-6740-4d16-9f49-ad268180febe"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_87d1475d-8171-422e-8f0b-8ad0799de28e",
+            "prod_96dc361d-c56f-44d4-9040-37969c23ff56",
+            "prod_3e106178-5f4c-4ed3-89f9-04f5940830e3",
+            "prod_6026fb94-6740-4d16-9f49-ad268180febe"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Bundle",
+          "vrcPlusDiscountPrice": 2160
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Nae the Loud",
+              "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c",
+          "description": "Wings that’ll take you to entirely new levels of whimsy. They glow and twinkle, letting everyone know just how magical you are. You can adjust the shape of the wings. This Accessory is AudioLink-compatible and will respond to audio in worlds that support this functionality. \n\nFly free.",
+          "displayName": "Whimsical Wings",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_f39a1a08-e690-4f0f-b4f6-84e4619a08ee",
+          "imageId": "file_70e4dd87-26c3-47aa-93ab-537d0471ab2e",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_96dc361d-c56f-44d4-9040-37969c23ff56"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_96dc361d-c56f-44d4-9040-37969c23ff56"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 900
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Nae the Loud",
+              "userId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_c2b3c41b-eccd-4577-9f59-a5fb06e9311c",
+          "description": "Add a little whimsy to your head… or anywhere else you decide to put these wings. They glow and twinkle, letting everyone know just how magical you are. The wings are customizable and can be closed or opened! This Accessory is AudioLink-compatible and will respond to audio in worlds that support this functionality. \n\nWhimsical royalty.\n",
+          "displayName": "Fairy Wing Headdress",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_3c417948-e07a-4519-9495-7ed20757a642",
+          "imageId": "file_8ebbec68-860e-4dde-9205-9d221543408e",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_87d1475d-8171-422e-8f0b-8ad0799de28e"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_87d1475d-8171-422e-8f0b-8ad0799de28e"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 720
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "skip4d",
+              "userId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb",
+          "description": "Give yourself a little nature friend‚ anywhere youd like to carry them․ What kind of nature friend? Well‚ that depends on youǃ You can customize between a Sprout‚ Mushroom‚ or Flower․ Change their color too‚ if youd like․ This Accessory is AudioLink-compatible and will respond to audio in worlds that support this functionality․ \n\nYoure a friend to nature․",
+          "displayName": "Nature Pal",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_5305b6a3-ba79-4313-bfda-aaed02813933",
+          "imageId": "file_c5990bbf-53b3-45c0-968b-ddc46eb93c5c",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 600,
+          "productIds": [
+            "prod_6026fb94-6740-4d16-9f49-ad268180febe"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_6026fb94-6740-4d16-9f49-ad268180febe"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 540
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "skip4d",
+              "userId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb",
+          "description": "Glowing stickers you can throw on your avatar! You can change the shape and cycle through a few different options. They sparkle! And, well, glow. This Accessory is AudioLink-compatible and will respond to audio in worlds that support this functionality. \n\nA sticker! But, like, on you.",
+          "displayName": "Glowing Stickers",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_0d9fdb0c-d386-48b6-88ec-a7d09019f13f",
+          "imageId": "file_6248feac-1c24-4918-bc1a-fe2451f8598d",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 600,
+          "productIds": [
+            "prod_3e106178-5f4c-4ed3-89f9-04f5940830e3"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_3e106178-5f4c-4ed3-89f9-04f5940830e3"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 540
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Lod'sGalaxy",
+              "userId": "usr_322c2161-3384-4729-aa20-27f61f637e97"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_322c2161-3384-4729-aa20-27f61f637e97",
+          "description": "The dream of the 80s! But also kinda the 90s. Contains the VirtaPro Headphones, Glowing Sweatband, Real Reality Cassette Player and Pixelated Glasses Accessories! Every Accessory in this bundle works with AudioLink! That means, if the world supports it, they’re audio reactive!\n\nWait, the 90s are retro now? Oh my god…",
+          "displayName": "Retro Swag Bundle",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_94cbf508-c804-460c-834c-bafcc0c6984d",
+          "imageId": "file_81205cc3-4f8f-49e4-8f49-32a0439375f3",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 2400,
+          "productIds": [
+            "prod_e4a989a0-e257-4f36-a745-df8af1d64a97",
+            "prod_6f2535a9-3a93-49d5-add1-046d9e535f66",
+            "prod_a5d4209c-7fe4-4ad1-bf01-2db40d4161f1",
+            "prod_cd39f66d-d7bf-4a86-8851-dfa483db72cc"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_e4a989a0-e257-4f36-a745-df8af1d64a97",
+            "prod_6f2535a9-3a93-49d5-add1-046d9e535f66",
+            "prod_a5d4209c-7fe4-4ad1-bf01-2db40d4161f1",
+            "prod_cd39f66d-d7bf-4a86-8851-dfa483db72cc"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Bundle",
+          "vrcPlusDiscountPrice": 2160
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Lestery✪",
+              "userId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314",
+          "description": "Glasses you need to contend with, or something. Probably makes a lot of sense if you’re a dog. Or a dawg. I don’t know. I’m in my thirties. This Accessory is AudioLink-compatible and will respond to audio in worlds that support this functionality. \n\nBecome your own reaction gif.\n",
+          "displayName": "Pixelated Glasses",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_43a87621-a05d-4deb-abfd-a13c44cb0e09",
+          "imageId": "file_95c17594-1ab3-44a3-853e-98eba47554d5",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_cd39f66d-d7bf-4a86-8851-dfa483db72cc"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_cd39f66d-d7bf-4a86-8851-dfa483db72cc"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 720
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Lod'sGalaxy",
+              "userId": "usr_322c2161-3384-4729-aa20-27f61f637e97"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_322c2161-3384-4729-aa20-27f61f637e97",
+          "description": "Portable, audio-reactive retro-style headphones. The speakers and headband can be adjusted! This Accessory is AudioLink-compatible and will respond to audio in worlds that support this functionality. \n\nThe dream of the 80s, alive in virtual reality.\n",
+          "displayName": "VirtaPro Headphones",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_570e2b0a-3d57-4f57-80ac-b1b3015fcc3a",
+          "imageId": "file_2514a3a9-5dac-474f-8bc7-057d3a581a01",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_e4a989a0-e257-4f36-a745-df8af1d64a97"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_e4a989a0-e257-4f36-a745-df8af1d64a97"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 720
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Lestery✪",
+              "userId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314",
+          "description": "The ideal accessory, especially if you’re about to be in a montage and/or a very sweaty dancing sequence featuring synthwave. Customize all of the colors! This Accessory is AudioLink-compatible and will respond to audio in worlds that support this functionality. \n\nWork up a sweat.\n",
+          "displayName": "Glowing Sweatband",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_c8e76347-f9ab-4f1c-ba9e-7cc0f13bcae0",
+          "imageId": "file_aaa3a9bf-be2a-4da3-aae8-b375dd6d0a1e",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 600,
+          "productIds": [
+            "prod_6f2535a9-3a93-49d5-add1-046d9e535f66"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_6f2535a9-3a93-49d5-add1-046d9e535f66"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 540
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Lod'sGalaxy",
+              "userId": "usr_322c2161-3384-4729-aa20-27f61f637e97"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_322c2161-3384-4729-aa20-27f61f637e97",
+          "description": "Grab your mixtape and get going. A small cassette player, designed for listening to tunes on the go. This Accessory is AudioLink-compatible and will respond to audio in worlds that support this functionality. \n\nYour crush made that mixtape. For you.\n",
+          "displayName": "Real Reality Cassette Player",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_e0a5347f-9968-40fd-8867-f6f722eedb84",
+          "imageId": "file_10005e12-c7bd-4a33-9ef0-f6c9e1aeaa36",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_a5d4209c-7fe4-4ad1-bf01-2db40d4161f1"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_a5d4209c-7fe4-4ad1-bf01-2db40d4161f1"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 720
+        },
+        {
+          "active": true,
+          "attribution": {
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "If you’re going to a music event, you’ve gotta wear your beads. While you can’t share them directly, you can tell someone to go grab a pair for free from the Shop. That’s still sharing, right? Of course, you can customize the color of the beads.\n\nDon’t forget to do the special handshake.\n",
+          "displayName": "Virtual Kandi",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_943eef38-c23d-4f30-9a7d-43fd42f6a6fd",
+          "imageId": "file_10dc333f-2338-42b0-b145-79866ec04d1d",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 0,
+          "productIds": [
+            "prod_997eff6c-3374-41bb-95ff-9ed969362840"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_997eff6c-3374-41bb-95ff-9ed969362840"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 0
+        },
         {
           "active": true,
           "attribution": {
@@ -2747,7 +3377,7 @@ Response schema mismatch:
       "shelfMobileSecondaryBannerImageId": "",
       "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
       "shelfTitle": "New Accessories",
-      "updatedAt": "2026-08-07T21:08:22.875Z"
+      "updatedAt": "2026-08-28T21:02:55.457Z"
     },
     {
       "highlightListing": {
