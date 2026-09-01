@@ -2,14 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/data/0metadata/propKind``,
-* Unexpected property at ``#/data/0/acquisition``,
-* Unexpected property at ``#/data/0/attribution``,
-* Unexpected property at ``#/data/0/last_equipped``,
-* Unexpected property at ``#/data/1metadata/propKind``,
-* Unexpected property at ``#/data/1/acquisition``,
-* Unexpected property at ``#/data/1/attribution``,
-* Unexpected property at ``#/data/1/last_equipped``.
+Schema is not an object at #/properties/data/items/properties/undefined.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory?n=100&offset=0&order=oldest&types=prop`
 

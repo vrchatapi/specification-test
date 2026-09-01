@@ -2,7 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/attribution``.
+Schema is not an object at #/properties/undefined.
 ## Request
 `GET https://api.vrchat.cloud/api/1/avatars/avtr_26187637-0c30-4a09-86e1-bc928c07309e`
 

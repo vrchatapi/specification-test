@@ -2,69 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Cannot fit value in explicit enum at ``#/0/data/onPressed/command``,
-* Unexpected property at ``#/0/clientMinVersion``,
-* Unexpected property at ``#/0/regions``,
-* Unexpected property at ``#/0/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/1/data/onPressed/command``,
-* Unexpected property at ``#/1/clientMinVersion``,
-* Unexpected property at ``#/1/regions``,
-* Unexpected property at ``#/1/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/2/data/onPressed/command``,
-* Unexpected property at ``#/2/clientMinVersion``,
-* Unexpected property at ``#/2/regions``,
-* Unexpected property at ``#/2/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/3/data/onPressed/command``,
-* Unexpected property at ``#/3/clientMinVersion``,
-* Unexpected property at ``#/3/regions``,
-* Unexpected property at ``#/3/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/4/data/onPressed/command``,
-* Unexpected property at ``#/4/clientMinVersion``,
-* Unexpected property at ``#/4/regions``,
-* Unexpected property at ``#/4/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/5/data/onPressed/command``,
-* Invalid type at ``#/5/startDate``,
-* Unexpected property at ``#/5/clientMinVersion``,
-* Unexpected property at ``#/5/regions``,
-* Unexpected property at ``#/5/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/6/data/onPressed/command``,
-* Unexpected property at ``#/6/clientMinVersion``,
-* Unexpected property at ``#/6/regions``,
-* Unexpected property at ``#/6/requireClientTags``,
-* Invalid type at ``#/7/endDate``,
-* Invalid type at ``#/7/startDate``,
-* Unexpected property at ``#/7/clientMinVersion``,
-* Unexpected property at ``#/7/regions``,
-* Unexpected property at ``#/7/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/8/data/onPressed/command``,
-* Invalid type at ``#/8/endDate``,
-* Invalid type at ``#/8/startDate``,
-* Unexpected property at ``#/8/clientMinVersion``,
-* Unexpected property at ``#/8/experiment``,
-* Unexpected property at ``#/8/regions``,
-* Unexpected property at ``#/8/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/9/data/onPressed/command``,
-* Invalid type at ``#/9/endDate``,
-* Invalid type at ``#/9/startDate``,
-* Unexpected property at ``#/9/clientMinVersion``,
-* Unexpected property at ``#/9/regions``,
-* Unexpected property at ``#/9/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/10/data/onPressed/command``,
-* Invalid type at ``#/10/endDate``,
-* Invalid type at ``#/10/startDate``,
-* Unexpected property at ``#/10/regions``,
-* Unexpected property at ``#/10/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/11/data/onPressed/command``,
-* Invalid type at ``#/11/endDate``,
-* Invalid type at ``#/11/startDate``,
-* Unexpected property at ``#/11/regions``,
-* Unexpected property at ``#/11/requireClientTags``,
-* Cannot fit value in explicit enum at ``#/12/data/onPressed/command``,
-* Cannot fit value in explicit enum at ``#/13/data/onPressed/command``,
-* Invalid type at ``#/13/endDate``,
-* Invalid type at ``#/13/startDate``,
-* Unexpected property at ``#/13/regions``,
-* Unexpected property at ``#/13/requireClientTags``.
+Schema is not an object at #/items/properties/undefined.
 ## Request
 `GET https://api.vrchat.cloud/api/1/infoPush?include=quick-menu-banner&require=quick-menu-banner`
 
@@ -226,33 +164,6 @@ Response schema mismatch:
       "user-all"
     ],
     "updatedAt": "2026-08-07T15:22:13.490Z"
-  },
-  {
-    "clientMinVersion": null,
-    "createdAt": "2026-08-12T22:51:50.387Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_f81fc4bd-041f-4535-b903-3108e8b4a8db.png",
-      "onPressed": {
-        "command": "scrollToShelf",
-        "parameters": [
-          "ess_66c639e6-88da-4d5a-a4dd-95a1e2e947e6"
-        ]
-      }
-    },
-    "endDate": "2026-08-31T21:00:00.000Z",
-    "hash": "ips_profiledecorations2026f-5f3950a9a65f",
-    "id": "ips_profiledecorations2026f-5f3950a9a65f",
-    "isEnabled": true,
-    "priority": 345,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": null,
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-08-14T13:39:07.227Z"
   },
   {
     "clientMinVersion": null,

@@ -32,7 +32,7 @@ Creates an event for a group on the calendar
 
 * [createGroupCalendarEvent](./creategroupcalendarevent.md)
 ## Get next calendar event
-Get the closest future calendar event scheduled for a group
+Return the closest future calendar event scheduled for a group. A group with no future scheduled events answers 404.
 
 > Missing coverage.
 ## Delete a calendar event

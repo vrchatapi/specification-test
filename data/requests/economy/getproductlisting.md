@@ -3,20 +3,7 @@
 ## Issues
 Response schema mismatch:
 * Missing property at ``#/refundable``,
-* Missing property at ``#/storeIds``,
-* Invalid type at ``#/products/0``,
-* Invalid type at ``#/products/1``,
-* Invalid type at ``#/products/2``,
-* Invalid type at ``#/products/3``,
-* Invalid type at ``#/products/4``,
-* Invalid type at ``#/products/5``,
-* Invalid type at ``#/products/6``,
-* Invalid type at ``#/products/7``,
-* Invalid type at ``#/products/8``,
-* Invalid type at ``#/products/9``,
-* Unexpected property at ``#/hasCompanion``,
-* Unexpected property at ``#/hasInventory``,
-* Unexpected property at ``#/productTypes``.
+* Missing property at ``#/storeIds``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/listing/prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910`
 

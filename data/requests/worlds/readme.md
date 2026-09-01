@@ -50,6 +50,12 @@ Update information about a specific World.
 Adds tags to the world's profile
 
 > Missing coverage.
+## Remove World Tags
+Remove tags from the world's profile.
+
+The path is `deleteTags`, not `removeTags` as the user equivalent uses.
+
+> Missing coverage.
 ## Get World Metadata
 Return a worlds custom metadata. This is currently believed to be unused. Metadata can be set with `updateWorld` and can be any arbitrary object.
 
@@ -68,10 +74,6 @@ Returns a worlds publish status.
 * [getWorldPublishStatus by id](./getworldpublishstatus-by-id.md)
 ## Publish World
 Publish a world. You can only publish one world per week.
-
-> Missing coverage.
-## Remove World Tags
-Removes tags from the world's profile
 
 > Missing coverage.
 ## Get World Instance

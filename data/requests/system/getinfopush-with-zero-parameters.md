@@ -1,12 +1,7 @@
 # getInfoPush with zero parameters
 
-## Issues
-```
-Response schema mismatch: Invalid type at #.
-```
-
 ## Request
-`get https://vrchat.com/api/1/infoPush`
+`GET https://api.vrchat.cloud/api/1/infoPush`
 
 | Header | Value |
 | ------ | ----- |

@@ -115,10 +115,10 @@ Checks whether the user has persistence data for a given world
 
 > Missing coverage.
 ## Get User by Username
-~~Get public user information about a specific user using their name.~~
+Get public user information about a specific user using their name.
 
-**DEPRECATED:** VRChat API no longer return usernames of other users. [See issue by Tupper for more information](https://github.com/pypy-vrc/VRCX/issues/429).
-This endpoint now require Admin Credentials.
+VRChat no longer returns the usernames of other users, and this endpoint
+now requires admin credentials. [See issue by Tupper for more information](https://github.com/pypy-vrc/VRCX/issues/429).
 
 > Missing coverage.
 	

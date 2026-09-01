@@ -1,14 +1,5 @@
 # getFriends
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/0/bannerColor``,
-* Unexpected property at ``#/0/bannerType``,
-* Unexpected property at ``#/0/discordId``,
-* Unexpected property at ``#/0/iconFrame``,
-* Unexpected property at ``#/0/iconUrl``,
-* Unexpected property at ``#/0/nameplateEffect``,
-* Unexpected property at ``#/0/profileEffect``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user/friends?offline=true`
 
@@ -53,8 +44,8 @@ Response schema mismatch:
     "id": "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a",
     "imageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "isFriend": true,
-    "last_activity": "2026-08-31T00:07:00.031Z",
-    "last_login": "2026-08-31T00:07:00.031Z",
+    "last_activity": "2026-09-01T00:17:10.884Z",
+    "last_login": "2026-09-01T00:17:10.884Z",
     "last_mobile": null,
     "last_platform": "standalonewindows",
     "location": "offline",

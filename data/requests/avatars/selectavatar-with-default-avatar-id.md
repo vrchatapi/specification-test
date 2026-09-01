@@ -2,17 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/bannerColor``,
-* Unexpected property at ``#/bannerType``,
-* Unexpected property at ``#/completedTutorials``,
-* Unexpected property at ``#/iconFrame``,
-* Unexpected property at ``#/iconUrl``,
-* Unexpected property at ``#/isEconomyCreator``,
-* Unexpected property at ``#/isTemporary``,
-* Unexpected property at ``#/nameplateEffect``,
-* Unexpected property at ``#/personalizationOptOut``,
-* Unexpected property at ``#/profileEffect``,
-* Unexpected property at ``#/temporaryExpiryDate``.
+Schema is not an object at #/properties/undefined.
 ## Request
 `PUT https://api.vrchat.cloud/api/1/avatars/avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11/select`
 
@@ -112,16 +102,16 @@ Response schema mismatch:
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "8f4cbbbfd7bc",
+    "6d446be825c8",
+    "7e52870127f4",
     "265291ec997a",
     "c9ac625fbde0",
     "dba2ecce5cbe",
     "041b825adb18",
     "768650317069",
     "75b34108762d",
-    "15dac65a2f1c",
-    "be9a684ee002",
-    "972387f7e822",
-    "599ced7a6008"
+    "15dac65a2f1c"
   ],
   "steamDetails": {},
   "steamId": "",

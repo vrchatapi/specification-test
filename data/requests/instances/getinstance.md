@@ -2,16 +2,11 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/world/disabledPropAbilities``,
 * Unexpected property at ``#/categoryId``,
 * Unexpected property at ``#/creationLanguages``,
 * Unexpected property at ``#/description``,
-* Unexpected property at ``#/disabledPropAbilities``,
-* Unexpected property at ``#/dominantLanguage``,
-* Unexpected property at ``#/languageRatio``,
 * Unexpected property at ``#/languages``,
 * Unexpected property at ``#/languagesIso639``,
-* Unexpected property at ``#/minimumAvatarPerformance``,
 * Unexpected property at ``#/vibeIds``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/instances/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b:<unstable>`

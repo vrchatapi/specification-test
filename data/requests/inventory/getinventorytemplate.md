@@ -2,11 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Missing property at ``#/status``,
-* Unexpected property at ``#/metadata/propKind``,
-* Unexpected property at ``#/attribution``,
-* Unexpected property at ``#/dropStatus``,
-* Unexpected property at ``#/initialToggleState``.
+Schema is not an object at #/properties/undefined.
 ## Request
 `GET https://api.vrchat.cloud/api/1/inventory/template/invt_1f11aa73-8f05-4d50-a1a8-c59074d03ce2`
 

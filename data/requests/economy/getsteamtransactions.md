@@ -2,9 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Invalid type at ``#/0/agreement``,
-* Invalid type at ``#/1/agreement``,
-* Invalid type at ``#/2/agreement``.
+Schema is not an object at #/items/properties/subscription/properties/undefined.
 ## Request
 `GET https://api.vrchat.cloud/api/1/Steam/transactions`
 

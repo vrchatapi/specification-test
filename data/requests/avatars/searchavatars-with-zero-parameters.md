@@ -1,5 +1,8 @@
 # searchAvatars with zero parameters
 
+## Issues
+Response schema mismatch:
+Schema is not an object at #/items/properties/undefined.
 ## Request
 `GET https://api.vrchat.cloud/api/1/avatars`
 

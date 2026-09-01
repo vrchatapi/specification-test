@@ -45,7 +45,7 @@ Gets stacks for a product purchase
 
 > Missing coverage.
 ## Get Seller Eligibility
-Get the eligibility of the currently authenticated user to become a seller
+Return the current user's eligibility to become a seller.
 
 > Missing coverage.
 ## Get Store
@@ -57,7 +57,7 @@ Gets the shelves for a store
 
 * [getStoreShelves](./getstoreshelves.md)
 ## List Stores
-Lists stores, optionally filtered to a seller and adjusted for management views.
+List a seller's stores, adjusted for management views.
 
 > Missing coverage.
 ## Get License Group
@@ -101,7 +101,7 @@ List all existing Subscriptions. For example, "vrchatplus-monthly" and "vrchatpl
 
 * [getSubscriptions](./getsubscriptions.md)
 ## Get Tilia Status
-Gets the status of Tilia integration
+Return the Tilia integration status.
 
 * [getTiliaStatus](./gettiliastatus.md)
 ## List Token Bundles
@@ -117,11 +117,11 @@ Get the most recent user subscription.
 
 > Missing coverage.
 ## Get Balance
-Gets the balance of a user
+Return the balance of a user.
 
 * [getBalance](./getbalance.md)
 ## Get Balance Earnings
-Gets the balance of a user from earnings
+Return the user's balance from earnings.
 
 * [getBalanceEarnings](./getbalanceearnings.md)
 ## Get Economy Account
@@ -157,15 +157,15 @@ Gets KYC status details for a user's Tilia account.
 
 > Missing coverage.
 ## Get Tilia TOS Agreement Status
-Gets the status of the agreement of a user to the Tilia TOS
+Return the user's Tilia TOS agreement status.
 
 * [getTiliaTos](./gettiliatos.md)
 ## Update Tilia TOS Agreement Status
-Updates the status of the agreement of a user to the Tilia TOS
+Update the user's Tilia TOS agreement status.
 
 > Missing coverage.
 ## Get User Credits Eligibility
-Get the user's eligibility status for subscriptions based on available credits.
+Return the user's subscription credit eligibility.
 
 > Missing coverage.
 ## Get User Subscription Eligibility

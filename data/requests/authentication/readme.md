@@ -18,11 +18,11 @@ It is **REQUIRED** to include **AT LEAST** `username`, `displayName` **or** `ema
 * [checkUserExists via display name](./checkuserexists-via-display-name.md)
 * [checkUserExists via username](./checkuserexists-via-username.md)
 ## Register User Account
-~~Register a new user account.~~
+Register a new user account.
 
-**DEPRECATED:** Automated creation of accounts has no legitimate public third-party use case, and would be in violation of ToS §13.2:
+Automated creation of accounts has no legitimate public third-party use case, and would violate ToS §13.2:
 *By using the Platform, you agree not to: i. [...] use the Platform in a manner inconsistent with individual human usage*
-This endpoint is documented in the interest of completeness
+This endpoint is documented in the interest of completeness.
 
 > Missing coverage.
 ## Disable 2FA
@@ -107,6 +107,14 @@ Submit a moderation report
 > Missing coverage.
 ## Delete Moderation Report
 Delete a moderation report
+
+> Missing coverage.
+## Get OAuth Redirect Code
+Generate a short-lived OAuth redirect code for the current session.
+
+> Missing coverage.
+## Get SSO Token
+Generate a token for the specified third-party service.
 
 > Missing coverage.
 ## Delete User

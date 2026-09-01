@@ -2,7 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/error``.
+Schema is not an object at #/properties/undefined.
 ## Request
 `GET https://api.vrchat.cloud/api/1/groups/undefined`
 
