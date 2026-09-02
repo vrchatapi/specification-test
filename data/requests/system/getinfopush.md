@@ -73,7 +73,7 @@ Schema is not an object at #/items/properties/undefined.
     "hash": "ips_edmbundle2026-4fff-b715-ca4b03c608e2",
     "id": "ips_edmbundle2026-4fff-b715-ca4b03c608e2",
     "isEnabled": true,
-    "priority": 318,
+    "priority": 310,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -82,7 +82,7 @@ Schema is not an object at #/items/properties/undefined.
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-08-27T18:48:27.010Z"
+    "updatedAt": "2026-09-01T20:27:29.602Z"
   },
   {
     "clientMinVersion": null,
@@ -100,7 +100,7 @@ Schema is not an object at #/items/properties/undefined.
     "hash": "ips_casio20263880-4dd2-acf5-e12dd284771d",
     "id": "ips_casio20263880-4dd2-acf5-e12dd284771d",
     "isEnabled": true,
-    "priority": 319,
+    "priority": 315,
     "regions": [],
     "releaseStatus": "public",
     "requireClientTags": [],
@@ -109,7 +109,7 @@ Schema is not an object at #/items/properties/undefined.
       "quick-menu-banner",
       "user-all"
     ],
-    "updatedAt": "2026-08-27T18:49:07.805Z"
+    "updatedAt": "2026-09-01T20:27:41.860Z"
   },
   {
     "clientMinVersion": null,

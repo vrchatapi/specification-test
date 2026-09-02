@@ -7,9 +7,10 @@ Response schema mismatch:
 * Unexpected property at ``#/description``,
 * Unexpected property at ``#/languages``,
 * Unexpected property at ``#/languagesIso639``,
+* Unexpected property at ``#/userIcons``,
 * Unexpected property at ``#/vibeIds``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/yasj4ffh`
+`GET https://api.vrchat.cloud/api/1/instances/s/kxp47xnk`
 
 | Header | Value |
 | ------ | ----- |

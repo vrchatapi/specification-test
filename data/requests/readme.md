@@ -83,7 +83,7 @@ Response schema mismatch:
 * Unexpected property at ``#/creationLanguages``,
 * Unexpected property at ``#/description``,
 
-*3 issues truncated.*
+*4 issues truncated.*
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
 
@@ -119,7 +119,7 @@ Response schema mismatch:
 * Unexpected property at ``#/creationLanguages``,
 * Unexpected property at ``#/description``,
 
-*3 issues truncated.*
+*4 issues truncated.*
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
 Response schema mismatch:
@@ -127,7 +127,7 @@ Response schema mismatch:
 * Unexpected property at ``#/creationLanguages``,
 * Unexpected property at ``#/description``,
 
-*3 issues truncated.*
+*4 issues truncated.*
 #### [getInstance](/data/requests/instances/getinstance.md)
 
 Response schema mismatch:
@@ -135,7 +135,7 @@ Response schema mismatch:
 * Unexpected property at ``#/creationLanguages``,
 * Unexpected property at ``#/description``,
 
-*3 issues truncated.*
+*4 issues truncated.*
 #### [getShortName](/data/requests/instances/getshortname.md)
 
 

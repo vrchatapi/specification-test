@@ -43,7 +43,8 @@ Schema is not an object at #/properties/undefined.
   "bio": "",
   "bioLinks": [],
   "completedTutorials": [
-    "standalonewindows:steam:v1"
+    "standalonewindows:steam:v1",
+    "platform-agnostic:custom:onboarding-tutorial-world:v1"
   ],
   "currentAvatar": "avtr_26187637-0c30-4a09-86e1-bc928c07309e",
   "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/file",
@@ -102,6 +103,8 @@ Schema is not an object at #/properties/undefined.
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "9e75a265f45f",
+    "96523c9f8941",
     "8f4cbbbfd7bc",
     "6d446be825c8",
     "7e52870127f4",
@@ -109,9 +112,7 @@ Schema is not an object at #/properties/undefined.
     "c9ac625fbde0",
     "dba2ecce5cbe",
     "041b825adb18",
-    "768650317069",
-    "75b34108762d",
-    "15dac65a2f1c"
+    "768650317069"
   ],
   "steamDetails": {},
   "steamId": "",

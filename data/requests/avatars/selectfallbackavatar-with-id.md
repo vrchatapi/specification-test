@@ -43,12 +43,13 @@ Schema is not an object at #/properties/undefined.
   "bio": "",
   "bioLinks": [],
   "completedTutorials": [
-    "standalonewindows:steam:v1"
+    "standalonewindows:steam:v1",
+    "platform-agnostic:custom:onboarding-tutorial-world:v1"
   ],
-  "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
+  "currentAvatar": "avtr_26187637-0c30-4a09-86e1-bc928c07309e",
+  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/file",
   "currentAvatarTags": "<unstable: array of strings>",
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/256",
   "date_joined": "2023-04-11",
   "developerType": "none",
   "discordDetails": {},
@@ -70,7 +71,7 @@ Schema is not an object at #/properties/undefined.
   "hideContentFilterSettings": false,
   "homeLocation": "",
   "iconFrame": "",
-  "iconUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+  "iconUrl": "https://api.vrchat.cloud/api/1/image/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/256",
   "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
   "isAdult": true,
   "isBoopingEnabled": true,
@@ -102,6 +103,8 @@ Schema is not an object at #/properties/undefined.
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "9e75a265f45f",
+    "96523c9f8941",
     "8f4cbbbfd7bc",
     "6d446be825c8",
     "7e52870127f4",
@@ -109,9 +112,7 @@ Schema is not an object at #/properties/undefined.
     "c9ac625fbde0",
     "dba2ecce5cbe",
     "041b825adb18",
-    "768650317069",
-    "75b34108762d",
-    "15dac65a2f1c"
+    "768650317069"
   ],
   "steamDetails": {},
   "steamId": "",

@@ -2874,7 +2874,7 @@ Response schema mismatch:
       "shelfMobileSecondaryBannerImageId": "",
       "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
       "shelfTitle": "New Accessories",
-      "updatedAt": "2026-08-28T21:02:55.457Z"
+      "updatedAt": "2026-09-01T18:36:47.678Z"
     },
     {
       "highlightListing": {
