@@ -76,15 +76,10 @@ Schema is not an object at #/properties/undefined.
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/creationLanguages``,
-* Unexpected property at ``#/description``,
-
-*4 issues truncated.*
 #### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+
+
+#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
 
 
 #### [searchWorlds](/data/requests/worlds/searchworlds.md)
@@ -112,31 +107,16 @@ Response schema mismatch:
 
 ## [Instances](/data/requests/instances)
 
-#### [createInstance](/data/requests/instances/createinstance.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/creationLanguages``,
-* Unexpected property at ``#/description``,
-
-*4 issues truncated.*
-#### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/creationLanguages``,
-* Unexpected property at ``#/description``,
-
-*4 issues truncated.*
 #### [getInstance](/data/requests/instances/getinstance.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/creationLanguages``,
-* Unexpected property at ``#/description``,
 
-*4 issues truncated.*
 #### [getShortName](/data/requests/instances/getshortname.md)
+
+
+#### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
+
+
+#### [createInstance](/data/requests/instances/createinstance.md)
 
 
 
@@ -248,7 +228,7 @@ Response schema mismatch:
 * Missing property at ``#/0/highlightListing/storeIds``,
 * Missing property at ``#/0listings/0/refundable``,
 
-*165 issues truncated.*
+*200 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -256,7 +236,7 @@ Response schema mismatch:
 * Missing property at ``#/shelves/0/highlightListing/storeIds``,
 * Missing property at ``#/shelves/0listings/0/refundable``,
 
-*165 issues truncated.*
+*200 issues truncated.*
 #### [getBalanceEarnings](/data/requests/economy/getbalanceearnings.md)
 
 Response schema mismatch:
@@ -416,20 +396,16 @@ Schema is not an object at #/items/properties/subscription/properties/undefined.
 
 ## [Groups](/data/requests/groups)
 
-#### [deleteGroup](/data/requests/groups/deletegroup.md)
+#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/error``.
+* Unexpected property at ``#/0user/currentAvatarImageUrl``,
+* Unexpected property at ``#/0user/userIcon``.
 
-#### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/error``.
-
-#### [getGroupMembers](/data/requests/groups/getgroupmembers.md)
+#### [updateGroup](/data/requests/groups/updategroup.md)
 
 Response schema mismatch:
-* Invalid type at ``#``.
+Schema is not an object at #/properties/undefined.
 
 #### [getGroup](/data/requests/groups/getgroup.md)
 
@@ -438,14 +414,16 @@ Schema is not an object at #/properties/undefined.
 
 #### [createGroup](/data/requests/groups/creategroup.md)
 
+Response schema mismatch:
+Schema is not an object at #/properties/undefined.
 
-#### [updateGroup](/data/requests/groups/updategroup.md)
+#### [getGroupMembers](/data/requests/groups/getgroupmembers.md)
 
 
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
 
 
-#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
+#### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
 
 
 #### [updateGroupRepresentation with group user is not a member of](/data/requests/groups/updategrouprepresentation-with-group-user-is-not-a-member-of.md)
@@ -455,6 +433,9 @@ Schema is not an object at #/properties/undefined.
 
 
 #### [deleteGroupInvite](/data/requests/groups/deletegroupinvite.md)
+
+
+#### [deleteGroup](/data/requests/groups/deletegroup.md)
 
 
 

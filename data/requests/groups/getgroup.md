@@ -4,7 +4,7 @@
 Response schema mismatch:
 Schema is not an object at #/properties/undefined.
 ## Request
-`GET https://api.vrchat.cloud/api/1/groups/undefined`
+`GET https://api.vrchat.cloud/api/1/groups/<unstable>`
 
 | Header | Value |
 | ------ | ----- |
@@ -13,7 +13,7 @@ Schema is not an object at #/properties/undefined.
 
 
 ## Response
-`404 Not Found`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
@@ -21,6 +21,7 @@ Schema is not an object at #/properties/undefined.
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
 | content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
 | transfer-encoding | `chunked` |
@@ -29,9 +30,58 @@ Schema is not an object at #/properties/undefined.
 
 ```jsonc
 {
-  "error": {
-    "message": "Can't find groupǃ",
-    "status_code": 404
-  }
+  "allowGroupJoinPrompt": true,
+  "badges": [],
+  "bannerId": null,
+  "bannerUrl": "https://assets.vrchat.com/www/groups/default_banner.png",
+  "createdAt": "<unstable: string>",
+  "description": "My exciting new group․ It's pretty niftyǃ",
+  "discriminator": "<unstable: string>",
+  "galleries": [],
+  "iconId": null,
+  "iconUrl": "https://assets.vrchat.com/www/groups/default_icon.png",
+  "id": "<unstable: string>",
+  "isVerified": false,
+  "joinState": "closed",
+  "languages": [],
+  "lastPostCreatedAt": null,
+  "links": [],
+  "memberCount": 1,
+  "memberCountSyncedAt": "<unstable: string>",
+  "membershipStatus": "member",
+  "myMember": {
+    "groupId": "<unstable: string>",
+    "has2FA": true,
+    "id": "<unstable: string>",
+    "isRepresenting": false,
+    "isSubscribedToAnnouncements": true,
+    "isSubscribedToEventAnnouncements": true,
+    "joinedAt": "<unstable: string>",
+    "lastPostReadAt": null,
+    "mRoleIds": [],
+    "membershipStatus": "member",
+    "permissions": [
+      "*",
+      "group-instance-join",
+      "group-instance-open-create",
+      "group-instance-plus-create",
+      "group-instance-public-create",
+      "group-members-viewall"
+    ],
+    "roleIds": "<unstable: array of strings>",
+    "userId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+    "visibility": "visible"
+  },
+  "name": "Test",
+  "nameplateId": null,
+  "nameplateUrl": null,
+  "onlineMemberCount": 0,
+  "ownerId": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
+  "privacy": "default",
+  "rules": "",
+  "shortCode": "<unstable>",
+  "tags": [],
+  "transferTargetId": null,
+  "updatedAt": "<unstable: string>"
 }
 ```

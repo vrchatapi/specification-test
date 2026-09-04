@@ -1,16 +1,7 @@
 # getInstanceByShortName secure name is a valid short name
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/creationLanguages``,
-* Unexpected property at ``#/description``,
-* Unexpected property at ``#/languages``,
-* Unexpected property at ``#/languagesIso639``,
-* Unexpected property at ``#/userIcons``,
-* Unexpected property at ``#/vibeIds``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/kxp47xnk`
+`GET https://api.vrchat.cloud/api/1/instances/s/4vam2vut`
 
 | Header | Value |
 | ------ | ----- |

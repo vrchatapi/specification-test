@@ -22,10 +22,19 @@ Response schema mismatch:
 * Missing property at ``#/shelves/0listings/7/storeIds``,
 * Missing property at ``#/shelves/0listings/8/refundable``,
 * Missing property at ``#/shelves/0listings/8/storeIds``,
+* Missing property at ``#/shelves/0listings/9/refundable``,
+* Missing property at ``#/shelves/0listings/9/storeIds``,
+* Missing property at ``#/shelves/0listings/10/refundable``,
+* Missing property at ``#/shelves/0listings/10/storeIds``,
+* Unexpected property at ``#/shelves/0listings/10attribution/collaborationId``,
+* Missing property at ``#/shelves/0listings/11/refundable``,
+* Missing property at ``#/shelves/0listings/11/storeIds``,
 * Unexpected property at ``#/shelves/0/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/0/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/0/shelfMobileLogoImageId``,
 * Unexpected property at ``#/shelves/0/shelfMobileSecondaryBannerImageId``,
+* Missing property at ``#/shelves/1/highlightListing/refundable``,
+* Missing property at ``#/shelves/1/highlightListing/storeIds``,
 * Missing property at ``#/shelves/1listings/0/refundable``,
 * Missing property at ``#/shelves/1listings/0/storeIds``,
 * Missing property at ``#/shelves/1listings/1/refundable``,
@@ -44,10 +53,6 @@ Response schema mismatch:
 * Missing property at ``#/shelves/1listings/7/storeIds``,
 * Missing property at ``#/shelves/1listings/8/refundable``,
 * Missing property at ``#/shelves/1listings/8/storeIds``,
-* Missing property at ``#/shelves/1listings/9/refundable``,
-* Missing property at ``#/shelves/1listings/9/storeIds``,
-* Missing property at ``#/shelves/1listings/10/refundable``,
-* Missing property at ``#/shelves/1listings/10/storeIds``,
 * Unexpected property at ``#/shelves/1/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/1/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/1/shelfMobileLogoImageId``,
@@ -68,6 +73,12 @@ Response schema mismatch:
 * Missing property at ``#/shelves/2listings/6/storeIds``,
 * Missing property at ``#/shelves/2listings/7/refundable``,
 * Missing property at ``#/shelves/2listings/7/storeIds``,
+* Missing property at ``#/shelves/2listings/8/refundable``,
+* Missing property at ``#/shelves/2listings/8/storeIds``,
+* Missing property at ``#/shelves/2listings/9/refundable``,
+* Missing property at ``#/shelves/2listings/9/storeIds``,
+* Missing property at ``#/shelves/2listings/10/refundable``,
+* Missing property at ``#/shelves/2listings/10/storeIds``,
 * Unexpected property at ``#/shelves/2/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/2/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/2/shelfMobileLogoImageId``,
@@ -88,58 +99,64 @@ Response schema mismatch:
 * Missing property at ``#/shelves/3listings/6/storeIds``,
 * Missing property at ``#/shelves/3listings/7/refundable``,
 * Missing property at ``#/shelves/3listings/7/storeIds``,
-* Missing property at ``#/shelves/3listings/8/refundable``,
-* Missing property at ``#/shelves/3listings/8/storeIds``,
-* Missing property at ``#/shelves/3listings/9/refundable``,
-* Missing property at ``#/shelves/3listings/9/storeIds``,
-* Missing property at ``#/shelves/3listings/10/refundable``,
-* Missing property at ``#/shelves/3listings/10/storeIds``,
-* Missing property at ``#/shelves/3listings/11/refundable``,
-* Missing property at ``#/shelves/3listings/11/storeIds``,
-* Missing property at ``#/shelves/3listings/12/refundable``,
-* Missing property at ``#/shelves/3listings/12/storeIds``,
-* Missing property at ``#/shelves/3listings/13/refundable``,
-* Missing property at ``#/shelves/3listings/13/storeIds``,
-* Missing property at ``#/shelves/3listings/14/refundable``,
-* Missing property at ``#/shelves/3listings/14/storeIds``,
-* Missing property at ``#/shelves/3listings/15/refundable``,
-* Missing property at ``#/shelves/3listings/15/storeIds``,
-* Missing property at ``#/shelves/3listings/16/refundable``,
-* Missing property at ``#/shelves/3listings/16/storeIds``,
-* Missing property at ``#/shelves/3listings/17/refundable``,
-* Missing property at ``#/shelves/3listings/17/storeIds``,
-* Missing property at ``#/shelves/3listings/18/refundable``,
-* Missing property at ``#/shelves/3listings/18/storeIds``,
-* Missing property at ``#/shelves/3listings/19/refundable``,
-* Missing property at ``#/shelves/3listings/19/storeIds``,
-* Missing property at ``#/shelves/3listings/20/refundable``,
-* Missing property at ``#/shelves/3listings/20/storeIds``,
-* Missing property at ``#/shelves/3listings/21/refundable``,
-* Missing property at ``#/shelves/3listings/21/storeIds``,
-* Missing property at ``#/shelves/3listings/22/refundable``,
-* Missing property at ``#/shelves/3listings/22/storeIds``,
-* Missing property at ``#/shelves/3listings/23/refundable``,
-* Missing property at ``#/shelves/3listings/23/storeIds``,
-* Missing property at ``#/shelves/3listings/24/refundable``,
-* Missing property at ``#/shelves/3listings/24/storeIds``,
 * Unexpected property at ``#/shelves/3/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/3/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/3/shelfMobileLogoImageId``,
 * Unexpected property at ``#/shelves/3/shelfMobileSecondaryBannerImageId``,
-* Missing property at ``#/shelves/4/highlightListing/refundable``,
-* Missing property at ``#/shelves/4/highlightListing/storeIds``,
 * Missing property at ``#/shelves/4listings/0/refundable``,
 * Missing property at ``#/shelves/4listings/0/storeIds``,
 * Missing property at ``#/shelves/4listings/1/refundable``,
 * Missing property at ``#/shelves/4listings/1/storeIds``,
 * Missing property at ``#/shelves/4listings/2/refundable``,
 * Missing property at ``#/shelves/4listings/2/storeIds``,
-* Unexpected property at ``#/shelves/4listings/2attribution/collaborationId``,
 * Missing property at ``#/shelves/4listings/3/refundable``,
 * Missing property at ``#/shelves/4listings/3/storeIds``,
-* Unexpected property at ``#/shelves/4listings/3attribution/collaborationId``,
 * Missing property at ``#/shelves/4listings/4/refundable``,
 * Missing property at ``#/shelves/4listings/4/storeIds``,
+* Missing property at ``#/shelves/4listings/5/refundable``,
+* Missing property at ``#/shelves/4listings/5/storeIds``,
+* Missing property at ``#/shelves/4listings/6/refundable``,
+* Missing property at ``#/shelves/4listings/6/storeIds``,
+* Missing property at ``#/shelves/4listings/7/refundable``,
+* Missing property at ``#/shelves/4listings/7/storeIds``,
+* Missing property at ``#/shelves/4listings/8/refundable``,
+* Missing property at ``#/shelves/4listings/8/storeIds``,
+* Missing property at ``#/shelves/4listings/9/refundable``,
+* Missing property at ``#/shelves/4listings/9/storeIds``,
+* Missing property at ``#/shelves/4listings/10/refundable``,
+* Missing property at ``#/shelves/4listings/10/storeIds``,
+* Missing property at ``#/shelves/4listings/11/refundable``,
+* Missing property at ``#/shelves/4listings/11/storeIds``,
+* Missing property at ``#/shelves/4listings/12/refundable``,
+* Missing property at ``#/shelves/4listings/12/storeIds``,
+* Missing property at ``#/shelves/4listings/13/refundable``,
+* Missing property at ``#/shelves/4listings/13/storeIds``,
+* Missing property at ``#/shelves/4listings/14/refundable``,
+* Missing property at ``#/shelves/4listings/14/storeIds``,
+* Missing property at ``#/shelves/4listings/15/refundable``,
+* Missing property at ``#/shelves/4listings/15/storeIds``,
+* Missing property at ``#/shelves/4listings/16/refundable``,
+* Missing property at ``#/shelves/4listings/16/storeIds``,
+* Missing property at ``#/shelves/4listings/17/refundable``,
+* Missing property at ``#/shelves/4listings/17/storeIds``,
+* Missing property at ``#/shelves/4listings/18/refundable``,
+* Missing property at ``#/shelves/4listings/18/storeIds``,
+* Missing property at ``#/shelves/4listings/19/refundable``,
+* Missing property at ``#/shelves/4listings/19/storeIds``,
+* Missing property at ``#/shelves/4listings/20/refundable``,
+* Missing property at ``#/shelves/4listings/20/storeIds``,
+* Missing property at ``#/shelves/4listings/21/refundable``,
+* Missing property at ``#/shelves/4listings/21/storeIds``,
+* Missing property at ``#/shelves/4listings/22/refundable``,
+* Missing property at ``#/shelves/4listings/22/storeIds``,
+* Missing property at ``#/shelves/4listings/23/refundable``,
+* Missing property at ``#/shelves/4listings/23/storeIds``,
+* Missing property at ``#/shelves/4listings/24/refundable``,
+* Missing property at ``#/shelves/4listings/24/storeIds``,
+* Missing property at ``#/shelves/4listings/25/refundable``,
+* Missing property at ``#/shelves/4listings/25/storeIds``,
+* Missing property at ``#/shelves/4listings/26/refundable``,
+* Missing property at ``#/shelves/4listings/26/storeIds``,
 * Unexpected property at ``#/shelves/4/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/4/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/4/shelfMobileLogoImageId``,
@@ -152,24 +169,42 @@ Response schema mismatch:
 * Missing property at ``#/shelves/5listings/1/storeIds``,
 * Missing property at ``#/shelves/5listings/2/refundable``,
 * Missing property at ``#/shelves/5listings/2/storeIds``,
+* Unexpected property at ``#/shelves/5listings/2attribution/collaborationId``,
 * Missing property at ``#/shelves/5listings/3/refundable``,
 * Missing property at ``#/shelves/5listings/3/storeIds``,
+* Unexpected property at ``#/shelves/5listings/3attribution/collaborationId``,
 * Missing property at ``#/shelves/5listings/4/refundable``,
 * Missing property at ``#/shelves/5listings/4/storeIds``,
-* Missing property at ``#/shelves/5listings/5/refundable``,
-* Missing property at ``#/shelves/5listings/5/storeIds``,
-* Missing property at ``#/shelves/5listings/6/refundable``,
-* Missing property at ``#/shelves/5listings/6/storeIds``,
-* Missing property at ``#/shelves/5listings/7/refundable``,
-* Missing property at ``#/shelves/5listings/7/storeIds``,
-* Missing property at ``#/shelves/5listings/8/refundable``,
-* Missing property at ``#/shelves/5listings/8/storeIds``,
-* Missing property at ``#/shelves/5listings/9/refundable``,
-* Missing property at ``#/shelves/5listings/9/storeIds``,
 * Unexpected property at ``#/shelves/5/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/5/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/5/shelfMobileLogoImageId``,
-* Unexpected property at ``#/shelves/5/shelfMobileSecondaryBannerImageId``.
+* Unexpected property at ``#/shelves/5/shelfMobileSecondaryBannerImageId``,
+* Missing property at ``#/shelves/6/highlightListing/refundable``,
+* Missing property at ``#/shelves/6/highlightListing/storeIds``,
+* Missing property at ``#/shelves/6listings/0/refundable``,
+* Missing property at ``#/shelves/6listings/0/storeIds``,
+* Missing property at ``#/shelves/6listings/1/refundable``,
+* Missing property at ``#/shelves/6listings/1/storeIds``,
+* Missing property at ``#/shelves/6listings/2/refundable``,
+* Missing property at ``#/shelves/6listings/2/storeIds``,
+* Missing property at ``#/shelves/6listings/3/refundable``,
+* Missing property at ``#/shelves/6listings/3/storeIds``,
+* Missing property at ``#/shelves/6listings/4/refundable``,
+* Missing property at ``#/shelves/6listings/4/storeIds``,
+* Missing property at ``#/shelves/6listings/5/refundable``,
+* Missing property at ``#/shelves/6listings/5/storeIds``,
+* Missing property at ``#/shelves/6listings/6/refundable``,
+* Missing property at ``#/shelves/6listings/6/storeIds``,
+* Missing property at ``#/shelves/6listings/7/refundable``,
+* Missing property at ``#/shelves/6listings/7/storeIds``,
+* Missing property at ``#/shelves/6listings/8/refundable``,
+* Missing property at ``#/shelves/6listings/8/storeIds``,
+* Missing property at ``#/shelves/6listings/9/refundable``,
+* Missing property at ``#/shelves/6listings/9/storeIds``,
+* Unexpected property at ``#/shelves/6/shelfClientBannerImageId``,
+* Unexpected property at ``#/shelves/6/shelfMobileHeroBannerImageId``,
+* Unexpected property at ``#/shelves/6/shelfMobileLogoImageId``,
+* Unexpected property at ``#/shelves/6/shelfMobileSecondaryBannerImageId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&hydrateProducts=true`
 
@@ -203,6 +238,7 @@ Response schema mismatch:
   "sellerDisplayName": "VRChat",
   "sellerId": "usr_00000000-0000-0000-0000-000000000011",
   "shelfIds": [
+    "ess_4d0a2ab8-3ca5-463a-ba93-e89edf1d3120",
     "ess_7e4ed8fc-1248-433a-baf8-70575cfcbc60",
     "ess_66c639e6-88da-4d5a-a4dd-95a1e2e947e6",
     "ess_798cfeeb-7625-408e-9a82-bad1ace374c1",
@@ -211,6 +247,731 @@ Response schema mismatch:
     "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc"
   ],
   "shelves": [
+    {
+      "highlightListing": {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Gugenka",
+            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+        "description": "A special bundle for the Hatsune Miku YOZORA Program 2026 worldǃ Exclusive cute items to max out the hype at the boat date and live show‚ plus a piece of Hatsune Miku to carry anywhere․\n\nIncludes˸ Starlight Rowboat‚ Memorial Sparkler‚ Crystal Heart Lightstick‚ Matching Ribbon‚ Special Mi-Crepe‚ Single-Ear Headset Microphone‚ Ribbon ＆ Frill Gate‚ Sparkling Hatsune Miku‚ Stardust ＆ Notes Shooting Star‚ Hatsune Miku's Emoji Bundle‚ Hatsune Miku （Mikudayo） and Hatsune Miku Profile Decoration Set․",
+        "displayName": "Hatsune Miku YOZORA Program Bundle",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": true,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_aaceb491-8e96-4695-a75d-6b7f68d997a0",
+        "imageId": "file_d5cfcbfe-448a-4951-a4d8-c00d1cd84ec9",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 4800,
+        "productIds": [
+          "prod_64270639-2521-46df-837b-3e9675f7d8fe",
+          "prod_93093f89-b57d-4351-a6e2-5cb71659615b",
+          "prod_097be7d0-38d5-4237-b972-81bcadec6f58",
+          "prod_ab996f22-05c2-41bb-97a0-be01276fd792",
+          "prod_92e6d7b0-f2af-41db-936d-809dd28679e0",
+          "prod_d3ba6c09-652f-4770-bf54-b4555a1366b0",
+          "prod_03cfdd6b-2d9d-408c-bfc6-32d14aaea7b9",
+          "prod_977359ed-7f85-44de-bd0e-56e0ae86b278",
+          "prod_034c9622-e5cf-41bd-b22e-9599fa10983b",
+          "prod_6569a7e9-1062-4902-9665-5a395bb34f42",
+          "prod_bf4ce38e-0277-495f-baef-eac71302fe1d",
+          "prod_429f9397-f2cc-4460-afad-baf9550bb242",
+          "prod_21e1f821-518a-45f5-8a62-5e39e9907a81",
+          "prod_4840cbe5-124d-4286-b7b7-03911ed6a855",
+          "prod_3d3708e5-09bb-4af0-a871-f4c5cd98baa8",
+          "prod_24b01408-dcd1-4ada-8392-f1d0e7303ed3",
+          "prod_b94bc50d-57d8-4504-ac24-b4673947f8d6",
+          "prod_410d8199-2152-4d22-bb24-5e25c2b99ed5",
+          "prod_67eca6a6-2026-486c-81fa-d7017dbbb90c",
+          "prod_58a21c2c-345e-44c4-9daa-b9b5015cb59e",
+          "prod_36021e56-28d4-4f00-aad3-c000ef0f0d02",
+          "prod_d30583ff-85f6-43ed-b514-a5f9369a3d5c"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "warpeffect",
+          "portalskin",
+          "accessory",
+          "prop",
+          "nameplateEffect",
+          "iconFrame",
+          "profileEffect",
+          "emoji",
+          "sticker",
+          "companion"
+        ],
+        "products": [
+          "prod_64270639-2521-46df-837b-3e9675f7d8fe",
+          "prod_93093f89-b57d-4351-a6e2-5cb71659615b",
+          "prod_097be7d0-38d5-4237-b972-81bcadec6f58",
+          "prod_ab996f22-05c2-41bb-97a0-be01276fd792",
+          "prod_92e6d7b0-f2af-41db-936d-809dd28679e0",
+          "prod_d3ba6c09-652f-4770-bf54-b4555a1366b0",
+          "prod_03cfdd6b-2d9d-408c-bfc6-32d14aaea7b9",
+          "prod_977359ed-7f85-44de-bd0e-56e0ae86b278",
+          "prod_034c9622-e5cf-41bd-b22e-9599fa10983b",
+          "prod_6569a7e9-1062-4902-9665-5a395bb34f42",
+          "prod_bf4ce38e-0277-495f-baef-eac71302fe1d",
+          "prod_429f9397-f2cc-4460-afad-baf9550bb242",
+          "prod_21e1f821-518a-45f5-8a62-5e39e9907a81",
+          "prod_4840cbe5-124d-4286-b7b7-03911ed6a855",
+          "prod_3d3708e5-09bb-4af0-a871-f4c5cd98baa8",
+          "prod_24b01408-dcd1-4ada-8392-f1d0e7303ed3",
+          "prod_b94bc50d-57d8-4504-ac24-b4673947f8d6",
+          "prod_410d8199-2152-4d22-bb24-5e25c2b99ed5",
+          "prod_67eca6a6-2026-486c-81fa-d7017dbbb90c",
+          "prod_58a21c2c-345e-44c4-9daa-b9b5015cb59e",
+          "prod_36021e56-28d4-4f00-aad3-c000ef0f0d02",
+          "prod_d30583ff-85f6-43ed-b514-a5f9369a3d5c"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 4320,
+        "whenToExpire": "2026-10-04T00:00:00.000Z"
+      },
+      "highlightListingId": "prod_aaceb491-8e96-4695-a75d-6b7f68d997a0",
+      "id": "ess_4d0a2ab8-3ca5-463a-ba93-e89edf1d3120",
+      "listingIds": [
+        "prod_23bce454-99e0-4a18-806a-8cabbca51d59",
+        "prod_50ca7cf2-d0f9-4aea-8c17-91e4e650ccba",
+        "prod_c88fef21-d5fb-4f43-b699-6970d7c1c470",
+        "prod_0f868149-c545-4a54-9e43-76bb417eabcb",
+        "prod_7ae00af8-ae3c-4a15-b604-7f28c67bbc82",
+        "prod_0c54100f-da6e-4500-8cae-adf8252d7549",
+        "prod_26c25de1-cba0-458c-a1c8-39bc743aa0fa",
+        "prod_91c6e969-0219-43b0-9022-e75e0cc6b3f6",
+        "prod_c9a446e2-507e-4ef2-b42a-deef29b00fb7",
+        "prod_791f9ea7-2905-4dab-8433-e9c56a605766",
+        "prod_61cdfb33-d030-40a5-b1df-750b15b6a78d",
+        "prod_e10981da-e27c-4e1b-9ef0-61eb8c18337a"
+      ],
+      "listings": [
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "Meet your new companion, Hatsune Miku (Mikudayo)! She's always by your side. You've got to experience all the fun times you can spend together! © CFM/SEGA/GSC ",
+          "displayName": "Hatsune Miku (Mikudayo)",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": true,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_23bce454-99e0-4a18-806a-8cabbca51d59",
+          "imageId": "file_f240f923-8337-4562-a9a3-3ad27d19224c",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1800,
+          "productIds": [
+            "prod_36021e56-28d4-4f00-aad3-c000ef0f0d02"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "companion"
+          ],
+          "products": [
+            "prod_36021e56-28d4-4f00-aad3-c000ef0f0d02"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Companion",
+          "vrcPlusDiscountPrice": 1620,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "8JoV9XEdpo",
+          "description": "A cute decoration set featuring the signature colors of the Hatsune Miku! Decorate your profile to make it super cute! Original Costume Design：RinYuu © Crypton Future Media, INC. www.piapro.net",
+          "displayName": "Hatsune Miku YOZORA Program",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_50ca7cf2-d0f9-4aea-8c17-91e4e650ccba",
+          "imageId": "file_1f6e4673-9829-4750-9705-35ddbdcdd4e5",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1200,
+          "productIds": [
+            "prod_977359ed-7f85-44de-bd0e-56e0ae86b278",
+            "prod_034c9622-e5cf-41bd-b22e-9599fa10983b",
+            "prod_6569a7e9-1062-4902-9665-5a395bb34f42"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "nameplateEffect",
+            "iconFrame",
+            "profileEffect"
+          ],
+          "products": [
+            "prod_977359ed-7f85-44de-bd0e-56e0ae86b278",
+            "prod_034c9622-e5cf-41bd-b22e-9599fa10983b",
+            "prod_6569a7e9-1062-4902-9665-5a395bb34f42"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Bundle",
+          "vrcPlusDiscountPrice": 1080,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "A dazzling entrance effect filled with swirling stardust and musical notes! Step into the spotlight and make a super cute entrance just like Hatsune Miku taking the stage! Original Costume Design：RinYuu © Crypton Future Media, INC. www.piapro.net\n",
+          "displayName": "Stardust & Notes Shooting Star",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_c88fef21-d5fb-4f43-b699-6970d7c1c470",
+          "imageId": "file_d6882a0a-0a31-4e77-9417-a61f3b2acc63",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_64270639-2521-46df-837b-3e9675f7d8fe"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "warpeffect"
+          ],
+          "products": [
+            "prod_64270639-2521-46df-837b-3e9675f7d8fe"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Warp Effect",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "The absolute cutest portal wrapped in big ribbons and frillsǃ Welcome to the world of Hatsune Mikuǃ Original Costume Design：RinYuu © Crypton Future Media‚ INC․ www․piapro․net",
+          "displayName": "Ribbon & Frill Gate",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_0f868149-c545-4a54-9e43-76bb417eabcb",
+          "imageId": "file_cd9a9755-91cf-4005-af26-d818d1d8c7e9",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_93093f89-b57d-4351-a6e2-5cb71659615b"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "portalskin"
+          ],
+          "products": [
+            "prod_93093f89-b57d-4351-a6e2-5cb71659615b"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Portal",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "Add the festival Memory Gondola from the 'Hatsune Miku YOZORA Program 2026' world to your collectionǃ Simply take a seat‚ and it becomes your very own romantic special spot․ Original Costume Design：RinYuu © Crypton Future Media‚ INC․ www․piapro․net",
+          "displayName": "Starlight Rowboat",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_7ae00af8-ae3c-4a15-b604-7f28c67bbc82",
+          "imageId": "file_4b1fe739-f764-4aa8-b529-2d63234190a0",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_d30583ff-85f6-43ed-b514-a5f9369a3d5c"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "prop"
+          ],
+          "products": [
+            "prod_d30583ff-85f6-43ed-b514-a5f9369a3d5c"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Prop",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "This aesthetic item featuring a cute Hatsune Miku illustration is sure to boost your mood. Draw trails of light in the air? Watch the sparks with a friend? It's so beautiful, you might end up just staring at each other after the fireworks burns out! Art by non / Original Costume Design：RinYuu © Crypton Future Media, INC. www.piapro.net",
+          "displayName": "Memorial Sparkler",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_0c54100f-da6e-4500-8cae-adf8252d7549",
+          "imageId": "file_33a06195-0c23-4ae2-bd66-966fc5c811d5",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 700,
+          "productIds": [
+            "prod_03cfdd6b-2d9d-408c-bfc6-32d14aaea7b9"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "prop"
+          ],
+          "products": [
+            "prod_03cfdd6b-2d9d-408c-bfc6-32d14aaea7b9"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Prop",
+          "vrcPlusDiscountPrice": 630,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "Have you ever seen a lightstick this cute? Every time you change colors‚ a magical wave of big stars and hearts comes flying outǃ Deliver your love to Hatsune Miku or someone specialǃOriginal Costume Design：RinYuu © Crypton Future Media‚ INC․ www․piapro․net",
+          "displayName": "Crystal Heart Lightstick",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_26c25de1-cba0-458c-a1c8-39bc743aa0fa",
+          "imageId": "file_3b313c71-7359-48e6-b825-beb84adcffe9",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_d3ba6c09-652f-4770-bf54-b4555a1366b0"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "prop"
+          ],
+          "products": [
+            "prod_d3ba6c09-652f-4770-bf54-b4555a1366b0"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Prop",
+          "vrcPlusDiscountPrice": 720,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "A luxurious sweet topped with heart-shaped strawberries‚ colorful sprinkles‚ and a cute Hatsune Miku cookieǃ Is it just too cute to eat?\nOriginal Costume Design：RinYuu © Crypton Future Media‚ INC․ www․piapro․net",
+          "displayName": "Special Mi-Crepe",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_91c6e969-0219-43b0-9022-e75e0cc6b3f6",
+          "imageId": "file_ca8c9512-d3ad-4a4c-89f6-95fdab0cc787",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 600,
+          "productIds": [
+            "prod_ab996f22-05c2-41bb-97a0-be01276fd792"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "prop"
+          ],
+          "products": [
+            "prod_ab996f22-05c2-41bb-97a0-be01276fd792"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Prop",
+          "vrcPlusDiscountPrice": 540,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "Slip it onto one ear‚ and instantly turn any spot into your own personal main stageǃ A stylish microphone accessory popping with iconic Hatsune Miku-inspired colorsǃ Original Costume Design：RinYuu © Crypton Future Media‚ INC․ www․piapro․net",
+          "displayName": "Single-Ear Headset Microphone",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_c9a446e2-507e-4ef2-b42a-deef29b00fb7",
+          "imageId": "file_f840fc27-5943-4f25-8b64-f5502400342f",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 600,
+          "productIds": [
+            "prod_097be7d0-38d5-4237-b972-81bcadec6f58"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_097be7d0-38d5-4237-b972-81bcadec6f58"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 540,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "A giant pink ribbon matching HatsuneMikuǃ Just put it on‚ and your avatar's idol aura will instantly bloom․ Original Costume Design：RinYuu © Crypton Future Media‚ INC․ www․piapro․net",
+          "displayName": "Matching Ribbon",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_791f9ea7-2905-4dab-8433-e9c56a605766",
+          "imageId": "file_af5231be-bd50-4d40-8e21-b8e7fa0ddf88",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 900,
+          "productIds": [
+            "prod_92e6d7b0-f2af-41db-936d-809dd28679e0"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_92e6d7b0-f2af-41db-936d-809dd28679e0"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 810,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "collaborationId": "GugenkaMiku",
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "GugenkaMiku",
+          "description": "A set of 8 expressive emojis featuring Hatsune Miku in heart-shaped frames! Brighten up your daily chats with a cute touch of Miku! Original Costume Design：RinYuu© Crypton Future Media, INC. www.piapro.net",
+          "displayName": "Hatsune Miku’s Emoji Bundle",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_61cdfb33-d030-40a5-b1df-750b15b6a78d",
+          "imageId": "file_f8ea2a58-0ddc-42c2-a0b7-ec7562ca582e",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 600,
+          "productIds": [
+            "prod_bf4ce38e-0277-495f-baef-eac71302fe1d",
+            "prod_429f9397-f2cc-4460-afad-baf9550bb242",
+            "prod_21e1f821-518a-45f5-8a62-5e39e9907a81",
+            "prod_4840cbe5-124d-4286-b7b7-03911ed6a855",
+            "prod_3d3708e5-09bb-4af0-a871-f4c5cd98baa8",
+            "prod_24b01408-dcd1-4ada-8392-f1d0e7303ed3",
+            "prod_b94bc50d-57d8-4504-ac24-b4673947f8d6",
+            "prod_410d8199-2152-4d22-bb24-5e25c2b99ed5"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "emoji"
+          ],
+          "products": [
+            "prod_bf4ce38e-0277-495f-baef-eac71302fe1d",
+            "prod_429f9397-f2cc-4460-afad-baf9550bb242",
+            "prod_21e1f821-518a-45f5-8a62-5e39e9907a81",
+            "prod_4840cbe5-124d-4286-b7b7-03911ed6a855",
+            "prod_3d3708e5-09bb-4af0-a871-f4c5cd98baa8",
+            "prod_24b01408-dcd1-4ada-8392-f1d0e7303ed3",
+            "prod_b94bc50d-57d8-4504-ac24-b4673947f8d6",
+            "prod_410d8199-2152-4d22-bb24-5e25c2b99ed5"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Bundle",
+          "vrcPlusDiscountPrice": 540,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "A special 2-sticker set that reveals glowing pink star holograms as the angle shiftsǃ Stick these cute Hatsune Mikus anywhere‚ and their adorable charm will melt your heartǃ Art by non ⁄ Original Costume Design：RinYuu © Crypton Future Media‚ INC․ www․piapro․net",
+          "displayName": "Sparkling Hatsune Miku",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_e10981da-e27c-4e1b-9ef0-61eb8c18337a",
+          "imageId": "file_673b9584-2574-45ba-85fc-f118e01f9dc3",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 200,
+          "productIds": [
+            "prod_67eca6a6-2026-486c-81fa-d7017dbbb90c",
+            "prod_58a21c2c-345e-44c4-9daa-b9b5015cb59e"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "sticker"
+          ],
+          "products": [
+            "prod_67eca6a6-2026-486c-81fa-d7017dbbb90c",
+            "prod_58a21c2c-345e-44c4-9daa-b9b5015cb59e"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Bundle",
+          "vrcPlusDiscountPrice": 180,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        }
+      ],
+      "shelfBackgroundImageId": "file_f2fde8d2-47bb-4e8a-a1f2-09d63250d95c",
+      "shelfClientBannerImageId": "",
+      "shelfDescription": "",
+      "shelfIconImageId": "file_1b4ac81f-172f-4feb-a08c-51c758e0e5f9",
+      "shelfLayout": "highlightLeft",
+      "shelfMobileHeroBannerImageId": "",
+      "shelfMobileLogoImageId": "",
+      "shelfMobileSecondaryBannerImageId": "",
+      "shelfTabBackgroundImageId": "file_642432e8-fff5-4adb-95f6-722f62224a81",
+      "shelfTitle": "Hatsune Miku YOZORA Program 2026",
+      "updatedAt": "2026-09-04T00:00:56.949Z"
+    },
     {
       "highlightListing": {
         "active": true,
@@ -1654,6 +2415,8 @@ Response schema mismatch:
     {
       "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
       "listingIds": [
+        "prod_791f9ea7-2905-4dab-8433-e9c56a605766",
+        "prod_c9a446e2-507e-4ef2-b42a-deef29b00fb7",
         "prod_0a44f34f-4bd0-48f6-943e-2608a85097b2",
         "prod_f39a1a08-e690-4f0f-b4f6-84e4619a08ee",
         "prod_3c417948-e07a-4519-9495-7ed20757a642",
@@ -1681,6 +2444,102 @@ Response schema mismatch:
         "prod_2b6dd6e2-0fd5-43f2-b31f-a64a16f8f4b6"
       ],
       "listings": [
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "A giant pink ribbon matching HatsuneMikuǃ Just put it on‚ and your avatar's idol aura will instantly bloom․ Original Costume Design：RinYuu © Crypton Future Media‚ INC․ www․piapro․net",
+          "displayName": "Matching Ribbon",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_791f9ea7-2905-4dab-8433-e9c56a605766",
+          "imageId": "file_af5231be-bd50-4d40-8e21-b8e7fa0ddf88",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 900,
+          "productIds": [
+            "prod_92e6d7b0-f2af-41db-936d-809dd28679e0"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_92e6d7b0-f2af-41db-936d-809dd28679e0"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 810,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "Slip it onto one ear‚ and instantly turn any spot into your own personal main stageǃ A stylish microphone accessory popping with iconic Hatsune Miku-inspired colorsǃ Original Costume Design：RinYuu © Crypton Future Media‚ INC․ www․piapro․net",
+          "displayName": "Single-Ear Headset Microphone",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_c9a446e2-507e-4ef2-b42a-deef29b00fb7",
+          "imageId": "file_f840fc27-5943-4f25-8b64-f5502400342f",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 600,
+          "productIds": [
+            "prod_097be7d0-38d5-4237-b972-81bcadec6f58"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_097be7d0-38d5-4237-b972-81bcadec6f58"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 540,
+          "whenToExpire": "2026-10-04T00:00:00.000Z"
+        },
         {
           "active": true,
           "attribution": {
@@ -2874,7 +3733,7 @@ Response schema mismatch:
       "shelfMobileSecondaryBannerImageId": "",
       "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
       "shelfTitle": "New Accessories",
-      "updatedAt": "2026-09-01T18:36:47.678Z"
+      "updatedAt": "2026-09-03T22:52:25.984Z"
     },
     {
       "highlightListing": {

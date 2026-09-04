@@ -1,5 +1,13 @@
 # Instances
 
+## List Instance Categories
+Returns the categories an instance can be listed under.
+
+> Missing coverage.
+## List Instance Vibes
+Returns the vibes an instance can be tagged with.
+
+> Missing coverage.
 ## Create Instance
 Create an instance
 

@@ -32,6 +32,60 @@ Schema is not an object at #/items/properties/undefined.
 [
   {
     "clientMinVersion": null,
+    "createdAt": "2026-09-02T20:57:32.874Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4c79dd81-a368-41f4-a0ec-35dacb68f3ad.png",
+      "onPressed": {
+        "command": "scrollToShelf",
+        "parameters": [
+          "ess_4d0a2ab8-3ca5-463a-ba93-e89edf1d3120"
+        ]
+      }
+    },
+    "endDate": "2026-10-05T00:00:00.000Z",
+    "hash": "ips_mikuyozora26a-44e5-8c57-f8ad5ae196d9",
+    "id": "ips_mikuyozora26a-44e5-8c57-f8ad5ae196d9",
+    "isEnabled": true,
+    "priority": 290,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-09-04T00:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-09-02T20:57:46.705Z"
+  },
+  {
+    "clientMinVersion": null,
+    "createdAt": "2026-08-12T16:56:49.030Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_8a79b51d-d133-405f-a3d5-1bffa2bf0838.png",
+      "onPressed": {
+        "command": "OpenWorldsMenu",
+        "parameters": [
+          "ips_39a02364-e205-417e-92ab-1d8374559358"
+        ]
+      }
+    },
+    "endDate": "2026-09-12T07:00:00.000Z",
+    "hash": "ips_venice-immersive-20262a-93d196dadea9",
+    "id": "ips_venice-immersive-20262a-93d196dadea9",
+    "isEnabled": true,
+    "priority": 300,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-09-02T07:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-09-01T22:10:20.924Z"
+  },
+  {
+    "clientMinVersion": null,
     "createdAt": "2026-08-27T13:04:25.745Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_e34589e8-0faa-4651-a234-0491cdd5d835.png",

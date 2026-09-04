@@ -1,16 +1,7 @@
 # getWorldInstance first listed instance
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/categoryId``,
-* Unexpected property at ``#/creationLanguages``,
-* Unexpected property at ``#/description``,
-* Unexpected property at ``#/languages``,
-* Unexpected property at ``#/languagesIso639``,
-* Unexpected property at ``#/userIcons``,
-* Unexpected property at ``#/vibeIds``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/73736~group(grp_73821299-38ed-4a14-b0c6-8f7acd1fc290)~groupAccessType(public)~ageGate~region(us)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/86335~group(grp_7867ad99-779f-4236-a984-0654956e4daa)~groupAccessType(public)~region(us)`
 
 | Header | Value |
 | ------ | ----- |

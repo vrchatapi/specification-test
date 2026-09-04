@@ -1,10 +1,7 @@
 # getGroupMembers
 
-## Issues
-Response schema mismatch:
-* Invalid type at ``#``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/groups/undefined/members`
+`GET https://api.vrchat.cloud/api/1/groups/<unstable>/members`
 
 | Header | Value |
 | ------ | ----- |
@@ -13,25 +10,21 @@ Response schema mismatch:
 
 
 ## Response
-`400 Bad Request`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `77` |
+| content-length | `2` |
 | content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Origin, Accept-Encoding` |
+| vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
-{
-  "error": {
-    "message": "groupId must be an ID˸ 'undefined'",
-    "status_code": 400
-  }
-}
+[]
 ```

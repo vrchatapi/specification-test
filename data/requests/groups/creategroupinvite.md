@@ -1,7 +1,7 @@
 # createGroupInvite
 
 ## Request
-`POST https://api.vrchat.cloud/api/1/groups/undefined/invites`
+`POST https://api.vrchat.cloud/api/1/groups/<unstable>/invites`
 
 | Header | Value |
 | ------ | ----- |
@@ -17,25 +17,25 @@
 
 
 ## Response
-`400 Bad Request`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `77` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| vary | `Origin, Accept-Encoding` |
+| transfer-encoding | `chunked` |
+| vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "error": {
-    "message": "groupId must be an ID˸ 'undefined'",
-    "status_code": 400
+  "success": {
+    "message": "b9ce75b4dc299 has been invited!",
+    "status_code": 200
   }
 }
 ```
