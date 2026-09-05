@@ -1,192 +1,33 @@
 # getCurrentUser after two-factor authentication
 
-## Issues
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user`
 
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
-| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
-`200 OK`
+`401 Unauthorized`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `65` |
 | content-type | `application/json; charset=utf-8` |
-| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "acceptedPrivacyVersion": 1,
-  "acceptedTOSVersion": 12,
-  "accountDeletionDate": null,
-  "accountDeletionLog": null,
-  "activeFriends": [],
-  "ageVerificationStatus": "hidden",
-  "ageVerified": true,
-  "allowAvatarCopying": true,
-  "appleDetails": {},
-  "appleId": "",
-  "badges": [
-    {
-      "assignedAt": "2024-07-21T22:28:04.790Z",
-      "badgeDescription": "Supports VRChat through VRC+",
-      "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_583f6b13-91ab-4e1b-974e-ab91600b06cb.png",
-      "badgeName": "Supporter",
-      "hidden": false,
-      "showcased": true,
-      "updatedAt": "2024-07-21T22:28:04.790Z"
-    },
-    {
-      "assignedAt": "2026-04-11T01:52:12.320Z",
-      "badgeDescription": "Joined VRChat 3 years ago",
-      "badgeId": "bdg_b4251f62-86c9-4af7-a188-ad5f478402e8",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/e8/bdgai_6749e6cd-9cfa-41fb-8e8a-8f5691256a46.png",
-      "badgeName": "3 Years",
-      "hidden": false,
-      "showcased": true,
-      "updatedAt": "2026-04-11T01:52:12.320Z"
-    },
-    {
-      "assignedAt": "2026-07-29T02:05:41.885Z",
-      "badgeDescription": "Awarded for subscribing to VRC+ (2 Years)",
-      "badgeId": "bdg_ee0fd1cf-77a2-439b-b116-0d9891cbfac6",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/c6/bdgai_c0fa1e18-8a60-4789-9d26-e1e4eb1fdaef.png",
-      "badgeName": "VRC+ Subscriber (2 Years)",
-      "hidden": false,
-      "showcased": true,
-      "updatedAt": "2026-07-29T02:05:41.885Z"
-    }
-  ],
-  "bannerColor": "c9c92c",
-  "bannerType": "color",
-  "bio": "",
-  "bioLinks": [],
-  "completedTutorials": [
-    "standalonewindows:steam:v1",
-    "platform-agnostic:custom:onboarding-tutorial-world:v1"
-  ],
-  "currentAvatar": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "currentAvatarTags": "<unstable: array of strings>",
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-  "date_joined": "2023-04-11",
-  "developerType": "none",
-  "discordDetails": {},
-  "discordId": "",
-  "displayName": "8cf3def6b8cea",
-  "emailVerified": true,
-  "fallbackAvatar": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
-  "friendGroupNames": [],
-  "friendKey": "",
-  "friends": [
-    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
-  ],
-  "googleDetails": {},
-  "googleId": "",
-  "hasBirthday": true,
-  "hasEmail": true,
-  "hasLoggedInFromClient": false,
-  "hasPendingEmail": false,
-  "hideContentFilterSettings": false,
-  "homeLocation": "",
-  "iconFrame": "",
-  "iconUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-  "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
-  "isAdult": true,
-  "isBoopingEnabled": true,
-  "isEconomyCreator": false,
-  "isFriend": false,
-  "isTemporary": false,
-  "last_activity": "<unstable: string>",
-  "last_login": "<unstable: string>",
-  "last_mobile": null,
-  "last_platform": "standalonewindows",
-  "nameplateEffect": "",
-  "obfuscatedEmail": "<redacted>",
-  "obfuscatedPendingEmail": "",
-  "oculusId": "",
-  "offlineFriends": [
-    "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a"
-  ],
-  "onlineFriends": [],
-  "pastDisplayNames": [],
-  "personalizationOptOut": false,
-  "picoId": "",
-  "platform_history": "<unstable: empty array>",
-  "presence": {
-    "groups": [],
-    "id": "usr_9439f8cc-1c6b-4dca-9a07-d2eccb570701",
-    "instance": "offline",
-    "instanceType": "",
-    "platform": "",
-    "status": "offline",
-    "travelingToInstance": "offline",
-    "travelingToWorld": "offline",
-    "world": "offline"
-  },
-  "profileEffect": "",
-  "profilePicOverride": "",
-  "profilePicOverrideThumbnail": "",
-  "pronouns": "",
-  "pronounsHistory": [
-    "they/them"
-  ],
-  "receiveMobileInvitations": true,
-  "state": "offline",
-  "status": "active",
-  "statusDescription": "",
-  "statusFirstTime": false,
-  "statusHistory": [
-    "91d46a1054b2",
-    "d231e95a600b",
-    "241b45f20d8d",
-    "7b6e9b0ab0f5",
-    "15b8c5512baa",
-    "ff7df59d1c1e",
-    "b72ae3144a53",
-    "320166d31d25",
-    "9e75a265f45f",
-    "96523c9f8941"
-  ],
-  "steamDetails": {},
-  "steamId": "",
-  "tags": [
-    "system_no_captcha",
-    "language_eng",
-    "system_supporter",
-    "system_avatar_access",
-    "system_trust_basic",
-    "system_world_access",
-    "system_trust_known",
-    "system_feedback_access"
-  ],
-  "temporaryExpiryDate": null,
-  "twitchDetails": {},
-  "twitchId": "",
-  "twoFactorAuthEnabled": true,
-  "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
-  "unsubscribe": true,
-  "updated_at": "<unstable: string>",
-  "userIcon": "",
-  "userLanguage": null,
-  "userLanguageCode": "en",
-  "username": "8cf3def6b8cea",
-  "usesGeneratedPassword": false,
-  "viveId": ""
+  "error": {
+    "message": "\"Missing Credentials\"",
+    "status_code": 401
+  }
 }
 ```

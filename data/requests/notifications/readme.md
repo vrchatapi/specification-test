@@ -3,7 +3,7 @@
 ## List Notifications
 Retrieve all of the current user's notifications.
 
-* [getNotifications](./getnotifications.md)
+> Missing coverage.
 ## Clear All Notifications
 Clear **all** notifications.
 

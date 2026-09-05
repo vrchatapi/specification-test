@@ -7,10 +7,16 @@
 Response schema mismatch:
 Schema is not an object at #/properties/undefined.
 
-#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
+#### [logout logout](/data/requests/authentication/logout-logout.md)
 
 Response schema mismatch:
-Schema is not an object at #/properties/undefined.
+* Unexpected property at ``#/error``.
+
+#### [verify2FA](/data/requests/authentication/verify2fa.md)
+
+Response schema mismatch:
+* Missing property at ``#/verified``,
+* Unexpected property at ``#/error``.
 
 #### [getCurrentUser with username and password (expect fail)](/data/requests/authentication/getcurrentuser-with-username-and-password-(expect-fail).md)
 
@@ -23,10 +29,10 @@ Schema is not an object at #/properties/undefined.
 #### [verify2FA while missing credentials](/data/requests/authentication/verify2fa-while-missing-credentials.md)
 
 
-#### [verify2FA](/data/requests/authentication/verify2fa.md)
-
-
 #### [verifyAuthToken](/data/requests/authentication/verifyauthtoken.md)
+
+
+#### [getCurrentUser after two-factor authentication](/data/requests/authentication/getcurrentuser-after-two-factor-authentication.md)
 
 
 #### [checkUserExists with zero parameters](/data/requests/authentication/checkuserexists-with-zero-parameters.md)
@@ -41,484 +47,69 @@ Schema is not an object at #/properties/undefined.
 #### [checkUserExists via username](/data/requests/authentication/checkuserexists-via-username.md)
 
 
-#### [logout logout](/data/requests/authentication/logout-logout.md)
-
-
 
 
 ## [Users](/data/requests/users)
-
-#### [updateUserNote](/data/requests/users/updateusernote.md)
-
-
-#### [getUserNote](/data/requests/users/getusernote.md)
-
-
-#### [searchUsers without parameters](/data/requests/users/searchusers-without-parameters.md)
-
-
-#### [searchUsers](/data/requests/users/searchusers.md)
-
-
-#### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
-
-
-#### [getUser](/data/requests/users/getuser.md)
-
-
-#### [getUserFeedback](/data/requests/users/getuserfeedback.md)
-
-
-#### [getUserNotes](/data/requests/users/getusernotes.md)
 
 
 
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
-
-
-#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
-
-
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-
-#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
-
-
-#### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
-
-
-#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
-
-
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
-
-
-#### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
-
-
-#### [getWorldPublishStatus by id](/data/requests/worlds/getworldpublishstatus-by-id.md)
-
-
-
-
-## [Instances](/data/requests/instances)
-
-#### [getInstance](/data/requests/instances/getinstance.md)
-
-
-#### [getShortName](/data/requests/instances/getshortname.md)
-
-
-#### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
-
-
-#### [createInstance](/data/requests/instances/createinstance.md)
-
 
 
 
 ## [Avatars](/data/requests/avatars)
-
-#### [getFavoritedAvatars with zero parameters](/data/requests/avatars/getfavoritedavatars-with-zero-parameters.md)
-
-Response schema mismatch:
-Schema is not an object at #/items/properties/undefined.
-
-#### [selectFallbackAvatar with id](/data/requests/avatars/selectfallbackavatar-with-id.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [selectAvatar with default avatar id](/data/requests/avatars/selectavatar-with-default-avatar-id.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [selectAvatar with id](/data/requests/avatars/selectavatar-with-id.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [getAvatar by id](/data/requests/avatars/getavatar-by-id.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [searchAvatars with admin_featured_legacy tag](/data/requests/avatars/searchavatars-with-admin_featured_legacy-tag.md)
-
-Response schema mismatch:
-Schema is not an object at #/items/properties/undefined.
-
-#### [searchAvatars with zero parameters](/data/requests/avatars/searchavatars-with-zero-parameters.md)
-
-Response schema mismatch:
-Schema is not an object at #/items/properties/undefined.
-
-#### [getOwnAvatar](/data/requests/avatars/getownavatar.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [selectFallbackAvatar with id (not quest fallback)](/data/requests/avatars/selectfallbackavatar-with-id-(not-quest-fallback).md)
 
 
 
 
 ## [Calendar](/data/requests/calendar)
 
-#### [deleteGroupCalendarEvent](/data/requests/calendar/deletegroupcalendarevent.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/error``.
-
-#### [getGroupCalendarEvent](/data/requests/calendar/getgroupcalendarevent.md)
-
-Response schema mismatch:
-* Missing property at ``#/accessType``,
-* Missing property at ``#/category``,
-* Missing property at ``#/description``,
-
-*5 issues truncated.*
-#### [getGroupCalendarEvents](/data/requests/calendar/getgroupcalendarevents.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/error``.
-
-#### [followGroupCalendarEvent](/data/requests/calendar/followgroupcalendarevent.md)
-
-Response schema mismatch:
-* Missing property at ``#/accessType``,
-* Missing property at ``#/category``,
-* Missing property at ``#/description``,
-
-*5 issues truncated.*
-#### [createGroupCalendarEvent](/data/requests/calendar/creategroupcalendarevent.md)
-
-
-#### [getCalendarEvents](/data/requests/calendar/getcalendarevents.md)
-
-
-#### [getFeaturedCalendarEvents](/data/requests/calendar/getfeaturedcalendarevents.md)
-
-
-#### [getFollowedCalendarEvents](/data/requests/calendar/getfollowedcalendarevents.md)
-
-
-#### [updateGroupCalendarEvent](/data/requests/calendar/updategroupcalendarevent.md)
-
-
-#### [getGroupCalendarEventICS](/data/requests/calendar/getgroupcalendareventics.md)
-
-
-#### [searchCalendarEvents](/data/requests/calendar/searchcalendarevents.md)
-
 
 
 
 ## [Economy](/data/requests/economy)
-
-#### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
-
-Response schema mismatch:
-* Missing property at ``#/0/highlightListing/refundable``,
-* Missing property at ``#/0/highlightListing/storeIds``,
-* Missing property at ``#/0listings/0/refundable``,
-
-*200 issues truncated.*
-#### [getStore](/data/requests/economy/getstore.md)
-
-Response schema mismatch:
-* Missing property at ``#/shelves/0/highlightListing/refundable``,
-* Missing property at ``#/shelves/0/highlightListing/storeIds``,
-* Missing property at ``#/shelves/0listings/0/refundable``,
-
-*200 issues truncated.*
-#### [getBalanceEarnings](/data/requests/economy/getbalanceearnings.md)
-
-Response schema mismatch:
-* Missing property at ``#/balance``,
-* Unexpected property at ``#/error``,
-* Unexpected property at ``#/status_code``.
-
-#### [getTiliaTos](/data/requests/economy/gettiliatos.md)
-
-Response schema mismatch:
-* Missing property at ``#/signed_tos``,
-* Unexpected property at ``#/error``,
-* Unexpected property at ``#/status_code``.
-
-#### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
-
-Response schema mismatch:
-* Missing property at ``#/economyOnline``,
-* Unexpected property at ``#/error``,
-* Unexpected property at ``#/status_code``.
-
-#### [getProductListings](/data/requests/economy/getproductlistings.md)
-
-Response schema mismatch:
-* Invalid type at ``#``.
-
-#### [getProductListing](/data/requests/economy/getproductlisting.md)
-
-Response schema mismatch:
-* Missing property at ``#/refundable``,
-* Missing property at ``#/storeIds``.
-
-#### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
-
-Response schema mismatch:
-Schema is not an object at #/items/properties/undefined.
-
-#### [getSteamTransaction](/data/requests/economy/getsteamtransaction.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/subscription/properties/undefined.
-
-#### [getSteamTransactions](/data/requests/economy/getsteamtransactions.md)
-
-Response schema mismatch:
-Schema is not an object at #/items/properties/subscription/properties/undefined.
-
-#### [getCurrentSubscriptions](/data/requests/economy/getcurrentsubscriptions.md)
-
-
-#### [getUserSubscriptionEligible](/data/requests/economy/getusersubscriptioneligible.md)
-
-
-#### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
-
-
-#### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
-
-
-#### [getBalance](/data/requests/economy/getbalance.md)
-
-
-#### [getEconomyAccount](/data/requests/economy/geteconomyaccount.md)
-
-
-#### [getActiveLicenses](/data/requests/economy/getactivelicenses.md)
 
 
 
 
 ## [Favorites](/data/requests/favorites)
 
-#### [getFavorites](/data/requests/favorites/getfavorites.md)
-
-
-#### [addFavorite](/data/requests/favorites/addfavorite.md)
-
-
-#### [getFavorites after favorite add](/data/requests/favorites/getfavorites-after-favorite-add.md)
-
-
-#### [removeFavorite](/data/requests/favorites/removefavorite.md)
-
-
-#### [getFavoriteGroups](/data/requests/favorites/getfavoritegroups.md)
-
-
-#### [getFavoriteGroup](/data/requests/favorites/getfavoritegroup.md)
-
-
-#### [updateFavoriteGroup](/data/requests/favorites/updatefavoritegroup.md)
-
-
-#### [getFavoriteLimits](/data/requests/favorites/getfavoritelimits.md)
-
 
 
 
 ## [Files](/data/requests/files)
-
-#### [getFiles without data](/data/requests/files/getfiles-without-data.md)
-
-
-#### [createFile](/data/requests/files/createfile.md)
-
-
-#### [getFiles](/data/requests/files/getfiles.md)
-
-
-#### [getFile](/data/requests/files/getfile.md)
-
-
-#### [downloadFileVersion](/data/requests/files/downloadfileversion.md)
-
-
-#### [createFileVersion](/data/requests/files/createfileversion.md)
-
-
-#### [deleteFileVersion](/data/requests/files/deletefileversion.md)
-
-
-#### [deleteFile](/data/requests/files/deletefile.md)
-
-
-#### [getFileAnalysis](/data/requests/files/getfileanalysis.md)
-
-
-#### [getFileAnalysisSecurity](/data/requests/files/getfileanalysissecurity.md)
-
-
-#### [getFileAnalysisStandard](/data/requests/files/getfileanalysisstandard.md)
 
 
 
 
 ## [Friends](/data/requests/friends)
 
-#### [getFriends](/data/requests/friends/getfriends.md)
-
-
-#### [getFriendStatus prior to friend request](/data/requests/friends/getfriendstatus-prior-to-friend-request.md)
-
-
-#### [friend](/data/requests/friends/friend.md)
-
-
-#### [getFriendStatus after friend request](/data/requests/friends/getfriendstatus-after-friend-request.md)
-
-
-#### [deleteFriendRequest](/data/requests/friends/deletefriendrequest.md)
-
-
-#### [getFriendStatus after deleting friend request](/data/requests/friends/getfriendstatus-after-deleting-friend-request.md)
-
 
 
 
 ## [Groups](/data/requests/groups)
-
-#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0user/currentAvatarImageUrl``,
-* Unexpected property at ``#/0user/userIcon``.
-
-#### [updateGroup](/data/requests/groups/updategroup.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [getGroup](/data/requests/groups/getgroup.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [createGroup](/data/requests/groups/creategroup.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [getGroupMembers](/data/requests/groups/getgroupmembers.md)
-
-
-#### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
-
-
-#### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
-
-
-#### [updateGroupRepresentation with group user is not a member of](/data/requests/groups/updategrouprepresentation-with-group-user-is-not-a-member-of.md)
-
-
-#### [updateGroupRepresentation with invalid group](/data/requests/groups/updategrouprepresentation-with-invalid-group.md)
-
-
-#### [deleteGroupInvite](/data/requests/groups/deletegroupinvite.md)
-
-
-#### [deleteGroup](/data/requests/groups/deletegroup.md)
 
 
 
 
 ## [Inventory](/data/requests/inventory)
 
-#### [getInventoryTemplate](/data/requests/inventory/getinventorytemplate.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [getOwnInventoryItem](/data/requests/inventory/getowninventoryitem.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/undefined.
-
-#### [getInventory](/data/requests/inventory/getinventory.md)
-
-Response schema mismatch:
-Schema is not an object at #/properties/data/items/properties/undefined.
-
-#### [getInventoryDrops](/data/requests/inventory/getinventorydrops.md)
-
-
-#### [spawnInventoryItem](/data/requests/inventory/spawninventoryitem.md)
-
-
-
-
-## [Invite](/data/requests/invite)
-
-#### [getInviteMessage](/data/requests/invite/getinvitemessage.md)
-
-
-#### [resetInviteMessage message slot 0 reset](/data/requests/invite/resetinvitemessage-message-slot-0-reset.md)
-
-
-#### [resetInviteMessage message slot 0 reset rate limited](/data/requests/invite/resetinvitemessage-message-slot-0-reset-rate-limited.md)
-
-
-#### [updateInviteMessage message slot 0 update](/data/requests/invite/updateinvitemessage-message-slot-0-update.md)
-
-
-#### [updateInviteMessage message slot 0 update rate limited](/data/requests/invite/updateinvitemessage-message-slot-0-update-rate-limited.md)
-
-
-#### [inviteMyselfTo](/data/requests/invite/invitemyselfto.md)
-
-
-#### [getInviteMessages](/data/requests/invite/getinvitemessages.md)
-
 
 
 
 ## [Notifications](/data/requests/notifications)
-
-#### [getNotifications](/data/requests/notifications/getnotifications.md)
 
 
 
 
 ## [Permissions](/data/requests/permissions)
 
-#### [getAssignedPermissions](/data/requests/permissions/getassignedpermissions.md)
-
-
-#### [getPermission](/data/requests/permissions/getpermission.md)
-
 
 
 
 ## [Playermoderation](/data/requests/playermoderation)
-
-#### [getPlayerModerations](/data/requests/playermoderation/getplayermoderations.md)
-
-
-#### [moderateUser](/data/requests/playermoderation/moderateuser.md)
-
-
-#### [getPlayerModerations with filter](/data/requests/playermoderation/getplayermoderations-with-filter.md)
-
-
-#### [clearAllPlayerModerations](/data/requests/playermoderation/clearallplayermoderations.md)
 
 
 
