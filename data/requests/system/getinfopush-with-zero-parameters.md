@@ -6,17 +6,18 @@
 | Header | Value |
 | ------ | ----- |
 | user-agent | `specification-test/@<unstable> https://github.com/vrchatapi/specification-test/issues/new` |
+| cookie | `auth=<redacted>; twoFactorAuth=<redacted>` |
 
 
 ## Response
-`401 Unauthorized`
+`400 Bad Request`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `65` |
+| content-length | `81` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
@@ -26,8 +27,8 @@
 ```jsonc
 {
   "error": {
-    "message": "\"Missing Credentials\"",
-    "status_code": 401
+    "message": "Parameter `require` must be an array․",
+    "status_code": 400
   }
 }
 ```

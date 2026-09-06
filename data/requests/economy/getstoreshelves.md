@@ -153,10 +153,6 @@ Response schema mismatch:
 * Missing property at ``#/4listings/23/storeIds``,
 * Missing property at ``#/4listings/24/refundable``,
 * Missing property at ``#/4listings/24/storeIds``,
-* Missing property at ``#/4listings/25/refundable``,
-* Missing property at ``#/4listings/25/storeIds``,
-* Missing property at ``#/4listings/26/refundable``,
-* Missing property at ``#/4listings/26/storeIds``,
 * Unexpected property at ``#/4/shelfClientBannerImageId``,
 * Unexpected property at ``#/4/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/4/shelfMobileLogoImageId``,
@@ -179,28 +175,6 @@ Response schema mismatch:
 * Unexpected property at ``#/5/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/5/shelfMobileLogoImageId``,
 * Unexpected property at ``#/5/shelfMobileSecondaryBannerImageId``,
-* Missing property at ``#/6/highlightListing/refundable``,
-* Missing property at ``#/6/highlightListing/storeIds``,
-* Missing property at ``#/6listings/0/refundable``,
-* Missing property at ``#/6listings/0/storeIds``,
-* Missing property at ``#/6listings/1/refundable``,
-* Missing property at ``#/6listings/1/storeIds``,
-* Missing property at ``#/6listings/2/refundable``,
-* Missing property at ``#/6listings/2/storeIds``,
-* Missing property at ``#/6listings/3/refundable``,
-* Missing property at ``#/6listings/3/storeIds``,
-* Missing property at ``#/6listings/4/refundable``,
-* Missing property at ``#/6listings/4/storeIds``,
-* Missing property at ``#/6listings/5/refundable``,
-* Missing property at ``#/6listings/5/storeIds``,
-* Missing property at ``#/6listings/6/refundable``,
-* Missing property at ``#/6listings/6/storeIds``,
-* Missing property at ``#/6listings/7/refundable``,
-* Missing property at ``#/6listings/7/storeIds``,
-* Missing property at ``#/6listings/8/refundable``,
-* Missing property at ``#/6listings/8/storeIds``,
-* Missing property at ``#/6listings/9/refundable``,
-* Missing property at ``#/6listings/9/storeIds``,
 * Unexpected property at ``#/6/shelfClientBannerImageId``,
 * Unexpected property at ``#/6/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/6/shelfMobileLogoImageId``,
@@ -248,7 +222,7 @@ Response schema mismatch:
       "buyerRefundable": false,
       "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
       "description": "A special bundle for the Hatsune Miku YOZORA Program 2026 worldǃ Exclusive cute items to max out the hype at the boat date and live show‚ plus a piece of Hatsune Miku to carry anywhere․\n\nIncludes˸ Starlight Rowboat‚ Memorial Sparkler‚ Crystal Heart Lightstick‚ Matching Ribbon‚ Special Mi-Crepe‚ Single-Ear Headset Microphone‚ Ribbon ＆ Frill Gate‚ Sparkling Hatsune Miku‚ Stardust ＆ Notes Shooting Star‚ Hatsune Miku's Emoji Bundle‚ Hatsune Miku （Mikudayo） and Hatsune Miku Profile Decoration Set․",
-      "displayName": "Hatsune Miku YOZORA Program Bundle",
+      "displayName": "Hatsune Miku YOZORA Program 2026 Bundle",
       "duration": null,
       "durationType": null,
       "hasAvatar": false,
@@ -408,7 +382,7 @@ Response schema mismatch:
         "buyerRefundable": false,
         "collabUserId": "8JoV9XEdpo",
         "description": "A cute decoration set featuring the signature colors of the Hatsune Miku! Decorate your profile to make it super cute! Original Costume Design：RinYuu © Crypton Future Media, INC. www.piapro.net",
-        "displayName": "Hatsune Miku YOZORA Program",
+        "displayName": "Hatsune Miku YOZORA Program Profile Decoration Set",
         "duration": null,
         "durationType": null,
         "hasAvatar": false,
@@ -2402,6 +2376,16 @@ Response schema mismatch:
     "listingIds": [
       "prod_791f9ea7-2905-4dab-8433-e9c56a605766",
       "prod_c9a446e2-507e-4ef2-b42a-deef29b00fb7",
+      "prod_21ec13e9-9e04-4842-9b79-c7f83d601bc0",
+      "prod_fda568e9-dccc-4af8-83a9-36b9371b315e",
+      "prod_08d1e2a2-57b2-46ed-af67-776b208a78f4",
+      "prod_73aed2b1-ca16-4eed-ad3a-8a70136ecc16",
+      "prod_112a04f9-05a3-4462-af8f-579d5318926e",
+      "prod_d9e4cdd0-d14f-46c1-aa7d-a3ef795d8503",
+      "prod_3df68c7b-dab9-4349-8759-82ad1a387787",
+      "prod_2e98a335-8f7b-460f-b2fa-adc5ae1a25c7",
+      "prod_038492a2-90d4-417c-864e-02c0cfcc6dc6",
+      "prod_13e3f611-a247-4f40-a847-e3d72c218f0a",
       "prod_0a44f34f-4bd0-48f6-943e-2608a85097b2",
       "prod_f39a1a08-e690-4f0f-b4f6-84e4619a08ee",
       "prod_3c417948-e07a-4519-9495-7ed20757a642",
@@ -2412,21 +2396,9 @@ Response schema mismatch:
       "prod_570e2b0a-3d57-4f57-80ac-b1b3015fcc3a",
       "prod_c8e76347-f9ab-4f1c-ba9e-7cc0f13bcae0",
       "prod_e0a5347f-9968-40fd-8867-f6f722eedb84",
-      "prod_943eef38-c23d-4f30-9a7d-43fd42f6a6fd",
       "prod_91ac5bcc-29dc-4e3a-922f-a49cb411b0a1",
       "prod_43be5c87-94b4-4747-9a18-2e64a5cb23dd",
-      "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
-      "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
-      "prod_fe4f77da-7fad-4f33-97aa-470e85d6700a",
-      "prod_3eb80bc1-8811-4433-9497-4365c6243574",
-      "prod_2c460c3f-26c5-4034-aecd-d439234596be",
-      "prod_6aee8f57-5ff0-4bff-87c1-b6bbb2ac123d",
-      "prod_5ba7acfb-d413-442f-ac87-e5e3d62e72a2",
-      "prod_f945c617-5f51-4aa1-ae6d-d2ed312b5d10",
-      "prod_2e16fa77-4b43-4eba-8c76-3e99c6b2b70d",
-      "prod_12140ca7-f54f-4f0f-8f06-0f9fbcd289ac",
-      "prod_66e23e6b-9b1d-4991-9da0-b3668645f3c9",
-      "prod_2b6dd6e2-0fd5-43f2-b31f-a64a16f8f4b6"
+      "prod_943eef38-c23d-4f30-9a7d-43fd42f6a6fd"
     ],
     "listings": [
       {
@@ -2524,6 +2496,466 @@ Response schema mismatch:
         "subtitle": "Accessory",
         "vrcPlusDiscountPrice": 540,
         "whenToExpire": "2026-10-04T00:00:00.000Z"
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "skip4d",
+            "userId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb",
+        "description": "Things you carry, but like, in your mouth. Some are normal for everyone. Some are normal if you’re a dog. We’re not saying which is which, that’s up to you. Contains LIST.\n\nWe should probably attach a virtual choking hazard or something.\n",
+        "displayName": "You Can Carry It… In Your Mouth? Bundle",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_21ec13e9-9e04-4842-9b79-c7f83d601bc0",
+        "imageId": "file_969c1af0-5de0-4f1d-afea-f0aed7230758",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 2400,
+        "productIds": [
+          "prod_d609ccca-0131-40fd-b080-420636ba2692",
+          "prod_036d7dfb-30b6-4933-92b2-77420667df91",
+          "prod_f57940bc-7f72-4c2e-8290-985cd67a2f65",
+          "prod_317cc49c-c969-4a7d-b212-37da0cead4e0"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_d609ccca-0131-40fd-b080-420636ba2692",
+          "prod_036d7dfb-30b6-4933-92b2-77420667df91",
+          "prod_f57940bc-7f72-4c2e-8290-985cd67a2f65",
+          "prod_317cc49c-c969-4a7d-b212-37da0cead4e0"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 2160
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "skip4d",
+            "userId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb",
+        "description": "You’re late for school! Or your job! You don’t have time for a real breakfast, so it’s time to grab some toast, carry it in your mouth, and sprint to the train station. Hope you don’t crash into anyone and begin a bittersweet love story! Luckily, that’s never happened before. You can add jelly to your toast. Or an egg. Not both. Eww.\n\nI sure hope this doesn’t become a plot point!\n",
+        "displayName": "Last-minute Toast",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_fda568e9-dccc-4af8-83a9-36b9371b315e",
+        "imageId": "file_bdc8ee72-2157-41a5-933d-9d8767a42c40",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_d609ccca-0131-40fd-b080-420636ba2692"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_d609ccca-0131-40fd-b080-420636ba2692"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 810
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "skip4d",
+            "userId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb",
+        "description": "BARK BARK BARK WOOF WOOF BARK BARK WOOF TAIL WAG BARK BARK BARK BARK BARK WOOF WOOF WOOF WOOF PANT PANT PANT PANT PANT PANT WOOF. And you can customize the color! I mean, uh, WOOF WOOF WOOF\n\nThe easiest way to make your local puppy happy.\n",
+        "displayName": "Doggy Bone",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_08d1e2a2-57b2-46ed-af67-776b208a78f4",
+        "imageId": "file_c4252eab-01d8-49b3-9aa1-1701e3d421fc",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 800,
+        "productIds": [
+          "prod_036d7dfb-30b6-4933-92b2-77420667df91"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_036d7dfb-30b6-4933-92b2-77420667df91"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 720
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "skip4d",
+            "userId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb",
+        "description": "It’s a popsicle! It’s Ice Candy! It’s Ice Candy! It’s… well, a Frozen Treat. What does it taste like? Whatever you’d want, with a little customization. Grape and chocolate? Lemon and toothpaste? What is wrong with you? You can change its flavor… er, I mean color and shape.\n\nThe best flavor is chocolate. The next best flavor is double chocolate.\n",
+        "displayName": "Frozen Treat",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_73aed2b1-ca16-4eed-ad3a-8a70136ecc16",
+        "imageId": "file_ba9829f3-880c-401e-b43b-2067639fdd34",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 800,
+        "productIds": [
+          "prod_317cc49c-c969-4a7d-b212-37da0cead4e0"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_317cc49c-c969-4a7d-b212-37da0cead4e0"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 720
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "skip4d",
+            "userId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_fe3fec40-aa9b-4d4e-aa58-561555d113fb",
+        "description": "We’re going salsa dancing. That’s why I got this rose in my mouth. It’s to signify how suave I am. And cool. And attractive. And good at Latin dancing. Am I saying that if you buy this Accessory and put it in your mouth, you’ll be all those things, too? Absolutely not. I would never say that. They would never let me get away with that. But also, yes. Of course. Also, the rose and stem are customizable. You can even add thorns.\n\n¡Caliente!\n",
+        "displayName": "Long-Stemmed Rose",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_112a04f9-05a3-4462-af8f-579d5318926e",
+        "imageId": "file_23efb95a-1193-44ba-bfe0-5ad51d67f8d4",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 800,
+        "productIds": [
+          "prod_f57940bc-7f72-4c2e-8290-985cd67a2f65"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_f57940bc-7f72-4c2e-8290-985cd67a2f65"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 720
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "That’s right. Now, you can carry it. What’s “it”? Well, four different kinds of Accessories that theoretically carry things. Except, well, they don’t. They’re just for style. Includes the LIST.\n\nYou’re gonna carry that… luxurious handbag.\n",
+        "displayName": "You Can Carry It Bundle",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_d9e4cdd0-d14f-46c1-aa7d-a3ef795d8503",
+        "imageId": "file_fcde910b-3740-4e2d-93d1-6a03c3448859",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 1800,
+        "productIds": [
+          "prod_849d43b6-9dc7-44cb-85a8-cbcc511d144e",
+          "prod_cd6b3c32-6f71-44d9-97d2-f41938c1ad0f",
+          "prod_10bf6b53-148f-410a-82e3-5f4f0fd4ef21"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_849d43b6-9dc7-44cb-85a8-cbcc511d144e",
+          "prod_cd6b3c32-6f71-44d9-97d2-f41938c1ad0f",
+          "prod_10bf6b53-148f-410a-82e3-5f4f0fd4ef21"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 1620
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Is it just for style, or do you have some extraordinarily important papers in there? Secret third answer: both. Show up to the function with a little bit of class. Hardware, color, and stitching can be customized. You gotta match for the meeting, you know?\n\nLooking good is my business.\n",
+        "displayName": "Executive Backpack",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_3df68c7b-dab9-4349-8759-82ad1a387787",
+        "imageId": "file_b6941a1a-70bf-43c3-9d19-257d1dca330b",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_849d43b6-9dc7-44cb-85a8-cbcc511d144e"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_849d43b6-9dc7-44cb-85a8-cbcc511d144e"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 810
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Every thirty years, this tactical, extremely functional waist storage system comes back into fashion. For that brief period, you are absolutely the hippest person in the entire world, and everyone thinks you’re hella cool. Outside of those brief moments in time, though, you’re just another tourist. Or my dad. Customizable colors and hardware.\n\nAlso popular among garage-sale connoisseurs. \n",
+        "displayName": "Fanny Pack",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_2e98a335-8f7b-460f-b2fa-adc5ae1a25c7",
+        "imageId": "file_1e0c98fb-b233-46e7-b36d-bb0c425cd6f0",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 500,
+        "productIds": [
+          "prod_cd6b3c32-6f71-44d9-97d2-f41938c1ad0f"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_cd6b3c32-6f71-44d9-97d2-f41938c1ad0f"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 450
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": " Yes, that’s me. I’m the person with a pouch on my belt. What’s in there? Is it a multitool? A cellphone? Various miniature packets of hot sauce for any occasion? It doesn’t matter. All you need to know is I am prepared. And you? You could be prepared, too. If you only had a Multi-Purpose Belt Pouch. \n\nJust imagine how prepared people will think you are.\n",
+        "displayName": "Multi-Purpose Belt Pouch",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_038492a2-90d4-417c-864e-02c0cfcc6dc6",
+        "imageId": "file_986760f9-d322-460b-9f7c-a72dea910a53",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 0,
+        "productIds": [
+          "prod_89ac8dae-1db3-45fa-9777-dba9eafefabd"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_89ac8dae-1db3-45fa-9777-dba9eafefabd"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 0
+      },
+      {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "8JoV9XEdpo",
+        "description": "Oh, you like fashion? Yeah? Well, where’s your tiny backpack? You’ve gotta have one. Finished in vegan leather. Can be customized to be a little more round at the top to add a little extra flavor. Small enough for doodads. Well, imaginary doodads.\n\nHold on, let me just dig through my bag real quick…\n",
+        "displayName": "Stylish Backpack",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_13e3f611-a247-4f40-a847-e3d72c218f0a",
+        "imageId": "file_20bc07f4-081d-4169-b756-6015ebcdd847",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 900,
+        "productIds": [
+          "prod_10bf6b53-148f-410a-82e3-5f4f0fd4ef21"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "accessory"
+        ],
+        "products": [
+          "prod_10bf6b53-148f-410a-82e3-5f4f0fd4ef21"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Accessory",
+        "vrcPlusDiscountPrice": 810
       },
       {
         "active": true,
@@ -3010,49 +3442,6 @@ Response schema mismatch:
       {
         "active": true,
         "attribution": {
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "If you’re going to a music event, you’ve gotta wear your beads. While you can’t share them directly, you can tell someone to go grab a pair for free from the Shop. That’s still sharing, right? Of course, you can customize the color of the beads.\n\nDon’t forget to do the special handshake.\n",
-        "displayName": "Virtual Kandi",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_943eef38-c23d-4f30-9a7d-43fd42f6a6fd",
-        "imageId": "file_10dc333f-2338-42b0-b145-79866ec04d1d",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 0,
-        "productIds": [
-          "prod_997eff6c-3374-41bb-95ff-9ed969362840"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_997eff6c-3374-41bb-95ff-9ed969362840"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 0
-      },
-      {
-        "active": true,
-        "attribution": {
           "creator": {
             "customName": "VRChat",
             "userId": "8JoV9XEdpo"
@@ -3141,554 +3530,28 @@ Response schema mismatch:
       {
         "active": true,
         "attribution": {
-          "creator": {
+          "publisher": {
             "customName": "VRChat",
             "userId": "8JoV9XEdpo"
           }
         },
         "buyerRefundable": false,
         "collabUserId": "8JoV9XEdpo",
-        "description": "A tiara made of stars – with Vega at the center. Throughout history, Vega has been one of the most cherished stars. I’m sure Hikoboshi feels the same way.\n\nSurely, you are someone’s Orihime.\n",
-        "displayName": "Vega’s Tiara",
+        "description": "If you’re going to a music event, you’ve gotta wear your beads. While you can’t share them directly, you can tell someone to go grab a pair for free from the Shop. That’s still sharing, right? Of course, you can customize the color of the beads.\n\nDon’t forget to do the special handshake.\n",
+        "displayName": "Virtual Kandi",
         "duration": null,
         "durationType": null,
         "hasAvatar": false,
         "hasCompanion": false,
         "hasInventory": true,
         "hasUdon": false,
-        "id": "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
-        "imageId": "file_4c3e4bce-b62b-4cf2-8517-a92b49918058",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Celestial horns, in the shape of a steer. Celebrate Tanabata by making your avatar have a small homage to Hikoboshi.\n\nSurely, you are someone’s Hikoboshi.\n",
-        "displayName": "Altair’s Horns",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
-        "imageId": "file_5863e2ff-07b3-4fda-86e3-e8a1d46df15f",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 850,
-        "productIds": [
-          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 765,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lod'sGalaxy",
-            "userId": "usr_322c2161-3384-4729-aa20-27f61f637e97"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_322c2161-3384-4729-aa20-27f61f637e97",
-        "description": "This bundle contains things you put on your head. Bet you wouldn’t have guessed that. Includes the Royal Crown, Beanie, Baseball Hat, and Bucket Hat.\n\nI guess you don’t have to put them on your head?\n",
-        "displayName": "The Hat Pack",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_fe4f77da-7fad-4f33-97aa-470e85d6700a",
-        "imageId": "file_34eee706-f409-4b81-995e-cb5fe91f1103",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 2400,
-        "productIds": [
-          "prod_be53a47a-c6ff-4e43-823d-cfea62a4abb3",
-          "prod_fe82ca29-0ef4-493b-a2e7-13120988deb4",
-          "prod_17706a09-2795-412e-bef6-72c6dec198f5",
-          "prod_3f1f89be-f5d4-40c6-9c2c-33e137898017"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_be53a47a-c6ff-4e43-823d-cfea62a4abb3",
-          "prod_fe82ca29-0ef4-493b-a2e7-13120988deb4",
-          "prod_17706a09-2795-412e-bef6-72c6dec198f5",
-          "prod_3f1f89be-f5d4-40c6-9c2c-33e137898017"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 2160
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lod'sGalaxy",
-            "userId": "usr_322c2161-3384-4729-aa20-27f61f637e97"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_322c2161-3384-4729-aa20-27f61f637e97",
-        "description": " That’s right. You’re royalty. Put the crown on, and let ‘em all know who is the boss of this kingdom. You want to customize it? Of course, my liege. You can change the gemstones to your liking – as well as the color of the crown itself. You want to wear the crown on your… what? Of course, that is within your charge. \n\nBehold, the monarch – you.\n",
-        "displayName": "Royal Crown",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_3eb80bc1-8811-4433-9497-4365c6243574",
-        "imageId": "file_68f708e9-25fa-4abd-b2b2-7a5d2be07cc5",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 900,
-        "productIds": [
-          "prod_be53a47a-c6ff-4e43-823d-cfea62a4abb3"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_be53a47a-c6ff-4e43-823d-cfea62a4abb3"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 810
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lod'sGalaxy",
-            "userId": "usr_322c2161-3384-4729-aa20-27f61f637e97"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_322c2161-3384-4729-aa20-27f61f637e97",
-        "description": "Knit out of responsibly-sourced materials, er, polygons. The perfect hat to throw on if you’re cold… or you’re just chill. Can be customized for a more relaxed, laid-back look… or a more fitted appearance. You can also change the circumference, thickness, and color of the Beanie.\n\nBeanie for sale, never washed.\n",
-        "displayName": "Beanie",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_2c460c3f-26c5-4034-aecd-d439234596be",
-        "imageId": "file_472df7e5-9ea4-444c-890a-332f345d3ea7",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 900,
-        "productIds": [
-          "prod_fe82ca29-0ef4-493b-a2e7-13120988deb4"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_fe82ca29-0ef4-493b-a2e7-13120988deb4"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 810
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lestery✪",
-            "userId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314",
-        "description": "It’s the platonic form of hat. Put it on when you’re going to the game… or when you’re about to do basically anything else. Versatile. Comfy. Keeps the sun out of your eyes. You can customize the brim length, shape, color, and circumference.\n\nBend the rim… or don’t. The choice is yours.\n",
-        "displayName": "Baseball Hat",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_6aee8f57-5ff0-4bff-87c1-b6bbb2ac123d",
-        "imageId": "file_4deb0894-52d1-4580-ac2a-700e38b21825",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 600,
-        "productIds": [
-          "prod_17706a09-2795-412e-bef6-72c6dec198f5"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_17706a09-2795-412e-bef6-72c6dec198f5"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 540
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lestery✪",
-            "userId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314",
-        "description": "You’re either a fan of gorpcore and are about to hit the trail… or you’re a junglist. Regardless of whether you’re about to go for a hike, cast a line, or explain to everyone you meet the differences between your favorite breaks, this is the hat for you. You can adjust the brim length, circumference, and the hat’s colors.\n\nYour dad is really happy that his favorite hat is cool now.\n",
-        "displayName": "Bucket Hat",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_5ba7acfb-d413-442f-ac87-e5e3d62e72a2",
-        "imageId": "file_ed6d1e21-eba5-40a1-8b8f-cd4c4ab46107",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 750,
-        "productIds": [
-          "prod_3f1f89be-f5d4-40c6-9c2c-33e137898017"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_3f1f89be-f5d4-40c6-9c2c-33e137898017"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 675
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lestery✪",
-            "userId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314",
-        "description": "The Vision Bundle\n\nFashion, sun protection, or both? This pack includes four different pairs of glasses: Classic Shades, Artist's Specs, and Aviator Sunglasses.\n",
-        "displayName": "The Vision Bundle",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_f945c617-5f51-4aa1-ae6d-d2ed312b5d10",
-        "imageId": "file_d1ffc5ae-410f-4783-af2d-42de16cad2a8",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1800,
-        "productIds": [
-          "prod_b8237bde-c97b-4b78-8d3c-a901bf382575",
-          "prod_94b6f4b2-37ac-4a70-92ba-9d384c8e6ba1",
-          "prod_a872d99d-b683-43b8-98a0-6ec3c6e11b96"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_b8237bde-c97b-4b78-8d3c-a901bf382575",
-          "prod_94b6f4b2-37ac-4a70-92ba-9d384c8e6ba1",
-          "prod_a872d99d-b683-43b8-98a0-6ec3c6e11b96"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 1620
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lestery✪",
-            "userId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314",
-        "description": "Going for a drive? Taking a stroll on the beach? Relaxing outside? Grab your Classic Shades – the perfect pair for every occasion. Ideal for those who want to look fashionable and cool, but in a subtle way. You know. Unlike some people. You can customize their lens size, lens distance, frame thickness, and frame width. You can also customize the lenses' appearance.\n\nClassic. Timeless. Shades.\n",
-        "displayName": "Classic Shades",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_2e16fa77-4b43-4eba-8c76-3e99c6b2b70d",
-        "imageId": "file_afe3737e-aed4-415b-af7f-e781851268b7",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 750,
-        "productIds": [
-          "prod_b8237bde-c97b-4b78-8d3c-a901bf382575"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_b8237bde-c97b-4b78-8d3c-a901bf382575"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 675
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lestery✪",
-            "userId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314",
-        "description": "Are you a pilot? Do you ride a motorcycle? Do you stop at every mirror you see, smirk, and think to yourself, “I’m so cool. I’m a suave machine built to produce aura”? Well, good news. We’ve got your sunglasses, chief. You can customize their lens size, lens distance, frame thickness, and frame width. You can also customize the lenses' appearance.\n\nFighter jet not included.\n",
-        "displayName": "Aviator Sunglasses",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_12140ca7-f54f-4f0f-8f06-0f9fbcd289ac",
-        "imageId": "file_3f2cd5b0-af29-48ad-9783-e21bc3c75be5",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 750,
-        "productIds": [
-          "prod_a872d99d-b683-43b8-98a0-6ec3c6e11b96"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_a872d99d-b683-43b8-98a0-6ec3c6e11b96"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 675
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lestery✪",
-            "userId": "usr_0dd05452-aab0-4afa-b753-f2355d1aa314"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserDisplayName": "Lod'sGalaxy",
-        "collabUserId": "usr_322c2161-3384-4729-aa20-27f61f637e97",
-        "description": "The right spectacles for seeing those fine, precise lines. Whatever your medium, these will let everyone know that you’ve got that gift for putting a little magic into whatever it is you’re creating. You can customize their lens size, lens distance, frame thickness, and frame width. You can also customize the lenses' appearance.\n\nClassy, and a little avant-garde.\n",
-        "displayName": "Artist's Specs",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_66e23e6b-9b1d-4991-9da0-b3668645f3c9",
-        "imageId": "file_87cb1682-f4e2-47cf-ae05-d8b192de0ec9",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 750,
-        "productIds": [
-          "prod_94b6f4b2-37ac-4a70-92ba-9d384c8e6ba1"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_94b6f4b2-37ac-4a70-92ba-9d384c8e6ba1"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 675
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Lod'sGalaxy",
-            "userId": "usr_322c2161-3384-4729-aa20-27f61f637e97"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_322c2161-3384-4729-aa20-27f61f637e97",
-        "description": "You’re serious. An architect, maybe. Or a professor. Of medicine… law. Like most things in life, you prefer a subtle, thoughtful look. Modern. Low-profile. No-nonsense. You can customize their lens size, lens distance, frame thickness, and frame width. You can also customize the lenses' appearance.\n\nNow, could you please pass me those files?\n",
-        "displayName": "Subtle Frames",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_2b6dd6e2-0fd5-43f2-b31f-a64a16f8f4b6",
-        "imageId": "file_9eb0ec4b-bb1e-4f2b-ae3d-954a2d78744c",
+        "id": "prod_943eef38-c23d-4f30-9a7d-43fd42f6a6fd",
+        "imageId": "file_10dc333f-2338-42b0-b145-79866ec04d1d",
         "imageUrl": null,
         "listingType": "permanent",
         "priceTokens": 0,
         "productIds": [
-          "prod_ed2e8e79-0ba9-4bb9-bb69-996135c27bd1"
+          "prod_997eff6c-3374-41bb-95ff-9ed969362840"
         ],
         "productType": "listing",
         "productTypes": [
@@ -3696,7 +3559,7 @@ Response schema mismatch:
           "accessory"
         ],
         "products": [
-          "prod_ed2e8e79-0ba9-4bb9-bb69-996135c27bd1"
+          "prod_997eff6c-3374-41bb-95ff-9ed969362840"
         ],
         "quantifiable": false,
         "recurrable": false,
@@ -3718,7 +3581,7 @@ Response schema mismatch:
     "shelfMobileSecondaryBannerImageId": "",
     "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
     "shelfTitle": "New Accessories",
-    "updatedAt": "2026-09-03T22:52:25.984Z"
+    "updatedAt": "2026-09-04T21:04:17.239Z"
   },
   {
     "highlightListing": {
@@ -4051,534 +3914,9 @@ Response schema mismatch:
     "updatedAt": "2026-08-25T00:18:40.832Z"
   },
   {
-    "highlightListing": {
-      "active": true,
-      "attribution": {
-        "creator": {
-          "customName": "VRChat",
-          "userId": "8JoV9XEdpo"
-        }
-      },
-      "buyerRefundable": false,
-      "collabUserId": "8JoV9XEdpo",
-      "description": "Its Tanabataǃ Celebrate with the Hoshimatsuri Bundle‚ which includes Across The Milkyway Loading Screen‚ Fluttering Tanzaku Animated Sticker‚ Hikoboshis Gate‚ Portal‚ Taiyaki Ice Cream‚ Wish-strung Bamboo‚ Altairs Horns‚ Vegas Tiara‚ A Magpies Gift Warp Effect‚ Tanabata Fukanagashi and Tanabata Emoji Pack․ Dont forget to make a wish before its overǃ\n\nDont forget to visit the Tanabata worldǃ",
-      "displayName": "Hoshimatsuri Bundle",
-      "duration": null,
-      "durationType": null,
-      "hasAvatar": false,
-      "hasCompanion": false,
-      "hasInventory": true,
-      "hasUdon": false,
-      "id": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
-      "imageId": "file_6ed759bb-789f-4a33-9275-991b709f07fe",
-      "imageUrl": null,
-      "listingType": "permanent",
-      "priceTokens": 4800,
-      "productIds": [
-        "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
-        "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-        "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
-        "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
-        "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
-        "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
-        "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
-        "prod_a96a2252-8486-416e-8207-92e74f096aa9",
-        "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
-        "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
-        "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-      ],
-      "productType": "listing",
-      "productTypes": [
-        "inventory",
-        "prop",
-        "emoji",
-        "warpeffect",
-        "accessory",
-        "portalskin",
-        "sticker",
-        "loadingscreen"
-      ],
-      "products": [
-        "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d",
-        "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-        "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d",
-        "prod_40803185-ac3a-424f-a579-aa3dc37fa432",
-        "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6",
-        "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41",
-        "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7",
-        "prod_a96a2252-8486-416e-8207-92e74f096aa9",
-        "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2",
-        "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66",
-        "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-      ],
-      "quantifiable": false,
-      "recurrable": false,
-      "sellerDisplayName": "VRChat Store",
-      "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-      "soldByVrc": true,
-      "stackable": false,
-      "subtitle": "Bundle",
-      "vrcPlusDiscountPrice": 4320,
-      "whenToExpire": "2026-09-04T21:00:00.000Z"
-    },
-    "highlightListingId": "prod_b10fd6cf-b109-4f72-8456-2b81cfc71647",
     "id": "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
-    "listingIds": [
-      "prod_0d58046b-de95-4309-89f9-044a32df72d5",
-      "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
-      "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
-      "prod_1fd57fd1-a36d-4aba-8a03-f922a09d7200",
-      "prod_5c4df980-38e6-48b3-b4fc-d89bd25870a0",
-      "prod_038701e9-322f-4623-ba9f-bfd3774ee6b9",
-      "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
-      "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
-      "prod_fedc3478-c600-4340-a0cd-89377fed4573",
-      "prod_429eaa74-962a-4001-ba3d-020623c5fb51"
-    ],
-    "listings": [
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "On the seventh day of the seventh month of the Japanese lunisolar calendar, Orihime and Hikoboshi are allowed to meet – crossing the Milky Way to do so. Luckily, in VRChat, we don’t need a special bridge to cross immense distances… just a Portal.\n\nMaybe your Orihime is behind the next Portal?\n",
-        "displayName": "Hikoboshi’s Gate",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_0d58046b-de95-4309-89f9-044a32df72d5",
-        "imageId": "file_7f43969d-157d-470a-8582-119e67befdf7",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "portalskin"
-        ],
-        "products": [
-          "prod_b7bd3f3c-6820-4fbc-a81e-b17224c93ac7"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Portal",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Cross the Milky Way, with the help of a few magpies. As they guide you to your next instance, the constellations of Lyra, Cygnus, and Aquila appear around you. You must be going quite far…\n\nYou don’t even have to cry to get them to help you.\n",
-        "displayName": "A Magpie’s Gift",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_85f35ffb-96f8-4e77-84c9-5a4ae831647f",
-        "imageId": "file_f6ab2276-4c2e-4a4d-b947-9509d15e35f7",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_40803185-ac3a-424f-a579-aa3dc37fa432"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "warpeffect"
-        ],
-        "products": [
-          "prod_40803185-ac3a-424f-a579-aa3dc37fa432"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Warp Effect",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A celestial scene celebrating Tanabata, all on your Loading Screen, featuring a few very specific constellations separated by the Milky Way. Will they be able to cross it this year?\n\nWe hope it doesn’t rain…\n",
-        "displayName": "Across the Milky Way",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_7b7fa03f-f8c1-47e8-8b8e-fe8bc8afb57f",
-        "imageId": "file_12471895-4734-48e9-9d24-d95c2f3171de",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 600,
-        "productIds": [
-          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "loadingscreen"
-        ],
-        "products": [
-          "prod_983bc449-4439-4fe9-b510-d0d63bd76fc2"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Loading Screen",
-        "vrcPlusDiscountPrice": 540,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "It’s a fish-shaped cake, filled with ice cream! You can eat it. What flavor is the ice cream? It’s whatever you want it to be! By that, I mean you can change its color. Mmm, purple flavor. \n\nJust remember: if your ice cream is vanilla, you need to try harder.\n",
-        "displayName": "Taiyaki Ice Cream",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_1fd57fd1-a36d-4aba-8a03-f922a09d7200",
-        "imageId": "file_5b40e391-6758-4708-8bfa-4afb32bb4b83",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "prop"
-        ],
-        "products": [
-          "prod_9cb401f2-5034-4f2b-b277-2f1e39150b66"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Prop",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Fukinagashi are colorful windsocks that are crafted to represent the threads of yarn Orihime used in weaving her tapestries. Rumor has it that this one might’ve been crafted by someone special…\n\nIntricately constructed, flowing with the wind.\n",
-        "displayName": "Tanabata Fukinagashi",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_5c4df980-38e6-48b3-b4fc-d89bd25870a0",
-        "imageId": "file_48177c96-d1c7-45bd-a866-ae763db6ff02",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 700,
-        "productIds": [
-          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "prop"
-        ],
-        "products": [
-          "prod_d8a64186-d05a-4fc9-8c38-e5626ea9be3d"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Prop",
-        "vrcPlusDiscountPrice": 630,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A tall bunch of bamboo‚ strung up with tanzaku alongside a few other origami decorations․ Its bending from the weight of the wishesǃ \n\nHang your wish high the closer to the stars‚ the better․",
-        "displayName": "Wish-strung Bamboo",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_038701e9-322f-4623-ba9f-bfd3774ee6b9",
-        "imageId": "file_ed60b43b-631d-477c-883c-39fe8b590e72",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 800,
-        "productIds": [
-          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "prop"
-        ],
-        "products": [
-          "prod_d1b04d89-3199-43e2-8c6c-e6a5e1eeee41"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Prop",
-        "vrcPlusDiscountPrice": 720,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "A tiara made of stars – with Vega at the center. Throughout history, Vega has been one of the most cherished stars. I’m sure Hikoboshi feels the same way.\n\nSurely, you are someone’s Orihime.\n",
-        "displayName": "Vega’s Tiara",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_d7a0343f-d965-4d03-9dba-a7fb5603b67f",
-        "imageId": "file_4c3e4bce-b62b-4cf2-8517-a92b49918058",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 1000,
-        "productIds": [
-          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_519734ed-b18a-45f8-b504-7a1295945a65"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 900,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Celestial horns, in the shape of a steer. Celebrate Tanabata by making your avatar have a small homage to Hikoboshi.\n\nSurely, you are someone’s Hikoboshi.\n",
-        "displayName": "Altair’s Horns",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_2cb0da4a-3af6-4f66-9c45-8b4cd470d04f",
-        "imageId": "file_5863e2ff-07b3-4fda-86e3-e8a1d46df15f",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 850,
-        "productIds": [
-          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "accessory"
-        ],
-        "products": [
-          "prod_fbc298be-fbcd-4069-bfa3-f443a17faaf6"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Accessory",
-        "vrcPlusDiscountPrice": 765,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Contains two Premium Emoji: Magpie Bridge plus Vega and Altair. Maybe you can help them meet this year?\n\nYou can always try again next year…\n",
-        "displayName": "Tanabata Emoji Pack ",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_fedc3478-c600-4340-a0cd-89377fed4573",
-        "imageId": "file_29a3d0eb-5565-42bc-9119-c6dc19b52ad1",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 500,
-        "productIds": [
-          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "emoji"
-        ],
-        "products": [
-          "prod_114b0b2c-e1c9-4eb2-a910-a03a297a7382",
-          "prod_0c7c5c2f-ae8f-4861-b62c-2cf7550efc2d"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 450,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      },
-      {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "8JoV9XEdpo",
-        "description": "Tanzaku flutter on strands of bamboo what wishes do you think they hold?\n\nYou didnt forget to write yours down‚ did you?",
-        "displayName": "Fluttering Tanzaku",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_429eaa74-962a-4001-ba3d-020623c5fb51",
-        "imageId": "file_afa8c7ab-db8c-44ad-ba99-250516633a84",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 200,
-        "productIds": [
-          "prod_a96a2252-8486-416e-8207-92e74f096aa9"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "sticker"
-        ],
-        "products": [
-          "prod_a96a2252-8486-416e-8207-92e74f096aa9"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Sticker",
-        "vrcPlusDiscountPrice": 180,
-        "whenToExpire": "2026-09-04T21:00:00.000Z"
-      }
-    ],
+    "listingIds": [],
+    "listings": [],
     "shelfBackgroundImageId": "file_3560afbd-3a09-4587-8e93-e071ec9ab37a",
     "shelfClientBannerImageId": "",
     "shelfDescription": "",

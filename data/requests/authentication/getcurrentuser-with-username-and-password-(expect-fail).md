@@ -13,25 +13,27 @@ Schema is not an object at #/properties/undefined.
 
 
 ## Response
-`401 Unauthorized`
+`200 OK`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
-| content-length | `141` |
+| content-length | `40` |
 | content-type | `application/json; charset=utf-8` |
+| etag | `<redacted>` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
+| set-cookie | `<redacted>` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "error": {
-    "message": "\"It looks like you're logging in from somewhere new! Check your email for a message from VRChat.\"",
-    "status_code": 401
-  }
+  "requiresTwoFactorAuth": [
+    "totp",
+    "otp"
+  ]
 }
 ```
