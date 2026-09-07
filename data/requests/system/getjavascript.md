@@ -16,13 +16,12 @@ Unexpected token '/', "/*! For li"... is not valid JSON.
 
 | Header | Value |
 | ------ | ----- |
-| accept-ranges | `bytes` |
 | connection | `keep-alive` |
-| content-length | `3061724` |
 | content-type | `application/javascript` |
 | etag | `<redacted>` |
 | server | `CloudFront` |
-| vary | `Origin` |
+| transfer-encoding | `chunked` |
+| vary | `Accept-Encoding, Origin` |
 
 ```jsonc
 <unstable>

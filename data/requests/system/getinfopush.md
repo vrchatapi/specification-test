@@ -86,33 +86,6 @@ Schema is not an object at #/items/properties/undefined.
   },
   {
     "clientMinVersion": null,
-    "createdAt": "2026-08-27T13:04:25.745Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_e34589e8-0faa-4651-a234-0491cdd5d835.png",
-      "onPressed": {
-        "command": "OpenWorldsMenu",
-        "parameters": [
-          "ips_20759988-8dd4-40bf-8286-a6337c87682d"
-        ]
-      }
-    },
-    "endDate": "2026-09-06T14:59:00.000Z",
-    "hash": "ips_sanrio-vfes-2026-summer-c6661e58bb6c",
-    "id": "ips_sanrio-vfes-2026-summer-c6661e58bb6c",
-    "isEnabled": true,
-    "priority": 300,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2026-08-28T00:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-08-27T13:04:25.745Z"
-  },
-  {
-    "clientMinVersion": null,
     "createdAt": "2026-08-06T18:08:08.318Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_4fc84207-3f5d-465d-9e3d-f2b14f195c01.png",
