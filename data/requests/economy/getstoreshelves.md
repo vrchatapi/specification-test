@@ -174,11 +174,7 @@ Response schema mismatch:
 * Unexpected property at ``#/5/shelfClientBannerImageId``,
 * Unexpected property at ``#/5/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/5/shelfMobileLogoImageId``,
-* Unexpected property at ``#/5/shelfMobileSecondaryBannerImageId``,
-* Unexpected property at ``#/6/shelfClientBannerImageId``,
-* Unexpected property at ``#/6/shelfMobileHeroBannerImageId``,
-* Unexpected property at ``#/6/shelfMobileLogoImageId``,
-* Unexpected property at ``#/6/shelfMobileSecondaryBannerImageId``.
+* Unexpected property at ``#/5/shelfMobileSecondaryBannerImageId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store/shelves?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&fetch=all`
 
@@ -3912,22 +3908,6 @@ Response schema mismatch:
     "shelfTabBackgroundImageId": "file_62e931d6-1e51-4763-9b00-7d48084ce1c3",
     "shelfTitle": "Virtual Hiroshima Station 2.u",
     "updatedAt": "2026-08-25T00:18:40.832Z"
-  },
-  {
-    "id": "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
-    "listingIds": [],
-    "listings": [],
-    "shelfBackgroundImageId": "file_3560afbd-3a09-4587-8e93-e071ec9ab37a",
-    "shelfClientBannerImageId": "",
-    "shelfDescription": "",
-    "shelfIconImageId": "file_68c3a22b-47d4-41ba-b387-cdec6b2e0c94",
-    "shelfLayout": "highlightLeft",
-    "shelfMobileHeroBannerImageId": "",
-    "shelfMobileLogoImageId": "",
-    "shelfMobileSecondaryBannerImageId": "",
-    "shelfTabBackgroundImageId": "file_c80cd09f-41a3-438a-a68c-4b9eae427b0d",
-    "shelfTitle": "Celebrate Tanabata!",
-    "updatedAt": "2026-07-06T16:26:33.555Z"
   }
 ]
 ```

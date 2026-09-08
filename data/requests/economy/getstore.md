@@ -174,11 +174,7 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/5/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/5/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/5/shelfMobileLogoImageId``,
-* Unexpected property at ``#/shelves/5/shelfMobileSecondaryBannerImageId``,
-* Unexpected property at ``#/shelves/6/shelfClientBannerImageId``,
-* Unexpected property at ``#/shelves/6/shelfMobileHeroBannerImageId``,
-* Unexpected property at ``#/shelves/6/shelfMobileLogoImageId``,
-* Unexpected property at ``#/shelves/6/shelfMobileSecondaryBannerImageId``.
+* Unexpected property at ``#/shelves/5/shelfMobileSecondaryBannerImageId``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/economy/store?storeId=esto_00000000-0000-0000-0000-000000000000&hydrateListings=true&hydrateProducts=true`
 
@@ -217,8 +213,7 @@ Response schema mismatch:
     "ess_66c639e6-88da-4d5a-a4dd-95a1e2e947e6",
     "ess_798cfeeb-7625-408e-9a82-bad1ace374c1",
     "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
-    "ess_6c855b33-8269-4937-99b8-f51f493fd326",
-    "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc"
+    "ess_6c855b33-8269-4937-99b8-f51f493fd326"
   ],
   "shelves": [
     {
@@ -3927,22 +3922,6 @@ Response schema mismatch:
       "shelfTabBackgroundImageId": "file_62e931d6-1e51-4763-9b00-7d48084ce1c3",
       "shelfTitle": "Virtual Hiroshima Station 2.u",
       "updatedAt": "2026-08-25T00:18:40.832Z"
-    },
-    {
-      "id": "ess_b3e184af-6dbf-4df4-8031-2fcb47844edc",
-      "listingIds": [],
-      "listings": [],
-      "shelfBackgroundImageId": "file_3560afbd-3a09-4587-8e93-e071ec9ab37a",
-      "shelfClientBannerImageId": "",
-      "shelfDescription": "",
-      "shelfIconImageId": "file_68c3a22b-47d4-41ba-b387-cdec6b2e0c94",
-      "shelfLayout": "highlightLeft",
-      "shelfMobileHeroBannerImageId": "",
-      "shelfMobileLogoImageId": "",
-      "shelfMobileSecondaryBannerImageId": "",
-      "shelfTabBackgroundImageId": "file_c80cd09f-41a3-438a-a68c-4b9eae427b0d",
-      "shelfTitle": "Celebrate Tanabata!",
-      "updatedAt": "2026-07-06T16:26:33.555Z"
     }
   ],
   "storeId": "esto_00000000-0000-0000-0000-000000000000",
