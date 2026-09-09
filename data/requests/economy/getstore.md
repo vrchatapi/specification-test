@@ -103,74 +103,74 @@ Response schema mismatch:
 * Unexpected property at ``#/shelves/3/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/3/shelfMobileLogoImageId``,
 * Unexpected property at ``#/shelves/3/shelfMobileSecondaryBannerImageId``,
+* Missing property at ``#/shelves/4/highlightListing/refundable``,
+* Missing property at ``#/shelves/4/highlightListing/storeIds``,
 * Missing property at ``#/shelves/4listings/0/refundable``,
 * Missing property at ``#/shelves/4listings/0/storeIds``,
 * Missing property at ``#/shelves/4listings/1/refundable``,
 * Missing property at ``#/shelves/4listings/1/storeIds``,
 * Missing property at ``#/shelves/4listings/2/refundable``,
 * Missing property at ``#/shelves/4listings/2/storeIds``,
+* Unexpected property at ``#/shelves/4listings/2attribution/collaborationId``,
 * Missing property at ``#/shelves/4listings/3/refundable``,
 * Missing property at ``#/shelves/4listings/3/storeIds``,
+* Unexpected property at ``#/shelves/4listings/3attribution/collaborationId``,
 * Missing property at ``#/shelves/4listings/4/refundable``,
 * Missing property at ``#/shelves/4listings/4/storeIds``,
-* Missing property at ``#/shelves/4listings/5/refundable``,
-* Missing property at ``#/shelves/4listings/5/storeIds``,
-* Missing property at ``#/shelves/4listings/6/refundable``,
-* Missing property at ``#/shelves/4listings/6/storeIds``,
-* Missing property at ``#/shelves/4listings/7/refundable``,
-* Missing property at ``#/shelves/4listings/7/storeIds``,
-* Missing property at ``#/shelves/4listings/8/refundable``,
-* Missing property at ``#/shelves/4listings/8/storeIds``,
-* Missing property at ``#/shelves/4listings/9/refundable``,
-* Missing property at ``#/shelves/4listings/9/storeIds``,
-* Missing property at ``#/shelves/4listings/10/refundable``,
-* Missing property at ``#/shelves/4listings/10/storeIds``,
-* Missing property at ``#/shelves/4listings/11/refundable``,
-* Missing property at ``#/shelves/4listings/11/storeIds``,
-* Missing property at ``#/shelves/4listings/12/refundable``,
-* Missing property at ``#/shelves/4listings/12/storeIds``,
-* Missing property at ``#/shelves/4listings/13/refundable``,
-* Missing property at ``#/shelves/4listings/13/storeIds``,
-* Missing property at ``#/shelves/4listings/14/refundable``,
-* Missing property at ``#/shelves/4listings/14/storeIds``,
-* Missing property at ``#/shelves/4listings/15/refundable``,
-* Missing property at ``#/shelves/4listings/15/storeIds``,
-* Missing property at ``#/shelves/4listings/16/refundable``,
-* Missing property at ``#/shelves/4listings/16/storeIds``,
-* Missing property at ``#/shelves/4listings/17/refundable``,
-* Missing property at ``#/shelves/4listings/17/storeIds``,
-* Missing property at ``#/shelves/4listings/18/refundable``,
-* Missing property at ``#/shelves/4listings/18/storeIds``,
-* Missing property at ``#/shelves/4listings/19/refundable``,
-* Missing property at ``#/shelves/4listings/19/storeIds``,
-* Missing property at ``#/shelves/4listings/20/refundable``,
-* Missing property at ``#/shelves/4listings/20/storeIds``,
-* Missing property at ``#/shelves/4listings/21/refundable``,
-* Missing property at ``#/shelves/4listings/21/storeIds``,
-* Missing property at ``#/shelves/4listings/22/refundable``,
-* Missing property at ``#/shelves/4listings/22/storeIds``,
-* Missing property at ``#/shelves/4listings/23/refundable``,
-* Missing property at ``#/shelves/4listings/23/storeIds``,
-* Missing property at ``#/shelves/4listings/24/refundable``,
-* Missing property at ``#/shelves/4listings/24/storeIds``,
 * Unexpected property at ``#/shelves/4/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/4/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/4/shelfMobileLogoImageId``,
 * Unexpected property at ``#/shelves/4/shelfMobileSecondaryBannerImageId``,
-* Missing property at ``#/shelves/5/highlightListing/refundable``,
-* Missing property at ``#/shelves/5/highlightListing/storeIds``,
 * Missing property at ``#/shelves/5listings/0/refundable``,
 * Missing property at ``#/shelves/5listings/0/storeIds``,
 * Missing property at ``#/shelves/5listings/1/refundable``,
 * Missing property at ``#/shelves/5listings/1/storeIds``,
 * Missing property at ``#/shelves/5listings/2/refundable``,
 * Missing property at ``#/shelves/5listings/2/storeIds``,
-* Unexpected property at ``#/shelves/5listings/2attribution/collaborationId``,
 * Missing property at ``#/shelves/5listings/3/refundable``,
 * Missing property at ``#/shelves/5listings/3/storeIds``,
-* Unexpected property at ``#/shelves/5listings/3attribution/collaborationId``,
 * Missing property at ``#/shelves/5listings/4/refundable``,
 * Missing property at ``#/shelves/5listings/4/storeIds``,
+* Missing property at ``#/shelves/5listings/5/refundable``,
+* Missing property at ``#/shelves/5listings/5/storeIds``,
+* Missing property at ``#/shelves/5listings/6/refundable``,
+* Missing property at ``#/shelves/5listings/6/storeIds``,
+* Missing property at ``#/shelves/5listings/7/refundable``,
+* Missing property at ``#/shelves/5listings/7/storeIds``,
+* Missing property at ``#/shelves/5listings/8/refundable``,
+* Missing property at ``#/shelves/5listings/8/storeIds``,
+* Missing property at ``#/shelves/5listings/9/refundable``,
+* Missing property at ``#/shelves/5listings/9/storeIds``,
+* Missing property at ``#/shelves/5listings/10/refundable``,
+* Missing property at ``#/shelves/5listings/10/storeIds``,
+* Missing property at ``#/shelves/5listings/11/refundable``,
+* Missing property at ``#/shelves/5listings/11/storeIds``,
+* Missing property at ``#/shelves/5listings/12/refundable``,
+* Missing property at ``#/shelves/5listings/12/storeIds``,
+* Missing property at ``#/shelves/5listings/13/refundable``,
+* Missing property at ``#/shelves/5listings/13/storeIds``,
+* Missing property at ``#/shelves/5listings/14/refundable``,
+* Missing property at ``#/shelves/5listings/14/storeIds``,
+* Missing property at ``#/shelves/5listings/15/refundable``,
+* Missing property at ``#/shelves/5listings/15/storeIds``,
+* Missing property at ``#/shelves/5listings/16/refundable``,
+* Missing property at ``#/shelves/5listings/16/storeIds``,
+* Missing property at ``#/shelves/5listings/17/refundable``,
+* Missing property at ``#/shelves/5listings/17/storeIds``,
+* Missing property at ``#/shelves/5listings/18/refundable``,
+* Missing property at ``#/shelves/5listings/18/storeIds``,
+* Missing property at ``#/shelves/5listings/19/refundable``,
+* Missing property at ``#/shelves/5listings/19/storeIds``,
+* Missing property at ``#/shelves/5listings/20/refundable``,
+* Missing property at ``#/shelves/5listings/20/storeIds``,
+* Missing property at ``#/shelves/5listings/21/refundable``,
+* Missing property at ``#/shelves/5listings/21/storeIds``,
+* Missing property at ``#/shelves/5listings/22/refundable``,
+* Missing property at ``#/shelves/5listings/22/storeIds``,
+* Missing property at ``#/shelves/5listings/23/refundable``,
+* Missing property at ``#/shelves/5listings/23/storeIds``,
+* Missing property at ``#/shelves/5listings/24/refundable``,
+* Missing property at ``#/shelves/5listings/24/storeIds``,
 * Unexpected property at ``#/shelves/5/shelfClientBannerImageId``,
 * Unexpected property at ``#/shelves/5/shelfMobileHeroBannerImageId``,
 * Unexpected property at ``#/shelves/5/shelfMobileLogoImageId``,
@@ -212,8 +212,8 @@ Response schema mismatch:
     "ess_7e4ed8fc-1248-433a-baf8-70575cfcbc60",
     "ess_66c639e6-88da-4d5a-a4dd-95a1e2e947e6",
     "ess_798cfeeb-7625-408e-9a82-bad1ace374c1",
-    "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
-    "ess_6c855b33-8269-4937-99b8-f51f493fd326"
+    "ess_6c855b33-8269-4937-99b8-f51f493fd326",
+    "ess_f27165e9-a49d-4010-9f94-8cf89531c249"
   ],
   "shelves": [
     {
@@ -2382,6 +2382,336 @@ Response schema mismatch:
       "updatedAt": "2026-08-21T01:40:00.896Z"
     },
     {
+      "highlightListing": {
+        "active": true,
+        "attribution": {
+          "creator": {
+            "customName": "Gugenka",
+            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+          },
+          "publisher": {
+            "customName": "VRChat",
+            "userId": "8JoV9XEdpo"
+          }
+        },
+        "buyerRefundable": false,
+        "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+        "description": "The Virtual HIROSHIMA Station 2.u × Mamehinata Bundle unites JR-WEST railways with the beloved avatar Mamehinata. \n\nIt includes the JR-WEST Ticket Gate Portal, the 227 Series Train Plushie with glowing headlights, the Mamehinata x Kipfel Warp Effect, the 227 Series Train x Mamehinata Sticker Pack, and the JR-WEST Cap with Mamehinata Ears with swaying ears. \n\nBring JR-WEST style and Mamehinata charm to your avatars and worlds.",
+        "displayName": "Virtual HIROSHIMA Station 2.u × Mamehinata Bundle",
+        "duration": null,
+        "durationType": null,
+        "hasAvatar": false,
+        "hasCompanion": false,
+        "hasInventory": true,
+        "hasUdon": false,
+        "id": "prod_0641bb46-be2b-41a4-9f54-8b3e1e5415b1",
+        "imageId": "file_b02914c1-625e-4a8c-9229-3e492eb96c2c",
+        "imageUrl": null,
+        "listingType": "permanent",
+        "priceTokens": 3000,
+        "productIds": [
+          "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb",
+          "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70",
+          "prod_497f89ec-7334-4799-bc02-03256a34270c",
+          "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2",
+          "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0",
+          "prod_20ac6349-2944-43a5-a70e-92db1a448685"
+        ],
+        "productType": "listing",
+        "productTypes": [
+          "inventory",
+          "portalskin",
+          "accessory",
+          "sticker",
+          "warpeffect",
+          "prop"
+        ],
+        "products": [
+          "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb",
+          "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70",
+          "prod_497f89ec-7334-4799-bc02-03256a34270c",
+          "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2",
+          "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0",
+          "prod_20ac6349-2944-43a5-a70e-92db1a448685"
+        ],
+        "quantifiable": false,
+        "recurrable": false,
+        "sellerDisplayName": "VRChat Store",
+        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+        "soldByVrc": true,
+        "stackable": false,
+        "subtitle": "Bundle",
+        "vrcPlusDiscountPrice": 2700,
+        "whenToExpire": "2026-09-14T09:00:00.000Z"
+      },
+      "highlightListingId": "prod_0641bb46-be2b-41a4-9f54-8b3e1e5415b1",
+      "id": "ess_6c855b33-8269-4937-99b8-f51f493fd326",
+      "listingIds": [
+        "prod_723d9b76-f341-4521-8746-33f0e66236ef",
+        "prod_92f63f9c-d7df-4d76-9356-cbd43d10400f",
+        "prod_0077bc23-f880-4cb7-9e5f-88f99dbbfd2f",
+        "prod_50c37a52-3d4d-4e2d-a390-b33afe6392dc",
+        "prod_bcf5a73e-0fdb-47a1-a0bf-188765c719ab"
+      ],
+      "listings": [
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "A recreation of a JR-WEST Shinkansen ticket gate! Make traveling between worlds feel like a real journey.",
+          "displayName": "JR-WEST Ticket Gate",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_723d9b76-f341-4521-8746-33f0e66236ef",
+          "imageId": "file_1f43ac71-9aa7-4c55-b8fb-c43785ae6e53",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 1000,
+          "productIds": [
+            "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "portalskin"
+          ],
+          "products": [
+            "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Portal",
+          "vrcPlusDiscountPrice": 900,
+          "whenToExpire": "2026-09-14T09:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "Mamehinata’s ears sway as you move! A JR-WEST uniform cap is now available as an avatar accessory.",
+          "displayName": "JR-WEST Cap with Mamehinata Ears",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_92f63f9c-d7df-4d76-9356-cbd43d10400f",
+          "imageId": "file_090a035a-1978-4577-8f76-5c232099ab68",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 900,
+          "productIds": [
+            "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "accessory"
+          ],
+          "products": [
+            "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Accessory",
+          "vrcPlusDiscountPrice": 810,
+          "whenToExpire": "2026-09-14T09:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "collaborationId": "GugenkaVH",
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "GugenkaVH",
+          "description": "Mamehinata and Kipfel, dressed in JR-WEST uniforms, circle around you. Experience an adorable warp effect!",
+          "displayName": "Mamehinata x Kipfel",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_0077bc23-f880-4cb7-9e5f-88f99dbbfd2f",
+          "imageId": "file_eefac456-8bea-4657-a953-e3871a722448",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 900,
+          "productIds": [
+            "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "warpeffect"
+          ],
+          "products": [
+            "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Warp Effect",
+          "vrcPlusDiscountPrice": 810,
+          "whenToExpire": "2026-09-14T09:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "collaborationId": "GugenkaVH",
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "GugenkaVH",
+          "description": "A plushie of the 227 Series train whose headlights light up adorably when you grab it.",
+          "displayName": "227 Series Train Plushie",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_50c37a52-3d4d-4e2d-a390-b33afe6392dc",
+          "imageId": "file_3736c7a3-9b3c-4bd5-a881-db566017ceee",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 800,
+          "productIds": [
+            "prod_20ac6349-2944-43a5-a70e-92db1a448685"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "prop"
+          ],
+          "products": [
+            "prod_20ac6349-2944-43a5-a70e-92db1a448685"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Prop",
+          "vrcPlusDiscountPrice": 720,
+          "whenToExpire": "2026-09-14T09:00:00.000Z"
+        },
+        {
+          "active": true,
+          "attribution": {
+            "creator": {
+              "customName": "Gugenka",
+              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
+            },
+            "publisher": {
+              "customName": "VRChat",
+              "userId": "8JoV9XEdpo"
+            }
+          },
+          "buyerRefundable": false,
+          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
+          "description": "An adorable sticker pack featuring the 227 Series train and Mamehinata!",
+          "displayName": "227 Series Train x Mamehinata Sticker Pack",
+          "duration": null,
+          "durationType": null,
+          "hasAvatar": false,
+          "hasCompanion": false,
+          "hasInventory": true,
+          "hasUdon": false,
+          "id": "prod_bcf5a73e-0fdb-47a1-a0bf-188765c719ab",
+          "imageId": "file_2177586e-5516-4355-a933-c751c04ca42f",
+          "imageUrl": null,
+          "listingType": "permanent",
+          "priceTokens": 300,
+          "productIds": [
+            "prod_497f89ec-7334-4799-bc02-03256a34270c",
+            "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0"
+          ],
+          "productType": "listing",
+          "productTypes": [
+            "inventory",
+            "sticker"
+          ],
+          "products": [
+            "prod_497f89ec-7334-4799-bc02-03256a34270c",
+            "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0"
+          ],
+          "quantifiable": false,
+          "recurrable": false,
+          "sellerDisplayName": "VRChat Store",
+          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
+          "soldByVrc": true,
+          "stackable": false,
+          "subtitle": "Bundle",
+          "vrcPlusDiscountPrice": 270,
+          "whenToExpire": "2026-09-14T09:00:00.000Z"
+        }
+      ],
+      "shelfBackgroundImageId": "file_a6793b16-8060-4c65-8ec7-6cd3cb5b64e9",
+      "shelfClientBannerImageId": "",
+      "shelfDescription": "",
+      "shelfIconImageId": "file_39927e95-eb5f-4e98-8caa-dddfa33f25b5",
+      "shelfLayout": "highlightLeft",
+      "shelfMobileHeroBannerImageId": "",
+      "shelfMobileLogoImageId": "",
+      "shelfMobileSecondaryBannerImageId": "",
+      "shelfTabBackgroundImageId": "file_62e931d6-1e51-4763-9b00-7d48084ce1c3",
+      "shelfTitle": "Virtual Hiroshima Station 2.u",
+      "updatedAt": "2026-08-25T00:18:40.832Z"
+    },
+    {
       "id": "ess_f27165e9-a49d-4010-9f94-8cf89531c249",
       "listingIds": [
         "prod_791f9ea7-2905-4dab-8433-e9c56a605766",
@@ -3592,336 +3922,6 @@ Response schema mismatch:
       "shelfTabBackgroundImageId": "file_4082644d-fdc5-4146-b0e1-ac8731a7cdce",
       "shelfTitle": "New Accessories",
       "updatedAt": "2026-09-04T21:04:17.239Z"
-    },
-    {
-      "highlightListing": {
-        "active": true,
-        "attribution": {
-          "creator": {
-            "customName": "Gugenka",
-            "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-          },
-          "publisher": {
-            "customName": "VRChat",
-            "userId": "8JoV9XEdpo"
-          }
-        },
-        "buyerRefundable": false,
-        "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
-        "description": "The Virtual HIROSHIMA Station 2.u × Mamehinata Bundle unites JR-WEST railways with the beloved avatar Mamehinata. \n\nIt includes the JR-WEST Ticket Gate Portal, the 227 Series Train Plushie with glowing headlights, the Mamehinata x Kipfel Warp Effect, the 227 Series Train x Mamehinata Sticker Pack, and the JR-WEST Cap with Mamehinata Ears with swaying ears. \n\nBring JR-WEST style and Mamehinata charm to your avatars and worlds.",
-        "displayName": "Virtual HIROSHIMA Station 2.u × Mamehinata Bundle",
-        "duration": null,
-        "durationType": null,
-        "hasAvatar": false,
-        "hasCompanion": false,
-        "hasInventory": true,
-        "hasUdon": false,
-        "id": "prod_0641bb46-be2b-41a4-9f54-8b3e1e5415b1",
-        "imageId": "file_b02914c1-625e-4a8c-9229-3e492eb96c2c",
-        "imageUrl": null,
-        "listingType": "permanent",
-        "priceTokens": 3000,
-        "productIds": [
-          "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb",
-          "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70",
-          "prod_497f89ec-7334-4799-bc02-03256a34270c",
-          "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2",
-          "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0",
-          "prod_20ac6349-2944-43a5-a70e-92db1a448685"
-        ],
-        "productType": "listing",
-        "productTypes": [
-          "inventory",
-          "portalskin",
-          "accessory",
-          "sticker",
-          "warpeffect",
-          "prop"
-        ],
-        "products": [
-          "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb",
-          "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70",
-          "prod_497f89ec-7334-4799-bc02-03256a34270c",
-          "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2",
-          "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0",
-          "prod_20ac6349-2944-43a5-a70e-92db1a448685"
-        ],
-        "quantifiable": false,
-        "recurrable": false,
-        "sellerDisplayName": "VRChat Store",
-        "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-        "soldByVrc": true,
-        "stackable": false,
-        "subtitle": "Bundle",
-        "vrcPlusDiscountPrice": 2700,
-        "whenToExpire": "2026-09-14T09:00:00.000Z"
-      },
-      "highlightListingId": "prod_0641bb46-be2b-41a4-9f54-8b3e1e5415b1",
-      "id": "ess_6c855b33-8269-4937-99b8-f51f493fd326",
-      "listingIds": [
-        "prod_723d9b76-f341-4521-8746-33f0e66236ef",
-        "prod_92f63f9c-d7df-4d76-9356-cbd43d10400f",
-        "prod_0077bc23-f880-4cb7-9e5f-88f99dbbfd2f",
-        "prod_50c37a52-3d4d-4e2d-a390-b33afe6392dc",
-        "prod_bcf5a73e-0fdb-47a1-a0bf-188765c719ab"
-      ],
-      "listings": [
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "Gugenka",
-              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
-          "description": "A recreation of a JR-WEST Shinkansen ticket gate! Make traveling between worlds feel like a real journey.",
-          "displayName": "JR-WEST Ticket Gate",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_723d9b76-f341-4521-8746-33f0e66236ef",
-          "imageId": "file_1f43ac71-9aa7-4c55-b8fb-c43785ae6e53",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 1000,
-          "productIds": [
-            "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "portalskin"
-          ],
-          "products": [
-            "prod_d8ed8a42-5069-45a9-8f50-4a2181dce1fb"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "subtitle": "Portal",
-          "vrcPlusDiscountPrice": 900,
-          "whenToExpire": "2026-09-14T09:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "Gugenka",
-              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
-          "description": "Mamehinata’s ears sway as you move! A JR-WEST uniform cap is now available as an avatar accessory.",
-          "displayName": "JR-WEST Cap with Mamehinata Ears",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_92f63f9c-d7df-4d76-9356-cbd43d10400f",
-          "imageId": "file_090a035a-1978-4577-8f76-5c232099ab68",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 900,
-          "productIds": [
-            "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "accessory"
-          ],
-          "products": [
-            "prod_2338d3fc-bc4c-4b60-a025-3c3c82577b70"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "subtitle": "Accessory",
-          "vrcPlusDiscountPrice": 810,
-          "whenToExpire": "2026-09-14T09:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "collaborationId": "GugenkaVH",
-            "creator": {
-              "customName": "Gugenka",
-              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "GugenkaVH",
-          "description": "Mamehinata and Kipfel, dressed in JR-WEST uniforms, circle around you. Experience an adorable warp effect!",
-          "displayName": "Mamehinata x Kipfel",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_0077bc23-f880-4cb7-9e5f-88f99dbbfd2f",
-          "imageId": "file_eefac456-8bea-4657-a953-e3871a722448",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 900,
-          "productIds": [
-            "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "warpeffect"
-          ],
-          "products": [
-            "prod_bdab9470-e4ef-461d-9122-c2988d03dfe2"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "subtitle": "Warp Effect",
-          "vrcPlusDiscountPrice": 810,
-          "whenToExpire": "2026-09-14T09:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "collaborationId": "GugenkaVH",
-            "creator": {
-              "customName": "Gugenka",
-              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "GugenkaVH",
-          "description": "A plushie of the 227 Series train whose headlights light up adorably when you grab it.",
-          "displayName": "227 Series Train Plushie",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_50c37a52-3d4d-4e2d-a390-b33afe6392dc",
-          "imageId": "file_3736c7a3-9b3c-4bd5-a881-db566017ceee",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 800,
-          "productIds": [
-            "prod_20ac6349-2944-43a5-a70e-92db1a448685"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "prop"
-          ],
-          "products": [
-            "prod_20ac6349-2944-43a5-a70e-92db1a448685"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "subtitle": "Prop",
-          "vrcPlusDiscountPrice": 720,
-          "whenToExpire": "2026-09-14T09:00:00.000Z"
-        },
-        {
-          "active": true,
-          "attribution": {
-            "creator": {
-              "customName": "Gugenka",
-              "userId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62"
-            },
-            "publisher": {
-              "customName": "VRChat",
-              "userId": "8JoV9XEdpo"
-            }
-          },
-          "buyerRefundable": false,
-          "collabUserId": "usr_90f4067a-a70f-4099-9c7d-0d90ebd7fe62",
-          "description": "An adorable sticker pack featuring the 227 Series train and Mamehinata!",
-          "displayName": "227 Series Train x Mamehinata Sticker Pack",
-          "duration": null,
-          "durationType": null,
-          "hasAvatar": false,
-          "hasCompanion": false,
-          "hasInventory": true,
-          "hasUdon": false,
-          "id": "prod_bcf5a73e-0fdb-47a1-a0bf-188765c719ab",
-          "imageId": "file_2177586e-5516-4355-a933-c751c04ca42f",
-          "imageUrl": null,
-          "listingType": "permanent",
-          "priceTokens": 300,
-          "productIds": [
-            "prod_497f89ec-7334-4799-bc02-03256a34270c",
-            "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0"
-          ],
-          "productType": "listing",
-          "productTypes": [
-            "inventory",
-            "sticker"
-          ],
-          "products": [
-            "prod_497f89ec-7334-4799-bc02-03256a34270c",
-            "prod_36dc9534-3348-4dc2-bc05-0b7a5fe261c0"
-          ],
-          "quantifiable": false,
-          "recurrable": false,
-          "sellerDisplayName": "VRChat Store",
-          "sellerId": "usr_00000000-0000-0000-0000-000000000011",
-          "soldByVrc": true,
-          "stackable": false,
-          "subtitle": "Bundle",
-          "vrcPlusDiscountPrice": 270,
-          "whenToExpire": "2026-09-14T09:00:00.000Z"
-        }
-      ],
-      "shelfBackgroundImageId": "file_a6793b16-8060-4c65-8ec7-6cd3cb5b64e9",
-      "shelfClientBannerImageId": "",
-      "shelfDescription": "",
-      "shelfIconImageId": "file_39927e95-eb5f-4e98-8caa-dddfa33f25b5",
-      "shelfLayout": "highlightLeft",
-      "shelfMobileHeroBannerImageId": "",
-      "shelfMobileLogoImageId": "",
-      "shelfMobileSecondaryBannerImageId": "",
-      "shelfTabBackgroundImageId": "file_62e931d6-1e51-4763-9b00-7d48084ce1c3",
-      "shelfTitle": "Virtual Hiroshima Station 2.u",
-      "updatedAt": "2026-08-25T00:18:40.832Z"
     }
   ],
   "storeId": "esto_00000000-0000-0000-0000-000000000000",

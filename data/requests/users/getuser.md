@@ -29,7 +29,7 @@
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": true,
+  "allowAvatarCopying": false,
   "badges": [
     {
       "badgeDescription": "Joined VRChat 9 years ago",
