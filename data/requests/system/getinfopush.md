@@ -59,6 +59,33 @@ Schema is not an object at #/items/properties/undefined.
   },
   {
     "clientMinVersion": null,
+    "createdAt": "2026-09-08T21:59:00.973Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_7807b72d-7bf2-4f63-8c02-8a7370aaa740.png",
+      "onPressed": {
+        "command": "OpenHelpArticle",
+        "parameters": [
+          "ips_443a1771-9c66-4039-b422-0d097fa2d872"
+        ]
+      }
+    },
+    "endDate": null,
+    "hash": "ips_crisistextline26aa-9a8b-2c93cd8ea9e5",
+    "id": "ips_crisistextline26aa-9a8b-2c93cd8ea9e5",
+    "isEnabled": true,
+    "priority": 295,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-09-09T18:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-09-09T18:41:27.110Z"
+  },
+  {
+    "clientMinVersion": null,
     "createdAt": "2026-08-12T16:56:49.030Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_8a79b51d-d133-405f-a3d5-1bffa2bf0838.png",
