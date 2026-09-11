@@ -1,5 +1,8 @@
 # getWorld (VRChat Home)
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/isHypeTrainEligible``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
 
@@ -40,6 +43,7 @@
   "id": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
   "imageUrl": "<unstable: string>",
   "instances": "<unstable: array of objects>",
+  "isHypeTrainEligible": false,
   "labsPublicationDate": "none",
   "name": "VRChat Home",
   "occupants": "<unstable: number>",
@@ -54,34 +58,42 @@
   "slimInstances": [
     {
       "gameServerVersion": null,
-      "instanceId": "94997~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
-      "languageRatio": {},
-      "n_users": 7
-    },
-    {
-      "gameServerVersion": null,
       "instanceId": "75189~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
       "languageRatio": {},
       "n_users": 5
     },
     {
-      "instanceId": "5a1d654bb1~region(us)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 3
+      "gameServerVersion": null,
+      "instanceId": "32932~group(grp_6f88b0fb-0235-4c5e-9f79-c7af99e80b74)~groupAccessType(public)~region(us)",
+      "languageRatio": {},
+      "n_users": 1
     },
     {
-      "gameServerVersion": null,
-      "instanceId": "63468~region(eu)",
-      "languageRatio": {},
+      "instanceId": "02f17c9a3c~region(us)",
+      "languageRatio": {
+        "de": 0.14,
+        "en": 0.71,
+        "es": 0.14
+      },
       "n_users": 7
     },
     {
       "gameServerVersion": null,
-      "instanceId": "86d6cf2148~region(us)",
+      "instanceId": "9c6747d842~region(us)",
       "languageRatio": {},
-      "n_users": 3
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "e67b5d0383~region(us)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "5096936dd6~region(us)",
+      "languageRatio": {},
+      "n_users": 2
     }
   ],
   "tags": [

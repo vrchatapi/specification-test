@@ -152,6 +152,7 @@ Schema is not an object at #/properties/undefined.
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "e397386fbf9e",
     "5f53d4e663a3",
     "8c1892134e70",
     "72f18e65daf2",
@@ -160,8 +161,7 @@ Schema is not an object at #/properties/undefined.
     "0d1ebb7cbc49",
     "91d46a1054b2",
     "d231e95a600b",
-    "241b45f20d8d",
-    "7b6e9b0ab0f5"
+    "241b45f20d8d"
   ],
   "steamDetails": {},
   "steamId": "",

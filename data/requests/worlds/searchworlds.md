@@ -1,5 +1,17 @@
 # searchWorlds
 
+## Issues
+Response schema mismatch:
+* Unexpected property at ``#/0/isHypeTrainEligible``,
+* Unexpected property at ``#/1/isHypeTrainEligible``,
+* Unexpected property at ``#/2/isHypeTrainEligible``,
+* Unexpected property at ``#/3/isHypeTrainEligible``,
+* Unexpected property at ``#/4/isHypeTrainEligible``,
+* Unexpected property at ``#/5/isHypeTrainEligible``,
+* Unexpected property at ``#/6/isHypeTrainEligible``,
+* Unexpected property at ``#/7/isHypeTrainEligible``,
+* Unexpected property at ``#/8/isHypeTrainEligible``,
+* Unexpected property at ``#/9/isHypeTrainEligible``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds`
 

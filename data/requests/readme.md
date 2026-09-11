@@ -76,25 +76,43 @@ Schema is not an object at #/properties/undefined.
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
-
-#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
-
-
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-
-#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
-
-
-#### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
-
+Response schema mismatch:
+* Unexpected property at ``#/isHypeTrainEligible``.
 
 #### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/0/isHypeTrainEligible``.
 
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
+#### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/isHypeTrainEligible``,
+* Unexpected property at ``#/1/isHypeTrainEligible``,
+* Unexpected property at ``#/2/isHypeTrainEligible``,
+
+*7 issues truncated.*
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/0/isHypeTrainEligible``,
+* Unexpected property at ``#/1/isHypeTrainEligible``,
+* Unexpected property at ``#/2/isHypeTrainEligible``,
+
+*7 issues truncated.*
+#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/world/isHypeTrainEligible``.
+
+#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/isHypeTrainEligible``.
+
+#### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
 
 
 #### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
@@ -107,16 +125,22 @@ Schema is not an object at #/properties/undefined.
 
 ## [Instances](/data/requests/instances)
 
-#### [getInstance](/data/requests/instances/getinstance.md)
+#### [createInstance](/data/requests/instances/createinstance.md)
 
-
-#### [getShortName](/data/requests/instances/getshortname.md)
-
+Response schema mismatch:
+* Unexpected property at ``#/world/isHypeTrainEligible``.
 
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
+Response schema mismatch:
+* Unexpected property at ``#/world/isHypeTrainEligible``.
 
-#### [createInstance](/data/requests/instances/createinstance.md)
+#### [getInstance](/data/requests/instances/getinstance.md)
+
+Response schema mismatch:
+* Unexpected property at ``#/world/isHypeTrainEligible``.
+
+#### [getShortName](/data/requests/instances/getshortname.md)
 
 
 
