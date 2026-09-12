@@ -29,7 +29,7 @@
 {
   "ageVerificationStatus": "18+",
   "ageVerified": true,
-  "allowAvatarCopying": false,
+  "allowAvatarCopying": true,
   "badges": [
     {
       "badgeDescription": "Joined VRChat 9 years ago",
@@ -81,7 +81,7 @@
   "isFriend": false,
   "last_activity": "",
   "last_login": "",
-  "last_platform": "standalonewindows",
+  "last_platform": "android",
   "location": "offline",
   "nameplateEffect": "invt_1234263b-b2c6-42ed-8820-7709f5760a4c",
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",

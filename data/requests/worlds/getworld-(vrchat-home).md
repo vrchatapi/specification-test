@@ -57,41 +57,45 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "gameServerVersion": null,
-      "instanceId": "75189~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
-      "languageRatio": {},
-      "n_users": 5
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "32932~group(grp_6f88b0fb-0235-4c5e-9f79-c7af99e80b74)~groupAccessType(public)~region(us)",
-      "languageRatio": {},
+      "instanceId": "86615~region(us)",
+      "languageRatio": {
+        "en": 1
+      },
       "n_users": 1
     },
     {
-      "instanceId": "02f17c9a3c~region(us)",
-      "languageRatio": {
-        "de": 0.14,
-        "en": 0.71,
-        "es": 0.14
-      },
-      "n_users": 7
+      "gameServerVersion": null,
+      "instanceId": "affbd89eb8~region(us)",
+      "languageRatio": {},
+      "n_users": 6
     },
     {
       "gameServerVersion": null,
-      "instanceId": "9c6747d842~region(us)",
+      "instanceId": "2108~region(us)",
+      "languageRatio": {},
+      "n_users": 6
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "54420~region(jp)",
       "languageRatio": {},
       "n_users": 5
     },
     {
       "gameServerVersion": null,
-      "instanceId": "e67b5d0383~region(us)",
+      "instanceId": "51b7045e52~region(us)",
+      "languageRatio": {},
+      "n_users": 3
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "6ca86300a7~region(us)",
       "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "5096936dd6~region(us)",
+      "instanceId": "0~region(eu)",
       "languageRatio": {},
       "n_users": 2
     }
@@ -115,8 +119,7 @@ Response schema mismatch:
     "admin_AllowInternal_OpenMenu",
     "admin_ios_category",
     "admin_AllowInternal_Experiments",
-    "admin_tanabata2026",
-    "system_updated_recently"
+    "admin_tanabata2026"
   ],
   "thumbnailImageUrl": "<unstable: string>",
   "udonProducts": "<unstable: empty array>",
