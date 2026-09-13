@@ -4,7 +4,7 @@
 Response schema mismatch:
 * Unexpected property at ``#/world/isHypeTrainEligible``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/77545~group(grp_9d939795-6d98-459a-b5d0-d9e5f384d521)~groupAccessType(public)~ageGate~region(us)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/62371~group(grp_cb2bf2ca-6d42-4c1c-bd91-75e90e3beb45)~groupAccessType(public)~ageGate~region(use)`
 
 | Header | Value |
 | ------ | ----- |

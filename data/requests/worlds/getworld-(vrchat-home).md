@@ -57,47 +57,59 @@ Response schema mismatch:
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "instanceId": "86615~region(us)",
+      "gameServerVersion": null,
+      "instanceId": "96793~group(grp_1d7987a2-2cb5-4ed4-80a7-f7313921d21f)~groupAccessType(public)~region(use)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "75490~group(grp_ca82b27c-4f16-4664-a07c-2e476a8339ce)~groupAccessType(public)~region(use)",
+      "languageRatio": {},
+      "n_users": 1
+    },
+    {
+      "instanceId": "28e59b76ab~region(us)",
       "languageRatio": {
-        "en": 1
+        "ja": 1
       },
       "n_users": 1
     },
     {
       "gameServerVersion": null,
-      "instanceId": "affbd89eb8~region(us)",
-      "languageRatio": {},
-      "n_users": 6
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "2108~region(us)",
-      "languageRatio": {},
-      "n_users": 6
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "54420~region(jp)",
-      "languageRatio": {},
-      "n_users": 5
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "51b7045e52~region(us)",
+      "instanceId": "617a5368a9~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "6ca86300a7~region(us)",
+      "instanceId": "e0df509b61~region(us)",
       "languageRatio": {},
       "n_users": 2
     },
     {
       "gameServerVersion": null,
-      "instanceId": "0~region(eu)",
+      "instanceId": "76effca47d~region(us)",
       "languageRatio": {},
       "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "3dbf4a0348~region(us)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "e5716803ab~region(us)",
+      "languageRatio": {},
+      "n_users": 1
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "36ae5166d3~region(us)",
+      "languageRatio": {},
+      "n_users": 1
     }
   ],
   "tags": [
