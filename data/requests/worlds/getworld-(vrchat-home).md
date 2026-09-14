@@ -58,56 +58,51 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": null,
-      "instanceId": "96793~group(grp_1d7987a2-2cb5-4ed4-80a7-f7313921d21f)~groupAccessType(public)~region(use)",
+      "instanceId": "94997~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
       "languageRatio": {},
-      "n_users": 2
+      "n_users": 7
     },
     {
       "gameServerVersion": null,
-      "instanceId": "75490~group(grp_ca82b27c-4f16-4664-a07c-2e476a8339ce)~groupAccessType(public)~region(use)",
+      "instanceId": "75189~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
       "languageRatio": {},
       "n_users": 1
     },
     {
-      "instanceId": "28e59b76ab~region(us)",
+      "instanceId": "76465~region(us)",
       "languageRatio": {
-        "ja": 1
+        "en": 0.75,
+        "zh-CN": 0.25
       },
-      "n_users": 1
+      "n_users": 5
     },
     {
       "gameServerVersion": null,
-      "instanceId": "617a5368a9~region(us)",
+      "instanceId": "50aeec9804~region(us)",
+      "languageRatio": {},
+      "n_users": 6
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "9e94130f61~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "e0df509b61~region(us)",
+      "instanceId": "91071~region(us)",
       "languageRatio": {},
-      "n_users": 2
+      "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "76effca47d~region(us)",
-      "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "3dbf4a0348~region(us)",
-      "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "e5716803ab~region(us)",
+      "instanceId": "68ecd3dad7~region(us)",
       "languageRatio": {},
       "n_users": 1
     },
     {
       "gameServerVersion": null,
-      "instanceId": "36ae5166d3~region(us)",
+      "instanceId": "271a95b3f0~region(us)",
       "languageRatio": {},
       "n_users": 1
     }
