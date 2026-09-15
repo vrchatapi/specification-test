@@ -4,7 +4,7 @@
 Response schema mismatch:
 * Unexpected property at ``#/world/isHypeTrainEligible``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/xyhvkr8j`
+`GET https://api.vrchat.cloud/api/1/instances/s/3mhjt25w`
 
 | Header | Value |
 | ------ | ----- |

@@ -252,7 +252,7 @@ Response schema mismatch:
 * Missing property at ``#/0/highlightListing/storeIds``,
 * Missing property at ``#/0listings/0/refundable``,
 
-*176 issues truncated.*
+*162 issues truncated.*
 #### [getStore](/data/requests/economy/getstore.md)
 
 Response schema mismatch:
@@ -260,7 +260,7 @@ Response schema mismatch:
 * Missing property at ``#/shelves/0/highlightListing/storeIds``,
 * Missing property at ``#/shelves/0listings/0/refundable``,
 
-*176 issues truncated.*
+*162 issues truncated.*
 #### [getBalanceEarnings](/data/requests/economy/getbalanceearnings.md)
 
 Response schema mismatch:

@@ -59,6 +59,33 @@ Schema is not an object at #/items/properties/undefined.
   },
   {
     "clientMinVersion": null,
+    "createdAt": "2026-09-11T16:14:07.505Z",
+    "data": {
+      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_d0f80c15-313d-4a56-9d7a-614e97eb9c0f.png",
+      "onPressed": {
+        "command": "OpenWorldsMenu",
+        "parameters": [
+          "ips_85af86e2-1228-425c-82d9-07f283a94f0f"
+        ]
+      }
+    },
+    "endDate": "2026-09-28T18:00:00.000Z",
+    "hash": "ips_flight-week-20264f-8b95-3df331fe5f1a",
+    "id": "ips_flight-week-20264f-8b95-3df331fe5f1a",
+    "isEnabled": true,
+    "priority": 292,
+    "regions": [],
+    "releaseStatus": "public",
+    "requireClientTags": [],
+    "startDate": "2026-09-14T18:00:00.000Z",
+    "tags": [
+      "quick-menu-banner",
+      "user-all"
+    ],
+    "updatedAt": "2026-09-14T14:20:37.590Z"
+  },
+  {
+    "clientMinVersion": null,
     "createdAt": "2026-09-08T21:59:00.973Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_7807b72d-7bf2-4f63-8c02-8a7370aaa740.png",
@@ -191,33 +218,6 @@ Schema is not an object at #/items/properties/undefined.
       "user-all"
     ],
     "updatedAt": "2026-08-28T21:51:05.356Z"
-  },
-  {
-    "clientMinVersion": null,
-    "createdAt": "2026-08-07T15:22:13.490Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_772600c2-f23c-4b86-80d5-64a17d092061.png",
-      "onPressed": {
-        "command": "OpenListingDetails",
-        "parameters": [
-          "prod_0641bb46-be2b-41a4-9f54-8b3e1e5415b1"
-        ]
-      }
-    },
-    "endDate": "2026-09-14T09:00:00.000Z",
-    "hash": "ips_virtual-hiroshima-en-26-6beee26c973e",
-    "id": "ips_virtual-hiroshima-en-26-6beee26c973e",
-    "isEnabled": true,
-    "priority": 340,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2026-08-14T09:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-08-07T15:22:13.490Z"
   },
   {
     "clientMinVersion": null,
