@@ -31,7 +31,6 @@ Schema is not an object at #/properties/undefined.
 ```jsonc
 {
   "allowGroupJoinPrompt": true,
-  "badges": [],
   "bannerId": null,
   "bannerUrl": "https://assets.vrchat.com/www/groups/default_banner.png",
   "createdAt": "<unstable: string>",

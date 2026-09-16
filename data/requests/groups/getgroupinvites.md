@@ -2,8 +2,11 @@
 
 ## Issues
 Response schema mismatch:
-* Unexpected property at ``#/0user/currentAvatarImageUrl``,
-* Unexpected property at ``#/0user/userIcon``.
+* Unexpected property at ``#/0user/bannerColor``,
+* Unexpected property at ``#/0user/bannerType``,
+* Unexpected property at ``#/0user/iconFrame``,
+* Unexpected property at ``#/0user/nameplateEffect``,
+* Unexpected property at ``#/0user/profileEffect``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/groups/<unstable>/invites`
 
@@ -49,14 +52,14 @@ Response schema mismatch:
     "membershipStatus": "invited",
     "roleIds": [],
     "user": {
-      "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-      "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
+      "bannerColor": "2ca7c9",
+      "bannerType": "color",
       "displayName": "b9ce75b4dc299",
-      "iconUrl": "",
+      "iconFrame": "",
+      "iconUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
       "id": "usr_9e10ea3e-8115-4b51-9076-b1792215d57e",
-      "profilePicOverride": "",
-      "thumbnailUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
-      "userIcon": ""
+      "nameplateEffect": "",
+      "profileEffect": ""
     },
     "userId": "usr_9e10ea3e-8115-4b51-9076-b1792215d57e",
     "visibility": "visible"

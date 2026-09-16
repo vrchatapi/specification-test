@@ -43,42 +43,8 @@ Schema is not an object at #/properties/undefined.
   "allowAvatarCopying": true,
   "appleDetails": {},
   "appleId": "",
-  "badges": [
-    {
-      "assignedAt": "2024-07-21T22:28:04.790Z",
-      "badgeDescription": "Supports VRChat through VRC+",
-      "badgeId": "bdg_754f9935-0f97-49d8-b857-95afb9b673fa",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/fa/bdgai_583f6b13-91ab-4e1b-974e-ab91600b06cb.png",
-      "badgeName": "Supporter",
-      "hidden": false,
-      "showcased": true,
-      "updatedAt": "2024-07-21T22:28:04.790Z"
-    },
-    {
-      "assignedAt": "2026-04-11T01:52:12.320Z",
-      "badgeDescription": "Joined VRChat 3 years ago",
-      "badgeId": "bdg_b4251f62-86c9-4af7-a188-ad5f478402e8",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/e8/bdgai_6749e6cd-9cfa-41fb-8e8a-8f5691256a46.png",
-      "badgeName": "3 Years",
-      "hidden": false,
-      "showcased": true,
-      "updatedAt": "2026-04-11T01:52:12.320Z"
-    },
-    {
-      "assignedAt": "2026-07-29T02:05:41.885Z",
-      "badgeDescription": "Awarded for subscribing to VRC+ (2 Years)",
-      "badgeId": "bdg_ee0fd1cf-77a2-439b-b116-0d9891cbfac6",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/c6/bdgai_c0fa1e18-8a60-4789-9d26-e1e4eb1fdaef.png",
-      "badgeName": "VRC+ Subscriber (2 Years)",
-      "hidden": false,
-      "showcased": true,
-      "updatedAt": "2026-07-29T02:05:41.885Z"
-    }
-  ],
   "bannerColor": "c9c92c",
   "bannerType": "color",
-  "bio": "",
-  "bioLinks": [],
   "completedTutorials": [
     "standalonewindows:steam:v1",
     "platform-agnostic:custom:onboarding-tutorial-world:v1"
@@ -143,8 +109,6 @@ Schema is not an object at #/properties/undefined.
     "world": "offline"
   },
   "profileEffect": "",
-  "profilePicOverride": "",
-  "profilePicOverrideThumbnail": "",
   "pronouns": "",
   "pronounsHistory": [
     "they/them"
@@ -155,6 +119,7 @@ Schema is not an object at #/properties/undefined.
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "a09ce945164f",
     "c6095d590f3a",
     "89801f8b5bed",
     "150a073c6089",
@@ -163,8 +128,7 @@ Schema is not an object at #/properties/undefined.
     "5f53d4e663a3",
     "8c1892134e70",
     "72f18e65daf2",
-    "a31acbedbd7a",
-    "5ea894eebb2c"
+    "a31acbedbd7a"
   ],
   "steamDetails": {},
   "steamId": "",
@@ -185,7 +149,6 @@ Schema is not an object at #/properties/undefined.
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
   "unsubscribe": true,
   "updated_at": "<unstable: string>",
-  "userIcon": "",
   "userLanguage": null,
   "userLanguageCode": "en",
   "username": "8cf3def6b8cea",

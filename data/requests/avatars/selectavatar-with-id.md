@@ -40,8 +40,6 @@ Schema is not an object at #/properties/undefined.
   "appleId": "",
   "bannerColor": "c9c92c",
   "bannerType": "color",
-  "bio": "",
-  "bioLinks": [],
   "completedTutorials": [
     "standalonewindows:steam:v1",
     "platform-agnostic:custom:onboarding-tutorial-world:v1"
@@ -91,8 +89,6 @@ Schema is not an object at #/properties/undefined.
   "picoId": "",
   "platform_history": "<unstable: empty array>",
   "profileEffect": "",
-  "profilePicOverride": "",
-  "profilePicOverrideThumbnail": "",
   "pronouns": "",
   "pronounsHistory": [
     "they/them"
@@ -103,6 +99,7 @@ Schema is not an object at #/properties/undefined.
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "a09ce945164f",
     "c6095d590f3a",
     "89801f8b5bed",
     "150a073c6089",
@@ -111,8 +108,7 @@ Schema is not an object at #/properties/undefined.
     "5f53d4e663a3",
     "8c1892134e70",
     "72f18e65daf2",
-    "a31acbedbd7a",
-    "5ea894eebb2c"
+    "a31acbedbd7a"
   ],
   "steamDetails": {},
   "steamId": "",
@@ -133,7 +129,6 @@ Schema is not an object at #/properties/undefined.
   "twoFactorAuthEnabledDate": "2023-04-11T22:29:32.524Z",
   "unsubscribe": true,
   "updated_at": "<unstable: string>",
-  "userIcon": "",
   "userLanguage": null,
   "userLanguageCode": "en",
   "username": "8cf3def6b8cea",

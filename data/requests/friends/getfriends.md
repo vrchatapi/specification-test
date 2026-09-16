@@ -1,5 +1,8 @@
 # getFriends
 
+## Issues
+Response schema mismatch:
+* Missing property at ``#/0/imageUrl``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user/friends?offline=true`
 
@@ -30,11 +33,6 @@
   {
     "bannerColor": "3cc92c",
     "bannerType": "color",
-    "bio": "",
-    "bioLinks": [],
-    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-    "currentAvatarTags": [],
-    "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "developerType": "none",
     "discordId": "",
     "displayName": "VRChatWiki",
@@ -42,22 +40,18 @@
     "iconFrame": "",
     "iconUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "id": "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a",
-    "imageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "isFriend": true,
-    "last_activity": "2026-09-14T21:16:22.718Z",
-    "last_login": "2026-09-14T21:16:22.718Z",
+    "last_activity": "2026-09-16T00:56:54.802Z",
+    "last_login": "2026-09-16T00:56:54.802Z",
     "last_mobile": null,
     "last_platform": "standalonewindows",
     "location": "offline",
     "nameplateEffect": "",
     "platform": "",
     "profileEffect": "",
-    "profilePicOverride": "",
-    "profilePicOverrideThumbnail": "",
     "status": "offline",
     "statusDescription": "",
-    "tags": [],
-    "userIcon": ""
+    "tags": []
   }
 ]
 ```

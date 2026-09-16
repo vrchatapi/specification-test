@@ -58,28 +58,48 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": null,
-      "instanceId": "94851~group(grp_7cf594ce-97a0-4d24-97f5-9600784349dc)~groupAccessType(public)~region(eu)",
+      "instanceId": "97993~group(grp_0a17232e-6ad4-4889-8e1e-6e0c5fa815fd)~groupAccessType(public)~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "18701~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
+      "instanceId": "94851~group(grp_7cf594ce-97a0-4d24-97f5-9600784349dc)~groupAccessType(public)~region(eu)",
       "languageRatio": {},
-      "n_users": 3
+      "n_users": 2
     },
     {
-      "instanceId": "37b0201b2f~region(us)",
+      "gameServerVersion": null,
+      "instanceId": "75189~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "instanceId": "b60740357a~region(us)",
       "languageRatio": {
-        "en": 1
+        "en": 0.5,
+        "pl": 0.25,
+        "zh-CN": 0.25
       },
       "n_users": 4
     },
     {
       "gameServerVersion": null,
-      "instanceId": "d4683991bb~region(us)",
+      "instanceId": "d4e95c3e3a~region(us)",
       "languageRatio": {},
-      "n_users": 4
+      "n_users": 3
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "60467~region(us)",
+      "languageRatio": {},
+      "n_users": 1
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "600c4613ce~region(us)",
+      "languageRatio": {},
+      "n_users": 1
     }
   ],
   "tags": [

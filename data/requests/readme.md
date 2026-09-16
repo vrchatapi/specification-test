@@ -48,6 +48,22 @@ Schema is not an object at #/properties/undefined.
 
 ## [Users](/data/requests/users)
 
+#### [getUser](/data/requests/users/getuser.md)
+
+Response schema mismatch:
+* Missing property at ``#/bio``,
+* Missing property at ``#/bioLinks``,
+* Missing property at ``#/currentAvatarImageUrl``,
+
+*5 issues truncated.*
+#### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
+
+Response schema mismatch:
+* Missing property at ``#/0/currentAvatarImageUrl``,
+* Missing property at ``#/0/currentAvatarTags``,
+* Missing property at ``#/0/currentAvatarThumbnailImageUrl``,
+
+*12 issues truncated.*
 #### [updateUserNote](/data/requests/users/updateusernote.md)
 
 
@@ -58,12 +74,6 @@ Schema is not an object at #/properties/undefined.
 
 
 #### [searchUsers](/data/requests/users/searchusers.md)
-
-
-#### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
-
-
-#### [getUser](/data/requests/users/getuser.md)
 
 
 #### [getUserFeedback](/data/requests/users/getuserfeedback.md)
@@ -400,6 +410,8 @@ Schema is not an object at #/items/properties/subscription/properties/undefined.
 
 #### [getFriends](/data/requests/friends/getfriends.md)
 
+Response schema mismatch:
+* Missing property at ``#/0/imageUrl``.
 
 #### [getFriendStatus prior to friend request](/data/requests/friends/getfriendstatus-prior-to-friend-request.md)
 
@@ -423,9 +435,11 @@ Schema is not an object at #/items/properties/subscription/properties/undefined.
 #### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 Response schema mismatch:
-* Unexpected property at ``#/0user/currentAvatarImageUrl``,
-* Unexpected property at ``#/0user/userIcon``.
+* Unexpected property at ``#/0user/bannerColor``,
+* Unexpected property at ``#/0user/bannerType``,
+* Unexpected property at ``#/0user/iconFrame``,
 
+*2 issues truncated.*
 #### [updateGroup](/data/requests/groups/updategroup.md)
 
 Response schema mismatch:

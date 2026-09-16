@@ -1,5 +1,15 @@
 # getUser
 
+## Issues
+Response schema mismatch:
+* Missing property at ``#/bio``,
+* Missing property at ``#/bioLinks``,
+* Missing property at ``#/currentAvatarImageUrl``,
+* Missing property at ``#/currentAvatarTags``,
+* Missing property at ``#/currentAvatarThumbnailImageUrl``,
+* Missing property at ``#/profilePicOverride``,
+* Missing property at ``#/profilePicOverrideThumbnail``,
+* Missing property at ``#/userIcon``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 
@@ -30,44 +40,8 @@
   "ageVerificationStatus": "18+",
   "ageVerified": true,
   "allowAvatarCopying": false,
-  "badges": [
-    {
-      "badgeDescription": "Joined VRChat 9 years ago",
-      "badgeId": "bdg_013b8f53-724a-43f1-92d1-76d05f8350a7",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/a7/bdgai_a2b3925d-53ec-4eed-bce2-c03760c038a0.png",
-      "badgeName": "9 Years",
-      "showcased": true
-    },
-    {
-      "badgeDescription": "Awarded to those who donated to the VRChat 2026 Pride Month Charity Event",
-      "badgeId": "bdg_4dfa4d6b-a164-4f20-ab60-e7ee4d4d43dd",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/dd/bdgai_85661807-9f97-4703-a735-fc5a1ccc1518.png",
-      "badgeName": "Pride Supporter 2026",
-      "isQuantifiable": false,
-      "showcased": true
-    },
-    {
-      "badgeDescription": "Awarded for subscribing to VRC+ (5 Years)",
-      "badgeId": "bdg_8b44605b-d7dd-4254-8d22-ba2f84ed104e",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/4e/bdgai_4d00e67a-eb62-40df-8f34-9f580ae8725b.png",
-      "badgeName": "VRC+ Subscriber (5 Years)",
-      "showcased": false
-    },
-    {
-      "badgeDescription": "Awarded to those who donated to the VRChat 2025 Pride Month Charity Event",
-      "badgeId": "bdg_b8bef28d-277c-4d37-8168-f879362ba9cc",
-      "badgeImageUrl": "https://assets.vrchat.com/badges/cc/bdgai_1ccb7ae1-d09e-4a3f-8cc4-e08c0cd48cd1.png",
-      "badgeName": "Pride Supporter",
-      "showcased": false
-    }
-  ],
   "bannerType": "customImage",
   "bannerUrl": "https://api.vrchat.cloud/api/1/file/file_5c2c2065-bd85-412b-9cfe-f39ea522f846/1",
-  "bio": "above all else‚ be kind․",
-  "bioLinks": [],
-  "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/file/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/file",
-  "currentAvatarTags": [],
-  "currentAvatarThumbnailImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
   "date_joined": "2017-07-12",
   "developerType": "none",
   "displayName": "tupper",
@@ -87,8 +61,6 @@
   "note": "system_haha_we_actually_ended_up_documenting_this_one_too",
   "platform": "offline",
   "profileEffect": "invt_5b3dcc96-cad2-4cf4-a2ab-ac3a7ff02547",
-  "profilePicOverride": "https://api.vrchat.cloud/api/1/file/file_4fcf103d-a268-4cd9-8f81-a5894c0a590f/1",
-  "profilePicOverrideThumbnail": "https://api.vrchat.cloud/api/1/image/file_4fcf103d-a268-4cd9-8f81-a5894c0a590f/1/512",
   "pronouns": "he/him",
   "state": "offline",
   "status": "ask me",
@@ -110,7 +82,6 @@
     "system_cute_robot",
     "system_supporter"
   ],
-  "userIcon": "https://api.vrchat.cloud/api/1/file/file_b7566f5c-6e96-4394-a588-5199420e25e5/1/",
   "worldId": "offline"
 }
 ```
