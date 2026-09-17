@@ -1,10 +1,7 @@
 # getInstanceByShortName secure name is a valid short name
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/world/isHypeTrainEligible``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/instances/s/g39xav48`
+`GET https://api.vrchat.cloud/api/1/instances/s/82nm9fk2`
 
 | Header | Value |
 | ------ | ----- |

@@ -1,9 +1,5 @@
 # getProductListing
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/refundable``,
-* Missing property at ``#/storeIds``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/listing/prod_c9d1cf9b-e3be-4bed-8386-49f0a8d32910`
 

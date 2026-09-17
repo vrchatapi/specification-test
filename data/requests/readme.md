@@ -48,22 +48,6 @@ Schema is not an object at #/properties/undefined.
 
 ## [Users](/data/requests/users)
 
-#### [getUser](/data/requests/users/getuser.md)
-
-Response schema mismatch:
-* Missing property at ``#/bio``,
-* Missing property at ``#/bioLinks``,
-* Missing property at ``#/currentAvatarImageUrl``,
-
-*5 issues truncated.*
-#### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
-
-Response schema mismatch:
-* Missing property at ``#/0/currentAvatarImageUrl``,
-* Missing property at ``#/0/currentAvatarTags``,
-* Missing property at ``#/0/currentAvatarThumbnailImageUrl``,
-
-*12 issues truncated.*
 #### [updateUserNote](/data/requests/users/updateusernote.md)
 
 
@@ -76,6 +60,12 @@ Response schema mismatch:
 #### [searchUsers](/data/requests/users/searchusers.md)
 
 
+#### [searchUsers with limit](/data/requests/users/searchusers-with-limit.md)
+
+
+#### [getUser](/data/requests/users/getuser.md)
+
+
 #### [getUserFeedback](/data/requests/users/getuserfeedback.md)
 
 
@@ -86,43 +76,25 @@ Response schema mismatch:
 
 ## [Worlds](/data/requests/worlds)
 
-#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
+#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/isHypeTrainEligible``.
 
-#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
+#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/isHypeTrainEligible``.
+
+#### [searchWorlds](/data/requests/worlds/searchworlds.md)
+
 
 #### [getActiveWorlds](/data/requests/worlds/getactiveworlds.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/isHypeTrainEligible``,
-* Unexpected property at ``#/1/isHypeTrainEligible``,
-* Unexpected property at ``#/2/isHypeTrainEligible``,
-
-*7 issues truncated.*
-#### [searchWorlds](/data/requests/worlds/searchworlds.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0/isHypeTrainEligible``,
-* Unexpected property at ``#/1/isHypeTrainEligible``,
-* Unexpected property at ``#/2/isHypeTrainEligible``,
-
-*7 issues truncated.*
-#### [getWorldInstance first listed instance](/data/requests/worlds/getworldinstance-first-listed-instance.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/world/isHypeTrainEligible``.
-
-#### [getWorld by id](/data/requests/worlds/getworld-by-id.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/isHypeTrainEligible``.
 
 #### [getRecentWorlds](/data/requests/worlds/getrecentworlds.md)
+
+
+#### [getFavoritedWorlds](/data/requests/worlds/getfavoritedworlds.md)
+
+
+#### [getWorld (VRChat Home)](/data/requests/worlds/getworld-(vrchat-home).md)
 
 
 #### [getWorldMetadata by id](/data/requests/worlds/getworldmetadata-by-id.md)
@@ -135,22 +107,16 @@ Response schema mismatch:
 
 ## [Instances](/data/requests/instances)
 
-#### [createInstance](/data/requests/instances/createinstance.md)
+#### [getInstance](/data/requests/instances/getinstance.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/world/isHypeTrainEligible``.
+
+#### [getShortName](/data/requests/instances/getshortname.md)
+
 
 #### [getInstanceByShortName secure name is a valid short name](/data/requests/instances/getinstancebyshortname-secure-name-is-a-valid-short-name.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/world/isHypeTrainEligible``.
 
-#### [getInstance](/data/requests/instances/getinstance.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/world/isHypeTrainEligible``.
-
-#### [getShortName](/data/requests/instances/getshortname.md)
+#### [createInstance](/data/requests/instances/createinstance.md)
 
 
 
@@ -255,53 +221,10 @@ Response schema mismatch:
 
 ## [Economy](/data/requests/economy)
 
-#### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
-
-Response schema mismatch:
-* Missing property at ``#/0/highlightListing/refundable``,
-* Missing property at ``#/0/highlightListing/storeIds``,
-* Missing property at ``#/0listings/0/refundable``,
-
-*162 issues truncated.*
-#### [getStore](/data/requests/economy/getstore.md)
-
-Response schema mismatch:
-* Missing property at ``#/shelves/0/highlightListing/refundable``,
-* Missing property at ``#/shelves/0/highlightListing/storeIds``,
-* Missing property at ``#/shelves/0listings/0/refundable``,
-
-*162 issues truncated.*
-#### [getBalanceEarnings](/data/requests/economy/getbalanceearnings.md)
-
-Response schema mismatch:
-* Missing property at ``#/balance``,
-* Unexpected property at ``#/error``,
-* Unexpected property at ``#/status_code``.
-
-#### [getTiliaTos](/data/requests/economy/gettiliatos.md)
-
-Response schema mismatch:
-* Missing property at ``#/signed_tos``,
-* Unexpected property at ``#/error``,
-* Unexpected property at ``#/status_code``.
-
-#### [getTiliaStatus](/data/requests/economy/gettiliastatus.md)
-
-Response schema mismatch:
-* Missing property at ``#/economyOnline``,
-* Unexpected property at ``#/error``,
-* Unexpected property at ``#/status_code``.
-
 #### [getProductListings](/data/requests/economy/getproductlistings.md)
 
 Response schema mismatch:
 * Invalid type at ``#``.
-
-#### [getProductListing](/data/requests/economy/getproductlisting.md)
-
-Response schema mismatch:
-* Missing property at ``#/refundable``,
-* Missing property at ``#/storeIds``.
 
 #### [getSubscriptions](/data/requests/economy/getsubscriptions.md)
 
@@ -327,6 +250,9 @@ Schema is not an object at #/items/properties/subscription/properties/undefined.
 #### [getLicenseGroup](/data/requests/economy/getlicensegroup.md)
 
 
+#### [getProductListing](/data/requests/economy/getproductlisting.md)
+
+
 #### [getTokenBundles](/data/requests/economy/gettokenbundles.md)
 
 
@@ -337,6 +263,12 @@ Schema is not an object at #/items/properties/subscription/properties/undefined.
 
 
 #### [getActiveLicenses](/data/requests/economy/getactivelicenses.md)
+
+
+#### [getStore](/data/requests/economy/getstore.md)
+
+
+#### [getStoreShelves](/data/requests/economy/getstoreshelves.md)
 
 
 
@@ -411,7 +343,7 @@ Schema is not an object at #/items/properties/subscription/properties/undefined.
 #### [getFriends](/data/requests/friends/getfriends.md)
 
 Response schema mismatch:
-* Missing property at ``#/0/imageUrl``.
+* Unexpected property at ``#/0/currentAvatarImageUrl``.
 
 #### [getFriendStatus prior to friend request](/data/requests/friends/getfriendstatus-prior-to-friend-request.md)
 
@@ -432,14 +364,6 @@ Response schema mismatch:
 
 ## [Groups](/data/requests/groups)
 
-#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
-
-Response schema mismatch:
-* Unexpected property at ``#/0user/bannerColor``,
-* Unexpected property at ``#/0user/bannerType``,
-* Unexpected property at ``#/0user/iconFrame``,
-
-*2 issues truncated.*
 #### [updateGroup](/data/requests/groups/updategroup.md)
 
 Response schema mismatch:
@@ -459,6 +383,9 @@ Schema is not an object at #/properties/undefined.
 
 
 #### [createGroupInvite](/data/requests/groups/creategroupinvite.md)
+
+
+#### [getGroupInvites](/data/requests/groups/getgroupinvites.md)
 
 
 #### [updateGroupRepresentation](/data/requests/groups/updategrouprepresentation.md)
@@ -585,8 +512,6 @@ Schema is not an object at #/items/properties/undefined.
 
 #### [getConfig](/data/requests/system/getconfig.md)
 
-Response schema mismatch:
-* Missing property at ``#/economyLedgerBackfill``.
 
 #### [getInfoPush with zero parameters](/data/requests/system/getinfopush-with-zero-parameters.md)
 

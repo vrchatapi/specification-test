@@ -1,15 +1,5 @@
 # getUser
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/bio``,
-* Missing property at ``#/bioLinks``,
-* Missing property at ``#/currentAvatarImageUrl``,
-* Missing property at ``#/currentAvatarTags``,
-* Missing property at ``#/currentAvatarThumbnailImageUrl``,
-* Missing property at ``#/profilePicOverride``,
-* Missing property at ``#/profilePicOverrideThumbnail``,
-* Missing property at ``#/userIcon``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/users/usr_c1644b5b-3ca4-45b4-97c6-a2a0de70d469`
 

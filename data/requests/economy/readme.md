@@ -44,8 +44,8 @@ Gets a single product purchase
 Gets stacks for a product purchase
 
 > Missing coverage.
-## Get Seller Eligibility
-Return the current user's eligibility to become a seller.
+## Get Economy Status
+Get whether the economy is accepting requests.
 
 > Missing coverage.
 ## Get Store
@@ -80,6 +80,10 @@ Gets a product listing
 Updates the active state of a listing. Setting `active` to `true` publishes the listing, while `false` unpublishes it.
 
 > Missing coverage.
+## Get Product Listing Products
+List the products a listing sells.
+
+> Missing coverage.
 ## Create Product
 Creates a product and returns the new Product object.
 
@@ -100,10 +104,6 @@ Updates a product and returns the updated Product object.
 List all existing Subscriptions. For example, "vrchatplus-monthly" and "vrchatplus-yearly".
 
 * [getSubscriptions](./getsubscriptions.md)
-## Get Tilia Status
-Return the Tilia integration status.
-
-* [getTiliaStatus](./gettiliastatus.md)
 ## List Token Bundles
 Gets the list of token bundles
 
@@ -120,14 +120,14 @@ Get the most recent user subscription.
 Return the balance of a user.
 
 * [getBalance](./getbalance.md)
-## Get Balance Earnings
-Return the user's balance from earnings.
-
-* [getBalanceEarnings](./getbalanceearnings.md)
 ## Get Economy Account
 Gets the economy account of a user
 
 * [getEconomyAccount](./geteconomyaccount.md)
+## Get Economy Balance
+Return the balance of a user's economy account.
+
+> Missing coverage.
 ## Get Economy Balances
 Gets the combined balances for a user.
 
@@ -154,18 +154,6 @@ Gets the products of a given user.
 > Missing coverage.
 ## Get User Tilia KYC
 Gets KYC status details for a user's Tilia account.
-
-> Missing coverage.
-## Get Tilia TOS Agreement Status
-Return the user's Tilia TOS agreement status.
-
-* [getTiliaTos](./gettiliatos.md)
-## Update Tilia TOS Agreement Status
-Update the user's Tilia TOS agreement status.
-
-> Missing coverage.
-## Get User Credits Eligibility
-Return the user's subscription credit eligibility.
 
 > Missing coverage.
 ## Get User Subscription Eligibility

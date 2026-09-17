@@ -21,27 +21,25 @@
 
 
 ## Response
-`200 OK`
+`400 Bad Request`
 
 | Header | Value |
 | ------ | ----- |
 | access-control-allow-credentials | `true` |
 | cache-control | `private, no-cache` |
 | connection | `keep-alive` |
+| content-length | `80` |
 | content-type | `application/json; charset=utf-8` |
 | pragma | `no-cache` |
 | server | `cloudflare` |
-| transfer-encoding | `chunked` |
 | vary | `Authorization, Accept-Encoding` |
 | x-frame-options | `deny` |
 
 ```jsonc
 {
-  "favoriteId": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-  "id": "<unstable>",
-  "tags": [
-    "avatars2"
-  ],
-  "type": "avatar"
+  "error": {
+    "message": "You already have that avatar favorited",
+    "status_code": 400
+  }
 }
 ```

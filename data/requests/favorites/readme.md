@@ -33,6 +33,14 @@ Friend groups are named `group_0` through `group_3`. Avatar and World groups are
 You cannot add people whom you are not friends with to your friends list. Destroying a friendship removes the person as favorite on both sides.
 
 * [addFavorite](./addfavorite.md)
+## List Favorite Groups By Type
+List a user's favorite groups of one type.
+
+> Missing coverage.
+## List Favorite Group Contents
+List the favorites in a group, each alongside the object it points at.
+
+> Missing coverage.
 ## Remove Favorite
 Remove a favorite from your favorites list.
 

@@ -2,7 +2,7 @@
 
 ## Issues
 Response schema mismatch:
-* Missing property at ``#/0/imageUrl``.
+* Unexpected property at ``#/0/currentAvatarImageUrl``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/auth/user/friends?offline=true`
 
@@ -33,6 +33,7 @@ Response schema mismatch:
   {
     "bannerColor": "3cc92c",
     "bannerType": "color",
+    "currentAvatarImageUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "developerType": "none",
     "discordId": "",
     "displayName": "VRChatWiki",
@@ -41,8 +42,8 @@ Response schema mismatch:
     "iconUrl": "https://api.vrchat.cloud/api/1/image/file_0e8c4e32-7444-44ea-ade4-313c010d4bae/1/256",
     "id": "usr_b52ef6f9-b8fd-44b6-923e-bebe184eef7a",
     "isFriend": true,
-    "last_activity": "2026-09-16T00:56:54.802Z",
-    "last_login": "2026-09-16T00:56:54.802Z",
+    "last_activity": "2026-09-17T01:00:11.693Z",
+    "last_login": "2026-09-17T01:00:11.693Z",
     "last_mobile": null,
     "last_platform": "standalonewindows",
     "location": "offline",

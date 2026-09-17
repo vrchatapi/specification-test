@@ -1,8 +1,5 @@
 # getWorld (VRChat Home)
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/isHypeTrainEligible``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/worlds/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd`
 
@@ -58,15 +55,9 @@ Response schema mismatch:
   "slimInstances": [
     {
       "gameServerVersion": null,
-      "instanceId": "97993~group(grp_0a17232e-6ad4-4889-8e1e-6e0c5fa815fd)~groupAccessType(public)~region(us)",
+      "instanceId": "18701~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
       "languageRatio": {},
       "n_users": 3
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "94851~group(grp_7cf594ce-97a0-4d24-97f5-9600784349dc)~groupAccessType(public)~region(eu)",
-      "languageRatio": {},
-      "n_users": 2
     },
     {
       "gameServerVersion": null,
@@ -75,29 +66,27 @@ Response schema mismatch:
       "n_users": 2
     },
     {
-      "instanceId": "b60740357a~region(us)",
+      "instanceId": "12313~region(usw)",
       "languageRatio": {
-        "en": 0.5,
-        "pl": 0.25,
-        "zh-CN": 0.25
+        "en": 1
       },
-      "n_users": 4
+      "n_users": 1
     },
     {
       "gameServerVersion": null,
-      "instanceId": "d4e95c3e3a~region(us)",
+      "instanceId": "16754~region(us)",
+      "languageRatio": {},
+      "n_users": 6
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "cd2cdba06a~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "60467~region(us)",
-      "languageRatio": {},
-      "n_users": 1
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "600c4613ce~region(us)",
+      "instanceId": "beb73ed4e5~region(us)",
       "languageRatio": {},
       "n_users": 1
     }

@@ -1,10 +1,7 @@
 # getWorldInstance first listed instance
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/world/isHypeTrainEligible``.
 ## Request
-`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/32315~group(grp_ad768e04-067d-4286-b5fb-3d4655635f50)~groupAccessType(public)~ageGate~region(us)`
+`GET https://api.vrchat.cloud/api/1/worlds/wrld_4cf554b4-430c-4f8f-b53e-1f294eed230b/86344~group(grp_5f7fe209-c45c-4ae7-8457-bfbc6ae193bd)~groupAccessType(public)~ageGate~region(us)`
 
 | Header | Value |
 | ------ | ----- |

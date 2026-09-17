@@ -1,8 +1,5 @@
 # getConfig
 
-## Issues
-Response schema mismatch:
-* Missing property at ``#/economyLedgerBackfill``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/config`
 

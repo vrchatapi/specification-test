@@ -1,7 +1,15 @@
 # Users
 
+## Get Age Verification Status
+Get the currently authenticated user's age verification status.
+
+> Missing coverage.
 ## Get Public Profile
 Get a user's public profile information.
+
+> Missing coverage.
+## Update Profile
+Update a user's profile. `pronouns`, `status` and `statusDescription` are written through `updateUser` instead.
 
 > Missing coverage.
 ## Get Private Profile
@@ -44,6 +52,14 @@ Adds tags to the user's profile
 > Missing coverage.
 ## Update User Badge
 Updates a user's badge
+
+> Missing coverage.
+## Get User Client Config
+Get the client settings VRChat stores against a user.
+
+> Missing coverage.
+## Update User Client Config
+Update the client settings VRChat stores against a user.
 
 > Missing coverage.
 ## Get User Feedback

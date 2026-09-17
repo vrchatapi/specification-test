@@ -1,12 +1,5 @@
 # getGroupInvites
 
-## Issues
-Response schema mismatch:
-* Unexpected property at ``#/0user/bannerColor``,
-* Unexpected property at ``#/0user/bannerType``,
-* Unexpected property at ``#/0user/iconFrame``,
-* Unexpected property at ``#/0user/nameplateEffect``,
-* Unexpected property at ``#/0user/profileEffect``.
 ## Request
 `GET https://api.vrchat.cloud/api/1/groups/<unstable>/invites`
 

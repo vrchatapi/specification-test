@@ -1,5 +1,9 @@
 # Inventory
 
+## List Cosmetics
+List every cosmetic of a kind that VRChat has published, whether or not the caller owns it.
+
+> Missing coverage.
 ## Get Inventory
 Returns an Inventory object.
 
@@ -54,6 +58,10 @@ Returns the modified InventoryItem object as held by the currently logged in use
 > Missing coverage.
 ## Redeem Reward
 Redeem a reward for the currently logged in user.
+
+> Missing coverage.
+## List User Cosmetics
+List the cosmetics a user holds.
 
 > Missing coverage.
 ## Get User Inventory Item
