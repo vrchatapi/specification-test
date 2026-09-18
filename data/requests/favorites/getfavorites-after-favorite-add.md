@@ -29,7 +29,7 @@
 [
   {
     "favoriteId": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
-    "id": "fvrt_1d4b8ab5-c32c-4bfc-a314-d1e1831da59c",
+    "id": "<unstable>",
     "tags": [
       "avatars2"
     ],

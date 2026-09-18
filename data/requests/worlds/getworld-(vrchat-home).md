@@ -55,38 +55,47 @@
   "slimInstances": [
     {
       "gameServerVersion": null,
-      "instanceId": "18701~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
-      "languageRatio": {},
-      "n_users": 3
-    },
-    {
-      "gameServerVersion": null,
       "instanceId": "75189~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
       "languageRatio": {},
-      "n_users": 2
-    },
-    {
-      "instanceId": "12313~region(usw)",
-      "languageRatio": {
-        "en": 1
-      },
-      "n_users": 1
+      "n_users": 7
     },
     {
       "gameServerVersion": null,
-      "instanceId": "16754~region(us)",
+      "instanceId": "18701~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
+      "languageRatio": {},
+      "n_users": 5
+    },
+    {
+      "instanceId": "1545e1a5b2~region(us)",
+      "languageRatio": {
+        "en": 0.4,
+        "es": 0.2,
+        "ja": 0.2,
+        "zh-CN": 0.2
+      },
+      "n_users": 6
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "8c5e676e7a~region(us)",
       "languageRatio": {},
       "n_users": 6
     },
     {
       "gameServerVersion": null,
-      "instanceId": "cd2cdba06a~region(us)",
+      "instanceId": "689d0a8097~region(us)",
+      "languageRatio": {},
+      "n_users": 5
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "aa8eb38efb~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "beb73ed4e5~region(us)",
+      "instanceId": "6ce1081a2e~region(us)",
       "languageRatio": {},
       "n_users": 1
     }
@@ -116,7 +125,7 @@
   "udonProducts": "<unstable: empty array>",
   "unityPackages": [
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/43/variant/security?v=1787794470",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/43/variant/security?v=1789619426",
       "assetUrlObject": {},
       "assetVersion": 3,
       "created_at": "2019-05-15T18:51:39.085Z",
@@ -257,7 +266,7 @@
       "worldSignature": "AJ8Msl4AnH+dYBPsYj5/v5u/Otko/VRr4oCiL03JOK19LaPKvA=="
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/1/variant/security?v=1787794471",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_12e23773-363d-4cfa-a4e7-3cce1272dd40/1/variant/security?v=1789619431",
       "assetVersion": 4,
       "created_at": "2023-05-03T23:31:59.219Z",
       "id": "unp_db73ea21-ad4d-46d4-8421-def8d52deee1",
@@ -310,7 +319,7 @@
       "worldSignature": "AC0hwf+pldxAFd88m374FYsW6LIwCejPLctd6SHliK/dtlNlVA=="
     },
     {
-      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/44/variant/security?v=1787794471",
+      "assetUrl": "https://api.vrchat.cloud/api/1/file/file_3caaf07f-363e-4b84-89d1-ee827f12afb5/44/variant/security?v=1789619430",
       "assetUrlObject": {},
       "assetVersion": 3,
       "created_at": "2019-05-15T19:01:02.030Z",
