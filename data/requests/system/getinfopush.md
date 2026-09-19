@@ -167,60 +167,6 @@ Schema is not an object at #/items/properties/undefined.
   },
   {
     "clientMinVersion": null,
-    "createdAt": "2026-09-01T20:30:00.725Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_85cd42c6-0378-4619-aa38-72cd4bf45b52.jpg",
-      "onPressed": {
-        "command": "scrollToShelf",
-        "parameters": [
-          "ess_f27165e9-a49d-4010-9f94-8cf89531c249"
-        ]
-      }
-    },
-    "endDate": "2026-09-18T21:00:00.000Z",
-    "hash": "ips_carryitaccessory26-ad46-a1bd8774eace",
-    "id": "ips_carryitaccessory26-ad46-a1bd8774eace",
-    "isEnabled": true,
-    "priority": 317,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2026-09-04T21:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-09-01T20:30:00.725Z"
-  },
-  {
-    "clientMinVersion": null,
-    "createdAt": "2026-08-27T18:42:32.413Z",
-    "data": {
-      "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_1c58c76b-6ffa-4564-8c2a-0b34b0f934e1.jpg",
-      "onPressed": {
-        "command": "scrollToShelf",
-        "parameters": [
-          "ess_f27165e9-a49d-4010-9f94-8cf89531c249"
-        ]
-      }
-    },
-    "endDate": "2026-09-18T21:00:00.000Z",
-    "hash": "ips_e88d3769-3972-4ed9-bb5e-ac62c6016ced",
-    "id": "ips_e88d3769-3972-4ed9-bb5e-ac62c6016ced",
-    "isEnabled": true,
-    "priority": 320,
-    "regions": [],
-    "releaseStatus": "public",
-    "requireClientTags": [],
-    "startDate": "2026-08-28T21:00:00.000Z",
-    "tags": [
-      "quick-menu-banner",
-      "user-all"
-    ],
-    "updatedAt": "2026-08-28T21:51:05.356Z"
-  },
-  {
-    "clientMinVersion": null,
     "createdAt": "2025-10-29T17:23:05.366Z",
     "data": {
       "imageUrl": "https://assets.vrchat.com/ips/assets/ipsai_8f84edb1-f6f2-4dd0-a59d-5ff0ce0d41d8.jpg",

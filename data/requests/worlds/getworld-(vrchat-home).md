@@ -54,48 +54,23 @@
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "gameServerVersion": null,
-      "instanceId": "75189~group(grp_2fe5bb2e-66f0-4bb5-8f48-e99fc67d1c68)~groupAccessType(public)~region(us)",
-      "languageRatio": {},
-      "n_users": 7
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "18701~group(grp_f300cc08-10e6-4e2a-970a-22d6c78b5353)~groupAccessType(public)~region(eu)",
-      "languageRatio": {},
-      "n_users": 5
-    },
-    {
-      "instanceId": "1545e1a5b2~region(us)",
+      "instanceId": "37671~region(eu)",
       "languageRatio": {
-        "en": 0.4,
+        "en": 0.6,
         "es": 0.2,
-        "ja": 0.2,
-        "zh-CN": 0.2
+        "ru": 0.2
       },
-      "n_users": 6
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "8c5e676e7a~region(us)",
-      "languageRatio": {},
-      "n_users": 6
-    },
-    {
-      "gameServerVersion": null,
-      "instanceId": "689d0a8097~region(us)",
-      "languageRatio": {},
       "n_users": 5
     },
     {
       "gameServerVersion": null,
-      "instanceId": "aa8eb38efb~region(us)",
+      "instanceId": "d15dc04f16~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "6ce1081a2e~region(us)",
+      "instanceId": "871b7a217d~region(us)",
       "languageRatio": {},
       "n_users": 1
     }

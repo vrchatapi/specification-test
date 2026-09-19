@@ -99,6 +99,8 @@ Schema is not an object at #/properties/undefined.
   "statusDescription": "",
   "statusFirstTime": false,
   "statusHistory": [
+    "be664ba30bcf",
+    "59186cf57ce1",
     "93646d95f273",
     "9efde6f301ba",
     "646f24f4da80",
@@ -106,9 +108,7 @@ Schema is not an object at #/properties/undefined.
     "adfd5302c909",
     "7a68be9b362f",
     "48649c21f28d",
-    "69bf93f51553",
-    "79594157933e",
-    "d782d5a15571"
+    "69bf93f51553"
   ],
   "steamDetails": {},
   "steamId": "",
