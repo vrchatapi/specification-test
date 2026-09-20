@@ -54,23 +54,41 @@
   "releaseStatus": "public",
   "slimInstances": [
     {
-      "instanceId": "37671~region(eu)",
+      "gameServerVersion": null,
+      "instanceId": "75265~group(grp_002c00ea-0e17-4f29-b3ae-945ce13c35d3)~groupAccessType(public)~region(us)",
+      "languageRatio": {},
+      "n_users": 7
+    },
+    {
+      "instanceId": "7ef2e9beb9~region(us)",
       "languageRatio": {
-        "en": 0.6,
-        "es": 0.2,
-        "ru": 0.2
+        "en": 0.5,
+        "fr": 0.25,
+        "zh-CN": 0.25
       },
-      "n_users": 5
+      "n_users": 4
     },
     {
       "gameServerVersion": null,
-      "instanceId": "d15dc04f16~region(us)",
+      "instanceId": "ad2f71f5a2~region(us)",
+      "languageRatio": {},
+      "n_users": 6
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "b4e893b49e~region(us)",
       "languageRatio": {},
       "n_users": 3
     },
     {
       "gameServerVersion": null,
-      "instanceId": "871b7a217d~region(us)",
+      "instanceId": "01158d3fa9~region(us)",
+      "languageRatio": {},
+      "n_users": 2
+    },
+    {
+      "gameServerVersion": null,
+      "instanceId": "8b71c2e797~region(us)",
       "languageRatio": {},
       "n_users": 1
     }
