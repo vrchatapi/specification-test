@@ -342,8 +342,6 @@ Schema is not an object at #/items/properties/subscription/properties/undefined.
 
 #### [getFriends](/data/requests/friends/getfriends.md)
 
-Response schema mismatch:
-* Unexpected property at ``#/0/currentAvatarImageUrl``.
 
 #### [getFriendStatus prior to friend request](/data/requests/friends/getfriendstatus-prior-to-friend-request.md)
 
